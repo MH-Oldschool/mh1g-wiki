@@ -2,6 +2,7 @@ html, body {
 	width: 100%;
 }
 body {
+	color: #333;
 	font: 1rem "Nanum Gothic Coding", courier, monospace;
 	margin: 0;
 }
@@ -66,6 +67,11 @@ tr td:nth-child(7) {
 td, td * {
 	vertical-align: middle;
 }
+
+.rare-4 { background: #a0ffa0 }
+.rare-5 { background: #ffb0b0 }
+.rare-6 { background: #c0d0ff }
+.rare-7 { background: #ffd080 }
 
 .branch {
 	display: none;
