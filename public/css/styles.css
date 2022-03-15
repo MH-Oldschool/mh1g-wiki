@@ -55,8 +55,11 @@ tbody tr {
 tr td:nth-child(2) {
 	text-align: center;
 }
-/* Damage and Price */
+/* Number Cells */
+tr td:nth-child(2),
 tr td:nth-child(3),
+tr td:nth-child(4),
+tr td:nth-child(5),
 tr td:nth-child(7) {
 	text-align: right;
 }
@@ -104,7 +107,7 @@ header p {
 }
 
 .border-bottom {
-	border-bottom-color: unset;
+	border-bottom-color: #999;
 	border-bottom-width: 2px;
 }
 .no-border-bottom {
