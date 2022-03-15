@@ -4,7 +4,16 @@ ready(() => {
 		window.scrollTo(0, rect.y);
 	}
 
-	// TODO: also toggle the button after element
+	var toggleBranchButton = (branchButton, open) => {
+		if (open) {
+			branchButton.classList.add("open");
+		}
+		else {
+			branchButton.classList.remove("open");
+		}
+		branchButton.dataset.open = open ? "1" : "0";
+	}
+
 	var toggleBranchBody = (branchBody, open) => {
 		branchBody.style.display = open ? "table-row-group" : "";
 
@@ -19,28 +28,28 @@ ready(() => {
 				var childBranch = document.getElementById(branchBody.dataset.childBranch);
 				toggleBranchBody(childBranch, false);
 			}
+
+			// Also toggle the button state
+			var branchButtons = branchBody.getElementsByClassName("branch-button");
+			for (var i = 0; i < branchButtons.length; i++) {
+				toggleBranchButton(branchButtons[i], false);
+			}
 		}
 	}
 
 	var handleBranchButtonClick = (event) => {
-		var isOpen = event.currentTarget.dataset.open == "1";
-		if (isOpen) {
-			event.currentTarget.classList.remove("open");
-		}
-		else {
-			event.currentTarget.classList.add("open");
-		}
-		event.currentTarget.dataset.open = isOpen ? "0" : "1";
+		var open = event.currentTarget.dataset.open !== "1";
+		toggleBranchButton(event.currentTarget, open);
 
 		if (event.currentTarget.dataset.target[0] == ".") {
 			var branchBodies = document.getElementsByClassName(event.currentTarget.dataset.target.substring(1));
 			for (var i = 0; i < branchBodies.length; i++) {
-				toggleBranchBody(branchBodies[i], !isOpen);
+				toggleBranchBody(branchBodies[i], open);
 			}
 		}
 		else {
 			var branchBody = document.getElementById(event.currentTarget.dataset.target);
-			toggleBranchBody(branchBody, !isOpen);
+			toggleBranchBody(branchBody, open);
 		}
 	}
 
