@@ -58,6 +58,15 @@ td, td * {
 	vertical-align: middle;
 }
 
+article {
+	font-family: "Arial", helvetica, sans-serif;
+	padding: 0.5rem;
+}
+article p {
+	line-height: 2;
+	margin: 0;
+}
+
 .rare-4 { background: #a0ffa0 }
 .rare-5 { background: #ffb0b0 }
 .rare-6 { background: #c0d0ff }
