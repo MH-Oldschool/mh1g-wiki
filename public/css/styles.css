@@ -72,7 +72,19 @@ article p {
 .rare-6 { background: #c0d0ff }
 .rare-7 { background: #ffd080 }
 
-.bowguns thead {
+td.materials {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 13rem;
+}
+td.materials.full-details {
+	white-space: normal;
+}
+#melee-weapons td:first-child {
+	white-space: nowrap;
+}
+#ranged-weapons thead {
 	position: sticky;
 	background: #eee;
 	top: 0;
@@ -80,16 +92,16 @@ article p {
 }
 
 /* Number Cells */
-.melee-weapons td:nth-child(2),
-.melee-weapons td:nth-child(3),
-.melee-weapons td:nth-child(4),
-.melee-weapons td:nth-child(5),
-.melee-weapons td:nth-child(7),
-.bowguns td:nth-child(2),
-.bowguns td:nth-child(3),
-.bowguns td:nth-child(4),
-.bowguns td:nth-child(5),
-.bowguns td:nth-child(11) {
+#melee-weapons td:nth-child(2),
+#melee-weapons td:nth-child(3),
+#melee-weapons td:nth-child(4),
+#melee-weapons td:nth-child(5),
+#melee-weapons td:nth-child(7),
+#ranged-weapons td:nth-child(2),
+#ranged-weapons td:nth-child(3),
+#ranged-weapons td:nth-child(4),
+#ranged-weapons td:nth-child(5),
+#ranged-weapons td:nth-child(11) {
 	text-align: right;
 }
 
