@@ -37,20 +37,23 @@ ready(() => {
 		}
 	}
 
-	var handleBranchButtonClick = (event) => {
-		var open = event.currentTarget.dataset.open !== "1";
-		toggleBranchButton(event.currentTarget, open);
+	var toggleBranch = (branchButton, open) => {
+		toggleBranchButton(branchButton, open);
 
-		if (event.currentTarget.dataset.target[0] == ".") {
-			var branchBodies = document.getElementsByClassName(event.currentTarget.dataset.target.substring(1));
+		if (branchButton.dataset.target[0] == ".") {
+			var branchBodies = document.getElementsByClassName(branchButton.dataset.target.substring(1));
 			for (var i = 0; i < branchBodies.length; i++) {
 				toggleBranchBody(branchBodies[i], open);
 			}
 		}
 		else {
-			var branchBody = document.getElementById(event.currentTarget.dataset.target);
+			var branchBody = document.getElementById(branchButton.dataset.target);
 			toggleBranchBody(branchBody, open);
 		}
+	}
+	var handleBranchButtonClick = (event) => {
+		var open = event.currentTarget.dataset.open !== "1";
+		toggleBranch(event.currentTarget, open);
 	}
 
 	var branchButtons = document.getElementsByClassName("branch-button");
@@ -63,6 +66,29 @@ ready(() => {
 		if (details.parentElement.tagName == "DETAILS") {
 			openDetailsUpward(details.parentElement);
 		}
+	}
+
+	var handleToggleAllClick = (event) => {
+		var isOpen = event.currentTarget.dataset.open == "1";
+
+		var branchContainer = document.getElementById(event.currentTarget.dataset.target);
+		var branchButtons = branchContainer.getElementsByClassName("branch-button");
+		for (var i = 0; i < branchButtons.length; i++) {
+			toggleBranch(branchButtons[i], !isOpen);
+		}
+		branchContainer.open = !isOpen;
+
+		if (isOpen) {
+			event.currentTarget.classList.remove("open");
+		}
+		else {
+			event.currentTarget.classList.add("open");
+		}
+		event.currentTarget.dataset.open = isOpen ? "0" : "1";
+	}
+	var toggleAllButtons = document.getElementsByClassName("toggle-all-button");
+	for (var i = 0; i < toggleAllButtons.length; i++) {
+		toggleAllButtons[i].addEventListener("click", handleToggleAllClick);
 	}
 
 	var handleAnchorClick = (event) => {

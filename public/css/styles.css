@@ -175,6 +175,40 @@ tr.no-border-top td {
 	width: 1rem;
 }
 
+.toggle-all-button {
+	overflow: hidden;
+	position: relative;
+	text-indent: -999em;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	width: 1rem;
+}
+.toggle-all-button:before,
+.toggle-all-button:after {
+	content: "";
+	position: absolute;
+	background: #333;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.toggle-all-button:before {
+	margin-top: -0.0625rem;
+	width: 0.5rem;
+	height: 0.125rem;
+}
+.toggle-all-button:after {
+	margin-top: -0.25rem;
+	width: 0.125rem;
+	height: 0.5rem;
+}
+.toggle-all-button.open:after {
+	display: none;
+}
+
 .branch-button {
 	position: relative;
 	background: transparent;
