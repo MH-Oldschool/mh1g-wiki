@@ -15,7 +15,12 @@ ready(() => {
 	}
 
 	var toggleBranchBody = (branchBody, open) => {
-		branchBody.style.display = open ? "table-row-group" : "";
+		if (open) {
+			branchBody.classList.add("open");
+		}
+		else {
+			branchBody.classList.remove("open");
+		}
 
 		if (!open && branchBody.dataset.childBranch) {
 			if (branchBody.dataset.childBranch[0] === ".") {
@@ -138,6 +143,35 @@ ready(() => {
 	for (var i = 0; i < materialCells.length; i++) {
 		materialCells[i].addEventListener("mousedown", handleMaterialsMousedown);
 		materialCells[i].addEventListener("mouseup", handleMaterialsMouseup);
+	}
+
+	var toggleGWeapons = (toggleOn) => {
+		var gOnlyWeapons = document.getElementsByClassName("g-only");
+		for (var i = 0; i < gOnlyWeapons.length; i++) {
+			if (toggleOn) {
+				gOnlyWeapons[i].classList.remove("hide");
+			}
+			else {
+				gOnlyWeapons[i].classList.add("hide");
+			}
+		}
+
+		var baseOnlyWeapons = document.getElementsByClassName("base-only");
+		for (var i = 0; i < baseOnlyWeapons.length; i++) {
+			if (toggleOn) {
+				baseOnlyWeapons[i].classList.remove("show");
+			}
+			else {
+				baseOnlyWeapons[i].classList.add("show");
+			}
+		}
+	}
+	var gToggleCheckbox = document.getElementById("g-toggle");
+	gToggleCheckbox.addEventListener("change", (event) => {
+		toggleGWeapons(event.currentTarget.checked);
+	});
+	if (!gToggleCheckbox.checked) {
+		toggleGWeapons(false);
 	}
 });
 

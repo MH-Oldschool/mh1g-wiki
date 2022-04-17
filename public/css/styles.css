@@ -19,7 +19,8 @@ h3 {
 	font-size: 1.125rem;
 }
 
-button {
+button,
+label {
 	cursor: pointer;
 }
 
@@ -67,6 +68,20 @@ article p {
 	margin: 0;
 }
 
+.hide {
+	display: none !important;
+}
+
+.base-only {
+	display: none;
+}
+.base-only.show {
+	display: block;
+}
+tbody.base-only.show {
+	display: table-row-group;
+}
+
 .rare-4 { background: #a0ffa0 }
 .rare-5 { background: #ffb0b0 }
 .rare-6 { background: #c0d0ff }
@@ -107,6 +122,9 @@ td.materials.full-details {
 
 .branch {
 	display: none;
+}
+.branch.open {
+	display: table-row-group
 }
 .branch tr:first-child {
 	border-top: 2px solid #999;
@@ -238,7 +256,10 @@ tr.no-border-top td {
 
 footer {
 	position: fixed;
+	display: flex;
+	justify-content: space-between;
 	background: #fff;
+	padding: 0.25rem 0.5rem;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -247,6 +268,6 @@ footer p {
 	color: #999;
 	font: 1rem "Arial", helvetica, sans-serif;
 	text-align: right;
-	padding: 0.25rem 0.5rem;
+	padding: 0;
 	margin: 0;
 }
