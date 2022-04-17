@@ -68,6 +68,13 @@ article p {
 	margin: 0;
 }
 
+sup {
+	cursor: help;
+	color: #b50;
+	font-weight: bold;
+	margin-left: 0.125rem;
+}
+
 .show-g .mh1 {
 	display: none;
 }
