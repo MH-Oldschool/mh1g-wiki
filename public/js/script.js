@@ -145,7 +145,7 @@ ready(() => {
 		materialCells[i].addEventListener("mouseup", handleMaterialsMouseup);
 	}
 
-	var toggleGWeapons = (toggleOn) => {
+	var toggleGVersion = (toggleOn) => {
 		var gOnlyWeapons = document.getElementsByClassName("g-only");
 		for (var i = 0; i < gOnlyWeapons.length; i++) {
 			if (toggleOn) {
@@ -165,13 +165,22 @@ ready(() => {
 				baseOnlyWeapons[i].classList.add("show");
 			}
 		}
+
+		if (toggleOn) {
+			document.body.classList.add("show-g");
+			document.body.classList.remove("show-1");
+		}
+		else {
+			document.body.classList.remove("show-g");
+			document.body.classList.add("show-1");
+		}
 	}
 	var gToggleCheckbox = document.getElementById("g-toggle");
 	gToggleCheckbox.addEventListener("change", (event) => {
-		toggleGWeapons(event.currentTarget.checked);
+		toggleGVersion(event.currentTarget.checked);
 	});
 	if (!gToggleCheckbox.checked) {
-		toggleGWeapons(false);
+		toggleGVersion(false);
 	}
 });
 

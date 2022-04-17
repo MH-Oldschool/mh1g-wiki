@@ -68,6 +68,13 @@ article p {
 	margin: 0;
 }
 
+.show-g .mh1 {
+	display: none;
+}
+.show-1 .mhg {
+	display: none
+}
+
 .hide {
 	display: none !important;
 }
