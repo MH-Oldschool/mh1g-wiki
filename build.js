@@ -2,31 +2,63 @@ const fs = require("fs");
 const path = require("path");
 const mustache = require("mustache");
 
-function buildPage(layoutName, pageName) {
-	fs.readFile("_content/" + pageName + ".mustache", "utf8", (err, content) => {
-		fs.readFile("_views/" + pageName + ".json", "utf8", (err, data) => {
-			try {
-				var view = JSON.parse(data);
+function readFiles(fileNames, files, callback) {
+	if (!files) {
+		files = [];
+	}
 
-				fs.readFile("_layouts/" + layoutName + ".mustache", "utf8", (err, template) => {
-					var rendered = mustache.render(template, view, { content: content });
+	if (fileNames.length == 0) {
+		callback(files);
+		return;
+	}
 
-					fs.writeFile("public/" + pageName + ".html", rendered, {}, (err) => {
-						if (err) {
-							console.error(err);
-						}
-						else {
-							console.log(pageName, "built successfully!");
-						}
-					});
-				});
-			}
-			catch (error) {
-				console.error("Unable to parse " + viewName + ".json", error);
-			}
-		});
+	return fs.readFile(fileNames[0], "utf8", (err, data) => {
+		if (err) {
+			console.error(err);
+		}
+		else {
+			files.push(data);
+			readFiles(fileNames.slice(1, fileNames.length), files, callback);
+		}
 	});
 }
 
-buildPage("main", "weapons");
-buildPage("main", "index");
+function renderAndWriteToFile(pageName, template, view, partials) {
+	var rendered = mustache.render(template, view, partials);
+
+	fs.writeFile("public/" + pageName + ".html", rendered, {}, (err) => {
+		if (err) {
+			console.error(err);
+		}
+		else {
+			console.log(pageName, "built successfully!");
+		}
+	});
+}
+
+function buildPage(pageName, partials) {
+	var fileNames = [
+		path.join(__dirname, "_partials/head.mustache"),
+		path.join(__dirname, "_partials/foot.mustache"),
+		path.join(__dirname, "_templates/" + pageName + ".mustache"),
+		path.join(__dirname, "_views/" + pageName + ".json")
+	];
+	if (partials) {
+		fileNames = fileNames.concat(partials.map((name) => path.join(__dirname, "_partials", name + ".mustache")));
+	}
+
+	readFiles(fileNames, null, (files) => {
+		var partialFiles = {
+			head: files[0],
+			foot: files[1]
+		}
+		for (var i = 4; i < files.length; i++) {
+			partialFiles[partials[i - 4]] = files[i];
+		}
+
+		renderAndWriteToFile(pageName, files[2], JSON.parse(files[3]), partialFiles);
+	});
+}
+
+buildPage("index");
+buildPage("weapons");

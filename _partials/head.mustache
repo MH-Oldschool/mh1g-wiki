@@ -52,18 +52,7 @@
 
 			{{#onWeapons}}<div class="link">Weapon Trees</div>{{/onWeapons}}
 			{{^onWeapons}}<a href="/weapons" class="link">Weapon Trees</a>{{/onWeapons}}
+
+			{{#onArmor}}<div class="link">Armor</div>{{/onArmor}}
+			{{^onArmor}}<a href="/armor" class="link">Armor</a>{{/onArmor}}
 		</nav>
-
-		{{> content }}
-
-		<footer>
-			<div>
-				<input id="g-toggle" type="checkbox" checked/>
-				<label for="g-toggle">{{ gToggleCopy }}</label>
-			</div>
-			<p>
-				version 0.3.0
-			</p>
-		</footer>
-	</body>
-</html>
