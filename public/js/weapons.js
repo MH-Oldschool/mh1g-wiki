@@ -1,9 +1,4 @@
 ready(() => {
-	var scrollToElement = (element) => {
-		var rect = element.getBoundingClientRect();
-		window.scrollTo(0, rect.y);
-	}
-
 	var toggleBranchButton = (branchButton, open) => {
 		if (open) {
 			branchButton.classList.add("open");
@@ -143,44 +138,6 @@ ready(() => {
 	for (var i = 0; i < materialCells.length; i++) {
 		materialCells[i].addEventListener("mousedown", handleMaterialsMousedown);
 		materialCells[i].addEventListener("mouseup", handleMaterialsMouseup);
-	}
-
-	var toggleGVersion = (toggleOn) => {
-		var gOnlyWeapons = document.getElementsByClassName("g-only");
-		for (var i = 0; i < gOnlyWeapons.length; i++) {
-			if (toggleOn) {
-				gOnlyWeapons[i].classList.remove("hide");
-			}
-			else {
-				gOnlyWeapons[i].classList.add("hide");
-			}
-		}
-
-		var baseOnlyWeapons = document.getElementsByClassName("base-only");
-		for (var i = 0; i < baseOnlyWeapons.length; i++) {
-			if (toggleOn) {
-				baseOnlyWeapons[i].classList.remove("show");
-			}
-			else {
-				baseOnlyWeapons[i].classList.add("show");
-			}
-		}
-
-		if (toggleOn) {
-			document.body.classList.add("show-g");
-			document.body.classList.remove("show-1");
-		}
-		else {
-			document.body.classList.remove("show-g");
-			document.body.classList.add("show-1");
-		}
-	}
-	var gToggleCheckbox = document.getElementById("g-toggle");
-	gToggleCheckbox.addEventListener("change", (event) => {
-		toggleGVersion(event.currentTarget.checked);
-	});
-	if (!gToggleCheckbox.checked) {
-		toggleGVersion(false);
 	}
 });
 
