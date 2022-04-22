@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta name="viewport" content="width=device-width initial-scale=1 charset=utf-8"/>
+		<title>{{ title }} | Monster Hunter G</title>
+		<meta name="description" content="Easily view and navigate the complex weapon trees of Monster Hunter G."/>
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Weapon Trees | Monster Hunter G"/>
+		<meta property="og:description" content="Easily view and navigate the complex weapon trees of Monster Hunter G."/>
+		<meta property="og:image" content="images/meta.jpg"/>
+		<meta property="og:url" content="https://mhg-weapon-trees.herokuapp.com/"/>
+		<meta property="og:type" content="website"/>
+
+		<!-- Twitter -->
+		<meta property="twitter:title" value="Weapon Trees | Monster Hunter G"/>
+		<meta property="twitter:card" value="Easily view and navigate the complex weapon trees of Monster Hunter G."/>
+		<meta property="twitter:image" value="images/meta.jpg"/>
+		<meta property="twitter:creator" value="@platypete"/>
+
+		<!-- Google Fonts start -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+		<!-- Google Fonts end -->
+
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
+
+		<script type="text/javascript" src="js/ready.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body class="show-g">
+		<header>
+			<img class="mhg" src="images/logo.gif" alt="Monster Hunter G"/>
+			<img class="mh1" src="images/logo_1.gif" alt="Monster Hunter"/>
+
+			<aside>
+				<h1>{{ title }}</h1>
+				<p>
+					Sourced from <a href="http://infoseek_rip.g.ribbon.to/mmpotato.hp.infoseek.co.jp/codes/MHG/">mmpotato's MHG wiki</a>.
+				</p>
+				{{{ subtitle }}}
+			</aside>
+		</header>
+
+		{{> content }}
+
+		<footer>
+			<div>
+				<input id="g-toggle" type="checkbox" checked/>
+				<label for="g-toggle">Show G-Only Weapons</label>
+			</div>
+			<p>
+				version 0.2.6
+			</p>
+		</footer>
+	</body>
+</html>
