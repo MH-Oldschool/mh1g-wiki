@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const mustache = require("mustache");
 
-function buildPage(layoutName, viewName, contentName, pageName) {
-	fs.readFile("_content/" + contentName + ".mustache", "utf8", (err, content) => {
-		fs.readFile("_views/" + viewName + ".json", "utf8", (err, data) => {
+function buildPage(layoutName, pageName) {
+	fs.readFile("_content/" + pageName + ".mustache", "utf8", (err, content) => {
+		fs.readFile("_views/" + pageName + ".json", "utf8", (err, data) => {
 			try {
 				var view = JSON.parse(data);
 
@@ -28,4 +28,4 @@ function buildPage(layoutName, viewName, contentName, pageName) {
 	});
 }
 
-buildPage("main", "index", "index", "index");
+buildPage("main", "index");
