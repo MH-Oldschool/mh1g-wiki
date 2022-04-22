@@ -28,4 +28,5 @@ function buildPage(layoutName, pageName) {
 	});
 }
 
+buildPage("main", "weapons");
 buildPage("main", "index");
