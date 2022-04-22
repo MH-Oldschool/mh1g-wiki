@@ -44,15 +44,23 @@
 			</aside>
 		</header>
 
+		<nav>
+			{{#onHome}}<div class="link">Home</div>{{/onHome}}
+			{{^onHome}}<a href="/" class="link">Home</a>{{/onHome}}
+
+			{{#onWeapons}}<div class="link">Weapon Trees</div>{{/onWeapons}}
+			{{^onWeapons}}<a href="/weapons" class="link">Weapon Trees</a>{{/onWeapons}}
+		</nav>
+
 		{{> content }}
 
 		<footer>
 			<div>
 				<input id="g-toggle" type="checkbox" checked/>
-				<label for="g-toggle">Show G-Only Weapons</label>
+				<label for="g-toggle">{{ gToggleCopy }}</label>
 			</div>
 			<p>
-				version 0.2.6
+				version 0.3.0
 			</p>
 		</footer>
 	</body>
