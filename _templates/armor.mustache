@@ -5,13 +5,47 @@
 	<table>
 		<thead>
 			<tr>
-				<tr><th>Name</th><th>Rarity</th><th>Defense</th><th colspan="4">Resistances</th><th>Skills</th><th>Price</th><th>Forge Materials</th></tr>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Gender</th>
+					<th>Defense</th>
+					<th colspan="4">Resistances</th>
+					<th>Skills</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
 			</tr>
 		</thead>
 		<tbody>
 			{{#helmets}}
-				{{> armor_row}}
+				{{> headgear_row}}
 			{{/helmets}}
+		</tbody>
+	</table>
+</details>
+
+<details>
+	<summary><h2>Torso</h2></summary>
+	<table>
+		<thead>
+			<tr>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Gender</th>
+					<th>Class</th>
+					<th>Defense</th><th colspan="4">Resistances</th>
+					<th>Skills</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
+			</tr>
+		</thead>
+		<tbody>
+			{{#torso}}
+				{{> armor_row}}
+			{{/torso}}
 		</tbody>
 	</table>
 </details>

@@ -6,7 +6,7 @@ function addLastToArrays(obj) {
 	if (typeof obj === "object") {
 		for (prop in obj) {
 			if (obj.hasOwnProperty(prop)) {
-				if (Array.isArray(obj[prop])) {
+				if (Array.isArray(obj[prop]) && obj[prop].length !== 0) {
 					obj[prop][obj[prop].length - 1].last = 1;
 					obj[prop] = obj[prop].map((element) => {
 						if (typeof element === "object") {
@@ -89,4 +89,4 @@ function buildPage(pageName, partials) {
 
 buildPage("index");
 buildPage("weapons");
-buildPage("armor", ["armor_row"]);
+buildPage("armor", ["armor_row", "headgear_row"]);
