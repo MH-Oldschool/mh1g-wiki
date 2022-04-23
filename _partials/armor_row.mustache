@@ -1,0 +1,32 @@
+<tr class="rare-{{rarity}}">
+	<td>{{name}}</td>
+	<td class="ta-c">{{rarity}}</td>
+	<td class="ta-r">{{def}}</td>
+	<td>
+		<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
+		<span class="res-value">{{res.0}}</span>
+	</td>
+	<td>
+		<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
+		<span class="res-value">{{res.1}}</span>
+	</td>
+	<td>
+		<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
+		<span class="res-value">{{res.2}}</span>
+	</td>
+	<td>
+		<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
+		<span class="res-value">{{res.3}}</span>
+	</td>
+	<td class="materials" title="click to toggle full list">
+		{{#skills}}
+			{{k}} {{q}}{{^last}}, {{/last}}
+		{{/skills}}
+	</td>
+	<td class="ta-r">{{#buyPrice}}({{buyPrice}}z) {{/buyPrice}}{{forgePrice}}z</td>
+	<td class="materials" title="click to toggle full list">
+		{{#mats}}
+			{{q}} {{m}}{{^last}}, {{/last}}
+		{{/mats}}
+	</td>
+</tr>

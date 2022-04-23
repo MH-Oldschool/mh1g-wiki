@@ -2,6 +2,26 @@ const fs = require("fs");
 const path = require("path");
 const mustache = require("mustache");
 
+function addLastToArrays(obj) {
+	if (typeof obj === "object") {
+		for (prop in obj) {
+			if (obj.hasOwnProperty(prop)) {
+				if (Array.isArray(obj[prop])) {
+					obj[prop][obj[prop].length - 1].last = 1;
+					obj[prop] = obj[prop].map((element) => {
+						if (typeof element === "object") {
+							return addLastToArrays(element);
+						}
+						return element;
+					});
+				}
+			}
+		}
+	}
+
+	return obj;
+}
+
 function readFiles(fileNames, files, callback) {
 	if (!files) {
 		files = [];
@@ -56,9 +76,17 @@ function buildPage(pageName, partials) {
 			partialFiles[partials[i - 4]] = files[i];
 		}
 
-		renderAndWriteToFile(pageName, files[2], JSON.parse(files[3]), partialFiles);
+		try {
+			var view = JSON.parse(files[3]);
+			view = addLastToArrays(view);
+			renderAndWriteToFile(pageName, files[2], view, partialFiles);
+		}
+		catch (err) {
+			console.log("Unable to parse JSON:", err);
+		}
 	});
 }
 
 buildPage("index");
 buildPage("weapons");
+buildPage("armor", ["armor_row"]);

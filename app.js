@@ -12,6 +12,9 @@ app.get("/", (req, res) => {
 app.get("/weapons", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/weapons.html"));
 });
+app.get("/armor", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/armor.html"));
+});
 
 var server = app.listen(PORT);
 console.log(`Listening on ${ PORT }`);
