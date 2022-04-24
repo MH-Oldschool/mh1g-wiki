@@ -3,5 +3,5 @@
 	"description": "A comprehensive wiki for the Japanese versions of Monster Hunter and Monster Hunter G.",
 	"subtitle": "<p></p>",
 	"onHome": true,
-	"gToggleCopy": "Monster Hunter G"
+	"gToggle": true
 }

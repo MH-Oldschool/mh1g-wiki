@@ -4,7 +4,6 @@
 	"head": "<link rel='stylesheet' href='css/armor.css'/><script type='text/javascript' src='js/toggle_full_details.js'></script>",
 	"subtitle": "<p>Names adjusted based on best guesses from <a href='https://gamefaqs.gamespot.com/ps2/914914-monster-hunter/faqs'>the Gamefaqs MH1 weapon trees</a> and <a href='https://monsterhunter.fandom.com/wiki/MHF1:_Weapons'>MHF1 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
 	"onArmor": true,
-	"gToggleCopy": "Show G-Only Armor",
 	"helmets": [
 		{"name":"Leather light helm","rarity":1,"forge":150,"buy":300,"def":1,"res":[2,0,0,0],"skills":[{"k":"throw","q":9},{"k":"Whimsical","q":1}],"mats":[{"m":"Iron ore","q":1},{"m":"Kerubi skin","q":1}]},
 		{"name":"Chain helm","rarity":1,"forge":400,"buy":800,"def":2,"res":[2,2,-2,0],"skills":[{"k":"take","q":5},{"k":"clairvoyance","q":3}],"mats":[{"m":"Iron ore","q":2},{"m":"Kerubi skin","q":2}]},

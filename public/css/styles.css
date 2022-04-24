@@ -122,6 +122,55 @@ nav .link:last-child {
 	text-align: right;
 }
 
+#g-toggle {
+	display: none;
+}
+.g-toggle-label span {
+	vertical-align: middle;
+}
+.switch-button {
+	position: relative;
+	display: inline-block;
+	background: #3af;
+	border-radius: 1rem;
+	width: 2rem;
+	height: 1rem;
+	transition: 400ms;
+}
+.switch-button .button-tab {
+	position: absolute;
+	display: block;
+	background: #fff;
+	border-radius: 100%;
+	margin: -0.4375rem 0 0;
+	width: 0.875rem;
+	height: 0.875rem;
+	top: 50%;
+	left: 0.0625rem;
+	transition: 400ms;
+}
+input[type="checkbox"] + label span {
+	transition: 400ms;
+}
+input[type="checkbox"]:checked + label .switch-button {
+	background-color: #fa3;
+}
+input[type="checkbox"]:checked + label .switch-button .button-tab {
+	left: 1.0625rem;
+}
+input[type="checkbox"] + label span:first-child {
+	text-shadow: 0.0625rem 0.0625rem 0 #3af;
+}
+input[type="checkbox"]:checked + label span:first-child {
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+input[type="checkbox"] + label span:last-child {
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+input[type="checkbox"]:checked + label span:last-child {
+	text-shadow: 0.0625rem 0.0625rem 0 #fa3;
+}
+
 .base-only {
 	display: none;
 }
