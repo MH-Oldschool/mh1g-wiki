@@ -35,10 +35,12 @@ ready(() => {
 		}
 	}
 	var gToggleCheckbox = document.getElementById("g-toggle");
-	gToggleCheckbox.addEventListener("change", (event) => {
-		toggleGVersion(event.currentTarget.checked);
-	});
-	if (!gToggleCheckbox.checked) {
-		toggleGVersion(false);
+	if (gToggleCheckbox) {
+		gToggleCheckbox.addEventListener("change", (event) => {
+			toggleGVersion(event.currentTarget.checked);
+		});
+		if (!gToggleCheckbox.checked) {
+			toggleGVersion(false);
+		}
 	}
 });
