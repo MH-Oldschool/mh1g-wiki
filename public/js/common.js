@@ -2,6 +2,12 @@ window.scrollToElement = (element) => {
 	var rect = element.getBoundingClientRect();
 	window.scrollTo(0, rect.y);
 }
+window.eachElementByClassName = (className, callback) => {
+	var el = document.getElementsByClassName(className);
+	for (var i = 0; i < el.length; i++) {
+		callback(el[i], i);
+	}
+}
 
 ready(() => {
 	var toggleGVersion = (toggleOn) => {
