@@ -360,7 +360,7 @@ ready(() => {
 	}
 
 	function handleHelmetClick(event) {
-		var index = event.originalTarget.dataset.index;
+		var index = this.dataset.index;
 		setHelmet(window.armorData.helmets[index]);
 		updateArmorStats();
 	}
@@ -370,7 +370,7 @@ ready(() => {
 	});
 
 	function handleTorsoClick(event) {
-		var index = event.originalTarget.dataset.index;
+		var index = this.dataset.index;
 		setTorso(window.armorData.torso[index]);
 		updateArmorStats();
 	}
@@ -380,7 +380,7 @@ ready(() => {
 	});
 
 	function handleArmsClick(event) {
-		var index = event.originalTarget.dataset.index;
+		var index = this.dataset.index;
 		setArms(window.armorData.arms[index]);
 		updateArmorStats();
 	}
@@ -390,7 +390,7 @@ ready(() => {
 	});
 
 	function handleWaistClick(event) {
-		var index = event.originalTarget.dataset.index;
+		var index = this.dataset.index;
 		setWaist(window.armorData.waist[index]);
 		updateArmorStats();
 	}
@@ -400,7 +400,7 @@ ready(() => {
 	});
 
 	function handleLegsClick(event) {
-		var index = event.originalTarget.dataset.index;
+		var index = this.dataset.index;
 		setLegs(window.armorData.legs[index]);
 		updateArmorStats();
 	}
