@@ -10,7 +10,40 @@ window.eachElementByClassName = (className, callback) => {
 }
 
 ready(() => {
-	var toggleGVersion = (toggleOn) => {
+	function saveVersionCookie(version) {
+		try {
+			document.cookie = "mh1g-wiki-version=" + version + ";SameSite=Lax";
+		}
+		catch (err) {
+			console.warn("Unable to write MH version cookie:", err);
+		}
+	}
+	function getVersionFromCookie() {
+		try {
+			var cookieIndex = document.cookie.indexOf("mh1g-wiki-version");
+			// This will be just a single character;
+			// the cookie name is 17 characters long, plus one for the "=" sign
+			return document.cookie[cookieIndex + 18];
+		}
+		catch (err) {
+			console.warn("Unable to retrieve MH version cookie:", err);
+		}
+
+		return "";
+	}
+	// Only load the saved version if we allow version swapping on this page
+	var gToggle = document.getElementById("g-toggle");
+	if (gToggle) {
+		var version = getVersionFromCookie();
+		if (version) {
+			gToggle.checked = version == "g";
+			toggleGVersion(version == "g");
+		}
+	}
+
+	function toggleGVersion(toggleOn) {
+		saveVersionCookie(toggleOn ? "g" : "1");
+
 		var gOnlyEl = document.getElementsByClassName("g-only");
 		for (var i = 0; i < gOnlyEl.length; i++) {
 			if (toggleOn) {
