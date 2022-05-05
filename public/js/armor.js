@@ -336,6 +336,24 @@ ready(() => {
 			}
 		}
 		document.getElementById("armor-skills").innerHTML = skillRows.join("");
+
+		// Finally, show an error if there is a mix of Blademaster and Gunner armor
+		var blademasterPartCount = 0;
+		var gunnerPartCount = 0;
+
+		if (currentArmor.head.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.head.class == "Gunner") { gunnerPartCount++ }
+		if (currentArmor.torso.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.torso.class == "Gunner") { gunnerPartCount++ }
+		if (currentArmor.arms.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.arms.class == "Gunner") { gunnerPartCount++ }
+		if (currentArmor.waist.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.waist.class == "Gunner") { gunnerPartCount++ }
+		if (currentArmor.legs.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.legs.class == "Gunner") { gunnerPartCount++ }
+
+		var classesMixed = (blademasterPartCount !== 0) && (gunnerPartCount !== 0);
+		window.eachElementByClassName("class-mixing-error", (el) => el.style.display = classesMixed ? "block" : "" );
 	}
 
 	function setHelmet(helmetData) {

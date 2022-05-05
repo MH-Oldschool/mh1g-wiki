@@ -3,6 +3,11 @@ body {
 	padding-right: 1rem;
 }
 
+.class-mixing-error {
+	display: none;
+	color: #f73;
+	font-style: italic;
+}
 .res-value {
 	float: right;
 }
@@ -73,6 +78,9 @@ body.show-1 #armor-builder {
 	padding: 0.25rem;
 }
 
+.armor-rows-container {
+	margin: 0 0 0.375rem;
+}
 .armor-row {
 	line-height: 1.75rem;
 }
