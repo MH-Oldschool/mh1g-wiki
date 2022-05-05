@@ -93,6 +93,73 @@ ready(() => {
 		currentArmor.arms = armorData.arms[0];
 		currentArmor.waist = armorData.waist[0];
 		currentArmor.legs = armorData.legs[0];
+
+		var helmetRadios = document.getElementsByClassName("headgear-radio");
+		var armorFound = false;
+		for (let i = 0; i < helmetRadios.length; i++) {
+			if (helmetRadios[i].checked) {
+				armorFound = true;
+				setHelmet(window.armorData.helmets[helmetRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setHelmet(currentArmor.head);
+		}
+
+		var torsoRadios = document.getElementsByClassName("torso-radio");
+		armorFound = false;
+		for (let i = 0; i < torsoRadios.length; i++) {
+			if (torsoRadios[i].checked) {
+				armorFound = true;
+				setTorso(window.armorData.torso[torsoRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setTorso(currentArmor.torso);
+		}
+
+		var armRadios = document.getElementsByClassName("arm-radio");
+		armorFound = false;
+		for (let i = 0; i < armRadios.length; i++) {
+			if (armRadios[i].checked) {
+				armorFound = true;
+				setArms(window.armorData.arms[armRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setArms(currentArmor.arms);
+		}
+
+		var waistRadios = document.getElementsByClassName("waist-radio");
+		armorFound = false;
+		for (let i = 0; i < waistRadios.length; i++) {
+			if (waistRadios[i].checked) {
+				armorFound = true;
+				setWaist(window.armorData.waist[waistRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setWaist(currentArmor.waist);
+		}
+
+		var legRadios = document.getElementsByClassName("leg-radio");
+		armorFound = false;
+		for (let i = 0; i < legRadios.length; i++) {
+			if (legRadios[i].checked) {
+				armorFound = true;
+				setLegs(window.armorData.legs[legRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setLegs(currentArmor.legs);
+		}
+
+		updateArmorStats();
 	});
 
 	var builderContainer = document.getElementById("armor-builder");
@@ -110,7 +177,24 @@ ready(() => {
 	builderToggle.addEventListener("click", toggleBuilder);
 
 	function calculateDefense() {
-		return currentArmor.head.def + currentArmor.torso.def + currentArmor.arms.def + currentArmor.waist.def + currentArmor.legs.def;
+		var defense = 0;
+		if (currentArmor.head) {
+			defense += currentArmor.head.def;
+		}
+		if (currentArmor.torso) {
+			defense += currentArmor.torso.def;
+		}
+		if (currentArmor.arms) {
+			defense += currentArmor.arms.def;
+		}
+		if (currentArmor.waist) {
+			defense += currentArmor.waist.def;
+		}
+		if (currentArmor.legs) {
+			defense += currentArmor.legs.def;
+		}
+
+		return defense;
 	}
 	function calculateRes() {
 		return [
@@ -233,6 +317,14 @@ ready(() => {
 						}
 						else {
 							skillName = SKILL_LEVELS[prop][skillIndex];
+							while (!skillName && 0 <= skillIndex && skillIndex < 6) {
+								if (skillsParsed[prop] < 0) {
+									skillName = SKILL_LEVELS[prop][++skillIndex];
+								}
+								else {
+									skillName = SKILL_LEVELS[prop][--skillIndex];
+								}
+							}
 						}
 					}
 				}
@@ -249,33 +341,28 @@ ready(() => {
 	function setHelmet(helmetData) {
 		currentArmor.head = helmetData;
 		window.eachElementByClassName("helmet-name", (el) => el.innerText = helmetData.name);
-		updateArmorStats();
 	}
 	function setTorso(torsoData) {
 		currentArmor.torso = torsoData;
 		window.eachElementByClassName("torso-name", (el) => el.innerText = torsoData.name);
-		updateArmorStats();
 	}
 	function setArms(armsData) {
 		currentArmor.arms = armsData;
 		window.eachElementByClassName("arms-name", (el) => el.innerText = armsData.name);
-		updateArmorStats();
 	}
 	function setWaist(waistData) {
 		currentArmor.waist = waistData;
 		window.eachElementByClassName("waist-name", (el) => el.innerText = waistData.name);
-		updateArmorStats();
 	}
 	function setLegs(legsData) {
 		currentArmor.legs = legsData;
 		window.eachElementByClassName("legs-name", (el) => el.innerText = legsData.name);
-		updateArmorStats();
 	}
 
 	function handleHelmetClick(event) {
 		var index = event.originalTarget.dataset.index;
-		currentArmor.head = window.armorData.helmets[index];
-		setHelmet(currentArmor.head);
+		setHelmet(window.armorData.helmets[index]);
+		updateArmorStats();
 	}
 	window.eachElementByClassName("headgear-radio", (el, i) => {
 		el.dataset.index = i;
@@ -284,8 +371,8 @@ ready(() => {
 
 	function handleTorsoClick(event) {
 		var index = event.originalTarget.dataset.index;
-		currentArmor.torso = window.armorData.torso[index];
-		setTorso(currentArmor.torso);
+		setTorso(window.armorData.torso[index]);
+		updateArmorStats();
 	}
 	window.eachElementByClassName("torso-radio", (el, i) => {
 		el.dataset.index = i;
@@ -294,8 +381,8 @@ ready(() => {
 
 	function handleArmsClick(event) {
 		var index = event.originalTarget.dataset.index;
-		currentArmor.arms = window.armorData.arms[index];
-		setArms(currentArmor.arms);
+		setArms(window.armorData.arms[index]);
+		updateArmorStats();
 	}
 	window.eachElementByClassName("arms-radio", (el, i) => {
 		el.dataset.index = i;
@@ -304,8 +391,8 @@ ready(() => {
 
 	function handleWaistClick(event) {
 		var index = event.originalTarget.dataset.index;
-		currentArmor.waist = window.armorData.waist[index];
-		setWaist(currentArmor.waist);
+		setWaist(window.armorData.waist[index]);
+		updateArmorStats();
 	}
 	window.eachElementByClassName("waist-radio", (el, i) => {
 		el.dataset.index = i;
@@ -314,13 +401,11 @@ ready(() => {
 
 	function handleLegsClick(event) {
 		var index = event.originalTarget.dataset.index;
-		currentArmor.legs = window.armorData.legs[index];
-		setLegs(currentArmor.legs);
+		setLegs(window.armorData.legs[index]);
+		updateArmorStats();
 	}
 	window.eachElementByClassName("legs-radio", (el, i) => {
 		el.dataset.index = i;
 		el.addEventListener("click", handleLegsClick);
 	});
-
-	// TODO: get armor selected from checked radios
 });
