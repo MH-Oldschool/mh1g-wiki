@@ -26,17 +26,26 @@ body.show-1 #armor-builder {
 }
 #toggle-builder {
 	position: absolute;
-	writing-mode: vertical-lr;
 	background: rgba(0,0,0,0.65);
 	line-height: 1.375rem;
 	border: 0.0625rem solid #999;
 	border-radius: 0.25rem 0 0 0.25rem;
 	padding: 1rem 0;
+	width: 1.375rem;
 	min-height: 11.5rem;
 	height: 100%;
 	top: 50%;
 	left: -1.375rem;
 	transform: translateY(-50%);
+}
+#toggle-builder .builder-button-copy {
+  position: absolute;
+	margin-top: -0.6875rem;
+	width: 12rem;
+  height: 1.375rem;
+	top: 50%;
+  left: -5.375rem;
+	transform: rotate(90deg);
 }
 #toggle-builder:before,
 #toggle-builder:after {
