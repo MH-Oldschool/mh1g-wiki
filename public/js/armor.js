@@ -120,7 +120,7 @@ ready(() => {
 			setTorso(currentArmor.torso);
 		}
 
-		var armRadios = document.getElementsByClassName("arm-radio");
+		var armRadios = document.getElementsByClassName("arms-radio");
 		armorFound = false;
 		for (let i = 0; i < armRadios.length; i++) {
 			if (armRadios[i].checked) {
