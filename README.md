@@ -25,9 +25,9 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 - [ ] Armor List
 	- [x] Raw data with rough translation
 	- [ ] Correct armor piece names
-	- [ ] Correct armor skills
+	- [x] Correct armor skills
 	- [ ] Correct material names
-- [ ] Armor Set Builder
+- [x] Armor Set Builder
 
 # Developing
 I've tried to keep this app as simple as possible: mostly static with a little JavaScript for interactivity.
