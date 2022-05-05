@@ -16,5 +16,9 @@ app.get("/armor", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/armor.html"));
 });
 
+app.get("/armor-data", (req, res) => {
+	res.sendFile(path.join(__dirname, "_views/armor.json"));
+});
+
 var server = app.listen(PORT);
 console.log(`Listening on ${ PORT }`);

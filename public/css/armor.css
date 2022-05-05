@@ -1,3 +1,80 @@
+body {
+	box-sizing: border-box;
+	padding-right: 1rem;
+}
+
 .res-value {
 	float: right;
+}
+
+#armor-builder {
+	position: fixed;
+	box-sizing: border-box;
+	background: #fff;
+	padding: 0.25rem;
+	width: 16rem;
+	top: 50%;
+	right: -16rem;
+	transform: translateY(-50%);
+	transition: 400ms;
+}
+#armor-builder.expanded {
+	box-shadow: 0 0 0.25rem #333;
+	right: 0;
+}
+#toggle-builder {
+	position: absolute;
+	writing-mode: vertical-lr;
+	line-height: 1.375rem;
+	border: 0.0625rem solid #999;
+	border-radius: 0.25rem 0 0 0.25rem;
+	padding: 1rem 0;
+	min-height: 11.5rem;
+	height: 100%;
+	top: 50%;
+	left: -1.375rem;
+	transform: translateY(-50%);
+}
+#toggle-builder:before,
+#toggle-builder:after {
+	content: "";
+	position: absolute;
+	border-color: transparent #000 transparent transparent;
+	border-style: solid;
+	border-width: 0.25rem 0.5rem;
+	right: 0.375rem;
+}
+#toggle-builder:before {
+	top: 0.25rem;
+}
+#toggle-builder:after {
+	bottom: 0.25rem;
+}
+#armor-builder.expanded #toggle-builder:before,
+#armor-builder.expanded #toggle-builder:after {
+	border-color: transparent transparent transparent #000;
+	right: 0;
+}
+
+.armor-row {
+	line-height: 1.75rem;
+}
+.armor-icon,
+.armor-name {
+	vertical-align: middle;
+}
+.armor-icon {
+	width: 1.75rem;
+}
+
+.skill-level-none {
+	color: #aaa;
+}
+.skill-level-positive {
+	color: #3af;
+	font-weight: bold;
+}
+.skill-level-negative {
+	color: #f33;
+	font-weight: bold;
 }

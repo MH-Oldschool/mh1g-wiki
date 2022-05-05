@@ -44,7 +44,7 @@
 		</thead>
 		<tbody>
 			{{#torso}}
-				{{> armor_row}}
+				{{> torso_row}}
 			{{/torso}}
 		</tbody>
 	</table>
@@ -69,7 +69,7 @@
 		</thead>
 		<tbody>
 			{{#arms}}
-				{{> armor_row}}
+				{{> arms_row}}
 			{{/arms}}
 		</tbody>
 	</table>
@@ -94,7 +94,7 @@
 		</thead>
 		<tbody>
 			{{#waist}}
-				{{> armor_row}}
+				{{> waist_row}}
 			{{/waist}}
 		</tbody>
 	</table>
@@ -119,10 +119,74 @@
 		</thead>
 		<tbody>
 			{{#legs}}
-				{{> armor_row}}
+				{{> legs_row}}
 			{{/legs}}
 		</tbody>
 	</table>
 </details>
+
+<aside id="armor-builder">
+	<button id="toggle-builder">Armor Set Builder</button>
+	<div>
+		<div class="armor-row">
+			<img class="armor-icon" src="images/armor_icons/headgear.gif"/>
+			<span class="helmet-name armor-name"></span>
+		</div>
+		<div class="armor-row">
+			<img class="armor-icon" src="images/armor_icons/torso.gif"/>
+			<span class="torso-name armor-name"></span>
+		</div>
+		<div class="armor-row">
+			<img class="armor-icon" src="images/armor_icons/arms.gif"/>
+			<span class="arms-name armor-name"></span>
+		</div>
+		<div class="armor-row">
+			<img class="armor-icon" src="images/armor_icons/waist.gif"/>
+			<span class="waist-name armor-name"></span>
+		</div>
+		<div class="armor-row">
+			<img class="armor-icon" src="images/armor_icons/legs.gif"/>
+			<span class="legs-name armor-name"></span>
+		</div>
+	</div>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<th scope="row">Health</th><td class="health-stat">100</td>
+					<td>
+						<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
+						<span class="fire-res res-value">0</span>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">Stamina</th><td class="stamina-stat">100</td>
+					<td>
+						<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
+						<span class="water-res res-value">0</span>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">Attack</th><td class="attack-stat">0</td>
+					<td>
+						<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
+						<span class="thunder-res res-value">0</span>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">Defense</th><td class="defense-stat">0</td>
+					<td>
+						<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
+						<span class="dragon-res res-value">0</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<table>
+		<tbody id="armor-skills">
+		</tbody>
+	</table>
+</aside>
 
 {{> foot}}
