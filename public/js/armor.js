@@ -249,18 +249,20 @@ ready(() => {
 	}
 
 	function unsetArmor() {
-		currentArmor.head = armorData.helmets[0];
-		currentArmor.torso = armorData.torso[0];
-		currentArmor.arms = armorData.arms[0];
-		currentArmor.waist = armorData.waist[0];
-		currentArmor.legs = armorData.legs[0];
+		if (armorDataLoaded) {
+			currentArmor.head = armorData.helmets[0];
+			currentArmor.torso = armorData.torso[0];
+			currentArmor.arms = armorData.arms[0];
+			currentArmor.waist = armorData.waist[0];
+			currentArmor.legs = armorData.legs[0];
 
-		updateArmorStats();
+			updateArmorStats();
+		}
 	}
 	document.body.addEventListener("g-toggle", unsetArmor);
 
+	var armorDataLoaded = false;
 	var currentArmor = {};
-	// TODO: set a flag after data is loaded
 	getJson("/armor-data", (json) => {
 		window.armorData = {
 			helmets: json.helmets,
@@ -342,6 +344,8 @@ ready(() => {
 		}
 
 		updateArmorStats();
+
+		armorDataLoaded = true;
 	});
 
 	function isMH1() {
