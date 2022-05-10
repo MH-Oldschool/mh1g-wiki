@@ -18,6 +18,50 @@ ready(() => {
 		request = null;
 	}
 
+	function handleArmorGenderChange(event) {
+		switch (this.value) {
+			case "a":
+				document.body.classList.remove("show-female","show-male");
+				break;
+			case "f":
+				document.body.classList.add("show-female");
+				document.body.classList.remove("show-male");
+				break;
+			case "m":
+				document.body.classList.add("show-male");
+				document.body.classList.remove("show-female");
+				break;
+		}
+	}
+	var armorGenderRadios = document.getElementsByName("armor-gender");
+	for (let i = 0; i < armorGenderRadios.length; i++) {
+		armorGenderRadios[i].addEventListener("click", handleArmorGenderChange);
+	}
+
+	function handleArmorClassChange(event) {
+		switch (this.value) {
+			case "a":
+				document.body.classList.remove("show-blade","show-gun","show-either");
+				break;
+			case "b":
+				document.body.classList.add("show-blade");
+				document.body.classList.remove("show-gun","show-either");
+				break;
+			case "g":
+				document.body.classList.add("show-gun");
+				document.body.classList.remove("show-blade","show-either");
+				break;
+			case "e":
+				document.body.classList.add("show-either");
+				document.body.classList.remove("show-blade","show-gun");
+				break;
+		}
+	}
+	var armorClassRadios = document.getElementsByName("armor-class");
+	for (let i = 0; i < armorClassRadios.length; i++) {
+		armorClassRadios[i].addEventListener("click", handleArmorClassChange);
+	}
+
 	// Armor names are in this order: [helmet,torso,arms,waist,legs]
 	var SKILL_SETS = [
 		{armor:["","Battle Mail","Battle Vambraces","Battle Tasset"],skills:["Sharpness Restoration + 25%"]},
@@ -211,20 +255,7 @@ ready(() => {
 		currentArmor.waist = armorData.waist[0];
 		currentArmor.legs = armorData.legs[0];
 
-		document.getElementsByClassName("headgear-radio")[0].checked = true
-		setHelmet(currentArmor.head);
-		document.getElementsByClassName("torso-radio")[0].checked = true
-		setTorso(currentArmor.torso);
-		document.getElementsByClassName("arms-radio")[0].checked = true
-		setArms(currentArmor.arms);
-		document.getElementsByClassName("waist-radio")[0].checked = true
-		setWaist(currentArmor.waist);
-		document.getElementsByClassName("legs-radio")[0].checked = true
-		setLegs(currentArmor.legs);
-
-		calculateMHGSkills();
-
-		window.eachElementByClassName("class-mixing-error", el => el.style.display = "" );
+		updateArmorStats();
 	}
 	document.body.addEventListener("g-toggle", unsetArmor);
 
@@ -606,6 +637,24 @@ ready(() => {
 		else {
 			calculateMHGSkills();
 		}
+
+		// Show an error if mixing gendered pieces
+		var femalePartCount = 0;
+		var malePartCount = 0;
+
+		if (currentArmor.head.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.head.gender == "Male") { malePartCount++ }
+		if (currentArmor.torso.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.torso.gender == "Male") { malePartCount++ }
+		if (currentArmor.arms.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.arms.gender == "Male") { malePartCount++ }
+		if (currentArmor.waist.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.waist.gender == "Male") { malePartCount++ }
+		if (currentArmor.legs.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.legs.gender == "Male") { malePartCount++ }
+
+		var gendersMixed = (femalePartCount !== 0) && (malePartCount !== 0);
+		window.eachElementByClassName("gender-mixing-error", el => el.style.display = gendersMixed ? "block" : "" );
 
 		// Finally, show an error if there is a mix of Blademaster and Gunner armor
 		var blademasterPartCount = 0;

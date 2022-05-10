@@ -1,5 +1,20 @@
 {{> head}}
 
+<div class="armor-filter-buttons">
+	<h3>Gender:</h3>
+	<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">Both</label>
+	<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
+	<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
+</div>
+
+<div class="armor-filter-buttons">
+	<h3>Armor Class:</h3>
+	<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
+	<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
+	<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
+	<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
+</div>
+
 <details>
 	<summary><h2>Headgear</h2></summary>
 	<table>
@@ -153,6 +168,7 @@
 				<span class="legs-name armor-name"></span>
 			</div>
 		</div>
+		<div class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
 		<div class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
 		<div class="stats-rows">
 			<table>
