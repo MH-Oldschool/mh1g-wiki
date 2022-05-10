@@ -10,6 +10,8 @@ window.eachElementByClassName = (className, callback) => {
 }
 
 ready(() => {
+	const gToggleEvent = new Event("g-toggle");
+
 	function saveVersionCookie(version) {
 		try {
 			document.cookie = "mh1g-wiki-version=" + version + ";SameSite=Lax";
@@ -72,6 +74,8 @@ ready(() => {
 			document.body.classList.remove("show-g");
 			document.body.classList.add("show-1");
 		}
+
+		document.body.dispatchEvent(gToggleEvent, toggleOn ? "g" : "1");
 	}
 	var gToggleCheckbox = document.getElementById("g-toggle");
 	if (gToggleCheckbox) {
