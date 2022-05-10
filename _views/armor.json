@@ -974,7 +974,7 @@
 	"legs":[
 		{"name":"None","rarity":1,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"skills":[],"mats":[]},
 		{"name":"Green Pants","class":"Blademaster","rarity":1,"forge":150,"buy":300,"def":1,"res":[2,0,0,0],"skills":[{"k":"Throw","q":5},{"k":"Whim","q":2},{"k":"Health","q":2},{"k":"Defense","q":2}],"mats":[{"m":"Iron Ore","q":1},{"m":"Kelbi Hide","q":1}]},
-		{"name":"Blue Pants","class":"Gunner","rarity":1,"forge":400,"buy":800,"def":2,"res":[2,2,-2,0],"skills":[{"k":"Torso Up","q":1}],"mats":[{"m":"Iron Ore","q":2},{"m":"Kelbi Hide","q":2}]},
+		{"name":"Blue Pants","rarity":1,"forge":400,"buy":800,"def":2,"res":[2,2,-2,0],"skills":[{"k":"Torso Up","q":1}],"mats":[{"m":"Iron Ore","q":2},{"m":"Kelbi Hide","q":2}]},
 		{"name":"Hunter's Greaves","class":"Blademaster","rarity":1,"forge":900,"buy":1800,"def":4,"res":[0,0,-4,0],"skills":[{"k":"Fisher","q":4},{"k":"Health","q":2},{"k":"Defense","q":2},{"k":"Psychic","q":3}],"mats":[{"m":"Iron Ore","q":3},{"m":"Bullfango Hide","q":1},{"m":"Kelbi Hide","q":2}]},
 		{"name":"Hunter's Leggings","class":"Gunner","rarity":1,"forge":900,"buy":1800,"def":3,"res":[2,2,-2,0],"skills":[{"k":"Fisher","q":4},{"k":"Health","q":2},{"k":"Defense","q":2},{"k":"Psychic","q":3}],"mats":[{"m":"Iron Ore","q":3},{"m":"Bullfango Hide","q":1},{"m":"Kelbi Hide","q":2}]},
 		{"name":"Battle Greaves","class":"Blademaster","rarity":2,"forge":1500,"buy":3000,"def":8,"res":[2,-2,-2,0],"skills":[{"k":"Guard","q":2},{"k":"Health","q":2},{"k":"Defense","q":2}],"mats":[{"m":"Kut-Ku Scale","q":3},{"m":"Iron Ore","q":5},{"m":"Earth Crystal","q":3},{"m":"Whetstone","q":5}]},
