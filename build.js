@@ -37,7 +37,7 @@ function readFiles(fileNames, files, callback) {
 			console.error(err);
 		}
 		else {
-			files.push(data);
+			files.push(data.replace(/[\n\r]+/g, "").replace(/\t+/g, ""));
 			readFiles(fileNames.slice(1, fileNames.length), files, callback);
 		}
 	});
