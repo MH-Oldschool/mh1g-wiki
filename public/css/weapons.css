@@ -22,6 +22,26 @@
 	text-align: right;
 }
 
+/* All this to clip the sharpness graph for MH1 */
+.sharpness-cell {
+	position: relative;
+	padding: 0;
+	width: 8.25rem;
+}
+.sharpness-cell img {
+	display: block;
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.show-1 .sharpness-cell img {
+	clip: rect(0,122px,10px,0);
+	margin-top: -6px;
+	top: 50%;
+}
+
 .branch {
 	display: none;
 }
