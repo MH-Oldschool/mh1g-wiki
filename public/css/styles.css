@@ -59,6 +59,9 @@ table {
 thead {
 	border-bottom: 1px solid #999;
 }
+tbody {
+	background: rgba(0,0,0,0.8);
+}
 th, td {
 	line-height: 1.25rem;
 	padding: 0 0.25rem;
@@ -220,6 +223,9 @@ input[type="checkbox"]:checked + label span:last-child {
 }
 tbody.base-only.show {
 	display: table-row-group;
+}
+tr.base-only.show {
+	display: table-row;
 }
 
 .rare-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
