@@ -5,7 +5,7 @@
 	"subtitle": "<p>Names adjusted based on best guesses from <a href='https://gamefaqs.gamespot.com/ps2/914914-monster-hunter/faqs'>the Gamefaqs MH1 weapon trees</a> and <a href='https://monsterhunter.fandom.com/wiki/MHF1:_Weapons'>MHF1 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
 	"onArmor": true,
 	"gToggle": true,
-	"helmets": [
+	"headgear": [
 		{"name":"None","rarity":1,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"skills":[],"mats":[]},
 		{"name":"Leather Helm","rarity":1,"forge":150,"buy":300,"def":1,"res":[2,0,0,0],"skills":[{"k":"Throw","q":9},{"k":"Whim","q":1}],"mats":[{"m":"Iron Ore","q":1},{"m":"Kelbi Hide","q":1}]},
 		{"name":"Chain Helm","rarity":1,"forge":400,"buy":800,"def":2,"res":[2,2,-2,0],"skills":[{"k":"Gathering","q":5},{"k":"Psychic","q":3}],"mats":[{"m":"Iron Ore","q":2},{"m":"Kelbi Hide","q":2}]},

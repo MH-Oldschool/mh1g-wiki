@@ -62,9 +62,9 @@ ready(() => {
 		armorClassRadios[i].addEventListener("click", handleArmorClassChange);
 	}
 
-	// Armor names are in this order: [helmet,torso,arms,waist,legs]
+	// Armor names are in this order: [headgear,torso,arms,waist,legs]
 	var SKILL_SETS = [
-		{armor:["","Battle Mail","Battle Vambraces","Battle Tasset"],skills:["Sharpness Restoration + 25%"]},
+		{armor:["","Battle Mail","Battle Vambraces","Battle Tasset",""],skills:["Sharpness Restoration + 25%"]},
 		{armor:["","Battle Vest","Battle Guards","Battle Coat",""],skills:["Reload Speed + 1"]},
 		{armor:["","Bone Mail","Bone Vambraces","","Bone Greaves"],skills:["Provocation","Stealing Negated","Hunger Halved"]},
 		{armor:["","Bone Vest","Bone Guards","","Bone Leggings"],skills:["Provocation","Stealing Negated","Hunger Halved"]},
@@ -188,7 +188,7 @@ ready(() => {
 		{armor:["","Vespoid Mail+","Hornet Vambraces+","Hornet Tasset+","Vespoid Greaves+"],skills:["Dragon + 25"]},
 		{armor:["","Vespoid Mail+","Vespoid Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Dragon + 25"]},
 		{armor:["","Vespoid Vest+","Hornet Guard+","Vespoid Coat+","Hornet Leggings+"],skills:["Dragon + 25"]}
-	]
+	];
 	var SKILL_LEVELS = {
 		"Health": [ -30,-20,-10,10,20,30 ], // Be sure to handle these special cases
 		"Defense": [ -20,-15,-10,10,15,20 ], // Be sure to handle these special cases
@@ -248,9 +248,30 @@ ready(() => {
 		"Rapid Fire": [ "","","","Rapid Fire","","" ]
 	}
 
+	// Populate skillset popup
+	var skillSetRows = SKILL_SETS.map((skillSet, index) => {
+		var skillSetArmor = skillSet.armor.filter(el => el.length !== 0);
+
+		return `<tr><td><button class="skill-set-button" style="line-height:${ skillSetArmor.length }" data-index=${ index }>Set ${ index + 1 }</button></td><td>${ skillSetArmor.join("<br/>") }</td><td>${ skillSet.skills.join("<br/>") }</td></tr>`;
+	});
+	document.getElementById("skill-set-popup-tbody").innerHTML = skillSetRows.join("");
+
+	function closePopup() {
+		document.body.classList.remove("show-popup");
+	}
+	document.getElementById("popup-show").addEventListener("click", () => document.body.classList.add("show-popup"));
+	window.eachElementByClassName("popup-close", (button) => {
+		button.addEventListener("click", closePopup);
+	});
+	document.getElementById("skill-set-popup").addEventListener("click", (event) => {
+		if (event.target.id == "skill-set-popup") {
+			closePopup();
+		}
+	});
+
 	function unsetArmor() {
 		if (armorDataLoaded) {
-			currentArmor.head = armorData.helmets[0];
+			currentArmor.headgear = armorData.headgear[0];
 			currentArmor.torso = armorData.torso[0];
 			currentArmor.arms = armorData.arms[0];
 			currentArmor.waist = armorData.waist[0];
@@ -265,30 +286,30 @@ ready(() => {
 	var currentArmor = {};
 	getJson("/armor-data", (json) => {
 		window.armorData = {
-			helmets: json.helmets,
+			headgear: json.headgear,
 			torso: json.torso,
 			arms: json.arms,
 			waist: json.waist,
 			legs: json.legs
 		}
 
-		currentArmor.head = armorData.helmets[0];
+		currentArmor.headgear = armorData.headgear[0];
 		currentArmor.torso = armorData.torso[0];
 		currentArmor.arms = armorData.arms[0];
 		currentArmor.waist = armorData.waist[0];
 		currentArmor.legs = armorData.legs[0];
 
-		var helmetRadios = document.getElementsByClassName("headgear-radio");
+		var headRadios = document.getElementsByClassName("headgear-radio");
 		var armorFound = false;
-		for (let i = 0; i < helmetRadios.length; i++) {
-			if (helmetRadios[i].checked) {
+		for (let i = 0; i < headRadios.length; i++) {
+			if (headRadios[i].checked) {
 				armorFound = true;
-				setHelmet(window.armorData.helmets[helmetRadios[i].dataset.index]);
+				setHeadgear(window.armorData.headgear[headRadios[i].dataset.index]);
 				break;
 			}
 		}
 		if (!armorFound) {
-			setHelmet(currentArmor.head);
+			setHeadgear(currentArmor.headgear);
 		}
 
 		var torsoRadios = document.getElementsByClassName("torso-radio");
@@ -368,8 +389,8 @@ ready(() => {
 
 	function calculateDefense() {
 		var defense = 0;
-		if (currentArmor.head) {
-			defense += currentArmor.head.def;
+		if (currentArmor.headgear) {
+			defense += currentArmor.headgear.def;
 		}
 		if (currentArmor.torso) {
 			defense += currentArmor.torso.def;
@@ -388,10 +409,10 @@ ready(() => {
 	}
 	function calculateRes() {
 		return [
-			currentArmor.head.res[0] + currentArmor.torso.res[0] + currentArmor.arms.res[0] + currentArmor.waist.res[0] + currentArmor.legs.res[0],
-			currentArmor.head.res[1] + currentArmor.torso.res[1] + currentArmor.arms.res[1] + currentArmor.waist.res[1] + currentArmor.legs.res[1],
-			currentArmor.head.res[2] + currentArmor.torso.res[2] + currentArmor.arms.res[2] + currentArmor.waist.res[2] + currentArmor.legs.res[2],
-			currentArmor.head.res[3] + currentArmor.torso.res[3] + currentArmor.arms.res[3] + currentArmor.waist.res[3] + currentArmor.legs.res[3]
+			currentArmor.headgear.res[0] + currentArmor.torso.res[0] + currentArmor.arms.res[0] + currentArmor.waist.res[0] + currentArmor.legs.res[0],
+			currentArmor.headgear.res[1] + currentArmor.torso.res[1] + currentArmor.arms.res[1] + currentArmor.waist.res[1] + currentArmor.legs.res[1],
+			currentArmor.headgear.res[2] + currentArmor.torso.res[2] + currentArmor.arms.res[2] + currentArmor.waist.res[2] + currentArmor.legs.res[2],
+			currentArmor.headgear.res[3] + currentArmor.torso.res[3] + currentArmor.arms.res[3] + currentArmor.waist.res[3] + currentArmor.legs.res[3]
 		];
 	}
 	function getResistances() {
@@ -403,7 +424,7 @@ ready(() => {
 		];
 	}
 	function doesSkillSetMatch(skillset, armor) {
-		if (skillset.armor[0] && skillset.armor[0] != armor.head.name) {
+		if (skillset.armor[0] && skillset.armor[0] != armor.headgear.name) {
 			return false;
 		}
 		if (skillset.armor[1] && skillset.armor[1] != armor.torso.name) {
@@ -423,7 +444,7 @@ ready(() => {
 	}
 	function getMH1SkillSet(armor) {
 		// Filter out skillsets by armor category
-		var possibleSkillSets = SKILL_SETS.filter(set => set.armor[0] === "" || set.armor[0] == armor.head.name);
+		var possibleSkillSets = SKILL_SETS.filter(set => set.armor[0] === "" || set.armor[0] == armor.headgear.name);
 		if (possibleSkillSets.length === 1) {
 			if (doesSkillSetMatch(possibleSkillSets[0], armor)) {
 				return possibleSkillSets[0].skills;
@@ -505,7 +526,7 @@ ready(() => {
 				torsoUpModifier++;
 			}
 		}
-		currentArmor.head.skills.forEach(updateTorsoUp);
+		currentArmor.headgear.skills.forEach(updateTorsoUp);
 		currentArmor.arms.skills.forEach(updateTorsoUp);
 		currentArmor.waist.skills.forEach(updateTorsoUp);
 		currentArmor.legs.skills.forEach(updateTorsoUp);
@@ -536,7 +557,7 @@ ready(() => {
 			}
 		}
 		// In case we get MH1-only armor, which has no skill points
-		if (currentArmor.head.skills) currentArmor.head.skills.forEach(parseSkills);
+		if (currentArmor.headgear.skills) currentArmor.headgear.skills.forEach(parseSkills);
 		if (torsoSkills) torsoSkills.forEach(parseSkills);
 		if (currentArmor.arms.skills) currentArmor.arms.skills.forEach(parseSkills);
 		if (currentArmor.waist.skills) currentArmor.waist.skills.forEach(parseSkills);
@@ -646,8 +667,8 @@ ready(() => {
 		var femalePartCount = 0;
 		var malePartCount = 0;
 
-		if (currentArmor.head.gender == "Female") { femalePartCount++ }
-		else if (currentArmor.head.gender == "Male") { malePartCount++ }
+		if (currentArmor.headgear.gender == "Female") { femalePartCount++ }
+		else if (currentArmor.headgear.gender == "Male") { malePartCount++ }
 		if (currentArmor.torso.gender == "Female") { femalePartCount++ }
 		else if (currentArmor.torso.gender == "Male") { malePartCount++ }
 		if (currentArmor.arms.gender == "Female") { femalePartCount++ }
@@ -664,8 +685,8 @@ ready(() => {
 		var blademasterPartCount = 0;
 		var gunnerPartCount = 0;
 
-		if (currentArmor.head.class == "Blademaster") { blademasterPartCount++ }
-		else if (currentArmor.head.class == "Gunner") { gunnerPartCount++ }
+		if (currentArmor.headgear.class == "Blademaster") { blademasterPartCount++ }
+		else if (currentArmor.headgear.class == "Gunner") { gunnerPartCount++ }
 		if (currentArmor.torso.class == "Blademaster") { blademasterPartCount++ }
 		else if (currentArmor.torso.class == "Gunner") { gunnerPartCount++ }
 		if (currentArmor.arms.class == "Blademaster") { blademasterPartCount++ }
@@ -679,9 +700,9 @@ ready(() => {
 		window.eachElementByClassName("class-mixing-error", el => el.style.display = classesMixed ? "block" : "" );
 	}
 
-	function setHelmet(helmetData) {
-		currentArmor.head = helmetData;
-		window.eachElementByClassName("helmet-name", el => el.innerText = helmetData.name);
+	function setHeadgear(headgearData) {
+		currentArmor.headgear = headgearData;
+		window.eachElementByClassName("headgear-name", el => el.innerText = headgearData.name);
 	}
 	function setTorso(torsoData) {
 		currentArmor.torso = torsoData;
@@ -700,14 +721,14 @@ ready(() => {
 		window.eachElementByClassName("legs-name", el => el.innerText = legsData.name);
 	}
 
-	function handleHelmetClick(event) {
+	function handleHeadgearClick(event) {
 		var index = this.dataset.index;
-		setHelmet(window.armorData.helmets[index]);
+		setHeadgear(window.armorData.headgear[index]);
 		updateArmorStats();
 	}
 	window.eachElementByClassName("headgear-radio", (el, i) => {
 		el.dataset.index = i;
-		el.addEventListener("click", handleHelmetClick);
+		el.addEventListener("click", handleHeadgearClick);
 	});
 
 	function handleTorsoClick(event) {
@@ -749,4 +770,60 @@ ready(() => {
 		el.dataset.index = i;
 		el.addEventListener("click", handleLegsClick);
 	});
+
+	// Assign full armor sets with skills for MH1
+	function handleSkillSetButtonClick(event) {
+		var skillSet = SKILL_SETS[event.target.dataset.index];
+
+		if (skillSet.armor[0].length !== 0) {
+			for (var i = 0; i < window.armorData.headgear.length; i++) {
+				if (window.armorData.headgear[i].name == skillSet.armor[0]) {
+					setHeadgear(window.armorData.headgear[i]);
+					break;
+				}
+			}
+		}
+
+		if (skillSet.armor[1].length !== 0) {
+			for (var i = 0; i < window.armorData.torso.length; i++) {
+				if (window.armorData.torso[i].name == skillSet.armor[1]) {
+					setTorso(window.armorData.torso[i]);
+					break;
+				}
+			}
+		}
+
+		if (skillSet.armor[2].length !== 0) {
+			for (var i = 0; i < window.armorData.arms.length; i++) {
+				if (window.armorData.arms[i].name == skillSet.armor[2]) {
+					setArms(window.armorData.arms[i]);
+					break;
+				}
+			}
+		}
+
+		if (skillSet.armor[3].length !== 0) {
+			for (var i = 0; i < window.armorData.waist.length; i++) {
+				if (window.armorData.waist[i].name == skillSet.armor[3]) {
+					setWaist(window.armorData.waist[i]);
+					break;
+				}
+			}
+		}
+
+		if (skillSet.armor[4].length !== 0) {
+			for (var i = 0; i < window.armorData.legs.length; i++) {
+				if (window.armorData.legs[i].name == skillSet.armor[4]) {
+					setLegs(window.armorData.legs[i]);
+					break;
+				}
+			}
+		}
+
+		updateArmorStats();
+
+		builderContainer.classList.add("expanded");
+		closePopup();
+	}
+	window.eachElementByClassName("skill-set-button", button => button.addEventListener("click", handleSkillSetButtonClick));
 });

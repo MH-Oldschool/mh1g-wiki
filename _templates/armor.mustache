@@ -15,6 +15,8 @@
 	<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
 </div>
 
+<button id="popup-show" class="base-only">See Skilled Armor Sets</button>
+
 <details>
 	<summary><h2>Headgear</h2></summary>
 	<table>
@@ -33,9 +35,9 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{#helmets}}
+			{{#headgear}}
 				{{> headgear_row}}
-			{{/helmets}}
+			{{/headgear}}
 		</tbody>
 	</table>
 </details>
@@ -149,7 +151,7 @@
 		<div class="armor-rows-container">
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/headgear.gif"/>
-				<span class="helmet-name armor-name"></span>
+				<span class="headgear-name armor-name"></span>
 			</div>
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/torso.gif"/>
@@ -210,5 +212,23 @@
 		</table>
 	</div>
 </aside>
+
+<div id="skill-set-popup" class="popup">
+	<div class="popup-content">
+		<div class="popup-header">
+			<h3>Armor Sets</h3>
+			<button class="popup-close" title="Close">close</button>
+		</div>
+		<div class="popup-body">
+			<table>
+				<thead>
+					<tr><td></td><td>Pieces</td><td>Skills</td></tr>
+				</thead>
+				<tbody id="skill-set-popup-tbody">
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
 
 {{> foot}}
