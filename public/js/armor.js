@@ -280,7 +280,10 @@ ready(() => {
 			updateArmorStats();
 		}
 	}
-	document.body.addEventListener("g-toggle", unsetArmor);
+	document.body.addEventListener("g-toggle", () => {
+		unsetArmor();
+		closePopup();
+	});
 
 	var armorDataLoaded = false;
 	var currentArmor = {};
