@@ -226,6 +226,9 @@ input[type="checkbox"]:checked + label span:last-child {
 .base-only.show {
 	display: block;
 }
+span.base-only.show {
+	display: inline;
+}
 tbody.base-only.show {
 	display: table-row-group;
 }
