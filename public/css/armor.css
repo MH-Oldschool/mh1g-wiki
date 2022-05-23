@@ -123,8 +123,10 @@ body.show-1 #armor-builder {
 }
 
 .armor-builder-content {
+	overflow-y: auto;
 	border: 0.25rem double #856b5c;
 	padding: 0.25rem;
+	max-height: 90vh;
 }
 
 .armor-rows-container {
@@ -155,6 +157,16 @@ body.show-1 #armor-builder {
 .skill-level-negative {
 	color: #f33;
 	font-weight: bold;
+}
+
+#armor-cost-table {
+	margin: 0.5rem 0;
+}
+#armor-cost-table td:first-child {
+	width: 4rem;
+}
+#armor-cost-table td:last-child {
+	text-align: right;
 }
 
 #skill-set-popup .popup-header {

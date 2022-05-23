@@ -666,6 +666,85 @@ ready(() => {
 			calculateMHGSkills();
 		}
 
+		// Sum up zenny cost and all required materials
+		var totalCost = 0;
+		var allMaterials = {};
+		if (currentArmor.headgear.forge) {
+			totalCost += currentArmor.headgear.forge;
+
+			currentArmor.headgear.mats.forEach((mat) => {
+				if (allMaterials[mat.m]) {
+					allMaterials[mat.m] += mat.q;
+				}
+				else {
+					allMaterials[mat.m] = mat.q;
+				}
+			});
+		}
+		if (currentArmor.torso.forge) {
+			totalCost += currentArmor.torso.forge;
+
+			currentArmor.torso.mats.forEach((mat) => {
+				if (allMaterials[mat.m]) {
+					allMaterials[mat.m] += mat.q;
+				}
+				else {
+					allMaterials[mat.m] = mat.q;
+				}
+			});
+		}
+		if (currentArmor.arms.forge) {
+			totalCost += currentArmor.arms.forge;
+
+			currentArmor.arms.mats.forEach((mat) => {
+				if (allMaterials[mat.m]) {
+					allMaterials[mat.m] += mat.q;
+				}
+				else {
+					allMaterials[mat.m] = mat.q;
+				}
+			});
+		}
+		if (currentArmor.waist.forge) {
+			totalCost += currentArmor.waist.forge;
+
+			currentArmor.waist.mats.forEach((mat) => {
+				if (allMaterials[mat.m]) {
+					allMaterials[mat.m] += mat.q;
+				}
+				else {
+					allMaterials[mat.m] = mat.q;
+				}
+			});
+		}
+		if (currentArmor.legs.forge) {
+			totalCost += currentArmor.legs.forge;
+
+			currentArmor.legs.mats.forEach((mat) => {
+				if (allMaterials[mat.m]) {
+					allMaterials[mat.m] += mat.q;
+				}
+				else {
+					allMaterials[mat.m] = mat.q;
+				}
+			});
+		}
+		window.eachElementByClassName("armor-cost", el => el.innerText = totalCost);
+
+		var materialRows = [];
+		var materialsTBody = document.getElementById("armor-materials");
+		for (var matName in allMaterials) {
+			if (allMaterials.hasOwnProperty(matName)) {
+				materialRows.push(`<tr><td>${ matName }</td><td class="ta-r">${ allMaterials[matName] }</td></tr>`);
+			}
+		}
+		if (materialRows.length === 0) {
+			materialsTBody.innerHTML = "<tr><td class='ta-l'>None</td></tr>";
+		}
+		else {
+			materialsTBody.innerHTML = materialRows.join("");
+		}
+
 		// Show an error if mixing gendered pieces
 		var femalePartCount = 0;
 		var malePartCount = 0;
