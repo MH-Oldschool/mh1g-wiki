@@ -1,0 +1,12 @@
+{
+	name:"{{name}}",
+	{{#gender}}gender:"{{gender}}",{{/gender}}
+	{{#class}}class:"{{class}}",{{/class}}
+	rarity:{{rarity}},
+	{{#buy}}buy:{{buy}},{{/buy}}
+	forge:{{forge}},
+	def:{{def}},
+	res:[ {{res}} ],
+	skills:[ {{#skills}}{ k:"{{k}}", q:{{q}} },{{/skills}} ],
+	mats:[ {{#mats}}{ m:"{{m}}"{{#q}}, q:{{q}}{{/q}} },{{/mats}} ]
+}

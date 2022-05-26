@@ -1,5 +1,15 @@
 {{> head}}
 
+<script type="text/javascript">
+	window.armorData = {
+		headgear: [{{#headgear}}{{> armor_data}},{{/headgear}}],
+		torso: [{{#torso}}{{> armor_data}},{{/torso}}],
+		arms: [{{#arms}}{{> armor_data}},{{/arms}}],
+		waist: [{{#waist}}{{> armor_data}},{{/waist}}],
+		legs: [{{#legs}}{{> armor_data}},{{/legs}}]
+	}
+</script>
+
 <div class="armor-filter-buttons">
 	<h3>Gender:</h3>
 	<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">Both</label>

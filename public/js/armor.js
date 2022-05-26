@@ -1,22 +1,81 @@
 ready(() => {
-	function getJson(path, callback) {
-		var request = new XMLHttpRequest();
-		request.open('GET', path, true);
+	var currentArmor = {
+		headgear: window.armorData.headgear[0],
+		torso: window.armorData.torso[0],
+		arms: window.armorData.arms[0],
+		waist: window.armorData.waist[0],
+		legs: window.armorData.legs[0]
+	};
 
-		request.onreadystatechange = function() {
-			if (this.readyState === 4) {
-				if (this.status >= 200 && this.status < 400) {
-					callback(JSON.parse(this.responseText));
-				}
-				else {
-					console.error(this.responseText);
-				}
+	// Find selected armor if reloading page, or set all pieces to None
+	(() => {
+		var headRadios = document.getElementsByClassName("headgear-radio");
+		var armorFound = false;
+		for (let i = 0; i < headRadios.length; i++) {
+			if (headRadios[i].checked) {
+				armorFound = true;
+				setHeadgear(window.armorData.headgear[headRadios[i].dataset.index]);
+				break;
 			}
-		};
+		}
+		if (!armorFound) {
+			setHeadgear(currentArmor.headgear);
+		}
 
-		request.send();
-		request = null;
-	}
+		var torsoRadios = document.getElementsByClassName("torso-radio");
+		armorFound = false;
+		for (let i = 0; i < torsoRadios.length; i++) {
+			if (torsoRadios[i].checked) {
+				armorFound = true;
+				setTorso(window.armorData.torso[torsoRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setTorso(currentArmor.torso);
+		}
+
+		var armRadios = document.getElementsByClassName("arms-radio");
+		armorFound = false;
+		for (let i = 0; i < armRadios.length; i++) {
+			if (armRadios[i].checked) {
+				armorFound = true;
+				setArms(window.armorData.arms[armRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setArms(currentArmor.arms);
+		}
+
+		var waistRadios = document.getElementsByClassName("waist-radio");
+		armorFound = false;
+		for (let i = 0; i < waistRadios.length; i++) {
+			if (waistRadios[i].checked) {
+				armorFound = true;
+				setWaist(window.armorData.waist[waistRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setWaist(currentArmor.waist);
+		}
+
+		var legsRadios = document.getElementsByClassName("legs-radio");
+		armorFound = false;
+		for (let i = 0; i < legsRadios.length; i++) {
+			if (legsRadios[i].checked) {
+				armorFound = true;
+				setLegs(window.armorData.legs[legsRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setLegs(currentArmor.legs);
+		}
+
+		updateArmorStats();
+	}).call();
 
 	function handleArmorGenderChange(event) {
 		switch (this.value) {
@@ -270,106 +329,17 @@ ready(() => {
 	});
 
 	function unsetArmor() {
-		if (armorDataLoaded) {
-			currentArmor.headgear = armorData.headgear[0];
-			currentArmor.torso = armorData.torso[0];
-			currentArmor.arms = armorData.arms[0];
-			currentArmor.waist = armorData.waist[0];
-			currentArmor.legs = armorData.legs[0];
-
-			updateArmorStats();
-		}
-	}
-	document.body.addEventListener("g-toggle", () => {
-		unsetArmor();
-		closePopup();
-	});
-
-	var armorDataLoaded = false;
-	var currentArmor = {};
-	getJson("/armor-data", (json) => {
-		window.armorData = {
-			headgear: json.headgear,
-			torso: json.torso,
-			arms: json.arms,
-			waist: json.waist,
-			legs: json.legs
-		}
-
 		currentArmor.headgear = armorData.headgear[0];
 		currentArmor.torso = armorData.torso[0];
 		currentArmor.arms = armorData.arms[0];
 		currentArmor.waist = armorData.waist[0];
 		currentArmor.legs = armorData.legs[0];
 
-		var headRadios = document.getElementsByClassName("headgear-radio");
-		var armorFound = false;
-		for (let i = 0; i < headRadios.length; i++) {
-			if (headRadios[i].checked) {
-				armorFound = true;
-				setHeadgear(window.armorData.headgear[headRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setHeadgear(currentArmor.headgear);
-		}
-
-		var torsoRadios = document.getElementsByClassName("torso-radio");
-		armorFound = false;
-		for (let i = 0; i < torsoRadios.length; i++) {
-			if (torsoRadios[i].checked) {
-				armorFound = true;
-				setTorso(window.armorData.torso[torsoRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setTorso(currentArmor.torso);
-		}
-
-		var armRadios = document.getElementsByClassName("arms-radio");
-		armorFound = false;
-		for (let i = 0; i < armRadios.length; i++) {
-			if (armRadios[i].checked) {
-				armorFound = true;
-				setArms(window.armorData.arms[armRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setArms(currentArmor.arms);
-		}
-
-		var waistRadios = document.getElementsByClassName("waist-radio");
-		armorFound = false;
-		for (let i = 0; i < waistRadios.length; i++) {
-			if (waistRadios[i].checked) {
-				armorFound = true;
-				setWaist(window.armorData.waist[waistRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setWaist(currentArmor.waist);
-		}
-
-		var legsRadios = document.getElementsByClassName("legs-radio");
-		armorFound = false;
-		for (let i = 0; i < legsRadios.length; i++) {
-			if (legsRadios[i].checked) {
-				armorFound = true;
-				setLegs(window.armorData.legs[legsRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setLegs(currentArmor.legs);
-		}
-
 		updateArmorStats();
-
-		armorDataLoaded = true;
+	}
+	document.body.addEventListener("g-toggle", () => {
+		unsetArmor();
+		closePopup();
 	});
 
 	function isMH1() {
