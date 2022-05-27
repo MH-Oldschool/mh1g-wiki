@@ -237,6 +237,76 @@ tr.base-only.show {
 	display: table-row;
 }
 
+.filters {
+	padding: 0 0 0 1.25rem;
+	margin-bottom: 0.25rem;
+}
+.filter-column {
+	display: inline-block;
+	vertical-align: middle;
+}
+.filter-buttons {
+	margin: 0.375rem 0;
+}
+.filter-buttons label {
+	display: inline-block;
+	background: linear-gradient(0.25turn, rgba(79,255,247,0.0) 10%, rgba(79,255,247,0.0), rgba(79,255,247,0.0) 90%);
+	color: #856b5c;
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 1.5rem;
+	text-shadow: 0.125rem 0.125rem 0 #000;
+	padding: 0 0.75rem;
+	height: 1.5rem;
+}
+.filter-buttons label:hover {
+	background: linear-gradient(0.25turn, rgba(79,255,247,0.0) 10%, rgba(79,255,247,0.45), rgba(79,255,247,0.0) 90%);
+}
+.filter-buttons input:checked + label {
+	background: linear-gradient(0.25turn, rgba(79,255,247,0.0) 10%, rgba(79,255,247,0.75), rgba(79,255,247,0.0) 90%);
+	color: inherit;
+	text-shadow: 0.125rem 0.125rem 0 #ff435d;
+}
+
+.filter-checks label {
+	position: relative;
+	padding-left: 1.125rem;
+	margin: 0 0.25rem;
+}
+.filter-checks label:before,
+.filter-checks label:after {
+	content: "";
+	position: absolute;
+	margin: 0;
+	left: 0;
+}
+.filter-checks label:before {
+	box-sizing: border-box;
+	border: 0.0625rem solid #d7d7d7;
+	width: 1rem;
+	height: 1rem;
+	top: 0;
+	left: 0;
+}
+.filter-checks label:after {
+	background: rgb(79,255,247);
+	width: 0.75rem;
+	height: 0.75rem;
+	top: 0.125rem;
+	left: 0.125rem;
+	opacity: 0;
+	transition: opacity 300ms;
+}
+.filter-checks input[type=checkbox]:checked + label:after {
+	opacity: 0.75;
+}
+.filters .element-res-label .attribute-icon {
+	vertical-align: middle;
+}
+.filters .element-res-label span {
+	line-height: 1rem;
+}
+
 .rare-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
 .rare-5 { background: rgba(255,176,176,0.2) /* #ffb0b0 */ }
 .rare-6 { background: rgba(192,208,255,0.2) /* #c0d0ff */ }

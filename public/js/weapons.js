@@ -1,4 +1,30 @@
 ready(() => {
+	var weaponElementChecks = document.getElementsByName("weapon-element-status");
+	function updateWeaponVisibility() {
+		var filterWeapons = false;
+
+		for (var i = 0; i < weaponElementChecks.length; i++) {
+			if (weaponElementChecks[i].checked && !filterWeapons) filterWeapons = true;
+			if (weaponElementChecks[i].checked) {
+				document.body.classList.add(weaponElementChecks[i].value);
+			}
+			else {
+				document.body.classList.remove(weaponElementChecks[i].value);
+			}
+		}
+
+		if (filterWeapons) {
+			document.body.classList.add("filter-weapons");
+		}
+		else {
+			document.body.classList.remove("filter-weapons");
+		}
+	}
+	for (var i = 0; i < weaponElementChecks.length; i++) {
+		weaponElementChecks[i].addEventListener("click", updateWeaponVisibility);
+	}
+	updateWeaponVisibility();
+
 	var toggleBranchButton = (branchButton, open) => {
 		if (open) {
 			branchButton.classList.add("open");

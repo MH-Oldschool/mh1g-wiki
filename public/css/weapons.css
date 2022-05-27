@@ -1,3 +1,14 @@
+.highlight-fire .fire-element,
+.highlight-water .water-element,
+.highlight-thunder .thunder-element,
+.highlight-dragon .dragon-element,
+.highlight-poison .poison-status,
+.highlight-paralysis .paralysis-status,
+.highlight-sleep .sleep-status {
+	text-shadow: 0.0625rem 0.0625rem 0 rgba(255,67,93,0.85);
+	box-shadow: inset 0 0 0.125rem 0.125rem rgba(79,255,247,0.85);
+}
+
 #melee-weapons td:first-child {
 	white-space: nowrap;
 }
@@ -27,6 +38,7 @@
 	position: relative;
 	padding: 0;
 	width: 8.25rem;
+	min-width: 8.25rem;
 }
 .sharpness-cell img {
 	display: block;
