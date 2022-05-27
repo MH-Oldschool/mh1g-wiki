@@ -7,76 +7,6 @@ ready(() => {
 		legs: window.armorData.legs[0]
 	};
 
-	// Find selected armor if reloading page, or set all pieces to None
-	(() => {
-		var headRadios = document.getElementsByClassName("headgear-radio");
-		var armorFound = false;
-		for (let i = 0; i < headRadios.length; i++) {
-			if (headRadios[i].checked) {
-				armorFound = true;
-				setHeadgear(window.armorData.headgear[headRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setHeadgear(currentArmor.headgear);
-		}
-
-		var torsoRadios = document.getElementsByClassName("torso-radio");
-		armorFound = false;
-		for (let i = 0; i < torsoRadios.length; i++) {
-			if (torsoRadios[i].checked) {
-				armorFound = true;
-				setTorso(window.armorData.torso[torsoRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setTorso(currentArmor.torso);
-		}
-
-		var armRadios = document.getElementsByClassName("arms-radio");
-		armorFound = false;
-		for (let i = 0; i < armRadios.length; i++) {
-			if (armRadios[i].checked) {
-				armorFound = true;
-				setArms(window.armorData.arms[armRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setArms(currentArmor.arms);
-		}
-
-		var waistRadios = document.getElementsByClassName("waist-radio");
-		armorFound = false;
-		for (let i = 0; i < waistRadios.length; i++) {
-			if (waistRadios[i].checked) {
-				armorFound = true;
-				setWaist(window.armorData.waist[waistRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setWaist(currentArmor.waist);
-		}
-
-		var legsRadios = document.getElementsByClassName("legs-radio");
-		armorFound = false;
-		for (let i = 0; i < legsRadios.length; i++) {
-			if (legsRadios[i].checked) {
-				armorFound = true;
-				setLegs(window.armorData.legs[legsRadios[i].dataset.index]);
-				break;
-			}
-		}
-		if (!armorFound) {
-			setLegs(currentArmor.legs);
-		}
-
-		updateArmorStats();
-	}).call();
-
 	function handleArmorGenderChange(event) {
 		switch (this.value) {
 			case "a":
@@ -823,6 +753,53 @@ ready(() => {
 		el.addEventListener("click", handleLegsClick);
 	});
 
+	// Show/hide armor based on elemental res
+	var armorStatCheckboxes = document.getElementsByName("armor-stat");
+	function shouldShowRow(resistances, checked) {
+		var matchesFireRes = (checked["f+"] && resistances[0] >= 0) || (checked["f-"] && resistances[0] <= 0) || (!checked["f+"] && !checked["f-"]);
+		var matchesWaterRes = (checked["w+"] && resistances[1] >= 0) || (checked["w-"] && resistances[1] <= 0) || (!checked["w+"] && !checked["w-"]);
+		var matchesThunderRes = (checked["t+"] && resistances[2] >= 0) || (checked["t-"] && resistances[2] <= 0) || (!checked["t+"] && !checked["t-"]);
+		var matchesDragonRes = (checked["d+"] && resistances[3] >= 0) || (checked["d-"] && resistances[3] <= 0) || (!checked["d+"] && !checked["d-"]);
+
+		return matchesFireRes && matchesWaterRes && matchesThunderRes && matchesDragonRes;
+	}
+	function updateArmorResVisibility() {
+		var armorResChecked = {};
+
+		for (var i = 0; i < armorStatCheckboxes.length; i++) {
+			armorResChecked[armorStatCheckboxes[i].value] = armorStatCheckboxes[i].checked;
+		}
+
+		var headgearRows = document.getElementById("headgear-tbody").children;
+		for (var i = 0; i < headgearRows.length; i++) {
+			headgearRows[i].style.display = shouldShowRow(window.armorData.headgear[i].res, armorResChecked) ? "" : "none";
+		}
+
+		var torsoRows = document.getElementById("torso-tbody").children;
+		for (var i = 0; i < torsoRows.length; i++) {
+			torsoRows[i].style.display = shouldShowRow(window.armorData.torso[i].res, armorResChecked) ? "" : "none";
+		}
+
+		var armsRows = document.getElementById("arms-tbody").children;
+		for (var i = 0; i < armsRows.length; i++) {
+			armsRows[i].style.display = shouldShowRow(window.armorData.arms[i].res, armorResChecked) ? "" : "none";
+		}
+
+		var waistRows = document.getElementById("waist-tbody").children;
+		for (var i = 0; i < waistRows.length; i++) {
+			waistRows[i].style.display = shouldShowRow(window.armorData.waist[i].res, armorResChecked) ? "" : "none";
+		}
+
+		var legsRows = document.getElementById("legs-tbody").children;
+		for (var i = 0; i < legsRows.length; i++) {
+			legsRows[i].style.display = shouldShowRow(window.armorData.legs[i].res, armorResChecked) ? "" : "none";
+		}
+	}
+	for (var i = 0; i < armorStatCheckboxes.length; i++) {
+		armorStatCheckboxes[i].addEventListener("click", updateArmorResVisibility);
+	}
+	updateArmorResVisibility();
+
 	// Assign full armor sets with skills for MH1
 	function handleSkillSetButtonClick(event) {
 		var skillSet = SKILL_SETS[event.target.dataset.index];
@@ -878,4 +855,74 @@ ready(() => {
 		closePopup();
 	}
 	window.eachElementByClassName("skill-set-button", button => button.addEventListener("click", handleSkillSetButtonClick));
+
+	// Find selected armor if reloading page, or set all pieces to None
+	(() => {
+		var headRadios = document.getElementsByClassName("headgear-radio");
+		var armorFound = false;
+		for (let i = 0; i < headRadios.length; i++) {
+			if (headRadios[i].checked) {
+				armorFound = true;
+				setHeadgear(window.armorData.headgear[headRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setHeadgear(currentArmor.headgear);
+		}
+
+		var torsoRadios = document.getElementsByClassName("torso-radio");
+		armorFound = false;
+		for (let i = 0; i < torsoRadios.length; i++) {
+			if (torsoRadios[i].checked) {
+				armorFound = true;
+				setTorso(window.armorData.torso[torsoRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setTorso(currentArmor.torso);
+		}
+
+		var armRadios = document.getElementsByClassName("arms-radio");
+		armorFound = false;
+		for (let i = 0; i < armRadios.length; i++) {
+			if (armRadios[i].checked) {
+				armorFound = true;
+				setArms(window.armorData.arms[armRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setArms(currentArmor.arms);
+		}
+
+		var waistRadios = document.getElementsByClassName("waist-radio");
+		armorFound = false;
+		for (let i = 0; i < waistRadios.length; i++) {
+			if (waistRadios[i].checked) {
+				armorFound = true;
+				setWaist(window.armorData.waist[waistRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setWaist(currentArmor.waist);
+		}
+
+		var legsRadios = document.getElementsByClassName("legs-radio");
+		armorFound = false;
+		for (let i = 0; i < legsRadios.length; i++) {
+			if (legsRadios[i].checked) {
+				armorFound = true;
+				setLegs(window.armorData.legs[legsRadios[i].dataset.index]);
+				break;
+			}
+		}
+		if (!armorFound) {
+			setLegs(currentArmor.legs);
+		}
+
+		updateArmorStats();
+	}).call();
 });

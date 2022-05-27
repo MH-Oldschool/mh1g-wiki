@@ -125,6 +125,7 @@ nav div.link {
 	text-shadow: 0.125rem 0.125rem 0 #ff435d;
 }
 
+input[type="checkbox"],
 input[type="radio"] {
 	display: none;
 }

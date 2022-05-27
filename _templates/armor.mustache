@@ -10,22 +10,68 @@
 	}
 </script>
 
-<div class="armor-filter-buttons">
-	<h3>Gender:</h3>
-	<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">Both</label>
-	<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
-	<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
-</div>
+<section id="armor-filters">
+	<div class="armor-filter-column">
+		<div class="armor-filter-buttons">
+			<h3>Gender:</h3>
+			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">Both</label>
+			<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
+			<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
+		</div>
 
-<div class="armor-filter-buttons">
-	<h3>Armor Class:</h3>
-	<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
-	<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
-	<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
-	<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
-</div>
+		<div class="armor-filter-buttons">
+			<h3>Armor Class:</h3>
+			<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
+			<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
+			<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
+			<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
+		</div>
+	</div>
 
-<button id="popup-show" class="base-only">See Skilled Armor Sets</button>
+	<div class="armor-filter-column">
+		<div class="armor-filter-checks">
+			<h3>Elemental Resistances:</h3>
+			<div>
+				<input id="armor-stat-fire-up" name="armor-stat" type="checkbox" value="f+"/>
+				<label for="armor-stat-fire-up" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>+</span>
+				</label>
+				<input id="armor-stat-water-up" name="armor-stat" type="checkbox" value="w+"/>
+				<label for="armor-stat-water-up" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>+</span>
+				</label>
+				<input id="armor-stat-thunder-up" name="armor-stat" type="checkbox" value="t+"/>
+				<label for="armor-stat-thunder-up" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>+</span>
+				</label>
+				<input id="armor-stat-dragon-up" name="armor-stat" type="checkbox" value="d+"/>
+				<label for="armor-stat-dragon-up" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>+</span>
+				</label>
+			</div>
+			<div>
+				<input id="armor-stat-fire-down" name="armor-stat" type="checkbox" value="f-"/>
+				<label for="armor-stat-fire-down" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>-</span>
+				</label>
+				<input id="armor-stat-water-down" name="armor-stat" type="checkbox" value="w-"/>
+				<label for="armor-stat-water-down" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>-</span>
+				</label>
+				<input id="armor-stat-thunder-down" name="armor-stat" type="checkbox" value="t-"/>
+				<label for="armor-stat-thunder-down" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>-</span>
+				</label>
+				<input id="armor-stat-dragon-down" name="armor-stat" type="checkbox" value="d-"/>
+				<label for="armor-stat-dragon-down" class="element-res-label">
+					<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>-</span>
+				</label>
+			</div>
+		</div>
+	</div>
+
+	<button id="popup-show" class="base-only">See Skilled Armor Sets</button>
+</section>
 
 <details>
 	<summary><h2>Headgear</h2></summary>
@@ -44,7 +90,7 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="headgear-tbody">
 			{{#headgear}}
 				{{> headgear_row}}
 			{{/headgear}}
@@ -69,7 +115,7 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="torso-tbody">
 			{{#torso}}
 				{{> torso_row}}
 			{{/torso}}
@@ -94,7 +140,7 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="arms-tbody">
 			{{#arms}}
 				{{> arms_row}}
 			{{/arms}}
@@ -119,7 +165,7 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="waist-tbody">
 			{{#waist}}
 				{{> waist_row}}
 			{{/waist}}
@@ -144,7 +190,7 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="legs-tbody">
 			{{#legs}}
 				{{> legs_row}}
 			{{/legs}}

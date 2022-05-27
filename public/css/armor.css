@@ -21,8 +21,15 @@ body {
 	display: none;
 }
 
-.armor-filter-buttons {
+#armor-filters {
 	padding: 0 0 0 1.25rem;
+	margin-bottom: 0.25rem;
+}
+.armor-filter-column {
+	display: inline-block;
+	vertical-align: middle;
+}
+.armor-filter-buttons {
 	margin: 0.375rem 0;
 }
 .armor-filter-buttons label {
@@ -45,10 +52,52 @@ body {
 	text-shadow: 0.125rem 0.125rem 0 #ff435d;
 }
 
+.armor-filter-checks label {
+	position: relative;
+	padding-left: 1.125rem;
+	margin: 0 0.25rem;
+}
+.armor-filter-checks label:before,
+.armor-filter-checks label:after {
+	content: "";
+	position: absolute;
+	margin: 0;
+	left: 0;
+}
+.armor-filter-checks label:before {
+	box-sizing: border-box;
+	border: 0.0625rem solid #d7d7d7;
+	width: 1rem;
+	height: 1rem;
+	top: 0;
+	left: 0;
+}
+.armor-filter-checks label:after {
+	background: rgb(79,255,247);
+	width: 0.75rem;
+	height: 0.75rem;
+	top: 0.125rem;
+	left: 0.125rem;
+	opacity: 0;
+	transition: opacity 300ms;
+}
+.armor-filter-checks input[type=checkbox]:checked + label:after {
+	opacity: 0.75;
+}
+.element-res-label .attribute-icon {
+	vertical-align: middle;
+}
+.element-res-label span {
+	line-height: 1rem;
+}
+
 #popup-show {
-	background: transparent;
+	background: rgba(255,255,255,0.0);
 	border-radius: 0.25rem;
-	margin-left: 1.125rem;
+	transition: background-color 300ms;
+}
+#popup-show:hover {
+	background-color: rgba(255,255,255,0.2);
 }
 
 .gender-mixing-error,
