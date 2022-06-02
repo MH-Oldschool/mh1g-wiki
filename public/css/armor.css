@@ -154,19 +154,25 @@ body.show-1 #armor-builder {
 #skill-set-popup .popup-content {
 	border: 1px solid;
 	margin: 0 auto;
-	max-width: 65rem;
-	width: 70%;
-	height: 80%;
+	max-width: 110rem;
+	width: 90%;
+	height: 85%;
 	top: 50%;
 	left: 0;
 	right: 0;
 	transform: translateY(-50%);
 }
-#skill-set-popup thead td {
+#skill-set-popup th {
 	border-top: 0;
 }
+#skill-set-popup tbody tr {
+	border: 0;
+}
 #skill-set-popup td:first-child {
-	border-left: 0;
+	border: 0;
+}
+#skill-set-popup td:nth-child(6) {
+	border-right-width: 0.25rem;
 }
 #skill-set-popup td:last-child {
 	border-right: 0;

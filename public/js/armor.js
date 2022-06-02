@@ -239,9 +239,17 @@ ready(() => {
 
 	// Populate skillset popup
 	var skillSetRows = SKILL_SETS.map((skillSet, index) => {
-		var skillSetArmor = skillSet.armor.filter(el => el.length !== 0);
+		var armorSetRow = `<tr><td><button class="skill-set-button" data-index=${ index }>Equip &rarr;</button></td>`;
 
-		return `<tr><td><button class="skill-set-button" style="line-height:${ skillSetArmor.length }" data-index=${ index }>Set ${ index + 1 }</button></td><td>${ skillSetArmor.join("<br/>") }</td><td>${ skillSet.skills.join("<br/>") }</td></tr>`;
+		for (let i = 0; i < 5; i++) {
+			armorSetRow += `<td>${ skillSet.armor[i] ? skillSet.armor[i] : "-" }</td>`
+		}
+		for (let i = 0; i < 3; i++) {
+			armorSetRow += `<td>${ skillSet.skills[i] ? skillSet.skills[i] : "-" }</td>`;
+		}
+
+		armorSetRow += "</tr>";
+		return armorSetRow;
 	});
 	document.getElementById("skill-set-popup-tbody").innerHTML = skillSetRows.join("");
 
