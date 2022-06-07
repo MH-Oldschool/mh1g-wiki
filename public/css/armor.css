@@ -138,13 +138,13 @@ body.show-1 #armor-builder {
 	font-weight: bold;
 }
 
-#armor-cost-table {
+.armor-cost-table {
 	margin: 0.5rem 0;
 }
-#armor-cost-table td:first-child {
+.armor-cost-table td:first-child {
 	width: 4rem;
 }
-#armor-cost-table td:last-child {
+.armor-cost-table td:last-child {
 	text-align: right;
 }
 

@@ -1,20 +1,27 @@
 {{> head}}
 
 <script type="text/javascript">
-	window.armorData = {
-		headgear: [{{#headgear}}{{> armor_data}},{{/headgear}}],
-		torso: [{{#torso}}{{> armor_data}},{{/torso}}],
-		arms: [{{#arms}}{{> armor_data}},{{/arms}}],
-		waist: [{{#waist}}{{> armor_data}},{{/waist}}],
-		legs: [{{#legs}}{{> armor_data}},{{/legs}}]
-	}
+	window.armorData1 = {
+		headgear: [{{#headgear_1}}{{> armor_data}},{{/headgear_1}}],
+		torso: [{{#torso_1}}{{> armor_data}},{{/torso_1}}],
+		arms: [{{#arms_1}}{{> armor_data}},{{/arms_1}}],
+		waist: [{{#waist_1}}{{> armor_data}},{{/waist_1}}],
+		legs: [{{#legs_1}}{{> armor_data}},{{/legs_1}}]
+	};
+	window.armorDataG = {
+		headgear: [{{#headgear_g}}{{> armor_data}},{{/headgear_g}}],
+		torso: [{{#torso_g}}{{> armor_data}},{{/torso_g}}],
+		arms: [{{#arms_g}}{{> armor_data}},{{/arms_g}}],
+		waist: [{{#waist_g}}{{> armor_data}},{{/waist_g}}],
+		legs: [{{#legs_g}}{{> armor_data}},{{/legs_g}}]
+	};
 </script>
 
 <section class="filters">
 	<div class="filter-column">
 		<div class="filter-buttons">
 			<h3>Gender:</h3>
-			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">Both</label>
+			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">All</label>
 			<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
 			<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
 		</div>
@@ -90,10 +97,16 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody id="headgear-tbody">
-			{{#headgear}}
+		<tbody id="headgear-1-tbody" class="base-only">
+			{{#headgear_1}}
 				{{> headgear_row}}
-			{{/headgear}}
+			{{/headgear_1}}
+		</tbody>
+
+		<tbody id="headgear-g-tbody" class="g-only">
+			{{#headgear_g}}
+				{{> headgear_row}}
+			{{/headgear_g}}
 		</tbody>
 	</table>
 </details>
@@ -115,10 +128,16 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody id="torso-tbody">
-			{{#torso}}
+		<tbody id="torso-1-tbody" class="base-only">
+			{{#torso_1}}
 				{{> torso_row}}
-			{{/torso}}
+			{{/torso_1}}
+		</tbody>
+
+		<tbody id="torso-g-tbody" class="g-only">
+			{{#torso_g}}
+				{{> torso_row}}
+			{{/torso_g}}
 		</tbody>
 	</table>
 </details>
@@ -140,10 +159,16 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody id="arms-tbody">
-			{{#arms}}
+		<tbody id="arms-1-tbody" class="base-only">
+			{{#arms_1}}
 				{{> arms_row}}
-			{{/arms}}
+			{{/arms_1}}
+		</tbody>
+
+		<tbody id="arms-g-tbody" class="g-only">
+			{{#arms_g}}
+				{{> arms_row}}
+			{{/arms_g}}
 		</tbody>
 	</table>
 </details>
@@ -165,10 +190,16 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody id="waist-tbody">
-			{{#waist}}
+		<tbody id="waist-1-tbody" class="base-only">
+			{{#waist_1}}
 				{{> waist_row}}
-			{{/waist}}
+			{{/waist_1}}
+		</tbody>
+
+		<tbody id="waist-g-tbody" class="g-only">
+			{{#waist_g}}
+				{{> waist_row}}
+			{{/waist_g}}
 		</tbody>
 	</table>
 </details>
@@ -190,10 +221,16 @@
 				</tr>
 			</tr>
 		</thead>
-		<tbody id="legs-tbody">
-			{{#legs}}
+		<tbody id="legs-1-tbody" class="base-only">
+			{{#legs_1}}
 				{{> legs_row}}
-			{{/legs}}
+			{{/legs_1}}
+		</tbody>
+
+		<tbody id="legs-g-tbody" class="g-only">
+			{{#legs_g}}
+				{{> legs_row}}
+			{{/legs_g}}
 		</tbody>
 	</table>
 </details>
@@ -207,75 +244,136 @@
 		<div class="armor-rows-container">
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/headgear.gif"/>
-				<span class="headgear-name armor-name"></span>
+				<span id="headgear-name-1" class="base-only headgear-name armor-name"></span>
+				<span id="headgear-name-g" class="g-only headgear-name armor-name"></span>
 			</div>
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/torso.gif"/>
-				<span class="torso-name armor-name"></span>
+				<span id="torso-name-1" class="base-only torso-name armor-name"></span>
+				<span id="torso-name-g" class="g-only torso-name armor-name"></span>
 			</div>
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/arms.gif"/>
-				<span class="arms-name armor-name"></span>
+				<span id="arms-name-1" class="base-only arms-name armor-name"></span>
+				<span id="arms-name-g" class="g-only arms-name armor-name"></span>
 			</div>
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/waist.gif"/>
-				<span class="waist-name armor-name"></span>
+				<span id="waist-name-1" class="base-only waist-name armor-name"></span>
+				<span id="waist-name-g" class="g-only waist-name armor-name"></span>
 			</div>
 			<div class="armor-row">
 				<img class="armor-icon" src="images/armor_icons/legs.gif"/>
-				<span class="legs-name armor-name"></span>
+				<span id="legs-name-1" class="base-only legs-name armor-name"></span>
+				<span id="legs-name-g" class="g-only legs-name armor-name"></span>
 			</div>
 		</div>
-		<div class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
-		<div class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
-		<div class="stats-rows">
+
+		<div id="gender-mixing-error-1" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
+		<div id="class-mixing-error-1" class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
+		<div class="base-only stats-rows">
 			<table>
 				<tbody>
 					<tr>
-						<th scope="row">Health</th><td class="health-stat">100</td>
+						<th scope="row">Health</th><td id="health-stat-1" class="health-stat">100</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
-							<span class="fire-res res-value">0</span>
+							<span id="fire-res-1" class="res-value">0</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Stamina</th><td class="stamina-stat">100</td>
+						<th scope="row">Stamina</th><td id="stamina-stat-1" class="stamina-stat">100</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
-							<span class="water-res res-value">0</span>
+							<span id="water-res-1" class="res-value">0</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Attack</th><td class="attack-stat">0</td>
+						<th scope="row">Attack</th><td id="attack-stat-1" class="attack-stat">0</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
-							<span class="thunder-res res-value">0</span>
+							<span id="thunder-res-1" class="res-value">0</span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Defense</th><td class="defense-stat">0</td>
+						<th scope="row">Defense</th><td id="defense-stat-1" class="defense-stat">0</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
-							<span class="dragon-res res-value">0</span>
+							<span id="dragon-res-1" class="res-value">0</span>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
-		<table>
-			<tbody id="armor-skills">
-			</tbody>
-		</table>
-		<table id="armor-cost-table">
-			<tbody>
-				<tr><td>Cost:</td><td><span class="armor-cost">0</span>z</td></tr>
-			</tbody>
-		</table>
-		<table>
-			<tbody id="armor-materials">
-				<tr><td>None</td></tr>
-			</tbody>
-		</table>
+		<div class="base-only">
+			<table>
+				<tbody id="armor-skills-1">
+				</tbody>
+			</table>
+			<table class="armor-cost-table">
+				<tbody>
+					<tr><td>Cost:</td><td><span id="armor-cost-1">0</span>z</td></tr>
+				</tbody>
+			</table>
+			<table>
+				<tbody id="armor-materials-1">
+					<tr><td>None</td></tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="gender-mixing-error-g" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
+		<div id="class-mixing-error-g" class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
+		<div class="g-only stats-rows">
+			<table>
+				<tbody>
+					<tr>
+						<th scope="row">Health</th><td id="health-stat-g" class="health-stat">100</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
+							<span id="fire-res-g" class="res-value">0</span>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Stamina</th><td id="stamina-stat-g" class="stamina-stat">100</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
+							<span id="water-res-g" class="res-value">0</span>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Attack</th><td id="attack-stat-g" class="attack-stat">0</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
+							<span id="thunder-res-g" class="res-value">0</span>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Defense</th><td id="defense-stat-g" class="defense-stat">0</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
+							<span id="dragon-res-g" class="res-value">0</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="g-only">
+			<table>
+				<tbody id="armor-skills-g">
+				</tbody>
+			</table>
+			<table class="armor-cost-table">
+				<tbody>
+					<tr><td>Cost:</td><td><span id="armor-cost-g">0</span>z</td></tr>
+				</tbody>
+			</table>
+			<table>
+				<tbody id="armor-materials-g">
+					<tr><td>None</td></tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </aside>
 
