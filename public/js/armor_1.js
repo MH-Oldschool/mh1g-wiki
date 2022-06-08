@@ -63,11 +63,11 @@ ready(() => {
 	}
 
 	function unsetArmor() {
-		currentArmor.headgear = window.armorDataG.headgear[0];
-		currentArmor.torso = window.armorDataG.torso[0];
-		currentArmor.arms = window.armorDataG.arms[0];
-		currentArmor.waist = window.armorDataG.waist[0];
-		currentArmor.legs = window.armorDataG.legs[0];
+		currentArmor.headgear = window.armorData1.headgear[0];
+		currentArmor.torso = window.armorData1.torso[0];
+		currentArmor.arms = window.armorData1.arms[0];
+		currentArmor.waist = window.armorData1.waist[0];
+		currentArmor.legs = window.armorData1.legs[0];
 
 		updateArmorStats();
 	}
@@ -154,21 +154,21 @@ ready(() => {
 		{armor:["","Gravios Vest+","Gravios Guard+","Gravios Coat+","Gravios Leggings+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
 		{armor:["Diablo Helm+","Diablo Mail+","Diablo Vambraces+","",""],skills:["Anti-Wind","Attack Up [small]","Hunger x 1.5"]},
 		{armor:["Diablo Cap+","Diablo Vest+","Diablo Guard+","",""],skills:["Anti-Wind","Attack Up [small]","Hunger x 1.5"]},
-		{armor:["Dragonhead","Dragonhide","Dragon Claw","Dragon Wing","Dragon Foot"],skills:["Attack Up [small]","Anti-Wind","High Speed Damage Recovery"]},
-		{armor:["Dragonface","Dragonskin","Dragon Fist","Dragon Tail","Dragon Legs"],skills:["Attack Up [small]","Anti-Wind","High Speed Damage Recovery"]},
-		{armor:["Guild Knight Helm","Guild Knight Mail","Guild Knight Vambraces","Guild Knight Tasset","Guild Knight Greaves"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-		{armor:["Guild Knight Cap","Guild Knight Vest","Guild Knight Guards","Guild Knight Coat","Guild Knight Leggings"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-		{armor:["Maid Helm","Maid Mail","Maid Vambraces","Maid Tasset","Maid Greaves"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-		{armor:["Maid Cap","Maid Vest","Maid Guards","Maid Coat","Maid Leggings"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-		{armor:["Auroros Helm","Auroros Mail","Auroros Vambraces","Auroros Tasset","Auroros Greaves"],skills:["High Speed Damage Recovery","Auto-Map","Weapon Restoration + 50%"]},
-		{armor:["Genesis Cap","Genesis Vest","Genesis Guards","Genesis Coat","Genesis Leggings"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
-		{armor:["Borealis Helm","Borealis Mail","Borealis Vambraces","Borealis Tasset","Borealis Greaves"],skills:["High Speed Damage Recovery","Auto-Map","Weapon Restoration + 50%"]},
-		{armor:["Glyph Cap","Glyph Vest","Glyph Guards","Glyph Coat","Glyph Leggings"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
-		{armor:["Borealis Helm","Borealis Mail","Borealis Vambraces","Borealis Crimson Tasset","Borealis Crimson Greaves"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
-		{armor:["Glyph Cap","Glyph Vest","Glyph Guards","Glyph Crimson Coat","Glyph Crimson Leggings"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
-		{armor:["Shinobi Helm [Sun]","Shinobi Mail [Sun]","Shinobi Vambraces [Sun]","Shinobi Tasset [Sun]","Sninobi Greaves [Sun]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-		{armor:["Shinobi Cap [Moon]","Shinobi Vest [Moon]","Shinobi Guard [Moon]","Shinobi Coat [Moon]","Sninobi Leggings [Moon]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-		{armor:["Mosswine Helm","Mosswine Mail","","",""],skills:["Hunger x 1.5"]},
+		{armor:["Dragonhead","Dragonhide","Dragonclaw","Dragonwings","Dragonfeet"],skills:["Attack Up [small]","Anti-Wind","High Speed Damage Recovery"]},
+		{armor:["Dragonface","Dragonskin","Dragonfist","Dragontail","Dragonlegs"],skills:["Attack Up [small]","Anti-Wind","High Speed Damage Recovery"]},
+		{armor:["Guild Knight Feather","Guild Knight Suit","Guild Knight Gloves","Guild Knight Coat","Guild Knight Boots"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
+		{armor:["Guild Knight Mask","Guild Knight Vest","Guild Knight Sleeves","Guild Knight Kilt","Guild Knight Tights"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
+		{armor:["Maiden's Hat","Maiden's Vest","Maiden's Sleeves","Maiden's Skirt","Maiden's Stockings"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
+		{armor:["Personal Hat","Personal Vest","Personal Sleeves","Personal Frills","Personal Tights"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
+		{armor:["Auroros Helm","Auroros Torso","Auroros Gauntlets","Auroros Tasset","Auroros Pants"],skills:["High Speed Damage Recovery","Auto-Map","Weapon Restoration + 50%"]},
+		{armor:["Genesis Headpiece","Genesis Torso","Genesis Gauntlets","Genesis Tasset","Genesis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
+		{armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Borealis Tasset","Borealis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Weapon Restoration + 50%"]},
+		{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Glyph Tasset","Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
+		{armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Red Borealis Tasset","Red Borealis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
+		{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Red Glyph Tasset","Red Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
+		{armor:["Shinobi Mask [Sun]","Shinobi Suit [Sun]","Shinobi Kote [Sun]","Shinobi Belt [Sun]","Shinobi Boots [Sun]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
+		{armor:["Shinobi Mask [Moon]","Shinobi Suit [Moon]","Shinobi Kote [Moon]","Shinobi Belt [Moon]","Shinobi Boots [Moon]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
+		{armor:["Moss Mask","Moss Breastplate","","",""],skills:["Hunger x 1.5"]},
 		{armor:["Leather Helm","Leather Vest","Leather Vambraces","Light Belt","Green Pants"],skills:["Toolsaver"]},
 		{armor:["","Chain Mail","Hunter Vambraces","","Hunter Greaves"],skills:["Defense + 5","Health + 10"]},
 		{armor:["","Chain Mail","Hunter Guards","","Hunter Leggings"],skills:["Defense + 5","Health + 10"]},
@@ -200,10 +200,10 @@ ready(() => {
 		// {armor:["Skull Face","Dragon Skin","Hunter Guards","Velociprey Coat","Rathalos Leggings"],skills:["Wide-area Power Seed","Wide-area Armor Seed","Sleep x 2"]},
 		// {armor:["Skull Face","Monoblos Mail","Rathian Vambraces","Dragon Wing","Dragon Foot"],skills:["Wide-area Power Seed","Wide-area Armor Seed","Sleep x 2"]},
 		// {armor:["Skull Face","Monoblos Vest","Rathian Guards","Dragon Tail","Dragon Legs"],skills:["Wide-area Power Seed","Wide-area Armor Seed","Sleep x 2"]},
-		{armor:["Velociprey Helm","Auroros Mail","Shinobi Vambraces (Sun)","Auroros Tasset","Shinobi Greaves (Sun)"],skills:["Automatic Marking"]},
-		{armor:["Velociprey Cap","Genesis Vest","Shinobi Guard (Moon)","Genesis Coat","Shinobi Leggings (Moon)"],skills:["Automatic Marking"]},
-		{armor:["Borealis Helm","Shinobi Mail (Sun)","Shinobi Vambraces (Sun)","Ioprey Tasset","Borealis Greaves"],skills:["Automatic Marking"]},
-		{armor:["Glyph Cap","Shinobi Vest (Moon)","Shinobi Guard (Moon)","Ioprey Coat","Glyph Leggings"],skills:["Automatic Marking"]},
+		{armor:["Velociprey Helm","Auroros Mail","Shinobi Vambraces [Sun]","Auroros Tasset","Shinobi Greaves [Sun]"],skills:["Automatic Marking"]},
+		{armor:["Velociprey Cap","Genesis Vest","Shinobi Guard [Moon]","Genesis Coat","Shinobi Leggings [Moon]"],skills:["Automatic Marking"]},
+		{armor:["Borealis Helm","Shinobi Mail [Sun]","Shinobi Vambraces [Sun]","Ioprey Tasset","Borealis Greaves"],skills:["Automatic Marking"]},
+		{armor:["Glyph Cap","Shinobi Vest [Moon]","Shinobi Guard [Moon]","Ioprey Coat","Glyph Leggings"],skills:["Automatic Marking"]},
 		{armor:["Gravios Helm+","Velociprey Vest","Hunter Vambraces","Hi-Metal Tasset+","Silver Metal Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 		{armor:["Gravios Cap+","Velociprey Vest","Hunter Guards","Hi-Metal Coat+","Silver Metal Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 		{armor:["Cephalos Helm","Hi-Metal Mail+","Cephalos Vambraces","Rathian Tasset","Velociprey Greaves"],skills:["Automatic Marking","Provocation","Poison x 2"]},
@@ -340,10 +340,10 @@ ready(() => {
 	}
 	function getResistances() {
 		return [
-			parseInt(document.getElementsByClassName("fire-res-1").innerText),
-			parseInt(document.getElementsByClassName("water-res-1").innerText),
-			parseInt(document.getElementsByClassName("thunder-res-1").innerText),
-			parseInt(document.getElementsByClassName("dragon-res-1").innerText)
+			parseInt(document.getElementById("fire-res-1").innerText),
+			parseInt(document.getElementById("water-res-1").innerText),
+			parseInt(document.getElementById("thunder-res-1").innerText),
+			parseInt(document.getElementById("dragon-res-1").innerText)
 		];
 	}
 	function calculateSkills() {
@@ -409,7 +409,7 @@ ready(() => {
 
 	function handleHeadgearClick(event) {
 		var index = this.dataset.index;
-		setHeadgear(window.armorDataG.headgear[index]);
+		setHeadgear(window.armorData1.headgear[index]);
 		updateArmorStats();
 	}
 	for (var i = 0; i < headgearRadios.length; i++) {
@@ -419,7 +419,7 @@ ready(() => {
 
 	function handleTorsoClick(event) {
 		var index = this.dataset.index;
-		setTorso(window.armorDataG.torso[index]);
+		setTorso(window.armorData1.torso[index]);
 		updateArmorStats();
 	}
 	for (var i = 0; i < torsoRadios.length; i++) {
@@ -429,7 +429,7 @@ ready(() => {
 
 	function handleArmsClick(event) {
 		var index = this.dataset.index;
-		setArms(window.armorDataG.arms[index]);
+		setArms(window.armorData1.arms[index]);
 		updateArmorStats();
 	}
 	for (var i = 0; i < armsRadios.length; i++) {
@@ -439,7 +439,7 @@ ready(() => {
 
 	function handleWaistClick(event) {
 		var index = this.dataset.index;
-		setWaist(window.armorDataG.waist[index]);
+		setWaist(window.armorData1.waist[index]);
 		updateArmorStats();
 	}
 	for (var i = 0; i < waistRadios.length; i++) {
@@ -449,7 +449,7 @@ ready(() => {
 
 	function handleLegsClick(event) {
 		var index = this.dataset.index;
-		setLegs(window.armorDataG.legs[index]);
+		setLegs(window.armorData1.legs[index]);
 		updateArmorStats();
 	}
 	for (var i = 0; i < legsRadios.length; i++) {
@@ -596,6 +596,7 @@ ready(() => {
 			for (var i = 0; i < window.armorData1.headgear.length; i++) {
 				if (window.armorData1.headgear[i].name == skillSet.armor[0]) {
 					setHeadgear(window.armorData1.headgear[i]);
+					headgearRadios[i].checked = true;
 					break;
 				}
 			}
@@ -605,6 +606,7 @@ ready(() => {
 			for (var i = 0; i < window.armorData1.torso.length; i++) {
 				if (window.armorData1.torso[i].name == skillSet.armor[1]) {
 					setTorso(window.armorData1.torso[i]);
+					torsoRadios[i].checked = true;
 					break;
 				}
 			}
@@ -614,6 +616,7 @@ ready(() => {
 			for (var i = 0; i < window.armorData1.arms.length; i++) {
 				if (window.armorData1.arms[i].name == skillSet.armor[2]) {
 					setArms(window.armorData1.arms[i]);
+					armsRadios[i].checked = true;
 					break;
 				}
 			}
@@ -623,6 +626,7 @@ ready(() => {
 			for (var i = 0; i < window.armorData1.waist.length; i++) {
 				if (window.armorData1.waist[i].name == skillSet.armor[3]) {
 					setWaist(window.armorData1.waist[i]);
+					waistRadios[i].checked = true;
 					break;
 				}
 			}
@@ -632,6 +636,7 @@ ready(() => {
 			for (var i = 0; i < window.armorData1.legs.length; i++) {
 				if (window.armorData1.legs[i].name == skillSet.armor[4]) {
 					setLegs(window.armorData1.legs[i]);
+					legsRadios[i].checked = true;
 					break;
 				}
 			}
@@ -650,7 +655,7 @@ ready(() => {
 		for (let i = 0; i < headgearRadios.length; i++) {
 			if (headgearRadios[i].checked) {
 				armorFound = true;
-				setHeadgear(window.armorDataG.headgear[headgearRadios[i].dataset.index]);
+				setHeadgear(window.armorData1.headgear[headgearRadios[i].dataset.index]);
 				break;
 			}
 		}
@@ -662,7 +667,7 @@ ready(() => {
 		for (let i = 0; i < torsoRadios.length; i++) {
 			if (torsoRadios[i].checked) {
 				armorFound = true;
-				setTorso(window.armorDataG.torso[torsoRadios[i].dataset.index]);
+				setTorso(window.armorData1.torso[torsoRadios[i].dataset.index]);
 				break;
 			}
 		}
@@ -674,7 +679,7 @@ ready(() => {
 		for (let i = 0; i < armsRadios.length; i++) {
 			if (armsRadios[i].checked) {
 				armorFound = true;
-				setArms(window.armorDataG.arms[armsRadios[i].dataset.index]);
+				setArms(window.armorData1.arms[armsRadios[i].dataset.index]);
 				break;
 			}
 		}
@@ -686,7 +691,7 @@ ready(() => {
 		for (let i = 0; i < waistRadios.length; i++) {
 			if (waistRadios[i].checked) {
 				armorFound = true;
-				setWaist(window.armorDataG.waist[waistRadios[i].dataset.index]);
+				setWaist(window.armorData1.waist[waistRadios[i].dataset.index]);
 				break;
 			}
 		}
@@ -698,7 +703,7 @@ ready(() => {
 		for (let i = 0; i < legsRadios.length; i++) {
 			if (legsRadios[i].checked) {
 				armorFound = true;
-				setLegs(window.armorDataG.legs[legsRadios[i].dataset.index]);
+				setLegs(window.armorData1.legs[legsRadios[i].dataset.index]);
 				break;
 			}
 		}

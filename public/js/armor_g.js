@@ -124,10 +124,10 @@ ready(() => {
 	}
 	function getResistances() {
 		return [
-			parseInt(document.getElementsByClassName("fire-res-g").innerText),
-			parseInt(document.getElementsByClassName("water-res-g").innerText),
-			parseInt(document.getElementsByClassName("thunder-res-g").innerText),
-			parseInt(document.getElementsByClassName("dragon-res-g").innerText)
+			parseInt(document.getElementById("fire-res-g").innerText),
+			parseInt(document.getElementById("water-res-g").innerText),
+			parseInt(document.getElementById("thunder-res-g").innerText),
+			parseInt(document.getElementById("dragon-res-g").innerText)
 		];
 	}
 	function calculateSkills() {
