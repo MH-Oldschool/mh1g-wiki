@@ -86,4 +86,8 @@ ready(() => {
 			toggleGVersion(false);
 		}
 	}
+
+	window.closePopup = () => {
+		document.body.classList.remove("show-popup");
+	};
 });
