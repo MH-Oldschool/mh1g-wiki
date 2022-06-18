@@ -80,7 +80,7 @@ function ArmorBuilder(version, builderContainer) {
 			var skillSet = ArmorBuilder.SKILL_SETS[event.target.dataset.index];
 
 			if (skillSet.armor[0].length !== 0) {
-				for (var i = 0; i < this.armorData.headgear.length; i++) {
+				for (var i = 0; i < self.armorData.headgear.length; i++) {
 					if (self.armorData.headgear[i].name == skillSet.armor[0]) {
 						self.setHeadgear(self.armorData.headgear[i]);
 						self.headgearRadios[i].checked = true;
@@ -485,7 +485,7 @@ ArmorBuilder.prototype.calculateSkills = function() {
 		let resistances = this.getResistances();
 		var skillRows = [];
 
-		if (version == "1") {
+		if (this.version == "1") {
 			// Handle exceptional cases for stats
 			if (armorSkills.includes("Health + 10")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 10;
 			else if (armorSkills.includes("Health + 20")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 20;
