@@ -279,7 +279,7 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["Shinobi Mask [Sun]","Shinobi Suit [Sun]","Shinobi Kote [Sun]","Shinobi Belt [Sun]","Shinobi Boots [Sun]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
 	{armor:["Shinobi Mask [Moon]","Shinobi Suit [Moon]","Shinobi Kote [Moon]","Shinobi Belt [Moon]","Shinobi Boots [Moon]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
 	{armor:["Moss Mask","Moss Breastplate","","",""],skills:["Hunger x 1.5"]},
-	{armor:["Leather Helm","Leather Vest","Leather Vambraces","Light Belt","Green Pants"],skills:["Toolsaver"]},
+	{armor:["Leather Helm","Leather Armor","Leather Vambraces","Light Belt","Green Pants"],skills:["Toolsaver"]},
 	{armor:["","Chain Mail","Hunter Vambraces","","Hunter Greaves"],skills:["Defense + 5","Health + 10"]},
 	{armor:["","Chain Mail","Hunter Guards","","Hunter Leggings"],skills:["Defense + 5","Health + 10"]},
 	{armor:["Hunter Helm","Battle Mail","Battle Vambraces","Hunter Tasset","Battle Greaves"],skills:["Defense + 10","Health + 10"]},
@@ -361,7 +361,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Earplugs": [ "","","","Earplugs","Luxury Earplugs","" ],
 	"Sharpener": [ "","","Sharpen Speed Halved","Sharpen Speed Increased","","" ], // Sharpening speed, I think
 	"Sense": [ "","","Provocation","Stealth","","" ],
-	"Recovery": [ "","","Recovery Weakened","Recovery Strengthened","","" ],
+	"Recovery": [ "","","Recovery Items Weakened","Recovery Items Strengthened","","" ],
 	"Blessing": [ "","","Blessing of Evil Spirits","Blessing of Spirits","","" ],
 	"Map": [ "","","No Map","Farsight","","" ],
 	"Handicraft": [ "","","Sharpness Down","Sharpness Up","","" ],
@@ -382,7 +382,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Bomber": [ "","","","Bomber","","" ],
 	"Special Attack": [ "","","","Special Attack","","" ],
 	"Bullet Formulation": [ "","","","Bullet Formulation","","" ],
-	"Swordsmanship": [ "","","","Swordsmanship","","" ],
+	"Swordsmanship": [ "","","","ESP","","" ],
 	"Rapid Fire": [ "","","","Rapid Fire","","" ]
 };
 ArmorBuilder.doesSkillSetMatch = function(skillset, armor) {
@@ -476,16 +476,16 @@ ArmorBuilder.prototype.calculateRes = function() {
 	];
 };
 ArmorBuilder.prototype.calculateSkills = function() {
-	let armorSkills = ArmorBuilder.getSkillSet(this.currentArmor);
-	if (armorSkills.length === 0) {
-		document.getElementById(`armor-skills-${ this.version }`).innerHTML = "";
-	}
-	else {
-		let defense = this.calculateDefense();
-		let resistances = this.getResistances();
-		var skillRows = [];
+	let skillRows = [];
+	let defense = this.calculateDefense();
+	let resistances = this.getResistances();
 
-		if (this.version == "1") {
+	if (this.version == "1") {
+		let armorSkills = ArmorBuilder.getSkillSet(this.currentArmor);
+		if (armorSkills.length === 0) {
+			document.getElementById(`armor-skills-${ this.version }`).innerHTML = "";
+		}
+		else {
 			// Handle exceptional cases for stats
 			if (armorSkills.includes("Health + 10")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 10;
 			else if (armorSkills.includes("Health + 20")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 20;
@@ -509,128 +509,129 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 			skillRows = armorSkills.map(skill => "<tr skill-level-1><td>" + skill + "</td></tr>");
 		}
+	}
+	else {
+		// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
+		var torsoUpModifier = 1;
+		function updateTorsoUp(skill) {
+			if (skill.k == "Torso Up") {
+				torsoUpModifier++;
+			}
+		}
+		this.currentArmor.headgear.skills.forEach(updateTorsoUp);
+		this.currentArmor.arms.skills.forEach(updateTorsoUp);
+		this.currentArmor.waist.skills.forEach(updateTorsoUp);
+		this.currentArmor.legs.skills.forEach(updateTorsoUp);
+		// And now we apply it
+		let torsoSkills = [];
+		if (torsoUpModifier !== 1 && this.currentArmor.torso.skills) {
+			torsoSkills = this.currentArmor.torso.skills.map((skill) => {
+				return {
+					k: skill.k,
+					q: skill.q * torsoUpModifier
+				};
+			});
+		}
 		else {
-			// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
-			var torsoUpModifier = 1;
-			function updateTorsoUp(skill) {
-				if (skill.k == "Torso Up") {
-					torsoUpModifier++;
+			torsoSkills = this.currentArmor.torso.skills
+		}
+
+		var skillsParsed = {};
+		function parseSkills(skill) {
+			// Skip Torso Up
+			if (skill.k != "Torso Up") {
+				if (skillsParsed[skill.k]) {
+					skillsParsed[skill.k] += skill.q;
+				}
+				else {
+					skillsParsed[skill.k] = skill.q;
 				}
 			}
-			this.currentArmor.headgear.skills.forEach(updateTorsoUp);
-			this.currentArmor.arms.skills.forEach(updateTorsoUp);
-			this.currentArmor.waist.skills.forEach(updateTorsoUp);
-			this.currentArmor.legs.skills.forEach(updateTorsoUp);
-			// And now we apply it
-			let torsoSkills = [];
-			if (torsoUpModifier !== 1 && this.currentArmor.torso.skills) {
-				torsoSkills = this.currentArmor.torso.skills.map((skill) => {
-					return {
-						k: skill.k,
-						q: skill.q * torsoUpModifier
-					};
-				});
-			}
-			else {
-				torsoSkills = this.currentArmor.torso.skills
-			}
+		}
+		// In case we get MH1-only armor, which has no skill points
+		if (this.currentArmor.headgear.skills) this.currentArmor.headgear.skills.forEach(parseSkills);
+		if (torsoSkills) torsoSkills.forEach(parseSkills);
+		if (this.currentArmor.arms.skills) this.currentArmor.arms.skills.forEach(parseSkills);
+		if (this.currentArmor.waist.skills) this.currentArmor.waist.skills.forEach(parseSkills);
+		if (this.currentArmor.legs.skills) this.currentArmor.legs.skills.forEach(parseSkills);
 
-			var skillsParsed = {};
-			function parseSkills(skill) {
-				// Skip Torso Up
-				if (skill.k != "Torso Up") {
-					if (skillsParsed[skill.k]) {
-						skillsParsed[skill.k] += skill.q;
-					}
-					else {
-						skillsParsed[skill.k] = skill.q;
-					}
-				}
-			}
-			// In case we get MH1-only armor, which has no skill points
-			if (this.currentArmor.headgear.skills) this.currentArmor.headgear.skills.forEach(parseSkills);
-			if (torsoSkills) torsoSkills.forEach(parseSkills);
-			if (this.currentArmor.arms.skills) this.currentArmor.arms.skills.forEach(parseSkills);
-			if (this.currentArmor.waist.skills) this.currentArmor.waist.skills.forEach(parseSkills);
-			if (this.currentArmor.legs.skills) this.currentArmor.legs.skills.forEach(parseSkills);
+		for (var prop in skillsParsed) {
+			if (skillsParsed.hasOwnProperty(prop)) {
+				var skillLevel = "none";
+				var skillName = prop;
 
-			for (var prop in skillsParsed) {
-				if (skillsParsed.hasOwnProperty(prop)) {
-					var skillLevel = "none";
-					var skillName = prop;
+				if (ArmorBuilder.SKILL_LEVELS[prop]) {
+					// Clamp the skill index to avoid getting "undefined" as a skill name
+					var skillIndex = Math.max(0, Math.min(5, parseInt(skillsParsed[prop] / 5) + (skillsParsed[prop] < 0 ? 4 : 1)));
 
-					if (ArmorBuilder.SKILL_LEVELS[prop]) {
-						var skillIndex = parseInt(skillsParsed[prop] / 5) + (skillsParsed[prop] < 0 ? 4 : 1);
-
-						if (skillsParsed[prop] <= -10 || 10 <= skillsParsed[prop]) {
-							if (skillsParsed[prop] >= 10) {
-								skillLevel = "positive";
-							}
-							else if (skillsParsed[prop] <= -10) {
-								skillLevel = "negative";
-							}
-							// Special cases
-							if (prop == "Health") {
-								let healthBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`health-stat-${ this.version }`).innerText = 100 + healthBonus;
-								skillName = "Health " + (healthBonus > 0 ? "+" : "-") + healthBonus.toString();
-							}
-							else if (prop == "Defense") {
-								let defenseBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`defense-stat-${ this.version }`).innerText = defense + defenseBonus;
-								skillName = "Defense " + (defenseBonus > 0 ? "+" : "-") + defenseBonus.toString();
-							}
-							else if (prop == "Element Res Up") {
-								let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
-								document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
-								document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
-								document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
-								skillName = "Element Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
-							}
-							else if (prop == "Fire Resistance") {
-								let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
-								skillName = "Fire Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
-							}
-							else if (prop == "Water Resistance") {
-								let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
-								skillName = "Water Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
-							}
-							else if (prop == "Thunder Resistance") {
-								let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
-								skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
-							}
-							else if (prop == "Dragon Resistance") {
-								let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
-								skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
-							}
-							else {
-								skillName = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-								while (!skillName && 0 <= skillIndex && skillIndex < 6) {
-									if (skillsParsed[prop] < 0) {
-										skillName = ArmorBuilder.SKILL_LEVELS[prop][++skillIndex];
-									}
-									else {
-										skillName = ArmorBuilder.SKILL_LEVELS[prop][--skillIndex];
-									}
+					if (skillsParsed[prop] <= -10 || 10 <= skillsParsed[prop]) {
+						if (skillsParsed[prop] >= 10) {
+							skillLevel = "positive";
+						}
+						else if (skillsParsed[prop] <= -10) {
+							skillLevel = "negative";
+						}
+						// Special cases
+						if (prop == "Health") {
+							let healthBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`health-stat-${ this.version }`).innerText = 100 + healthBonus;
+							skillName = "Health " + (healthBonus > 0 ? "+" : "-") + healthBonus.toString();
+						}
+						else if (prop == "Defense") {
+							let defenseBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`defense-stat-${ this.version }`).innerText = defense + defenseBonus;
+							skillName = "Defense " + (defenseBonus > 0 ? "+" : "-") + defenseBonus.toString();
+						}
+						else if (prop == "Element Res Up") {
+							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
+							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
+							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
+							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
+							skillName = "Element Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+						}
+						else if (prop == "Fire Resistance") {
+							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
+							skillName = "Fire Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+						}
+						else if (prop == "Water Resistance") {
+							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
+							skillName = "Water Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+						}
+						else if (prop == "Thunder Resistance") {
+							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
+							skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+						}
+						else if (prop == "Dragon Resistance") {
+							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
+							skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+						}
+						else {
+							skillName = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							while (!skillName && 0 <= skillIndex && skillIndex < 6) {
+								if (skillsParsed[prop] < 0) {
+									skillName = ArmorBuilder.SKILL_LEVELS[prop][++skillIndex];
+								}
+								else {
+									skillName = ArmorBuilder.SKILL_LEVELS[prop][--skillIndex];
 								}
 							}
 						}
 					}
-					else {
-						console.warn("No such skill:", prop);
-					}
-
-					skillRows.push("<tr class=skill-level-" + skillLevel + "><td>" + skillName + "</td><td>" + skillsParsed[prop] + "</td></tr>");
 				}
+				else {
+					console.warn("No such skill:", prop);
+				}
+
+				skillRows.push("<tr class=skill-level-" + skillLevel + "><td>" + skillName + "</td><td>" + skillsParsed[prop] + "</td></tr>");
 			}
 		}
-		document.getElementById(`armor-skills-${ this.version }`).innerHTML = skillRows.join("");
 	}
+	document.getElementById(`armor-skills-${ this.version }`).innerHTML = skillRows.join("");
 };
 ArmorBuilder.prototype.checkGenderMismatch = function() {
 	// Show an error if mixing gendered pieces
