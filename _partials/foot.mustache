@@ -2,7 +2,7 @@
 			<div>
 				{{#gToggle}}
 				<input id="g-toggle" type="checkbox" checked/>
-				<label for="g-toggle" class="g-toggle-label">
+				<label for="g-toggle" class="switch-label">
 					<span>MH1</span>
 					<span class="switch-button">
 						<span class="button-tab"></span>
@@ -10,9 +10,20 @@
 					<span>MHG</span>
 				</label>
 				{{/gToggle}}
+				{{#matsToggle}}
+				|
+				<input id="cells-toggle" type="checkbox"/>
+				<label for="cells-toggle" class="switch-label">
+					<span>Shrink Cells</span>
+					<span class="switch-button">
+						<span class="button-tab"></span>
+					</span>
+					<span>Expand Cells</span>
+				</label>
+				{{/matsToggle}}
 			</div>
 			<p>
-				version 0.3.13
+				version 0.3.14
 			</p>
 		</footer>
 	</body>

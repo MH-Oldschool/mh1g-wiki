@@ -171,16 +171,16 @@ input[type="radio"]:checked + .radio-icon:after {
 	text-align: right;
 }
 
-#g-toggle {
-	display: none;
+.switch-label {
+	padding: 0 0.125rem;
 }
-.g-toggle-label span {
+.switch-label span {
 	vertical-align: middle;
 }
 .switch-button {
 	position: relative;
 	display: inline-block;
-	background: #3af;
+	background: #a53;
 	border-radius: 1rem;
 	margin: 0 0.25rem;
 	width: 2rem;
@@ -203,21 +203,28 @@ input[type="checkbox"] + label span {
 	transition: 400ms;
 }
 input[type="checkbox"]:checked + label .switch-button {
-	background-color: #fa3;
+	background-color: #a3f;
 }
 input[type="checkbox"]:checked + label .switch-button .button-tab {
 	left: 1.0625rem;
 }
-input[type="checkbox"] + label span:first-child {
+/* MH1/G colors */
+#g-toggle + label .switch-button {
+	background: #3af;
+}
+#g-toggle:checked + label .switch-button {
+	background-color: #fa3;
+}
+#g-toggle:checked + label span:first-child {
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+#g-toggle + label span:first-child {
 	text-shadow: 0.0625rem 0.0625rem 0 #3af;
 }
-input[type="checkbox"]:checked + label span:first-child {
+#g-toggle + label span:last-child {
 	text-shadow: 0 0 0 rgba(0,0,0,0);
 }
-input[type="checkbox"] + label span:last-child {
-	text-shadow: 0 0 0 rgba(0,0,0,0);
-}
-input[type="checkbox"]:checked + label span:last-child {
+#g-toggle:checked + label span:last-child {
 	text-shadow: 0.0625rem 0.0625rem 0 #fa3;
 }
 
