@@ -17,7 +17,7 @@ ready(() => {
 	}
 	var handleMaterialsMouseup = (event) => {
 		if (Math.abs(event.screenX - mousePos.x) < MOUSE_MOVE_THRESHOLD.x && Math.abs(event.screenY - mousePos.y) < MOUSE_MOVE_THRESHOLD.y) {
-			toggleFullDetails(event.currentTarget, cell.dataset.full == "0");
+			toggleFullDetails(event.target, event.target.dataset.full == "0");
 		}
 	}
 
