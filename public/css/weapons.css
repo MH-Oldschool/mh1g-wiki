@@ -1,3 +1,39 @@
+#rank-filters {
+	/* background: rgba(0,0,0,0.8); */
+	text-align: center;
+	padding: 0.25rem 0.125rem;
+	width: 12rem;
+}
+#rank-filters input[type="range"] {
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+}
+.rank-labels-container {
+	padding: 0.25rem 0.5rem;
+}
+.rank-label {
+	display: inline-block;
+	margin: 0 auto;
+	width: 3rem;
+}
+.rank-label.highlighted {
+	text-shadow:
+		1px 1px 2px #3af,
+		1px -1px 2px #3af,
+		-1px 1px 2px #3af,
+		-1px -1px 2px #3af;
+}
+.show-1 .g-rank-label {
+	opacity: 0.5;
+}
+
+/* .hide-low-rank .low-rank, */
+.hide-high-rank .high-rank,
+.hide-g-rank .g-rank {
+	display: none !important;
+}
+
 .highlight-fire .fire-element,
 .highlight-water .water-element,
 .highlight-thunder .thunder-element,

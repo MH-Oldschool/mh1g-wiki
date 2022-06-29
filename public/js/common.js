@@ -8,6 +8,15 @@ window.eachElementByClassName = (className, callback) => {
 		callback(el[i], i);
 	}
 }
+window.toggleLowRank = (toggleOn) => {
+	document.body.classList[toggleOn ? "remove" : "add"]("hide-low-rank");
+}
+window.toggleHighRank = (toggleOn) => {
+	document.body.classList[toggleOn ? "remove" : "add"]("hide-high-rank");
+}
+window.toggleGRank = (toggleOn) => {
+	document.body.classList[toggleOn ? "remove" : "add"]("hide-g-rank");
+}
 
 ready(() => {
 	const gToggleEvent = new Event("g-toggle");

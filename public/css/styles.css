@@ -58,6 +58,7 @@ table {
 	width: 100%;
 }
 thead {
+	z-index: 1;
 	position: sticky;
 	background: #202020;
 	border-bottom: 1px solid #999;
@@ -275,19 +276,19 @@ tr.base-only.show {
 	text-shadow: 0.125rem 0.125rem 0 #ff435d;
 }
 
-.filter-checks label {
+.filter-checks input + label {
 	position: relative;
 	padding-left: 1.125rem;
 	margin: 0 0.25rem;
 }
-.filter-checks label:before,
-.filter-checks label:after {
+.filter-checks input + label:before,
+.filter-checks input + label:after {
 	content: "";
 	position: absolute;
 	margin: 0;
 	left: 0;
 }
-.filter-checks label:before {
+.filter-checks input + label:before {
 	box-sizing: border-box;
 	border: 0.0625rem solid #d7d7d7;
 	width: 1rem;
@@ -295,7 +296,7 @@ tr.base-only.show {
 	top: 0;
 	left: 0;
 }
-.filter-checks label:after {
+.filter-checks input + label:after {
 	background: rgb(79,255,247);
 	width: 0.75rem;
 	height: 0.75rem;

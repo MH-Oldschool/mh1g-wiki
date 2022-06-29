@@ -1,4 +1,24 @@
 ready(() => {
+	var rankFilterLabels = document.getElementsByClassName("rank-label");
+	function setRank(rankIndex) {
+		toggleHighRank(rankIndex > 0);
+		toggleGRank(rankIndex == 2);
+
+		for (var i = 0; i < 3; i++) {
+			if (i <= rankIndex) {
+				rankFilterLabels[i].classList.add("highlighted");
+			}
+			else {
+				rankFilterLabels[i].classList.remove("highlighted");
+			}
+		}
+	}
+	var rankFilter = document.getElementById("rank-filter");
+	rankFilter.addEventListener("input", event => {
+		setRank(event.target.value);
+	});
+	setRank(rankFilter.value);
+
 	var weaponElementChecks = document.getElementsByName("weapon-element-status");
 	function updateWeaponVisibility() {
 		var filterWeapons = false;
