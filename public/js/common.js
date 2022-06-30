@@ -45,15 +45,6 @@ ready(() => {
 
 		return "";
 	}
-	// Only load the saved version if we allow version swapping on this page
-	var gToggle = document.getElementById("g-toggle");
-	if (gToggle) {
-		var version = getVersionFromCookie();
-		if (version) {
-			gToggle.checked = version == "g";
-			toggleGVersion(version == "g");
-		}
-	}
 
 	function toggleGVersion(toggleOn) {
 		saveVersionCookie(toggleOn ? "g" : "1");
@@ -89,13 +80,36 @@ ready(() => {
 
 		document.body.dispatchEvent(gToggleEvent, toggleOn ? "g" : "1");
 	}
-	var gToggleCheckbox = document.getElementById("g-toggle");
-	if (gToggleCheckbox) {
-		gToggleCheckbox.addEventListener("change", (event) => {
+
+	// Only load the saved version if we allow version swapping on this page
+	var gToggle = document.getElementById("g-toggle");
+	if (gToggle) {
+		gToggle.addEventListener("change", (event) => {
 			toggleGVersion(event.currentTarget.checked);
 		});
-		if (!gToggleCheckbox.checked) {
-			toggleGVersion(false);
+
+		// Check for version forced through a url param
+		var urlParams = window.location.search.substr(1).split("&");
+		var versionParam;
+		urlParams.forEach((param) => {
+			var split = param.split("=");
+			if (split[0] == "v") {
+				versionParam = split[1];
+			}
+		});
+
+		if (versionParam && versionParam == "1" || versionParam == "g") {
+			if (versionParam == "1") {
+				gToggle.checked = false;
+				toggleGVersion(false);
+			}
+		}
+		else {
+			var version = getVersionFromCookie();
+			if (version) {
+				gToggle.checked = version == "g";
+				toggleGVersion(version == "g");
+			}
 		}
 	}
 
