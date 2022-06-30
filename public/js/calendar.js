@@ -1,6 +1,6 @@
 ready(() => {
 	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 30, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 19, 22, 30, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -33,10 +33,7 @@ ready(() => {
 	// Day 8	[none]
 	// Day 9	Food/Fish Shop Day
 	// Day 10	[none]
-	// Day 11	Half-Price Day
-	// Day 12	[none]
-	// Day 13=1	[Repeat, starting with Day 1]
-	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
+	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0]);
 
 	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
 	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 28, 22, 30, 0));
@@ -91,19 +88,20 @@ ready(() => {
 	];
 	// - Lao
 	// - Gather
-	// - Lao
 	// - Kirin
 	// - Gather
-	// - ?YKK Capture?
-	// - ?Khezu Capture?
-	// - ?Not-GMR?
+	// - YKK Capture
+	// - Gather
+	// - Khezu Capture
+	// - Gather
+	// - Not-GMR
 	// - Gather
 	// - Gather
 	// - Gather
 	// - Gather
 	// - Gather
 	var MH1_EVENTS_ROTATION = new Uint8Array([
-		1,0,1,2,0,3,4,5,0,0,0,0,0
+		1,0,2,0,3,0,4,0,5,0,0,0,0,0
 	]);
 
 	const MILLISECONDS_PER_DAY = 86400000;
@@ -259,7 +257,7 @@ ready(() => {
 		document.getElementById("current-special-title").innerText = currentSpecial.title;
 		document.getElementById("current-special-description").innerHTML = currentSpecial.description;
 	}
-
+	/*
 	var now = new Date();
 	setMonthTable(now.getFullYear(), now.getMonth());
 	setCurrentEvent();
@@ -280,4 +278,5 @@ ready(() => {
 
 		setMonthTable(now.getFullYear(), now.getMonth());
 	});
+	*/
 });
