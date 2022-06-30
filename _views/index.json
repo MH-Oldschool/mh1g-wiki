@@ -2,6 +2,10 @@
 	"title": "Monster Hunter Wiki",
 	"description": "A comprehensive wiki for the Japanese versions of Monster Hunter and Monster Hunter G.",
 	"subtitle": "<p></p>",
+	"head": "
+		<link type='text/css' rel='stylesheet' href='css/calendar.css'/>
+		<script type='text/javascript' src='js/calendar.js'></script>
+	",
 	"onHome": true,
 	"gToggle": true
 }

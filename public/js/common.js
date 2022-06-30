@@ -1,3 +1,6 @@
+window.getMHVersion = () => {
+	return document.body.classList.contains("show-1") ? "1" : "g";
+}
 window.scrollToElement = (element) => {
 	var rect = element.getBoundingClientRect();
 	window.scrollTo(0, rect.y);

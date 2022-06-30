@@ -1,0 +1,115 @@
+.calendar caption {
+	padding: 0.5rem 0;
+}
+.calendar thead {
+	position: static;
+}
+#calendar-title {
+	padding: 0 1rem;
+}
+#previous-month,
+#next-month {
+	background: 0;
+	border-radius: 0.5rem;
+}
+
+.calendar-week {
+	border: 0;
+}
+.calendar-week.hidden {
+	display: none;
+}
+
+.calendar-week td {
+	vertical-align: top;
+	position: relative;
+	background: #222;
+	text-shadow:
+		1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		-1px -1px 0 #000;
+	width: 14.2857%;
+	height: 5.5rem;
+}
+.calendar-week td.hidden {
+	visibility: hidden;
+	border-color: #555;
+}
+.calendar-week td.hunt { background: linear-gradient(0.375turn, #983b32, #725533 35%); }
+.calendar-week td.capture { background: linear-gradient(0.375turn, #999, #725533 35%); }
+.calendar-week td.gather { background: linear-gradient(0.375turn, #4c874a, #725533 35%); }
+.calendar-week td.special { background: linear-gradient(0.375turn, #934db8, #725533 35%); }
+
+.day-number {
+	text-align: right;
+	line-height: 1;
+	padding: 0.25rem 0.125rem 0;
+}
+.day-event,
+.day-special {
+	text-align: left;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	padding: 0 0.125rem;
+}
+.day-special {
+	position: absolute;
+	box-sizing: border-box;
+	background: rgba(0, 0,0,0.5);
+	padding: 0.125rem 0.25rem;
+	width: calc(100% - 0.125rem);
+	bottom: 0.0625rem;
+	left: 0.0625rem;
+}
+
+.current-container h3 {
+	display: block;
+	font-size: 1.25rem;
+	border-radius: 1rem 1rem 0 0;
+	border-style: solid;
+	border-width: 0.125rem 0 0;
+	padding: 0.25rem 0.5rem;
+}
+.current-content {
+	background: #725533;
+	text-shadow:
+		1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		-1px -1px 0 #000;
+	padding: 0.25rem 0.5rem;
+}
+.current-content.hunt { background: linear-gradient(0.375turn, #983b32, #725533 25%); }
+.current-content.capture { background: linear-gradient(0.375turn, #999, #725533 25%); }
+.current-content.gather { background: linear-gradient(0.375turn, #4c874a, #725533 25%); }
+.current-content.special { background: linear-gradient(0.375turn, #934db8, #725533 25%); }
+
+.current-title,
+.current-description {
+	line-height: 1.4;
+	margin: 0;
+}
+.current-title {
+	font-size: 1.25rem;
+}
+.current-description {
+	padding: 0.25rem 0;
+}
+#current-event {
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 50rem) {
+	.calendar-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.calendar {
+		width: 60%;
+	}
+	.current-container {
+		padding-top: 2.25rem;
+		width: 35%;
+	}
+}
