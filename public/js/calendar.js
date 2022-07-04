@@ -1,6 +1,6 @@
 ready(() => {
 	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 19, 22, 30, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 30, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -33,10 +33,13 @@ ready(() => {
 	// Day 8	[none]
 	// Day 9	Food/Fish Shop Day
 	// Day 10	[none]
-	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0]);
+	// Day 11	Half-Price Day
+	// Day 12	[none]
+	// Day 13=1	[Repeat, starting with Day 1]
+	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
 
 	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
-	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 28, 22, 30, 0));
+	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 30, 22, 30, 0));
 	const MH1_EVENTS = [
 		{
 			title: "Gathering",
@@ -86,20 +89,21 @@ ready(() => {
 			description: "Level the field with the Holy Grail of Heavy Metal. Only those with hearts of steel will walk away with The GMR Chrome Heart. (Actually the King Meat quest.)"
 		}
 	];
-	// - Lao
-	// - Gather
-	// - Kirin
-	// - Gather
-	// - YKK Capture
-	// - Gather
-	// - Khezu Capture
-	// - Gather
-	// - Not-GMR
-	// - Gather
-	// - Gather
-	// - Gather
-	// - Gather
-	// - Gather
+	// Day 1 Lao
+	// Day 2 Gather
+	// Day 3 Kirin
+	// Day 4 Gather
+	// Day 5 YKK Capture
+	// Day 6 Gather
+	// Day 7 Khezu Capture
+	// Day 8 Gather
+	// Day 9 GMR Chrome Heart (actually King Meat quest)
+	// Day 10 Gather
+	// Day 11 Gather
+	// Day 12 Gather
+	// Day 13 Gather
+	// Day 14 Gather
+	// Day 15 (back to Day 1)
 	var MH1_EVENTS_ROTATION = new Uint8Array([
 		1,0,2,0,3,0,4,0,5,0,0,0,0,0
 	]);
@@ -186,6 +190,7 @@ ready(() => {
 		let firstDayEventIndex = getFirstDayEventIndex(year, monthIndex);
 		let dayEvents = document.getElementsByClassName("day-event");
 		let eventIndex = firstDayEventIndex;
+		// let eventIndex = 0;
 		for (let i = 0; i < dayCount; i++) {
 			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]]
 			calendarDays[firstDayOfWeek + i].className = currentEvent.category;
@@ -196,6 +201,7 @@ ready(() => {
 		let firstDayShopIndex = getFirstDayShopIndex(year, monthIndex);
 		let daySpecials = document.getElementsByClassName("day-special");
 		let shopIndex = firstDayShopIndex;
+		// let shopIndex = 0;
 		for (let i = 0; i < dayCount; i++) {
 			var currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 			if (SHOP_SPECIAL_ROTATION[shopIndex] == 0) {
@@ -257,7 +263,7 @@ ready(() => {
 		document.getElementById("current-special-title").innerText = currentSpecial.title;
 		document.getElementById("current-special-description").innerHTML = currentSpecial.description;
 	}
-	/*
+
 	var now = new Date();
 	setMonthTable(now.getFullYear(), now.getMonth());
 	setCurrentEvent();
@@ -278,5 +284,4 @@ ready(() => {
 
 		setMonthTable(now.getFullYear(), now.getMonth());
 	});
-	*/
 });

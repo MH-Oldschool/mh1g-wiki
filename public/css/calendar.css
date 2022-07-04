@@ -103,13 +103,21 @@
 @media screen and (min-width: 50rem) {
 	.calendar-container {
 		display: flex;
-		justify-content: space-between;
+		justify-content: left;
 	}
 	.calendar {
+		margin-right: 5%;
 		width: 60%;
+		max-width: 44rem;
 	}
 	.current-container {
 		padding-top: 2.25rem;
 		width: 35%;
+		max-width: 25rem;
+	}
+}
+@media screen and (min-width: 80rem) {
+	.calendar {
+		margin-right: 4rem;
 	}
 }
