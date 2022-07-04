@@ -1,5 +1,5 @@
 ready(() => {
-	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
+	// This gives us the local time when the rotation starts
 	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 30, 0));
 	const SHOP_SPECIALS = [
 		{
@@ -38,7 +38,7 @@ ready(() => {
 	// Day 13=1	[Repeat, starting with Day 1]
 	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
 
-	// Make sure this is in GMT+00 so we reliably convert to the user's timezone
+	// This gives us the local time when the rotation starts
 	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 30, 22, 30, 0));
 	const MH1_EVENTS = [
 		{
@@ -122,15 +122,37 @@ ready(() => {
 
 	// Figure out when the most recent event cycle started at or before this month
 	function getFirstDayEventIndex(year, monthIndex) {
-		let daysTimestamp = Date.UTC(year, monthIndex, 1, 22, 30, 0) / MILLISECONDS_PER_DAY;
-		let cyclesSinceStart = (daysTimestamp - dateToDays(EVENT_ROTATION_START)) / MH1_EVENTS_ROTATION.length;
-		return Math.floor(MH1_EVENTS_ROTATION.length * (cyclesSinceStart - Math.floor(cyclesSinceStart)));
+		let ROTATION_LENGTH = MH1_EVENTS_ROTATION.length;
+		let now = new Date();
+		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes()));
+		// Add one rotation's worth of days until firstOfMonth is greater than the start date
+		while (firstOfMonth < EVENT_ROTATION_START) {
+			firstOfMonth += ROTATION_LENGTH * MILLISECONDS_PER_DAY;
+		}
+		let daysSinceStart = (firstOfMonth - EVENT_ROTATION_START) / MILLISECONDS_PER_DAY;
+		let cyclesSinceStart = daysSinceStart / ROTATION_LENGTH;
+		// Use parseInt to truncate decimals
+		let index = parseInt(ROTATION_LENGTH * (cyclesSinceStart - parseInt(cyclesSinceStart)));
+		while (index < 0) index += ROTATION_LENGTH;
+
+		return index;
 	}
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
-		let daysTimestamp = Date.UTC(year, monthIndex, 1, 22, 30, 0) / MILLISECONDS_PER_DAY;
-		let cyclesSinceStart = (daysTimestamp - dateToDays(SHOP_ROTATION_START)) / SHOP_SPECIAL_ROTATION.length;
-		return Math.floor(SHOP_SPECIAL_ROTATION.length * (cyclesSinceStart - Math.floor(cyclesSinceStart)));
+		let ROTATION_LENGTH = SHOP_SPECIAL_ROTATION.length;
+		let now = new Date();
+		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes()));
+		// Add one rotation's worth of days until firstOfMonth is greater than the start date
+		while (firstOfMonth < SHOP_ROTATION_START) {
+			firstOfMonth += ROTATION_LENGTH * MILLISECONDS_PER_DAY;
+		}
+		let daysSinceStart = (firstOfMonth - SHOP_ROTATION_START) / MILLISECONDS_PER_DAY;
+		let cyclesSinceStart = daysSinceStart / ROTATION_LENGTH;
+		// Use parseInt to truncate decimals
+		let index = parseInt(ROTATION_LENGTH * (cyclesSinceStart - parseInt(cyclesSinceStart)));
+		while (index < 0) index += ROTATION_LENGTH;
+
+		return index;
 	}
 
 	var calendarDays = document.getElementById("calendar-tbody").getElementsByTagName("td");
@@ -220,17 +242,6 @@ ready(() => {
 		let now = new Date();
 		let firstDayEventIndex = getFirstDayEventIndex(now.getFullYear(), now.getMonth());
 
-		// Use the previous event if it isn't time for the change yet
-		let changeDatetime = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22, 30, 0);
-		if (Date.parse(now) < changeDatetime) {
-			if (firstDayEventIndex == 0) {
-				firstDayEventIndex = MH1_EVENTS_ROTATION.length - 1;
-			}
-			else {
-				firstDayEventIndex -= 1;
-			}
-		}
-
 		let eventIndex = (firstDayEventIndex + (now.getDate() - 1)) % MH1_EVENTS_ROTATION.length;
 		let currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
 
@@ -245,17 +256,6 @@ ready(() => {
 	function setCurrentShopSpecial() {
 		let now = new Date();
 		let firstDayShopIndex = getFirstDayShopIndex(now.getFullYear(), now.getMonth());
-
-		// Use the previous special if it isn't time for the change yet
-		let changeDatetime = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22, 30, 0);
-		if (Date.parse(now) < changeDatetime) {
-			if (firstDayShopIndex == 0) {
-				firstDayShopIndex = SHOP_SPECIAL_ROTATION.length - 1;
-			}
-			else {
-				firstDayShopIndex -= 1;
-			}
-		}
 
 		let shopIndex = (firstDayShopIndex + (now.getDate() - 1)) % SHOP_SPECIAL_ROTATION.length;
 		let currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
