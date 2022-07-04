@@ -1,6 +1,6 @@
 ready(() => {
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 30, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 00, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -39,7 +39,7 @@ ready(() => {
 	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
 
 	// This gives us the local time when the rotation starts
-	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 30, 22, 30, 0));
+	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 30, 22, 00, 0));
 	const MH1_EVENTS = [
 		{
 			title: "Gathering",
