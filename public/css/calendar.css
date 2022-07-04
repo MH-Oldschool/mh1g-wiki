@@ -13,6 +13,13 @@
 	border-radius: 0.5rem;
 }
 
+.sunday-start	.end-sunday {
+	display: none;
+}
+.monday-start .start-sunday {
+	display: none;
+}
+
 .calendar-week {
 	border: 0;
 }
@@ -98,6 +105,10 @@
 }
 #current-event {
 	margin-bottom: 1rem;
+}
+
+.calendar tfoot {
+	text-align: center;
 }
 
 @media screen and (min-width: 50rem) {

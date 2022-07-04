@@ -21,13 +21,14 @@
 				</caption>
 				<thead>
 					<tr>
-						<th>Sunday</th>
+						<th class="start-sunday">Sunday</th>
 						<th>Monday</th>
 						<th>Tuesday</th>
 						<th>Wednesday</th>
 						<th>Thursday</th>
 						<th>Friday</th>
 						<th>Saturday</th>
+						<th class="end-sunday">Sunday</th>
 					</tr>
 				</thead>
 				<tbody id="calendar-tbody">
@@ -86,6 +87,20 @@
 						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
 					</tr>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="7">
+							<input id="week-start-toggle" type="checkbox"/>
+							<label for="week-start-toggle" class="switch-label">
+								<span>Sunday</span>
+								<span class="switch-button">
+									<span class="button-tab"></span>
+								</span>
+								<span>Monday</span>
+							</label>
+						</td>
+					</tr>
+				</tfoot>
 			</table>
 
 			<aside class="current-container">

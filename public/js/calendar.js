@@ -108,6 +108,23 @@ ready(() => {
 		1,0,2,0,3,0,4,0,5,0,0,0,0,0
 	]);
 
+	function isMondayStart() {
+		return document.body.classList.contains("monday-start");
+	}
+	function getIntDay(myDate) {
+		let myDay = myDate.getDay();
+
+		if (isMondayStart()) {
+			if (myDay == 0) {
+				return 6;
+			}
+
+			return myDay - 1;
+		}
+
+		return myDay;
+	}
+
 	const MILLISECONDS_PER_DAY = 86400000;
 	function dateToDays(date) {
 		let timestamp = Date.parse(date);
@@ -171,7 +188,8 @@ ready(() => {
 		document.getElementById("calendar-title").innerText = `${ MONTH_NAMES[monthIndex] } ${ year }`;
 
 		let firstDay = new Date(year, monthIndex, 1);
-		let firstDayOfWeek = firstDay.getDay();
+		let firstDayOfWeek = getIntDay(firstDay)
+
 		for (let i = 0; i < 7; i++) {
 			if (i < firstDayOfWeek) {
 				calendarDays[i].classList.add("hidden");
@@ -189,7 +207,7 @@ ready(() => {
 
 		// Hide excess days
 		let lastDay = new Date(year, monthIndex, dayCount);
-		let lastDayOfWeek = lastDay.getDay();
+		let lastDayOfWeek = getIntDay(lastDay);
 		let lastDayIndex = (dayCount - 1) + firstDayOfWeek;
 		for (let i = calendarDays.length - 1; i > 28; i--) {
 			if (i > lastDayIndex) {
@@ -264,10 +282,12 @@ ready(() => {
 		document.getElementById("current-special-description").innerHTML = currentSpecial.description;
 	}
 
-	var now = new Date();
-	setMonthTable(now.getFullYear(), now.getMonth());
-	setCurrentEvent();
-	setCurrentShopSpecial();
+	function initCalendar() {
+		var now = new Date();
+		setMonthTable(now.getFullYear(), now.getMonth());
+		setCurrentEvent();
+		setCurrentShopSpecial();
+	}
 
 	document.getElementById("previous-month").addEventListener("click", () => {
 		let previousMonth = now.getMonth() - 1;
@@ -284,4 +304,54 @@ ready(() => {
 
 		setMonthTable(now.getFullYear(), now.getMonth());
 	});
+
+	function saveWeekStartCookie(weekStart) {
+		try {
+			document.cookie = "mh1g-week-start=" + weekStart + ";SameSite=Lax";
+		}
+		catch (err) {
+			console.warn("Unable to write week start cookie:", err);
+		}
+	}
+	function getWeekStartFromCookie() {
+		try {
+			var cookieIndex = document.cookie.indexOf("mh1g-week-start");
+			// This will be just a single character;
+			// the cookie name is 15 characters long, plus one for the "=" sign
+			return document.cookie[cookieIndex + 16];
+		}
+		catch (err) {
+			console.warn("Unable to retrieve week start cookie:", err);
+		}
+
+		return "";
+	}
+
+	var weekStartToggle = document.getElementById("week-start-toggle");
+	function setWeekStart(weekStart, setCheckbox) {
+		if (weekStart == "s") {
+			document.body.classList.remove("monday-start");
+			document.body.classList.add("sunday-start");
+		}
+		else {
+			document.body.classList.add("monday-start");
+			document.body.classList.remove("sunday-start");
+		}
+
+		if (setCheckbox) {
+			weekStartToggle.checked = weekStart == "m";
+		}
+
+		saveWeekStartCookie(weekStart);
+	}
+	weekStartToggle.addEventListener("change", (event) => {
+		setWeekStart(isMondayStart() ? "s" : "m");
+		initCalendar();
+	});
+
+	if (getWeekStartFromCookie() == "m") {
+		setWeekStart("m", true);
+	}
+
+	initCalendar();
 });
