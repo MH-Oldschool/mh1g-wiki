@@ -41,6 +41,7 @@ body {
 }
 
 #armor-builder {
+	z-index: 1;
 	position: fixed;
 	box-sizing: border-box;
 	background: transparent url("/images/background/menu_g.gif");
@@ -148,6 +149,9 @@ body.show-1 #armor-builder {
 	text-align: right;
 }
 
+#skill-set-popup {
+	z-index: 2;
+}
 #skill-set-popup .popup-header {
 	background: #3f1010;
 }
