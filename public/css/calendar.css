@@ -110,6 +110,12 @@
 .calendar tfoot {
 	text-align: center;
 }
+.calendar tfoot td {
+	padding: 0.25rem 0;
+}
+.calendar tfoot .switch-label {
+	display: inline-block;
+}
 
 @media screen and (min-width: 50rem) {
 	.calendar-container {

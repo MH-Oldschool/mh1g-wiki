@@ -132,7 +132,7 @@ ready(() => {
 		return Math.floor(timestamp / MILLISECONDS_PER_DAY);
 	}
 	function populateStartTime() {
-		let startTime = SHOP_ROTATION_START.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+		let startTime = SHOP_ROTATION_START.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', hour12: true });
 		document.getElementById("event-special-time").innerText = startTime;
 	}
 	populateStartTime();
