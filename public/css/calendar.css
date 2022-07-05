@@ -70,6 +70,17 @@
 	left: 0.0625rem;
 }
 
+.calendar tfoot {
+	text-align: center;
+}
+.calendar tfoot td {
+	padding: 0.25rem 0;
+}
+
+.countdown-container {
+	padding: 0.5rem 0.25rem;
+}
+
 .current-container h3 {
 	display: block;
 	font-size: 1.25rem;
@@ -107,16 +118,6 @@
 	margin-bottom: 1rem;
 }
 
-.calendar tfoot {
-	text-align: center;
-}
-.calendar tfoot td {
-	padding: 0.25rem 0;
-}
-.calendar tfoot .switch-label {
-	display: inline-block;
-}
-
 @media screen and (min-width: 50rem) {
 	.calendar-container {
 		display: flex;
@@ -128,7 +129,6 @@
 		max-width: 45rem;
 	}
 	.current-container {
-		padding-top: 2.25rem;
 		width: 35%;
 		max-width: 25rem;
 	}

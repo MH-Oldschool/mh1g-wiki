@@ -290,7 +290,7 @@ ready(() => {
 	}
 
 	document.getElementById("previous-month").addEventListener("click", () => {
-		let previousMonth = now.getMonth() - 1;
+		var previousMonth = now.getMonth() - 1;
 		if (previousMonth < 0) previousMonth = 11;
 		// Update "now" to previous month for further month changes
 		now = new Date(now.getFullYear(), previousMonth, 1);
@@ -354,4 +354,44 @@ ready(() => {
 	}
 
 	initCalendar();
+
+	var lastTimestamp = 0;
+	var now = new Date();
+	var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22);
+	// Move deadline ahead a day if it's already passed
+	if (DEADLINE < Date.now()) DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, 22);
+	var remainingTime = DEADLINE - Date.now();
+
+	function updateCountdown(time) {
+		const MS_PER_HOUR = 3600000;
+		const MS_PER_MINUTE = 60000;
+
+		var hours = document.getElementById("countdown-hours");
+		var minutes = document.getElementById("countdown-minutes");
+
+		hours.innerText = (Math.ceil(time / MS_PER_HOUR)).toString().padStart(2, "0");
+		minutes.innerText = ((Math.ceil(time / MS_PER_MINUTE) % 60)).toString().padStart(2, "0");
+	}
+	var delta = 0;
+	function frameStep(timestamp) {
+		const MIN_STEP = 60000;
+
+		if (timestamp !== 0) {
+			delta += timestamp - lastTimestamp;
+
+			if (delta > MIN_STEP) {
+				remainingTime -= delta;
+				updateCountdown(remainingTime);
+				delta -= MIN_STEP;
+			}
+		}
+
+		lastTimestamp = timestamp;
+		window.requestAnimationFrame(frameStep);
+	}
+	function initCountdown() {
+		window.requestAnimationFrame(frameStep);
+		updateCountdown(remainingTime);
+	}
+	initCountdown();
 });
