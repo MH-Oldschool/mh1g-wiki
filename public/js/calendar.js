@@ -235,6 +235,8 @@ ready(() => {
 			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]]
 			calendarDays[firstDayOfWeek + i].className = currentEvent.category;
 			dayEvents[firstDayOfWeek + i].innerText = currentEvent.title;
+			dayEvents[firstDayOfWeek + i].title = currentEvent.description;
+
 			eventIndex = (eventIndex + 1) % MH1_EVENTS_ROTATION.length;
 		}
 
@@ -250,6 +252,7 @@ ready(() => {
 			else {
 				daySpecials[firstDayOfWeek + i].style.display = "";
 				daySpecials[firstDayOfWeek + i].innerText = currentSpecial.title;
+				daySpecials[firstDayOfWeek + i].title = currentSpecial.description;
 			}
 
 			shopIndex = (shopIndex + 1) % SHOP_SPECIAL_ROTATION.length;
@@ -269,6 +272,10 @@ ready(() => {
 
 		document.getElementById("current-event").className = currentEvent.category;
 		document.getElementById("current-event-title").innerText = currentEvent.title;
+		document.getElementById("current-event-location").innerText = currentEvent.location;
+		document.getElementById("current-target-container").style.display = currentEvent.category == "gather" ? "none" : "";
+		document.getElementById("current-target").innerText = currentEvent.target;
+		document.getElementById("current-event-client").innerText = currentEvent.client;
 		document.getElementById("current-event-description").innerText = currentEvent.description;
 	}
 	function setCurrentShopSpecial() {

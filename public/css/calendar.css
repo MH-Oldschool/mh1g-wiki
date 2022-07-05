@@ -111,6 +111,17 @@
 .current-title {
 	font-size: 1.25rem;
 }
+.current-subtitle {
+	font-size: 1rem;
+	line-height: 1.6;
+	margin: 0;
+}
+.current-content hr {
+	background: #fff;
+	border: 0.0625rem solid #000;
+	margin: 0.25rem 0 0;
+	height: 0.0625rem;
+}
 .current-description {
 	padding: 0.25rem 0;
 }
