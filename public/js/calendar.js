@@ -8,15 +8,15 @@ ready(() => {
 		},
 		{
 			title: "Claw Day", // Wyvern Claws, Fangs, Monster Fluid, Rathalos/ian Scales
-			description: "The Materials Vendor offers: Ivy, Godbug, Nitroshroom, Toadstool, Blue Mushroom, Sm Bone Husk, Cactus Flower, Power Seed, Armor Seed, Paintberry, Sm Monster Bone, Wyvern Fang, Wyvern Claw, Monster Fluid, Rathian Scale, and Rathalos Scale."
+			description: "The Materials Vendor offers: Ivy, Godbugs, Nitroshrooms, Toadstools, Blue Mushrooms, Sm Bone Husks, Cactus Flowers, Power Seeds, Armor Seeds, Paintberries, Sm Monster Bones, Wyvern Fangs, Wyvern Claws, Monster Fluid, Rathian Scales, and Rathalos Scales."
 		},
 		{
 			title: "Half-Off Sale", // All market stalls half price
 			description: "All market vendors sell at half the normal prices."
 		},
 		{
-			title: "Gunpowder Day", // Mega tools, Gunpowder
-			description: "The Tool Vendor offers: Mega Bugnet, Mega Pickaxe, and Gunpowder."
+			title: "Tool Day", // Mega tools, Gunpowder
+			description: "The Tool Vendor offers: Mega Bugnets, Mega Pickaxes, Fireflies, and Gunpowder."
 		},
 		{
 			title: "Fish & Food Day", // Food and Fish shops?
