@@ -30,7 +30,7 @@
 .calendar-week td {
 	vertical-align: top;
 	position: relative;
-	background: #222;
+	background: rgba(114, 85, 51, 0.5);
 	text-shadow:
 		1px 1px 0 #000,
 		1px -1px 0 #000,
@@ -43,10 +43,10 @@
 	visibility: hidden;
 	border-color: #555;
 }
-.calendar-week td.hunt { background: linear-gradient(0.375turn, #983b32, #725533 35%); }
-.calendar-week td.capture { background: linear-gradient(0.375turn, #999, #725533 35%); }
-.calendar-week td.gather { background: linear-gradient(0.375turn, #4c874a, #725533 35%); }
-.calendar-week td.special { background: linear-gradient(0.375turn, #934db8, #725533 35%); }
+.show-1 .calendar-week td.hunt { background: linear-gradient(0.375turn, #983b32, #725533 35%); }
+.show-1 .calendar-week td.capture { background: linear-gradient(0.375turn, #999, #725533 35%); }
+.show-1 .calendar-week td.gather { background: linear-gradient(0.375turn, #4c874a, #725533 35%); }
+.show-1 .calendar-week td.special { background: linear-gradient(0.375turn, #934db8, #725533 35%); }
 
 .day-number {
 	text-align: right;
@@ -59,6 +59,9 @@
 	font-size: 0.75rem;
 	line-height: 1.5;
 	padding: 0 0.125rem;
+}
+.show-g .day-event {
+	display: none !important;
 }
 .day-special {
 	position: absolute;
