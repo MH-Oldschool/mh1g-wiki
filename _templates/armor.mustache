@@ -17,17 +17,6 @@
 	};
 </script>
 
-<div id="rank-filters">
-	<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
-	<label for="low-rank-filter">Low Rank</label>
-
-	<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
-	<label for="high-rank-filter">High Rank</label>
-
-	<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
-	<label for="g-rank-filter" class="g-only">G Rank</label>
-</div>
-
 <section class="filters">
 	<div class="filter-column">
 		<div class="filter-buttons">
@@ -86,6 +75,17 @@
 				</label>
 			</div>
 		</div>
+	</div>
+
+	<div id="rank-filters" class="filter-column">
+		<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
+		<label for="low-rank-filter">Low Rank</label>
+
+		<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
+		<label for="high-rank-filter">High Rank</label>
+
+		<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
+		<label for="g-rank-filter" class="g-only">G Rank</label>
 	</div>
 
 	<button id="popup-show" class="base-only">See Skilled Armor Sets</button>
