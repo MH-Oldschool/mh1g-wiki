@@ -3,6 +3,35 @@ body {
 	padding-right: 1.5rem;
 }
 
+#rank-filters {
+	/* z-index: 1;
+	position: sticky;
+	display: inline-block;
+	background: rgba(0,0,0,0.8);
+	padding: 0.25rem 0.125rem;
+	top: 0;
+	left: 0; */
+}
+#rank-filters label {
+	color: #afafaf;
+	background: rgba(0,0,0,0);
+	border: 0.125rem solid rgba(0,0,0,0);
+	padding: 0.25rem 0.5rem;
+	margin: 0 0.125rem;
+	transition: 400ms;
+}
+#rank-filters input[type="checkbox"]:checked + label {
+	color: inherit;
+	background-color: #350;
+	border-color: #e0e0e0;
+}
+
+.hide-low-rank .low-rank,
+.hide-high-rank .high-rank,
+.hide-g-rank .g-rank {
+	display: none !important;
+}
+
 .show-female .armor-gender-M {
 	display: none;
 }

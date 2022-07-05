@@ -1,4 +1,20 @@
 ready(() => {
+	var lowRankFilter = document.getElementById("low-rank-filter");
+	var highRankFilter = document.getElementById("high-rank-filter");
+	var gRankFilter = document.getElementById("g-rank-filter");
+	lowRankFilter.addEventListener("change", event => {
+		toggleLowRank(event.target.checked);
+	});
+	highRankFilter.addEventListener("change", event => {
+		toggleHighRank(event.target.checked);
+	});
+	gRankFilter.addEventListener("change", event => {
+		toggleGRank(event.target.checked);
+	});
+	if (!lowRankFilter.checked) toggleLowRank(false);
+	if (!highRankFilter.checked) toggleHighRank(false);
+	if (!gRankFilter.checked) toggleGRank(false);
+
 	function handleArmorGenderChange(event) {
 		switch (this.value) {
 			case "a":
