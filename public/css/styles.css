@@ -42,6 +42,9 @@ a:hover {
 main {
 	padding: 0.25rem 1rem;
 }
+main > p {
+	margin: 0.5rem 0;
+}
 
 details {
 	padding: 0 0.25rem 0.25rem 0.75rem;
