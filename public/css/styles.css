@@ -1,6 +1,5 @@
 html, body {
 	width: 100%;
-	height: 100%;
 }
 body {
 	background: #000 url("/images/background/mhg.gif");
@@ -461,4 +460,18 @@ body.show-popup {
 }
 body.show-popup .popup {
 	display: block;
+}
+
+.hide-mobile,
+.show-tablet-desktop {
+	display: none;
+}
+@media screen and (min-width: 50rem) {
+	.hide-mobile,
+	.show-tablet-desktop {
+		display: initial;
+	}
+	.hide-tablet-desktop {
+		display: none !important;
+	}
 }

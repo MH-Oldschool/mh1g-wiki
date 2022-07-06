@@ -1,25 +1,30 @@
 window.getMHVersion = () => {
 	return document.body.classList.contains("show-1") ? "1" : "g";
-}
+};
 window.scrollToElement = (element) => {
 	var rect = element.getBoundingClientRect();
 	window.scrollTo(0, rect.y);
-}
+};
 window.eachElementByClassName = (className, callback) => {
 	var el = document.getElementsByClassName(className);
 	for (var i = 0; i < el.length; i++) {
 		callback(el[i], i);
 	}
-}
+};
+
 window.toggleLowRank = (toggleOn) => {
 	document.body.classList[toggleOn ? "remove" : "add"]("hide-low-rank");
-}
+};
 window.toggleHighRank = (toggleOn) => {
 	document.body.classList[toggleOn ? "remove" : "add"]("hide-high-rank");
-}
+};
 window.toggleGRank = (toggleOn) => {
 	document.body.classList[toggleOn ? "remove" : "add"]("hide-g-rank");
-}
+};
+
+window.closePopup = () => {
+	document.body.classList.remove("show-popup");
+};
 
 ready(() => {
 	const gToggleEvent = new Event("g-toggle");
@@ -112,8 +117,4 @@ ready(() => {
 			}
 		}
 	}
-
-	window.closePopup = () => {
-		document.body.classList.remove("show-popup");
-	};
 });
