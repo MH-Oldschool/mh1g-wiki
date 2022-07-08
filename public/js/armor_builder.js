@@ -218,7 +218,7 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["","Hornet Vest","Hornet Guards","Hornet Coat","Hornet Leggings"],skills:["Poison Negated"]},
 	{armor:["","Cephalos Mail","Cephalos Vambraces","","Cephalos Greaves"],skills:["High-Speed Damage Recovery", "Sleep Halved"]},
 	{armor:["","Cephalos Vest","Cephalos Guards","","Cephalos Leggings"],skills:["High-Speed Damage Recovery", "Sleep Halved"]},
-	{armor:["","Steel Mail","Steel Vambraces","Steel Tasset",""],skills:["Item Combination Success + 10%"]},
+	// {armor:["","Steel Mail","Steel Vambraces","Steel Tasset",""],skills:["Item Combination Success + 10%"]}, // Only MH1 US/EU?
 	{armor:["","Hi-Metal Mail","Hi-Metal Vambraces","Hi-Metal Tasset","Hi-Metal Greaves"],skills:["Health + 10"]},
 	{armor:["","Hi-Metal Vest","Hi-Metal Guards","Hi-Metal Coat","Hi-Metal Leggings"],skills:["Health + 10"]},
 	{armor:["","Kut-Ku Mail","Kut-Ku Vambraces","Kut-Ku Tasset",""],skills:["Attack Up [small]"]},
