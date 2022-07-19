@@ -1,6 +1,6 @@
 ready(() => {
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 00, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 0, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -38,13 +38,39 @@ ready(() => {
 	// Day 13=1	[Repeat, starting with Day 1]
 	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
 
-	// This gives us the local time when the rotation starts
-	const EVENT_ROTATION_START = new Date(Date.UTC(2022, 5, 30, 22, 00, 0));
 	const MH1_EVENTS = [
 		{
 			title: "Gathering",
 			category: "gather",
 			location: "Forest and Hills",
+			client: "Hunter's Guild Material Collection",
+			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
+		},
+		{
+			title: "Gathering",
+			category: "gather",
+			location: "Jungle",
+			client: "Hunter's Guild Material Collection",
+			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
+		},
+		{
+			title: "Gathering",
+			category: "gather",
+			location: "Swamp",
+			client: "Hunter's Guild Material Collection",
+			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
+		},
+		{
+			title: "Gathering",
+			category: "gather",
+			location: "Desert",
+			client: "Hunter's Guild Material Collection",
+			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
+		},
+		{
+			title: "Gathering",
+			category: "gather",
+			location: "Volcano",
 			client: "Hunter's Guild Material Collection",
 			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
 		},
@@ -90,22 +116,17 @@ ready(() => {
 		}
 	];
 	// Day 1 Lao
-	// Day 2 Gather
+	// Day 2 Gather FnH
 	// Day 3 Kirin
-	// Day 4 Gather
+	// Day 4 Gather Jungle
 	// Day 5 YKK Capture
-	// Day 6 Gather
+	// Day 6 Gather Swamp
 	// Day 7 Khezu Capture
-	// Day 8 Gather
+	// Day 8 Gather Desert
 	// Day 9 GMR Chrome Heart (actually King Meat quest)
-	// Day 10 Gather
-	// Day 11 Gather
-	// Day 12 Gather
-	// Day 13 Gather
-	// Day 14 Gather
-	// Day 15 (back to Day 1)
+	// Day 10 Gather Volcano
 	var MH1_EVENTS_ROTATION = new Uint8Array([
-		1,0,2,0,3,0,4,0,5,0,0,0,0,0
+		5,0,6,1,7,2,8,3,9,4
 	]);
 
 	function isMondayStart() {
@@ -137,22 +158,13 @@ ready(() => {
 	}
 	populateStartTime();
 
-	// Figure out when the most recent event cycle started at or before this month
+	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex) {
-		let ROTATION_LENGTH = MH1_EVENTS_ROTATION.length;
+		let eventRotationStart = Date.UTC(year, monthIndex, 1, 22, 0, 0);
 		let now = new Date();
-		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes()));
-		// Add one rotation's worth of days until firstOfMonth is greater than the start date
-		while (firstOfMonth < EVENT_ROTATION_START) {
-			firstOfMonth += ROTATION_LENGTH * MILLISECONDS_PER_DAY;
-		}
-		let daysSinceStart = (firstOfMonth - EVENT_ROTATION_START) / MILLISECONDS_PER_DAY;
-		let cyclesSinceStart = daysSinceStart / ROTATION_LENGTH;
-		// Use parseInt to truncate decimals
-		let index = parseInt(ROTATION_LENGTH * (cyclesSinceStart - parseInt(cyclesSinceStart)));
-		while (index < 0) index += ROTATION_LENGTH;
+		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
 
-		return index;
+		return firstOfMonth > eventRotationStart ? 0 : (MH1_EVENTS_ROTATION.length - 1);
 	}
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
