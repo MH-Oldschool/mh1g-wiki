@@ -160,7 +160,7 @@ ready(() => {
 
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex) {
-		let eventRotationStart = Date.UTC(year, monthIndex, 1, 22, 0, 0);
+		let eventRotationStart = Date.UTC(year, monthIndex, 0, 22, 0, 0);
 		let now = new Date();
 		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
 
