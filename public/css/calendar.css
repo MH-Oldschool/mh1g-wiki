@@ -58,7 +58,9 @@
 	text-align: left;
 	font-size: 0.75rem;
 	line-height: 1.5;
-	padding: 0 0.125rem;
+}
+.day-event {
+	padding: 0 0.125rem 1.5rem;
 }
 .show-g .day-event {
 	display: none !important;

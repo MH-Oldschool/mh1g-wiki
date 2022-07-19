@@ -40,35 +40,35 @@ ready(() => {
 
 	const MH1_EVENTS = [
 		{
-			title: "Gathering",
+			title: "Forest Gathering",
 			category: "gather",
 			location: "Forest and Hills",
 			client: "Hunter's Guild Material Collection",
 			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
 		},
 		{
-			title: "Gathering",
+			title: "Jungle Gathering",
 			category: "gather",
 			location: "Jungle",
 			client: "Hunter's Guild Material Collection",
 			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
 		},
 		{
-			title: "Gathering",
+			title: "Swamp Gathering",
 			category: "gather",
 			location: "Swamp",
 			client: "Hunter's Guild Material Collection",
 			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
 		},
 		{
-			title: "Gathering",
+			title: "Desert Gathering",
 			category: "gather",
 			location: "Desert",
 			client: "Hunter's Guild Material Collection",
 			description: "Quest I think as much as you can, if you collect field material, you can clear the quest by delivering Map in the box."
 		},
 		{
-			title: "Gathering",
+			title: "Volcano Gathering",
 			category: "gather",
 			location: "Volcano",
 			client: "Hunter's Guild Material Collection",
