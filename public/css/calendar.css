@@ -1,8 +1,16 @@
+.calendar-table-container {
+	overflow-x: auto;
+}
 .calendar caption {
 	padding: 0.5rem 0;
 }
+.calendar thead,
+.calendar tbody {
+	font-size: 0.625rem;
+}
 .calendar thead {
 	position: static;
+	font-size: 0.75rem;
 }
 #calendar-title {
 	padding: 0 1rem;
@@ -56,11 +64,10 @@
 .day-event,
 .day-special {
 	text-align: left;
-	font-size: 0.75rem;
 	line-height: 1.5;
 }
 .day-event {
-	padding: 0 0.125rem 1.5rem;
+	padding: 0 0.125rem 2.125rem;
 }
 .show-g .day-event {
 	display: none !important;
@@ -134,23 +141,38 @@
 	margin-bottom: 1rem;
 }
 
+/* Tablet */
 @media screen and (min-width: 50rem) {
 	.calendar-container {
 		display: flex;
 		justify-content: left;
 	}
-	.calendar {
-		margin-right: 5%;
-		width: 60%;
+	.calendar-table-container {
+		overflow-x: auto;
+		margin-right: auto;
+		width: 65%;
 		max-width: 45rem;
 	}
+	.calendar thead,
+	.calendar tbody {
+		font-size: inherit;
+	}
+	.day-event,
+	.day-special {
+		font-size: 0.75rem;
+	}
+	.day-event {
+		padding-bottom: 1.5rem;
+	}
+
 	.current-container {
-		width: 35%;
+		width: 30%;
 		max-width: 25rem;
 	}
 }
+/* Desktop */
 @media screen and (min-width: 80rem) {
-	.calendar {
+	.calendar-table-container {
 		margin-right: 4rem;
 	}
 }

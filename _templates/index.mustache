@@ -10,100 +10,102 @@
 		Event and Shop Special Calendar
 	</h2>
 	<p>
-		The events and shop specials change each day at <span id="event-special-time"></span> your time (10:00 PM GMT&plusmn;0)
+		The events and shop specials change each day at <span id="event-special-time"></span> your time (10:00&nbsp;PM GMT&plusmn;0)
 	</p>
 
 	<div class="calendar-container">
-		<table class="calendar">
-			<caption>
-				<button id="previous-month">&larr;</button>
-				<span id="calendar-title"></span>
-				<button id="next-month">&rarr;</button>
-			</caption>
-			<thead>
-				<tr>
-					<th class="start-sunday">Sunday</th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wednesday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-					<th>Saturday</th>
-					<th class="end-sunday">Sunday</th>
-				</tr>
-			</thead>
-			<tbody id="calendar-tbody">
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-				<tr class="calendar-week">
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-					<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="7">
-						<span>First day of the week: </span>
-						<input id="week-start-toggle" type="checkbox"/>
-						<label for="week-start-toggle" class="switch-label">
-							<span>Sunday</span>
-							<span class="switch-button">
-								<span class="button-tab"></span>
-							</span>
-							<span>Monday</span>
-						</label>
-					</td>
-				</tr>
-			</tfoot>
-		</table>
+		<div class="calendar-table-container">
+			<table class="calendar">
+				<caption>
+					<button id="previous-month">&larr;</button>
+					<span id="calendar-title"></span>
+					<button id="next-month">&rarr;</button>
+				</caption>
+				<thead>
+					<tr>
+						<th class="start-sunday">Sun<span class="hide-mobile">day</span></th>
+						<th>Mon<span class="hide-mobile">day</span></th>
+						<th>Tue<span class="hide-mobile">sday</span></th>
+						<th>Wed<span class="hide-mobile">nesday</span></th>
+						<th>Thu<span class="hide-mobile">rsday</span></th>
+						<th>Fri<span class="hide-mobile">day</span></th>
+						<th>Sat<span class="hide-mobile">urday</span></th>
+						<th class="end-sunday">Sun<span class="hide-mobile">day</span></th>
+					</tr>
+				</thead>
+				<tbody id="calendar-tbody">
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+					<tr class="calendar-week">
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+						<td><div class="day-number">1</div><div class="day-event"></div><div class="day-special"></div></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="7">
+							<span>First day of the week: </span>
+							<input id="week-start-toggle" type="checkbox"/>
+							<label for="week-start-toggle" class="switch-label">
+								<span>Sunday</span>
+								<span class="switch-button">
+									<span class="button-tab"></span>
+								</span>
+								<span>Monday</span>
+							</label>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
 
 		<aside class="current-container">
 			<div class="countdown-container">
