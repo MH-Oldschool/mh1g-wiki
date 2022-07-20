@@ -117,4 +117,15 @@ ready(() => {
 			}
 		}
 	}
+
+	// Keep footer at the bottom of the visible screen
+	var footer = document.getElementById("footer");
+	function updateFooterPosition() {
+		var boundingRect = footer.getBoundingClientRect();
+		footer.style.top = (window.innerHeight - boundingRect.height) + "px";
+	}
+	window.addEventListener("resize", () => {
+		window.requestAnimationFrame(updateFooterPosition);
+	});
+	updateFooterPosition();
 });
