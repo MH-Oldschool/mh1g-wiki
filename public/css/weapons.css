@@ -109,6 +109,7 @@
 }
 
 .weapon-class-container details {
+	overflow-x: auto;
 	margin-left: 0.25rem;
 }
 
