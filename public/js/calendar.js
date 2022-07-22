@@ -160,11 +160,18 @@ ready(() => {
 
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex) {
-		let eventRotationStart = Date.UTC(year, monthIndex, 0, 22, 0, 0);
-		let now = new Date();
-		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
+		const MILLISECONDS_PER_DAY = 86400000;
 
-		return firstOfMonth > eventRotationStart ? 0 : (MH1_EVENTS_ROTATION.length - 1);
+		var eventRotationStart = Date.UTC(year, monthIndex, 0, 22, 0, 0);
+		var now = new Date();
+		var firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
+
+		var daysSinceRotation = Math.floor((firstOfMonth - eventRotationStart) / MILLISECONDS_PER_DAY);
+		if (daysSinceRotation < 0) {
+			daysSinceRotation = MH1_EVENTS_ROTATION.length + daysSinceRotation;
+		}
+
+		return daysSinceRotation;
 	}
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
