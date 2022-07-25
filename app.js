@@ -15,6 +15,9 @@ app.get("/weapons", (req, res) => {
 app.get("/armor", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/armor.html"));
 });
+app.get("/bestiary", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/bestiary.html"));
+});
 
 app.get("/armor-data", (req, res) => {
 	res.sendFile(path.join(__dirname, "_views/armor.json"));

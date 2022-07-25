@@ -90,3 +90,4 @@ function buildPage(pageName, partials) {
 buildPage("index");
 buildPage("weapons");
 buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row","armor_data"]);
+buildPage("bestiary", ["monster"]);

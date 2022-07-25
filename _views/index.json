@@ -4,8 +4,7 @@
 	"subtitle": "<p></p>",
 	"head": "
 		<link type='text/css' rel='stylesheet' href='css/calendar.css'/>
-		<script type='text/javascript' src='js/calendar.js'></script>
-	",
+		<script type='text/javascript' src='js/calendar.js'></script>",
 	"onHome": true,
 	"gToggle": true
 }

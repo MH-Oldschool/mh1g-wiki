@@ -3,7 +3,7 @@ This started as just a web app that organizes all weapons from Monster Hunter G,
 # Current State
 I sourced all data from [mmpotato's MHG Analysis](http://infoseek_rip.g.ribbon.to/mmpotato.hp.infoseek.co.jp/codes/MHG/). Since I don't know Japanese very well, I used a plugin to translate everything, and consulted [Monster Hunter Freedom Unite Fandom Wiki](https://monsterhunter.fandom.com/wiki/Monster_Hunter_Freedom_Unite) to correct as many names as I could.
 
-I based Monster Hunter 1 data largely on the NTSC-U release, removing anything I knew was not in the original Japanese release.
+I based Monster Hunter 1 data largely on what has been collected by the Old School Monster Hunter team behind the current MH1 and MHG fan servers.
 
 Feel free to reach out and submit any corrections, but keep the Issues tab purely for technical problems.
 
@@ -28,6 +28,7 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [x] Correct armor skills
 	- [ ] Correct material names
 - [x] Armor Set Builder
+- [x] Monster Bestiary
 
 # Developing
 I've tried to keep this app as simple as possible: mostly static with a little JavaScript for interactivity.
