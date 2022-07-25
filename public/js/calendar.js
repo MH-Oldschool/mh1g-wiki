@@ -395,7 +395,7 @@ ready(() => {
 		var hours = document.getElementById("countdown-hours");
 		var minutes = document.getElementById("countdown-minutes");
 
-		hours.innerText = (Math.ceil(time / MS_PER_HOUR)).toString().padStart(2, "0");
+		hours.innerText = (Math.floor(time / MS_PER_HOUR)).toString().padStart(2, "0");
 		minutes.innerText = ((Math.ceil(time / MS_PER_MINUTE) % 60)).toString().padStart(2, "0");
 	}
 	var delta = 0;
