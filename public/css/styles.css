@@ -237,7 +237,7 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 	text-shadow: 0.0625rem 0.0625rem 0 #fa3;
 }
 
-.base-only {
+/* .base-only {
 	display: none;
 }
 .base-only.show {
@@ -251,7 +251,7 @@ tbody.base-only.show {
 }
 tr.base-only.show {
 	display: table-row;
-}
+} */
 
 .filters {
 	padding: 0 0 0 1.25rem;

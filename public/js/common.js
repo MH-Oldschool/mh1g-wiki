@@ -56,22 +56,26 @@ ready(() => {
 
 		var gOnlyEl = document.getElementsByClassName("g-only");
 		for (var i = 0; i < gOnlyEl.length; i++) {
-			if (toggleOn) {
-				gOnlyEl[i].classList.remove("hide");
-			}
-			else {
-				gOnlyEl[i].classList.add("hide");
-			}
+			gOnlyEl[i].style.display = toggleOn ? "" : "none";
+
+			// if (toggleOn) {
+			// 	gOnlyEl[i].classList.remove("hide");
+			// }
+			// else {
+			// 	gOnlyEl[i].classList.add("hide");
+			// }
 		}
 
 		var baseOnlyEl = document.getElementsByClassName("base-only");
 		for (var i = 0; i < baseOnlyEl.length; i++) {
-			if (toggleOn) {
-				baseOnlyEl[i].classList.remove("show");
-			}
-			else {
-				baseOnlyEl[i].classList.add("show");
-			}
+			baseOnlyEl[i].style.display = toggleOn ? "none" : "";
+
+			// if (toggleOn) {
+			// 	baseOnlyEl[i].classList.remove("show");
+			// }
+			// else {
+			// 	baseOnlyEl[i].classList.add("show");
+			// }
 		}
 
 		if (toggleOn) {

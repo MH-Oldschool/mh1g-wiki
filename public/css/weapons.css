@@ -34,6 +34,44 @@
 	display: none !important;
 }
 
+/* Element Filters */
+.filter-weapons .weapon-group-container,
+.filter-weapons tbody,
+.filter-weapons tr {
+	display: none;
+}
+/* .filter-weapons .weapon-group-container.show { display: block !important; }
+.filter-weapons tbody.show { display: table-row-group; }
+.filter-weapons tr.show { display: table-row !important; } */
+/* Fire */
+.highlight-fire .weapon-group-container.fire-pre { display: block; }
+.highlight-fire tbody.fire-pre { display: table-row-group; }
+.highlight-fire tr.fire-pre { display: table-row; }
+/* Water */
+.highlight-water .weapon-group-container.water-pre { display: block; }
+.highlight-water tbody.water-pre { display: table-row-group; }
+.highlight-water tr.water-pre { display: table-row; }
+/* Thunder */
+.highlight-thunder .weapon-group-container.thunder-pre { display: block; }
+.highlight-thunder tbody.thunder-pre { display: table-row-group; }
+.highlight-thunder tr.thunder-pre { display: table-row; }
+/* Dragon */
+.highlight-dragon .weapon-group-container.dragon-pre { display: block; }
+.highlight-dragon tbody.dragon-pre { display: table-row-group; }
+.highlight-dragon tr.dragon-pre { display: table-row; }
+/* Poison */
+.highlight-poison .weapon-group-container.poison-pre { display: block; }
+.highlight-poison tbody.poison-pre { display: table-row-group; }
+.highlight-poison tr.poison-pre { display: table-row; }
+/* Paralysis */
+.highlight-paralysis .weapon-group-container.paralysis-pre { display: block; }
+.highlight-paralysis tbody.paralysis-pre { display: table-row-group; }
+.highlight-paralysis tr.paralysis-pre { display: table-row; }
+/* Sleep */
+.highlight-sleep .weapon-group-container.sleep-pre { display: block; }
+.highlight-sleep tbody.sleep-pre { display: table-row-group; }
+.highlight-sleep tr.sleep-pre { display: table-row; }
+
 .highlight-fire .fire-element,
 .highlight-water .water-element,
 .highlight-thunder .thunder-element,
@@ -41,9 +79,17 @@
 .highlight-poison .poison-status,
 .highlight-paralysis .paralysis-status,
 .highlight-sleep .sleep-status {
-	text-shadow: 0.0625rem 0.0625rem 0 rgba(255,67,93,0.85);
-	box-shadow: inset 0 0 0.125rem 0.125rem rgba(79,255,247,0.85);
+	display: table-row;
+	text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
+.highlight-fire .fire-element { color: #f74501; }
+.highlight-water .water-element { color: #92eafe; }
+.highlight-thunder .thunder-element { color: #c4c412; }
+.highlight-dragon .dragon-element { color: #6e76bb; }
+
+.highlight-poison .poison-status { color: #da04d1; }
+.highlight-paralysis .paralysis-status { color: #ffff04; }
+.highlight-sleep .sleep-status { color: #99ff5b; }
 
 #melee-weapons td:first-child {
 	white-space: nowrap;

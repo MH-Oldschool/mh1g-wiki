@@ -19,31 +19,52 @@ ready(() => {
 	});
 	setRank(rankFilter.value);
 
+	var meleeWeaponsContainer = document.getElementById("melee-weapons");
 	var weaponElementChecks = document.getElementsByName("weapon-element-status");
+	var weaponStatusElementAll = document.getElementById("weapon-status-element-all");
 	function updateWeaponVisibility() {
 		var filterWeapons = false;
 
 		for (var i = 0; i < weaponElementChecks.length; i++) {
-			if (weaponElementChecks[i].checked && !filterWeapons) filterWeapons = true;
+			if (!filterWeapons && weaponElementChecks[i].checked) filterWeapons = true;
 			if (weaponElementChecks[i].checked) {
-				document.body.classList.add(weaponElementChecks[i].value);
+				meleeWeaponsContainer.classList.add(weaponElementChecks[i].value);
 			}
 			else {
-				document.body.classList.remove(weaponElementChecks[i].value);
+				meleeWeaponsContainer.classList.remove(weaponElementChecks[i].value);
 			}
+
+			// window.eachElementByClassName(weaponElementChecks[i].dataset.element, (element) => {
+			// 	if (weaponElementChecks[i].checked) {
+			// 		element.classList.addClass("show");
+			// 	}
+			// 	else {
+			// 		element.classList.removeClass("show");
+			// 	}
+			// });
 		}
 
 		if (filterWeapons) {
-			document.body.classList.add("filter-weapons");
+			meleeWeaponsContainer.classList.add("filter-weapons");
+			weaponStatusElementAll.checked = false;
 		}
 		else {
-			document.body.classList.remove("filter-weapons");
+			meleeWeaponsContainer.classList.remove("filter-weapons");
+			weaponStatusElementAll.checked = true;
 		}
 	}
 	for (var i = 0; i < weaponElementChecks.length; i++) {
 		weaponElementChecks[i].addEventListener("click", updateWeaponVisibility);
 	}
 	updateWeaponVisibility();
+	weaponStatusElementAll.addEventListener("click", (event) => {
+		if (event.target.checked) {
+			for (var i = 0; i < weaponElementChecks.length; i++) {
+				weaponElementChecks[i].checked = true;
+			}
+			meleeWeaponsContainer.classList.remove("filter-weapons");
+		}
+	});
 
 	var toggleBranchButton = (branchButton, open) => {
 		if (open) {
