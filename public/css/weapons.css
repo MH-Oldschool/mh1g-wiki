@@ -115,6 +115,75 @@
 	text-align: right;
 }
 
+.ammo-label {
+	display: block;
+}
+.filter-bowguns tbody tr {
+	display: none;
+}
+/* Base Bowgun Ammo */
+.show-nrm-1 .nrm-1,
+.show-nrm-3 .nrm-3,
+.show-prc-1 .prc-1,
+.show-prc-2 .prc-2,
+.show-prc-3 .prc-3,
+.show-pllt-1 .pllt-1,
+.show-pllt-2 .pllt-2,
+.show-pllt-3 .pllt-3,
+.show-crag-1 .crag-1,
+.show-crag-2 .crag-2,
+.show-crag-3 .crag-3,
+.show-clust-1 .clust-1,
+.show-clust-2 .clust-2,
+.show-clust-3 .clust-3,
+.show-disc .disc,
+.show-rec-1 .rec-1,
+.show-rec-2 .rec-2,
+.show-poi-1 .poi-1,
+.show-poi-2 .poi-2,
+.show-stun-1 .stun-1,
+.show-stun-2 .stun-2,
+.show-slp-1 .slp-1,
+.show-slp-2 .slp-2,
+.show-anti .anti,
+.show-demon .demon,
+.show-armor .armor,
+.show-dragon .dragon,
+.show-dung .dung {
+	display: table-row;
+}
+/* G Bowgun Ammo */
+.show-nrm-1 .nrm-1,
+.show-nrm-3 .nrm-3,
+.show-prc-1 .prc-1,
+.show-prc-2 .prc-2,
+.show-prc-3 .prc-3,
+.show-pllt-1 .pllt-1,
+.show-pllt-2 .pllt-2,
+.show-pllt-3 .pllt-3,
+.show-crag-1 .crag-1,
+.show-crag-2 .crag-2,
+.show-crag-3 .crag-3,
+.show-clust-1 .clust-1,
+.show-clust-2 .clust-2,
+.show-clust-3 .clust-3,
+.show-flame .flame,
+.show-water .water,
+.show-thunder .thunder,
+.show-dragon .dragon,
+.show-rec-1 .rec-1,
+.show-rec-2 .rec-2,
+.show-poi-1 .poi-1,
+.show-poi-2 .poi-2,
+.show-stun-1 .stun-1,
+.show-stun-2 .stun-2,
+.show-slp-1 .slp-1,
+.show-slp-2 .slp-2,
+.show-anti .anti,
+.show-demon .demon {
+	display: table-row;
+}
+
 /* All this to clip the sharpness graph for MH1 */
 .sharpness-cell {
 	position: relative;
@@ -218,4 +287,11 @@
 	border-width: 0.5rem 0.375rem;
 	margin-top: -0.25rem;
 	right: 0.125rem;
+}
+
+/* Sm Desktop */
+@media screen and (min-width: 64rem) {
+	#ranged-weapons .filter-column {
+		padding: 0 0.25rem;
+	}
 }

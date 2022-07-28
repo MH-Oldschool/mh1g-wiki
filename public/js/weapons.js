@@ -24,29 +24,26 @@ ready(() => {
 	var weaponStatusElementAll = document.getElementById("weapon-status-element-all");
 	function updateWeaponVisibility() {
 		var filterWeapons = false;
+		var anyUnchecked = false;
 
 		for (var i = 0; i < weaponElementChecks.length; i++) {
 			if (!filterWeapons && weaponElementChecks[i].checked) filterWeapons = true;
-			if (weaponElementChecks[i].checked) {
-				meleeWeaponsContainer.classList.add(weaponElementChecks[i].value);
-			}
-			else {
-				meleeWeaponsContainer.classList.remove(weaponElementChecks[i].value);
-			}
-
-			// window.eachElementByClassName(weaponElementChecks[i].dataset.element, (element) => {
-			// 	if (weaponElementChecks[i].checked) {
-			// 		element.classList.addClass("show");
-			// 	}
-			// 	else {
-			// 		element.classList.removeClass("show");
-			// 	}
-			// });
+			if (!anyUnchecked && !weaponElementChecks[i].checked) anyUnchecked = true;
 		}
 
-		if (filterWeapons) {
+
+		if (filterWeapons && anyUnchecked) {
 			meleeWeaponsContainer.classList.add("filter-weapons");
 			weaponStatusElementAll.checked = false;
+
+			for (var i = 0; i < weaponElementChecks.length; i++) {
+				if (weaponElementChecks[i].checked) {
+					meleeWeaponsContainer.classList.add(weaponElementChecks[i].value);
+				}
+				else {
+					meleeWeaponsContainer.classList.remove(weaponElementChecks[i].value);
+				}
+			}
 		}
 		else {
 			meleeWeaponsContainer.classList.remove("filter-weapons");
@@ -58,11 +55,137 @@ ready(() => {
 	}
 	updateWeaponVisibility();
 	weaponStatusElementAll.addEventListener("click", (event) => {
+		for (var i = 0; i < weaponElementChecks.length; i++) {
+			weaponElementChecks[i].checked = event.target.checked;
+		}
+
+		meleeWeaponsContainer.classList.remove("highlight-fire", "highlight-water", "highlight-thunder", "highlight-dragon", "highlight-poison", "highlight-paralysis", "highlight-sleep");
+
 		if (event.target.checked) {
-			for (var i = 0; i < weaponElementChecks.length; i++) {
-				weaponElementChecks[i].checked = true;
-			}
 			meleeWeaponsContainer.classList.remove("filter-weapons");
+		}
+		else {
+			meleeWeaponsContainer.classList.add("filter-weapons");
+		}
+	});
+
+	// Filter Bowguns by Ammo
+	var lbgBase = document.getElementById("lbg-base");
+	var hbgBase = document.getElementById("hbg-base");
+	var baseAmmoAll = document.getElementById("base-ammo-all");
+	var baseAmmoChecks = document.getElementsByName("ammo_base");
+
+	function updateBaseBowgunVisibility() {
+		var filterBowguns = false;
+		var anyUnchecked = false;
+
+		for (var i = 0; i < baseAmmoChecks.length; i++) {
+			if (!filterBowguns && baseAmmoChecks[i].checked) filterBowguns = true;
+			if (!anyUnchecked && !baseAmmoChecks[i].checked) anyUnchecked = true;
+		}
+
+
+		if (filterBowguns && anyUnchecked) {
+			lbgBase.classList.add("filter-bowguns");
+			hbgBase.classList.add("filter-bowguns");
+
+			baseAmmoAll.checked = false;
+
+			for (var i = 0; i < baseAmmoChecks.length; i++) {
+				if (baseAmmoChecks[i].checked) {
+					lbgBase.classList.add(baseAmmoChecks[i].value);
+					hbgBase.classList.add(baseAmmoChecks[i].value);
+				}
+				else {
+					lbgBase.classList.remove(baseAmmoChecks[i].value);
+					hbgBase.classList.remove(baseAmmoChecks[i].value);
+				}
+			}
+		}
+		else {
+			lbgBase.classList.remove("filter-bowguns");
+			hbgBase.classList.remove("filter-bowguns");
+			baseAmmoAll.checked = true;
+		}
+	}
+	for (var i = 0; i < baseAmmoChecks.length; i++) {
+		baseAmmoChecks[i].addEventListener("click", updateBaseBowgunVisibility);
+	}
+	updateBaseBowgunVisibility();
+	baseAmmoAll.addEventListener("click", (event) => {
+		for (var i = 0; i < baseAmmoChecks.length; i++) {
+			baseAmmoChecks[i].checked = event.target.checked;
+		}
+
+		lbgBase.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
+		hbgBase.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
+
+		if (event.target.checked) {
+			lbgBase.classList.remove("filter-bowguns");
+			hbgBase.classList.remove("filter-bowguns");
+		}
+		else {
+			lbgBase.classList.add("filter-bowguns");
+			hbgBase.classList.add("filter-bowguns");
+		}
+	});
+
+	var lbgG = document.getElementById("lbg-g");
+	var hbgG = document.getElementById("hbg-g");
+	var gAmmoAll = document.getElementById("g-ammo-all");
+	var gAmmoChecks = document.getElementsByName("ammo_g");
+	function updateGBowgunVisibility() {
+		var filterBowguns = false;
+		var anyUnchecked = false;
+
+		for (var i = 0; i < gAmmoChecks.length; i++) {
+			if (!filterBowguns && gAmmoChecks[i].checked) filterBowguns = true;
+			if (!anyUnchecked && !gAmmoChecks[i].checked) anyUnchecked = true;
+		}
+
+
+		if (filterBowguns && anyUnchecked) {
+			lbgG.classList.add("filter-bowguns");
+			hbgG.classList.add("filter-bowguns");
+
+			gAmmoAll.checked = false;
+
+			for (var i = 0; i < gAmmoChecks.length; i++) {
+				if (gAmmoChecks[i].checked) {
+					lbgG.classList.add(gAmmoChecks[i].value);
+					hbgG.classList.add(gAmmoChecks[i].value);
+				}
+				else {
+					lbgG.classList.remove(gAmmoChecks[i].value);
+					hbgG.classList.remove(gAmmoChecks[i].value);
+				}
+			}
+		}
+		else {
+			lbgG.classList.remove("filter-bowguns");
+			hbgG.classList.remove("filter-bowguns");
+			gAmmoAll.checked = true;
+		}
+	}
+	for (var i = 0; i < gAmmoChecks.length; i++) {
+		gAmmoChecks[i].addEventListener("click", updateGBowgunVisibility);
+	}
+	updateGBowgunVisibility();
+	gAmmoAll.addEventListener("click", (event) => {
+		for (var i = 0; i < gAmmoChecks.length; i++) {
+			gAmmoChecks[i].checked = event.target.checked;
+		}
+
+		lbgG.classList.remove("show-nrm-1","show-nrm-3","show-prc-1","show-prc-2","show-prc-3","show-pllt-1","show-pllt-2","show-pllt-3","show-crag-1","show-crag-2","show-crag-3","show-clust-1","show-clust-2","show-clust-3","show-flame","show-water","show-thunder","show-dragon","show-rec-1","show-rec-2","show-poi-1","show-poi-2","show-stun-1","show-stun-2","show-slp-1","show-slp-2","show-anti","show-demon");
+		hbgG.classList.remove("show-nrm-1","show-nrm-3","show-prc-1","show-prc-2","show-prc-3","show-pllt-1","show-pllt-2","show-pllt-3","show-crag-1","show-crag-2","show-crag-3","show-clust-1","show-clust-2","show-clust-3","show-flame","show-water","show-thunder","show-dragon","show-rec-1","show-rec-2","show-poi-1","show-poi-2","show-stun-1","show-stun-2","show-slp-1","show-slp-2","show-anti","show-demon");
+
+		if (event.target.checked) {
+			lbgG.classList.remove("filter-bowguns");
+			hbgG.classList.remove("filter-bowguns");
+		}
+		else {
+			lbgG.classList.add("filter-bowguns");
+			hbgG.classList.add("filter-bowguns");
 		}
 	});
 

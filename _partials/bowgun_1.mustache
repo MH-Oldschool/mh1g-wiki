@@ -1,0 +1,35 @@
+<tr class="{{#rank}}rank-{{rank}}{{/rank}} rare-{{rarity}}{{#normal.0}} nrm-1{{/normal.0}}{{#normal.2}} nrm-3{{/normal.2}}{{#pierce.0}} prc-1{{/pierce.0}}{{#pierce.1}} prc-2{{/pierce.1}}{{#pierce.2}} prc-3{{/pierce.2}}{{#pellet.0}} pllt-1{{/pellet.0}}{{#pellet.1}} pllt-2{{/pellet.1}}{{#pellet.2}} pllt-3{{/pellet.2}}{{#crag.0}} crag-1{{/crag.0}}{{#crag.1}} crag-2{{/crag.1}}{{#crag.2}} crag-3{{/crag.2}}{{#clust.0}} clust-1{{/clust.0}}{{#clust.1}} clust-2{{/clust.1}}{{#clust.2}} clust-3{{/clust.2}}{{#disc}} disc{{/disc}}{{#recover.0}} rec-1{{/recover.0}}{{#recover.1}} rec-2{{/recover.1}}{{#poison.0}} poi-1{{/poison.0}}{{#poison.1}} poi-2{{/poison.1}}{{#stun.0}} stun-1{{/stun.0}}{{#stun.1}} stun-2{{/stun.1}}{{#sleep.0}} slp-1{{/sleep.0}}{{#sleep.1}} slp-2{{/sleep.1}}{{#antidote}} anti{{/antidote}}{{#demon}} demon{{/demon}}{{#armor}} armor{{/armor}}{{#dragon}} dragon{{/dragon}}{{#dung}} dung{{/dung}}">
+	<td>{{&name}}</td>
+	<td>{{rarity}}</td>
+	<td>{{dmg}}</td>
+	<td>{{def}}</td>
+	<td>{{reload}}</td>
+	<td>{{recoil}}</td>
+	<td>
+		Normal: {{normal.0}}{{^normal.0}}-{{/normal.0}} / {{normal.1}} / {{normal.2}}{{^normal.2}}-{{/normal.2}}<br/>
+		Pierce: {{pierce.0}}{{^pierce.0}}-{{/pierce.0}} / {{pierce.1}}{{^pierce.1}}-{{/pierce.1}} / {{pierce.2}}{{^pierce.2}}-{{/pierce.2}}<br/>
+		Pellet: {{pellet.0}}{{^pellet.0}}-{{/pellet.0}} / {{pellet.1}}{{^pellet.1}}-{{/pellet.1}} / {{pellet.2}}{{^pellet.2}}-{{/pellet.2}}<br/>
+		Crag: {{crag.0}}{{^crag}}-{{/crag}} / {{crag.1}}{{^crag}}-{{/crag}} / {{crag.2}}{{^crag}}-{{/crag}}<br/>
+		Clust: {{clust.0}}{{^clust}}-{{/clust}} / {{clust.1}}{{^clust}}-{{/clust}} / {{clust.2}}{{^clust}}-{{/clust}}
+	</td>
+	<td>
+		Disc:{{disc}}{{^disc}}-{{/disc}}<br/>
+		Recover: {{recover.0}}{{^recover.0}}-{{/recover.0}} / {{recover.1}}{{^recover.1}}-{{/recover.1}}<br/>
+		Poison: {{poison.0}}{{^poison.0}}-{{/poison.0}} / {{poison.1}}{{^poison.1}}-{{/poison.1}}<br/>
+		Stun: {{stun.0}}{{^stun.0}}-{{/stun.0}} / {{stun.1}}{{^stun.1}}-{{/stun.1}}<br/>
+		Sleep: {{sleep.0}}{{^sleep.0}}-{{/sleep.0}} / {{sleep.1}}{{^sleep.1}}-{{/sleep.1}}
+	</td>
+	<td>
+		Tranq:{{tranq}}<br/>
+		Paint:{{paint}}<br/>
+		Antidote:{{antidote}}{{^antidote}}-{{/antidote}}
+	</td>
+	<td>
+		Demon:{{demon}}{{^demon}}-{{/demon}}<br/>
+		Armor:{{armor}}{{^armor}}-{{/armor}}<br/>
+		Dragon:{{dragon}}{{^dragon}}-{{/dragon}}<br/>
+		Dung:{{dung}}{{^dung}}-{{/dung}}
+	</td>
+	<td>{{price}}</td>
+	<td>{{&mats}}</td>
+</tr>
