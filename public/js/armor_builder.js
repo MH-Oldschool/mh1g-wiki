@@ -245,7 +245,7 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["","Vespoid Vest+","Vespoid Guard+","Vespoid Coat+","Vespoid Leggings+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
 	{armor:["","Hornet Mail+","Hornet Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Poison Negated","Stun Negated"]},
 	{armor:["","Hornet Vest+","Hornet Guard+","Hornet Coat+","Hornet Leggings+"],skills:["Poison Negated","Stun Negated"]},
-	{armor:["","Steel Mail+","Steel Vambraces+","Steel Tasset+",""],skills:["Item Combination Success + 20%"]},
+	// {armor:["","Steel Mail+","Steel Vambraces+","Steel Tasset+",""],skills:["Item Combination Success + 20%"]}, // Only US/EU
 	{armor:["","Hi-Metal Mail+","Hi-Metal Vambraces+","Hi-Metal Tasset+","Hi-Metal Greaves+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
 	{armor:["","Hi-Metal Vest+","Hi-Metal Guard+","Hi-Metal Coat+","Hi-Metal Leggings+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
 	{armor:["","Kut-Ku Mail+","Kut-Ku Vambraces+","Kut-Ku Tasset+",""],skills:["Attack Up [small]","Faint Halved"]},
