@@ -1,0 +1,51 @@
+{{> head}}
+
+<section class="filters">
+	<div class="filter-checks" title="Show/Hide more detailed information like exact formulas and modifiers.">
+		<input id="details-toggle" type="checkbox"/>
+		<label for="details-toggle">Show Details</label>
+	</div>
+</section>
+
+<section>
+	<article class="base-only">
+		{{#baseSkills}}
+			<div class="skill-row">
+				<ul class="skill-stages">
+					{{#stages}}
+						<li>{{&.}}</li>
+					{{/stages}}
+					{{^stages}}
+						<li>{{&name}}</li>
+					{{/stages}}
+				</ul>
+				<div class="skill-description">
+					<h3>{{name}}</h3>
+					<p>
+						{{&desc}}
+					</p>
+				</div>
+			</div>
+		{{/baseSkills}}
+	</article>
+
+	<article class="g-only">
+		{{#gSkills}}
+			<div class="skill-row">
+				<ul class="skill-stages">
+					{{#stages}}
+						<li><span class="skill-points">{{points}}</span> {{&name}}</li>
+					{{/stages}}
+				</ul>
+				<div class="skill-description">
+					<h3>{{name}}</h3>
+					<p>
+						{{&desc}}
+					</p>
+				</div>
+			</div>
+		{{/gSkills}}
+	</article>
+</section>
+
+{{> foot}}

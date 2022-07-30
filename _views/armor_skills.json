@@ -1,0 +1,712 @@
+{
+	"title": "Armor Skills",
+	"description": "All armor skills with descriptions.",
+	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge.<span class='g-only'> The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level.</span></p>",
+	"head": "
+		<link type='text/css' rel='stylesheet' href='css/armor_skills.css'/>
+		<script type='text/javascript' src='js/armor_skills.js'></script>",
+	"onArmorSkills": true,
+	"gToggle": true,
+	"baseSkills": [
+		{
+			"name":"Anti-Theft",
+			"desc":"The hunter is keenly attuned to thievery, preventing anyone from stealing their items."
+		},
+		{
+			"name":"Anti-Wind",
+			"desc":"The hunter&#8217;s footgear improves their footing, enabling them to resist the effects of wind created by monsters beating their wings, kicking up dust, etc."
+		},
+		{
+			"name":"Attack Up",
+			"stages":[
+				"Attack Up [S]",
+				"Attack Up [L]"
+			],
+			"desc":"The hunter&#8217;s familiarity with their weapon enables them to utilize it more effectively, increasing their attack."
+		},
+		{
+			"name":"Auto-Map",
+			"desc":"The hunter is so familiar with hunting locales, they have the map memorized."
+		},
+		{
+			"name":"Automatic Marking",
+			"desc":"The hunter is so attuned to the monsters, they always know where they are on the map."
+		},
+		{
+			"name":"Defense",
+			"stages":[
+				"Defense + 5",
+				"Defense + 10"
+			],
+			"desc":"The hunter&#8217;s skill and familiarity with their armor enables them to mitigate more damage."
+		},
+		{
+			"name":"Dragon Resist",
+			"stages":[
+				"Dragon - 10",
+				"Dragon + 25"
+			],
+			"desc":"In a failed attempt to control the mysterious Dragon element, the hunter&#8217;s armor has been made more vulnerable to dragon damage; or good fortune has imbued their armor with uncommon dragon element resistance."
+		},
+		{
+			"name":"Faint",
+			"stages":[
+				"Faint x 2",
+				"Faint Halved",
+				"Faint Negated"
+			],
+			"desc":"The hunter is a lightweight, seeing stars for longer when stunned; the hunter is a heavyweight, recovering more quickly from a stun; or the hunter cannot be stunned at all."
+		},
+		{
+			"name":"Fire Resist",
+			"stages":[
+				"Fire - 10",
+				"Fire + 25"
+			],
+			"desc":"The hunter&#8217;s armor is flammable, incurring more fire damage; or their armor is inflammable, mitigating more fire damage."
+		},
+		{
+			"name":"Gathering",
+			"desc":"The hunter&#8217;s knowledge of botany and geology ensures bountiful gathering."
+		},
+		{
+			"name":"Health",
+			"stages":[
+				"Health + 10",
+				"Health + 20",
+				"Health + 30"
+			],
+			"desc":"The hunter&#8217;s resiliance is improved, increasing their maximum health."
+		},
+		{
+			"name":"Health Recovery Items Improved",
+			"desc":"The hunter&#8217;s knowledge of medicine increases the amount of health they recover from healing items. (This effect is not applied when healing other hunters healed with the Wide Area skills or Lifepowder.)"
+		},
+		{
+			"name":"High Speed Damage Recovery",
+			"desc":"The hunter&#8217;s natural healing ability is improved, recovering temporary damage more quickly."
+		},
+		{
+			"name": "Hunger",
+			"stages":[
+				"Hunger x 1.5<span class='details'> (2x)</span>",
+				"Hunger Halved",
+				"Hunger Negated"
+			],
+			"desc":"The hunter is insatiable, losing maximum stamina very quickly on a hunt; or they are resilient, maybe even immune to exhaustion, losing maximum stamina slowly or not at all."
+		},
+		{
+			"name":"Luck",
+			"stages":[
+				"Bad Luck",
+				"Good Fortune"
+			],
+			"desc":"Worsens/improves the hunter&#8217;s chance to receive rare materials in their quest rewards."
+		},
+		{
+			"name":"Poison",
+			"stages":[
+				"Poison x 2",
+				"Poison Halved",
+				"Poison Negated"
+			],
+			"desc":"The hunter suffers the effects of Poison for more/less time."
+		},
+		{
+			"name":"Provocation",
+			"desc":"The hunter actively provokes nearby monsters, drawing their aggression away from their fellow hunters more often. This does not impact how a monster first detects the hunter."
+		},
+		{
+			"name":"Reloading Speed",
+			"stages":[
+				"Reload + 1",
+				"Reload + 2"
+			],
+			"desc":"The hunter&#8217;s knowledge of bowgun construction enables them to reload their bowgun more quickly."
+		},
+		{
+			"name":"Sharpness Restoration",
+			"stages":[
+				"Sharpness Restoration + 25%",
+				"Sharpness Restoration + 50%"
+			],
+			"desc":"The hunter&#8217;s skill with whetstones enables them to restore more sharpness to their weapon with each use."
+		},
+		{
+			"name":"Sleep",
+			"stages":[
+				"Sleep x 2",
+				"Sleep Halved",
+				"Sleep Negated"
+			],
+			"desc":"The hunter is a heavy sleeper, and takes longer to wake; the hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
+		},
+		{
+			"name":"Stealth",
+			"desc":"The hunter avoids provoking nearby monsters, drawing their aggression less often than their fellow hunters. This does not impact how a monster first detects the hunter."
+		},
+		{
+			"name":"Stun",
+			"stages":[
+				"Stun x 2",
+				"Stun Halved",
+				"Stun Negated"
+			],
+			"desc":"The hunter&#8217;s nervous system is compromised so they suffer Paralysis for a greater duration; or their nervous system is tempered so they suffer Paralysis for less time, or are even immune to it."
+		},
+		{
+			"name":"Temperature",
+			"stages":[
+				"Anti-Cold",
+				"Anti-Heat"
+			],
+			"desc":"The hunter&#8217;s armor is well padded or well ventilated to protect them from the effects of extreme temperatures."
+		},
+		{
+			"name":"Thunder Resist",
+			"stages":[
+				"Thunder - 10",
+				"Thunder + 25"
+			],
+			"desc":"The hunter&#8217;s armor is a good conductor, drawing more thunder damage; or their armor is a good resistor, dissipating more thunder damage."
+		},
+		{
+			"name":"Toolsaver",
+			"stages":[
+				"Toolsaver<span class='details'> (25%)</span>",
+				"Divine Toolsaver<span class='details'> (50%)</span>"
+			],
+			"desc":"The hunter is careful when using their tools, so they break less often."
+		},
+		{
+			"name":"Water Resist",
+			"stages":[
+				"Water - 10",
+				"Water + 25"
+			],
+			"desc":"The hunter&#8217;s armor is poorly fitted, allowing more water damage; or their armor is waterproof, resisting more water damage."
+		},
+		{
+			"name":"Wide Area",
+			"stages":[
+				"Wide Area Potion",
+				"Wide Area Antidote",
+				"Wide Area Power Seed",
+				"Wide Area Armor Seed"
+			],
+			"desc":"The hunter is a generous soul, sharing the effects of certain items to all nearby hunters at reduced strength."
+		}
+	],
+	"gSkills": [
+		{
+			"name":"Alchemy",
+			"stages":[
+				{ "points":"+10", "name": "Alchemy" }
+			],
+			"desc":"Unlocks the secrets of special item combinations for the hunter."
+		},
+		{
+			"name":"Anti-Theft",
+			"stages":[
+				{ "points":"+10", "name": "Anti-Theft" }
+			],
+			"desc":"The hunter is keenly attuned to thievery, preventing anyone from stealing their items."
+		},
+		{
+			"name":"Attack",
+			"stages":[
+				{ "points":"+10", "name":"Attack Up [S]<span class='details'> (+3)</span>" },
+				{ "points":"+15", "name":"Attack Up [M]<span class='details'> (+5)</span>" },
+				{ "points":"+25", "name":"Attack Up [L]<span class='details'> (+10)</span>" }
+			],
+			"desc":"The hunter&#8217;s familiarity with their weapon enables them to utilize it more effectively, increasing their attack.<span class='details'> Adds the amount in parentheses to the weapon&#8217;s true damage value before its bloat value.</span>"
+		},
+		{
+			"name":"Auto-Guard",
+			"stages":[
+				{ "points":"+10", "name": "Auto-Guard" }
+			],
+			"desc":"The hunter is imbued with supernatural reflexes, automatically blocking any attack when possible."
+		},
+		{
+			"name":"Blessing",
+			"stages":[
+				{ "points":"-10", "name":"Blessing of Evil Spirits<span class='details'> (1.3x)</span>" },
+				{ "points":"+10", "name":"Blessing of Spirits<span class='details'> (0.7x)</span>" }
+			],
+			"desc":"The hunter is condemned to take<span class='vaguery'> more</span><span class='details'> 1.3x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>; or the hunter is blessed to take<span class='vaguery'> less</span><span class='details'> 0.7x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>."
+		},
+		{
+			"name":"Bomber",
+			"stages":[
+				{ "points":"+10", "name": "Bomber" }
+			],
+			"desc":"The hunter&#8217;s knowledge of explosives increases the yield of their bombs<span class='details'>, dealing 1.5x damage</span>."
+		},
+		{
+			"name":"Bullet Formulation",
+			"stages":[
+				{ "points":"+10", "name": "Bullet Formulation" }
+			],
+			"desc":"The hunter&#8217;s excellent craftsmanship ensures they always make the maximum possible amount of ammunition when combining."
+		},
+		{
+			"name":"Clust S Add",
+			"stages":[
+				{ "points":"+10", "name":"Clust S Add 1" },
+				{ "points":"+15", "name":"Clust S Add 2" },
+				{ "points":"+25", "name":"Clust S Add 3" }
+			],
+			"desc":"Enables the hunter to load Cluster Shot of increasing levels in bowguns that cannot normally use it."
+		},
+		{
+			"name":"Cold Res",
+			"stages":[
+				{ "points":"-25", "name":"Cold Effect Doubled" },
+				{ "points":"-10", "name":"Cold Effect x1.5" },
+				{ "points":"+10", "name":"Cold Effect Halved" },
+				{ "points":"+15", "name":"Cold Negated" }
+			],
+			"desc":"The hunter&#8217;s armor is missing padding, hastening the effects of cold climates; or their armor is padded for cold weather, mitigating or even negating the effects of cold climates."
+		},
+		{
+			"name":"Combo Rate",
+			"stages":[
+				{ "points":"-25", "name":"Combo Rate -15%" },
+				{ "points":"-15", "name":"Combo Rate -10%" },
+				{ "points":"-10", "name":"Combo Rate -5%" },
+				{ "points":"+10", "name":"Combo Rate +5%" },
+				{ "points":"+15", "name":"Combo Rate +10%" },
+				{ "points":"+25", "name":"Combo Rate +20%" }
+			],
+			"desc":"The hunter&#8217;s skill at craftsmanship is impaired, increasing the likelihood their combinations will fail; or their craftsmanship is improved, increasing the likelihood their combinations will succeed. This adds to the combo book bonus."
+		},
+		{
+			"name":"Crag S Add",
+			"stages":[
+				{ "points":"+10", "name":"Crag S Add 1" },
+				{ "points":"+15", "name":"Crag S Add 2" },
+				{ "points":"+25", "name":"Crag S Add 3" }
+			],
+			"desc":"Enables the hunter to load Crag Shot of increasing levels in bowguns that cannot normally use it."
+		},
+		{
+			"name":"Defense",
+			"stages":[
+				{ "points":"-25", "name":"Defense -20" },
+				{ "points":"-15", "name":"Defense -15" },
+				{ "points":"-10", "name":"Defense -10" },
+				{ "points":"+10", "name":"Defense +10" },
+				{ "points":"+15", "name":"Defense +15" },
+				{ "points":"+25", "name":"Defense +20" }
+			],
+			"desc":"The hunter&#8217;s ineptitude and ill-fitting armor increases the damage they take; or their skill and familiarity with their armor enables them to mitigate more damage."
+		},
+		{
+			"name":"Dragon Res Up",
+			"stages":[
+				{ "points":"-25", "name":"Dragon Res -10" },
+				{ "points":"-15", "name":"Dragon Res -5" },
+				{ "points":"-10", "name":"Dragon Res -3" },
+				{ "points":"+10", "name":"Dragon Res +3" },
+				{ "points":"+15", "name":"Dragon Res +5" },
+				{ "points":"+25", "name":"Dragon Res +10" }
+			],
+			"desc":"In a failed attempt to control the mysterious Dragon element, the hunter&#8217;s armor has been made more vulnerable to dragon damage; or good fortune has imbued their armor with uncommon dragon element resistance."
+		},
+		{
+			"name":"Earplugs",
+			"stages":[
+				{ "points":"+10", "name":"Earplugs" },
+				{ "points":"+15", "name":"Luxury Earplugs" }
+			],
+			"desc":"Protects the hunter from monster roars. Some monsters roar so loudly, only Luxury Earplugs will protect the hunter."
+		},
+		{
+			"name":"Element Res Up",
+			"stages":[
+				{ "points":"-25", "name":"Element Res -10" },
+				{ "points":"-15", "name":"Element Res -5" },
+				{ "points":"-10", "name":"Element Res -3" },
+				{ "points":"+10", "name":"Element Res +3" },
+				{ "points":"+15", "name":"Element Res +5" },
+				{ "points":"+25", "name":"Element Res +10" }
+			],
+			"desc":"A feckless blacksmith has ruined the hunter&#8217;s armor, making it more vulnerable to all elemental damage; or a skilled blacksmith has hardened the armor against all elemental damage."
+		},
+		{
+			"name":"ESP (Swordsmanship)",
+			"stages":[
+				{ "points":"+10", "name": "Swordsmanship" }
+			],
+			"desc":"The hunter always follows through with their melee attacks, no longer rebounding on tough monster parts."
+		},
+		{
+			"name":"Fate",
+			"stages":[
+				{ "points":"-25", "name":"Disaster" },
+				{ "points":"-10", "name":"Bad Luck" },
+				{ "points":"+10", "name":"Good Luck" },
+				{ "points":"+15", "name":"Very Good Luck" }
+			],
+			"desc":"The hunter is cursed to receive rare quest rewards less often; or the hunter is blessed to receive rare quest rewards more often."
+		},
+		{
+			"name":"Fire Res Up",
+			"stages":[
+				{ "points":"-25", "name":"Fire Res -10" },
+				{ "points":"-15", "name":"Fire Res -5" },
+				{ "points":"-10", "name":"Fire Res -3" },
+				{ "points":"+10", "name":"Fire Res +3" },
+				{ "points":"+15", "name":"Fire Res +5" },
+				{ "points":"+25", "name":"Fire Res +10" }
+			],
+			"desc":"The hunter&#8217;s armor is flammable, incurring more fire damage; or their armor is inflammable, mitigating more fire damage."
+		},
+		{
+			"name":"Fishing",
+			"stages":[
+				{ "points":"+10", "name": "Fishing Master" }
+			],
+			"desc":"Having mastered the art of fishing, the hunter has a longer window to reel in a fish, and the lure appears to be much bigger."
+		},
+		{
+			"name":"Gathering",
+			"stages":[
+				{ "points":"-15", "name":"Gathering -2<span class='details'> (59%)</span>" },
+				{ "points":"-10", "name":"Gathering -1<span class='details'> (72%)</span>" },
+				{ "points":"+10", "name":"Gathering +1<span class='details'> (91%)</span>" },
+				{ "points":"+15", "name":"Gathering +2<span class='details'> (97%)</span>" }
+			],
+			"desc":"The hunter&#8217;s ignorance of botany and geology denies them as many items when gathering; or their knowledge of botany and geology brings them bountiful gathering.<span class='details'> This effects the chance the hunter can gather more than once at a gathering point; that is, one item is guaranteed and each successive attempt has a chance to have another item or the gathering point will be depleted. Normally, this chance is 84%.</span>"
+		},
+		{
+			"name":"Gluttony",
+			"stages":[
+				{ "points":"+10", "name":"Filled +1<span class='details'> (+25)</span>" },
+				{ "points":"+15", "name":"Filled +2<span class='details'> (+50)</span>" },
+				{ "points":"+25", "name":"Scavenger<span class='details'> (+50)</span>" }
+			],
+			"desc":"The hunter eats every last scrap of cooked meat, gaining more stamina in the process. Furthermore, the Scavenger will occasionally gain a stamina boost when using any recovery item.<span class='details'> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>"
+		},
+		{
+			"name":"Guard",
+			"stages":[
+				{ "points":"-15", "name":"Guard -2" },
+				{ "points":"-10", "name":"Guard -1" },
+				{ "points":"+10", "name":"Guard +1" },
+				{ "points":"+15", "name":"Guard +2" }
+			],
+			"desc":"The hunter&#8217;s shield is too light, so they knocked back further, and take more damage, while blocking; or their shield is especially heavy, so they are knocked back a shorter distance, and take less damage, while blocking."
+		},
+		{
+			"name":"Guard Up",
+			"stages":[
+				{ "points":"+10", "name": "Guard Up" }
+			],
+			"desc":"The hunter&#8217;s shield is tempered by master blacksmiths such that it can block any attack, no matter how powerful."
+		},
+		{
+			"name":"Handicraft",
+			"stages":[
+				{ "points":"-10", "name":"Sharpness Down" },
+				{ "points":"+10", "name":"Sharpness Up" }
+			],
+			"desc":"The hunter is careless in maintaining their weapon, and it no longer has the sharp edge it once had; or they are meticulous in maintenaining their, and it is sharper than when it was forged."
+		},
+		{
+			"name":"Health",
+			"stages":[
+				{ "points":"-25", "name":"Health -30" },
+				{ "points":"-15", "name":"Health -20" },
+				{ "points":"-10", "name":"Health -10" },
+				{ "points":"+10", "name":"Health +10" },
+				{ "points":"+15", "name":"Health +20" },
+				{ "points":"+25", "name":"Health +30" }
+			],
+			"desc":"The hunter&#8217;s constitution is weakened, reducing their maximum health; or their resiliance is improved, increasing their maximum health."
+		},
+		{
+			"name":"Heat Res",
+			"stages":[
+				{ "points":"-25", "name":"Heat Effect Doubled" },
+				{ "points":"-10", "name":"Heat Effect x1.5" },
+				{ "points":"+10", "name":"Heat Effect Halved" },
+				{ "points":"+15", "name":"Heat Negated" }
+			],
+			"desc":"The hunter&#8217;s armor is poorly ventilated, hastening the effects of heatstroke; or their armor is well ventilated, mitigating or even negating the effects of heatstroke."
+		},
+		{
+			"name":"Hunger",
+			"stages":[
+				{ "points":"-25", "name":"Double Hunger" },
+				{ "points":"-10", "name":"Hunger x1.5" },
+				{ "points":"+10", "name":"Hunger Halved" },
+				{ "points":"+15", "name":"Hunger Negated" }
+			],
+			"desc":"The hunter is insatiable, losing maximum stamina very quickly on a hunt; or they are resilient, maybe even immune to exhaustion, losing maximum stamina slowly or not at all."
+		},
+		{
+			"name":"Map",
+			"stages":[
+				{ "points":"-10", "name":"No Map" },
+				{ "points":"+10", "name":"Farsight" }
+			],
+			"desc":"The hunter cannot read even a simple map; or they know the locales so well, they need no map."
+		},
+		{
+			"name":"Normal S Add",
+			"stages":[
+				{ "points":"+10", "name":"Normal S Add 1" },
+				{ "points":"+15", "name":"Normal S Add All" }
+			],
+			"desc":"The hunter has discovered how to load Normal Shot into any bowgun."
+		},
+		{
+			"name":"Normal S Up",
+			"stages":[
+				{ "points":"+10", "name": "Normal S Up" }
+			],
+			"desc":"The hunter is an expert with all levels of Normal Shot, dealing<span class='vaguery'> increased</span><span class='details'> 1.1x</span> damage."
+		},
+		{
+			"name":"Paralysis",
+			"stages":[
+				{ "points":"-10", "name":"Paralysis Doubled" },
+				{ "points":"+10", "name":"Paralysis Halved" },
+				{ "points":"+15", "name":"Paralysis Negated" }
+			],
+			"desc":"The hunter&#8217;s nervous system is compromised so they suffer Paralysis for a greater duration; or their nervous system is tempered so they suffer Paralysis for less time, or are even immune to it."
+		},
+		{
+			"name":"Pellet S Add",
+			"stages":[
+				{ "points":"+10", "name":"Pellet S Add 1" },
+				{ "points":"+15", "name":"Pellet S Add 2" },
+				{ "points":"+25", "name":"Pellet S Add 3" }
+			],
+			"desc":"The hunter has discovered how to load Pellet Shot into any bowgun."
+		},
+		{
+			"name":"Pellet S Up",
+			"stages":[
+				{ "points":"+10", "name": "Pellet S Up" }
+			],
+			"desc":"The hunter is an expert with all levels of Pellet Shot, dealing<span class='vaguery'> increased</span><span class='details'> 1.3x</span> damage."
+		},
+		{
+			"name":"Pierce S Add",
+			"stages":[
+				{ "points":"+10", "name":"Pierce S Add 1" },
+				{ "points":"+15", "name":"Pierce S Add 2" },
+				{ "points":"+25", "name":"Pierce S Add 3" }
+			],
+			"desc":"The hunter has discovered how to load Pierce Shot into any bowgun."
+		},
+		{
+			"name":"Pierce S Up",
+			"stages":[
+				{ "points":"+10", "name": "Pierce S Up" }
+			],
+			"desc":"The hunter is an expert with all levels of Pierce Shot, dealing<span class='vaguery'> increased</span><span class='details'> 1.1x</span> damage."
+		},
+		{
+			"name":"Poison",
+			"stages":[
+				{ "points":"-25", "name":"Poison Quadrupled" },
+				{ "points":"-15", "name":"Poison Tripled" },
+				{ "points":"-10", "name":"Poison Doubled" },
+				{ "points":"+10", "name":"Poison Halved" },
+				{ "points":"+15", "name":"Poison Negated" }
+			],
+			"desc":"The hunter&#8217;s immune system is compromised so they suffer Poison for longer; or it is strengthened so they suffer poison for less time, or are even immune to it."
+		},
+		{
+			"name":"Pro Transporter",
+			"stages":[
+				{ "points":"+10", "name": "Pro Transporter" }
+			],
+			"desc":"Enables the hunter to move faster while carrying an egg or other delivery item, and dropping a long distance will no longer drop the item."
+		},
+		{
+			"name":"Psychic",
+			"stages":[
+				{ "points":"+10", "name":"Detect" },
+				{ "points":"+15", "name":"Autotracker" }
+			],
+			"desc":"The hunter is so attuned to monsters, they can tell which direction a monster is facing, as long as the monster is being tracked<span class='details'>(if it is Paintballed or the hunter is using Psychoserum)</span>; or additionally the hunter will know the monster&#8217;s position at all times."
+		},
+		{
+			"name":"Rapid Fire",
+			"stages":[
+				{ "points":"+10", "name": "Rapid Fire" }
+			],
+			"desc":"The hunter has discovered how to feed shots into their bowgun without reloading, and only needs to reload their bowgun when changing ammo type. This comes at the cost of greatly increased recoil, as their off-hand is no longer steadying the bowgun."
+		},
+		{
+			"name":"Recoil",
+			"stages":[
+				{ "points":"+10", "name":"Recoil +1" },
+				{ "points":"+15", "name":"Recoil +2" }
+			],
+			"desc":"The hunter&#8217;s armor is expertly designed to absorb bowgun recoil, greatly reducing it."
+		},
+		{
+			"name":"Recovery Items",
+			"stages":[
+				{ "points":"-10", "name":"Recovery Down<span class='details'> (0.75x)</span>" },
+				{ "points":"+10", "name":"Recovery Up<span class='details'> (1.5x)</span>" }
+			],
+			"desc":"The hunter&#8217;s knowledge of medicine increases the amount of health they recover from healing items. (This effect is not applied when healing other hunters healed with the Wide Area skills or Lifepowder.)"
+		},
+		{
+			"name":"Recovery Speed",
+			"stages":[
+				{ "points":"-25", "name":"Recovery Speed -2<span class='details'> (1/4x)</span>" },
+				{ "points":"-10", "name":"Recovery Speed -1<span class='details'> (1/3x)</span>" },
+				{ "points":"+10", "name":"Recovery Speed +1<span class='details'> (3x)</span>" },
+				{ "points":"+25", "name":"Recovery Speed +2<span class='details'> (4x)</span>" }
+			],
+			"desc":"The hunter&#8217;s natural healing ability is impaired, and they recover temporary damage more slowly; or their ability is improved, and they recover temporary damage more quickly."
+		},
+		{
+			"name":"Reload Speed",
+			"stages":[
+				{ "points":"-25", "name":"Reload Speed -3" },
+				{ "points":"-15", "name":"Reload Speed -2" },
+				{ "points":"-10", "name":"Reload Speed -1" },
+				{ "points":"+10", "name":"Reload Speed +1" },
+				{ "points":"+15", "name":"Reload Speed +2" },
+				{ "points":"+25", "name":"Reload Speed +3" }
+			],
+			"desc":"The hunter&#8217;s inexperience with the bowgun hinders their ability to reload quickly; or their knowledge of bowgun construction enables them to reload their bowgun more quickly."
+		},
+		{
+			"name":"Sense",
+			"stages":[
+				{ "points":"-10", "name":"Provocation" },
+				{ "points":"+10", "name":"Stealth" }
+			],
+			"desc":"The hunter actively provokes nearby monsters, drawing their aggression away from their fellow hunters more often; or they avoid provoking nearby monsters, drawing their aggression less often than their fellow hunters. These skills have no impact on how easily a monster first detects the hunter."
+		},
+		{
+			"name":"Sharpener",
+			"stages":[
+				{ "points":"-10", "name":"Sharpening Halved" },
+				{ "points":"+10", "name":"Sharpening Doubled" }
+			],
+			"desc":"The hunter is careless with a whetstone, taking longer to sharpen their weapon; or they are dextrous with a whetstone, speedily sharpening their weapon."
+		},
+		{
+			"name":"Sharpness",
+			"stages":[
+				{ "points":"-10", "name":"Dullness" },
+				{ "points":"+10", "name":"Razor Sharp" }
+			],
+			"desc":"The hunter swings their weapon carelessly, losing more sharpness with each hit; or they are careful with their strikes, losing less sharpness with every hit. This also applies to sharpness lost when blocking with the Great Sword."
+		},
+		{
+			"name":"Sleep",
+			"stages":[
+				{ "points":"-10", "name":"Sleep Doubled" },
+				{ "points":"+10", "name":"Sleep Halved" },
+				{ "points":"+15", "name":"Sleep Negated" }
+			],
+			"desc":"The hunter is a heavy sleeper, and takes longer to wake; the hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
+		},
+		{
+			"name":"Special Attack",
+			"stages":[
+				{ "points":"+10", "name": "Special Attack" }
+			],
+			"desc":"The hunter is skilled with status effect weapons, applying<span class='vaguery'> more</span><span class='details'> 1.125x</span> status with every hit."
+		},
+		{
+			"name":"Stun",
+			"stages":[
+				{ "points":"-10", "name":"Stun Doubled" },
+				{ "points":"+10", "name":"Stun Halved" },
+				{ "points":"+15", "name":"Stun Negated" }
+			],
+			"desc":"The hunter is a lightweight, seeing stars for longer when stunned; the hunter is a heavyweight, recovering more quickly from a stun; or the hunter cannot be stunned at all."
+		},
+		{
+			"name":"Throw",
+			"stages":[
+				{ "points":"+10", "name": "Throw" }
+			],
+			"desc":"The hunter has an excellent throwing arm, dealing more damage with items like Stones and Paintballs."
+		},
+		{
+			"name":"Thunder Res Up",
+			"stages":[
+				{ "points":"-25", "name":"Thunder Res -10" },
+				{ "points":"-15", "name":"Thunder Res -5" },
+				{ "points":"-10", "name":"Thunder Res -3" },
+				{ "points":"+10", "name":"Thunder Res +3" },
+				{ "points":"+15", "name":"Thunder Res +5" },
+				{ "points":"+25", "name":"Thunder Res +10" }
+			],
+			"desc":"The hunter&#8217;s armor is a good conductor, drawing more thunder damage; or their armor is a good resistor, dissipating more thunder damage."
+		},
+		{
+			"name":"Water Res Up",
+			"stages":[
+				{ "points":"-25", "name":"Water Res -10" },
+				{ "points":"-15", "name":"Water Res -5" },
+				{ "points":"-10", "name":"Water Res -3" },
+				{ "points":"+10", "name":"Water Res +3" },
+				{ "points":"+15", "name":"Water Res +5" },
+				{ "points":"+25", "name":"Water Res +10" }
+			],
+			"desc":"The hunter&#8217;s armor is poorly fitted, allowing more water damage; or their armor is waterproof, resisting more water damage."
+		},
+		{
+			"name":"Whistle",
+			"stages":[
+				{ "points":"+10", "name": "Whistle Master" }
+			],
+			"desc":"The hunter is an excellent floutist: their songs are<span class='details'> 1.1x</span> more potent and their effects last<span class='details'> 1.1x</span> longer. They also take care of their instruments, so that Flutes are<span class='details'> 25%</span> less likely to break when played."
+		},
+		{
+			"name":"Whim",
+			"stages":[
+				{ "points":"-15", "name":"Devil&#8217;s Whim<span class='details'> (+50%)</span>" },
+				{ "points":"-10", "name":"Spectre&#8217;s Whim<span class='details'> (+25%)</span>" },
+				{ "points":"+10", "name":"Spirit&#8217;s Whim<span class='details'> (-25%)</span>" },
+				{ "points":"+15", "name":"Divine Whim<span class='details'> (-50%)</span>" }
+			],
+			"desc":"The hunter is reckless when using their tools, so they break more often; or they're careful when using their tools, so they break less often."
+		},
+		{
+			"name":"Wide Area Antidote",
+			"stages":[
+				{ "points":"+10", "name": "Wide Area Antidote" }
+			],
+			"desc":"The hunter is a generous soul, healing nearby hunters of poison when using an antidote themselves."
+		},
+		{
+			"name":"Wide Area Drug",
+			"stages":[
+				{ "points":"+10", "name": "Wide Area Drug" }
+			],
+			"desc":"The hunter is an inspiring presence, empowering nearby hunters when using a Power or Armor Seed."
+		},
+		{
+			"name":"Wide Area Recovery",
+			"stages":[
+				{ "points":"+10", "name":"Herb Wide Area" },
+				{ "points":"+15", "name":"Potion Wide Area" }
+			],
+			"desc":"The hunter&#8217s recovery heals their comrades, healing nearby hunters at a reduced amount when consuming an herb or potion. (this only applies for regular Potions.)"
+		},
+		{
+			"name":"Wind Pressure",
+			"stages":[
+				{ "points":"+10", "name":"Low Wind Pressure" },
+				{ "points":"+15", "name":"High Wind Pressure" }
+			],
+			"desc":"The hunter&#8217;s footgear improves their footing, enabling them to resist the effects of wind created by monsters beating their wings, kicking up dust, etc. Wind pressure created by the most powerful monsters requires the High Wind Pressure skill."
+		}
+	]
+}

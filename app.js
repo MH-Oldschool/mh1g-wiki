@@ -18,9 +18,8 @@ app.get("/armor", (req, res) => {
 app.get("/bestiary", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/bestiary.html"));
 });
-
-app.get("/armor-data", (req, res) => {
-	res.sendFile(path.join(__dirname, "_views/armor.json"));
+app.get("/armor-skills", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/armor_skills.html"));
 });
 
 var server = app.listen(PORT);

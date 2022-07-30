@@ -1,0 +1,58 @@
+.details {
+	display: none;
+}
+.show-details .details {
+	display: inline;
+}
+.show-details .vaguery {
+	display: none;
+}
+
+.skill-row {
+	display: flex;
+	border: 0.25rem inset #753;
+}
+
+.skill-stages,
+.skill-description {
+	box-sizing: border-box;
+}
+
+.skill-stages {
+	align-self: stretch;
+	list-style: none;
+	background: rgba(0,0,0,0.7);
+	padding: 0;
+	margin: 0;
+	width: 25%;
+}
+.skill-stages li {
+	line-height: 1.5;
+	padding: 0 0.25rem;
+}
+.skill-stages li:nth-child(2n) {
+	background: rgba(64,64,64,0.5);
+}
+.skill-points {
+	display: inline-block;
+	text-align: right;
+	font-weight: bold;
+	border-right: 0.0625rem solid;
+	padding: 0 0.25rem 0 0;
+	width: 2rem;
+}
+
+.skill-description {
+	padding: 0.25rem 0.5rem;
+	width: 75%;
+}
+
+.skill-description h3 {
+	display: block;
+	border-bottom: 0.0625rem solid;
+	padding: 0 0 0.25rem;
+}
+.skill-description p {
+	line-height: 1.4;
+	padding: 0.25rem 0;
+}
