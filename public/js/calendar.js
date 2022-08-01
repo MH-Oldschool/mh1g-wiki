@@ -323,17 +323,12 @@ ready(() => {
 	}
 
 	document.getElementById("previous-month").addEventListener("click", () => {
-		var previousMonth = now.getMonth() - 1;
-		if (previousMonth < 0) previousMonth = 11;
-		// Update "now" to previous month for further month changes
-		now = new Date(now.getFullYear(), previousMonth, 1);
+		now = new Date(now.getFullYear(), now.getMonth() - 1, 1);
 
 		setMonthTable(now.getFullYear(), now.getMonth());
 	});
 	document.getElementById("next-month").addEventListener("click", () => {
-		let nextMonth = (now.getMonth() + 1) % 12;
-		// Update "now" to next month for further month changes
-		now = new Date(now.getFullYear(), nextMonth, 1);
+		now = new Date(now.getFullYear(), now.getMonth() + 1, 1);
 
 		setMonthTable(now.getFullYear(), now.getMonth());
 	});
