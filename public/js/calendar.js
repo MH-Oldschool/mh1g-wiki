@@ -202,6 +202,7 @@ ready(() => {
 
 		return lastDay.getDate();
 	}
+
 	function setMonthTable(year, monthIndex) {
 		const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 		document.getElementById("calendar-title").innerText = `${ MONTH_NAMES[monthIndex] } ${ year }`;
@@ -275,6 +276,12 @@ ready(() => {
 			}
 
 			shopIndex = (shopIndex + 1) % SHOP_SPECIAL_ROTATION.length;
+		}
+
+		// Highlight current day
+		var today = new Date();
+		if (year == today.getFullYear() && monthIndex == today.getMonth()) {
+			calendarDays[firstDayOfWeek + today.getDate() - 1].classList.add("today");
 		}
 	}
 

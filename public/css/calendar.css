@@ -55,6 +55,15 @@
 .show-1 .calendar-week td.capture { background: linear-gradient(0.375turn, #999, #725533 35%); }
 .show-1 .calendar-week td.gather { background: linear-gradient(0.375turn, #4c874a, #725533 35%); }
 .show-1 .calendar-week td.special { background: linear-gradient(0.375turn, #934db8, #725533 35%); }
+.today:after {
+	content: "";
+	position: absolute;
+	box-shadow: inset 0 0 0.125rem 0.125rem #3af;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
 
 .day-number {
 	text-align: right;
