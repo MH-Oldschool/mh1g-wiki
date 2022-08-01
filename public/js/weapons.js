@@ -1,5 +1,5 @@
 ready(() => {
-	var rankFilterLabels = document.getElementsByClassName("rank-label");
+	var rankFilterLabels = document.getElementById("rank-filters").getElementsByClassName("range-label");
 	function setRank(rankIndex) {
 		toggleHighRank(rankIndex > 0);
 		toggleGRank(rankIndex == 2);
