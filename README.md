@@ -28,7 +28,23 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [x] Correct armor skills
 	- [ ] Correct material names
 - [x] Armor Set Builder
-- [x] Monster Bestiary
+- [x] Armor Skills
+- [ ] Monster Bestiary
+	- [x] General descriptions
+	- [ ] Moderate details and recommendations for hunting
+	- [ ] All the numbers
+- [ ] Items
+	- [ ] All items and monster materials with in-game descriptions
+	- [ ] Item combination list
+	- [ ] Veggie Elder trades
+- [ ] Locale Maps
+	- [ ] Basic maps: zone numbers, hot/cold zones, etc.
+	- [ ] Detailed maps: gathering points, monster preference
+- [ ] Hunter Ranks with point requirements
+- [ ] Quest List
+	- [ ] Full list with in-game descriptions/details
+	- [ ] Guide to unlocking hidden quests
+- [ ] Meal Combinations
 
 # Developing
 I've tried to keep this app as simple as possible: mostly static with a little JavaScript for interactivity.
