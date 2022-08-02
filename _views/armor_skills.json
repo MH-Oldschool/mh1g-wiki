@@ -526,7 +526,7 @@
 			"stages":[
 				{ "points":"+10", "name": "Pro Transporter" }
 			],
-			"desc":"Enables the hunter to move faster while carrying an egg or other delivery item, and dropping a long distance will no longer drop the item."
+			"desc":"Enables the hunter to move faster while carrying an egg or other delivery item, and they can drop from a greater height without breaking or dropping the item."
 		},
 		{
 			"name":"Psychic",
