@@ -1,0 +1,66 @@
+{{> head}}
+
+<article class="combinations">
+	<details>
+		<summary>Item Combinations</summary>
+
+		<table class="mh1">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th colspan=2>Ingredients</th>
+					<th>Success %</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#combos1}}
+					<tr>
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{#ingredients}}
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{/ingredients}}
+						<td>{{percent}}%</td>
+					</tr>
+				{{/combos1}}
+			</tbody>
+		</table>
+
+		<table class="mhg">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th colspan=2>Ingredients</th>
+					<th>Success %</th>
+					<th>Quantity</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#combosG}}
+					<tr>
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{#ingredients}}
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{/ingredients}}
+						<td>{{percent}}%</td>
+						<td>{{quantity}}{{^quantity}}1{{/quantity}}</td>
+					</tr>
+				{{/combosG}}
+				<tr>
+					<td colspan=5><span class="cyan-icon book-icon"></span>Alchemy Combinations</td>
+				</tr>
+				{{#combosAlchemy}}
+					<tr class="requires-alchemy">
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{#ingredients}}
+						<td><span class="{{class}}"></span>{{name}}</td>
+						{{/ingredients}}
+						<td>{{percent}}%</td>
+						<td>{{quantity}}{{^quantity}}1{{/quantity}}</td>
+					</tr>
+				{{/combosAlchemy}}
+			</tbody>
+		</table>
+	</details>
+</article>
+
+{{> foot}}

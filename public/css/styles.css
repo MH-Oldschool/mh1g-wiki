@@ -348,6 +348,69 @@ tr.base-only.show {
 .rare-6 { background: rgba(192,208,255,0.2) /* #c0d0ff */ }
 .rare-7 { background: rgba(255,208,128,0.2) /* #ffd080 */ }
 
+/* Colored Icons */
+.pink-icon, .red-icon, .orange-icon, .yellow-icon, .green-icon,
+.cyan-icon, .blue-icon, .purple-icon, .white-icon, .gray-icon, .brown-icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 16rem;
+	margin-right: 0.125rem;
+	width: 2rem;
+	height: 2rem;
+}
+.pink-icon { background-image: url("../images/icon_sheets/icons_pink.png"); }
+.red-icon { background-image: url("../images/icon_sheets/icons_red.png"); }
+.orange-icon { background-image: url("../images/icon_sheets/icons_orange.png"); }
+.yellow-icon { background-image: url("../images/icon_sheets/icons_yellow.png"); }
+.green-icon { background-image: url("../images/icon_sheets/icons_green.png"); }
+.cyan-icon { background-image: url("../images/icon_sheets/icons_cyan.png"); }
+.blue-icon { background-image: url("../images/icon_sheets/icons_blue.png"); }
+.purple-icon { background-image: url("../images/icon_sheets/icons_purple.png"); }
+.white-icon { background-image: url("../images/icon_sheets/icons_white.png"); }
+.gray-icon { background-image: url("../images/icon_sheets/icons_gray.png"); }
+.brown-icon { background-image: url("../images/icon_sheets/icons_brown.png"); }
+/* Icon Clips */
+.smoke-icon { background-position: -32px 0; }
+.bomb-icon { background-position: -64px 0; }
+.barrel-bomb-icon { background-position: -96px 0; }
+.meat-icon { background-position: -128px 0; }
+.bait-icon { background-position: -160px 0; }
+.fish-icon { background-position: -192px 0; }
+.tools-icon { background-position: -224px 0; }
+.whetstone-icon { background-position: 0 -32px; }
+.dung-icon { background-position: -32px -32px; }
+.monster-icon { background-position: -64px -32px; }
+.bone-icon { background-position: -96px -32px; }
+.binoculars-icon { background-position: -128px -32px; }
+.mushroom-icon { background-position: -160px -32px; }
+.bugnet-icon { background-position: -192px -32px; }
+.hide-icon { background-position: -224px -32px; }
+.herb-icon { background-position: 0 -64px; }
+.pick-icon { background-position: -32px -64px; }
+.barrel-icon { background-position: -64px -64px; }
+.seed-icon { background-position: -96px -64px; }
+.spit-icon { background-position: -128px -64px; }
+.bug-icon { background-position: -160px -64px; }
+.trap-icon { background-position: -192px -64px ; }
+.web-icon { background-position: -224px -64px; }
+.scale-icon { background-position: 0 -96px; }
+.jar-icon { background-position: -32px -96px; }
+.egg-icon { background-position: -64px -96px; }
+.shot-icon { background-position: -96px -96px; }
+.stone-icon { background-position: -128px -96px; }
+.husk-icon { background-position: -160px -96px; }
+.map-icon { background-position: -192px -96px; }
+.flute-icon { background-position: -224px -96px; }
+.claw-icon { background-position: 0 -128px; }
+.honey-icon { background-position: -32px -128px; }
+.mystery-icon { background-position: -64px -128px; }
+.coin-icon { background-position: -96px -128px; }
+.powder-icon { background-position: -128px -128px; }
+.book-icon { background-position: -160px -128px; }
+.ticket-icon { background-position: -192px -128px; }
+.knife-icon { background-position: -224px -128px; }
+/* There are more icons, not sure where to use 'em yet */
+
 td.materials {
 	overflow: hidden;
 	text-overflow: ellipsis;

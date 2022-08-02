@@ -1,0 +1,14 @@
+.combinations {
+	overflow-x: auto;
+	max-width: 65rem;
+}
+.combinations tbody {
+	background-color: rgba(0,0,0,0.5)
+}
+.combinations td {
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+}
+.requires-alchemy {
+	background-color: rgba(32,64,16,0.5);
+}
