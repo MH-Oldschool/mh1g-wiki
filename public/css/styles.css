@@ -203,6 +203,9 @@ input[type="range"] {
 	text-align: right !important;
 }
 
+.comma-separated:after { content: ","; }
+.comma-separated:last-child:after { content: ""; }
+
 .switch-label {
 	display: inline-block;
 	padding: 0 0.125rem;

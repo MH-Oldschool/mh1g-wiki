@@ -78,7 +78,6 @@ function buildPage(pageName, partials) {
 
 		try {
 			var view = JSON.parse(files[3]);
-			view = addLastToArrays(view);
 			renderAndWriteToFile(pageName, files[2], view, partialFiles);
 		}
 		catch (err) {
