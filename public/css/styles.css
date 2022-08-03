@@ -352,6 +352,7 @@ tr.base-only.show {
 .pink-icon, .red-icon, .orange-icon, .yellow-icon, .green-icon,
 .cyan-icon, .blue-icon, .purple-icon, .white-icon, .gray-icon, .brown-icon {
 	display: inline-block;
+	vertical-align: middle;
 	background-repeat: no-repeat;
 	background-size: 16rem;
 	margin-right: 0.125rem;
@@ -409,6 +410,19 @@ tr.base-only.show {
 .book-icon { background-position: -160px -128px; }
 .ticket-icon { background-position: -192px -128px; }
 .knife-icon { background-position: -224px -128px; }
+.mystery-forge-icon { background-position: 0 -160px; }
+.gs-icon { background-position: -32px -160px; }
+.sns-icon { background-position: -64px -160px; }
+.lance-icon { background-position: -96px -160px; }
+.hammer-icon { background-position: -128px -160px; }
+.hbg-icon { background-position: -160px -160px; }
+.duals-icon { background-position: -192px -160px; }
+.lbg-icon { background-position: -224px -160px; }
+.helm-icon { background-position: 0 -192px; }
+.torso-icon { background-position: -32px -192px; }
+.waist-icon { background-position: -64px -192px; }
+.arm-icon { background-position: -96px -192px; }
+.foot-icon { background-position: -128px -192px; }
 /* There are more icons, not sure where to use 'em yet */
 
 td.materials {

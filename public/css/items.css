@@ -1,6 +1,20 @@
+.shops caption {
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+.shops td:last-child {
+	text-align: right;
+}
+.shop-special {
+	background-color: rgba(128,96,16,0.4);
+}
+
 .combinations {
 	overflow-x: auto;
 	max-width: 65rem;
+}
+.combinations summary {
+	line-height: 3rem;
 }
 .combinations tbody {
 	background-color: rgba(0,0,0,0.5)
@@ -11,4 +25,30 @@
 }
 .requires-alchemy {
 	background-color: rgba(32,64,16,0.5);
+}
+
+@media screen and (min-width: 50rem) {
+	.shop-grid {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+	.shop-container {
+		box-sizing: border-box;
+		padding: 0 0.5rem;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 64rem) {
+	.shop-container {
+		width: 33.333333%;
+	}
+}
+@media screen and (min-width: 80rem) {
+	.shops {
+		width: 80rem;
+	}
+	.shop-container {
+		width: 25%;
+	}
 }

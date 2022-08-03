@@ -1,8 +1,41 @@
 {{> head}}
 
+<article class="shops">
+	<details open>
+		<summary><span class="gray-icon egg-icon"></span>Shops</summary>
+		<section class="shop-grid">
+			{{#shops}}
+				<div class="shop-container">
+					<table>
+						<caption>{{&name}}</caption>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{#stock}}
+								<tr class="{{#mhg}}mhg{{/mhg}}{{#special}} shop-special{{/special}}">
+									<td><span class="{{class}}"></span>{{&name}}</td>
+									<td>
+										{{price}}
+										{{#mh1Price}}<span class="mh1">{{mh1Price}}{{/mh1Price}}</span>
+										{{#mhgPrice}}<span class="mhg">{{mhgPrice}}{{/mhgPrice}}</span>
+									</td>
+								</tr>
+							{{/stock}}
+						</tbody>
+					</table>
+				</div>
+			{{/shops}}
+		</section>
+	</details>
+</article>
+
 <article class="combinations">
 	<details>
-		<summary>Item Combinations</summary>
+		<summary><span class="white-icon book-icon"></span>Item Combinations</summary>
 
 		<table class="mh1">
 			<thead>
