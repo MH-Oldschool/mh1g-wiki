@@ -601,7 +601,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"6,150z",
-			"mats":"Rathalos Ruby x 1<br/>Rathian Ruby x 1<br/>Pure crystal x 2<br/>Inferno Sac x 10"
+			"mats":"Rathalos Ruby x 1<br/>Rathian Ruby x 1<br/>Purecrystal x 2<br/>Inferno Sac x 10"
 		},
 		{
 			"name":"Maelstrom+<sup title='MHG Only'>G</sup>",
@@ -616,7 +616,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"6,050z",
-			"mats":"Plesioth back fin x 4<br/>Plesioth Scale x 5<br/>Norikone grasshopper x 6<br/>Union Ore x 5"
+			"mats":"Plesioth Top Fin x 4<br/>Plesioth Scale x 5<br/>Joiner Grasshopper x 6<br/>Union Ore x 5"
 		},
 		{
 			"name":"Desert Tempest<sup title='MHG Only'>G</sup>",
@@ -631,7 +631,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"4,800z",
-			"mats":"Cephalos back fin x 4<br/>Cephalos Scale x 5<br/>Carbalite Ore x 5<br/>Norikone grasshopper x 6"
+			"mats":"Cephalos Top Fin x 4<br/>Cephalos Scale x 5<br/>Carbalite Ore x 5<br/>Joiner Grasshopper x 6"
 		},
 		{
 			"name":"Grenade Launcher+<sup title='MHG Only'>G</sup>",
@@ -676,7 +676,7 @@
 			"recover":["",""],"poison":[""," 1 "],"stun":["",""],"sleep":["",""],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"5,600z",
-			"mats":"Small beak x 2<br/>Kut-Ku Hell Ear x 2<br/>Kut-Ku hard shell x 10<br/>King Scarab x 1"
+			"mats":"Small beak x 2<br/>Long Kut-Ku Ear x 2<br/>Kut-Ku Carapace x 10<br/>King Scarab x 1"
 		},
 		{
 			"name":"Expert Bowgun<sup title='MHG Only'>G</sup>",
@@ -706,7 +706,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"5,350z",
-			"mats":"Pearl-colored soft skin x 3<br/>Lost Umbrella x 1<br/>King Scarab x 1<br/>Electric shock bag x 3"
+			"mats":"Khezu Hide - Tan x 3<br/>Lost Umbrella x 1<br/>King Scarab x 1<br/>Thunder Sac x 3"
 		},
 		{
 			"name":"Heart Valkyrie<sup title='MHG Only'>G</sup>",
@@ -736,7 +736,7 @@
 			"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":"","antidote":1,
 			"price":"7,900z",
-			"mats":"Gold Rathian Plate x 1<br/>Gold Rathian Shell x 5<br/>Pure crystal x 2<br/>Rathalos Medulla x 10"
+			"mats":"Gold Rathian Plate x 1<br/>Gold Rathian Shell x 5<br/>Purecrystal x 2<br/>Rathalos Medulla x 10"
 		},
 		{
 			"name":"Spartacus Soul<sup title='MHG Only'>G</sup>",
@@ -766,7 +766,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
 			"tranq":2,"paint":2,"demon":1,"antidote":"",
 			"price":"9,000z",
-			"mats":"Silver Rathalos Reverse Scale x 1<br/>Silver Rathalos Scale x 5<br/>Pure crystal x 2<br/>Rathalos Medulla x 10"
+			"mats":"Silver Rathalos Plate x 1<br/>Silver Rathalos Scale x 5<br/>Purecrystal x 2<br/>Rathalos Medulla x 10"
 		},
 		{
 			"name":"Supreme Azure Sakura<sup title='MHG Only'>G</sup>",
@@ -781,7 +781,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"8,400z",
-			"mats":"Azure Rathalos Ruby x 1<br/>Pink Rathian Ruby x 1<br/>Pure crystal x 2<br/>Inferno Sac x 10"
+			"mats":"Azure Rathalos Ruby x 1<br/>Pink Rathian Ruby x 1<br/>Purecrystal x 2<br/>Inferno Sac x 10"
 		},
 		{
 			"name":"Profusion<sup title='MHG Only'>G</sup>",
@@ -796,7 +796,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"11,450z",
-			"mats":"Silver Rathalos Ruby x 1<br/>Gold Rathian Ruby x 1<br/>Pure crystal x 2<br/>Inferno Sac x 10"
+			"mats":"Silver Rathalos Ruby x 1<br/>Gold Rathian Ruby x 1<br/>Purecrystal x 2<br/>Inferno Sac x 10"
 		},
 		{
 			"name":"Bullet Storm<sup title='MHG Only'>G</sup>",
@@ -826,7 +826,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"6,150z",
-			"mats":"Cephalos peach fillet x 4<br/>Purple Scale of Cephalos x 5<br/>Carbalite Ore x 5<br/>Norikone grasshopper x 6"
+			"mats":"Coral Cephalos Fin x 4<br/>Coral Cephalos Scale x 5<br/>Carbalite Ore x 5<br/>Joiner Grasshopper x 6"
 		},
 		{
 			"name":"Chronos Grenade<sup title='MHG Only'>G</sup>",
@@ -841,7 +841,7 @@
 			"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"7,400z",
-			"mats":"Black Gravios Carapace x 3<br/>Black Gravios Shell x 5<br/>Gravios Fellwing x 2<br/>Union Ore x 10"
+			"mats":"Black Gravios Carapace x 3<br/>Black Gravios Shell x 5<br/>Strong Gravios Wing x 2<br/>Union Ore x 10"
 		},
 		{
 			"name":"Kut-Ku Rage<sup title='MHG Only'>G</sup>",
@@ -856,7 +856,7 @@
 			"recover":["",""],"poison":[""," 1 "],"stun":["",""],"sleep":["",""],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"7,100z",
-			"mats":"Small beak x 2<br/>Blue monster ear x 2<br/>Blue monster shell x 6<br/>King Scarab x 1"
+			"mats":"Small beak x 2<br/>Blue Kut-Ku Ear x 2<br/>Blue Kut-Ku Shell x 6<br/>King Scarab x 1"
 		},
 		{
 			"name":"Island of the Gods<sup title='MHG Only'>G</sup>",
@@ -901,7 +901,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"6,850z",
-			"mats":"Enchanting color soft skin x 3<br/>Lost Umbrella x 1<br/>King Scarab x 1<br/>Electric shock bag x 3"
+			"mats":"Alluring Hide x 3<br/>Lost Umbrella x 1<br/>King Scarab x 1<br/>Thunder Sac x 3"
 		},
 		{
 			"name":"Confrontation of the Hyakuhana Ryoran ?<sup title='MHG Only'>G</sup>",
@@ -1078,7 +1078,7 @@
 			"tranq":3,"paint":2,"antidote":"",
 			"demon":"","armor":"","dragon":"","dung":"",
 			"price":"12,000z",
-			"mats":"Fire Dragon Reverse Scale x 3<br/>Lao-Shan back shell x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
+			"mats":"Rathalos Plate x 3<br/>Lao-Shan back shell x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
 		}
 	],
 	"mhg_hbg": [
@@ -1256,7 +1256,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"12,000z",
-			"mats":"Fire Dragon Reverse Scale x 3<br/>Lao-Shan back shell x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
+			"mats":"Rathalos Plate x 3<br/>Lao-Shan back shell x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
 		},
 		{
 			"name":"Monodevilcaster<sup title='MHG Only'>G</sup>",
@@ -1299,7 +1299,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"7,000z",
-			"mats":"Rubbery epithelium x 10<br/>Carbalite Ore x 10"
+			"mats":"Rubbery Hide+ x 10<br/>Carbalite Ore x 10"
 		},
 		{
 			"name":"Duelcaster+<sup title='MHG Only'>G</sup>",
@@ -1329,7 +1329,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"11,750z",
-			"mats":"Kut-Ku Hell Ear x 2<br/>Kut-Ku hard shell x 8<br/>Pearl-colored soft skin x 2<br/>Machalite Ore x 20"
+			"mats":"Long Kut-Ku Ear x 2<br/>Kut-Ku Carapace x 8<br/>Khezu Hide - Tan x 2<br/>Machalite Ore x 20"
 		},
 		{
 			"name":"Honeycomber<sup title='MHG Only'>G</sup>",
@@ -1359,7 +1359,7 @@
 			"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"12,000z",
-			"mats":"Gravios Jaw x 3<br/>Heavy shell of armor dragon x 5<br/>Rock Dragon Tears x 1<br/>Norikone grasshopper x 3"
+			"mats":"Gravios Jaw x 3<br/>Heavy shell of armor dragon x 5<br/>Rock Dragon Tears x 1<br/>Joiner Grasshopper x 3"
 		},
 		{
 			"name":"Gravios Roar<sup title='MHG Only'>G</sup>",
@@ -1374,7 +1374,7 @@
 			"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"14,400z",
-			"mats":"Black Gravios head x 3<br/>Black Gravios Carapace x 5<br/>Rock Dragon Tears x 3<br/>Norikone grasshopper x 3"
+			"mats":"Black Gravios head x 3<br/>Black Gravios Carapace x 5<br/>Rock Dragon Tears x 3<br/>Joiner Grasshopper x 3"
 		},
 		{
 			"name":"Blue Yian Kut-Ku Cannon<sup title='MHG Only'>G</sup>",
@@ -1389,7 +1389,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"14,100z",
-			"mats":"Blue Kut-Ku Ear x 2<br/>Blue Kut-Ku Shell x 8<br/>Enchanting color soft skin x 5<br/>Machalite Ore x 20"
+			"mats":"Blue Kut-Ku Ear x 2<br/>Blue Kut-Ku Shell x 8<br/>Alluring Hide x 5<br/>Machalite Ore x 20"
 		},
 		{
 			"name":"Bastionmage<sup title='MHG Only'>G</sup>",
@@ -1404,7 +1404,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"8,400z",
-			"mats":"Rubbery purple skin x 10<br/>Carbalite Ore x 10<br/>Norikone grasshopper x 6"
+			"mats":"Purple Rubbery Hide x 10<br/>Carbalite Ore x 10<br/>Joiner Grasshopper x 6"
 		},
 		{
 			"name":"Quickcaster+<sup title='MHG Only'>G</sup>",
@@ -1449,7 +1449,7 @@
 			"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"9,000z",
-			"mats":"Hellfire Stone ×3<br/>Carbalite Ore x 5<br/>Dragonite Ore x 10<br/>Norikone grasshopper x 2"
+			"mats":"Firecell Stone ×3<br/>Carbalite Ore x 5<br/>Dragonite Ore x 10<br/>Joiner Grasshopper x 2"
 		},
 		{
 			"name":"Vor Cannon+<sup title='MHG Only'>G</sup>",
@@ -1464,7 +1464,7 @@
 			"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"13,750z",
-			"mats":"Fatalis' Heavy Shell x 2<br/>Fatalis' acute angle x 2<br/>Fatalis' Scale x 2<br/>Carbalite Ore x 10"
+			"mats":"Fatalis' Heavy Shell x 2<br/>Fatalis' Gore x 2<br/>Fatalis' Scale x 2<br/>Carbalite Ore x 10"
 		},
 		{
 			"name":"Destiny's Hand<sup title='MHG Only'>G</sup>",
@@ -1479,7 +1479,7 @@
 			"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"16,500z",
-			"mats":"Fatalis' Red Shell x 2<br/>Fatalis' Red Horn x 2<br/>Fatalis' Scale x 2<br/>Carbalite Ore x 10"
+			"mats":"Fatalis' Crimson Shell x 2<br/>Fatalis' Crimson Horn x 2<br/>Fatalis' Scale x 2<br/>Carbalite Ore x 10"
 		},
 		{
 			"name":"Supreme Lao-Shan Cannon<sup title='MHG Only'>G</sup>",
@@ -1494,7 +1494,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"17,500z",
-			"mats":"Lao-Shan Ruby x 1<br/>Lao-Shan heavy armor x 3<br/>Lao-Shan hard shell x 5<br/>Lao-Shan Scale x 5"
+			"mats":"Lao-Shan Ruby x 1<br/>Lao-Shan Heavy Shell x 3<br/>Lao-Shan Carapace x 5<br/>Lao-Shan Scale x 5"
 		},
 		{
 			"name":"Emperor Lao-Shan Cannon<sup title='MHG Only'>G</sup>",
@@ -1509,7 +1509,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"25,000z",
-			"mats":"Ashen Lao-Shan Plate × 1<br/>Lao-Shan Ruby x 1<br/>Lao-Shan Blue Shell x 5<br/>Lao-Shan blue Scale x 5"
+			"mats":"Ashen Lao-Shan Plate × 1<br/>Lao-Shan Ruby x 1<br/>Azure Lao-Shan Shell x 5<br/>Azure Lao-Shan Scale x 5"
 		}
 	]
 }
