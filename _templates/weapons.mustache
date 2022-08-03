@@ -1460,167 +1460,171 @@
 	</article>
 
 	<article class="filters">
-		<h3 title="highlight weapons with a certain element/status">Ammo:</h3>
+		<details>
+			<summary>
+				<h3 title="highlight weapons with a certain element/status">Ammo:</h3>
+			</summary>
 
-		<div class="filter-checks base-only">
-			<div class="filter-column">
-				<input id="base-ammo-normal-1" name="ammo_base" type="checkbox" value="show-nrm-1"/>
-				<label for="base-ammo-normal-1" class="ammo-label">Normal Shot 1</label>
-				<!-- All bowguns can load Normal 2 -->
-				<input id="base-ammo-normal-3" name="ammo_base" type="checkbox" value="show-nrm-3"/>
-				<label for="base-ammo-normal-3" class="ammo-label">Normal Shot 3</label>
-				<hr/>
-				<input id="base-ammo-pierce-1" name="ammo_base" type="checkbox" value="show-prc-1"/>
-				<label for="base-ammo-pierce-1" class="ammo-label">Pierce Shot 1</label>
-				<input id="base-ammo-pierce-2" name="ammo_base" type="checkbox" value="show-prc-2"/>
-				<label for="base-ammo-pierce-2" class="ammo-label">Pierce Shot 2</label>
-				<input id="base-ammo-pierce-3" name="ammo_base" type="checkbox" value="show-prc-3"/>
-				<label for="base-ammo-pierce-3" class="ammo-label">Pierce Shot 3</label>
+			<div class="filter-checks base-only">
+				<div class="filter-column">
+					<input id="base-ammo-normal-1" name="ammo_base" type="checkbox" value="show-nrm-1"/>
+					<label for="base-ammo-normal-1" class="ammo-label">Normal Shot 1</label>
+					<!-- All bowguns can load Normal 2 -->
+					<input id="base-ammo-normal-3" name="ammo_base" type="checkbox" value="show-nrm-3"/>
+					<label for="base-ammo-normal-3" class="ammo-label">Normal Shot 3</label>
+					<hr/>
+					<input id="base-ammo-pierce-1" name="ammo_base" type="checkbox" value="show-prc-1"/>
+					<label for="base-ammo-pierce-1" class="ammo-label">Pierce Shot 1</label>
+					<input id="base-ammo-pierce-2" name="ammo_base" type="checkbox" value="show-prc-2"/>
+					<label for="base-ammo-pierce-2" class="ammo-label">Pierce Shot 2</label>
+					<input id="base-ammo-pierce-3" name="ammo_base" type="checkbox" value="show-prc-3"/>
+					<label for="base-ammo-pierce-3" class="ammo-label">Pierce Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="base-ammo-pellet-1" name="ammo_base" type="checkbox" value="show-pllt-1"/>
+					<label for="base-ammo-pellet-1" class="ammo-label">Pellet Shot 1</label>
+					<input id="base-ammo-pellet-2" name="ammo_base" type="checkbox" value="show-pllt-2"/>
+					<label for="base-ammo-pellet-2" class="ammo-label">Pellet Shot 2</label>
+					<input id="base-ammo-pellet-3" name="ammo_base" type="checkbox" value="show-pllt-3"/>
+					<label for="base-ammo-pellet-3" class="ammo-label">Pellet Shot 3</label>
+					<hr/>
+					<input id="base-ammo-crag-1" name="ammo_base" type="checkbox" value="show-crag-1"/>
+					<label for="base-ammo-crag-1" class="ammo-label">Crag Shot 1</label>
+					<input id="base-ammo-crag-2" name="ammo_base" type="checkbox" value="show-crag-2"/>
+					<label for="base-ammo-crag-2" class="ammo-label">Crag Shot 2</label>
+					<input id="base-ammo-crag-3" name="ammo_base" type="checkbox" value="show-crag-3"/>
+					<label for="base-ammo-crag-3" class="ammo-label">Crag Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="base-ammo-clust-1" name="ammo_base" type="checkbox" value="clust-1"/>
+					<label for="base-ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
+					<input id="base-ammo-clust-2" name="ammo_base" type="checkbox" value="clust-2"/>
+					<label for="base-ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
+					<input id="base-ammo-clust-3" name="ammo_base" type="checkbox" value="clust-3"/>
+					<label for="base-ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
+					<hr/>
+					<input id="base-ammo-disc" name="ammo_base" type="checkbox" value="disc"/>
+					<label for="base-ammo-disc" class="ammo-label">Disc Shot</label>
+					<hr/>
+					<input id="base-ammo-recover-1" name="ammo_base" type="checkbox" value="show-rec-1"/>
+					<label for="base-ammo-recover-1" class="ammo-label">Recover Shot 1</label>
+					<input id="base-ammo-recover-2" name="ammo_base" type="checkbox" value="show-rec-2"/>
+					<label for="base-ammo-recover-2" class="ammo-label">Recover Shot 2</label>
+				</div>
+				<div class="filter-column">
+					<input id="base-ammo-poison-1" name="ammo_base" type="checkbox" value="show-poi-1"/>
+					<label for="base-ammo-poison-1" class="ammo-label">Poison Shot 1</label>
+					<input id="base-ammo-poison-2" name="ammo_base" type="checkbox" value="show-poi-2"/>
+					<label for="base-ammo-poison-2" class="ammo-label">Poison Shot 2</label>
+					<hr/>
+					<input id="base-ammo-stun-1" name="ammo_base" type="checkbox" value="show-stun-1"/>
+					<label for="base-ammo-stun-1" class="ammo-label">Stun Shot 1</label>
+					<input id="base-ammo-stun-2" name="ammo_base" type="checkbox" value="show-stun-2"/>
+					<label for="base-ammo-stun-2" class="ammo-label">Stun Shot 2</label>
+					<hr/>
+					<input id="base-ammo-sleep-1" name="ammo_base" type="checkbox" value="show-slp-1"/>
+					<label for="base-ammo-sleep-1" class="ammo-label">Sleep Shot 1</label>
+					<input id="base-ammo-sleep-2" name="ammo_base" type="checkbox" value="show-slp-2"/>
+					<label for="base-ammo-sleep-2" class="ammo-label">Sleep Shot 2</label>
+				</div>
+				<div class="filter-column">
+					<input id="base-ammo-antidote" name="ammo_base" type="checkbox" value="show-anti"/>
+					<label for="base-ammo-antidote" class="ammo-label">Antidote Shot</label>
+					<input id="base-ammo-demon" name="ammo_base" type="checkbox" value="show-demon"/>
+					<label for="base-ammo-demon" class="ammo-label">Demon Shot</label>
+					<input id="base-ammo-armor" name="ammo_base" type="checkbox" value="show-armor"/>
+					<label for="base-ammo-armor" class="ammo-label">Armor Shot</label>
+					<input id="base-ammo-dragon" name="ammo_base" type="checkbox" value="show-dragon"/>
+					<label for="base-ammo-dragon" class="ammo-label">Dragon Shot</label>
+					<input id="base-ammo-dung" name="ammo_base" type="checkbox" value="show-dung"/>
+					<label for="base-ammo-dung" class="ammo-label">Dung Shot</label>
+				</div>
+				<div class="filter-column">
+					<input id="base-ammo-all" type="checkbox" value="highlight-all" checked/>
+					<label for="base-ammo-all" class="ammo-label">All</label>
+				</div>
 			</div>
-			<div class="filter-column">
-				<input id="base-ammo-pellet-1" name="ammo_base" type="checkbox" value="show-pllt-1"/>
-				<label for="base-ammo-pellet-1" class="ammo-label">Pellet Shot 1</label>
-				<input id="base-ammo-pellet-2" name="ammo_base" type="checkbox" value="show-pllt-2"/>
-				<label for="base-ammo-pellet-2" class="ammo-label">Pellet Shot 2</label>
-				<input id="base-ammo-pellet-3" name="ammo_base" type="checkbox" value="show-pllt-3"/>
-				<label for="base-ammo-pellet-3" class="ammo-label">Pellet Shot 3</label>
-				<hr/>
-				<input id="base-ammo-crag-1" name="ammo_base" type="checkbox" value="show-crag-1"/>
-				<label for="base-ammo-crag-1" class="ammo-label">Crag Shot 1</label>
-				<input id="base-ammo-crag-2" name="ammo_base" type="checkbox" value="show-crag-2"/>
-				<label for="base-ammo-crag-2" class="ammo-label">Crag Shot 2</label>
-				<input id="base-ammo-crag-3" name="ammo_base" type="checkbox" value="show-crag-3"/>
-				<label for="base-ammo-crag-3" class="ammo-label">Crag Shot 3</label>
-			</div>
-			<div class="filter-column">
-				<input id="base-ammo-clust-1" name="ammo_base" type="checkbox" value="clust-1"/>
-				<label for="base-ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
-				<input id="base-ammo-clust-2" name="ammo_base" type="checkbox" value="clust-2"/>
-				<label for="base-ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
-				<input id="base-ammo-clust-3" name="ammo_base" type="checkbox" value="clust-3"/>
-				<label for="base-ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
-				<hr/>
-				<input id="base-ammo-disc" name="ammo_base" type="checkbox" value="disc"/>
-				<label for="base-ammo-disc" class="ammo-label">Disc Shot</label>
-				<hr/>
-				<input id="base-ammo-recover-1" name="ammo_base" type="checkbox" value="show-rec-1"/>
-				<label for="base-ammo-recover-1" class="ammo-label">Recover Shot 1</label>
-				<input id="base-ammo-recover-2" name="ammo_base" type="checkbox" value="show-rec-2"/>
-				<label for="base-ammo-recover-2" class="ammo-label">Recover Shot 2</label>
-			</div>
-			<div class="filter-column">
-				<input id="base-ammo-poison-1" name="ammo_base" type="checkbox" value="show-poi-1"/>
-				<label for="base-ammo-poison-1" class="ammo-label">Poison Shot 1</label>
-				<input id="base-ammo-poison-2" name="ammo_base" type="checkbox" value="show-poi-2"/>
-				<label for="base-ammo-poison-2" class="ammo-label">Poison Shot 2</label>
-				<hr/>
-				<input id="base-ammo-stun-1" name="ammo_base" type="checkbox" value="show-stun-1"/>
-				<label for="base-ammo-stun-1" class="ammo-label">Stun Shot 1</label>
-				<input id="base-ammo-stun-2" name="ammo_base" type="checkbox" value="show-stun-2"/>
-				<label for="base-ammo-stun-2" class="ammo-label">Stun Shot 2</label>
-				<hr/>
-				<input id="base-ammo-sleep-1" name="ammo_base" type="checkbox" value="show-slp-1"/>
-				<label for="base-ammo-sleep-1" class="ammo-label">Sleep Shot 1</label>
-				<input id="base-ammo-sleep-2" name="ammo_base" type="checkbox" value="show-slp-2"/>
-				<label for="base-ammo-sleep-2" class="ammo-label">Sleep Shot 2</label>
-			</div>
-			<div class="filter-column">
-				<input id="base-ammo-antidote" name="ammo_base" type="checkbox" value="show-anti"/>
-				<label for="base-ammo-antidote" class="ammo-label">Antidote Shot</label>
-				<input id="base-ammo-demon" name="ammo_base" type="checkbox" value="show-demon"/>
-				<label for="base-ammo-demon" class="ammo-label">Demon Shot</label>
-				<input id="base-ammo-armor" name="ammo_base" type="checkbox" value="show-armor"/>
-				<label for="base-ammo-armor" class="ammo-label">Armor Shot</label>
-				<input id="base-ammo-dragon" name="ammo_base" type="checkbox" value="show-dragon"/>
-				<label for="base-ammo-dragon" class="ammo-label">Dragon Shot</label>
-				<input id="base-ammo-dung" name="ammo_base" type="checkbox" value="show-dung"/>
-				<label for="base-ammo-dung" class="ammo-label">Dung Shot</label>
-			</div>
-			<div class="filter-column">
-				<input id="base-ammo-all" type="checkbox" value="highlight-all" checked/>
-				<label for="base-ammo-all" class="ammo-label">All</label>
-			</div>
-		</div>
 
-		<div class="filter-checks g-only">
-			<div class="filter-column">
-				<input id="g-ammo-normal-1" name="ammo_g" type="checkbox" value="show-nrm-1"/>
-				<label for="g-ammo-normal-1" class="ammo-label">Normal Shot 1</label>
-				<!-- All bowguns can load Normal 2 -->
-				<input id="g-ammo-normal-3" name="ammo_g" type="checkbox" value="show-nrm-3"/>
-				<label for="g-ammo-normal-3" class="ammo-label">Normal Shot 3</label>
-				<hr/>
-				<input id="g-ammo-pierce-1" name="ammo_g" type="checkbox" value="show-prc-1"/>
-				<label for="g-ammo-pierce-1" class="ammo-label">Pierce Shot 1</label>
-				<input id="g-ammo-pierce-2" name="ammo_g" type="checkbox" value="show-prc-2"/>
-				<label for="g-ammo-pierce-2" class="ammo-label">Pierce Shot 2</label>
-				<input id="g-ammo-pierce-3" name="ammo_g" type="checkbox" value="show-prc-3"/>
-				<label for="g-ammo-pierce-3" class="ammo-label">Pierce Shot 3</label>
+			<div class="filter-checks g-only">
+				<div class="filter-column">
+					<input id="g-ammo-normal-1" name="ammo_g" type="checkbox" value="show-nrm-1"/>
+					<label for="g-ammo-normal-1" class="ammo-label">Normal Shot 1</label>
+					<!-- All bowguns can load Normal 2 -->
+					<input id="g-ammo-normal-3" name="ammo_g" type="checkbox" value="show-nrm-3"/>
+					<label for="g-ammo-normal-3" class="ammo-label">Normal Shot 3</label>
+					<hr/>
+					<input id="g-ammo-pierce-1" name="ammo_g" type="checkbox" value="show-prc-1"/>
+					<label for="g-ammo-pierce-1" class="ammo-label">Pierce Shot 1</label>
+					<input id="g-ammo-pierce-2" name="ammo_g" type="checkbox" value="show-prc-2"/>
+					<label for="g-ammo-pierce-2" class="ammo-label">Pierce Shot 2</label>
+					<input id="g-ammo-pierce-3" name="ammo_g" type="checkbox" value="show-prc-3"/>
+					<label for="g-ammo-pierce-3" class="ammo-label">Pierce Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="g-ammo-pellet-1" name="ammo_g" type="checkbox" value="show-pllt-1"/>
+					<label for="g-ammo-pellet-1" class="ammo-label">Pellet Shot 1</label>
+					<input id="g-ammo-pellet-2" name="ammo_g" type="checkbox" value="show-pllt-2"/>
+					<label for="g-ammo-pellet-2" class="ammo-label">Pellet Shot 2</label>
+					<input id="g-ammo-pellet-3" name="ammo_g" type="checkbox" value="show-pllt-3"/>
+					<label for="g-ammo-pellet-3" class="ammo-label">Pellet Shot 3</label>
+					<hr/>
+					<input id="g-ammo-crag-1" name="ammo_g" type="checkbox" value="show-crag-1"/>
+					<label for="g-ammo-crag-1" class="ammo-label">Crag Shot 1</label>
+					<input id="g-ammo-crag-2" name="ammo_g" type="checkbox" value="show-crag-2"/>
+					<label for="g-ammo-crag-2" class="ammo-label">Crag Shot 2</label>
+					<input id="g-ammo-crag-3" name="ammo_g" type="checkbox" value="show-crag-3"/>
+					<label for="g-ammo-crag-3" class="ammo-label">Crag Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="g-ammo-clust-1" name="ammo_g" type="checkbox" value="clust-1"/>
+					<label for="g-ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
+					<input id="g-ammo-clust-2" name="ammo_g" type="checkbox" value="clust-2"/>
+					<label for="g-ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
+					<input id="g-ammo-clust-3" name="ammo_g" type="checkbox" value="clust-3"/>
+					<label for="g-ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
+					<hr/>
+					<input id="g-ammo-flame" name="ammo_g" type="checkbox" value="show-flame"/>
+					<label for="g-ammo-flame" class="ammo-label">Flame Shot</label>
+					<input id="g-ammo-water" name="ammo_g" type="checkbox" value="show-water"/>
+					<label for="g-ammo-water" class="ammo-label">Water Shot</label>
+					<input id="g-ammo-thunder" name="ammo_g" type="checkbox" value="show-thunder"/>
+					<label for="g-ammo-thunder" class="ammo-label">Thunder Shot</label>
+					<input id="g-ammo-dragon" name="ammo_g" type="checkbox" value="show-dragon"/>
+					<label for="g-ammo-dragon" class="ammo-label">Dragon Shot</label>
+				</div>
+				<div class="filter-column">
+					<input id="g-ammo-poison-1" name="ammo_g" type="checkbox" value="show-poi-1"/>
+					<label for="g-ammo-poison-1" class="ammo-label">Poison Shot 1</label>
+					<input id="g-ammo-poison-2" name="ammo_g" type="checkbox" value="show-poi-2"/>
+					<label for="g-ammo-poison-2" class="ammo-label">Poison Shot 2</label>
+					<hr/>
+					<input id="g-ammo-stun-1" name="ammo_g" type="checkbox" value="show-stun-1"/>
+					<label for="g-ammo-stun-1" class="ammo-label">Stun Shot 1</label>
+					<input id="g-ammo-stun-2" name="ammo_g" type="checkbox" value="show-stun-2"/>
+					<label for="g-ammo-stun-2" class="ammo-label">Stun Shot 2</label>
+					<hr/>
+					<input id="g-ammo-sleep-1" name="ammo_g" type="checkbox" value="show-slp-1"/>
+					<label for="g-ammo-sleep-1" class="ammo-label">Sleep Shot 1</label>
+					<input id="g-ammo-sleep-2" name="ammo_g" type="checkbox" value="show-slp-2"/>
+					<label for="g-ammo-sleep-2" class="ammo-label">Sleep Shot 2</label>
+				</div>
+				<div class="filter-column">
+					<input id="g-ammo-recover-1" name="ammo_g" type="checkbox" value="show-rec-1"/>
+					<label for="g-ammo-recover-1" class="ammo-label">Recover Shot 1</label>
+					<input id="g-ammo-recover-2" name="ammo_g" type="checkbox" value="show-rec-2"/>
+					<label for="g-ammo-recover-2" class="ammo-label">Recover Shot 2</label>
+					<hr/>
+					<input id="g-ammo-demon" name="ammo_g" type="checkbox" value="show-demon"/>
+					<label for="g-ammo-demon" class="ammo-label">Demon Shot</label>
+					<input id="g-ammo-antidote" name="ammo_g" type="checkbox" value="show-anti"/>
+					<label for="g-ammo-antidote" class="ammo-label">Antidote Shot</label>
+				</div>
+				<div class="filter-column">
+					<input id="g-ammo-all" type="checkbox" value="highlight-all" checked/>
+					<label for="g-ammo-all" class="ammo-label">All</label>
+				</div>
 			</div>
-			<div class="filter-column">
-				<input id="g-ammo-pellet-1" name="ammo_g" type="checkbox" value="show-pllt-1"/>
-				<label for="g-ammo-pellet-1" class="ammo-label">Pellet Shot 1</label>
-				<input id="g-ammo-pellet-2" name="ammo_g" type="checkbox" value="show-pllt-2"/>
-				<label for="g-ammo-pellet-2" class="ammo-label">Pellet Shot 2</label>
-				<input id="g-ammo-pellet-3" name="ammo_g" type="checkbox" value="show-pllt-3"/>
-				<label for="g-ammo-pellet-3" class="ammo-label">Pellet Shot 3</label>
-				<hr/>
-				<input id="g-ammo-crag-1" name="ammo_g" type="checkbox" value="show-crag-1"/>
-				<label for="g-ammo-crag-1" class="ammo-label">Crag Shot 1</label>
-				<input id="g-ammo-crag-2" name="ammo_g" type="checkbox" value="show-crag-2"/>
-				<label for="g-ammo-crag-2" class="ammo-label">Crag Shot 2</label>
-				<input id="g-ammo-crag-3" name="ammo_g" type="checkbox" value="show-crag-3"/>
-				<label for="g-ammo-crag-3" class="ammo-label">Crag Shot 3</label>
-			</div>
-			<div class="filter-column">
-				<input id="g-ammo-clust-1" name="ammo_g" type="checkbox" value="clust-1"/>
-				<label for="g-ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
-				<input id="g-ammo-clust-2" name="ammo_g" type="checkbox" value="clust-2"/>
-				<label for="g-ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
-				<input id="g-ammo-clust-3" name="ammo_g" type="checkbox" value="clust-3"/>
-				<label for="g-ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
-				<hr/>
-				<input id="g-ammo-flame" name="ammo_g" type="checkbox" value="show-flame"/>
-				<label for="g-ammo-flame" class="ammo-label">Flame Shot</label>
-				<input id="g-ammo-water" name="ammo_g" type="checkbox" value="show-water"/>
-				<label for="g-ammo-water" class="ammo-label">Water Shot</label>
-				<input id="g-ammo-thunder" name="ammo_g" type="checkbox" value="show-thunder"/>
-				<label for="g-ammo-thunder" class="ammo-label">Thunder Shot</label>
-				<input id="g-ammo-dragon" name="ammo_g" type="checkbox" value="show-dragon"/>
-				<label for="g-ammo-dragon" class="ammo-label">Dragon Shot</label>
-			</div>
-			<div class="filter-column">
-				<input id="g-ammo-poison-1" name="ammo_g" type="checkbox" value="show-poi-1"/>
-				<label for="g-ammo-poison-1" class="ammo-label">Poison Shot 1</label>
-				<input id="g-ammo-poison-2" name="ammo_g" type="checkbox" value="show-poi-2"/>
-				<label for="g-ammo-poison-2" class="ammo-label">Poison Shot 2</label>
-				<hr/>
-				<input id="g-ammo-stun-1" name="ammo_g" type="checkbox" value="show-stun-1"/>
-				<label for="g-ammo-stun-1" class="ammo-label">Stun Shot 1</label>
-				<input id="g-ammo-stun-2" name="ammo_g" type="checkbox" value="show-stun-2"/>
-				<label for="g-ammo-stun-2" class="ammo-label">Stun Shot 2</label>
-				<hr/>
-				<input id="g-ammo-sleep-1" name="ammo_g" type="checkbox" value="show-slp-1"/>
-				<label for="g-ammo-sleep-1" class="ammo-label">Sleep Shot 1</label>
-				<input id="g-ammo-sleep-2" name="ammo_g" type="checkbox" value="show-slp-2"/>
-				<label for="g-ammo-sleep-2" class="ammo-label">Sleep Shot 2</label>
-			</div>
-			<div class="filter-column">
-				<input id="g-ammo-recover-1" name="ammo_g" type="checkbox" value="show-rec-1"/>
-				<label for="g-ammo-recover-1" class="ammo-label">Recover Shot 1</label>
-				<input id="g-ammo-recover-2" name="ammo_g" type="checkbox" value="show-rec-2"/>
-				<label for="g-ammo-recover-2" class="ammo-label">Recover Shot 2</label>
-				<hr/>
-				<input id="g-ammo-demon" name="ammo_g" type="checkbox" value="show-demon"/>
-				<label for="g-ammo-demon" class="ammo-label">Demon Shot</label>
-				<input id="g-ammo-antidote" name="ammo_g" type="checkbox" value="show-anti"/>
-				<label for="g-ammo-antidote" class="ammo-label">Antidote Shot</label>
-			</div>
-			<div class="filter-column">
-				<input id="g-ammo-all" type="checkbox" value="highlight-all" checked/>
-				<label for="g-ammo-all" class="ammo-label">All</label>
-			</div>
-		</div>
+		</details>
 	</article>
 
 	<details class="weapon-class-container">

@@ -49,6 +49,9 @@ details {
 	padding: 0 0.25rem 0.25rem 0.75rem;
 	text-indent: -0.5rem;
 }
+details * {
+	text-indent: 0;
+}
 summary {
 	cursor: pointer;
 	font-weight: bold;
