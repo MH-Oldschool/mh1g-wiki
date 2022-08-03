@@ -8,7 +8,7 @@ I based Monster Hunter 1 data largely on what has been collected by the Old Scho
 Feel free to reach out and submit any corrections, but keep the Issues tab purely for technical problems.
 
 # Feature Checklist
-- [ ] Blademaster Weapons, organized in a tree structure
+- [x] Blademaster Weapons, organized in a tree structure
 	- [x] Great Swords
 	- [x] Swords and Shields
 	- [x] Dual Swords
@@ -16,17 +16,17 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [x] Hammers
 	- [x] Raw data with rough translation
 	- [x] Correct weapon names
-	- [ ] Correct material names
-- [ ] Gunner Weapons
+	- [x] Correct material names
+- [x] Gunner Weapons
 	- [x] Raw data with rough translation
 	- [x] Correct weapon names
-	- [ ] Correct material names
+	- [x] Correct material names
 - [x] Checkbox to toggle MH1 and MHG weapons
 - [ ] Armor List
 	- [x] Raw data with rough translation
 	- [ ] Correct armor piece names
 	- [x] Correct armor skills
-	- [ ] Correct material names
+	- [x] Correct material names
 - [x] Armor Set Builder
 - [x] Armor Skills
 - [ ] Monster Bestiary
@@ -35,7 +35,8 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [ ] All the numbers
 - [ ] Items
 	- [ ] All items and monster materials with in-game descriptions
-	- [ ] Item combination list
+	- [x] Shops' stock
+	- [x] Item combination list
 	- [ ] Veggie Elder trades
 - [ ] Locale Maps
 	- [ ] Basic maps: zone numbers, hot/cold zones, etc.
