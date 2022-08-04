@@ -17,7 +17,12 @@ ready(() => {
 	}
 	var handleMaterialsMouseup = (event) => {
 		if (Math.abs(event.screenX - mousePos.x) < MOUSE_MOVE_THRESHOLD.x && Math.abs(event.screenY - mousePos.y) < MOUSE_MOVE_THRESHOLD.y) {
-			toggleFullDetails(event.target, event.target.dataset.full == "0");
+			var materialsCell = event.target;
+			if (event.target.parentElement.classList.contains("materials")) {
+				var materialsCell = event.target.parentElement;
+			}
+
+			toggleFullDetails(materialsCell, materialsCell.dataset.full == "0");
 		}
 	}
 
