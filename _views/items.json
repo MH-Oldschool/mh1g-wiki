@@ -1188,14 +1188,14 @@
 		{"name":"Powertalon","class":"red-icon claw-icon",
 			"ingredients":[
 				{"name":"Powercharm","class":"red-icon powder-icon"},
-				{"name":"Lao-Shan Claw","class":"red-icon claw-icon"}
+				{"name":"Sm Lao-Shan Claw","class":"red-icon claw-icon"}
 			],
 			"percent":55
 		},
 		{"name":"Armortalon","class":"orange-icon claw-icon",
 			"ingredients":[
 				{"name":"Armorcharm","class":"orange-icon powder-icon"},
-				{"name":"Lao-Shan Claw","class":"red-icon claw-icon"}
+				{"name":"Sm Lao-Shan Claw","class":"red-icon claw-icon"}
 			],
 			"percent":55
 		},
