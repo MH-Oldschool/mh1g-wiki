@@ -246,13 +246,20 @@ ready(() => {
 			calendarWeeks[calendarWeeks.length - 1].classList.remove("hidden");
 		}
 
+		var now = new Date();
+		var pastEventDeadline = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22) < Date.now();
 		// Add events to the calendar
 		let firstDayEventIndex = getFirstDayEventIndex(year, monthIndex);
 		let dayEvents = document.getElementsByClassName("day-event");
 		let eventIndex = firstDayEventIndex;
-		// let eventIndex = 0;
 		for (let i = 0; i < dayCount; i++) {
-			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]]
+			// If it's the last day of the month, and we're past the event deadline,
+			// we should show the first event
+			if (i == dayCount - 1 && pastEventDeadline) {
+				eventIndex = 0;
+			}
+			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
+
 			calendarDays[firstDayOfWeek + i].className = currentEvent.category;
 			dayEvents[firstDayOfWeek + i].innerText = currentEvent.title;
 			dayEvents[firstDayOfWeek + i].title = currentEvent.description;
@@ -263,7 +270,6 @@ ready(() => {
 		let firstDayShopIndex = getFirstDayShopIndex(year, monthIndex);
 		let daySpecials = document.getElementsByClassName("day-special");
 		let shopIndex = firstDayShopIndex;
-		// let shopIndex = 0;
 		for (let i = 0; i < dayCount; i++) {
 			var currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 			if (SHOP_SPECIAL_ROTATION[shopIndex] == 0) {
@@ -322,15 +328,16 @@ ready(() => {
 		setCurrentShopSpecial();
 	}
 
+	var calendarDate = new Date();
 	document.getElementById("previous-month").addEventListener("click", () => {
-		now = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+		calendarDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth() - 1, 1);
 
-		setMonthTable(now.getFullYear(), now.getMonth());
+		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
 	});
 	document.getElementById("next-month").addEventListener("click", () => {
-		now = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+		calendarDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth() + 1, 1);
 
-		setMonthTable(now.getFullYear(), now.getMonth());
+		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
 	});
 
 	function saveWeekStartCookie(weekStart) {
@@ -384,21 +391,33 @@ ready(() => {
 	initCalendar();
 
 	var lastTimestamp = 0;
-	var now = new Date();
-	var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22);
-	// Move deadline ahead a day if it's already passed
-	if (DEADLINE < Date.now()) DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, 22);
-	var remainingTime = DEADLINE - Date.now();
+	function getTimeToNextEvent() {
+		var now = new Date();
+		var milliseconds = Date.now();
+		var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22);
+		// Move deadline ahead a day if it's already passed
+		if (DEADLINE < milliseconds) {
+			DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, 22);
+		}
+
+		return DEADLINE - milliseconds;
+	}
+	var remainingTime = getTimeToNextEvent();
 
 	function updateCountdown(time) {
-		const MS_PER_HOUR = 3600000;
 		const MS_PER_MINUTE = 60000;
 
 		var hours = document.getElementById("countdown-hours");
 		var minutes = document.getElementById("countdown-minutes");
 
-		hours.innerText = (Math.floor(time / MS_PER_HOUR)).toString().padStart(2, "0");
-		minutes.innerText = ((Math.ceil(time / MS_PER_MINUTE) % 60)).toString().padStart(2, "0");
+		var minutesLeft = time / MS_PER_MINUTE;
+		var hoursLeft = Math.floor(Math.ceil(minutesLeft) / 60);
+		if (minutesLeft % 60 == 0) {
+			hoursLeft += 1;
+		}
+
+		hours.innerText = hoursLeft.toString().padStart(2, "0");
+		minutes.innerText = ((Math.ceil(minutesLeft) % 60)).toString().padStart(2, "0");
 	}
 	var delta = 0;
 	function frameStep(timestamp) {
@@ -409,6 +428,12 @@ ready(() => {
 
 			if (delta > MIN_STEP) {
 				remainingTime -= delta;
+
+				if (remainingTime <= 0) {
+					remainingTime = getTimeToNextEvent();
+					initCalendar();
+				}
+
 				updateCountdown(remainingTime);
 				delta -= MIN_STEP;
 			}
