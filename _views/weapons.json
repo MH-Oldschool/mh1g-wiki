@@ -47,7 +47,7 @@
 			"tranq":3,"paint":2,"antidote":3,
 			"demon":1,"armor":1,"dragon":"","dung":1,
 			"price":"1,100z",
-			"mats":"Iron Ore x 6<br/>Sm Monster Bone x 3<br/>Velociprey Scale x 6<br/>Velociprey skin x 4"
+			"mats":"Iron Ore x 6<br/>Sm Monster Bone x 3<br/>Velociprey Scale x 6<br/>Velociprey Hide x 4"
 		},
 		{
 			"name":"Valkyrie Fire",
@@ -89,7 +89,7 @@
 			"tranq":3,"paint":2,"antidote":3,
 			"demon":1,"armor":1,"dragon":"","dung":1,
 			"price":"1,800z",
-			"mats":"Iron Ore x 8<br/>Sm Monster Bone x 4<br/>Genprey Scale x 8<br/>Genprey skin x 6"
+			"mats":"Iron Ore x 8<br/>Sm Monster Bone x 4<br/>Genprey Scale x 8<br/>Genprey Hide x 6"
 		},
 		{
 			"name":"Shotgun (Blood)",
@@ -103,7 +103,7 @@
 			"tranq":3,"paint":2,"antidote":3,
 			"demon":1,"armor":1,"dragon":"","dung":1,
 			"price":"2,400z",
-			"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey skin x 8"
+			"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey Hide x 8"
 		},
 		{
 			"name":"Sandstorm",
@@ -117,7 +117,7 @@
 			"tranq":3,"paint":2,"antidote":3,
 			"demon":1,"armor":1,"dragon":"","dung":1,
 			"price":"2,200z",
-			"mats":"Cephalos Scale x 5<br/>Cephalos fin x 4<br/>Machalite Ore x 5<br/>Iron Ore x 10"
+			"mats":"Cephalos Scale x 5<br/>Cephalos Fin x 4<br/>Machalite Ore x 5<br/>Iron Ore x 10"
 		},
 		{
 			"name":"Hornet Gun",
@@ -147,7 +147,7 @@
 			"tranq":3,"paint":2,"antidote":3,
 			"demon":1,"armor":1,"dragon":"","dung":1,
 			"price":"4,100z",
-			"mats":"Union Ore x 5<br/>Machalite Ore x 5<br/>Plesioth Scale x 5<br/>Plesioth fin x 4"
+			"mats":"Union Ore x 5<br/>Machalite Ore x 5<br/>Plesioth Scale x 5<br/>Plesioth Fin x 4"
 		},
 		{
 			"name":"Grenade Launcher",
@@ -250,7 +250,7 @@
 			"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"1,100z",
-			"mats":"Iron Ore x 6<br/>Sm Monster Bone x 3<br/>Velociprey Scale x 6<br/>Velociprey skin x 4"
+			"mats":"Iron Ore x 6<br/>Sm Monster Bone x 3<br/>Velociprey Scale x 6<br/>Velociprey Hide x 4"
 		},
 		{
 			"name":"Valkyrie Fire",
@@ -292,7 +292,7 @@
 			"recover":[" 3 "," 3 "],"poison":["",""],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"1,800z",
-			"mats":"Iron Ore x 8<br/>Sm Monster Bone x 4<br/>Genprey Scale x 8<br/>Genprey skin x 6"
+			"mats":"Iron Ore x 8<br/>Sm Monster Bone x 4<br/>Genprey Scale x 8<br/>Genprey Hide x 6"
 		},
 		{
 			"name":"Shotgun (Blood)",
@@ -306,7 +306,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"2,400z",
-			"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey skin x 8"
+			"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey Hide x 8"
 		},
 		{
 			"name":"Sandstorm",
@@ -320,7 +320,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"2,200z",
-			"mats":"Cephalos Scale x 5<br/>Cephalos fin x 4<br/>Machalite Ore x 5<br/>Iron Ore x 10"
+			"mats":"Cephalos Scale x 5<br/>Cephalos Fin x 4<br/>Machalite Ore x 5<br/>Iron Ore x 10"
 		},
 		{
 			"name":"Hornet Gun",
@@ -350,7 +350,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"4,100z",
-			"mats":"Union Ore x 5<br/>Machalite Ore x 5<br/>Plesioth Scale x 5<br/>Plesioth fin x 4"
+			"mats":"Union Ore x 5<br/>Machalite Ore x 5<br/>Plesioth Scale x 5<br/>Plesioth Fin x 4"
 		},
 		{
 			"name":"Grenade Launcher",
@@ -470,7 +470,7 @@
 			"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
 			"tranq":2,"paint":2,"demon":1,"antidote":1,
 			"price":"3,300z",
-			"mats":"Dragonite Ore x 5<br/>Cephalos fin x 4<br/>Cephalos Scale x 5<br/>Machalite Ore x 10"
+			"mats":"Dragonite Ore x 5<br/>Cephalos Fin x 4<br/>Cephalos Scale x 5<br/>Machalite Ore x 10"
 		},
 		{
 			"name":"Demonlock",
@@ -1196,7 +1196,7 @@
 			"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":1,"antidote":"",
 			"price":"6,800z",
-			"mats":"Queen Insect Tail x 1<br/>Kantharos shell x 5<br/>Dragonite Ore x 3<br/>Machalite Ore x 5"
+			"mats":"Vespoid Abdomen x 1<br/>Hornetaur Shell x 5<br/>Dragonite Ore x 3<br/>Machalite Ore x 5"
 		},
 		{
 			"name":"Duelcaster<sup title='MHG Only'>G</sup>",
@@ -1256,7 +1256,7 @@
 			"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
 			"tranq":2,"paint":2,"demon":"","antidote":"",
 			"price":"12,000z",
-			"mats":"Rathalos Plate x 3<br/>Lao-Shan back shell x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
+			"mats":"Rathalos Plate x 3<br/>Lao-Shan Spine x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
 		},
 		{
 			"name":"Monodevilcaster<sup title='MHG Only'>G</sup>",
