@@ -1,0 +1,23 @@
+.int-only {
+	display: none;
+}
+
+.quest-body {
+	background: rgba(0,0,0,0.4);
+	border: 0.125rem solid #d7d7d7;
+	padding: 0 0.5rem 0.25rem;
+}
+
+.supplies-title {
+	margin: 0;
+}
+.supplies-list {
+}
+.supply-item {
+	display: inline-block;
+	padding: 0.25rem;
+}
+.supply-item sub {
+	font-weight: bold;
+	padding-left: 0.125rem;
+}

@@ -24,6 +24,9 @@ app.get("/armor-skills", (req, res) => {
 app.get("/items", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/items.html"));
 });
+app.get("/quests", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/quests.html"));
+});
 
 var server = app.listen(PORT);
 console.log(`Listening on ${ PORT }`);

@@ -1,0 +1,86 @@
+<details>
+	<summary>
+		<h2>
+			{{^urgent}}Quest Level {{stars}}&starf;{{/urgent}}
+			{{#urgent}}Urgent Quests{{/urgent}}
+		</h2>
+	</summary>
+	{{#quests}}
+		<details class="{{type}}-quest{{#intOnly}} int-only{{/intOnly}}">
+			<summary>
+				<h3>{{{name}}}</h3>
+			</summary>
+
+			<section class="quest-body">
+				<p>
+					Locale: {{area}}<br/>
+					Goal: {{goal}}<br/>
+					{{#time}}Time Limit: {{time}}<br/>{{/time}}
+					Fee: {{fee}}<br/>
+					Reward: {{reward}}
+				</p>
+
+				{{#client}}
+					<h3>{{{client}}}</h3>
+				{{/client}}
+				{{#details}}
+					<p>{{{details}}}</p>
+				{{/details}}
+
+				{{#hrRequire}}
+					<p>Hunters must be HR{{hrRequire}} or higher to join.</p>
+				{{/hrRequire}}
+
+				<div class="hidden-details">
+					{{#prerequisites}}
+						<p>Prerequisites: {{{prerequisites}}}</p>
+					{{/prerequisites}}
+
+					<details>
+						<summary>In-depth Details</summary>
+
+						<!-- Just MH1 until I can find more MHG quest details -->
+						<aside class="mh1">
+							<h4 class="supplies-title">Supplies:</h4>
+							<div class="supplies-list">
+								{{#supplies}}
+									<span class="supply-item">{{{name}}}<sub>x{{quantity}}</sub></span>
+								{{/supplies}}
+								{{^supplies}}
+									None
+								{{/supplies}}
+							</div>
+
+							{{#monster}}Additional Monster(s): {{monster}}<br/>{{/monster}}
+							{{#health}}Monster Health: {{health}}<br/>{{/health}}
+							Cart Penalty: {{penalty}}<br/>
+							HRP Reward: {{hrp}}<br/>
+						</aside>
+
+						<table>
+							<caption>Quest Rewards</caption>
+							<thead>
+								<tr>
+									<td>Item</td>
+									<td>Quantity</td>
+									<td>% Chance</td>
+									<td>Requirement</td>
+								</tr>
+							</thead>
+							<tbody>
+								{{#rewards}}
+								<tr>
+									<td>{{name}}</td>
+									<td class="ta-r">{{quantity}}</td>
+									<td class="ta-r">{{percent}}%</td>
+									<td>{{{require}}}</td>
+								</tr>
+								{{/rewards}}
+							</tbody>
+						</table>
+					</details>
+				</div>
+			</section>
+		</details>
+	{{/quests}}
+</details>

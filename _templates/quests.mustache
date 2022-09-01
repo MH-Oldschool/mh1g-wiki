@@ -1,0 +1,65 @@
+{{>head }}
+
+<details>
+	<summary>Village</summary>
+
+	<article class="mh1">
+		{{#mh1.villageQuests}}
+			{{>quest }}
+		{{/mh1.villageQuests}}
+	</article>
+
+	<article class="mhg">
+		{{#mhg.villageQuests}}
+			{{>quest }}
+		{{/mhg.villageQuests}}
+	</article>
+</details>
+
+<details>
+	<summary>Town</summary>
+
+	<article class="mh1">
+		{{#mh1.townQuests}}
+			{{>quest }}
+		{{/mh1.townQuests}}
+	</article>
+
+	<article class="mhg">
+		{{#mhg.townQuests}}
+			{{>quest }}
+		{{/mhg.townQuests}}
+	</article>
+</details>
+
+<details class="mh1">
+	<summary>Events</summary>
+
+	<article>
+		{{#mh1.eventQuests}}
+			{{>quest }}
+		{{/mh1.eventQuests}}
+	</article>
+</details>
+
+<details class="mh1" style="display:none">
+	<summary>Event Quests (EU)</summary>
+
+	<article>
+		{{#mh1.eventQuestsEU}}
+			{{>quest }}
+		{{/mh1.eventQuestsEU}}
+	</article>
+</details>
+
+<details class="mh1" style="display:none">
+	<summary>Other</summary>
+
+	<article>
+		{{#mh1.otherQuests}}
+			{{>quest }}
+		{{/mh1.otherQuests}}
+	</article>
+</details>
+
+{{>foot }}
