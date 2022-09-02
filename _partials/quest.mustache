@@ -6,19 +6,28 @@
 		</h2>
 	</summary>
 	{{#quests}}
-		<details class="{{type}}-quest{{#intOnly}} int-only{{/intOnly}}">
+		<details class="{{#intOnly}}int-only{{/intOnly}}">
 			<summary>
-				<h3>{{{name}}}</h3>
+				<h3{{#key}} title="Key Quest"{{/key}}>{{{name}}}{{#key}} *{{/key}}</h3>
 			</summary>
 
-			<section class="quest-body">
-				<p>
-					Locale: {{area}}<br/>
-					Goal: {{goal}}<br/>
-					{{#time}}Time Limit: {{time}}<br/>{{/time}}
-					Fee: {{fee}}<br/>
-					Reward: {{reward}}
-				</p>
+			<section class="quest-body {{type}}-quest">
+				<div class="quest-head">
+					<div class="quest-icon-container">
+						<div class="quest-icon {{icon}}">
+						</div>
+					</div>
+
+					<p>
+						Locale: {{area}}<br/>
+						Goal: {{goal}}<br/>
+					</p>
+					<p>
+						{{#time}}Time Limit: {{time}}<br/>{{/time}}
+						Fee: {{fee}}<br/>
+						Reward: {{reward}}
+					</p>
+				</div>
 
 				{{#client}}
 					<h3>{{{client}}}</h3>

@@ -1512,7 +1512,7 @@
 		{"name":"Power Extract","class":"blue-icon jar-icon",
 			"ingredients":[
 				{"name":"Dragon Seed","class":"red-icon seed-icon"},
-				{"name":"Piscine Liver","class":"white-icon monster-icon"}
+				{"name":"Piscine Liver","class":"white-icon creature-icon"}
 			],
 			"percent":65
 		},

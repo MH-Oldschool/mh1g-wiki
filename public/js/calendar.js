@@ -87,7 +87,7 @@ ready(() => {
 			category: "special",
 			location: "Swamp",
 			target: "Kirin",
-			client: "Town Guardsman",
+			client: "Town Guardsman",
 			description: "I saw it, I swear! Like a ghost, faintly glowing... Riches await the one who slays it, but you only get one chance. Don't blow it!."
 		},
 		{
@@ -260,7 +260,7 @@ ready(() => {
 			}
 			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
 
-			calendarDays[firstDayOfWeek + i].className = currentEvent.category;
+			calendarDays[firstDayOfWeek + i].className = currentEvent.category + "-quest";
 			dayEvents[firstDayOfWeek + i].innerText = currentEvent.title;
 			dayEvents[firstDayOfWeek + i].title = currentEvent.description;
 
@@ -300,9 +300,9 @@ ready(() => {
 
 		var eventContent = document.getElementById("current-event-content");
 		eventContent.classList.remove("gather", "hunt", "capture", "special");
-		eventContent.classList.add(currentEvent.category);
+		eventContent.classList.add(currentEvent.category + "-quest");
 
-		document.getElementById("current-event").className = currentEvent.category;
+		// document.getElementById("current-event").className = currentEvent.category + "-quest";
 		document.getElementById("current-event-title").innerText = currentEvent.title;
 		document.getElementById("current-event-location").innerText = currentEvent.location;
 		document.getElementById("current-target-container").style.display = currentEvent.category == "gather" ? "none" : "";

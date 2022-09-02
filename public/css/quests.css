@@ -3,9 +3,57 @@
 }
 
 .quest-body {
-	background: rgba(0,0,0,0.4);
-	border: 0.125rem solid #d7d7d7;
+	text-shadow:
+		1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		-1px -1px 0 #000;
 	padding: 0 0.5rem 0.25rem;
+}
+
+.quest-icon-container,
+.quest-head p {
+	display: inline-block;
+	vertical-align: top;
+}
+.quest-icon-container {
+	position: relative;
+	box-sizing: border-box;
+	background-image: url("/images/background/parchment.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0.90625rem;
+	width: 5rem;
+	height: 5rem;
+}
+.quest-icon-container:before {
+	position: absolute;
+	content: "";
+	background: rgba(0,0,0,0.25);
+	border-radius: 100%;
+	box-shadow: 0 0 2rem rgba(0,0,0,0.6);
+	margin: -1.5rem auto 0;
+	width: 3rem;
+	height: 3rem;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.quest-icon {
+	position: relative;
+	margin: 0;
+}
+/* Change padding for smaller item icons */
+.gather-quest .quest-icon-container {
+	padding: 1.5rem;
+}
+
+.quest-head {
+	padding-top: 0.375rem;
+}
+.quest-head p {
+	margin-left: 1rem;
 }
 
 .supplies-title {

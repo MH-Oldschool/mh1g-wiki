@@ -98,6 +98,7 @@
 	width: 7.1875rem;
 	height: 7.1875rem;
 }
+/*
 .monster-icon:before {
 	position: absolute;
 	content: "";
@@ -111,59 +112,7 @@
 	left: 0;
 	right: 0;
 }
-.monster-icon {
-	position: relative;
-	background-image: url("/images/icon_sheets/monster_icons.png");
-	background-repeat: no-repeat;
-	background-size: 25.5rem 16rem;
-	width: 3.1875rem;
-	height: 3.1875rem;
-}
-/* Specific monsters */
-.monster-rathalos { background-position: 0 0 }
-.monster-rathian { background-position: -3.1875rem 0 }
-.monster-gypceros { background-position: -6.375rem 0 }
-.monster-yian-kut-ku { background-position: -9.5625rem 0 }
-.monster-plesioth { background-position: -12.75rem 0 }
-.monster-velocidrome { background-position: -15.9375rem 0 }
-.monster-gendrome { background-position: -19.125rem 0 }
-.monster-iodrome { background-position: -22.3125rem 0 }
-
-.monster-cephalos { background-position: 0 -3.1875rem }
-.monster-monoblos { background-position: -3.1875rem -3.1875rem }
-.monster-diablos { background-position: -6.375rem -3.1875rem }
-.monster-gravios { background-position: -9.5625rem -3.1875rem }
-.monster-basarios { background-position: -12.75rem -3.1875rem }
-.monster-cephadrome { background-position: -15.9375rem -3.1875rem }
-.monster-giaprey { background-position: -19.125rem -3.1875rem }
-.monster-blue-kut-ku { background-position: -22.3125rem -3.1875rem }
-
-.monster-khezu { background-position: 0 -6.375rem }
-.monster-kelbi { background-position: -3.1875rem -6.375rem }
-.monster-bullfango { background-position: -6.375rem -6.375rem }
-.monster-vespoid { background-position: -9.5625rem -6.375rem }
-.monster-hornetaur { background-position: -12.75rem -6.375rem }
-.monster-purple-gypceros { background-position: -15.9375rem -6.375rem }
-.monster-green-plesioth { background-position: -19.125rem -6.375rem }
-.monster-black-gravios { background-position: -22.3125rem -6.375rem }
-
-.monster-apceros { background-position: 0 -9.5625rem }
-.monster-velociprey { background-position: -3.1875rem -9.5625rem }
-.monster-genprey { background-position: -6.375rem -9.5625rem }
-.monster-ioprey { background-position: -9.5625rem -9.5625rem }
-.monster-unknown { background-position: -12.75rem -9.5625rem }
-.monster-white-monoblos { background-position: -15.9375rem -9.5625rem }
-.monster-black-diablos { background-position: -19.125rem -9.5625rem }
-.monster-azure-rathalos { background-position: -22.3125rem -9.5625rem }
-
-.monster-aptonoth { background-position: 0 -12.75rem }
-.monster-felyne { background-position: -3.1875rem -12.75rem }
-.monster-melynx { background-position: -6.375rem -12.75rem }
-.monster-mosswine { background-position: -9.5625rem -12.75rem }
-.monster-red-khezu { background-position: -12.75rem -12.75rem }
-.monster-pink-rathian { background-position: -15.9375rem -12.75rem }
-.monster-silver-rathalos { background-position: -19.125rem -12.75rem }
-.monster-gold-rathian { background-position: -22.3125rem -12.75rem }
+*/
 
 .monster-container {
 	padding: 0.25rem 2rem 0;

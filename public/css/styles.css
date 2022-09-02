@@ -492,9 +492,9 @@ tr.base-only.show {
 .monster-silver-rathalos { background-position: -9.5625rem -15.9375rem }
 .monster-gold-rathian { background-position: -12.75rem -15.9375rem }
 .monster-twin-raths { background-position: -15.9375rem -15.9375rem }
-.monster-twin-ash-raths { background-position: -19.125rem -15.9375rem }
+.monster-ash-raths { background-position: -19.125rem -15.9375rem }
 
-.monster-twin-kim-raths { background-position: 0 -19.125rem }
+.monster-kim-raths { background-position: 0 -19.125rem }
 
 td.materials {
 	overflow: hidden;
