@@ -4186,10 +4186,18 @@
 							{"name":"Normal S Lv1","quantity":1},
 							{"name":"Normal S Lv1","quantity":1},
 							{"name":"Pellet S Lv1","quantity":10},
-							{"name":"?Recover? (回復弾) S Lv1","quantity":5},
+							{"name":"Recover S Lv1","quantity":5},
 							{"name":"Huskberry","quantity":10}
 						],
-						"rewards":[{"percent":"","name":"Kirin Mane","quantity":""},{"percent":"","name":"Kirin Horn","quantity":""},{"percent":"","name":"Kirin Hide","quantity":""},{"percent":"","name":"Ancient Potion","quantity":""}],
+						"rewards":[
+							{"percent":1,"name":"Ancient Potion","quantity":1},
+							{"percent":15,"name":"Kirin Horn","quantity":1},
+							{"percent":2,"name":"Kirin Hide","quantity":1},
+							{"percent":2,"name":"Kirin Mane","quantity":1},
+							{"percent":40,"name":"Kirin Mane","quantity":1},
+							{"percent":20,"name":"Kirin Mane","quantity":1},
+							{"percent":5,"name":"Kirin Mane","quantity":2}
+						],
 						"note":""
 					},
 					{
