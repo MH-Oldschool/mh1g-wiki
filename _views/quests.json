@@ -4159,7 +4159,7 @@
 							{"name":"Cool Drink","quantity":1},
 							{"name":"Cool Drink","quantity":1}
 						],
-						"rewards":[{"percent":5,"name":"Chrome Voucher","quantity":1},{"percent":1,"name":"Diablos Shell","quantity":1},{"percent":1,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Blos Fang","quantity":1},{"percent":2,"name":"Blos Jaw","quantity":1},{"percent":4,"name":"Sm Bone Husk","quantity":"48"},{"percent":1,"name":"Lg Bone Husk","quantity":12}],
+						"rewards":[],
 						"note":"{JP/US:n/a}, 1!! K.O. fail"
 					},
 					{
