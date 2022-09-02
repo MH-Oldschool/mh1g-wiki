@@ -354,6 +354,12 @@ tr.base-only.show {
 .rare-6 { background: rgba(192,208,255,0.2) /* #c0d0ff */ }
 .rare-7 { background: rgba(255,208,128,0.2) /* #ffd080 */ }
 
+/* Quest Background */
+.hunt-quest { background: linear-gradient(0.375turn, #983b32, #725533 25%); }
+.capture-quest { background: linear-gradient(0.375turn, #999, #725533 25%); }
+.gather-quest { background: linear-gradient(0.375turn, #4c874a, #725533 25%); }
+.special-quest { background: linear-gradient(0.375turn, #934db8, #725533 25%); }
+
 /* Colored Icons */
 .pink-icon, .red-icon, .orange-icon, .yellow-icon, .green-icon,
 .cyan-icon, .blue-icon, .purple-icon, .white-icon, .gray-icon, .brown-icon {
@@ -386,7 +392,7 @@ tr.base-only.show {
 .tools-icon { background-position: -14rem 0; }
 .whetstone-icon { background-position: 0 -2rem; }
 .dung-icon { background-position: -2rem -2rem; }
-.monster-icon { background-position: -4rem -2rem; }
+.creature-icon { background-position: -4rem -2rem; }
 .bone-icon { background-position: -6rem -2rem; }
 .binoculars-icon { background-position: -8rem -2rem; }
 .mushroom-icon { background-position: -10rem -2rem; }
@@ -430,6 +436,65 @@ tr.base-only.show {
 .arm-icon { background-position: -6rem -12rem; }
 .foot-icon { background-position: -8rem -12rem; }
 /* There are more icons, not sure where to use 'em yet */
+
+.monster-icon {
+	position: relative;
+	background-image: url("/images/icon_sheets/monster_icons.png");
+	background-repeat: no-repeat;
+	background-size: 22.3125rem 22.3125rem;
+	width: 3.1875rem;
+	height: 3.1875rem;
+}
+/* Specific monsters */
+.monster-rathalos { background-position: 0 0 }
+.monster-rathian { background-position: -3.1875rem 0 }
+.monster-gypceros { background-position: -6.375rem 0 }
+.monster-yian-kut-ku { background-position: -9.5625rem 0 }
+.monster-plesioth { background-position: -12.75rem 0 }
+.monster-velocidrome { background-position: -15.9375rem 0 }
+.monster-gendrome { background-position: -19.125rem 0 }
+
+.monster-cephalos { background-position: 0 -3.1875rem }
+.monster-monoblos { background-position: -3.1875rem -3.1875rem }
+.monster-diablos { background-position: -6.375rem -3.1875rem }
+.monster-gravios { background-position: -9.5625rem -3.1875rem }
+.monster-basarios { background-position: -12.75rem -3.1875rem }
+.monster-iodrome { background-position: -15.9375rem -3.1875rem }
+.monster-giaprey { background-position: -19.125rem -3.1875rem }
+
+.monster-khezu { background-position: 0 -6.375rem }
+.monster-kelbi { background-position: -3.1875rem -6.375rem }
+.monster-bullfango { background-position: -6.375rem -6.375rem }
+.monster-vespoid { background-position: -9.5625rem -6.375rem }
+.monster-hornetaur { background-position: -12.75rem -6.375rem }
+.monster-cephadrome { background-position: -15.9375rem -6.375rem }
+.monster-blue-kut-ku { background-position: -19.125rem -6.375rem }
+
+.monster-apceros { background-position: 0 -9.5625rem }
+.monster-velociprey { background-position: -3.1875rem -9.5625rem }
+.monster-genprey { background-position: -6.375rem -9.5625rem }
+.monster-ioprey { background-position: -9.5625rem -9.5625rem }
+.monster-unknown { background-position: -12.75rem -9.5625rem }
+.monster-purple-gypceros { background-position: -15.9375rem -9.5625rem }
+.monster-green-plesioth { background-position: -19.125rem -9.5625rem }
+
+.monster-aptonoth { background-position: 0 -12.75rem }
+.monster-felyne { background-position: -3.1875rem -12.75rem }
+.monster-melynx { background-position: -6.375rem -12.75rem }
+.monster-mosswine { background-position: -9.5625rem -12.75rem }
+.monster-red-khezu { background-position: -12.75rem -12.75rem }
+.monster-white-monoblos { background-position: -15.9375rem -12.75rem }
+.monster-black-diablos { background-position: -19.125rem -12.75rem }
+
+.monster-black-gravios { background-position: 0 -15.9375rem }
+.monster-azure-rathalos { background-position: -3.1875rem -15.9375rem }
+.monster-pink-rathian { background-position: -6.375rem -15.9375rem }
+.monster-silver-rathalos { background-position: -9.5625rem -15.9375rem }
+.monster-gold-rathian { background-position: -12.75rem -15.9375rem }
+.monster-twin-raths { background-position: -15.9375rem -15.9375rem }
+.monster-twin-ash-raths { background-position: -19.125rem -15.9375rem }
+
+.monster-twin-kim-raths { background-position: 0 -19.125rem }
 
 td.materials {
 	overflow: hidden;
