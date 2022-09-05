@@ -26,7 +26,17 @@ window.closePopup = () => {
 	document.body.classList.remove("show-popup");
 };
 
+// Choose a random cursor
+var cursorClass = (() => {
+	const CURSORS = ["greatsword","hammer","lance","sword","bowgun"];
+	var index = Math.floor(Math.random() * CURSORS.length);
+
+	return CURSORS[index] + "-cursor";
+})()
+
 ready(() => {
+	document.body.classList.add(cursorClass);
+
 	const gToggleEvent = new Event("g-toggle");
 
 	function saveVersionCookie(version) {
