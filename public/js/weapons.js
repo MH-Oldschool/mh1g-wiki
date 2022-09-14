@@ -1,4 +1,19 @@
 ready(() => {
+	document.body.addEventListener("g-toggle", () => {
+		if (getMHVersion() == "1") {
+			// close any open mhg-only branches
+			document.querySelectorAll(".mhg.branch.open").forEach((element) => {
+				element.classList.remove("open");
+			});
+		}
+		else {
+			// open any mhg-only branches that were open before
+			document.querySelectorAll(".branch-button.mhg.open").forEach((element) => {
+				document.getElementById(element.dataset.target).classList.add("open");
+			});
+		}
+	});
+
 	var rankFilterLabels = document.getElementById("rank-filters").getElementsByClassName("range-label");
 	function setRank(rankIndex) {
 		toggleHighRank(rankIndex > 0);

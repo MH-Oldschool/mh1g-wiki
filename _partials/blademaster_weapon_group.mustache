@@ -1,0 +1,143 @@
+<details id="{{id}}" class="weapon-group-container {{#highRank}}high-rank {{/highRank}}{{#gRank}}g-rank {{/gRank}}{{class}}">
+	<summary>
+		<h3>
+			{{group}}
+			{{#from}} (from <a href="#{{fromId}}" data-target="{{fromId}}">{{from}}</a>){{/from}}
+			{{#toggleAll}}
+				<button class="toggle-all-button{{#gToggleAll}} mhg{{/gToggleAll}}" data-target="{{id}}" title="toggle all">toggle all</button>
+			{{/toggleAll}}
+		</h3>
+	</summary>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Rarity</th>
+				<th>Damage</th>
+				<th>Attribute</th>
+				<th>Defense</th>
+				<th>Sharpness</th>
+				<th>Price</th>
+				{{^other}}<th>Upgrade Materials</th>{{/other}}
+				<th>Forge Materials</th>
+			</tr>
+		</thead>
+
+		{{#tbody}}
+			<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}} class="{{bodyClass}}"{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
+				{{#weapons}}
+					<tr class="{{^dbLink}}rare-{{rare}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}}>
+						{{#dbLink}}
+							<td colspan="9">
+								&#8735;<a href="#{{dbLink}}" data-target="{{dbLink}}">{{name}}</a></td>
+						{{/dbLink}}
+
+						{{^dbLink}}
+						<td>
+							{{#other}}
+								{{{name}}}
+							{{/other}}
+
+							{{^other}}
+								{{#gBranch}}
+									<span class="mh1">
+										{{^branchBend}}
+											{{^branchStart}}| {{/branchStart}}
+										{{/branchBend}}
+										{{#branchBend}}&#8735;{{/branchBend}}
+										{{{name}}}
+									</span>
+									<button class="branch-button mhg" data-target="{{gBranch}}">
+										{{^branchBend}}
+											{{^branchStart}}| {{/branchStart}}
+										{{/branchBend}}
+										{{#branchBend}}&#8735;{{/branchBend}}
+										{{{name}}}
+								{{/gBranch}}
+
+								{{^gBranch}}
+									{{#branch}}
+										<button class="branch-button" data-target="{{branch}}">
+									{{/branch}}
+
+									{{^branchBend}}
+										{{^branchStart}}| {{/branchStart}}
+									{{/branchBend}}
+									{{#branchBend}}
+										{{#baseBranchBend}}
+											<span class="mh1">
+										{{/baseBranchBend}}
+											&#8735;
+										{{#baseBranchBend}}
+											</span>
+											<span class="mhg">| </span>
+										{{/baseBranchBend}}
+									{{/branchBend}}
+
+									{{{name}}}
+								{{/gBranch}}
+							{{/other}}
+
+							{{#gOnly}}<sup title="MHG Only">G</sup>{{/gOnly}}
+							{{#dev}}<sup title="Dev Only">Dev</sup>{{/dev}}
+
+							{{#branch}}</button>{{/branch}}
+							{{#gBranch}}</button>{{/gBranch}}
+						</td>
+						<td>{{rare}}</td>
+						<td>
+							{{damage}}
+							{{#baseDamage}}<span class="mh1">{{baseDamage}}</span>{{/baseDamage}}
+							{{#gDamage}}<span class="mhg">{{gDamage}}</span>{{/gDamage}}
+						</td>
+						<td>
+							{{#attribute}}
+								<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+								{{attributeValue}}
+								{{#baseAttribute}}<span class="mh1">{{baseAttribute}}</span>{{/baseAttribute}}
+								{{#gAttribute}}<span class="mhg">{{gAttribute}}</span>{{/gAttribute}}
+							{{/attribute}}
+
+							{{^attribute}}
+								{{^baseAttribute}}-{{/baseAttribute}}
+							{{/attribute}}
+						</td>
+						<td>
+							{{defense}}
+							{{^defense}}-{{/defense}}
+						</td>
+						<td class="sharpness-cell">
+							<div class="sharpness-container">
+								<img src="images/{{sharpness}}.gif"/>
+							</div>
+						</td>
+						<td>
+							{{#buy}}({{buy}}z) {{/buy}}
+							{{#price}}{{price}}z{{/price}}
+							{{^price}}---{{/price}}
+						</td>
+						{{^other}}
+						<td class="materials" title="click to toggle full list">
+							{{#upgrade}}
+								{{>material}}
+							{{/upgrade}}
+							{{^upgrade}}-{{/upgrade}}
+						</td>
+						{{/other}}
+						<td class="materials" title="click to toggle full list">
+							{{#forge}}
+								{{>material}}
+							{{/forge}}
+							{{^forge}}
+								{{^acquire}}-{{/acquire}}
+							{{/forge}}
+
+							{{{acquire}}}
+						</td>
+					</tr>
+					{{/dbLink}}
+				{{/weapons}}
+			</tbody>
+		{{/tbody}}
+	</table>
+</details>

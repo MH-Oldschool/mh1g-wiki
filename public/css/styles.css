@@ -5,7 +5,6 @@ html {
 	height: 100%;
 }
 body {
-	/*cursor: url("/images/cursors/greatsword.png"), auto;*/
 	box-sizing: border-box;
 	background: #000 url("/images/background/mhg.gif");
 	background-size: 2.5rem;
@@ -35,6 +34,8 @@ h3 {
 .lance-cursor { cursor: url("/images/cursors/lance.png"), auto; }
 .sword-cursor { cursor: url("/images/cursors/sword.png"), auto; }
 .bowgun-cursor { cursor: url("/images/cursors/bowgun.png"), auto; }
+
+.help-cursor { cursor: url("/images/cursors/mystery_weapon.png"), auto; }
 
 a,
 button,
@@ -98,7 +99,7 @@ td {
 	border: 1px solid #eee;
 }
 tbody tr {
-	border-bottom: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
 }
 td, td * {
 	vertical-align: middle;
@@ -219,7 +220,7 @@ input[type="range"] {
 	text-align: right !important;
 }
 
-.comma-separated:after { content: ","; }
+.comma-separated:after { content: ", "; }
 .comma-separated:last-child:after { content: ""; }
 
 .switch-label {
@@ -279,22 +280,6 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 #g-toggle:checked + label span:last-child {
 	text-shadow: 0.0625rem 0.0625rem 0 #fa3;
 }
-
-/* .base-only {
-	display: none;
-}
-.base-only.show {
-	display: block;
-}
-span.base-only.show {
-	display: inline;
-}
-tbody.base-only.show {
-	display: table-row-group;
-}
-tr.base-only.show {
-	display: table-row;
-} */
 
 .filters {
 	padding: 0 0 0 1.25rem;
@@ -541,7 +526,7 @@ header h1 {
 header p {
 	padding: 0.25rem 0;
 }
-
+/*
 .border-bottom {
 	border-bottom-color: #999;
 	border-bottom-width: 2px;
@@ -558,7 +543,7 @@ tr.no-border-bottom td {
 tr.no-border-top td {
 	border-top: 0;
 }
-
+*/
 .attribute-icon {
 	width: 1rem;
 }

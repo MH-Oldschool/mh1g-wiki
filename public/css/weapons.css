@@ -77,6 +77,35 @@
 .highlight-paralysis .paralysis-status { color: #ffff04; }
 .highlight-sleep .sleep-status { color: #99ff5b; }
 
+/* G-only highlighting */
+.show-g .highlight-fire .weapon-group-container.fire-pre-g { display: block; }
+.show-g .highlight-fire tbody.fire-pre-g { display: table-row-group; }
+.show-g .highlight-fire tr.fire-pre-g { display: table-row; }
+/* Water */
+.show-g .highlight-water .weapon-group-container.water-pre-g { display: block; }
+.show-g .highlight-water tbody.water-pre-g { display: table-row-group; }
+.show-g .highlight-water tr.water-pre-g { display: table-row; }
+/* Thunder */
+.show-g .highlight-thunder .weapon-group-container.thunder-pre-g { display: block; }
+.show-g .highlight-thunder tbody.thunder-pre-g { display: table-row-group; }
+.show-g .highlight-thunder tr.thunder-pre-g { display: table-row; }
+/* Dragon */
+.show-g .highlight-dragon .weapon-group-container.dragon-pre-g { display: block; }
+.show-g .highlight-dragon tbody.dragon-pre-g { display: table-row-group; }
+.show-g .highlight-dragon tr.dragon-pre-g { display: table-row; }
+/* Poison */
+.show-g .highlight-poison .weapon-group-container.poison-pre-g { display: block; }
+.show-g .highlight-poison tbody.poison-pre-g { display: table-row-group; }
+.show-g .highlight-poison tr.poison-pre-g { display: table-row; }
+/* Paralysis */
+.show-g .highlight-paralysis .weapon-group-container.paralysis-pre-g { display: block; }
+.show-g .highlight-paralysis tbody.paralysis-pre-g { display: table-row-group; }
+.show-g .highlight-paralysis tr.paralysis-pre-g { display: table-row; }
+/* Sleep */
+.show-g .highlight-sleep .weapon-group-container.sleep-pre-g { display: block; }
+.show-g .highlight-sleep tbody.sleep-pre-g { display: table-row-group; }
+.show-g .highlight-sleep tr.sleep-pre-g { display: table-row; }
+
 #melee-weapons td:first-child {
 	white-space: nowrap;
 }
@@ -170,24 +199,27 @@
 	display: table-row;
 }
 
-/* All this to clip the sharpness graph for MH1 */
 .sharpness-cell {
 	position: relative;
 	padding: 0;
-	width: 8.25rem;
-	min-width: 8.25rem;
+	width: 8.5rem;
+}
+.sharpness-container {
+	margin: 0 auto;
+	width: 122px;
 }
 .sharpness-cell img {
 	display: block;
-	position: absolute;
-	margin: -9px auto 0;
-	top: 50%;
-	left: 0;
-	right: 0;
 }
-.show-1 .sharpness-cell img {
-	clip: rect(0,122px,10px,0);
-	margin-top: -6px;
+/* Clip the sharpness graph for MH1 */
+.show-1 .sharpness-cell {
+	width: 7rem;
+}
+.show-1 .sharpness-container {
+	overflow-x: hidden;
+	border-right: 1px solid #808080;
+	height: 10px;
+	width: 91px;
 }
 
 .branch {
@@ -202,12 +234,9 @@
 .branch tr:last-child {
 	border-bottom: 2px solid #999;
 }
-.indent-1 tr td:first-child {
-	padding-left: 1rem;
-}
-.indent-2 tr td:first-child {
-	padding-left: 2rem;
-}
+.indent-1 tr td:first-child { padding-left: 1rem; }
+.indent-2 tr td:first-child { padding-left: 2rem; }
+.indent-3 tr td:first-child { padding-left: 3rem; }
 
 .weapon-class-container details {
 	overflow-x: auto;
