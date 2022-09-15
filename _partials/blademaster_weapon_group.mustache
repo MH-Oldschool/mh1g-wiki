@@ -114,22 +114,56 @@
 						<td>
 							{{#buy}}({{buy}}z) {{/buy}}
 							{{#price}}{{price}}z{{/price}}
-							{{^price}}---{{/price}}
+							{{^price}}
+								{{#basePrice}}<span class="mh1">{{basePrice}}z</span>{{/basePrice}}
+								{{#gPrice}}<span class="mhg">{{gPrice}}z</span>{{/gPrice}}
+
+								{{^basePrice}}---{{/basePrice}}
+							{{/price}}
 						</td>
 						{{^other}}
 						<td class="materials" title="click to toggle full list">
 							{{#upgrade}}
 								{{>material}}
 							{{/upgrade}}
-							{{^upgrade}}-{{/upgrade}}
+
+
+							{{^upgrade}}
+								<span class="mh1">
+									{{#baseUpgrade}}
+										{{>material}}
+									{{/baseUpgrade}}
+								</span>
+								<span class="mhg">
+									{{#gUpgrade}}
+										{{>material}}
+									{{/gUpgrade}}
+								</span>
+
+								{{^baseUpgrade}}-{{/baseUpgrade}}
+							{{/upgrade}}
 						</td>
 						{{/other}}
 						<td class="materials" title="click to toggle full list">
 							{{#forge}}
 								{{>material}}
 							{{/forge}}
+
 							{{^forge}}
-								{{^acquire}}-{{/acquire}}
+								<span class="mh1">
+									{{#baseForge}}
+										{{>material}}
+									{{/baseForge}}
+								</span>
+								<span class="mhg">
+									{{#gForge}}
+										{{>material}}
+									{{/gForge}}
+								</span>
+
+								{{^acquire}}
+									{{^baseForge}}-{{/baseForge}}
+								{{/acquire}}
 							{{/forge}}
 
 							{{{acquire}}}

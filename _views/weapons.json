@@ -17,13 +17,16 @@
 					"weapons":[
 						{
 							"class":"thunder-pre",
-							"name":"<b>Iron Sword</b>",
+							"name":"<b>Iron Sword</b>","branchStart":true,
 							"rare":1,
 							"damage":288,
 							"sharpness":"sharpness_gs/iron_sword",
 							"buy":"2,100",
 							"price":"1,050",
-							"forge":[
+							"baseForge":[
+								{"n":"Iron Ore","q":3}
+							],
+							"gForge":[
 								{"n":"Iron Ore","q":2}
 							]
 						},
@@ -91,7 +94,7 @@
 							"upgrade":[
 								{"n":"Machalite Ore","q":35},
 								{"n":"Earth Crystal","q":50},
-								{"n":"Thunder Sac","q":5}
+								{"n":"Electro Sac","q":5}
 							],
 							"forge":[
 								{"n":"Silver Ticket","q":10},
@@ -174,7 +177,7 @@
 							]
 						},
 						{
-							"name":"Sentinel",
+							"name":"Sentinel","branchBend":true,
 							"rare":2,
 							"damage":672,
 							"defense":10,
@@ -283,7 +286,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-pre",
-							"name":"<b>Bone Blade</b>",
+							"name":"<b>Bone Blade</b>","branchStart":true,
 							"rare":1,
 							"damage":336,
 							"sharpness":"sharpness_gs/bone_blade",
@@ -550,7 +553,7 @@
 				{
 					"weapons":[
 						{
-							"name":"<b>Bone</b>",
+							"name":"<b>Bone</b>","branchStart":true,
 							"rare":1,
 							"damage":384,
 							"sharpness":"sharpness_gs/bone",
@@ -582,7 +585,7 @@
 					"weapons":[
 						{
 							"rowClass":"water-element",
-							"name":"<b>Finblade</b>",
+							"name":"<b>Finblade</b>","branchStart":true,
 							"rare":4,
 							"damage":480,
 							"attribute":"water","attributeAlt":"Water","attributeValue":280,
@@ -647,11 +650,11 @@
 				{
 					"weapons":[
 						{
-							"name":"<b>Rusted Great Sword</b>",
+							"name":"<b>Rusted Great Sword</b>","branchStart":true,
 							"rare":1,
 							"damage":240,
 							"sharpness":"sharpness_gs/rusted_great_sword",
-							"price":"2,500",
+							"price":"1,000",
 							"forge":[
 								{"n":"Rustshard (GS)","q":1}
 							]
@@ -701,7 +704,7 @@
 						{
 							"class":"rare-4 thunder-pre",
 							"branch":"black-katana",
-							"name":"<b>Bone Katana \"Wolf\"</b>",
+							"name":"<b>Bone Katana \"Wolf\"</b>","branchStart":true,
 							"rare":4,
 							"damaage":624,
 							"sharpness":"sharpness_gs/bone_katana_wolf",
@@ -904,12 +907,13 @@
 		},
 		{
 			"group":"Halberd Group",
+			"id":"halberd-group","class":"high-rank poison-pre-g",
 			"highRank":true,"toggleAll":true,"gToggleAll":true,
 			"tbody":[
 				{
 					"weapons":[
 						{
-							"name":"<b>Halberd</b>",
+							"name":"<b>Halberd</b>","branchStart":true,
 							"rare":4,
 							"damage":864,
 							"sharpness":"sharpness_gs/halberd",
@@ -1052,7 +1056,7 @@
 					"weapons":[
 						{
 							"rowClass":"dragon-element",
-							"name":"<b>Fire Dragonsword</b>",
+							"name":"<b>Fire Dragonsword</b>","branchStart":true,
 							"rare":5,
 							"damage":864,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":260,
@@ -1092,7 +1096,7 @@
 					"weapons":[
 						{
 							"rowClass":"dragon-element",
-							"name":"<b>Dragonslayer</b>",
+							"name":"<b>Dragonslayer</b>","branchStart":true,
 							"rare":4,
 							"baseDamage":672,"gDamage":576,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":330,
@@ -1126,7 +1130,12 @@
 							"attribute":"dragon","attributeAlt":"Dragon","baseAttribute":430,"gAttribute":520,
 							"sharpness":"sharpness_gs/eternal_annihilator",
 							"price":"150,000",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Silver Ticket","q":5},
+								{"n":"Wyvern Fang","q":99},
+								{"n":"Wyvern Claw","q":99}
+							],
+							"gUpgrade":[
 								{"n":"Silver Ticket","q":5},
 								{"n":"Wyvern Fang","q":99},
 								{"n":"Wyvern Claw","q":50}
@@ -1161,7 +1170,7 @@
 						{
 							"rowClass":"fire-pre",
 							"branch":"silverfang-serpentblade",
-							"name":"G Sword Origin","gOnly":true,
+							"name":"<b>Origin Sword G</b>","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":720,
 							"sharpness":"sharpness_gs/g_sword_origin",
@@ -1208,7 +1217,7 @@
 						{
 							"rowClass":"fire-pre",
 							"branch":"iron-sword-g",
-							"name":"G Sword Origin+","gOnly":true,
+							"name":"Origin Sword G+","gOnly":true,
 							"rare":4,
 							"damage":768,
 							"sharpness":"sharpness_gs/g_sword_origin+",
@@ -1332,7 +1341,12 @@
 								{"n":"Inferno Sac","q":10},
 								{"n":"Rathalos Claw","q":20}
 							]
-						},
+						}
+					]
+				},
+				{
+					"bodyClass":"branch g-rank indent-2 fire-pre-g",
+					"weapons":[
 						{
 							"rowClass":"fire-element",
 							"name":"Shining Rathalos Sword","gOnly":true,"branchBend":true,
@@ -1346,7 +1360,12 @@
 								{"n":"Inferno Sac","q":5},
 								{"n":"Azure Rathalos Scale","q":4}
 							]
-						},
+						}
+					]
+				},
+				{
+					"bodyClass":"branch g-rank indent-1 dragon-pre-g",
+					"weapons":[
 						{
 							"rowClass":"dragon-element",
 							"name":"Blushing Dame","gOnly":true,"branchBend":true,
@@ -1391,7 +1410,7 @@
 					"weapons":[
 						{
 							"rowClass":"poison-status",
-							"name":"<b>Chrome Razor","gOnly":true,
+							"name":"<b>Chrome Razor","branchStart":true,
 							"rare":5,
 							"damage":912,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":320,
@@ -1429,7 +1448,7 @@
 				{
 					"weapons":[
 						{
-							"name":"<b>Worn Great Sword</b>","gOnly":true,
+							"name":"<b>Worn Great Sword</b>","gOnly":true,"branchStart":true,
 							"rare":6,
 							"damage":720,
 							"sharpness":"sharpness_gs/worn_great_sword",
@@ -1921,7 +1940,7 @@
 							]
 						},
 						{
-							"name":"<b>Finishing Hammer</b>",
+							"name":"<b>Finishing Hammer</b>","branchBend":true,
 							"rare":5,
 							"baseDamage":883,"gDamage":832,
 							"defense":5,
@@ -1968,7 +1987,11 @@
 							"baseDamage":519,"gDamage":520,
 							"sharpness":"sharpness_h/cyclo_hammer+",
 							"price":"3,990",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Med Monster Bone","q":6},
+								{"n":"Sm Monster Bone","q":2}
+							],
+							"gUpgrade":[
 								{"n":"Med Monster Bone","q":5},
 								{"n":"Sm Monster Bone","q":2}
 							]
@@ -1981,7 +2004,11 @@
 							"baseDamage":571,"gDamage":572,
 							"sharpness":"sharpness_h/atlas_hammer",
 							"price":"4,830",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Med Monster Bone","q":9},
+								{"n":"Machalite Ore","q":1}
+							],
+							"gUpgrade":[
 								{"n":"Med Monster Bone","q":8},
 								{"n":"Machalite Ore","q":1}
 							]
@@ -2016,7 +2043,7 @@
 							"upgrade":[
 								{"n":"Machalite Ore","q":8},
 								{"n":"Thunderbug","q":5},
-								{"n":"Thunder Sac","q":1}
+								{"n":"Electro Sac","q":1}
 							]
 						},
 						{
@@ -2030,12 +2057,12 @@
 							"upgrade":[
 								{"n":"Machalite Ore","q":12},
 								{"n":"Thunderbug","q":7},
-								{"n":"Thunder Sac","q":2}
+								{"n":"Electro Sac","q":2}
 							]
 						},
 						{
 							"rowClass":"paralysis-status",
-							"name":"<b>Binder Mace</b>",
+							"name":"<b>Binder Mace</b>","branchBend":true,
 							"rare":3,
 							"baseDamage":779,"gDamage":780,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":210,
@@ -2044,11 +2071,11 @@
 							"upgrade":[
 								{"n":"Machalite Ore","q":30},
 								{"n":"Thunderbug","q":30},
-								{"n":"Thunder Sac","q":20}
+								{"n":"Electro Sac","q":20}
 							],
 							"forge":[
 								{"n":"Silver Ticket","q":10},
-								{"n":"Queen Insect Tail","q":1},
+								{"n":"Vespoid Abdomen","q":1},
 								{"n":"Diablos Tail","q":1},
 								{"n":"Rathalos Tail","q":1}
 							]
@@ -2063,7 +2090,11 @@
 							"baseDamage":623,"gDamage":624,
 							"sharpness":"sharpness_h/skullcrusher",
 							"price":"6,090",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Lg Monster Bone","q":2},
+								{"n":"Wyvern Fang","q":10}
+							],
+							"gUpgrade":[
 								{"n":"Med Monster Bone","q":10},
 								{"n":"Wyvern Fang","q":10}
 							]
@@ -2074,7 +2105,12 @@
 							"baseDamage":675,"gDamage":676,
 							"sharpness":"sharpness_h/skullcrusher+",
 							"price":"7,350",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Lg Monster Bone","q":4},
+								{"n":"Piscene Fang","q":4},
+								{"n":"Monster Fluid","q":2}
+							],
+							"gUpgrade":[
 								{"n":"Med Monster Bone","q":12},
 								{"n":"Piscene Fang","q":4},
 								{"n":"Monster Fluid","q":2}
@@ -2086,7 +2122,12 @@
 							"baseDamage":727,"gDamage":728,
 							"sharpness":"sharpness_h/kut_ku_chin",
 							"price":"8,610",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Lg Monster Bone","q":6},
+								{"n":"Monster Fluid","q":4},
+								{"n":"Giant Beak","q":1}
+							],
+							"gUpgrade":[
 								{"n":"Lg Monster Bone","q":2},
 								{"n":"Monster Fluid","q":4},
 								{"n":"Giant Beak","q":1}
@@ -2098,7 +2139,12 @@
 							"baseDamage":779,"gDamage":780,
 							"sharpness":"sharpness_h/kut_ku_jaw",
 							"price":"10,290",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Lg Monster Bone","q":8},
+								{"n":"Blos Fang","q":2},
+								{"n":"Mega Demondrug","q":1}
+							],
+							"gUpgrade":[
 								{"n":"Lg Monster Bone","q":3},
 								{"n":"Piscene Fang","q":10},
 								{"n":"Mega Demondrug","q":1}
@@ -2124,7 +2170,7 @@
 							]
 						},
 						{
-							"name":"Great Bone Club",
+							"name":"Great Bone Club","branchBend":true,
 							"rare":1,
 							"baseDamage":623,"gDamage":624,
 							"sharpness":"sharpness_h/great_bone_club",
@@ -2298,7 +2344,7 @@
 							"rare":1,
 							"baseDamage":259,"gDamage":260,
 							"sharpness":"sharpness_h/rusted_hammer",
-							"price":"2,500",
+							"price":"1,000",
 							"forge":[
 								{"n":"Rustshard (H)","q":1}
 							]
@@ -2324,7 +2370,7 @@
 							]
 						},
 						{
-							"name":"Breath Core Hammer",
+							"name":"Breath Core Hammer","branchBend":true,
 							"rare":5,
 							"baseDamage":"1,039","gDamage":"1,040",
 							"sharpness":"sharpness_h/breath_core_hammer",
@@ -2349,7 +2395,7 @@
 							"damage":623,
 							"defense":1,
 							"sharpness":"sharpness_h/anvil_hammer",
-							"price":"14,250",
+							"price":"7,950",
 							"forge":[
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Machalite Ore","q":15},
@@ -2362,7 +2408,7 @@
 							"damage":779,
 							"defense":2,
 							"sharpness":"sharpness_h/earthshaker",
-							"price":"16,770",
+							"price":"10,890",
 							"upgrade":[
 								{"n":"Earth Crystal","q":20},
 								{"n":"Machalite Ore","q":15},
@@ -2475,7 +2521,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-pre dragon-pre poison-pre paralysis-pre",
-							"name":"<b>G Hammer Origin</b>","gOnly":true,"branchStart":true,
+							"name":"<b>Origin Hammer G</b>","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":780,
 							"sharpness":"sharpness_h/g_hammer_origin",
@@ -2488,7 +2534,7 @@
 						{
 							"rowClass":"fire-pre dragon-pre poison-pre paralysis-pre",
 							"branch":".g-hammers",
-							"name":"G Hammer Origin+","gOnly":true,
+							"name":"Origin Hammer G+","gOnly":true,
 							"rare":4,
 							"damage":832,
 							"sharpness":"sharpness_h/g_hammer_origin+",
@@ -3219,7 +3265,7 @@
 							]
 						},
 						{
-							"name":"Babel Spear",
+							"name":"Babel Spear","branchBend":true,
 							"rare":2,
 							"baseDamage":413,"gDamage":414,
 							"defense":3,
@@ -3377,12 +3423,12 @@
 				},
 				{
 					"bodyClass":"crimson-lance branch indent-1 fire-pre water-pre-g",
-					"dataChildBranch":"glacial-war-pike",
+					"dataChildBranch":"ceramic-blos-lance",
 					"weapons":[
 						{
 							"rowClass":"fire-element water-pre-g",
 							"name":"Crimson Lance",
-							"gBranchButton":"glacial-war-pike",
+							"gBranch":"ceramic-blos-lance",
 							"rare":3,
 							"baseDamage":344,"gDamage":345,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":210,
@@ -3397,15 +3443,15 @@
 					]
 				},
 				{
-					"bodyId":"glacial-war-pike","bodyClass":"branch indent-2 g-rank mhg water-pre",
+					"bodyId":"ceramic-blos-lance","bodyClass":"branch indent-2 g-rank mhg water-pre",
 					"weapons":[
 						{
 							"rowClass":"water-element",
-							"name":"Glacial War Pike?","gOnly":true,"branchBend":true,
+							"name":"Ceramic Blos Lance","gOnly":true,"branchBend":true,
 							"rare":5,
 							"damage":414,
 							"attribute":"water","attributeAlt":"Water","attributeValue":220,
-							"sharpness":"sharpness_l/glacial_war_pike",
+							"sharpness":"sharpness_l/ceramic_blos_lance",
 							"price":"31,250",
 							"upgrade":[
 								{"n":"Silver Horn","q":1},
@@ -3471,7 +3517,7 @@
 							]
 						},
 						{
-							"name":"Ogre Tusk",
+							"name":"Ogre Tusk","branchBend":true,
 							"rare":2,
 							"baseDamage":459,"gDamage":460,
 							"sharpness":"sharpness_l/ogre_tusk",
@@ -3595,7 +3641,7 @@
 							"rare":1,
 							"baseDamage":68,"gDamage":69,
 							"sharpness":"sharpness_l/rusted_lance",
-							"price":"2,500",
+							"price":"1,000",
 							"forge":[
 								{"n":"Rustshard (L)","q":1}
 							]
@@ -3753,7 +3799,12 @@
 							"defense":4,
 							"sharpness":"sharpness_l/grayburg_javelin",
 							"price":"100,000",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Dragonite Ore","q":10},
+								{"n":"Union Ore","q":10},
+								{"n":"Firestone","q":5}
+							],
+							"gUpgrade":[
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Union Ore","q":8},
 								{"n":"Firestone","q":5}
@@ -3905,7 +3956,7 @@
 							"price":"14,880",
 							"upgrade":[
 								{"n":"Dragonite Ore","q":15},
-								{"n":"Thunder Sac","q":10},
+								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":5}
 							]
 						}
@@ -4089,7 +4140,7 @@
 						{
 							"rowClass":"fire-pre water-pre dragon-pre poison-pre paralysis-pre",
 							"branch":".dark-lance",
-							"name":"<b>G Lance Origin</b>","gOnly":true,"branchStart":true,
+							"name":"<b>Origin Lance G</b>","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":345,
 							"sharpness":"sharpness_l/g_lance_origin",
@@ -4193,7 +4244,7 @@
 						},
 						{
 							"rowClass":"paralysis-status",
-							"name":"Trident",
+							"name":"Trident","branchBend":true,
 							"rare":4,
 							"damage":299,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":300,
@@ -4201,7 +4252,7 @@
 							"price":"14,880",
 							"upgrade":[
 								{"n":"Dragonite Ore","q":15},
-								{"n":"Thunder Sac","q":10},
+								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":5}
 							]
 						}
@@ -4212,7 +4263,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-pre water-pre dragon-pre",
-							"name":"G Lance Origin+","gOnly":true,
+							"name":"Origin Lance G+","gOnly":true,
 							"rare":4,
 							"damage":368,
 							"sharpness":"sharpness_l/g_lance_origin+",
@@ -4693,7 +4744,8 @@
 							"rare":4,
 							"baseDamage":413,"gDamage":414,
 							"sharpness":"sharpness_l/valhalla",
-							"price":"48,000",
+							"basePrice":"100,000",
+							"gPrice":"48,000",
 							"forge":[
 								{"n":"Nova Crystal","q":1},
 								{"n":"Dragonite Ore","q":10},
@@ -4785,7 +4837,7 @@
 					"weapons":[
 						{
 							"rowClass":"poison-pre paralysis-pre",
-							"name":"<b>Hunter Knife</b>",
+							"name":"<b>Hunter Knife</b>","branchStart":true,
 							"rare":1,
 							"baseDamage":83,"gDamage":84,
 							"sharpness":"sharpness_sns/hunter_knife",
@@ -4944,10 +4996,19 @@
 							"baseDamage":139,"gDamage":140,
 							"sharpness":"sharpness_sns/hunters_dagger",
 							"price":"1,140",
-							"upgrade":[
+							"baseUpgrade":[
+								{"n":"Iron Ore","q":2},
+								{"n":"Earth Crystal","q":1}
+							],
+							"gUpgrade":[
 								{"n":"Iron Ore","q":2},
 								{"n":"Earth Crystal","q":1},
 								{"n":"Machalite Ore","q":1}
+							],
+							"forge":[
+								{"n":"Machalite Ore","q":1},
+								{"n":"Iron Ore","q":10},
+								{"n":"Earth Crystal","q":3}
 							]
 						},
 						{
@@ -5021,7 +5082,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-pre sleep-pre",
-							"name":"<b>Bone Kris</b>",
+							"name":"<b>Bone Kris</b>","branchStart":true,
 							"rare":1,
 							"baseDamage":97,"gDamage":98,
 							"sharpness":"sharpness_sns/bone_kris",
@@ -5146,6 +5207,10 @@
 							"upgrade":[
 								{"n":"Sm Monster Bone","q":3},
 								{"n":"Sm Bone Husk","q":5}
+							],
+							"forge":[
+								{"n":"Med Monster Bone","q":3},
+								{"n":"Sm Monster Bone","q":10}
 							]
 						},
 						{
@@ -5274,7 +5339,7 @@
 				{
 					"weapons":[
 						{
-							"name":"Hero's Blade",
+							"name":"Hero's Blade","branchStart":true,
 							"rare":5,
 							"baseDamage":251,"gDamage":252,
 							"defense":3,
@@ -5315,11 +5380,11 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"name":"<b>Rusted Sword</b>",
+							"name":"<b>Rusted Sword</b>","branchStart":true,
 							"rare":1,
 							"baseDamage":41,"gDamage":42,
 							"sharpness":"sharpness_sns/rusted_sword",
-							"price":"2,500",
+							"price":"1,000",
 							"forge":[
 								{"n":"Rustshard (SnS)","q":1}
 							]
@@ -5366,7 +5431,7 @@
 				{
 					"weapons":[
 						{
-							"name":"<b>Kitchen Knife</b>",
+							"name":"<b>Kitchen Knife</b>","branchStart":true,
 							"rare":1,
 							"baseDamage":111,"gDamage":112,
 							"sharpness":"sharpness_sns/kitchen_knife",
@@ -5384,7 +5449,7 @@
 							"price":"1,740",
 							"upgrade":[
 								{"n":"Earth Crystal","q":10},
-								{"n":"Barbeque Ticket","q":5}
+								{"n":"BBQ Ticket","q":5}
 							]
 						}
 					]
@@ -5400,7 +5465,7 @@
 					"weapons":[
 						{
 							"rowClass":"paralysis-status",
-							"name":"<b>Catspaw</b>",
+							"name":"<b>Catspaw</b>","branchStart":true,
 							"rare":5,
 							"baseDamage":111,"gDamage":112,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":180,
@@ -5449,14 +5514,14 @@
 				{
 					"weapons":[
 						{
-							"name":"<b>Studded Club</b>",
+							"name":"<b>Studded Club</b>","branchStart":true,
 							"rare":2,
 							"damage":195,
 							"defense":3,
 							"sharpness":"sharpness_sns/studded_club",
 							"price":"2,940",
 							"forge":[
-								{"n":"Diablos Spine","q":2},
+								{"n":"Diablos Spine","q":1},
 								{"n":"Twisted Horn","q":1},
 								{"n":"Diablos Shell","q":1},
 								{"n":"Wyvern Fang","q":10}
@@ -5497,7 +5562,7 @@
 			"class":"high-rank mh1 thunder-pre",
 			"tbody":[
 				{
-					"bodyClass":"thunder-pre",
+					"bodyClass":"thunder-pre","branchStart":true,
 					"weapons":[
 						{
 							"rowClass":"thunder-element",
@@ -5511,7 +5576,7 @@
 								{"n":"Union Ore","q":2},
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Rubbery Hide","q":2},
-								{"n":"Thunder Sac","q":1}
+								{"n":"Electro Sac","q":1}
 							]
 						},
 						{
@@ -5525,7 +5590,7 @@
 							"upgrade":[
 								{"n":"Union Ore","q":3},
 								{"n":"Rubbery Hide","q":4},
-								{"n":"Thunder Sac","q":2}
+								{"n":"Electro Sac","q":2}
 							]
 						},
 						{
@@ -5539,12 +5604,12 @@
 							"upgrade":[
 								{"n":"Union Ore","q":4},
 								{"n":"Rubbery Hide","q":6},
-								{"n":"Thunder Sac","q":3}
+								{"n":"Electro Sac","q":3}
 							]
 						},
 						{
 							"rowClass":"thunder-element",
-							"name":"<b>Thundertip</b>",
+							"name":"<b>Thundertip</b>","branchEnd":true,
 							"rare":4,
 							"damage":321,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":240,
@@ -5553,7 +5618,7 @@
 							"price":"100,000",
 							"upgrade":[
 								{"n":"Thunderbug","q":20},
-								{"n":"Thunder Sac","q":10},
+								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":10}
 							],
 							"forge":[
@@ -5561,41 +5626,6 @@
 								{"n":"Pale Bone","q":1},
 								{"n":"Monoblos Heart","q":1},
 								{"n":"Piscene Liver","q":1}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"group":"Ninja Sword",
-			"class":"high-rank mhg",
-			"tbody":[
-				{
-					"weapons":[
-						{
-							"name":"<b>Ninja Sword</b>",
-							"rare":5,
-							"damage":266,
-							"sharpness":"sharpness_sns/ninja_sword",
-							"price":"48,000",
-							"forge":[
-								{"n":"Fatalis' Crust","q":1},
-								{"n":"Guild Ticket","q":1},
-								{"n":"Egg Ticket","q":5}
-							]
-						},
-						{
-							"name":"Ninja Sword G","gOnly":true,"branchBend":true,
-							"rowClass":"g-rank",
-							"rare":7,
-							"damage":336,
-							"sharpness":"sharpness_sns/ninja_sword_g",
-							"price":"70,000",
-							"upgrade":[
-								{"n":"Fatalis' Crust+","q":1},
-								{"n":"Guild Ticket","q":1},
-								{"n":"Egg Ticket","q":5}
 							]
 						}
 					]
@@ -5612,7 +5642,7 @@
 					"weapons":[
 						{
 							"rowClass":"thunder-element",
-							"name":"<b>Kirin Bolt</b>",
+							"name":"<b>Kirin Bolt</b>","branchStart":true,
 							"rare":5,
 							"baseDamage":181,"gDamage":182,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":200,
@@ -5713,7 +5743,7 @@
 					"weapons":[
 						{
 							"rowClass":"dragon-element",
-							"name":"<b>Dragonbuster</b>",
+							"name":"<b>Dragonbuster</b>","branchStart":true,
 							"rare":4,
 							"damage":251,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":200,
@@ -5721,7 +5751,7 @@
 							"price":"50,000",
 							"forge":[
 								{"n":"Fatalis' Eye","q":1},
-								{"n":"Fatalis' Horn","q":2},
+								{"n":"Fatalis' Horn","q":1},
 								{"n":"Fatalis' Crust","q":1}
 							]
 						},
@@ -5760,6 +5790,41 @@
 			]
 		},
 		{
+			"group":"Ninja Sword",
+			"class":"high-rank mhg",
+			"tbody":[
+				{
+					"weapons":[
+						{
+							"name":"<b>Ninja Sword</b>","branchStart":true,
+							"rare":5,
+							"damage":266,
+							"sharpness":"sharpness_sns/ninja_sword",
+							"price":"48,000",
+							"forge":[
+								{"n":"Fatalis' Crust","q":1},
+								{"n":"Guild Ticket","q":1},
+								{"n":"Egg Ticket","q":5}
+							]
+						},
+						{
+							"name":"Ninja Sword G","gOnly":true,"branchBend":true,
+							"rowClass":"g-rank",
+							"rare":7,
+							"damage":336,
+							"sharpness":"sharpness_sns/ninja_sword_g",
+							"price":"70,000",
+							"upgrade":[
+								{"n":"Fatalis' Crust+","q":1},
+								{"n":"Guild Ticket","q":1},
+								{"n":"Egg Ticket","q":5}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"id":"djinn-group","class":"g-rank mhg fire-pre",
 			"group":"Djinn",
 			"toggleAll":true,
@@ -5769,7 +5834,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-element",
-							"name":"<b>Djinn</b>","gOnly":true,
+							"name":"<b>Djinn</b>","gOnly":true,"branchStart":true,
 							"rare":6,
 							"damage":210,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":240,
@@ -5854,7 +5919,7 @@
 						{
 							"rowClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 							"branch":".g-knife-swords",
-							"name":"<b>G knife origin</b>",
+							"name":"<b>Origin Knife G</b>","branchStart":true,
 							"rare":4,
 							"damage":210,
 							"sharpness":"sharpness_sns/g_knife_origin",
@@ -5948,7 +6013,7 @@
 						{
 							"rowClass":"thunder-pre dragon-pre poison-pre",
 							"branch":".thunderbane",
-							"name":"G Knife Origin+","gOnly":true,
+							"name":"Origin Knife G+","gOnly":true,
 							"rare":4,
 							"damage":224,
 							"sharpness":"sharpness_sns/g_knife_origin+",
@@ -5974,13 +6039,13 @@
 							"upgrade":[
 								{"n":"Union Ore","q":1},
 								{"n":"Rubbery Hide","q":1},
-								{"n":"Thunder Sac","q":1}
+								{"n":"Electro Sac","q":1}
 							],
 							"forge":[
 								{"n":"Union Ore","q":2},
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Rubbery Hide","q":2},
-								{"n":"Thunder Sac","q":1}
+								{"n":"Electro Sac","q":1}
 							]
 						},
 						{
@@ -5995,7 +6060,7 @@
 							"upgrade":[
 								{"n":"Union Ore","q":3},
 								{"n":"Rubbery Hide","q":4},
-								{"n":"Thunder Sac","q":2}
+								{"n":"Electro Sac","q":2}
 							]
 						}
 					]
@@ -6047,7 +6112,7 @@
 							"upgrade":[
 								{"n":"Union Ore","q":4},
 								{"n":"Rubbery Hide","q":6},
-								{"n":"Thunder Sac","q":3}
+								{"n":"Electro Sac","q":3}
 							]
 						},
 						{
@@ -6061,7 +6126,7 @@
 							"price":"100,000",
 							"upgrade":[
 								{"n":"Thunderbug","q":20},
-								{"n":"Thunder Sac","q":10},
+								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":10}
 							],
 							"forge":[
@@ -6336,7 +6401,7 @@
 							"rare":5,
 							"damage":265,
 							"sharpness":"sharpness_sns/ninja_sword",
-							"price":"48,000",
+							"price":"150,000",
 							"forge":[
 								{"n":"Fatalis' Crust","q":1},
 								{"n":"Guild Ticket","q":1},
@@ -6650,7 +6715,7 @@
 						{
 							"rowClass":"water-pre",
 							"branch":".tomahawk-swords",
-							"name":"<b>Dual Tomahawk","gOnly":true,
+							"name":"<b>Dual Tomahawk","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":252,
 							"sharpness":"sharpness_ds/dual_tomahawk",
@@ -6763,7 +6828,7 @@
 						},
 						{
 							"rowClass":"g-rank",
-							"name":"Insector Slicers","gOnly":true,
+							"name":"Insector Slicers","gOnly":true,"branchBend":true,
 							"rare":6,
 							"damage":350,
 							"sharpness":"sharpness_ds/insector_slicers",
@@ -6779,7 +6844,7 @@
 				{
 					"weapons":[
 						{
-							"name":"Dual Tomahawk+","gOnly":true,
+							"name":"Dual Tomahawk+","gOnly":true,"branchBend":true,
 							"rare":4,
 							"damage":350,
 							"sharpness":"sharpness_ds/dual_tomahawk+",
@@ -6825,7 +6890,7 @@
 					"weapons":[
 						{
 							"rowClass":"thunder-element",
-							"name":"<b>Prototype Saw-Slicer</b>","gOnly":true,
+							"name":"<b>Prototype Saw-Slicer</b>","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":224,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":120,
@@ -6848,7 +6913,7 @@
 							"price":"17,010",
 							"upgrade":[
 								{"n":"Kirin Horn","q":18},
-								{"n":"Thunder Sac","q":10},
+								{"n":"Electro Sac","q":10},
 								{"n":"Union Ore","q":20}
 							]
 						},
@@ -6880,7 +6945,7 @@
 					"weapons":[
 						{
 							"rowClass":"dragon-element",
-							"name":"<b>Double Dragon</b>","gOnly":true,
+							"name":"<b>Double Dragon</b>","gOnly":true,"branchStart":true,
 							"rare":4,
 							"damage":266,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":220,
@@ -6964,7 +7029,7 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"name":"<b>Worn Blades</b>","gOnly":true,
+							"name":"<b>Worn Blades</b>","gOnly":true,"branchStart":true,
 							"rare":6,
 							"damage":126,
 							"sharpness":"sharpness_ds/worn_blades",
@@ -7144,20 +7209,6 @@
 				"mats":"Rathian Scale x 5<br/>Rathian Shell x 3<br/>Machalite Ore x 5<br/>Gunpowder x 10"
 			},
 			{
-				"name":"Spartacus Fire",
-				"rarity":3,
-				"dmg":"120 - 180",
-				"def":0,
-				"reload":"Normal",
-				"recoil":"Moderate",
-				"normal":[6,6,9],"pierce":[3,3,3],"pellet":["","",""],"crag":[1,1,""],"clust":["","",""],
-				"disc":"","recover":[3,3],"poison":[3,1],"stun":[3,1],"sleep":["",""],
-				"tranq":3,"paint":2,"antidote":"",
-				"demon":1,"armor":"","dragon":"","dung":"",
-				"price":"2,600z",
-				"mats":"Rathalos Shell x 3<br/>Rathalos Scale x 5<br/>Machalite Ore x 5<br/>Gunpowder x 10"
-			},
-			{
 				"name":"Shotgun (Emerald)",
 				"rarity":3,
 				"dmg":"114 - 174",
@@ -7184,6 +7235,20 @@
 				"demon":1,"armor":1,"dragon":"","dung":1,
 				"price":"2,400z",
 				"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey Hide x 8"
+			},
+			{
+				"name":"Spartacus Fire",
+				"rarity":3,
+				"dmg":"120 - 180",
+				"def":0,
+				"reload":"Normal",
+				"recoil":"Moderate",
+				"normal":[6,6,9],"pierce":[3,3,3],"pellet":["","",""],"crag":[1,1,""],"clust":["","",""],
+				"disc":"","recover":[3,3],"poison":[3,1],"stun":[3,1],"sleep":["",""],
+				"tranq":3,"paint":2,"antidote":"",
+				"demon":1,"armor":"","dragon":"","dung":"",
+				"price":"2,600z",
+				"mats":"Rathalos Shell x 3<br/>Rathalos Scale x 5<br/>Machalite Ore x 5<br/>Gunpowder x 10"
 			},
 			{
 				"name":"Sandstorm",
@@ -7358,7 +7423,7 @@
 				"disc":3,"recover":["",""],"poison":["",""],"stun":[3,""],"sleep":[3,""],
 				"tranq":3,"paint":2,"antidote":"",
 				"demon":"","armor":"","dragon":"","dung":"",
-				"price":"4,500z",
+				"price":"3,000z",
 				"mats":"Firestone × 2<br/>Dragonite Ore x 15<br/>Machalite Ore x 20"
 			},
 			{
@@ -7389,7 +7454,7 @@
 				"tranq":3,"paint":2,"antidote":3,
 				"demon":1,"armor":1,"dragon":1,"dung":1,
 				"price":"6,400z",
-				"mats":"Dragonite Ore x 10<br/>Machalite Ore x 10<br/>Vespoid Shell x 10<br/>Hornetaur crustacean x 20"
+				"mats":"Dragonite Ore x 10<br/>Machalite Ore x 10<br/>Vespoid Shell x 10<br/>Hornetaur Shell x 20"
 			},
 			{
 				"name":"Quickcaster",
@@ -7403,7 +7468,7 @@
 				"disc":3,"recover":[3,""],"poison":[3,""],"stun":[3,""],"sleep":[3,""],
 				"tranq":3,"paint":2,"antidote":3,
 				"demon":1,"armor":1,"dragon":"","dung":1,
-				"price":"7,500z",
+				"price":"3,500z",
 				"mats":"Kirin Mane x 8<br/>Kirin Hide x 2<br/>Dragonite Ore x 10<br/>Majestic Horn x 2"
 			},
 			{
@@ -7418,7 +7483,7 @@
 				"disc":3,"recover":["",""],"poison":[3,1],"stun":[3,1],"sleep":["",""],
 				"tranq":3,"paint":2,"antidote":"",
 				"demon":1,"armor":"","dragon":1,"dung":"",
-				"price":"7,500z",
+				"price":"6,800z",
 				"mats":"Vespoid Abdomen x 1<br/>Hornetaur Shell x 5<br/>Dragonite Ore x 3<br/>Machalite Ore x 5"
 			},
 			{
@@ -7449,11 +7514,11 @@
 				"tranq":3,"paint":2,"antidote":"",
 				"demon":"","armor":"","dragon":"","dung":"",
 				"price":"12,000z",
-				"mats":"Rathalos Plate x 3<br/>Lao-Shan Spine x 1<br/>Lao-Shan Shell x 4<br/>Dragonite Ore x 20"
+				"mats":"Lao-Shan Shell x 4<br/>Lao-Shan Spine x 1<br/>Rathalos Plate x 3<br/>Dragonite Ore x 20"
 			}
 		]
 	},
-	"bowgunsg":{
+	"bowgunsG":{
 		"lbg":[
 			{
 				"name":"Crossbow Gun",
@@ -7498,34 +7563,6 @@
 				"mats":"Iron Ore x 6<br/>Sm Monster Bone x 3<br/>Velociprey Scale x 6<br/>Velociprey Hide x 4"
 			},
 			{
-				"name":"Valkyrie Fire",
-				"rarity":3,
-				"dmg":"108 - 168",
-				"def":0,
-				"reload":"Very Fast",
-				"recoil":"Moderate",
-				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
-				"flame":3,"water":"","thunder":"","dragon":"",
-				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
-				"price":"2,500z",
-				"mats":"Rathian Scale x 5<br/>Rathian Shell x 3<br/>Machalite Ore x 5<br/>Gunpowder x 10"
-			},
-			{
-				"name":"Spartacus Fire",
-				"rarity":3,
-				"dmg":"120 - 180",
-				"def":0,
-				"reload":"Normal",
-				"recoil":"Moderate",
-				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
-				"flame":3,"water":"","thunder":"","dragon":"",
-				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
-				"price":"2,600z",
-				"mats":"Rathalos Shell x 3<br/>Rathalos Scale x 5<br/>Machalite Ore x 5<br/>Gunpowder x 10"
-			},
-			{
 				"name":"Shotgun (Emerald)",
 				"rarity":3,
 				"dmg":"114 - 174",
@@ -7552,6 +7589,34 @@
 				"tranq":2,"paint":2,"demon":1,"antidote":1,
 				"price":"2,400z",
 				"mats":"Iron Ore x 10<br/>Sm Monster Bone x 5<br/>Ioprey Scale x 10<br/>Ioprey Hide x 8"
+			},
+			{
+				"name":"Valkyrie Fire",
+				"rarity":3,
+				"dmg":"108 - 168",
+				"def":0,
+				"reload":"Very Fast",
+				"recoil":"Moderate",
+				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
+				"flame":3,"water":"","thunder":"","dragon":"",
+				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
+				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"price":"2,500z",
+				"mats":"Rathian Scale x 5<br/>Rathian Shell x 3<br/>Machalite Ore x 5<br/>Gunpowder x 10"
+			},
+			{
+				"name":"Spartacus Fire",
+				"rarity":3,
+				"dmg":"120 - 180",
+				"def":0,
+				"reload":"Normal",
+				"recoil":"Moderate",
+				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
+				"flame":3,"water":"","thunder":"","dragon":"",
+				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
+				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"price":"2,600z",
+				"mats":"Rathalos Shell x 3<br/>Rathalos Scale x 5<br/>Machalite Ore x 5<br/>Gunpowder x 10"
 			},
 			{
 				"name":"Sandstorm",
@@ -8263,7 +8328,7 @@
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
 				"tranq":2,"paint":2,"demon":1,"antidote":1,
 				"price":"6,400z",
-				"mats":"Dragonite Ore x 10<br/>Machalite Ore x 10<br/>Vespoid Shell x 10<br/>Hornetaur crustacean x 20"
+				"mats":"Dragonite Ore x 10<br/>Machalite Ore x 10<br/>Vespoid Shell x 10<br/>Hornetaur Shell x 20"
 			},
 			{
 				"name":"Flechette Gun",
@@ -8426,7 +8491,7 @@
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
 				"tranq":2,"paint":2,"demon":1,"antidote":"",
 				"price":"10,000z",
-				"mats":"Vespoid hard shell x 10<br/>Queen Insect Tail x 1<br/>Hornetaur hard shell x 10<br/>Monster Broth x 10"
+				"mats":"Vespoid hard shell x 10<br/>Vespoid Abdomen x 1<br/>Hornetaur hard shell x 10<br/>Monster Broth x 10"
 			},
 			{
 				"name":"Gravios Howl<sup title='MHG Only'>G</sup>",
