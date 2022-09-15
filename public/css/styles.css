@@ -201,10 +201,10 @@ input[type="range"] {
 }
 
 .show-g .mh1 {
-	display: none;
+	display: none !important;
 }
 .show-1 .mhg {
-	display: none
+	display: none !important;
 }
 
 .hide {
