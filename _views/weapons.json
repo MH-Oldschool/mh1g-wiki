@@ -2711,7 +2711,7 @@
 							"name":"War Basher","gOnly":true,"branchBend":true,
 							"rare":7,
 							"damage":"1,196",
-							"sharpness-cell":"sharpness_h/war_basher",
+							"sharpness":"sharpness_h/war_basher",
 							"price":"100,000",
 							"upgrade":[
 								{"n":"Dragonite Ore","q":18},

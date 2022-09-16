@@ -340,27 +340,27 @@ ready(() => {
 		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
 	});
 
-	function saveWeekStartCookie(weekStart) {
-		try {
-			document.cookie = "mh1g-week-start=" + weekStart + ";SameSite=Lax";
-		}
-		catch (err) {
-			console.warn("Unable to write week start cookie:", err);
-		}
-	}
-	function getWeekStartFromCookie() {
-		try {
-			var cookieIndex = document.cookie.indexOf("mh1g-week-start");
-			// This will be just a single character;
-			// the cookie name is 15 characters long, plus one for the "=" sign
-			return document.cookie[cookieIndex + 16];
-		}
-		catch (err) {
-			console.warn("Unable to retrieve week start cookie:", err);
-		}
+	// function saveWeekStartCookie(weekStart) {
+	// 	try {
+	// 		document.cookie = "mh1g-week-start=" + weekStart + ";SameSite=Lax";
+	// 	}
+	// 	catch (err) {
+	// 		console.warn("Unable to write week start cookie:", err);
+	// 	}
+	// }
+	// function getWeekStartFromCookie() {
+	// 	try {
+	// 		var cookieIndex = document.cookie.indexOf("mh1g-week-start");
+	// 		// This will be just a single character;
+	// 		// the cookie name is 15 characters long, plus one for the "=" sign
+	// 		return document.cookie[cookieIndex + 16];
+	// 	}
+	// 	catch (err) {
+	// 		console.warn("Unable to retrieve week start cookie:", err);
+	// 	}
 
-		return "";
-	}
+	// 	return "";
+	// }
 
 	var weekStartToggle = document.getElementById("week-start-toggle");
 	function setWeekStart(weekStart, setCheckbox) {
@@ -377,14 +377,14 @@ ready(() => {
 			weekStartToggle.checked = weekStart == "m";
 		}
 
-		saveWeekStartCookie(weekStart);
+		window.localStorage.setItem("weekStart", weekStart);
 	}
 	weekStartToggle.addEventListener("change", (event) => {
 		setWeekStart(isMondayStart() ? "s" : "m");
 		initCalendar();
 	});
 
-	if (getWeekStartFromCookie() == "m") {
+	if (window.localStorage.getItem("weekStart") == "m") {
 		setWeekStart("m", true);
 	}
 

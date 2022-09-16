@@ -26,32 +26,10 @@ ready(() => {
 		}
 	}
 
-	function saveCellStateCookie(state) {
-		try {
-			document.cookie = "mh1g-wiki-cell-state=" + state + ";SameSite=Lax";
-		}
-		catch (err) {
-			console.warn("Unable to write MH cell state cookie:", err);
-		}
-	}
-	function getCellStateFromCookie() {
-		try {
-			var cookieIndex = document.cookie.indexOf("mh1g-wiki-cell-state");
-			// This will be just a single character;
-			// the cookie name is 20 characters long, plus one for the "=" sign
-			return document.cookie[cookieIndex + 21];
-		}
-		catch (err) {
-			console.warn("Unable to retrieve MH cell state cookie:", err);
-		}
-
-		return "";
-	}
-
 	var toggleFullCells = document.getElementById("cells-toggle");
 	var toggleOn = false;
 	if (toggleFullCells) {
-		if (getCellStateFromCookie()) {
+		if (window.localStorage.getItem("cellState")) {
 			toggleOn = true;
 			toggleFullCells.checked = true;
 		}
@@ -62,7 +40,7 @@ ready(() => {
 				toggleFullDetails(materialCells[i], toggleOn);
 			}
 
-			saveCellStateCookie(toggleOn ? "1" : "0");
+			window.localStorage.setItem("cellState", toggleOn ? "1" : "0");
 		});
 	}
 
