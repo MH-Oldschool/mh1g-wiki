@@ -1075,21 +1075,21 @@
 		},
 		{"name":"Old Pickaxe","class":"gray-icon pick-icon",
 			"ingredients":[
-				{"name":"Stone","class":"gray-icon pick-icon"},
+				{"name":"Stone","class":"gray-icon stone-icon"},
 				{"name":"Bone","class":"white-icon bone-icon"}
 			],
 			"percent":95
 		},
 		{"name":"Iron Pickaxe","class":"white-icon pick-icon",
 			"ingredients":[
-				{"name":"Iron Ore","class":"gray-icon pick-icon"},
+				{"name":"Iron Ore","class":"gray-icon stone-icon"},
 				{"name":"Bone","class":"white-icon bone-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Mega Pickaxe","class":"yellow-icon pick-icon",
 			"ingredients":[
-				{"name":"Machalite Ore","class":"blue-icon pick-icon"},
+				{"name":"Machalite Ore","class":"blue-icon stone-icon"},
 				{"name":"Bone","class":"white-icon bone-icon"}
 			],
 			"percent":95
