@@ -84,9 +84,9 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
+							"rowClass":"thunder-element rare-1-4 rare-g-3",
 							"name":"<b>Eager Cleaver</b>","branchBend":true,
-							"rare":3,
+							"rare1":4,"rareG":3,
 							"damage":720,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":460,
 							"sharpness":"sharpness_gs/eager_cleaver",

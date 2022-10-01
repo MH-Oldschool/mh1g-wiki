@@ -84,7 +84,13 @@
 							{{#branch}}</button>{{/branch}}
 							{{#gBranch}}</button>{{/gBranch}}
 						</td>
-						<td>{{rare}}</td>
+						<td>
+							{{rare}}
+							{{^rare}}
+								<span class="mh1">{{rare1}}</span>
+								<span class="mhg">{{rareG}}</span>
+							{{/rare}}
+						</td>
 						<td>
 							{{damage}}
 							{{#baseDamage}}<span class="mh1">{{baseDamage}}</span>{{/baseDamage}}
