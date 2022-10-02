@@ -3572,11 +3572,11 @@
 			]
 		},
 		{
-			"class":"sleep-status",
+			"class":"sleep-pre",
 			"group":"Lullaby Spear",
 			"tbody":[
 				{
-					"bodyClass":"sleep-status",
+					"bodyClass":"sleep-pre",
 					"weapons":[
 						{
 							"rowClass":"sleep-status",
@@ -4210,7 +4210,7 @@
 					"bodyId":"dark","bodyClass":"branch g-rank indent-2 paralysis-pre",
 					"weapons":[
 						{
-							"bodyClass":"rare-6 paralysis-status",
+							"rowClass":"rare-6 paralysis-status",
 							"name":"Dark","gOnly":true,"branchBend":true,
 							"rare":6,
 							"damage":437,
