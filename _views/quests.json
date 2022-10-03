@@ -393,7 +393,7 @@
 						"note":""
 					},
 					{
-						"name":"Mushroom Delivery!","hrp":0,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"Mushroom Delivery!","icon":"white-icon mushroom-icon","hrp":0,"type":"gather","monster":"Gypceros","area":"Jungle",
 						"goal":"Deliver 10 Special Mushrooms","reward":"400z","fee":"200z","time":"40′","penalty":"140z",
 						"client":"The Lady Gourmet","details":"I have a dog and his favorite food are mushrooms. I want you to look for 10 of those &#8220;Special Mushrooms&#8221;. Yeah, for my cute dog!",
 						"supplies":[
@@ -410,7 +410,7 @@
 						"note":"{only JP}, only offline quest with Gypceros in JP ver"
 					},
 					{
-						"name":"Bring Me Eggs!","hrp":0,"type":"gather","area":"Desert",
+						"name":"Bring Me Eggs!","icon":"white-icon egg-icon","hrp":0,"type":"gather","area":"Desert",
 						"goal":"Deliver 3 Herbivore Eggs","reward":"1500z","fee":"200z","time":"50′","penalty":"500z",
 						"client":"Requestor: The Lady Gourmet","details":"I search the world for new tastes and flavors. Now I want to try Apceros eggs. Let's start with 3. Thanks in advance!",
 						"supplies":[
@@ -428,7 +428,7 @@
 						"note":""
 					},
 					{
-						"name":"Find the Wyvern Eggs!","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Find the Wyvern Eggs!","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 2 Wyvern Eggs","reward":"800z","fee":"200z","time":"30′","penalty":"300z",
 						"client":"Requestor: Local Doctor","details":"One of the village people has fallen ill. With 2 Wyvern Eggs I could make a remedy. Please get me 2 eggs from a wyvern's nest!",
 						"supplies":[
@@ -462,7 +462,7 @@
 						"note":"[JP: Hornetaur Wing reward instead of Vespoid Shell]"
 					},
 					{
-						"name":"Slay the Velociprey Pack!","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Slay the Velociprey Pack!","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 20 Velociprey","reward":"500z","fee":"200z","time":"20′","penalty":"170z",
 						"client":"Requestor: Proud Farmer","details":"I had you kill those 10 Velociprey, but now they're back! There's 20 of them this time. Please take care of it for me, hunter!",
 						"supplies":[
@@ -479,7 +479,7 @@
 						"note":""
 					},
 					{
-						"name":"Velocidrome Redux!","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Velocidrome Redux!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 2 Velocidrome","reward":"600z","fee":"220z","time":"30′","penalty":"200z",
 						"client":"Requestor: Young Guardsman","details":"Another Velocidrome has shown up. Please take care of it for me. Wyverns have also been sighted nearby, so be very careful.",
 						"supplies":[
@@ -497,7 +497,7 @@
 						"intOnly": true
 					},
 					{
-						"name":"Slay the Genprey!","hrp":0,"type":"hunt","area":"Desert",
+						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":0,"type":"hunt","area":"Desert",
 						"goal":"Slay 15 Genprey","reward":"500z","fee":"250z","time":"40′","penalty":"170z",
 						"client":"Requestor: Gold Dealer","details":"I've been seeing a lot of Genprey these days. They're just waiting to attack us. It's a pack of 20. Hunt them down!|[US:]Requestor: Injured Soldier I'm too injured to go on. I'd like you to find and kill 20 Genprey in the swamp for me. Watch out, they can paralyze you...!",
 						"supplies":[
@@ -515,7 +515,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Slay the Genprey!","hrp":0,"type":"hunt","area":"Swamp",
+						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":0,"type":"hunt","area":"Swamp",
 						"goal":"Slay 20 Genprey","reward":"600z","fee":"200z","time":"50′","penalty":"200z",
 						"client":"Requestor: Gold Dealer","details":"I've been seeing a lot of Genprey these days. They're just waiting to attack us. It's a pack of 20. Hunt them down!|[US:]Requestor: Injured Soldier I'm too injured to go on. I'd like you to find and kill 20 Genprey in the swamp for me. Watch out, they can paralyze you...!",
 						"supplies":[
@@ -551,7 +551,7 @@
 						"intOnly": true
 					},
 					{
-						"name":"Slay the Gendrome!","hrp":0,"type":"hunt","area":"Desert",
+						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","area":"Desert",
 						"goal":"Slay 2 Gendrome","reward":"800z","fee":"220z","time":"50′","penalty":"300z",
 						"client":"Requestor: Ambitious Noble","details":"My caravans are being hit by Genprey. 2 Gendrome are leading the pack. Kill them and make the roads safe again for all!",
 						"supplies":[
@@ -569,7 +569,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Ioprey Hunting","hrp":0,"type":"hunt","monster":"Yian Kut-Ku","area":"Jungle",
+						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":0,"type":"hunt","monster":"Yian Kut-Ku","area":"Jungle",
 						"goal":"Slay 20 Ioprey","reward":"700z","fee":"220z","time":"50′","penalty":"250z",
 						"client":"Requestor: Mine Owner","details":"We encountered a huge Ioprey nest in a deep tunnel! We can't continue working unless you kill 20 of them for us!",
 						"supplies":[
@@ -587,7 +587,7 @@
 						"intOnly": true
 					},
 					{
-						"name":"Poisonous Fangs","hrp":0,"type":"hunt","area":"Jungle",
+						"name":"Poisonous Fangs","icon":"monster-icon monster-iodrome","hrp":0,"type":"hunt","area":"Jungle",
 						"goal":"Slay 2 Iodrome","reward":"800z","fee":"220z","time":"40′","penalty":"300z",
 						"client":"Wounded Soldier","details":"Iopreys are carnivorous red monsters with poison fangs. They repeatedly attacked the village as a pack. If you can defeat the two alpha monsters, we will be able to handle the pack.",
 						"supplies":[
@@ -604,7 +604,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Slay the Gypceros!","hrp":0,"type":"hunt","area":"Swamp",
+						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":0,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gypceros","reward":"1400z","fee":"300z","time":"50′","penalty":"500z",
 						"client":"Requestor: Guarded Merchant","details":"I saw a gigantic bird-like monster deep in the swamp! I can't do business with a thing like that in there! Please find it and kill it!",
 						"supplies":[
@@ -4439,7 +4439,7 @@
 				"stars": 1,
 				"quests":[
 					{
-						"name":"Basics: Finding Raw Meat","icon":"raw-icon meat-icon","type":"gather","area":"Forest and Hills",
+						"name":"Basics: Finding Raw Meat","icon":"red-icon meat-icon","type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 2 pcs Raw Meat","key":true,"reward":"50z","fee":"0z","time":"",
 						"client":"","details":"",
 						"penalty":"","supplies":[],
