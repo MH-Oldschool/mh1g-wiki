@@ -19,6 +19,12 @@
 
 <section class="filters">
 	<div class="filter-column">
+		<div class="filter-buttons mhg">
+			<h3 title="Choose which armor name suffix you prefer">Armor Suffixes</h3>
+			<input id="suffixes-a" name="suffix" type="radio" value="a"/><label for="suffixes-a" title="Monster Hunter Freedom 1 style">F1</label>
+			<input id="suffixes-b" name="suffix" type="radio" value="b" checked/><label for="suffixes-b" title="Monster Hunter Freedom 2 style">F2</label>
+		</div>
+
 		<div class="filter-buttons">
 			<h3>Gender:</h3>
 			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">All</label>
@@ -75,17 +81,17 @@
 				</label>
 			</div>
 		</div>
-	</div>
 
-	<div id="rank-filters" class="filter-column">
-		<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
-		<label for="low-rank-filter">Low Rank</label>
+		<div id="rank-filters" class="filter-column">
+			<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
+			<label for="low-rank-filter">Low Rank</label>
 
-		<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
-		<label for="high-rank-filter">High Rank</label>
+			<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
+			<label for="high-rank-filter">High Rank</label>
 
-		<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
-		<label for="g-rank-filter" class="mhg">G Rank</label>
+			<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
+			<label for="g-rank-filter" class="mhg">G Rank</label>
+		</div>
 	</div>
 
 	<button id="popup-show" class="mh1">See Skilled Armor Sets</button>

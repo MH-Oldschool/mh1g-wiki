@@ -3,6 +3,10 @@ body {
 	padding-right: 1.5rem;
 }
 
+.suffix-b { display: none; }
+.show-suffixes-b .suffix-a { display: none; }
+.show-suffixes-b .suffix-b { display: inline; }
+
 #rank-filters {
 	padding: 0.5rem 0;
 }
@@ -212,11 +216,4 @@ body.show-1 #armor-builder {
 #skill-set-popup td button {
 	background: transparent;
 	width: 100%;
-}
-
-/* Sm Desktop */
-@media screen and (min-width: 64rem) {
-	#rank-filters {
-		padding: 0 0.5rem;
-	}
 }

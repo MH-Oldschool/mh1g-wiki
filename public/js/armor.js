@@ -1,4 +1,26 @@
 ready(() => {
+	function showSuffixes(suffix) {
+		if (suffix == "a") {
+			document.body.classList.remove("show-suffixes-b");
+		}
+		else {
+			document.body.classList.add("show-suffixes-b");
+		}
+	}
+	function handleSuffixesChange(event) {
+		if (event.target.checked) {
+			showSuffixes(event.target.value);
+		}
+	}
+	var suffixesARadio = document.getElementById("suffixes-a");
+	var suffixesBRadio = document.getElementById("suffixes-b");
+	suffixesARadio.addEventListener("change", handleSuffixesChange);
+	suffixesBRadio.addEventListener("change", handleSuffixesChange);
+
+	if (suffixesBRadio.checked) {
+		showSuffixes("b");
+	}
+
 	var lowRankFilter = document.getElementById("low-rank-filter");
 	var highRankFilter = document.getElementById("high-rank-filter");
 	var gRankFilter = document.getElementById("g-rank-filter");
