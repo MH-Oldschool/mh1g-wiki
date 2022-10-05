@@ -10,6 +10,7 @@ ready(() => {
 	function handleSuffixesChange(event) {
 		if (event.target.checked) {
 			showSuffixes(event.target.value);
+			window.localStorage.setItem("suffixes", event.target.value);
 		}
 	}
 	var suffixesARadio = document.getElementById("suffixes-a");
@@ -17,7 +18,11 @@ ready(() => {
 	suffixesARadio.addEventListener("change", handleSuffixesChange);
 	suffixesBRadio.addEventListener("change", handleSuffixesChange);
 
-	if (suffixesBRadio.checked) {
+	var storedSuffixes = window.localStorage.getItem("suffixes");
+	if (storedSuffixes && storedSuffixes == "a") {
+		suffixesARadio.checked = true;
+	}
+	else if (suffixesBRadio.checked) {
 		showSuffixes("b");
 	}
 
