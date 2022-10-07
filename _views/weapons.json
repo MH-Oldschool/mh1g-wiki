@@ -2773,24 +2773,6 @@
 					"bodyClass":"atlas-hammers branch indent-1 g-rank poison-pre",
 					"weapons":[
 						{
-							"name":"Kut-Ku Pick","gOnly":true,
-							"branch":"venom-monster",
-							"rare":6,
-							"damage":988,
-							"sharpness":"sharpness_h/kut_ku_pick",
-							"price":"18,690",
-							"upgrade":[
-								{"n":"Bone","q":3},
-								{"n":"Splendid Beak","q":6},
-								{"n":"Monster Broth","q":10}
-							]
-						}
-					]
-				},
-				{
-					"bodyId":"venom-monster","bodyClass":"branch indent-2 g-rank poison-pre",
-					"weapons":[
-						{
 							"rowClass":"poison-status",
 							"name":"Venom Monster","gOnly":true,"branchBend":true,
 							"rare":6,
@@ -2808,6 +2790,23 @@
 				},
 				{
 					"bodyClass":"atlas-hammers branch indent-1 g-rank",
+					"weapons":[
+						{
+							"name":"Kut-Ku Pick","gOnly":true,"branchBend":true,
+							"rare":6,
+							"damage":988,
+							"sharpness":"sharpness_h/kut_ku_pick",
+							"price":"18,690",
+							"upgrade":[
+								{"n":"Bone","q":3},
+								{"n":"Splendid Beak","q":6},
+								{"n":"Monster Broth","q":10}
+							]
+						}
+					]
+				},
+				{
+					"bodyClass":"atlas-hammers branch indent-2 g-rank",
 					"weapons":[
 						{
 							"name":"Kut-Ku Pick+","gOnly":true,"branchBend":true,
