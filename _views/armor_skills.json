@@ -19,10 +19,10 @@
 		{
 			"name":"Attack Up",
 			"stages":[
-				"Attack Up [S]",
-				"Attack Up [L]"
+				"Attack Up [S]<span class='details'> (+3)</span>",
+				"Attack Up [L]<span class='details'> (+5)</span>"
 			],
-			"desc":"The hunter&#8217;s familiarity with their weapon enables them to utilize it more effectively, increasing their attack."
+			"desc":"The hunter&#8217;s familiarity with their weapon enables them to utilize it more effectively, increasing their attack.<span class='details'> Adds the amount in parentheses to the weapon&#8217;s true damage value before its bloat value.</span>"
 		},
 		{
 			"name":"Auto-Map",
@@ -89,7 +89,7 @@
 		{
 			"name": "Hunger",
 			"stages":[
-				"Hunger x 1.5<span class='details'> (2x)</span>",
+				"Hunger x 1.5<span class='details'> (actually 2x)</span>",
 				"Hunger Halved",
 				"Hunger Negated"
 			],
