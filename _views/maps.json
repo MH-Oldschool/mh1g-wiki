@@ -1,0 +1,47 @@
+{
+	"title": "Monster Hunter Wiki",
+	"description": "Maps for every locale.",
+	"subtitle": "<p></p>",
+	"head": "<link href=\"css/maps.css\" rel=\"stylesheet\" type=\"text/css\"/>",
+	"onMaps": true,
+	"gToggle": true,
+	"maps":[
+		{
+			"name":"Forest & Hills",
+			"image":"forest",
+			"icons":[
+			]
+		},
+		{
+			"name":"Jungle",
+			"image":"jungle",
+			"icons":[
+			]
+		},
+		{
+			"name":"Desert",
+			"image":"desert",
+			"icons":[]
+		},
+		{
+			"name":"Swamp",
+			"image":"swamp",
+			"icons":[]
+		},
+		{
+			"name":"Volcano",
+			"image":"volcano",
+			"icons":[]
+		},
+		{
+			"name":"The Fort",
+			"image":"fort",
+			"icons":[]
+		},
+		{
+			"name":"Castle Schrade",
+			"image":"schrade",
+			"icons":[]
+		}
+	]
+}

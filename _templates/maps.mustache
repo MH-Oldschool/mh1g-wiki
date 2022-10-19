@@ -1,0 +1,17 @@
+{{> head}}
+
+{{#maps}}
+	<div class="map">
+		<h3>{{name}}</h3>
+
+		<div class="map-container">
+			<img src="/images/maps/{{image}}.gif"/>
+
+			{{#icons}}
+				<div class="gathering-point {{class}}" style="left:{{x}}%;top:{{y}}%" title="{{name}}" alt="{{name}}"></div>
+			{{/icons}}
+		</div>
+	</div>
+{{/maps}}
+
+{{> foot}}
