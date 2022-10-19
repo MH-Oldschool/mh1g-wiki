@@ -87,6 +87,31 @@
 	line-height: 1.4;
 }
 
+.hitzones-table {
+	width: auto;
+}
+.hitzones-table thead {
+	position: static;
+}
+.hitzones-table thead th {
+	text-align: center;
+	padding: 0.125rem;
+}
+.hitzones-table th:first-child {
+	text-align: left;
+}
+.hitzones-table td {
+	text-align: right;
+}
+.hitzones-table th span,
+.hitzones-table th img {
+	vertical-align: middle;
+}
+.hitzones-table th span {
+	text-align: left;
+	margin: 0;
+}
+
 .monster-icon-container {
 	position: relative;
 	box-sizing: border-box;
@@ -98,21 +123,6 @@
 	width: 7.1875rem;
 	height: 7.1875rem;
 }
-/*
-.monster-icon:before {
-	position: absolute;
-	content: "";
-	background: rgba(0,0,0,0.25);
-	border-radius: 100%;
-	box-shadow: 0 0 2rem rgba(0,0,0,0.6);
-	margin: -1.5rem auto 0;
-	width: 3rem;
-	height: 3rem;
-	top: 50%;
-	left: 0;
-	right: 0;
-}
-*/
 
 .monster-container {
 	padding: 0.25rem 2rem 0;

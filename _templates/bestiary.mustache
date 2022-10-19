@@ -28,6 +28,60 @@
 						<li class="mhg-only">{{&.}}</li>
 					{{/mhgNotes}}
 				</ul>
+
+				<details>
+					<summary>Weapon and Element Effectiveness (in %)</summary>
+
+					<table class="mh1 hitzones-table">
+						<thead>
+							<tr>
+								<th><span class="yellow-icon creature-icon" title="Body Part">Body Part</span></th>
+								<th><span class="white-icon gs-icon" title="Cutting">Cutting</span></th>
+								<th><span class="white-icon hammer-icon" title="Blunt">Blunt</span></th>
+								<th><span class="white-icon shot-icon" title="Shot">Shot</span></th>
+								<th><img class="attribute-icon" src="images/attributes/fire.png" alt="Fire" title="Fire"/></th>
+								<th><img class="attribute-icon" src="images/attributes/water.png" alt="Water" title="Water"/></th>
+								<th><img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder" title="Thunder"/></th>
+								<th><img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon" title="Dragon"/></th>
+							</tr>
+						</thead>
+						<tbody>
+							{{#hitzones1}}
+								<tr>
+									<th>{{name}}</th>
+									{{#zones}}
+										<td>{{.}}</td>
+									{{/zones}}
+								</tr>
+							{{/hitzones1}}
+						</tbody>
+					</table>
+
+					<table class="mhg hitzones-table">
+						<thead>
+							<tr>
+								<th><span class="yellow-icon creature-icon" title="Body Part">Body Part</span></th>
+								<th><span class="white-icon gs-icon" title="Cutting">Cutting</span></th>
+								<th><span class="white-icon hammer-icon" title="Blunt">Blunt</span></th>
+								<th><span class="white-icon shot-icon" title="Shot">Shot</span></th>
+								<th><img class="attribute-icon" src="images/attributes/fire.png" alt="Fire" title="Fire"/></th>
+								<th><img class="attribute-icon" src="images/attributes/water.png" alt="Water" title="Water"/></th>
+								<th><img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder" title="Thunder"/></th>
+								<th><img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon" title="Dragon"/></th>
+							</tr>
+						</thead>
+						<tbody>
+							{{#hitzonesg}}
+								<tr>
+									<th{{{zone_cell_attributes}}}>{{name}}</th>
+									{{#zones}}
+										<td>{{.}}</td>
+									{{/zones}}
+								</tr>
+							{{/hitzonesg}}
+						</tbody>
+					</table>
+				</details>
 			</aside>
 		</section>
 	</details>

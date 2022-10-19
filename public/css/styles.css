@@ -363,10 +363,12 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 /* Colored Icons */
 .pink-icon, .red-icon, .orange-icon, .yellow-icon, .green-icon,
 .cyan-icon, .blue-icon, .purple-icon, .white-icon, .gray-icon, .brown-icon {
+	overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
 	background-repeat: no-repeat;
 	background-size: 16rem;
+	text-indent: -999em;
 	margin-right: 0.125rem;
 	width: 2rem;
 	height: 2rem;

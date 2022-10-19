@@ -11,6 +11,12 @@
 			"description": "Wild pigs covered in moss and fungus. Sometimes you will even find mushrooms growing on them. Their meat is known as a delicacy. Though normally docile, they will charge you if angered!",
 			"icon": "mosswine",
 			"image": "mosswine",
+			"hitzones1":[
+				{"name":"Body","zones":[150,150,120,100,100,100,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[150,150,120,100,100,100,10]}
+			],
 			"notes": [
 				"Found in forests and jungles.",
 				"Their excellent sense of smell attunes them to even the most hidden mushroom patches."
@@ -21,6 +27,12 @@
 			"description": "A large wild boar. Foul tempered, they will charge hunters on sight. Aggressive and powerful, so beware! Often hunted for their meat, which many hunters find delicious.",
 			"icon": "bullfango",
 			"image": "bullfango",
+			"hitzones1":[
+				{"name":"Body","zones":[100,100,160,50,50,100,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[100,100,160,50,50,100,10]}
+			],
 			"notes": [
 				"Found in all climates except deserts.",
 				"Often found in groups, seldom alone. Even a small sounder of Bullfango can quickly overwhelm an unwary hunter."
@@ -31,6 +43,12 @@
 			"description": "A herbivorous, deer-like monster. Valued for their horns, they run away at the first hint of danger. Hunted for their chewy but flavorful meat.",
 			"icon": "kelbi",
 			"image": "kelbi",
+			"hitzones1":[
+				{"name":"Body","zones":[140,140,150,100,100,100,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[140,140,150,100,100,100,10]}
+			],
 			"notes": [
 				"Found in forests and swamps.",
 				"Both the males and females have horns."
@@ -41,6 +59,12 @@
 			"description": "Hunted as a food source, these creatures are preyed upon by both hunter and monster alike. Usually timid, but in packs they defend themselves with surprising strength.",
 			"icon": "aptonoth",
 			"image": "aptonoth",
+			"hitzones1":[
+				{"name":"Body","zones":[110,110,110,50,50,50,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[110,110,110,50,50,50,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"The arrival of a large monster is enough to make the entire herd flee."
@@ -51,6 +75,14 @@
 			"description": "Hunted for their meat, which is buried under a thick, armored hide. Aggressive, hunting them can be a challenge. Its eggs are a valuable guild commodity.",
 			"icon": "apceros",
 			"image": "apceros",
+			"hitzones1":[
+				{"name":"Head","zones":[80,100,90,40,100,40,10]},
+				{"name":"Body","zones":[70,100,70,40,100,40,10]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[80,100,90,40,100,40,10]},
+				{"name":"Neck (body?)","zones":[70,100,70,40,100,40,10]}
+			],
 			"notes": [
 				"Found in deserts and volcanoes.",
 				"Unlike the Aptonoth, Apceros will not flee from even the most fearsome large monsters."
@@ -61,6 +93,12 @@
 			"description": "Cat-like humanoids with white fur. Normally quiet unless angered, in which case they attack. Capable of speech. Found in the employ of humans.",
 			"icon": "felyne",
 			"image": "felyne",
+			"hitzones1":[
+				{"name":"Body","zones":[120,120,120,100,100,100,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[120,120,120,100,100,100,10]}
+			],
 			"notes": [
 				"Found in all regions.",
 				"Often seen in the company of Melynxes, they will fiercely defend their Felyne comrades when attacked."
@@ -71,6 +109,12 @@
 			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won&#8217;t pass up a chance to steal and take it to their village. Distracted by Felvine.",
 			"icon": "melynx",
 			"image": "melynx",
+			"hitzones1":[
+				{"name":"Body","zones":[110,100,100,100,100,100,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[100,100,100,50,50,50,10]}
+			],
 			"notes": [
 				"Found in all regions.",
 				"Often seen in the company of common Felynes, who will fiercely defend them when attacked."
@@ -81,6 +125,12 @@
 			"description": "Aggressive, carnivorous monsters that travel in packs. Even master hunters should avoid getting surrounded! Wide ranging, they are found in many different climates.",
 			"icon": "velociprey",
 			"image": "velociprey",
+			"hitzones1":[
+				{"name":"Body","zones":[120,120,120,50,50,50,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[110,100,100,100,100,100,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Can leap great distances, but are easily cut down."
@@ -91,6 +141,9 @@
 			"description": "A species very similar to, and often found in the company of, Velociprey. Their white skin is beautiful, but their temperament is not. Much like their blue cousins, they attack in deadly packs.",
 			"icon": "giaprey",
 			"image": "giaprey",
+			"hitzonesg":[
+				{"name":"Body","zones":[120,120,120,50,50,50,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Can leap great distances, but are easily cut down."
@@ -102,6 +155,12 @@
 			"description": "The alpha monster that leads a Velociprey pack. Larger and with a more prominent crest. Highly territorial, but will retreat to a safe place when injured.",
 			"icon": "velocidrome",
 			"image": "velocidrome",
+			"hitzones1":[
+				{"name":"Body","zones":[100,100,100,50,50,50,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[120,120,120,50,50,50,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Will often hang back while its pack attacks."
@@ -112,6 +171,12 @@
 			"description": "Subspecies of Velociprey mainly found in deserts. They travel in packs. Their large fangs and claws contain a neurotoxin that is used to stun and paralyze prey.",
 			"icon": "genprey",
 			"image": "genprey",
+			"hitzones1":[
+				{"name":"Body","zones":[100,100,100,40,40,40,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[100,100,100,30,60,20,0]}
+			],
 			"notes": [
 				"Found in deserts and swamps.",
 				"Can leap great distances, but are easily cut down."
@@ -122,6 +187,12 @@
 			"description": "The alpha monster that leads a Genprey pack. They are larger and have a more prominent crest. Found in the desert. They can paralyze prey using their toxic fangs and claws.",
 			"icon": "gendrome",
 			"image": "gendrome",
+			"hitzones1":[
+				{"name":"Body","zones":[90,90,90,40,40,40,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[90,90,90,40,40,40,10]}
+			],
 			"notes": [
 				"Found in deserts and swamps.",
 				"Will often hang back while its pack attacks."
@@ -132,6 +203,12 @@
 			"description": "A subspecies of Velociprey often found in subtropical zones. Sacs in their throat contain a powerful poison that slowly drains the Health of their prey.",
 			"icon": "ioprey",
 			"image": "ioprey",
+			"hitzones1":[
+				{"name":"Body","zones":[90,90,90,35,35,35,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[90,90,90,20,30,50,0]}
+			],
 			"notes": [
 				"Found in jungles, swamps, and volcanoes.",
 				"Can leap great distances, but are easily cut down."
@@ -142,6 +219,12 @@
 			"description": "Alpha monster of an Ioprey pack. Larger and with a more prominent crest. Found in tropical zones. Their poison saps the life force of its prey.",
 			"icon": "iodrome",
 			"image": "iodrome",
+			"hitzones1":[
+				{"name":"Body","zones":[80,80,80,30,30,30,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[80,80,80,30,30,30,10]}
+			],
 			"notes": [
 				"Found in jungles, swamps, and volcanoes.",
 				"Will often hang back while its pack attacks."
@@ -152,6 +235,24 @@
 			"description": "Male wyvern that keeps a nest and patrols its territory from the air in search of prey. Its claws are filled with poison that weakens its prey.",
 			"icon": "rathalos",
 			"image": "rathalos",
+			"hitzones1":[
+				{"name":"Head","zones":[80,70,70,0,30,30,70]},
+				{"name":"Neck","zones":[50,50,40,0,20,25,50]},
+				{"name":"Back","zones":[25,30,40,0,10,25,50]},
+				{"name":"Stomach","zones":[45,40,90,0,15,30,60]},
+				{"name":"Tail","zones":[30,30,30,0,10,20,30]},
+				{"name":"Wing","zones":[25,20,30,0,30,25,40]},
+				{"name":"Foot","zones":[45,40,65,0,20,20,50]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[80,70,70,0,30,15,30]},
+				{"name":"Neck","zones":[50,50,40,0,20,10,20]},
+				{"name":"Back","zones":[25,30,40,0,20,15,20]},
+				{"name":"Stomach","zones":[45,40,90,0,15,15,10]},
+				{"name":"Tail","zones":[30,30,30,0,10,5,20]},
+				{"name":"Wing","zones":[25,20,30,0,30,15,20]},
+				{"name":"Foot","zones":[45,50,45,0,10,5,5]}
+			],
 			"notes": [
 				"Found in forests<span class='base-only'> and swamps.</span><span class='g-only'>, swamps, and volcanoes.</span>",
 				"Often takes flight to thwart hunters."
@@ -162,6 +263,15 @@
 			"description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousin, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape.",
 			"icon": "azure-rathalos",
 			"image": "azure_rathalos",
+			"hitzonesg":[
+				{"name":"Head","zones":[80,70,70,0,15,15,30]},
+				{"name":"Neck","zones":[50,50,40,0,10,10,20]},
+				{"name":"Back","zones":[20,25,30,0,15,15,20]},
+				{"name":"Stomach","zones":[45,40,90,0,15,15,10]},
+				{"name":"Tail","zones":[25,25,25,0,5,5,20]},
+				{"name":"Wing","zones":[20,15,25,0,15,15,20]},
+				{"name":"Foot","zones":[45,40,65,0,5,5,5]}
+			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Often takes flight to thwart hunters."
@@ -173,6 +283,15 @@
 			"description": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen.",
 			"icon": "silver-rathalos",
 			"image": "silver_rathalos",
+			"hitzonesg":[
+				{"name":"Head","zones":[25,80,25,0,30,30,0]},
+				{"name":"Neck","zones":[35,55,40,0,20,20,0]},
+				{"name":"Back","zones":[20,25,40,0,20,20,0]},
+				{"name":"Stomach","zones":[35,45,50,0,15,15,0]},
+				{"name":"Tail","zones":[25,25,70,0,10,10,0]},
+				{"name":"Wing","zones":[80,20,30,0,30,30,0]},
+				{"name":"Foot","zones":[25,40,50,0,10,10,0]}
+			],
 			"notes": [
 				"Found in forests and swamps.",
 				"Often takes flight to thwart hunters."
@@ -184,6 +303,24 @@
 			"description": "Female wyvern to the male Rathalos. Unlike its male counterpart, it usually patrols its territory by foot. Its tail spikes are filled with poison.",
 			"icon": "rathian",
 			"image": "rathian",
+			"hitzones1":[
+				{"name":"Head","zones":[90,80,80,0,50,20,70]},
+				{"name":"Neck","zones":[50,40,50,0,40,15,50]},
+				{"name":"Back","zones":[25,30,40,0,40,15,50]},
+				{"name":"Stomach","zones":[60,55,100,0,30,20,60]},
+				{"name":"Tail","zones":[30,30,30,0,20,10,30]},
+				{"name":"Wing","zones":[25,20,30,0,60,15,40]},
+				{"name":"Foot","zones":[55,50,55,0,30,10,50]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[90,80,70,0,15,20,35]},
+				{"name":"Neck","zones":[50,40,40,0,10,15,20]},
+				{"name":"Back","zones":[25,30,30,0,10,15,25]},
+				{"name":"Stomach","zones":[60,55,90,0,5,20,10]},
+				{"name":"Tail","zones":[30,30,25,0,5,10,25]},
+				{"name":"Wing","zones":[25,20,25,0,10,15,20]},
+				{"name":"Foot","zones":[45,40,50,0,5,10,5]}
+			],
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -194,6 +331,15 @@
 			"description": "A subspecies of Rathian with vibrant pink scales. Pink Rathian wield their toxic tails more skillfully than normal Rathian, using a wide variety of attacks to weaken their prey before eventually moving in for the kill.",
 			"icon": "pink-rathian",
 			"image": "pink_rathian",
+			"hitzonesg":[
+				{"name":"Head","zones":[90,80,70,0,15,20,35]},
+				{"name":"Neck","zones":[50,40,40,0,10,15,20]},
+				{"name":"Back","zones":[20,25,30,0,10,15,25]},
+				{"name":"Stomach","zones":[60,55,90,0,5,20,10]},
+				{"name":"Tail","zones":[25,25,20,0,5,10,25]},
+				{"name":"Wing","zones":[20,15,20,0,10,15,20]},
+				{"name":"Foot","zones":[55,50,50,0,5,10,5]}
+			],
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -205,6 +351,15 @@
 			"description": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen.",
 			"icon": "gold-rathian",
 			"image": "gold_rathian",
+			"hitzonesg":[
+				{"name":"Head","zones":[25,80,40,0,15,30,0]},
+				{"name":"Neck","zones":[35,50,40,0,10,20,0]},
+				{"name":"Back","zones":[20,25,40,0,10,20,0]},
+				{"name":"Stomach","zones":[35,45,20,0,5,15,0]},
+				{"name":"Tail","zones":[25,25,60,0,5,10,0]},
+				{"name":"Wing","zones":[80,20,20,0,10,30,0]},
+				{"name":"Foot","zones":[25,40,50,0,5,10,0]}
+			],
 			"notes": [
 				"Found in the jungle and swamp.",
 				"When enraged, she will charge several times before stumbling."
@@ -216,6 +371,24 @@
 			"description": "A bird-like wyvern with a huge beak and large ears. With its sensitive hearing it dislikes loud noises. Smaller but faster than other wyverns.",
 			"icon": "yian-kut-ku",
 			"image": "yian_kut_ku",
+			"hitzones1":[
+				{"name":"Head","zones":[50,80,100,20,60,30,5]},
+				{"name":"Neck","zones":[50,60,50,10,100,50,20]},
+				{"name":"Back","zones":[40,50,40,20,30,15,5]},
+				{"name":"Stomach","zones":[80,70,80,25,40,20,5]},
+				{"name":"Tail","zones":[50,60,30,20,30,15,5]},
+				{"name":"Wing","zones":[75,70,70,25,70,35,5]},
+				{"name":"Foot","zones":[25,30,50,15,10,5,5]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[50,80,100,10,40,30,0]},
+				{"name":"Neck","zones":[50,60,50,10,100,50,20]},
+				{"name":"Back","zones":[40,50,40,10,25,15,0]},
+				{"name":"Stomach","zones":[80,70,80,10,25,15,0]},
+				{"name":"Tail","zones":[50,60,30,10,25,15,0]},
+				{"name":"Wing","zones":[75,70,70,10,20,25,0]},
+				{"name":"Foot","zones":[25,30,30,5,10,5,0]}
+			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Can launch fireballs a short distance."
@@ -226,6 +399,15 @@
 			"description": "A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength.",
 			"icon": "blue-kut-ku",
 			"image": "blue_yian_kut_ku",
+			"hitzonesg":[
+				{"name":"Head","zones":[50,80,100,10,40,30,0]},
+				{"name":"Neck","zones":[50,60,50,10,100,50,20]},
+				{"name":"Back","zones":[40,50,40,10,25,15,0]},
+				{"name":"Stomach","zones":[80,70,80,10,25,15,0]},
+				{"name":"Tail","zones":[50,60,30,10,25,15,0]},
+				{"name":"Wing","zones":[75,70,70,10,20,25,0]},
+				{"name":"Foot","zones":[25,30,30,5,10,5,0]}
+			],
 			"notes": [
 				"Found in forests and swamps.",
 				"Can launch fireballs a short distance."
@@ -237,6 +419,24 @@
 			"description": "A wyvern that can generate bright flashes of light with its prominent head crest. Its rubbery hide resists damage, and it can spit a poisonous substance.",
 			"icon": "gypceros",
 			"image": "gypceros",
+			"hitzones1":[
+				{"name":"Head","zones":[30,100,100,80,20,20,10]},
+				{"name":"Neck","zones":[50,25,50,40,10,10,10]},
+				{"name":"Back","zones":[70,30,20,30,10,10,10]},
+				{"name":"Stomach","zones":[80,30,20,30,10,10,10]},
+				{"name":"Tail","zones":[90,40,80,50,10,10,10]},
+				{"name":"Wing","zones":[50,30,30,50,20,20,10]},
+				{"name":"Foot","zones":[20,20,30,20,10,10,10]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[30,80,100,50,20,0,10]},
+				{"name":"Neck","zones":[50,25,50,30,10,0,10]},
+				{"name":"Back","zones":[70,30,20,20,10,0,10]},
+				{"name":"Stomach","zones":[80,30,20,30,10,0,10]},
+				{"name":"Tail","zones":[90,40,80,30,10,0,10]},
+				{"name":"Wing","zones":[50,30,30,30,20,0,10]},
+				{"name":"Foot","zones":[20,20,30,10,10,0,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -248,6 +448,15 @@
 			"description": "A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva.",
 			"icon": "purple-gypceros",
 			"image": "purple_gypceros",
+			"hitzonesg":[
+				{"name":"Head","zones":[30,80,100,50,20,0,10]},
+				{"name":"Neck","zones":[50,25,50,30,10,0,10]},
+				{"name":"Back","zones":[70,30,20,20,10,0,10]},
+				{"name":"Stomach","zones":[80,30,20,30,10,0,10]},
+				{"name":"Tail","zones":[90,40,80,30,10,0,10]},
+				{"name":"Wing","zones":[50,30,30,30,20,0,10]},
+				{"name":"Foot","zones":[20,20,30,10,10,0,10]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -260,6 +469,12 @@
 			"description": "Enormous, wasp-like insectoid with a stinger that stuns prey. There are rarely any usable materials left to harvest from them once killed.",
 			"icon": "vespoid",
 			"image": "vespoid",
+			"hitzones1":[
+				{"name":"Body","zones":[120,130,110,100,50,30,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[120,130,110,100,50,10,0]}
+			],
 			"notes": [
 				"Found in all regions.",
 				"Poison will instantly slay it, preserving its body for carving."
@@ -270,6 +485,12 @@
 			"description": "Vespoid-like monster with a thicker shell. Rarely any usable materials are left to harvest once they are killed. But if you could sap their Health gradually...",
 			"icon": "hornetaur",
 			"image": "hornetaur",
+			"hitzones1":[
+				{"name":"Body","zones":[100,120,100,100,50,30,10]}
+			],
+			"hitzonesg":[
+				{"name":"Body","zones":[100,120,100,100,20,60,0]}
+			],
 			"notes": [
 				"Found in jungles.",
 				"Commonly found in caves and dense underbrush."
@@ -280,6 +501,24 @@
 			"description": "Loathsome wyverns that live inside caves. Near blind, they detect their prey by smell. They are capable of generating electric shocks, which they use to paralyze their prey.",
 			"icon": "khezu",
 			"image": "khezu",
+			"hitzones1":[
+				{"name":"Head","zones":[45,60,90,55,20,0,5]},
+				{"name":"Neck","zones":[60,50,70,40,10,0,5]},
+				{"name":"Back","zones":[50,50,20,30,10,0,5]},
+				{"name":"Stomach","zones":[50,25,20,30,10,0,5]},
+				{"name":"Tail","zones":[20,20,30,10,5,0,5]},
+				{"name":"Wing","zones":[25,25,40,10,5,0,5]},
+				{"name":"Foot","zones":[25,20,30,10,5,0,5]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[45,60,90,40,5,0,5]},
+				{"name":"Neck","zones":[60,50,70,30,5,0,5]},
+				{"name":"Back","zones":[50,50,20,30,5,0,5]},
+				{"name":"Stomach","zones":[50,25,20,30,5,0,5]},
+				{"name":"Tail","zones":[20,20,30,20,5,0,5]},
+				{"name":"Wing","zones":[25,25,40,20,5,0,5]},
+				{"name":"Foot","zones":[25,20,30,15,5,0,5]}
+			],
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -290,6 +529,15 @@
 			"description": "A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey.",
 			"icon": "red-khezu",
 			"image": "red_khezu",
+			"hitzonesg":[
+				{"name":"Head","zones":[45,60,80,5,40,0,5]},
+				{"name":"Neck","zones":[60,50,70,5,30,0,5]},
+				{"name":"Back","zones":[50,50,20,5,30,0,5]},
+				{"name":"Stomach","zones":[50,25,20,5,30,0,5]},
+				{"name":"Tail","zones":[20,20,30,5,20,0,5]},
+				{"name":"Wing","zones":[25,25,40,5,20,0,5]},
+				{"name":"Foot","zones":[25,20,30,5,15,0,5]}
+			],
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -301,6 +549,24 @@
 			"description": "An enormous, flightless, aquatic wyvern with wings that have evolved into fins for swimming. Although superficially fish-like, they can move on land as well. They love frogs.",
 			"icon": "plesioth",
 			"image": "plesioth",
+			"hitzones1":[
+				{"name":"Head","zones":[30,30,60,50,0,50,5]},
+				{"name":"Neck","zones":[60,50,130,60,0,60,5]},
+				{"name":"Back","zones":[20,20,20,40,0,40,5]},
+				{"name":"Stomach","zones":[100,80,100,70,0,70,5]},
+				{"name":"Tail","zones":[50,40,60,60,0,60,5]},
+				{"name":"Wing","zones":[25,25,30,40,0,40,5]},
+				{"name":"Foot","zones":[50,40,30,60,0,60,5]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[30,30,60,25,0,25,5]},
+				{"name":"Neck","zones":[60,50,100,30,0,30,5]},
+				{"name":"Back","zones":[20,20,20,20,0,25,5]},
+				{"name":"Stomach","zones":[100,80,80,35,0,35,5]},
+				{"name":"Tail","zones":[50,40,60,30,0,30,5]},
+				{"name":"Wing","zones":[25,25,30,20,0,20,5]},
+				{"name":"Foot","zones":[50,40,30,10,0,10,5]}
+			],
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -312,6 +578,15 @@
 			"description": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature&#8217;s movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land.",
 			"icon": "green-plesioth",
 			"image": "green_plesioth",
+			"hitzonesg":[
+				{"name":"Head","zones":[40,50,60,0,10,15,5]},
+				{"name":"Neck","zones":[110,100,150,0,10,15,5]},
+				{"name":"Back","zones":[100,90,150,0,12,20,5]},
+				{"name":"Stomach","zones":[120,130,100,0,15,15,5]},
+				{"name":"Tail","zones":[60,50,60,0,10,10,5]},
+				{"name":"Wing","zones":[40,50,60,0,10,10,5]},
+				{"name":"Foot","zones":[35,30,35,0,15,10,5]}
+			],
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -324,6 +599,24 @@
 			"description": "Wyverns found only in the desert. They resemble a Plesioth, but live and &#8220;swim&#8221; in sand rather than water. They seldom appear above land, but when their hearing is disturbed...",
 			"icon": "cephalos",
 			"image": "cephalos",
+			"hitzones1":[
+				{"name":"Head","zones":[70,80,80,60,40,70,5]},
+				{"name":"Neck","zones":[110,100,140,60,40,70,5]},
+				{"name":"Back","zones":[130,140,150,60,40,70,5]},
+				{"name":"Stomach","zones":[90,100,150,60,40,70,5]},
+				{"name":"Tail","zones":[60,70,60,50,20,40,5]},
+				{"name":"Wing","zones":[70,60,60,50,30,40,5]},
+				{"name":"Foot","zones":[100,120,50,60,35,60,5]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[70,80,80,30,10,40,0]},
+				{"name":"Neck","zones":[110,100,140,30,10,40,0]},
+				{"name":"Back","zones":[130,140,150,30,15,40,0]},
+				{"name":"Stomach","zones":[90,100,150,30,20,40,0]},
+				{"name":"Tail","zones":[60,70,60,25,10,20,0]},
+				{"name":"Wing","zones":[70,60,60,25,10,20,0]},
+				{"name":"Foot","zones":[50,45,50,30,25,10,0]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Its liver is a delicacy that is highly sought after.",
@@ -335,6 +628,24 @@
 			"description": "The alpha monster form of the Cephalos. Larger and armored with black scales, they fit the appearance of a leader perfectly. Their fins hold a paralyzing toxin.",
 			"icon": "cephadrome",
 			"image": "cephadrome",
+			"hitzones1":[
+				{"name":"Head","zones":[40,50,60,50,30,40,5]},
+				{"name":"Neck","zones":[110,100,150,50,30,60,5]},
+				{"name":"Back","zones":[100,90,150,40,20,50,5]},
+				{"name":"Stomach","zones":[120,130,100,50,30,60,5]},
+				{"name":"Tail","zones":[60,50,60,30,25,40,5]},
+				{"name":"Wing","zones":[40,50,60,30,20,40,5]},
+				{"name":"Foot","zones":[60,50,50,50,30,60,5]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[40,50,60,0,10,15,5]},
+				{"name":"Neck","zones":[110,100,150,0,10,15,5]},
+				{"name":"Back","zones":[100,90,150,0,12,20,5]},
+				{"name":"Stomach","zones":[120,130,100,0,15,15,5]},
+				{"name":"Tail","zones":[60,50,60,0,10,10,5]},
+				{"name":"Wing","zones":[40,50,60,0,10,10,5]},
+				{"name":"Foot","zones":[35,30,35,0,15,10,5]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"They seem to resist all elements, especially fire."
@@ -345,6 +656,24 @@
 			"description": "Large-horned wyvern found in deserts. The giant horn makes their attacks very dangerous. Without breath attack. Their ear-splitting roar is the bane of hunters.",
 			"icon": "monoblos",
 			"image": "monoblos",
+			"hitzones1":[
+				{"name":"Head","zones":[20,25,60,20,30,20,15]},
+				{"name":"Neck","zones":[50,80,80,30,40,30,15]},
+				{"name":"Back","zones":[20,30,40,20,30,20,15]},
+				{"name":"Stomach","zones":[50,45,50,20,40,30,15]},
+				{"name":"Tail","zones":[80,60,120,35,45,40,15]},
+				{"name":"Wing","zones":[60,50,50,30,40,30,15]},
+				{"name":"Foot","zones":[40,45,50,30,30,20,15]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[35,20,50,5,30,20,0]},
+				{"name":"Neck","zones":[50,80,80,10,20,30,0]},
+				{"name":"Back","zones":[20,30,40,5,30,20,0]},
+				{"name":"Stomach","zones":[50,45,50,5,20,30,0]},
+				{"name":"Tail","zones":[80,60,120,10,20,25,0]},
+				{"name":"Wing","zones":[60,50,50,10,20,30,0]},
+				{"name":"Foot","zones":[40,45,50,20,10,20,0]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -356,6 +685,15 @@
 			"description": "A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon.",
 			"icon": "white-monoblos",
 			"image": "white_monoblos",
+			"hitzonesg":[
+				{"name":"Head","zones":[35,20,50,5,30,20,0]},
+				{"name":"Neck","zones":[50,80,80,10,20,30,0]},
+				{"name":"Back","zones":[20,30,40,5,30,20,0]},
+				{"name":"Stomach","zones":[50,45,50,5,20,30,0]},
+				{"name":"Tail","zones":[80,60,120,10,20,25,0]},
+				{"name":"Wing","zones":[60,50,50,10,20,30,0]},
+				{"name":"Foot","zones":[40,45,50,20,10,20,0]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -368,6 +706,24 @@
 			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It&#8217;s confirmed that they have a subspecies called Monoblos.",
 			"icon": "diablos",
 			"image": "diablos",
+			"hitzones1":[
+				{"name":"Head","zones":[25,30,40,20,30,20,15]},
+				{"name":"Neck","zones":[50,60,60,30,40,30,15]},
+				{"name":"Back","zones":[20,30,40,20,30,20,15]},
+				{"name":"Stomach","zones":[50,45,30,20,40,30,15]},
+				{"name":"Tail","zones":[60,50,100,35,45,40,15]},
+				{"name":"Wing","zones":[60,50,50,30,40,30,15]},
+				{"name":"Foot","zones":[30,35,40,30,30,20,15]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[35,10,35,0,40,15,15]},
+				{"name":"Neck","zones":[45,65,55,0,20,15,15]},
+				{"name":"Back","zones":[20,35,35,0,30,15,15]},
+				{"name":"Stomach","zones":[40,50,25,0,20,15,15]},
+				{"name":"Tail","zones":[60,55,85,0,20,15,15]},
+				{"name":"Wing","zones":[40,55,45,0,20,15,15]},
+				{"name":"Foot","zones":[30,35,35,0,10,15,15]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises."
@@ -381,6 +737,15 @@
 			"description": "These black-shelled Diablos are treated as a subspecies, but are actually just normal female Diablos in heat. The color change is a warning to other creatures, as they tend to become extremely aggressive during mating season.",
 			"icon": "black-diablos",
 			"image": "black_diablos",
+			"hitzonesg":[
+				{"name":"Head","zones":[35,10,35,0,40,15,15]},
+				{"name":"Neck","zones":[45,65,55,0,20,15,15]},
+				{"name":"Back","zones":[20,35,35,0,30,15,15]},
+				{"name":"Stomach","zones":[40,50,25,0,20,15,15]},
+				{"name":"Tail","zones":[60,55,85,0,20,15,15]},
+				{"name":"Wing","zones":[40,55,45,0,20,15,15]},
+				{"name":"Foot","zones":[30,35,35,0,10,15,15]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises.",
@@ -393,6 +758,25 @@
 			"description": "A large wyvern found in volcanic zones. It possesses a fiery breath-attack and can emit a sleeping gas. Their scales are extremely hard, deflecting most weapon attacks.",
 			"icon": "gravios",
 			"image": "gravios",
+			"hitzones1":[
+				{"name":"Head","zones":[20,30,20,0,15,5,50]},
+				{"name":"Neck","zones":[30,30,20,0,25,5,70]},
+				{"name":"Back","zones":[20,30,20,0,20,5,50]},
+				{"name":"Stomach","zones":[25,30,50,0,50,5,100]},
+				{"name":"Tail","zones":[25,30,20,0,25,5,70]},
+				{"name":"Wing","zones":[20,20,20,0,15,5,50]},
+				{"name":"Foot","zones":[20,25,20,0,15,5,70]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[20,30,20,0,15,5,40]},
+				{"name":"Neck","zones":[30,30,20,0,30,5,20]},
+				{"name":"Back","zones":[20,30,20,0,25,5,15]},
+				{"name":"Stomach","zones":[25,30,30,0,35,5,35]},
+				{"name":"Stomach (broken)","zones":[80,80,75,0,50,5,50]},
+				{"name":"Tail","zones":[25,30,20,0,30,5,20]},
+				{"name":"Wing","zones":[20,20,20,0,20,5,15]},
+				{"name":"Foot","zones":[15,25,20,0,30,5,10]}
+			],
 			"notes": [
 				"Found in swamps and volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -403,6 +787,16 @@
 			"description": "A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray.",
 			"icon": "black-gravios",
 			"image": "black_gravios",
+			"hitzonesg":[
+				{"name":"Head","zones":[20,30,20,0,15,5,0]},
+				{"name":"Neck","zones":[30,30,20,0,30,5,0]},
+				{"name":"Back","zones":[20,30,20,0,25,5,0]},
+				{"name":"Stomach","zones":[15,25,20,0,40,5,0]},
+				{"name":"Stomach (broken)","zones":[80,80,75,0,90,5,30]},
+				{"name":"Tail","zones":[25,30,20,0,30,5,0]},
+				{"name":"Wing","zones":[20,20,20,0,20,5,0]},
+				{"name":"Foot","zones":[15,25,20,0,30,5,0]}
+			],
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -414,6 +808,24 @@
 			"description": "A large wyvern found in volcanic zones. They are the juvenile form of the Gravios. They have a steel-like carapace that requires powerful weapons to crack. Emits poison gas.",
 			"icon": "basarios",
 			"image": "basarios",
+			"hitzones1":[
+				{"name":"Head","zones":[20,20,20,20,10,10,50]},
+				{"name":"Neck","zones":[20,20,20,20,10,10,50]},
+				{"name":"Back","zones":[20,20,20,20,10,10,50]},
+				{"name":"Stomach","zones":[25,25,50,30,10,10,50]},
+				{"name":"Tail","zones":[20,20,20,20,10,10,50]},
+				{"name":"Wing","zones":[20,20,20,20,10,10,50]},
+				{"name":"Foot","zones":[25,25,30,20,10,10,50]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[20,20,20,15,10,10,18]},
+				{"name":"Neck","zones":[20,20,20,15,10,10,18]},
+				{"name":"Back","zones":[20,20,20,15,10,10,18]},
+				{"name":"Stomach","zones":[25,25,50,20,10,10,18]},
+				{"name":"Tail","zones":[20,20,20,15,10,10,18]},
+				{"name":"Wing","zones":[20,20,20,15,10,10,18]},
+				{"name":"Foot","zones":[25,25,30,20,10,10,10]}
+			],
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger.",
@@ -425,6 +837,16 @@
 			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It&#8217;s apparently capable of calling forth lightning at will. Its material is very valuable.",
 			"icon": "unknown",
 			"image": "kirin",
+			"hitzones1":[
+				{"name":"Horn","zones":[90,100,80,5,5,0,5]},
+				{"name":"Head","zones":[45,40,60,15,15,0,5]},
+				{"name":"Body","zones":[20,25,20,10,10,0,5]}
+			],
+			"hitzonesg":[
+				{"name":"Horn","zones":[90,100,80,5,5,0,5]},
+				{"name":"Head","zones":[45,40,60,15,15,0,5]},
+				{"name":"Body","zones":[20,25,20,10,10,0,5]}
+			],
 			"notes": [
 				"Immune to paraylsis.",
 				"Perhaps due to its small size, it will not trigger monster traps."
@@ -436,6 +858,24 @@
 			"description": "A giant dragon few have seen and lived to tell the tale. When on a rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast. Will it hold?",
 			"icon": "unknown",
 			"image": "lao_shan_lung",
+			"hitzones1":[
+				{"name":"Head","zones":[28,20,30,20,5,15,20]},
+				{"name":"Neck","zones":[20,20,20,20,5,15,20]},
+				{"name":"Shoulder","zones":[10,20,20,20,5,15,20]},
+				{"name":"Spine","zones":[80,90,80,50,5,15,100]},
+				{"name":"Tail","zones":[10,20,20,20,5,15,20]},
+				{"name":"Stomach","zones":[55,50,40,20,5,15,40]},
+				{"name":"Foot","zones":[32,37,25,20,5,15,20]}
+			],
+			"hitzonesg":[
+				{"name":"Head","zones":[28,20,30,20,5,15,20]},
+				{"name":"Neck","zones":[20,20,20,20,5,15,20]},
+				{"name":"Shoulder","zones":[10,20,20,20,5,15,20]},
+				{"name":"Spine","zones":[80,90,80,50,5,15,100]},
+				{"name":"Tail","zones":[10,20,20,20,5,15,20]},
+				{"name":"Stomach","zones":[55,50,40,20,5,15,30]},
+				{"name":"Foot","zones":[32,37,25,20,5,15,20]}
+			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
 				"One swing of its mighty tail is enough to fell the strongest hunter."
@@ -447,6 +887,15 @@
 			"description": "A variant of Lao-Shan Lung that has been exposed to years of volcanic debris, discoloring and hardening its carapace.",
 			"icon": "unknown",
 			"image": "ashen_lao_shan_lung",
+			"hitzonesg":[
+				{"name":"Head","zones":[28,20,30,20,5,15,20]},
+				{"name":"Neck","zones":[20,20,20,20,5,15,20]},
+				{"name":"Shoulder","zones":[10,20,20,20,5,15,20]},
+				{"name":"Spine","zones":[80,90,80,50,5,15,100]},
+				{"name":"Tail","zones":[10,20,20,20,5,15,20]},
+				{"name":"Stomach","zones":[55,50,40,20,5,15,30]},
+				{"name":"Foot","zones":[32,37,25,20,5,15,20]}
+			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
 				"One swing of its mighty tail is enough to fell the strongest hunter."
@@ -459,6 +908,24 @@
 			"description": "A legendary black dragon said to have prowled these lands from the days of old. A monster shrouded in mystery...",
 			"icon": "unknown",
 			"image": "fatalis",
+			"hitzones1":[
+				{"name":"Face","zones":[80,60,60,30,5,5,100]},
+				{"name":"Head","zones":[50,40,30,20,5,5,80]},
+				{"name":"Neck","zones":[10,30,20,20,5,5,10]},
+				{"name":"Back & Tail","zones":[40,30,50,20,5,5,60]},
+				{"name":"Chest","zones":[10,15,20,20,5,5,10]},
+				{"name":"Wing","zones":[50,40,20,20,5,5,10]},
+				{"name":"Stomach & Foot","zones":[25,20,20,20,5,5,30]}
+			],
+			"hitzonesg":[
+				{"name":"Face","zones":[10,15,20,15,5,5,10]},
+				{"name":"Head","zones":[30,25,20,15,5,5,10]},
+				{"name":"Neck","zones":[20,20,20,15,5,5,20]},
+				{"name":"Back & Tail","zones":[0,0,0,0,0,0,0]},
+				{"name":"Chest","zones":[50,45,45,15,5,5,80]},
+				{"name":"Wing","zones":[30,25,30,15,5,5,50]},
+				{"name":"Stomach & Foot","zones":[10,20,20,15,5,5,10]}
+			],
 			"notes": [
 				"Only hunters of the greatest renown claim to have faced this dragon.",
 				"Rumored to be incensed by the slaying of many wyverns."
@@ -470,6 +937,23 @@
 			"description": "It is said that this is an especially old Fatalis whose scales have turned red from years of exposure to volcanic heat.",
 			"icon": "unknown",
 			"image": "crimson_fatalis",
+			"hitzonesg":[
+				{"name":"Face","zones":[10,15,20,15,5,5,10]},
+				{"name":"Head","zones":[30,25,20,15,5,5,10]},
+				{"name":"Neck","zones":[20,20,20,15,5,5,20]},
+				{"name":"Back & Tail","zones":[0,0,0,0,0,0,0]},
+				{"name":"Chest","zones":[10,10,10,10,5,5,10]},
+				{"name":"Wing","zones":[10,10,10,10,5,5,10]},
+				{"name":"Stomach & Foot","zones":[10,10,10,10,5,5,10]},
+				{"name":"Alternate mode of some kind?","zone_cell_attributes":" colspan=8"},
+				{"name":"Face","zones":[10,10,10,10,5,5,10]},
+				{"name":"Head","zones":[10,10,10,10,5,5,10]},
+				{"name":"Neck","zones":[10,10,10,10,5,5,10]},
+				{"name":"Back & Tail","zones":[10,10,10,10,5,5,10]},
+				{"name":"Chest","zones":[10,10,10,10,5,5,10]},
+				{"name":"Wing","zones":[10,10,10,10,5,5,10]},
+				{"name":"Stomach & Foot","zones":[10,10,10,10,5,5,10]}
+			],
 			"notes": [
 				"Only hunters of the greatest renown claim to have faced this dragon.",
 				"Rumored to be incensed by the slaying of many wyverns."
