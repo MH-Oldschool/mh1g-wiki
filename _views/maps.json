@@ -2,7 +2,7 @@
 	"title": "Monster Hunter Wiki",
 	"description": "Maps for every locale.",
 	"subtitle": "<p></p>",
-	"head": "<link href=\"css/maps.css\" rel=\"stylesheet\" type=\"text/css\"/>",
+	"head": "<link href=\"css/maps.css\" rel=\"stylesheet\" type=\"text/css\"/><script type=\"text/javascript\" src=\"js/maps.js\"></script>",
 	"onMaps": true,
 	"gToggle": true,
 	"maps":[
@@ -10,38 +10,316 @@
 			"name":"Forest & Hills",
 			"image":"forest",
 			"icons":[
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":45,"y":91},
+
+				{"name":"Dung","class":"brown-icon dung-icon","x":55,"y":88},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":61,"y":86},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":59,"y":83},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":60,"y":76},
+
+				{"name":"Berries","class":"pink-icon seed-icon","x":66,"y":67},
+				{"name":"Herbs","class":"green-icon herb-icon","x":72,"y":65},
+				{"name":"Plants","class":"white-icon herb-icon","x":67,"y":61},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":72,"y":56},
+
+				{"name":"Husks","class":"gray-icon bug-icon","x":81,"y":32},
+				{"name":"Herbs","class":"green-icon herb-icon","x":72,"y":22},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":68,"y":21},
+				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":65,"y":17},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":56,"y":34},
+				{"name":"Berries","class":"pink-icon seed-icon","x":53,"y":37},
+				{"name":"Husks","class":"gray-icon husk-icon","x":55,"y":42},
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":49,"y":43},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":59,"y":47},
+				{"name":"Eggs","class":"white-icon egg-icon","x":58,"y":53},
+				{"name":"Bones","class":"yellow-icon bone-icon","x":53,"y":49},
+				{"name":"Dung","class":"brown-icon dung-icon","x":50,"y":53},
+
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":50,"y":69},
+				{"name":"Plants","class":"white-icon herb-icon","x":51,"y":64},
+				{"name":"Web","class":"white-icon web-icon","x":52,"y":59},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":46,"y":60},
+				{"name":"Herbs","class":"green-icon herb-icon","x":45,"y":67},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":34,"y":59},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":30,"y":57},
+				{"name":"Web","class":"white-icon web-icon","x":27,"y":54},
+				{"name":"Plants","class":"white-icon herb-icon","x":28,"y":62},
+
+				{"name":"Honey","class":"orange-icon honey-icon","x":17,"y":64},
+				{"name":"Felvine","class":"yellow-icon herb-icon","x":23,"y":68},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":18,"y":70},
+				{"name":"Herbs","class":"green-icon herb-icon","x":22,"y":73},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":43,"y":45},
+				{"name":"Honey","class":"orange-icon honey-icon","x":34,"y":40},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":44,"y":35},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":41,"y":28},
+
+				{"name":"Herbs","class":"purple-icon herb-icon","x":32,"y":24},
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":26,"y":25},
+				{"name":"Herbs","class":"green-icon herb-icon","x":22,"y":32},
+				{"name":"Berries","class":"pink-icon seed-icon","x":30,"y":31},
+
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":16,"y":24},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":19,"y":20},
+				{"name":"Stones","class":"gray-icon stone-icon","x":14,"y":19},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":9,"y":17},
+				{"name":"Worms","class":"gray-icon bait-icon","x":13,"y":12},
+				{"name":"Bait","class":"green-icon bait-icon","x":18,"y":14},
+
+				{"name":"Web","class":"white-icon web-icon","x":24,"y":13},
+				{"name":"Felyne Cache","class":"red-icon barrel-icon","x":25,"y":16},
+				{"name":"Junk","class":"yellow-icon barrel-icon","x":24,"y":20},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":30,"y":16}
 			]
 		},
 		{
 			"name":"Jungle",
 			"image":"jungle",
 			"icons":[
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":13,"y":21},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":9,"y":27},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":14,"y":33},
+				{"name":"Berries","class":"pink-icon seed-icon","x":17,"y":37},
+
+				{"name":"Plants","class":"white-icon herb-icon","x":32,"y":18},
+				{"name":"Honey","class":"orange-icon honey-icon","x":30,"y":25},
+				{"name":"Bugnet","class":"white-icon bugnet-icon","x":34,"y":32},
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":31,"y":36},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":24,"y":37},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":22,"y":47},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":28,"y":48},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":29,"y":51},
+				{"name":"Husks","class":"gray-icon husk-icon","x":34,"y":47},
+				{"name":"Felvine","class":"yellow-icon herb-icon","x":34,"y":53},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":9,"y":53},
+				{"name":"Bait","class":"green-icon bait-icon","x":13,"y":56},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":16,"y":61},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":11,"y":63},
+
+				{"name":"Plants","class":"white-icon herb-icon","x":54,"y":10},
+				{"name":"Plants","class":"white-icon herb-icon","x":59,"y":11},
+				{"name":"Herbs","class":"green-icon herb-icon","x":55,"y":16},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":57,"y":24},
+
+				{"name":"Dung","class":"brown-icon dung-icon","x":20,"y":74},
+				{"name":"Web","class":"white-icon web-icon","x":15,"y":77},
+				{"name":"Eggs","class":"white-icon egg-icon","x":18,"y":82},
+
+				{"name":"Plants","class":"white-icon herb-icon","x":35,"y":61},
+				{"name":"Antidote Herbs","class":"blue-icon herb-icon","x":41,"y":59},
+				{"name":"Plants","class":"white-icon herb-icon","x":36,"y":67},
+				{"name":"Herbs","class":"green-icon herb-icon","x":41,"y":66},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":45,"y":71},
+
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":55,"y":75},
+				{"name":"Herbs","class":"purple-icon herb-icon","x":48,"y":77},
+				{"name":"Worms","class":"gray-icon bait-icon","x":53,"y":81},
+				{"name":"Herbs","class":"green-icon herb-icon","x":53,"y":88},
+
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":62,"y":56},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":58,"y":59},
+				{"name":"Herbs","class":"purple-icon herb-icon","x":56,"y":63},
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":62,"y":64},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":66,"y":61},
+
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":72,"y":48},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":73,"y":52},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":79,"y":50},
+				{"name":"Seeds","class":"red-icon seed-icon","x":85,"y":48},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":77,"y":57}
 			]
 		},
 		{
 			"name":"Desert",
 			"image":"desert",
-			"icons":[]
+			"icons":[
+				{"name":"Herbs","class":"green-icon herb-icon","x":82,"y":54},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":82,"y":48},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":87,"y":46},
+				{"name":"Berries","class":"pink-icon seed-icon","x":83,"y":42},
+
+				{"name":"Seeds","class":"gray-icon seed-icon","x":72,"y":82},
+				{"name":"Berries","class":"pink-icon seed-icon","x":54,"y":74},
+				{"name":"Plants","class":"red-icon herb-icon","x":74,"y":59},
+				{"name":"Plants","class":"red-icon herb-icon","x":53,"y":58},
+
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":57,"y":34},
+				{"name":"Plants","class":"red-icon herb-icon","x":54,"y":39},
+				{"name":"Herbs","class":"green-icon herb-icon","x":53,"y":32},
+				{"name":"Berries","class":"pink-icon seed-icon","x":49,"y":36},
+
+				{"name":"Seeds","class":"gray-icon seed-icon","x":68,"y":20},
+				{"name":"Herbs","class":"green-icon herb-icon","x":69,"y":14},
+				{"name":"Bait","class":"green-icon bait-icon","x":65,"y":16},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":60,"y":15},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":64,"y":7},
+
+				{"name":"Stones","class":"gray-icon stone-icon","x":45,"y":10},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":44,"y":15},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":39,"y":16},
+				{"name":"Seeds","class":"red-icon seed-icon","x":40,"y":10},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":35,"y":13},
+
+				{"name":"Ore Deposit","class":"yellow-icon pick-icon","x":47,"y":86},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":43,"y":90},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":39,"y":87},
+				{"name":"Plants","class":"red-icon herb-icon","x":42,"y":82},
+
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":34,"y":35},
+				{"name":"Plants","class":"red-icon herb-icon","x":22,"y":48},
+				{"name":"Plants","class":"pink-icon herb-icon","x":28,"y":39},
+				{"name":"Herbs","class":"green-icon herb-icon","x":21,"y":34},
+
+				{"name":"Seeds","class":"gray-icon seed-icon","x":15,"y":48},
+				{"name":"Dung","class":"brown-icon dung-icon","x":11,"y":44},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":10,"y":50},
+				{"name":"Eggs","class":"yellow-icon egg-icon","x":8,"y":47},
+
+				{"name":"Bones","class":"yellow-icon bone-icon","x":28,"y":23},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":24,"y":20},
+				{"name":"Plants","class":"pink-icon herb-icon","x":24,"y":24},
+				{"name":"Dung","class":"brown-icon dung-icon","x":23,"y":26},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":20,"y":24},
+
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":26,"y":7},
+				{"name":"Felvine","class":"yellow-icon herb-icon","x":21,"y":6},
+				{"name":"Stones","class":"gray-icon stone-icon","x":28,"y":15},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":21,"y":13},
+
+				{"name":"Junk","class":"yellow-icon barrel-icon","x":8,"y":8},
+				{"name":"Herbs","class":"green-icon herb-icon","x":8,"y":14},
+				{"name":"Stones","class":"gray-icon stone-icon","x":4,"y":13},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":2,"y":9}
+			]
 		},
 		{
 			"name":"Swamp",
 			"image":"swamp",
-			"icons":[]
+			"icons":[
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":89,"y":40},
+
+				{"name":"Mushrooms","class":"purple-icon mushroom-icon","x":73,"y":62},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":78,"y":62},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":77,"y":68},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":71,"y":67},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":68,"y":47},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":67,"y":53},
+
+				{"name":"Plants","class":"white-icon herb-icon","x":57,"y":31},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":54,"y":22},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":53,"y":28},
+				{"name":"Herbs","class":"green-icon herb-icon","x":48,"y":29},
+
+				{"name":"Web","class":"white-icon web-icon","x":59,"y":70},
+				{"name":"Plants","class":"purple-icon herb-icon","x":55,"y":65},
+				{"name":"Herbs","class":"green-icon herb-icon","x":49,"y":70},
+
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":49,"y":47},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":45,"y":43},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":42,"y":49},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":39,"y":43},
+
+				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":36,"y":21},
+				{"name":"Worms","class":"gray-icon bait-icon","x":35,"y":27},
+				{"name":"Mushrooms","class":"purple-icon mushroom-icon","x":29,"y":24},
+
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":43,"y":13},
+				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":38,"y":15},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":39,"y":6},
+				{"name":"Stones","class":"gray-icon stone-icon","x":35,"y":10},
+
+				{"name":"Worms","class":"gray-icon bait-icon","x":35,"y":83},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":30,"y":84},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":27,"y":88},
+				{"name":"Plants","class":"white-icon herb-icon","x":25,"y":81},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":28,"y":60},
+				{"name":"Felyne Cache","class":"red-icon barrel-icon","x":25,"y":63},
+				{"name":"Felvine","class":"yellow-icon herb-icon","x":29,"y":66},
+				{"name":"Plants","class":"purple-icon herb-icon","x":25,"y":68},
+
+				{"name":"Worms","class":"gray-icon bait-icon","x":30,"y":42},
+				{"name":"Mushrooms","class":"purple-icon mushroom-icon","x":29,"y":49},
+				{"name":"Plants","class":"cyan-icon herb-icon","x":21,"y":40},
+				{"name":"Herbs","class":"green-icon herb-icon","x":22,"y":49},
+
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":20,"y":27},
+				{"name":"Stones","class":"gray-icon stone-icon","x":19,"y":21},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":14,"y":22},
+				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":15,"y":31}
+			]
 		},
 		{
 			"name":"Volcano",
 			"image":"volcano",
-			"icons":[]
+			"icons":[
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":46,"y":88},
+
+				{"name":"Worms","class":"gray-icon bait-icon","x":72,"y":72},
+				{"name":"Stones","class":"gray-icon stone-icon","x":67,"y":70},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":62,"y":69},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":70,"y":64},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":37,"y":79},
+				{"name":"Stones","class":"gray-icon stone-icon","x":36,"y":73},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":34,"y":67},
+				{"name":"Stones","class":"gray-icon stone-icon","x":29,"y":70},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":28,"y":76},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":79,"y":50},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":80,"y":60},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":74,"y":57},
+				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":70,"y":52},
+
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":54,"y":58},
+				{"name":"Seeds","class":"orange-icon seed-icon","x":53,"y":53},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":47,"y":53},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":41,"y":55},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":46,"y":61},
+
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":61,"y":43},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":60,"y":35},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":55,"y":41},
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":54,"y":34},
+
+				{"name":"Herbs","class":"green-icon herb-icon","x":22,"y":39},
+				{"name":"Berries","class":"pink-icon seed-icon","x":30,"y":43},
+				{"name":"Plants","class":"red-icon herb-icon","x":21,"y":48},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":25,"y":52},
+
+				{"name":"Plants","class":"red-icon herb-icon","x":36,"y":18},
+				{"name":"Berries","class":"pink-icon seed-icon","x":44,"y":18},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":36,"y":26},
+				{"name":"Plants","class":"red-icon herb-icon","x":43,"y":29},
+
+				{"name":"Ore Deposit","class":"yellow-icon pick-icon","x":38,"y":2},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":34,"y":4},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":29,"y":3},
+				{"name":"Seeds","class":"red-icon seed-icon","x":24,"y":0}
+			]
 		},
 		{
 			"name":"The Fort",
 			"image":"fort",
-			"icons":[]
+			"icons":[
+				{"name":"Ballista Shot","class":"gray-icon shot-icon","x":50,"y":44},
+				{"name":"Cannon Shot","class":"red-icon shot-icon","x":53,"y":44}
+			]
 		},
 		{
 			"name":"Castle Schrade",
 			"image":"schrade",
-			"icons":[]
+			"icons":[
+				{"name":"Ballista Shot","class":"gray-icon shot-icon","x":16,"y":57},
+				{"name":"Cannon Shot","class":"red-icon shot-icon","x":19,"y":59}
+			]
 		}
 	]
 }

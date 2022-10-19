@@ -1,17 +1,26 @@
 {{> head}}
 
-{{#maps}}
-	<div class="map">
-		<h3>{{name}}</h3>
-
-		<div class="map-container">
-			<img src="/images/maps/{{image}}.gif"/>
-
-			{{#icons}}
-				<div class="gathering-point {{class}}" style="left:{{x}}%;top:{{y}}%" title="{{name}}" alt="{{name}}"></div>
-			{{/icons}}
-		</div>
+<article class="filters">
+	<div class="filter-checks">
+		<input id="show-gathering-spots" name="ammo_base" type="checkbox"/>
+		<label for="show-gathering-spots" class="ammo-label">Show Gathering Spots</label>
 	</div>
-{{/maps}}
+</article>
+
+<div id="maps-container">
+	{{#maps}}
+		<div class="map">
+			<h3>{{name}}</h3>
+
+			<div class="map-container">
+				<img src="/images/maps/{{image}}.gif"/>
+
+				{{#icons}}
+					<div class="gathering-point {{class}}" style="left:{{x}}%;top:{{y}}%" title="{{name}}" alt="{{name}}"></div>
+				{{/icons}}
+			</div>
+		</div>
+	{{/maps}}
+</div>
 
 {{> foot}}
