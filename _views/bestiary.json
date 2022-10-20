@@ -945,7 +945,7 @@
 				{"name":"Chest","zones":[10,10,10,10,5,5,10]},
 				{"name":"Wing","zones":[10,10,10,10,5,5,10]},
 				{"name":"Stomach & Foot","zones":[10,10,10,10,5,5,10]},
-				{"name":"Alternate mode of some kind?","zone_cell_attributes":" colspan=8"},
+				{"name":"When Enraged","zone_cell_attributes":" colspan=8"},
 				{"name":"Face","zones":[10,10,10,10,5,5,10]},
 				{"name":"Head","zones":[10,10,10,10,5,5,10]},
 				{"name":"Neck","zones":[10,10,10,10,5,5,10]},
