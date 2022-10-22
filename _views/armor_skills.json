@@ -412,7 +412,7 @@
 				{ "points":"-10", "name":"Sharpness Down" },
 				{ "points":"+10", "name":"Sharpness Up" }
 			],
-			"desc":"The hunter is careless in maintaining their weapon, and it no longer has the sharp edge it once had; or they are meticulous in maintenaining their, and it is sharper than when it was forged."
+			"desc":"The hunter is careless in maintaining their weapon, and it no longer has the sharp edge it once had; or they are meticulous in maintaining their weapon, and it is sharper than when it was forged."
 		},
 		{
 			"name":"Health",
