@@ -26,6 +26,21 @@ window.closePopup = () => {
 	document.body.classList.remove("show-popup");
 };
 
+window.numberWithCommas = (number) => {
+	if (number > 1000) {
+		var withCommas = [];
+
+		while (number !== 0) {
+			withCommas.unshift(number % 1000);
+			number = parseInt(number / 1000);
+		}
+
+		return withCommas.join(",");
+	}
+
+	return number;
+};
+
 // Choose a random cursor
 var cursorClass = (() => {
 	const CURSORS = ["greatsword","hammer","lance","sword","bowgun"];
