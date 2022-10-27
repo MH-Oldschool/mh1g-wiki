@@ -706,7 +706,7 @@
 							"branch":"black-katana",
 							"name":"<b>Bone Katana \"Wolf\"</b>","branchStart":true,
 							"rare":4,
-							"damaage":624,
+							"damage":624,
 							"sharpness":"sharpness_gs/bone_katana_wolf",
 							"price":"5,250",
 							"forge":[
@@ -9130,5 +9130,62 @@
 				]
 			}
 		]
-	}
+	},
+	"motionValues":{
+		"greatsword":[
+			{ "name":"Chop","id":"chop","inputs":["R Stick Up","R Stick Down"],"value":48 },
+			{ "name":"Slash","id":"slash","inputs":["R Stick Left"],"value":36 },
+			{ "name":"Upswing","id":"upswing","inputs":["R Stick Right"],"value":46 },
+			{ "name":"Drawing Chop","id":"drawing-chop","inputs":["R Stick (while moving, weapon sheathed)"],"value":48 }
+		],
+		"hammer":[
+			{ "name":"Slam 1","id":"slam-1","inputs":["R Stick Up (first)"],"value": 52 },
+			{ "name":"Slam 2","id":"slam-2","inputs":["R Stick Up (second)"],"value":20 },
+			{ "name":"Slam 3","id":"slam-3","inputs":["R Stick Up (third)"],"value":20,"mh1":true },
+			{ "name":"Golf Swing","id":"golf-swing","inputs":["R Stick Up (third)"],"value":100,"mhg":true },
+			{ "name":"Side Swing","id":"side-swing","inputs":["R Stick Down"],"value":15 },
+			{ "name":"Charged Swing 1","id":"charged-swing-1","inputs":["R1 (level 1 charge)"],"value":45 },
+			{ "name":"Charged Swing 2","id":"charged-swing-2","inputs":["R1 (level 2 charge)"],"parts":[45,35],"value":80 },
+			{ "name":"Superpound","id":"superpound","inputs":["R1 (level 3 charge)"],"parts":[20,76],"value":96 },
+			{ "name":"Spin 1","id":"spin-1","inputs":["R1 (full charge while moving, first hit)"],"value":20 },
+			{ "name":"Spin 2","id":"spin-2","inputs":["R1 (full charge while moving, hits 2 through 5)"],"value":10 },
+			{ "name":"Golf Swing Finisher","id":"golf-swing-finisher","inputs":["R Stick (during third or fourth spin)"],"value1":100,"valueG":40 },
+			{ "name":"Drawing Swing","id":"drawing-swing","inputs":["R Stick (while moving, weapon sheathed)"],"value":20 }
+		],
+		"lance":[
+			{ "name":"Level Thrust","id":"level-thrust","inputs":["R Stick Up","R Stick Left","R Stick Right"],"value":23 },
+			{ "name":"Upward Thrust","id":"upward-thrust","inputs":["R Stick Down"],"value":28 },
+			{ "name":"Final Thrust","id":"final-thrust","inputs":["R Stick (third of either thrust)"],"value":30 },
+			{ "name":"Charge Attack","id":"charge-attack","inputs":["R3"],"value":20 },
+			{ "name":"Charge Attack Thrust","id":"charge-attack-thrust","inputs":["R Stick (while charging)"],"value":40 },
+			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":20 },
+			{ "name":"Drawing Thrust","id":"drawing-thrust","inputs":["R Stick (while moving, weapon sheathed"],"value":28 }
+		],
+		"sword":[
+			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":14 },
+			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"value":12 },
+			{ "name":"Slice 3","id":"slice 3","inputs":["R Stick Up (third)"],"parts":[8,12],"value":20 },
+			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"value":24 },
+			{ "name":"Jumping Slice","id":"jumping-slice","inputs":["R Stick Down"],"value":18 },
+			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":15 },
+			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":14 },
+			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"value":18 }
+		],
+		"dualSwords":[
+			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":14 },
+			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"parts":[8,6], "value":14 },
+			{ "name":"Slice 3","id":"slice-3","inputs":["R Stick Up (third)"],"parts":[5,7,16],"value":28 },
+			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"parts":[10,8,6],"value":24 },
+			{ "name":"Charging Slice","id":"charging-slice","inputs":["R Stick Down"],"parts":[12,6],"value":18 },
+			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":15 },
+			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"parts":[12,6],"value":18 },
+			{ "name":"Demon Slice 1","id":"slice-1","inputs":["R Stick Up (first, demon mode)"],"value":18 },
+			{ "name":"Demon Slice 2","id":"slice-2","inputs":["R Stick Up (second, demon mode)"],"parts":[10,8],"value":18 },
+			{ "name":"Demon Slice 3","id":"slice-3","inputs":["R Stick Up (third, demon mode)"],"parts":[6,9,21],"value":36 },
+			{ "name":"Demon Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right (demon mode)"],"parts":[13,10,8,13,10,8],"value":62 },
+			{ "name":"Demon Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling, demon mode)"],"value":20 },
+			{ "name":"Fury Combo","id":"fury-combo","inputs":["R Stick Down (demon mode)"],"parts":[28,5,5,5,5,5,5,5,5,33],"value":101 }
+		]
+	},
+	"bowgunAmmo":[]
 }

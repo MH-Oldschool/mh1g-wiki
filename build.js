@@ -87,7 +87,7 @@ function buildPage(pageName, partials) {
 }
 
 buildPage("index");
-buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g"]);
+buildPage("weapons", ["weapon_data","material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
 buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row","armor_data"]);
 buildPage("bestiary");
 buildPage("armor_skills");

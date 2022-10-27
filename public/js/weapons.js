@@ -12,6 +12,8 @@ ready(() => {
 				document.getElementById(element.dataset.target).classList.add("open");
 			});
 		}
+
+		updateWeaponDamage();
 	});
 
 	var rankFilterLabels = document.getElementById("rank-filters").getElementsByClassName("range-label");
@@ -314,6 +316,431 @@ ready(() => {
 			anchors[i].addEventListener("click", handleAnchorClick);
 		}
 	}
-});
 
-// TODO: highlight weapons of a given element/status
+	// Damage Calculator
+	const BLOAT_VALUES = {
+		greatswords: 4.8,
+		hammers: 5.2,
+		lances: 2.3,
+		swords: 1.4,
+		dualSwords: 1.4,
+		bowguns: 1.2
+	};
+
+	const calculator = document.getElementById("damage-calculator");
+	const calculatorButton = document.getElementById("toggle-damage-calculator");
+
+	function toggleCalculator() {
+		if (calculator.classList.contains("expanded")) {
+			calculator.classList.remove("expanded");
+		}
+		else {
+			calculator.classList.add("expanded");
+		}
+	}
+	calculatorButton.addEventListener("click", function() {
+		toggleCalculator();
+	});
+
+	const weaponAttack = document.getElementById("calc-weapon-attack");
+	const weaponElement = document.getElementById("calc-weapon-element");
+	const weaponStatus = document.getElementById("calc-weapon-status");
+
+	const handicraft = document.getElementById("calc-handicraft");
+	const specialAttack = document.getElementById("calc-special-attack");
+
+	const calcSharpness = document.getElementById("calc-sharpness");
+	const calcSharpnessContext = document.getElementById("calc-sharpness-canvas").getContext("2d");
+	var currentCategory, currentWeapon;
+	function updateCalcSharpnessMax() {
+		if (getMHVersion() == "1") {
+			calcSharpness.max = "89";
+		}
+		else {
+			calcSharpness.max = "118";
+		}
+	}
+	document.body.addEventListener("g-toggle", function() {
+		updateCalcSharpnessMax();
+	});
+	updateCalcSharpnessMax();
+
+	function getSharpnessModifier(type) {
+		const SHARPNESS_MODS = {
+			"raw": [
+				0.5,
+				0.75,
+				1.0,
+				1.125,
+				1.25,
+				1.5
+			],
+			"attribute": [
+				0.25,
+				0.5,
+				0.75,
+				1.0,
+				1.0625,
+				1.125
+			]
+		};
+		var sharpnessLevel = getSharpnessAtValue(calcSharpness.value);
+
+		return SHARPNESS_MODS[type][sharpnessLevel];
+	}
+
+	var calcSharpnessColor = document.getElementById("calc-sharpness-color");
+	function getSharpnessAtValue(value) {
+		/*
+			Sharpness Colors
+			0 Red: #ee0000 (238, 0, 0)
+			1 Orange: #eea000 (238, 160, 0)
+			2 Yellow: #eeee00 (238, 238, 0)
+			3 Green: #00ee00 (0, 238, 0)
+			4 Blue: #0000ff (0, 0, 255)
+			5 White: #ffffff (255, 255, 255)
+		*/
+		var version = getMHVersion();
+		var yPos = (version == "g" && handicraft.checked) ? 1 : 0;
+		var sharpnessData = calcSharpnessContext.getImageData(0, yPos, 120, 1);
+		var red = 4 * value;
+		var green = red + 1;
+		var blue = red + 2;
+
+		// Transparent
+		if (sharpnessData.data[blue + 1] === 0) {
+			return;
+		}
+
+		if (sharpnessData.data[red] === 238) {
+			if (sharpnessData.data[green] === 0) {
+				return 0;
+			}
+			else if (sharpnessData.data[green] === 160) {
+				return 1;
+			}
+			else if (sharpnessData.data[green] === 238) {
+				return 2;
+			}
+		}
+		else if (sharpnessData.data[red] === 0) {
+			if (sharpnessData.data[green] === 238) {
+				return 3;
+			}
+			else if (sharpnessData.data[green] === 0 && sharpnessData.data[blue] === 255) {
+				return 4;
+			}
+			else {
+				// TODO: set range max to current weapon's max sharpness?
+				// We're beyond the end of the sharpness range, in the black area
+				// so we have to find the last point with a non-black color
+				for (var i = value; i >= 0; i--) {
+					if (sharpnessData.data[red] !== 0 || sharpnessData.data[green] !== 0 || sharpnessData.data[blue] !== 0) {
+						// This should be safe?
+						return getSharpnessAtValue(i);
+					}
+					red -= 4;
+					green -= 4;
+					blue -= 4;
+				}
+			}
+		}
+
+		return 5;
+	}
+	function updateSharpnessColor(value) {
+		var sharpness = getSharpnessAtValue(value);
+		calcSharpnessColor.className = `sharpness-${sharpness}`;
+	}
+
+	// Calculate damage from motion values
+	function updateWeaponDamage() {
+		const trueElement = document.getElementById("calc-true-element");
+		const trueStatus = document.getElementById("calc-true-status");
+		const weaponElementIcon = document.getElementById("calc-weapon-element-icon");
+		const weaponStatusIcon = document.getElementById("calc-weapon-status-icon");
+		const motionValues = {
+			greatswords: {
+				raw: document.querySelectorAll(".greatsword-mvs .attack-raw"),
+				element: document.querySelectorAll(".greatsword-mvs .attack-element"),
+				status: document.querySelectorAll(".greatsword-mvs .attack-status")
+			},
+			hammers: {
+				raw: document.querySelectorAll(".hammer-mvs .attack-raw"),
+				element: document.querySelectorAll(".hammer-mvs .attack-element"),
+				status: document.querySelectorAll(".hammer-mvs .attack-status")
+			},
+			lances: {
+				raw: document.querySelectorAll(".lance-mvs .attack-raw"),
+				element: document.querySelectorAll(".lance-mvs .attack-element"),
+				status: document.querySelectorAll(".lance-mvs .attack-status")
+			},
+			swords: {
+				raw: document.querySelectorAll(".sword-mvs .attack-raw"),
+				element: document.querySelectorAll(".sword-mvs .attack-element"),
+				status: document.querySelectorAll(".sword-mvs .attack-status")
+			},
+			dualSwords: {
+				raw: document.querySelectorAll(".dual-swords-mvs .attack-raw"),
+				element: document.querySelectorAll(".dual-swords-mvs .attack-element"),
+				status: document.querySelectorAll(".dual-swords-mvs .attack-status")
+			}
+		};
+
+		if (!currentCategory || !currentWeapon) {
+			return;
+		}
+
+		var attackUpBonus = getAttackUpBonus();
+		var bloatedBonus = parseInt(BLOAT_VALUES[currentCategory] * attackUpBonus); // I think decimals get truncated?
+
+		if (currentWeapon.damage) {
+			if (bloatedBonus) {
+				weaponAttack.innerHTML = `${numberWithCommas(commaStringToNumber(currentWeapon.damage) + bloatedBonus)} (+${bloatedBonus})`;
+			}
+			else {
+				weaponAttack.innerHTML = currentWeapon.damage;
+			}
+		}
+		else {
+			if (bloatedBonus) {
+				weaponAttack.innerHTML = `<span class="mh1">${numberWithCommas(commaStringToNumber(currentWeapon.baseDamage) + bloatedBonus)}</span><span class="mhg">${numberWithCommas(commaStringToNumber(currentWeapon.gDamage) + bloatedBonus)}</span> (+${bloatedBonus})`;
+			}
+			else {
+				weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.baseDamage}</span><span class="mhg">${currentWeapon.gDamage}</span>`;
+			}
+		}
+
+		var trueDamage, trueBaseDamage, trueGDamage;
+		if (currentWeapon.damage) {
+			trueDamage = getWeaponDamage(currentWeapon.damage, currentCategory);
+		}
+		if (currentWeapon.baseDamage) {
+			trueBaseDamage = getWeaponDamage(currentWeapon.baseDamage, currentCategory);
+		}
+		if (currentWeapon.gDamage) {
+			trueGDamage = getWeaponDamage(currentWeapon.gDamage, currentCategory);
+		}
+
+		motionValues[currentCategory].raw.forEach(function(element) {
+			if (element.dataset.value) {
+				if (trueDamage) {
+					element.innerHTML = (parseInt((trueDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+				}
+				else {
+					var baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+					var gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+					element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
+				}
+			}
+			else {
+				if (trueDamage) {
+					element.innerHTML = (parseInt((trueDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+				}
+				else {
+					var baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset.value1) / 100).toFixed(0);
+					var gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
+					element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
+				}
+			}
+		});
+
+		var hasElement = currentWeapon.attribute == "fire" || currentWeapon.attribute == "water" || currentWeapon.attribute == "thunder" || currentWeapon.attribute == "dragon";
+		var hasStatus = currentWeapon.attribute == "poison" || currentWeapon.attribute == "paralysis" || currentWeapon.attribute == "sleep";
+
+		var isMHG = getMHVersion() == "g";
+		var attribute = currentWeapon.attributeValue;
+		if (!currentWeapon.attributeValue) {
+			attribute = isMHG ? currentWeapon.gAttribute : currentWeapon.baseAttribute;
+		}
+
+		var trueAttribute = 0;
+		if (attribute) {
+			if (hasStatus && getMHVersion() == "g" && specialAttack.checked) {
+				attribute *= 1.125;
+			}
+			trueAttribute = getSharpnessModifier("attribute") * attribute / 10;
+		}
+
+		if (hasElement) {
+			weaponElement.innerHTML = parseInt(attribute);
+			trueElement.innerText = parseInt(trueAttribute);
+			weaponElementIcon.src = `images/attributes/${currentWeapon.attribute}.png`;
+			weaponElementIcon.alt = weaponElementIcon.title = currentWeapon.attributeAlt;
+		}
+		else if (hasStatus) {
+			weaponStatus.innerHTML = parseInt(attribute);
+			trueStatus.innerText = parseInt(trueAttribute);
+			weaponStatusIcon.src = `images/attributes/${currentWeapon.attribute}.png`;
+			weaponStatusIcon.alt = weaponStatusIcon.title = currentWeapon.attributeAlt;
+		}
+		weaponElement.parentElement.style.display = hasElement ? "" : "none";
+		weaponStatus.parentElement.style.display = hasStatus ? "" : "none";
+	}
+
+	const attackUpSmall = document.getElementById("calc-attack-up-small");
+	const attackUpMedium = document.getElementById("calc-attack-up-medium");
+	const attackUpLarge = document.getElementById("calc-attack-up-large");
+	const attackUpExtra = document.getElementById("calc-attack-up-extra");
+	const powercharm = document.getElementById("calc-powercharm");
+	const powertalon = document.getElementById("calc-powertalon");
+
+	document.getElementById("calc-attack-up-none").addEventListener("change", updateWeaponDamage);
+	attackUpSmall.addEventListener("change", updateWeaponDamage);
+	attackUpMedium.addEventListener("change", updateWeaponDamage);
+	attackUpLarge.addEventListener("change", updateWeaponDamage);
+	attackUpExtra.addEventListener("change", updateWeaponDamage);
+	specialAttack.addEventListener("change", updateWeaponDamage);
+	powercharm.addEventListener("change", updateWeaponDamage);
+	powertalon.addEventListener("change", updateWeaponDamage);
+
+	function getAttackUpBonus() {
+		var isVersionG = getMHVersion() == "g";
+		var bonus = 0;
+
+		if (attackUpSmall.checked) {
+			bonus = 3;
+		}
+		else if (attackUpMedium.checked) {
+			bonus = 5;
+		}
+		else if (attackUpLarge.checked) {
+			bonus = isVersionG ? 10 : 5;
+		}
+		else if (!isVersionG && attackUpExtra.checked) {
+			bonus = 10;
+		}
+
+		if (powercharm.checked) {
+			bonus += 5;
+		}
+		if (isVersionG && powertalon.checked) {
+			bonus += 10;
+		}
+
+		return bonus;
+	}
+	function getWeaponDamage(attack, category) {
+		var sharpnessModRaw = getSharpnessModifier("raw");
+
+		return sharpnessModRaw * parseInt(attack) / BLOAT_VALUES[currentCategory];
+	}
+
+	calcSharpness.addEventListener("input", function(event) {
+		window.requestAnimationFrame(function() {
+			updateSharpnessColor(event.target.value);
+			updateWeaponDamage(currentCategory, currentWeapon);
+		});
+	});
+
+	function toggleHandicraftSkill(toggleOn) {
+		if (toggleOn) {
+			calculator.classList.add("handicraft");
+		}
+		else {
+			calculator.classList.remove("handicraft");
+		}
+	}
+	handicraft.addEventListener("change", function(event) {
+		toggleHandicraftSkill(event.target.checked);
+		updateSharpnessColor(calcSharpness.value);
+		updateWeaponDamage(currentCategory, currentWeapon);
+	});
+	toggleHandicraftSkill(handicraft.checked);
+
+	function populateBlademasterCalculator(element, category) {
+		var selectedButton = document.querySelector(".weapon-button.selected");
+		if (selectedButton) {
+			selectedButton.classList.remove("selected");
+		}
+		element.classList.add("selected");
+
+		var weaponID = element.dataset.id
+
+		const ICON_NAMES = {
+			greatswords: "gs",
+			hammers: "hammer",
+			lances: "lance",
+			swords: "sns",
+			dualSwords: "duals",
+			bowguns: "hbg"
+			/* "lightBowguns": "lbg" maybe? */
+		};
+		const calculatorClasses = {
+			greatswords: "greatsword",
+			hammers: "hammer",
+			lances: "lance",
+			swords: "sword",
+			dualSwords: "dual-swords",
+			bowguns: "bowgun"
+		};
+
+		const weaponName = document.getElementById("calc-weapon-name");
+		const weaponIcon = document.getElementById("calc-weapon-icon");
+		const weaponSharpness = document.getElementById("calc-sharpness-img");
+		const results = document.getElementById("calc-results");
+
+		results.className = calculatorClasses[category];
+		currentCategory = category;
+		currentWeapon = window[category][weaponID];
+
+		var iconColor = "white";
+		switch (currentWeapon.rare) {
+			case 4: iconColor = "green"; break;
+			case 5: iconColor = "red"; break;
+			case 6: iconColor = "blue"; break;
+			case 7: iconColor = "orange"; break;
+		}
+
+		weaponName.innerHTML = currentWeapon.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, "");
+		weaponIcon.className = `${iconColor}-icon ${ICON_NAMES[category]}-icon`;
+
+		weaponSharpness.src = `images/${currentWeapon.sharpness}.gif`;
+		// Draw normal and handicraft sharpness bars
+		calcSharpnessContext.drawImage(weaponSharpness, 1, 1, 119, 1, 0, 0, 119, 1);
+		calcSharpnessContext.drawImage(weaponSharpness, 1, 10, 119, 1, 0, 1, 119, 1);
+		calcSharpness.value = calcSharpness.max;
+		updateSharpnessColor(calcSharpness.value);
+
+		updateWeaponDamage();
+
+		if (!calculator.classList.contains("show")) {
+			calculator.classList.add("show");
+		}
+	}
+
+	function handleGreatswordClick(event) {
+		populateBlademasterCalculator(event.target, "greatswords");
+	}
+	document.querySelectorAll("#greatswords .weapon-button").forEach(function(element) {
+		element.addEventListener("click", handleGreatswordClick);
+	});
+
+	function handleHammerClick(event) {
+		populateBlademasterCalculator(event.target, "hammers");
+	}
+	document.querySelectorAll("#hammers .weapon-button").forEach(function(element) {
+		element.addEventListener("click", handleHammerClick);
+	});
+
+	function handleLanceClick(event) {
+		populateBlademasterCalculator(event.target, "lances");
+	}
+	document.querySelectorAll("#lances .weapon-button").forEach(function(element) {
+		element.addEventListener("click", handleLanceClick);
+	});
+
+	function handleSwordClick(event) {
+		populateBlademasterCalculator(event.target, "swords");
+	}
+	document.querySelectorAll("#swords .weapon-button").forEach(function(element) {
+		element.addEventListener("click", handleSwordClick);
+	});
+
+	function handleDualSwordClick(event) {
+		populateBlademasterCalculator(event.target, "dualSwords");
+	}
+	document.querySelectorAll("#dual-swords .weapon-button").forEach(function(element) {
+		element.addEventListener("click", handleDualSwordClick);
+	});
+});

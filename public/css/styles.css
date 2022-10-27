@@ -154,6 +154,7 @@ input[type="radio"] {
 .radio-icon {
 	position: relative;
 	display: inline-block;
+	vertical-align: middle;
 	border: 0.125rem solid;
 	border-radius: 100%;
 	width: 0.625rem;
@@ -172,6 +173,7 @@ input[type="radio"] {
 	left: 0;
 	right: 0;
 }
+input[type="checkbox"]:checked + .radio-icon:after,
 input[type="radio"]:checked + .radio-icon:after {
 	display: block;
 }
