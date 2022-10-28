@@ -642,7 +642,6 @@ ready(() => {
 	const attackUpSmall = document.getElementById("calc-attack-up-small");
 	const attackUpMedium = document.getElementById("calc-attack-up-medium");
 	const attackUpLarge = document.getElementById("calc-attack-up-large");
-	const attackUpExtra = document.getElementById("calc-attack-up-extra");
 	const powercharm = document.getElementById("calc-powercharm");
 	const powertalon = document.getElementById("calc-powertalon");
 
@@ -656,7 +655,6 @@ ready(() => {
 	attackUpSmall.addEventListener("change", updateWeaponDamage);
 	attackUpMedium.addEventListener("change", updateWeaponDamage);
 	attackUpLarge.addEventListener("change", updateWeaponDamage);
-	attackUpExtra.addEventListener("change", updateWeaponDamage);
 	specialAttack.addEventListener("change", updateWeaponDamage);
 	powercharm.addEventListener("change", updateWeaponDamage);
 	powertalon.addEventListener("change", updateWeaponDamage);
@@ -674,7 +672,7 @@ ready(() => {
 		else if (attackUpItemLarge.checked) {
 			bonus = isVersionG ? 10 : 5;
 		}
-		else if (attackUpItemExtra.checked) {
+		else if (!isVersionG && attackUpItemExtra.checked) {
 			bonus = 10;
 		}
 
@@ -686,9 +684,6 @@ ready(() => {
 		}
 		else if (attackUpLarge.checked) {
 			bonus += isVersionG ? 10 : 5;
-		}
-		else if (!isVersionG && attackUpExtra.checked) {
-			bonus += 10;
 		}
 
 		if (powercharm.checked) {
