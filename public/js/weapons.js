@@ -13,7 +13,9 @@ ready(() => {
 			});
 		}
 
-		updateWeaponDamage();
+		// Hide the calculator, since some weapons just won't be there in the other version
+		var damageCalculator = document.getElementById("damage-calculator");
+		damageCalculator.className = "";
 	});
 
 	var rankFilterLabels = document.getElementById("rank-filters").getElementsByClassName("range-label");
@@ -360,9 +362,6 @@ ready(() => {
 			calcSharpness.max = "118";
 		}
 	}
-	document.body.addEventListener("g-toggle", function() {
-		updateCalcSharpnessMax();
-	});
 	updateCalcSharpnessMax();
 
 	function getIconColor(rare) {
@@ -541,10 +540,19 @@ ready(() => {
 				weaponAttack.innerHTML = currentWeapon.damage;
 			}
 
-			// Be sure to get numbers out of the ammo values: parseInt("(1)".match(/\d+/)[0])
+			var shotMin, shotMax = 0.0;
 			for (var i = 0; i < bowgunShotRows.length; i++) {
 				var power = bowgunShotRows[i].dataset.power;
-				bowgunShotPower[i].innerHTML = power == 0 ? "0" : `${parseInt(minDamage * power)} - ${parseInt(maxDamage * power)}`;
+				shotMin = minDamage * power;
+				shotMax = maxDamage * power;
+
+				// Apply 1.5 critical range modifier for Normal and Pierce shots (first 6)
+				if (i < 6) {
+					shotMin /= 2;
+					shotMax *= 1.5;
+				}
+
+				bowgunShotPower[i].innerHTML = power == 0 ? "0" : `${parseInt(shotMin)} - ${parseInt(shotMax)}`;
 			}
 
 			ammoFireAttribute.innerHTML = `${parseInt(minDamage * BOWGUN_ELEMENT_MODS.fire)} - ${parseInt(maxDamage * BOWGUN_ELEMENT_MODS.fire)}`;
