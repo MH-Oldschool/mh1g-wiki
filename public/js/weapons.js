@@ -634,10 +634,11 @@ ready(() => {
 		}
 	}
 
-	const attackUpItemSmall = document.getElementById("calc-item-attack-up-small");
-	const attackUpItemMedium = document.getElementById("calc-item-attack-up-medium");
-	const attackUpItemLarge = document.getElementById("calc-item-attack-up-large");
-	const attackUpItemExtra = document.getElementById("calc-item-attack-up-extra");
+	const attackUpFoodSmall = document.getElementById("calc-food-attack-up-small");
+	const attackUpFoodMedium = document.getElementById("calc-food-attack-up-medium");
+	const attackUpFoodLarge = document.getElementById("calc-food-attack-up-large");
+	const attackUpFoodExtra = document.getElementById("calc-food-attack-up-extra");
+	const attackUpItem = document.getElementById("calc-item-attack-up");
 
 	const attackUpSmall = document.getElementById("calc-attack-up-small");
 	const attackUpMedium = document.getElementById("calc-attack-up-medium");
@@ -645,11 +646,12 @@ ready(() => {
 	const powercharm = document.getElementById("calc-powercharm");
 	const powertalon = document.getElementById("calc-powertalon");
 
-	document.getElementById("calc-item-attack-up-none").addEventListener("change", updateWeaponDamage);
-	attackUpItemSmall.addEventListener("change", updateWeaponDamage);
-	attackUpItemMedium.addEventListener("change", updateWeaponDamage);
-	attackUpItemLarge.addEventListener("change", updateWeaponDamage);
-	attackUpItemExtra.addEventListener("change", updateWeaponDamage);
+	document.getElementById("calc-food-attack-up-none").addEventListener("change", updateWeaponDamage);
+	attackUpFoodSmall.addEventListener("change", updateWeaponDamage);
+	attackUpFoodMedium.addEventListener("change", updateWeaponDamage);
+	attackUpFoodLarge.addEventListener("change", updateWeaponDamage);
+	attackUpFoodExtra.addEventListener("change", updateWeaponDamage);
+	attackUpItem.addEventListener("change", updateWeaponDamage);
 
 	document.getElementById("calc-attack-up-none").addEventListener("change", updateWeaponDamage);
 	attackUpSmall.addEventListener("change", updateWeaponDamage);
@@ -663,17 +665,21 @@ ready(() => {
 		var isVersionG = getMHVersion() == "g";
 		var bonus = 0;
 
-		if (attackUpItemSmall.checked) {
-			bonus = 3;
+		if (attackUpFoodSmall.checked) {
+			bonus += 3;
 		}
-		else if (attackUpItemMedium.checked) {
-			bonus = 5;
+		else if (attackUpFoodMedium.checked) {
+			bonus += 5;
 		}
-		else if (attackUpItemLarge.checked) {
-			bonus = isVersionG ? 10 : 5;
+		else if (attackUpFoodLarge.checked) {
+			bonus += isVersionG ? 10 : 5;
 		}
-		else if (!isVersionG && attackUpItemExtra.checked) {
-			bonus = 10;
+		else if (!isVersionG && attackUpFoodExtra.checked) {
+			bonus += 10;
+		}
+
+		if (attackUpItem.checked) {
+			bonus += 10;
 		}
 
 		if (attackUpSmall.checked) {
@@ -834,52 +840,6 @@ ready(() => {
 				sidebarContent.classList.add(`${OTHER_AMMO[i]}-shot`);
 			}
 		}
-
-		/*
-
-		"normal":[6,6,""],"pierce":[3,"",""],"pellet":["","",""],"crag":[1,"",""],"clust":["","",""],
-		"disc":"","recover":[3,3],"poison":[3,1],"stun":[3,1],"sleep":[3,1],
-		"tranq":3,"paint":2,"antidote":3,
-		"demon":"","armor":"","dragon":"","dung":1,
-		"normal":[" 6 "," 6 ","(9)"],"pierce":[" 1 ","(1)","(1)"],"pellet":["(1)","(1)","(1)"],"crag":[" 1 ","(1)","(1)"],"clust":["(1)","(1)","(1)"],
-		"flame":"","water":"","thunder":"","dragon":"",
-		"recover":[" 3 "," 3 "],"poison":["3 ",""],"stun":[" 3 ",""],"sleep":[" 3 ",""],
-		"tranq":2,"paint":2,"demon":"","antidote":"",
-
-		.normal-1-shot
-		.normal-2-shot
-		.normal-3-shot
-		.pierce-1-shot
-		.pierce-2-shot
-		.pierce-3-shot
-		.pellet-1-shot
-		.pellet-2-shot
-		.pellet-3-shot
-		.crag-1-shot
-		.crag-2-shot
-		.crag-3-shot
-		.clust-1-shot
-		.clust-2-shot
-		.clust-3-shot
-		.flame-shot
-		.water-shot
-		.thunder-shot
-		.dragon-shot
-		.disc-shot
-		.recover-1-shot
-		.recover-2-shot
-		.poison-1-shot
-		.poison-2-shot
-		.stun-1-shot
-		.stun-2-shot
-		.sleep-1-shot
-		.sleep-2-shot
-		.tranq-shot
-		.paint-shot
-		.dung-shot
-		.demon-shot
-		.armor-shot
-		*/
 
 		if (!calculator.classList.contains("show")) {
 			calculator.classList.add("show");
