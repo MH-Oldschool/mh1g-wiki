@@ -830,7 +830,7 @@ ready(() => {
 			"dung"
 		];
 		for (var i = 0; i < OTHER_AMMO.length; i++) {
-			if (currentWeapon[OTHER_AMMO[i]] != 0) {
+			if (currentWeapon[OTHER_AMMO[i]] && currentWeapon[OTHER_AMMO[i]] != 0) {
 				sidebarContent.classList.add(`${OTHER_AMMO[i]}-shot`);
 			}
 		}
