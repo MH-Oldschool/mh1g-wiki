@@ -22,6 +22,9 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [x] Correct weapon names
 	- [x] Correct material names
 - [x] Checkbox to toggle MH1 and MHG weapons
+- [x] Weapon Damage Calculator
+	- [x] Blademaster weapon damage
+	- [x] Gunner weapon damage
 - [ ] Armor List
 	- [x] Raw data with rough translation
 	- [ ] Correct armor piece names
