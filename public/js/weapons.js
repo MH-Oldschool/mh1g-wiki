@@ -535,7 +535,7 @@ ready(() => {
 			var maxDamage = getWeaponDamage(splitDamage[2], "bowguns") + attackUpBonus;
 
 			if (bloatedBonus) {
-				weaponAttack.innerHTML = `${minDamage + bloatedBonus} - ${maxDamage + bloatedBonus} (+${bloatedBonus})`;
+				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus} - ${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus})`;
 			}
 			else {
 				weaponAttack.innerHTML = currentWeapon.damage;
