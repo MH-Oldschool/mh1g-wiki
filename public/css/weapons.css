@@ -364,21 +364,21 @@ body {
 	border: 0.25rem double;
 	border-radius: 1rem;
 	padding: 0.5rem 1rem;
-	width: calc(100% - 2rem);
-	height: 90%;
-	top: 50%;
-	right: calc(2rem - 100%);
-	transform: translateY(-50%);
+	width: calc(100vw - 2rem);
+	height: 90vh;
+	top: 5vh;
+	left: 100vw;
 	transition: 400ms;
 }
 #damage-calculator.show {
 	display: block;
 }
 #damage-calculator.expanded {
-	right: 0;
+	left: 1.5rem;
 }
-.sidebar-content {
-	overflow-y: auto;
+#sidebar-content {
+	overflow: auto;
+	width: calc(100vw - 4rem);
 	height: 100%;
 }
 
@@ -390,13 +390,33 @@ body {
 .motion-values {
 	display: none;
 }
+.bowgun-ammo {
+	display: none;
+}
 .greatsword .greatsword-mvs,
 .hammer .hammer-mvs,
 .lance .lance-mvs,
 .sword .sword-mvs,
-.dual-swords .dual-swords-mvs {
+.dual-swords .dual-swords-mvs,
+.bowgun .bowgun-ammo {
 	display: table-row-group;
 }
+
+/* Hide gunner elements for blademasters and vice-versa */
+.greatsword .gunner-stat,
+.hammer .gunner-stat,
+.lance .gunner-stat,
+.sword .gunner-stat,
+.dual-swords .gunner-stat,
+.bowgun .blademaster-stat {
+	display: none;
+}
+
+.table-container {
+	overflow-x: auto;
+	width: 100%;
+}
+
 .attack-raw {
 	text-align: right;
 }
@@ -450,8 +470,51 @@ body {
 	margin-right: 0.25rem;
 }
 
+.bowgun-shot-power {
+	text-align: center;
+}
+
 .mv-column {
 	display: none;
+}
+
+.bowgun-shot-row {
+	display: none;
+}
+.normal-1-shot #normal-1-row,
+.normal-2-shot #normal-2-row,
+.normal-3-shot #normal-3-row,
+.pierce-1-shot #pierce-1-row,
+.pierce-2-shot #pierce-2-row,
+.pierce-3-shot #pierce-3-row,
+.pellet-1-shot #pellet-1-row,
+.pellet-2-shot #pellet-2-row,
+.pellet-3-shot #pellet-3-row,
+.crag-1-shot #crag-1-row,
+.crag-2-shot #crag-2-row,
+.crag-3-shot #crag-3-row,
+.clust-1-shot #clust-1-row,
+.clust-2-shot #clust-2-row,
+.clust-3-shot #clust-3-row,
+.flame-shot #flame-row,
+.water-shot #water-row,
+.thunder-shot #thunder-row,
+.dragon-shot #dragon-row,
+.disc-shot #disc-row,
+.recover-1-shot #recover-1-row,
+.recover-2-shot #recover-2-row,
+.poison-1-shot #poison-1-row,
+.poison-2-shot #poison-2-row,
+.stun-1-shot #stun-1-row,
+.stun-2-shot #stun-2-row,
+.sleep-1-shot #sleep-1-row,
+.sleep-2-shot #sleep-2-row,
+.tranq-shot #tranq-row,
+.paint-shot #paint-row,
+.dung-shot #dung-row,
+.demon-shot #demon-row,
+.armor-shot #armor-row {
+	display: table-row;
 }
 
 #toggle-damage-calculator {
@@ -469,12 +532,12 @@ body {
 	transform: translateY(-50%);
 }
 #toggle-damage-calculator .button-copy {
-  position: absolute;
+	position: absolute;
 	margin-top: -0.6875rem;
 	width: 12rem;
-  height: 1.375rem;
+	height: 1.375rem;
 	top: 50%;
-  left: -5.375rem;
+	left: -5.375rem;
 	transform: rotate(90deg);
 }
 #toggle-damage-calculator:before,
@@ -514,15 +577,30 @@ body {
 	#damage-calculator {
 		width: 56rem;
 		height: auto;
+		top: 50%;
+		left: auto;
 		right: -56rem;
+		transform: translateY(-50%);
+	}
+	#damage-calculator.expanded {
+		left: auto;
+		right: 0;
+	}
+	#damage-calculator caption {
+		text-align: left;
 	}
 
-	.skills-column {
-		margin-right: 2rem;
+	#sidebar-content {
+		overflow-x: visible;
+		max-height: 80vh;
+		width: auto;
 	}
 
 	.columns-container {
 		display: flex;
 		justify-content: space-between;
+	}
+	.columns-container .column {
+		margin-right: 0.5rem;
 	}
 }

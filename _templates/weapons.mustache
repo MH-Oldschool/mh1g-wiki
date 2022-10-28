@@ -40,6 +40,27 @@
 				{{/weapons}}
 			{{/tbody}}
 		{{/dualSwords}} };
+
+	window.bowguns = { {{#bowguns1}}
+			{{#lbg}}
+				{{> bowgun_data}}
+			{{/lbg}}
+			{{#hbg}}
+				{{> bowgun_data}}
+			{{/hbg}}
+		{{/bowguns1}}
+		{{#bowgunsG}}
+			{{#lbg}}
+				{{> bowgun_data}}
+			{{/lbg}}
+			{{#hbg}}
+				{{> bowgun_data}}
+			{{/hbg}}
+		{{/bowgunsG}} };
+
+	window.bowgunAmmo = { {{#bowgunAmmo}}
+			"power":{{power}},
+		{{/bowgunAmmo}} };
 </script>
 
 <section id="melee-weapons">
@@ -193,11 +214,11 @@
 					<label for="base-ammo-crag-3" class="ammo-label">Crag Shot 3</label>
 				</div>
 				<div class="filter-column">
-					<input id="base-ammo-clust-1" name="ammo_base" type="checkbox" value="clust-1"/>
+					<input id="base-ammo-clust-1" name="ammo_base" type="checkbox" value="show-clust-1"/>
 					<label for="base-ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
-					<input id="base-ammo-clust-2" name="ammo_base" type="checkbox" value="clust-2"/>
+					<input id="base-ammo-clust-2" name="ammo_base" type="checkbox" value="show-clust-2"/>
 					<label for="base-ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
-					<input id="base-ammo-clust-3" name="ammo_base" type="checkbox" value="clust-3"/>
+					<input id="base-ammo-clust-3" name="ammo_base" type="checkbox" value="show-clust-3"/>
 					<label for="base-ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
 					<hr/>
 					<input id="base-ammo-disc" name="ammo_base" type="checkbox" value="disc"/>
@@ -376,16 +397,16 @@
 </section>
 
 <div id="damage-calculator">
-	<div class="sidebar-content">
+	<div id="sidebar-content">
 		<div class="columns-container">
 			<div class="weapon-column">
-				<h2>Weapon: <span id="calc-weapon-icon" class=""></span> <span id="calc-weapon-name"></span></h2><br/>
+				<h2>Weapon: <span id="calc-weapon-icon"></span> <span id="calc-weapon-name"></span></h2><br/>
 
 				<h3>Attack: <span id="calc-weapon-attack"></span></h3><br/>
-				<h3 id="calc-weapon-element-container">Element: <img id="calc-weapon-element-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-element"></span> (<span id="calc-true-element"></span>)<br/></h3>
-				<h3 id="calc-weapon-status-container">Status: <img id="calc-weapon-status-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-status"></span> (<span id="calc-true-status"></span>)<br/></h3>
+				<h3 id="calc-weapon-element-container" class="blademaster-stat">Element: <img id="calc-weapon-element-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-element"></span> (<span id="calc-true-element"></span>)<br/></h3>
+				<h3 id="calc-weapon-status-container" class="blademaster-stat">Status: <img id="calc-weapon-status-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-status"></span> (<span id="calc-true-status"></span>)<br/></h3>
 
-				<div class="sharpness-range-color">
+				<div class="sharpness-range-color blademaster-stat">
 					<div id="calc-sharpness-color"></div>
 					<div class="calc-sharpness-container">
 						<canvas id="calc-sharpness-canvas" class="hide" width="119" height="2"></canvas>
@@ -397,49 +418,79 @@
 
 			<div>
 				<div class="columns-container">
-					<div class="skills-column">
-						<h4>Skills:</h4>
+					<div class="column">
+						<h4>Food/Item Skills:</h4>
 
 						<div class="radio-container">
-							<input id="calc-attack-up-none" type="radio" name="attack_up" value="none" checked/>
+							<input id="calc-item-attack-up-none" type="radio" name="item_attack_up" checked/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-none">No Attack Up</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-item-attack-up-small" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-small">Attack Up Small</label>
+						</div>
+						<div class="radio-container mhg">
+							<input id="calc-item-attack-up-medium" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-medium">Attack Up Medium</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-item-attack-up-large" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-large">Attack Up Large</label>
+						</div>
+						<div class="radio-container mh1">
+							<input id="calc-item-attack-up-extra" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-extra">Attack Up Extra Large</label>
+						</div>
+					</div>
+
+					<div class="column">
+						<h4>Armor Skills:</h4>
+
+						<div class="radio-container">
+							<input id="calc-attack-up-none" type="radio" name="attack_up" checked/>
 							<div class="radio-icon"></div>
 							<label for="calc-attack-up-none">No Attack Up</label>
 						</div>
 						<div class="radio-container">
-							<input id="calc-attack-up-small" type="radio" name="attack_up" value="small"/>
+							<input id="calc-attack-up-small" type="radio" name="attack_up"/>
 							<div class="radio-icon"></div>
 							<label for="calc-attack-up-small">Attack Up Small</label>
 						</div>
 						<div class="radio-container mhg">
-							<input id="calc-attack-up-medium" type="radio" name="attack_up" value="medium"/>
+							<input id="calc-attack-up-medium" type="radio" name="attack_up"/>
 							<div class="radio-icon"></div>
 							<label for="calc-attack-up-medium">Attack Up Medium</label>
 						</div>
 						<div class="radio-container">
-							<input id="calc-attack-up-large" type="radio" name="attack_up" value="large"/>
+							<input id="calc-attack-up-large" type="radio" name="attack_up"/>
 							<div class="radio-icon"></div>
 							<label for="calc-attack-up-large">Attack Up Large</label>
 						</div>
 						<div class="radio-container mh1">
-							<input id="calc-attack-up-extra" type="radio" name="attack_up" value="extra_large"/>
+							<input id="calc-attack-up-extra" type="radio" name="attack_up"/>
 							<div class="radio-icon"></div>
-							<label for="calc-attack-up-large">Attack Up Extra Large</label>
+							<label for="calc-attack-up-extra">Attack Up Extra Large</label>
 						</div>
-						<hr/>
-						<div class="checkbox-container mhg">
+						<hr class="blademaster-stat"/>
+						<div class="checkbox-container blademaster-stat mhg">
 							<input id="calc-handicraft" type="checkbox"/>
 							<div class="radio-icon"></div>
 							<label for="calc-handicraft">Handicraft</label>
 						</div>
-						<hr/>
-						<div class="checkbox-container mhg">
+						<hr class="blademaster-stat"/>
+						<div class="checkbox-container blademaster-stat mhg">
 							<input id="calc-special-attack" type="checkbox"/>
 							<div class="radio-icon"></div>
 							<label for="calc-special-attack">Special Attack</label>
 						</div>
 					</div>
 
-					<div>
+					<div class="column">
 						<h4>Items:</h4>
 
 						<div class="checkbox-container">
@@ -458,47 +509,81 @@
 			</div>
 		</div>
 
-		<table id="calc-results">
-			<caption>Motion Values</caption>
+		<div class="table-container">
+			<table>
+				<caption class="blademaster-stat">Motion Values</caption>
+				<caption class="bowgun-stat">Ammo Damage</caption>
 
-			<thead>
-				<tr>
-					<th>Attack</th>
-					<th class="mv-column">Motion Value</th>
-					<th>Raw Damage</th>
-				</tr>
-			</thead>
+				<thead>
+					<tr class="blademaster-stat">
+						<th>Attack</th>
+						<th class="mv-column">Motion Value</th>
+						<th>Raw Damage</th>
+					</tr>
 
-			<tbody class="motion-values greatsword-mvs">
-				{{#motionValues.greatsword}}
-					{{> motion_value_rows }}
-				{{/motionValues.greatsword}}
-			</tbody>
+					<tr class="bowgun-stat">
+						<th>Shot Name</th>
+						<th>Power</th>
+						<th># of Impacts</th>
+						<th>Effect</th>
+					</tr>
+				</thead>
 
-			<tbody class="motion-values hammer-mvs">
-				{{#motionValues.hammer}}
-					{{> motion_value_rows }}
-				{{/motionValues.hammer}}
-			</tbody>
+				<tbody class="motion-values greatsword-mvs">
+					{{#motionValues.greatsword}}
+						{{> motion_value_rows }}
+					{{/motionValues.greatsword}}
+				</tbody>
 
-			<tbody class="motion-values lance-mvs">
-				{{#motionValues.lance}}
-					{{> motion_value_rows }}
-				{{/motionValues.lance}}
-			</tbody>
+				<tbody class="motion-values hammer-mvs">
+					{{#motionValues.hammer}}
+						{{> motion_value_rows }}
+					{{/motionValues.hammer}}
+				</tbody>
 
-			<tbody class="motion-values sword-mvs">
-				{{#motionValues.sword}}
-					{{> motion_value_rows }}
-				{{/motionValues.sword}}
-			</tbody>
+				<tbody class="motion-values lance-mvs">
+					{{#motionValues.lance}}
+						{{> motion_value_rows }}
+					{{/motionValues.lance}}
+				</tbody>
 
-			<tbody class="motion-values dual-swords-mvs mhg">
-				{{#motionValues.dualSwords}}
-					{{> motion_value_rows }}
-				{{/motionValues.dualSwords}}
-			</tbody>
-		</table>
+				<tbody class="motion-values sword-mvs">
+					{{#motionValues.sword}}
+						{{> motion_value_rows }}
+					{{/motionValues.sword}}
+				</tbody>
+
+				<tbody class="motion-values dual-swords-mvs mhg">
+					{{#motionValues.dualSwords}}
+						{{> motion_value_rows }}
+					{{/motionValues.dualSwords}}
+				</tbody>
+
+				<tbody class="bowgun-ammo">
+					{{#bowgunAmmo}}
+						<tr id="{{id}}-row" class="bowgun-shot-row" data-power="{{power}}">
+							<td>{{name}}</td>
+							<td class="bowgun-shot-power"></td>
+							<td>{{impacts}}{{^impacts}}1{{/impacts}}</td>
+							<td>
+								{{#effect}}{{effect}} {{/effect}}
+								{{#attributeAlt}}
+									<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+								{{/attributeAlt}}
+								{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+								{{#attributeMod}}
+									<span id="ammo-{{attribute}}-attribute"></span>
+								{{/attributeMod}}
+								{{#explosion}}
+									Explosion: {{explosion.power}} <img class="attribute-icon" src="images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
+									{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
+								{{/explosion}}
+							</td>
+						</tr>
+					{{/bowgunAmmo}}
+				</tbody>
+			</table>
+		</div>
 	</div>
 
 	<button id="toggle-damage-calculator">
