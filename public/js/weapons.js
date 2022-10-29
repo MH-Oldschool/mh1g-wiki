@@ -534,10 +534,10 @@ ready(() => {
 			var maxDamage = getWeaponDamage(splitDamage[2], "bowguns") + attackUpBonus;
 
 			if (bloatedBonus) {
-				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus} - ${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus})`;
+				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus} - ${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus}) [${minDamage} - ${maxDamage}]`;
 			}
 			else {
-				weaponAttack.innerHTML = currentWeapon.damage;
+				weaponAttack.innerHTML = `${currentWeapon.damage} [${minDamage} - ${maxDamage}]`;
 			}
 
 			var shotMin, shotMax = 0.0;
@@ -562,18 +562,18 @@ ready(() => {
 		else {
 			if (currentWeapon.damage) {
 				if (bloatedBonus) {
-					weaponAttack.innerHTML = `${numberWithCommas(commaStringToNumber(currentWeapon.damage) + bloatedBonus)} (+${bloatedBonus})`;
+					weaponAttack.innerHTML = `${numberWithCommas(commaStringToNumber(currentWeapon.damage) + bloatedBonus)} (+${bloatedBonus}) [${Math.round(trueDamage + attackUpBonus)}]`;
 				}
 				else {
-					weaponAttack.innerHTML = currentWeapon.damage;
+					weaponAttack.innerHTML = `${currentWeapon.damage} [${Math.round(trueDamage)}]`;
 				}
 			}
 			else {
 				if (bloatedBonus) {
-					weaponAttack.innerHTML = `<span class="mh1">${numberWithCommas(commaStringToNumber(currentWeapon.baseDamage) + bloatedBonus)}</span><span class="mhg">${numberWithCommas(commaStringToNumber(currentWeapon.gDamage) + bloatedBonus)}</span> (+${bloatedBonus})`;
+					weaponAttack.innerHTML = `<span class="mh1">${numberWithCommas(commaStringToNumber(currentWeapon.baseDamage) + bloatedBonus)} [${Math.round(trueBaseDamage + attackUpBonus)}]</span><span class="mhg">${numberWithCommas(commaStringToNumber(currentWeapon.gDamage) + bloatedBonus)}</span> (+${bloatedBonus}) [${Math.round(trueGDamage + attackUpBonus)}]`;
 				}
 				else {
-					weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.baseDamage}</span><span class="mhg">${currentWeapon.gDamage}</span>`;
+					weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.baseDamage} [${Math.round(trueBaseDamage)}]</span><span class="mhg">${currentWeapon.gDamage} [${Math.round(trueGDamage)}]</span>`;
 				}
 			}
 
