@@ -9209,7 +9209,7 @@
 		{"id":"water","name":"Water Shot","power":0.01,"attribute":"water","attributeAlt":"Water","attributeMod":0.1,"mhg":true},
 		{"id":"thunder","name":"Thunder Shot","power":0.01,"attribute":"thunder","attributeAlt":"Thunder","attributeMod":0.2,"mhg":true},
 		{"id":"dragon","name":"Dragon Shot","power":0.01,"attribute":"thunder","attributeAlt":"Thunder","attributeValue":48},
-		{"id":"disc","name":"Disc Shot","power":0.2,"impacts":"1 - ?","effect":"Ricochet","mh1":true},
+		{"id":"disc","name":"Disc Shot","power":0.2,"impacts":"1 - 4","effect":"Ricochet","mh1":true},
 		{"id":"recover-1","name":"Recover Shot Lv.1","power":0,"effect":"Health + ","attributeValue":30},
 		{"id":"recover-2","name":"Recover Shot Lv.2","power":0,"effect":"Health + ","attributeValue":50},
 		{"id":"poison-1","name":"Poison Shot Lv.1","power":0.1,"attribute":"poison","attributeAlt":"Poison","attributeValue":25},
