@@ -497,6 +497,8 @@ ready(() => {
 			}
 		};
 
+		const SHOT_UP_MOD = 1.1;
+
 		const bowgunShotRows = document.getElementsByClassName("bowgun-shot-row");
 		const bowgunShotPower = document.getElementsByClassName("bowgun-shot-power");
 		const bowgunShotAttribute = document.getElementsByClassName("bowgun-shot-attribute");
@@ -536,10 +538,10 @@ ready(() => {
 			var maxDamage = getWeaponDamage(splitDamage[2], "bowguns") + attackUpBonus;
 
 			if (bloatedBonus) {
-				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus} - ${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus}) [${minDamage} - ${maxDamage}]`;
+				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus}&nbsp;-&nbsp;${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus}) [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
 			}
 			else {
-				weaponAttack.innerHTML = `${currentWeapon.damage} [${minDamage} - ${maxDamage}]`;
+				weaponAttack.innerHTML = `${currentWeapon.damage} [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
 			}
 
 			var shotMin, shotMax = 0.0;
@@ -552,6 +554,29 @@ ready(() => {
 				if (i < 6) {
 					shotMin /= 2;
 					shotMax *= 1.5;
+				}
+
+				// Apply Shot Up modifiers
+				if (i < 3) {
+					// Normal Shot
+					if (normalShotUp.checked) {
+						shotMin *= SHOT_UP_MOD;
+						shotMax *= SHOT_UP_MOD;
+					}
+				}
+				else if (i < 6) {
+					// Pierce Shot
+					if (pierceShotUp.checked) {
+						shotMin *= SHOT_UP_MOD;
+						shotMax *= SHOT_UP_MOD;
+					}
+				}
+				else if (i < 9) {
+					// Pellet Shot
+					if (pelletShotUp.checked) {
+						shotMin *= SHOT_UP_MOD;
+						shotMax *= SHOT_UP_MOD;
+					}
 				}
 
 				bowgunShotPower[i].innerHTML = power == 0 ? "0" : `${parseInt(shotMin)} - ${parseInt(shotMax)}`;
@@ -661,6 +686,10 @@ ready(() => {
 	const powercharm = document.getElementById("calc-powercharm");
 	const powertalon = document.getElementById("calc-powertalon");
 
+	const normalShotUp = document.getElementById("calc-normal-shot-up");
+	const pierceShotUp = document.getElementById("calc-pierce-shot-up");
+	const pelletShotUp = document.getElementById("calc-pellet-shot-up");
+
 	document.getElementById("calc-food-attack-up-none").addEventListener("change", updateWeaponDamage);
 	attackUpFoodSmall.addEventListener("change", updateWeaponDamage);
 	attackUpFoodMedium.addEventListener("change", updateWeaponDamage);
@@ -675,6 +704,10 @@ ready(() => {
 	specialAttack.addEventListener("change", updateWeaponDamage);
 	powercharm.addEventListener("change", updateWeaponDamage);
 	powertalon.addEventListener("change", updateWeaponDamage);
+
+	normalShotUp.addEventListener("change", updateWeaponDamage);
+	pierceShotUp.addEventListener("change", updateWeaponDamage);
+	pelletShotUp.addEventListener("change", updateWeaponDamage);
 
 	function getAttackUpBonus() {
 		var isVersionG = getMHVersion() == "g";

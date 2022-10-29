@@ -595,6 +595,9 @@ body {
 		max-height: 80vh;
 		width: auto;
 	}
+	#sidebar-content .weapon-column {
+		width: 21rem;
+	}
 
 	.columns-container {
 		display: flex;
