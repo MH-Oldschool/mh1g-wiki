@@ -9192,7 +9192,7 @@
 	"bowgunAmmo":[
 		{"id":"normal-1","name":"Normal Shot Lv.1","power":0.06},
 		{"id":"normal-2","name":"Normal Shot Lv.2","power":0.12},
-		{"id":"normal-3","name":"Normal Shot Lv.3","power":0.1,"impacts":"<span class=\"mh1\">1</span><span class=\"mhg\">3</span>"},
+		{"id":"normal-3","name":"Normal Shot Lv.3","power":0.1,"impacts":"<span class=\"mh1\">1</span><span class=\"mhg\">3</span>","effect":"<span class=\"mhg\">Ricochet</span>"},
 		{"id":"pierce-1","name":"Pierce Shot Lv.1","power":0.1,"impacts":3,"effect":"Piercing"},
 		{"id":"pierce-2","name":"Pierce Shot Lv.2","power":0.09,"impacts":4,"effect":"Piercing"},
 		{"id":"pierce-3","name":"Pierce Shot Lv.3","power":0.07,"impacts":6,"effect":"Piercing"},

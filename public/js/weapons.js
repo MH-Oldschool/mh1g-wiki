@@ -328,6 +328,7 @@ ready(() => {
 		dualSwords: 1.4,
 		bowguns: 1.2
 	};
+	const SPECIAL_ATTACK_MOD = 1.125;
 
 	const calculator = document.getElementById("damage-calculator");
 	const calculatorButton = document.getElementById("toggle-damage-calculator");
@@ -498,6 +499,7 @@ ready(() => {
 
 		const bowgunShotRows = document.getElementsByClassName("bowgun-shot-row");
 		const bowgunShotPower = document.getElementsByClassName("bowgun-shot-power");
+		const bowgunShotAttribute = document.getElementsByClassName("bowgun-shot-attribute");
 		const ammoFireAttribute = document.getElementById("ammo-fire-attribute");
 		const ammoWaterAttribute = document.getElementById("ammo-water-attribute");
 		const ammoThunderAttribute = document.getElementById("ammo-thunder-attribute");
@@ -553,6 +555,15 @@ ready(() => {
 				}
 
 				bowgunShotPower[i].innerHTML = power == 0 ? "0" : `${parseInt(shotMin)} - ${parseInt(shotMax)}`;
+
+				if (bowgunShotAttribute[i].dataset.attribute == "poison" || bowgunShotAttribute[i].dataset.attribute == "paralysis" || bowgunShotAttribute[i].dataset.attribute == "sleep") {
+					if (specialAttack.checked) {
+						bowgunShotAttribute[i].innerHTML = parseInt(bowgunShotAttribute[i].dataset.attributeValue * SPECIAL_ATTACK_MOD);
+					}
+					else {
+						bowgunShotAttribute[i].innerHTML = bowgunShotAttribute[i].dataset.attributeValue;
+					}
+				}
 			}
 
 			ammoFireAttribute.innerHTML = `${parseInt(minDamage * BOWGUN_ELEMENT_MODS.fire)} - ${parseInt(maxDamage * BOWGUN_ELEMENT_MODS.fire)}`;
@@ -616,7 +627,7 @@ ready(() => {
 			var trueAttribute = 0;
 			if (attribute) {
 				if (hasStatus && getMHVersion() == "g" && specialAttack.checked) {
-					attribute *= 1.125;
+					attribute *= SPECIAL_ATTACK_MOD;
 				}
 				trueAttribute = getSharpnessModifier("attribute") * attribute / 10;
 			}

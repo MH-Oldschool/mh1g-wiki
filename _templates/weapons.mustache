@@ -57,10 +57,6 @@
 				{{> bowgun_data}}
 			{{/hbg}}
 		{{/bowgunsG}} };
-
-	window.bowgunAmmo = { {{#bowgunAmmo}}
-			"power":{{power}},
-		{{/bowgunAmmo}} };
 </script>
 
 <section id="melee-weapons">
@@ -483,8 +479,8 @@
 							<div class="radio-icon"></div>
 							<label for="calc-handicraft">Handicraft</label>
 						</div>
-						<hr class="blademaster-stat mhg"/>
-						<div class="checkbox-container blademaster-stat mhg">
+						<hr class="mhg"/>
+						<div class="checkbox-container mhg">
 							<input id="calc-special-attack" type="checkbox"/>
 							<div class="radio-icon"></div>
 							<label for="calc-special-attack" title="Status x1.125">Special Attack</label>
@@ -567,11 +563,13 @@
 							<td class="bowgun-shot-power"></td>
 							<td>{{{impacts}}}{{^impacts}}1{{/impacts}}</td>
 							<td>
-								{{#effect}}{{effect}} {{/effect}}
+								{{#effect}}{{{effect}}} {{/effect}}
 								{{#attributeAlt}}
 									<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
 								{{/attributeAlt}}
-								{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+								<span class="bowgun-shot-attribute" data-attribute="{{attribute}}" data-attribute-value="{{attributeValue}}">
+									{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+								</span>
 								{{#attributeMod}}
 									<span id="ammo-{{attribute}}-attribute"></span>
 								{{/attributeMod}}
