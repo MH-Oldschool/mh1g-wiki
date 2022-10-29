@@ -6459,7 +6459,7 @@
 						{
 							"dev":true,
 							"rowClass":"sleep-status",
-							"name":"Sleep Sticks",
+							"name":"Coma Stick",
 							"rare":6,
 							"damage":14,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":990,
@@ -7138,7 +7138,7 @@
 						{
 							"dev":true,
 							"rowClass":"water-element",
-							"name":"Water cutter",
+							"name":"Water Cutters",
 							"rare":6,
 							"damage":252,
 							"attribute":"water","attributeAlt":"Water","attributeValue":490,
@@ -8552,7 +8552,7 @@
 			},
 			{
 				"dev":true,
-				"name":"A Hundred Flowers Profusion of Crossbow",
+				"name":"A Hundred Blooming Flowers",
 				"rarity":7,
 				"dmg":"216 - 276",
 				"def":5,
