@@ -1048,7 +1048,7 @@
 		},
 		{
 			"group":"Fire Dragonsword",
-			"class":"dragon-pre mh1",
+			"class":"dragon-pre mh1","version":"1",
 			"highRank":true,
 			"tbody":[
 				{
@@ -1512,7 +1512,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status high-rank mh1",
+							"rowClass":"poison-status high-rank mh1","version":"1",
 							"name":"<b>Chrome Razor</b>",
 							"rare":5,
 							"damage":912,
@@ -2385,7 +2385,7 @@
 		},
 		{
 			"group":"Anvil Hammer",
-			"class":"high-rank mh1",
+			"class":"high-rank mh1","version":"1",
 			"tbody":[
 				{
 					"weapons":[
@@ -2434,7 +2434,7 @@
 		},
 		{
 			"group":"Gunhammer",
-			"class":"high-rank mh1 fire-pre",
+			"class":"high-rank mh1 fire-pre","version":"1",
 			"tbody":[
 				{
 					"bodyClass":"fire-pre",
@@ -2474,7 +2474,7 @@
 		},
 		{
 			"group":"Dragon Destroyer",
-			"class":"high-rank mh1 dragon-pre",
+			"class":"high-rank mh1 dragon-pre","version":"1",
 			"tbody":[
 				{
 					"bodyClass":"dragon-pre",
@@ -2997,7 +2997,7 @@
 			"class":"thunder-pre dragon-pre poison-pre paralysis-pre sleep-pre",
 			"tbody":[
 				{
-					"bodyClass":"high-rank mh1 paralysis-pre",
+					"bodyClass":"high-rank mh1 paralysis-pre","version":"1",
 					"weapons":[
 						{
 							"rowClass":"rare-5 paralysis-status",
@@ -3020,7 +3020,7 @@
 					"bodyClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element mh1",
+							"rowClass":"thunder-element mh1","version":"1",
 							"name":"<b>Polytan</b>",
 							"rare":5,
 							"damage":519,
@@ -3834,7 +3834,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1",
+			"class":"high-rank mh1","version":"1",
 			"group":"Diablo Horn",
 			"tbody":[
 				{
@@ -3882,7 +3882,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 paralysis-pre",
+			"class":"high-rank mh1 paralysis-pre","version":"1",
 			"group":"Dark Lance",
 			"tbody":[
 				{
@@ -3964,7 +3964,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 poison-pre",
+			"class":"high-rank mh1 poison-pre","version":"1",
 			"group":"Venom Lance",
 			"tbody":[
 				{
@@ -4033,7 +4033,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 fire-pre",
+			"class":"high-rank mh1 fire-pre","version":"1",
 			"group":"Gunlance Prototype",
 			"tbody":[
 				{
@@ -4075,7 +4075,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 dragon-pre",
+			"class":"high-rank mh1 dragon-pre","version":"1",
 			"group":"Dragonlance",
 			"tbody":[
 				{
@@ -5508,7 +5508,7 @@
 		},
 		{
 			"group":"Studded Club",
-			"class":"high-rank mh1",
+			"class":"high-rank mh1","version":"1",
 			"tbody":[
 				{
 					"weapons":[
@@ -5558,7 +5558,7 @@
 		},
 		{
 			"group":"Thunderbane",
-			"class":"high-rank mh1 thunder-pre",
+			"class":"high-rank mh1 thunder-pre","version":"1",
 			"tbody":[
 				{
 					"bodyClass":"thunder-pre","branchStart":true,
@@ -5735,7 +5735,7 @@
 		},
 		{
 			"group":"Dragonbuster",
-			"class":"high-rank mh1 dragon-pre",
+			"class":"high-rank mh1 dragon-pre","version":"1",
 			"tbody":[
 				{
 					"bodyClass":"dragon-pre",
@@ -6377,7 +6377,7 @@
 			"group":"Others","other":true,
 			"tbody":[
 				{
-					"bodyClass":"mh1 water-pre",
+					"bodyClass":"mh1 water-pre","version":"1",
 					"weapons":[
 						{
 							"rowClass":"water-element high-rank",

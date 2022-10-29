@@ -29,7 +29,7 @@
 					<tr class="{{^dbLink}}rare-{{rare}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}}>
 						{{#dbLink}}
 							<td colspan="9">
-								<button id="{{sharpness}}" class="weapon-button"></button>
+								<button class="weapon-button" data-id="{{sharpness}}{{#version}}-{{version}}{{/version}}"></button>
 
 								&#8735;<a href="#{{dbLink}}" data-target="{{dbLink}}">{{name}}</a>
 							</td>
@@ -37,7 +37,7 @@
 
 						{{^dbLink}}
 						<td>
-							<button class="weapon-button" data-id="{{sharpness}}"></button>
+							<button class="weapon-button" data-id="{{sharpness}}{{#version}}-{{version}}{{/version}}"></button>
 
 							{{#other}}
 								{{{name}}}
