@@ -589,14 +589,18 @@ ready(() => {
 					}
 				}
 				else {
+					var baseMotionDamage, gMotionDamage;
+
 					if (trueDamage) {
-						element.innerHTML = (parseInt((trueDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+						baseMotionDamage = (parseInt((trueDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
+						gMotionDamage = (parseInt((trueDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
 					}
 					else {
-						var baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset.value1) / 100).toFixed(0);
-						var gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
-						element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
+						baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
+						gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
 					}
+
+					element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
 				}
 			});
 
@@ -702,7 +706,7 @@ ready(() => {
 		return bonus;
 	}
 	function getWeaponDamage(attack, category) {
-		var damage = parseInt(attack);
+		var damage = commaStringToNumber(attack);
 
 		if (category != "bowguns") {
 			damage *= getSharpnessModifier("raw");
