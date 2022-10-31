@@ -56,6 +56,46 @@ function renderAndWriteToFile(pageName, template, view, partials) {
 	});
 }
 
+function generateArmorDataJS() {
+	fs.readFile("_views/armor.json", "utf8", (err, data) => {
+		if (err) {
+			console.error(err);
+		}
+		else {
+			try {
+				const VERSIONS = ["1","g"];
+				const CATEGORIES = ["headgear","torso","arms","waist","legs"];
+
+				var armorData = {};
+				var rawData = JSON.parse(data);
+
+				VERSIONS.forEach((version) => {
+					var armorCategory = `armorData${version.toUpperCase()}`;
+					armorData[armorCategory] = {};
+
+					CATEGORIES.forEach((category) => {
+						var sourceKey = `${category}_${version}`;
+						armorData[armorCategory][category] = rawData[sourceKey];
+					});
+				});
+
+				var formattedData = `window.armorData1=${JSON.stringify(armorData.armorData1)};window.armorDataG=${JSON.stringify(armorData.armorDataG)}`;
+
+				fs.writeFile("public/js/armor_data.js", formattedData, {}, (err) => {
+					if (err) {
+						console.error("Error trying to write armor_data.js:", err);
+					}
+					else {
+						console.log("Armor Data written to file!");
+					}
+				});
+			}
+			catch (e) {
+				console.log("Error parsing armor json:", e);
+			}
+		}
+	});
+}
 function generateWeaponsDataJS() {
 	fs.readFile("_views/weapons.json", "utf8", (err, data) => {
 		if (err) {
@@ -243,11 +283,12 @@ function buildPage(pageName, partials) {
 	});
 }
 
+generateArmorDataJS();
 generateWeaponsDataJS();
 
 buildPage("index");
 buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
-buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row","armor_data"]);
+buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row"]);
 buildPage("bestiary");
 buildPage("armor_skills");
 buildPage("items");

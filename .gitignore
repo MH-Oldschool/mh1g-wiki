@@ -21,4 +21,5 @@ node_modules/
 
 # Compiled Stuff
 public/*.html
+public/js/armor_data.js
 public/js/weapon_data.js
