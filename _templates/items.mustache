@@ -1,8 +1,8 @@
 {{> head}}
 
 <article class="shops">
-	<details open>
-		<summary><span class="gray-icon egg-icon"></span>Shops</summary>
+	<details>
+		<summary><span class="orange-icon coin-icon"></span>Shops</summary>
 		<section class="shop-grid">
 			{{#shops}}
 				<div class="shop-container">
@@ -93,6 +93,45 @@
 				{{/combosAlchemy}}
 			</tbody>
 		</table>
+	</details>
+</article>
+
+<article class="veggie-elder-trades">
+	<details>
+		<summary><span class="green-icon mystery-icon"></span>Veggie Elder Trades</summary>
+
+		{{#trades}}
+			<details>
+				<summary><span class="{{color}}-icon map-icon"></span>{{name}}</summary>
+
+				<table>
+					<thead>
+						<tr>
+							<th>Trade Item</th>
+							<th>Common Result (80%)</th>
+							<th>Rare Result (20%)</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#mh1}}
+							<tr class="mh1">
+								{{#items}}
+									<td>{{.}}</td>
+								{{/items}}
+							</tr>
+						{{/mh1}}
+
+						{{#mhg}}
+							<tr class="mhg">
+								{{#items}}
+									<td>{{.}}</td>
+								{{/items}}
+							</tr>
+						{{/mhg}}
+					</tbody>
+				</table>
+			</details>
+		{{/trades}}
 	</details>
 </article>
 
