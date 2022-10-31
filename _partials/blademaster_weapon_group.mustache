@@ -26,10 +26,10 @@
 		{{#tbody}}
 			<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}} class="{{bodyClass}}"{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
 				{{#weapons}}
-					<tr class="{{^dbLink}}rare-{{rare}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}}>
+					<tr class="{{^dbLink}}rarity-{{rarity}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}}>
 						{{#dbLink}}
 							<td colspan="9">
-								<button class="weapon-button" data-id="{{sharpness}}{{#version}}-{{version}}{{/version}}"></button>
+								<button class="weapon-button" data-id="{{sharpness}}"></button>
 
 								&#8735;<a href="#{{dbLink}}" data-target="{{dbLink}}">{{name}}</a>
 							</td>
@@ -37,14 +37,14 @@
 
 						{{^dbLink}}
 						<td>
-							<button class="weapon-button" data-id="{{sharpness}}{{#version}}-{{version}}{{/version}}"></button>
+							<button class="weapon-button" data-id="{{sharpness}}"></button>
 
 							{{#other}}
 								{{{name}}}
 							{{/other}}
 
 							{{^other}}
-								{{#gBranch}}
+								{{#branchG}}
 									<span class="mh1">
 										{{^branchBend}}
 											{{^branchStart}}| {{/branchStart}}
@@ -52,15 +52,15 @@
 										{{#branchBend}}&#8735;{{/branchBend}}
 										{{{name}}}
 									</span>
-									<button class="branch-button mhg" data-target="{{gBranch}}">
+									<button class="branch-button mhg" data-target="{{branchG}}">
 										{{^branchBend}}
 											{{^branchStart}}| {{/branchStart}}
 										{{/branchBend}}
 										{{#branchBend}}&#8735;{{/branchBend}}
 										{{{name}}}
-								{{/gBranch}}
+								{{/branchG}}
 
-								{{^gBranch}}
+								{{^branchG}}
 									{{#branch}}
 										<button class="branch-button" data-target="{{branch}}">
 									{{/branch}}
@@ -69,53 +69,58 @@
 										{{^branchStart}}| {{/branchStart}}
 									{{/branchBend}}
 									{{#branchBend}}
-										{{#baseBranchBend}}
+										{{#branchBend1}}
 											<span class="mh1">
-										{{/baseBranchBend}}
+										{{/branchBend1}}
 											&#8735;
-										{{#baseBranchBend}}
+										{{#branchBend1}}
 											</span>
 											<span class="mhg">| </span>
-										{{/baseBranchBend}}
+										{{/branchBend1}}
 									{{/branchBend}}
 
 									{{{name}}}
-								{{/gBranch}}
+								{{/branchG}}
 							{{/other}}
 
 							{{#gOnly}}<sup title="MHG Only">G</sup>{{/gOnly}}
 							{{#dev}}<sup title="Dev Only">Dev</sup>{{/dev}}
 
 							{{#branch}}</button>{{/branch}}
-							{{#gBranch}}</button>{{/gBranch}}
+							{{#branchG}}</button>{{/branchG}}
 						</td>
 						<td>
-							{{rare}}
-							{{^rare}}
-								<span class="mh1">{{rare1}}</span>
-								<span class="mhg">{{rareG}}</span>
-							{{/rare}}
+							{{rarity}}
+							{{^rarity}}
+								<span class="mh1">{{rarity1}}</span>
+								<span class="mhg">{{rarityG}}</span>
+							{{/rarity}}
 						</td>
 						<td>
 							{{damage}}
-							{{#baseDamage}}<span class="mh1">{{baseDamage}}</span>{{/baseDamage}}
-							{{#gDamage}}<span class="mhg">{{gDamage}}</span>{{/gDamage}}
+							{{#damage1}}<span class="mh1">{{damage1}}</span>{{/damage1}}
+							{{#damageG}}<span class="mhg">{{damageG}}</span>{{/damageG}}
 						</td>
 						<td>
 							{{#attribute}}
 								<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
 								{{attributeValue}}
-								{{#baseAttribute}}<span class="mh1">{{baseAttribute}}</span>{{/baseAttribute}}
-								{{#gAttribute}}<span class="mhg">{{gAttribute}}</span>{{/gAttribute}}
+								{{#attributeValue1}}<span class="mh1">{{attributeValue1}}</span>{{/attributeValue1}}
+								{{#attributeValueG}}<span class="mhg">{{attributeValueG}}</span>{{/attributeValueG}}
 							{{/attribute}}
 
 							{{^attribute}}
-								{{^baseAttribute}}-{{/baseAttribute}}
+								{{^attributeValue1}}-{{/attributeValue1}}
 							{{/attribute}}
 						</td>
 						<td>
 							{{defense}}
-							{{^defense}}-{{/defense}}
+							{{^defense}}
+								{{#defense1}}<span class="mh1">{{defense1}}</span>{{/defense1}}
+								{{#defenseG}}<span class="mhg">{{defenseG}}</span>{{/defenseG}}
+
+								{{^defense1}}-{{/defense1}}
+							{{/defense}}
 						</td>
 						<td class="sharpness-cell">
 							<div class="sharpness-container">
@@ -126,10 +131,10 @@
 							{{#buy}}({{buy}}z) {{/buy}}
 							{{#price}}{{price}}z{{/price}}
 							{{^price}}
-								{{#basePrice}}<span class="mh1">{{basePrice}}z</span>{{/basePrice}}
-								{{#gPrice}}<span class="mhg">{{gPrice}}z</span>{{/gPrice}}
+								{{#price1}}<span class="mh1">{{price1}}z</span>{{/price1}}
+								{{#priceG}}<span class="mhg">{{priceG}}z</span>{{/priceG}}
 
-								{{^basePrice}}---{{/basePrice}}
+								{{^price1}}---{{/price1}}
 							{{/price}}
 						</td>
 						{{^other}}
@@ -141,17 +146,17 @@
 
 							{{^upgrade}}
 								<span class="mh1">
-									{{#baseUpgrade}}
+									{{#upgrade1}}
 										{{>material}}
-									{{/baseUpgrade}}
+									{{/upgrade1}}
 								</span>
 								<span class="mhg">
-									{{#gUpgrade}}
+									{{#upgradeG}}
 										{{>material}}
-									{{/gUpgrade}}
+									{{/upgradeG}}
 								</span>
 
-								{{^baseUpgrade}}-{{/baseUpgrade}}
+								{{^upgrade1}}-{{/upgrade1}}
 							{{/upgrade}}
 						</td>
 						{{/other}}
@@ -162,18 +167,18 @@
 
 							{{^forge}}
 								<span class="mh1">
-									{{#baseForge}}
+									{{#forge1}}
 										{{>material}}
-									{{/baseForge}}
+									{{/forge1}}
 								</span>
 								<span class="mhg">
-									{{#gForge}}
+									{{#forgeG}}
 										{{>material}}
-									{{/gForge}}
+									{{/forgeG}}
 								</span>
 
 								{{^acquire}}
-									{{^baseForge}}-{{/baseForge}}
+									{{^forge1}}-{{/forge1}}
 								{{/acquire}}
 							{{/forge}}
 

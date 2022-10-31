@@ -349,12 +349,12 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 	line-height: 1rem;
 }
 
-.rare-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
-.rare-5 { background: rgba(255,176,176,0.2) /* #ffb0b0 */ }
-.rare-6 { background: rgba(192,208,255,0.2) /* #c0d0ff */ }
-.rare-7 { background: rgba(255,208,128,0.2) /* #ffd080 */ }
+.rarity-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
+.rarity-5 { background: rgba(255,176,176,0.2) /* #ffb0b0 */ }
+.rarity-6 { background: rgba(192,208,255,0.2) /* #c0d0ff */ }
+.rarity-7 { background: rgba(255,208,128,0.2) /* #ffd080 */ }
 /* version-specific rarity */
-.show-1 .rare-1-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
+.show-1 .rarity-1-4 { background: rgba(160,255,160,0.2) /* #a0ffa0 */ }
 
 /* Quest Background */
 .hunt-quest { background: linear-gradient(0.375turn, #983b32, #725533 25%); }

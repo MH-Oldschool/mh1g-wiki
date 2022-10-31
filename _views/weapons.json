@@ -18,15 +18,15 @@
 						{
 							"class":"thunder-pre",
 							"name":"<b>Iron Sword</b>","branchStart":true,
-							"rare":1,
+							"rarity":1,
 							"damage":288,
 							"sharpness":"sharpness_gs/iron_sword",
 							"buy":"2,100",
 							"price":"1,050",
-							"baseForge":[
+							"forge1":[
 								{"n":"Iron Ore","q":3}
 							],
-							"gForge":[
+							"forgeG":[
 								{"n":"Iron Ore","q":2}
 							]
 						},
@@ -34,7 +34,7 @@
 							"class":"thunder-pre",
 							"branch":"iron-katana",
 							"name":"Iron Sword+",
-							"rare":1,
+							"rarity":1,
 							"damage":336,
 							"sharpness":"sharpness_gs/iron_sword+",
 							"price":"1,350",
@@ -50,7 +50,7 @@
 						{
 							"rowClass":"thunder-pre",
 							"name":"Iron Katana",
-							"rare":2,
+							"rarity":2,
 							"damage":480,
 							"sharpness":"sharpness_gs/iron_katana",
 							"price":"2,850",
@@ -62,7 +62,7 @@
 						{
 							"rowClass":"thunder-pre",
 							"name":"Iron Katana \"Grace\"",
-							"rare":2,
+							"rarity":2,
 							"damage":528,
 							"sharpness":"sharpness_gs/iron_katana_grace",
 							"price":"3,450",
@@ -74,7 +74,7 @@
 						{
 							"rowClass":"thunder-pre",
 							"name":"Iron Katana \"Gospel\"",
-							"rare":2,
+							"rarity":2,
 							"damage":624,
 							"sharpness":"sharpness_gs/iron_katana_gospel",
 							"price":"4,350",
@@ -84,9 +84,9 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element rare-1-4 rare-g-3",
+							"rowClass":"thunder-element rarity-1-4 rarity-g-3",
 							"name":"<b>Eager Cleaver</b>","branchBend":true,
-							"rare1":4,"rareG":3,
+							"rarity1":4,"rarityG":3,
 							"damage":720,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":460,
 							"sharpness":"sharpness_gs/eager_cleaver",
@@ -109,7 +109,7 @@
 					"weapons":[
 						{
 							"name":"<b>Buster Sword</b>",
-							"rare":1,
+							"rarity":1,
 							"damage":384,
 							"sharpness":"sharpness_gs/buster_sword",
 							"price":"1,650",
@@ -125,7 +125,7 @@
 						},
 						{
 							"name":"Buster Sword+",
-							"rare":1,
+							"rarity":1,
 							"damage":432,
 							"sharpness":"sharpness_gs/buster_sword+",
 							"price":"2,250",
@@ -137,7 +137,7 @@
 						{
 							"branch":"defender",
 							"name":"Buster Blade",
-							"rare":1,
+							"rarity":1,
 							"damage":480,
 							"sharpness":"sharpness_gs/buster_blade",
 							"price":"2,850",
@@ -153,7 +153,7 @@
 					"weapons":[
 						{
 							"name":"Defender",
-							"rare":2,
+							"rarity":2,
 							"damage":528,
 							"defense":3,
 							"sharpness":"sharpness_gs/defender",
@@ -165,7 +165,7 @@
 						},
 						{
 							"name":"Defender+",
-							"rare":2,
+							"rarity":2,
 							"damage":576,
 							"defense":6,
 							"sharpness":"sharpness_gs/defender+",
@@ -178,7 +178,7 @@
 						},
 						{
 							"name":"Sentinel","branchBend":true,
-							"rare":2,
+							"rarity":2,
 							"damage":672,
 							"defense":10,
 							"sharpness":"sharpness_gs/sentinel",
@@ -195,7 +195,7 @@
 					"weapons":[
 						{
 							"name":"Ravager Blade",
-							"rare":2,
+							"rarity":2,
 							"damage":528,
 							"sharpness":"sharpness_gs/ravager_blade",
 							"price":"3,450",
@@ -208,7 +208,7 @@
 						{
 							"branch":"tactical-blade",
 							"name":"Ravager Blade+",
-							"rare":2,
+							"rarity":2,
 							"damage":576,
 							"sharpness":"sharpness_gs/ravager_blade+",
 							"price":"4,350",
@@ -225,7 +225,7 @@
 					"weapons":[
 						{
 							"name":"<b>Tactical Blade</b>","branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":816,
 							"defense":3,
 							"sharpness":"sharpness_gs/tactical_blade",
@@ -248,7 +248,7 @@
 					"weapons":[
 						{
 							"name":"Lacerator",
-							"rare":2,
+							"rarity":2,
 							"damage":624,
 							"defense":1,
 							"sharpness":"sharpness_gs/lacerator",
@@ -261,7 +261,7 @@
 						},
 						{
 							"name":"Lacerator+","branchBend":true,
-							"rare":2,
+							"rarity":2,
 							"damage":720,
 							"defense":2,
 							"sharpness":"sharpness_gs/lacerator+",
@@ -287,7 +287,7 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"<b>Bone Blade</b>","branchStart":true,
-							"rare":1,
+							"rarity":1,
 							"damage":336,
 							"sharpness":"sharpness_gs/bone_blade",
 							"buy":"2,700",
@@ -300,7 +300,7 @@
 							"rowClass":"fire-pre",
 							"branch":"serpentblade",
 							"name":"Bone Blade+",
-							"rare":1,
+							"rarity":1,
 							"damage":432,
 							"sharpness":"sharpness_gs/bone_blade+",
 							"price":"2,250",
@@ -315,7 +315,7 @@
 					"weapons":[
 						{
 							"name":"Serpentblade",
-							"rare":2,
+							"rarity":2,
 							"damage":480,
 							"sharpness":"sharpness_gs/serpentblade",
 							"price":"2,250",
@@ -327,7 +327,7 @@
 						},
 						{
 							"name":"Vile Serpentblade",
-							"rare":2,
+							"rarity":2,
 							"damage":528,
 							"sharpness":"sharpness_gs/vile_serpentblade",
 							"price":"2,850",
@@ -339,7 +339,7 @@
 						},
 						{
 							"name":"Great Serpentblade","branchBend":true,
-							"rare":2,
+							"rarity":2,
 							"damage":624,
 							"sharpness":"sharpness_gs/great_serpentblade",
 							"price":"4,350",
@@ -357,7 +357,7 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"<b>Agito</b>",
-							"rare":1,
+							"rarity":1,
 							"damage":480,
 							"sharpness":"sharpness_gs/agito",
 							"price":"2,850",
@@ -375,7 +375,7 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"Agito+",
-							"rare":1,
+							"rarity":1,
 							"damage":528,
 							"sharpness":"sharpness_gs/agito+",
 							"price":"3,450",
@@ -388,7 +388,7 @@
 							"rowClass":"fire-pre",
 							"branch":"redwing",
 							"name":"Dragon Agito",
-							"rare":1,
+							"rarity":1,
 							"damage":576,
 							"sharpness":"sharpness_gs/dragon_agito",
 							"price":"4,350",
@@ -405,7 +405,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Redwing",
-							"rare":3,
+							"rarity":3,
 							"damage":624,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":330,
 							"sharpness":"sharpness_gs/redwing",
@@ -419,7 +419,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Rathalos Firesword","branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":672,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":480,
 							"sharpness":"sharpness_gs/rathalos_firesword",
@@ -437,7 +437,7 @@
 					"weapons":[
 						{
 							"name":"Golem Blade",
-							"rare":2,
+							"rarity":2,
 							"damage":624,
 							"sharpness":"sharpness_gs/golem_blade",
 							"price":"5,250",
@@ -449,7 +449,7 @@
 						{
 							"branch":"siegmund",
 							"name":"Golem Blade+",
-							"rare":2,
+							"rarity":2,
 							"damage":672,
 							"sharpness":"sharpness_gs/golem_blade+",
 							"price":"6,150",
@@ -466,7 +466,7 @@
 					"weapons":[
 						{
 							"name":"Siegmund","branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":864,
 							"defense":1,
 							"sharpness":"sharpness_gs/siegmund",
@@ -480,7 +480,7 @@
 						{
 							"rowClass":"dragon-element mhg g-rank",
 							"name":"Auberon","gOnly":true,"branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":816,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":180,
 							"sharpness":"sharpness_gs/auberon",
@@ -497,7 +497,7 @@
 					"weapons":[
 						{
 							"name":"Valkyrie Blade",
-							"rare":2,
+							"rarity":2,
 							"damage":720,
 							"sharpness":"sharpness_gs/valkyrie_blade",
 							"price":"7,350",
@@ -515,7 +515,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Titania","gOnly":true,"branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":768,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":220,
 							"sharpness":"sharpness_gs/titania",
@@ -532,7 +532,7 @@
 					"weapons":[
 						{
 							"name":"Sieglinde","branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":816,
 							"defense":2,
 							"sharpness":"sharpness_gs/sieglinde",
@@ -554,7 +554,7 @@
 					"weapons":[
 						{
 							"name":"<b>Bone</b>","branchStart":true,
-							"rare":1,
+							"rarity":1,
 							"damage":384,
 							"sharpness":"sharpness_gs/bone",
 							"price":"600",
@@ -564,7 +564,7 @@
 						},
 						{
 							"name":"Large Bone","branchBend":true,
-							"rare":1,
+							"rarity":1,
 							"damage":576,
 							"sharpness":"sharpness_gs/large_bone",
 							"price":"750",
@@ -586,7 +586,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"<b>Finblade</b>","branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":480,
 							"attribute":"water","attributeAlt":"Water","attributeValue":280,
 							"sharpness":"sharpness_gs/finblade",
@@ -601,7 +601,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Finblade+",
-							"rare":4,
+							"rarity":4,
 							"damage":624,
 							"attribute":"water","attributeAlt":"Water","attributeValue":340,
 							"sharpness":"sharpness_gs/finblade+",
@@ -614,8 +614,8 @@
 						},
 						{
 							"rowClass":"water-element",
-							"name":"Plesioth Water Sword","branchBend":true,"baseBranchBend":true,
-							"rare":4,
+							"name":"Plesioth Water Sword","branchBend":true,"branchBend1":true,
+							"rarity":4,
 							"damage":768,
 							"attribute":"water","attributeAlt":"Water","attributeValue":460,
 							"sharpness":"sharpness_gs/plesioth_water_sword",
@@ -629,7 +629,7 @@
 						{
 							"rowClass":"water-element g-rank mhg",
 							"name":"Plesioth Azureblade","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":864,
 							"attribute":"water","attributeAlt":"Water","attributeValue":620,
 							"sharpness":"sharpness_gs/plesioth_azureblade",
@@ -651,7 +651,7 @@
 					"weapons":[
 						{
 							"name":"<b>Rusted Great Sword</b>","branchStart":true,
-							"rare":1,
+							"rarity":1,
 							"damage":240,
 							"sharpness":"sharpness_gs/rusted_great_sword",
 							"price":"1,000",
@@ -661,7 +661,7 @@
 						},
 						{
 							"name":"Tarnished Great Sword",
-							"rare":1,
+							"rarity":1,
 							"damage":288,
 							"sharpness":"sharpness_gs/tarnished_great_sword",
 							"price":"5,000",
@@ -671,7 +671,7 @@
 						},
 						{
 							"name":"Legendary Great Sword",
-							"rare":5,
+							"rarity":5,
 							"damage":864,
 							"sharpness":"sharpness_gs/legendary_great_sword",
 							"price":"30,000",
@@ -681,7 +681,7 @@
 						},
 						{
 							"name":"Ancient Blade","branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":912,
 							"sharpness":"sharpness_gs/ancient_blade",
 							"price":"60,000",
@@ -702,10 +702,10 @@
 					"bodyClass":"thunder-pre-g dragon-pre-g",
 					"weapons":[
 						{
-							"class":"rare-4 thunder-pre",
+							"class":"rarity-4 thunder-pre",
 							"branch":"black-katana",
 							"name":"<b>Bone Katana \"Wolf\"</b>","branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":624,
 							"sharpness":"sharpness_gs/bone_katana_wolf",
 							"price":"5,250",
@@ -722,7 +722,7 @@
 					"weapons":[
 						{
 							"name":"Black Katana Mk.I",
-							"rare":4,
+							"rarity":4,
 							"damage":720,
 							"defense":1,
 							"sharpness":"sharpness_gs/black_katana_1",
@@ -735,7 +735,7 @@
 						},
 						{
 							"name":"Black Katana Mk.II","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":912,
 							"defense":3,
 							"sharpness":"sharpness_gs/black_katana_2",
@@ -754,8 +754,8 @@
 						{
 							"rowClass":"thunder-pre-g dragon-pre-g",
 							"name":"Bone Katana \"Shark\"",
-							"gBranch":".dragonsword",
-							"rare":4,
+							"branchG":".dragonsword",
+							"rarity":4,
 							"damage":720,
 							"sharpness":"sharpness_gs/bone_katana_shark",
 							"price":"6,150",
@@ -773,12 +773,12 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Fire Dragonsword</b>",
-							"rare":5,
-							"damage":768,
+							"rarity":5,
+							"damageG":768,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":260,
 							"sharpness":"sharpness_gs/fire_dragonsword",
 							"price":"20,550",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Lao-Shan Horn","q":1},
 								{"n":"Firestone","q":8},
 								{"n":"Commendation","q":2}
@@ -793,9 +793,9 @@
 							"rowClass":"dragon-element",
 							"branch":"smolder-dragonsword",
 							"name":"Red Dragonsword",
-							"rare":5,
-							"damage":960,
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":380,
+							"rarity":5,
+							"damageG":960,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValueG":380,
 							"sharpness":"sharpness_gs/red_dragonsword",
 							"price":"87,750",
 							"upgrade":[
@@ -812,7 +812,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Smolder Dragonsword","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":864,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":680,
 							"sharpness":"sharpness_gs/smolder_dragonsword",
@@ -831,7 +831,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Inferno Dragonsword","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,008",
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":480,
 							"sharpness":"sharpness_gs/inferno_dragonsword",
@@ -850,8 +850,8 @@
 						{
 							"rowClass":"thunder-pre-g",
 							"name":"Bone Katana \"Dragon\"",
-							"gBranch":"devil-slicer",
-							"rare":4,
+							"branchG":"devil-slicer",
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/bone_katana_dragon",
 							"price":"7,350",
@@ -868,7 +868,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Devil Slicer","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":912,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":560,
 							"sharpness":"sharpness_gs/devil_slicer",
@@ -885,7 +885,7 @@
 					"weapons":[
 						{
 							"name":"<b>Divine Slasher</b>","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":960,
 							"sharpness":"sharpness_gs/divine_slasher",
 							"price":"100,000",
@@ -914,7 +914,7 @@
 					"weapons":[
 						{
 							"name":"<b>Halberd</b>","branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":864,
 							"sharpness":"sharpness_gs/halberd",
 							"price":"3,450",
@@ -926,7 +926,7 @@
 						},
 						{
 							"name":"Halberd+",
-							"rare":4,
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/halberd+",
 							"price":"4,350",
@@ -938,7 +938,7 @@
 						},
 						{
 							"name":"Judgement",
-							"rare":4,
+							"rarity":4,
 							"damage":768,
 							"sharpness":"sharpness_gs/judgement",
 							"price":"5,250",
@@ -950,7 +950,7 @@
 						},
 						{
 							"name":"Executioner",
-							"rare":4,
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/executioner",
 							"price":"9,750",
@@ -962,8 +962,8 @@
 						},
 						{
 							"name":"Executioner+",
-							"gBranch":"executioners-axe",
-							"rare":4,
+							"branchG":"executioners-axe",
+							"rarity":4,
 							"damage":864,
 							"sharpness":"sharpness_gs/executioner+",
 							"price":"11,550",
@@ -980,7 +980,7 @@
 					"weapons":[
 						{
 							"name":"Executioner's Axe","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,056",
 							"sharpness":"sharpness_gs/executioners_axe",
 							"price":"48,000",
@@ -996,8 +996,8 @@
 					"weapons":[
 						{
 							"name":"Dark Scythe",
-							"gBranch":"sickle-sword",
-							"rare":4,
+							"branchG":"sickle-sword",
+							"rarity":4,
 							"damage":912,
 							"sharpness":"sharpness_gs/dark_scythe",
 							"price":"13,350",
@@ -1015,7 +1015,7 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Sickle Sword","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,104",
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":320,
 							"sharpness":"sharpness_gs/sickle_sword",
@@ -1032,7 +1032,7 @@
 					"weapons":[
 						{
 							"name":"Tormentor","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":960,
 							"sharpness":"sharpness_gs/tormentor",
 							"price":"15,750",
@@ -1048,7 +1048,7 @@
 		},
 		{
 			"group":"Fire Dragonsword",
-			"class":"dragon-pre mh1","version":"1",
+			"class":"dragon-pre mh1",
 			"highRank":true,
 			"tbody":[
 				{
@@ -1057,8 +1057,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Fire Dragonsword</b>","branchStart":true,
-							"rare":5,
-							"damage":864,
+							"rarity":5,
+							"damage1":864,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":260,
 							"sharpness":"sharpness_gs/fire_dragonsword",
 							"price":"20,550",
@@ -1071,9 +1071,9 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Red Dragonsword","branchBend":true,
-							"rare":5,
-							"damage":960,
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":480,
+							"rarity":5,
+							"damage1":960,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":480,
 							"sharpness":"sharpness_gs/red_dragonsword",
 							"price":"87,750",
 							"upgrade":[
@@ -1097,8 +1097,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragonslayer</b>","branchStart":true,
-							"rare":4,
-							"baseDamage":672,"gDamage":576,
+							"rarity":4,
+							"damage1":672,"damageG":576,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":330,
 							"sharpness":"sharpness_gs/dragonslayer",
 							"price":"50,000",
@@ -1112,9 +1112,9 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragon Massacre",
-							"rare":4,
-							"baseDamage":768,"gDamage":624,
-							"attribute":"dragon","attributeAlt":"Dragon","baseAttribute":520,"gAttribute":460,
+							"rarity":4,
+							"damage1":768,"damageG":624,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":520,"attributeValueG":460,
 							"sharpness":"sharpness_gs/dragon_massacre",
 							"price":"100,000",
 							"upgrade":[
@@ -1124,18 +1124,18 @@
 						},
 						{
 							"rowClass":"dragon-element",
-							"name":"Eternal Annihilator","branchBend":true,"baseBranchBend":true,
-							"rare":5,
-							"baseDamage":912,"gDamage":672,
-							"attribute":"dragon","attributeAlt":"Dragon","baseAttribute":430,"gAttribute":520,
+							"name":"Eternal Annihilator","branchBend":true,"branchBend1":true,
+							"rarity":5,
+							"damage1":912,"damageG":672,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":430,"attributeValueG":520,
 							"sharpness":"sharpness_gs/eternal_annihilator",
 							"price":"150,000",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Silver Ticket","q":5},
 								{"n":"Wyvern Fang","q":99},
 								{"n":"Wyvern Claw","q":99}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Silver Ticket","q":5},
 								{"n":"Wyvern Fang","q":99},
 								{"n":"Wyvern Claw","q":50}
@@ -1144,7 +1144,7 @@
 						{
 							"rowClass":"dragon-element g-rank mhg",
 							"name":"Eternal Eradicator","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":768,
 							"attribute":"dragon","attritubeAlt":"Dragon","attributeValue":840,
 							"sharpness":"sharpness_gs/eternal_eradicator",
@@ -1171,7 +1171,7 @@
 							"rowClass":"fire-pre",
 							"branch":"silverfang-serpentblade",
 							"name":"<b>Origin Sword G</b>","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":720,
 							"sharpness":"sharpness_gs/g_sword_origin",
 							"price":"7,350",
@@ -1187,7 +1187,7 @@
 					"weapons":[
 						{
 							"name":"Silverfang Serpentblade","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":816,
 							"sharpness":"sharpness_gs/silverfang_serpentblade",
 							"price":"9,750",
@@ -1199,7 +1199,7 @@
 						},
 						{
 							"name":"Golden Serpentblade","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":864,
 							"sharpness":"sharpness_gs/golden_serpentblade",
 							"price":"11,550",
@@ -1218,7 +1218,7 @@
 							"rowClass":"fire-pre",
 							"branch":"iron-sword-g",
 							"name":"Origin Sword G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":768,
 							"sharpness":"sharpness_gs/g_sword_origin+",
 							"price":"8,550",
@@ -1234,7 +1234,7 @@
 					"weapons":[
 						{
 							"name":"Iron Sword G","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/iron_sword_g",
 							"price":"9,750",
@@ -1245,7 +1245,7 @@
 						},
 						{
 							"name":"Iron Sword G+","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":864,
 							"sharpness":"sharpness_gs/iron_sword_g+",
 							"price":"11,550",
@@ -1263,7 +1263,7 @@
 							"rowClass":"fire-pre-g",
 							"branch":"kaiser-sword",
 							"name":"Bone Sword G","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/bone_sword_g",
 							"price":"9,750",
@@ -1280,7 +1280,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Kaiser Sword","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":912,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":120,
 							"sharpness":"sharpness_gs/kaiser_sword",
@@ -1294,7 +1294,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Pale Kaiser","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,056",
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":230,
 							"sharpness":"sharpness_gs/pale_kaiser",
@@ -1314,7 +1314,7 @@
 							"rowClass":"fire-pre-g",
 							"branch":"rathalos-firesword",
 							"name":"Bone Sword G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":816,
 							"sharpness":"sharpness_gs/bone_sword_g+",
 							"price":"9,750",
@@ -1331,7 +1331,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Rathalos Firesword+","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":912,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":560,
 							"sharpness":"sharpness_gs/rathalos_firesword+",
@@ -1350,7 +1350,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Shining Rathalos Sword","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":816,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":640,
 							"sharpness":"sharpness_gs/shining_rathalos_sword",
@@ -1369,7 +1369,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Blushing Dame","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,008",
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":380,
 							"sharpness":"sharpness_gs/blushing_dame",
@@ -1387,7 +1387,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"True Dragon's Jaw","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,008",
 							"sharpness":"sharpness_gs/true_dragons_jaw",
 							"price":"15,750",
@@ -1411,9 +1411,9 @@
 						{
 							"rowClass":"poison-status",
 							"name":"<b>Chrome Razor","branchStart":true,
-							"rare":5,
+							"rarity":5,
 							"damage":912,
-							"attribute":"poison","attributeAlt":"Poison","attributeValue":320,
+							"attribute":"poison","attributeAlt":"Poison","attributeValueG":320,
 							"sharpness":"sharpness_gs/chrome_razor",
 							"price":"100,000",
 							"forge":[
@@ -1426,7 +1426,7 @@
 						{
 							"rowClass":"poison-status g-rank",
 							"name":"Chrome Death Razor","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,008",
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":620,
 							"sharpness":"sharpness_gs/chrome_death_razor",
@@ -1449,7 +1449,7 @@
 					"weapons":[
 						{
 							"name":"<b>Worn Great Sword</b>","gOnly":true,"branchStart":true,
-							"rare":6,
+							"rarity":6,
 							"damage":720,
 							"sharpness":"sharpness_gs/worn_great_sword",
 							"price":"6,000",
@@ -1459,7 +1459,7 @@
 						},
 						{
 							"name":"Weathered Great Sword","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":816,
 							"sharpness":"sharpness_gs/weathered_great_sword",
 							"price":"25,000",
@@ -1469,7 +1469,7 @@
 						},
 						{
 							"name":"Antique Great Sword","gOnly":true,
-							"rare":7,
+							"rarity":7,
 							"damage":912,
 							"sharpness":"sharpness_gs/antique_great_sword",
 							"price":"40,000",
@@ -1479,7 +1479,7 @@
 						},
 						{
 							"name":"Epitaph Blade","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,056",
 							"sharpness":"sharpness_gs/epitaph_blade",
 							"price":"75,000",
@@ -1493,15 +1493,15 @@
 		},
 		{
 			"group":"Others","other":true,
-			"class":"water-pre poison-pre-base fire-pre-g thunder-pre-g",
+			"class":"water-pre poison-pre-1 fire-pre-g thunder-pre-g",
 			"tbody":[
 				{
-					"bodyClass":"water-pre poison-pre-base",
+					"bodyClass":"water-pre poison-pre-1",
 					"weapons":[
 						{
 							"rowClass":"water-element high-rank",
 							"name":"<b>Frozen Tuna</b>",
-							"rare":5,
+							"rarity":5,
 							"damage":480,
 							"attribute":"water","attributeAlt":"Water","attributeValue":330,
 							"sharpness":"sharpness_gs/frozen_tuna",
@@ -1512,11 +1512,11 @@
 							]
 						},
 						{
-							"rowClass":"poison-status high-rank mh1","version":"1",
+							"rowClass":"poison-status high-rank mh1",
 							"name":"<b>Chrome Razor</b>",
-							"rare":5,
+							"rarity":5,
 							"damage":912,
-							"attribute":"poison","attributeAlt":"Poison","attributeValue":420,
+							"attribute":"poison","attributeAlt":"Poison","attributeValue1":420,
 							"sharpness":"sharpness_gs/chrome_razor",
 							"price":"100,000",
 							"forge":[
@@ -1533,7 +1533,7 @@
 					"weapons":[
 						{
 							"name":"<b>G Blade</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":"1,056",
 							"sharpness":"sharpness_gs/g_blade",
 							"price":"25,000",
@@ -1547,7 +1547,7 @@
 						{
 							"rowClass":"fire-element g-rank",
 							"name":"<b>Barbaroi Blade</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":624,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":710,
 							"sharpness":"sharpness_gs/barbaroi_blade",
@@ -1560,7 +1560,7 @@
 						},
 						{
 							"name":"<b>Black Belt Blade</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":816,
 							"defense":5,
 							"sharpness":"sharpness_gs/black_belt_blade",
@@ -1575,7 +1575,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"<b>Tatsujin Blade</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"960",
 							"defense":8,
 							"sharpness":"sharpness_gs/tatsujin_blade",
@@ -1590,7 +1590,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"<b>Sieglinde G</b>","gOnly":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,104",
 							"defense":4,
 							"sharpness":"sharpness_gs/sieglinde_g",
@@ -1604,7 +1604,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"<b>Siegmund G</b>","gOnly":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,152",
 							"defense":2,
 							"sharpness":"sharpness_gs/siegmund_g",
@@ -1619,7 +1619,7 @@
 							"dev":true,
 							"rowClass":"thunder-element",
 							"name":"Serial Edge",
-							"rare":7,
+							"rarity":7,
 							"damage":"1,152",
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":580,
 							"sharpness":"sharpness_gs/serial_edge"
@@ -1641,8 +1641,8 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"<b>Iron Hammer</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":311,"gDamage":312,
+							"rarity":1,
+							"damage1":311,"damageG":312,
 							"sharpness":"sharpness_h/iron_hammer",
 							"buy":"2,940",
 							"price":"1,470",
@@ -1654,8 +1654,8 @@
 							"rowClass":"poison-pre",
 							"branch":".iron-hammers",
 							"name":"Iron Hammer+",
-							"rare":1,
-							"baseDamage":363,"gDamage":364,
+							"rarity":1,
+							"damage1":363,"damageG":364,
 							"sharpness":"sharpness_h/iron_hammer+",
 							"price":"1,890",
 							"upgrade":[
@@ -1670,8 +1670,8 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"Spiked Hammer","branchBend":true,
-							"rare":2,
-							"baseDamage":519,"gDamage":520,
+							"rarity":2,
+							"damage1":519,"damageG":520,
 							"sharpness":"sharpness_h/spiked_hammer",
 							"price":"4,830",
 							"upgrade":[
@@ -1688,8 +1688,8 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"Spiked Hammer+",
-							"rare":2,
-							"baseDamage":571,"gDamage":572,
+							"rarity":2,
+							"damage1":571,"damageG":572,
 							"sharpness":"sharpness_h/spiked_hammer+",
 							"price":"4,830",
 							"upgrade":[
@@ -1701,8 +1701,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Shell Hammer",
-							"rare":2,
-							"baseDamage":675,"gDamage":676,
+							"rarity":2,
+							"damage1":675,"damageG":676,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":90,
 							"sharpness":"sharpness_h/shell_hammer",
 							"price":"8,100",
@@ -1715,8 +1715,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Graviton Hammer","branchBend":true,
-							"rare":2,
-							"baseDamage":727,"gDamage":728,
+							"rarity":2,
+							"damage1":727,"damageG":728,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":180,
 							"sharpness":"sharpness_h/graviton_hammer",
 							"price":"10,860",
@@ -1733,8 +1733,8 @@
 					"weapons":[
 						{
 							"name":"Bone Axe","branchBend":true,
-							"rare":1,
-							"baseDamage":519,"gDamage":520,
+							"rarity":1,
+							"damage1":519,"damageG":520,
 							"sharpness":"sharpness_h/bone_axe",
 							"price":"3,990",
 							"upgrade":[
@@ -1749,8 +1749,8 @@
 					"weapons":[
 						{
 							"name":"Bone Axe+",
-							"rare":1,
-							"baseDamage":675,"gDamage":676,
+							"rarity":1,
+							"damage1":675,"damageG":676,
 							"sharpness":"sharpness_h/bone_axe+",
 							"price":"7,350",
 							"upgrade":[
@@ -1760,8 +1760,8 @@
 						},
 						{
 							"name":"Bone Broadaxe","branchBend":true,
-							"rare":1,
-							"baseDamage":831,"gDamage":832,
+							"rarity":1,
+							"damage1":831,"damageG":832,
 							"sharpness":"sharpness_h/bone_broadaxe",
 							"price":"11,970",
 							"upgrade":[
@@ -1776,8 +1776,8 @@
 					"weapons":[
 						{
 							"name":"<b>War Hammer</b>",
-							"rare":1,
-							"baseDamage":415,"gDamage":416,
+							"rarity":1,
+							"damage1":415,"damageG":416,
 							"sharpness":"sharpness_h/war_hammer",
 							"price":"2,310",
 							"upgrade":[
@@ -1792,8 +1792,8 @@
 						},
 						{
 							"name":"War Hammer+",
-							"rare":1,
-							"baseDamage":467,"gDamage":468,
+							"rarity":1,
+							"damage1":467,"damageG":468,
 							"sharpness":"sharpness_h/war_hammer+",
 							"price":"3,150",
 							"upgrade":[
@@ -1803,8 +1803,8 @@
 						},
 						{
 							"name":"War Mace",
-							"rare":1,
-							"baseDamage":519,"gDamage":520,
+							"rarity":1,
+							"damage1":519,"damageG":520,
 							"sharpness":"sharpness_h/war_mace",
 							"price":"3,990",
 							"upgrade":[
@@ -1814,8 +1814,8 @@
 						},
 						{
 							"name":"Iron Striker",
-							"rare":2,
-							"baseDamage":571,"gDamage":572,
+							"rarity":2,
+							"damage1":571,"damageG":572,
 							"sharpness":"sharpness_h/iron_striker",
 							"price":"4,830",
 							"upgrade":[
@@ -1826,8 +1826,8 @@
 						},
 						{
 							"name":"Iron Striker+",
-							"rare":2,
-							"baseDamage":623,"gDamage":624,
+							"rarity":2,
+							"damage1":623,"damageG":624,
 							"sharpness":"sharpness_h/iron_striker+",
 							"price":"6,090",
 							"upgrade":[
@@ -1838,8 +1838,8 @@
 						},
 						{
 							"name":"Iron Impact",
-							"rare":2,
-							"baseDamage":727,"gDamage":728,
+							"rarity":2,
+							"damage1":727,"damageG":728,
 							"sharpness":"sharpness_h/iron_impact",
 							"price":"8,610",
 							"upgrade":[
@@ -1850,8 +1850,8 @@
 						},
 						{
 							"name":"Iron Impact+","branchBend":true,
-							"rare":2,
-							"baseDamage":831,"gDamage":832,
+							"rarity":2,
+							"damage1":831,"damageG":832,
 							"sharpness":"sharpness_h/iron_impact+",
 							"price":"11,970",
 							"upgrade":[
@@ -1875,8 +1875,8 @@
 						{
 							"rowClass":"paralysis-pre",
 							"name":"<b>Bone Hammer</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":363,"gDamage":364,
+							"rarity":1,
+							"damage1":363,"damageG":364,
 							"sharpness":"sharpness_h/bone_hammer",
 							"buy":"3,780z","price":"1,890",
 							"forge":[
@@ -1887,8 +1887,8 @@
 							"bodyClass":"paralysis-pre",
 							"branch":"diablo-hammer",
 							"name":"Bone Hammer+",
-							"rare":1,
-							"baseDamage":415,"gDamage":416,
+							"rarity":1,
+							"damage1":415,"damageG":416,
 							"sharpness":"sharpness_h/bone_hammer+",
 							"price":"2,310",
 							"upgrade":[
@@ -1902,8 +1902,8 @@
 					"weapons":[
 						{
 							"name":"Diablo Hammer",
-							"rare":2,
-							"baseDamage":519,"gDamage":520,
+							"rarity":2,
+							"damage1":519,"damageG":520,
 							"defense":2,
 							"sharpness":"sharpness_h/diablo_hammer",
 							"price":"4,590",
@@ -1915,8 +1915,8 @@
 						},
 						{
 							"name":"Diablo Hammer+",
-							"rare":2,
-							"baseDamage":675,"gDamage":676,
+							"rarity":2,
+							"damage1":675,"damageG":676,
 							"defense":3,
 							"sharpness":"sharpness_h/diablo_hammer+",
 							"price":"8,550",
@@ -1928,8 +1928,8 @@
 						},
 						{
 							"name":"Diablos Maul",
-							"rare":2,
-							"baseDamage":779,"gDamage":780,
+							"rarity":2,
+							"damage1":779,"damageG":780,
 							"defense":4,
 							"sharpness":"sharpness_h/diablos_maul",
 							"price":"12,690",
@@ -1941,8 +1941,8 @@
 						},
 						{
 							"name":"<b>Finishing Hammer</b>","branchBend":true,
-							"rare":5,
-							"baseDamage":883,"gDamage":832,
+							"rarity":5,
+							"damage1":883,"damageG":832,
 							"defense":5,
 							"sharpness":"sharpness_h/finishing_hammer",
 							"price":"48,000",
@@ -1966,8 +1966,8 @@
 						{
 							"rowClass":"paralysis-pre",
 							"name":"Cyclo-Hammer",
-							"rare":1,
-							"baseDamage":467,"gDamage":468,
+							"rarity":1,
+							"damage1":467,"damageG":468,
 							"sharpness":"sharpness_h/cyclo_hammer",
 							"price":"3,150",
 							"upgrade":[
@@ -1983,15 +1983,15 @@
 						{
 							"rowClass":"paralysis-pre",
 							"name":"Cyclo-Hammer+",
-							"rare":1,
-							"baseDamage":519,"gDamage":520,
+							"rarity":1,
+							"damage1":519,"damageG":520,
 							"sharpness":"sharpness_h/cyclo_hammer+",
 							"price":"3,990",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Med Monster Bone","q":6},
 								{"n":"Sm Monster Bone","q":2}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Med Monster Bone","q":5},
 								{"n":"Sm Monster Bone","q":2}
 							]
@@ -2000,15 +2000,15 @@
 							"rowClass":"paralysis-pre",
 							"branch":"jail-hammer",
 							"name":"Atlas Hammer",
-							"rare":1,
-							"baseDamage":571,"gDamage":572,
+							"rarity":1,
+							"damage1":571,"damageG":572,
 							"sharpness":"sharpness_h/atlas_hammer",
 							"price":"4,830",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Med Monster Bone","q":9},
 								{"n":"Machalite Ore","q":1}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Med Monster Bone","q":8},
 								{"n":"Machalite Ore","q":1}
 							]
@@ -2021,8 +2021,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Jail Hammer",
-							"rare":3,
-							"baseDamage":623,"gDamage":624,
+							"rarity":3,
+							"damage1":623,"damageG":624,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":100,
 							"sharpness":"sharpness_h/jail_hammer",
 							"price":"6,840",
@@ -2035,8 +2035,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Jail Hammer+",
-							"rare":3,
-							"baseDamage":675,"gDamage":676,
+							"rarity":3,
+							"damage1":675,"damageG":676,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":160,
 							"sharpness":"sharpness_h/jail_hammer+",
 							"price":"9,600",
@@ -2049,8 +2049,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Prison Hammer",
-							"rare":3,
-							"baseDamage":727,"gDamage":728,
+							"rarity":3,
+							"damage1":727,"damageG":728,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":190,
 							"sharpness":"sharpness_h/prison_hammer",
 							"price":"10,860",
@@ -2063,8 +2063,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Binder Mace</b>","branchBend":true,
-							"rare":3,
-							"baseDamage":779,"gDamage":780,
+							"rarity":3,
+							"damage1":779,"damageG":780,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":210,
 							"sharpness":"sharpness_h/binder_mace",
 							"price":"48,000",
@@ -2086,31 +2086,31 @@
 					"weapons":[
 						{
 							"name":"Skullcrusher",
-							"rare":2,
-							"baseDamage":623,"gDamage":624,
+							"rarity":2,
+							"damage1":623,"damageG":624,
 							"sharpness":"sharpness_h/skullcrusher",
 							"price":"6,090",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Lg Monster Bone","q":2},
 								{"n":"Wyvern Fang","q":10}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Med Monster Bone","q":10},
 								{"n":"Wyvern Fang","q":10}
 							]
 						},
 						{
 							"name":"Skullcrusher+",
-							"rare":2,
-							"baseDamage":675,"gDamage":676,
+							"rarity":2,
+							"damage1":675,"damageG":676,
 							"sharpness":"sharpness_h/skullcrusher+",
 							"price":"7,350",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Lg Monster Bone","q":4},
 								{"n":"Piscene Fang","q":4},
 								{"n":"Monster Fluid","q":2}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Med Monster Bone","q":12},
 								{"n":"Piscene Fang","q":4},
 								{"n":"Monster Fluid","q":2}
@@ -2118,16 +2118,16 @@
 						},
 						{
 							"name":"Kut-Ku Chin",
-							"rare":2,
-							"baseDamage":727,"gDamage":728,
+							"rarity":2,
+							"damage1":727,"damageG":728,
 							"sharpness":"sharpness_h/kut_ku_chin",
 							"price":"8,610",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Lg Monster Bone","q":6},
 								{"n":"Monster Fluid","q":4},
 								{"n":"Giant Beak","q":1}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Lg Monster Bone","q":2},
 								{"n":"Monster Fluid","q":4},
 								{"n":"Giant Beak","q":1}
@@ -2135,16 +2135,16 @@
 						},
 						{
 							"name":"Kut-Ku Jaw","branchBend":true,
-							"rare":2,
-							"baseDamage":779,"gDamage":780,
+							"rarity":2,
+							"damage1":779,"damageG":780,
 							"sharpness":"sharpness_h/kut_ku_jaw",
 							"price":"10,290",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Lg Monster Bone","q":8},
 								{"n":"Blos Fang","q":2},
 								{"n":"Mega Demondrug","q":1}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Lg Monster Bone","q":3},
 								{"n":"Piscene Fang","q":10},
 								{"n":"Mega Demondrug","q":1}
@@ -2161,8 +2161,8 @@
 					"weapons":[
 						{
 							"name":"<b>Bone Club</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":415,"gDamage":416,
+							"rarity":1,
+							"damage1":415,"damageG":416,
 							"sharpness":"sharpness_h/bone_club",
 							"price":"840",
 							"forge":[
@@ -2171,8 +2171,8 @@
 						},
 						{
 							"name":"Great Bone Club","branchBend":true,
-							"rare":1,
-							"baseDamage":623,"gDamage":624,
+							"rarity":1,
+							"damage1":623,"damageG":624,
 							"sharpness":"sharpness_h/great_bone_club",
 							"price":"1,050",
 							"upgrade":[
@@ -2194,8 +2194,8 @@
 						{
 							"rowClass":"thunder-pre-g fire-pre poison-pre",
 							"name":"<b>Crystal Hammer</b>","branchStart":true,
-							"rare":4,
-							"baseDamage":623,"gDamage":624,
+							"rarity":4,
+							"damage1":623,"damageG":624,
 							"sharpness":"sharpness_h/crystal_hammer",
 							"price":"6,090",
 							"forge":[
@@ -2208,10 +2208,10 @@
 						{
 							"rowClass":"thunder-pre-g fire-pre poison-pre",
 							"name":"Crystal Nova",
-							"gBranch":"great-nova",
+							"branchG":"great-nova",
 							"name":"Crystal Nova",
-							"rare":4,
-							"baseDamage":675,"gDamage":728,
+							"rarity":4,
+							"damage1":675,"damageG":728,
 							"sharpness":"sharpness_h/crystal_nova",
 							"price":"8,610",
 							"upgrade":[
@@ -2228,7 +2228,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Great Nova","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":884,
 							"attribute":"thunder","attributeAlt":"Thunder","attibuteValue":380,
 							"sharpness":"sharpness_h/great_nova",
@@ -2247,8 +2247,8 @@
 						{
 							"rowClass":"fire-pre poison-status",
 							"name":"Gigaton Hammer",
-							"rare":4,
-							"baseDamage":727,"gDamage":832,
+							"rarity":4,
+							"damage1":727,"damageG":832,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":120,
 							"defense":3,
 							"sharpness":"sharpness_h/gigaton_hammer",
@@ -2262,8 +2262,8 @@
 						{
 							"rowClass":"fire-pre high-rank poison-status",
 							"name":"Gigaton Hammer+",
-							"rare":4,
-							"baseDamage":779,"gDamage":884,
+							"rarity":4,
+							"damage1":779,"damageG":884,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":180,
 							"defense":4,
 							"sharpness":"sharpness_h/gigaton_hammer+",
@@ -2276,10 +2276,10 @@
 						},
 						{
 							"rowClass":"fire-pre high-rank poison-status",
-							"name":"Titan Hammer","branchBend":true,"baseBranchBend":true,
-							"gBranch":"torment-purgatory",
-							"rare":4,
-							"baseDamage":831,"gDamage":936,
+							"name":"Titan Hammer","branchBend":true,"branchBend1":true,
+							"branchG":"torment-purgatory",
+							"rarity":4,
+							"damage1":831,"damageG":936,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":240,
 							"defense":5,
 							"sharpness":"sharpness_h/titan_hammer",
@@ -2298,7 +2298,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Torment (Purgatory)","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,040",
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"defense":5,
@@ -2318,7 +2318,7 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Great Titan","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,092",
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":300,
 							"defense":5,
@@ -2341,8 +2341,8 @@
 					"weapons":[
 						{
 							"name":"<b>Rusted Hammer</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":259,"gDamage":260,
+							"rarity":1,
+							"damage1":259,"damageG":260,
 							"sharpness":"sharpness_h/rusted_hammer",
 							"price":"1,000",
 							"forge":[
@@ -2351,8 +2351,8 @@
 						},
 						{
 							"name":"Tarnished Hammer",
-							"rare":1,
-							"baseDamage":311,"gDamage":312,
+							"rarity":1,
+							"damage1":311,"damageG":312,
 							"sharpness":"sharpness_h/tarnished_hammer",
 							"price":"5,000",
 							"upgrade":[
@@ -2361,8 +2361,8 @@
 						},
 						{
 							"name":"Legendary Hammer",
-							"rare":5,
-							"baseDamage":935,"gDamage":936,
+							"rarity":5,
+							"damage1":935,"damageG":936,
 							"sharpness":"sharpness_h/legendary_hammer",
 							"price":"30,000",
 							"upgrade":[
@@ -2371,8 +2371,8 @@
 						},
 						{
 							"name":"Breath Core Hammer","branchBend":true,
-							"rare":5,
-							"baseDamage":"1,039","gDamage":"1,040",
+							"rarity":5,
+							"damage1":"1,039","damageG":"1,040",
 							"sharpness":"sharpness_h/breath_core_hammer",
 							"price":"60,000",
 							"upgrade":[
@@ -2385,17 +2385,17 @@
 		},
 		{
 			"group":"Anvil Hammer",
-			"class":"high-rank mh1","version":"1",
+			"class":"high-rank mh1",
 			"tbody":[
 				{
 					"weapons":[
 						{
 							"name":"<b>Anvil Hammer</b>","branchStart":true,
-							"rare":3,
-							"damage":623,
+							"rarity":3,
+							"damage1":623,
 							"defense":1,
 							"sharpness":"sharpness_h/anvil_hammer",
-							"price":"7,950",
+							"price1":"7,950",
 							"forge":[
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Machalite Ore","q":15},
@@ -2404,7 +2404,7 @@
 						},
 						{
 							"name":"Earthshaker",
-							"rare":3,
+							"rarity":3,
 							"damage":779,
 							"defense":2,
 							"sharpness":"sharpness_h/earthshaker",
@@ -2417,7 +2417,7 @@
 						},
 						{
 							"name":"Onslaught Hammer","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":935,
 							"defense":3,
 							"sharpness":"sharpness_h/onslaught",
@@ -2434,7 +2434,7 @@
 		},
 		{
 			"group":"Gunhammer",
-			"class":"high-rank mh1 fire-pre","version":"1",
+			"class":"high-rank mh1 fire-pre",
 			"tbody":[
 				{
 					"bodyClass":"fire-pre",
@@ -2442,8 +2442,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"<b>Gunhammer Prototype</b>","branchStart":true,
-							"rare":4,
-							"damage":779,
+							"rarity":4,
+							"damage1":779,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":200,
 							"sharpness":"sharpness_h/gunhammer_prototype",
 							"price":"12,540",
@@ -2457,9 +2457,9 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Dead Revolver","branchBend":true,
-							"rare":4,
-							"damage":935,
-							"attribute":"fire","attributeAlt":"Fire","attributeValue":290,
+							"rarity":4,
+							"damage1":935,
+							"attribute":"fire","attributeAlt":"Fire","attributeValue1":290,
 							"sharpness":"sharpness_h/dead_revolver",
 							"price":"20,550",
 							"upgrade":[
@@ -2474,7 +2474,7 @@
 		},
 		{
 			"group":"Dragon Destroyer",
-			"class":"high-rank mh1 dragon-pre","version":"1",
+			"class":"high-rank mh1 dragon-pre",
 			"tbody":[
 				{
 					"bodyClass":"dragon-pre",
@@ -2482,8 +2482,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragon Destroyer</b>","branchStart":true,
-							"rare":5,
-							"damage":831,
+							"rarity":5,
+							"damage1":831,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":170,
 							"sharpness":"sharpness_h/dragon_destroyer",
 							"price":"50,000",
@@ -2496,9 +2496,9 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragon Breaker","branchBend":true,
-							"rare":5,
-							"damage":987,
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":280,
+							"rarity":5,
+							"damage1":987,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":280,
 							"sharpness":"sharpness_h/dragon_breaker",
 							"price":"100,000",
 							"upgrade":[
@@ -2522,7 +2522,7 @@
 						{
 							"rowClass":"fire-pre dragon-pre poison-pre paralysis-pre",
 							"name":"<b>Origin Hammer G</b>","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":780,
 							"sharpness":"sharpness_h/g_hammer_origin",
 							"price":"10,290",
@@ -2535,7 +2535,7 @@
 							"rowClass":"fire-pre dragon-pre poison-pre paralysis-pre",
 							"branch":".g-hammers",
 							"name":"Origin Hammer G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":832,
 							"sharpness":"sharpness_h/g_hammer_origin+",
 							"price":"11,970",
@@ -2553,12 +2553,12 @@
 							"rowClass":"paralysis-pre",
 							"branch":".anvil-hammers",
 							"name":"<b>Anvil Hammer</b>","gOnly":true,
-							"rare":3,
-							"damage":884,
-							"rare":1,
+							"rarity":3,
+							"damageG":884,
+							"defense":1,
 							"sharpness":"sharpness_h/anvil_hammer",
-							"price":"14,250",
-							"upgrade":[
+							"priceG":"14,250",
+							"upgradeG":[
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Machalite Ore","q":5},
 								{"n":"Iron Ore","q":20}
@@ -2577,11 +2577,11 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Iron Devil</b>","branchBend":true,
-							"rare":5,
-							"damage":988,
+							"rarity":5,
+							"damageG":988,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":180,
 							"sharpness":"sharpness_h/iron_devil",
-							"price":"100,000",
+							"priceG":"100,000",
 							"upgrade":[
 								{"n":"Gravios Head","q":2},
 								{"n":"Velocidrome Head","q":2},
@@ -2602,7 +2602,7 @@
 						{
 							"rowClass":"g-rank paralysis-status",
 							"name":"Devil Masher","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,040",
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":240,
 							"sharpness":"sharpness_h/devil_masher",
@@ -2621,12 +2621,12 @@
 						{
 							"rowClass":"fire-element",
 							"name":"<b>Gunhammer Prototype</b>","branchBend":true,
-							"rare":4,
-							"damage":780,
+							"rarity":4,
+							"damageG":780,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":200,
 							"sharpness":"sharpness_h/gunhammer_prototype",
 							"price":"12,540",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Firestone","q":2},
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Gunpowder","q":12}
@@ -2646,9 +2646,9 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Dead Revolver",
-							"rare":4,
-							"damage":936,
-							"attribute":"fire","attributeAlt":"Fire","attributeValue":320,
+							"rarity":4,
+							"damageG":936,
+							"attribute":"fire","attributeAlt":"Fire","attributeValueG":320,
 							"sharpness":"sharpness_h/dead_revolver",
 							"price":"20,550",
 							"upgrade":[
@@ -2660,7 +2660,7 @@
 						{
 							"rowClass":"g-rank fire-element",
 							"name":"Sanctioned Gunhammer","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":988,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":360,
 							"sharpness":"sharpness_h/sanctioned_gunhammer",
@@ -2679,9 +2679,9 @@
 						{
 							"branch":"war-stamper",
 							"name":"Earthshaker",
-							"rare":3,
+							"rarity":3,
 							"damage":936,
-							"rare":2,
+							"rarity":2,
 							"sharpness":"sharpness_h/earthshaker",
 							"price":"16,770",
 							"upgrade":[
@@ -2697,7 +2697,7 @@
 					"weapons":[
 						{
 							"name":"War Stamper","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,092",
 							"sharpness":"sharpness_h/war_stamper",
 							"price":"25,410",
@@ -2709,7 +2709,7 @@
 						},
 						{
 							"name":"War Basher","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,196",
 							"sharpness":"sharpness_h/war_basher",
 							"price":"100,000",
@@ -2726,7 +2726,7 @@
 					"weapons":[
 						{
 							"name":"Onslaught Hammer","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":"1,040",
 							"defense":3,
 							"sharpness":"sharpness_h/onslaught",
@@ -2745,7 +2745,7 @@
 						{
 							"rowClass":"dragon-pre poison-pre",
 							"name":"Atlas Hammer G","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":884,
 							"sharpness":"sharpness_h/atlas_hammer_g",
 							"price":"13,650",
@@ -2758,7 +2758,7 @@
 							"rowClass":"dragon-pre poison-pre",
 							"branch":".atlas-hammers",
 							"name":"Atlas Hammer G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":936,
 							"sharpness":"sharpness_h/atlas_hammer_g+",
 							"price":"16,170",
@@ -2775,7 +2775,7 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Venom Monster","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":988,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":450,
 							"sharpness":"sharpness_h/venom_monster",
@@ -2793,7 +2793,7 @@
 					"weapons":[
 						{
 							"name":"Kut-Ku Pick","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":988,
 							"sharpness":"sharpness_h/kut_ku_pick",
 							"price":"18,690",
@@ -2810,7 +2810,7 @@
 					"weapons":[
 						{
 							"name":"Kut-Ku Pick+","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,092",
 							"sharpness":"sharpness_h/kut_ku_pick+",
 							"price":"33,000",
@@ -2828,12 +2828,12 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragon Destroyer",
-							"rare":5,
-							"damage":988,
+							"rarity":5,
+							"damageG":988,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":170,
 							"sharpness":"sharpness_h/dragon_destroyer",
 							"price":"50,000",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Lao-Shan Claw","q":1},
 								{"n":"Lao-Shan Scale","q":3},
 								{"n":"Lg Monster Bone","q":3}
@@ -2848,9 +2848,9 @@
 							"rowClass":"dragon-element",
 							"branch":"dragon-demolisher",
 							"name":"Dragon Breaker",
-							"rare":5,
-							"damage":"1,040",
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":330,
+							"rarity":5,
+							"damageG":"1,040",
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValueG":330,
 							"sharpness":"sharpness_h/dragon_breaker",
 							"price":"100,000",
 							"upgrade":[
@@ -2867,7 +2867,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragon Demolisher","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,092",
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":510,
 							"sharpness":"sharpness_h/dragon_demolisher",
@@ -2886,7 +2886,7 @@
 						{
 							"rowClass":"g-rank dragon-element",
 							"name":"Dark Punisher","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":"1,144",
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":450,
 							"sharpness":"sharpness_h/dark_punisher",
@@ -2911,8 +2911,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Polytan</b>","branchStart":true,
-							"rare":5,
-							"damage":520,
+							"rarity":5,
+							"damageG":520,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":280,
 							"sharpness":"sharpness_h/polytan",
 							"price":"490",
@@ -2923,7 +2923,7 @@
 						{
 							"rowClass":"high-rank thunder-element",
 							"name":"Polytan+","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":676,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":420,
 							"sharpness":"sharpness_h/polytan+",
@@ -2950,7 +2950,7 @@
 					"weapons":[
 						{
 							"name":"<b>Worn Hammer</b>","gOnly":true,"branchStart":true,
-							"rare":6,
+							"rarity":6,
 							"damage":780,
 							"sharpness":"sharpness_h/worn_hammer",
 							"price":"6,000",
@@ -2960,7 +2960,7 @@
 						},
 						{
 							"name":"Weathered Hammer","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":884,
 							"sharpness":"sharpness_h/weathered_hammer",
 							"price":"25,000",
@@ -2970,7 +2970,7 @@
 						},
 						{
 							"name":"Antique Hammer","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":988,
 							"sharpness":"sharpness_h/antique_hammer",
 							"price":"40,000",
@@ -2980,7 +2980,7 @@
 						},
 						{
 							"name":"Pulsating Core","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,144",
 							"sharpness":"sharpness_h/pulsating_core",
 							"price":"75,000",
@@ -2997,16 +2997,16 @@
 			"class":"thunder-pre dragon-pre poison-pre paralysis-pre sleep-pre",
 			"tbody":[
 				{
-					"bodyClass":"high-rank mh1 paralysis-pre","version":"1",
+					"bodyClass":"high-rank mh1 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"rare-5 paralysis-status",
+							"rowClass":"rarity-5 paralysis-status",
 							"name":"<b>Iron Devil</b>",
-							"rare":5,
-							"damage":987,
+							"rarity":5,
+							"damage1":987,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":180,
 							"sharpness":"sharpness_h/iron_devil",
-							"price":"150,000",
+							"price1":"150,000",
 							"forge":[
 								{"n":"Gold Ticket","q":10},
 								{"n":"Gravios Head","q":1},
@@ -3020,10 +3020,10 @@
 					"bodyClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element mh1","version":"1",
+							"rowClass":"thunder-element mh1",
 							"name":"<b>Polytan</b>",
-							"rare":5,
-							"damage":519,
+							"rarity":5,
+							"damage1":519,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":280,
 							"sharpness":"sharpness_h/polytan",
 							"price":"490",
@@ -3034,7 +3034,7 @@
 						{
 							"rowClass":"mhg",
 							"name":"<b>Black Belt Hammer</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":936,
 							"sharpness":"sharpness_h/black_belt_hammer",
 							"price":"26,170",
@@ -3048,7 +3048,7 @@
 						{
 							"rowClass":"g-rank mhg",
 							"name":"<b>Expert Hammer</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":"1,092",
 							"defense":6,
 							"sharpness":"sharpness_h/expert_hammer",
@@ -3063,8 +3063,8 @@
 						{
 							"rowClass":"sleep-status high-rank",
 							"name":"<b>Teddybear</b>",
-							"rare":5,
-							"baseDamage":259,"gDamage":260,
+							"rarity":5,
+							"damage1":259,"damageG":260,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":200,
 							"sharpness":"sharpness_h/teddybear",
 							"price":"48,000",
@@ -3076,8 +3076,8 @@
 						},
 						{
 							"name":"<b>Enormous Ham</b>",
-							"rare":1,
-							"baseDamage":519,"gDamage":520,
+							"rarity":1,
+							"damage1":519,"damageG":520,
 							"sharpness":"sharpness_h/enormous_ham",
 							"price":"48,000",
 							"forge":[
@@ -3089,8 +3089,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"<b>Cactus Creamer</b>",
-							"rare":5,
-							"baseDamage":103,"gDamage":104,
+							"rarity":5,
+							"damage1":103,"damageG":104,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":260,
 							"sharpness":"sharpness_h/cactus_creamer",
 							"price":"48,000",
@@ -3104,7 +3104,7 @@
 							"dev":true,
 							"rowClass":"dragon-element mhg",
 							"name":"<b>Howling G</b>",
-							"rare":5,
+							"rarity":5,
 							"damage":676,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":930,
 							"sharpness":"sharpness_h/howling_g"
@@ -3124,8 +3124,8 @@
 					"weapons":[
 						{
 							"name":"<b>Iron Lance</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":137,"gDamage":138,
+							"rarity":1,
+							"damage1":137,"damageG":138,
 							"sharpness":"sharpness_l/iron_lance",
 							"buy":"1,680","price":"840",
 							"forge":[
@@ -3135,8 +3135,8 @@
 						{
 							"branch":"bone-javelin",
 							"name":"Iron Lance+",
-							"rare":1,
-							"baseDamage":160,"gDamage":161,
+							"rarity":1,
+							"damage1":160,"damageG":161,
 							"sharpness":"sharpness_l/iron_lance+",
 							"price":"1,080",
 							"upgrade":[
@@ -3150,8 +3150,8 @@
 					"weapons":[
 						{
 							"name":"Bone Javelin",
-							"rare":2,
-							"baseDamage":183,"gDamage":184,
+							"rarity":2,
+							"damage1":183,"damageG":184,
 							"sharpness":"sharpness_l/bone_javelin",
 							"price":"1,320",
 							"upgrade":[
@@ -3161,8 +3161,8 @@
 						},
 						{
 							"name":"Bone Javelin+",
-							"rare":2,
-							"baseDamage":229,"gDamage":230,
+							"rarity":2,
+							"damage1":229,"damageG":230,
 							"sharpness":"sharpness_l/bone_javelin+",
 							"price":"2,280",
 							"upgrade":[
@@ -3172,8 +3172,8 @@
 						},
 						{
 							"name":"Spiked Spear","branchBend":true,
-							"rare":2,
-							"baseDamage":275,"gDamage":276,
+							"rarity":2,
+							"damage1":275,"damageG":276,
 							"sharpness":"sharpness_l/spiked_spear",
 							"price":"3,480",
 							"upgrade":[
@@ -3187,8 +3187,8 @@
 					"weapons":[
 						{
 							"name":"<b>Knight Lance</b>",
-							"rare":1,
-							"baseDamage":183,"gDamage":184,
+							"rarity":1,
+							"damage1":183,"damageG":184,
 							"sharpness":"sharpness_l/knight_lance",
 							"price":"1,320",
 							"upgrade":[
@@ -3205,8 +3205,8 @@
 						},
 						{
 							"name":"Knight Lance+",
-							"rare":1,
-							"baseDamage":206,"gDamage":207,
+							"rarity":1,
+							"damage1":206,"damageG":207,
 							"sharpness":"sharpness_l/knight_lance+",
 							"price":"1,800",
 							"upgrade":[
@@ -3217,8 +3217,8 @@
 						},
 						{
 							"name":"Knight Spear",
-							"rare":1,
-							"baseDamage":229,"gDamage":230,
+							"rarity":1,
+							"damage1":229,"damageG":230,
 							"sharpness":"sharpness_l/knight_spear",
 							"price":"2,280",
 							"upgrade":[
@@ -3228,8 +3228,8 @@
 						},
 						{
 							"name":"Paladin Lance",
-							"rare":2,
-							"baseDamage":275,"gDamage":276,
+							"rarity":2,
+							"damage1":275,"damageG":276,
 							"sharpness":"sharpness_l/paladin_lance",
 							"price":"3,480",
 							"upgrade":[
@@ -3240,8 +3240,8 @@
 						},
 						{
 							"name":"Paladin Lance+",
-							"rare":2,
-							"baseDamage":321,"gDamage":322,
+							"rarity":2,
+							"damage1":321,"damageG":322,
 							"sharpness":"sharpness_l/paladin_lance+",
 							"price":"4,920",
 							"upgrade":[
@@ -3252,8 +3252,8 @@
 						},
 						{
 							"name":"Rampart",
-							"rare":2,
-							"baseDamage":367,"gDamage":368,
+							"rarity":2,
+							"damage1":367,"damageG":368,
 							"defense":2,
 							"sharpness":"sharpness_l/rampart",
 							"price":"7,440",
@@ -3265,8 +3265,8 @@
 						},
 						{
 							"name":"Babel Spear","branchBend":true,
-							"rare":2,
-							"baseDamage":413,"gDamage":414,
+							"rarity":2,
+							"damage1":413,"damageG":414,
 							"defense":3,
 							"sharpness":"sharpness_l/babel_spear",
 							"price":"10,440",
@@ -3291,8 +3291,8 @@
 						{
 							"rowClass":"fire-pre water-pre-g",
 							"name":"<b>Bone Lance</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":160,"gDamage":161,
+							"rarity":1,
+							"damage1":160,"damageG":161,
 							"sharpness":"sharpness_l/bone_lance",
 							"buy":"2,160","price":"1,080",
 							"forge":[
@@ -3304,8 +3304,8 @@
 							"rowClass":"fire-pre water-pre-g",
 							"branch":"red-tail",
 							"name":"Bone Lance+",
-							"rare":1,
-							"baseDamage":183,"gDamage":184,
+							"rarity":1,
+							"damage1":183,"damageG":184,
 							"sharpness":"sharpness_l/bone_lance+",
 							"price":"1,320",
 							"upgrade":[
@@ -3321,8 +3321,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Red Tail",
-							"rare":3,
-							"baseDamage":206,"gDamage":207,
+							"rarity":3,
+							"damage1":206,"damageG":207,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":200,
 							"sharpness":"sharpness_l/red_tail",
 							"price":"4,050",
@@ -3335,8 +3335,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Red Tail+",
-							"rare":3,
-							"baseDamage":229,"gDamage":230,
+							"rarity":3,
+							"damage1":229,"damageG":230,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":260,
 							"sharpness":"sharpness_l/red_tail+",
 							"price":"11,280",
@@ -3349,8 +3349,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Hellfire",
-							"rare":3,
-							"baseDamage":275,"gDamage":276,
+							"rarity":3,
+							"damage1":275,"damageG":276,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":340,
 							"sharpness":"sharpness_l/hellfire",
 							"price":"12,480",
@@ -3363,8 +3363,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Spear of Prominence","branchBend":true,
-							"rare":4,
-							"baseDamage":321,"gDamage":322,
+							"rarity":4,
+							"damage1":321,"damageG":322,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":340,
 							"sharpness":"sharpness_l/spear_of_prominence",
 							"price":"48,000",
@@ -3382,8 +3382,8 @@
 						{
 							"rowClass":"fire-pre water-pre",
 							"name":"<b>Longhorn</b>",
-							"rare":1,
-							"baseDamage":206,"gDamage":207,
+							"rarity":1,
+							"damage1":206,"damageG":207,
 							"sharpness":"sharpness_l/longhorn",
 							"price":"1,800",
 							"upgrade":[
@@ -3398,8 +3398,8 @@
 						{
 							"rowClass":"fire-pre water-pre",
 							"name":"Longhorn+",
-							"rare":1,
-							"baseDamage":229,"gDamage":230,
+							"rarity":1,
+							"damage1":229,"damageG":230,
 							"sharpness":"sharpness_l/longhorn+",
 							"price":"2,280",
 							"upgrade":[
@@ -3410,8 +3410,8 @@
 							"rowClass":"fire-pre water-pre",
 							"branch":".crimson-lance",
 							"name":"Long Tusk",
-							"rare":1,
-							"baseDamage":252,"gDamage":253,
+							"rarity":1,
+							"damage1":252,"damageG":253,
 							"sharpness":"sharpness_l/long_tusk",
 							"price":"2,760",
 							"upgrade":[
@@ -3427,9 +3427,9 @@
 						{
 							"rowClass":"fire-element water-pre-g",
 							"name":"Crimson Lance",
-							"gBranch":"ceramic-blos-lance",
-							"rare":3,
-							"baseDamage":344,"gDamage":345,
+							"branchG":"ceramic-blos-lance",
+							"rarity":3,
+							"damage1":344,"damageG":345,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":210,
 							"sharpness":"sharpness_l/crimson_lance",
 							"price":"8,130",
@@ -3447,7 +3447,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Ceramic Blos Lance","gOnly":true,"branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":414,
 							"attribute":"water","attributeAlt":"Water","attributeValue":220,
 							"sharpness":"sharpness_l/ceramic_blos_lance",
@@ -3466,8 +3466,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Crimson War Pike","branchBend":true,
-							"rare":3,
-							"baseDamage":367,"gDamage":368,
+							"rarity":3,
+							"damage1":367,"damageG":368,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"sharpness":"sharpness_l/crimson_war_pike",
 							"price":"15,840",
@@ -3483,8 +3483,8 @@
 					"weapons":[
 						{
 							"name":"Barbarian Tusk",
-							"rare":2,
-							"baseDamage":298,"gDamage":299,
+							"rarity":2,
+							"damage1":298,"damageG":299,
 							"sharpness":"sharpness_l/barbarian_tusk",
 							"price":"4,200",
 							"upgrade":[
@@ -3494,8 +3494,8 @@
 						},
 						{
 							"name":"Barbarian Tusk+",
-							"rare":2,
-							"baseDamage":344,"gDamage":345,
+							"rarity":2,
+							"damage1":344,"damageG":345,
 							"sharpness":"sharpness_l/barbarian_tusk+",
 							"price":"5,880",
 							"upgrade":[
@@ -3505,8 +3505,8 @@
 						},
 						{
 							"name":"Barbaroi Tusk",
-							"rare":2,
-							"baseDamage":390,"gDamage":391,
+							"rarity":2,
+							"damage1":390,"damageG":391,
 							"sharpness":"sharpness_l/barbaroi_tusk",
 							"price":"7,800",
 							"upgrade":[
@@ -3517,8 +3517,8 @@
 						},
 						{
 							"name":"Ogre Tusk","branchBend":true,
-							"rare":2,
-							"baseDamage":459,"gDamage":460,
+							"rarity":2,
+							"damage1":459,"damageG":460,
 							"sharpness":"sharpness_l/ogre_tusk",
 							"price":"12,600",
 							"upgrade":[
@@ -3541,8 +3541,8 @@
 						{
 							"rowClass":"water-element",
 							"name":"<b>Aqua Spear</b>","branchStart":true,
-							"rare":2,
-							"baseDamage":229,"gDamage":230,
+							"rarity":2,
+							"damage1":229,"damageG":230,
 							"attribute":"water","attributeAlt":"Water","attributeValue":120,
 							"sharpness":"sharpness_l/aqua_spear",
 							"price":"3,030",
@@ -3555,8 +3555,8 @@
 						{
 							"rowClass":"water-element",
 							"name":"Aqua Spear+","branchBend":true,
-							"rare":2,
-							"baseDamage":252,"gDamage":253,
+							"rarity":2,
+							"damage1":252,"damageG":253,
 							"attribute":"water","attributeAlt":"Water","attributeValue":230,
 							"sharpness":"sharpness_l/aqua_spear+",
 							"price":"5,010",
@@ -3580,8 +3580,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"<b>Lullaby Spear</b>","branchStart":true,
-							"rare":3,
-							"baseDamage":160,"gDamage":161,
+							"rarity":3,
+							"damage1":160,"damageG":161,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":160,
 							"sharpness":"sharpness_l/lullaby_spear",
 							"price":"3,330",
@@ -3595,8 +3595,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"Requiem Spear",
-							"rare":3,
-							"baseDamage":183,"gDamage":184,
+							"rarity":3,
+							"damage1":183,"damageG":184,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":200,
 							"sharpness":"sharpness_l/requiem_spear",
 							"price":"10,320",
@@ -3609,8 +3609,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"Nightmare","branchBend":true,
-							"rare":4,
-							"baseDamage":206,"gDamage":207,
+							"rarity":4,
+							"damage1":206,"damageG":207,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":260,
 							"defense":3,
 							"sharpness":"sharpness_l/nightmare",
@@ -3637,8 +3637,8 @@
 					"weapons":[
 						{
 							"name":"<b>Rusted Lance</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":68,"gDamage":69,
+							"rarity":1,
+							"damage1":68,"damageG":69,
 							"sharpness":"sharpness_l/rusted_lance",
 							"price":"1,000",
 							"forge":[
@@ -3647,8 +3647,8 @@
 						},
 						{
 							"name":"Tarnished Lance",
-							"rare":1,
-							"baseDamage":114,"gDamage":115,
+							"rarity":1,
+							"damage1":114,"damageG":115,
 							"sharpness":"sharpness_l/tarnished_lance",
 							"price":"5,000",
 							"upgrade":[
@@ -3657,8 +3657,8 @@
 						},
 						{
 							"name":"Legendary Lance",
-							"rare":5,
-							"baseDamage":413,"gDamage":414,
+							"rarity":5,
+							"damage1":413,"damageG":414,
 							"defense":4,
 							"sharpness":"sharpness_l/legendary_lance",
 							"price":"30,000",
@@ -3668,8 +3668,8 @@
 						},
 						{
 							"name":"Undertaker","branchBend":true,
-							"rare":5,
-							"baseDamage":528,"gDamage":529,
+							"rarity":5,
+							"damage1":528,"damageG":529,
 							"defense":5,
 							"sharpness":"sharpness_l/undertaker",
 							"price":"60,000",
@@ -3692,8 +3692,8 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"<b>Iron Knight's Pike</b>","branchStart":true,
-							"rare":4,
-							"baseDamage":275,"gDamage":276,
+							"rarity":4,
+							"damage1":275,"damageG":276,
 							"sharpness":"sharpness_l/iron_knights_pike",
 							"price":"3,480",
 							"forge":[
@@ -3706,9 +3706,9 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"Steel Knight's Pike",
-							"gBranch":"gunlance-prototype",
-							"rare":4,
-							"baseDamage":321,"gDamage":322,
+							"branchG":"gunlance-prototype",
+							"rarity":4,
+							"damage1":321,"damageG":322,
 							"defense":1,
 							"sharpness":"sharpness_l/steel_knights_pike",
 							"price":"5,520",
@@ -3726,13 +3726,13 @@
 						{
 							"rowClass":"fire-element",
 							"name":"<b>Gunlance Prototype</b>",
-							"rare":4,
-							"damage":345,
+							"rarity":4,
+							"damageG":345,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"defense":3,
 							"sharpness":"sharpness_l/gunlance_prototype",
 							"price":"16,080",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Firestone","q":2},
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Gunpowder","q":12}
@@ -3747,8 +3747,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gatling Lance",
-							"rare":4,
-							"damage":368,
+							"rarity":4,
+							"damageG":368,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":410,
 							"defense":3,
 							"sharpness":"sharpness_l/gatling_lance",
@@ -3762,7 +3762,7 @@
 						{
 							"rowClass":"g-rank fire-element",
 							"name":"Sanctioned Gunlance","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":391,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":380,
 							"defense":3,
@@ -3780,8 +3780,8 @@
 					"weapons":[
 						{
 							"name":"Dragon Knight's Pike",
-							"rare":4,
-							"baseDamage":390,"gDamage":391,
+							"rarity":4,
+							"damage1":390,"damageG":391,
 							"defense":2,
 							"sharpness":"sharpness_l/dragon_knights_pike",
 							"price":"7,440",
@@ -3792,18 +3792,18 @@
 							]
 						},
 						{
-							"name":"<b>Grayburg Javelin</b>","branchBend":true,"baseBranchBend":true,
-							"rare":5,
-							"baseDamage":482,"gDamage":483,
+							"name":"<b>Grayburg Javelin</b>","branchBend":true,"branchBend1":true,
+							"rarity":5,
+							"damage1":482,"damageG":483,
 							"defense":4,
 							"sharpness":"sharpness_l/grayburg_javelin",
 							"price":"100,000",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Union Ore","q":10},
 								{"n":"Firestone","q":5}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Dragonite Ore","q":10},
 								{"n":"Union Ore","q":8},
 								{"n":"Firestone","q":5}
@@ -3818,7 +3818,7 @@
 						{
 							"rowClass":"g-rank mhg",
 							"name":"Dragon Rider Spear","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":552,
 							"defense":4,
 							"sharpness":"sharpness_l/dragon_rider_spear",
@@ -3834,15 +3834,15 @@
 			]
 		},
 		{
-			"class":"high-rank mh1","version":"1",
+			"class":"high-rank mh1",
 			"group":"Diablo Horn",
 			"tbody":[
 				{
 					"weapons":[
 						{
 							"name":"<b>Diablo Horn</b>","branchStart":true,
-							"rare":4,
-							"damage":298,
+							"rarity":4,
+							"damage1":298,
 							"defense":1,
 							"sharpness":"sharpness_l/diablo_horn",
 							"price":"4,800",
@@ -3855,8 +3855,8 @@
 						},
 						{
 							"name":"Diablo Horn+",
-							"rare":4,
-							"damage":367,
+							"rarity":4,
+							"damageG":367,
 							"defense":2,
 							"sharpness":"sharpness_l/diablo_horn+",
 							"price":"11,280",
@@ -3867,7 +3867,7 @@
 						},
 						{
 							"name":"Diablo Spear","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":505,
 							"defense":3,
 							"sharpness":"sharpness_l/diablo_spear",
@@ -3882,7 +3882,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 paralysis-pre","version":"1",
+			"class":"high-rank mh1 paralysis-pre",
 			"group":"Dark Lance",
 			"tbody":[
 				{
@@ -3891,8 +3891,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Dark Lance</b>","branchStart":true,
-							"rare":4,
-							"damage":114,
+							"rarity":4,
+							"damage1":114,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":100,
 							"sharpness":"sharpness_l/dark_lance",
 							"price":"7,590",
@@ -3906,8 +3906,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Dark Lance+",
-							"rare":4,
-							"damage":137,
+							"rarity":4,
+							"damage1":137,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":130,
 							"sharpness":"sharpness_l/dark_lance+",
 							"price":"8,550",
@@ -3920,8 +3920,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Dark Spear",
-							"rare":4,
-							"damage":160,
+							"rarity":4,
+							"damage1":160,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":160,
 							"sharpness":"sharpness_l/dark_spear",
 							"price":"11,490",
@@ -3934,9 +3934,9 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Shock Lance",
-							"rare":4,
-							"damage":183,
-							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":200,
+							"rarity":4,
+							"damage1":183,
+							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue1":200,
 							"sharpness":"sharpness_l/shock_lance",
 							"price":"13,200",
 							"upgrade":[
@@ -3948,9 +3948,9 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Trident","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":229,
-							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":240,
+							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue1":240,
 							"sharpness":"sharpness_l/trident",
 							"price":"14,880",
 							"upgrade":[
@@ -3964,7 +3964,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 poison-pre","version":"1",
+			"class":"high-rank mh1 poison-pre",
 			"group":"Venom Lance",
 			"tbody":[
 				{
@@ -3973,8 +3973,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"<b>Venom Lance</b>","branchStart":true,
-							"rare":4,
-							"damage":275,
+							"rarity":4,
+							"damage1":275,
 							"attribute":"poison","attritbuteAlt":"Poison","attributeValue":120,
 							"sharpness":"sharpness_l/venom_lance",
 							"price":"5,730",
@@ -3987,8 +3987,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Venom Lance+",
-							"rare":4,
-							"damage":321,
+							"rarity":4,
+							"damage1":321,
 							"attribute":"poison","attritbuteAlt":"Poison","attributeValue":140,
 							"sharpness":"sharpness_l/venom_lance+",
 							"price":"7,170",
@@ -4001,9 +4001,9 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Venom Spear",
-							"rare":4,
-							"damage":367,
-							"attribute":"poison","attritbuteAlt":"Poison","attributeValue":180,
+							"rarity":4,
+							"damage1":367,
+							"attribute":"poison","attritbuteAlt":"Poison","attributeValue1":180,
 							"defense":4,
 							"sharpness":"sharpness_l/venom_spear",
 							"price":"45,240",
@@ -4016,9 +4016,9 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Gravios Spear","branchBend":true,
-							"rare":4,
-							"damage":413,
-							"attribute":"poison","attritbuteAlt":"Poison","attributeValue":240,
+							"rarity":4,
+							"damage1":413,
+							"attribute":"poison","attritbuteAlt":"Poison","attributeValue1":240,
 							"defense":5,
 							"sharpness":"sharpness_l/gravios_spear",
 							"price":"58,200",
@@ -4033,7 +4033,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 fire-pre","version":"1",
+			"class":"high-rank mh1 fire-pre",
 			"group":"Gunlance Prototype",
 			"tbody":[
 				{
@@ -4042,8 +4042,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"<b>Gunlance Prototype</b>","branchStart":true,
-							"rare":4,
-							"damage":297,
+							"rarity":4,
+							"damage1":297,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"defense":3,
 							"sharpness":"sharpness_l/gunlance_prototype",
@@ -4058,8 +4058,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gatling Lance","branchBend":true,
-							"rare":4,
-							"damage":344,
+							"rarity":4,
+							"damage1":344,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":410,
 							"defense":3,
 							"sharpness":"sharpness_l/gatling_lance",
@@ -4075,7 +4075,7 @@
 			]
 		},
 		{
-			"class":"high-rank mh1 dragon-pre","version":"1",
+			"class":"high-rank mh1 dragon-pre",
 			"group":"Dragonlance",
 			"tbody":[
 				{
@@ -4084,8 +4084,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragonlance</b>","branchStart":true,
-							"rare":4,
-							"damage":413,
+							"rarity":4,
+							"damage1":413,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":290,
 							"sharpness":"sharpness_l/dragonlance",
 							"price":"50,000",
@@ -4098,8 +4098,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragoon Lord",
-							"rare":4,
-							"damage":481,
+							"rarity":4,
+							"damage1":481,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":320,
 							"sharpness":"sharpness_l/dragoon_lord",
 							"price":"100,000",
@@ -4112,13 +4112,13 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Black Dragon Spear","branchBend":true,
-							"rare":5,
-							"damage":551,
+							"rarity":5,
+							"damage1":551,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":300,
-							"defense":3,
+							"defense1":3,
 							"sharpness":"sharpness_l/black_dragon_spear",
 							"price":"150,000",
-							"upgrade":[
+							"upgrade1":[
 								{"n":"Gold Ticket","q":10},
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Fatalis' Eye","q":1}
@@ -4140,7 +4140,7 @@
 							"rowClass":"fire-pre water-pre dragon-pre poison-pre paralysis-pre",
 							"branch":".dark-lance",
 							"name":"<b>Origin Lance G</b>","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":345,
 							"sharpness":"sharpness_l/g_lance_origin",
 							"price":"5,880",
@@ -4157,8 +4157,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Dark Lance</b>",
-							"rare":4,
-							"damage":368,
+							"rarity":4,
+							"damageG":368,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":100,
 							"sharpness":"sharpness_l/dark_lance",
 							"price":"7,590",
@@ -4167,7 +4167,7 @@
 								{"n":"Hornetaur Bladefin","q":1},
 								{"n":"Stun Sac","q":3}
 							],
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Hornetaur Head","q":3},
 								{"n":"Hornetaur Bladefin","q":3},
 								{"n":"Hornetaur Shell","q":5},
@@ -4177,8 +4177,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Dark Lance+",
-							"rare":4,
-							"damage":391,
+							"rarity":4,
+							"damageG":391,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":130,
 							"sharpness":"sharpness_l/dark_lance+",
 							"price":"8,550",
@@ -4191,9 +4191,9 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Dark Spear",
-							"gBranch":"dark",
-							"rare":4,
-							"damage":414,
+							"branchG":"dark",
+							"rarity":4,
+							"damageG":414,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":160,
 							"sharpness":"sharpness_l/dark_spear",
 							"price":"11,490",
@@ -4209,9 +4209,9 @@
 					"bodyId":"dark","bodyClass":"branch g-rank indent-2 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"rare-6 paralysis-status",
+							"rowClass":"rarity-6 paralysis-status",
 							"name":"Dark","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":437,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":160,
 							"sharpness":"sharpness_l/dark",
@@ -4230,9 +4230,9 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":" Shock Lance",
-							"rare":4,
-							"damage":345,
-							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":240,
+							"rarity":4,
+							"damageG":345,
+							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValueG":240,
 							"sharpness":"sharpness_l/shock_lance",
 							"price":"13,200",
 							"upgrade":[
@@ -4244,9 +4244,9 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Trident","branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":299,
-							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":300,
+							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValueG":300,
 							"sharpness":"sharpness_l/trident",
 							"price":"14,880",
 							"upgrade":[
@@ -4263,7 +4263,7 @@
 						{
 							"rowClass":"fire-pre water-pre dragon-pre",
 							"name":"Origin Lance G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":368,
 							"sharpness":"sharpness_l/g_lance_origin+",
 							"price":"6,840",
@@ -4276,7 +4276,7 @@
 							"rowClass":"fire-pre water-pre dragon-pre",
 							"branch":".long-horn-g-lances",
 							"name":"Long Horn G","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":391,
 							"sharpness":"sharpness_l/long_horn_g",
 							"price":"7,800",
@@ -4293,12 +4293,12 @@
 						{
 							"rowClass":"fire-pre",
 							"name":"<b>Diablo Horn</b>",
-							"rare":4,
-							"damage":414,
+							"rarity":4,
+							"damageG":414,
 							"defense":1,
 							"sharpness":"sharpness_l/diablo_horn",
 							"price":"4,800",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Diablos Spine","q":1},
 								{"n":"Majestic Horn","q":1},
 								{"n":"Dragonite Ore","q":2}
@@ -4314,8 +4314,8 @@
 							"rowClass":"fire-pre",
 							"branch":".diablo-horn-lances",
 							"name":"Diablo Horn+",
-							"rare":4,
-							"damage":437,
+							"rarity":4,
+							"damageG":437,
 							"defense":2,
 							"sharpness":"sharpness_l/diablo_horn+",
 							"price":"11,280",
@@ -4332,7 +4332,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Blaze Tail","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":460,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":350,
 							"sharpness":"sharpness_l/blaze_tail",
@@ -4351,7 +4351,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Red Prominence","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":483,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":390,
 							"sharpness":"sharpness_l/red_prominence",
@@ -4370,7 +4370,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Blue Tail","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":460,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":380,
 							"sharpness":"sharpness_l/blue_tail",
@@ -4389,7 +4389,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Blue Prominence","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":437,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":460,
 							"sharpness":"sharpness_l/blue_prominence",
@@ -4408,7 +4408,7 @@
 						{
 							"branch":"white-disaster",
 							"name":"Diablo Spear",
-							"rare":4,
+							"rarity":4,
 							"damage":529,
 							"defense":3,
 							"sharpness":"sharpness_l/diablo_spear",
@@ -4426,7 +4426,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"White Disaster","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":529,
 							"attribute":"water","attributeAlt":"Water","attributeValue":220,
 							"sharpness":"sharpness_l/white_disaster",
@@ -4444,7 +4444,7 @@
 					"weapons":[
 						{
 							"name":"Black Tempest","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":575,
 							"sharpness":"sharpness_l/black_tempest",
 							"price":"100,000",
@@ -4463,7 +4463,7 @@
 							"rowClass":"fire-pre dragon-pre poison-pre",
 							"branch":".dragonlance",
 							"name":"Long Horn G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":414,
 							"sharpness":"sharpness_l/long_horn_g+",
 							"price":"9,240",
@@ -4480,12 +4480,12 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragonlance</b>",
-							"rare":4,
-							"damage":437,
+							"rarity":4,
+							"damageG":437,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":290,
 							"sharpness":"sharpness_l/dragonlance",
 							"price":"50,000",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Fatalis' Horn","q":1},
 								{"n":"Fatalis' Crust","q":1},
 								{"n":"Dragonite Ore","q":3}
@@ -4499,8 +4499,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragoon Lord",
-							"rare":4,
-							"damage":460,
+							"rarity":4,
+							"damageG":460,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":320,
 							"sharpness":"sharpness_l/dragoon_lord",
 							"price":"100,000",
@@ -4514,13 +4514,13 @@
 							"rowClass":"dragon-element",
 							"branch":"black-ruiner-lance",
 							"name":"Black Dragon Spear",
-							"rare":5,
-							"damage":483,
+							"rarity":5,
+							"damageG":483,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":300,
-							"defense":1,
+							"defenseG":1,
 							"sharpness":"sharpness_l/black_dragon_spear",
 							"price":"150,000",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Gold Ticket","q":5},
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Fatalis' Eye","q":1}
@@ -4534,7 +4534,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Black Ruiner Lance","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":575,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":430,
 							"defense":4,
@@ -4554,7 +4554,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"True Black Dragon Lance","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":529,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":380,
 							"defense":10,
@@ -4574,12 +4574,12 @@
 						{
 							"rowClass":"fire-pre poison-status",
 							"name":"<b>Venom Lance</b>",
-							"rare":4,
-							"damage":437,
+							"rarity":4,
+							"damageG":437,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":120,
 							"sharpness":"sharpness_l/venom_lance",
 							"price":"5,730",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Basarios Wing","q":1},
 								{"n":"Machalite Ore","q":12},
 								{"n":"Iron Ore","q":5}
@@ -4593,8 +4593,8 @@
 						{
 							"rowClass":"fire-pre poison-status",
 							"name":"Venom Lance+",
-							"rare":4,
-							"damage":460,
+							"rarity":4,
+							"damageG":460,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":140,
 							"sharpness":"sharpness_l/venom_lance+",
 							"price":"7,170",
@@ -4607,9 +4607,9 @@
 						{
 							"rowClass":"fire-pre poison-status",
 							"name":"Venom Spear",
-							"rare":4,
-							"damage":483,
-							"attribute":"poison","attributeAlt":"Poison","attributeValue":220,
+							"rarity":4,
+							"damageG":483,
+							"attribute":"poison","attributeAlt":"Poison","attributeValueG":220,
 							"defense":4,
 							"sharpness":"sharpness_l/venom_spear",
 							"price":"45,240",
@@ -4623,9 +4623,9 @@
 							"rowClass":"fire-pre poison-status",
 							"branch":"black-gravios-spear",
 							"name":"Gravios Spear",
-							"rare":4,
-							"damage":506,
-							"attribute":"poison","attributeAlt":"Poison","attributeValue":270,
+							"rarity":4,
+							"damageG":506,
+							"attribute":"poison","attributeAlt":"Poison","attributeValueG":270,
 							"defense":5,
 							"sharpness":"sharpness_l/gravios_spear",
 							"price":"58,200",
@@ -4643,7 +4643,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Black Gravios Spear","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":506,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":260,
 							"defense":8,
@@ -4663,7 +4663,7 @@
 						{
 							"rowClass":"g-rank poison-status",
 							"name":"Gravios Venom Spear","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":529,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":300,
 							"defense":6,
@@ -4687,7 +4687,7 @@
 					"weapons":[
 						{
 							"name":"<b>Worn Spear</b>","gOnly":true,"branchStart":true,
-							"rare":6,
+							"rarity":6,
 							"damage":345,
 							"sharpness":"sharpness_l/worn_spear",
 							"price":"6,000",
@@ -4697,7 +4697,7 @@
 						},
 						{
 							"name":"Weathered Spear","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":391,
 							"sharpness":"sharpness_l/weathered_spear",
 							"price":"25,000",
@@ -4707,7 +4707,7 @@
 						},
 						{
 							"name":"Antique Lance","gOnly":true,
-							"rare":7,
+							"rarity":7,
 							"damage":437,
 							"defense":4,
 							"sharpness":"sharpness_l/antique_lance",
@@ -4718,7 +4718,7 @@
 						},
 						{
 							"name":"Matenro","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":506,
 							"defense":5,
 							"sharpness":"sharpness_l/matenro",
@@ -4740,11 +4740,11 @@
 						{
 							"rowClass":"high-rank",
 							"name":"<b>Valhalla</b>",
-							"rare":4,
-							"baseDamage":413,"gDamage":414,
+							"rarity":4,
+							"damage1":413,"damageG":414,
 							"sharpness":"sharpness_l/valhalla",
-							"basePrice":"100,000",
-							"gPrice":"48,000",
+							"price1":"100,000",
+							"priceG":"48,000",
 							"forge":[
 								{"n":"Nova Crystal","q":1},
 								{"n":"Dragonite Ore","q":10},
@@ -4754,8 +4754,8 @@
 						{
 							"rowClass":"water-element high-rank",
 							"name":"<b>Vacuum Striker</b>",
-							"rare":4,
-							"baseDamage":137,"gDamage":138,
+							"rarity":4,
+							"damage1":137,"damageG":138,
 							"attribute":"water","attributeAlt":"Water","attributeValue":270,
 							"sharpness":"sharpness_l/vacuum_striker",
 							"price":"48,000",
@@ -4767,8 +4767,8 @@
 						{
 							"rowClass":"poison-status high-rank",
 							"name":"<b>Native Spear</b>",
-							"rare":4,
-							"baseDamage":183,"gDamage":184,
+							"rarity":4,
+							"damage1":183,"damageG":184,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":330,
 							"sharpness":"sharpness_l/native_spear",
 							"price":"48,000",
@@ -4781,7 +4781,7 @@
 						{
 							"rowClass":"poison-status mhg",
 							"name":"<b>Black Belt Lance</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":414,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":220,
 							"defense":3,
@@ -4797,7 +4797,7 @@
 						{
 							"rowClass":"poison-status g-rank mhg",
 							"name":"<b>Expert Lance</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":460,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":360,
 							"defense":4,
@@ -4814,7 +4814,7 @@
 							"dev":true,
 							"rowClass":"fire-element mhg",
 							"name":"Doom",
-							"rare":7,
+							"rarity":7,
 							"damage":529,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":840,
 							"defense":10,
@@ -4837,8 +4837,8 @@
 						{
 							"rowClass":"poison-pre paralysis-pre",
 							"name":"<b>Hunter Knife</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":83,"gDamage":84,
+							"rarity":1,
+							"damage1":83,"damageG":84,
 							"sharpness":"sharpness_sns/hunter_knife",
 							"buy":"840","price":"420",
 							"forge":[
@@ -4849,8 +4849,8 @@
 							"rowClass":"poison-pre paralysis-pre",
 							"branch":".serpent-bite",
 							"name":"Hunter Knife+",
-							"rare":1,
-							"baseDamage":"111","gDamage":"112",
+							"rarity":1,
+							"damage1":"111","damageG":"112",
 							"sharpness":"sharpness_sns/hunter_knife+",
 							"price":"660",
 							"upgrade":[
@@ -4866,8 +4866,8 @@
 						{
 							"rowClass":"poison-pre paralysis-pre",
 							"name":"Serpent Bite",
-							"rare":2,
-							"baseDamage":139,"gDamage":140,
+							"rarity":2,
+							"damage1":139,"damageG":140,
 							"sharpness":"sharpness_sns/serpent_bite",
 							"price":"1,140",
 							"upgrade":[
@@ -4880,8 +4880,8 @@
 							"rowClass":"poison-pre paralysis-pre",
 							"branch":"hydra-bite",
 							"name":"Serpent Bite+",
-							"rare":2,
-							"baseDamage":167,"gDamage":168,
+							"rarity":2,
+							"damage1":167,"damageG":168,
 							"sharpness":"sharpness_sns/serpent_bite+",
 							"price":"1,740",
 							"upgrade":[
@@ -4897,8 +4897,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Hydra Bite",
-							"rare":3,
-							"baseDamage":83,"gDamage":84,
+							"rarity":3,
+							"damage1":83,"damageG":84,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":200,
 							"sharpness":"sharpness_sns/hydra_bite",
 							"price":"9,420",
@@ -4911,8 +4911,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Hydra Bite+",
-							"rare":3,
-							"baseDamage":125,"gDamage":126,
+							"rarity":3,
+							"damage1":125,"damageG":126,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":280,
 							"sharpness":"sharpness_sns/hydra_bite+",
 							"price":"9,900",
@@ -4925,8 +4925,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Deadly Poison","branchBend":true,
-							"rare":3,
-							"baseDamage":167,"gDamage":168,
+							"rarity":3,
+							"damage1":167,"damageG":168,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":360,
 							"sharpness":"sharpness_sns/deadly_poison",
 							"price":"37,740",
@@ -4944,8 +4944,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Viper Bite",
-							"rare":3,
-							"baseDamage":181,"gDamage":182,
+							"rarity":3,
+							"damage1":181,"damageG":182,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":180,
 							"sharpness":"sharpness_sns/viper_bite",
 							"price":"4,350",
@@ -4958,8 +4958,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Viper Bite+",
-							"rare":3,
-							"baseDamage":195,"gDamage":196,
+							"rarity":3,
+							"damage1":195,"damageG":196,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":220,
 							"sharpness":"sharpness_sns/viper_bite+",
 							"price":"4,710",
@@ -4972,8 +4972,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"Deathprize","branchBend":true,
-							"rare":3,
-							"baseDamage":209,"gDamage":210,
+							"rarity":3,
+							"damage1":209,"damageG":210,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":260,
 							"sharpness":"sharpness_sns/deathprize",
 							"price":"11,940",
@@ -4991,15 +4991,15 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"Hunter's Dagger",
-							"rare":1,
-							"baseDamage":139,"gDamage":140,
+							"rarity":1,
+							"damage1":139,"damageG":140,
 							"sharpness":"sharpness_sns/hunters_dagger",
 							"price":"1,140",
-							"baseUpgrade":[
+							"upgrade1":[
 								{"n":"Iron Ore","q":2},
 								{"n":"Earth Crystal","q":1}
 							],
-							"gUpgrade":[
+							"upgradeG":[
 								{"n":"Iron Ore","q":2},
 								{"n":"Earth Crystal","q":1},
 								{"n":"Machalite Ore","q":1}
@@ -5013,8 +5013,8 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"Hunter's Dagger+",
-							"rare":1,
-							"baseDamage":167,"gDamage":168,
+							"rarity":1,
+							"damage1":167,"damageG":168,
 							"sharpness":"sharpness_sns/hunters_dagger+",
 							"price":"1,740",
 							"upgrade":[
@@ -5025,8 +5025,8 @@
 						{
 							"rowClass":"poison-pre",
 							"name":"Assassin's Dagger",
-							"rare":1,
-							"baseDamage":195,"gDamage":196,
+							"rarity":1,
+							"damage1":195,"damageG":196,
 							"sharpness":"sharpness_sns/assassins_dagger",
 							"price":"2,460",
 							"upgrade":[
@@ -5037,8 +5037,8 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Poison Axe",
-							"rare":3,
-							"baseDamage":223,"gDamage":224,
+							"rarity":3,
+							"damage1":223,"damageG":224,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":180,
 							"sharpness":"sharpness_sns/poison_axe",
 							"price":"12,420",
@@ -5051,9 +5051,9 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Poison Battleaxe","branchBend":true,
-							"rare":3,
-							"baseDamage":237,"gDamage":238,
-							"attribute":"poison","attributeAlt":"Poison","baseAttribute":280,"gAttribute":260,
+							"rarity":3,
+							"damage1":237,"damageG":238,
+							"attribute":"poison","attributeAlt":"Poison","attributeValue1":280,"attributeValueG":260,
 							"sharpness":"sharpness_sns/poison_battleaxe",
 							"price":"39,900",
 							"upgrade":[
@@ -5082,8 +5082,8 @@
 						{
 							"rowClass":"fire-pre sleep-pre",
 							"name":"<b>Bone Kris</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":97,"gDamage":98,
+							"rarity":1,
+							"damage1":97,"damageG":98,
 							"sharpness":"sharpness_sns/bone_kris",
 							"buy":"1,080",
 							"price":"540",
@@ -5095,8 +5095,8 @@
 							"rowClass":"fire-pre sleep-pre",
 							"branch":".bone-kris-swords",
 							"name":"Bone Kris+",
-							"rare":1,
-							"baseDamage":125,"gDamage":126,
+							"rarity":1,
+							"damage1":125,"damageG":126,
 							"sharpness":"sharpness_sns/bone_kris+",
 							"price":"900",
 							"upgrade":[
@@ -5111,8 +5111,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"Weary Finsword","branchBend":true,
-							"rare":2,
-							"baseDamage":139,"gDamage":140,
+							"rarity":2,
+							"damage1":139,"damageG":140,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":180,
 							"sharpness":"sharpness_sns/weary_finsword",
 							"price":"3,390",
@@ -5130,8 +5130,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"Weary Finsword+",
-							"rare":2,
-							"baseDamage":153,"gDamage":154,
+							"rarity":2,
+							"damage1":153,"damageG":154,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":200,
 							"sharpness":"sharpness_sns/weary_finsword+",
 							"price":"3,630",
@@ -5144,8 +5144,8 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"Sandman Finsword","branchBend":true,
-							"rare":2,
-							"baseDamage":167,"gDamage":168,
+							"rarity":2,
+							"damage1":167,"damageG":168,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":230,
 							"sharpness":"sharpness_sns/sandman_finsword",
 							"price":"10,740",
@@ -5163,8 +5163,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Crimson Club","branchBend":true,
-							"rare":3,
-							"baseDamage":167,"gDamage":168,
+							"rarity":3,
+							"damage1":167,"damageG":168,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":140,
 							"sharpness":"sharpness_sns/crimson_club",
 							"price":"2,490",
@@ -5181,8 +5181,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Monoblos Club","branchBend":true,
-							"rare":3,
-							"baseDamage":195,"gDamage":196,
+							"rarity":3,
+							"damage1":195,"damageG":196,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"sharpness":"sharpness_sns/monoblos_club",
 							"price":"3,210",
@@ -5199,8 +5199,8 @@
 					"weapons":[
 						{
 							"name":"Bonepick",
-							"rare":1,
-							"baseDamage":153,"gDamage":154,
+							"rarity":1,
+							"damage1":153,"damageG":154,
 							"sharpness":"sharpness_sns/bonepick",
 							"price":"1,380",
 							"upgrade":[
@@ -5214,8 +5214,8 @@
 						},
 						{
 							"name":"Bonepick+",
-							"rare":1,
-							"baseDamage":167,"gDamage":168,
+							"rarity":1,
+							"damage1":167,"damageG":168,
 							"sharpness":"sharpness_sns/bonepick+",
 							"price":"1,740",
 							"upgrade":[
@@ -5226,8 +5226,8 @@
 						{
 							"branch":"corona",
 							"name":"Bonespike",
-							"rare":1,
-							"baseDamage":181,"gDamage":182,
+							"rarity":1,
+							"damage1":181,"damageG":182,
 							"sharpness":"sharpness_sns/bonespike",
 							"price":"2,100",
 							"upgrade":[
@@ -5243,8 +5243,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Corona","branchBend":true,
-							"rare":4,
-							"baseDamage":167,"gDamage":168,
+							"rarity":4,
+							"damage1":167,"damageG":168,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":440,
 							"defense":2,
 							"sharpness":"sharpness_sns/corona",
@@ -5274,8 +5274,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Red Saber",
-							"rare":2,
-							"baseDamage":195,"gDamage":196,
+							"rarity":2,
+							"damage1":195,"damageG":196,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":240,
 							"sharpness":"sharpness_sns/red_saber",
 							"price":"3,210",
@@ -5287,8 +5287,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Red Saber+",
-							"rare":2,
-							"baseDamage":209,"gDamage":210,
+							"rarity":2,
+							"damage1":209,"damageG":210,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":270,
 							"sharpness":"sharpness_sns/red_saber+",
 							"price":"5,190",
@@ -5301,8 +5301,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Flame Falchion",
-							"rare":3,
-							"baseDamage":223,"gDamage":224,
+							"rarity":3,
+							"damage1":223,"damageG":224,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":310,
 							"sharpness":"sharpness_sns/flame_falchion",
 							"price":"12,900",
@@ -5315,8 +5315,8 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Blazing Falchion","branchBend":true,
-							"rare":3,
-							"baseDamage":237,"gDamage":238,
+							"rarity":3,
+							"damage1":237,"damageG":238,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":380,
 							"sharpness":"sharpness_sns/blazing_falchion",
 							"price":"41,340",
@@ -5339,16 +5339,16 @@
 					"weapons":[
 						{
 							"name":"Hero's Blade","branchStart":true,
-							"rare":5,
-							"baseDamage":251,"gDamage":252,
+							"rarity":5,
+							"damage1":251,"damageG":252,
 							"defense":3,
 							"sharpness":"sharpness_sns/heros_blade",
 							"acquire":"Complete \"Horn of the Monoblos\""
 						},
 						{
-							"name":"Master's Blade","branchBend":true,"gBranch":"legendary-blades-link",
-							"rare":5,
-							"baseDamage":279,"gDamage":280,
+							"name":"Master's Blade","branchBend":true,"branchG":"legendary-blades-link",
+							"rarity":5,
+							"damage1":279,"damageG":280,
 							"defense":3,
 							"sharpness":"sharpness_sns/masters_blade",
 							"price":"48,000",
@@ -5380,8 +5380,8 @@
 					"weapons":[
 						{
 							"name":"<b>Rusted Sword</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":41,"gDamage":42,
+							"rarity":1,
+							"damage1":41,"damageG":42,
 							"sharpness":"sharpness_sns/rusted_sword",
 							"price":"1,000",
 							"forge":[
@@ -5390,8 +5390,8 @@
 						},
 						{
 							"name":"Tarnished Sword",
-							"rare":1,
-							"baseDamage":55,"gDamage":56,
+							"rarity":1,
+							"damage1":55,"damageG":56,
 							"sharpness":"sharpness_sns/tarnished_sword",
 							"price":"5,000",
 							"upgrade":[
@@ -5400,8 +5400,8 @@
 						},
 						{
 							"name":"Legendary Sword",
-							"rare":5,
-							"baseDamage":349,"gDamage":350,
+							"rarity":5,
+							"damage1":349,"damageG":350,
 							"sharpness":"sharpness_sns/legendary_sword",
 							"price":"30,000",
 							"upgrade":[
@@ -5411,9 +5411,9 @@
 						{
 							"rowClass":"help-cursor dragon-element","rowTitle":"Can also be downgraded back to the Legendary Sword",
 							"name":"Eternal Strife*","branchBend":true,
-							"rare":5,
-							"baseDamage":83,"gDamage":84,
-							"attribute":"dragon","attributeAlt":"Dragon","baseAttribute":520,"gAttribute":630,
+							"rarity":5,
+							"damage1":83,"damageG":84,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":520,"attributeValueG":630,
 							"sharpness":"sharpness_sns/eternal_strife",
 							"price":"60,000",
 							"upgrade":[
@@ -5431,8 +5431,8 @@
 					"weapons":[
 						{
 							"name":"<b>Kitchen Knife</b>","branchStart":true,
-							"rare":1,
-							"baseDamage":111,"gDamage":112,
+							"rarity":1,
+							"damage1":111,"damageG":112,
 							"sharpness":"sharpness_sns/kitchen_knife",
 							"price":"660",
 							"forge":[
@@ -5442,8 +5442,8 @@
 						},
 						{
 							"name":"Iron Chefblade","branchBend":true,
-							"rare":1,
-							"baseDamage":167,"gDamage":168,
+							"rarity":1,
+							"damage1":167,"damageG":168,
 							"sharpness":"sharpness_sns/iron_chefblade",
 							"price":"1,740",
 							"upgrade":[
@@ -5465,8 +5465,8 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Catspaw</b>","branchStart":true,
-							"rare":5,
-							"baseDamage":111,"gDamage":112,
+							"rarity":5,
+							"damage1":111,"damageG":112,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":180,
 							"sharpness":"sharpness_sns/catspaw",
 							"price":"9,660",
@@ -5477,9 +5477,9 @@
 						},
 						{
 							"rowClass":"paralysis-status",
-							"name":"Catburglar","branchBend":true,"baseBranchBend":true,
-							"rare":5,
-							"baseDamage":28,"gDamage":98,
+							"name":"Catburglar","branchBend":true,"branchBend1":true,
+							"rarity":5,
+							"damage1":28,"damageG":98,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":300,
 							"sharpness":"sharpness_sns/catburglar",
 							"price":"36,540",
@@ -5491,7 +5491,7 @@
 						{
 							"rowClass":"paralysis-status mhg",
 							"name":"Melynx Tool","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":84,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":360,
 							"sharpness":"sharpness_sns/melynx_tool",
@@ -5508,18 +5508,18 @@
 		},
 		{
 			"group":"Studded Club",
-			"class":"high-rank mh1","version":"1",
+			"class":"high-rank mh1",
 			"tbody":[
 				{
 					"weapons":[
 						{
 							"name":"<b>Studded Club</b>","branchStart":true,
-							"rare":2,
-							"damage":195,
+							"rarity":2,
+							"damage1":195,
 							"defense":3,
 							"sharpness":"sharpness_sns/studded_club",
 							"price":"2,940",
-							"forge":[
+							"forge1":[
 								{"n":"Diablos Spine","q":1},
 								{"n":"Twisted Horn","q":1},
 								{"n":"Diablos Shell","q":1},
@@ -5528,8 +5528,8 @@
 						},
 						{
 							"name":"Studded Club+",
-							"rare":2,
-							"damage":237,
+							"rarity":2,
+							"damage1":237,
 							"defense":4,
 							"sharpness":"sharpness_sns/studded_club+",
 							"price":"5,820",
@@ -5541,7 +5541,7 @@
 						},
 						{
 							"name":"Spiked Bat","branchBend":true,
-							"rare":2,
+							"rarity":2,
 							"damage":307,
 							"defense":5,
 							"sharpness":"sharpness_sns/spiked_bat",
@@ -5558,7 +5558,7 @@
 		},
 		{
 			"group":"Thunderbane",
-			"class":"high-rank mh1 thunder-pre","version":"1",
+			"class":"high-rank mh1 thunder-pre",
 			"tbody":[
 				{
 					"bodyClass":"thunder-pre","branchStart":true,
@@ -5566,8 +5566,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Thunderbane</b>",
-							"rare":2,
-							"damage":209,
+							"rarity":2,
+							"damage1":209,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":160,
 							"sharpness":"sharpness_sns/thunderbane",
 							"price":"5,190",
@@ -5581,8 +5581,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Thunderbane+",
-							"rare":2,
-							"damage":237,
+							"rarity":2,
+							"damage1":237,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":180,
 							"sharpness":"sharpness_sns/thunderbane+",
 							"price":"12,900",
@@ -5595,8 +5595,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Frightbane",
-							"rare":2,
-							"damage":279,
+							"rarity":2,
+							"damage1":279,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":220,
 							"sharpness":"sharpness_sns/frightbane",
 							"price":"42,300",
@@ -5609,10 +5609,10 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Thundertip</b>","branchEnd":true,
-							"rare":4,
-							"damage":321,
+							"rarity":4,
+							"damage1":321,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":240,
-							"rare":2,
+							"rarity":2,
 							"sharpness":"sharpness_sns/thundertip",
 							"price":"100,000",
 							"upgrade":[
@@ -5620,7 +5620,7 @@
 								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":10}
 							],
-							"forge":[
+							"forge1":[
 								{"n":"Silver Ticket","q":15},
 								{"n":"Pale Bone","q":1},
 								{"n":"Monoblos Heart","q":1},
@@ -5642,8 +5642,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Kirin Bolt</b>","branchStart":true,
-							"rare":5,
-							"baseDamage":181,"gDamage":182,
+							"rarity":5,
+							"damage1":181,"damageG":182,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":200,
 							"sharpness":"sharpness_sns/kirin_bolt",
 							"price":"2,490",
@@ -5656,8 +5656,8 @@
 						{
 							"rowClass":"high-rank thunder-element",
 							"name":"Kirin Bolt+",
-							"rare":5,
-							"baseDamage":195,"gDamage":196,
+							"rarity":5,
+							"damage1":195,"damageG":196,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":250,
 							"sharpness":"sharpness_sns/kirin_bolt+",
 							"price":"4,350",
@@ -5670,8 +5670,8 @@
 						{
 							"rowClass":"high-rank thunder-element",
 							"name":"Kirin Bolt Mega",
-							"rare":5,
-							"baseDamage":209,"gDamage":210,
+							"rarity":5,
+							"damage1":209,"damageG":210,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":300,
 							"defense":3,
 							"sharpness":"sharpness_sns/kirin_bolt_mega",
@@ -5684,11 +5684,11 @@
 						},
 						{
 							"rowClass":"high-rank thunder-element",
-							"name":"Kirin Bolt Ultimus","branchBend":true,"baseBranchBend":true,
-							"gBranch":"kirin-bolts-link",
+							"name":"Kirin Bolt Ultimus","branchBend":true,"branchBend1":true,
+							"branchG":"kirin-bolts-link",
 							"name":"Kirin Bolt Ultimus",
-							"rare":5,
-							"baseDamage":223,"gDamage":224,
+							"rarity":5,
+							"damage1":223,"damageG":224,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":340,
 							"defense":4,
 							"sharpness":"sharpness_sns/kirin_bolt_ultimus",
@@ -5717,7 +5717,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Kirin Bolt Kami","gOnly":true,"branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":238,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":390,
 							"defense":6,
@@ -5735,7 +5735,7 @@
 		},
 		{
 			"group":"Dragonbuster",
-			"class":"high-rank mh1 dragon-pre","version":"1",
+			"class":"high-rank mh1 dragon-pre",
 			"tbody":[
 				{
 					"bodyClass":"dragon-pre",
@@ -5743,12 +5743,12 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragonbuster</b>","branchStart":true,
-							"rare":4,
-							"damage":251,
+							"rarity":4,
+							"damage1":251,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":200,
 							"sharpness":"sharpness_sns/dragonbuster",
 							"price":"50,000",
-							"forge":[
+							"forge1":[
 								{"n":"Fatalis' Eye","q":1},
 								{"n":"Fatalis' Horn","q":1},
 								{"n":"Fatalis' Crust","q":1}
@@ -5757,8 +5757,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragonblood",
-							"rare":4,
-							"damage":279,
+							"rarity":4,
+							"damage1":279,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":240,
 							"defense":1,
 							"sharpness":"sharpness_sns/dragonblood",
@@ -5772,9 +5772,9 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Black Dragon Sword","branchBend":true,
-							"rare":5,
-							"damage":321,
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":320,
+							"rarity":5,
+							"damage1":321,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValue1":320,
 							"defense":2,
 							"sharpness":"sharpness_sns/black_dragon_sword",
 							"price":"150,000",
@@ -5796,7 +5796,7 @@
 					"weapons":[
 						{
 							"name":"<b>Ninja Sword</b>","branchStart":true,
-							"rare":5,
+							"rarity":5,
 							"damage":266,
 							"sharpness":"sharpness_sns/ninja_sword",
 							"price":"48,000",
@@ -5809,7 +5809,7 @@
 						{
 							"name":"Ninja Sword G","gOnly":true,"branchBend":true,
 							"rowClass":"g-rank",
-							"rare":7,
+							"rarity":7,
 							"damage":336,
 							"sharpness":"sharpness_sns/ninja_sword_g",
 							"price":"70,000",
@@ -5834,7 +5834,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"<b>Djinn</b>","gOnly":true,"branchStart":true,
-							"rare":6,
+							"rarity":6,
 							"damage":210,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":240,
 							"sharpness":"sharpness_sns/djinn",
@@ -5849,7 +5849,7 @@
 							"rowClass":"fire-element",
 							"branch":"gold-marrow",
 							"name":"Djinn+","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":238,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":270,
 							"sharpness":"sharpness_sns/djinn+",
@@ -5868,7 +5868,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gold Marrow","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":252,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":480,
 							"sharpness":"sharpness_sns/gold_marrow",
@@ -5892,7 +5892,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Ifrit","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":266,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":380,
 							"sharpness":"sharpness_sns/ifrit",
@@ -5919,7 +5919,7 @@
 							"rowClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 							"branch":".g-knife-swords",
 							"name":"<b>Origin Knife G</b>","branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":210,
 							"sharpness":"sharpness_sns/g_knife_origin",
 							"price":"2,940",
@@ -5936,12 +5936,12 @@
 						{
 							"rowClass":"water-element",
 							"name":"Odyssey","branchBend":true,
-							"rare":5,
-							"damage":252,
+							"rarity":5,
+							"damageG":252,
 							"attribute":"water","attributeAlt":"Water","attributeValue":300,
 							"sharpness":"sharpness_sns/odyssey",
-							"price":"100,000",
-							"upgrade":[
+							"priceG":"100,000",
+							"upgradeG":[
 								{"n":"Gravios Wing","q":1},
 								{"n":"Basarios Wing","q":1},
 								{"n":"Rathalos Plate","q":2}
@@ -5955,7 +5955,7 @@
 						{
 							"rowClass":"water-element g-rank",
 							"name":"Odyssey Blade","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":280,
 							"attribute":"water","attributeAlt":"Water","attributeValue":380,
 							"sharpness":"sharpness_sns/odyssey_blade",
@@ -5974,7 +5974,7 @@
 						{
 							"rowClass":"sleep-status g-rank",
 							"name":"Sandman Spike","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":238,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":260,
 							"sharpness":"sharpness_sns/sandman_spike",
@@ -5993,7 +5993,7 @@
 						{
 							"rowClass":"sleep-status g-rank",
 							"name":"High Sandman Spike","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":266,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":320,
 							"sharpness":"sharpness_sns/high_sandman_spike",
@@ -6013,7 +6013,7 @@
 							"rowClass":"thunder-pre dragon-pre poison-pre",
 							"branch":".thunderbane",
 							"name":"Origin Knife G+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":224,
 							"sharpness":"sharpness_sns/g_knife_origin+",
 							"price":"3,420",
@@ -6030,12 +6030,12 @@
 						{
 							"rowClass":"thunder-element poison-pre",
 							"name":"<b>Thunderbane</b>",
-							"rare":2,
-							"damage":210,
+							"rarity":2,
+							"damageG":210,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":160,
 							"sharpness":"sharpness_sns/thunderbane",
 							"price":"5,190",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Union Ore","q":1},
 								{"n":"Rubbery Hide","q":1},
 								{"n":"Electro Sac","q":1}
@@ -6051,8 +6051,8 @@
 							"rowClass":"thunder-element poison-pre",
 							"branch":"upper-battleaxe",
 							"name":"Thunderbane+",
-							"rare":2,
-							"damage":238,
+							"rarity":2,
+							"damageG":238,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":180,
 							"sharpness":"sharpness_sns/thunderbane+",
 							"price":"12,900",
@@ -6070,7 +6070,7 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Upper Battleaxe","gOnly":true,
-							"rare":3,
+							"rarity":3,
 							"damage":252,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":320,
 							"sharpness":"sharpness_sns/upper_battleaxe",
@@ -6084,7 +6084,7 @@
 						{
 							"rowClass":"poison-status",
 							"name":"Deadly Battleaxe","gOnly":true,"branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":266,
 							"attribute":"poison","attributeAlt":"Poison","attributeValue":380,
 							"sharpness":"sharpness_sns/deadly_battleaxe",
@@ -6103,8 +6103,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Frightbane",
-							"rare":2,
-							"damage":280,
+							"rarity":2,
+							"damageG":280,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":220,
 							"sharpness":"sharpness_sns/frightbane",
 							"price":"42,300",
@@ -6117,8 +6117,8 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Thundertip</b>",
-							"rare":4,
-							"damage":308,
+							"rarity":4,
+							"damageG":308,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":240,
 							"defense":2,
 							"sharpness":"sharpness_sns/thundertip",
@@ -6128,7 +6128,7 @@
 								{"n":"Electro Sac","q":10},
 								{"n":"Rubbery Hide","q":10}
 							],
-							"forge":[
+							"forgeG":[
 								{"n":"Silver Ticket","q":15},
 								{"n":"Pale Bone","q":1},
 								{"n":"Monoblos Heart","q":1},
@@ -6138,7 +6138,7 @@
 						{
 							"rowClass":"thunder-element g-rank",
 							"name":"Thunder God Sword Indra","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":322,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":220,
 							"defense":3,
@@ -6159,7 +6159,7 @@
 							"rowClass":"dragon-pre",
 							"branch":".studded-club",
 							"name":"Upper Dagger","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":238,
 							"sharpness":"sharpness_sns/upper_dagger",
 							"price":"3,900",
@@ -6175,17 +6175,17 @@
 					"weapons":[
 						{
 							"name":"<b>Studded Club</b>",
-							"rare":2,
-							"damage":196,
+							"rarity":2,
+							"damageG":196,
 							"defense":3,
 							"sharpness":"sharpness_sns/studded_club",
 							"price":"2,940",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Diablos Spine","q":1},
 								{"n":"Twisted Horn","q":1},
 								{"n":"Diablos Shell","q":1}
 							],
-							"forge":[
+							"forgeG":[
 								{"n":"Diablos Spine","q":2},
 								{"n":"Twisted Horn","q":1},
 								{"n":"Diablos Shell","q":1},
@@ -6195,8 +6195,8 @@
 						{
 							"branch":"dual-diablo-link",
 							"name":"Studded Club+",
-							"rare":2,
-							"damage":238,
+							"rarity":2,
+							"damageG":238,
 							"defense":4,
 							"sharpness":"sharpness_sns/studded_club+",
 							"price":"5,820",
@@ -6222,7 +6222,7 @@
 					"weapons":[
 						{
 							"name":"Spiked Bat",
-							"rare":2,
+							"rarity":2,
 							"damage":308,
 							"defense":5,
 							"sharpness":"sharpness_sns/spiked_bat",
@@ -6236,7 +6236,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"Cursed Spirit","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":350,
 							"defense":8,
 							"sharpness":"sharpness_sns/cursed_spirit",
@@ -6256,7 +6256,7 @@
 							"rowClass":"dragon-pre",
 							"branch":"double-dragon-link",
 							"name":"Upper Dagger+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":252,
 							"sharpness":"sharpness_sns/upper_dagger+",
 							"price":"4,620",
@@ -6282,17 +6282,17 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Dragonbuster</b>",
-							"rare":4,
-							"damage":252,
+							"rarity":4,
+							"damageG":252,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":200,
 							"sharpness":"sharpness_sns/dragonbuster",
 							"price":"50,000",
-							"upgrade":[
+							"upgradeG":[
 								{"n":"Fatalis' Eye","q":1},
 								{"n":"Fatalis' Horn","q":1},
 								{"n":"Fatalis' Crust","q":1}
 							],
-							"forge":[
+							"forgeG":[
 								{"n":"Fatalis' Eye","q":1},
 								{"n":"Fatalis' Horn","q":2},
 								{"n":"Fatalis' Crust","q":1}
@@ -6301,8 +6301,8 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dragonblood",
-							"rare":4,
-							"damage":266,
+							"rarity":4,
+							"damageG":266,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":240,
 							"defense":1,
 							"sharpness":"sharpness_sns/dragonblood",
@@ -6317,9 +6317,9 @@
 							"rowClass":"dragon-element",
 							"branch":"black-ruiner-sword",
 							"name":"Black Dragon Sword",
-							"rare":5,
-							"damage":280,
-							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":300,
+							"rarity":5,
+							"damageG":280,
+							"attribute":"dragon","attributeAlt":"Dragon","attributeValueG":300,
 							"defense":2,
 							"sharpness":"sharpness_sns/black_dragon_sword",
 							"price":"150,000",
@@ -6337,7 +6337,7 @@
 						{
 							"rowClass":"dragon-element g-rank",
 							"name":"Black Ruiner Sword","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":308,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":480,
 							"defense":10,
@@ -6356,7 +6356,7 @@
 						{
 							"rowClass":"dragon-element g-rank",
 							"name":"True Black Dragon Sword","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":336,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":400,
 							"defense":7,
@@ -6377,17 +6377,17 @@
 			"group":"Others","other":true,
 			"tbody":[
 				{
-					"bodyClass":"mh1 water-pre","version":"1",
+					"bodyClass":"mh1 water-pre",
 					"weapons":[
 						{
 							"rowClass":"water-element high-rank",
 							"name":"<b>Odyssey</b>",
-							"rare":5,
-							"damage":279,
+							"rarity":5,
+							"damage1":279,
 							"attribute":"water","attributeAlt":"Water","attributeValue":300,
 							"sharpness":"sharpness_sns/odyssey",
-							"price":"150,000",
-							"forge":[
+							"price1":"150,000",
+							"forge1":[
 								{"n":"Gold Ticket","q":10},
 								{"n":"Gravios Wing","q":1},
 								{"n":"Basarios Wing","q":1},
@@ -6397,7 +6397,7 @@
 						{
 							"rowClass":"high-rank",
 							"name":"<b>Ninja Sword</b>",
-							"rare":5,
+							"rarity":5,
 							"damage":265,
 							"sharpness":"sharpness_sns/ninja_sword",
 							"price":"150,000",
@@ -6415,7 +6415,7 @@
 						{
 							"rowClass":"high-rank",
 							"name":"<b>Dosbite Dagger</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":294,
 							"sharpness":"sharpness_sns/dosbite_dagger",
 							"price":"70,000",
@@ -6429,7 +6429,7 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Black Belt Sword</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":224,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":280,
 							"sharpness":"sharpness_sns/black_belt_sword",
@@ -6444,7 +6444,7 @@
 						{
 							"rowClass":"paralysis-status",
 							"name":"<b>Expert Sword</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":252,
 							"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":340,
 							"sharpness":"sharpness_sns/expert_sword",
@@ -6460,7 +6460,7 @@
 							"dev":true,
 							"rowClass":"sleep-status",
 							"name":"Coma Stick",
-							"rare":6,
+							"rarity":6,
 							"damage":14,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":990,
 							"defense":10,
@@ -6481,7 +6481,7 @@
 					"weapons":[
 						{
 							"name":"Twin dagger","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":98,
 							"sharpness":"sharpness_ds/twin_dagger",
 							"price":"810",
@@ -6494,7 +6494,7 @@
 						},
 						{
 							"name":"Twin Dagger+","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":112,
 							"sharpness":"sharpness_ds/twin_dagger+",
 							"price":"990",
@@ -6506,7 +6506,7 @@
 						},
 						{
 							"name":"Hurricane","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":140,
 							"sharpness":"sharpness_ds/hurricane",
 							"price":"1,710",
@@ -6518,7 +6518,7 @@
 						},
 						{
 							"name":"Hurricane+","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":182,
 							"sharpness":"sharpness_ds/hurricane+",
 							"price":"3,150",
@@ -6530,7 +6530,7 @@
 						},
 						{
 							"name":"Cyclone","gOnly":true,"branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":238,
 							"sharpness":"sharpness_ds/cyclone",
 							"price":"5,850",
@@ -6556,7 +6556,7 @@
 						{
 							"rowClass":"fire-pre water-pre",
 							"name":"Bone Scythe","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":154,
 							"sharpness":"sharpness_ds/bone_scythe",
 							"price":"2,070",
@@ -6570,7 +6570,7 @@
 							"rowClass":"fire-pre water-pre",
 							"branch":"gradios",
 							"name":"Bone Scythe+","gOnly":true,
-							"rare":2,
+							"rarity":2,
 							"damage":168,
 							"sharpness":"sharpness_ds/bone_scythe+",
 							"price":"2,610",
@@ -6588,7 +6588,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gradios","gOnly":true,
-							"rare":3,
+							"rarity":3,
 							"damage":196,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":180,
 							"sharpness":"sharpness_ds/gradios",
@@ -6602,7 +6602,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gradios+","gOnly":true,
-							"rare":3,
+							"rarity":3,
 							"damage":224,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":210,
 							"sharpness":"sharpness_ds/gradios+",
@@ -6616,7 +6616,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Gradios Ultimus","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":252,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":250,
 							"sharpness":"sharpness_ds/gradios_ultimus",
@@ -6635,7 +6635,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Cutlass","gOnly":true,
-							"rare":3,
+							"rarity":3,
 							"damage":182,
 							"attribute":"water","attributeAlt":"Water","attributeValue":130,
 							"defense":1,
@@ -6650,7 +6650,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Cutlass+","gOnly":true,"branchBend":true,
-							"rare":3,
+							"rarity":3,
 							"damage":210,
 							"attribute":"water","attributeAlt":"Water","attributeValue":210,
 							"defense":3,
@@ -6675,7 +6675,7 @@
 					"weapons":[
 						{
 							"name":"Dual Diablo","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":252,
 							"defense":4,
 							"sharpness":"sharpness_ds/dual_diablo",
@@ -6688,7 +6688,7 @@
 						},
 						{
 							"name":"Dual Diablo+","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":336,
 							"defense":5,
 							"sharpness":"sharpness_ds/dual_diablo+",
@@ -6715,7 +6715,7 @@
 							"rowClass":"water-pre",
 							"branch":".tomahawk-swords",
 							"name":"<b>Dual Tomahawk","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":252,
 							"sharpness":"sharpness_ds/dual_tomahawk",
 							"price":"6,930",
@@ -6733,7 +6733,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Guild Rapier","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":210,
 							"attribute":"water","attributeAlt":"Water","attributeValue":140,
 							"sharpness":"sharpness_ds/guild_rapier",
@@ -6752,7 +6752,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Guild Rapier+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":224,
 							"attribute":"water","attributeAlt":"Water","attributeValue":190,
 							"sharpness":"sharpness_ds/guild_rapier+",
@@ -6766,7 +6766,7 @@
 						{
 							"rowClass":"water-element",
 							"name":"Guild Saber","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":238,
 							"attribute":"water","attributeAlt":"Water","attributeValue":230,
 							"sharpness":"sharpness_ds/guild_saber",
@@ -6780,7 +6780,7 @@
 						{
 							"rowClass":"g-rank water-element",
 							"name":"Guild Knight Saber","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":266,
 							"attribute":"water","attributeAlt":"Water","attributeValue":230,
 							"sharpness":"sharpness_ds/guild_knight_saber",
@@ -6798,7 +6798,7 @@
 					"weapons":[
 						{
 							"name":"Insector","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":252,
 							"sharpness":"sharpness_ds/insector",
 							"price":"6,930",
@@ -6815,7 +6815,7 @@
 					"weapons":[
 						{
 							"name":"Insector+","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":322,
 							"sharpness":"sharpness_ds/insector+",
 							"price":"15,210",
@@ -6828,7 +6828,7 @@
 						{
 							"rowClass":"g-rank",
 							"name":"Insector Slicers","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":350,
 							"sharpness":"sharpness_ds/insector_slicers",
 							"price":"75,000",
@@ -6844,7 +6844,7 @@
 					"weapons":[
 						{
 							"name":"Dual Tomahawk+","gOnly":true,"branchBend":true,
-							"rare":4,
+							"rarity":4,
 							"damage":350,
 							"sharpness":"sharpness_ds/dual_tomahawk+",
 							"price":"20,610",
@@ -6867,7 +6867,7 @@
 					"weapons":[
 						{
 							"name":"Legendary Blades","gOnly":true,"branchBend":true,
-							"rare":5,
+							"rarity":5,
 							"damage":266,
 							"defense":5,
 							"sharpness":"sharpness_ds/legendary_blades",
@@ -6890,7 +6890,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"<b>Prototype Saw-Slicer</b>","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":224,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":120,
 							"sharpness":"sharpness_ds/prototype_saw_slicer",
@@ -6905,7 +6905,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Guillotine","gOnly":true,
-							"rare":4,
+							"rarity":4,
 							"damage":266,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":180,
 							"sharpness":"sharpness_ds/guillotine",
@@ -6919,7 +6919,7 @@
 						{
 							"rowClass":"g-rank thunder-element",
 							"name":"Sanctioned Blades","gOnly":true,"branchBend":true,
-							"rare":6,
+							"rarity":6,
 							"damage":294,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":230,
 							"sharpness":"sharpness_ds/sanctioned_blades",
@@ -6945,7 +6945,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"<b>Double Dragon</b>","gOnly":true,"branchStart":true,
-							"rare":4,
+							"rarity":4,
 							"damage":266,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":220,
 							"sharpness":"sharpness_ds/double_dragon",
@@ -6965,7 +6965,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Dual Dragon Ultimus","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":294,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":280,
 							"sharpness":"sharpness_ds/dual_dragon_ultimus",
@@ -6979,7 +6979,7 @@
 						{
 							"rowClass":"g-rank dragon-element",
 							"name":"Ultimus Heaven and Earth","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":322,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":360,
 							"sharpness":"sharpness_ds/ultimus_heaven_and_earth",
@@ -7005,7 +7005,7 @@
 						{
 							"rowClass":"fire-element",
 							"name":"Corpse Blades","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":336,
 							"attribute":"fire","attributeAlt":"Fire","attributeValue":390,
 							"sharpness":"sharpness_ds/corpse_blades",
@@ -7029,7 +7029,7 @@
 					"weapons":[
 						{
 							"name":"<b>Worn Blades</b>","gOnly":true,"branchStart":true,
-							"rare":6,
+							"rarity":6,
 							"damage":126,
 							"sharpness":"sharpness_ds/worn_blades",
 							"price":"6,000",
@@ -7039,7 +7039,7 @@
 						},
 						{
 							"name":"Weathered Blades","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":140,
 							"sharpness":"sharpness_ds/weathered_blades",
 							"price":"10,000",
@@ -7049,7 +7049,7 @@
 						},
 						{
 							"name":"Antique Blade","gOnly":true,
-							"rare":7,
+							"rarity":7,
 							"damage":168,
 							"sharpness":"sharpness_ds/antique_blades",
 							"price":"50,000",
@@ -7060,7 +7060,7 @@
 						{
 							"rowClass":"dragon-element",
 							"name":"Eternal Schism","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":182,
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":510,
 							"sharpness":"sharpness_ds/eternal_schism",
@@ -7084,7 +7084,7 @@
 						{
 							"rowClass":"thunder-element",
 							"name":"Kirin Bolts","gOnly":true,"branchBend":true,
-							"rare":7,
+							"rarity":7,
 							"damage":252,
 							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":300,
 							"defense":8,
@@ -7111,7 +7111,7 @@
 						{
 							"rowClass":"sleep-status",
 							"name":"<b>Gabas</b>","gOnly":true,
-							"rare":6,
+							"rarity":6,
 							"damage":224,
 							"attribute":"sleep","attributeAlt":"Sleep","attributeValue":340,
 							"sharpness":"sharpness_ds/gabas",
@@ -7126,7 +7126,7 @@
 						{
 							"rowClass":"high-rank",
 							"name":"<b>Glutton's Set</b>","gOnly":true,
-							"rare":5,
+							"rarity":5,
 							"damage":182,
 							"sharpness":"sharpness_ds/gluttons_set",
 							"price":"5,000",
@@ -7139,7 +7139,7 @@
 							"dev":true,
 							"rowClass":"water-element",
 							"name":"Water Cutters",
-							"rare":6,
+							"rarity":6,
 							"damage":252,
 							"attribute":"water","attributeAlt":"Water","attributeValue":490,
 							"sharpness":"sharpness_ds/water_cutter"
@@ -7150,7 +7150,6 @@
 		}
 	],
 	"bowguns1":{
-		"version":"1",
 		"lbg":[
 			{
 				"name":"Crossbow Gun",
@@ -7632,7 +7631,6 @@
 		]
 	},
 	"bowgunsG":{
-		"version":"g",
 		"lbg":[
 			{
 				"name":"Crossbow Gun",

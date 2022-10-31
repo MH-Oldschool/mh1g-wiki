@@ -19,5 +19,6 @@ node_modules/
 
 *.txt
 
-# Compiled HTML
+# Compiled Stuff
 public/*.html
+public/js/weapon_data.js

@@ -89,77 +89,77 @@ ready(() => {
 	});
 
 	// Filter Bowguns by Ammo
-	var lbgBase = document.getElementById("lbg-base");
-	var hbgBase = document.getElementById("hbg-base");
-	var baseAmmoAll = document.getElementById("base-ammo-all");
-	var baseAmmoChecks = document.getElementsByName("ammo_base");
+	var lbg1 = document.getElementById("lbg-1");
+	var hbg1 = document.getElementById("hbg-1");
+	var ammoAll1 = document.getElementById("ammo-all-1");
+	var ammoChecks1 = document.getElementsByName("ammo_1");
 
-	function updateBaseBowgunVisibility() {
+	function updateBowgun1Visibility() {
 		var filterBowguns = false;
 		var anyUnchecked = false;
 
-		for (var i = 0; i < baseAmmoChecks.length; i++) {
-			if (!filterBowguns && baseAmmoChecks[i].checked) filterBowguns = true;
-			if (!anyUnchecked && !baseAmmoChecks[i].checked) anyUnchecked = true;
+		for (var i = 0; i < ammoChecks1.length; i++) {
+			if (!filterBowguns && ammoChecks1[i].checked) filterBowguns = true;
+			if (!anyUnchecked && !ammoChecks1[i].checked) anyUnchecked = true;
 		}
 
 
 		if (filterBowguns && anyUnchecked) {
-			lbgBase.classList.add("filter-bowguns");
-			hbgBase.classList.add("filter-bowguns");
+			lbg1.classList.add("filter-bowguns");
+			hbg1.classList.add("filter-bowguns");
 
-			baseAmmoAll.checked = false;
+			ammoAll1.checked = false;
 
-			for (var i = 0; i < baseAmmoChecks.length; i++) {
-				if (baseAmmoChecks[i].checked) {
-					lbgBase.classList.add(baseAmmoChecks[i].value);
-					hbgBase.classList.add(baseAmmoChecks[i].value);
+			for (var i = 0; i < ammoChecks1.length; i++) {
+				if (ammoChecks1[i].checked) {
+					lbg1.classList.add(ammoChecks1[i].value);
+					hbg1.classList.add(ammoChecks1[i].value);
 				}
 				else {
-					lbgBase.classList.remove(baseAmmoChecks[i].value);
-					hbgBase.classList.remove(baseAmmoChecks[i].value);
+					lbg1.classList.remove(ammoChecks1[i].value);
+					hbg1.classList.remove(ammoChecks1[i].value);
 				}
 			}
 		}
 		else {
-			lbgBase.classList.remove("filter-bowguns");
-			hbgBase.classList.remove("filter-bowguns");
-			baseAmmoAll.checked = true;
+			lbg1.classList.remove("filter-bowguns");
+			hbg1.classList.remove("filter-bowguns");
+			ammoAll1.checked = true;
 		}
 	}
-	for (var i = 0; i < baseAmmoChecks.length; i++) {
-		baseAmmoChecks[i].addEventListener("click", updateBaseBowgunVisibility);
+	for (var i = 0; i < ammoChecks1.length; i++) {
+		ammoChecks1[i].addEventListener("click", updateBowgun1Visibility);
 	}
-	updateBaseBowgunVisibility();
-	baseAmmoAll.addEventListener("click", (event) => {
-		for (var i = 0; i < baseAmmoChecks.length; i++) {
-			baseAmmoChecks[i].checked = event.target.checked;
+	updateBowgun1Visibility();
+	ammoAll1.addEventListener("click", (event) => {
+		for (var i = 0; i < ammoChecks1.length; i++) {
+			ammoChecks1[i].checked = event.target.checked;
 		}
 
-		lbgBase.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
-		hbgBase.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
+		lbg1.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
+		hbg1.classList.remove("show-nrm-1", "show-nrm-3", "show-prc-1", "show-prc-2", "show-prc-3", "show-pllt-1", "show-pllt-2", "show-pllt-3", "show-crag-1", "show-crag-2", "show-crag-3", "show-clust-1", "show-clust-2", "show-clust-3", "show-disc", "show-rec-1", "show-rec-2", "show-poi-1", "show-poi-2", "show-stun-1", "show-stun-2", "show-slp-1", "show-slp-2", "show-anti", "show-demon", "show-armor", "show-dragon", "show-dung");
 
 		if (event.target.checked) {
-			lbgBase.classList.remove("filter-bowguns");
-			hbgBase.classList.remove("filter-bowguns");
+			lbg1.classList.remove("filter-bowguns");
+			hbg1.classList.remove("filter-bowguns");
 		}
 		else {
-			lbgBase.classList.add("filter-bowguns");
-			hbgBase.classList.add("filter-bowguns");
+			lbg1.classList.add("filter-bowguns");
+			hbg1.classList.add("filter-bowguns");
 		}
 	});
 
 	var lbgG = document.getElementById("lbg-g");
 	var hbgG = document.getElementById("hbg-g");
-	var gAmmoAll = document.getElementById("g-ammo-all");
-	var gAmmoChecks = document.getElementsByName("ammo_g");
+	var ammoAllG = document.getElementById("ammo-all-g");
+	var ammoChecksG = document.getElementsByName("ammo_g");
 	function updateGBowgunVisibility() {
 		var filterBowguns = false;
 		var anyUnchecked = false;
 
-		for (var i = 0; i < gAmmoChecks.length; i++) {
-			if (!filterBowguns && gAmmoChecks[i].checked) filterBowguns = true;
-			if (!anyUnchecked && !gAmmoChecks[i].checked) anyUnchecked = true;
+		for (var i = 0; i < ammoChecksG.length; i++) {
+			if (!filterBowguns && ammoChecksG[i].checked) filterBowguns = true;
+			if (!anyUnchecked && !ammoChecksG[i].checked) anyUnchecked = true;
 		}
 
 
@@ -167,32 +167,32 @@ ready(() => {
 			lbgG.classList.add("filter-bowguns");
 			hbgG.classList.add("filter-bowguns");
 
-			gAmmoAll.checked = false;
+			ammoAllG.checked = false;
 
-			for (var i = 0; i < gAmmoChecks.length; i++) {
-				if (gAmmoChecks[i].checked) {
-					lbgG.classList.add(gAmmoChecks[i].value);
-					hbgG.classList.add(gAmmoChecks[i].value);
+			for (var i = 0; i < ammoChecksG.length; i++) {
+				if (ammoChecksG[i].checked) {
+					lbgG.classList.add(ammoChecksG[i].value);
+					hbgG.classList.add(ammoChecksG[i].value);
 				}
 				else {
-					lbgG.classList.remove(gAmmoChecks[i].value);
-					hbgG.classList.remove(gAmmoChecks[i].value);
+					lbgG.classList.remove(ammoChecksG[i].value);
+					hbgG.classList.remove(ammoChecksG[i].value);
 				}
 			}
 		}
 		else {
 			lbgG.classList.remove("filter-bowguns");
 			hbgG.classList.remove("filter-bowguns");
-			gAmmoAll.checked = true;
+			ammoAllG.checked = true;
 		}
 	}
-	for (var i = 0; i < gAmmoChecks.length; i++) {
-		gAmmoChecks[i].addEventListener("click", updateGBowgunVisibility);
+	for (var i = 0; i < ammoChecksG.length; i++) {
+		ammoChecksG[i].addEventListener("click", updateGBowgunVisibility);
 	}
 	updateGBowgunVisibility();
-	gAmmoAll.addEventListener("click", (event) => {
-		for (var i = 0; i < gAmmoChecks.length; i++) {
-			gAmmoChecks[i].checked = event.target.checked;
+	ammoAllG.addEventListener("click", (event) => {
+		for (var i = 0; i < ammoChecksG.length; i++) {
+			ammoChecksG[i].checked = event.target.checked;
 		}
 
 		lbgG.classList.remove("show-nrm-1","show-nrm-3","show-prc-1","show-prc-2","show-prc-3","show-pllt-1","show-pllt-2","show-pllt-3","show-crag-1","show-crag-2","show-crag-3","show-clust-1","show-clust-2","show-clust-3","show-flame","show-water","show-thunder","show-dragon","show-rec-1","show-rec-2","show-poi-1","show-poi-2","show-stun-1","show-stun-2","show-slp-1","show-slp-2","show-anti","show-demon");
@@ -365,8 +365,8 @@ ready(() => {
 	}
 	updateCalcSharpnessMax();
 
-	function getIconColor(rare) {
-		switch (rare) {
+	function getIconColor(rarity) {
+		switch (rarity) {
 			case 4: return "green";
 			case 5: return "red";
 			case 6: return "blue";
@@ -518,30 +518,34 @@ ready(() => {
 		var attackUpBonus = getAttackUpBonus();
 		var bloatedBonus = parseInt(BLOAT_VALUES[currentCategory] * attackUpBonus); // I think decimals get truncated?
 
-		var trueDamage, trueBaseDamage, trueGDamage;
+		var trueDamage, trueDamage1, trueDamageG;
 		if (currentWeapon.damage) {
 			trueDamage = getWeaponDamage(currentWeapon.damage, currentCategory);
 		}
-		if (currentWeapon.baseDamage) {
-			trueBaseDamage = getWeaponDamage(currentWeapon.baseDamage, currentCategory);
+		if (currentWeapon.damage1) {
+			trueDamage1 = getWeaponDamage(currentWeapon.damage1, currentCategory);
 		}
-		if (currentWeapon.gDamage) {
-			trueGDamage = getWeaponDamage(currentWeapon.gDamage, currentCategory);
+		if (currentWeapon.damageG) {
+			trueDamageG = getWeaponDamage(currentWeapon.damageG, currentCategory);
 		}
 
 		if (currentCategory == "bowguns") {
 			weaponElement.parentElement.style.display = "none";
 			weaponStatus.parentElement.style.display = "none";
 
-			var splitDamage = currentWeapon.damage.match(/(^\d+) ?- ?(\d+)/);
-			var minDamage = getWeaponDamage(splitDamage[1], "bowguns") + attackUpBonus;
-			var maxDamage = getWeaponDamage(splitDamage[2], "bowguns") + attackUpBonus;
+			var damage = currentWeapon.damage;
+			if (!currentWeapon.damage) {
+				damage = currentWeapon[`damage${getMHVersion().toUpperCase()}`];
+			}
+
+			var minDamage = getWeaponDamage(damage[0], "bowguns") + attackUpBonus;
+			var maxDamage = getWeaponDamage(damage[1], "bowguns") + attackUpBonus;
 
 			if (bloatedBonus) {
-				weaponAttack.innerHTML = `${parseInt(splitDamage[1]) + bloatedBonus}&nbsp;-&nbsp;${parseInt(splitDamage[2]) + bloatedBonus} (+${bloatedBonus}) [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
+				weaponAttack.innerHTML = `${parseInt(damage[0]) + bloatedBonus}&nbsp;-&nbsp;${parseInt(damage[1]) + bloatedBonus} (+${bloatedBonus}) [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
 			}
 			else {
-				weaponAttack.innerHTML = `${currentWeapon.damage} [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
+				weaponAttack.innerHTML = `${damage[0]}&nbsp;-&nbsp;${damage[1]} [${minDamage}&nbsp;-&nbsp;${maxDamage}]`;
 			}
 
 			var shotMin, shotMax = 0.0;
@@ -606,10 +610,10 @@ ready(() => {
 			}
 			else {
 				if (bloatedBonus) {
-					weaponAttack.innerHTML = `<span class="mh1">${numberWithCommas(commaStringToNumber(currentWeapon.baseDamage) + bloatedBonus)} [${Math.round(trueBaseDamage + attackUpBonus)}]</span><span class="mhg">${numberWithCommas(commaStringToNumber(currentWeapon.gDamage) + bloatedBonus)}</span> (+${bloatedBonus}) [${Math.round(trueGDamage + attackUpBonus)}]`;
+					weaponAttack.innerHTML = `<span class="mh1">${numberWithCommas(commaStringToNumber(currentWeapon.damage1) + bloatedBonus)} [${Math.round(trueDamage1 + attackUpBonus)}]</span><span class="mhg">${numberWithCommas(commaStringToNumber(currentWeapon.damageG) + bloatedBonus)}</span> (+${bloatedBonus}) [${Math.round(trueDamageG + attackUpBonus)}]`;
 				}
 				else {
-					weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.baseDamage} [${Math.round(trueBaseDamage)}]</span><span class="mhg">${currentWeapon.gDamage} [${Math.round(trueGDamage)}]</span>`;
+					weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.damage1} [${Math.round(trueDamage1)}]</span><span class="mhg">${currentWeapon.damageG} [${Math.round(trueDamageG)}]</span>`;
 				}
 			}
 
@@ -619,24 +623,24 @@ ready(() => {
 						element.innerHTML = (parseInt((trueDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
 					}
 					else {
-						var baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
-						var gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
-						element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
+						var motionDamage1 = (parseInt((trueDamage1 + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+						var motionDamageG = (parseInt((trueDamageG + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+						element.innerHTML = `<span class="mh1">${motionDamage1}</span><span class="mhg">${motionDamageG}</span>`;
 					}
 				}
 				else {
-					var baseMotionDamage, gMotionDamage;
+					var motionDamage1, motionDamageG;
 
 					if (trueDamage) {
-						baseMotionDamage = (parseInt((trueDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
-						gMotionDamage = (parseInt((trueDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
+						motionDamage1 = (parseInt((trueDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
+						motionDamageG = (parseInt((trueDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
 					}
 					else {
-						baseMotionDamage = (parseInt((trueBaseDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
-						gMotionDamage = (parseInt((trueGDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
+						motionDamage1 = (parseInt((trueDamage1 + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
+						motionDamageG = (parseInt((trueDamageG + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
 					}
 
-					element.innerHTML = `<span class="mh1">${baseMotionDamage}</span><span class="mhg">${gMotionDamage}</span>`;
+					element.innerHTML = `<span class="mh1">${motionDamage1}</span><span class="mhg">${motionDamageG}</span>`;
 				}
 			});
 
@@ -646,7 +650,7 @@ ready(() => {
 			var isMHG = getMHVersion() == "g";
 			var attribute = currentWeapon.attributeValue;
 			if (!currentWeapon.attributeValue) {
-				attribute = isMHG ? currentWeapon.gAttribute : currentWeapon.baseAttribute;
+				attribute = isMHG ? currentWeapon.attributeValueG : currentWeapon.attributeValue1;
 			}
 
 			var trueAttribute = 0;
@@ -800,8 +804,6 @@ ready(() => {
 			lances: "lance",
 			swords: "sns",
 			dualSwords: "duals"
-			// bowguns: "hbg"
-			/* "lightBowguns": "lbg" maybe? */
 		};
 		const calculatorClasses = {
 			greatswords: "greatsword",
@@ -809,7 +811,6 @@ ready(() => {
 			lances: "lance",
 			swords: "sword",
 			dualSwords: "dual-swords"
-			// bowguns: "bowgun"
 		};
 
 		const weaponSharpness = document.getElementById("calc-sharpness-img");
@@ -818,8 +819,8 @@ ready(() => {
 		currentCategory = category;
 		currentWeapon = window[category][weaponID];
 
-		weaponName.innerHTML = currentWeapon.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, "");
-		weaponIcon.className = `${getIconColor(currentWeapon.rare)}-icon ${ICON_NAMES[category]}-icon`;
+		weaponName.innerHTML = currentWeapon.name;
+		weaponIcon.className = `${getIconColor(currentWeapon.rarity)}-icon ${ICON_NAMES[category]}-icon`;
 
 		weaponSharpness.src = `images/${currentWeapon.sharpness}.gif`;
 		// Draw normal and handicraft sharpness bars
@@ -846,16 +847,23 @@ ready(() => {
 		currentCategory = "bowguns";
 		currentWeapon = window.bowguns[weaponID];
 
-		weaponName.innerHTML = currentWeapon.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, "");
-		weaponIcon.className = `${getIconColor(currentWeapon.rare)}-icon hbg-icon`;
+		weaponName.innerHTML = currentWeapon.name;
+		weaponIcon.className = `${getIconColor(currentWeapon.rarity)}-icon ${currentWeapon.icon}-icon`;
 
 		updateWeaponDamage();
+		var version = getMHVersion().toUpperCase();
+		var ammoName = "";
 
 		// Add shot classes for available ammo
 		const TWO_LEVEL_AMMO = ["recover","poison","stun","sleep"];
 		for (var i = 0; i < 2; i++) {
 			for (var ammoIndex = 0; ammoIndex < TWO_LEVEL_AMMO.length; ammoIndex++) {
-				if (currentWeapon[TWO_LEVEL_AMMO[ammoIndex]][i] != 0) {
+				ammoName = TWO_LEVEL_AMMO[ammoIndex];
+				if (!currentWeapon[ammoName]) {
+					ammoName = `${TWO_LEVEL_AMMO[ammoIndex]}${version}`;
+				}
+
+				if (currentWeapon[ammoName][i] != 0) {
 					sidebarContent.classList.add(`${TWO_LEVEL_AMMO[ammoIndex]}-${i + 1}-shot`);
 				}
 			}
@@ -864,7 +872,12 @@ ready(() => {
 		const THREE_LEVEL_AMMO = ["normal","pierce","pellet","crag","clust"];
 		for (var i = 0; i < 3; i++) {
 			for (var ammoIndex = 0; ammoIndex < THREE_LEVEL_AMMO.length; ammoIndex++) {
-				if (currentWeapon[THREE_LEVEL_AMMO[ammoIndex]][i] != 0) {
+				ammoName = THREE_LEVEL_AMMO[ammoIndex];
+				if (!currentWeapon[ammoName]) {
+					ammoName = `${THREE_LEVEL_AMMO[ammoIndex]}${version}`;
+				}
+
+				if (currentWeapon[ammoName][i] != 0) {
 					sidebarContent.classList.add(`${THREE_LEVEL_AMMO[ammoIndex]}-${i + 1}-shot`);
 				}
 			}
@@ -884,7 +897,12 @@ ready(() => {
 			"dung"
 		];
 		for (var i = 0; i < OTHER_AMMO.length; i++) {
-			if (currentWeapon[OTHER_AMMO[i]] && currentWeapon[OTHER_AMMO[i]] != 0) {
+			ammoName = OTHER_AMMO[i];
+			if (!currentWeapon[ammoName]) {
+				ammoName = `${OTHER_AMMO[i]}${version}`;
+			}
+
+			if (currentWeapon[ammoName] && currentWeapon[ammoName] != 0) {
 				sidebarContent.classList.add(`${OTHER_AMMO[i]}-shot`);
 			}
 		}

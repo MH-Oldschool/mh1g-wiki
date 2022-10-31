@@ -82,33 +82,33 @@ body {
 .highlight-sleep .sleep-status { color: #99ff5b; }
 
 /* 1-only highlighting */
-.show-1 .highlight-fire .weapon-group-container.fire-pre-base { display: block; }
-.show-1 .highlight-fire tbody.fire-pre-base { display: table-row-group; }
-.show-1 .highlight-fire tr.fire-pre-base { display: table-row; }
+.show-1 .highlight-fire .weapon-group-container.fire-pre-1 { display: block; }
+.show-1 .highlight-fire tbody.fire-pre-1 { display: table-row-group; }
+.show-1 .highlight-fire tr.fire-pre-1 { display: table-row; }
 /* Water */
-.show-1 .highlight-water .weapon-group-container.water-pre-base { display: block; }
-.show-1 .highlight-water tbody.water-pre-base { display: table-row-group; }
-.show-1 .highlight-water tr.water-pre-base { display: table-row; }
+.show-1 .highlight-water .weapon-group-container.water-pre-1 { display: block; }
+.show-1 .highlight-water tbody.water-pre-1 { display: table-row-group; }
+.show-1 .highlight-water tr.water-pre-1 { display: table-row; }
 /* Thunder */
-.show-1 .highlight-thunder .weapon-group-container.thunder-pre-base { display: block; }
-.show-1 .highlight-thunder tbody.thunder-pre-base { display: table-row-group; }
-.show-1 .highlight-thunder tr.thunder-pre-base { display: table-row; }
+.show-1 .highlight-thunder .weapon-group-container.thunder-pre-1 { display: block; }
+.show-1 .highlight-thunder tbody.thunder-pre-1 { display: table-row-group; }
+.show-1 .highlight-thunder tr.thunder-pre-1 { display: table-row; }
 /* Dragon */
-.show-1 .highlight-dragon .weapon-group-container.dragon-pre-base { display: block; }
-.show-1 .highlight-dragon tbody.dragon-pre-base { display: table-row-group; }
-.show-1 .highlight-dragon tr.dragon-pre-base { display: table-row; }
+.show-1 .highlight-dragon .weapon-group-container.dragon-pre-1 { display: block; }
+.show-1 .highlight-dragon tbody.dragon-pre-1 { display: table-row-group; }
+.show-1 .highlight-dragon tr.dragon-pre-1 { display: table-row; }
 /* Poison */
-.show-1 .highlight-poison .weapon-group-container.poison-pre-base { display: block; }
-.show-1 .highlight-poison tbody.poison-pre-base { display: table-row-group; }
-.show-1 .highlight-poison tr.poison-pre-base { display: table-row; }
+.show-1 .highlight-poison .weapon-group-container.poison-pre-1 { display: block; }
+.show-1 .highlight-poison tbody.poison-pre-1 { display: table-row-group; }
+.show-1 .highlight-poison tr.poison-pre-1 { display: table-row; }
 /* Paralysis */
-.show-1 .highlight-paralysis .weapon-group-container.paralysis-pre-base { display: block; }
-.show-1 .highlight-paralysis tbody.paralysis-pre-base { display: table-row-group; }
-.show-1 .highlight-paralysis tr.paralysis-pre-base { display: table-row; }
+.show-1 .highlight-paralysis .weapon-group-container.paralysis-pre-1 { display: block; }
+.show-1 .highlight-paralysis tbody.paralysis-pre-1 { display: table-row-group; }
+.show-1 .highlight-paralysis tr.paralysis-pre-1 { display: table-row; }
 /* Sleep */
-.show-1 .highlight-sleep .weapon-group-container.sleep-pre-base { display: block; }
-.show-1 .highlight-sleep tbody.sleep-pre-base { display: table-row-group; }
-.show-1 .highlight-sleep tr.sleep-pre-base { display: table-row; }
+.show-1 .highlight-sleep .weapon-group-container.sleep-pre-1 { display: block; }
+.show-1 .highlight-sleep tbody.sleep-pre-1 { display: table-row-group; }
+.show-1 .highlight-sleep tr.sleep-pre-1 { display: table-row; }
 
 /* G-only highlighting */
 .show-g .highlight-fire .weapon-group-container.fire-pre-g { display: block; }

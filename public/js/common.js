@@ -26,8 +26,12 @@ window.closePopup = () => {
 	document.body.classList.remove("show-popup");
 };
 
-window.commaStringToNumber = (string) => {
-	return new Number(string.replace(",", ""));
+window.commaStringToNumber = (number) => {
+	if (typeof number == "string") {
+		return new Number(number.replace(",", ""));
+	}
+
+	return number;
 };
 window.numberWithCommas = (number) => {
 	if (number > 1000) {
