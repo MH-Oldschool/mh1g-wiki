@@ -172,6 +172,54 @@
 			]
 		},
 		{
+			"name": "Vespoid", "kata": "ランゴスタ", "rome": "Rangosuta",
+			"description": "Enormous, wasp-like insectoid with a stinger that stuns prey. There are rarely any usable materials left to harvest from them once killed.",
+			"icon": "vespoid",
+			"image": "vespoid",
+			"largeVersion":true,
+			"hp1":["32 (64)","40 (80)","64 (128)"],
+			"hpG":[
+				{"h":"20 (40)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.01,"d":1.00},{"h":"32 (64)","a":1.02,"d":1.00},
+				{"h":"32 (64)","a":1.03,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.10,"d":1.00},
+				{"h":"44 (88)","a":1.10,"d":0.95},{"h":"48 (96)","a":1.20,"d":0.90},{"h":"48 (96)","a":1.20,"d":0.90},{"h":"52 (104)","a":1.40,"d":0.80},
+				{"h":"56 (112)","a":1.60,"d":0.80},{"h":"60 (120)","a":1.70,"d":0.75},{"h":"80 (160)","a":2.00,"d":0.70},{"h":"80 (160)","a":3.50,"d":0.70}
+			],
+			"hitzones1":[
+				{"name":"Body","zones":[120,130,110,100,50,30,10]}
+			],
+			"hitzonesG":[
+				{"name":"Body","zones":[120,130,110,100,50,10,0]}
+			],
+			"notes": [
+				"Found in all regions.",
+				"Poison will instantly slay it, preserving its body for carving."
+			]
+		},
+		{
+			"name": "Hornetaur", "kata": "カンタロス", "rome": "Kantarosu",
+			"description": "Vespoid-like monster with a thicker shell. Rarely any usable materials are left to harvest once they are killed. But if you could sap their Health gradually...",
+			"icon": "hornetaur",
+			"image": "hornetaur",
+			"largeVersion":true,
+			"hp1":["40 (80)","50 (100)","80 (160)"],
+			"hpG":[
+				{"h":"25 (50)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.01,"d":1.00},{"h":"40 (80)","a":1.02,"d":1.00},
+				{"h":"40 (80)","a":1.03,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.10,"d":1.00},
+				{"h":"55 (110)","a":1.10,"d":0.95},{"h":"60 (120)","a":1.20,"d":0.90},{"h":"60 (120)","a":1.20,"d":0.90},{"h":"65 (130)","a":1.40,"d":0.80},
+				{"h":"70 (140)","a":1.60,"d":0.80},{"h":"75 (150)","a":1.70,"d":0.75},{"h":"100 (200)","a":2.00,"d":0.70},{"h":"100 (200)","a":3.50,"d":0.70}
+			],
+			"hitzones1":[
+				{"name":"Body","zones":[100,120,100,100,50,30,10]}
+			],
+			"hitzonesG":[
+				{"name":"Body","zones":[100,120,100,100,20,60,0]}
+			],
+			"notes": [
+				"Found in jungles.",
+				"Commonly found in caves and dense underbrush."
+			]
+		},
+		{
 			"name": "Velociprey", "kata": "ランポス", "rome": "Ranposu",
 			"description": "Aggressive, carnivorous monsters that travel in packs. Even master hunters should avoid getting surrounded! Wide ranging, they are found in many different climates.",
 			"icon": "velociprey",
@@ -626,54 +674,6 @@
 				"Likes to steal valuables and shiny things."
 			],
 			"gOnly": true
-		},
-		{
-			"name": "Vespoid", "kata": "ランゴスタ", "rome": "Rangosuta",
-			"description": "Enormous, wasp-like insectoid with a stinger that stuns prey. There are rarely any usable materials left to harvest from them once killed.",
-			"icon": "vespoid",
-			"image": "vespoid",
-			"largeVersion":true,
-			"hp1":["32 (64)","40 (80)","64 (128)"],
-			"hpG":[
-				{"h":"20 (40)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.01,"d":1.00},{"h":"32 (64)","a":1.02,"d":1.00},
-				{"h":"32 (64)","a":1.03,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.10,"d":1.00},
-				{"h":"44 (88)","a":1.10,"d":0.95},{"h":"48 (96)","a":1.20,"d":0.90},{"h":"48 (96)","a":1.20,"d":0.90},{"h":"52 (104)","a":1.40,"d":0.80},
-				{"h":"56 (112)","a":1.60,"d":0.80},{"h":"60 (120)","a":1.70,"d":0.75},{"h":"80 (160)","a":2.00,"d":0.70},{"h":"80 (160)","a":3.50,"d":0.70}
-			],
-			"hitzones1":[
-				{"name":"Body","zones":[120,130,110,100,50,30,10]}
-			],
-			"hitzonesG":[
-				{"name":"Body","zones":[120,130,110,100,50,10,0]}
-			],
-			"notes": [
-				"Found in all regions.",
-				"Poison will instantly slay it, preserving its body for carving."
-			]
-		},
-		{
-			"name": "Hornetaur", "kata": "カンタロス", "rome": "Kantarosu",
-			"description": "Vespoid-like monster with a thicker shell. Rarely any usable materials are left to harvest once they are killed. But if you could sap their Health gradually...",
-			"icon": "hornetaur",
-			"image": "hornetaur",
-			"largeVersion":true,
-			"hp1":["40 (80)","50 (100)","80 (160)"],
-			"hpG":[
-				{"h":"25 (50)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.01,"d":1.00},{"h":"40 (80)","a":1.02,"d":1.00},
-				{"h":"40 (80)","a":1.03,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.10,"d":1.00},
-				{"h":"55 (110)","a":1.10,"d":0.95},{"h":"60 (120)","a":1.20,"d":0.90},{"h":"60 (120)","a":1.20,"d":0.90},{"h":"65 (130)","a":1.40,"d":0.80},
-				{"h":"70 (140)","a":1.60,"d":0.80},{"h":"75 (150)","a":1.70,"d":0.75},{"h":"100 (200)","a":2.00,"d":0.70},{"h":"100 (200)","a":3.50,"d":0.70}
-			],
-			"hitzones1":[
-				{"name":"Body","zones":[100,120,100,100,50,30,10]}
-			],
-			"hitzonesG":[
-				{"name":"Body","zones":[100,120,100,100,20,60,0]}
-			],
-			"notes": [
-				"Found in jungles.",
-				"Commonly found in caves and dense underbrush."
-			]
 		},
 		{
 			"name": "Khezu", "kata": "フルフル", "rome": "Furufuru",
