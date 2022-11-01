@@ -87,27 +87,30 @@
 	line-height: 1.4;
 }
 
-.hitzones-table {
+.monster-data table {
+	margin-top: 0.5rem;
 	width: auto;
+	min-width: 20rem;
 }
-.hitzones-table thead {
+.monster-data table thead {
 	position: static;
 }
-.hitzones-table thead th {
+
+.hitzone-table thead th {
 	text-align: center;
 	padding: 0.125rem;
 }
-.hitzones-table th:first-child {
+.hitzone-table th:first-child {
 	text-align: left;
 }
-.hitzones-table td {
+.hitzone-table td {
 	text-align: right;
 }
-.hitzones-table th span,
-.hitzones-table th img {
+.hitzone-table th span,
+.hitzone-table th img {
 	vertical-align: middle;
 }
-.hitzones-table th span {
+.hitzone-table th span {
 	text-align: left;
 	margin: 0;
 }
@@ -155,5 +158,9 @@
 		vertical-align: top;
 		padding: 1.5rem 2rem;
 		width: calc(100% - 14rem);
+	}
+
+	.monster-data table caption {
+		text-align: left;
 	}
 }
