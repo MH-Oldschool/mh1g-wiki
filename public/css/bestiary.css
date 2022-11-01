@@ -95,6 +95,12 @@
 .monster-data table thead {
 	position: static;
 }
+.monster-data table .unused-values {
+	color: #909090;
+}
+.monster-data table .active {
+	color: #d7d7d7;
+}
 
 .hitzone-table thead th {
 	text-align: center;

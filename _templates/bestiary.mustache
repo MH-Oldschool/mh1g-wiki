@@ -33,7 +33,7 @@
 					<summary>Detailed Stats</summary>
 
 					<table class="mh1">
-						<caption>Hitpoints</caption>
+						<caption>Hitpoints{{#largeVersion}} (large in parentheses){{/largeVersion}}</caption>
 						<thead>
 							<tr>
 								<th>Village</th>
@@ -51,7 +51,7 @@
 					</table>
 
 					<table class="mhg">
-						<caption>Hitpoints</caption>
+						<caption>Hitpoints{{#largeVersion}} (large in parentheses){{/largeVersion}}{{#unusedHPG}} (gray values are unused in-game){{/unusedHPG}}</caption>
 						<thead>
 							<tr>
 								<th>Hitpoints</th>
@@ -59,9 +59,9 @@
 								<th>Defense Modifier</th>
 							</tr>
 						</thead>
-						<tbody>
+						<tbody{{#unusedHPG}} class="unused-values"{{/unusedHPG}}>
 							{{#hpG}}
-								<tr>
+								<tr{{#active}} class="active"{{/active}}>
 									<td class="ta-r">{{h}}</td><td>x{{a}}</td><td>x{{d}}</td>
 								</tr>
 							{{/hpG}}

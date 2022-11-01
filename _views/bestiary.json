@@ -34,12 +34,13 @@
 			"description": "A large wild boar. Foul tempered, they will charge hunters on sight. Aggressive and powerful, so beware! Often hunted for their meat, which many hunters find delicious.",
 			"icon": "bullfango",
 			"image": "bullfango",
+			"largeVersion":true,
 			"hp1":["160 (240)","200 (300)","320 (480)"],
 			"hpG":[
-				{"h":"100 / 150","a":1.00,"d":1.00},{"h":"160 / 240","a":1.00,"d":1.00},{"h":"160 / 240","a":1.01,"d":1.00},{"h":"160 / 240","a":1.02,"d":1.00},
-				{"h":"160 / 240","a":1.03,"d":1.00},{"h":"200 / 300","a":1.05,"d":1.00},{"h":"200 / 300","a":1.05,"d":1.00},{"h":"200 / 300","a":1.10,"d":1.00},
-				{"h":"220 / 330","a":1.10,"d":0.95},{"h":"240 / 360","a":1.20,"d":0.90},{"h":"240 / 360","a":1.20,"d":0.90},{"h":"260 / 390","a":1.40,"d":0.80},
-				{"h":"280 / 420","a":1.60,"d":0.80},{"h":"300 / 450","a":1.70,"d":0.75},{"h":"400 / 600","a":2.00,"d":0.70},{"h":"400 / 600","a":3.50,"d":0.70}
+				{"h":"100 (150)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.01,"d":1.00},{"h":"160 (240)","a":1.02,"d":1.00},
+				{"h":"160 (240)","a":1.03,"d":1.00},{"h":"200 (300)","a":1.05,"d":1.00},{"h":"200 (300)","a":1.05,"d":1.00},{"h":"200 (300)","a":1.10,"d":1.00},
+				{"h":"220 (330)","a":1.10,"d":0.95},{"h":"240 (360)","a":1.20,"d":0.90},{"h":"240 (360)","a":1.20,"d":0.90},{"h":"260 (390)","a":1.40,"d":0.80},
+				{"h":"280 (420)","a":1.60,"d":0.80},{"h":"300 (450)","a":1.70,"d":0.75},{"h":"400 (600)","a":2.00,"d":0.70},{"h":"400 (600)","a":3.50,"d":0.70}
 			],
 			"hitzones1":[
 				{"name":"Body","zones":[100,100,160,50,50,100,10]}
@@ -80,12 +81,13 @@
 			"description": "Hunted as a food source, these creatures are preyed upon by both hunter and monster alike. Usually timid, but in packs they defend themselves with surprising strength.",
 			"icon": "aptonoth",
 			"image": "aptonoth",
+			"largeVersion":true,
 			"hp1":["64 (88)","80 (110)","128 (176)"],
 			"hpG":[
-				{"h":"40 / 55","a":1.00,"d":1.00},{"h":"64 / 88","a":1.00,"d":1.00},{"h":"64 / 88","a":1.01,"d":1.00},{"h":"64 / 88","a":1.02,"d":1.00},
-				{"h":"64 / 88","a":1.03,"d":1.00},{"h":"80 / 110","a":1.05,"d":1.00},{"h":"80 / 110","a":1.05,"d":1.00},{"h":"80 / 110","a":1.10,"d":1.00},
-				{"h":"88 / 121","a":1.10,"d":0.95},{"h":"96 / 132","a":1.20,"d":0.90},{"h":"96 / 132","a":1.20,"d":0.90},{"h":"104 / 143","a":1.40,"d":0.80},
-				{"h":"104 / 154","a":1.60,"d":0.80},{"h":"120 / 165","a":1.70,"d":0.75},{"h":"160 / 220","a":2.00,"d":0.70},{"h":"160 / 220","a":3.50,"d":0.70}
+				{"h":"40 (55)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.01,"d":1.00},{"h":"64 (88)","a":1.02,"d":1.00},
+				{"h":"64 (88)","a":1.03,"d":1.00},{"h":"80 (110)","a":1.05,"d":1.00},{"h":"80 (110)","a":1.05,"d":1.00},{"h":"80 (110)","a":1.10,"d":1.00},
+				{"h":"88 (121)","a":1.10,"d":0.95},{"h":"96 (132)","a":1.20,"d":0.90},{"h":"96 (132)","a":1.20,"d":0.90},{"h":"104 (143)","a":1.40,"d":0.80},
+				{"h":"104 (154)","a":1.60,"d":0.80},{"h":"120 (165)","a":1.70,"d":0.75},{"h":"160 (220)","a":2.00,"d":0.70},{"h":"160 (220)","a":3.50,"d":0.70}
 			],
 			"hitzones1":[
 				{"name":"Body","zones":[110,110,110,50,50,50,10]}
@@ -630,6 +632,7 @@
 			"description": "Enormous, wasp-like insectoid with a stinger that stuns prey. There are rarely any usable materials left to harvest from them once killed.",
 			"icon": "vespoid",
 			"image": "vespoid",
+			"largeVersion":true,
 			"hp1":["32 (64)","40 (80)","64 (128)"],
 			"hpG":[
 				{"h":"20 (40)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.01,"d":1.00},{"h":"32 (64)","a":1.02,"d":1.00},
@@ -653,6 +656,7 @@
 			"description": "Vespoid-like monster with a thicker shell. Rarely any usable materials are left to harvest once they are killed. But if you could sap their Health gradually...",
 			"icon": "hornetaur",
 			"image": "hornetaur",
+			"largeVersion":true,
 			"hp1":["40 (80)","50 (100)","80 (160)"],
 			"hpG":[
 				{"h":"25 (50)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.01,"d":1.00},{"h":"40 (80)","a":1.02,"d":1.00},
@@ -871,9 +875,10 @@
 			"description": "Large-horned wyvern found in deserts. The giant horn makes their attacks very dangerous. Without breath attack. Their ear-splitting roar is the bane of hunters.",
 			"icon": "monoblos",
 			"image": "monoblos",
-			"hp1":["3,000","",""],
+			"hp1":["3,000","n/a","n/a"],
+			"unusedHPG":true,
 			"hpG":[
-				{"h":"1,800","a":1.00,"d":1.00},{"h":"2,400","a":1.00,"d":1.00},{"h":"3,000","a":1.01,"d":1.00},{"h":"3,600","a":1.03,"d":1.00},
+				{"h":"1,800","a":1.00,"d":1.00},{"h":"2,400","a":1.00,"d":1.00},{"h":"3,000","a":1.01,"d":1.00,"active":true},{"h":"3,600","a":1.03,"d":1.00},
 				{"h":"4,200","a":1.05,"d":1.00},{"h":"6,000","a":1.20,"d":0.95},{"h":"6,000","a":1.20,"d":0.95},{"h":"6,600","a":1.30,"d":0.95},
 				{"h":"7,200","a":1.50,"d":0.90},{"h":"7,800","a":1.80,"d":0.80},{"h":"9,600","a":2.50,"d":0.75},{"h":"9,600","a":2.60,"d":0.75},
 				{"h":"10,800","a":2.80,"d":0.75},{"h":"10,800","a":2.90,"d":0.75},{"h":"10,800","a":3.10,"d":0.70},{"h":"12,000","a":4.00,"d":0.70}
@@ -907,8 +912,9 @@
 			"description": "A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon.",
 			"icon": "white-monoblos",
 			"image": "white_monoblos",
+			"unusedHPG":true,
 			"hpG":[
-				{"h":"2,250","a":1.00,"d":1.00},{"h":"3,000","a":1.00,"d":1.00},{"h":"3,750","a":1.01,"d":1.00},{"h":"4,500","a":1.03,"d":1.00},
+				{"h":"2,250","a":1.00,"d":1.00},{"h":"3,000","a":1.00,"d":1.00},{"h":"3,750","a":1.01,"d":1.00},{"h":"4,500","a":1.03,"d":1.00,"active":true},
 				{"h":"5,250","a":1.05,"d":1.00},{"h":"7,500","a":1.20,"d":0.95},{"h":"7,500","a":1.20,"d":0.95},{"h":"8,250","a":1.30,"d":0.95},
 				{"h":"9,000","a":1.50,"d":0.90},{"h":"9,750","a":1.80,"d":0.80},{"h":"12,000","a":2.50,"d":0.75},{"h":"12,000","a":2.60,"d":0.75},
 				{"h":"13,500","a":2.80,"d":0.75},{"h":"13,500","a":2.90,"d":0.75},{"h":"13,500","a":3.10,"d":0.70},{"h":"15,000","a":4.00,"d":0.70}
@@ -1098,7 +1104,7 @@
 			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It&#8217;s apparently capable of calling forth lightning at will. Its material is very valuable.",
 			"icon": "unknown",
 			"image": "kirin",
-			"hp1":["4,000","6,400-7,200"],
+			"hp1":["n/a","4,000","6,400-7,200 (unused)"],
 			"hpG":[
 				{"h":"1,200","a":1.00,"d":1.00},{"h":"1,600","a":1.00,"d":1.00},{"h":"2,000","a":1.01,"d":1.00},{"h":"2,400","a":1.03,"d":1.00},
 				{"h":"2,800","a":1.05,"d":1.00},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,400","a":1.30,"d":0.95},
@@ -1126,7 +1132,7 @@
 			"description": "A giant dragon few have seen and lived to tell the tale. When on a rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast. Will it hold?",
 			"icon": "unknown",
 			"image": "lao_shan_lung",
-			"hp1":["","26,666","31,999"],
+			"hp1":["n/a","26,666","31,999"],
 			"hpG":[
 				{"h":"7,999","a":1.00,"d":1.00},{"h":"10,666","a":1.00,"d":1.00},{"h":"13,333","a":1.01,"d":1.00},{"h":"15,999","a":1.03,"d":1.00},
 				{"h":"18,666","a":1.05,"d":1.00},{"h":"26,666","a":1.20,"d":0.95},{"h":"26,666","a":1.20,"d":0.95},{"h":"26,666","a":1.50,"d":0.90},
@@ -1189,7 +1195,7 @@
 			"description": "A legendary black dragon said to have prowled these lands from the days of old. A monster shrouded in mystery...",
 			"icon": "unknown",
 			"image": "fatalis",
-			"hp1":["","","32,000"],
+			"hp1":["n/a","n/a","32,000"],
 			"hpG":[
 				{"h":"32,000","a":2.60,"d":0.85}
 			],
