@@ -411,6 +411,9 @@ body {
 .bowgun .blademaster-stat {
 	display: none;
 }
+.bowgun #kick-raw {
+	text-align: center;
+}
 
 .table-container {
 	overflow-x: auto;

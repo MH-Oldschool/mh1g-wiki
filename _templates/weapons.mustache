@@ -520,7 +520,14 @@
 						<tr id="{{id}}-row" class="bowgun-shot-row" data-power="{{power}}">
 							<td>{{name}}</td>
 							<td class="bowgun-shot-power"></td>
-							<td>{{{impacts}}}{{^impacts}}1{{/impacts}}</td>
+							<td>
+								{{{impacts}}}
+								{{^impacts}}
+									{{#impacts1}}<span class="mh1">{{impacts1}}</span>{{/impacts1}}
+									{{#impactsG}}<span class="mhg">{{impactsG}}</span>{{/impactsG}}
+									{{^impacts1}}1{{/impacts1}}
+								{{/impacts}}
+							</td>
 							<td>
 								{{#effect}}{{{effect}}} {{/effect}}
 								{{#attributeAlt}}
@@ -539,6 +546,17 @@
 							</td>
 						</tr>
 					{{/bowgunAmmo}}
+				</tbody>
+
+				<tbody>
+					<tr>
+						<td><span class="blademaster-stat">Kick</span><span class="gunner-stat">Melee</span></td>
+						<td class="blademaster-stat">R3 (while sheathed)</td>
+						<td class="blademaster-stat">2</td>
+						<td id="kick-raw" class="attack-raw" data-value="0.02"></td>
+						<td class="gunner-stat">1</td><!-- impacts -->
+						<td class="gunner-stat"><!-- effect --></td>
+					</tr>
 				</tbody>
 			</table>
 		</div>

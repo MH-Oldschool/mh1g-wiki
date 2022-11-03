@@ -497,6 +497,9 @@ ready(() => {
 			}
 		};
 
+		const kickAttack = document.getElementById("kick-raw");
+		var kickMV = parseFloat(kickAttack.dataset.value);
+
 		const SHOT_UP_MOD = 1.1;
 
 		const bowgunShotRows = document.getElementsByClassName("bowgun-shot-row");
@@ -598,6 +601,8 @@ ready(() => {
 			ammoFireAttribute.innerHTML = `${parseInt(minDamage * BOWGUN_ELEMENT_MODS.fire)} - ${parseInt(maxDamage * BOWGUN_ELEMENT_MODS.fire)}`;
 			ammoWaterAttribute.innerHTML = `${parseInt(minDamage * BOWGUN_ELEMENT_MODS.water)} - ${parseInt(maxDamage * BOWGUN_ELEMENT_MODS.water)}`;
 			ammoThunderAttribute.innerHTML = `${parseInt(minDamage * BOWGUN_ELEMENT_MODS.thunder)} - ${parseInt(maxDamage * BOWGUN_ELEMENT_MODS.thunder)}`;
+
+			kickAttack.innerHTML = `${parseInt(minDamage * kickMV)} - ${parseInt(maxDamage * kickMV)}`;
 		}
 		else {
 			if (currentWeapon.damage) {
@@ -607,6 +612,8 @@ ready(() => {
 				else {
 					weaponAttack.innerHTML = `${currentWeapon.damage} [${Math.round(trueDamage)}]`;
 				}
+
+				kickAttack.innerHTML = parseInt(trueDamage * kickMV + attackUpBonus);
 			}
 			else {
 				if (bloatedBonus) {
@@ -615,6 +622,8 @@ ready(() => {
 				else {
 					weaponAttack.innerHTML = `<span class="mh1">${currentWeapon.damage1} [${Math.round(trueDamage1)}]</span><span class="mhg">${currentWeapon.damageG} [${Math.round(trueDamageG)}]</span>`;
 				}
+
+				kickAttack.innerHTML = `<span class="mh1">${parseInt(trueDamage1 * kickMV + attackUpBonus)}</span><span class="mhg">${parseInt(trueDamageG * kickMV + attackUpBonus)}</span>`;
 			}
 
 			motionValues[currentCategory].raw.forEach(function(element) {
