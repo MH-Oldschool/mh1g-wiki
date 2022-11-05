@@ -1,6 +1,13 @@
 ready(() => {
+	/*
+		TODO: for now I have to change this when DST changes in Germany (server
+			timezone), but there should be a way to use moment.js or another library
+			to just get the time from a given timezone properly
+	*/
+	const START_HOUR = 23; // DST: 22; not-DST: 23
+
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, 22, 0, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, START_HOUR, 0, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -162,7 +169,7 @@ ready(() => {
 	function getFirstDayEventIndex(year, monthIndex) {
 		const MILLISECONDS_PER_DAY = 86400000;
 
-		var eventRotationStart = Date.UTC(year, monthIndex, 0, 22, 0, 0);
+		var eventRotationStart = Date.UTC(year, monthIndex, 0, START_HOUR, 0, 0);
 		var now = new Date();
 		var firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
 
@@ -247,7 +254,7 @@ ready(() => {
 		}
 
 		var now = new Date();
-		var pastEventDeadline = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22) < Date.now();
+		var pastEventDeadline = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR) < Date.now();
 		// Add events to the calendar
 		let firstDayEventIndex = getFirstDayEventIndex(year, monthIndex);
 		let dayEvents = document.getElementsByClassName("day-event");
@@ -394,10 +401,10 @@ ready(() => {
 	function getTimeToNextEvent() {
 		var now = new Date();
 		var milliseconds = Date.now();
-		var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 22);
+		var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR);
 		// Move deadline ahead a day if it's already passed
 		if (DEADLINE < milliseconds) {
-			DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, 22);
+			DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, START_HOUR);
 		}
 
 		return DEADLINE - milliseconds;
