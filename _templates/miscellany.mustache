@@ -1,0 +1,148 @@
+{{>head }}
+
+<article>
+	<details class="column-left" open>
+		<summary>
+			<span class="blue-icon book-icon"></span> Hunter Ranks
+		</summary>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Rank</th>
+					<th>Title</th>
+					<th>Points Required</th>
+				</tr>
+			</thead>
+			<tbody class="mh1">
+				{{#hunterRanks.mh1}}
+					<tr>
+						<td>{{rank}}</td>
+						<td>{{title}}</td>
+						<td class="ta-r">{{points}}</td>
+					</tr>
+				{{/hunterRanks.mh1}}
+			</tbody>
+
+			<tbody class="mhg">
+				{{#hunterRanks.mhg}}
+					<tr>
+						<td>{{rank}}</td>
+						<td>{{title}}</td>
+						<td class="ta-r">{{points}}</td>
+					</tr>
+				{{/hunterRanks.mhg}}
+			</tbody>
+		</table>
+	</details>
+
+	<details class="column-right">
+		<summary>
+			<span class="white-icon binoculars-icon"></span> Unlockable Quests and Movies
+		</summary>
+
+		<table>
+			<caption>Gallery Movies</caption>
+			<tbody>
+				<tr>
+					<td>Town of Hunters</td>
+					<td>Complete all offline quests (including offline Bonus Urgent Quests) OR Clear all 1 star town quests and talk to Food Merchant at Marketplace (Fish Shop Lady)</td>
+				</tr>
+				<tr>
+					<td>Gravios Ecology</td>
+					<td>Complete “Terror of the Gravios“</td>
+				</tr>
+				<tr>
+					<td>Plesioth Ecology</td>
+					<td>Complete “Water Wyvern in the Desert“</td>
+				</tr>
+				<tr>
+					<td>Khezu Ecology</td>
+					<td>Complete “Shadow in the Cave“</td>
+				</tr>
+				<tr>
+					<td>Diablos Ecology</td>
+					<td>Complete “The Runaway Diablos“</td>
+				</tr>
+				<tr>
+					<td>Rathian Ecology</td>
+					<td>Complete “Queen of the Desert“ or “Slay the Rathian“</td>
+				</tr>
+				<tr>
+					<td>Hall of Hereos</td>
+					<td>Complete “Horn of the Monoblos“ OR Complete 3 star urgent Lao (unlocks 4 star/high rank/hr13+)</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table>
+			<caption>Offline Bonus Urgent Quests</caption>
+			<tbody>
+				<tr>
+					<td>The Shadow in the Cave</td>
+					<td>Possess at least one piece of Vespoid Armor</td>
+				</tr>
+				<tr>
+					<td>The Runaway Diablos</td>
+					<td>Possess at least one piece of Monoblos Armor</td>
+				</tr>
+				<tr>
+					<td>Basarios: Unseen Peril</td>
+					<td>Possess at least one piece of Cephalos Armor</td>
+				</tr>
+				<tr>
+					<td>Terror of the Gravios</td>
+					<td>Complete &#8220;Basarios: Unseen Peril&#8221;</td>
+				</tr>
+				<tr>
+					<td>Troublesome Pair</td>
+					<td>Complete all other Quests and Bonus Urgent Quests</td>
+				</tr>
+			</tbody>
+		</table>
+	</details>
+
+	<details class="column-left">
+		<summary>
+			<span class="red-icon sns-icon"></span> The Hero&#8217;s Blade
+		</summary>
+
+		<p>
+			After Clearing the 4 to 5 star Rathalos Urgent Quest you talk to the village elder and go behind the house and press Square to obtain the Hero's Blade (Sword and Shield).
+		</p>
+		<p>
+			When you clear Monoblos Urgent Quest (last 5 star quest), you will get Hunter Citation (Item) from village elder for upgrading the Hero's Blade weapon. You will need the rare item Monoblos Heart as well (1% carve chance from body)
+		</p>
+	</details>
+
+	<details class="column-right">
+		<summary>
+			<span class="yellow-icon ticket-icon"></span> Online Tickets
+		</summary>
+
+		<p>
+			<b>Old Lady&#8217;s Note:</b> "Clear all 1 star town quests and speak to the Food Shop Lady at Marketplace. Old Lady&#8217;s Note can be used to craft Kitchen Knife (Sword and Sield)."
+		</p>
+		<p>
+			5 Guild Tickets from Town Elder	Clear all 1 to 6 star town quests. (6 Star Lao Urgent not required.)
+		</p>
+		<p>
+			Silver / Gold Tickets	Buy the same Guest House Room for 25 times and speak to the guest house manager (rasta guy). no more tickets after the 150th visit. Only Rook/Bishop and Queen/King rooms will give tickets.
+		</p>
+	</details>
+
+	<details>
+		<summary>
+			<span class="white-icon mystery-icon"></span> Fatalis
+		</summary>
+
+			<ul>
+				<li>Clear all 1 to 6 star town quests</li>
+				<li>Have 6 Star Lao Urgent Cleared</li>
+				<li>Hunter Rank 20 (anyone HR17 or higher can join the posted quests)</li>
+				<li>Kill 50 Rathalos and 50 Rathian (no capture quest, in ONLINE mode, kills count together low+high rank, killing non-quest-target counts, killing a capture target monster counts, not capturing though)</li>
+			</ul>
+	</details>
+</article>
+
+{{>foot }}

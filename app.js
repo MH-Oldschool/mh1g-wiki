@@ -30,6 +30,9 @@ app.get("/quests", (req, res) => {
 app.get("/maps", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/maps.html"));
 });
+app.get("/miscellany", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/miscellany.html"));
+});
 
 var server = app.listen(PORT);
 console.log(`Listening on ${ PORT }`);

@@ -1,0 +1,19 @@
+ul {
+	list-style: square;
+}
+
+/* Small Desktop */
+@media screen and (min-width: 64rem) {
+	.column-left,
+	.column-right {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+	.column-left {
+		margin-right: auto;
+	}
+	.column-right {
+		margin-left: auto;
+	}
+}
