@@ -91,7 +91,7 @@
 								<tr>
 									<th>{{name}}</th>
 									{{#zones}}
-										<td>{{.}}</td>
+										<td class="ta-r">{{.}}</td>
 									{{/zones}}
 								</tr>
 							{{/hitzones1}}
@@ -101,12 +101,53 @@
 								<tr>
 									<th{{{zone_cell_attributes}}}>{{name}}</th>
 									{{#zones}}
-										<td>{{.}}</td>
+										<td class="ta-r">{{.}}</td>
 									{{/zones}}
 								</tr>
 							{{/hitzonesG}}
 						</tbody>
 					</table>
+
+					<div{{^statusG}} style="display: none"{{/statusG}}>
+						<table{{^statusG}} style="display: none"{{/statusG}}>
+							<caption>Status Tolerance</caption>
+							<thead>
+								<tr>
+									<th></th>
+									<th>Tolerance</th>
+									<th>Duration</th>
+									<th>Recovery</th>
+									<th>Damage</th>
+								</tr>
+							</thead>
+							<tbody class="mh1">
+								{{#status1}}
+									<tr>
+										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
+										<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
+										<td class="ta-r">{{duration}}s</td>
+										<td class="ta-r">{{recovery}}</td>
+										<td class="ta-r">{{damage}}</td>
+									</tr>
+								{{/status1}}
+							</tbody>
+							<tbody class="mhg">
+								{{#statusG}}
+									<tr>
+										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
+										<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
+										<td class="ta-r">{{duration}}s</td>
+										<td class="ta-r">{{recovery}}</td>
+										<td class="ta-r">{{damage}}</td>
+									</tr>
+								{{/statusG}}
+							</tbody>
+						</table>
+
+						<p>
+							Tolerance increases to the next value each time the monster succumbs to the status effect, up to the given maximum.
+						</p>
+					</div>
 				</details>
 			</aside>
 		</section>

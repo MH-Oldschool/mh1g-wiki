@@ -140,6 +140,10 @@
 	margin: 0;
 }
 
+.status-icon {
+	width: 1rem;
+}
+
 /* Tablet */
 @media screen and (min-width: 50rem) {
 	.monster-details > summary:before {

@@ -407,6 +407,16 @@
 				{"name":"Wing","zones":[25,20,30,0,30,15,20]},
 				{"name":"Foot","zones":[45,50,45,0,10,5,5]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[110,160,210,260],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,150,200,250],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":30,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[110,185,260,335,410],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":30,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in forests<span class='base-only'> and swamps.</span><span class='g-only'>, swamps, and volcanoes.</span>",
 				"Often takes flight to thwart hunters."
@@ -431,6 +441,11 @@
 				{"name":"Tail","zones":[25,25,25,0,5,5,20]},
 				{"name":"Wing","zones":[20,15,25,0,15,15,20]},
 				{"name":"Foot","zones":[45,40,65,0,5,5,5]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[215,290,365,440,515],"duration":60,"recovery":"10/5s","damage":"30/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
@@ -457,6 +472,11 @@
 				{"name":"Tail","zones":[25,25,70,0,10,10,0]},
 				{"name":"Wing","zones":[80,20,30,0,30,30,0]},
 				{"name":"Foot","zones":[25,40,50,0,10,10,0]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[400,500,600,700,800],"duration":60,"recovery":"10/5s","damage":"35/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in forests and swamps.",
@@ -494,6 +514,16 @@
 				{"name":"Wing","zones":[25,20,25,0,10,15,20]},
 				{"name":"Foot","zones":[45,40,50,0,5,10,5]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200,250,300,350],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[110,160,210,260],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":30,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[110,185,260,335,410],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":30,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -518,6 +548,11 @@
 				{"name":"Tail","zones":[25,25,20,0,5,10,25]},
 				{"name":"Wing","zones":[20,15,20,0,10,15,20]},
 				{"name":"Foot","zones":[55,50,50,0,5,10,5]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"15/5s","damage":"30/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,225,300,375,450],"duration":30,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in all regions except volcanoes.",
@@ -544,6 +579,11 @@
 				{"name":"Tail","zones":[25,25,60,0,5,10,0]},
 				{"name":"Wing","zones":[80,20,20,0,10,30,0]},
 				{"name":"Foot","zones":[25,40,50,0,5,10,0]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[350,450,550,650,750],"duration":60,"recovery":"10/5s","damage":"30/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in the jungle and swamp.",
@@ -581,6 +621,16 @@
 				{"name":"Wing","zones":[75,70,70,10,20,25,0]},
 				{"name":"Foot","zones":[25,30,30,5,10,5,0]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,135,170,200],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,145,190,235],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,165,230,295,360],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Can launch fireballs a short distance."
@@ -605,6 +655,11 @@
 				{"name":"Tail","zones":[50,60,30,10,25,15,0]},
 				{"name":"Wing","zones":[75,70,70,10,20,25,0]},
 				{"name":"Foot","zones":[25,30,30,5,10,5,0]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in forests and swamps.",
@@ -642,6 +697,16 @@
 				{"name":"Wing","zones":[50,30,30,30,20,0,10]},
 				{"name":"Foot","zones":[20,20,30,10,10,0,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200,235,270,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,185,220,250],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,250,300,350,400],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -667,6 +732,11 @@
 				{"name":"Tail","zones":[90,40,80,30,10,0,10]},
 				{"name":"Wing","zones":[50,30,30,30,20,0,10]},
 				{"name":"Foot","zones":[20,20,30,10,10,0,10]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[300,375,450,525,600],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100,125,150,175,200],"duration":50,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
@@ -705,6 +775,16 @@
 				{"name":"Wing","zones":[25,25,40,20,5,0,5]},
 				{"name":"Foot","zones":[25,20,30,15,5,0,5]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[110,160,210,260],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350],"duration":5,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[110,185,260,335,410],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":5,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -729,6 +809,11 @@
 				{"name":"Tail","zones":[20,20,30,5,20,0,5]},
 				{"name":"Wing","zones":[25,25,40,5,20,0,5]},
 				{"name":"Foot","zones":[25,20,30,5,15,0,5]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[110,185,260,335,410],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[350,425,500,575,650],"duration":5,"recovery":"10/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in jungles and swamps.",
@@ -766,6 +851,16 @@
 				{"name":"Wing","zones":[25,25,30,20,0,20,5]},
 				{"name":"Foot","zones":[50,40,30,10,0,10,5]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,150,200,250],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":30,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,175,250,325,400],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":30,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -791,6 +886,11 @@
 				{"name":"Tail","zones":[60,50,60,0,10,10,5]},
 				{"name":"Wing","zones":[40,50,60,0,10,10,5]},
 				{"name":"Foot","zones":[35,30,35,0,15,10,5]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,200,300,400,500],"duration":90,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,200,300,400,500],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found in jungles and deserts.",
@@ -865,6 +965,16 @@
 				{"name":"Wing","zones":[40,50,60,0,10,10,5]},
 				{"name":"Foot","zones":[35,30,35,0,15,10,5]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,135,170,200],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,185,220,250],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":40,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250,300],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":40,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"They seem to resist all elements, especially fire."
@@ -901,6 +1011,16 @@
 				{"name":"Wing","zones":[60,50,50,10,20,30,0]},
 				{"name":"Foot","zones":[40,45,50,20,10,20,0]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250],"duration":120,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,175,250,325,400],"duration":120,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,225,300,375,450],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -927,6 +1047,11 @@
 				{"name":"Tail","zones":[80,60,120,10,20,25,0]},
 				{"name":"Wing","zones":[60,50,50,10,20,30,0]},
 				{"name":"Foot","zones":[40,45,50,20,10,20,0]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[100,200,300,400,500],"duration":90,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found only in deserts.",
@@ -965,6 +1090,16 @@
 				{"name":"Wing","zones":[40,55,45,0,20,15,15]},
 				{"name":"Foot","zones":[30,35,35,0,10,15,15]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200,235,270,300],"duration":120,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,250,300,350,400],"duration":120,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises."
@@ -992,6 +1127,11 @@
 				{"name":"Tail","zones":[60,55,85,0,20,15,15]},
 				{"name":"Wing","zones":[40,55,45,0,20,15,15]},
 				{"name":"Foot","zones":[30,35,35,0,10,15,15]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[250,300,350,400,450],"duration":90,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[250,325,400,475,550],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":50,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found only in deserts.",
@@ -1031,6 +1171,16 @@
 				{"name":"Wing","zones":[20,20,20,0,20,5,15]},
 				{"name":"Foot","zones":[15,25,20,0,30,5,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[150,200,250,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[150,225,300,375,450],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found in swamps and volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -1056,6 +1206,11 @@
 				{"name":"Tail","zones":[25,30,20,0,30,5,0]},
 				{"name":"Wing","zones":[20,20,20,0,20,5,0]},
 				{"name":"Foot","zones":[15,25,20,0,30,5,0]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"10/5s","damage":"40/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,300,400,500,600],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Found only at volcanoes.",
@@ -1093,6 +1248,16 @@
 				{"name":"Wing","zones":[20,20,20,15,10,10,18]},
 				{"name":"Foot","zones":[25,25,30,20,10,10,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200,250,300,350],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,235,270,300],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":60,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350,400],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":60,"recovery":"5/10s"}
+			],
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger.",
@@ -1120,6 +1285,16 @@
 				{"name":"Horn","zones":[90,100,80,5,5,0,5]},
 				{"name":"Head","zones":[45,40,60,15,15,0,5]},
 				{"name":"Body","zones":[20,25,20,10,10,0,5]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200,250,300,350],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","immune":true},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/20s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","immune":true},
+				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/20s"}
 			],
 			"notes": [
 				"Immune to paraylsis.",
@@ -1157,6 +1332,16 @@
 				{"name":"Stomach","zones":[55,50,40,20,5,15,30]},
 				{"name":"Foot","zones":[32,37,25,20,5,15,20]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","immune":true},
+				{"name":"paralysis","title":"Paralysis","immune":true},
+				{"name":"sleep","title":"Sleep","immune":true}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","immune":true},
+				{"name":"paralysis","title":"Paralysis","immune":true},
+				{"name":"sleep","title":"Sleep","immune":true}
+			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
 				"One swing of its mighty tail is enough to fell the strongest hunter."
@@ -1182,6 +1367,11 @@
 				{"name":"Tail","zones":[10,20,20,20,5,15,20]},
 				{"name":"Stomach","zones":[55,50,40,20,5,15,30]},
 				{"name":"Foot","zones":[32,37,25,20,5,15,20]}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","immune":true},
+				{"name":"paralysis","title":"Paralysis","immune":true},
+				{"name":"sleep","title":"Sleep","immune":true}
 			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
@@ -1217,6 +1407,16 @@
 				{"name":"Chest","zones":[50,45,45,15,5,5,80]},
 				{"name":"Wing","zones":[30,25,30,15,5,5,50]},
 				{"name":"Stomach & Foot","zones":[10,20,20,15,5,5,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[400,435,470,500],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[400,435,470,500],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[400,450,500,550,600],"duration":30,"recovery":"5/10s"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":[400,450,500,550,600],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[400,450,500,550,600],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[400,450,500,550,600],"duration":30,"recovery":"5/10s"}
 			],
 			"notes": [
 				"Only hunters of the greatest renown claim to have faced this dragon.",
