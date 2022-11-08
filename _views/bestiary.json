@@ -2650,13 +2650,13 @@
 				{"name":"Stomach & Foot","zones":[25,20,20,20,5,5,30]}
 			],
 			"hitzonesG":[
-				{"name":"Face","zones":[10,15,20,15,5,5,10]},
-				{"name":"Head","zones":[30,25,20,15,5,5,10]},
-				{"name":"Neck","zones":[20,20,20,15,5,5,20]},
-				{"name":"Back & Tail","zones":[0,0,0,0,0,0,0]},
-				{"name":"Chest","zones":[50,45,45,15,5,5,80]},
-				{"name":"Wing","zones":[30,25,30,15,5,5,50]},
-				{"name":"Stomach & Foot","zones":[10,20,20,15,5,5,10]}
+				{"name":"Face","zones":[80,75,45,15,5,5,80]},
+				{"name":"Head","zones":[50,55,30,15,5,5,50]},
+				{"name":"Neck","zones":[30,25,25,15,5,5,30]},
+				{"name":"Back & Tail","zones":[10,20,20,15,5,5,10]},
+				{"name":"Chest","zones":[10,15,20,15,5,5,10]},
+				{"name":"Wing","zones":[30,25,20,15,5,5,10]},
+				{"name":"Stomach & Foot","zones":[20,20,20,15,5,5,20]}
 			],
 			"status1":[
 				{"name":"poison","title":"Poison","tolerance":[400,435,470,500],"duration":30,"recovery":"10/5s","damage":"20/5s"},
