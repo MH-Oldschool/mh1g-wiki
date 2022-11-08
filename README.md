@@ -25,9 +25,9 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 - [x] Weapon Damage Calculator
 	- [x] Blademaster weapon damage
 	- [x] Gunner weapon damage
-- [ ] Armor List
+- [x] Armor List
 	- [x] Raw data with rough translation
-	- [ ] Correct armor piece names
+	- [x] Correct armor piece names
 	- [x] Correct armor skills
 	- [x] Correct material names
 - [x] Armor Set Builder
@@ -35,19 +35,19 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 - [ ] Monster Bestiary
 	- [x] General descriptions
 	- [ ] Moderate details and recommendations for hunting
-	- [ ] All the numbers
+	- [x] All the numbers
 - [ ] Items
 	- [ ] All items and monster materials with in-game descriptions
 	- [x] Shops' stock
 	- [x] Item combination list
-	- [ ] Veggie Elder trades
-- [ ] Locale Maps
-	- [ ] Basic maps: zone numbers, hot/cold zones, etc.
-	- [ ] Detailed maps: gathering points, monster preference
-- [ ] Hunter Ranks with point requirements
-- [ ] Quest List
-	- [ ] Full list with in-game descriptions/details
-	- [ ] Guide to unlocking hidden quests
+	- [x] Veggie Elder trades
+- [x] Locale Maps
+	- [x] Basic maps: zone numbers, hot/cold zones, etc.
+	- [x] Gathering points
+- [x] Hunter Ranks with point requirements
+- [x] Quest List
+	- [x] Full list with in-game descriptions/details
+	- [x] Guide to unlocking hidden quests
 - [ ] Meal Combinations
 
 # Developing
