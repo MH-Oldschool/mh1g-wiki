@@ -2,7 +2,7 @@
 	"title": "Monster Hunter Wiki | Bestiary",
 	"description": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
 	"head": "<link rel='stylesheet' href='css/bestiary.css'/>",
-	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
+	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (MH1 carves are based on the US version, and may vary from MH1J. MHG item names are based on Yuzu's English language patch v0.6)",
 	"onBestiary": true,
 	"gToggle": true,
 	"monsters": [
@@ -23,6 +23,41 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[150,150,120,100,100,100,10]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Blue Mushroom","p":45},
+					{"n":"Raw Meat","p":38},
+					{"n":"Special Mushroom","p":17}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Blue Mushroom","p":50},
+					{"n":"Raw Meat","p":30},
+					{"n":"Special Mushroom","p":15},
+					{"n":"Mosswine Hide","p":4},
+					{"n":"Mosswine Head","p":1}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Blue Mushroom","p":45},
+					{"n":"Raw Meat","p":38},
+					{"n":"Special Mushroom","p":17}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Blue Mushroom","p":50},
+					{"n":"Raw Meat","p":30},
+					{"n":"Special Mushroom","p":15},
+					{"n":"Mosswine Hide","p":4},
+					{"n":"Mosswine Head","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Blue Mushroom","p":50},
+					{"n":"Raw Meat","p":30},
+					{"n":"Special Mushroom","p":15},
+					{"n":"Mosswine Hide","p":4},
+					{"n":"Mosswine Head","p":1}
+				]}
 			],
 			"notes": [
 				"Found in forests and jungles.",
@@ -48,6 +83,33 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,160,50,50,100,10]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Bullfango Pelt","p":62},
+					{"n":"Raw Meat","p":38}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Bullfango Pelt","p":60},
+					{"n":"Raw Meat","p":39},
+					{"n":"Bullfango Head","p":1}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Bullfango Hide","p":62},
+					{"n":"Raw Meat","p":38}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Bullfango Hide","p":60},
+					{"n":"Raw Meat","p":39},
+					{"n":"Bullfango Head","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Bullfango Hide","p":60},
+					{"n":"Raw Meat","p":39},
+					{"n":"Bullfango Head","p":1}
+				]}
+			],
 			"notes": [
 				"Found in all climates except deserts.",
 				"Often found in groups, seldom alone. Even a small sounder of Bullfango can quickly overwhelm an unwary hunter."
@@ -70,6 +132,35 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[140,140,150,100,100,100,10]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kelbi Horn","p":60},
+					{"n":"Kelbi Hide","p":32},
+					{"n":"Raw Meat","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kelbi Horn","p":60},
+					{"n":"Kelbi Hide","p":32},
+					{"n":"Raw Meat","p":8}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kelbi Horn","p":60},
+					{"n":"Kelbi Hide","p":32},
+					{"n":"Raw Meat","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kelbi Horn","p":60},
+					{"n":"Kelbi Hide","p":32},
+					{"n":"Raw Meat","p":8}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Kelbi Horn","p":60},
+					{"n":"Kelbi Hide","p":32},
+					{"n":"Raw Meat","p":8}
+				]}
 			],
 			"notes": [
 				"Found in forests and swamps.",
@@ -95,6 +186,32 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[110,110,110,50,50,50,10]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":45},
+					{"n":"Med Monster Bone","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":38},
+					{"n":"Med Monster Bone","p":15}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Raw Meat","p":75},
+					{"n":"Sm Monster Bone","p":25}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Raw Meat","p":75},
+					{"n":"Sm Monster Bone","p":25}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Raw Meat","p":75},
+					{"n":"Sm Monster Bone","p":25}
+				]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"The arrival of a large monster is enough to make the entire herd flee."
@@ -119,6 +236,35 @@
 			"hitzonesG":[
 				{"name":"Head","zones":[80,100,90,40,100,40,10]},
 				{"name":"Neck (body?)","zones":[70,100,70,40,100,40,10]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":45},
+					{"n":"Med Monster Bone","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":38},
+					{"n":"Med Monster Bone","p":15}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":45},
+					{"n":"Med Monster Bone","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":38},
+					{"n":"Med Monster Bone","p":15}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Raw Meat","p":47},
+					{"n":"Sm Monster Bone","p":38},
+					{"n":"Med Monster Bone","p":15}
+				]}
 			],
 			"notes": [
 				"Found in deserts and volcanoes.",
@@ -190,6 +336,39 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,130,110,100,50,10,0]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Vespoid Wing","p":53},
+					{"n":"Vespoid Shell","p":30},
+					{"n":"Monster Fluid","p":15},
+					{"n":"Monster Fluid","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Vespoid Wing","p":30},
+					{"n":"Vespoid Shell","p":30},
+					{"n":"Monster Fluid","p":30},
+					{"n":"Vespoid Bladefin","p":10}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Vespoid Wing","p":53},
+					{"n":"Vespoid Shell","p":30},
+					{"n":"Monster Fluid","p":17}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Vespoid Wing","p":30},
+					{"n":"Vespoid Shell","p":30},
+					{"n":"Monster Fluid","p":30},
+					{"n":"Vespoid Bladefin","p":10}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Vespoid Bladefin","p":30},
+					{"n":"Vespoid Carapace","p":30},
+					{"n":"Monster Broth","p":30},
+					{"n":"Vespoid Razorwing","p":10}
+				]}
+			],
 			"notes": [
 				"Found in all regions.",
 				"Poison will instantly slay it, preserving its body for carving."
@@ -214,6 +393,41 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,120,100,100,20,60,0]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Hornetaur Wing","p":68},
+					{"n":"Monster Fluid","p":17},
+					{"n":"Hornetaur Shell","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Hornetaur Shell","p":30},
+					{"n":"Monster Fluid","p":30},
+					{"n":"Hornetaur Wing","p":20},
+					{"n":"Hornetaur Head","p":18},
+					{"n":"Hornetaur Bladefin","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Hornetaur Wing","p":68},
+					{"n":"Monster Fluid","p":17},
+					{"n":"Hornetaur Shell","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Monster Fluid","p":30},
+					{"n":"Hornetaur Shell","p":30},
+					{"n":"Hornetaur Wing","p":20},
+					{"n":"Hornetaur Head","p":18},
+					{"n":"Hornetaur Bladefin","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Hornetaur Carapace","p":28},
+					{"n":"Monster Broth","p":24},
+					{"n":"Hornetaur Bladefin","p":20},
+					{"n":"Hornetaur Head","p":18},
+					{"n":"Hornetaur Razorwing","p":10}
+				]}
+			],
 			"notes": [
 				"Found in jungles.",
 				"Commonly found in caves and dense underbrush."
@@ -237,6 +451,35 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[110,100,100,100,100,100,10]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Velociprey Fang","p":45},
+					{"n":"Velociprey Scale","p":30},
+					{"n":"Velociprey Hide","p":25}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Velociprey Hide","p":45},
+					{"n":"Velociprey Scale","p":30},
+					{"n":"Velociprey Fang","p":25}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Velociprey Fang","p":45},
+					{"n":"Velociprey Scale","p":30},
+					{"n":"Velociprey Hide","p":25}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Velociprey Hide","p":45},
+					{"n":"Velociprey Scale","p":30},
+					{"n":"Velociprey Fang","p":25}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Velociprey Hide+","p":45},
+					{"n":"Rampos Upper Scale","p":30},
+					{"n":"Velociprey Fang","p":25}
+				]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Can leap great distances, but are easily cut down."
@@ -255,6 +498,13 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"White Velociprey Hide","p":53},
+					{"n":"Velociprey Fang","p":29},
+					{"n":"White Velociprey Scale","p":18}
+				]}
 			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
@@ -280,6 +530,38 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Velocidrome Claw","p":55},
+					{"n":"Velociprey Hide","p":30},
+					{"n":"Velociprey Scale","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Velocidrome Claw","p":54},
+					{"n":"Velociprey Hide","p":30},
+					{"n":"Velociprey Scale","p":15},
+					{"n":"Velocidrome Head","p":1}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Velocidrome Claw","p":55},
+					{"n":"Velociprey Hide","p":30},
+					{"n":"Velociprey Scale","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Velocidrome Claw","p":54},
+					{"n":"Velociprey Hide","p":30},
+					{"n":"Velociprey Scale","p":15},
+					{"n":"Velocidrome Head","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Velocidrome Claw","p":54},
+					{"n":"Velociprey Hide+","p":30},
+					{"n":"Rampos Upper Scale","p":15},
+					{"n":"Velocidrome Head","p":1}
+				]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Will often hang back while its pack attacks."
@@ -302,6 +584,36 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,100,30,60,20,0]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Genprey Fang","p":45},
+					{"n":"Genprey Scale","p":30},
+					{"n":"Genprey Hide","p":25}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Genprey Hide","p":45},
+					{"n":"Genprey Scale","p":30},
+					{"n":"Genprey Fang","p":25}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Genprey Fang","p":45},
+					{"n":"Genprey Scale","p":30},
+					{"n":"Genprey Hide","p":25}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Genprey Hide","p":45},
+					{"n":"Genprey Scale","p":30},
+					{"n":"Genprey Fang","p":25}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Genprey Hide+","p":45},
+					{"n":"Genprey Scale+","p":30},
+					{"n":"Genprey Fang","p":13},
+					{"n":"Paralysis Sac","p":12}
+				]}
 			],
 			"notes": [
 				"Found in deserts and swamps.",
@@ -326,6 +638,35 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,40,40,40,10]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Stun Sac","p":40},
+					{"n":"Genprey Hide","p":30},
+					{"n":"Genprey Scale","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Genprey Hide","p":45},
+					{"n":"Stun Sac","p":40},
+					{"n":"Genprey Scale","p":15}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Stun Sac","p":40},
+					{"n":"Genprey Hide","p":30},
+					{"n":"Genprey Scale","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Gendrome Hide","p":45},
+					{"n":"Stun Sac","p":40},
+					{"n":"Genprey Scale","p":15}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Gendrome Hide","p":45},
+					{"n":"Paralysis Sac","p":40},
+					{"n":"Genprey Scale+","p":15}
+				]}
+			],
 			"notes": [
 				"Found in deserts and swamps.",
 				"Will often hang back while its pack attacks."
@@ -349,6 +690,35 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,20,30,50,0]}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Ioprey Fang","p":45},
+					{"n":"Ioprey Scale","p":40},
+					{"n":"Ioprey Hide","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Ioprey Hide","p":45},
+					{"n":"Ioprey Scale","p":30},
+					{"n":"Ioprey Fang","p":25}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Ioprey Fang","p":45},
+					{"n":"Ioprey Scale","p":40},
+					{"n":"Ioprey Hide","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Ioprey Hide","p":45},
+					{"n":"Ioprey Scale","p":30},
+					{"n":"Ioprey Fang","p":25}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Ioprey Hide+","p":45},
+					{"n":"Ioprey Scale+","p":30},
+					{"n":"Ioprey Fang","p":25}
+				]}
+			],
 			"notes": [
 				"Found in jungles, swamps, and volcanoes.",
 				"Can leap great distances, but are easily cut down."
@@ -371,6 +741,35 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[80,80,80,30,30,30,10]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Poison Sac","p":40},
+					{"n":"Ioprey Hide","p":30},
+					{"n":"Ioprey Scale","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Ioprey Hide","p":45},
+					{"n":"Poison Sac","p":40},
+					{"n":"Ioprey Scale","p":15}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Poison Sac","p":40},
+					{"n":"Ioprey Hide","p":30},
+					{"n":"Ioprey Scale","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Iodrome Hide","p":45},
+					{"n":"Poison Sac","p":40},
+					{"n":"Ioprey Scale","p":15}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Iodrome Hide","p":45},
+					{"n":"Poison Sac","p":40},
+					{"n":"Ioprey Scale+","p":15}
+				]}
 			],
 			"notes": [
 				"Found in jungles, swamps, and volcanoes.",
@@ -417,6 +816,81 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":30,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Webbing","p":30},
+					{"n":"Rathalos Scale","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Rathalos Tail","p":38},
+					{"n":"Rathalos Scale","p":35},
+					{"n":"Rathalos Shell","p":25},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Rathalos Webbing","p":30},
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Wyvern Marrow","p":8},
+					{"n":"Rathalos Scale","p":5},
+					{"n":"Rathalos Wing","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Rathalos Tail","p":55},
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Scale","p":8},
+					{"n":"Wyvern Marrow","p":6},
+					{"n":"Rathalos Plate","p":1}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Membrane","p":30},
+					{"n":"Rathalos Scale","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Rathalos Tail","p":38},
+					{"n":"Rathalos Scale","p":35},
+					{"n":"Rathalos Shell","p":25},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Membrane","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Wyvern Marrow","p":8},
+					{"n":"Rathalos Scale","p":5},
+					{"n":"Rathalos Wing","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Rathalos Tail","p":55},
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Scale","p":8},
+					{"n":"Wyvern Marrow","p":6},
+					{"n":"Rathalos Plate","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Rathalos Shell","p":30},
+					{"n":"Rathalos Membrane","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Rath Medulla","p":8},
+					{"n":"Rathalos Scale+","p":5},
+					{"n":"Rathalos Wing","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Rathalos Tail","p":55},
+					{"n":"Rathalos Scale+","p":26},
+					{"n":"Rathalos Plate","p":12},
+					{"n":"Rath Medulla","p":6},
+					{"n":"Rathalos Ruby","p":1}
+				]}
+			],
 			"notes": [
 				"Found in forests<span class='base-only'> and swamps.</span><span class='g-only'>, swamps, and volcanoes.</span>",
 				"Often takes flight to thwart hunters."
@@ -446,6 +920,51 @@
 				{"name":"poison","title":"Poison","tolerance":[215,290,365,440,515],"duration":60,"recovery":"10/5s","damage":"30/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"Village","parts":[
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Scale","p":30},
+					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"Village Tail","parts":[
+					{"n":"Azure Rathalos Tail","p":38},
+					{"n":"Azure Rathalos Scale","p":35},
+					{"n":"Azure Rathalos Shell","p":25},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Wyvern Marrow","p":8},
+					{"n":"Azure Rathalos Scale","p":5},
+					{"n":"Azure Rathalos Wing","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Azure Rathalos Tail","p":55},
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Scale","p":8},
+					{"n":"Wyvern Marrow","p":6},
+					{"n":"Azure Rathalos Plate","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Azure Rathalos Cortex","p":30},
+					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Rath Medulla","p":8},
+					{"n":"Azure Rathalos Scale+","p":5},
+					{"n":"Azure Rathalos Wing","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Azure Rathalos Tail","p":55},
+					{"n":"Azure Rathalos Scale+","p":24},
+					{"n":"Azure Rathalos Plate","p":12},
+					{"n":"Azure Rathalos Cortex","p":8},
+					{"n":"Azure Rathalos Ruby","p":1}
+				]}
 			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
@@ -477,6 +996,24 @@
 				{"name":"poison","title":"Poison","tolerance":[400,500,600,700,800],"duration":60,"recovery":"10/5s","damage":"35/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Silver Rathalos Shell","p":30},
+					{"n":"Silver Rathalos Wing Membrane","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Rath Medulla","p":8},
+					{"n":"Silver Rathalos Scale","p":5},
+					{"n":"Silver Rathalos Wing","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Silver Rathalos Tail","p":55},
+					{"n":"Silver Rathalos Scale","p":20},
+					{"n":"Silver Rathalos Plate","p":9},
+					{"n":"Silver Rathalos Shell","p":8},
+					{"n":"Rath Medulla","p":6},
+					{"n":"Silver Rathalos Ruby","p":2}
+				]}
 			],
 			"notes": [
 				"Found in forests and swamps.",
@@ -524,6 +1061,79 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[110,185,260,335,410],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":30,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rathian Scale","p":60},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Rathian Spike","p":2}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Rathian Scale","p":60},
+					{"n":"Rathian Shell","p":25},
+					{"n":"Rathian Spike","p":8},
+					{"n":"Lg Monster Bone","p":5},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Rathian Scale","p":35},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Rathian Spike","p":8},
+					{"n":"Wyvern Claw","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Rathian Scale","p":50},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Rathian Spike","p":13},
+					{"n":"Wyvern Marrow","p":5},
+					{"n":"Rathian Plate","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rathian Scale","p":60},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Rathian Spike","p":2}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Rathian Scale","p":60},
+					{"n":"Rathian Shell","p":25},
+					{"n":"Rathian Spike","p":8},
+					{"n":"Lg Monster Bone","p":5},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Rathian Scale","p":35},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Rathian Spike","p":8},
+					{"n":"Wyvern Claw","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Rathian Scale","p":50},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Rathian Spike","p":13},
+					{"n":"Wyvern Marrow","p":5},
+					{"n":"Rathian Plate","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Rathian Scale+","p":35},
+					{"n":"Rathian Shell","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Rathian Spike","p":8},
+					{"n":"Wyvern Claw","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Rathian Scale+","p":45},
+					{"n":"Rathian Shell","p":23},
+					{"n":"Rathian Spike","p":13},
+					{"n":"Rathian Plate","p":12},
+					{"n":"Rath Medulla","p":5},
+					{"n":"Rathian Ruby","p":2}
+				]}
+			],
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -553,6 +1163,49 @@
 				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"15/5s","damage":"30/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,225,300,375,450],"duration":30,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"Village","parts":[
+					{"n":"Pink Rathian Scale","p":60},
+					{"n":"Pink Rathian Shell","p":30},
+					{"n":"Flame Sac","p":8},
+					{"n":"Pink Rathian Spike","p":2}
+				]},
+				{"name":"Village Tail","parts":[
+					{"n":"Pink Rathian Scale","p":60},
+					{"n":"Pink Rathian Shell","p":25},
+					{"n":"Pink Rathian Spike","p":8},
+					{"n":"Lg Monster Bone","p":5},
+					{"n":"Wyvern Marrow","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Pink Rathian Scale","p":35},
+					{"n":"Pink Rathian Shell","p":30},
+					{"n":"Flame Sac","p":25},
+					{"n":"Pink Rathian Spike","p":8},
+					{"n":"Wyvern Claw","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Pink Rathian Scale","p":50},
+					{"n":"Pink Rathian Shell","p":30},
+					{"n":"Pink Rathian Spike","p":13},
+					{"n":"Wyvern Marrow","p":5},
+					{"n":"Pink Rathian Plate","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Pink Rathian Scale+","p":35},
+					{"n":"Pink Rathian Cortex","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Pink Rathian Spike","p":8},
+					{"n":"Wyvern Claw","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Pink Rathian Scale+","p":50},
+					{"n":"Pink Rathian Cortex","p":30},
+					{"n":"Pink Rathian Plate","p":12},
+					{"n":"Rath Medulla","p":6},
+					{"n":"Pink Rathian Ruby","p":2}
+				]}
 			],
 			"notes": [
 				"Found in all regions except volcanoes.",
@@ -584,6 +1237,21 @@
 				{"name":"poison","title":"Poison","tolerance":[350,450,550,650,750],"duration":60,"recovery":"10/5s","damage":"30/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Gold Rathian Scale","p":37},
+					{"n":"Gold Rathian Shell","p":30},
+					{"n":"Inferno Sac","p":25},
+					{"n":"Gold Rathian Spike","p":8}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Gold Rathian Scale","p":46},
+					{"n":"Gold Rathian Shell","p":30},
+					{"n":"Gold Rathian Spike","p":13},
+					{"n":"Gold Rathian Plate","p":8},
+					{"n":"Gold Rathian Ruby","p":3}
+				]}
 			],
 			"notes": [
 				"Found in the jungle and swamp.",
@@ -631,6 +1299,43 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,165,230,295,360],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kut-Ku Shell","p":50},
+					{"n":"Kut-Ku Webbing","p":36},
+					{"n":"Kut-Ku Ear","p":8},
+					{"n":"Kut-Ku Scale","p":5},
+					{"n":"Giant Beak","p":1}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kut-Ku Shell","p":45},
+					{"n":"Kut-Ku Webbing","p":25},
+					{"n":"Kut-Ku Ear","p":15},
+					{"n":"Giant Beak","p":10},
+					{"n":"Kut-Ku Ear","p":5}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kut-Ku Shell","p":50},
+					{"n":"Kut-Ku Membrane","p":36},
+					{"n":"Kut-Ku Ear","p":8},
+					{"n":"Kut-Ku Scale","p":5},
+					{"n":"Giant Beak","p":1}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kut-Ku Shell","p":45},
+					{"n":"Kut-Ku Membrane","p":25},
+					{"n":"Kut-Ku Ear","p":20},
+					{"n":"Giant Beak","p":10}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Kut-Ku Shell","p":55},
+					{"n":"Kut-Ku Wing","p":30},
+					{"n":"Long Kut-Ku Ear","p":10},
+					{"n":"Splendid Beak","p":5}
+				]}
+			],
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Can launch fireballs a short distance."
@@ -660,6 +1365,14 @@
 				{"name":"poison","title":"Poison","tolerance":[100,150,200,250,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Blue Kut-Ku Shell","p":45},
+					{"n":"Blue Kut-Ku Membrane","p":25},
+					{"n":"Blue Kut-Ku Ear","p":20},
+					{"n":"Splendid Beak","p":10}
+				]}
 			],
 			"notes": [
 				"Found in forests and swamps.",
@@ -707,6 +1420,41 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rubbery Hide","p":62},
+					{"n":"Power Extract","p":20},
+					{"n":"Poison Sac","p":10},
+					{"n":"Light Crystal","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Power Extract","p":50},
+					{"n":"Rubbery Hide","p":35},
+					{"n":"Poison Sac","p":9},
+					{"n":"Novacrystal","p":6}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Rubbery Hide","p":62},
+					{"n":"Power Extract","p":20},
+					{"n":"Poison Sac","p":10},
+					{"n":"Lightcrystal","p":8}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Power Extract","p":50},
+					{"n":"Rubbery Hide","p":35},
+					{"n":"Poison Sac","p":9},
+					{"n":"Novacrystal","p":6}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Power Extract","p":50},
+					{"n":"Rubbery Hide+","p":20},
+					{"n":"Rubbery Hide","p":15},
+					{"n":"Poison Sac","p":9},
+					{"n":"Purecrystal","p":6}
+				]}
+			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -737,6 +1485,15 @@
 				{"name":"poison","title":"Poison","tolerance":[300,375,450,525,600],"duration":60,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,125,150,175,200],"duration":50,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Power Extract","p":38},
+					{"n":"Purple Rubbery Hide","p":37},
+					{"n":"Gypceros Head","p":11},
+					{"n":"Poison Sac","p":9},
+					{"n":"Purecrystal","p":5}
+				]}
 			],
 			"notes": [
 				"Found in forests, jungles, and swamps.",
@@ -785,6 +1542,41 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":5,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Flabby Hide","p":50},
+					{"n":"Pale Extract","p":35},
+					{"n":"Electro Sac","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Flabby Hide","p":50},
+					{"n":"Pale Extract","p":25},
+					{"n":"Electro Sac","p":14},
+					{"n":"Pale Bone","p":11}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Flabby Hide","p":50},
+					{"n":"Pale Extract","p":35},
+					{"n":"Electro Sac","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Flabby Hide","p":50},
+					{"n":"Pale Extract","p":25},
+					{"n":"Electro Sac","p":14},
+					{"n":"Pale Bone","p":10},
+					{"n":"Pale Lips","p":1}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Khezu Hide - Tan","p":34},
+					{"n":"Pale Extract","p":25},
+					{"n":"Flabby Hide","p":16},
+					{"n":"Thunder Sac","p":14},
+					{"n":"Pale Khezu Steak","p":10},
+					{"n":"Pale Lips","p":1}
+				]}
+			],
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -814,6 +1606,15 @@
 				{"name":"poison","title":"Poison","tolerance":[110,185,260,335,410],"duration":30,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[350,425,500,575,650],"duration":5,"recovery":"10/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Alluring Hide","p":43},
+					{"n":"Pale Extract","p":25},
+					{"n":"Thunder Sac","p":14},
+					{"n":"Pale Khezu Steak","p":13},
+					{"n":"Pale Lips","p":5}
+				]}
 			],
 			"notes": [
 				"Found in jungles and swamps.",
@@ -861,6 +1662,35 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":30,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Plesioth Scale","p":58},
+					{"n":"Plesioth Fin","p":40},
+					{"n":"Sm Lobstershell","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Plesioth Fin","p":48},
+					{"n":"Plesioth Scale","p":45},
+					{"n":"Lg Lobstershell","p":7}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Plesioth Scale","p":58},
+					{"n":"Plesioth Fin","p":40},
+					{"n":"Sm Lobstershell","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Plesioth Fin","p":48},
+					{"n":"Plesioth Scale","p":45},
+					{"n":"Lg Lobstershell","p":7}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Plesioth Top Fin","p":48},
+					{"n":"Plesioth Scale+","p":45},
+					{"n":"Great Lobstershell","p":7}
+				]}
+			],
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -891,6 +1721,15 @@
 				{"name":"poison","title":"Poison","tolerance":[100,200,300,400,500],"duration":90,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,200,300,400,500],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Green Plesioth Fin","p":54},
+					{"n":"Green Plesioth Scale","p":11},
+					{"n":"Sm Lobstershell","p":19},
+					{"n":"Lg Lobstershell","p":10},
+					{"n":"Great Lobstershell","p":6}
+				]}
 			],
 			"notes": [
 				"Found in jungles and deserts.",
@@ -928,6 +1767,42 @@
 				{"name":"Tail","zones":[60,70,60,25,10,20,0]},
 				{"name":"Wing","zones":[70,60,60,25,10,20,0]},
 				{"name":"Foot","zones":[50,45,50,30,25,10,0]}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Piscine Liver","p":60},
+					{"n":"Cephalos Scale","p":23},
+					{"n":"Piscine Fang","p":15},
+					{"n":"Cephalos Fin","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Piscine Liver","p":60},
+					{"n":"Cephalos Scale","p":23},
+					{"n":"Cephalos Fin","p":15},
+					{"n":"Piscine Fang","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Piscine Liver","p":60},
+					{"n":"Cephalos Scale","p":23},
+					{"n":"Piscine Fang","p":15},
+					{"n":"Cephalos Fin","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Piscine Liver","p":60},
+					{"n":"Cephalos Scale","p":23},
+					{"n":"Cephalos Fin","p":15},
+					{"n":"Piscine Fang","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Piscine Liver","p":30},
+					{"n":"Cephalos Top Fin","p":25},
+					{"n":"Coral Cephalos Fin","p":18},
+					{"n":"Cephalos Scale+","p":16},
+					{"n":"Coral Cephalos Scale","p":9},
+					{"n":"Piscine Fang","p":2}
+				]}
 			],
 			"notes": [
 				"Found only in deserts.",
@@ -975,6 +1850,42 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":40,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Cephalos Scale","p":38},
+					{"n":"Cephalos Fin","p":32},
+					{"n":"Piscine Liver","p":15},
+					{"n":"Piscine Fang","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Cephalos Scale","p":45},
+					{"n":"Cephalos Fin","p":45},
+					{"n":"Piscine Liver","p":8},
+					{"n":"Piscine Fang","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Cephalos Scale","p":38},
+					{"n":"Cephalos Fin","p":32},
+					{"n":"Piscine Liver","p":15},
+					{"n":"Piscine Fang","p":15}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Cephalos Scale","p":45},
+					{"n":"Cephalos Fin","p":45},
+					{"n":"Piscine Liver","p":8},
+					{"n":"Piscine Fang","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Cephalos Scale+","p":35},
+					{"n":"Cephalos Top Fin","p":30},
+					{"n":"Coral Cephalos Fin","p":15},
+					{"n":"Coral Cephalos Scale","p":10},
+					{"n":"Piscine Liver","p":8},
+					{"n":"Piscine Fang","p":2}
+				]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"They seem to resist all elements, especially fire."
@@ -1021,6 +1932,30 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,225,300,375,450],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Village","parts":[
+					{"n":"Monoblos Spine","p":40},
+					{"n":"Monoblos Shell","p":39},
+					{"n":"Blos Fang","p":20},
+					{"n":"Monoblos Heart","p":1}
+				]},
+				{"name":"Village Tail","parts":[
+					{"n":"Monoblos Shell","p":80},
+					{"n":"Lg Monster Bone","p":20}
+				]}
+			],
+			"carvesG":[
+				{"name":"Village","parts":[
+					{"n":"Monoblos Spine","p":40},
+					{"n":"Monoblos Shell","p":39},
+					{"n":"Blos Fang","p":20},
+					{"n":"Monoblos Heart","p":1}
+				]},
+				{"name":"Village Tail","parts":[
+					{"n":"Monoblos Shell","p":80},
+					{"n":"Lg Monster Bone","p":20}
+				]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -1052,6 +1987,18 @@
 				{"name":"poison","title":"Poison","tolerance":[100,200,300,400,500],"duration":90,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"Village","parts":[
+					{"n":"White Monoblos Spine","p":45},
+					{"n":"White Monoblos Shell","p":29},
+					{"n":"Blos Fang","p":24},
+					{"n":"Monoblos Heart","p":2}
+				]},
+				{"name":"Village Tail","parts":[
+					{"n":"White Monoblos Shell","p":80},
+					{"n":"Lg Monster Bone","p":20}
+				]}
 			],
 			"notes": [
 				"Found only in deserts.",
@@ -1100,6 +2047,54 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Diablos Shell","p":70},
+					{"n":"Blos Fang","p":30}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Diablos Shell","p":70},
+					{"n":"Diablos Tail","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Diablos Shell","p":70},
+					{"n":"Blos Fang","p":25}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Diablos Tail","p":60},
+					{"n":"Diablos Shell","p":40}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Diablos Shell","p":70},
+					{"n":"Blos Fang","p":30}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Diablos Shell","p":70},
+					{"n":"Diablos Tail","p":30}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Diablos Carapace","p":45},
+					{"n":"Diablos Shell","p":40},
+					{"n":"Blos Fang","p":15}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Diablos Tail","p":60},
+					{"n":"Diablos Shell","p":40}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Diablos Carapace","p":38},
+					{"n":"Blos Fang","p":25},
+					{"n":"Diablos Shell","p":22},
+					{"n":"Diablos Thoracic","p":15}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Diablos Tail","p":48},
+					{"n":"Diablos Thoracic","p":34},
+					{"n":"Diablos Shell","p":18}
+				]}
+			],
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises."
@@ -1132,6 +2127,18 @@
 				{"name":"poison","title":"Poison","tolerance":[250,300,350,400,450],"duration":90,"recovery":"10/5s","damage":"20/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[250,325,400,475,550],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":50,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","tailParts":[
+					{"n":"Black Diablos Carapace","p":56},
+					{"n":"Blos Fang","p":32},
+					{"n":"Black Diablos Spine","p":12}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Black Diablos Tail","p":64},
+					{"n":"Black Diablos Shell","p":26},
+					{"n":"Black Diablos Spine","p":10}
+				]}
 			],
 			"notes": [
 				"Found only in deserts.",
@@ -1181,6 +2188,67 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Gravios Shell","p":75},
+					{"n":"Sleep Sac","p":15},
+					{"n":"Flame Sac","p":10}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Gravios Shell","p":80},
+					{"n":"Lg Monster Bone","p":20}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Gravios Carapace","p":45},
+					{"n":"Gravios Shell","p":20},
+					{"n":"Sleep Sac","p":20},
+					{"n":"Flame Sac","p":9},
+					{"n":"Gravios Head","p":4},
+					{"n":"Gravios Wing","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Gravios Carapace","p":63},
+					{"n":"Gravios Shell","p":35},
+					{"n":"Firestone","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Gravios Shell","p":75},
+					{"n":"Sleep Sac","p":15},
+					{"n":"Flame Sac","p":10}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Gravios Shell","p":80},
+					{"n":"Lg Monster Bone","p":20}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Gravios Carapace","p":45},
+					{"n":"Gravios Shell","p":20},
+					{"n":"Sleep Sac","p":20},
+					{"n":"Flame Sac","p":9},
+					{"n":"Gravios Head","p":4},
+					{"n":"Gravios Wing","p":2}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Gravios Carapace","p":63},
+					{"n":"Gravios Thoracic","p":35},
+					{"n":"Firestone","p":2}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Gravios Shell","p":45},
+					{"n":"Gravios Heavy Shell","p":20},
+					{"n":"Sleep Sac","p":20},
+					{"n":"Inferno Sac","p":9},
+					{"n":"Gravios Jaw","p":4},
+					{"n":"Strong Gravios Wing","p":2}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Gravios Shell","p":63},
+					{"n":"Gravios Heavy Shell","p":35},
+					{"n":"Firecell Stone","p":2}
+				]}
+			],
 			"notes": [
 				"Found in swamps and volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -1211,6 +2279,21 @@
 				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":60,"recovery":"10/5s","damage":"40/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,300,400,500,600],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Black Gravios Carapace","p":46},
+					{"n":"Black Gravios Shell","p":20},
+					{"n":"Sleep Sac","p":20},
+					{"n":"Inferno Sac","p":9},
+					{"n":"Black Gravios Head","p":4},
+					{"n":"Black Gravios Wing","p":1}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Black Gravios Carapace","p":63},
+					{"n":"Black Gravios Shell","p":35},
+					{"n":"Firecell Stone","p":2}
+				]}
 			],
 			"notes": [
 				"Found only at volcanoes.",
@@ -1258,6 +2341,67 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350,400],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":60,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Machalite Ore","p":45},
+					{"n":"Basarios Shell","p":32},
+					{"n":"Poison Sac","p":15},
+					{"n":"Lg Monster Bone","p":8}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Machalite Ore","p":55},
+					{"n":"Basarios Shell","p":45}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Dragonite Ore","p":32},
+					{"n":"Basarios Shell","p":30},
+					{"n":"Poison Sac","p":15},
+					{"n":"Basarios Wing","p":15},
+					{"n":"Lg Monster Bone","p":8}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Machalite Ore","p":45},
+					{"n":"Basarios Shell","p":30},
+					{"n":"Dragonite Ore","p":25}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Machalite Ore","p":45},
+					{"n":"Basarios Shell","p":32},
+					{"n":"Poison Sac","p":15},
+					{"n":"Lg Monster Bone","p":8}
+				]},
+				{"name":"Low Rank Tail","parts":[
+					{"n":"Machalite Ore","p":55},
+					{"n":"Basarios Shell","p":45}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Dragonite Ore","p":32},
+					{"n":"Basarios Shell","p":30},
+					{"n":"Poison Sac","p":15},
+					{"n":"Basarios Wing","p":15},
+					{"n":"Lg Monster Bone","p":8}
+				]},
+				{"name":"High Rank Tail","parts":[
+					{"n":"Machalite Ore","p":45},
+					{"n":"Basarios Shell","p":30},
+					{"n":"Dragonite Ore","p":25}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Basarios Shell","p":32},
+					{"n":"Poison Sac","p":19},
+					{"n":"Dragonite Ore","p":17},
+					{"n":"Basarios Tears","p":15},
+					{"n":"Carbalite Ore","p":9},
+					{"n":"Monster Bone+","p":8}
+				]},
+				{"name":"G Rank Tail","parts":[
+					{"n":"Dragonite Ore","p":52},
+					{"n":"Basarios Shell","p":30},
+					{"n":"Carbalite Ore","p":18}
+				]}
+			],
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger.",
@@ -1295,6 +2439,44 @@
 				{"name":"poison","title":"Poison","tolerance":[200,275,350,425,500],"duration":30,"recovery":"10/5s","damage":"10/5s"},
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/20s"}
+			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kirin Mane","p":55},
+					{"n":"Kirin Horn","p":28},
+					{"n":"Lightcrystal","p":15},
+					{"n":"Kirin Hide","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kirin Horn","p":35},
+					{"n":"Kirin Mane","p":30},
+					{"n":"Kirin Hide","p":15},
+					{"n":"Novacrystal","p":10}
+				]}
+			],
+			"carvesG":[
+				{"name":"Low Rank","parts":[
+					{"n":"Kirin Mane","p":55},
+					{"n":"Kirin Horn","p":28},
+					{"n":"Lightcrystal","p":15},
+					{"n":"Kirin Hide","p":2}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Kirin Horn","p":35},
+					{"n":"Kirin Azure Horn","p":20},
+					{"n":"Kirin Thunder Tail","p":14},
+					{"n":"Kirin Mane","p":13},
+					{"n":"Novacrystal","p":10},
+					{"n":"Kirin Hide","p":8}
+				]},
+				{"name":"G Rank","parts":[
+					{"n":"Kirin Horn","p":35},
+					{"n":"Kirin Mane","p":25},
+					{"n":"Kirin Thunder Tail","p":15},
+					{"n":"Purecrystal","p":10},
+					{"n":"Kirin Hide","p":8},
+					{"n":"Kirin Azure Horn","p":7}
+				]}
 			],
 			"notes": [
 				"Immune to paraylsis.",
@@ -1342,6 +2524,57 @@
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","immune":true}
 			],
+			"carves1":[
+				{"name":"Low Rank","parts":[
+					{"n":"Lao-Shan's Scale","p":50},
+					{"n":"Lao-Shan's Shell","p":45},
+					{"n":"Lao-Shan's Claw","p":5}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Lao-Shan's Shell","p":35},
+					{"n":"Lao-Shan's Scale","p":25},
+					{"n":"Lao-Shan's Spine","p":20},
+					{"n":"Lao-Shan's Claw","p":18},
+					{"n":"Lao-Shan's Plate","p":2}
+				]}
+			],
+			"carvesG":[
+				{"name":"Village","parts":[
+					{"n":"Lao-Shan's Shell","p":43},
+					{"n":"Lao-Shan's Scale","p":32},
+					{"n":"Lao-Shan's Spine","p":20},
+					{"n":"Sm Lao-Shan's Claw","p":5}
+				]},
+				{"name":"Village Back","parts":[
+					{"n":"Lg Monster Bone","p":54},
+					{"n":"Lao-Shan's Scale","p":28},
+					{"n":"Lao-Shan's Shell","p":18}
+				]},
+				{"name":"Low Rank","parts":[
+					{"n":"Lao-Shan's Scale","p":48},
+					{"n":"Lao-Shan's Shell","p":27},
+					{"n":"Lao-Shan's Spine","p":20},
+					{"n":"Lao-Shan's Claw","p":5}
+				]},
+				{"name":"Low Rank Back","parts":[
+					{"n":"Lg Monster Bone","p":65},
+					{"n":"Lao-Shan's Scale","p":25},
+					{"n":"Lao-Shan's Shell","p":10}
+				]},
+				{"name":"High Rank","parts":[
+					{"n":"Lao-Shan's Shell","p":35},
+					{"n":"Lao-Shan's Scale","p":25},
+					{"n":"Lao-Shan's Carapace","p":20},
+					{"n":"Lao-Shan's Claw","p":18},
+					{"n":"Lao-Shan's Plate","p":2}
+				]},
+				{"name":"High Rank Back","parts":[
+					{"n":"Lg Monster Bone","p":44},
+					{"n":"Lao-Shan's Scale","p":28},
+					{"n":"Lao-Shan's Carapace","p":18},
+					{"n":"Lao-Shan's Shell","p":10}
+				]}
+			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
 				"One swing of its mighty tail is enough to fell the strongest hunter."
@@ -1372,6 +2605,23 @@
 				{"name":"poison","title":"Poison","immune":true},
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","immune":true}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Lao-Shan's Thoracic","p":28},
+					{"n":"Lao-Shan's Scale+","p":20},
+					{"n":"Azure Lao-Shan's Shell","p":19},
+					{"n":"Azure Lao-Shan's Claw","p":13},
+					{"n":"Azure Lao-Shan's Scale","p":12},
+					{"n":"Lao-Shan's Plate","p":5},
+					{"n":"Lao-Shan's Ruby","p":3}
+				]},
+				{"name":"G Rank Back","parts":[
+					{"n":"Monster Bone+","p":52},
+					{"n":"Lao-Shan's Scale+","p":25},
+					{"n":"Lao-Shan's Thoracic","p":13},
+					{"n":"Lao-Shan's Heavy Shell","p":10}
+				]}
 			],
 			"notes": [
 				"Totally immune to poison, paralysis, and sleep.",
@@ -1418,6 +2668,23 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[400,450,500,550,600],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[400,450,500,550,600],"duration":30,"recovery":"5/10s"}
 			],
+			"carves1":[
+				{"name":"High Rank","parts":[
+					{"n":"Fatalis’ Scale","p":45},
+					{"n":"Fatalis’ Shell","p":45},
+					{"n":"Fatalis’ Horn","p":10}
+				]}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Fatalis’ Scale+","p":30},
+					{"n":"Fatalis’ Shell","p":25},
+					{"n":"Fatalis’ Scale","p":20},
+					{"n":"Fatalis’ Shell","p":15},
+					{"n":"Fatalis’ Horn","p":6},
+					{"n":"Fatalis’ Gore","p":4}
+				]}
+			],
 			"notes": [
 				"Only hunters of the greatest renown claim to have faced this dragon.",
 				"Rumored to be incensed by the slaying of many wyverns."
@@ -1449,6 +2716,16 @@
 				{"name":"Chest","zones":[10,10,10,10,5,5,10]},
 				{"name":"Wing","zones":[10,10,10,10,5,5,10]},
 				{"name":"Stomach & Foot","zones":[10,10,10,10,5,5,10]}
+			],
+			"carvesG":[
+				{"name":"G Rank","parts":[
+					{"n":"Fatalis’ Crimson Scale","p":34},
+					{"n":"Fatalis’ Crimson Shell","p":23},
+					{"n":"Fatalis’ Scale","p":19},
+					{"n":"Fatalis’ Shell","p":15},
+					{"n":"Fatalis’ Crimson Horn","p":6},
+					{"n":"Fatalis’ Gore","p":3}
+				]}
 			],
 			"notes": [
 				"Only hunters of the greatest renown claim to have faced this dragon.",

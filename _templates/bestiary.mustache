@@ -41,6 +41,7 @@
 								<th>High Rank Town</th>
 							</tr>
 						</thead>
+
 						<tbody class="ta-r">
 							<tr>
 								{{#hp1}}
@@ -59,6 +60,7 @@
 								<th>Defense Modifier</th>
 							</tr>
 						</thead>
+
 						<tbody{{#unusedHPG}} class="unused-values"{{/unusedHPG}}>
 							{{#hpG}}
 								<tr{{#active}} class="active"{{/active}}>
@@ -86,6 +88,7 @@
 								<th><img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon" title="Dragon"/></th>
 							</tr>
 						</thead>
+
 						<tbody class="mh1">
 							{{#hitzones1}}
 								<tr>
@@ -96,6 +99,7 @@
 								</tr>
 							{{/hitzones1}}
 						</tbody>
+
 						<tbody class="mhg">
 							{{#hitzonesG}}
 								<tr>
@@ -120,6 +124,7 @@
 									<th>Damage</th>
 								</tr>
 							</thead>
+
 							<tbody class="mh1">
 								{{#status1}}
 									<tr>
@@ -131,6 +136,7 @@
 									</tr>
 								{{/status1}}
 							</tbody>
+
 							<tbody class="mhg">
 								{{#statusG}}
 									<tr>
@@ -148,6 +154,43 @@
 							Tolerance increases to the next value each time the monster succumbs to the status effect, up to the given maximum.
 						</p>
 					</div>
+				</details>
+
+				<details{{^carvesG}} style="display:none"{{/carvesG}}>
+					<summary>Carves</summary>
+
+					<table>
+						<thead>
+							<tr>
+								<td>Name</td>
+								<td>Carve Chance</td>
+							</tr>
+						</thead>
+
+						<tbody class="mh1">
+							{{#carves1}}
+								<tr><td colspan=2 class="ta-c">{{name}}</td></tr>
+								{{#parts}}
+									<tr>
+										<td>{{n}}</td>
+										<td class="ta-r">{{p}}%</td>
+									</tr>
+								{{/parts}}
+							{{/carves1}}
+						</tbody>
+
+						<tbody class="mhg">
+							{{#carvesG}}
+								<tr><td colspan=2 class="ta-c">{{name}}</td></tr>
+								{{#parts}}
+									<tr>
+										<td>{{n}}</td>
+										<td class="ta-r">{{p}}%</td>
+									</tr>
+								{{/parts}}
+							{{/carvesG}}
+						</tbody>
+					</table>
 				</details>
 			</aside>
 		</section>
