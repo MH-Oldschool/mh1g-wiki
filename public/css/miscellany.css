@@ -4,16 +4,17 @@ ul {
 
 /* Small Desktop */
 @media screen and (min-width: 64rem) {
-	.column-left,
-	.column-right {
-		display: inline-block;
-		vertical-align: top;
+	.flex-container {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.column {
 		width: 48%;
 	}
-	.column-left {
-		margin-right: auto;
-	}
-	.column-right {
-		margin-left: auto;
+	.full-width {
+		width: 100%;
 	}
 }

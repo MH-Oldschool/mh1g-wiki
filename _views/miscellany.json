@@ -63,5 +63,317 @@
 			{"rank":29,"title":"Monster Hunter","points":"197,200"},
 			{"rank":30,"title":"Monster Hunter G","points":"222,200"}
 		]
-	}
+	},
+	"diningRooms":[
+		{
+			"name":"<span class=\"gray-icon ticket-icon\"></span>Pawn Room",
+			"meat":[
+				"Meat Scraps",
+				"Popo Meat"
+			],
+			"vegetable":[
+				"Plumpkin",
+				"Ancorn",
+				"Twinshroom"
+			],
+			"seafood":[
+				"Clamchip",
+				"Guts",
+				"Scalefish"
+			],
+			"grain":[
+				"Hardtack",
+				"Mixed Beans",
+				"Webcake"
+			],
+			"oil":[
+				"Oily Raisins"
+			],
+			"dairy":[
+				"Dry Margarine",
+				"Powdered Cheese"
+			],
+			"liquor":[
+				"Hopi"
+			],
+			"combos":[
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"orange-icon meat-icon\"></span>Meat","r":"Health +10"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Stamina +25"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +25"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health -10"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Attack Up Small"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health +20"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health +10"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health -10"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health -10"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Stamina -25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Defense Up Small"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Health +10"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health +10"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Stamina -25"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"blue-icon barrel-icon\"></span>Liquor + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"}
+			]
+		},
+		{
+			"name":"<span class=\"cyan-icon ticket-icon\"></span>Rook Room",
+			"meat":[
+				"Cubesteak",
+				"Spicy Sausage"
+			],
+			"vegetable":[
+				"Spotted Onion",
+				"Ancorn",
+				"Young Potato",
+				"Mild Herb"
+			],
+			"seafood":[
+				"Snake Salmon",
+				"Tuna Head"
+			],
+			"grain":[
+				"Hardtack",
+				"Sweetbug"
+			],
+			"oil":[
+				"Fruity Jam",
+				"Olive paste"
+			],
+			"dairy":[
+				"Dry Margarine",
+				"Aged Cheese"
+			],
+			"liquor":[
+				"Dairy Pop"
+			],
+			"combos":[
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"orange-icon meat-icon\"></span>Meat","r":"Health +20"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Health +10"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Attack Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Health +20"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health -10"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina -25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Defense Up Small"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health -10"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina -25"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Health +10"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Defense Up Large"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health +10, Stamina +25"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +10"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health -10"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health -10"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"blue-icon barrel-icon\"></span>Liquor + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"}
+			]
+		},
+		{
+			"name":"<span class=\"orange-icon ticket-icon\"></span>Bishop Room",
+			"meat":[
+				"Jungle Ribs",
+				"Meatwagon",
+				"Wild Wonton"
+			],
+			"vegetable":[
+				"Cudgel Onion",
+				"Western Parsley",
+				"Sweet Mushroom"
+			],
+			"seafood":[
+				"Snake Salmon",
+				"Horseshoe Crab",
+				"Octofest"
+			],
+			"grain":[
+				"Sweetbug",
+				"Warwheat"
+			],
+			"oil":[
+				"Fruity Jam"
+			],
+			"dairy":[
+				"Buffalo Butter",
+				"Chili Cheese"
+			],
+			"liquor":[
+				"Spicepop"
+			],
+			"combos":[
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"orange-icon meat-icon\"></span>Meat","r":"Health +20"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Attack Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +25"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Stamina -25"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Attack Up Large"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Health +10"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Health +10"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health -20"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Defense Up Small"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Stamina -25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health +30"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +10, Attack Up Small"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Defense Up Large"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health -20"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Stamina -25"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina +25, Defense Up Small"},
+				{"i":"<span class=\"blue-icon barrel-icon\"></span>Liquor + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"}
+			]
+		},
+		{
+			"name":"<span class=\"yellow-icon ticket-icon\"></span>Queen Room",
+			"meat":[
+				"White Liver",
+				"Great Mutton",
+				"Dragon Foot",
+				"Wild Wonton"
+			],
+			"vegetable":[
+				"Pinespice",
+				"Cannon Lettuce",
+				"Rare Onion"
+			],
+			"seafood":[
+				"Tortoiseshell",
+				"King Squid",
+				"Queen Shrimp"
+			],
+			"grain":[
+				"Megabagel"
+			],
+			"oil":[
+				"Powerlard",
+				"Seafood Jam"
+			],
+			"dairy":[
+				"Sirloin Egg"
+			],
+			"liquor":[
+				"Panish"
+			],
+			"combos":[
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"orange-icon meat-icon\"></span>Meat","r":"Health +30"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Attack Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10, Defense Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Attack Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health 40"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health -40"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Health +10, Stamina +25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +50"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +40"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Stamina +50"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +25, Defense Up Small"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Defense Up Small"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina -25"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"-"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Stamina +50"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Attack Up Small, Defense Up Small"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Attack Up Small"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina -50"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +20"},
+				{"i":"<span class=\"blue-icon barrel-icon\"></span>Liquor + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"}
+			]
+		},
+		{
+			"name":"<span class=\"red-icon ticket-icon\"></span>King Room",
+			"meat":[
+				"Dragon Tail",
+				"Bigmeat",
+				"Dragon Head",
+				"King Turkey"
+			],
+			"vegetable":[
+				"King Truffle",
+				"Rare Onion",
+				"Fatty Tomato"
+			],
+			"seafood":[
+				"Queen Shrimp",
+				"Foie Grande",
+				"Pink Caviar"
+			],
+			"grain":[
+				"Gold Rice",
+				"Pearlnut"
+			],
+			"oil":[
+				"Lifejam"
+			],
+			"dairy":[
+				"Royale Cheese"
+			],
+			"liquor":[
+				"Blessed Wine"
+			],
+			"combos":[
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"orange-icon meat-icon\"></span>Meat","r":"Health +30"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Attack Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +30, Stamina +25"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Attack Up Large"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Stamina +50"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Stamina +25, Defense Up Small"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +50, Attack Up Large"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Stamina +25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Defense Up Large"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +25"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10, Stamina +25"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Stamina +50"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Stamina +50, Defense Up Small"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"red-icon fish-icon\"></span>Seafood + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Stamina +50, Defense Up Large"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"Defense Up Small"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Health +50, Stamina +25"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"yellow-icon herb-icon\"></span>Grain + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health -50"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"purple-icon powder-icon\"></span>Oil","r":"none"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Stamina -50"},
+				{"i":"<span class=\"purple-icon powder-icon\"></span>Oil + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"white-icon jar-icon\"></span>Dairy","r":"none"},
+				{"i":"<span class=\"white-icon jar-icon\"></span>Dairy + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health +50, Stamina +50"},
+				{"i":"<span class=\"blue-icon barrel-icon\"></span>Liquor + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"none"}
+			]
+		}
+	]
 }

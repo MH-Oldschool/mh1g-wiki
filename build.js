@@ -294,4 +294,4 @@ buildPage("armor_skills");
 buildPage("items");
 buildPage("quests", ["quest"]);
 buildPage("maps");
-buildPage("miscellany");
+buildPage("miscellany", ["hotel_room"]);

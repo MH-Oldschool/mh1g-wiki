@@ -1,0 +1,74 @@
+<details>
+	<summary>{{{name}}}</summary>
+
+	<div class="flex-container">
+		<table class="column">
+			<caption>Ingredients</caption>
+
+			<tbody>
+				<tr title="Meat">
+					<td>
+						<span class="orange-icon meat-icon"></span><b>Meat: </b>
+						{{#meat}}<span class="comma-separated">{{.}}</span>{{/meat}}
+					</td>
+				</tr>
+				<tr title="Vegetable">
+					<td>
+						<span class="green-icon seed-icon"></span><b>Vegetable: </b>
+						{{#vegetable}}<span class="comma-separated">{{.}}</span>{{/vegetable}}
+					</td>
+				</tr>
+				<tr title="Seafood">
+					<td>
+						<span class="red-icon fish-icon"></span><b>Seafood: </b>
+						{{#seafood}}<span class="comma-separated">{{.}}</span>{{/seafood}}
+					</td>
+				</tr>
+				<tr title="Grain">
+					<td>
+						<span class="yellow-icon herb-icon"></span><b>Grain: </b>
+						{{#grain}}<span class="comma-separated">{{.}}</span>{{/grain}}
+					</td>
+				</tr>
+				<tr title="Oil">
+					<td>
+						<span class="purple-icon powder-icon"></span><b>Oil: </b>
+						{{#oil}}<span class="comma-separated">{{.}}</span>{{/oil}}
+					</td>
+				</tr>
+				<tr title="Dairy">
+					<td>
+						<span class="white-icon jar-icon"></span><b>Dairy: </b>
+						{{#dairy}}<span class="comma-separated">{{.}}</span>{{/dairy}}
+					</td>
+				</tr>
+				<tr title="Liquor">
+					<td>
+						<span class="blue-icon barrel-icon"></span><b>Liquor: </b>
+						{{#liquor}}<span class="comma-separated">{{.}}</span>{{/liquor}}
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="column">
+			<caption>Meals</caption>
+
+			<thead>
+				<tr>
+					<th>Ingredients</th>
+					<th>Result</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				{{#combos}}
+					<tr>
+						<td>{{{i}}}</td>
+						<td>{{r}}</td>
+					</tr>
+				{{/combos}}
+			</tbody>
+		</table>
+	</div>
+</details>

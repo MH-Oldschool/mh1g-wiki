@@ -1,7 +1,7 @@
 {{>head }}
 
-<article>
-	<details class="column-left" open>
+<article class="flex-container">
+	<details class="column" open>
 		<summary>
 			<span class="blue-icon book-icon"></span> Hunter Ranks
 		</summary>
@@ -36,7 +36,7 @@
 		</table>
 	</details>
 
-	<details class="column-right">
+	<details class="column">
 		<summary>
 			<span class="white-icon binoculars-icon"></span> Unlockable Quests and Movies
 		</summary>
@@ -102,7 +102,7 @@
 		</table>
 	</details>
 
-	<details class="column-left">
+	<details class="column">
 		<summary>
 			<span class="red-icon sns-icon"></span> The Hero&#8217;s Blade
 		</summary>
@@ -115,7 +115,7 @@
 		</p>
 	</details>
 
-	<details class="column-right">
+	<details class="column">
 		<summary>
 			<span class="yellow-icon ticket-icon"></span> Online Tickets
 		</summary>
@@ -131,7 +131,17 @@
 		</p>
 	</details>
 
-	<details>
+	<details class="full-width">
+		<summary>
+			<span class="orange-icon meat-icon"></span> Dining
+		</summary>
+
+		{{#diningRooms}}
+			{{>hotel_room }}
+		{{/diningRooms}}
+	</details>
+
+	<details class="full-width">
 		<summary>
 			<span class="white-icon mystery-icon"></span> Fatalis
 		</summary>
