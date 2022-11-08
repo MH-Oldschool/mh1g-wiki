@@ -667,7 +667,13 @@ ready(() => {
 				if (hasStatus && getMHVersion() == "g" && specialAttack.checked) {
 					attribute *= SPECIAL_ATTACK_MOD;
 				}
-				trueAttribute = getSharpnessModifier("attribute") * attribute / 10;
+
+				trueAttribute = attribute / 10;
+
+				// Sharpness doesn't affect attribute in MH1J, whoops!
+				if (getMHVersion() == "g" && hasElement) {
+					trueAttribute *= getSharpnessModifier("attribute");
+				}
 			}
 
 			if (hasElement) {
