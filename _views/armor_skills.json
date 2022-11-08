@@ -339,7 +339,7 @@
 			"stages":[
 				{ "points":"+10", "name": "Swordsmanship" }
 			],
-			"desc":"The hunter always follows through with their melee attacks, no longer rebounding on tough monster parts."
+			"desc":"The hunter can make due with even the dullest weapons.<span class=\"details\"> At all sharpness levels, you deal full damage during all parts of your weapon's attack. Normally, at yellow sharpness and below, the beginning of the attack suffers a large attack penalty.</span>"
 		},
 		{
 			"name":"Fate",
