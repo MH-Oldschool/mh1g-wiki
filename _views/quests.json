@@ -86,6 +86,21 @@
 						],
 						"rewards":[{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Worm","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":15,"name":"Herb","quantity":1},{"percent":5,"name":"Honey","quantity":1},{"percent":5,"name":"Kut-Ku Scale","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Your First Monster Hunt!","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay 3 Velociprey","urgentQuest":true,"reward":"200z","fee":"100z","time":"40′","penalty":"70z",
+						"client":"Requestor: Village Guard","details":"HELP! The children are being attacked by small, blue monsters called Velociprey! 3 of the beasts are outside! Do something!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Normal S Lv1","quantity":1},
+							{"name":"Binoculars","quantity":1}
+						],
+						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":"4"},{"percent":25,"name":"Velociprey Hide","quantity":1},{"percent":4,"name":"Velociprey Fang","quantity":"8"},{"percent":1,"name":"Velociprey Fang","quantity":12}],
+						"note":"-Binoculars"
 					}
 				]
 			},
@@ -94,7 +109,7 @@
 				"quests":[
 					{
 						"name":"Your First Monster Hunt!","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay 3 Velociprey","urgent":true,"reward":"200z","fee":"100z","time":"40′","penalty":"70z",
+						"goal":"Slay 3 Velociprey","reward":"200z","fee":"100z","time":"40′","penalty":"70z",
 						"client":"Requestor: Village Guard","details":"HELP! The children are being attacked by small, blue monsters called Velociprey! 3 of the beasts are outside! Do something!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -159,7 +174,7 @@
 						"note":""
 					},
 					{
-						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 1 Wyvern Egg","key":true,"reward":"350z","fee":"100z","time":"50′","penalty":"150z",
 						"client":"Requestor: Local Doctor","details":"One of the village people has fallen ill. I need a Wyvern Egg to cure them. Please sneak into a nest and get an egg for me!",
 						"supplies":[
@@ -173,6 +188,26 @@
 						],
 						"rewards":[{"percent":15,"name":"Kut-Ku Scale","quantity":1},{"percent":25,"name":"Herb","quantity":1},{"percent":35,"name":"Sap Plant","quantity":1},{"percent":2,"name":"Paintberry","quantity":1},{"percent":4,"name":"Nutrients","quantity":1},{"percent":1,"name":"Egg Ticket","quantity":1}],
 						"note":"-Binoculars"
+					},
+					{
+						"name":"The Formidable Velocidrome!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay 1 Velocidrome","urgentQuest":true,"reward":"400z","fee":"150z","time":"50′","penalty":"140z",
+						"client":"Requestor: Young Guardsman","details":"After you killed those Velociprey, their leader showed up! It's bigger, and it has an orange crest. Find it and kill it!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Flash Bomb","quantity":2},
+							{"name":"Flash Bomb","quantity":2},
+							{"name":"Sm Barrel-Bomb","quantity":2},
+							{"name":"Large Barrel","quantity":1},
+							{"name":"Normal S Lv1","quantity":1},
+							{"name":"Binoculars","quantity":1}
+						],
+						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"8"},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"8"},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
+						"note":"-Binoculars"
 					}
 				]
 			},
@@ -181,7 +216,7 @@
 				"quests":[
 					{
 						"name":"The Formidable Velocidrome!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay 1 Velocidrome","urgent":true,"reward":"400z","fee":"150z","time":"50′","penalty":"140z",
+						"goal":"Slay 1 Velocidrome","reward":"400z","fee":"150z","time":"50′","penalty":"140z",
 						"client":"Requestor: Young Guardsman","details":"After you killed those Velociprey, their leader showed up! It's bigger, and it has an orange crest. Find it and kill it!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -234,7 +269,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Find the Wyvern Eggs!","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Find the Wyvern Eggs!","hrp":0,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 2 Wyvern Eggs","reward":"800z","fee":"200z","time":"30′","penalty":"300z",
 						"client":"Requestor: Local Doctor","details":"One of the village people has fallen ill. With 2 Wyvern Eggs I could make a remedy. Please get me 2 eggs from a wyvern's nest!",
 						"supplies":[
@@ -289,7 +324,7 @@
 						"intOnly": true
 					},
 					{
-						"name":"Velocidrome Redux!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Velocidrome Redux!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 2 Velocidrome","reward":"600z","fee":"220z","time":"30′","penalty":"200z",
 						"client":"Requestor: Young Guardsman","details":"Another Velocidrome has shown up. Please take care of it for me. Wyverns have also been sighted nearby, so be very careful.",
 						"supplies":[
@@ -367,6 +402,25 @@
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Screamer","quantity":"3"},{"percent":4,"name":"Kut-Ku Scale","quantity":"4"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":"-Binoculars"
+					},
+					{
+						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":0,"type":"hunt","area":"Desert",
+						"goal":"Slay the Cephadrome","urgentQuest":true,"reward":"1200z","fee":"250z","time":"50′","penalty":"400z",
+						"client":"Requestor: Oasis Town Chief","details":"Our pack-animals were eaten by something in the desert. But nobody actually saw the monsters attack! Find and slay the alpha monster!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Paintball","quantity":2},
+							{"name":"Huskberry","quantity":10},
+							{"name":"Sonic Bomb","quantity":2},
+							{"name":"Cool Drink","quantity":1},
+							{"name":"Cool Drink","quantity":1}
+						],
+						"rewards":[{"percent":1,"name":"Lg Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Piscine Fang","quantity":1},{"percent":15,"name":"Piscine Jaw","quantity":1},{"percent":4,"name":"Burst Arrowana","quantity":"5"},{"percent":1,"name":"Bomb Arrowana","quantity":"2"}],
+						"note":""
 					}
 				]
 			},
@@ -375,7 +429,7 @@
 				"quests":[
 					{
 						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":0,"type":"hunt","area":"Desert",
-						"goal":"Slay the Cephadrome","urgent":true,"reward":"1200z","fee":"250z","time":"50′","penalty":"400z",
+						"goal":"Slay the Cephadrome","reward":"1200z","fee":"250z","time":"50′","penalty":"400z",
 						"client":"Requestor: Oasis Town Chief","details":"Our pack-animals were eaten by something in the desert. But nobody actually saw the monsters attack! Find and slay the alpha monster!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -393,7 +447,7 @@
 						"note":""
 					},
 					{
-						"name":"Mushroom Delivery!","icon":"white-icon mushroom-icon","hrp":0,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"Mushroom Delivery!","icon":"white-icon mushroom-icon","hrp":0,"type":"gather","monsters":"Gypceros","area":"Jungle",
 						"goal":"Deliver 10 Special Mushrooms","reward":"400z","fee":"200z","time":"40′","penalty":"140z",
 						"client":"The Lady Gourmet","details":"I have a dog and his favorite food are mushrooms. I want you to look for 10 of those &#8220;Special Mushrooms&#8221;. Yeah, for my cute dog!",
 						"supplies":[
@@ -428,7 +482,7 @@
 						"note":""
 					},
 					{
-						"name":"Find the Wyvern Eggs!","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Find the Wyvern Eggs!","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 2 Wyvern Eggs","reward":"800z","fee":"200z","time":"30′","penalty":"300z",
 						"client":"Requestor: Local Doctor","details":"One of the village people has fallen ill. With 2 Wyvern Eggs I could make a remedy. Please get me 2 eggs from a wyvern's nest!",
 						"supplies":[
@@ -445,7 +499,7 @@
 						"note":"[3 Int]"
 					},
 					{
-						"name":"Attack of the Giant Bugs!","icon":"monster-icon monster-vespoid","hrp":0,"type":"hunt","monster":"Plesioth","area":"Jungle",
+						"name":"Attack of the Giant Bugs!","icon":"monster-icon monster-vespoid","hrp":0,"type":"hunt","monsters":"Plesioth","area":"Jungle",
 						"goal":"Slay 30 Vespoid","key":true,"reward":"400z","fee":"300z","time":"50′","penalty":"140z",
 						"client":"Requestor: Jungle Envoy","details":"My village is under attack by a swarm of 30 bug monsters. Please help! They're weak individually, but formidable in a group!",
 						"supplies":[
@@ -462,7 +516,7 @@
 						"note":"[JP: Hornetaur Wing reward instead of Vespoid Shell]"
 					},
 					{
-						"name":"Slay the Velociprey Pack!","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Slay the Velociprey Pack!","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 20 Velociprey","reward":"500z","fee":"200z","time":"20′","penalty":"170z",
 						"client":"Requestor: Proud Farmer","details":"I had you kill those 10 Velociprey, but now they're back! There's 20 of them this time. Please take care of it for me, hunter!",
 						"supplies":[
@@ -479,7 +533,7 @@
 						"note":""
 					},
 					{
-						"name":"Velocidrome Redux!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Velocidrome Redux!","icon":"monster-icon monster-velocidrome","hrp":0,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 2 Velocidrome","reward":"600z","fee":"220z","time":"30′","penalty":"200z",
 						"client":"Requestor: Young Guardsman","details":"Another Velocidrome has shown up. Please take care of it for me. Wyverns have also been sighted nearby, so be very careful.",
 						"supplies":[
@@ -533,7 +587,7 @@
 						"intOnly": true
 					},
 					{
-						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","monster":"Cephadrome","area":"Swamp",
+						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","monsters":"Cephadrome","area":"Swamp",
 						"goal":"Slay 2 Gendrome","key":true,"reward":"800z","fee":"250z","time":"50′","penalty":"270z",
 						"client":"Requestor: Ambitious Noble","details":"My caravans are being hit by Genprey. 2 Gendrome are leading the pack. Kill them and make the roads safe again for all!",
 						"supplies":[
@@ -569,7 +623,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":0,"type":"hunt","monster":"Yian Kut-Ku","area":"Jungle",
+						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":0,"type":"hunt","monsters":"Yian Kut-Ku","area":"Jungle",
 						"goal":"Slay 20 Ioprey","reward":"700z","fee":"220z","time":"50′","penalty":"250z",
 						"client":"Requestor: Mine Owner","details":"We encountered a huge Ioprey nest in a deep tunnel! We can't continue working unless you kill 20 of them for us!",
 						"supplies":[
@@ -648,6 +702,29 @@
 						],
 						"rewards":[{"percent":7,"name":"Flame Sac","quantity":1},{"percent":5,"name":"Wyvern Claw","quantity":"5"},{"percent":5,"name":"Screamer","quantity":"5"},{"percent":5,"name":"Sm Monster Bone","quantity":1},{"percent":5,"name":"Med Monster Bone","quantity":1},{"percent":5,"name":"Lg Monster Bone","quantity":1},{"percent":2,"name":"Kut-Ku Scale","quantity":1},{"percent":2,"name":"Kut-Ku Shell","quantity":1},{"percent":2,"name":"Kut-Ku Webbing","quantity":1},{"percent":6,"name":"Kut-Ku Ear","quantity":1},{"percent":2,"name":"Giant Beak","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Attack of the Rathalos","icon":"monster-icon monster-rathalos","hrp":0,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"2250z","fee":"500z","time":"50′","penalty":"800z",
+						"client":"Requestor: Proud Soldier","details":"It cannot be... But.. My entire warband was wiped out by a wyvern. Now all rests upon your shoulders, monster hunter! Slay it!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Paintball","quantity":2},
+							{"name":"Flash Bomb","quantity":2},
+							{"name":"Huskberry","quantity":10},
+							{"name":"Sm Barrel-Bomb","quantity":2},
+							{"name":"Large Barrel","quantity":1},
+							{"name":"Smoke Bomb","quantity":2},
+							{"name":"Normal S Lv1","quantity":1},
+							{"name":"Normal S Lv2","quantity":10},
+							{"name":"Binoculars","quantity":1}
+						],
+						"rewards":[{"percent":5,"name":"Rathalos Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Rathalos Webbing","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"note":"-Binoculars"
 					}
 				]
 			},
@@ -690,7 +767,7 @@
 					},
 					{
 						"name":"Attack of the Rathalos","icon":"monster-icon monster-rathalos","hrp":0,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay the Rathalos","urgent":true,"reward":"2250z","fee":"500z","time":"50′","penalty":"800z",
+						"goal":"Slay the Rathalos","reward":"2250z","fee":"500z","time":"50′","penalty":"800z",
 						"client":"Requestor: Proud Soldier","details":"It cannot be... But.. My entire warband was wiped out by a wyvern. Now all rests upon your shoulders, monster hunter! Slay it!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -712,7 +789,7 @@
 						"note":"-Binoculars"
 					},
 					{
-						"name":"Deliver Three Wyvern Eggs","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Deliver Three Wyvern Eggs","icon":"yellow-icon egg-icon","hrp":0,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"2000z","fee":"250z","time":"30′","penalty":"700z",
 						"client":"Requestor: The Lady Gourmet","details":"I travel the world for new tastes and flavors. Now I want to try the egg of a wyvern. Please bring me 3 Wyvern Eggs!",
 						"supplies":[
@@ -764,7 +841,7 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Gendrome Redux!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","monster":"Cephadrome","area":"Desert",
+						"name":"Gendrome Redux!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","monsters":"Cephadrome","area":"Desert",
 						"goal":"Slay 3 Gendrome","key":true,"reward":"1100z","fee":"300z","time":"50′","penalty":"500z",
 						"client":"Requestor: Desert Lord","details":"A pack of monsters led by 3 Gendrome is causing trouble for us. Please hunt down and slay the 3 Gendrome.",
 						"supplies":[
@@ -928,7 +1005,7 @@
 					},
 					{
 						"name":"Horn of the Monoblos","icon":"monster-icon monster-monoblos","hrp":0,"type":"hunt","area":"Desert",
-						"goal":"Slay the Monoblos","urgent":true,"reward":"3400z","fee":"800z","time":"50′","penalty":"1200z",
+						"goal":"Slay the Monoblos","urgentQuest":true,"reward":"3400z","fee":"800z","time":"50′","penalty":"1200z",
 						"client":"Requestor: Royal Envoy","details":"Rumor has it the hunters here are among the best. A Monoblos has laid our soldiers low. Now we need your help. Slay it for us!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -1013,7 +1090,7 @@
 						"note":"[JP: ur5-Clear Basarios Urgent.]"
 					},
 					{
-						"name":"Handle With Care!","icon":"red-icon stone-icon","type":"gather","monster":"Gravios","area":"Volcano",
+						"name":"Handle With Care!","icon":"red-icon stone-icon","type":"gather","monsters":"Gravios","area":"Volcano",
 						"goal":"Deliver 1 Powderstone","reward":"3000z","fee":"500z","time":"50′","penalty":"1000z",
 						"client":"Requestor: Royal Armorer","details":"We need large amounts of explosive to make Bowgun ammo. I want you to bring 1 Powderstone here to me. And be careful about it!",
 						"supplies":[
@@ -1060,7 +1137,7 @@
 				"stars": 1, "ranks": "1-5",
 				"quests":[
 					{
-						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":40,"type":"gather","monster":"Gypceros","area":"Forest and Hills",
+						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":40,"type":"gather","monsters":"Gypceros","area":"Forest and Hills",
 						"goal":"Deliver 10 pcs Raw Meat","reward":"400z","fee":"0z","time":"50′","penalty":"140z",
 						"client":"Requestor: Party Organizer","details":"We're throwing a party at his lordship's home, but didn't order enough food! Can you bring us 10 pieces of Raw Meat right away?",
 						"supplies":[
@@ -1090,7 +1167,7 @@
 						"note":""
 					},
 					{
-						"name":"Show me your Cooking Skills!","icon":"orange-icon meat-icon","hrp":50,"type":"gather","monster":"Yian Kut-Ku","area":"Jungle",
+						"name":"Show me your Cooking Skills!","icon":"orange-icon meat-icon","hrp":50,"type":"gather","monsters":"Yian Kut-Ku","area":"Jungle",
 						"goal":"Deliver 15 Well-Done Steaks","reward":"800z","fee":"100z","time":"50′","penalty":"270z",
 						"client":"Requestor: Jungle Explorer","details":"Our expedition got lost. I made it out, but the team is totally out of supplies! Please deliver 15 Well-Done Steaks for them!",
 						"supplies":[
@@ -1113,7 +1190,7 @@
 						"note":""
 					},
 					{
-						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":40,"type":"gather","monster":"Gypceros","area":"Forest and Hills",
+						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":40,"type":"gather","monsters":"Gypceros","area":"Forest and Hills",
 						"goal":"Deliver 15 Special Mushrooms","reward":"600z","fee":"0z","time":"50′","penalty":"200z",
 						"client":"Requestor: Happy Peddler","details":"The Special Mushrooms around here sell for a fortune down south! I'd like you to pick 15 of them from the forest. I pay well. Whaddya say?",
 						"supplies":[
@@ -1143,7 +1220,7 @@
 						"note":""
 					},
 					{
-						"name":"The Mushroom Hunt!","icon":"white-icon mushroom-icon","hrp":55,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"The Mushroom Hunt!","icon":"white-icon mushroom-icon","hrp":55,"type":"gather","monsters":"Gypceros","area":"Jungle",
 						"goal":"Deliver 20 Special Mushrooms","key":true,"reward":"800z","fee":"100z","time":"50′","penalty":"270z",
 						"client":"Requestor: The Lady Gourmet","details":"My doggie just looooves Special Mushrooms! I'd like you to bring me 20 of them. Please don't disappoint my precious little doggie!",
 						"supplies":[
@@ -1173,7 +1250,7 @@
 						"note":""
 					},
 					{
-						"name":"The Sculptor's Errand","icon":"blue-icon claw-icon","hrp":80,"type":"gather","monster":"Yian Kut-Ku","area":"Forest and Hills",
+						"name":"The Sculptor's Errand","icon":"blue-icon claw-icon","hrp":80,"type":"gather","monsters":"Yian Kut-Ku","area":"Forest and Hills",
 						"goal":"Deliver 12 Kelbi Horns","key":true,"reward":"800z","fee":"100z","time":"50′","penalty":"270z",
 						"client":"Requestor: The Old Sculptor","details":"I make art using monster tusks and horns. Can you get me 12 Kelbi Horns? They're those deer-like monsters in the forest.",
 						"supplies":[
@@ -1203,7 +1280,7 @@
 						"note":""
 					},
 					{
-						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":160,"type":"gather","monster":"Rathian","area":"Swamp",
+						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":160,"type":"gather","monsters":"Rathian","area":"Swamp",
 						"goal":"Deliver 5 Goldenfish","reward":"3000z","fee":"100z","time":"50′","penalty":"1000z",
 						"client":"Requestor: The Collector","details":"I'd do anything to get my hands on some legendary Goldenfish! I'm begging you to bring me 5 of them! Please!",
 						"supplies":[
@@ -1232,7 +1309,7 @@
 						"note":""
 					},
 					{
-						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":120,"type":"gather","monster":"Gypc,LeftCave-A11","area":"Swamp",
+						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":120,"type":"gather","monsters":"Gypc,LeftCave-A11","area":"Swamp",
 						"goal":"Deliver 3 pcs Sootstone Ore","key":true,"reward":"2400z","fee":"200z","time":"50′","penalty":"800z",
 						"client":"Requestor: Gem Dealer","details":"I heard a rumor that a vein of Sootstone has been discovered. To confirm it, I want you to obtain 3 pieces of Sootstone Ore.",
 						"supplies":[
@@ -1263,7 +1340,7 @@
 						"note":""
 					},
 					{
-						"name":"The Lady Gourmet","icon":"yellow-icon creature-icon","hrp":160,"type":"gather","monster":"Plesioth","area":"Desert",
+						"name":"The Lady Gourmet","icon":"yellow-icon creature-icon","hrp":160,"type":"gather","monsters":"Plesioth","area":"Desert",
 						"goal":"Deliver 10 Piscine Livers","reward":"1600z","fee":"100z","time":"50′","penalty":"540z",
 						"client":"Requestor: The Lady Gourmet","details":"I travel the world for new tastes and flavors. Now I want to try the liver of a Piscine Wyvern. Please bring me 10 of these livers!",
 						"supplies":[
@@ -1296,7 +1373,7 @@
 						"note":""
 					},
 					{
-						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":100,"type":"hunt","monster":"Plesioth","area":"Jungle",
+						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":100,"type":"hunt","monsters":"Plesioth","area":"Jungle",
 						"goal":"Slay 50 Vespoid","reward":"1200z","fee":"100z","time":"50′","penalty":"400z",
 						"client":"Requestor: Landowner","details":"My plantation's under attack by giant bugs! They nest in the jungle, in a swarm of about 50. Take care of them for me!",
 						"supplies":[
@@ -1326,7 +1403,7 @@
 						"note":"[{percent: 4,name: Vespoid Shell,quantity: 1},{percent: 4,name: Vespoid Wing,quantity: 1},{percent: 12,name: Monster Fluid,quantity: 1},{percent: 5,name: Thunderbug,quantity: 1},{percent: 2,name: Monster Fluid,quantity: 2},{percent: 1,name: Thunderbug,quantity: 2}]"
 					},
 					{
-						"name":"Velociprey Hunt","icon":"monster-icon monster-velociprey","hrp":100,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Velociprey Hunt","icon":"monster-icon monster-velociprey","hrp":100,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 20 Velociprey","key":true,"reward":"1000z","fee":"100z","time":"50′","penalty":"340z",
 						"client":"Requestor: Town Guard","details":"There's a group of 20 or so Velociprey in the forest attacking travelers. I want you to hunt them down and get rid of them. ",
 						"supplies":[
@@ -1356,7 +1433,7 @@
 						"note":""
 					},
 					{
-						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":120,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":120,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 3 Velocidrome","reward":"1800z","fee":"100z","time":"50′","penalty":"600z",
 						"client":"Requestor: Town Guard","details":"There are 3 alpha Velociprey that seem to be guiding the rest. They're too large for us to handle. Can you get rid of them?",
 						"supplies":[
@@ -1446,6 +1523,37 @@
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Screamer","quantity":"3"},{"percent":4,"name":"Kut-Ku Scale","quantity":"4"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":260,"type":"hunt","area":"Jungle",
+						"goal":"Slay the Gypceros","urgentQuest":true,"reward":"3000z","fee":"250z","time":"50′","penalty":"1000z",
+						"client":"Requestor: Guarded Merchant","details":"I saw a gigantic bird-like monster deep in the jungle! I can't do business with a thing like that in there! Please find it and kill it!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Paintball","quantity":1},
+							{"name":"Paintball","quantity":1},
+							{"name":"Huskberry","quantity":10},
+							{"name":"Sm Barrel-Bomb","quantity":2},
+							{"name":"Large Barrel","quantity":1},
+							{"name":"Normal S Lv2","quantity":10},
+							{"name":"Stun S Lv1","quantity":5},
+							{"name":"Recov S Lv1","quantity":5}
+						],
+						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Wyvern Fang","quantity":"3"},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":4,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Lightcrystal","quantity":1}],
+						"note":""
 					}
 				]
 			},
@@ -1454,7 +1562,7 @@
 				"quests":[
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":260,"type":"hunt","area":"Jungle",
-						"goal":"Slay the Gypceros","urgent":true,"reward":"3000z","fee":"250z","time":"50′","penalty":"1000z",
+						"goal":"Slay the Gypceros","reward":"3000z","fee":"250z","time":"50′","penalty":"1000z",
 						"client":"Requestor: Guarded Merchant","details":"I saw a gigantic bird-like monster deep in the jungle! I can't do business with a thing like that in there! Please find it and kill it!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -1484,7 +1592,7 @@
 						"note":""
 					},
 					{
-						"name":"More Coal Please","icon":"gray-icon stone-icon","hrp":90,"type":"gather","monster":"Khez","area":"Jungle",
+						"name":"More Coal Please","icon":"gray-icon stone-icon","hrp":90,"type":"gather","monsters":"Khez","area":"Jungle",
 						"goal":"Deliver 15 pcs Coal","key":true,"reward":"1400z","fee":"100z","time":"50′","penalty":"470z",
 						"client":"Requestor: Fort Guard","details":"We need Coal to power our spear cannon. It can be found in the jungle. The more fuel the better, so please bring us 15 pieces!",
 						"supplies":[
@@ -1515,7 +1623,7 @@
 						"note":""
 					},
 					{
-						"name":"Re-Supply the Dragonator","icon":"gray-icon stone-icon","hrp":90,"type":"gather","monster":"Gravios","area":"Volcano",
+						"name":"Re-Supply the Dragonator","icon":"gray-icon stone-icon","hrp":90,"type":"gather","monsters":"Gravios","area":"Volcano",
 						"goal":"Deliver 15 pcs Coal","reward":"1400z","fee":"100z","time":"50′","penalty":"470z",
 						"client":"Requestor: Fort Guard","details":"We have installed a steam- powered spear cannon to repel monsters, but we need Coal to power it! Please bring us 15 pieces of it.",
 						"supplies":[
@@ -1547,7 +1655,7 @@
 						"note":""
 					},
 					{
-						"name":"Get me Sootstone Ore!","icon":"white-icon stone-icon","hrp":140,"type":"gather","monster":"Basa,TopCave-A7","area":"Swamp",
+						"name":"Get me Sootstone Ore!","icon":"white-icon stone-icon","hrp":140,"type":"gather","monsters":"Basa,TopCave-A7","area":"Swamp",
 						"goal":"Deliver 3 pcs Sootstone Ore","reward":"2800z","fee":"200z","time":"50′","penalty":"940z",
 						"client":"Requestor: Greedy Merchant","details":"I never get sick of gems! I hear that Sootstone Ore can be found around here. Bring 3 pieces of it to me for a hefty reward.",
 						"supplies":[
@@ -1578,7 +1686,7 @@
 						"note":""
 					},
 					{
-						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":140,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":140,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"2800z","fee":"180z","time":"50′","penalty":"940z",
 						"client":"Requestor: Royal Chef","details":"Ever eaten a Wyvern Egg? They're a delicacy only found inside wyvern nests. Bring me 3 of the eggs, and I'll pay you handsomely.",
 						"supplies":[
@@ -1608,7 +1716,7 @@
 						"note":""
 					},
 					{
-						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":150,"type":"gather","monster":"Diablos","area":"Desert",
+						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":150,"type":"gather","monsters":"Diablos","area":"Desert",
 						"goal":"Deliver 3 Herbivore Eggs","reward":"3200z","fee":"180z","time":"50′","penalty":"1070z",
 						"client":"Requestor: Famous Scholar","details":"I am studying the ecology of the Apceros. I need 3 eggs for my research, but I am too weak to get them! Can you bring them to me?",
 						"supplies":[
@@ -1640,7 +1748,7 @@
 						"note":""
 					},
 					{
-						"name":"Trouble in the Swamp","icon":"monster-icon monster-bullfango","hrp":100,"type":"hunt","monster":"Gypceros","area":"Swamp",
+						"name":"Trouble in the Swamp","icon":"monster-icon monster-bullfango","hrp":100,"type":"hunt","monsters":"Gypceros","area":"Swamp",
 						"goal":"Slay 15 Bullfango","key":true,"reward":"1200z","fee":"150z","time":"50′","penalty":"400z",
 						"client":"Requestor: Swamp Miner","details":"The swamp animals have been unruly lately, especially the Bullfango. I've been asked to hunt down 15 of them. Can you help me out?",
 						"supplies":[
@@ -1670,7 +1778,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":140,"type":"hunt","monster":"Diablos","area":"Desert","penalty":"400z",
+						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":140,"type":"hunt","monsters":"Diablos","area":"Desert","penalty":"400z",
 						"goal":"Slay 20 Genprey","key":true,"reward":"1200z","fee":"100z","time":"50′",
 						"client":"Requestor: Injured Soldier","details":"I'm too injured to go on. I'd like you to find and kill 20 Genprey in the desert for me. Watch out, they can paralyze you...!",
 						"supplies":[
@@ -1702,7 +1810,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":170,"type":"hunt","monster":"Rathian","area":"Swamp","penalty":"670z",
+						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":170,"type":"hunt","monsters":"Rathian","area":"Swamp","penalty":"670z",
 						"goal":"Slay 3 Gendrome","reward":"2000z","fee":"150z","time":"50′",
 						"client":"Requestor: Ambitious Noble","details":"My caravans are being hit by Genprey. 3 Gendrome are leading the pack. Kill them and make the roads safe again for all!",
 						"supplies":[
@@ -1732,7 +1840,7 @@
 						"note":""
 					},
 					{
-						"name":"Leaders of the Genprey","icon":"monster-icon monster-gendrome","hrp":160,"type":"hunt","monster":"Cephadrome","area":"Desert","penalty":"740z",
+						"name":"Leaders of the Genprey","icon":"monster-icon monster-gendrome","hrp":160,"type":"hunt","monsters":"Cephadrome","area":"Desert","penalty":"740z",
 						"goal":"Slay 3 Gendrome","reward":"2200z","fee":"150z","time":"50′",
 						"client":"Requestor: Desert Lord","details":"3 Gendrome and their pack have long been menacing this area. Please destroy the Gendrome to disperse the pack for us!",
 						"supplies":[
@@ -1958,6 +2066,37 @@
 						],
 						"rewards":[{"percent":5,"name":"Rathian Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Flame Sac","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"4400z","fee":"180z","time":"50′","penalty":"1470z",
+						"client":"Requestor: The Kindly Lord","details":"I request the assistance of any and all hunters to find and destroy the Rathalos that has appeared near here. Reward offered.",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Paintball","quantity":1},
+							{"name":"Paintball","quantity":1},
+							{"name":"Huskberry","quantity":10},
+							{"name":"Sm Barrel-Bomb","quantity":2},
+							{"name":"Large Barrel","quantity":1},
+							{"name":"Normal S Lv2","quantity":10},
+							{"name":"Stun S Lv1","quantity":5},
+							{"name":"Recov S Lv1","quantity":5}
+						],
+						"rewards":[{"percent":5,"name":"Rathalos Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Rathalos Webbing","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"note":""
 					}
 				]
 			},
@@ -1966,7 +2105,7 @@
 				"quests":[
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay the Rathalos","urgent":true,"reward":"4400z","fee":"180z","time":"50′","penalty":"1470z",
+						"goal":"Slay the Rathalos","reward":"4400z","fee":"180z","time":"50′","penalty":"1470z",
 						"client":"Requestor: The Kindly Lord","details":"I request the assistance of any and all hunters to find and destroy the Rathalos that has appeared near here. Reward offered.",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -1996,7 +2135,7 @@
 						"note":""
 					},
 					{
-						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":170,"type":"gather","monster":"Rathian","area":"Jungle",
+						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":170,"type":"gather","monsters":"Rathian","area":"Jungle",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"3200z","fee":"200z","time":"50′","penalty":"1070z",
 						"client":"Requestor: Royal Chef","details":"Ever eaten a Wyvern Egg? I made a dish with them, and it was a big hit with everyone! I'd like you to deliver 3 of the eggs!",
 						"supplies":[
@@ -2026,7 +2165,7 @@
 						"note":""
 					},
 					{
-						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":160,"type":"gather","monster":"Gravios","area":"Volcano",
+						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":160,"type":"gather","monsters":"Gravios","area":"Volcano",
 						"goal":"Deliver 3 Powderstones","key":true,"reward":"3600z","fee":"260z","time":"50′","penalty":"1200z",
 						"client":"Requestor: Fort Guard","details":"We have a Great Cannon here for wyverns, but we need Powderstone to make ammo for it. Please deliver 3 Powderstones.",
 						"supplies":[
@@ -2058,7 +2197,7 @@
 						"note":"[JP: 160 HRP, INT: 450 HRP]"
 					},
 					{
-						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":160,"type":"hunt","monster":"Yian Kut-Ku","area":"Volcano",
+						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":160,"type":"hunt","monsters":"Yian Kut-Ku","area":"Volcano",
 						"goal":"Slay 20 Ioprey","key":true,"reward":"1400z","fee":"260z","time":"50′","penalty":"470z",
 						"client":"Requestor: Mine Owner","details":"We encountered a huge Ioprey nest in a deep tunnel! We can't continue working unless you kill 20 of them for us!",
 						"supplies":[
@@ -2090,7 +2229,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Iodrome!","icon":"monster-icon monster-iodrome","hrp":190,"type":"hunt","monster":"Plesioth","area":"Jungle",
+						"name":"Slay the Iodrome!","icon":"monster-icon monster-iodrome","hrp":190,"type":"hunt","monsters":"Plesioth","area":"Jungle",
 						"goal":"Slay 3 Iodrome","key":true,"reward":"2400z","fee":"200z","time":"50′","penalty":"800z",
 						"client":"Requestor: Jungle Master","details":"A pack of monsters headed by 3 Iodrome is causing trouble around here. Can you defeat the Iodrome to help us out?",
 						"supplies":[
@@ -2120,7 +2259,7 @@
 						"note":""
 					},
 					{
-						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":200,"type":"hunt","monster":"Yian Kut-Ku","area":"Volcano",
+						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":200,"type":"hunt","monsters":"Yian Kut-Ku","area":"Volcano",
 						"goal":"Slay 3 Iodrome","reward":"2600z","fee":"260z","time":"50′","penalty":"870z",
 						"client":"Requestor: Expert Hunter","details":"I've been fighting Iodrome, but I had to retreat with just 3 of them left! The credit's yours if you can take them out for me.",
 						"supplies":[
@@ -2648,8 +2787,8 @@
 						"note":""
 					},
 					{
-						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1000,"type":"hunt","health":"26666","area":"Fort","urgent":true,
-						"goal":"Repel Lao-Shan Lung","urgent":true,"reward":"12400z","fee":"1580z","time":"35′","penalty":"4200z",
+						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1000,"type":"hunt","health":"26666","area":"Fort",
+						"urgentQuest":true,"goal":"Repel Lao-Shan Lung","reward":"12400z","fee":"1580z","time":"35′","penalty":"4200z",
 						"client":"Requestor: Loyal Minister","details":"A giant dragon has attacked our fort! If it falls, so too do our lands! Use the fort's weaponry to put an end to the beast!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -2686,7 +2825,7 @@
 				"stars": 4, "ranks": "13-15",
 				"quests":[
 					{
-						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":100,"type":"gather","monster":"Gypceros","area":"Forest and Hills",
+						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":100,"type":"gather","monsters":"Gypceros","area":"Forest and Hills",
 						"goal":"Deliver 10 pcs Raw Meat","reward":"800z","fee":"200z","time":"30′","penalty":"270z",
 						"client":"Requestor: Party Organizer","details":"We're throwing a party at his lordship's home, but didn't order enough food! Can you bring us 10 pieces of Raw Meat right away?",
 						"supplies":[
@@ -2705,7 +2844,7 @@
 						"note":""
 					},
 					{
-						"name":"Show me your Cooking Skills!","icon":"orange-icon meat-icon","hrp":130,"type":"gather","monster":"Yian Kut-Ku","area":"Jungle",
+						"name":"Show me your Cooking Skills!","icon":"orange-icon meat-icon","hrp":130,"type":"gather","monsters":"Yian Kut-Ku","area":"Jungle",
 						"goal":"Deliver 15 Well-Done Steaks","reward":"1200z","fee":"200z","time":"30′","penalty":"400z",
 						"client":"Requestor: Jungle Explorer","details":"Our expedition got lost. I made it out, but the team is totally out of supplies! Please deliver 15 Well-Done Steaks for them!",
 						"supplies":[
@@ -2728,7 +2867,7 @@
 						"note":""
 					},
 					{
-						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":100,"type":"gather","monster":"Gypceros","area":"Forest and Hills",
+						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":100,"type":"gather","monsters":"Gypceros","area":"Forest and Hills",
 						"goal":"Deliver 15 Special Mushrooms","reward":"1000z","fee":"200z","time":"30′","penalty":"340z",
 						"client":"Requestor: Happy Peddler","details":"The Special Mushrooms around here sell for a fortune down south! I'd like you to pick 15 of them from the forest. I pay well. Whaddya say?",
 						"supplies":[
@@ -2747,7 +2886,7 @@
 						"note":""
 					},
 					{
-						"name":"The Mushroom Hunt!","icon":"white-icon mushroom-icon","hrp":140,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"The Mushroom Hunt!","icon":"white-icon mushroom-icon","hrp":140,"type":"gather","monsters":"Gypceros","area":"Jungle",
 						"goal":"Deliver 20 Special Mushrooms","reward":"1400z","fee":"200z","time":"30′","penalty":"470z",
 						"client":"Requestor: The Lady Gourmet","details":"My doggie just looooves Special Mushrooms! I'd like you to bring me 20 of them. Please don't disappoint my precious little doggie!",
 						"supplies":[
@@ -2766,7 +2905,7 @@
 						"note":""
 					},
 					{
-						"name":"The Sculptor's Errand","icon":"blue-icon claw-icon","hrp":150,"type":"gather","monster":"Yian Kut-Ku","area":"Forest and Hills",
+						"name":"The Sculptor's Errand","icon":"blue-icon claw-icon","hrp":150,"type":"gather","monsters":"Yian Kut-Ku","area":"Forest and Hills",
 						"goal":"Deliver 12 Kelbi Horns","reward":"1200z","fee":"200z","time":"30′","penalty":"400z",
 						"client":"Requestor: The Old Sculptor","details":"I make art using monster tusks and horns. Can you get me 12 Kelbi Horns? They're those deer-like monsters in the forest.",
 						"supplies":[
@@ -2785,7 +2924,7 @@
 						"note":""
 					},
 					{
-						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":500,"type":"gather","monster":"Rathian","area":"Swamp",
+						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":500,"type":"gather","monsters":"Rathian","area":"Swamp",
 						"goal":"Deliver 5 Goldenfish","key":true,"reward":"4000z","fee":"400z","time":"30′","penalty":"1340z",
 						"client":"Requestor: The Collector","details":"I'd do anything to get my hands on some legendary Goldenfish! I'm begging you to bring me 5 of them! Please!",
 						"supplies":[
@@ -2814,7 +2953,7 @@
 						"note":""
 					},
 					{
-						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":190,"type":"gather","monster":"Gypceros","area":"Swamp",
+						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":190,"type":"gather","monsters":"Gypceros","area":"Swamp",
 						"goal":"Deliver 3 pcs Quartz Ore","key":true,"reward":"3000z","fee":"300z","time":"50′","penalty":"1000z",
 						"client":"Requestor: Gem Dealer","details":"I heard a rumor that a vein of White Quartz has been discovered. To confirm it, I need 3 pieces of Quartz Ore.",
 						"supplies":[
@@ -2839,7 +2978,7 @@
 						"note":"Quartz mined in Zone 11"
 					},
 					{
-						"name":"The Lady Gourmet","icon":"yellow-icon creature-icon","hrp":260,"type":"gather","monster":"Plesioth","area":"Desert",
+						"name":"The Lady Gourmet","icon":"yellow-icon creature-icon","hrp":260,"type":"gather","monsters":"Plesioth","area":"Desert",
 						"goal":"Deliver 10 Piscine Livers","key":true,"reward":"2000z","fee":"300z","time":"30′","penalty":"670z",
 						"client":"Requestor: The Lady Gourmet","details":"I travel the world for new tastes and flavors. Now I want to try the liver of a Piscine Wyvern. Please bring me 10 of these livers!",
 						"supplies":[
@@ -2862,7 +3001,7 @@
 						"note":""
 					},
 					{
-						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":200,"type":"hunt","monster":"Plesioth","area":"Jungle",
+						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":200,"type":"hunt","monsters":"Plesioth","area":"Jungle",
 						"goal":"Slay 50 Vespoid","key":true,"reward":"1600z","fee":"200z","time":"50′","penalty":"540z",
 						"client":"Requestor: Landowner","details":"My plantation's under attack by giant bugs! They nest in the jungle, in a swarm of about 50. Take care of them for me!",
 						"supplies":[
@@ -2881,7 +3020,7 @@
 						"note":"Int Rewards:[{ percent : 15, name : Monster Fluid, quantity : 1},{ percent : 35 , name : Vespoid Shell , quantity : 1 },{ percent : 35 , name : Vespoid Wing , quantity : 2 },{ percent : 1 , name : Vespoid Bladefin , quantity : 1 },{ percent : 5 , name : Vespoid Abdomen , quantity : 1 }]"
 					},
 					{
-						"name":"Velociprey Hunt","icon":"monster-icon monster-velociprey","hrp":160,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Velociprey Hunt","icon":"monster-icon monster-velociprey","hrp":160,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 20 Velociprey","reward":"1400z","fee":"200z","time":"50′","penalty":"470z",
 						"client":"Requestor: Town Guard","details":"There's a group of 20 or so Velociprey in the forest attacking travelers. I want you to hunt them down and get rid of them. ",
 						"supplies":[
@@ -2900,7 +3039,7 @@
 						"note":""
 					},
 					{
-						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":190,"type":"hunt","monster":"Rathalos","area":"Forest and Hills",
+						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":190,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Slay 3 Velocidrome","key":true,"reward":"2200z","fee":"200z","time":"50′","penalty":"740z",
 						"client":"Requestor: Town Guard","details":"There are 3 alpha Velociprey that seem to be guiding the rest. They're too large for us to handle. Can you get rid of them?",
 						"supplies":[
@@ -2955,6 +3094,29 @@
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"3"},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Screamer","quantity":"5"},{"percent":4,"name":"Screamer","quantity":"6"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":370,"type":"hunt","area":"Volcano",
+						"goal":"Slay the Basarios","urgentQuest":true,"reward":"4000z","fee":"400z","time":"50′","penalty":"1340z",
+						"client":"Requestor: Upset Hunter","details":"The area was totally barren, but then I was attacked out of the blue! It had to have been a wyvern. Slay it for me!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Pellet S Lv1","quantity":10},
+							{"name":"Recov S Lv1","quantity":5},
+							{"name":"Cool Drink","quantity":1},
+							{"name":"Cool Drink","quantity":1},
+							{"name":"Cool Drink","quantity":1},
+							{"name":"Cool Drink","quantity":1}
+						],
+						"rewards":[{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":25,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":25,"name":"Iron Ore","quantity":"8"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":5,"name":"Union Ore","quantity":1}],
+						"note":""
 					}
 				]
 			},
@@ -2963,7 +3125,7 @@
 				"quests":[
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":370,"type":"hunt","area":"Volcano",
-						"goal":"Slay the Basarios","urgent":true,"reward":"4000z","fee":"400z","time":"50′","penalty":"1340z",
+						"goal":"Slay the Basarios","reward":"4000z","fee":"400z","time":"50′","penalty":"1340z",
 						"client":"Requestor: Upset Hunter","details":"The area was totally barren, but then I was attacked out of the blue! It had to have been a wyvern. Slay it for me!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -2985,7 +3147,7 @@
 						"note":""
 					},
 					{
-						"name":"More Coal Please","icon":"gray-icon stone-icon","hrp":150,"type":"gather","monster":"Khezu","area":"Jungle",
+						"name":"More Coal Please","icon":"gray-icon stone-icon","hrp":150,"type":"gather","monsters":"Khezu","area":"Jungle",
 						"goal":"Deliver 15 pcs Coal","reward":"2000z","fee":"200z","time":"30′","penalty":"670z",
 						"client":"Requestor: Fort Guard","details":"We need Coal to power our spear cannon. It can be found in the jungle. The more fuel the better, so please bring us 15 pieces!",
 						"supplies":[
@@ -3010,7 +3172,7 @@
 						"note":""
 					},
 					{
-						"name":"Re-Supply the Dragonator","icon":"gray-icon stone-icon","hrp":170,"type":"gather","monster":"Gravios","area":"Volcano",
+						"name":"Re-Supply the Dragonator","icon":"gray-icon stone-icon","hrp":170,"type":"gather","monsters":"Gravios","area":"Volcano",
 						"goal":"Deliver 15 pcs Coal","key":true,"reward":"2000z","fee":"200z","time":"30′","penalty":"670z",
 						"client":"Requestor: Fort Guard","details":"We have installed a steam- powered spear cannon to repel monsters, but we need Coal to power it! Please bring us 15 pieces of it.",
 						"supplies":[
@@ -3039,7 +3201,7 @@
 						"note":""
 					},
 					{
-						"name":"Quartz Ore Request","icon":"white-icon stone-icon","hrp":200,"type":"gather","monster":"Basarios","area":"Swamp",
+						"name":"Quartz Ore Request","icon":"white-icon stone-icon","hrp":200,"type":"gather","monsters":"Basarios","area":"Swamp",
 						"goal":"Deliver 3 pcs Quartz Ore","reward":"3400z","fee":"300z","time":"30′","penalty":"1140z",
 						"client":"Requestor: Greedy Merchant","details":"I never get sick of gems! I hear that White Quartz crystals can be found around here. Bring me 3 pieces of Quartz Ore for a reward.",
 						"supplies":[
@@ -3064,7 +3226,7 @@
 						"note":"Quartz found in Zone 7"
 					},
 					{
-						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":180,"type":"gather","monster":"Rathalos","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":180,"type":"gather","monsters":"Rathalos","area":"Forest and Hills",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3400z","fee":"300z","time":"30′","penalty":"1140z",
 						"client":"Requestor: Royal Chef","details":"Ever eaten a Wyvern Egg? They're a delicacy only found inside wyvern nests. Bring me 3 of the eggs, and I'll pay you handsomely.",
 						"supplies":[
@@ -3083,7 +3245,7 @@
 						"note":""
 					},
 					{
-						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":200,"type":"gather","monster":"Diablos","area":"Desert",
+						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":200,"type":"gather","monsters":"Diablos","area":"Desert",
 						"goal":"Deliver 3 Herbivore Eggs","reward":"3800z","fee":"300z","time":"30′","penalty":"1270z",
 						"client":"Requestor: Famous Scholar","details":"I am studying the ecology of the Apceros. I need 3 eggs for my research, but I am too weak to get them! Can you bring them to me?",
 						"supplies":[
@@ -3106,7 +3268,7 @@
 						"note":""
 					},
 					{
-						"name":"Trouble in the Swamp","icon":"monster-icon monster-bullfango","hrp":160,"type":"hunt","monster":"Gypceros","area":"Swamp",
+						"name":"Trouble in the Swamp","icon":"monster-icon monster-bullfango","hrp":160,"type":"hunt","monsters":"Gypceros","area":"Swamp",
 						"goal":"Slay 15 Bullfango","reward":"1600z","fee":"200z","time":"50′","penalty":"540z",
 						"client":"Requestor: Swamp Miner","details":"The swamp animals have been unruly lately, especially the Bullfango. I've been asked to hunt down 15 of them. Can you help me out?",
 						"supplies":[
@@ -3125,7 +3287,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":160,"type":"hunt","monster":"Diablos","area":"Desert",
+						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":160,"type":"hunt","monsters":"Diablos","area":"Desert",
 						"goal":"Slay 20 Genprey","reward":"1600z","fee":"200z","time":"50′","penalty":"540z",
 						"client":"Requestor: Injured Soldier","details":"I'm too injured to go on. I'd like you to find and kill 20 Genprey in the desert for me. Watch out, they can paralyze you...!",
 						"supplies":[
@@ -3144,7 +3306,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":230,"type":"hunt","monster":"Rathian","area":"Swamp",
+						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":230,"type":"hunt","monsters":"Rathian","area":"Swamp",
 						"goal":"Slay 3 Gendrome","key":true,"reward":"2400z","fee":"200z","time":"50′","penalty":"800z",
 						"client":"Requestor: Ambitious Noble","details":"My caravans are being hit by Genprey. 3 Gendrome are leading the pack. Kill them and make the roads safe again for all!",
 						"supplies":[
@@ -3163,7 +3325,7 @@
 						"note":""
 					},
 					{
-						"name":"Leaders of the Genprey","icon":"monster-icon monster-gendrome","hrp":200,"type":"hunt","monster":"Cephadrome","area":"Desert",
+						"name":"Leaders of the Genprey","icon":"monster-icon monster-gendrome","hrp":200,"type":"hunt","monsters":"Cephadrome","area":"Desert",
 						"goal":"Slay 3 Gendrome","key":true,"reward":"2600z","fee":"250z","time":"50′","penalty":"870z",
 						"client":"Requestor: Desert Lord","details":"A pack of monsters led by 3 Gendrome is causing trouble for us. Please hunt down and slay the 3 Gendrome.",
 						"supplies":[
@@ -3298,6 +3460,25 @@
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","health":"10500 each","area":"Desert",
+						"goal":"Slay 2 Diablos","urgentQuest":true,"reward":"9800z","fee":"1240z","time":"50′","penalty":"3270z",
+						"client":"Requestor: Lovely Princess","details":"I simply can't bear to think about the terror and pain those Diablos are causing my people. Hunt down 2 Diablos for me!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Pellet S Lv1","quantity":10},
+							{"name":"Recov S Lv1","quantity":5}
+						],
+						"rewards":[{"percent":25,"name":"Diablos Spine","quantity":1},{"percent":3,"name":"Diablos Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"48"},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Diablos Spine","quantity":"2"},{"percent":5,"name":"Lg Monster Bone","quantity":"4"}],
+						"note":""
 					}
 				]
 			},
@@ -3306,7 +3487,7 @@
 				"quests":[
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","health":"10500 each","area":"Desert",
-						"goal":"Slay 2 Diablos","urgent":true,"reward":"9800z","fee":"1240z","time":"50′","penalty":"3270z",
+						"goal":"Slay 2 Diablos","reward":"9800z","fee":"1240z","time":"50′","penalty":"3270z",
 						"client":"Requestor: Lovely Princess","details":"I simply can't bear to think about the terror and pain those Diablos are causing my people. Hunt down 2 Diablos for me!",
 						"supplies":[
 							{"name":"Map","quantity":1},
@@ -3324,7 +3505,7 @@
 						"note":""
 					},
 					{
-						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":200,"type":"gather","monster":"Rathian","area":"Jungle",
+						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":200,"type":"gather","monsters":"Rathian","area":"Jungle",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"3800z","fee":"980z","time":"30′","penalty":"1270z",
 						"client":"Requestor: Royal Chef","details":"Ever eaten a Wyvern Egg? I made a dish with them, and it was a big hit with everyone! I'd like you to deliver 3 of the eggs!",
 						"supplies":[
@@ -3343,7 +3524,7 @@
 						"note":""
 					},
 					{
-						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":220,"type":"gather","monster":"Gravios","area":"Volcano",
+						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":220,"type":"gather","monsters":"Gravios","area":"Volcano",
 						"goal":"Deliver 3 Powderstones","key":true,"reward":"4000z","fee":"300z","time":"30′","penalty":"1340z",
 						"client":"Requestor: Fort Guard","details":"We have a Great Cannon here for wyverns, but we need Powderstone to make ammo for it. Please deliver 3 Powderstones.",
 						"supplies":[
@@ -3366,7 +3547,7 @@
 						"note":"[JP: 220 HRP, Int: 650 HRP]"
 					},
 					{
-						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":220,"type":"gather","monster":"Rathalos","area":"Volcano",
+						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":220,"type":"gather","monsters":"Rathalos","area":"Volcano",
 						"goal":"Deliver 3 Powderstones","key":true,"reward":"6200z","fee":"1120z","time":"30′","penalty":"2070z",
 						"client":"Requestor: Fort Guard","details":"Please bring us 3 Powderstones. We need them to make ammo for our Great Cannon. Then we'll teach those wyverns a few tricks!",
 						"supplies":[
@@ -3389,7 +3570,7 @@
 						"note":""
 					},
 					{
-						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":200,"type":"hunt","monster":"Yian Kut-Ku","area":"Volcano",
+						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":200,"type":"hunt","monsters":"Yian Kut-Ku","area":"Volcano",
 						"goal":"Slay 20 Ioprey","reward":"1800z","fee":"200z","time":"50′","penalty":"600z",
 						"client":"Requestor: Mine Owner","details":"We encountered a huge Ioprey nest in a deep tunnel! We can't continue working unless you kill 20 of them for us!",
 						"supplies":[
@@ -3412,7 +3593,7 @@
 						"note":""
 					},
 					{
-						"name":"Slay the Iodrome!","icon":"monster-icon monster-iodrome","hrp":240,"type":"hunt","monster":"Plesioth","area":"Jungle",
+						"name":"Slay the Iodrome!","icon":"monster-icon monster-iodrome","hrp":240,"type":"hunt","monsters":"Plesioth","area":"Jungle",
 						"goal":"Slay 3 Iodrome","reward":"2800z","fee":"250z","time":"50′","penalty":"940z",
 						"client":"Requestor: Jungle Master","details":"A pack of monsters headed by 3 Iodrome is causing trouble around here. Can you defeat the Iodrome to help us out?",
 						"supplies":[
@@ -3431,7 +3612,7 @@
 						"note":""
 					},
 					{
-						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":250,"type":"hunt","monster":"Yian Kut-Ku","area":"Volcano",
+						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":250,"type":"hunt","monsters":"Yian Kut-Ku","area":"Volcano",
 						"goal":"Slay 3 Iodrome","key":true,"reward":"3000z","fee":"250z","time":"50′","penalty":"1000z",
 						"client":"Requestor: Expert Hunter","details":"I've been fighting Iodrome, but I had to retreat with just 3 of them left! The credit's yours if you can take them out for me.",
 						"supplies":[
@@ -3734,6 +3915,39 @@
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Wing","quantity":1},{"percent":2,"name":"Rathian Scale","quantity":1},{"percent":15,"name":"Rathian Shell","quantity":1},{"percent":2,"name":"Rathalos Scale","quantity":1},{"percent":15,"name":"Rathalos Shell","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":5,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
+					},
+					{
+						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1000,"type":"hunt","health":"31999","area":"Fort",
+						"urgentQuest":true,"goal":"Repel Lao-Shan Lung","reward":"24000z","fee":"4600z","time":"35′","penalty":"9600z",
+						"client":"Requestor: Loyal Minister","details":"A giant dragon has attacked our fort again! Use the fort's weaponry to slay the beast and save our great nation!",
+						"supplies":[
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Map","quantity":1},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"Mini Whetstone","quantity":2},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"First-aid Med.","quantity":3},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Ration","quantity":2},
+							{"name":"Huskberry","quantity":10},
+							{"name":"Normal S Lv3","quantity":10},
+							{"name":"Pierce S Lv1","quantity":10},
+							{"name":"Recov S Lv1","quantity":5},
+							{"name":"Lifepowder","quantity":2},
+							{"name":"Ballista S","quantity":3},
+							{"name":"Ballista S","quantity":3},
+							{"name":"Ballista S","quantity":3},
+							{"name":"Ballista S","quantity":3}
+						],
+						"rewards":[{"percent":25,"name":"Lao-Shan's Spine","quantity":1},{"percent":2,"name":"Lao-Shan's Claw","quantity":1},{"percent":3,"name":"Lao-Shan's Scale","quantity":1},{"percent":24,"name":"Lao-Shan's Shell","quantity":1},{"percent":1,"name":"Lao-Shan's Spine","quantity":"2"}],
+						"hrRequire":17,
+						"note":"Once completed, appears in the Urgent category permanently."
 					}
 				]
 			},
@@ -3990,7 +4204,7 @@
 						"note":""
 					},
 					{
-						"name":"[BBQ2]","hrp":50,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"[BBQ2]","hrp":50,"type":"gather","monsters":"Gypceros","area":"Jungle",
 						"goal":"How many steaks can you make before the timer runs out?","reward":"100z","fee":"0z","time":"30′","penalty":"",
 						"client":"Client: Politan",
 						"supplies":[
@@ -4013,7 +4227,7 @@
 				"stars": 2,
 				"quests":[
 					{
-						"name":"The BBQ Festival!","hrp":50,"type":"gather","monster":"Gypceros","area":"Jungle",
+						"name":"The BBQ Festival!","hrp":50,"type":"gather","monsters":"Gypceros","area":"Jungle",
 						"goal":"How many steaks can you make before the timer runs out?","reward":"100z","fee":"0z","time":"30′","penalty":"",
 						"client":"Requestor: Guild Boss","details":"It's barbecue party time! Here's the deal: BBQ as many Well-Done Steaks as you can within the time limit! I'll pay ya for each! Notes: After completing player will be awarded a Gourmet BBQ &/or a Kingmeat. This Quests reward was bugged and wouldn't give you more Zenny based on how many Well-Done Steaks you would deliver, splitting the low reward to the players instead.",
 						"supplies":[
@@ -4499,6 +4713,18 @@
 							{"name":"Honey","quantity":1,"percent":5},
 							{"name":"Kut-Ku Scale","quantity":1,"percent":5}
 						]
+					},
+					{
+						"name":"Your First Monster Hunt!","icon":"monster-icon monster-velociprey","type":"hunt","area":"Forest and Hills",
+						"goal":"Slay 3 Velociprey","urgentQuest":true,"reward":"200z","fee":"100z",
+						"rewards":[
+							{"name":"Velociprey Scale","quantity":1,"percent":20},
+							{"name":"Sm Monster Bone","quantity":1,"percent":25},
+							{"name":"Velociprey Fang","quantity":4,"percent":25},
+							{"name":"Velociprey Hide","quantity":1,"percent":25},
+							{"name":"Velociprey Fang","quantity":8,"percent":4},
+							{"name":"Velociprey Fang","quantity":12,"percent":1}
+						]
 					}
 				]
 			},
@@ -4567,6 +4793,19 @@
 							{"name":"Rathalos Shell","quantity":1,"percent":10,"require":"Break Rathalos&#8217;s head"},
 							{"name":"Wyvern Claw","quantity":3,"percent":90,"require":"Break Rathalos&#8217s wings"},
 							{"name":"Rathalos Claw","quantity":1,"percent":10,"require":"Break Rathalos&#8217s wings"}
+						]
+					},
+					{
+						"name":"The Formidable Velocidrome!","icon":"monster-icon monster-velocidrome","type":"hunt","area":"Forest and Hills",
+						"goal":"Slay 1 Velocidrome","urgentQuest":true,"reward":"400z","fee":"150z",
+						"rewards":[
+							{"name":"Screamer","quantity":1,"percent":15},
+							{"name":"Velociprey Fang","quantity":8,"percent":20},
+							{"name":"Velociprey Hide","quantity":1,"percent":20},
+							{"name":"Velociprey Scale","quantity":1,"percent":20},
+							{"name":"Sm Bone Husk","quantity":8,"percent":20},
+							{"name":"Screamer","quantity":1,"percent":4},
+							{"name":"Velocidrome Claw","quantity":1,"percent":1}
 						]
 					}
 				]
@@ -4676,6 +4915,19 @@
 							{"name":"Bullfango Hide","quantity":1,"percent":30},
 							{"name":"Honey","quantity":1,"percent":4},
 							{"name":"Honey","quantity":1,"percent":1}
+						]
+					},
+					{
+						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","type":"hunt","area":"Desert",
+						"goal":"Slay the Cephadrome","urgentQuest":true,"reward":"1200z","fee":"250z",
+						"rewards":[
+							{"name":"Lg Monster Bone","quantity":1,"percent":10},
+							{"name":"Wyvern Claw","quantity":1,"percent":25},
+							{"name":"Med Monster Bone","quantity":1,"percent":25},
+							{"name":"Piscine Fang","quantity":1,"percent":20},
+							{"name":"Piscine Jaw","quantity":1,"percent":15},
+							{"name":"Burst Arrowana","quantity":5,"percent":4},
+							{"name":"Bomb Arrowana","quantity":2,"percent":1}
 						]
 					}
 				]
@@ -4822,6 +5074,24 @@
 							{"name":"Lightcrystal","quantity":1,"percent":1},
 							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217s head"},
 							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217s head"}
+						]
+					},
+					{
+						"name":"Attack of the Rathalos","icon":"monster-icon monster-rathalos","type":"hunt","area":"Forest and Hills",
+						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"2250z","fee":"500z",
+						"rewards":[
+							{"name":"Rathalos Scale","quantity":1,"percent":5},
+							{"name":"Med Monster Bone","quantity":1,"percent":25},
+							{"name":"Wyvern Claw","quantity":3,"percent":22},
+							{"name":"Rathalos Webbing","quantity":1,"percent":5},
+							{"name":"Wyvern Fang","quantity":6,"percent":20},
+							{"name":"Lg Monster Bone","quantity":1,"percent":19},
+							{"name":"Rathalos Wing","quantity":1,"percent":3},
+							{"name":"Wyvern Marrow","quantity":1,"percent":1},
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
 						]
 					}
 				]
@@ -5028,6 +5298,21 @@
 							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+						]
+					},
+					{
+						"name":"Horn of the Monoblos","icon":"monster-icon monster-monoblos","type":"hunt","area":"Desert",
+						"urgentQuest":true,"goal":"Slay the Monoblos","reward":"3400z","fee":"800 z",
+						"rewards":[
+							{"name":"Monoblos Shell","quantity":1,"percent":15},
+							{"name":"Sm Bone Husk","quantity":24,"percent":10},
+							{"name":"Med Monster Bone","quantity":1,"percent":15},
+							{"name":"Lg Monster Bone","quantity":1,"percent":25},
+							{"name":"Monoblos Spine","quantity":1,"percent":10},
+							{"name":"Blos Jaw","quantity":1,"percent":20},
+							{"name":"Sm Bone Husk","quantity":48,"percent":4},
+							{"name":"Lg Bone Husk","quantity":12,"percent":1},
+							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos&#8217;s horn"}
 						]
 					}
 				]
@@ -5381,6 +5666,21 @@
 							{"name":"BBQ Ticket","quantity":1,"percent":4},
 							{"name":"BBQ Ticket","quantity":1,"percent":1}
 						]
+					},
+					{
+						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Jungle",
+						"goal":"Slay the Gypceros","urgentQuest":true,"reward":"3000z","fee":"250z",
+						"rewards":[
+							{"name":"Rubbery Hide","quantity":1,"percent":1},
+							{"name":"Med Monster Bone","quantity":1,"percent":24},
+							{"name":"Sm Monster Bone","quantity":5,"percent":25},
+							{"name":"Wyvern Fang","quantity":3,"percent":25},
+							{"name":"Wyvern Claw","quantity":1,"percent":20},
+							{"name":"Poison Sac","quantity":1,"percent":4},
+							{"name":"Lightcrystal","quantity":1,"percent":1},
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+						]
 					}
 				]
 			},
@@ -5597,7 +5897,7 @@
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Jungle",
-						"goal":"Slay the Gypceros","urgent":true,"reward":"3000z","fee":"250z",
+						"goal":"Slay the Gypceros","reward":"3000z","fee":"250z",
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Med Monster Bone","quantity":1,"percent":24},
@@ -5638,6 +5938,23 @@
 							{"name":"Kut-Ku Ear","quantity":1,"percent":6},
 							{"name":"Giant Beak","quantity":1,"percent":2}
 						]
+					},
+					{
+						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"4400z","fee":"180z",
+						"rewards":[
+							{"name":"Rathalos Scale","quantity":1,"percent":5},
+							{"name":"Med Monster Bone","quantity":1,"percent":25},
+							{"name":"Wyvern Claw","quantity":3,"percent":25},
+							{"name":"Rathalos Webbing","quantity":1,"percent":5},
+							{"name":"Wyvern Fang","quantity":6,"percent":20},
+							{"name":"Lg Monster Bone","quantity":1,"percent":19},
+							{"name":"Wyvern Marrow","quantity":1,"percent":1},
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+						]
 					}
 				]
 			},
@@ -5646,7 +5963,7 @@
 				"quests":[
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay the Rathalos","urgent":true,"reward":"4400z","fee":"180z",
+						"goal":"Slay the Rathalos","reward":"4400z","fee":"180z",
 						"rewards":[
 							{"name":"Rathalos Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -5920,7 +6237,7 @@
 					},
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":800,"type":"hunt","area":"Fort",
-						"goal":"Repel Lao-Shan Lung","urgent":true,"reward":"6200z","fee":"1580z",
+						"goal":"Repel Lao-Shan Lung","urgentQuest":true,"reward":"6200z","fee":"1580z",
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":1},
 							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":25},
@@ -6246,6 +6563,21 @@
 							{"name":"Plesioth Fin","quantity":1,"percent":14},
 							{"name":"Plesioth Fin","quantity":2,"percent":1}
 						]
+					},
+					{
+						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
+						"goal":"Slay 2 Diablos","urgentQuest":true,"reward":"9800z","fee":"1240z",
+						"rewards":[
+							{"name":"Diablos Spine","quantity":1,"percent":25},
+							{"name":"Diablos Shell","quantity":1,"percent":30},
+							{"name":"Sm Bone Husk","quantity":48,"percent":15},
+							{"name":"Lg Bone Husk","quantity":24,"percent":15},
+							{"name":"Diablos Spine","quantity":2,"percent":10},
+							{"name":"Lg Monster Bone","quantity":4,"percent":5},
+							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos&#8217;s horns"},
+							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos&#8217;s horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos&#8217;s horns"}
+						]
 					}
 				]
 			},
@@ -6493,7 +6825,7 @@
 					},
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
-						"goal":"Slay 2 Diablos","urgent":true,"reward":"9800z","fee":"1240z",
+						"goal":"Slay 2 Diablos","reward":"9800z","fee":"1240z",
 						"rewards":[
 							{"name":"Diablos Spine","quantity":1,"percent":25},
 							{"name":"Diablos Shell","quantity":1,"percent":30},
@@ -6580,7 +6912,7 @@
 					},
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1200,"type":"hunt","area":"Fort",
-						"goal":"Repel Lao-Shan Lung","urgent":true,"reward":"12400z","fee":"3160z",
+						"goal":"Repel Lao-Shan Lung","urgentQuest":true,"reward":"12400z","fee":"3160z",
 						"rewards":[
 							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":25},
 							{"name":"Lao-Shan&#8217;s Claw","quantity":1,"percent":20},
@@ -6609,7 +6941,7 @@
 							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
 							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
 						],
-						"notes":"Can only be completed once"
+						"notes":"Once completed, will appear permanently in the Urgent category."
 					}
 				]
 			},
@@ -6846,6 +7178,20 @@
 							{"name":"Coral Cephalos Fin","quantity":1,"percent":5},
 							{"name":"Lg Lobstershell","quantity":1,"percent":2}
 						]
+					},
+					{
+						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
+						"goal":"Slay 2 Khezu","urgentQuest":true,"reward":"13400z","fee":"1450z",
+						"rewards":[
+							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
+							{"name":"Khezu Hide - Tan","quantity":1,"percent":10},
+							{"name":"Wyvern Fang","quantity":10,"percent":20},
+							{"name":"Thunder Sac","quantity":1,"percent":25},
+							{"name":"Med Monster Bone","quantity":1,"percent":15},
+							{"name":"Pale Extract","quantity":1,"percent":20},
+							{"name":"Pale Khezu Steak","quantity":1,"percent":8},
+							{"name":"Thunder Sac","quantity":1,"percent":1}
+						]
 					}
 				]
 			},
@@ -7043,7 +7389,7 @@
 					},
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
-						"goal":"Slay 2 Khezu","urgent":true,"reward":"13400z","fee":"1450z",
+						"goal":"Slay 2 Khezu","reward":"13400z","fee":"1450z",
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":10},
@@ -7093,6 +7439,32 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
 							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian&#8217;s wings"},
 							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+						]
+					},
+					{
+						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
+						"goal":"Slay the Pink Rathian and Azure Rathalos","urgentQuest":true,"reward":"18400z","fee":"3200z",
+						"rewards":[
+							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
+							{"name":"Pink Rathian Scale+","quantity":2,"percent":13},
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":10},
+							{"name":"Azure Rathalos Scale+","quantity":2,"percent":12},
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":10},
+							{"name":"Monster Bone+","quantity":2,"percent":15},
+							{"name":"Lg Monster Bone","quantity":1,"percent":10},
+							{"name":"Pink Rathian Spike","quantity":3,"percent":10},
+							{"name":"Azure Rathalos Tail","quantity":1,"percent":5},
+							{"name":"Rath Medulla","quantity":1,"percent":10},
+							{"name":"Azure Rathalos Carapace","quantity":2,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
+							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
+							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"},
+							{"name":"Pink Rathian Carapace","quantity":2,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
+							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
 						]
 					}
 				]
@@ -7410,7 +7782,7 @@
 					},
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
-						"goal":"Slay the Pink Rathian and Azure Rathalos","urgent":true,"reward":"18400z","fee":"3200z",
+						"goal":"Slay the Pink Rathian and Azure Rathalos","reward":"18400z","fee":"3200z",
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Pink Rathian Scale+","quantity":2,"percent":13},
@@ -7459,6 +7831,41 @@
 							{"name":"Gold Rathian Claw","quantity":2,"percent":75,"require":"Break Gold Rathian&#8217;s wings"},
 							{"name":"Gold Rathian Claw","quantity":1,"percent":25,"require":"Break Gold Rathian&#8217;s wings"}
 						]
+					},
+					{
+						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":2000,"type":"hunt","area":"Fort",
+						"urgentQuest":true,"goal":"Repel Lao-Shan Lung","reward":"24000z","fee":"4800z",
+						"rewards":[
+							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
+							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
+							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":26},
+							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1},
+							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan&#8217;s Claw","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10},
+							{"name":"Lao-Shan&#8217;s Plate","quantity":1,"percent":5},
+							{"name":"Lao-Shan&#8217;s Horn","quantity":1,"percent":99,"require":"Slay Lao-Shan Lung"},
+							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Ancient Shart (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung&#8217;s head"},
+							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":60,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":25,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Ancient Shart (Lance)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
+							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
+							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
+							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
+							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
+							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
+							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
+						]
 					}
 				]
 			},
@@ -7467,7 +7874,7 @@
 				"quests": [
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":2000,"type":"hunt","area":"Fort",
-						"goal":"Repel Lao-Shan Lung","urgent":true,"reward":"24000z","fee":"4800z",
+						"goal":"Repel Lao-Shan Lung","reward":"24000z","fee":"4800z",
 						"rewards":[
 							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
 							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
