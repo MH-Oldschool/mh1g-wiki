@@ -783,7 +783,7 @@
 								{"n":"Firestone","q":8},
 								{"n":"Commendation","q":2}
 							],
-							"forge":[
+							"forgeG":[
 								{"n":"Lao-Shan Horn","q":1},
 								{"n":"Firestone","q":12},
 								{"n":"Commendation","q":5}
@@ -1062,9 +1062,9 @@
 							"attribute":"dragon","attributeAlt":"Dragon","attributeValue":260,
 							"sharpness":"sharpness_gs/fire_dragonsword",
 							"price":"20,550",
-							"forge":[
+							"forge1":[
 								{"n":"Lao-Shan Horn","q":1},
-								{"n":"Firestone","q":12},
+								{"n":"Firestone","q":4},
 								{"n":"Commendation","q":5}
 							]
 						},
