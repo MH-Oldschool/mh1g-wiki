@@ -160,8 +160,12 @@ ready(() => {
 		return Math.floor(timestamp / MILLISECONDS_PER_DAY);
 	}
 	function populateStartTime() {
-		let startTime = SHOP_ROTATION_START.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', hour12: true });
-		document.getElementById("event-special-time").innerText = startTime;
+		document.getElementById("event-time-gmt").innerText = (START_HOUR % 24);
+
+		// let startTime = SHOP_ROTATION_START.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', hour12: true });
+		var now = new Date;
+		var startTime = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR, 0, 0));
+		document.getElementById("event-special-time").innerText = startTime.toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
 	}
 	populateStartTime();
 
