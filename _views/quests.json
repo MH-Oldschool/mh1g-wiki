@@ -1872,7 +1872,7 @@
 						"note":""
 					},
 					{
-						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":260,"type":"hunt","area":"Desert","penalty":"1000z",
+						"name":"The Burrowing Monster","icon":"monster-icon monster-cephadrome","hrp":260,"type":"hunt","area":"Desert","penalty":"1000z",
 						"goal":"Slay the Cephadrome","key":true,"reward":"3000z","fee":"250z","time":"50′",
 						"client":"Requestor: Oasis Town Chief","details":"A villager was tracking a pack of monsters, but lost sight of them in the desert. Please find the leader of the pack and kill it for us.",
 						"supplies":[
