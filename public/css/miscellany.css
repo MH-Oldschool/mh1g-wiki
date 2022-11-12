@@ -1,5 +1,11 @@
+article p {
+	line-height: 1.6;
+}
 ul {
 	list-style: square;
+}
+li {
+	padding: 0.25rem 0;
 }
 
 /* Small Desktop */

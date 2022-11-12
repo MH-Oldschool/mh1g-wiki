@@ -156,7 +156,7 @@
 									{{/upgradeG}}
 								</span>
 
-								{{^upgrade1}}-{{/upgrade1}}
+								{{^upgrade1}}{{^upgradeG}}-{{/upgradeG}}{{/upgrade1}}
 							{{/upgrade}}
 						</td>
 						{{/other}}
@@ -178,7 +178,7 @@
 								</span>
 
 								{{^acquire}}
-									{{^forge1}}-{{/forge1}}
+									{{^forge1}}{{^forgeG}}-{{/forgeG}}{{/forge1}}
 								{{/acquire}}
 							{{/forge}}
 
