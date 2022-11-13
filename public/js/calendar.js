@@ -160,9 +160,8 @@ ready(() => {
 		return Math.floor(timestamp / MILLISECONDS_PER_DAY);
 	}
 	function populateStartTime() {
-		document.getElementById("event-time-gmt").innerText = (START_HOUR % 24);
+		document.getElementById("event-time-gmt").innerText = START_HOUR;
 
-		// let startTime = SHOP_ROTATION_START.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', hour12: true });
 		var now = new Date;
 		var startTime = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR, 0, 0));
 		document.getElementById("event-special-time").innerText = startTime.toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
@@ -350,28 +349,6 @@ ready(() => {
 
 		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
 	});
-
-	// function saveWeekStartCookie(weekStart) {
-	// 	try {
-	// 		document.cookie = "mh1g-week-start=" + weekStart + ";SameSite=Lax";
-	// 	}
-	// 	catch (err) {
-	// 		console.warn("Unable to write week start cookie:", err);
-	// 	}
-	// }
-	// function getWeekStartFromCookie() {
-	// 	try {
-	// 		var cookieIndex = document.cookie.indexOf("mh1g-week-start");
-	// 		// This will be just a single character;
-	// 		// the cookie name is 15 characters long, plus one for the "=" sign
-	// 		return document.cookie[cookieIndex + 16];
-	// 	}
-	// 	catch (err) {
-	// 		console.warn("Unable to retrieve week start cookie:", err);
-	// 	}
-
-	// 	return "";
-	// }
 
 	var weekStartToggle = document.getElementById("week-start-toggle");
 	function setWeekStart(weekStart, setCheckbox) {
