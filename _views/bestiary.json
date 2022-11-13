@@ -449,7 +449,7 @@
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
 			"hitzonesG":[
-				{"name":"Body","zones":[110,100,100,100,100,100,10]}
+				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
 			"carves1":[
 				{"name":"Low Rank","parts":[
