@@ -16,6 +16,8 @@ ready(() => {
 		// Hide the calculator, since some weapons just won't be there in the other version
 		var damageCalculator = document.getElementById("damage-calculator");
 		damageCalculator.className = "";
+
+		updateCalcSharpnessMax();
 	});
 
 	var rankFilterLabels = document.getElementById("rank-filters").getElementsByClassName("range-label");
