@@ -24,7 +24,7 @@
 		</thead>
 
 		{{#tbody}}
-			<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}} class="{{bodyClass}}"{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
+			<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}}{{#bodyClass}} class="{{bodyClass}}"{{/bodyClass}}{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
 				{{#weapons}}
 					<tr class="{{^dbLink}}rarity-{{rarity}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}}>
 						{{#dbLink}}

@@ -496,6 +496,7 @@
 				{
 					"weapons":[
 						{
+							"branchG":"titania",
 							"name":"Valkyrie Blade",
 							"rarity":2,
 							"damage":720,
@@ -1312,7 +1313,7 @@
 					"weapons":[
 						{
 							"rowClass":"fire-pre-g",
-							"branch":"rathalos-firesword",
+							"branch":".rathalos-fireswords",
 							"name":"Bone Sword G+","gOnly":true,
 							"rarity":4,
 							"damage":816,
@@ -1326,10 +1327,11 @@
 					]
 				},
 				{
-					"bodyId":"rathalos-firesword","bodyClass":"branch g-rank indent-1 fire-pre-g dragon-pre-g",
+					"bodyClass":"branch rathalos-fireswords g-rank indent-1 fire-pre-g dragon-pre-g",
 					"weapons":[
 						{
 							"rowClass":"fire-element",
+							"branch":"shining-rathalos-sword",
 							"name":"Rathalos Firesword+","gOnly":true,
 							"rarity":6,
 							"damage":912,
@@ -1345,7 +1347,7 @@
 					]
 				},
 				{
-					"bodyClass":"branch g-rank indent-2 fire-pre-g",
+					"bodyId":"shining-rathalos-sword","bodyClass":"branch g-rank indent-2 fire-pre-g",
 					"weapons":[
 						{
 							"rowClass":"fire-element",
@@ -1364,7 +1366,7 @@
 					]
 				},
 				{
-					"bodyClass":"branch g-rank indent-1 dragon-pre-g",
+					"bodyClass":"branch rathalos-fireswords g-rank indent-1 dragon-pre-g",
 					"weapons":[
 						{
 							"rowClass":"dragon-element",
@@ -2230,7 +2232,7 @@
 							"name":"Great Nova","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":884,
-							"attribute":"thunder","attributeAlt":"Thunder","attibuteValue":380,
+							"attribute":"thunder","attributeAlt":"Thunder","attributeValue":380,
 							"sharpness":"sharpness_h/great_nova",
 							"price":"22,650",
 							"upgrade":[
@@ -7158,6 +7160,7 @@
 				"def":0,
 				"reload":"Normal",
 				"recoil":"Moderate",
+				"range":0,
 				"normal":[6,6,""],"pierce":[3,"",""],"pellet":["","",""],"crag":[1,"",""],"clust":["","",""],
 				"disc":"","recover":[3,3],"poison":[3,1],"stun":[3,1],"sleep":[3,1],
 				"tranq":3,"paint":2,"antidote":3,
@@ -7175,6 +7178,7 @@
 				"def":0,
 				"reload":"Normal",
 				"recoil":"Moderate",
+				"range":0,
 				"normal":[6,6,""],"pierce":[3,"",""],"pellet":[4,"",""],"crag":[1,"",""],"clust":[1,"",""],
 				"disc":3,"recover":[3,3],"poison":[3,1],"stun":[3,1],"sleep":[3,1],
 				"tranq":3,"paint":2,"antidote":3,
