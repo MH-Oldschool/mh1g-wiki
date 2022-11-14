@@ -25,7 +25,7 @@ body {
 	border-color: #e0e0e0;
 }
 
-.toggle-everything-container {
+.toggle-everything-container .filter-checks {
 	padding: 0.5rem 0;
 }
 
@@ -220,4 +220,11 @@ body.show-1 #armor-builder {
 #skill-set-popup td button {
 	background: transparent;
 	width: 100%;
+}
+
+/* Tablet */
+@media screen and (min-width: 50rem) {
+	.toggle-everything-container {
+		padding: 0 0.5rem;
+	}
 }
