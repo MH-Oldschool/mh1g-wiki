@@ -154,6 +154,20 @@ ready(() => {
 	}
 	updateArmorResVisibility();
 
+	function toggleEverything(toggleOn) {
+		window.eachElementByClassName("armor-class-container", (element) => {
+			element.open = toggleOn;
+		});
+	}
+
+	var toggleEverythingCheck = document.getElementById("toggle-everything");
+	toggleEverythingCheck.addEventListener("click", (event) => {
+		toggleEverything(toggleEverythingCheck.checked);
+	});
+	if (toggleEverythingCheck.checked) {
+		toggleEverything(true);
+	}
+
 	var builderContainer = document.getElementById("armor-builder");
 	var builderToggle = document.getElementById("toggle-builder");
 	var builderExpanded = false;

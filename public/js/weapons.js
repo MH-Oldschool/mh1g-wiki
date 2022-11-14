@@ -314,6 +314,27 @@ ready(() => {
 		return false;
 	}
 
+	function toggleEverything(toggleOn) {
+		window.eachElementByClassName("branch-button", (element) => {
+			toggleBranch(element, toggleOn);
+		});
+
+		window.eachElementByClassName("weapon-group-container", (element) => {
+			element.open = toggleOn;
+		});
+
+		window.eachElementByClassName("weapon-class-container", (element) => {
+			element.open = toggleOn;
+		});
+	}
+	var toggleEverythingCheck = document.getElementById("toggle-everything")
+	toggleEverythingCheck.addEventListener("click", (event) => {
+		toggleEverything(toggleEverythingCheck.checked);
+	});
+	if (toggleEverythingCheck.checked) {
+		toggleEverything(true);
+	}
+
 	var anchors = document.getElementsByTagName("A");
 	for (var i = 0; i < anchors.length; i++) {
 		if (anchors[i].dataset.target) {

@@ -25,6 +25,10 @@ body {
 	border-color: #e0e0e0;
 }
 
+.toggle-everything-container {
+	padding: 0.5rem 0;
+}
+
 .hide-low-rank .low-rank,
 .hide-high-rank .high-rank,
 .hide-g-rank .g-rank {
