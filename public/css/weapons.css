@@ -473,6 +473,14 @@ body {
 	margin-right: 0.25rem;
 }
 
+.range-stat {
+	display: none;
+	text-align: center;
+}
+.show-range-stat .range-stat {
+	display: table-cell;
+}
+
 .bowgun-shot-power {
 	text-align: center;
 }

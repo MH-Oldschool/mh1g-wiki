@@ -342,6 +342,20 @@ ready(() => {
 		}
 	}
 
+	function toggleRangeStat(toggleOn) {
+		if (toggleOn) {
+			document.body.classList.add("show-range-stat");
+		}
+		else {
+			document.body.classList.remove("show-range-stat");
+		}
+	}
+	var showRangeStat = document.getElementById("show-range-stat");
+	showRangeStat.addEventListener("click", (event) => {
+		toggleRangeStat(event.target.checked);
+	});
+	toggleRangeStat(showRangeStat.checked);
+
 	// Damage Calculator
 	const BLOAT_VALUES = {
 		greatswords: 4.8,

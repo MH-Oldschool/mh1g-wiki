@@ -285,13 +285,29 @@
 				</div>
 			</div>
 		</details>
+
+		<div class="filter-checks">
+			<input id="show-range-stat" type="checkbox"/>
+			<label for="show-range-stat">Show Range Stat</label>
+		</div>
 	</article>
 
 	<details class="weapon-class-container">
 		<summary><h2><span class="white-icon lbg-icon"></span> Light Bowguns</h2></summary>
 		<table id="lbg-1" class="mh1">
 			<thead>
-				<tr><th>Name</th><th>Rarity</th><th>Damage</th><th>Defense</th><th>Reload</th><th>Recoil</th><th colspan="4">Ammo</th><th>Price</th><th>Forge Materials</th></tr>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Damage</th>
+					<th>Defense</th>
+					<th>Reload</th>
+					<th>Recoil</th>
+					<th class="range-stat">Range</th>
+					<th colspan="4">Ammo</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
 			</thead>
 			<tbody>
 				{{#bowguns1.lbg}}
@@ -302,7 +318,18 @@
 
 		<table id="lbg-g" class="mhg">
 			<thead>
-				<tr><th>Name</th><th>Rarity</th><th>Damage</th><th>Defense</th><th>Reload</th><th>Recoil</th><th colspan="4">Ammo</th><th>Price</th><th>Forge Materials</th></tr>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Damage</th>
+					<th>Defense</th>
+					<th>Reload</th>
+					<th>Recoil</th>
+					<th class="range-stat">Range</th>
+					<th colspan="4">Ammo</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
 			</thead>
 			<tbody>
 				{{#bowgunsG.lbg}}
@@ -323,6 +350,7 @@
 					<th>Defense</th>
 					<th>Reload</th>
 					<th>Recoil</th>
+					<th class="range-stat">Range</th>
 					<th colspan="4">Ammo</th>
 					<th>Price</th>
 					<th>Forge Materials</th>
@@ -344,6 +372,7 @@
 					<th>Defense</th>
 					<th>Reload</th>
 					<th>Recoil</th>
+					<th class="range-stat">Range</th>
 					<th colspan="4">Ammo</th>
 					<th>Price</th>
 					<th>Forge Materials</th>
