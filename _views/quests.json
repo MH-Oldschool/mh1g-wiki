@@ -6427,7 +6427,7 @@
 						]
 					},
 					{
-						"name":"Gypceros in the Swamp","icon":"monster-icon gypceros-icon","hrp":400,"type":"hunt","area":"Swamp",
+						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":400,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gypceros","key":true,"reward":"4000z","fee":"350z",
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
