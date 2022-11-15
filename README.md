@@ -48,7 +48,7 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 - [x] Quest List
 	- [x] Full list with in-game descriptions/details
 	- [x] Guide to unlocking hidden quests
-- [ ] Meal Combinations
+- [x] Meal Combinations
 
 # Developing
 I've tried to keep this app as simple as possible: mostly static with a little JavaScript for interactivity.
