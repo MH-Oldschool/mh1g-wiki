@@ -55,14 +55,23 @@
 							<h4 class="supplies-title">Supplies:</h4>
 							<div class="supplies-list">
 								{{#supplies}}
-									<span class="supply-item">{{{name}}}<sub>x{{quantity}}</sub></span>
+									<div class="supply-item {{icon}}" title="{{name}}"><div class="quantity">x{{quantity}}</div></div>
 								{{/supplies}}
 								{{^supplies}}
 									None
 								{{/supplies}}
 							</div>
 
-							{{#additionalMonster}}Additional Monster(s): {{additionalMonster}}<br/>{{/additionalMonster}}
+							Large Monster(s):
+							<ul>
+								{{#largeMonsters}}
+									<li>{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</li>
+								{{/largeMonsters}}
+								{{^largeMonsters}}
+									<li>none</li>
+								{{/largeMonsters}}
+							</ul>
+
 							{{#health}}Monster Health: {{health}}<br/>{{/health}}
 							Cart Penalty: {{penalty}}<br/>
 							HRP Reward: {{hrp}}<br/>

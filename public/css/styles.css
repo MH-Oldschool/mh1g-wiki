@@ -124,6 +124,13 @@ sup {
 	margin-left: 0.125rem;
 }
 
+ul {
+	list-style: square;
+}
+li {
+	padding: 0.25rem 0;
+}
+
 nav {
 	display: flex;
 	flex-wrap: wrap;

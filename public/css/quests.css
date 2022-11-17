@@ -1,3 +1,7 @@
+ul {
+	margin: 0.125rem 0;
+}
+
 .int-only {
 	display: none;
 }
@@ -62,10 +66,15 @@
 .supplies-list {
 }
 .supply-item {
+	position: relative;
 	display: inline-block;
-	padding: 0.25rem;
+	overflow: visible;
+	margin-right: 1.125rem;
 }
-.supply-item sub {
+.supply-item .quantity {
+	position: absolute;
+	font-size: 0.75rem;
 	font-weight: bold;
-	padding-left: 0.125rem;
+	bottom: 0;
+	right: -0.875rem;
 }
