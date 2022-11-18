@@ -674,9 +674,12 @@
 						"note":"{only JP}"
 					},
 					{
-						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":0,"type":"hunt","monsters":"Yian Kut-Ku","area":"Jungle",
+						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":0,"type":"hunt","area":"Jungle",
 						"goal":"Slay 20 Ioprey","reward":"700z","fee":"220z","time":"50′","penalty":"250z",
 						"client":"Requestor: Mine Owner","details":"We encountered a huge Ioprey nest in a deep tunnel! We can't continue working unless you kill 20 of them for us!",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"supplies":[
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
@@ -1579,7 +1582,7 @@
 						"note":""
 					},
 					{
-						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":120,"type":"hunt","monsters":"Rathalos","area":"Forest and Hills",
+						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":120,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 3 Velocidrome","reward":"1800z","fee":"100z","time":"50′","penalty":"600z",
 						"client":"Requestor: Town Guard","details":"There are 3 alpha Velociprey that seem to be guiding the rest. They're too large for us to handle. Can you get rid of them?",
 						"largeMonsters":[
@@ -4437,7 +4440,7 @@
 						"note":"[17++]"
 					},
 					{
-						"name":"The Legendary Black Dragon (1)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"32000","area":"Castle Schrade",
+						"name":"The Legendary Black Dragon (1)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"32,000, 25,600, 19,200, 12,800, 6,400","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"1600z","time":"15′","penalty":"3300z",
 						"client":"Requestor: Beloved King","details":"With this money, we can repair the Ballista! I hear there is ammunition for it in the arsenal--put it to good use in your battle!",
 						"largeMonsters":[
@@ -4469,7 +4472,7 @@
 						"note":"[17++]"
 					},
 					{
-						"name":"The Legendary Black Dragon (2)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"19200","area":"Castle Schrade",
+						"name":"The Legendary Black Dragon (2)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"32,000, 25,600, 19,200, 12,800, 6,400","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2200z","time":"15′","penalty":"3300z",
 						"client":"Requestor: Beloved King","details":"With this money we can rebuild the Castle Gate and crush the black dragon! Use both this and the Ballista in your battle!",
 						"largeMonsters":[
@@ -4501,7 +4504,7 @@
 						"note":"[17++]"
 					},
 					{
-						"name":"The Legendary Black Dragon (3)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"12800","area":"Castle Schrade",
+						"name":"The Legendary Black Dragon (3)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"32,000, 25,600, 19,200, 12,800, 6,400","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2400z","time":"15′","penalty":"3300z",
 						"client":"Requestor: Beloved King","details":"We have repaired the Great Cannon for use against the black dragon. Ammo is in the arsenal. Use it, the Castle Gate, and the Ballista!",
 						"largeMonsters":[
@@ -4537,7 +4540,7 @@
 						"note":"[17++]"
 					},
 					{
-						"name":"The Legendary Black Dragon (4)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"6400","area":"Castle Schrade",
+						"name":"The Legendary Black Dragon (4)","icon":"monster-icon monster-unknown","hrp":2000,"type":"special","health":"32,000, 25,600, 19,200, 12,800, 6,400","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2800z","time":"15′","penalty":"3300z",
 						"client":"Requestor: Beloved King","details":"Now we can repair the steam-driven Dragonator spear cannon. You have one shot, so aim well! And use our other weaponry as well!",
 						"largeMonsters":[
@@ -4665,9 +4668,12 @@
 						"note":""
 					},
 					{
-						"name":"[BBQ2]","hrp":50,"type":"gather","monsters":"Gypceros","area":"Jungle",
+						"name":"[BBQ2]","hrp":50,"type":"gather","area":"Jungle",
 						"goal":"How many steaks can you make before the timer runs out?","reward":"100z","fee":"0z","time":"30′","penalty":"",
 						"client":"Client: Politan",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"supplies":[
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
@@ -4688,7 +4694,7 @@
 				"stars": 2,
 				"quests":[
 					{
-						"name":"The BBQ Festival!","hrp":50,"type":"gather","monsters":"Gypceros","area":"Jungle",
+						"name":"The BBQ Festival!","hrp":50,"type":"gather","area":"Jungle",
 						"goal":"How many steaks can you make before the timer runs out?","reward":"100z","fee":"0z","time":"30′","penalty":"",
 						"client":"Requestor: Guild Boss","details":"It's barbecue party time! Here's the deal: BBQ as many Well-Done Steaks as you can within the time limit! I'll pay ya for each! Notes: After completing player will be awarded a Gourmet BBQ &/or a Kingmeat. This Quests reward was bugged and wouldn't give you more Zenny based on how many Well-Done Steaks you would deliver, splitting the low reward to the players instead.",
 						"largeMonsters":[
