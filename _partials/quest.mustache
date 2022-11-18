@@ -62,13 +62,10 @@
 								{{/supplies}}
 							</div>
 
-							Large Monster(s):
-							<ul>
+							Large Monster(s):{{^largeMonsters}} none<br/>{{/largeMonsters}}
+							<ul{{^largeMonsters}} style="display:none"{{/largeMonsters}}>
 								{{#largeMonsters}}
 									<li>{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</li>
-								{{/largeMonsters}}
-								{{^largeMonsters}}
-									<li>none</li>
 								{{/largeMonsters}}
 							</ul>
 
