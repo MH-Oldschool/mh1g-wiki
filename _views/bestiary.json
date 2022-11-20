@@ -2644,10 +2644,10 @@
 				{"name":"Face","zones":[80,60,60,30,5,5,100]},
 				{"name":"Head","zones":[50,40,30,20,5,5,80]},
 				{"name":"Neck","zones":[10,30,20,20,5,5,10]},
-				{"name":"Back & Tail","zones":[40,30,50,20,5,5,60]},
+				{"name":"Back & Stomach","zones":[40,30,50,20,5,5,60]},
 				{"name":"Chest","zones":[10,15,20,20,5,5,10]},
 				{"name":"Wing","zones":[50,40,20,20,5,5,10]},
-				{"name":"Stomach & Foot","zones":[25,20,20,20,5,5,30]}
+				{"name":"Tail & Foot","zones":[25,20,20,20,5,5,30]}
 			],
 			"hitzonesG":[
 				{"name":"Face","zones":[80,75,45,15,5,5,80]},
