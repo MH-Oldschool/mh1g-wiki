@@ -2,7 +2,7 @@
 	"title": "Monster Hunter Wiki | Bestiary",
 	"description": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
 	"head": "<link rel='stylesheet' href='css/bestiary.css'/>",
-	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (MH1 carves are based on the US version, and may vary from MH1J. MHG item names are based on Yuzu's English language patch v0.6)",
+	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (MH1 carves are based on the US version, and may vary from MH1J. MH1J Fatalis hitzones derived from <a href=\"https://www.youtube.com/watch?app=desktop&v=qfgLj40Zkog\">this video,</a> all other 1J hitzones from <a href=\"https://pastebin.com/LG7hPYPG\">this pastebin.</a> MHG item names are based on Yuzu's English language patch v0.6)",
 	"onBestiary": true,
 	"gToggle": true,
 	"monsters": [
@@ -2641,22 +2641,26 @@
 			],
 			"hpSpecial":"When its HP is 20,800 or less, it will be in a constant anger state:<br/>- Attack power multiplier: 3.64<br/>- Defense power multiplier: 0.63",
 			"hitzones1":[
-				{"name":"Face","zones":[80,60,60,30,5,5,100]},
-				{"name":"Head","zones":[50,40,30,20,5,5,80]},
-				{"name":"Neck","zones":[10,30,20,20,5,5,10]},
-				{"name":"Back & Stomach","zones":[40,30,50,20,5,5,60]},
-				{"name":"Chest","zones":[10,15,20,20,5,5,10]},
-				{"name":"Wing","zones":[50,40,20,20,5,5,10]},
-				{"name":"Tail & Foot","zones":[25,20,20,20,5,5,30]}
+				{"name":"Face","zones":[80,70,60,30,5,5,100]},
+				{"name":"Head","zones":[80,70,60,30,5,5,100]},
+				{"name":"Neck","zones":[50,45,30,20,5,5,80]},
+				{"name":"Chest","zones":[40,35,50,20,5,5,60]},
+				{"name":"Stomach","zones":[40,35,50,20,5,5,60]},
+				{"name":"Back","zones":[10,35,20,20,5,5,10]},
+				{"name":"Wing","zones":[50,45,20,20,5,5,10]},
+				{"name":"Foot","zones":[25,20,20,20,5,5,30]},
+				{"name":"Tail","zones":[10,35,20,20,5,5,10]}
 			],
 			"hitzonesG":[
 				{"name":"Face","zones":[80,75,45,15,5,5,80]},
 				{"name":"Head","zones":[50,55,30,15,5,5,50]},
 				{"name":"Neck","zones":[30,25,25,15,5,5,30]},
-				{"name":"Back & Tail","zones":[10,20,20,15,5,5,10]},
 				{"name":"Chest","zones":[10,15,20,15,5,5,10]},
+				{"name":"Stomach","zones":[20,20,20,15,5,5,20]},
+				{"name":"Back","zones":[10,20,20,15,5,5,10]},
 				{"name":"Wing","zones":[30,25,20,15,5,5,10]},
-				{"name":"Stomach & Foot","zones":[20,20,20,15,5,5,20]}
+				{"name":"Foot","zones":[20,20,20,15,5,5,20]},
+				{"name":"Tail","zones":[10,20,20,15,5,5,10]}
 			],
 			"status1":[
 				{"name":"poison","title":"Poison","tolerance":[400,435,470,500],"duration":30,"recovery":"10/5s","damage":"20/5s"},
@@ -2704,18 +2708,22 @@
 				{"name":"Face","zones":[50,45,45,15,5,5,80]},
 				{"name":"Head","zones":[30,25,30,15,5,5,50]},
 				{"name":"Neck","zones":[30,25,25,15,5,5,30]},
-				{"name":"Back & Tail","zones":[10,20,20,15,5,5,10]},
 				{"name":"Chest","zones":[10,15,20,15,5,5,10]},
+				{"name":"Stomach","zones":[20,20,20,15,5,5,20]},
+				{"name":"Back","zones":[10,20,20,15,5,5,10]},
 				{"name":"Wing","zones":[30,25,20,15,5,5,10]},
-				{"name":"Stomach & Foot","zones":[20,20,20,15,5,5,20]},
+				{"name":"Foot","zones":[20,20,20,15,5,5,20]},
+				{"name":"Tail","zones":[10,20,20,15,5,5,10]},
 				{"name":"When Enraged","zone_cell_attributes":" colspan=8"},
 				{"name":"Face","zones":[10,10,10,10,5,5,10]},
 				{"name":"Head","zones":[10,10,10,10,5,5,10]},
 				{"name":"Neck","zones":[10,10,10,10,5,5,10]},
-				{"name":"Back & Tail","zones":[10,10,10,10,5,5,10]},
 				{"name":"Chest","zones":[10,10,10,10,5,5,10]},
+				{"name":"Stomach","zones":[10,10,10,10,5,5,10]},
+				{"name":"Back","zones":[10,10,10,10,5,5,10]},
 				{"name":"Wing","zones":[10,10,10,10,5,5,10]},
-				{"name":"Stomach & Foot","zones":[10,10,10,10,5,5,10]}
+				{"name":"Foot","zones":[10,10,10,10,5,5,10]},
+				{"name":"Tail","zones":[10,10,10,10,5,5,10]}
 			],
 			"carvesG":[
 				{"name":"G Rank","parts":[
