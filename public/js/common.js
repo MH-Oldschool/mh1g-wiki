@@ -36,10 +36,10 @@ window.commaStringToNumber = (number) => {
 window.numberWithCommas = (number) => {
 	if (number > 1000) {
 		var withCommas = [];
+		var numberString = number.toString();
 
-		while (number !== 0) {
-			withCommas.unshift(number % 1000);
-			number = parseInt(number / 1000);
+		for (var i = numberString.length; i >= 0; i -= 3) {
+			withCommas.unshift(numberString.substring(Math.max(0, i - 3), i));
 		}
 
 		return withCommas.join(",");
