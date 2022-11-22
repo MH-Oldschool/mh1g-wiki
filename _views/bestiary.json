@@ -24,6 +24,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[150,150,120,100,100,100,10]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Blue Mushroom","p":45},
@@ -83,6 +84,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,160,50,50,100,10]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Bullfango Pelt","p":62},
@@ -133,6 +135,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[140,140,150,100,100,100,10]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Kelbi Horn","p":60},
@@ -186,6 +189,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[110,110,110,50,50,50,10]}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Raw Meat","p":47},
@@ -237,6 +241,7 @@
 				{"name":"Head","zones":[80,100,90,40,100,40,10]},
 				{"name":"Neck (body?)","zones":[70,100,70,40,100,40,10]}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Raw Meat","p":47},
@@ -336,6 +341,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,130,110,100,50,10,0]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Vespoid Wing","p":53},
@@ -393,6 +399,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,120,100,100,20,60,0]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Hornetaur Wing","p":68},
@@ -451,6 +458,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Velociprey Fang","p":45},
@@ -499,6 +507,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"carveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"White Velociprey Hide","p":53},
@@ -530,6 +539,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Velocidrome Claw","p":55},
@@ -585,6 +595,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,100,30,60,20,0]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Genprey Fang","p":45},
@@ -638,6 +649,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,40,40,40,10]}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Stun Sac","p":40},
@@ -690,6 +702,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,20,30,50,0]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Ioprey Fang","p":45},
@@ -742,6 +755,7 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[80,80,80,30,30,30,10]}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Poison Sac","p":40},
@@ -816,6 +830,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Rathalos Shell","p":30},
@@ -921,6 +937,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"Village","parts":[
 					{"n":"Azure Rathalos Shell","p":30},
@@ -997,6 +1015,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Silver Rathalos Shell","p":30},
@@ -1061,6 +1081,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[110,185,260,335,410],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Rathian Scale","p":60},
@@ -1164,6 +1186,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[125,200,275,350,425],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,225,300,375,450],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"Village","parts":[
 					{"n":"Pink Rathian Scale","p":60},
@@ -1238,6 +1262,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":10,"recovery":"10/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Gold Rathian Scale","p":37},
@@ -1299,6 +1325,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,165,230,295,360],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Kut-Ku Shell","p":50},
@@ -1366,6 +1393,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Blue Kut-Ku Shell","p":45},
@@ -1420,6 +1448,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Rubbery Hide","p":62},
@@ -1486,6 +1515,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,125,150,175,200],"duration":50,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Power Extract","p":38},
@@ -1542,6 +1572,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":5,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Flabby Hide","p":50},
@@ -1607,6 +1638,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[350,425,500,575,650],"duration":5,"recovery":"10/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Alluring Hide","p":43},
@@ -1662,6 +1694,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,175,250,325,400],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":4,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Plesioth Scale","p":58},
@@ -1722,6 +1755,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[100,200,300,400,500],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":4,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Green Plesioth Fin","p":54},
@@ -1768,6 +1802,7 @@
 				{"name":"Wing","zones":[70,60,60,25,10,20,0]},
 				{"name":"Foot","zones":[50,45,50,30,25,10,0]}
 			],
+			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Piscine Liver","p":60},
@@ -1850,6 +1885,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,200,250,300,350],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Cephalos Scale","p":38},
@@ -1932,6 +1968,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[150,225,300,375,450],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":4,
+			"tailCarveCount":2,
 			"carves1":[
 				{"name":"Village","parts":[
 					{"n":"Monoblos Spine","p":40},
@@ -1988,6 +2026,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,200,250,300,350],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":4,
+			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"Village","parts":[
 					{"n":"White Monoblos Spine","p":45},
@@ -2047,6 +2087,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Diablos Shell","p":70},
@@ -2128,6 +2170,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[250,325,400,475,550],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":50,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","tailParts":[
 					{"n":"Black Diablos Carapace","p":56},
@@ -2188,6 +2232,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,275,350,425,500],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
 			],
+			"carveCount":4,
+			"tailCarveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Gravios Shell","p":75},
@@ -2280,6 +2326,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,300,400,500,600],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":60,"recovery":"5/10s"}
 			],
+			"carveCount":4,
+			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Black Gravios Carapace","p":46},
@@ -2341,6 +2389,8 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350,400],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":60,"recovery":"5/10s"}
 			],
+			"carveCount":3,
+			"tailCarveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Machalite Ore","p":45},
@@ -2440,6 +2490,7 @@
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","tolerance":[200,250,300,350,400],"duration":40,"recovery":"5/20s"}
 			],
+			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Kirin Mane","p":55},
@@ -2524,6 +2575,7 @@
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","immune":true}
 			],
+			"carveCount":9,
 			"carves1":[
 				{"name":"Low Rank","parts":[
 					{"n":"Lao-Shan's Scale","p":50},
@@ -2606,6 +2658,7 @@
 				{"name":"paralysis","title":"Paralysis","immune":true},
 				{"name":"sleep","title":"Sleep","immune":true}
 			],
+			"carveCount":9,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Lao-Shan's Thoracic","p":28},
@@ -2672,6 +2725,7 @@
 				{"name":"paralysis","title":"Paralysis","tolerance":[400,450,500,550,600],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[400,450,500,550,600],"duration":30,"recovery":"5/10s"}
 			],
+			"carveCount":9,
 			"carves1":[
 				{"name":"High Rank","parts":[
 					{"n":"Fatalis’ Scale","p":45},
@@ -2725,6 +2779,7 @@
 				{"name":"Foot","zones":[10,10,10,10,5,5,10]},
 				{"name":"Tail","zones":[10,10,10,10,5,5,10]}
 			],
+			"carveCount":9,
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Fatalis’ Crimson Scale","p":34},

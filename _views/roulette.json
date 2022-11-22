@@ -1,0 +1,8 @@
+{
+	"title": "Monster Hunter Wiki | Roulette",
+	"description": "",
+	"subtitle": "",
+	"head": "<link rel='stylesheet' href='css/quests.css'/><link rel='stylesheet' href='css/roulette.css'/><script type=\"text/javascript\" src=\"js/roulette.js\"></script>",
+	"onRoulette": true,
+	"gToggle": true
+}

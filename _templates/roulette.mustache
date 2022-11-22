@@ -1,0 +1,156 @@
+{{>head }}
+
+<article class="roulette-container">
+	<form id="roulette-form">
+		<div>
+			<label for="location-village">
+				<input id="location-village" type="radio" name="location" value="V"/>
+				<span class="radio-icon"></span>
+				<span class="label-copy">Village</span>
+			</label>
+		</div>
+
+		<div>
+			<label for="location-town">
+				<input id="location-town" type="radio" name="location" value="T" checked/>
+				<span class="radio-icon"></span>
+				<span class="label-copy">Town</span>
+			</label>
+		</div>
+
+		<button id="refresh-button" type="button">Refresh &cularr;</button>
+
+		<details>
+			<summary>Quest Level 1 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Quest Level 2 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Quest Level 3 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Quest Level 4 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Quest Level 5 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Quest Level 6 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details class="mhg">
+			<summary>Quest Level 7 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details class="mhg">
+			<summary>Quest Level 8 &starf;</summary>
+
+			<div class="quests">
+			</div>
+		</details>
+
+		<details>
+			<summary>Urgent Quests</summary>
+
+			<div id="urgent-quests">
+			</div>
+		</details>
+
+		<div id="monsters">
+			<!-- One checkbox per monster, with additional check for tail cut/back carve if the monster has one -->
+		</div>
+
+		<div class="armor-skills mh1">
+			<label>
+				<input type="radio" name="luck_1" value="-1"/>
+				<span class="radio-icon"></span>
+				Bad Luck
+			</label>
+
+			<label>
+				<input type="radio" name="luck_1" value="0" checked/>
+				<span class="radio-icon"></span>
+				Normal Luck
+			</label>
+
+			<label>
+				<input type="radio" name="luck_1" value="1"/>
+				<span class="radio-icon"></span>
+				Good Luck
+			</label>
+		</div>
+
+		<div class="armor-skills mhg">
+			<label>
+				<input type="radio" name="luck_g" value="-2"/>
+				<span class="radio-icon"></span>
+				Disaster
+			</label>
+
+			<label>
+				<input type="radio" name="luck_g" value="-1"/>
+				<span class="radio-icon"></span>
+				Bad Luck
+			</label>
+
+			<label>
+				<input type="radio" name="luck_g" value="0" checked/>
+				<span class="radio-icon"></span>
+				Normal Luck
+			</label>
+
+			<label>
+				<input type="radio" name="luck_g" value="1"/>
+				<span class="radio-icon"></span>
+				Good Luck
+			</label>
+
+			<label>
+				<input type="radio" name="luck_g" value="2"/>
+				<span class="radio-icon"></span>
+				Very Good Luck
+			</label>
+		</div>
+
+		<button id="submit-button"><span class="ui-icon square-icon"></span> <span class="submit-copy">Embark</span></button>
+	</form>
+
+	<div class="results-container">
+		<h2>Carves</h2>
+		<div id="carve-results">
+		</div>
+
+		<h2>Rewards</h2>
+		<ul id="reward-results">
+		</ul>
+	</div>
+</article>
+
+{{>foot }}

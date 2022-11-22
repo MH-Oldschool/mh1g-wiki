@@ -161,21 +161,21 @@ input[type="checkbox"],
 input[type="radio"] {
 	display: none;
 }
+.checkbox-icon,
 .radio-icon {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 	border: 0.125rem solid;
-	border-radius: 100%;
 	width: 0.625rem;
 	height: 0.625rem;
 }
+.checkbox-icon:after,
 .radio-icon:after {
 	content: "";
 	position: absolute;
 	display: none;
 	background: #3af;
-	border-radius: 100%;
 	margin: -0.25rem auto 0;
 	width: 0.5rem;
 	height: 0.5rem;
@@ -183,9 +183,19 @@ input[type="radio"] {
 	left: 0;
 	right: 0;
 }
+.radio-icon,
+.radio-icon:after {
+	border-radius: 100%;
+}
 input[type="checkbox"]:checked + .radio-icon:after,
-input[type="radio"]:checked + .radio-icon:after {
+input[type="radio"]:checked + .radio-icon:after,
+input[type="checkbox"]:checked + .checkbox-icon:after,
+input[type="radio"]:checked + .checkbox-icon:after {
 	display: block;
+}
+
+.va-m {
+	vertical-align: middle;
 }
 
 .range-container {
@@ -509,6 +519,18 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 .monster-ash-raths { background-position: -19.125rem -15.9375rem }
 
 .monster-kim-raths { background-position: 0 -19.125rem }
+
+.ui-icon {
+	display: inline-block;
+	background-image: url("/images/icon_sheets/interface_icons.png");
+	background-repeat: no-repeat;
+	background-size: 16rem 16rem;
+}
+.square-icon {
+	background-position: -4.5rem 0rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
 
 td.materials {
 	overflow: hidden;

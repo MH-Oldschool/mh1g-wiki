@@ -295,3 +295,4 @@ buildPage("items");
 buildPage("quests", ["quest"]);
 buildPage("maps");
 buildPage("miscellany", ["hotel_room"]);
+buildPage("roulette");

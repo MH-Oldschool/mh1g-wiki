@@ -1,0 +1,48 @@
+button {
+	background: rgba(0,0,0,0.65);
+	line-height: 1.75rem;
+	border: 0.0625rem solid #999;
+	border-radius: 0.25rem;
+	padding: 0 0.5rem;
+	height: 1.75rem;
+	transition: 300ms;
+}
+button:hover {
+	background: rgba(0,0,0,1);
+	color: #fff;
+	border-color: #fff;
+}
+
+.roulette-container {
+	display: flex;
+	justify-content: space-between;
+}
+#roulette-form,
+.results-container {
+	width: 48%;
+}
+
+.label-copy {
+	vertical-align: middle;
+	padding-left: 0.25rem;
+}
+
+.large-monsters label,
+.armor-skills label {
+	display: block;
+}
+
+#submit-button {
+	line-height: 1;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	height: auto;
+}
+#submit-button span {
+	vertical-align: top;
+}
+.submit-copy {
+	display: inline-block;
+	line-height: 1.5rem;
+	height: 1.5rem;
+}
