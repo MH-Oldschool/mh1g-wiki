@@ -64,7 +64,7 @@ function getQuestLists(version, location, callback) {
 		};
 
 		// Village
-		if (location == "V") {
+		if (location == "v") {
 			// Delete non-Japanese version quests
 			if (version == "mh1") {
 				for (var i = json.mh1.villageQuests.length - 1; i >= 0; i--) {
@@ -83,9 +83,10 @@ function getQuestLists(version, location, callback) {
 				var usedIndices = [];
 				for (var i = 0; i < 5; i++) {
 					// Exclude the last quest in each rank, which is the Urgent
-					var index = parseInt(Math.random() * rank.quests.length - 1);
+					var nonUrgentQuestCount = rank.quests.length - 1;
+					var index = parseInt(Math.random() * nonUrgentQuestCount);
 					while (usedIndices.includes(index)) {
-						index++;
+						index = (index + 1) % nonUrgentQuestCount;
 					}
 
 					usedIndices.push(index);
@@ -177,7 +178,7 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 			var location = locationChar == "v" ? "villageQuests" : "townQuests";
 			var quest = questData["mh" + version][location][starRankIndex].quests[questIndex];
 
-			var rankName = locationChar == "v" ? "Village" : "Low Rank";
+			var rankName = "Low Rank";
 			if (locationChar == "t" && starRankIndex > 2) {
 				if (version == "g" || starRankIndex < 5) {
 					rankName = "High Rank";
@@ -245,7 +246,7 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 							};
 
 							var monsterCarves = monster["carves" + versionChar].find((carves) => {
-								return carves.name == rankName;
+								return carves.name == rankName || (locationChar == "v" && carves.name == "Village");
 							}).parts;
 
 							for (var i = 0; i < monster.carveCount; i++) {
@@ -266,7 +267,7 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 							if (monster.tailCarveCount) {
 								var tailRankName = `${rankName} Tail`;
 								var tailCarves = monster["carves" + versionChar].find((carves) => {
-									return carves.name == tailRankName;
+									return carves.name == tailRankName || (locationChar == "v" && carves.name == "Village Tail");
 								}).parts;
 
 								for (var i = 0; i < monster.tailCarveCount; i++) {
