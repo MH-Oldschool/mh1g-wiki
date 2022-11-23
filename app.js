@@ -123,9 +123,10 @@ function getQuestLists(version, location, callback) {
 				var questCount = version == "mh1" ? 5 : 8;
 				for (var i = 0; i < questCount; i++) {
 					// Exclude the last quest in each rank, which is the Urgent
-					var index = parseInt(Math.random() * rank.quests.length - 1);
+					var nonUrgentQuestCount = rank.quests.length - 1;
+					var index = parseInt(Math.random() * nonUrgentQuestCount);
 					while (usedIndices.includes(index)) {
-						index++;
+						index = (index + 1) % nonUrgentQuestCount;
 					}
 
 					usedIndices.push(index);
