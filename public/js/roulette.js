@@ -1,4 +1,6 @@
 ready(() => {
+	const SPINNER_DELAY = 1200;
+
 	function getJSON(url, callback) {
 		var request = new XMLHttpRequest();
 		request.open("GET", url);
@@ -126,13 +128,24 @@ ready(() => {
 		}
 
 		urgentQuestContainer.innerHTML = urgentRows.join("");
+
+		rouletteForm.classList.remove("show-spinner");
+
+		const infoSound = new Audio("sounds/info.ogg");
+		infoSound.play();
 	}
 
 	function getAndPopulateQuestList() {
 		var location = getLocation();
 		var version = `mh${getMHVersion()}`;
 
-		getJSON(`/quest-list?v=${version}&l=${location}`, populateForm)
+		rouletteForm.classList.add("show-spinner");
+
+		getJSON(`/quest-list?v=${version}&l=${location}`, (quests) => {
+			setTimeout(() => {
+				populateForm(quests);
+			}, SPINNER_DELAY);
+		});
 	}
 
 	const refreshButton = document.getElementById("refresh-button");
@@ -158,39 +171,76 @@ ready(() => {
 
 		return false;
 	}
+
+	const carveResults = document.getElementById("carve-results");
+	const rewardResults = document.getElementById("reward-results");
 	function populateResults(results) {
-		const carveResults = document.getElementById("carve-results");
-		const rewardResults = document.getElementById("reward-results");
+		if (results.carves.length) {
+			carveResults.innerHTML = results.carves.map((monsterCarves) => {
+				var listItems = monsterCarves.m.map((material) => {
+					return `
+						<li class="drop-in-container">
+							<div class="drop-in-content">- ${material}</div>
+						</li>`;
+				}).join("");
 
-		carveResults.innerHTML = results.carves.map((monsterCarves) => {
-			var listItems = monsterCarves.m.map((material) => {
-				return `<li>${material}</li>`;
+				var tailCarves = "";
+				if (monsterCarves.t.length != 0) {
+					tailCarves = "<h3>Tail</h3><ul>" + monsterCarves.t.map((material) => {
+						return `
+							<li class="drop-in-container">
+								<div class="drop-in-content">- ${material}</div>
+							</li>`;
+					}).join("") + "</ul>";
+				}
+
+				return `
+					<div class="monster-carves">
+						<h3>${monsterCarves.n}</h3>
+						<ul>${listItems}</ul>
+						${tailCarves}
+					</div>`;
 			}).join("");
-
-			var tailCarves = "";
-			if (monsterCarves.t.length != 0) {
-				tailCarves = "<h3>Tail</h3><ul>" + monsterCarves.t.map((material) => {
-					return `<li>${material}</li>`;
-				}).join("") + "</ul>";
-			}
-
-			return `
-				<div class="monster-carves">
-					<h3>${monsterCarves.n}</h3>
-					<ul>${listItems}</ul>
-					${tailCarves}
-				</div>`;
-		}).join("");
+		}
+		else {
+			carveResults.innerHTML = "none";
+		}
 
 		rewardResults.innerHTML = results.rewards.map((reward) => {
-			return `<li>${reward.name} &times; ${reward.quantity}</li>`;
+			return `
+				<li class="drop-in-container">
+					<div class="drop-in-content">- ${reward.name} &times; ${reward.quantity}</div>
+				</li>`;
 		}).join("");
+
+		const BASE_DELAY = 150;
+		var delay = BASE_DELAY;
+		window.eachElementByClassName("drop-in-container", (element) => {
+			var child = element.children[0];
+
+			setTimeout(() => {
+				child.classList.add("dropped-in");
+			}, delay);
+
+			delay += 100;
+		});
+
+		setTimeout(() => {
+			const itemGet = new Audio("sounds/item_get.ogg");
+			itemGet.play();
+		}, BASE_DELAY);
 	}
-	document.getElementById("roulette-form").addEventListener("submit", (event) => {
+	rouletteForm.addEventListener("submit", (event) => {
 		event.preventDefault();
+
+		const resultsContainer = document.getElementById("results-container");
+		resultsContainer.classList.add("show-spinner");
 
 		var checkedQuest = getCheckedQuest();
 		if (checkedQuest) {
+			carveResults.innerHTML = "";
+			rewardResults.innerHTML = "";
+
 			var version = getMHVersion();
 			var largeMonsters = [];
 
@@ -221,7 +271,10 @@ ready(() => {
 			];
 
 			getJSON(`/quest-results?${parameters.join("&")}`, (carveResults) => {
-				populateResults(carveResults);
+				setTimeout(() => {
+					resultsContainer.classList.remove("show-spinner");
+					populateResults(carveResults);
+				}, SPINNER_DELAY);
 			});
 		}
 	});

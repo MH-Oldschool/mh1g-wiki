@@ -13,12 +13,18 @@ button:hover {
 	border-color: #fff;
 }
 
+ul {
+	list-style: none;
+	padding-left: 0.5rem;
+	margin: 0;
+}
+
 @keyframes border_flicker {
-	  0% { border-style: double; }
-	 49% { border-style: double; }
-	 50% { border-style: solid; }
-	 99% { border-style: solid; }
-	100% { border-style: double; }
+	  0% { border-style: solid; }
+	 49% { border-style: solid; }
+	 50% { border-style: double; }
+	 99% { border-style: double; }
+	100% { border-style: solid; }
 }
 .roulette-header {
 	text-align: center;
@@ -26,168 +32,171 @@ button:hover {
 .roulette-header h1 {
 	display: inline-block;
 	font: italic bold 2rem Arial, sans-serif;
-	border: 0.25rem double #f72;
+	border: 0.25rem double #fa2;
 	padding: 0.5rem 1rem;
 	margin: 0 auto;
 	animation: border_flicker 1s linear infinite;
 }
 @keyframes char_0 {
-	0% { color: #f72; }
-	8% { color: #f72; }
+	0% { color: #fa2; }
+	8% { color: #fa2; }
 	9% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_1 {
 	0% { color: #777; }
 	8% { color: #777; }
-	9% { color: #f72; }
-	16% { color: #f72; }
+	9% { color: #fa2; }
+	16% { color: #fa2; }
 	17% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_2 {
 	0% { color: #777; }
 	16% { color: #777; }
-	17% { color: #f72; }
-	24% { color: #f72; }
+	17% { color: #fa2; }
+	24% { color: #fa2; }
 	25% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_3 {
 	0% { color: #777; }
 	24% { color: #777; }
-	25% { color: #f72; }
-	32% { color: #f72; }
+	25% { color: #fa2; }
+	32% { color: #fa2; }
 	33% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_4 {
 	0% { color: #777; }
 	32% { color: #777; }
-	33% { color: #f72; }
-	40% { color: #f72; }
+	33% { color: #fa2; }
+	40% { color: #fa2; }
 	41% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_5 {
 	0% { color: #777; }
 	40% { color: #777; }
-	41% { color: #f72; }
-	48% { color: #f72; }
+	41% { color: #fa2; }
+	48% { color: #fa2; }
 	49% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_6 {
 	0% { color: #777; }
 	48% { color: #777; }
-	49% { color: #f72; }
-	56% { color: #f72; }
+	49% { color: #fa2; }
+	56% { color: #fa2; }
 	57% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_7 {
 	0% { color: #777; }
 	56% { color: #777; }
-	57% { color: #f72; }
-	64% { color: #f72; }
+	57% { color: #fa2; }
+	64% { color: #fa2; }
 	65% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
 @keyframes char_8 {
 	0% { color: #777; }
 	68% { color: #777; }
-	69% { color: #f72; }
-	76% { color: #f72; }
+	69% { color: #fa2; }
+	76% { color: #fa2; }
 	77% { color: #777; }
 	84% { color: #777; }
-	85% { color: #f72; }
-	92% { color: #f72; }
+	85% { color: #fa2; }
+	92% { color: #fa2; }
 	93% { color: #777; }
 	100% { color: #777; }
 }
-.char-0 { animation: char_0 5s linear infinite; }
-.char-1 { animation: char_1 5s linear infinite; }
-.char-2 { animation: char_2 5s linear infinite; }
-.char-3 { animation: char_3 5s linear infinite; }
-.char-4 { animation: char_4 5s linear infinite; }
-.char-5 { animation: char_5 5s linear infinite; }
-.char-6 { animation: char_6 5s linear infinite; }
-.char-7 { animation: char_7 5s linear infinite; }
-.char-8 { animation: char_8 5s linear infinite; }
+.char-0 { animation: char_0 6s linear infinite; }
+.char-1 { animation: char_1 6s linear infinite; }
+.char-2 { animation: char_2 6s linear infinite; }
+.char-3 { animation: char_3 6s linear infinite; }
+.char-4 { animation: char_4 6s linear infinite; }
+.char-5 { animation: char_5 6s linear infinite; }
+.char-6 { animation: char_6 6s linear infinite; }
+.char-7 { animation: char_7 6s linear infinite; }
+.char-8 { animation: char_8 6s linear infinite; }
 
-.roulette-container {
-	display: flex;
-	justify-content: space-between;
-}
 #roulette-form,
-.results-container {
-	width: 48%;
+#results-container {
+	position: relative;
+	padding: 0.5rem;
 }
 
+.locations-container {
+	padding: 0.5rem 0;
+}
+.location-label {
+	padding: 0 0.25rem;
+}
 .label-copy {
 	vertical-align: middle;
 	padding-left: 0.25rem;
@@ -218,4 +227,59 @@ button:hover {
 
 #carve-results {
 	padding-left: 0.75rem;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.show-spinner:before,
+.show-spinner:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.show-spinner:before {
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+.show-spinner:after {
+	border-color: #fff #fff transparent;
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 0.25rem;
+	margin: -1.125rem auto 0;
+	width: 2rem;
+	height: 2rem;
+	top: 50%;
+	animation: spin 2s infinite linear;
+}
+
+.drop-in-container {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.drop-in-content {
+	position: relative;
+	transform: translateY(-150%);
+	transition: 500ms;
+}
+.drop-in-content.dropped-in {
+	transform: translateY(0%);
+}
+
+@media screen and (min-width: 64rem) {
+	.roulette-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#roulette-form,
+	#results-container {
+		width: 50%;
+	}
 }

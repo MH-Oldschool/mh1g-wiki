@@ -100,7 +100,12 @@ function getQuestLists(version, location, callback) {
 			}
 
 			// Get all urgent quests, since they aren't randomized
-			questList.urgents = json[version].villageQuests[5].quests;
+			questList.urgents = json[version].villageQuests[5].quests.map((quest, index) => {
+				quest.rank = "u";
+				quest.index = index;
+
+				return quest;
+			});
 		}
 		// Town
 		else {
@@ -140,7 +145,12 @@ function getQuestLists(version, location, callback) {
 				questList.ranks.push(rankQuests);
 			}
 			// Get all urgent quests, since they aren't randomized
-			questList.urgents = json[version].townQuests[maxRank].quests;
+			questList.urgents = json[version].townQuests[maxRank].quests.map((quest, index) => {
+				quest.rank = "u";
+				quest.index = index;
+
+				return quest;
+			});
 			// TODO: get current event (random event?)
 		}
 
@@ -175,12 +185,17 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 
 		getJSON("_views/quests.json", (questData) => {
 			var versionChar = version.toUpperCase();
+			var versionName = "mh" + version;
 			var location = locationChar == "v" ? "villageQuests" : "townQuests";
-			var quest = questData["mh" + version][location][starRankIndex].quests[questIndex];
+
+			if (starRankIndex == "u") {
+				starRankIndex = questData[versionName][location].length - 1;
+			}
+			var quest = questData[versionName][location][starRankIndex].quests[questIndex];
 
 			var rankName = "Low Rank";
 			if (locationChar == "t" && starRankIndex > 2) {
-				if (version == "g" || starRankIndex < 5) {
+				if (version == "1" || starRankIndex < 5) {
 					rankName = "High Rank";
 				}
 				else {

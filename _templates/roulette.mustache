@@ -16,15 +16,15 @@
 
 <article class="roulette-container">
 	<form id="roulette-form">
-		<div>
-			<label for="location-village">
-				<input id="location-village" type="radio" name="location" value="V"/>
+		<div class="locations-container">
+			<label class="location-label" for="location-village">
+				<input id="location-village" type="radio" name="location" value="v"/>
 				<span class="radio-icon"></span>
 				<span class="label-copy">Village</span>
 			</label>
 
-			<label for="location-town">
-				<input id="location-town" type="radio" name="location" value="T" checked/>
+			<label class="location-label" for="location-town">
+				<input id="location-town" type="radio" name="location" value="t" checked/>
 				<span class="radio-icon"></span>
 				<span class="label-copy">Town</span>
 			</label>
@@ -154,7 +154,7 @@
 		<button id="submit-button"><span class="ui-icon square-icon"></span> <span class="submit-copy">Embark</span></button>
 	</form>
 
-	<div class="results-container">
+	<div id="results-container">
 		<h2>Carves</h2>
 		<div id="carve-results">
 		</div>

@@ -79,10 +79,10 @@
 							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5}
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Worm","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":15,"name":"Herb","quantity":1},{"percent":5,"name":"Honey","quantity":1},{"percent":5,"name":"Kut-Ku Scale","quantity":1}],
 						"note":""
@@ -994,9 +994,9 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":5},
-							{"name":"Immunizer","icons":"yellow-icon jar-icon","quantity":1}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
+							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":2,"name":"Basarios Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":1},{"percent":2,"name":"Iron Ore","quantity":"3"},{"percent":15,"name":"Med Monster Bone","quantity":1},{"percent":4,"name":"Machalite Ore","quantity":"3"},{"percent":1,"name":"Machalite Ore","quantity":"6"}],
 						"note":"{only JP}"
@@ -1017,8 +1017,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Sonic Bomb","icon":"gray-icon bomb-icon","quantity":2},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1}
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":4,"name":"Plesioth Fin","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Piscine Fang","quantity":"2"},{"percent":25,"name":"Piscine Jaw","quantity":1},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Sm Lobstershell","quantity":1}],
 						"note":"{JP:n/a}",
@@ -1119,7 +1119,7 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
-							{"name":"Lg Barrel-Bomb","icons":"red-icon barrel-bomb-icon","quantity":1},
+							{"name":"Lg Barrel-Bomb","icon":"red-icon barrel-bomb-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
@@ -1147,9 +1147,9 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":5},
-							{"name":"Immunizer","icons":"yellow-icon jar-icon","quantity":1}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
+							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":3,"name":"Flabby Hide","quantity":1},{"percent":15,"name":"Wyvern Fang","quantity":"3"},{"percent":15,"name":"Wyvern Claw","quantity":"2"},{"percent":15,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Electro Sac","quantity":1},{"percent":4,"name":"Electro Sac","quantity":1},{"percent":1,"name":"Wyvern Fang","quantity":15}],
 						"note":""
@@ -1169,9 +1169,9 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":5},
-							{"name":"Immunizer","icons":"yellow-icon jar-icon","quantity":1}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
+							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":5,"name":"Blos Jaw","quantity":1},{"percent":5,"name":"Sm Bone Husk","quantity":"24"},{"percent":2,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":25,"name":"Diablos Shell","quantity":1},{"percent":1,"name":"Blos Fang","quantity":1},{"percent":1,"name":"Diablos Tail","quantity":1},{"percent":4,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Sm Bone Husk","quantity":"48"}],
 						"note":""
@@ -1192,7 +1192,7 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
-							{"name":"Lg Barrel-Bomb","icons":"red-icon barrel-bomb-icon","quantity":1},
+							{"name":"Lg Barrel-Bomb","icon":"red-icon barrel-bomb-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
@@ -1240,9 +1240,9 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":5},
-							{"name":"Immunizer","icons":"yellow-icon jar-icon","quantity":1}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
+							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Wing","quantity":1},{"percent":1,"name":"Rathian Scale","quantity":1},{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":1,"name":"Rathalos Scale","quantity":1},{"percent":1,"name":"Rathalos Shell","quantity":1},{"percent":5,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"prerequisites":"Complete &#8220;Handle With Care!&#8221;",
@@ -1281,8 +1281,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":29,"name":"Sap Plant","quantity":1},{"percent":25,"name":"Herb","quantity":1},{"percent":25,"name":"Herb","quantity":1},{"percent":15,"name":"Kut-Ku Scale","quantity":1},{"percent":4,"name":"Power Seed","quantity":1},{"percent":1,"name":"Power Seed","quantity":1}],
@@ -1340,8 +1340,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Stunshroom","quantity":"3"},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
@@ -1373,8 +1373,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Dragon Toadstool","quantity":1},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
@@ -1433,14 +1433,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1}
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":8,"name":"Bomb Arrowana","quantity":"2"},{"percent":2,"name":"Firefly","quantity":10},{"percent":2,"name":"Rumblefish","quantity":10},{"percent":2,"name":"Pin Tuna","quantity":10},{"percent":2,"name":"Burst Arrowana","quantity":"5"},{"percent":12,"name":"Scatterfish","quantity":"3"}],
 						"note":""
@@ -1541,8 +1541,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":1,"name":"Vespoid Shell","quantity":25},{"percent":1,"name":"Vespoid Wing","quantity":25},{"percent":1,"name":"Hornetaur Wing","quantity":25},{"percent":1,"name":"Hornetaur Shell","quantity":20},{"percent":1,"name":"Monster Fluid","quantity":4},{"percent":1,"name":"Thunderbug","quantity":1}],
@@ -1574,8 +1574,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":25,"name":"Velociprey Hide","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":"6"},{"percent":2,"name":"Velociprey Scale","quantity":"2"},{"percent":4,"name":"Velociprey Fang","quantity":12},{"percent":1,"name":"Velociprey Fang","quantity":"24"}],
@@ -1608,8 +1608,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":12},{"percent":2,"name":"Velociprey Hide","quantity":"3"},{"percent":2,"name":"Velociprey Scale","quantity":"3"},{"percent":2,"name":"Sm Bone Husk","quantity":12},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
@@ -1643,8 +1643,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Webbing","quantity":1},{"percent":24,"name":"Screamer","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Screamer","quantity":"3"},{"percent":4,"name":"Kut-Ku Scale","quantity":"4"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
@@ -1677,8 +1677,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Screamer","quantity":"3"},{"percent":4,"name":"Kut-Ku Scale","quantity":"4"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
@@ -1711,8 +1711,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Wyvern Fang","quantity":"3"},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":4,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Lightcrystal","quantity":1}],
 						"note":""
@@ -1750,8 +1750,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Wyvern Fang","quantity":"3"},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":4,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Lightcrystal","quantity":1}],
 						"note":""
@@ -1885,8 +1885,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":1,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Honey","quantity":1},{"percent":25,"name":"Power Seed","quantity":1},{"percent":25,"name":"Armor Seed","quantity":1},{"percent":2,"name":"Nutrients","quantity":1},{"percent":4,"name":"Egg Ticket","quantity":1}],
@@ -1917,8 +1917,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -1953,8 +1953,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":15,"name":"Bullfango Pelt","quantity":"2"},{"percent":25,"name":"Antidote Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":3,"name":"Bullfango Pelt","quantity":1},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Honey","quantity":1}],
@@ -1985,8 +1985,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2022,8 +2022,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":2,"name":"Genprey Hide","quantity":"3"},{"percent":2,"name":"Sm Monster Bone","quantity":1},{"percent":2,"name":"Genprey Fang","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":12},{"percent":15,"name":"Genprey Scale","quantity":"3"},{"percent":4,"name":"Genprey Fang","quantity":10},{"percent":1,"name":"Stun Sac","quantity":1}],
@@ -2055,8 +2055,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2129,8 +2129,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Wyvern Fang","quantity":"3"},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":4,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Lightcrystal","quantity":1}],
 						"note":""
@@ -2163,8 +2163,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":"5"},{"percent":25,"name":"Wyvern Fang","quantity":"3"},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":4,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Lightcrystal","quantity":1}],
 						"note":""
@@ -2197,8 +2197,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2235,8 +2235,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathian Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Flame Sac","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":1}],
 						"note":""
@@ -2269,8 +2269,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2307,8 +2307,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Rathalos Webbing","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -2346,8 +2346,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Rathalos Webbing","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -2378,8 +2378,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":4,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Honey","quantity":1},{"percent":25,"name":"Power Seed","quantity":1},{"percent":25,"name":"Armor Seed","quantity":1},{"percent":2,"name":"Nutrients","quantity":1},{"percent":1,"name":"Egg Ticket","quantity":1}],
@@ -2410,8 +2410,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2445,8 +2445,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2482,8 +2482,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[{"percent":2,"name":"Ioprey Hide","quantity":"3"},{"percent":2,"name":"Sm Monster Bone","quantity":1},{"percent":2,"name":"Ioprey Fang","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":12},{"percent":15,"name":"Ioprey Scale","quantity":"3"},{"percent":4,"name":"Ioprey Fang","quantity":10},{"percent":1,"name":"Ioprey Fang","quantity":"20"}],
@@ -2515,8 +2515,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2553,8 +2553,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2591,8 +2591,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2629,8 +2629,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathian Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Flame Sac","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":1}],
 						"note":""
@@ -2663,8 +2663,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathian Scale","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":5,"name":"Flame Sac","quantity":1},{"percent":2,"name":"Wyvern Fang","quantity":"6"},{"percent":19,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":1}],
 						"note":""
@@ -2697,8 +2697,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"7"},{"percent":25,"name":"Wyvern Claw","quantity":"4"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Electro Sac","quantity":1},{"percent":4,"name":"Electro Sac","quantity":1},{"percent":1,"name":"Wyvern Fang","quantity":"20"}],
 						"note":""
@@ -2731,8 +2731,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"7"},{"percent":25,"name":"Wyvern Claw","quantity":"4"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Electro Sac","quantity":1},{"percent":4,"name":"Electro Sac","quantity":1},{"percent":1,"name":"Wyvern Fang","quantity":"20"}],
 						"note":""
@@ -2765,8 +2765,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":4,"name":"Plesioth Fin","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Piscine Fang","quantity":"2"},{"percent":25,"name":"Piscine Jaw","quantity":1},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":1,"name":"Sm Lobstershell","quantity":1}],
 						"note":""
@@ -2799,8 +2799,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2837,8 +2837,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gravios Shell","quantity":1},{"percent":24,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":25,"name":"Lg Monster Bone","quantity":1},{"percent":15,"name":"Lg Monster Bone","quantity":"3"},{"percent":9,"name":"Lg Bone Husk","quantity":12},{"percent":1,"name":"Wyvern Claw","quantity":"24"}],
 						"note":""
@@ -2871,8 +2871,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -2907,8 +2907,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -2944,8 +2944,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -2981,8 +2981,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -3018,8 +3018,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -3055,8 +3055,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -3089,14 +3089,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":1,"name":"Commendation","quantity":1},{"percent":25,"name":"Lao-Shan's Scale","quantity":1},{"percent":25,"name":"Lao-Shan's Shell","quantity":1},{"percent":2,"name":"Lao-Shan's Scale","quantity":1},{"percent":5,"name":"Ruststone2GS1","quantity":1},{"percent":5,"name":"Ruststone3Hm2","quantity":1},{"percent":5,"name":"Ruststone4SS4","quantity":1},{"percent":5,"name":"Ruststone5Lc3","quantity":1},{"percent":5,"name":"Ruststone1BG5","quantity":1},{"percent":4,"name":"Lao-Shan's Claw","quantity":1}],
 						"hrRequire":9,
@@ -3123,8 +3123,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":29,"name":"Sap Plant","quantity":"2"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":15,"name":"Kut-Ku Scale","quantity":"2"},{"percent":4,"name":"Mosswine Hide","quantity":1},{"percent":1,"name":"Power Seed","quantity":1}],
 						"note":""
@@ -3171,8 +3171,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":"2"},{"percent":25,"name":"Nitroshroom","quantity":"2"},{"percent":25,"name":"Toadstool","quantity":"2"},{"percent":2,"name":"Stunshroom","quantity":"2"},{"percent":4,"name":"Stunshroom","quantity":"5"},{"percent":1,"name":"Dragon Toadstool","quantity":"2"}],
 						"note":""
@@ -3193,8 +3193,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":"2"},{"percent":25,"name":"Nitroshroom","quantity":"2"},{"percent":25,"name":"Toadstool","quantity":"2"},{"percent":2,"name":"Stunshroom","quantity":"2"},{"percent":4,"name":"Dragon Toadstool","quantity":"2"},{"percent":1,"name":"Dragon Toadstool","quantity":"4"}],
 						"note":""
@@ -3215,8 +3215,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Kelbi Hide","quantity":"3"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":25,"name":"Sap Plant","quantity":"2"},{"percent":3,"name":"Kelbi Hide","quantity":"2"},{"percent":4,"name":"Honey","quantity":"2"},{"percent":1,"name":"Honey","quantity":10}],
 						"note":""
@@ -3241,14 +3241,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":5},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1},
-							{"name":"Hot Drink","icons":"red-icon jar-icon","quantity":1}
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":5},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1},
+							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":8,"name":"Bomb Arrowana","quantity":"2"},{"percent":2,"name":"Firefly","quantity":10},{"percent":2,"name":"Rumblefish","quantity":10},{"percent":2,"name":"Pin Tuna","quantity":10},{"percent":2,"name":"Burst Arrowana","quantity":"5"},{"percent":12,"name":"Scatterfish","quantity":"3"}],
 						"note":""
@@ -3269,9 +3269,9 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
@@ -3297,8 +3297,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3323,8 +3323,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Monster Fluid","quantity":1},{"percent":25,"name":"Vespoid Wing","quantity":2},{"percent":25,"name":"Hornetaur Wing","quantity":2},{"percent":25,"name":"Hornetaur Head","quantity":1},{"percent":5,"name":"Hornetaur Bladefin","quantity":1},{"percent":5,"name":"Vespoid Abdomen","quantity":1}],
 						"note":"Int Rewards:[{ percent : 15, name : Monster Fluid, quantity : 1},{ percent : 35 , name : Vespoid Shell , quantity : 1 },{ percent : 35 , name : Vespoid Wing , quantity : 2 },{ percent : 1 , name : Vespoid Bladefin , quantity : 1 },{ percent : 5 , name : Vespoid Abdomen , quantity : 1 }]"
@@ -3345,8 +3345,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Velociprey Hide","quantity":"3"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":12},{"percent":2,"name":"Velociprey Scale","quantity":"3"},{"percent":4,"name":"Velociprey Fang","quantity":"24"},{"percent":1,"name":"Velociprey Fang","quantity":"33"}],
 						"note":""
@@ -3368,8 +3368,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"24"},{"percent":2,"name":"Velociprey Scale","quantity":"4"},{"percent":2,"name":"Screamer","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":4,"name":"Velocidrome Head","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
 						"note":""
@@ -3390,8 +3390,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"3"},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Screamer","quantity":"5"},{"percent":4,"name":"Screamer","quantity":"6"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
@@ -3412,8 +3412,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"3"},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Screamer","quantity":"5"},{"percent":4,"name":"Screamer","quantity":"6"},{"percent":1,"name":"Flame Sac","quantity":1}],
 						"note":""
@@ -3434,8 +3434,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3465,8 +3465,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3491,9 +3491,9 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
@@ -3519,9 +3519,9 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
@@ -3551,9 +3551,9 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Stun S Lv1","icons":"yellow-icon shot-icon","quantity":5},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
@@ -3579,8 +3579,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":4,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Honey","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":15,"name":"Potion","quantity":"3"},{"percent":6,"name":"Mega Nutrients","quantity":1}],
 						"note":""
@@ -3601,8 +3601,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3627,8 +3627,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Bullfango Pelt","quantity":"3"},{"percent":25,"name":"Antidote Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":2,"name":"Bullfango Pelt","quantity":"2"},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Bullfango Head","quantity":1}],
 						"note":""
@@ -3649,8 +3649,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Genprey Hide","quantity":"3"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Genprey Fang","quantity":"4"},{"percent":2,"name":"Genprey Scale","quantity":"3"},{"percent":4,"name":"Genprey Fang","quantity":10},{"percent":1,"name":"Genprey Fang","quantity":"20"}],
 						"note":""
@@ -3672,8 +3672,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gendrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Genprey Fang","quantity":"5"},{"percent":2,"name":"Genprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Genprey Scale","quantity":"4"},{"percent":4,"name":"Genprey Fang","quantity":15},{"percent":1,"name":"Stun Sac","quantity":1}],
 						"note":""
@@ -3695,8 +3695,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gendrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Genprey Fang","quantity":"5"},{"percent":2,"name":"Genprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Genprey Scale","quantity":"4"},{"percent":4,"name":"Genprey Fang","quantity":15},{"percent":1,"name":"Stun Sac","quantity":1}],
 						"note":""
@@ -3717,8 +3717,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quatity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quatity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quatity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quatity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quatity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quatity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quatity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quatity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quatity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quatity":1},
@@ -3743,8 +3743,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
 						"note":""
@@ -3765,8 +3765,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
 						"note":""
@@ -3787,8 +3787,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
 						"note":""
@@ -3809,8 +3809,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -3831,8 +3831,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -3853,8 +3853,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Diablos Spine","quantity":1},{"percent":3,"name":"Diablos Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"48"},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Diablos Spine","quantity":"2"},{"percent":5,"name":"Lg Monster Bone","quantity":"4"}],
 						"note":""
@@ -3880,8 +3880,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Diablos Spine","quantity":1},{"percent":3,"name":"Diablos Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"48"},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Diablos Spine","quantity":"2"},{"percent":5,"name":"Lg Monster Bone","quantity":"4"}],
 						"note":""
@@ -3902,8 +3902,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":4,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Honey","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":15,"name":"Potion","quantity":"3"},{"percent":6,"name":"Mega Nutrients","quantity":1}],
 						"note":""
@@ -3924,8 +3924,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3950,8 +3950,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -3976,8 +3976,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4003,8 +4003,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Iodrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Ioprey Fang","quantity":"5"},{"percent":2,"name":"Ioprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Ioprey Scale","quantity":"4"},{"percent":4,"name":"Ioprey Fang","quantity":15},{"percent":1,"name":"Poison Sac","quantity":1}],
 						"note":""
@@ -4026,8 +4026,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4052,8 +4052,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4078,8 +4078,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4104,8 +4104,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -4126,8 +4126,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -4148,8 +4148,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathalos Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathalos Wing","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -4170,8 +4170,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Electro Sac","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Pale Extract","quantity":1},{"percent":4,"name":"Pale Bone","quantity":1},{"percent":1,"name":"Electro Sac","quantity":1}],
 						"note":""
@@ -4192,8 +4192,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Electro Sac","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Pale Extract","quantity":1},{"percent":4,"name":"Pale Bone","quantity":1},{"percent":1,"name":"Electro Sac","quantity":1}],
 						"note":""
@@ -4214,8 +4214,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":9,"name":"Plesioth Fin","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":"6"},{"percent":2,"name":"Piscine Fang","quantity":1},{"percent":2,"name":"Scatterfish","quantity":"3"},{"percent":1,"name":"Lg Monster Bone","quantity":1},{"percent":2,"name":"Bomb Arrowana","quantity":"3"},{"percent":1,"name":"Lg Lobstershell","quantity":1}],
 						"note":""
@@ -4236,8 +4236,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Diablos Shell","quantity":1},{"percent":2,"name":"Blos Jaw","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Lg Monster Bone","quantity":"2"},{"percent":2,"name":"Blos Fang","quantity":1},{"percent":5,"name":"Diablos Spine","quantity":1}],
 						"note":""
@@ -4258,8 +4258,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gravios Shell","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"48"},{"percent":2,"name":"Med Monster Bone","quantity":"3"},{"percent":25,"name":"Lg Monster Bone","quantity":"2"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Sleep Sac","quantity":1},{"percent":9,"name":"Lg Bone Husk","quantity":"24"},{"percent":5,"name":"Gravios Carapace","quantity":1}],
 						"note":""
@@ -4280,8 +4280,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4306,8 +4306,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4333,8 +4333,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Wyvern Marrow","quantity":1},{"percent":2,"name":"Rathian Scale","quantity":1},{"percent":15,"name":"Rathian Shell","quantity":1},{"percent":2,"name":"Rathalos Scale","quantity":1},{"percent":15,"name":"Rathalos Shell","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":5,"name":"Rathalos Wing","quantity":1}],
 						"note":""
@@ -4356,8 +4356,8 @@
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5}
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Wing","quantity":1},{"percent":2,"name":"Rathian Scale","quantity":1},{"percent":15,"name":"Rathian Shell","quantity":1},{"percent":2,"name":"Rathalos Scale","quantity":1},{"percent":15,"name":"Rathalos Shell","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":5,"name":"Wyvern Marrow","quantity":1}],
 						"note":""
@@ -4385,14 +4385,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":25,"name":"Lao-Shan's Spine","quantity":1},{"percent":2,"name":"Lao-Shan's Claw","quantity":1},{"percent":3,"name":"Lao-Shan's Scale","quantity":1},{"percent":24,"name":"Lao-Shan's Shell","quantity":1},{"percent":1,"name":"Lao-Shan's Spine","quantity":"2"}],
 						"hrRequire":17,
@@ -4426,14 +4426,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":25,"name":"Lao-Shan's Spine","quantity":1},{"percent":2,"name":"Lao-Shan's Claw","quantity":1},{"percent":3,"name":"Lao-Shan's Scale","quantity":1},{"percent":24,"name":"Lao-Shan's Shell","quantity":1},{"percent":1,"name":"Lao-Shan's Spine","quantity":"2"}],
 						"hrRequire":17,
@@ -4461,11 +4461,11 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":25,"name":"Fatalis' Webbing","quantity":1},{"percent":25,"name":"Fatalis' Scale","quantity":1},{"percent":25,"name":"Fatalis' Shell","quantity":1},{"percent":14,"name":"Lightcrystal","quantity":"5"},{"percent":1,"name":"Novacrystal","quantity":"3"},{"percent":1,"name":"Fatalis' Horn","quantity":1}],
 						"hrRequire":17,
@@ -4493,11 +4493,11 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":25,"name":"Fatalis' Webbing","quantity":1},{"percent":25,"name":"Fatalis' Scale","quantity":1},{"percent":25,"name":"Fatalis' Shell","quantity":1},{"percent":14,"name":"Lightcrystal","quantity":"5"},{"percent":1,"name":"Novacrystal","quantity":"3"},{"percent":1,"name":"Fatalis' Horn","quantity":1}],
 						"hrRequire":17,
@@ -4526,14 +4526,14 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3}
 						],
 						"rewards":[{"percent":25,"name":"Fatalis' Webbing","quantity":1},{"percent":25,"name":"Fatalis' Scale","quantity":1},{"percent":25,"name":"Fatalis' Shell","quantity":1},{"percent":14,"name":"Lightcrystal","quantity":"5"},{"percent":1,"name":"Novacrystal","quantity":"3"},{"percent":1,"name":"Fatalis' Horn","quantity":1}],
 						"hrRequire":17,
@@ -4561,15 +4561,15 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Normal S Lv3","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Ballista S","icons":"gray-icon shot-icon","quantity":3},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2},
-							{"name":"Lifepowder","icons":"white-icon powder-icon","quantity":2}
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Ballista S","icon":"gray-icon shot-icon","quantity":3},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2},
+							{"name":"Lifepowder","icon":"white-icon powder-icon","quantity":2}
 						],
 						"rewards":[{"percent":25,"name":"Fatalis' Webbing","quantity":1},{"percent":25,"name":"Fatalis' Scale","quantity":1},{"percent":25,"name":"Fatalis' Shell","quantity":1},{"percent":14,"name":"Lightcrystal","quantity":"5"},{"percent":1,"name":"Novacrystal","quantity":"3"},{"percent":1,"name":"Fatalis' Horn","quantity":1}],
 						"hrRequire":17,
@@ -4705,8 +4705,8 @@
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
-							{"name":"Mini Whetstone","icons":"yellow-icon whetstone-icon","quantity":2},
-							{"name":"Mini Whetstone","icons":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
@@ -4764,8 +4764,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -4806,8 +4806,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq Bomb","icon":"red-icon bomb-icon","quantity":3},
 							{"name":"Tranq S","icon":"red-icon shot-icon","quantity":4},
@@ -4845,8 +4845,8 @@
 							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
 							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Pierce S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recov S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
@@ -4867,8 +4867,8 @@
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
-							{"name":"Mini Whetstone","icons":"yellow-icon whetstone-icon","quantity":2},
-							{"name":"Mini Whetstone","icons":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
 							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
@@ -4881,8 +4881,8 @@
 							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
-							{"name":"Pellet S Lv1","icons":"white-icon shot-icon","quantity":10},
-							{"name":"Recover S Lv1","icons":"green-icon shot-icon","quantity":5},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recover S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
 						"rewards":[
@@ -5168,7 +5168,7 @@
 						"goal":"Deliver 2 Herbs and 1 Spiderweb","key":true,"reward":"50z","fee":"0z",
 						"rewards":[
 							{"name":"Cricket","quantity":1,"percent":25},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":1,"percent":25},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":1,"percent":25},
 							{"name":"Mystery Bone","quantity":1,"percent":25},
 							{"name":"Herb","quantity":1,"percent":15},
 							{"name":"Honey","quantity":1,"percent":5},
@@ -5180,7 +5180,7 @@
 						"goal":"Deliver 2 Potions","key":true,"reward":"50z","fee":"0z",
 						"rewards":[
 							{"name":"Cricket","quantity":1,"percent":25},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":1,"percent":25},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":1,"percent":25},
 							{"name":"Mystery Bone","quantity":1,"percent":25},
 							{"name":"Herb","quantity":1,"percent":15},
 							{"name":"Honey","quantity":1,"percent":5},
@@ -5192,7 +5192,7 @@
 						"goal":"Deliver 1 Sushifish","key":true,"reward":"50z","fee":"0z",
 						"rewards":[
 							{"name":"Cricket","quantity":1,"percent":25},
-							{"name":"Worm","icon":"gray-icon worm-icon","quantity":1,"percent":25},
+							{"name":"Worm","icon":"gray-icon bait-icon","quantity":1,"percent":25},
 							{"name":"Mystery Bone","quantity":1,"percent":25},
 							{"name":"Herb","quantity":1,"percent":15},
 							{"name":"Honey","quantity":1,"percent":5},
@@ -5294,7 +5294,7 @@
 							{"name":"Velociprey Fang","quantity":8,"percent":20},
 							{"name":"Velociprey Hide","quantity":1,"percent":20},
 							{"name":"Velociprey Scale","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":8,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":8,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1}
 						]
@@ -5356,7 +5356,7 @@
 							{"name":"Velociprey Fang","quantity":8,"percent":20},
 							{"name":"Velociprey Hide","quantity":1,"percent":20},
 							{"name":"Velociprey Scale","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":8,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":8,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1}
 						]
@@ -5489,7 +5489,7 @@
 							{"name":"Velociprey Fang","quantity":8,"percent":20},
 							{"name":"Velociprey Hide","quantity":1,"percent":20},
 							{"name":"Velociprey Scale","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":8,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":8,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
 							{"name":"Rathalos Scale","quantity":1,"percent":90,"require":"Break Rathalos&#8217;s head"},
@@ -5529,6 +5529,9 @@
 					{
 						"name":"Attack of the Giant Bugs!","icon":"monster-icon monster-vespoid","type":"hunt","area":"Jungle",
 						"goal":"Slay 30 Vespoid","key":true,"reward":"400z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Vespoid Wing","quantity":1,"percent":35},
 							{"name":"Vespoid Shell","quantity":1,"percent":35},
@@ -5561,7 +5564,7 @@
 							{"name":"Sm Monster Bone","quantity":2,"percent":20},
 							{"name":"Genprey Fang","quantity":5,"percent":20},
 							{"name":"Genprey Hide","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Genprey Fang","quantity":15,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
 							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
@@ -5679,7 +5682,7 @@
 							{"name":"Sm Monster Bone","quantity":2,"percent":20},
 							{"name":"Ioprey Fang","quantity":5,"percent":20},
 							{"name":"Ioprey Hide","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Ioprey Scale","quantity":4,"percent":15},
 							{"name":"Ioprey Fang","quantity":15,"percent":4}
 						]
@@ -5772,7 +5775,7 @@
 						],
 						"rewards":[
 							{"name":"Machalite Ore","quantity":1,"percent":15},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Iron Ore","quantity":3,"percent":30},
 							{"name":"Lg Monster Bone","quantity":1,"percent":30},
 							{"name":"Poison Sac","quantity":1,"percent":4},
@@ -5869,12 +5872,12 @@
 						],
 						"rewards":[
 							{"name":"Monoblos Shell","quantity":1,"percent":15},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":10},
 							{"name":"Med Monster Bone","quantity":1,"percent":15},
 							{"name":"Lg Monster Bone","quantity":1,"percent":25},
 							{"name":"Monoblos Spine","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":4},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
 							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos&#8217;s horn"}
 						]
@@ -5892,12 +5895,12 @@
 						],
 						"rewards":[
 							{"name":"Monoblos Shell","quantity":1,"percent":15},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":10},
 							{"name":"Med Monster Bone","quantity":1,"percent":15},
 							{"name":"Lg Monster Bone","quantity":1,"percent":25},
 							{"name":"Monoblos Spine","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":4},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
 							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos&#8217;s horn"}
 						]
@@ -5910,12 +5913,12 @@
 						],
 						"rewards":[
 							{"name":"White Monoblos Shell","quantity":1,"percent":15},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":10},
 							{"name":"Med Monster Bone","quantity":1,"percent":15},
 							{"name":"Lg Monster Bone","quantity":1,"percent":25},
 							{"name":"White Monoblos Spine","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":4},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
 							{"name":"Silver Horn","quantity":1,"percent":100,"require":"Break White Monoblos&#8217;s horn"}
 						]
@@ -5929,7 +5932,7 @@
 						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":25},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":10},
 							{"name":"Lg Bone Husk","quantity":12,"percent":10},
 							{"name":"Med Monster Bone","quantity":1,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
@@ -5968,14 +5971,14 @@
 						],
 						"rewards":[
 							{"name":"Blos Jaw","quantity":1,"percent":5},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":5},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Diablos Shell","quantity":1,"percent":25},
 							{"name":"Blos Fang","quantity":1,"percent":10},
 							{"name":"Diablos Tail","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":4},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":1},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":1},
 							{"name":"Twisted Horn","quantity":1,"percent":95},
 							{"name":"Majestic Horn","quantity":1,"percent":5}
 						]
@@ -6073,6 +6076,9 @@
 					{
 						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":50,"type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 15 Special Mushrooms","reward":"600z","fee":"0z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Flute","quantity":1,"percent":1},
 							{"name":"Blue Mushroom","quantity":1,"percent":24},
@@ -6088,6 +6094,9 @@
 					{
 						"name":"The Sculptor&#8217;s Errand","icon":"blue-icon claw-icon","hrp":80,"type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 12 Kelbi Horns","key":true,"reward":"800 z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kelbi Hide","quantity":2,"percent":15},
 							{"name":"Herb","quantity":1,"percent":25},
@@ -6100,6 +6109,9 @@
 					{
 						"name":"It&#8217;s Party Time!","icon":"red-icon meat-icon","hrp":40,"type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 10 pcs Raw Meat","reward":"400z","fee":"0z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Flute","quantity":1,"percent":1},
 							{"name":"Sap Plant","quantity":1,"percent":29},
@@ -6115,6 +6127,9 @@
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":210,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Yian Kut-Ku","key":true,"reward":"2400z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":2,"percent":24},
@@ -6128,6 +6143,9 @@
 					{
 						"name":"Velociprey Hunt","icon":"monster-icon monster-velociprey","hrp":100,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 20 Velociprey","key":true,"reward":"1000z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Velociprey Hide","quantity":2,"percent":25},
 							{"name":"Sm Monster Bone","quantity":1,"percent":25},
@@ -6144,12 +6162,16 @@
 					{
 						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":120,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 3 Velocidrome","reward":"1800z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Velocidrome","q":3},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Screamer","quantity":1,"percent":15},
 							{"name":"Velociprey Fang","quantity":12,"percent":20},
 							{"name":"Velociprey Hide","quantity":3,"percent":20},
 							{"name":"Velociprey Scale","quantity":3,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
 							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
@@ -6161,6 +6183,9 @@
 					{
 						"name":"Liver of Legend!","icon":"yellow-icon creature-icon","hrp":180,"type":"gather","area":"Desert",
 						"goal":"Deliver 10 Piscine Livers","reward":"1600z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Piscine Jaw","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":1,"percent":25},
@@ -6173,6 +6198,9 @@
 					{
 						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":180,"type":"gather","area":"Swamp",
 						"goal":"Deliver 3 Sootstone Ore","key":true,"reward":"3000z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Jewel Ticket","quantity":1,"percent":4},
 							{"name":"Iron Ore","quantity":1,"percent":25},
@@ -6187,6 +6215,9 @@
 					{
 						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":150,"type":"gather","area":"Swamp",
 						"goal":"Deliver 5 Goldenfish","reward":"2800z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Bomb Arrowana","quantity":2,"percent":8},
 							{"name":"Firefly","quantity":10,"percent":20},
@@ -6203,6 +6234,9 @@
 					{
 						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":100,"type":"hunt","area":"Jungle",
 						"goal":"Slay 50 Vespoids","reward":"1200z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Vespoid Shell","quantity":1,"percent":40},
 							{"name":"Vespoid Wing","quantity":1,"percent":40},
@@ -6215,6 +6249,9 @@
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-yian-kut-ku","hrp":220,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Yian Kut-Ku","reward":"2600z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Membrane","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":2,"percent":24},
@@ -6228,6 +6265,9 @@
 					{
 						"name":"The Mushroom Hunt!","icon":"white-icon mushroom-icon","hrp":60,"type":"gather","area":"Jungle",
 						"goal":"Deliver 20 Special Mushrooms","key":true,"reward":"800 z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Flute","quantity":1,"percent":1},
 							{"name":"Blue Mushroom","quantity":1,"percent":24},
@@ -6243,6 +6283,9 @@
 					{
 						"name":"Show me your Cooking Skills!","icon":"orange-icon meat-icon","hrp":50,"type":"gather","area":"Jungle",
 						"goal":"Deliver 15 Well-Done Steaks","reward":"800 z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Flute","quantity":1,"percent":1},
 							{"name":"Herbal Medicine","quantity":1,"percent":24},
@@ -6256,6 +6299,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Gypceros","urgentQuest":true,"reward":"3000z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Med Monster Bone","quantity":1,"percent":24},
@@ -6276,6 +6322,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Gypceros","reward":"2800z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Med Monster Bone","quantity":1,"percent":24},
@@ -6291,6 +6340,9 @@
 					{
 						"name":"Raid the Wyvern&#8217;s Nest","icon":"yellow-icon egg-icon","hrp":240,"type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3000z","fee":"180z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":1},
 							{"name":"Honey","quantity":1,"percent":25},
@@ -6327,6 +6379,9 @@
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-rathian","hrp":330,"type":"hunt","area":"Desert",
 						"goal":"Slay the Rathian","reward":"3600z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -6344,6 +6399,9 @@
 					{
 						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":280,"type":"hunt","area":"Desert",
 						"goal":"Slay the Cephadrome","key":true,"reward":"3000z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Cephadrome"}
+						],
 						"rewards":[
 							{"name":"Piscine Jaw","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":25},
@@ -6357,6 +6415,9 @@
 					{
 						"name":"Slay the Genprey!","icon":"monster-icon monster-genprey","hrp":140,"type":"hunt","area":"Desert",
 						"goal":"Slay 20 Genprey","key":true,"reward":"1200z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Genprey Hide","quantity":2,"percent":25},
 							{"name":"Sm Monster Bone","quantity":1,"percent":25},
@@ -6371,11 +6432,15 @@
 					{
 						"name":"Leaders of the Genprey","icon":"monster-icon monster-gendrome","hrp":160,"type":"hunt","area":"Desert",
 						"goal":"Slay 3 Gendrome","reward":"2200z","fee":"150z",
+						"largeMonsters":[
+							{"n":"Cephadrome"},
+							{"n":"Gendrome","q":3}
+						],
 						"rewards":[
 							{"name":"Genprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
 							{"name":"Genprey Fang","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Genprey Scale","quantity":3,"percent":15},
 							{"name":"Genprey Fang","quantity":10,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1}
@@ -6384,6 +6449,9 @@
 					{
 						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":250,"type":"gather","area":"Desert",
 						"goal":"Deliver 3 Herbivore Eggs","reward":"3400z","fee":"180z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
 							{"name":"Cactus Flower","quantity":1,"percent":25},
@@ -6398,6 +6466,9 @@
 					{
 						"name":"Trouble in the Swamp","icon":"monster-icon monster-bullfango","hrp":100,"type":"hunt","area":"Swamp",
 						"goal":"Slay 15 Bullfango","key":true,"reward":"1200z","fee":"150z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Bullfango Hide","quantity":2,"percent":15},
 							{"name":"Antidote Herb","quantity":3,"percent":25},
@@ -6412,6 +6483,9 @@
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":260,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gypceros","reward":"2800z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Med Monster Bone","quantity":1,"percent":24},
@@ -6427,6 +6501,9 @@
 					{
 						"name":"Get me Sootstone Ore!","icon":"white-icon stone-icon","hrp":240,"type":"gather","area":"Swamp",
 						"goal":"Deliver 3 Sootstone Ore","reward":"3000z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
 						"rewards":[
 							{"name":"Jewel Ticket","quantity":1,"percent":4},
 							{"name":"Iron Ore","quantity":1,"percent":25},
@@ -6441,11 +6518,15 @@
 					{
 						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":170,"type":"hunt","area":"Swamp",
 						"goal":"Slay 3 Gendrome","reward":"2000z","fee":"150z",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Gendrome","q":3}
+						],
 						"rewards":[
 							{"name":"Genprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
 							{"name":"Genprey Fang","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Genprey Scale","quantity":3,"percent":15},
 							{"name":"Genprey Fang","quantity":10,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
@@ -6458,6 +6539,9 @@
 					{
 						"name":"Re-Supply the Dragonator","icon":"gray-icon stone-icon","hrp":140,"type":"gather","area":"Volcano",
 						"goal":"Deliver 15 pcs Coal","reward":"1400z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Machalite Ore","quantity":1,"percent":1},
 							{"name":"Iron Ore","quantity":1,"percent":24},
@@ -6473,9 +6557,12 @@
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":250,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Basarios","reward":"2800z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
 						"rewards":[
 							{"name":"Machalite Ore","quantity":1,"percent":15},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Iron Ore","quantity":3,"percent":30},
 							{"name":"Med Monster Bone","quantity":1,"percent":30},
 							{"name":"Machalite Ore","quantity":2,"percent":4},
@@ -6487,6 +6574,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Gypceros","reward":"3000z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Med Monster Bone","quantity":1,"percent":24},
@@ -6502,6 +6592,9 @@
 					{
 						"name":"More Coal Please","icon":"gray-icon stone-icon","hrp":140,"type":"gather","area":"Jungle",
 						"goal":"Deliver 15 pcs Coal","key":true,"reward":"1400z","fee":"100z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Machalite Ore","quantity":1,"percent":1},
 							{"name":"Iron Ore","quantity":1,"percent":24},
@@ -6515,6 +6608,9 @@
 					{
 						"name":"Capture the Yian Kut-Ku!","icon":"monster-icon monster-yian-kut-ku","hrp":260,"type":"capture","area":"Forest and Hills",
 						"goal":"Capture the Yian Kut-Ku","reward":"2800z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -6531,6 +6627,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"4400z","fee":"180z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -6573,11 +6672,11 @@
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":5},
 							{"name":"Blos Jaw","quantity":1,"percent":5},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Med Monster Bone","quantity":3,"percent":25},
 							{"name":"Lg Monster Bone","quantity":1,"percent":40},
 							{"name":"Lg Bone Husk","quantity":8,"percent":4},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":1},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":1},
 							{"name":"Twisted Horn","quantity":1,"percent":95,"require":"Break Diablos&#8217;s horns"},
 							{"name":"Majestic Horn","quantity":1,"percent":5,"require":"Break Diablos&#8217;s horns"}
 						]
@@ -6600,7 +6699,7 @@
 						"goal":"Slay the Gravios","key":true,"reward":"4800z","fee":"260z",
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":24},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":24},
 							{"name":"Med Monster Bone","quantity":2,"percent":25},
 							{"name":"Lg Monster Bone","quantity":1,"percent":25},
 							{"name":"Lg Monster Bone","quantity":3,"percent":15},
@@ -6632,7 +6731,7 @@
 						"goal":"Slay the Gravios","reward":"5000z","fee":"260z",
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":24},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":24},
 							{"name":"Med Monster Bone","quantity":2,"percent":25},
 							{"name":"Lg Monster Bone","quantity":1,"percent":25},
 							{"name":"Lg Monster Bone","quantity":3,"percent":15},
@@ -6661,7 +6760,7 @@
 							{"name":"Ioprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
 							{"name":"Ioprey Fang","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Ioprey Scale","quantity":3,"percent":15},
 							{"name":"Ioprey Fang","quantity":10,"percent":4},
 							{"name":"Ioprey Fang","quantity":20,"percent":1}
@@ -6704,7 +6803,7 @@
 							{"name":"Ioprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
 							{"name":"Ioprey Fang","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":12,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Ioprey Scale","quantity":3,"percent":15},
 							{"name":"Ioprey Fang","quantity":10,"percent":4},
 							{"name":"Ioprey Fang","quantity":20,"percent":1}
@@ -6900,7 +6999,7 @@
 							{"name":"Velociprey Fang","quantity":24,"percent":20},
 							{"name":"Velociprey Scale","quantity":4,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Velocidrome Head","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
 							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
@@ -7054,7 +7153,7 @@
 							{"name":"Sm Monster Bone","quantity":5,"percent":19},
 							{"name":"Genprey Fang","quantity":5,"percent":20},
 							{"name":"Genprey Hide","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Genprey Scale","quantity":4,"percent":15},
 							{"name":"Genprey Fang","quantity":15,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
@@ -7159,7 +7258,7 @@
 						"rewards":[
 							{"name":"Diablos Spine","quantity":1,"percent":25},
 							{"name":"Diablos Shell","quantity":1,"percent":30},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":15},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":15},
 							{"name":"Lg Bone Husk","quantity":24,"percent":15},
 							{"name":"Diablos Spine","quantity":2,"percent":10},
 							{"name":"Lg Monster Bone","quantity":4,"percent":5},
@@ -7215,7 +7314,7 @@
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Lg Monster Bone","quantity":2,"percent":25},
 							{"name":"Blos Fang","quantity":1,"percent":20},
 							{"name":"Diablos Spine","quantity":1,"percent":5},
@@ -7244,7 +7343,7 @@
 						"goal":"Slay the Gravios","key":true,"reward":"7000z","fee":"600z",
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
 							{"name":"Med Monster Bone","quantity":3,"percent":20},
 							{"name":"Lg Monster Bone","quantity":2,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
@@ -7260,7 +7359,7 @@
 						"goal":"Slay the Basarios","reward":"4000z","fee":"400z",
 						"rewards":[
 							{"name":"Dragonite Ore","quantity":1,"percent":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":25},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":25},
 							{"name":"Machalite Ore","quantity":2,"percent":25},
 							{"name":"Iron Ore","quantity":8,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
@@ -7274,7 +7373,7 @@
 						"goal":"Slay the Gravios","reward":"7400z","fee":"600z",
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
 							{"name":"Med Monster Bone","quantity":3,"percent":20},
 							{"name":"Lg Monster Bone","quantity":2,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
@@ -7293,7 +7392,7 @@
 							{"name":"Sm Monster Bone","quantity":5,"percent":19},
 							{"name":"Ioprey Fang","quantity":5,"percent":20},
 							{"name":"Ioprey Hide","quantity":4,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Ioprey Scale","quantity":4,"percent":15},
 							{"name":"Ioprey Fang","quantity":15,"percent":4},
 							{"name":"Poison Sac","quantity":1,"percent":1}
@@ -7418,7 +7517,7 @@
 						"rewards":[
 							{"name":"Diablos Spine","quantity":1,"percent":25},
 							{"name":"Diablos Shell","quantity":1,"percent":30},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":15},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":15},
 							{"name":"Lg Bone Husk","quantity":24,"percent":15},
 							{"name":"Diablos Spine","quantity":2,"percent":10},
 							{"name":"Lg Monster Bone","quantity":4,"percent":5},
@@ -7952,7 +8051,7 @@
 						"goal":"Slay the Basarios","key":true,"reward":"6800z","fee":"800z",
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":10},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":25},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":25},
 							{"name":"Machalite Ore","quantity":2,"percent":25},
 							{"name":"Iron Ore","quantity":8,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
@@ -7967,7 +8066,7 @@
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":12},
 							{"name":"Carbalite Ore","quantity":2,"percent":4},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":32,"percent":25},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":32,"percent":25},
 							{"name":"Machalite Ore","quantity":4,"percent":25},
 							{"name":"Iron Ore","quantity":10,"percent":20},
 							{"name":"Poison Sac","quantity":2,"percent":10},
@@ -8238,7 +8337,7 @@
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Monster Bone+","quantity":2,"percent":25},
 							{"name":"Blos Fang","quantity":1,"percent":20},
 							{"name":"Diablos Thoracic","quantity":1,"percent":5},
@@ -8252,7 +8351,7 @@
 						"rewards":[
 							{"name":"Black Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":17},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":24,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Monster Bone+","quantity":2,"percent":13},
 							{"name":"Blos Fang","quantity":1,"percent":16},
 							{"name":"Black horned dragon back shell","quantity":1,"percent":20},
@@ -8266,7 +8365,7 @@
 						"goal":"Slay the Gravios","key":true,"reward":"10800z","fee":"1100z",
 						"rewards":[
 							{"name":"Gravios Carapace","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
 							{"name":"Lg Monster Bone","quantity":2,"percent":20},
 							{"name":"Monster Bone+","quantity":1,"percent":25},
 							{"name":"Inferno Sac","quantity":1,"percent":10},
@@ -8283,7 +8382,7 @@
 						"goal":"Slay the Black Gravios","reward":"10800z","fee":"1100z",
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
 							{"name":"Lg Monster Bone","quantity":2,"percent":16},
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Inferno Sac","quantity":1,"percent":12},
@@ -8303,7 +8402,7 @@
 							{"name":"Black Diablos Shell","quantity":1,"percent":28},
 							{"name":"Black Diablos Shell","quantity":2,"percent":10},
 							{"name":"Black horned dragon back shell","quantity":1,"percent":5},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":20},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
 							{"name":"Lg Bone Husk","quantity":24,"percent":18},
 							{"name":"Black horned dragon back","quantity":2,"percent":1},
 							{"name":"Monster Bone+","quantity":3,"percent":18},
@@ -8318,7 +8417,7 @@
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
 							{"name":"Black Gravios Carapace","quantity":2,"percent":8},
-							{"name":"Sm Bone Husk","icons":"white-icon husk-icon","quantity":48,"percent":14},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":14},
 							{"name":"Med Monster Bone","quantity":3,"percent":20},
 							{"name":"Lg Monster Bone","quantity":5,"percent":13},
 							{"name":"Monster Bone+","quantity":2,"percent":12},
