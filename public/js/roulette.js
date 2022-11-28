@@ -24,34 +24,49 @@ ready(() => {
 
 	const rouletteForm = document.getElementById("roulette-form");
 
-	function generateMonsterCheckbox(name, index) {
-		if (index === undefined) {
-			index = 0;
-		}
-
+	function generateMonsterCheckbox(name, value) {
 		return `
 			<label>
-				<input class="large-monster" type="checkbox" value="${name}_${index}"/>
+				<input class="large-monster" type="checkbox" value="${value}"/>
 				<div class="checkbox-icon"></div>
 				<span class="va-m">${name}</span>
 			</label>`;
 	}
 	function generateQuestMarkup(quest) {
-		var largeMonsterRadios = "none";
-		// Exclude capture quests, since you immediately fail if the monster is slain
-		if (quest.largeMonsters && quest.type != "capture") {
+		var largeMonsterRadios = "";
+		if (quest.largeMonsters) {
 			largeMonsterRadios = quest.largeMonsters.map((monster) => {
-				if (monster.q) {
-					var multipleMonsters = [];
-					for (var i = 0; i < monster.q; i++) {
-						multipleMonsters.push(generateMonsterCheckbox(monster.n, i));
-					}
+				var monsterName = monster.n;
+				var includeCheckbox = true;
 
-					return multipleMonsters.join("");
+				// Include checkboxes for tails if a capture quest
+				if (quest.type == "capture") {
+					if (monster.t) {
+						monsterName += " tail";
+					}
+					else {
+						includeCheckbox = false;
+					}
 				}
 
-				return generateMonsterCheckbox(monster.n);
+				if (includeCheckbox) {
+					if (monster.q) {
+						var multipleMonsters = [];
+
+						for (var i = 0; i < monster.q; i++) {
+							multipleMonsters.push(generateMonsterCheckbox(monsterName, monster.n));
+						}
+
+						return multipleMonsters.join("");
+					}
+
+					return generateMonsterCheckbox(monsterName, monster.n);
+				}
 			}).join("");
+		}
+
+		if (largeMonsterRadios.length == 0) {
+			largeMonsterRadios = "none";
 		}
 
 		return `<details id="quest-details-${quest.rank}-${quest.index}">

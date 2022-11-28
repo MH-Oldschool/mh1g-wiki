@@ -55,106 +55,124 @@ function getJSON(filename, callback) {
 	});
 }
 
+function getMonsterByName(bestiary, name) {
+	for (var i = 0; i < bestiary.monsters.length; i++) {
+		if (bestiary.monsters[i].name == name) {
+			return bestiary.monsters[i];
+		}
+	}
+
+	return false;
+}
+
 function getQuestLists(version, location, callback) {
-	getJSON("_views/quests.json", (json) => {
-		var questList = {
-			ranks:[],
-			urgents:[],
-			event:{}
-		};
+	getJSON("_views/bestiary.json", (bestiary) => {
+		function prepQuest(quest, rankI, index) {
+			quest.rank = rankI;
+			quest.index = index;
 
-		// Village
-		if (location == "v") {
-			// Delete non-Japanese version quests
-			if (version == "mh1") {
-				for (var i = json.mh1.villageQuests.length - 1; i >= 0; i--) {
-					if (json.mh1.villageQuests[i].intOnly) {
-						json.mh1.villageQuests.splice(i, 1);
-					}
-				}
-			}
-
-			// Only pass quests from rank 1-5 into the ranked quests
-			for (var rankI = 0; rankI < 5; rankI++) {
-				var rank = json[version].villageQuests[rankI];
-				var rankQuests = [];
-
-				// Only get five quests, like in the game
-				var usedIndices = [];
-				for (var i = 0; i < 5; i++) {
-					// Exclude the last quest in each rank, which is the Urgent
-					var nonUrgentQuestCount = rank.quests.length - 1;
-					var index = parseInt(Math.random() * nonUrgentQuestCount);
-					while (usedIndices.includes(index)) {
-						index = (index + 1) % nonUrgentQuestCount;
+			if (quest.largeMonsters) {
+				quest.largeMonsters = quest.largeMonsters.map((monster) => {
+					var monsterData = getMonsterByName(bestiary, monster.n);
+					if (monsterData.tailCarveCount) {
+						monster.t = true;
 					}
 
-					usedIndices.push(index);
-					rank.quests[index].rank = rankI;
-					rank.quests[index].index = index;
-
-					rankQuests.push(rank.quests[index]);
-				}
-
-				questList.ranks.push(rankQuests);
+					return monster;
+				});
 			}
 
-			// Get all urgent quests, since they aren't randomized
-			questList.urgents = json[version].villageQuests[5].quests.map((quest, index) => {
-				quest.rank = "u";
-				quest.index = index;
-
-				return quest;
-			});
-		}
-		// Town
-		else {
-			// Delete non-Japanese version quests
-			if (version == "mh1") {
-				for (var i = json.mh1.townQuests.length - 1; i >= 0; i--) {
-					if (json.mh1.townQuests[i].intOnly) {
-						json.mh1.townQuests.splice(i, 1);
-					}
-				}
-			}
-
-			// Only pass quests from rank 1-6 (8 for MHG) into the ranked quests
-			var maxRank = version == "mh1" ? 6 : 8;
-			for (var rankI = 0; rankI < maxRank; rankI++) {
-				var rank = json[version].townQuests[rankI];
-				var rankQuests = [];
-
-				// Only get 5/8 quests, like in the game
-				var usedIndices = [];
-				var questCount = version == "mh1" ? 5 : 8;
-				for (var i = 0; i < questCount; i++) {
-					// Exclude the last quest in each rank, which is the Urgent
-					var nonUrgentQuestCount = rank.quests.length - 1;
-					var index = parseInt(Math.random() * nonUrgentQuestCount);
-					while (usedIndices.includes(index)) {
-						index = (index + 1) % nonUrgentQuestCount;
-					}
-
-					usedIndices.push(index);
-					rank.quests[index].rank = rankI;
-					rank.quests[index].index = index;
-
-					rankQuests.push(rank.quests[index]);
-				}
-
-				questList.ranks.push(rankQuests);
-			}
-			// Get all urgent quests, since they aren't randomized
-			questList.urgents = json[version].townQuests[maxRank].quests.map((quest, index) => {
-				quest.rank = "u";
-				quest.index = index;
-
-				return quest;
-			});
-			// TODO: get current event (random event?)
+			return quest
 		}
 
-		callback(questList);
+		getJSON("_views/quests.json", (questData) => {
+			var questList = {
+				ranks:[],
+				urgents:[],
+				event:{}
+			};
+
+			// Village
+			if (location == "v") {
+				// Delete non-Japanese version quests
+				if (version == "mh1") {
+					for (var i = questData.mh1.villageQuests.length - 1; i >= 0; i--) {
+						if (questData.mh1.villageQuests[i].intOnly) {
+							questData.mh1.villageQuests.splice(i, 1);
+						}
+					}
+				}
+
+				// Only pass quests from rank 1-5 into the ranked quests
+				for (var rankI = 0; rankI < 5; rankI++) {
+					var rank = questData[version].villageQuests[rankI];
+					var rankQuests = [];
+
+					// Only get five quests, like in the game
+					var usedIndices = [];
+					for (var i = 0; i < 5; i++) {
+						// Exclude the last quest in each rank, which is the Urgent
+						var nonUrgentQuestCount = rank.quests.length - 1;
+						var index = parseInt(Math.random() * nonUrgentQuestCount);
+						while (usedIndices.includes(index)) {
+							index = (index + 1) % nonUrgentQuestCount;
+						}
+
+						usedIndices.push(index);
+						rankQuests.push(prepQuest(rank.quests[index], rankI, index));
+					}
+
+					questList.ranks.push(rankQuests);
+				}
+
+				// Get all urgent quests, since they aren't randomized
+				questList.urgents = questData[version].villageQuests[5].quests.map((quest, index) => {
+					return prepQuest(quest, "u", index);
+				});
+			}
+			// Town
+			else {
+				// Delete non-Japanese version quests
+				if (version == "mh1") {
+					for (var i = questData.mh1.townQuests.length - 1; i >= 0; i--) {
+						if (questData.mh1.townQuests[i].intOnly) {
+							questData.mh1.townQuests.splice(i, 1);
+						}
+					}
+				}
+
+				// Only pass quests from rank 1-6 (8 for MHG) into the ranked quests
+				var maxRank = version == "mh1" ? 6 : 8;
+				for (var rankI = 0; rankI < maxRank; rankI++) {
+					var rank = questData[version].townQuests[rankI];
+					var rankQuests = [];
+
+					// Only get 5/8 quests, like in the game
+					var usedIndices = [];
+					var questCount = version == "mh1" ? 5 : 8;
+					for (var i = 0; i < questCount; i++) {
+						// Exclude the last quest in each rank, which is the Urgent
+						var nonUrgentQuestCount = rank.quests.length - 1;
+						var index = parseInt(Math.random() * nonUrgentQuestCount);
+						while (usedIndices.includes(index)) {
+							index = (index + 1) % nonUrgentQuestCount;
+						}
+
+						usedIndices.push(index);
+						rankQuests.push(prepQuest(rank.quests[index], rankI, index));
+					}
+
+					questList.ranks.push(rankQuests);
+				}
+				// Get all urgent quests, since they aren't randomized
+				questList.urgents = questData[version].townQuests[maxRank].quests.map((quest, index) => {
+					return prepQuest(quest, "u", index);
+				});
+				// TODO: get current event (random event?)
+			}
+
+			callback(questList);
+		});
 	});
 }
 
@@ -163,26 +181,15 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 
 	var carvedMonsterQuantities = {};
 	largeMonsters.split("+").forEach((monster) => {
-		var monsterMatch = monster.split("_");
-		if (carvedMonsterQuantities[monsterMatch[0]]) {
-			carvedMonsterQuantities[monsterMatch[0]]++;
+		if (carvedMonsterQuantities[monster]) {
+			carvedMonsterQuantities[monster]++;
 		}
 		else {
-			carvedMonsterQuantities[monsterMatch[0]] = 1;
+			carvedMonsterQuantities[monster] = 1;
 		}
 	});
 
 	getJSON("_views/bestiary.json", (bestiary) => {
-		function getMonsterByName(name) {
-			for (var i = 0; i < bestiary.monsters.length; i++) {
-				if (bestiary.monsters[i].name == name) {
-					return bestiary.monsters[i];
-				}
-			}
-
-			return false;
-		}
-
 		getJSON("_views/quests.json", (questData) => {
 			var versionChar = version.toUpperCase();
 			var versionName = "mh" + version;
@@ -247,10 +254,9 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 			}
 
 			var carves = [];
-			// Exclude large monster carves from capture quests
-			if (quest.largeMonsters && quest.type != "capture") {
+			if (quest.largeMonsters) {
 				quest.largeMonsters.forEach((largeMonster) => {
-					var monster = getMonsterByName(largeMonster.n);
+					var monster = getMonsterByName(bestiary, largeMonster.n);
 
 					if (carvedMonsterQuantities[monster.name]) {
 						for (var q = 0; q < carvedMonsterQuantities[monster.name]; q++) {
@@ -260,25 +266,29 @@ function getQuestResults(version, locationChar, starRankIndex, questIndex, large
 								t: []
 							};
 
-							var monsterCarves = monster["carves" + versionChar].find((carves) => {
-								return carves.name == rankName || (locationChar == "v" && carves.name == "Village");
-							}).parts;
+							// Exclude large monster carves from capture quests
+							if (quest.type != "capture") {
+								var monsterCarves = monster["carves" + versionChar].find((carves) => {
+									return carves.name == rankName || (locationChar == "v" && carves.name == "Village");
+								}).parts;
 
-							for (var i = 0; i < monster.carveCount; i++) {
-								var percent = Math.random() * 100;
-								// Default to the most common carve (carves are ordered by most common first)
-								var item = monsterCarves[0];
+								for (var i = 0; i < monster.carveCount; i++) {
+									var percent = Math.random() * 100;
+									// Default to the most common carve (carves are ordered by most common first)
+									var item = monsterCarves[0];
 
-								// Check to see if we actually got a rarer carve
-								for (var c = 1; c < monsterCarves.length; c++) {
-									if (percent < monsterCarves[c].p) {
-										item = monsterCarves[c];
+									// Check to see if we actually got a rarer carve
+									for (var c = 1; c < monsterCarves.length; c++) {
+										if (percent < monsterCarves[c].p) {
+											item = monsterCarves[c];
+										}
 									}
-								}
 
-								carveResults.m.push(item.n);
+									carveResults.m.push(item.n);
+								}
 							}
 
+							// ...but include tail carves
 							if (monster.tailCarveCount) {
 								var tailRankName = `${rankName} Tail`;
 								var tailCarves = monster["carves" + versionChar].find((carves) => {
