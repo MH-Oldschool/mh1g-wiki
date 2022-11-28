@@ -145,6 +145,10 @@ ready(() => {
 		urgentQuestContainer.innerHTML = urgentRows.join("");
 
 		rouletteForm.classList.remove("show-spinner");
+		rouletteForm.classList.add("show-notice");
+		setTimeout(() => {
+			rouletteForm.classList.remove("show-notice");
+		}, 1200);
 
 		const infoSound = new Audio("sounds/info.ogg");
 		infoSound.play();

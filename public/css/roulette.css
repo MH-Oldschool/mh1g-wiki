@@ -187,6 +187,7 @@ ul {
 
 #roulette-form,
 #results-container {
+	overflow: hidden;
 	position: relative;
 	padding: 0.5rem;
 }
@@ -236,6 +237,7 @@ ul {
 .show-spinner:before,
 .show-spinner:after {
 	content: "";
+	z-index: 1;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -258,6 +260,24 @@ ul {
 	animation: spin 2s infinite linear;
 }
 
+.quest-list-notice {
+	z-index: 1;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	padding: 0.5rem 0;
+	margin: 0 auto;
+	width: 8rem;
+	top: -50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	transition: 600ms;
+}
+.show-notice .quest-list-notice {
+	top: 50%;
+}
+
 .drop-in-container {
 	overflow: hidden;
 	position: relative;
@@ -275,6 +295,7 @@ ul {
 @media screen and (min-width: 64rem) {
 	.roulette-container {
 		display: flex;
+		align-items: flex-start;
 		justify-content: space-between;
 	}
 
