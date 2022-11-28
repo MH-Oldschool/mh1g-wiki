@@ -2923,7 +2923,7 @@
 						"goal":"Capture the Gypceros","key":true,"reward":"3400z","fee":"250z","time":"50′","penalty":"1140z",
 						"client":"Requestor: Defense Minister","details":"We are attempting to make a weapon from the poison of the Gypceros. As such, I would like you to capture one and bring it to me.",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Gypceros"}
 						],
 						"supplies":[
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
@@ -6652,6 +6652,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathalos","reward":"4400z","fee":"180z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -6669,6 +6672,9 @@
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-diablos","hrp":400,"type":"hunt","area":"Desert",
 						"goal":"Slay the Diablos","reward":"4400z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":5},
 							{"name":"Blos Jaw","quantity":1,"percent":5},
@@ -6684,6 +6690,9 @@
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-khezu","hrp":310,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Khezu","key":true,"reward":"3800z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":7,"percent":24},
@@ -6697,6 +6706,9 @@
 					{
 						"name":"The Fearsome Gravios","icon":"monster-icon monster-gravios","hrp":420,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gravios","key":true,"reward":"4800z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":24},
@@ -6712,6 +6724,9 @@
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-rathian","hrp":330,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Rathian","reward":"4000z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -6729,6 +6744,9 @@
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-gravios","hrp":430,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Gravios","reward":"5000z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":24},
@@ -6744,6 +6762,9 @@
 					{
 						"name":"Ioprey Hunting","icon":"monster-icon monster-ioprey","hrp":160,"type":"hunt","area":"Volcano",
 						"goal":"Slay 20 Ioprey","key":true,"reward":"1400z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Ioprey Hide","quantity":2,"percent":25},
 							{"name":"Sm Monster Bone","quantity":1,"percent":25},
@@ -6756,6 +6777,10 @@
 					{
 						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":200,"type":"hunt","area":"Volcano",
 						"goal":"Slay 3 Iodrome","reward":"2600z","fee":"260z",
+						"largeMonsters":[
+							{"n":"Iodrome","q":3},
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Ioprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
@@ -6769,6 +6794,9 @@
 					{
 						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":450,"type":"gather","area":"Volcano",
 						"goal":"Deliver 3 Powderstone","key":true,"reward":"4200z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":1},
 							{"name":"Gunpowder","quantity":3,"percent":42},
@@ -6786,6 +6814,9 @@
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-khezu","hrp":300,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Khezu","key":true,"reward":"3800z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":7,"percent":24},
@@ -6799,6 +6830,10 @@
 					{
 						"name":"Slay the Iodrome!","icon":"monster-icon monster-iodrome","hrp":190,"type":"hunt","area":"Jungle",
 						"goal":"Slay 3 Iodrome","key":true,"reward":"2400z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Iodrome","q":3},
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Ioprey Hide","quantity":3,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
@@ -6812,6 +6847,9 @@
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-plesioth","hrp":320,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Plesioth","reward":"3200z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Plesioth Fin","quantity":1,"percent":4},
 							{"name":"Wyvern Claw","quantity":5,"percent":25},
@@ -6824,6 +6862,9 @@
 					{
 						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":400,"type":"gather","area":"Jungle",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"3200z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
 							{"name":"Honey","quantity":1,"percent":25},
@@ -6840,6 +6881,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":340,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Rathian","key":true,"reward":"4000z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Scale","quantity":1,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -6857,6 +6901,9 @@
 					{
 						"name":"Catch a Rathalos","icon":"monster-icon monster-rathalos","hrp":450,"type":"capture","area":"Forest and Hills",
 						"goal":"Capture the Rathalos","reward":"5000z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Shell","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -6878,6 +6925,9 @@
 					{
 						"name":"Catch a Gypceros","icon":"monster-icon monster-gypceros","hrp":300,"type":"capture","area":"Swamp",
 						"goal":"Capture the Gypceros","key":true,"reward":"3400z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":25},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -6895,6 +6945,9 @@
 					{
 						"name":"Get me a Live Khezu!","icon":"monster-icon monster-khezu","hrp":350,"type":"capture","area":"Swamp",
 						"goal":"Capture the Khezu","reward":"4200z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":15},
 							{"name":"Wyvern Claw","quantity":5,"percent":10},
@@ -6910,6 +6963,9 @@
 					{
 						"name":"Bring me a Plesioth!","icon":"monster-icon monster-plesioth","hrp":450,"type":"capture","area":"Jungle",
 						"goal":"Capture the Plesioth","reward":"3200z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Plesioth Scale","quantity":1,"percent":30},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -6926,6 +6982,9 @@
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":800,"type":"hunt","area":"Fort",
 						"goal":"Repel Lao-Shan Lung","urgentQuest":true,"reward":"6200z","fee":"1580z",
+						"largeMonsters":[
+							{"n":"Lao-Shan Lung"}
+						],
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":1},
 							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":25},
@@ -6965,6 +7024,9 @@
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":320,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Yian Kut-Ku","reward":"3600z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -6978,6 +7040,9 @@
 					{
 						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":480,"type":"gather","area":"Jungle",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"3600z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
 							{"name":"Recovery medicine","quantity":2,"percent":25},
@@ -6994,6 +7059,10 @@
 					{
 						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":200,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 3 Velocidrome","reward":"2200z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Velocidrome","q":3},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Screamer","quantity":1,"percent":15},
 							{"name":"Velociprey Fang","quantity":24,"percent":20},
@@ -7011,6 +7080,9 @@
 					{
 						"name":"Raid the Wyvern&#8217;s Nest","icon":"yellow-icon egg-icon","hrp":490,"type":"gather","area":"Forest and Hills",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3400z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
 							{"name":"Recovery medicine","quantity":2,"percent":25},
@@ -7027,6 +7099,9 @@
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-rathian","hrp":440,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathian","key":true,"reward":"5000z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7044,6 +7119,9 @@
 					{
 						"name":"Liver of Legend!","icon":"yellow-icon creature-icon","hrp":300,"type":"gather","area":"Desert",
 						"goal":"Deliver 10 Piscine Livers","key":true,"reward":"2000z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Piscine Jaw","quantity":1,"percent":4},
 							{"name":"Wyvern Claw","quantity":3,"percent":25},
@@ -7057,6 +7135,9 @@
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-rathian","hrp":450,"type":"hunt","area":"Desert",
 						"goal":"Slay the Rathian","reward":"5000z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7074,6 +7155,9 @@
 					{
 						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":420,"type":"hunt","area":"Desert",
 						"goal":"Slay the Cephadrome","key":true,"reward":"4200z","fee":"350z",
+						"largeMonsters":[
+							{"n":"Cephadrome"}
+						],
 						"rewards":[
 							{"name":"Cephalos Fin","quantity":1,"percent":4},
 							{"name":"Wyvern Claw","quantity":7,"percent":20},
@@ -7087,6 +7171,9 @@
 					{
 						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":500,"type":"gather","area":"Desert",
 						"goal":"Deliver 3 Herbivore Eggs","reward":"3800z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":5},
 							{"name":"Cactus Flower","quantity":2,"percent":25},
@@ -7101,6 +7188,9 @@
 					{
 						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":230,"type":"gather","area":"Swamp",
 						"goal":"Deliver 5 Goldenfish","reward":"4600z","fee":"400z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Bomb Arrowana","quantity":2,"percent":8},
 							{"name":"Firefly","quantity":10,"percent":20},
@@ -7117,6 +7207,9 @@
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":400,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gypceros","key":true,"reward":"4000z","fee":"350z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7133,6 +7226,9 @@
 					{
 						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":330,"type":"gather","area":"Swamp",
 						"goal":"Deliver 3 Quartz Ore","reward":"3800z","fee":"980z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Jewel Ticket","quantity":1,"percent":10},
 							{"name":"Machalite Ore","quantity":2,"percent":25},
@@ -7148,6 +7244,10 @@
 					{
 						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":230,"type":"hunt","area":"Swamp",
 						"goal":"Slay 3 Gendrome","reward":"2400z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Gendrome","q":3},
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Gendrome Hide","quantity":1,"percent":1},
 							{"name":"Sm Monster Bone","quantity":5,"percent":19},
@@ -7166,6 +7266,9 @@
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-rathian","hrp":450,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Rathian","reward":"5400z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7183,6 +7286,9 @@
 					{
 						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":210,"type":"hunt","area":"Jungle",
 						"goal":"Slay 50 Vespoids","reward":"1600z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Monster Fluid","quantity":1,"percent":15},
 							{"name":"Vespoid Shell","quantity":1,"percent":35},
@@ -7194,6 +7300,9 @@
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-yian-kut-ku","hrp":330,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Yian Kut-Ku","key":true,"reward":"3800z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7207,6 +7316,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":390,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Gypceros","reward":"4200z","fee":"350z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7223,6 +7335,9 @@
 					{
 						"name":"Capture the Yian Kut-Ku!","icon":"monster-icon monster-yian-kut-ku","hrp":390,"type":"capture","area":"Forest and Hills",
 						"goal":"Capture the Yian Kut-Ku","key":true,"reward":"2800z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -7239,6 +7354,9 @@
 					{
 						"name":"Bring me a Plesioth!","icon":"monster-icon monster-plesioth","hrp":500,"type":"capture","area":"Jungle",
 						"goal":"Capture the Plesioth","reward":"3200z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Plesioth Scale","quantity":1,"percent":30},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -7255,6 +7373,9 @@
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
 						"goal":"Slay 2 Diablos","urgentQuest":true,"reward":"9800z","fee":"1240z",
+						"largeMonsters":[
+							{"n":"Diablos","q":2}
+						],
 						"rewards":[
 							{"name":"Diablos Spine","quantity":1,"percent":25},
 							{"name":"Diablos Shell","quantity":1,"percent":30},
@@ -7275,6 +7396,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":500,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathalos","reward":"6200z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":25},
@@ -7293,6 +7417,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-azure-rathalos","hrp":490,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Azure Rathalos","reward":"6200z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Azure Rathalos"}
+						],
 						"rewards":[
 							{"name":"Azure Rathalos Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7311,6 +7438,9 @@
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-diablos","hrp":530,"type":"hunt","area":"Desert",
 						"goal":"Slay the Diablos","key":true,"reward":"6200z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
@@ -7325,6 +7455,9 @@
 					{
 						"name":"Quartz Ore Request","icon":"white-icon stone-icon","hrp":350,"type":"gather","area":"Swamp",
 						"goal":"Deliver 3 Quartz Ore","reward":"3000z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
 						"rewards":[
 							{"name":"Jewel Ticket","quantity":1,"percent":10},
 							{"name":"Machalite Ore","quantity":2,"percent":25},
@@ -7341,6 +7474,9 @@
 					{
 						"name":"The Fearsome Gravios","icon":"monster-icon monster-gravios","hrp":530,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gravios","key":true,"reward":"7000z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
@@ -7357,6 +7493,9 @@
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":380,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Basarios","reward":"4000z","fee":"400z",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
 						"rewards":[
 							{"name":"Dragonite Ore","quantity":1,"percent":10},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":25},
@@ -7371,6 +7510,9 @@
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-gravios","hrp":550,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Gravios","reward":"7400z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
@@ -7387,6 +7529,10 @@
 					{
 						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":260,"type":"hunt","area":"Volcano",
 						"goal":"Slay 3 Iodrome","reward":"3000z","fee":"250z",
+						"largeMonsters":[
+							{"n":"Iodrome","q":3},
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Iodrome Skin","quantity":1,"percent":1},
 							{"name":"Sm Monster Bone","quantity":5,"percent":19},
@@ -7401,6 +7547,9 @@
 					{
 						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":620,"type":"gather","area":"Volcano",
 						"goal":"Deliver 3 Powderstone","reward":"4000z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":20},
 							{"name":"Gunpowder","quantity":3,"percent":23},
@@ -7416,6 +7565,9 @@
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-khezu","hrp":430,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Khezu","key":true,"reward":"5000z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7429,6 +7581,9 @@
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-plesioth","hrp":470,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Plesioth","key":true,"reward":"4000z","fee":"400z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Plesioth Fin","quantity":1,"percent":9},
 							{"name":"Wyvern Claw","quantity":6,"percent":20},
@@ -7442,6 +7597,9 @@
 					{
 						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":620,"type":"gather","area":"Volcano",
 						"goal":"Deliver 3 Powderstone","reward":"6200z","fee":"1120z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Firestone","quantity":1,"percent":1},
 							{"name":"Gunpowder","quantity":3,"percent":30},
@@ -7458,6 +7616,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":470,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Rathian","reward":"5400z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7475,6 +7636,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-pink-rathian","hrp":460,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Pink Rathian","reward":"5400z","fee":"450z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"}
+						],
 						"rewards":[
 							{"name":"Pink Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7492,6 +7656,10 @@
 					{
 						"name":"A Troublesome Pair","icon":"monster-icon monster-twin-raths","hrp":960,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathian and Rathalos","key":true,"reward":"8400z","fee":"1200z",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Wyvern Marrow","quantity":1,"percent":5},
 							{"name":"Rathian Scale","quantity":1,"percent":20},
@@ -7514,6 +7682,9 @@
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
 						"goal":"Slay 2 Diablos","reward":"9800z","fee":"1240z",
+						"largeMonsters":[
+							{"n":"Diablos","q":2}
+						],
 						"rewards":[
 							{"name":"Diablos Spine","quantity":1,"percent":25},
 							{"name":"Diablos Shell","quantity":1,"percent":30},
@@ -7529,6 +7700,9 @@
 					{
 						"name":"Two Rock Wyverns","icon":"monster-icon monster-basarios","hrp":820,"type":"hunt","area":"Volcano",
 						"goal":"Slay 2 Basarios","key":true,"reward":"7500z","fee":"1060z",
+						"largeMonsters":[
+							{"n":"Basarios","q":2}
+						],
 						"rewards":[
 							{"name":"Union Ore","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":15},
@@ -7543,6 +7717,10 @@
 					{
 						"name":"Wyverns of Land and Sky","icon":"monster-icon monster-twin-raths","hrp":1000,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Rathian and Rathalos","reward":"8800z","fee":"1220z",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":1,"percent":5},
 							{"name":"Rathian Scale","quantity":1,"percent":20},
@@ -7565,6 +7743,9 @@
 					{
 						"name":"Catch a Rathalos","icon":"monster-icon monster-rathalos","hrp":620,"type":"capture","area":"Forest and Hills",
 						"goal":"Capture the Rathalos","reward":"5000z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Shell","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
@@ -7586,6 +7767,9 @@
 					{
 						"name":"Get me a Live Khezu!","icon":"monster-icon monster-khezu","hrp":490,"type":"capture","area":"Swamp",
 						"goal":"Capture the Khezu","key":true,"reward":"4200z","fee":"300z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":15},
 							{"name":"Wyvern Claw","quantity":5,"percent":10},
@@ -7601,6 +7785,9 @@
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1200,"type":"hunt","area":"Fort",
 						"goal":"Repel Lao-Shan Lung","urgentQuest":true,"reward":"12400z","fee":"3160z",
+						"largeMonsters":[
+							{"n":"Lao-Shan Lung"}
+						],
 						"rewards":[
 							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":25},
 							{"name":"Lao-Shan&#8217;s Claw","quantity":1,"percent":20},
@@ -7639,6 +7826,9 @@
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":530,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Yian Kut-Ku","reward":"5400z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7652,6 +7842,9 @@
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-blue-kut-ku","hrp":500,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Blue Yian Kut-Ku","reward":"5400z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Blue Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7665,6 +7858,9 @@
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-yian-kut-ku","hrp":550,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Yian Kut-Ku","key":true,"reward":"5600z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7678,6 +7874,9 @@
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-blue-kut-ku","hrp":520,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Blue Yian Kut-Ku","reward":"5600z","fee":"500z",
+						"largeMonsters":[
+							{"n":"Blue Yian Kut-Ku"}
+						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7691,6 +7890,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":600,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Gypceros","reward":"6000z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7707,6 +7909,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-purple-gypceros","hrp":580,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Purple Gypceros","reward":"6000z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Purple Gypceros"}
+						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7723,6 +7928,9 @@
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":620,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gypceros","key":true,"reward":"6400z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7739,6 +7947,9 @@
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-purple-gypceros","hrp":600,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Purple Gypceros","reward":"6400z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Purple Gypceros"}
+						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7755,6 +7966,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":610,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Gypceros","reward":"6200z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7772,6 +7986,9 @@
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-purple-gypceros","hrp":590,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Purple Gypceros","reward":"6200z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Purple Gypceros"}
+						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":6,"percent":24},
@@ -7789,6 +8006,9 @@
 					{
 						"name":"The Plague of Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":120,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 2 or more Yian Kut-Ku","key":true,"reward":"1200z","fee":"350z",
+						"largeMonsters":[
+							{"n":"Yian Kut-Ku","q":20}
+						],
 						"rewards":[
 							{"name":"Kut-Ku Scale","quantity":3,"percent":24},
 							{"name":"Kut-Ku Scale","quantity":10,"percent":8},
@@ -7810,6 +8030,9 @@
 					{
 						"name":"Thugs from the ground?","icon":"monster-icon monster-cephadrome","hrp":730,"type":"hunt","area":"Desert",
 						"goal":"Slay the Cephadrome","reward":"7000z","fee":"600z",
+						"largeMonsters":[
+							{"n":"Cephadrome"}
+						],
 						"rewards":[
 							{"name":"Cephalos Top Fin","quantity":1,"percent":4},
 							{"name":"Wyvern Claw","quantity":7,"percent":20},
@@ -7822,8 +8045,11 @@
 						]
 					},
 					{
-						"name":"The Plague of Yian Kut-Ku","icon":"monster-icon monster-blue-kut-ku","hrp":860,"type":"hunt","area":"Forest and Hills",
+						"name":"Yian Kut-Ku's Pincer Attack","icon":"monster-icon monster-blue-kut-ku","hrp":860,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay 2 Blue Yian Kut-Ku","key":true,"reward":"8600z","fee":"1160z",
+						"largeMonsters":[
+							{"n":"Blue Yian Kut-Ku", "q":2}
+						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":2,"percent":1},
 							{"name":"Screamer","quantity":3,"percent":24},
@@ -7838,6 +8064,9 @@
 					{
 						"name":"Deadly Poisonous Siege","icon":"monster-icon monster-purple-gypceros","hrp":920,"type":"hunt","area":"Swamp",
 						"goal":"Slay 2 Purple Gypceros","key":true,"reward":"9400z","fee":"1200z",
+						"largeMonsters":[
+							{"n":"Purple Gypceros","q":2}
+						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7855,6 +8084,9 @@
 					{
 						"name":"Two Sand Shadows","icon":"monster-icon monster-cephadrome","hrp":1120,"type":"hunt","area":"Desert",
 						"goal":"Slay 2 Cephadrome","key":true,"reward":"10600z","fee":"1250z",
+						"largeMonsters":[
+							{"n":"Cephadrome","q":2}
+						],
 						"rewards":[
 							{"name":"Cephalos Top Fin","quantity":1,"percent":8},
 							{"name":"Cephalos Top Fin","quantity":2,"percent":3},
@@ -7870,6 +8102,9 @@
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
 						"goal":"Slay 2 Khezu","urgentQuest":true,"reward":"13400z","fee":"1450z",
+						"largeMonsters":[
+							{"n":"Khezu","q":2}
+						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":10},
@@ -7889,6 +8124,9 @@
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-rathian","hrp":780,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathian","reward":"8000z","fee":"750z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7907,6 +8145,9 @@
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-pink-rathian","hrp":760,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Pink Rathian","reward":"8000z","fee":"750z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"}
+						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7925,6 +8166,9 @@
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-rathian","hrp":800,"type":"hunt","area":"Desert",
 						"goal":"Slay the Rathian","reward":"8200z","fee":"700z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7943,6 +8187,9 @@
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-pink-rathian","hrp":780,"type":"hunt","area":"Desert",
 						"goal":"Slay the Pink Rathian","reward":"8200z","fee":"700z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"}
+						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7961,6 +8208,9 @@
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-rathian","hrp":810,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Rathian","key":true,"reward":"8400z","fee":"700z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7979,6 +8229,9 @@
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-pink-rathian","hrp":790,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Pink Rathian","reward":"8400z","fee":"700z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"}
+						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -7997,6 +8250,9 @@
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-khezu","hrp":740,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Khezu","key":true,"reward":"8200z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8010,6 +8266,9 @@
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-red-khezu","hrp":720,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Red Khezu","reward":"8200z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Red Khezu"}
+						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8023,6 +8282,9 @@
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-khezu","hrp":730,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Khezu","reward":"8000z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Khezu"}
+						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8036,6 +8298,9 @@
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-red-khezu","hrp":710,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Red Khezu","reward":"8000z","fee":"650z",
+						"largeMonsters":[
+							{"n":"Red Khezu"}
+						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8049,6 +8314,9 @@
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":680,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Basarios","key":true,"reward":"6800z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":10},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":25},
@@ -8063,6 +8331,9 @@
 					{
 						"name":"Two Rock Wyverns","icon":"monster-icon monster-basarios","hrp":1080,"type":"hunt","area":"Volcano",
 						"goal":"Slay 2 Basarios","key":true,"reward":"9000z","fee":"1240z",
+						"largeMonsters":[
+							{"n":"Basarios","q":2}
+						],
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":12},
 							{"name":"Carbalite Ore","quantity":2,"percent":4},
@@ -8078,6 +8349,9 @@
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
 						"goal":"Slay 2 Khezu","reward":"13400z","fee":"1450z",
+						"largeMonsters":[
+							{"n":"Khezu","q":2}
+						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":10},
@@ -8092,6 +8366,9 @@
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-red-khezu","hrp":1160,"type":"hunt","area":"Swamp",
 						"goal":"Slay 2 Red Khezu","reward":"13400z","fee":"1450z",
+						"largeMonsters":[
+							{"n":"Red Khezu","q":2}
+						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
 							{"name":"Alluring Hide","quantity":1,"percent":10},
@@ -8106,6 +8383,10 @@
 					{
 						"name":"Wyverns of Land and Sky","icon":"monster-icon monster-twin-raths","hrp":1340,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathian and Rathalos","key":true,"reward":"16200z","fee":"2000z",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Rathalos Scale","quantity":2,"percent":13},
@@ -8132,6 +8413,10 @@
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Pink Rathian and Azure Rathalos","urgentQuest":true,"reward":"18400z","fee":"3200z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"},
+							{"n":"Azure Rathalos"}
+						],
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Pink Rathian Scale+","quantity":2,"percent":13},
@@ -8163,6 +8448,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":820,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Rathian","key":true,"reward":"8400z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Rathian"}
+						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":12,"percent":24},
@@ -8181,6 +8469,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-pink-rathian","hrp":800,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Pink Rathian","reward":"8400z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"}
+						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8199,6 +8490,9 @@
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-gold-rathian","hrp":800,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Gold Rathian","reward":"8400z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Gold Rathian"}
+						],
 						"rewards":[
 							{"name":"Gold Rathian Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8217,6 +8511,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":920,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Rathalos","reward":"9200z","fee":"1000z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":12,"percent":24},
@@ -8235,6 +8532,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-azure-rathalos","hrp":900,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Azure Rathalos","reward":"9200z","fee":"1000z",
+						"largeMonsters":[
+							{"n":"Azure Rathalos"}
+						],
 						"rewards":[
 							{"name":"Azure Rathalos Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8253,6 +8553,9 @@
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-silver-rathalos","hrp":900,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Silver Rathalos","reward":"9200z","fee":"1000z",
+						"largeMonsters":[
+							{"n":"Silver Rathalos"}
+						],
 						"rewards":[
 							{"name":"Silver Rathalos Shell","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8271,6 +8574,9 @@
 					{
 						"name":"Eruption-clad King","icon":"monster-icon monster-rathalos","hrp":940,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Rathalos","key":true,"reward":"9600z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8289,6 +8595,9 @@
 					{
 						"name":"Eruption-clad King","icon":"monster-icon monster-azure-rathalos","hrp":920,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Azure Rathalos","reward":"9600z","fee":"800z",
+						"largeMonsters":[
+							{"n":"Azure Rathalos"}
+						],
 						"rewards":[
 							{"name":"Azure Rathalos Carapace","quantity":1,"percent":1},
 							{"name":"Wyvern Fang","quantity":10,"percent":24},
@@ -8307,6 +8616,9 @@
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-plesioth","hrp":860,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Plesioth","reward":"7600z","fee":"750z",
+						"largeMonsters":[
+							{"n":"Plesioth"}
+						],
 						"rewards":[
 							{"name":"Plesioth Top Fin","quantity":1,"percent":9},
 							{"name":"Wyvern Claw","quantity":6,"percent":20},
@@ -8320,6 +8632,9 @@
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-green-plesioth","hrp":840,"type":"hunt","area":"Jungle",
 						"goal":"Slay the Green Plesioth","reward":"7600z","fee":"750z",
+						"largeMonsters":[
+							{"n":"Green Plesioth"}
+						],
 						"rewards":[
 							{"name":"Green Plesioth Scale","quantity":1,"percent":1},
 							{"name":"Green Plesioth Fin","quantity":1,"percent":26},
@@ -8334,6 +8649,9 @@
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-diablos","hrp":960,"type":"hunt","area":"Desert",
 						"goal":"Slay the Diablos","reward":"10000z","fee":"1050z",
+						"largeMonsters":[
+							{"n":"Diablos"}
+						],
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":20},
@@ -8348,6 +8666,9 @@
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-black-diablos","hrp":940,"type":"hunt","area":"Desert",
 						"goal":"Slay the Black Diablos","reward":"10000z","fee":"1050z",
+						"largeMonsters":[
+							{"n":"Black Diablos"}
+						],
 						"rewards":[
 							{"name":"Black Diablos Shell","quantity":1,"percent":10},
 							{"name":"Blos Jaw","quantity":1,"percent":17},
@@ -8363,6 +8684,9 @@
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-gravios","hrp":1000,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Gravios","key":true,"reward":"10800z","fee":"1100z",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
 						"rewards":[
 							{"name":"Gravios Carapace","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
@@ -8380,6 +8704,9 @@
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-black-gravios","hrp":980,"type":"hunt","area":"Volcano",
 						"goal":"Slay the Black Gravios","reward":"10800z","fee":"1100z",
+						"largeMonsters":[
+							{"n":"Black Gravios"}
+						],
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":20},
@@ -8398,6 +8725,9 @@
 					{
 						"name":"Four Horns","icon":"monster-icon monster-black-diablos","hrp":1540,"type":"hunt","area":"Desert",
 						"goal":"Slay 2 Black Diablos","key":true,"reward":"18000z","fee":"2100z",
+						"largeMonsters":[
+							{"n":"Black Diablos","q":2}
+						],
 						"rewards":[
 							{"name":"Black Diablos Shell","quantity":1,"percent":28},
 							{"name":"Black Diablos Shell","quantity":2,"percent":10},
@@ -8414,6 +8744,9 @@
 					{
 						"name":"Burning Twins","icon":"monster-icon monster-black-gravios","hrp":1740,"type":"hunt","area":"Volcano",
 						"goal":"Slay 2 Black Gravios","reward":"19600z","fee":"2250z",
+						"largeMonsters":[
+							{"n":"Black Gravios","q":2}
+						],
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
 							{"name":"Black Gravios Carapace","quantity":2,"percent":8},
@@ -8432,6 +8765,9 @@
 					{
 						"name":"Twin Piscine Wyverns","icon":"monster-icon monster-green-plesioth","hrp":1600,"type":"hunt","area":"Jungle",
 						"goal":"Slay 2 Green Plesioth","key":true,"reward":"14400z","fee":"1600z",
+						"largeMonsters":[
+							{"n":"Green Plesioth","q":2}
+						],
 						"rewards":[
 							{"name":"Green Plesioth Fin","quantity":2,"percent":9},
 							{"name":"Wyvern Claw","quantity":6,"percent":20},
@@ -8445,6 +8781,10 @@
 					{
 						"name":"Wrath of Heaven and Earth","icon":"monster-icon monster-twin-raths","hrp":1420,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Rathian and Rathalos","reward":"18400z","fee":"3200z",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Rathalos"}
+						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Rathalos Scale","quantity":2,"percent":13},
@@ -8471,6 +8811,10 @@
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
 						"goal":"Slay the Pink Rathian and Azure Rathalos","reward":"18400z","fee":"3200z",
+						"largeMonsters":[
+							{"n":"Pink Rathian"},
+							{"n":"Azure Rathalos"}
+						],
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Pink Rathian Scale+","quantity":2,"percent":13},
@@ -8497,6 +8841,10 @@
 					{
 						"name":"Wrath of Heaven and Earth","icon":"monster-icon monster-kim-raths","hrp":1400,"type":"hunt","area":"Swamp",
 						"goal":"Slay the Gold Rathian and Silver Rathalos","reward":"18400z","fee":"3200z",
+						"largeMonsters":[
+							{"n":"Gold Rathian"},
+							{"n":"Silver Rathalos"}
+						],
 						"rewards":[
 							{"name":"Silver Rathalos Wing","quantity":2,"percent":5},
 							{"name":"Gold Rathian Scale","quantity":2,"percent":13},
@@ -8523,6 +8871,9 @@
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":2000,"type":"hunt","area":"Fort",
 						"urgentQuest":true,"goal":"Repel Lao-Shan Lung","reward":"24000z","fee":"4800z",
+						"largeMonsters":[
+							{"n":"Ashen Lao-Shan Lung"}
+						],
 						"rewards":[
 							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
 							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
@@ -8563,6 +8914,9 @@
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":2000,"type":"hunt","area":"Fort",
 						"goal":"Repel Lao-Shan Lung","reward":"24000z","fee":"4800z",
+						"largeMonsters":[
+							{"n":"Ashen Lao-Shan Lung"}
+						],
 						"rewards":[
 							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
 							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
@@ -8598,6 +8952,9 @@
 					{
 						"name":"Legendary Black Dragon (1)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"1600z",
+						"largeMonsters":[
+							{"n":"Fatalis"}
+						],
 						"rewards":[
 							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
 							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
@@ -8622,6 +8979,9 @@
 					{
 						"name":"Legendary Black Dragon (2)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2200z",
+						"largeMonsters":[
+							{"n":"Fatalis"}
+						],
 						"rewards":[
 							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
 							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
@@ -8646,6 +9006,9 @@
 					{
 						"name":"Legendary Black Dragon (3)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2400z",
+						"largeMonsters":[
+							{"n":"Fatalis"}
+						],
 						"rewards":[
 							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
 							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
@@ -8670,6 +9033,9 @@
 					{
 						"name":"Legendary Black Dragon (4)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
 						"goal":"Damage Fatalis as much as you can to drive him away","reward":"9600z","fee":"2800z",
+						"largeMonsters":[
+							{"n":"Fatalis"}
+						],
 						"rewards":[
 							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
 							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},

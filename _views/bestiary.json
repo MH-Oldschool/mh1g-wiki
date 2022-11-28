@@ -2173,7 +2173,7 @@
 			"carveCount":3,
 			"tailCarveCount":1,
 			"carvesG":[
-				{"name":"G Rank","tailParts":[
+				{"name":"G Rank","parts":[
 					{"n":"Black Diablos Carapace","p":56},
 					{"n":"Blos Fang","p":32},
 					{"n":"Black Diablos Spine","p":12}
