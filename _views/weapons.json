@@ -3858,7 +3858,7 @@
 						{
 							"name":"Diablo Horn+",
 							"rarity":4,
-							"damageG":367,
+							"damage1":367,
 							"defense":2,
 							"sharpness":"sharpness_l/diablo_horn+",
 							"price":"11,280",
@@ -3870,7 +3870,7 @@
 						{
 							"name":"Diablo Spear","branchBend":true,
 							"rarity":4,
-							"damage":505,
+							"damage1":505,
 							"defense":3,
 							"sharpness":"sharpness_l/diablo_spear",
 							"price":"21,480",
@@ -4411,7 +4411,7 @@
 							"branch":"white-disaster",
 							"name":"Diablo Spear",
 							"rarity":4,
-							"damage":529,
+							"damageG":529,
 							"defense":3,
 							"sharpness":"sharpness_l/diablo_spear",
 							"price":"21,480",
