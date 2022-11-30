@@ -11,7 +11,7 @@
 			"description": "Wild pigs covered in moss and fungus. Sometimes you will even find mushrooms growing on them. Their meat is known as a delicacy. Though normally docile, they will charge you if angered!",
 			"icon": "mosswine",
 			"image": "mosswine",
-			"hp1":[48,60,96],
+			"hp1":[48,48,48],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
 				{"h":40,"a":1.03,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.10,"d":1.00},
@@ -71,7 +71,7 @@
 			"icon": "bullfango",
 			"image": "bullfango",
 			"largeVersion":true,
-			"hp1":["160 (240)","200 (300)","320 (480)"],
+			"hp1":[160,"200 (300)","259 (389)"],
 			"hpG":[
 				{"h":"100 (150)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.01,"d":1.00},{"h":"160 (240)","a":1.02,"d":1.00},
 				{"h":"160 (240)","a":1.03,"d":1.00},{"h":"200 (300)","a":1.05,"d":1.00},{"h":"200 (300)","a":1.05,"d":1.00},{"h":"200 (300)","a":1.10,"d":1.00},
@@ -122,7 +122,7 @@
 			"description": "A herbivorous, deer-like monster. Valued for their horns, they run away at the first hint of danger. Hunted for their chewy but flavorful meat.",
 			"icon": "kelbi",
 			"image": "kelbi",
-			"hp1":[48,60,96],
+			"hp1":[48,48,48],
 			"hpG":[
 				{"h":30,"a":1.00,"d":1.00},{"h":48,"a":1.00,"d":1.00},{"h":48,"a":1.01,"d":1.00},{"h":48,"a":1.02,"d":1.00},
 				{"h":48,"a":1.03,"d":1.00},{"h":60,"a":1.05,"d":1.00},{"h":60,"a":1.05,"d":1.00},{"h":60,"a":1.10,"d":1.00},
@@ -176,7 +176,7 @@
 			"icon": "aptonoth",
 			"image": "aptonoth",
 			"largeVersion":true,
-			"hp1":["64 (88)","80 (110)","128 (176)"],
+			"hp1":["64 (88)","64 (88)","64 (88)"],
 			"hpG":[
 				{"h":"40 (55)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.01,"d":1.00},{"h":"64 (88)","a":1.02,"d":1.00},
 				{"h":"64 (88)","a":1.03,"d":1.00},{"h":"80 (110)","a":1.05,"d":1.00},{"h":"80 (110)","a":1.05,"d":1.00},{"h":"80 (110)","a":1.10,"d":1.00},
@@ -226,7 +226,7 @@
 			"description": "Hunted for their meat, which is buried under a thick, armored hide. Aggressive, hunting them can be a challenge. Its eggs are a valuable guild commodity.",
 			"icon": "apceros",
 			"image": "apceros",
-			"hp1":[160,200,320],
+			"hp1":[160,200,259],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
 				{"h":40,"a":1.03,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.10,"d":1.00},
@@ -281,7 +281,7 @@
 			"description": "Cat-like humanoids with white fur. Normally quiet unless angered, in which case they attack. Capable of speech. Found in the employ of humans.",
 			"icon": "felyne",
 			"image": "felyne",
-			"hp1":[32,40,64],
+			"hp1":[32,32,32],
 			"hpG":[
 				{"h":20,"a":1.00,"d":1.00},{"h":32,"a":1.00,"d":1.00},{"h":32,"a":1.01,"d":1.00},{"h":32,"a":1.02,"d":1.00},
 				{"h":32,"a":1.03,"d":1.00},{"h":40,"a":1.05,"d":1.00},{"h":40,"a":1.05,"d":1.00},{"h":40,"a":1.10,"d":1.00},
@@ -304,7 +304,7 @@
 			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won&#8217;t pass up a chance to steal and take it to their village. Distracted by Felvine.",
 			"icon": "melynx",
 			"image": "melynx",
-			"hp1":[40,50,80],
+			"hp1":[40,32,32],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
 				{"h":40,"a":1.03,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.05,"d":1.00},{"h":50,"a":1.10,"d":1.00},
@@ -328,7 +328,7 @@
 			"icon": "vespoid",
 			"image": "vespoid",
 			"largeVersion":true,
-			"hp1":["32 (64)","40 (80)","64 (128)"],
+			"hp1":[32,"32 (64)","32 (64)"],
 			"hpG":[
 				{"h":"20 (40)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.01,"d":1.00},{"h":"32 (64)","a":1.02,"d":1.00},
 				{"h":"32 (64)","a":1.03,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.05,"d":1.00},{"h":"40 (80)","a":1.10,"d":1.00},
@@ -386,7 +386,7 @@
 			"icon": "hornetaur",
 			"image": "hornetaur",
 			"largeVersion":true,
-			"hp1":["40 (80)","50 (100)","80 (160)"],
+			"hp1":[40,"40 (80)","40 (80)"],
 			"hpG":[
 				{"h":"25 (50)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.01,"d":1.00},{"h":"40 (80)","a":1.02,"d":1.00},
 				{"h":"40 (80)","a":1.03,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.05,"d":1.00},{"h":"50 (100)","a":1.10,"d":1.00},
@@ -445,7 +445,7 @@
 			"description": "Aggressive, carnivorous monsters that travel in packs. Even master hunters should avoid getting surrounded! Wide ranging, they are found in many different climates.",
 			"icon": "velociprey",
 			"image": "velociprey",
-			"hp1":[56,70,112],
+			"hp1":[60,70,90],
 			"hpG":[
 				{"h":35,"a":1.00,"d":1.00},{"h":56,"a":1.00,"d":1.00},{"h":56,"a":1.01,"d":1.00},{"h":56,"a":1.02,"d":1.00},
 				{"h":56,"a":1.03,"d":1.00},{"h":70,"a":1.05,"d":1.00},{"h":70,"a":1.05,"d":1.00},{"h":70,"a":1.10,"d":1.00},
@@ -526,7 +526,7 @@
 			"description": "The alpha monster that leads a Velociprey pack. Larger and with a more prominent crest. Highly territorial, but will retreat to a safe place when injured.",
 			"icon": "velocidrome",
 			"image": "velocidrome",
-			"hp1":[500,"1,000","1,600"],
+			"hp1":[500,1000,1500],
 			"hpG":[
 				{"h":300,"a":1.00,"d":1.00},{"h":400,"a":1.00,"d":1.00},{"h":500,"a":1.01,"d":1.00},{"h":600,"a":1.03,"d":1.00},
 				{"h":700,"a":1.05,"d":1.00},{"h":"1,000","a":1.20,"d":0.95},{"h":"1,000","a":1.20,"d":0.95},{"h":"1,100","a":1.30,"d":0.95},
@@ -582,7 +582,7 @@
 			"description": "Subspecies of Velociprey mainly found in deserts. They travel in packs. Their large fangs and claws contain a neurotoxin that is used to stun and paralyze prey.",
 			"icon": "genprey",
 			"image": "genprey",
-			"hp1":[80,100,160],
+			"hp1":[80,100,129],
 			"hpG":[
 				{"h":50,"a":1.00,"d":1.00},{"h":80,"a":1.00,"d":1.00},{"h":80,"a":1.01,"d":1.00},{"h":80,"a":1.02,"d":1.00},
 				{"h":80,"a":1.03,"d":1.00},{"h":100,"a":1.05,"d":1.00},{"h":100,"a":1.05,"d":1.00},{"h":100,"a":1.10,"d":1.00},
@@ -636,7 +636,7 @@
 			"description": "The alpha monster that leads a Genprey pack. They are larger and have a more prominent crest. Found in the desert. They can paralyze prey using their toxic fangs and claws.",
 			"icon": "gendrome",
 			"image": "gendrome",
-			"hp1":[750,"1,500","2,400"],
+			"hp1":[750,1500,2250],
 			"hpG":[
 				{"h":450,"a":1.00,"d":1.00},{"h":600,"a":1.00,"d":1.00},{"h":750,"a":1.01,"d":1.00},{"h":900,"a":1.03,"d":1.00},
 				{"h":"1,050","a":1.05,"d":1.00},{"h":"1,500","a":1.20,"d":0.95},{"h":"1,500","a":1.20,"d":0.95},{"h":"1,650","a":1.30,"d":0.95},
@@ -689,7 +689,7 @@
 			"description": "A subspecies of Velociprey often found in subtropical zones. Sacs in their throat contain a powerful poison that slowly drains the Health of their prey.",
 			"icon": "ioprey",
 			"image": "ioprey",
-			"hp1":[120,150,240],
+			"hp1":[120,150,194],
 			"hpG":[
 				{"h":75,"a":1.00,"d":1.00},{"h":120,"a":1.00,"d":1.00},{"h":120,"a":1.01,"d":1.00},{"h":120,"a":1.02,"d":1.00},
 				{"h":120,"a":1.03,"d":1.00},{"h":150,"a":1.05,"d":1.00},{"h":150,"a":1.05,"d":1.00},{"h":150,"a":1.10,"d":1.00},
@@ -742,7 +742,7 @@
 			"description": "Alpha monster of an Ioprey pack. Larger and with a more prominent crest. Found in tropical zones. Their poison saps the life force of its prey.",
 			"icon": "iodrome",
 			"image": "iodrome",
-			"hp1":["1,000","2,000","3,200"],
+			"hp1":[1000,2000,3000],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":"1,000","a":1.01,"d":1.00},{"h":"1,200","a":1.03,"d":1.00},
 				{"h":"1,400","a":1.05,"d":1.00},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,200","a":1.30,"d":0.95},
@@ -795,7 +795,7 @@
 			"description": "Male wyvern that keeps a nest and patrols its territory from the air in search of prey. Its claws are filled with poison that weakens its prey.",
 			"icon": "rathalos",
 			"image": "rathalos",
-			"hp1":["2,000","4,000","6,400"],
+			"hp1":[2000,4000,6000],
 			"hpG":[
 				{"h":"1,200","a":1.00,"d":1.00},{"h":"1,600","a":1.00,"d":1.00},{"h":"2,000","a":1.01,"d":1.00},{"h":"2,400","a":1.03,"d":1.00},
 				{"h":"2,800","a":1.05,"d":1.00},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,400","a":1.30,"d":0.95},
@@ -1046,7 +1046,7 @@
 			"description": "Female wyvern to the male Rathalos. Unlike its male counterpart, it usually patrols its territory by foot. Its tail spikes are filled with poison.",
 			"icon": "rathian",
 			"image": "rathian",
-			"hp1":["2,500","5,000","8,000"],
+			"hp1":[2500,5000,7500],
 			"hpG":[
 				{"h":"1,500","a":1.00,"d":1.00},{"h":"2,000","a":1.00,"d":1.00},{"h":"2,500","a":1.01,"d":1.00},{"h":"3,000","a":1.03,"d":1.00},
 				{"h":"3,500","a":1.05,"d":1.00},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,500","a":1.30,"d":0.95},
@@ -1290,7 +1290,7 @@
 			"description": "A bird-like wyvern with a huge beak and large ears. With its sensitive hearing it dislikes loud noises. Smaller but faster than other wyverns.",
 			"icon": "yian-kut-ku",
 			"image": "yian_kut_ku",
-			"hp1":["1,000","2,000","3,200"],
+			"hp1":[1000,2000,3000],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":"1,000","a":1.01,"d":1.00},{"h":"1,200","a":1.03,"d":1.00},
 				{"h":"1,400","a":1.05,"d":1.00},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,200","a":1.30,"d":0.95},
@@ -1413,7 +1413,7 @@
 			"description": "A wyvern that can generate bright flashes of light with its prominent head crest. Its rubbery hide resists damage, and it can spit a poisonous substance.",
 			"icon": "gypceros",
 			"image": "gypceros",
-			"hp1":["1,500","3,000","4,800"],
+			"hp1":[1500,3000,4500],
 			"hpG":[
 				{"h":900,"a":1.00,"d":1.00},{"h":"1,200","a":1.00,"d":1.00},{"h":"1,500","a":1.01,"d":1.00},{"h":"1,800","a":1.03,"d":1.00},
 				{"h":"2,100","a":1.05,"d":1.00},{"h":"3,000","a":1.20,"d":0.95},{"h":"3,000","a":1.20,"d":0.95},{"h":"3,300","a":1.30,"d":0.95},
@@ -1537,7 +1537,7 @@
 			"description": "Loathsome wyverns that live inside caves. Near blind, they detect their prey by smell. They are capable of generating electric shocks, which they use to paralyze their prey.",
 			"icon": "khezu",
 			"image": "khezu",
-			"hp1":["2,000","4,000","6,400"],
+			"hp1":[2000,4000,6000],
 			"hpG":[
 				{"h":"1,200","a":1.00,"d":1.00},{"h":"1,600","a":1.00,"d":1.00},{"h":"2,000","a":1.01,"d":1.00},{"h":"2,400","a":1.03,"d":1.00},
 				{"h":"2,800","a":1.05,"d":1.00},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,400","a":1.30,"d":0.95},
@@ -1659,7 +1659,7 @@
 			"description": "An enormous, flightless, aquatic wyvern with wings that have evolved into fins for swimming. Although superficially fish-like, they can move on land as well. They love frogs.",
 			"icon": "plesioth",
 			"image": "plesioth",
-			"hp1":["2,500","5,000","8,000"],
+			"hp1":["n/a",5000,7500],
 			"hpG":[
 				{"h":"1,500","a":1.00,"d":1.00},{"h":"2,000","a":1.00,"d":1.00},{"h":"2,500","a":1.01,"d":1.00},{"h":"3,000","a":1.03,"d":1.00},
 				{"h":"3,500","a":1.05,"d":1.00},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,500","a":1.30,"d":0.95},
@@ -1777,7 +1777,7 @@
 			"description": "Wyverns found only in the desert. They resemble a Plesioth, but live and &#8220;swim&#8221; in sand rather than water. They seldom appear above land, but when their hearing is disturbed...",
 			"icon": "cephalos",
 			"image": "cephalos",
-			"hp1":[240,320,480],
+			"hp1":[240,300,389],
 			"hpG":[
 				{"h":150,"a":1.00,"d":1.00},{"h":240,"a":1.00,"d":1.00},{"h":240,"a":1.01,"d":1.00},{"h":240,"a":1.02,"d":1.00},
 				{"h":240,"a":1.03,"d":1.00},{"h":300,"a":1.05,"d":1.00},{"h":300,"a":1.05,"d":1.00},{"h":300,"a":1.10,"d":1.00},
@@ -1850,7 +1850,7 @@
 			"description": "The alpha monster form of the Cephalos. Larger and armored with black scales, they fit the appearance of a leader perfectly. Their fins hold a paralyzing toxin.",
 			"icon": "cephadrome",
 			"image": "cephadrome",
-			"hp1":["2,000","4,000","6,400"],
+			"hp1":[2000,4000,6000],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":"1,000","a":1.01,"d":1.00},{"h":"1,200","a":1.03,"d":1.00},
 				{"h":"1,400","a":1.05,"d":1.00},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,000","a":1.20,"d":0.95},{"h":"2,200","a":1.30,"d":0.95},
@@ -1932,7 +1932,7 @@
 			"description": "Large-horned wyvern found in deserts. The giant horn makes their attacks very dangerous. Without breath attack. Their ear-splitting roar is the bane of hunters.",
 			"icon": "monoblos",
 			"image": "monoblos",
-			"hp1":["3,000","n/a","n/a"],
+			"hp1":[3000,"n/a","n/a"],
 			"unusedHPG":true,
 			"hpG":[
 				{"h":"1,800","a":1.00,"d":1.00},{"h":"2,400","a":1.00,"d":1.00},{"h":"3,000","a":1.01,"d":1.00,"active":true},{"h":"3,600","a":1.03,"d":1.00},
@@ -2052,7 +2052,7 @@
 			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It&#8217;s confirmed that they have a subspecies called Monoblos.",
 			"icon": "diablos",
 			"image": "diablos",
-			"hp1":["3,500","7,000","11,200"],
+			"hp1":[3500,7000,10500],
 			"hpG":[
 				{"h":"2,100","a":1.00,"d":1.00},{"h":"2,800","a":1.00,"d":1.00},{"h":"3,500","a":1.01,"d":1.00},{"h":"4,200","a":1.03,"d":1.00},
 				{"h":"4,900","a":1.05,"d":1.00},{"h":"7,000","a":1.20,"d":0.95},{"h":"7,000","a":1.20,"d":0.95},{"h":"7,700","a":1.30,"d":0.95},
@@ -2196,7 +2196,7 @@
 			"description": "A large wyvern found in volcanic zones. It possesses a fiery breath-attack and can emit a sleeping gas. Their scales are extremely hard, deflecting most weapon attacks.",
 			"icon": "gravios",
 			"image": "gravios",
-			"hp1":["2,500","5,000","8,000"],
+			"hp1":[2500,5000,7500],
 			"hpG":[
 				{"h":"1,500","a":1.00,"d":1.00},{"h":"2,000","a":1.00,"d":1.00},{"h":"2,500","a":1.01,"d":1.00},{"h":"3,000","a":1.03,"d":1.00},
 				{"h":"3,500","a":1.05,"d":1.00},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,000","a":1.20,"d":0.95},{"h":"5,500","a":1.30,"d":0.95},
@@ -2354,7 +2354,7 @@
 			"description": "A large wyvern found in volcanic zones. They are the juvenile form of the Gravios. They have a steel-like carapace that requires powerful weapons to crack. Emits poison gas.",
 			"icon": "basarios",
 			"image": "basarios",
-			"hp1":["1,500","3,000","4,800"],
+			"hp1":[1500,3000,4500],
 			"hpG":[
 				{"h":900,"a":1.00,"d":1.00},{"h":"1,200","a":1.00,"d":1.00},{"h":"1,500","a":1.01,"d":1.00},{"h":"1,800","a":1.03,"d":1.00},
 				{"h":"2,100","a":1.05,"d":1.00},{"h":"3,000","a":1.20,"d":0.95},{"h":"3,000","a":1.20,"d":0.95},{"h":"3,300","a":1.30,"d":0.95},
@@ -2463,7 +2463,7 @@
 			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It&#8217;s apparently capable of calling forth lightning at will. Its material is very valuable.",
 			"icon": "unknown",
 			"image": "kirin",
-			"hp1":["n/a","4,000","6,400-7,200 (unused)"],
+			"hp1":["n/a",4000,"n/a"],
 			"hpG":[
 				{"h":"1,200","a":1.00,"d":1.00},{"h":"1,600","a":1.00,"d":1.00},{"h":"2,000","a":1.01,"d":1.00},{"h":"2,400","a":1.03,"d":1.00},
 				{"h":"2,800","a":1.05,"d":1.00},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,000","a":1.20,"d":0.95},{"h":"4,400","a":1.30,"d":0.95},
@@ -2540,7 +2540,7 @@
 			"description": "A giant dragon few have seen and lived to tell the tale. When on a rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast. Will it hold?",
 			"icon": "unknown",
 			"image": "lao_shan_lung",
-			"hp1":["n/a","26,666","31,999"],
+			"hp1":["n/a",26666,31999],
 			"hpG":[
 				{"h":"7,999","a":1.00,"d":1.00},{"h":"10,666","a":1.00,"d":1.00},{"h":"13,333","a":1.01,"d":1.00},{"h":"15,999","a":1.03,"d":1.00},
 				{"h":"18,666","a":1.05,"d":1.00},{"h":"26,666","a":1.20,"d":0.95},{"h":"26,666","a":1.20,"d":0.95},{"h":"26,666","a":1.50,"d":0.90},
@@ -2688,7 +2688,7 @@
 			"description": "A legendary black dragon said to have prowled these lands from the days of old. A monster shrouded in mystery...",
 			"icon": "unknown",
 			"image": "fatalis",
-			"hp1":["n/a","n/a","32,000"],
+			"hp1":["n/a","n/a",32000],
 			"hpG":[
 				{"h":"32,000","a":2.60,"d":0.85}
 			],
