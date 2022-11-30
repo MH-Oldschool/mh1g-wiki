@@ -249,7 +249,7 @@ body {
 	width: 7rem;
 }
 .show-1 .sharpness-container {
-	overflow-x: hidden;
+	overflow: hidden;
 	border-right: 1px solid #808080;
 	height: 10px;
 	width: 91px;
