@@ -36,6 +36,7 @@
 						<caption>Hitpoints{{#largeVersion}} (large in parentheses){{/largeVersion}}</caption>
 						<thead>
 							<tr>
+								<th></th>
 								<th>Village</th>
 								<th>Low Rank Town</th>
 								<th>High Rank Town</th>
@@ -44,9 +45,16 @@
 
 						<tbody class="ta-r">
 							<tr>
+								<th>Hitpoints</th>
 								{{#hp1}}
-									<td>{{.}}</td>
+									<td>{{^.}}n/a{{/.}}{{.}}</td>
 								{{/hp1}}
+							</tr>
+							<tr>
+								<th>Defense</th>
+								{{#def1}}
+									<td>{{^.}}n/a{{/.}}{{.}}</td>
+								{{/def1}}
 							</tr>
 						</tbody>
 					</table>
@@ -129,10 +137,15 @@
 								{{#status1}}
 									<tr>
 										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
-										<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
-										<td class="ta-r">{{duration}}s</td>
-										<td class="ta-r">{{recovery}}</td>
-										<td class="ta-r">{{damage}}</td>
+										{{#immune}}
+											<td colspan=4 class="ta-c">Immune</td>
+										{{/immune}}
+										{{^immune}}
+											<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
+											<td class="ta-r">{{duration}}s</td>
+											<td class="ta-r">{{recovery}}</td>
+											<td class="ta-r">{{^damage}}n/a{{/damage}}{{damage}}</td>
+										{{/immune}}
 									</tr>
 								{{/status1}}
 							</tbody>
@@ -141,10 +154,15 @@
 								{{#statusG}}
 									<tr>
 										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
-										<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
-										<td class="ta-r">{{duration}}s</td>
-										<td class="ta-r">{{recovery}}</td>
-										<td class="ta-r">{{damage}}</td>
+										{{#immune}}
+											<td colspan=4 class="ta-c">Immune</td>
+										{{/immune}}
+										{{^immune}}
+											<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
+											<td class="ta-r">{{duration}}s</td>
+											<td class="ta-r">{{recovery}}</td>
+											<td class="ta-r">{{^damage}}n/a{{/damage}}{{damage}}</td>
+										{{/immune}}
 									</tr>
 								{{/statusG}}
 							</tbody>
