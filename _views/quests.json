@@ -980,28 +980,6 @@
 						"intOnly": true
 					},
 					{
-						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":0,"type":"hunt","area":"Volcano",
-						"goal":"Slay the Basarios","key":true,"reward":"2000z","fee":"700z","time":"50′","penalty":"700z",
-						"client":"Requestor: Survivor","details":"A wyvern attacked my expedition from out of the blue in the volcanic zone. Where did it come from? Please slay it!",
-						"largeMonsters":[
-							{"n":"Basarios"}
-						],
-						"supplies":[
-							{"name":"Map","icon":"white-icon map-icon","quantity":1},
-							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
-							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
-							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
-							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
-							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
-							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
-							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
-						],
-						"rewards":[{"percent":2,"name":"Basarios Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":1},{"percent":2,"name":"Iron Ore","quantity":"3"},{"percent":15,"name":"Med Monster Bone","quantity":1},{"percent":4,"name":"Machalite Ore","quantity":"3"},{"percent":1,"name":"Machalite Ore","quantity":"6"}],
-						"note":"{only JP}"
-					},
-					{
 						"name":"Water Wyvern in the Desert","hrp":0,"type":"hunt","area":"Desert",
 						"goal":"Slay the Plesioth","reward":"1400z","fee":"300z","time":"50′","penalty":"500z",
 						"client":"Requestor: Proud Hunter","details":"I found a giant Water Wyvern in a cave in the desert! I can't defeat it because it stays underwater. Slay it and the credit's yours!",
@@ -1132,6 +1110,28 @@
 			{
 				"urgent": true,
 				"quests":[
+					{
+						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":0,"type":"hunt","area":"Volcano",
+						"goal":"Slay the Basarios","reward":"2000z","fee":"700z","time":"50′","penalty":"700z",
+						"client":"Requestor: Survivor","details":"A wyvern attacked my expedition from out of the blue in the volcanic zone. Where did it come from? Please slay it!",
+						"largeMonsters":[
+							{"n":"Basarios"}
+						],
+						"supplies":[
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
+							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":2},
+							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
+							{"name":"Normal S Lv3","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":5},
+							{"name":"Immunizer","icon":"yellow-icon jar-icon","quantity":1}
+						],
+						"rewards":[{"percent":2,"name":"Basarios Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":1},{"percent":2,"name":"Iron Ore","quantity":"3"},{"percent":15,"name":"Med Monster Bone","quantity":1},{"percent":4,"name":"Machalite Ore","quantity":"3"},{"percent":1,"name":"Machalite Ore","quantity":"6"}],
+						"note":"{only JP}"
+					},
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-khezu","type":"hunt","area":"Swamp",
 						"goal":"Slay the Khezu","reward":"2250z","fee":"700z","time":"50′","penalty":"800z",

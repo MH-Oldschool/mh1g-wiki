@@ -9,13 +9,14 @@ ready(() => {
 		else {
 			// open any mhg-only branches that were open before
 			document.querySelectorAll(".branch-button.mhg.open").forEach((element) => {
-				document.getElementById(element.dataset.target).classList.add("open");
+				toggleBranch(element, true);
 			});
+			// Be sure to toggle the handicraft class on the weapon calculator etc.
+			toggleHandicraftSkill(handicraft.checked);
 		}
 
 		// Hide the calculator, since some weapons just won't be there in the other version
-		var damageCalculator = document.getElementById("damage-calculator");
-		damageCalculator.className = "";
+		calculator.classList.remove("show");
 
 		updateCalcSharpnessMax();
 	});
