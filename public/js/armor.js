@@ -192,6 +192,15 @@ ready(() => {
 		}
 	});
 
+	document.getElementById("show-true-values").addEventListener("change", (event) => {
+		if (event.target.checked) {
+			document.body.classList.add("show-true-values");
+		}
+		else {
+			document.body.classList.remove("show-true-values");
+		}
+	});
+
 	document.body.addEventListener("g-toggle", window.closePopup);
 
 	new ArmorBuilder("1", builderContainer);

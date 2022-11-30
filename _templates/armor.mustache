@@ -282,36 +282,103 @@
 			<table>
 				<tbody>
 					<tr>
-						<th scope="row">Health</th><td id="health-stat-1" class="health-stat">100</td>
+						<th scope="row">Health</th><td id="health-stat-1" class="health-stat ta-r">100</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
-							<span id="fire-res-1" class="res-value">0</span>
+							<div class="res-value">
+								<span id="fire-res-1">0</span>
+								<span class="true-value">%</span>
+							</div>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Stamina</th><td id="stamina-stat-1" class="stamina-stat">100</td>
+						<th scope="row">Stamina</th><td id="stamina-stat-1" class="stamina-stat ta-r">100</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
-							<span id="water-res-1" class="res-value">0</span>
+							<div class="res-value">
+								<span id="water-res-1">0</span>
+								<span class="true-value">%</span>
+							</div>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Attack</th><td id="attack-stat-1" class="attack-stat">0</td>
+						<th scope="row">Attack</th><td id="attack-stat-1" class="attack-stat ta-r">0</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
-							<span id="thunder-res-1" class="res-value">0</span>
+							<div class="res-value">
+								<span id="thunder-res-1">0</span>
+								<span class="true-value">%</span>
+							</div>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">Defense</th><td id="defense-stat-1" class="defense-stat">0</td>
+						<th scope="row">Defense</th><td id="defense-stat-1" class="defense-stat ta-r">0</td>
 						<td>
 							<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
-							<span id="dragon-res-1" class="res-value">0</span>
+							<div class="res-value">
+								<span id="dragon-res-1">0</span>
+								<span class="true-value">%</span>
+							</div>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
+
+		<div id="gender-mixing-error-g" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
+		<div id="class-mixing-error-g" class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
+		<div class="mhg stats-rows">
+			<table>
+				<tbody>
+					<tr>
+						<th scope="row">Health</th><td id="health-stat-g" class="health-stat ta-r">100</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
+							<div class="res-value">
+								<span id="fire-res-g">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Stamina</th><td id="stamina-stat-g" class="stamina-stat ta-r">100</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
+							<div class="res-value">
+								<span id="water-res-g">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Attack</th><td id="attack-stat-g" class="attack-stat ta-r">0</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
+							<div class="res-value">
+								<span id="thunder-res-g">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Defense</th><td id="defense-stat-g" class="defense-stat ta-r">0</td>
+						<td>
+							<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
+							<div class="res-value">
+								<span id="dragon-res-g">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<label>
+			<input id="show-true-values" type="checkbox"/>
+			<span class="checkbox-icon"></span> <span class="label-copy">Show True Values</span>
+		</label>
+
 		<div class="mh1">
 			<table>
 				<tbody id="armor-skills-1">
@@ -329,42 +396,6 @@
 			</table>
 		</div>
 
-		<div id="gender-mixing-error-g" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
-		<div id="class-mixing-error-g" class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
-		<div class="mhg stats-rows">
-			<table>
-				<tbody>
-					<tr>
-						<th scope="row">Health</th><td id="health-stat-g" class="health-stat">100</td>
-						<td>
-							<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
-							<span id="fire-res-g" class="res-value">0</span>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Stamina</th><td id="stamina-stat-g" class="stamina-stat">100</td>
-						<td>
-							<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
-							<span id="water-res-g" class="res-value">0</span>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Attack</th><td id="attack-stat-g" class="attack-stat">0</td>
-						<td>
-							<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
-							<span id="thunder-res-g" class="res-value">0</span>
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Defense</th><td id="defense-stat-g" class="defense-stat">0</td>
-						<td>
-							<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
-							<span id="dragon-res-g" class="res-value">0</span>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
 		<div class="mhg">
 			<table>
 				<tbody id="armor-skills-g">

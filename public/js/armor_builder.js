@@ -444,6 +444,9 @@ ArmorBuilder.getSkillSet = function(armor) {
 
 	return [];
 };
+ArmorBuilder.calculateDamageBlocked = function(defense) {
+	return 1 - (80 / (defense + 80));
+};
 ArmorBuilder.prototype.calculateDefense = function() {
 	let defense = 0;
 	if (this.currentArmor.headgear) {
@@ -781,7 +784,8 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById(`health-stat-${ this.version }`).innerText = "100";
 
 	let defense = this.calculateDefense();
-	document.getElementById(`defense-stat-${ this.version }`).innerText = defense;
+	let damageBlocked = ArmorBuilder.calculateDamageBlocked(defense);
+	document.getElementById(`defense-stat-${ this.version }`).innerHTML = `<span>${defense}</span> <span class="true-value">(${parseInt(damageBlocked * 100)}%)</span>`;
 
 	let resistances = this.calculateRes();
 	document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0];
