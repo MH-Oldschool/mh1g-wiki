@@ -11,6 +11,16 @@
 			"description": "Wild pigs covered in moss and fungus. Sometimes you will even find mushrooms growing on them. Their meat is known as a delicacy. Though normally docile, they will charge you if angered! <sub>[Monster Hunter (US)]</sub>",
 			"icon": "mosswine",
 			"image": "mosswine",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[48,48,48],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -72,6 +82,16 @@
 			"icon": "bullfango",
 			"image": "bullfango",
 			"largeVersion":true,
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[160,"200 (300)","259 (389)"],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
@@ -124,6 +144,16 @@
 			"description": "A herbivorous, deer-like monster. Valued for their horns, they run away at the first hint of danger. Hunted for their chewy but flavorful meat. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "kelbi",
 			"image": "kelbi",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[48,48,48],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -179,6 +209,16 @@
 			"icon": "aptonoth",
 			"image": "aptonoth",
 			"largeVersion":true,
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":["64 (88)","64 (88)","64 (88)"],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -230,6 +270,16 @@
 			"description": "Hunted for their meat, which is buried under a thick, armored hide. Aggressive, hunting them can be a challenge. Its eggs are a valuable guild commodity. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "apceros",
 			"image": "apceros",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[160,200,259],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -288,6 +338,16 @@
 			"image": "felyne",
 			"hp1":[32,32,32],
 			"def1":[1.0,1.0,1.0],
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				{"h":20,"a":1.00,"d":1.00},{"h":32,"a":1.00,"d":1.00},{"h":32,"a":1.01,"d":1.00},{"h":32,"a":1.02,"d":1.00},
 				{"h":32,"a":1.03,"d":1.00},{"h":40,"a":1.05,"d":1.00},{"h":40,"a":1.05,"d":1.00},{"h":40,"a":1.10,"d":1.00},
@@ -310,6 +370,16 @@
 			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won&#8217;t pass up a chance to steal and take it to their village. Distracted by Felvine. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "melynx",
 			"image": "melynx",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[40,32,32],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -335,6 +405,16 @@
 			"icon": "vespoid",
 			"image": "vespoid",
 			"largeVersion":true,
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[32,"32 (64)","32 (64)"],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -394,6 +474,16 @@
 			"icon": "hornetaur",
 			"image": "hornetaur",
 			"largeVersion":true,
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &star; &star;","&starf; &starf; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[40,"40 (80)","40 (80)"],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
@@ -454,6 +544,16 @@
 			"description": "Aggressive, carnivorous monsters that travel in packs. Even master hunters should avoid getting surrounded! Wide ranging, they are found in many different climates. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "velociprey",
 			"image": "velociprey",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[60,70,90],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
@@ -508,6 +608,11 @@
 			"description": "A species very similar to, and often found in the company of, Velociprey. Their white skin is beautiful, but their temperament is not. Much like their blue cousins, they attack in deadly packs. <sub>[Monster Hunter Freedom 2]</sub>",
 			"icon": "giaprey",
 			"image": "giaprey",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				{"h":50,"a":1.00,"d":1.00},{"h":80,"a":1.00,"d":1.00},{"h":80,"a":1.01,"d":1.00},{"h":80,"a":1.02,"d":1.00},
 				{"h":80,"a":1.03,"d":1.00},{"h":100,"a":1.05,"d":1.00},{"h":100,"a":1.05,"d":1.00},{"h":100,"a":1.10,"d":1.00},
@@ -536,6 +641,16 @@
 			"description": "The alpha monster that leads a Velociprey pack. Larger and with a more prominent crest. Highly territorial, but will retreat to a safe place when injured. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "velocidrome",
 			"image": "velocidrome",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[500,1000,1500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -593,6 +708,16 @@
 			"description": "Subspecies of Velociprey mainly found in deserts. They travel in packs. Their large fangs and claws contain a neurotoxin that is used to stun and paralyze prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "genprey",
 			"image": "genprey",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[80,100,129],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
@@ -648,6 +773,16 @@
 			"description": "The alpha monster that leads a Genprey pack. They are larger and have a more prominent crest. Found in the desert. They can paralyze prey using their toxic fangs and claws. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "gendrome",
 			"image": "gendrome",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[750,1500,2250],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -702,6 +837,16 @@
 			"description": "A subspecies of Velociprey often found in subtropical zones. Sacs in their throat contain a powerful poison that slowly drains the Health of their prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "ioprey",
 			"image": "ioprey",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[120,150,194],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
@@ -756,6 +901,16 @@
 			"description": "Alpha monster of an Ioprey pack. Larger and with a more prominent crest. Found in tropical zones. Their poison saps the life force of its prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "iodrome",
 			"image": "iodrome",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[1000,2000,3000],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -810,6 +965,16 @@
 			"description": "Male wyvern that keeps a nest and patrols its territory from the air in search of prey. Its claws are filled with poison that weakens its prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "rathalos",
 			"image": "rathalos",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[2000,4000,6000],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -933,6 +1098,11 @@
 			"description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousin, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "azure-rathalos",
 			"image": "azure_rathalos",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":1350,"a":1.00,"d":1.00},{"h":1800,"a":1.00,"d":1.00},{"h":2250,"a":1.01,"d":1.00},{"h":2700,"a":1.03,"d":1.00},
 				{"h":3150,"a":1.05,"d":1.00},{"h":4500,"a":1.20,"d":0.95},{"h":4500,"a":1.20,"d":0.95},{"h":4950,"a":1.30,"d":0.95},
@@ -1011,6 +1181,11 @@
 			"description": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "silver-rathalos",
 			"image": "silver_rathalos",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &star; &star;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":1500,"a":1.00,"d":1.00},{"h":2000,"a":1.00,"d":1.00},{"h":2500,"a":1.01,"d":1.00},{"h":3000,"a":1.03,"d":1.00},
 				{"h":3500,"a":1.05,"d":1.00},{"h":5000,"a":1.20,"d":0.95},{"h":5000,"a":1.20,"d":0.95},{"h":5500,"a":1.30,"d":0.95},
@@ -1062,6 +1237,16 @@
 			"description": "Female wyvern to the male Rathalos. Unlike its male counterpart, it usually patrols its territory by foot. Its tail spikes are filled with poison. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "rathian",
 			"image": "rathian",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &starf; &starf;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[2500,5000,7500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1183,6 +1368,11 @@
 			"description": "A subspecies of Rathian with vibrant pink scales. Pink Rathian wield their toxic tails more skillfully than normal Rathian, using a wide variety of attacks to weaken their prey before eventually moving in for the kill. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "pink-rathian",
 			"image": "pink_rathian",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				{"h":1650,"a":1.00,"d":1.00},{"h":2200,"a":1.00,"d":1.00},{"h":2750,"a":1.01,"d":1.00},{"h":3300,"a":1.03,"d":1.00},
 				{"h":3850,"a":1.05,"d":1.00},{"h":5500,"a":1.20,"d":0.95},{"h":5500,"a":1.20,"d":0.95},{"h":6050,"a":1.30,"d":0.95},
@@ -1259,6 +1449,11 @@
 			"description": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "gold-rathian",
 			"image": "gold_rathian",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &star;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &star; &star;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":2100,"a":1.00,"d":1.00},{"h":2800,"a":1.00,"d":1.00},{"h":3500,"a":1.01,"d":1.00},{"h":4200,"a":1.03,"d":1.00},
 				{"h":4900,"a":1.05,"d":1.00},{"h":7000,"a":1.20,"d":0.95},{"h":7000,"a":1.20,"d":0.95},{"h":7700,"a":1.30,"d":0.95},
@@ -1307,6 +1502,16 @@
 			"description": "A bird-like wyvern with a huge beak and large ears. With its sensitive hearing it dislikes loud noises. Smaller but faster than other wyverns. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "yian-kut-ku",
 			"image": "yian_kut_ku",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[1000,2000,3000],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1391,6 +1596,11 @@
 			"description": "A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "blue-kut-ku",
 			"image": "blue_yian_kut_ku",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				[1050,1.00,1.00],[1400,1.00,1.00],[1750,1.01,1.00],[2100,1.03,1.00],
 				[2450,1.05,1.00],[3500,1.20,0.95],[3500,1.20,0.95],[3850,1.30,0.95],
@@ -1431,6 +1641,16 @@
 			"description": "A wyvern that can generate bright flashes of light with its prominent head crest. Its rubbery hide resists damage, and it can spit a poisonous substance. <sub>[Monster Hunter (US)]",
 			"icon": "gypceros",
 			"image": "gypceros",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[1500,3000,4500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1514,6 +1734,11 @@
 			"description": "A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "purple-gypceros",
 			"image": "purple_gypceros",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &star; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				{"h":1050,"a":1.00,"d":1.00},{"h":1400,"a":1.00,"d":1.00},{"h":1750,"a":1.01,"d":1.00},{"h":2100,"a":1.03,"d":1.00},
 				{"h":2450,"a":1.05,"d":1.00},{"h":3500,"a":1.20,"d":0.95},{"h":3500,"a":1.20,"d":0.95},{"h":3850,"a":1.30,"d":0.95},
@@ -1556,6 +1781,16 @@
 			"description": "Loathsome wyverns that live inside caves. Near blind, they detect their prey by smell. They are capable of generating electric shocks, which they use to paralyze their prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "khezu",
 			"image": "khezu",
+			"stars1":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
 			"hp1":[2000,4000,6000],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1638,6 +1873,11 @@
 			"description": "A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "red-khezu",
 			"image": "red_khezu",
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &star; &star;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":1350,"a":1.00,"d":1.00},{"h":1800,"a":1.00,"d":1.00},{"h":2250,"a":1.01,"d":1.00},{"h":2700,"a":1.03,"d":1.00},
 				{"h":3150,"a":1.05,"d":1.00},{"h":4500,"a":1.20,"d":0.95},{"h":4500,"a":1.20,"d":0.95},{"h":4950,"a":1.30,"d":0.95},
@@ -1679,6 +1919,16 @@
 			"description": "An enormous, flightless, aquatic wyvern with wings that have evolved into fins for swimming. Although superficially fish-like, they can move on land as well. They love frogs. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "plesioth",
 			"image": "plesioth",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &starf;","&star; &star; &star;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":["",5000,7500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1756,6 +2006,11 @@
 			"description": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature&#8217;s movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "green-plesioth",
 			"image": "green_plesioth",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":1650,"a":1.00,"d":1.00},{"h":2200,"a":1.00,"d":1.00},{"h":2750,"a":1.01,"d":1.00},{"h":3300,"a":1.03,"d":1.00},
 				{"h":3850,"a":1.05,"d":1.00},{"h":5500,"a":1.20,"d":0.95},{"h":5500,"a":1.20,"d":0.95},{"h":6050,"a":1.30,"d":0.95},
@@ -1798,6 +2053,16 @@
 			"description": "Wyverns found only in the desert. They resemble a Plesioth, but live and &#8220;swim&#8221; in sand rather than water. They seldom appear above land, but when their hearing is disturbed... <sub>[Monster Hunter (US)]</sub>",
 			"icon": "cephalos",
 			"image": "cephalos",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[240,300,389],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
@@ -1872,6 +2137,16 @@
 			"description": "The alpha monster form of the Cephalos. Larger and armored with black scales, they fit the appearance of a leader perfectly. Their fins hold a paralyzing toxin. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "cephadrome",
 			"image": "cephadrome",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[2000,4000,6000],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -1955,6 +2230,16 @@
 			"description": "Large-horned wyvern found in deserts. The giant horn makes their attacks very dangerous. Without breath attack. Their ear-splitting roar is the bane of hunters. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "monoblos",
 			"image": "monoblos",
+			"stars1":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
+			},
 			"hp1":[3000,"",""],
 			"def1":[1.0,"",""],
 			"unusedHPG":true,
@@ -2029,6 +2314,11 @@
 			"description": "A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "white-monoblos",
 			"image": "white_monoblos",
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
 			"unusedHPG":true,
 			"hpG":[
 				{"h":2250,"a":1.00,"d":1.00},{"h":3000,"a":1.00,"d":1.00},{"h":3750,"a":1.01,"d":1.00},{"h":4500,"a":1.03,"d":1.00,"active":true},
@@ -2076,6 +2366,16 @@
 			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It&#8217;s confirmed that they have a subspecies called Monoblos. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "diablos",
 			"image": "diablos",
+			"stars1":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
 			"hp1":[3500,7000,10500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -2175,6 +2475,11 @@
 			"description": "These black-shelled Diablos are treated as a subspecies, but are actually just normal female Diablos in heat. The color change is a warning to other creatures, as they tend to become extremely aggressive during mating season. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "black-diablos",
 			"image": "black_diablos",
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
 			"hpG":[
 				{"h":2250,"a":1.00,"d":1.00},{"h":3000,"a":1.00,"d":1.00},{"h":3750,"a":1.01,"d":1.00},{"h":4500,"a":1.03,"d":1.00},
 				{"h":5250,"a":1.05,"d":1.00},{"h":7500,"a":1.20,"d":0.95},{"h":7500,"a":1.20,"d":0.95},{"h":8250,"a":1.30,"d":0.95},
@@ -2221,6 +2526,16 @@
 			"description": "A large wyvern found in volcanic zones. It possesses a fiery breath-attack and can emit a sleeping gas. Their scales are extremely hard, deflecting most weapon attacks. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "gravios",
 			"image": "gravios",
+			"stars1":{
+				"weapons":["&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &starf; &starf;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
 			"hp1":[2500,5000,7500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -2331,6 +2646,11 @@
 			"description": "A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "black-gravios",
 			"image": "black_gravios",
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
+				"elements":["&star; &star; &star;","&starf; &starf; &starf;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;"]
+			},
 			"hpG":[
 				{"h":1650,"a":1.00,"d":1.00},{"h":2200,"a":1.00,"d":1.00},{"h":2750,"a":1.01,"d":1.00},{"h":3300,"a":1.03,"d":1.00},
 				{"h":3850,"a":1.05,"d":1.00},{"h":5500,"a":1.20,"d":0.95},{"h":5500,"a":1.20,"d":0.95},{"h":6050,"a":1.30,"d":0.95},
@@ -2380,6 +2700,16 @@
 			"description": "A large wyvern found in volcanic zones. They are the juvenile form of the Gravios. They have a steel-like carapace that requires powerful weapons to crack. Emits poison gas. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "basarios",
 			"image": "basarios",
+			"stars1":{
+				"weapons":["&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
+			},
 			"hp1":[1500,3000,4500],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
@@ -2490,6 +2820,16 @@
 			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It&#8217;s apparently capable of calling forth lightning at will. Its material is very valuable. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "kirin",
+			"stars1":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&star; &star; &star;","&starf; &starf; &star;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&star; &star; &star;","&starf; &star; &star;"],
+				"statuses":["&starf; &starf; &star;","&star; &star; &star;","&starf; &starf; &star;"]
+			},
 			"hp1":["",4000,""],
 			"def1":["",0.95,""],
 			"hpG":[
@@ -2568,6 +2908,16 @@
 			"description": "A giant dragon few have seen and lived to tell the tale. When on a rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast. Will it hold? <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "lao_shan_lung",
+			"stars1":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&star; &star; &star;","&star; &star; &star;","&star; &star; &star;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&star; &star; &star;","&star; &star; &star;","&star; &star; &star;"]
+			},
 			"hp1":["",26666,31999],
 			"def1":["",0.95,0.9],
 			"hpG":[
@@ -2667,6 +3017,11 @@
 			"description": "This subspecies of is Lao-Shan Lung characterized by a bluish shell. The color of its shell is determined by the minerals it takes in while its shell is forming. This subspecies incorporates harder minerals, and is also known as the rocky mountain dragon. <sub>[Monster Hunter Frontier Z]</sub>",
 			"icon": "unknown",
 			"image": "ashen_lao_shan_lung",
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &star;"],
+				"statuses":["&star; &star; &star;","&star; &star; &star;","&star; &star; &star;"]
+			},
 			"hpG":[
 				{"h":7999,"a":1.00,"d":1.00},{"h":10666,"a":1.00,"d":1.00},{"h":13333,"a":1.01,"d":1.00},{"h":15999,"a":1.03,"d":1.00},
 				{"h":18666,"a":1.05,"d":1.00},{"h":26666,"a":1.20,"d":0.95},{"h":26666,"a":1.20,"d":0.95},{"h":26666,"a":1.50,"d":0.90},
@@ -2717,6 +3072,16 @@
 			"description": "A legendary black dragon said to have prowled these lands from the days of old. A monster shrouded in mystery... <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "fatalis",
+			"stars1":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &starf;"],
+				"statuses":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"]
+			},
+			"starsG":{
+				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &starf;"],
+				"statuses":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"]
+			},
 			"hp1":["","",32000],
 			"def1":["","",0.95],
 			"hpG":[
@@ -2781,9 +3146,14 @@
 		},
 		{
 			"name": "Crimson Fatalis", "kata": "ミラボレアス(紅龍)", "rome": "Miraboreasu Kou Ryuu",
-			"description": "It is said that this is an especially old Fatalis whose scales have turned red from years of exposure to volcanic heat. <sub>[Fandom wiki used, sources unknown]</sub>",
+			"description": "It is said that this is an especially old Fatalis whose scales have turned red from years of exposure to volcanic heat. <sub>[no known sources]</sub>",
 			"icon": "unknown",
 			"image": "crimson_fatalis",
+			"starsG":{
+				"weapons":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &star;"],
+				"elements":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;","&starf; &starf; &starf;"],
+				"statuses":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"]
+			},
 			"hpG":[
 				{"h":32000,"a":2.60,"d":0.85}
 			],

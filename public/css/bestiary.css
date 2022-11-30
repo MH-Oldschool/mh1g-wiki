@@ -21,19 +21,9 @@
 	transition: transform 500ms;
 }
 
-/* .monster-container {
-	position: relative;
-	z-index: 0;
-	top: -100%;
-	transition: top 500ms;
-} */
-
 .monster-details[open] > summary:before {
 	transform: rotate(90deg);
 }
-/* .monster-details[open] .monster-container {
-	top: 0;
-} */
 
 .katakana {
 	font-weight: normal;
@@ -88,17 +78,24 @@
 }
 
 .monster-data table {
-	margin-top: 0.5rem;
 	width: auto;
+}
+.starred-stats {
+	display: flex;
+	justify-content: space-between;
+	max-width: 25rem;
+}
+.monster-data details table {
+	margin-top: 0.5rem;
 	min-width: 20rem;
 }
-.monster-data table thead {
+.monster-data details table thead {
 	position: static;
 }
-.monster-data table .unused-values {
+.monster-data details table .unused-values {
 	color: #909090;
 }
-.monster-data table .active {
+.monster-data details table .active {
 	color: #d7d7d7;
 }
 
