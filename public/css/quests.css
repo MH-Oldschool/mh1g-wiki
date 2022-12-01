@@ -6,6 +6,16 @@ ul {
 	display: none;
 }
 
+.japanese {
+	opacity: 0;
+	font-weight: normal;
+	font-size: 1rem;
+	transition: 300ms;
+}
+summary:hover .japanese {
+	opacity: 1;
+}
+
 .quest-body {
 	text-shadow:
 		1px 1px 0 #000,
