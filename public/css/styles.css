@@ -531,6 +531,18 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 	width: 1.5rem;
 	height: 1.5rem;
 }
+.silver-crown-icon {
+	overflow: hidden;
+	background-position: -3.75rem -13.5rem;
+	text-indent: -999rem;
+	width: 1.25rem;
+}
+.gold-crown-icon {
+	overflow: hidden;
+	background-position: -5rem -13.5rem;
+	text-indent: -999rem;
+	width: 1.25rem;
+}
 
 td.materials {
 	overflow: hidden;

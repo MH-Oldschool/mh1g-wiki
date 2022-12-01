@@ -155,7 +155,28 @@
 				<details>
 					<summary>Detailed Stats</summary>
 
-					<table class="mh1">
+					{{#sizes}}
+						<table class="sizes mhg">
+							<caption>Sizes</caption>
+
+							<tbody>
+								<tr>
+									<th>Avg</th>
+									<td class="ta-r">{{sizes.base}} cm</td>
+								</tr>
+								<tr title="Minimum size for a silver crown">
+									<th><span class="ui-icon silver-crown-icon" title="Silver">Silver</span></th>
+									<td class="ta-r">{{sizes.silver}} cm</td>
+								</tr>
+								<tr title="Minimum size for a gold crown">
+									<th><span class="ui-icon gold-crown-icon" title="Gold">Gold</span></th>
+									<td class="ta-r">{{sizes.gold}} cm</td>
+								</tr>
+							</tbody>
+						</table>
+					{{/sizes}}
+
+					<table class="hitpoints-table mh1">
 						<caption>Hitpoints{{#largeVersion}} (large in parentheses){{/largeVersion}}</caption>
 						<thead>
 							<tr>
@@ -182,7 +203,7 @@
 						</tbody>
 					</table>
 
-					<table class="mhg">
+					<table class="hitpoints-table mhg">
 						<caption>Hitpoints{{#largeVersion}} (large in parentheses){{/largeVersion}}{{#unusedHPG}} (gray values are unused in-game){{/unusedHPG}}</caption>
 						<thead>
 							<tr>
