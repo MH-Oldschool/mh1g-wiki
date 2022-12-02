@@ -698,7 +698,7 @@
 					{"n":"Velocidrome Head","p":1}
 				]}
 			],
-			"sizes":{"base":738.4,"silver":878.696,"gold":908.232},
+			"sizes":{"base":738.4,"silver":878.7,"gold":908.2},
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Will often hang back while its pack attacks."
@@ -828,7 +828,7 @@
 					{"n":"Genprey Scale+","p":15}
 				]}
 			],
-			"sizes":{"base":732.1,"silver":871.199,"gold":900.483},
+			"sizes":{"base":732.1,"silver":871.2,"gold":900.5},
 			"notes": [
 				"Found in deserts and swamps.",
 				"Will often hang back while its pack attacks."
@@ -957,7 +957,7 @@
 					{"n":"Ioprey Scale+","p":15}
 				]}
 			],
-			"sizes":{"base":774.6,"silver":960.504,"gold":1053.456},
+			"sizes":{"base":774.6,"silver":960.5,"gold":1053.5},
 			"notes": [
 				"Found in jungles, swamps, and volcanoes.",
 				"Will often hang back while its pack attacks."
@@ -1091,7 +1091,7 @@
 					{"n":"Rathalos Ruby","p":1}
 				]}
 			],
-			"sizes":{"base":1629.4,"silver":1857.516,"gold":2069.338},
+			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
 			"notes": [
 				"Found in forests<span class='base-only'> and swamps.</span><span class='g-only'>, swamps, and volcanoes.</span>",
 				"Often takes flight to thwart hunters."
@@ -1174,7 +1174,7 @@
 					{"n":"Azure Rathalos Ruby","p":1}
 				]}
 			],
-			"sizes":{"base":1629.4,"silver":1857.516,"gold":2069.338},
+			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Often takes flight to thwart hunters."
@@ -1231,7 +1231,7 @@
 					{"n":"Silver Rathalos Ruby","p":2}
 				]}
 			],
-			"sizes":{"base":1629.4,"silver":1857.516,"gold":2069.338},
+			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
 			"notes": [
 				"Found in forests and swamps.",
 				"Often takes flight to thwart hunters."
@@ -1364,7 +1364,7 @@
 					{"n":"Rathian Ruby","p":2}
 				]}
 			],
-			"sizes":{"base":1645.6,"silver":1941.808,"gold":2122.824},
+			"sizes":{"base":1645.6,"silver":1941.8,"gold":2122.8},
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -1445,7 +1445,7 @@
 					{"n":"Pink Rathian Ruby","p":2}
 				]}
 			],
-			"sizes":{"base":1645.6,"silver":1941.808,"gold":2122.824},
+			"sizes":{"base":1645.6,"silver":1941.8,"gold":2122.8},
 			"notes": [
 				"Found in all regions except volcanoes.",
 				"When enraged, she will charge several times before stumbling."
@@ -1499,7 +1499,7 @@
 					{"n":"Gold Rathian Ruby","p":3}
 				]}
 			],
-			"sizes":{"base":1645.6,"silver":1941.808,"gold":2122.824},
+			"sizes":{"base":1645.6,"silver":1941.8,"gold":2122.8},
 			"notes": [
 				"Found in the jungle and swamp.",
 				"When enraged, she will charge several times before stumbling."
@@ -1595,7 +1595,7 @@
 					{"n":"Splendid Beak","p":5}
 				]}
 			],
-			"sizes":{"base":919.8,"silver":1048.572,"gold":1122.156},
+			"sizes":{"base":919.8,"silver":1048.6,"gold":1122.2},
 			"notes": [
 				"Found in forests, swamps, and volcanoes.",
 				"Can launch fireballs a short distance."
@@ -1640,7 +1640,7 @@
 					{"n":"Splendid Beak","p":10}
 				]}
 			],
-			"sizes":{"base":919.8,"silver":1048.572,"gold":1122.156},
+			"sizes":{"base":919.8,"silver":1048.6,"gold":1122.2},
 			"notes": [
 				"Found in forests and swamps.",
 				"Can launch fireballs a short distance."
@@ -1734,7 +1734,7 @@
 					{"n":"Purecrystal","p":6}
 				]}
 			],
-			"sizes":{"base":1013.7,"silver":1196.166,"gold":1267.125},
+			"sizes":{"base":1013.7,"silver":1196.2,"gold":1267.1},
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -1781,7 +1781,7 @@
 					{"n":"Purecrystal","p":5}
 				]}
 			],
-			"sizes":{"base":1013.7,"silver":1196.166,"gold":1267.125},
+			"sizes":{"base":1013.7,"silver":1196.2,"gold":1267.1},
 			"notes": [
 				"Found in forests, jungles, and swamps.",
 				"Totally immune to flash bombs.",
@@ -1876,7 +1876,7 @@
 					{"n":"Pale Lips","p":1}
 				]}
 			],
-			"sizes":{"base":873.2,"silver":1030.376,"gold":1178.82},
+			"sizes":{"base":873.2,"silver":1030.4,"gold":1178.8},
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -1922,7 +1922,7 @@
 					{"n":"Pale Lips","p":5}
 				]}
 			],
-			"sizes":{"base":873.2,"silver":1030.376,"gold":1178.82},
+			"sizes":{"base":873.2,"silver":1030.4,"gold":1178.8},
 			"notes": [
 				"Found in jungles and swamps.",
 				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
@@ -2010,7 +2010,7 @@
 					{"n":"Great Lobstershell","p":7}
 				]}
 			],
-			"sizes":{"base":2315.2,"silver":2847.696,"gold":3102.368},
+			"sizes":{"base":2315.2,"silver":2847.7,"gold":3102.4},
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -2057,7 +2057,7 @@
 					{"n":"Great Lobstershell","p":6}
 				]}
 			],
-			"sizes":{"base":2315.2,"silver":2847.696,"gold":3102.368},
+			"sizes":{"base":2315.2,"silver":2847.7,"gold":3102.4},
 			"notes": [
 				"Found in jungles and deserts.",
 				"Sensitive to loud noises.",
@@ -2237,7 +2237,7 @@
 					{"n":"Piscine Fang","p":2}
 				]}
 			],
-			"sizes":{"base":1538.3,"silver":1815.194,"gold":1876.726},
+			"sizes":{"base":1538.3,"silver":1815.2,"gold":1876.7},
 			"notes": [
 				"Found only in deserts.",
 				"They seem to resist all elements, especially fire."
@@ -2321,7 +2321,7 @@
 					{"n":"Lg Monster Bone","p":20}
 				]}
 			],
-			"sizes":{"base":2004.2,"silver":2324.872,"gold":2545.334},
+			"sizes":{"base":2004.2,"silver":2324.9,"gold":2545.3},
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -2373,7 +2373,7 @@
 					{"n":"Lg Monster Bone","p":20}
 				]}
 			],
-			"sizes":{"base":2004.2,"silver":2324.872,"gold":2545.334},
+			"sizes":{"base":2004.2,"silver":2324.9,"gold":2545.3},
 			"notes": [
 				"Found only in deserts.",
 				"Very resilient to physical attacks and elements.",
@@ -2482,7 +2482,7 @@
 					{"n":"Diablos Shell","p":18}
 				]}
 			],
-			"sizes":{"base":1993.4,"silver":2451.882,"gold":2770.826},
+			"sizes":{"base":1993.4,"silver":2451.9,"gold":2770.8},
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises."
@@ -2535,7 +2535,7 @@
 					{"n":"Black Diablos Spine","p":10}
 				]}
 			],
-			"sizes":{"base":1993.4,"silver":2451.882,"gold":2770.826},
+			"sizes":{"base":1993.4,"silver":2451.9,"gold":2770.8},
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises.",
@@ -2658,7 +2658,7 @@
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
-			"sizes":{"base":2099.9,"silver":2582.877,"gold":2834.865},
+			"sizes":{"base":2099.9,"silver":2582.9,"gold":2834.9},
 			"notes": [
 				"Found in swamps and volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -2712,7 +2712,7 @@
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
-			"sizes":{"base":2099.9,"silver":2582.877,"gold":2834.865},
+			"sizes":{"base":2099.9,"silver":2582.9,"gold":2834.9},
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger."
@@ -2833,7 +2833,7 @@
 					{"n":"Carbalite Ore","p":18}
 				]}
 			],
-			"sizes":{"base":1279.6,"silver":1509.928,"gold":1650.684},
+			"sizes":{"base":1279.6,"silver":1509.9,"gold":1650.7},
 			"notes": [
 				"Found only at volcanoes.",
 				"When blinded by a flash bomb, it will repeatedly roar in anger.",
@@ -2922,7 +2922,7 @@
 					{"n":"Kirin Azure Horn","p":7}
 				]}
 			],
-			"sizes":{"base":464.3,"silver":603.59,"gold":821.811},
+			"sizes":{"base":464.3,"silver":603.6,"gold":821.8},
 			"notes": [
 				"Immune to paraylsis.",
 				"Perhaps due to its small size, it will not trigger monster traps."
