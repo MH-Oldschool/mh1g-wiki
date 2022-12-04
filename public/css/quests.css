@@ -89,3 +89,11 @@ summary:hover .japanese {
 	bottom: 0;
 	right: -0.875rem;
 }
+
+.large-monster {
+	line-height: 1.25rem;
+	padding: 0;
+}
+.large-monster .ui-icon {
+	vertical-align: middle;
+}

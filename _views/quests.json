@@ -5655,6 +5655,9 @@
 						"name":"Slay the Velociprey Pack!","icon":"monster-icon monster-velociprey","type":"hunt","area":"Forest and Hills",
 						"japanese":"ランポスの群れを討伐せよ！",
 						"goal":"Slay 20 Velociprey","reward":"500z","fee":"200z",
+						"largeMonsters":[
+							{"n":"Rathalos","silver":true}
+						],
 						"rewards":[
 							{"name":"Velociprey Hide","quantity":2,"percent":25},
 							{"name":"Sm Monster Bone","quantity":1,"percent":25},
@@ -5674,7 +5677,7 @@
 						"goal":"Slay 2 Velocidrome","key":true,"reward":"600z","fee":"220z",
 						"largeMonsters":[
 							{"n":"Velocidrome","q":2},
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Screamer","quantity":1,"percent":15},
@@ -5695,7 +5698,7 @@
 						"japanese":"大地を泳ぐモンスター",
 						"goal":"Slay the Cephadrome","reward":"1200z","fee":"250z",
 						"largeMonsters":[
-							{"n":"Cephadrome"}
+							{"n":"Cephadrome","silver":true}
 						],
 						"rewards":[
 							{"name":"Lg Monster Bone","quantity":1,"percent":10},
@@ -5786,7 +5789,7 @@
 						"japanese":"ゲリョスを討伐せよ！",
 						"goal":"Slay the Gypceros","key":true,"reward":"1400z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Gypceros"}
+							{"n":"Gypceros","silver":true}
 						],
 						"rewards":[
 							{"name":"Rubbery Hide","quantity":1,"percent":1},
@@ -5805,7 +5808,7 @@
 						"japanese":"激闘！雄火竜リオレウス",
 						"goal":"Slay the Rathalos","urgentQuest":true,"reward":"2250z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Scale","quantity":1,"percent":5},
@@ -5832,7 +5835,7 @@
 						"japanese":"グルメ貴婦人の夢",
 						"goal":"Deliver 3 Wyvern Eggs","reward":"2000z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
@@ -5852,7 +5855,7 @@
 						"japanese":"大怪鳥の異常発生！！",
 						"goal":"Slay 2 or more Yian Kut-Ku","key":true,"reward":"1100z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku","q":20}
+							{"n":"Yian Kut-Ku","q":20,"silver":true}
 						],
 						"rewards":[
 							{"name":"Bone","quantity":3,"percent":4},
@@ -5895,7 +5898,7 @@
 						"japanese":"激闘！雄火竜リオレウス",
 						"goal":"Slay the Rathalos","reward":"2250z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Scale","quantity":1,"percent":5},
@@ -5917,7 +5920,7 @@
 						"japanese":"激闘！雄火竜リオレウス",
 						"goal":"Slay the Azure Rathalos","reward":"2250z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Azure Rathalos"}
+							{"n":"Azure Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Scale","quantity":1,"percent":5},
@@ -5938,7 +5941,7 @@
 						"japanese":"リオレウス捕獲大作戦",
 						"goal":"Capture the Rathalos","key":true,"reward":"2500z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Tail","quantity":1,"percent":5},
@@ -5963,7 +5966,7 @@
 						"japanese":"砂漠の水竜",
 						"goal":"Slay the Plesioth","reward":"1950z","fee":"350z",
 						"largeMonsters":[
-							{"n":"Plesioth"}
+							{"n":"Plesioth","silver":true}
 						],
 						"rewards":[
 							{"name":"Plesioth Fin","quantity":1,"percent":4},
@@ -5979,7 +5982,7 @@
 						"japanese":"見えざる飛竜、バサルモス！",
 						"goal":"Slay the Basarios","key":true,"reward":"1400z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Basarios"}
+							{"n":"Basarios","silver":true}
 						],
 						"rewards":[
 							{"name":"Machalite Ore","quantity":1,"percent":15},
@@ -5997,7 +6000,7 @@
 						"japanese":"砂漠に舞う女王",
 						"goal":"Slay the Rathian","reward":"1800z","fee":"350z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathian Scale","quantity":1,"percent":5},
@@ -6018,7 +6021,7 @@
 						"japanese":"砂漠に舞う女王",
 						"goal":"Slay the Pink Rathian","reward":"1800z","fee":"350z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Scale","quantity":1,"percent":5},
@@ -6039,7 +6042,7 @@
 						"japanese":"雌火竜リオレイアを倒せ！",
 						"goal":"Slay the Rathian","key":true,"reward":"2100z","fee":"350z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathian Scale","quantity":1,"percent":5},
@@ -6060,7 +6063,7 @@
 						"japanese":"雌火竜リオレイアを倒せ！",
 						"goal":"Slay the Pink Rathian","reward":"2100z","fee":"350z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Scale","quantity":1,"percent":5},
@@ -6081,7 +6084,7 @@
 						"japanese":"決戦！一角竜モノブロス",
 						"urgentQuest":true,"goal":"Slay the Monoblos","reward":"3400z","fee":"800 z",
 						"largeMonsters":[
-							{"n":"Monoblos"}
+							{"n":"Monoblos","silver":true}
 						],
 						"rewards":[
 							{"name":"Monoblos Shell","quantity":1,"percent":15},
@@ -6105,7 +6108,7 @@
 						"japanese":"決戦！一角竜モノブロス",
 						"goal":"Slay the Monoblos","reward":"3400z","fee":"800 z",
 						"largeMonsters":[
-							{"n":"Monoblos"}
+							{"n":"Monoblos","silver":true}
 						],
 						"rewards":[
 							{"name":"Monoblos Shell","quantity":1,"percent":15},
@@ -6124,7 +6127,7 @@
 						"japanese":"決戦！一角竜モノブロス",
 						"goal":"Slay the White Monoblos","reward":"3400z","fee":"800 z",
 						"largeMonsters":[
-							{"n":"White Monoblos"}
+							{"n":"White Monoblos","gold":true}
 						],
 						"rewards":[
 							{"name":"White Monoblos Shell","quantity":1,"percent":15},
@@ -6144,7 +6147,7 @@
 						"goal":"Slay the Gravios","reward":"3800z","fee":"800 z",
 						"prerequisites":"Appears if you own any piece of Cephalos armor",
 						"largeMonsters":[
-							{"n":"Gravios"}
+							{"n":"Gravios","silver":true}
 						],
 						"rewards":[
 							{"name":"Gravios Shell","quantity":1,"percent":25},
@@ -6185,7 +6188,7 @@
 						"goal":"Slay the Diablos","reward":"3200z","fee":"800 z",
 						"prerequisites":"Appears if you own any piece of Monoblos armor",
 						"largeMonsters":[
-							{"n":"Diablos"}
+							{"n":"Diablos","silver":true}
 						],
 						"rewards":[
 							{"name":"Blos Jaw","quantity":1,"percent":5},
@@ -6207,7 +6210,7 @@
 						"goal":"Slay the Khezu","reward":"2250z","fee":"700z",
 						"prerequisites":"Appears if you own any piece of Vespoid armor",
 						"largeMonsters":[
-							{"n":"Khezu"}
+							{"n":"Khezu","silver":true}
 						],
 						"rewards":[
 							{"name":"Flabby Hide","quantity":1,"percent":30},
@@ -6225,8 +6228,8 @@
 						"goal":"Slay the Pink Rathian and Azure Rathalos","reward":"6400z","fee":"1240z",
 						"prerequisites":"Complete &#8220;Handle With Care!&#8221;",
 						"largeMonsters":[
-							{"n":"Pink Rathian"},
-							{"n":"Azure Rathalos"}
+							{"n":"Pink Rathian","silver":true},
+							{"n":"Azure Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":1,"percent":5},
@@ -7298,7 +7301,7 @@
 						"japanese":"怪鳥イャンクック襲来！",
 						"goal":"Slay the Yian Kut-Ku","reward":"3600z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
@@ -7357,7 +7360,7 @@
 						"japanese":"潜入！飛竜の巣",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3400z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Egg Ticket","quantity":1,"percent":4},
@@ -7589,7 +7592,7 @@
 						"japanese":"密林の大怪鳥",
 						"goal":"Slay the Yian Kut-Ku","key":true,"reward":"3800z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
@@ -7626,7 +7629,7 @@
 						"japanese":"イャンクックを捕まえろ！",
 						"goal":"Capture the Yian Kut-Ku","key":true,"reward":"2800z","fee":"250z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
@@ -7690,7 +7693,7 @@
 						"japanese":"リオレウス討伐指令",
 						"goal":"Slay the Rathalos","reward":"6200z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Shell","quantity":1,"percent":1},
@@ -7712,7 +7715,7 @@
 						"japanese":"リオレウス討伐指令",
 						"goal":"Slay the Azure Rathalos","reward":"6200z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Azure Rathalos"}
+							{"n":"Azure Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Shell","quantity":1,"percent":1},
@@ -7831,7 +7834,7 @@
 						"goal":"Slay 3 Iodrome","reward":"3000z","fee":"250z",
 						"largeMonsters":[
 							{"n":"Iodrome","q":3},
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Iodrome Skin","quantity":1,"percent":1},
@@ -7902,7 +7905,7 @@
 						"japanese":"火薬岩を持ちかえれ！",
 						"goal":"Deliver 3 Powderstone","reward":"6200z","fee":"1120z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Firestone","quantity":1,"percent":1},
@@ -7965,7 +7968,7 @@
 						"goal":"Slay the Rathian and Rathalos","key":true,"reward":"8400z","fee":"1200z",
 						"largeMonsters":[
 							{"n":"Rathian"},
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Wyvern Marrow","quantity":1,"percent":5},
@@ -8029,7 +8032,7 @@
 						"goal":"Slay the Rathian and Rathalos","reward":"8800z","fee":"1220z",
 						"largeMonsters":[
 							{"n":"Rathian"},
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":1,"percent":5},
@@ -8055,7 +8058,7 @@
 						"japanese":"リオレウス捕獲大作戦",
 						"goal":"Capture the Rathalos","reward":"5000z","fee":"300z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Shell","quantity":1,"percent":20},
@@ -8141,7 +8144,7 @@
 						"japanese":"怪鳥イャンクック襲来！",
 						"goal":"Slay the Yian Kut-Ku","reward":"5400z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
@@ -8158,7 +8161,7 @@
 						"japanese":"怪鳥イャンクック襲来！",
 						"goal":"Slay the Blue Yian Kut-Ku","reward":"5400z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Blue Yian Kut-Ku"}
+							{"n":"Blue Yian Kut-Ku","gold":true}
 						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":1,"percent":1},
@@ -8175,7 +8178,7 @@
 						"japanese":"密林の大怪鳥",
 						"goal":"Slay the Yian Kut-Ku","key":true,"reward":"5600z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Yian Kut-Ku"}
+							{"n":"Yian Kut-Ku","silver":true}
 						],
 						"rewards":[
 							{"name":"Kut-Ku Shell","quantity":1,"percent":1},
@@ -8192,7 +8195,7 @@
 						"japanese":"密林の大怪鳥",
 						"goal":"Slay the Blue Yian Kut-Ku","reward":"5600z","fee":"500z",
 						"largeMonsters":[
-							{"n":"Blue Yian Kut-Ku"}
+							{"n":"Blue Yian Kut-Ku","gold":true}
 						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":1,"percent":1},
@@ -8209,7 +8212,7 @@
 						"japanese":"毒の怪鳥、ゲリョス現る！",
 						"goal":"Slay the Gypceros","reward":"6000z","fee":"600z",
 						"largeMonsters":[
-							{"n":"Gypceros"}
+							{"n":"Gypceros","silver":true}
 						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
@@ -8229,7 +8232,7 @@
 						"japanese":"毒の怪鳥、ゲリョス現る！",
 						"goal":"Slay the Purple Gypceros","reward":"6000z","fee":"600z",
 						"largeMonsters":[
-							{"n":"Purple Gypceros"}
+							{"n":"Purple Gypceros","gold":true}
 						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
@@ -8249,7 +8252,7 @@
 						"japanese":"湿地帯の毒怪鳥",
 						"goal":"Slay the Gypceros","key":true,"reward":"6400z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Gypceros"}
+							{"n":"Gypceros","silver":true}
 						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
@@ -8269,7 +8272,7 @@
 						"japanese":"湿地帯の毒怪鳥",
 						"goal":"Slay the Purple Gypceros","reward":"6400z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Purple Gypceros"}
+							{"n":"Purple Gypceros","gold":true}
 						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
@@ -8289,7 +8292,7 @@
 						"japanese":"ゲリョスを討伐せよ！",
 						"goal":"Slay the Gypceros","reward":"6200z","fee":"600z",
 						"largeMonsters":[
-							{"n":"Gypceros"}
+							{"n":"Gypceros","silver":true}
 						],
 						"rewards":[
 							{"name":"Rubbery Hide+","quantity":1,"percent":1},
@@ -8310,7 +8313,7 @@
 						"japanese":"ゲリョスを討伐せよ！",
 						"goal":"Slay the Purple Gypceros","reward":"6200z","fee":"600z",
 						"largeMonsters":[
-							{"n":"Purple Gypceros"}
+							{"n":"Purple Gypceros","gold":true}
 						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
@@ -8356,7 +8359,7 @@
 						"japanese":"地中からの刺客",
 						"goal":"Slay the Cephadrome","reward":"7000z","fee":"600z",
 						"largeMonsters":[
-							{"n":"Cephadrome"}
+							{"n":"Cephadrome","silver":true}
 						],
 						"rewards":[
 							{"name":"Cephalos Top Fin","quantity":1,"percent":4},
@@ -8374,7 +8377,7 @@
 						"japanese":"挟撃のイャンクック！",
 						"goal":"Slay 2 Blue Yian Kut-Ku","key":true,"reward":"8600z","fee":"1160z",
 						"largeMonsters":[
-							{"n":"Blue Yian Kut-Ku", "q":2}
+							{"n":"Blue Yian Kut-Ku", "q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Blue Kut-Ku Shell","quantity":2,"percent":1},
@@ -8392,7 +8395,7 @@
 						"japanese":"猛毒の包囲網",
 						"goal":"Slay 2 Purple Gypceros","key":true,"reward":"9400z","fee":"1200z",
 						"largeMonsters":[
-							{"n":"Purple Gypceros","q":2}
+							{"n":"Purple Gypceros","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Purple Rubbery Hide","quantity":1,"percent":1},
@@ -8413,7 +8416,7 @@
 						"japanese":"２つの砂影",
 						"goal":"Slay 2 Cephadrome","key":true,"reward":"10600z","fee":"1250z",
 						"largeMonsters":[
-							{"n":"Cephadrome","q":2}
+							{"n":"Cephadrome","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Cephalos Top Fin","quantity":1,"percent":8},
@@ -8432,7 +8435,7 @@
 						"japanese":"雷撃の二重奏",
 						"goal":"Slay 2 Khezu","urgentQuest":true,"reward":"13400z","fee":"1450z",
 						"largeMonsters":[
-							{"n":"Khezu","q":2}
+							{"n":"Khezu","q":2,"silver":true}
 						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
@@ -8455,7 +8458,7 @@
 						"japanese":"激闘！雌火竜リオレイア",
 						"goal":"Slay the Rathian","reward":"8000z","fee":"750z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
@@ -8477,7 +8480,7 @@
 						"japanese":"激闘！雌火竜リオレイア",
 						"goal":"Slay the Pink Rathian","reward":"8000z","fee":"750z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
@@ -8499,7 +8502,7 @@
 						"japanese":"砂漠に舞う女王",
 						"goal":"Slay the Rathian","reward":"8200z","fee":"700z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
@@ -8521,7 +8524,7 @@
 						"japanese":"砂漠に舞う女王",
 						"goal":"Slay the Pink Rathian","reward":"8200z","fee":"700z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
@@ -8543,7 +8546,7 @@
 						"japanese":"雌火竜リオレイアを倒せ！",
 						"goal":"Slay the Rathian","key":true,"reward":"8400z","fee":"700z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
@@ -8565,7 +8568,7 @@
 						"japanese":"雌火竜リオレイアを倒せ！",
 						"goal":"Slay the Pink Rathian","reward":"8400z","fee":"700z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
@@ -8587,7 +8590,7 @@
 						"japanese":"洞窟に潜む影",
 						"goal":"Slay the Khezu","key":true,"reward":"8200z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Khezu"}
+							{"n":"Khezu","silver":true}
 						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
@@ -8604,7 +8607,7 @@
 						"japanese":"洞窟に潜む影",
 						"goal":"Slay the Red Khezu","reward":"8200z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Red Khezu"}
+							{"n":"Red Khezu","gold":true}
 						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
@@ -8621,7 +8624,7 @@
 						"japanese":"闇の中の飛竜",
 						"goal":"Slay the Khezu","reward":"8000z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Khezu"}
+							{"n":"Khezu","silver":true}
 						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
@@ -8638,7 +8641,7 @@
 						"japanese":"闇の中の飛竜",
 						"goal":"Slay the Red Khezu","reward":"8000z","fee":"650z",
 						"largeMonsters":[
-							{"n":"Red Khezu"}
+							{"n":"Red Khezu","gold":true}
 						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
@@ -8655,7 +8658,7 @@
 						"japanese":"火山地帯のうごめく岩",
 						"goal":"Slay the Basarios","key":true,"reward":"6800z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Basarios"}
+							{"n":"Basarios","gold":true}
 						],
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":10},
@@ -8673,7 +8676,7 @@
 						"japanese":"２頭の岩竜",
 						"goal":"Slay 2 Basarios","key":true,"reward":"9000z","fee":"1240z",
 						"largeMonsters":[
-							{"n":"Basarios","q":2}
+							{"n":"Basarios","q":2,"silver":true}
 						],
 						"rewards":[
 							{"name":"Carbalite Ore","quantity":1,"percent":12},
@@ -8692,7 +8695,7 @@
 						"japanese":"雷撃の二重奏",
 						"goal":"Slay 2 Khezu","reward":"13400z","fee":"1450z",
 						"largeMonsters":[
-							{"n":"Khezu","q":2}
+							{"n":"Khezu","q":2,"silver":true}
 						],
 						"rewards":[
 							{"name":"Khezu Hide - Tan","quantity":1,"percent":1},
@@ -8710,7 +8713,7 @@
 						"japanese":"雷撃の二重奏",
 						"goal":"Slay 2 Red Khezu","reward":"13400z","fee":"1450z",
 						"largeMonsters":[
-							{"n":"Red Khezu","q":2}
+							{"n":"Red Khezu","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Alluring Hide","quantity":1,"percent":1},
@@ -8728,8 +8731,8 @@
 						"japanese":"空の飛竜と陸の飛竜",
 						"goal":"Slay the Rathian and Rathalos","key":true,"reward":"16200z","fee":"2000z",
 						"largeMonsters":[
-							{"n":"Rathian"},
-							{"n":"Rathalos"}
+							{"n":"Rathian","silver":true},
+							{"n":"Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":2,"percent":5},
@@ -8756,10 +8759,11 @@
 					},
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
+						"japanese":"天と地の怒り",
 						"goal":"Slay the Pink Rathian and Azure Rathalos","urgentQuest":true,"reward":"18400z","fee":"3200z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"},
-							{"n":"Azure Rathalos"}
+							{"n":"Pink Rathian","silver":true},
+							{"n":"Azure Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
@@ -8794,7 +8798,7 @@
 						"japanese":"ジャングルの女王",
 						"goal":"Slay the Rathian","key":true,"reward":"8400z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Rathian"}
+							{"n":"Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Rathian Carapace","quantity":1,"percent":1},
@@ -8816,7 +8820,7 @@
 						"japanese":"ジャングルの女王",
 						"goal":"Slay the Pink Rathian","reward":"8400z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"}
+							{"n":"Pink Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Pink Rathian Carapace","quantity":1,"percent":1},
@@ -8838,7 +8842,7 @@
 						"japanese":"ジャングルの女王",
 						"goal":"Slay the Gold Rathian","reward":"8400z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Gold Rathian"}
+							{"n":"Gold Rathian","gold":true}
 						],
 						"rewards":[
 							{"name":"Gold Rathian Shell","quantity":1,"percent":1},
@@ -8860,7 +8864,7 @@
 						"japanese":"リオレウス討伐指令",
 						"goal":"Slay the Rathalos","reward":"9200z","fee":"1000z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Carapace","quantity":1,"percent":1},
@@ -8882,7 +8886,7 @@
 						"japanese":"リオレウス討伐指令",
 						"goal":"Slay the Azure Rathalos","reward":"9200z","fee":"1000z",
 						"largeMonsters":[
-							{"n":"Azure Rathalos"}
+							{"n":"Azure Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Carapace","quantity":1,"percent":1},
@@ -8904,7 +8908,7 @@
 						"japanese":"リオレウス討伐指令",
 						"goal":"Slay the Silver Rathalos","reward":"9200z","fee":"1000z",
 						"largeMonsters":[
-							{"n":"Silver Rathalos"}
+							{"n":"Silver Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Silver Rathalos Shell","quantity":1,"percent":1},
@@ -8926,7 +8930,7 @@
 						"japanese":"噴煙まとう王者",
 						"goal":"Slay the Rathalos","key":true,"reward":"9600z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Rathalos"}
+							{"n":"Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Carapace","quantity":1,"percent":1},
@@ -8948,7 +8952,7 @@
 						"japanese":"噴煙まとう王者",
 						"goal":"Slay the Azure Rathalos","reward":"9600z","fee":"800z",
 						"largeMonsters":[
-							{"n":"Azure Rathalos"}
+							{"n":"Azure Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Carapace","quantity":1,"percent":1},
@@ -8970,7 +8974,7 @@
 						"japanese":"密林の水竜",
 						"goal":"Slay the Plesioth","reward":"7600z","fee":"750z",
 						"largeMonsters":[
-							{"n":"Plesioth"}
+							{"n":"Plesioth","silver":true}
 						],
 						"rewards":[
 							{"name":"Plesioth Top Fin","quantity":1,"percent":9},
@@ -8987,7 +8991,7 @@
 						"japanese":"密林の水竜",
 						"goal":"Slay the Green Plesioth","reward":"7600z","fee":"750z",
 						"largeMonsters":[
-							{"n":"Green Plesioth"}
+							{"n":"Green Plesioth","gold":true}
 						],
 						"rewards":[
 							{"name":"Green Plesioth Scale","quantity":1,"percent":1},
@@ -9005,7 +9009,7 @@
 						"japanese":"死闘！角竜ディアブロス",
 						"goal":"Slay the Diablos","reward":"10000z","fee":"1050z",
 						"largeMonsters":[
-							{"n":"Diablos"}
+							{"n":"Diablos","silver":true}
 						],
 						"rewards":[
 							{"name":"Diablos Shell","quantity":1,"percent":10},
@@ -9023,7 +9027,7 @@
 						"japanese":"死闘！角竜ディアブロス",
 						"goal":"Slay the Black Diablos","reward":"10000z","fee":"1050z",
 						"largeMonsters":[
-							{"n":"Black Diablos"}
+							{"n":"Black Diablos","gold":true}
 						],
 						"rewards":[
 							{"name":"Black Diablos Shell","quantity":1,"percent":10},
@@ -9042,7 +9046,7 @@
 						"japanese":"火山地帯の激闘",
 						"goal":"Slay the Gravios","key":true,"reward":"10800z","fee":"1100z",
 						"largeMonsters":[
-							{"n":"Gravios"}
+							{"n":"Gravios","silver":true}
 						],
 						"rewards":[
 							{"name":"Gravios Carapace","quantity":1,"percent":1},
@@ -9063,7 +9067,7 @@
 						"japanese":"火山地帯の激闘",
 						"goal":"Slay the Black Gravios","reward":"10800z","fee":"1100z",
 						"largeMonsters":[
-							{"n":"Black Gravios"}
+							{"n":"Black Gravios","gold":true}
 						],
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
@@ -9085,7 +9089,7 @@
 						"japanese":"４本の角",
 						"goal":"Slay 2 Black Diablos","key":true,"reward":"18000z","fee":"2100z",
 						"largeMonsters":[
-							{"n":"Black Diablos","q":2}
+							{"n":"Black Diablos","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Black Diablos Shell","quantity":1,"percent":28},
@@ -9105,7 +9109,7 @@
 						"japanese":"灼熱の双璧",
 						"goal":"Slay 2 Black Gravios","reward":"19600z","fee":"2250z",
 						"largeMonsters":[
-							{"n":"Black Gravios","q":2}
+							{"n":"Black Gravios","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Black Gravios Carapace","quantity":1,"percent":1},
@@ -9127,7 +9131,7 @@
 						"japanese":"双魚竜",
 						"goal":"Slay 2 Green Plesioth","key":true,"reward":"14400z","fee":"1600z",
 						"largeMonsters":[
-							{"n":"Green Plesioth","q":2}
+							{"n":"Green Plesioth","q":2,"gold":true}
 						],
 						"rewards":[
 							{"name":"Green Plesioth Fin","quantity":2,"percent":9},
@@ -9144,8 +9148,8 @@
 						"japanese":"天と地の怒り",
 						"goal":"Slay the Rathian and Rathalos","reward":"18400z","fee":"3200z",
 						"largeMonsters":[
-							{"n":"Rathian"},
-							{"n":"Rathalos"}
+							{"n":"Rathian","gold":true},
+							{"n":"Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Rathalos Wing","quantity":2,"percent":5},
@@ -9175,8 +9179,8 @@
 						"japanese":"天と地の怒り",
 						"goal":"Slay the Pink Rathian and Azure Rathalos","reward":"18400z","fee":"3200z",
 						"largeMonsters":[
-							{"n":"Pink Rathian"},
-							{"n":"Azure Rathalos"}
+							{"n":"Pink Rathian","silver":true},
+							{"n":"Azure Rathalos","silver":true}
 						],
 						"rewards":[
 							{"name":"Azure Rathalos Wing","quantity":2,"percent":5},
@@ -9206,8 +9210,8 @@
 						"japanese":"蒼と桜",
 						"goal":"Slay the Gold Rathian and Silver Rathalos","reward":"18400z","fee":"3200z",
 						"largeMonsters":[
-							{"n":"Gold Rathian"},
-							{"n":"Silver Rathalos"}
+							{"n":"Gold Rathian","gold":true},
+							{"n":"Silver Rathalos","gold":true}
 						],
 						"rewards":[
 							{"name":"Silver Rathalos Wing","quantity":2,"percent":5},

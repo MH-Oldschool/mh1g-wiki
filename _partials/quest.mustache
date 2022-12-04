@@ -65,7 +65,11 @@
 							Large Monster(s):{{^largeMonsters}} none<br/>{{/largeMonsters}}
 							<ul{{^largeMonsters}} style="display:none"{{/largeMonsters}}>
 								{{#largeMonsters}}
-									<li>{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</li>
+									<li class="large-monster">
+										<span class="va-m">{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</span>
+										{{#silver}}<span class="va-m"> (max:</span> <span class="ui-icon silver-crown-icon"></span><span class="va-m">)</span>{{/silver}}
+										{{#gold}}<span class="va-m"> (max:</span> <span class="ui-icon gold-crown-icon"></span><span class="va-m">)</span>{{/gold}}
+									</li>
 								{{/largeMonsters}}
 							</ul>
 
