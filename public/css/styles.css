@@ -194,6 +194,9 @@ input[type="radio"]:checked + .checkbox-icon:after {
 	display: block;
 }
 
+.d-ib {
+	display: inline-block;
+}
 .va-m {
 	vertical-align: middle;
 }

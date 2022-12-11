@@ -1,6 +1,9 @@
 ul {
 	margin: 0.125rem 0;
 }
+thead {
+	position: static;
+}
 
 .int-only {
 	display: none;

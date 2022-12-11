@@ -66,9 +66,34 @@
 							<ul{{^largeMonsters}} style="display:none"{{/largeMonsters}}>
 								{{#largeMonsters}}
 									<li class="large-monster">
-										<span class="va-m">{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</span>
-										{{#silver}}<span class="va-m"> (max:</span> <span class="ui-icon silver-crown-icon"></span><span class="va-m">)</span>{{/silver}}
-										{{#gold}}<span class="va-m"> (max:</span> <span class="ui-icon gold-crown-icon"></span><span class="va-m">)</span>{{/gold}}
+										<div class="d-ib">
+											<span class="va-m">{{#q}}{{q}} {{/q}}{{n}}{{#q}}s{{/q}}</span>
+											{{#silver}}<span class="va-m"> (max:</span> <span class="ui-icon silver-crown-icon"></span><span class="va-m">)</span>{{/silver}}
+											{{#gold}}<span class="va-m"> (max:</span> <span class="ui-icon gold-crown-icon"></span><span class="va-m">)</span>{{/gold}}
+										</div>
+
+										<details class="d-ib"{{^stats}} style="display:none"{{/stats}}>
+											<summary>Possible Stats</summary>
+
+											<table>
+												<thead>
+													<tr>
+														<th>HP</th>
+														<th>Atk</th>
+														<th>Def</th>
+													</tr>
+												</thead>
+												<tbody>
+													{{#stats}}
+														<tr>
+															<td>{{h}}</td>
+															<td>&times;{{a}}</td>
+															<td>&times;{{d}}</td>
+														</tr>
+													{{/stats}}
+												</tbody>
+											</table>
+										</details>
 									</li>
 								{{/largeMonsters}}
 							</ul>
