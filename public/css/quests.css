@@ -1,6 +1,10 @@
 ul {
 	margin: 0.125rem 0;
 }
+
+tbody {
+	font-family: "Nanum Gothic Coding";
+}
 thead {
 	position: static;
 }
