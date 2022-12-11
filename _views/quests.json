@@ -10694,7 +10694,7 @@
 						"largeMonsters":[
 							{
 								"n":"Rathian",
-								"silver":true,
+								"gold":true,
 								"stats": [
 									{"h": 8000,"a": 2.5,"d": 0.75},
 									{"h": 8000,"a": 2.6,"d": 0.75},
@@ -10704,7 +10704,7 @@
 							},
 							{
 								"n":"Rathalos",
-								"silver":true,
+								"gold":true,
 								"stats": [
 									{"h": 6400,"a": 2.5,"d": 0.75},
 									{"h": 6400,"a": 2.6,"d": 0.75},
@@ -10792,7 +10792,7 @@
 						"largeMonsters":[
 							{
 								"n":"Gold Rathian",
-								"gold":true,
+								"silver":true,
 								"stats": [
 									{"h": 8000,"a": 2.6,"d": 0.75},
 									{"h": 9000,"a": 2.8,"d": 0.75},
@@ -10802,7 +10802,7 @@
 							},
 							{
 								"n":"Silver Rathalos",
-								"gold":true,
+								"silver":true,
 								"stats": [
 									{"h": 11200,"a": 2.6,"d": 0.75},
 									{"h": 12600,"a": 2.8,"d": 0.75},
