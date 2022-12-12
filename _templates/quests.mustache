@@ -32,13 +32,19 @@
 	</article>
 </details>
 
-<details class="mh1">
+<details>
 	<summary>Events</summary>
 
-	<article>
+	<article class="mh1">
 		{{#mh1.eventQuests}}
 			{{>quest }}
 		{{/mh1.eventQuests}}
+	</article>
+
+	<article class="mhg">
+		{{#mhg.eventQuests}}
+			{{^hide}}{{>quest }}{{/hide}}
+		{{/mhg.eventQuests}}
 	</article>
 </details>
 

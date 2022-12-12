@@ -11041,6 +11041,92 @@
 					}
 				]
 			}
+		],
+		"eventQuests":[
+			{
+				"stars": "??","hide":true,
+				"quests":[
+					{
+						"name":"White and Black Arena","icon":"white-icon mushroom-icon","hrp":50,"type":"gather","area":"Forest and Hills",
+						"japanese":"白毛と黒毛の闘技場",
+						"goal":"Deliver 15 Special Mushrooms","reward":"600z","fee":"0z",
+						"details":"Must wear no armor to enter",
+						"largeMonsters":[],
+						"rewards":[
+							{"name":"Flute","quantity":1,"percent":1}
+						]
+					}
+				]
+			},
+			{
+				"stars": "??",
+				"quests":[
+					{
+						"name":"The Legendary Kirin","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Swamp",
+						"japanese":"幻獣、キリン現る！",
+						"goal":"Slay the Kirin","reward":"2800z","fee":"1000z","time":"50′",
+						"details":"","hrRange":"1 - 12",
+						"largeMonsters":[
+							{
+								"n":"Kirin"
+							}
+						],
+						"rewards":[
+							{"name":"Ancient Potion","quantity":1,"percent":1},
+							{"name":"Kirin Horn","quantity":1,"percent":39},
+							{"name":"Kirin Mane","quantity":1,"percent":45},
+							{"name":"Kirin Hide","quantity":1,"percent":15}
+						]
+					},
+					{
+						"name":"On the Trail of the Beast!","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Swamp",
+						"japanese":"湿地を駆ける稲妻",
+						"goal":"Slay the Kirin","reward":"3200z","fee":"1200z","time":"50′",
+						"details":"","hrRequire":13,
+						"largeMonsters":[
+							{
+								"n":"Kirin"
+							}
+						],
+						"rewards":[
+							{"name":"Ancient Potion","quantity":1,"percent":1},
+							{"name":"Kirin Mane","quantity":1,"percent":82},
+							{"name":"Kirin Horn","quantity":1,"percent":15},
+							{"name":"Kirin Hide","quantity":1,"percent":2}
+						]
+					},
+					{
+						"name":"The Advent of Calamity","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"The Battleground",
+						"japanese":"災厄降臨",
+						"goal":"Slay the Crimson Fatalis","reward":"12000z","fee":"3200z","time":"50′",
+						"details":"","hrRequire":27,
+						"largeMonsters":[
+							{
+								"n":"Crimson Fatalis"
+							}
+						],
+						"rewards":[
+							{"name":"Fatalis' Shard","quantity":1,"percent":23},
+							{"name":"Fatalis' Cortex","quantity":1,"percent":35},
+							{"name":"Fatalis' Gore","quantity":1,"percent":12},
+							{"name":"Purecrystal","quantity":1,"percent":24},
+							{"name":"Purecrystal","quantity":2,"percent":6},
+							{"name":"Fatalis' Eye+","quantity":1,"percent":28,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":72,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Spikehorn","quantity":1,"percent":63,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Flamehorn","quantity":1,"percent":37,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Spikehorn","quantity":1,"percent":51,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":49,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":28,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Fellwing","quantity":1,"percent":60,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Flamewing","quantity":1,"percent":12,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":32,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Hard Crust","quantity":1,"percent":56,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Flamecrust","quantity":1,"percent":12,"require":"Additional rewards #5"}
+						]
+					}
+				]
+			}
 		]
 	}
 }
