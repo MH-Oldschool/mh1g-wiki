@@ -316,7 +316,7 @@
 						{
 							"name":"Serpentblade",
 							"rarity":2,
-							"damage":480,
+							"damage1":432,"damageG":480,
 							"sharpness":"sharpness_gs/serpentblade",
 							"price":"2,250",
 							"upgrade":[
@@ -328,7 +328,7 @@
 						{
 							"name":"Vile Serpentblade",
 							"rarity":2,
-							"damage":528,
+							"damage1":480,"damageG":528,
 							"sharpness":"sharpness_gs/vile_serpentblade",
 							"price":"2,850",
 							"upgrade":[
