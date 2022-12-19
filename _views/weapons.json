@@ -819,7 +819,7 @@
 							"sharpness":"sharpness_gs/smolder_dragonsword",
 							"price":"250,000",
 							"upgrade":[
-								{"n":"Ashen Lao-Shan Horn","q":5},
+								{"n":"Azure Lao-Shan Horn","q":5},
 								{"n":"Commendation","q":5},
 								{"n":"Joiner Grasshopper","q":20}
 							]
@@ -1153,7 +1153,7 @@
 							"upgrade":[
 								{"n":"Platinum Ticket","q":5},
 								{"n":"Wyvern Fang","q":99},
-								{"n":"Ashen Lao-Shan Horn","q":2}
+								{"n":"Azure Lao-Shan Horn","q":2}
 							]
 						}
 					]
@@ -1434,7 +1434,7 @@
 							"sharpness":"sharpness_gs/chrome_death_razor",
 							"price":"250,000",
 							"upgrade":[
-								{"n":"Ashen Lao-Shan Horn","q":1},
+								{"n":"Azure Lao-Shan Horn","q":1},
 								{"n":"Rathalos Plate","q":4},
 								{"n":"Rathian Plate","q":4}
 							]
@@ -2875,8 +2875,8 @@
 							"sharpness":"sharpness_h/dragon_demolisher",
 							"price":"200,000",
 							"upgrade":[
-								{"n":"Ashen Lao-Shan Claw","q":3},
-								{"n":"Ashen Lao-Shan Plate","q":1},
+								{"n":"Azure Lao-Shan Claw","q":3},
+								{"n":"Azure Lao-Shan Plate","q":1},
 								{"n":"Purecrystal","q":3}
 							]
 						}
@@ -6988,7 +6988,7 @@
 							"price":"250,000",
 							"upgrade":[
 								{"n":"Platinum Ticket","q":5},
-								{"n":"Ashen Lao-Shan Horn","q":2},
+								{"n":"Azure Lao-Shan Horn","q":2},
 								{"n":"Fatalis' Gore","q":2}
 							]
 						}
@@ -9227,7 +9227,7 @@
 				"tranq":2,"paint":2,"demon":"","antidote":"",
 				"price":"25,000z",
 				"mats":[
-					{"n":"Ashen Lao-Shan Plate","q":1},
+					{"n":"Azure Lao-Shan Plate","q":1},
 					{"n":"Lao-Shan Ruby","q":1},
 					{"n":"Azure Lao-Shan Shell","q":5},
 					{"n":"Azure Lao-Shan Scale","q":5}

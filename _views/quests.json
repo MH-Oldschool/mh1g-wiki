@@ -851,7 +851,7 @@
 						"name":"The Velociprey Pack","icon":"monster-icon monster-velociprey","hrp":0,"type":"hunt","area":"Forest and Hills",
 						"japanese":"ランポスの大軍団を討伐せよ！",
 						"goal":"Slay 20 Velociprey","reward":"500z","fee":"300z","time":"30′","penalty":"170z",
-						"client":"Proud Farmer","details":"I had you kill those 15 Velociprey, but now they&#8217;re back! There&#8217;s 20 of them this time. Please take care of it for me, hunter!",
+						"client":"Proud Farmer","details":"I had you kill those 15 Velociprey, but now they're back! There's 20 of them this time. Please take care of it for me, hunter!",
 						"supplies":[
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Mini Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
@@ -3728,7 +3728,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
-						"rewards":[{"percent":5,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Cactus Flower","quantity":"2"},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":1,"name":"Unknown Skull","quantity":1},{"percent":1,"name":"Master&#8217;s Skull","quantity":1}],
+						"rewards":[{"percent":5,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Cactus Flower","quantity":"2"},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":1,"name":"Unknown Skull","quantity":1},{"percent":1,"name":"Master's Skull","quantity":1}],
 						"note":""
 					},
 					{
@@ -5086,7 +5086,7 @@
 							{"name":"Map","icon":"white-icon map-icon","quantity":1},
 							{"name":"Map","icon":"white-icon map-icon","quantity":1}
 						],
-						"rewards":[{"percent":"","name":"Commendation","quantity":""},{"percent":"","name":"Guild Ticket","quantity":""},{"percent":"","name":"Lao-Shan&#8217;s Scale","quantity":""},{"percent":"","name":"Lao-Shan&#8217;s Shell","quantity":""},{"percent":"","name":"Lao-Shan&#8217;s Horn","quantity":""},{"percent":"","name":"Lao-Shan&#8217;s Claw","quantity":""},{"percent":"","name":"Ruststone","quantity":""}],
+						"rewards":[{"percent":"","name":"Commendation","quantity":""},{"percent":"","name":"Guild Ticket","quantity":""},{"percent":"","name":"Lao-Shan's Scale","quantity":""},{"percent":"","name":"Lao-Shan's Shell","quantity":""},{"percent":"","name":"Lao-Shan's Horn","quantity":""},{"percent":"","name":"Lao-Shan's Claw","quantity":""},{"percent":"","name":"Ruststone","quantity":""}],
 						"note":""
 					}
 				]
@@ -5443,7 +5443,7 @@
 						]
 					},
 					{
-						"name":"Raid the Wyvern&#8217;s Nest","icon":"yellow-icon egg-icon","type":"gather","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","type":"gather","area":"Forest and Hills",
 						"japanese":"潜入！飛竜の巣！",
 						"goal":"Deliver 1 Wyvern Egg","key":true,"reward":"350z","fee":"100z",
 						"largeMonsters":[
@@ -5461,8 +5461,8 @@
 							{"name":"Fruit of Paint","quantity":1,"percent":20},
 							{"name":"Nutrient","quantity":1,"percent":4},
 							{"name":"Egg Ticket","quantity":1,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":90,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":10,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":90,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":10,"require":"Break Rathalos's head"},
 							{"name":"Wyvern Claw","quantity":3,"percent":90,"require":"Break Rathalos&#8217s wings"},
 							{"name":"Rathalos Claw","quantity":1,"percent":10,"require":"Break Rathalos&#8217s wings"}
 						]
@@ -5619,10 +5619,10 @@
 							{"name":"Armor Seed","quantity":1,"percent":20},
 							{"name":"Nutrient","quantity":1,"percent":20},
 							{"name":"Egg Ticket","quantity":1,"percent":15},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -5711,10 +5711,10 @@
 							{"name":"Velociprey Scale","quantity":2,"percent":20},
 							{"name":"Velociprey Fang","quantity":2,"percent":4},
 							{"name":"Velociprey Fang","quantity":4,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":50,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":50,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":50,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":50,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Scale","quantity":1,"percent":50,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":50,"require":"Break Rathalos's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":50,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":50,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -5744,10 +5744,10 @@
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":8,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":90,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":10,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":90,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":10,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Scale","quantity":1,"percent":90,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":10,"require":"Break Rathalos's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":90,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":10,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -5832,8 +5832,8 @@
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Genprey Fang","quantity":15,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -5898,10 +5898,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathalos Wing","quantity":1,"percent":3},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					}
 				]
@@ -5932,8 +5932,8 @@
 							{"name":"Nutrient","quantity":1,"percent":25},
 							{"name":"Recovery medicine","quantity":3,"percent":15},
 							{"name":"Mega Nutrient","quantity":1,"percent":6},
-							{"name":"Rathalos Shell","quantity":1,"percent":85,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":15,"require":"Break Rathalos&#8217;s head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":85,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":15,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":85,"require":"Break Rathalos&#8217s wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":15,"require":"Break Rathalos&#8217s wings"}
 						]
@@ -6017,10 +6017,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathalos Wing","quantity":1,"percent":3},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -6078,10 +6078,10 @@
 							{"name":"Rathalos Webbing","quantity":1,"percent":19},
 							{"name":"Wyvern Marrow","quantity":1,"percent":3},
 							{"name":"Rathalos Wing","quantity":1,"percent":5},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -6132,8 +6132,8 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":30},
 							{"name":"Poison Sac","quantity":1,"percent":4},
 							{"name":"Machalite Ore","quantity":4,"percent":1},
-							{"name":"Basarios Shell","quantity":1,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":12,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Basarios Shell","quantity":1,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":12,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -6160,10 +6160,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -6187,10 +6187,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Pink Rathian Spike","quantity":1,"percent":1},
-							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -6217,10 +6217,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -6244,10 +6244,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Pink Rathian Spike","quantity":1,"percent":1},
-							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -6275,7 +6275,7 @@
 							{"name":"Blos Jaw","quantity":1,"percent":20},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
-							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos&#8217;s horn"}
+							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos's horn"}
 						]
 					}
 				]
@@ -6308,7 +6308,7 @@
 							{"name":"Blos Jaw","quantity":1,"percent":20},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
-							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos&#8217;s horn"}
+							{"name":"Crimson Horn","quantity":1,"percent":100,"require":"Break Monoblos's horn"}
 						]
 					},
 					{
@@ -6333,7 +6333,7 @@
 							{"name":"Blos Jaw","quantity":1,"percent":20},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":4},
 							{"name":"Lg Bone Husk","quantity":12,"percent":1},
-							{"name":"Silver Horn","quantity":1,"percent":100,"require":"Break White Monoblos&#8217;s horn"}
+							{"name":"Silver Horn","quantity":1,"percent":100,"require":"Break White Monoblos's horn"}
 						]
 					},
 					{
@@ -6362,8 +6362,8 @@
 							{"name":"Sleep Sac","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":4},
 							{"name":"Wyvern Claw","quantity":24,"percent":1},
-							{"name":"Gravios Shell","quantity":1,"percent":50,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Flame Sac","quantity":1,"percent":50,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":50,"require":"Break Gravios's chest"},
+							{"name":"Flame Sac","quantity":1,"percent":50,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -6393,8 +6393,8 @@
 							{"name":"Gunpowder","quantity":10,"percent":20},
 							{"name":"Lightcrystal","quantity":1,"percent":15},
 							{"name":"Commendation","quantity":1,"percent":4},
-							{"name":"Gravios Shell","quantity":1,"percent":50,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Flame Sac","quantity":1,"percent":50,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":50,"require":"Break Gravios's chest"},
+							{"name":"Flame Sac","quantity":1,"percent":50,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -6487,14 +6487,14 @@
 							{"name":"Pink Rathian Spike","quantity":3,"percent":10},
 							{"name":"Azure Rathalos Tail","quantity":1,"percent":10},
 							{"name":"Wyvern Marrow","quantity":1,"percent":10},
-							{"name":"Azure Rathalos Shell","quantity":2,"percent":75,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Shell","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Pink Rathian Shell","quantity":2,"percent":75,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Shell","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Azure Rathalos Shell","quantity":2,"percent":75,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Shell","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos's wings"},
+							{"name":"Pink Rathian Shell","quantity":2,"percent":75,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Shell","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -6512,32 +6512,32 @@
 						],
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":1},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":25},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":25},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":15},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":15},
 							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5},
 							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5},
 							{"name":"Ruststone (Hammer)","quantity":1,"percent":5},
 							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5},
 							{"name":"Ruststone (Lance)","quantity":1,"percent":5},
-							{"name":"Lao-Shan&#8217;s Sm Claw","quantity":1,"percent":5},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":65,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":50,"require":"Break Lao-Shan Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":50,"require":"Break Lao-Shan Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":50,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":50,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
+							{"name":"Lao-Shan's Sm Claw","quantity":1,"percent":5},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":65,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao-Shan Lung's left shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao-Shan Lung's left shoulder"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao-Shan Lung's right shoulder"}
 						]
 					}
 				]
@@ -6570,12 +6570,12 @@
 							{"name":"Parashroom","quantity":1,"percent":20},
 							{"name":"Parashroom","quantity":3,"percent":4},
 							{"name":"Dragon Toadstool","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
-						"name":"The Sculptor&#8217;s Errand","icon":"blue-icon claw-icon","hrp":80,"type":"gather","area":"Forest and Hills",
+						"name":"The Sculptor's Errand","icon":"blue-icon claw-icon","hrp":80,"type":"gather","area":"Forest and Hills",
 						"japanese":"彫刻家への届けもの",
 						"goal":"Deliver 12 Kelbi Horns","key":true,"reward":"800 z","fee":"100z",
 						"largeMonsters":[
@@ -6599,7 +6599,7 @@
 						]
 					},
 					{
-						"name":"It&#8217;s Party Time!","icon":"red-icon meat-icon","hrp":40,"type":"gather","area":"Forest and Hills",
+						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":40,"type":"gather","area":"Forest and Hills",
 						"japanese":"パーティを成功させろ！",
 						"goal":"Deliver 10 pcs Raw Meat","reward":"400z","fee":"0z",
 						"largeMonsters":[
@@ -6621,8 +6621,8 @@
 							{"name":"Kut-Ku Scale","quantity":1,"percent":15},
 							{"name":"Power Seed","quantity":1,"percent":4},
 							{"name":"Power Seed","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -6672,10 +6672,10 @@
 							{"name":"Velociprey Scale","quantity":2,"percent":20},
 							{"name":"Velociprey Fang","quantity":12,"percent":4},
 							{"name":"Velociprey Fang","quantity":24,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -6710,10 +6710,10 @@
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":12,"percent":20},
 							{"name":"Screamer","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -6762,8 +6762,8 @@
 							{"name":"Earth Crystal","quantity":1,"percent":25},
 							{"name":"Earth Crystal","quantity":2,"percent":20},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -6788,10 +6788,10 @@
 							{"name":"Pin Tuna","quantity":10,"percent":20},
 							{"name":"Burst Arrowana","quantity":5,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":12},
-							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -6866,8 +6866,8 @@
 							{"name":"Parashroom","quantity":1,"percent":20},
 							{"name":"Dragon Toadstool","quantity":1,"percent":4},
 							{"name":"Dragon Toadstool","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -6918,8 +6918,8 @@
 							{"name":"Wyvern Claw","quantity":1,"percent":20},
 							{"name":"Poison Sac","quantity":1,"percent":4},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					}
 				]
@@ -6950,12 +6950,12 @@
 							{"name":"Wyvern Claw","quantity":1,"percent":20},
 							{"name":"Poison Sac","quantity":1,"percent":4},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
-						"name":"Raid the Wyvern&#8217;s Nest","icon":"yellow-icon egg-icon","hrp":240,"type":"gather","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":240,"type":"gather","area":"Forest and Hills",
 						"japanese":"潜入！飛竜の巣",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3000z","fee":"180z",
 						"largeMonsters":[
@@ -6976,10 +6976,10 @@
 							{"name":"Armor Seed","quantity":1,"percent":25},
 							{"name":"Nutrient","quantity":1,"percent":20},
 							{"name":"Egg Ticket","quantity":1,"percent":4},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -7005,10 +7005,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -7034,10 +7034,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -7173,8 +7173,8 @@
 							{"name":"Bullfango Hide","quantity":1,"percent":30},
 							{"name":"Honey","quantity":2,"percent":4},
 							{"name":"Honey","quantity":4,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -7200,8 +7200,8 @@
 							{"name":"Wyvern Claw","quantity":1,"percent":20},
 							{"name":"Poison Sac","quantity":1,"percent":4},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -7226,8 +7226,8 @@
 							{"name":"Earth Crystal","quantity":1,"percent":25},
 							{"name":"Earth Crystal","quantity":2,"percent":20},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Iron Ore","quantity":8,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Basarios Shell","quantity":1,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Iron Ore","quantity":8,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Basarios Shell","quantity":1,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -7262,10 +7262,10 @@
 							{"name":"Genprey Scale","quantity":3,"percent":15},
 							{"name":"Genprey Fang","quantity":10,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
-							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -7291,8 +7291,8 @@
 							{"name":"Disk Stone","quantity":3,"percent":20},
 							{"name":"Machalite Ore","quantity":2,"percent":4},
 							{"name":"Machalite Ore","quantity":4,"percent":1},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Sleep Sac","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Sleep Sac","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -7317,8 +7317,8 @@
 							{"name":"Med Monster Bone","quantity":1,"percent":30},
 							{"name":"Machalite Ore","quantity":2,"percent":4},
 							{"name":"Machalite Ore","quantity":4,"percent":1},
-							{"name":"Basarios Shell","quantity":1,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":8,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Basarios Shell","quantity":1,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":8,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -7344,8 +7344,8 @@
 							{"name":"Wyvern Claw","quantity":1,"percent":20},
 							{"name":"Poison Sac","quantity":1,"percent":4},
 							{"name":"Lightcrystal","quantity":1,"percent":1},
-							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":99,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -7424,10 +7424,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					}
 				]
@@ -7458,10 +7458,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -7487,8 +7487,8 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":40},
 							{"name":"Lg Bone Husk","quantity":8,"percent":4},
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":48,"percent":1},
-							{"name":"Twisted Horn","quantity":1,"percent":95,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Majestic Horn","quantity":1,"percent":5,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Twisted Horn","quantity":1,"percent":95,"require":"Break Diablos's horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":5,"require":"Break Diablos's horns"}
 						]
 					},
 					{
@@ -7539,8 +7539,8 @@
 							{"name":"Lg Monster Bone","quantity":3,"percent":15},
 							{"name":"Lg Bone Husk","quantity":12,"percent":9},
 							{"name":"Wyvern Claw","quantity":24,"percent":1},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Flame Sac","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Flame Sac","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -7566,10 +7566,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -7595,8 +7595,8 @@
 							{"name":"Lg Monster Bone","quantity":3,"percent":15},
 							{"name":"Lg Bone Husk","quantity":12,"percent":9},
 							{"name":"Wyvern Claw","quantity":24,"percent":1},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Flame Sac","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Flame Sac","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -7682,8 +7682,8 @@
 							{"name":"Ruststone (Lance)","quantity":1,"percent":3},
 							{"name":"Ruststone (Bowgun)","quantity":1,"percent":4},
 							{"name":"Commendation","quantity":1,"percent":4},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Sleep Sac","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Sleep Sac","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -7791,8 +7791,8 @@
 							{"name":"Armor Seed","quantity":1,"percent":25},
 							{"name":"Nutrient","quantity":1,"percent":20},
 							{"name":"Egg Ticket","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8271;s wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8271;s wings"}
 						]
@@ -7820,10 +7820,10 @@
 							{"name":"Wyvern Fang","quantity":6,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":19},
 							{"name":"Rathian Spike","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -7853,10 +7853,10 @@
 							{"name":"Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Wyvern Marrow","quantity":1,"percent":4},
 							{"name":"Rathalos Wing","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -7884,8 +7884,8 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Lightcrystal","quantity":1,"percent":9},
 							{"name":"Power Extract","quantity":5,"percent":1},
-							{"name":"Stone","quantity":5,"percent":75,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":25,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Stone","quantity":5,"percent":75,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":25,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -7957,32 +7957,32 @@
 						],
 						"rewards":[
 							{"name":"Commendation","quantity":1,"percent":1},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":25},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":25},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":20},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":20},
 							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5},
 							{"name":"Ruststone (Hammer)","quantity":1,"percent":5},
 							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5},
 							{"name":"Ruststone (Lance)","quantity":1,"percent":5},
 							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5},
-							{"name":"Lao-Shan&#8217;s Claw","quantity":1,"percent":4},
-							{"name":"Lao-Shan&#8217;s Horn","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":65,"require":"Break Lao-Shun Lung&#8217;s head"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":75,"require":"Break Lao-Shun Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":50,"require":"Break Lao-Shun Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":50,"require":"Break Lao-Shun Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":50,"require":"Break Lao-Shun Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":50,"require":"Break Lao-Shun Lung&#8217;s right shoulder"}
+							{"name":"Lao-Shan's Claw","quantity":1,"percent":4},
+							{"name":"Lao-Shan's Horn","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":65,"require":"Break Lao-Shun Lung's head"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":75,"require":"Break Lao-Shun Lung's back"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's left shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's left shoulder"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's right shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's right shoulder"}
 						],
 						"notes":"Can only be completed once"
 					}
@@ -8040,8 +8040,8 @@
 							{"name":"Mega Nutrient","quantity":1,"percent":6},
 							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8271;s head"},
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8271;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8076,14 +8076,14 @@
 							{"name":"Sm Bone Husk","icon":"white-icon husk-icon","quantity":24,"percent":20},
 							{"name":"Velocidrome Head","quantity":1,"percent":4},
 							{"name":"Velocidrome Claw","quantity":1,"percent":1},
-							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Scale","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
-						"name":"Raid the Wyvern&#8217;s Nest","icon":"yellow-icon egg-icon","hrp":490,"type":"gather","area":"Forest and Hills",
+						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":490,"type":"gather","area":"Forest and Hills",
 						"japanese":"潜入！飛竜の巣",
 						"goal":"Deliver 3 Wyvern Eggs","key":true,"reward":"3400z","fee":"300z",
 						"largeMonsters":[
@@ -8134,10 +8134,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8188,10 +8188,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8240,9 +8240,9 @@
 							{"name":"Recovery medicine","quantity":2,"percent":25},
 							{"name":"Nutrient","quantity":1,"percent":25},
 							{"name":"Unknown Skull","quantity":1,"percent":10},
-							{"name":"Master&#8217;s Skull","quantity":1,"percent":10},
-							{"name":"Twisted Horn","quantity":1,"percent":92,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Majestic Horn","quantity":1,"percent":8,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Master's Skull","quantity":1,"percent":10},
+							{"name":"Twisted Horn","quantity":1,"percent":92,"require":"Break Diablos's horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":8,"require":"Break Diablos's horns"}
 						]
 					},
 					{
@@ -8267,10 +8267,10 @@
 							{"name":"Pin Tuna","quantity":10,"percent":20},
 							{"name":"Burst Arrowana","quantity":5,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":12},
-							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8296,9 +8296,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Novacrystal","quantity":1,"percent":1},
-							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -8324,8 +8324,8 @@
 							{"name":"Earth Crystal","quantity":2,"percent":25},
 							{"name":"Lightcrystal","quantity":1,"percent":4},
 							{"name":"Novacrystal","quantity":1,"percent":1},
-							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":20,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":20,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -8361,10 +8361,10 @@
 							{"name":"Genprey Scale","quantity":4,"percent":15},
 							{"name":"Genprey Fang","quantity":15,"percent":4},
 							{"name":"Stun Bag","quantity":1,"percent":1},
-							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8390,10 +8390,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8468,9 +8468,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Novacrystal","quantity":1,"percent":1},
-							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -8552,9 +8552,9 @@
 							{"name":"Lg Bone Husk","quantity":24,"percent":15},
 							{"name":"Diablos Spine","quantity":2,"percent":10},
 							{"name":"Lg Monster Bone","quantity":4,"percent":5},
-							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos's horns"},
+							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos's horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos's horns"}
 						]
 					}
 				]
@@ -8585,11 +8585,11 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":74,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Plate","quantity":1,"percent":1,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":74,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Plate","quantity":1,"percent":1,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -8616,11 +8616,11 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Azure Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":2},
-							{"name":"Azure Rathalos Shell","quantity":1,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Scale","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Plate","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"}
+							{"name":"Azure Rathalos Shell","quantity":1,"percent":74,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Scale","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Plate","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
 						]
 					},
 					{
@@ -8645,8 +8645,8 @@
 							{"name":"Lg Monster Bone","quantity":2,"percent":25},
 							{"name":"Blos Fang","quantity":1,"percent":20},
 							{"name":"Diablos Spine","quantity":1,"percent":5},
-							{"name":"Twisted Horn","quantity":1,"percent":88,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Majestic Horn","quantity":1,"percent":12,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Twisted Horn","quantity":1,"percent":88,"require":"Break Diablos's horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":12,"require":"Break Diablos's horns"}
 						]
 					},
 					{
@@ -8672,9 +8672,9 @@
 							{"name":"Earth Crystal","quantity":2,"percent":25},
 							{"name":"Lightcrystal","quantity":1,"percent":4},
 							{"name":"Novacrystal","quantity":1,"percent":1},
-							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
+							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -8701,8 +8701,8 @@
 							{"name":"Sleep Sac","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":9},
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -8727,8 +8727,8 @@
 							{"name":"Iron Ore","quantity":8,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
 							{"name":"Union Ore","quantity":1,"percent":5},
-							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -8755,8 +8755,8 @@
 							{"name":"Sleep Sac","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":9},
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -8818,8 +8818,8 @@
 							{"name":"Firestone","quantity":1,"percent":10},
 							{"name":"Firestone","quantity":2,"percent":6},
 							{"name":"Firestone","quantity":3,"percent":1},
-							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
+							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -8895,10 +8895,10 @@
 							{"name":"Gunpowder","quantity":5,"percent":6},
 							{"name":"Commendation","quantity":1,"percent":20},
 							{"name":"Firestone","quantity":2,"percent":3},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -8924,10 +8924,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8953,10 +8953,10 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":20},
 							{"name":"Pink Rathian Spike","quantity":3,"percent":4},
 							{"name":"Wyvern Marrow","quantity":1,"percent":1},
-							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -8993,14 +8993,14 @@
 							{"name":"Rathian Spike","quantity":3,"percent":10},
 							{"name":"Rathalos Tail","quantity":1,"percent":10},
 							{"name":"Rathalos Wing","quantity":1,"percent":5},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":2,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":2,"percent":25,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":2,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":2,"percent":25,"require":"Break Rathalos's wings"},
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -9025,9 +9025,9 @@
 							{"name":"Lg Bone Husk","quantity":24,"percent":15},
 							{"name":"Diablos Spine","quantity":2,"percent":10},
 							{"name":"Lg Monster Bone","quantity":4,"percent":5},
-							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos's horns"},
+							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos's horns"},
+							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos's horns"}
 						]
 					},
 					{
@@ -9052,8 +9052,8 @@
 							{"name":"Iron Ore","quantity":10,"percent":20},
 							{"name":"Poison Sac","quantity":1,"percent":15},
 							{"name":"Dragonite Ore","quantity":2,"percent":10},
-							{"name":"Union Ore","quantity":1,"percent":50,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Dragonite Ore","quantity":1,"percent":50,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Union Ore","quantity":1,"percent":50,"require":"Break Basarios's chest"},
+							{"name":"Dragonite Ore","quantity":1,"percent":50,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -9090,14 +9090,14 @@
 							{"name":"Rathian Spike","quantity":3,"percent":10},
 							{"name":"Rathalos Tail","quantity":1,"percent":10},
 							{"name":"Wyvern Marrow","quantity":1,"percent":5},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Shell","quantity":2,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":2,"percent":25,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Shell","quantity":2,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":2,"percent":25,"require":"Break Rathalos's wings"},
+							{"name":"Rathian Shell","quantity":1,"percent":75,"require":"Break Rathian's head"},
+							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -9128,10 +9128,10 @@
 							{"name":"Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Wyvern Marrow","quantity":1,"percent":4},
 							{"name":"Rathalos Wing","quantity":1,"percent":1},
-							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Shell","quantity":1,"percent":75,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -9174,32 +9174,32 @@
 							}
 						],
 						"rewards":[
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":25},
-							{"name":"Lao-Shan&#8217;s Claw","quantity":1,"percent":20},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":30},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":24},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":2,"percent":1},
-							{"name":"Lao-Shan&#8217;s Horn","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":65,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":48,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":25,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Plate","quantity":1,"percent":2,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s left shoulder"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Claw","quantity":1,"percent":20},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":30},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":24},
+							{"name":"Lao-Shan's Thoracic","quantity":2,"percent":1},
+							{"name":"Lao-Shan's Horn","quantity":1,"percent":100,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":65,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":48,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":25,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Plate","quantity":1,"percent":2,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's left shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's left shoulder"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's left shoulder"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
 						],
 						"notes":"Once completed, will appear permanently in the Urgent category."
 					}
@@ -9346,9 +9346,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -9375,9 +9375,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
 						]
 					},
 					{
@@ -9403,9 +9403,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -9432,9 +9432,9 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
 						]
 					},
 					{
@@ -9461,10 +9461,10 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":69,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":69,"require":"Break Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
+							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
 						]
 					},
 					{
@@ -9491,10 +9491,10 @@
 							{"name":"Poison Sac","quantity":1,"percent":20},
 							{"name":"Wyvern Fang","quantity":10,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":69,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":69,"require":"Break Purple Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
+							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
 						]
 					},
 					{
@@ -9618,10 +9618,10 @@
 							{"name":"Poison Sac","quantity":2,"percent":20},
 							{"name":"Wyvern Fang","quantity":15,"percent":4},
 							{"name":"Purecrystal","quantity":1,"percent":1},
-							{"name":"Dragonite Ore","quantity":1,"percent":68,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros&#8217;s head"},
-							{"name":"Purecrystal","quantity":1,"percent":2,"require":"Break Purple Gypceros&#8217;s head"}
+							{"name":"Dragonite Ore","quantity":1,"percent":68,"require":"Break Purple Gypceros's head"},
+							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
+							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"},
+							{"name":"Purecrystal","quantity":1,"percent":2,"require":"Break Purple Gypceros's head"}
 						]
 					},
 					{
@@ -9708,11 +9708,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -9739,11 +9739,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Pink Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -9770,11 +9770,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -9801,11 +9801,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Pink Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -9832,11 +9832,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -9863,11 +9863,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Pink Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -9997,8 +9997,8 @@
 							{"name":"Iron Ore","quantity":8,"percent":25},
 							{"name":"Poison Sac","quantity":1,"percent":10},
 							{"name":"Hellfire Stone","quantity":1,"percent":5},
-							{"name":"Carbalite Ore","quantity":3,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Carbalite Ore","quantity":3,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -10025,8 +10025,8 @@
 							{"name":"Iron Ore","quantity":10,"percent":20},
 							{"name":"Poison Sac","quantity":2,"percent":10},
 							{"name":"Hellfire Stone","quantity":1,"percent":5},
-							{"name":"Carbalite Ore","quantity":4,"percent":75,"require":"Break Basarios&#8217;s chest"},
-							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios&#8217;s chest"}
+							{"name":"Carbalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
+							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
 						]
 					},
 					{
@@ -10120,16 +10120,16 @@
 							{"name":"Rathian Spike","quantity":3,"percent":10},
 							{"name":"Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Rath Medulla","quantity":1,"percent":10},
-							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Carapace","quantity":2,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":2,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Carapace","quantity":2,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Carapace","quantity":2,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":2,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"},
+							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Carapace","quantity":2,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -10169,16 +10169,16 @@
 							{"name":"Pink Rathian Spike","quantity":3,"percent":10},
 							{"name":"Azure Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Rath Medulla","quantity":1,"percent":10},
-							{"name":"Azure Rathalos Carapace","quantity":2,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Carapace","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Pink Rathian Carapace","quantity":2,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Azure Rathalos Carapace","quantity":2,"percent":74,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos's wings"},
+							{"name":"Pink Rathian Carapace","quantity":2,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					}
 				]
@@ -10210,11 +10210,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathian Carapace","quantity":1,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -10241,11 +10241,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Pink Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Scale+","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -10271,11 +10271,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Gold Rathian Spike","quantity":3,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Gold Rathian Shell","quantity":1,"percent":74,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Scale","quantity":1,"percent":25,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Claw","quantity":1,"percent":75,"require":"Break Gold Rathian&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Gold Rathian&#8217;s wings"}
+							{"name":"Gold Rathian Shell","quantity":1,"percent":74,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Scale","quantity":1,"percent":25,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Claw","quantity":1,"percent":75,"require":"Break Gold Rathian's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Gold Rathian's wings"}
 						]
 					},
 					{
@@ -10302,11 +10302,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale+","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale+","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -10333,11 +10333,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Azure Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Azure Rathalos Carapace","quantity":1,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Scale+","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"}
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":74,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Scale+","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
 						]
 					},
 					{
@@ -10363,11 +10363,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Silver Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Silver Rathalos Shell","quantity":1,"percent":74,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Silver Rathalos Scale","quantity":1,"percent":25,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Wrath of Silver Fire Dragon","quantity":1,"percent":1,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Silver Rathalos Claw","quantity":1,"percent":75,"require":"Break Silver Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Silver Rathalos&#8217;s wings"}
+							{"name":"Silver Rathalos Shell","quantity":1,"percent":74,"require":"Break Silver Rathalos's head"},
+							{"name":"Silver Rathalos Scale","quantity":1,"percent":25,"require":"Break Silver Rathalos's head"},
+							{"name":"Wrath of Silver Fire Dragon","quantity":1,"percent":1,"require":"Break Silver Rathalos's head"},
+							{"name":"Silver Rathalos Claw","quantity":1,"percent":75,"require":"Break Silver Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Silver Rathalos's wings"}
 						]
 					},
 					{
@@ -10394,11 +10394,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Scale+","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos&#8217;s wings"}
+							{"name":"Rathalos Carapace","quantity":1,"percent":74,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Scale+","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
 						]
 					},
 					{
@@ -10425,11 +10425,11 @@
 							{"name":"Monster Bone+","quantity":1,"percent":20},
 							{"name":"Azure Rathalos Wing","quantity":1,"percent":4},
 							{"name":"Rath Medulla","quantity":1,"percent":1},
-							{"name":"Azure Rathalos Carapace","quantity":1,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Scale+","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"}
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":74,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Scale+","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
 						]
 					},
 					{
@@ -10508,8 +10508,8 @@
 							{"name":"Monster Bone+","quantity":2,"percent":25},
 							{"name":"Blos Fang","quantity":1,"percent":20},
 							{"name":"Diablos Thoracic","quantity":1,"percent":5},
-							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Diablos&#8217;s horns"},
-							{"name":"Solid Blos Horn","quantity":1,"percent":12,"require":"Break Diablos&#8217;s horns"}
+							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Diablos's horns"},
+							{"name":"Solid Blos Horn","quantity":1,"percent":12,"require":"Break Diablos's horns"}
 						]
 					},
 					{
@@ -10536,8 +10536,8 @@
 							{"name":"Blos Fang","quantity":1,"percent":16},
 							{"name":"Black horned dragon back shell","quantity":1,"percent":20},
 							{"name":"Black horned dragon back","quantity":2,"percent":4},
-							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Black Diablos&#8217;s horns"},
-							{"name":"Black winding horn","quantity":1,"percent":12,"require":"Break Black Diablos&#8217;s horns"}
+							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Black Diablos's horns"},
+							{"name":"Black winding horn","quantity":1,"percent":12,"require":"Break Black Diablos's horns"}
 						]
 					},
 					{
@@ -10565,9 +10565,9 @@
 							{"name":"Sleep Sac","quantity":1,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":9},
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
-							{"name":"Gravios Carapace","quantity":1,"percent":63,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Gravios Carapace","quantity":1,"percent":35,"require":"Break Gravios&#8217;s chest"},
-							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Gravios&#8217;s chest"}
+							{"name":"Gravios Carapace","quantity":1,"percent":63,"require":"Break Gravios's chest"},
+							{"name":"Gravios Carapace","quantity":1,"percent":35,"require":"Break Gravios's chest"},
+							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Gravios's chest"}
 						]
 					},
 					{
@@ -10596,9 +10596,9 @@
 							{"name":"Lg Bone Husk","quantity":24,"percent":9},
 							{"name":"Black Gravios Carapace","quantity":1,"percent":5},
 							{"name":"Black Gravios Wing","quantity":1,"percent":5},
-							{"name":"Black Gravios Carapace","quantity":1,"percent":63,"require":"Break Black Gravios&#8217;s chest"},
-							{"name":"Black Gravios Carapace","quantity":1,"percent":35,"require":"Break Black Gravios&#8217;s chest"},
-							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Black Gravios&#8217;s chest"}
+							{"name":"Black Gravios Carapace","quantity":1,"percent":63,"require":"Break Black Gravios's chest"},
+							{"name":"Black Gravios Carapace","quantity":1,"percent":35,"require":"Break Black Gravios's chest"},
+							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Black Gravios's chest"}
 						]
 					},
 					{
@@ -10625,9 +10625,9 @@
 							{"name":"Lg Bone Husk","quantity":24,"percent":18},
 							{"name":"Black horned dragon back","quantity":2,"percent":1},
 							{"name":"Monster Bone+","quantity":3,"percent":18},
-							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Black Diablos&#8217;s horns"},
-							{"name":"High quality twisted horn","quantity":2,"percent":22,"require":"Break Black Diablos&#8217;s horns"},
-							{"name":"Black winding horn","quantity":1,"percent":16,"require":"Break Black Diablos&#8217;s horns"}
+							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Black Diablos's horns"},
+							{"name":"High quality twisted horn","quantity":2,"percent":22,"require":"Break Black Diablos's horns"},
+							{"name":"Black winding horn","quantity":1,"percent":16,"require":"Break Black Diablos's horns"}
 						]
 					},
 					{
@@ -10657,8 +10657,8 @@
 							{"name":"Sleep Sac","quantity":2,"percent":10},
 							{"name":"Lg Bone Husk","quantity":24,"percent":9},
 							{"name":"Black Gravios Wing","quantity":1,"percent":3},
-							{"name":"Black Gravios Carapace","quantity":1,"percent":75,"require":"Break Black Gravios&#8217;s chest"},
-							{"name":"Black Gravios Carapace","quantity":1,"percent":25,"require":"Break Black Gravios&#8217;s chest"}
+							{"name":"Black Gravios Carapace","quantity":1,"percent":75,"require":"Break Black Gravios's chest"},
+							{"name":"Black Gravios Carapace","quantity":1,"percent":25,"require":"Break Black Gravios's chest"}
 						]
 					},
 					{
@@ -10724,16 +10724,16 @@
 							{"name":"Rathian Spike","quantity":3,"percent":10},
 							{"name":"Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Rath Medulla","quantity":1,"percent":10},
-							{"name":"Rathalos Carapace","quantity":2,"percent":74,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Carapace","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos&#8217;s head"},
-							{"name":"Rathalos Claw","quantity":2,"percent":75,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos&#8217;s wings"},
-							{"name":"Rathian Carapace","quantity":2,"percent":74,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Carapace","quantity":1,"percent":25,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian&#8217;s head"},
-							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian&#8217;s wings"},
-							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian&#8217;s wings"}
+							{"name":"Rathalos Carapace","quantity":2,"percent":74,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Carapace","quantity":1,"percent":25,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Claw","quantity":2,"percent":75,"require":"Break Rathalos's wings"},
+							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"},
+							{"name":"Rathian Carapace","quantity":2,"percent":74,"require":"Break Rathian's head"},
+							{"name":"Rathian Carapace","quantity":1,"percent":25,"require":"Break Rathian's head"},
+							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
+							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian's wings"},
+							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
 						]
 					},
 					{
@@ -10773,16 +10773,16 @@
 							{"name":"Pink Rathian Spike","quantity":3,"percent":10},
 							{"name":"Azure Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Rath Medulla","quantity":1,"percent":10},
-							{"name":"Azure Rathalos Carapace","quantity":2,"percent":74,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Carapace","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos&#8217;s head"},
-							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos&#8217;s wings"},
-							{"name":"Pink Rathian Carapace","quantity":2,"percent":74,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Carapace","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian&#8217;s head"},
-							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian&#8217;s wings"},
-							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian&#8217;s wings"}
+							{"name":"Azure Rathalos Carapace","quantity":2,"percent":74,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Carapace","quantity":1,"percent":25,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
+							{"name":"Azure Rathalos Claw","quantity":2,"percent":75,"require":"Break Azure Rathalos's wings"},
+							{"name":"Azure Rathalos Claw","quantity":1,"percent":25,"require":"Break Azure Rathalos's wings"},
+							{"name":"Pink Rathian Carapace","quantity":2,"percent":74,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Carapace","quantity":1,"percent":25,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
+							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian's wings"},
+							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian's wings"}
 						]
 					},
 					{
@@ -10822,16 +10822,16 @@
 							{"name":"Gold Rathian Spike","quantity":3,"percent":10},
 							{"name":"Silver Rathalos Tail","quantity":1,"percent":5},
 							{"name":"Rath Medulla","quantity":1,"percent":10},
-							{"name":"Silver Rathalos Shell","quantity":2,"percent":74,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Silver Rathalos Shell","quantity":1,"percent":25,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Silver Rathalos Ruby","quantity":1,"percent":1,"require":"Break Silver Rathalos&#8217;s head"},
-							{"name":"Silver Rathalos Claw","quantity":2,"percent":75,"require":"Break Silver Rathalos&#8217;s wings"},
-							{"name":"Silver Rathalos Claw","quantity":1,"percent":25,"require":"Break Silver Rathalos&#8217;s wings"},
-							{"name":"Gold Rathian Shell","quantity":2,"percent":74,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Shell","quantity":1,"percent":25,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian&#8217;s head"},
-							{"name":"Gold Rathian Claw","quantity":2,"percent":75,"require":"Break Gold Rathian&#8217;s wings"},
-							{"name":"Gold Rathian Claw","quantity":1,"percent":25,"require":"Break Gold Rathian&#8217;s wings"}
+							{"name":"Silver Rathalos Shell","quantity":2,"percent":74,"require":"Break Silver Rathalos's head"},
+							{"name":"Silver Rathalos Shell","quantity":1,"percent":25,"require":"Break Silver Rathalos's head"},
+							{"name":"Silver Rathalos Ruby","quantity":1,"percent":1,"require":"Break Silver Rathalos's head"},
+							{"name":"Silver Rathalos Claw","quantity":2,"percent":75,"require":"Break Silver Rathalos's wings"},
+							{"name":"Silver Rathalos Claw","quantity":1,"percent":25,"require":"Break Silver Rathalos's wings"},
+							{"name":"Gold Rathian Shell","quantity":2,"percent":74,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Shell","quantity":1,"percent":25,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian's head"},
+							{"name":"Gold Rathian Claw","quantity":2,"percent":75,"require":"Break Gold Rathian's wings"},
+							{"name":"Gold Rathian Claw","quantity":1,"percent":25,"require":"Break Gold Rathian's wings"}
 						]
 					},
 					{
@@ -10847,35 +10847,35 @@
 							}
 						],
 						"rewards":[
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
-							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
-							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":26},
-							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10},
-							{"name":"Blue Lao-Shan&#8217;s Claw","quantity":1,"percent":10},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10},
-							{"name":"Lao-Shan&#8217;s Plate","quantity":1,"percent":5},
-							{"name":"Lao-Shan&#8217;s Horn","quantity":1,"percent":99,"require":"Slay Lao-Shan Lung"},
-							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1,"require":"Slay Lao-Shan Lung"},
-							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":60,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":25,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Lance)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":1},
+							{"name":"Lao-Shan's Scale+","quantity":1,"percent":30},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":26},
+							{"name":"Lao-Shan's Ruby","quantity":1,"percent":1},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan's Claw","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10},
+							{"name":"Lao-Shan's Plate","quantity":1,"percent":5},
+							{"name":"Lao-Shan's Horn","quantity":1,"percent":99,"require":"Slay Lao-Shan Lung"},
+							{"name":"Lao-Shan's Ruby","quantity":1,"percent":1,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":60,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":25,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
 						]
 					}
 				]
@@ -10896,35 +10896,35 @@
 							}
 						],
 						"rewards":[
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":1},
-							{"name":"Lao-Shan&#8217;s Scale+","quantity":1,"percent":30},
-							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":26},
-							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10},
-							{"name":"Blue Lao-Shan&#8217;s Claw","quantity":1,"percent":10},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10},
-							{"name":"Lao-Shan&#8217;s Plate","quantity":1,"percent":5},
-							{"name":"Lao-Shan&#8217;s Horn","quantity":1,"percent":99,"require":"Slay Lao-Shan Lung"},
-							{"name":"Lao-Shan&#8217;s Ruby","quantity":1,"percent":1,"require":"Slay Lao-Shan Lung"},
-							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Ancient Shart (Lance)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung&#8217;s head"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":60,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Carapace","quantity":1,"percent":25,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Hammer)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Bowgun)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Sword and Shield)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Ancient Shart (Lance)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung&#8217;s back"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Lao-Shan&#8217;s Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"},
-							{"name":"Blue Lao-Shan&#8217;s Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung&#8217;s right shoulder"}
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":1},
+							{"name":"Lao-Shan's Scale+","quantity":1,"percent":30},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":26},
+							{"name":"Lao-Shan's Ruby","quantity":1,"percent":1},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan's Claw","quantity":1,"percent":10},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10},
+							{"name":"Lao-Shan's Plate","quantity":1,"percent":5},
+							{"name":"Lao-Shan's Horn","quantity":1,"percent":99,"require":"Slay Lao-Shan Lung"},
+							{"name":"Lao-Shan's Ruby","quantity":1,"percent":1,"require":"Slay Lao-Shan Lung"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":5,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":75,"require":"Break Lao-Shan Lung's head"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":60,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":25,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":3,"require":"Break Lao-Shan Lung's back"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
+							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
 						]
 					},
 					{
@@ -10935,24 +10935,24 @@
 							{"n":"Fatalis"}
 						],
 						"rewards":[
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
-							{"name":"Fatalis&#8217; Carapace","quantity":1,"percent":10},
-							{"name":"Fatalis&#8217; Shell","quantity":1,"percent":17},
-							{"name":"Fatalis&#8217; Scale+","quantity":1,"percent":8},
-							{"name":"Fatalis&#8217; Scale","quantity":1,"percent":15},
+							{"name":"Fatalis' Wing","quantity":1,"percent":5},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":20},
+							{"name":"Fatalis' Carapace","quantity":1,"percent":10},
+							{"name":"Fatalis' Shell","quantity":1,"percent":17},
+							{"name":"Fatalis' Scale+","quantity":1,"percent":8},
+							{"name":"Fatalis' Scale","quantity":1,"percent":15},
 							{"name":"Purecrystal","quantity":1,"percent":24},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":1},
-							{"name":"Fatalis&#8217; Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
-							{"name":"Fatalis&#8217; Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
+							{"name":"Fatalis' Horn","quantity":1,"percent":1},
+							{"name":"Fatalis' Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
 						]
 					},
 					{
@@ -10963,24 +10963,24 @@
 							{"n":"Fatalis"}
 						],
 						"rewards":[
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
-							{"name":"Fatalis&#8217; Carapace","quantity":1,"percent":10},
-							{"name":"Fatalis&#8217; Shell","quantity":1,"percent":17},
-							{"name":"Fatalis&#8217; Scale+","quantity":1,"percent":8},
-							{"name":"Fatalis&#8217; Scale","quantity":1,"percent":15},
+							{"name":"Fatalis' Wing","quantity":1,"percent":5},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":20},
+							{"name":"Fatalis' Carapace","quantity":1,"percent":10},
+							{"name":"Fatalis' Shell","quantity":1,"percent":17},
+							{"name":"Fatalis' Scale+","quantity":1,"percent":8},
+							{"name":"Fatalis' Scale","quantity":1,"percent":15},
 							{"name":"Purecrystal","quantity":1,"percent":24},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":1},
-							{"name":"Fatalis&#8217; Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
-							{"name":"Fatalis&#8217; Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
+							{"name":"Fatalis' Horn","quantity":1,"percent":1},
+							{"name":"Fatalis' Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
 						]
 					},
 					{
@@ -10991,24 +10991,24 @@
 							{"n":"Fatalis"}
 						],
 						"rewards":[
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
-							{"name":"Fatalis&#8217; Carapace","quantity":1,"percent":10},
-							{"name":"Fatalis&#8217; Shell","quantity":1,"percent":17},
-							{"name":"Fatalis&#8217; Scale+","quantity":1,"percent":8},
-							{"name":"Fatalis&#8217; Scale","quantity":1,"percent":15},
+							{"name":"Fatalis' Wing","quantity":1,"percent":5},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":20},
+							{"name":"Fatalis' Carapace","quantity":1,"percent":10},
+							{"name":"Fatalis' Shell","quantity":1,"percent":17},
+							{"name":"Fatalis' Scale+","quantity":1,"percent":8},
+							{"name":"Fatalis' Scale","quantity":1,"percent":15},
 							{"name":"Purecrystal","quantity":1,"percent":24},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":1},
-							{"name":"Fatalis&#8217; Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
-							{"name":"Fatalis&#8217; Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
+							{"name":"Fatalis' Horn","quantity":1,"percent":1},
+							{"name":"Fatalis' Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
 						]
 					},
 					{
@@ -11019,24 +11019,24 @@
 							{"n":"Fatalis"}
 						],
 						"rewards":[
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":5},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":20},
-							{"name":"Fatalis&#8217; Carapace","quantity":1,"percent":10},
-							{"name":"Fatalis&#8217; Shell","quantity":1,"percent":17},
-							{"name":"Fatalis&#8217; Scale+","quantity":1,"percent":8},
-							{"name":"Fatalis&#8217; Scale","quantity":1,"percent":15},
+							{"name":"Fatalis' Wing","quantity":1,"percent":5},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":20},
+							{"name":"Fatalis' Carapace","quantity":1,"percent":10},
+							{"name":"Fatalis' Shell","quantity":1,"percent":17},
+							{"name":"Fatalis' Scale+","quantity":1,"percent":8},
+							{"name":"Fatalis' Scale","quantity":1,"percent":15},
 							{"name":"Purecrystal","quantity":1,"percent":24},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":1},
-							{"name":"Fatalis&#8217; Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
-							{"name":"Fatalis&#8217; Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
-							{"name":"Fatalis&#8217; Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
-							{"name":"Fatalis&#8217; Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
-							{"name":"Fatalis&#8217; Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
+							{"name":"Fatalis' Horn","quantity":1,"percent":1},
+							{"name":"Fatalis' Eye","quantity":1,"percent":82,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":18,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":78,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":22,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Horn","quantity":1,"percent":63,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":37,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":63,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
 						]
 					}
 				]
@@ -11059,7 +11059,7 @@
 				]
 			},
 			{
-				"stars": "??",
+				"stars": 3,
 				"quests":[
 					{
 						"name":"The Legendary Kirin","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Swamp",
@@ -11079,6 +11079,51 @@
 						]
 					},
 					{
+						"name":"Stop the Giant Dragon!","icon":"monster-icon monster-unknown","type":"hunt","area":"Fortress",
+						"japanese":"巨大龍を食い止めろ！",
+						"goal":"Repel the Lao-Shan Lung","reward":"6000z","fee":"2400z","time":"35′",
+						"details":"",
+						"largeMonsters":[
+							{
+								"n":"Lao-Shan Lung"
+							}
+						],
+						"rewards":[
+							{"name":"Commendation","quantity":1,"percent":1},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":25},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":15},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":5},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":5},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5},
+							{"name":"Guild Ticket","quantity":1,"percent":9},
+							{"name":"Lao-Shan's Horn","quantity":1,"percent":100,"require":"Break Lao's horn"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":7,"require":"Break Lao's head"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":7,"require":"Break Lao's head"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":7,"require":"Break Lao's head"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":7,"require":"Break Lao's head"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":7,"require":"Break Lao's head"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":65,"require":"Break Lao's head"},
+							{"name":"Ruststone (Greatsword)","quantity":1,"percent":5,"require":"Lao's back"},
+							{"name":"Ruststone (Hammer)","quantity":1,"percent":5,"require":"Lao's back"},
+							{"name":"Ruststone (Sword and Shield)","quantity":1,"percent":5,"require":"Lao's back"},
+							{"name":"Ruststone (Lance)","quantity":1,"percent":5,"require":"Lao's back"},
+							{"name":"Ruststone (Bowgun)","quantity":1,"percent":5,"require":"Lao's back"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":75,"require":"Lao's back"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao's left shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao's left shoulder"},
+							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao's right shoulder"},
+							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao's right shoulder"}
+						]
+					}
+				]
+			},
+			{
+				"stars": 4,
+				"quests":[
+					{
 						"name":"On the Trail of the Beast!","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Swamp",
 						"japanese":"湿地を駆ける稲妻",
 						"goal":"Slay the Kirin","reward":"3200z","fee":"1200z","time":"50′",
@@ -11093,6 +11138,50 @@
 							{"name":"Kirin Mane","quantity":1,"percent":82},
 							{"name":"Kirin Horn","quantity":1,"percent":15},
 							{"name":"Kirin Hide","quantity":1,"percent":2}
+						]
+					}
+				]
+			},
+			{
+				"stars": 8,
+				"quests":[
+					{
+						"name":"Rocky Mountain Dragon","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Fort",
+						"japanese":"岩山龍",
+						"goal":"Repel the Ashen Lao-Shan Lung","reward":"10000z","fee":"2400z","time":"35′",
+						"details":"","hrRequire":27,
+						"largeMonsters":[
+							{
+								"n":"Ashen Lao-Shan Lung"
+							}
+						],
+						"rewards":[
+							{"name":"Commendation","quantity":1,"percent":1},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":5},
+							{"name":"Lao-Shan's Plate","quantity":1,"percent":13},
+							{"name":"Lao-Shan's Hard Shell","quantity":1,"percent":10},
+							{"name":"Azure Lao-Shan Plate","quantity":1,"percent":1},
+							{"name":"Azure Lao-Shan Scale","quantity":1,"percent":35},
+							{"name":"Azure Lao-Shan Claw","quantity":1,"percent":21},
+							{"name":"Lao-Shan's Plate","quantity":1,"percent":5},
+							{"name":"Guild Ticket","quantity":1,"percent":9},
+							{"name":"Azure Lao-Shan Horn","quantity":1,"percent":100,"require":"Break Ashen Lao's horn"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":4,"require":"Break Ashen Lao's head"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":4,"require":"Break Ashen Lao's head"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":4,"require":"Break Ashen Lao's head"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":4,"require":"Break Ashen Lao's head"},
+							{"name":"Ancient Shard (Lance)","quantity":1,"percent":4,"require":"Break Ashen Lao's head"},
+							{"name":"Lao-Shan's Carapace","quantity":1,"percent":80,"require":"Break Ashen Lao's head"},
+							{"name":"Ancient Shard (Bowgun)","quantity":1,"percent":2,"require":"Break Ashen Lao's back"},
+							{"name":"Ancient Shard (Greatsword)","quantity":1,"percent":2,"require":"Break Ashen Lao's back"},
+							{"name":"Ancient Shard (Hammer)","quantity":1,"percent":2,"require":"Break Ashen Lao's back"},
+							{"name":"Ancient Shard (Sword and Shield)","quantity":1,"percent":2,"require":"Break Ashen Lao's back"},
+							{"name":"Ancient Shard (Lance)","quantity":1,"percent":2,"require":"Break Ashen Lao's back"},
+							{"name":"Azure Lao-Shan Spine","quantity":1,"percent":90,"require":"Break Ashen Lao's back"},
+							{"name":"Azure Lao-Shan Scale","quantity":1,"percent":50,"require":"Break Ashen Lao's left shoulder"},
+							{"name":"Azure Lao-Shan Shell","quantity":1,"percent":50,"require":"Break Ashen Lao's left shoulder"},
+							{"name":"Azure Lao-Shan Scale","quantity":1,"percent":50,"require":"Break Ashen Lao's right shoulder"},
+							{"name":"Azure Lao-Shan Shell","quantity":1,"percent":50,"require":"Break Ashen Lao's right shoulder"}
 						]
 					},
 					{
