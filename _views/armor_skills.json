@@ -229,12 +229,11 @@
 			"desc":"The hunter is imbued with supernatural reflexes, automatically blocking any attack when possible."
 		},
 		{
-			"name":"Blessing",
+			"name":"Backpacking",
 			"stages":[
-				{ "points":"-10", "name":"Blessing of Evil Spirits<span class='details'> (1.3x)</span>" },
-				{ "points":"+10", "name":"Blessing of Spirits<span class='details'> (0.7x)</span>" }
+				{ "points":"+10", "name": "Backpacking Expert" }
 			],
-			"desc":"The hunter is condemned to take<span class='vaguery'> more</span><span class='details'> 1.3x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>; or the hunter is blessed to take<span class='vaguery'> less</span><span class='details'> 0.7x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>."
+			"desc":"Enables the hunter to move faster while carrying an egg or other delivery item, and they can drop from a greater height without breaking or dropping the item."
 		},
 		{
 			"name":"Bomber",
@@ -270,14 +269,14 @@
 			"desc":"The hunter&#8217;s armor is missing padding, hastening the effects of cold climates; or their armor is padded for cold weather, mitigating or even negating the effects of cold climates."
 		},
 		{
-			"name":"Combo Rate",
+			"name":"Combine Success",
 			"stages":[
-				{ "points":"-25", "name":"Combo Rate -15%" },
-				{ "points":"-15", "name":"Combo Rate -10%" },
-				{ "points":"-10", "name":"Combo Rate -5%" },
-				{ "points":"+10", "name":"Combo Rate +5%" },
-				{ "points":"+15", "name":"Combo Rate +10%" },
-				{ "points":"+25", "name":"Combo Rate +20%" }
+				{ "points":"-25", "name":"Combine Success -15%" },
+				{ "points":"-15", "name":"Combine Success -10%" },
+				{ "points":"-10", "name":"Combine Success -5%" },
+				{ "points":"+10", "name":"Combine Success +5%" },
+				{ "points":"+15", "name":"Combine Success +10%" },
+				{ "points":"+25", "name":"Combine Success +20%" }
 			],
 			"desc":"The hunter&#8217;s skill at craftsmanship is impaired, increasing the likelihood their combinations will fail; or their craftsmanship is improved, increasing the likelihood their combinations will succeed. This adds to the combo book bonus."
 		},
@@ -318,7 +317,7 @@
 			"name":"Earplugs",
 			"stages":[
 				{ "points":"+10", "name":"Earplugs" },
-				{ "points":"+15", "name":"Luxury Earplugs" }
+				{ "points":"+15", "name":"High Grade Earplugs" }
 			],
 			"desc":"Protects the hunter from monster roars. Some monsters roar so loudly, only Luxury Earplugs will protect the hunter."
 		},
@@ -371,6 +370,13 @@
 			"desc":"Having mastered the art of fishing, the hunter has a longer window to reel in a fish, and the lure appears to be much bigger."
 		},
 		{
+			"name":"Flute",
+			"stages":[
+				{ "points":"+10", "name": "Flute Master" }
+			],
+			"desc":"The hunter is an excellent floutist: their songs are<span class='details'> 1.1x</span> more potent and their effects last<span class='details'> 1.1x</span> longer. They also take care of their instruments, so that Flutes are<span class='details'> 25%</span> less likely to break when played."
+		},
+		{
 			"name":"Gathering",
 			"stages":[
 				{ "points":"-15", "name":"Gathering -2<span class='details'> (59%)</span>" },
@@ -383,11 +389,11 @@
 		{
 			"name":"Gluttony",
 			"stages":[
-				{ "points":"+10", "name":"Filled +1<span class='details'> (+25)</span>" },
-				{ "points":"+15", "name":"Filled +2<span class='details'> (+50)</span>" },
-				{ "points":"+25", "name":"Scavenger<span class='details'> (+50)</span>" }
+				{ "points":"+10", "name":"Eating +1<span class='details'> (+25)</span>" },
+				{ "points":"+15", "name":"Eating +2<span class='details'> (+50)</span>" },
+				{ "points":"+25", "name":"Speed Eater<span class='details'> (+50)</span>" }
 			],
-			"desc":"The hunter eats every last scrap of cooked meat, gaining more stamina in the process. Furthermore, the Scavenger will occasionally gain a stamina boost when using any recovery item.<span class='details'> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>"
+			"desc":"The hunter eats every last scrap of cooked meat, gaining more stamina in the process. Furthermore, the Speed Eater will occasionally gain a stamina boost when using any recovery item.<span class='details'> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>"
 		},
 		{
 			"name":"Guard",
@@ -522,11 +528,12 @@
 			"desc":"The hunter&#8217;s immune system is compromised so they suffer Poison for longer; or it is strengthened so they suffer poison for less time, or are even immune to it."
 		},
 		{
-			"name":"Pro Transporter",
+			"name":"Protection",
 			"stages":[
-				{ "points":"+10", "name": "Pro Transporter" }
+				{ "points":"-10", "name":"Demonic Protection<span class='details'> (1.3x)</span>" },
+				{ "points":"+10", "name":"Divine Protection<span class='details'> (0.7x)</span>" }
 			],
-			"desc":"Enables the hunter to move faster while carrying an egg or other delivery item, and they can drop from a greater height without breaking or dropping the item."
+			"desc":"The hunter is condemned to take<span class='vaguery'> more</span><span class='details'> 1.3x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>; or the hunter is blessed to take<span class='vaguery'> less</span><span class='details'> 0.7x</span> damage,<span class='vaguery'> on occasion</span><span class='details'> 25% of the time</span>."
 		},
 		{
 			"name":"Psychic",
@@ -554,8 +561,8 @@
 		{
 			"name":"Recovery Items",
 			"stages":[
-				{ "points":"-10", "name":"Recovery Down<span class='details'> (0.75x)</span>" },
-				{ "points":"+10", "name":"Recovery Up<span class='details'> (1.5x)</span>" }
+				{ "points":"-10", "name":"Recovery Items Weakened<span class='details'> (0.75x)</span>" },
+				{ "points":"+10", "name":"Recovery Items Strengthened<span class='details'> (1.5x)</span>" }
 			],
 			"desc":"The hunter&#8217;s knowledge of medicine increases the amount of health they recover from healing items. (This effect is not applied when healing other hunters healed with the Wide Area skills or Lifepowder.)"
 		},
@@ -600,8 +607,8 @@
 		{
 			"name":"Sharpness",
 			"stages":[
-				{ "points":"-10", "name":"Dullness" },
-				{ "points":"+10", "name":"Razor Sharp" }
+				{ "points":"-10", "name":"Blunt" },
+				{ "points":"+10", "name":"Sharp Sword" }
 			],
 			"desc":"The hunter swings their weapon carelessly, losing more sharpness with each hit; or they are careful with their strikes, losing less sharpness with every hit. This also applies to sharpness lost when blocking with the Great Sword."
 		},
@@ -615,9 +622,9 @@
 			"desc":"The hunter is a heavy sleeper, and takes longer to wake; the hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
 		},
 		{
-			"name":"Special Attack",
+			"name":"Status",
 			"stages":[
-				{ "points":"+10", "name": "Special Attack" }
+				{ "points":"+10", "name": "Status Attack Up" }
 			],
 			"desc":"The hunter is skilled with status effect weapons, applying<span class='vaguery'> more</span><span class='details'> 1.125x</span> status with every hit."
 		},
@@ -660,13 +667,6 @@
 				{ "points":"+25", "name":"Water Res +10" }
 			],
 			"desc":"The hunter&#8217;s armor is poorly fitted, allowing more water damage; or their armor is waterproof, resisting more water damage."
-		},
-		{
-			"name":"Whistle",
-			"stages":[
-				{ "points":"+10", "name": "Whistle Master" }
-			],
-			"desc":"The hunter is an excellent floutist: their songs are<span class='details'> 1.1x</span> more potent and their effects last<span class='details'> 1.1x</span> longer. They also take care of their instruments, so that Flutes are<span class='details'> 25%</span> less likely to break when played."
 		},
 		{
 			"name":"Whim",

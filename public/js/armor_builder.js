@@ -334,7 +334,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Dragon Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
 	"Reload Speed": [ "Reload -3","Reload -2","Reload -1","Reload +1","Reload +2","Reload +3" ],
 	"Recovery Speed": [ "Recovery Spd -2","","Recovery Spd -1","Recovery Spd +1","","Recovery Spd +2" ],
-	"Combo Rate": [ "Combo Rate -15%","Combo Rate -10%","Combo Rate -5%","Combo Rate +5%","Combo Rate +10%","Combo Rate +15%" ],
+	"Combine Success": [ "Combine Success -15%","Combine Success -10%","Combine Success -5%","Combine Success +5%","Combine Success +10%","Combine Success +15%" ],
 	"Poison": [ "Poison Quadrupled","Poison Tripled","Poison Doubled","Poison Halved","Poison Negated","" ],
 	"Fate": [ "Disaster","","Bad Luck","Good Luck","Very Good Luck","" ],
 	"Hunger": [ "Double Hunger","","Hunger x1.5","Hunger Halved","Hunger Negated","" ],
@@ -344,7 +344,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Pierce S Add": [ "","","","Pierce S Add 1","Pierce S Add 2","Pierce S Add 3" ],
 	"Crag S Add": [ "","","","Crag S Add 1","Crag S Add 2","Crag S Add 3" ],
 	"Attack": [ "","","","Attack Up [S]","Attack Up [M]","Attack Up [L]" ],
-	"Gluttony": [ "","","","Filled +1","Filled +2","Scavenger" ], // ?? Probably the wrong skill names
+	"Gluttony": [ "","","","Eating +1","Eating +2","Speed Eater" ], // ?? Probably the wrong skill names
 	"Guard": [ "","Guard -2","Guard -1","Guard +1","Guard +2","" ],
 	"Whim": [ "","Devil's Whim","Spectre's Whim","Spirit's Whim","Divine Whim","" ],
 	"Gathering": [ "","Gathering -2","Gathering -1","Gathering +1","Gathering +2","" ],
@@ -355,14 +355,14 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Recoil": [ "","","","Recoil +1","Recoil +2","" ],
 	"Psychic": [ "","","","Detect","Autotracker","" ],
 	"Wide Area Recovery": [ "","","","Herb Wide Area","Potion Wide Area","" ], // Probably the wrong names
-	"Earplugs": [ "","","","Earplugs","Luxury Earplugs","" ],
+	"Earplugs": [ "","","","Earplugs","High Grade Earplugs","" ],
 	"Sharpener": [ "","","Sharpen Speed Halved","Sharpen Speed Increased","","" ], // Sharpening speed, I think
 	"Sense": [ "","","Provocation","Stealth","","" ],
-	"Recovery": [ "","","Recovery Items Weakened","Recovery Items Strengthened","","" ],
-	"Blessing": [ "","","Blessing of Evil Spirits","Blessing of Spirits","","" ],
+	"Recovery Items": [ "","","Recovery Items Weakened","Recovery Items Strengthened","","" ],
+	"Protection": [ "","","Demonic Protection","Divine Protection","","" ],
 	"Map": [ "","","No Map","Farsight","","" ],
 	"Handicraft": [ "","","Sharpness Down","Sharpness Up","","" ],
-	"Sharpness": [ "","","Dullness","Razor Sharp","","" ],
+	"Sharpness": [ "","","Blunt","Sharp Sword","","" ],
 	"Fisher": [ "","","","Fishing Master","","" ],
 	"Anti-Theft": [ "","","","Anti-Theft","","" ],
 	"Alchemy": [ "","","","Alchemy","","" ],
@@ -374,10 +374,10 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Throw": [ "","","","Throw","","" ],
 	"Wide Area Antidote": [ "","","","Wide Area Antidote","","" ],
 	"Wide Area Drug": [ "","","","Wide Area Drug","","" ],
-	"Pro Transporter": [ "","","","Pro Transporter","","" ],
-	"Whistle": [ "","","","Whistle Master","","" ],
+	"Backpacking": [ "","","","Backpacking Expert","","" ],
+	"Flute": [ "","","","Flute Master","","" ],
 	"Bomber": [ "","","","Bomber","","" ],
-	"Special Attack": [ "","","","Special Attack","","" ],
+	"Status": [ "","","","Status Attack Up","","" ],
 	"Bullet Formulation": [ "","","","Bullet Formulation","","" ],
 	"Swordsmanship": [ "","","","ESP","","" ],
 	"Rapid Fire": [ "","","","Rapid Fire","","" ]
