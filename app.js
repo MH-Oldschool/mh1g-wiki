@@ -113,6 +113,10 @@ function getQuestLists(version, location, callback) {
 					for (var i = 0; i < 5; i++) {
 						// Exclude the last quest in each rank, which is the Urgent
 						var nonUrgentQuestCount = rank.quests.length - 1;
+						// ...unless it's MH1 Village in which case we need to include the Monoblos quest
+						if (i == 4 && version == "mh1") {
+							nonUrgentQuestCount = rank.quests.length;
+						}
 						var index = parseInt(Math.random() * nonUrgentQuestCount);
 						while (usedIndices.includes(index)) {
 							index = (index + 1) % nonUrgentQuestCount;
