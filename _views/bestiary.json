@@ -35,6 +35,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[150,150,120,100,100,100,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -106,6 +116,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,160,50,50,100,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -167,6 +187,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[140,140,150,100,100,100,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":1,
 			"carves1":[
@@ -233,6 +263,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[110,110,110,50,50,50,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":2,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -295,6 +335,16 @@
 			"hitzonesG":[
 				{"name":"Head","zones":[80,100,90,40,100,40,10]},
 				{"name":"Neck (body?)","zones":[70,100,70,40,100,40,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":2,
 			"carves1":[
@@ -360,6 +410,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,100,100,100,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"notes": [
 				"Found in all regions.",
 				"Often seen in the company of Melynxes, they will fiercely defend their Felyne comrades when attacked."
@@ -393,6 +453,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,100,50,50,50,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"notes": [
 				"Found in all regions.",
@@ -428,6 +498,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[120,130,110,100,50,10,0]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[10],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":1,
 			"carves1":[
@@ -497,6 +577,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[100,120,100,100,20,60,0]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[10],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":1,
 			"carves1":[
@@ -568,6 +658,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -622,6 +722,11 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
@@ -664,6 +769,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80,95,110,125],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":2,
 			"carves1":[
@@ -733,6 +848,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[100,100,100,30,60,20,0]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -797,6 +922,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,40,40,40,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,225,250,275],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":2,
 			"carves1":[
@@ -863,6 +998,16 @@
 			"hitzonesG":[
 				{"name":"Body","zones":[90,90,90,20,30,50,0]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[100],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -926,6 +1071,16 @@
 			],
 			"hitzonesG":[
 				{"name":"Body","zones":[80,80,80,30,30,30,10]}
+			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[150,175,200,225],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80,95,110,125],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
 			],
 			"carveCount":2,
 			"carves1":[
@@ -1548,8 +1703,8 @@
 				{"name":"Foot","zones":[25,30,30,5,10,5,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[100,135,170,200],"duration":60,"recovery":"10/5s","damage":"20/5s"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[100,145,190,235],"duration":10,"recovery":"5/10s"},
+				{"name":"poison","title":"Poison","tolerance":[100,150,200,250],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100,125,150,175],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":30,"recovery":"5/10s"}
 			],
 			"statusG":[
@@ -1689,8 +1844,8 @@
 				{"name":"Foot","zones":[20,20,30,10,10,0,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[200,235,270,300],"duration":60,"recovery":"10/5s","damage":"20/5s"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[150,185,220,250],"duration":10,"recovery":"5/10s"},
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,175,200,225],"duration":10,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
@@ -1831,8 +1986,8 @@
 				{"name":"Foot","zones":[25,20,30,15,5,0,5]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[110,160,210,260],"duration":30,"recovery":"10/5s","damage":"10/5s"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350],"duration":5,"recovery":"5/15s"},
+				{"name":"poison","title":"Poison","tolerance":[110,135,160,185],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,225,250,275],"duration":5,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[200,225,250,275,300],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
@@ -2106,6 +2261,16 @@
 				{"name":"Wing","zones":[70,60,60,25,10,20,0]},
 				{"name":"Foot","zones":[50,45,50,30,25,10,0]}
 			],
+			"status1":[
+				{"name":"poison","title":"Poison","tolerance":[200],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":[100],"duration":"??","recovery":"??"}
+			],
+			"statusG":[
+				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
+				{"name":"paralysis","title":"Paralysis","tolerance":["??"],"duration":"??","recovery":"??"},
+				{"name":"sleep","title":"Sleep","tolerance":["??"],"duration":"??","recovery":"??"}
+			],
 			"carveCount":1,
 			"carves1":[
 				{"name":"Low Rank","parts":[
@@ -2191,8 +2356,8 @@
 				{"name":"Foot","zones":[35,30,35,0,15,10,5]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[100,135,170,200],"duration":30,"recovery":"10/5s","damage":"20/5s"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[150,185,220,250],"duration":15,"recovery":"5/10s"},
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":30,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150,175,200,225],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[110,135,160,185,210],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
@@ -2423,7 +2588,7 @@
 				{"name":"Foot","zones":[30,35,35,0,10,15,15]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[200,235,270,300],"duration":120,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"poison","title":"Poison","tolerance":[200,225,250,275],"duration":120,"recovery":"10/5s","damage":"10/5s"},
 				{"name":"paralysis","title":"Paralysis","tolerance":[200,250,300,350],"duration":15,"recovery":"5/15s"},
 				{"name":"sleep","title":"Sleep","tolerance":[150,175,200,225,250],"duration":40,"recovery":"5/10s"}
 			],
@@ -2762,7 +2927,7 @@
 			],
 			"status1":[
 				{"name":"poison","title":"Poison","tolerance":[200,250,300,350],"duration":60,"recovery":"10/5s","damage":"20/5s"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[200,235,270,300],"duration":15,"recovery":"5/10s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,225,250,275],"duration":15,"recovery":"5/10s"},
 				{"name":"sleep","title":"Sleep","tolerance":[100,150,200,250,300],"duration":60,"recovery":"5/10s"}
 			],
 			"statusG":[
