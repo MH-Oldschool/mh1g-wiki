@@ -104,3 +104,7 @@ summary:hover .japanese {
 .large-monster .ui-icon {
 	vertical-align: middle;
 }
+
+.luck-table {
+	width: auto;
+}
