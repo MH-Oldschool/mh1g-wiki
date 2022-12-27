@@ -1207,7 +1207,7 @@
 							"upgrade":[
 								{"n":"Velocidrome Claw","q":4},
 								{"n":"Giaprey Piel","q":12},
-								{"n":"White Velociprey Scales","q":15}
+								{"n":"White Velociprey Scale","q":15}
 							]
 						}
 					]
@@ -4436,7 +4436,7 @@
 							"upgrade":[
 								{"n":"Robust Twisted Horn","q":1},
 								{"n":"White Monoblos Spine","q":8},
-								{"n":"Plesioth Scales","q":10}
+								{"n":"Green Plesioth Scale","q":10}
 							]
 						}
 					]
@@ -6660,7 +6660,7 @@
 							"upgrade":"15,810",
 							"upgrade":[
 								{"n":"Plesioth Scale","q":10},
-								{"n":"Cephalos Scales","q":10},
+								{"n":"Cephalos Scale","q":10},
 								{"n":"Mega Demondrug","q":5}
 							]
 						}
