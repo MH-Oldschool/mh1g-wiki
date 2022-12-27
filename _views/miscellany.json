@@ -288,7 +288,7 @@
 				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10, Defense Up Small"},
 				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"yellow-icon herb-icon\"></span>Grain","r":"none"},
 				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"purple-icon powder-icon\"></span>Oil","r":"Attack Up Small"},
-				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health 40"},
+				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"white-icon jar-icon\"></span>Dairy","r":"Health +40"},
 				{"i":"<span class=\"orange-icon meat-icon\"></span>Meat + <span class=\"blue-icon barrel-icon\"></span>Liquor","r":"Health -40"},
 				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"green-icon seed-icon\"></span>Vegetable","r":"Health +10, Stamina +25"},
 				{"i":"<span class=\"green-icon seed-icon\"></span>Vegetable + <span class=\"red-icon fish-icon\"></span>Seafood","r":"Health +10"},
