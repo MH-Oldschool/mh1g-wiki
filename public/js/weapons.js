@@ -438,6 +438,32 @@ ready(() => {
 	}
 
 	var calcSharpnessColor = document.getElementById("calc-sharpness-color");
+	function getSharpnessFromColors(red, green, blue) {
+		if (red === 238) {
+			if (green === 0) {
+				return 0;
+			}
+			else if (green === 160) {
+				return 1;
+			}
+			else if (green === 238) {
+				return 2;
+			}
+		}
+		else if (red === 0) {
+			if (green === 238) {
+				return 3;
+			}
+			else if (green === 0 && blue === 255) {
+				return 4;
+			}
+		}
+		else if (red === 255 && green === 255 && blue === 255) {
+			return 5;
+		}
+
+		return -1;
+	}
 	function getSharpnessAtValue(value) {
 		/*
 			Sharpness Colors
@@ -460,45 +486,62 @@ ready(() => {
 			return;
 		}
 
-		if (sharpnessData.data[red] === 238) {
-			if (sharpnessData.data[green] === 0) {
-				return 0;
-			}
-			else if (sharpnessData.data[green] === 160) {
-				return 1;
-			}
-			else if (sharpnessData.data[green] === 238) {
-				return 2;
-			}
-		}
-		else if (sharpnessData.data[red] === 0) {
-			if (sharpnessData.data[green] === 238) {
-				return 3;
-			}
-			else if (sharpnessData.data[green] === 0 && sharpnessData.data[blue] === 255) {
-				return 4;
-			}
-			else {
-				// TODO: set range max to current weapon's max sharpness?
-				// We're beyond the end of the sharpness range, in the black area
-				// so we have to find the last point with a non-black color
-				for (var i = value; i >= 0; i--) {
-					if (sharpnessData.data[red] !== 0 || sharpnessData.data[green] !== 0 || sharpnessData.data[blue] !== 0) {
-						// This should be safe?
-						return getSharpnessAtValue(i);
-					}
-					red -= 4;
-					green -= 4;
-					blue -= 4;
+		var sharpnessLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[green], sharpnessData.data[blue]);
+		if (sharpnessLevel === -1) {
+			// TODO: set range max to current weapon's max sharpness?
+			// We're beyond the end of the sharpness range, in the black area
+			// so we have to find the last point with a non-black color
+			for (var i = value; i >= 0; i--) {
+				if (sharpnessData.data[red] !== 0 || sharpnessData.data[green] !== 0 || sharpnessData.data[blue] !== 0) {
+					// This should be safe?
+					return getSharpnessAtValue(i);
 				}
+				red -= 4;
+				green -= 4;
+				blue -= 4;
 			}
 		}
 
-		return 5;
+		return sharpnessLevel;
 	}
 	function updateSharpnessColor(value) {
 		var sharpness = getSharpnessAtValue(value);
 		calcSharpnessColor.className = `sharpness-${sharpness}`;
+	}
+
+	function setSharpnessHitCounts() {
+		const CALC_HIT_COUNTS = document.getElementsByClassName("calc-hit-count");
+		var maxHits = (calcSharpness.max / 3) * 10;
+
+		// 10 hits every three pixels
+		var sharpnessLevel = 0;
+		var hitsPerLevel = [ 0, 0, 0, 0, 0, 0 ];
+		var version = getMHVersion();
+		var yPos = (version == "g" && handicraft.checked) ? 1 : 0;
+
+		var sharpnessData = calcSharpnessContext.getImageData(0, yPos, 120, 1);
+		var red, green, blue;
+		for (var i = 0; i < calcSharpness.max; i += 3) {
+			hitsPerLevel[sharpnessLevel] += 10;
+
+			red = 4 * i;
+
+			var newLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[red + 1], sharpnessData.data[red + 2]);
+			if (newLevel === -1) {
+				break;
+			}
+
+			if (newLevel != sharpnessLevel) {
+				sharpnessLevel = newLevel;
+			}
+		}
+
+		console.log(hitsPerLevel);
+		for (var i = 0; i < CALC_HIT_COUNTS.length; i++) {
+			CALC_HIT_COUNTS[i].style.display = hitsPerLevel[i] === 0 ? "none" : "";
+			CALC_HIT_COUNTS[i].style.width = `${100 * hitsPerLevel[i] / maxHits}%`;
+			CALC_HIT_COUNTS[i].innerText = hitsPerLevel[i];
+		}
 	}
 
 	// Calculate damage from motion values
@@ -728,6 +771,8 @@ ready(() => {
 			}
 			weaponElement.parentElement.style.display = hasElement ? "" : "none";
 			weaponStatus.parentElement.style.display = hasStatus ? "" : "none";
+
+			setSharpnessHitCounts();
 		}
 	}
 
@@ -830,6 +875,8 @@ ready(() => {
 		else {
 			calculator.classList.remove("handicraft");
 		}
+
+		setSharpnessHitCounts();
 	}
 	handicraft.addEventListener("change", function(event) {
 		toggleHandicraftSkill(event.target.checked);

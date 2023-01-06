@@ -434,6 +434,9 @@ body {
 .show-g .calc-sharpness-container {
 	width: 137px;
 }
+#damage-calculator .sharpness-container {
+	position: relative;
+}
 .show-g #damage-calculator .sharpness-container {
 	overflow: hidden;
 	height: 10px;
@@ -442,6 +445,30 @@ body {
 	position: relative;
 	top: -9px;
 }
+.calc-hit-count-container {
+	display: flex;
+	background: rgba(255,255,255,0.5);
+	margin: 0 auto;
+	width: 85%;
+/*	opacity: 0;*/
+	transition: opacity 300ms;
+}
+.show-g .calc-hit-count-container {
+	width: 90%;
+}
+.calc-sharpness-container:hover .calc-hit-count-container {
+	opacity: 1;
+}
+.calc-hit-count {
+	font-size: 0.625rem;
+	text-align: center;
+}
+.calc-hit-count:nth-child(1) { color: #ee0000; }
+.calc-hit-count:nth-child(2) { color: #eea000; }
+.calc-hit-count:nth-child(3) { color: #eeee00; }
+.calc-hit-count:nth-child(4) { color: #00ee00; }
+.calc-hit-count:nth-child(5) { color: #0000ff; }
+.calc-hit-count:nth-child(6) { color: #ffffff; }
 .calc-sharpness-container img {
 	display: block;
 }
