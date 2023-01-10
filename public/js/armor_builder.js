@@ -575,12 +575,12 @@ ArmorBuilder.prototype.calculateSkills = function() {
 						if (prop == "Health") {
 							let healthBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`health-stat-${ this.version }`).innerText = 100 + healthBonus;
-							skillName = "Health " + (healthBonus > 0 ? "+" : "-") + healthBonus.toString();
+							skillName = "Health " + (healthBonus > 0 ? "+" : "") + healthBonus.toString();
 						}
 						else if (prop == "Defense") {
 							let defenseBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`defense-stat-${ this.version }`).innerText = defense + defenseBonus;
-							skillName = "Defense " + (defenseBonus > 0 ? "+" : "-") + defenseBonus.toString();
+							skillName = "Defense " + (defenseBonus > 0 ? "+" : "") + defenseBonus.toString();
 						}
 						else if (prop == "Element Res Up") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
@@ -588,27 +588,27 @@ ArmorBuilder.prototype.calculateSkills = function() {
 							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
 							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
 							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
-							skillName = "Element Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+							skillName = "Element Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Fire Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
-							skillName = "Fire Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+							skillName = "Fire Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Water Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
-							skillName = "Water Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+							skillName = "Water Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Thunder Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
-							skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+							skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Dragon Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
-							skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "-") + elementBonus.toString();
+							skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else {
 							skillName = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
