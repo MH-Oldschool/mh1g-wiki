@@ -334,7 +334,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Dragon Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
 	"Reload Speed": [ "Reload -3","Reload -2","Reload -1","Reload +1","Reload +2","Reload +3" ],
 	"Recovery Speed": [ "Recovery Spd -2","","Recovery Spd -1","Recovery Spd +1","","Recovery Spd +2" ],
-	"Combine Success": [ "Combine Success -15%","Combine Success -10%","Combine Success -5%","Combine Success +5%","Combine Success +10%","Combine Success +15%" ],
+	"Combine Success": [ "Combine Success -15%","Combine Success -10%","Combine Success -5%","Combine Success +5%","Combine Success +10%","Combine Success +20%" ],
 	"Poison": [ "Poison Quadrupled","Poison Tripled","Poison Doubled","Poison Halved","Poison Negated","" ],
 	"Fate": [ "Disaster","","Bad Luck","Good Luck","Very Good Luck","" ],
 	"Hunger": [ "Double Hunger","","Hunger x1.5","Hunger Halved","Hunger Negated","" ],
