@@ -11431,7 +11431,7 @@
 						]
 					},
 					{
-						"name":"The Advent of Calamity","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"The Battleground",
+						"name":"The Advent of Calamity","icon":"monster-icon monster-unknown","hrp":"??","type":"special","area":"The Battleground",
 						"japanese":"災厄降臨",
 						"goal":"Slay the Crimson Fatalis","reward":"12000z","fee":"3200z","time":"50′",
 						"details":"","hrRequire":27,
@@ -11458,6 +11458,36 @@
 							{"name":"Fatalis' Crust+","quantity":1,"percent":32,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Hard Crust","quantity":1,"percent":56,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Flamecrust","quantity":1,"percent":12,"require":"Additional rewards #5"}
+						]
+					},
+					{
+						"name":"The Wrath of Calamity","icon":"monster-icon monster-unknown","hrp":"??","type":"special","area":"The Battleground",
+						"japanese":"災厄の逆鱗",
+						"goal":"Slay the Crimson Fatalis","reward":"??","fee":"??","time":"50′",
+						"details":"","hrRequire":27,
+						"largeMonsters":[
+							{
+								"n":"Crimson Fatalis"
+							}
+						],
+						"rewards":[
+							{"name":"Fatalis' Crimson Scale","quantity":1,"percent":32},
+							{"name":"Fatalis' Flamewing","quantity":1,"percent":12},
+							{"name":"Fatalis' Crimson Shell","quantity":1,"percent":25},
+							{"name":"Purecrystal","quantity":1,"percent":20},
+							{"name":"Purecrystal","quantity":2,"percent":11},
+							{"name":"Fatalis' Eye+","quantity":1,"percent":50,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Evil Eye","quantity":1,"percent":50,"require":"Additional rewards #1"},
+							{"name":"Fatalis' Spikehorn","quantity":1,"percent":40,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Flamehorn","quantity":1,"percent":60,"require":"Additional rewards #2"},
+							{"name":"Fatalis' Spikehorn","quantity":1,"percent":40,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Gore","quantity":1,"percent":60,"require":"Additional rewards #3"},
+							{"name":"Fatalis' Webbing","quantity":1,"percent":10,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Fellwing","quantity":1,"percent":40,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Flamewing","quantity":1,"percent":50,"require":"Additional rewards #4"},
+							{"name":"Fatalis' Crust+","quantity":1,"percent":10,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Hard Crust","quantity":1,"percent":40,"require":"Additional rewards #5"},
+							{"name":"Fatalis' Flamecrust","quantity":1,"percent":50,"require":"Additional rewards #5"}
 						]
 					}
 				]
