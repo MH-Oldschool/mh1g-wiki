@@ -3228,6 +3228,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":29,"name":"Sap Plant","quantity":"2"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":15,"name":"Kut-Ku Scale","quantity":"2"},{"percent":4,"name":"Mosswine Hide","quantity":1},{"percent":1,"name":"Power Seed","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3255,6 +3256,7 @@
 							{"name":"Portable BBQ Spit","icon":"orange-icon spit-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Herbal Medicine","quantity":1},{"percent":25,"name":"Herbal Medicine","quantity":1},{"percent":2,"name":"Power Seed","quantity":1},{"percent":25,"name":"Armor Seed","quantity":1},{"percent":4,"name":"BBQ Ticket","quantity":1},{"percent":1,"name":"Mosswine Hide","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3278,6 +3280,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":"2"},{"percent":25,"name":"Nitroshroom","quantity":"2"},{"percent":25,"name":"Toadstool","quantity":"2"},{"percent":2,"name":"Stunshroom","quantity":"2"},{"percent":4,"name":"Stunshroom","quantity":"5"},{"percent":1,"name":"Dragon Toadstool","quantity":"2"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3301,6 +3304,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flute","quantity":1},{"percent":24,"name":"Blue Mushroom","quantity":"2"},{"percent":25,"name":"Nitroshroom","quantity":"2"},{"percent":25,"name":"Toadstool","quantity":"2"},{"percent":2,"name":"Stunshroom","quantity":"2"},{"percent":4,"name":"Dragon Toadstool","quantity":"2"},{"percent":1,"name":"Dragon Toadstool","quantity":"4"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3324,6 +3328,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Kelbi Hide","quantity":"3"},{"percent":25,"name":"Herb","quantity":"2"},{"percent":25,"name":"Sap Plant","quantity":"2"},{"percent":3,"name":"Kelbi Hide","quantity":"2"},{"percent":4,"name":"Honey","quantity":"2"},{"percent":1,"name":"Honey","quantity":10}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3357,6 +3362,7 @@
 							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":8,"name":"Bomb Arrowana","quantity":"2"},{"percent":2,"name":"Firefly","quantity":10},{"percent":2,"name":"Rumblefish","quantity":10},{"percent":2,"name":"Pin Tuna","quantity":10},{"percent":2,"name":"Burst Arrowana","quantity":"5"},{"percent":12,"name":"Scatterfish","quantity":"3"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3386,6 +3392,7 @@
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Jewel Ticket","quantity":1},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":25,"name":"Earth Crystal","quantity":1},{"percent":25,"name":"Earth Crystal","quantity":"2"},{"percent":4,"name":"Lightcrystal","quantity":1},{"percent":1,"name":"Novacrystal","quantity":1}],
+						"hrRequire":13,
 						"note":"Quartz mined in Zone 11"
 					},
 					{
@@ -3413,6 +3420,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":4,"name":"Piscine Jaw","quantity":1},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Piscine Fang","quantity":1},{"percent":5,"name":"Med Monster Bone","quantity":"2"},{"percent":25,"name":"Burst Arrowana","quantity":"5"},{"percent":15,"name":"Bomb Arrowana","quantity":"3"},{"percent":1,"name":"Lg Lobstershell","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3436,6 +3444,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Monster Fluid","quantity":1},{"percent":25,"name":"Vespoid Wing","quantity":2},{"percent":25,"name":"Hornetaur Wing","quantity":2},{"percent":25,"name":"Hornetaur Head","quantity":1},{"percent":5,"name":"Hornetaur Bladefin","quantity":1},{"percent":5,"name":"Vespoid Abdomen","quantity":1}],
+						"hrRequire":13,
 						"note":"Int Rewards:[{ percent : 15, name : Monster Fluid, quantity : 1},{ percent : 35 , name : Vespoid Shell , quantity : 1 },{ percent : 35 , name : Vespoid Wing , quantity : 2 },{ percent : 1 , name : Vespoid Bladefin , quantity : 1 },{ percent : 5 , name : Vespoid Abdomen , quantity : 1 }]"
 					},
 					{
@@ -3459,6 +3468,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Velociprey Hide","quantity":"3"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":12},{"percent":2,"name":"Velociprey Scale","quantity":"3"},{"percent":4,"name":"Velociprey Fang","quantity":"24"},{"percent":1,"name":"Velociprey Fang","quantity":"33"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3483,6 +3493,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"24"},{"percent":2,"name":"Velociprey Scale","quantity":"4"},{"percent":2,"name":"Screamer","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":4,"name":"Velocidrome Head","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3506,6 +3517,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"3"},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Screamer","quantity":"5"},{"percent":4,"name":"Screamer","quantity":"6"},{"percent":1,"name":"Flame Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3529,6 +3541,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Kut-Ku Shell","quantity":1},{"percent":24,"name":"Screamer","quantity":"3"},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Screamer","quantity":"5"},{"percent":4,"name":"Screamer","quantity":"6"},{"percent":1,"name":"Flame Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3556,6 +3569,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":25,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":25,"name":"Iron Ore","quantity":"8"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":5,"name":"Union Ore","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					}
 				]
@@ -3588,6 +3602,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":25,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":25,"name":"Iron Ore","quantity":"8"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":5,"name":"Union Ore","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3617,6 +3632,7 @@
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":24,"name":"Iron Ore","quantity":"5"},{"percent":25,"name":"Earth Crystal","quantity":"4"},{"percent":25,"name":"Disk Stone","quantity":"3"},{"percent":2,"name":"Machalite Ore","quantity":"2"},{"percent":4,"name":"Union Ore","quantity":"2"},{"percent":1,"name":"Dragonite Ore","quantity":"4"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3650,6 +3666,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":24,"name":"Iron Ore","quantity":"5"},{"percent":25,"name":"Earth Crystal","quantity":"4"},{"percent":25,"name":"Disk Stone","quantity":"3"},{"percent":2,"name":"Machalite Ore","quantity":"2"},{"percent":4,"name":"Union Ore","quantity":"2"},{"percent":1,"name":"Dragonite Ore","quantity":"4"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3679,6 +3696,7 @@
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Jewel Ticket","quantity":1},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":1,"name":"Dragonite Ore","quantity":1},{"percent":25,"name":"Earth Crystal","quantity":1},{"percent":25,"name":"Earth Crystal","quantity":"2"},{"percent":4,"name":"Lightcrystal","quantity":1},{"percent":1,"name":"Novacrystal","quantity":1}],
+						"hrRequire":13,
 						"note":"Quartz found in Zone 7"
 					},
 					{
@@ -3702,6 +3720,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":4,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Honey","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":15,"name":"Potion","quantity":"3"},{"percent":6,"name":"Mega Nutrients","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3729,6 +3748,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":5,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Cactus Flower","quantity":"2"},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":1,"name":"Unknown Skull","quantity":1},{"percent":1,"name":"Master's Skull","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3752,6 +3772,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Bullfango Pelt","quantity":"3"},{"percent":25,"name":"Antidote Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":2,"name":"Bullfango Pelt","quantity":"2"},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Bullfango Head","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3775,6 +3796,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Genprey Hide","quantity":"3"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Genprey Fang","quantity":"4"},{"percent":2,"name":"Genprey Scale","quantity":"3"},{"percent":4,"name":"Genprey Fang","quantity":10},{"percent":1,"name":"Genprey Fang","quantity":"20"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3799,6 +3821,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gendrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Genprey Fang","quantity":"5"},{"percent":2,"name":"Genprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Genprey Scale","quantity":"4"},{"percent":4,"name":"Genprey Fang","quantity":15},{"percent":1,"name":"Stun Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3823,6 +3846,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gendrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Genprey Fang","quantity":"5"},{"percent":2,"name":"Genprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Genprey Scale","quantity":"4"},{"percent":4,"name":"Genprey Fang","quantity":15},{"percent":1,"name":"Stun Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3850,6 +3874,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quatity":1}
 						],
 						"rewards":[{"percent":4,"name":"Cephalos Fin","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":"7"},{"percent":15,"name":"Piscine Fang","quantity":"3"},{"percent":15,"name":"Lg Monster Bone","quantity":1},{"percent":25,"name":"Burst Arrowana","quantity":"5"},{"percent":2,"name":"Bomb Arrowana","quantity":"3"},{"percent":1,"name":"Lg Lobstershell","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3873,6 +3898,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3896,6 +3922,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3919,6 +3946,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rubbery Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":"6"},{"percent":25,"name":"Wyvern Claw","quantity":"3"},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Poison Sac","quantity":1},{"percent":4,"name":"Wyvern Fang","quantity":10},{"percent":1,"name":"Novacrystal","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3942,6 +3970,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3965,6 +3994,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -3988,6 +4018,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Diablos Spine","quantity":1},{"percent":3,"name":"Diablos Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"48"},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Diablos Spine","quantity":"2"},{"percent":5,"name":"Lg Monster Bone","quantity":"4"}],
+						"hrRequire":13,
 						"note":""
 					}
 				]
@@ -4016,6 +4047,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":25,"name":"Diablos Spine","quantity":1},{"percent":3,"name":"Diablos Shell","quantity":1},{"percent":15,"name":"Sm Bone Husk","quantity":"48"},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":1,"name":"Diablos Spine","quantity":"2"},{"percent":5,"name":"Lg Monster Bone","quantity":"4"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4039,6 +4071,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":4,"name":"Egg Ticket","quantity":1},{"percent":25,"name":"Potion","quantity":"2"},{"percent":25,"name":"Honey","quantity":"2"},{"percent":25,"name":"Nutrients","quantity":1},{"percent":15,"name":"Potion","quantity":"3"},{"percent":6,"name":"Mega Nutrients","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4066,6 +4099,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":2,"name":"Commendation","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":4,"name":"Firestone","quantity":1},{"percent":1,"name":"Firestone","quantity":1}],
+						"hrRequire":13,
 						"note":"[JP: 220 HRP, Int: 650 HRP]"
 					},
 					{
@@ -4093,6 +4127,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Firestone","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":25,"name":"Gunpowder","quantity":1},{"percent":2,"name":"Commendation","quantity":1},{"percent":4,"name":"Gunpowder","quantity":"5"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4120,6 +4155,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":25,"name":"Ioprey Hide","quantity":"3"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Ioprey Fang","quantity":"4"},{"percent":2,"name":"Ioprey Scale","quantity":"3"},{"percent":4,"name":"Ioprey Fang","quantity":10},{"percent":1,"name":"Ioprey Fang","quantity":"20"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4144,6 +4180,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Iodrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Ioprey Fang","quantity":"5"},{"percent":2,"name":"Ioprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Ioprey Scale","quantity":"4"},{"percent":4,"name":"Ioprey Fang","quantity":15},{"percent":1,"name":"Poison Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4172,6 +4209,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Iodrome Hide","quantity":1},{"percent":19,"name":"Sm Monster Bone","quantity":"5"},{"percent":2,"name":"Ioprey Fang","quantity":"5"},{"percent":2,"name":"Ioprey Hide","quantity":"4"},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":15,"name":"Ioprey Scale","quantity":"4"},{"percent":4,"name":"Ioprey Fang","quantity":15},{"percent":1,"name":"Poison Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4199,6 +4237,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":4,"name":"Piscine Jaw","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":"7"},{"percent":2,"name":"Piscine Fang","quantity":"3"},{"percent":5,"name":"Lg Monster Bone","quantity":1},{"percent":25,"name":"Burst Arrowana","quantity":"5"},{"percent":2,"name":"Bomb Arrowana","quantity":"3"},{"percent":5,"name":"Cephalos Fin","quantity":1},{"percent":1,"name":"Lg Lobstershell","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4226,6 +4265,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Union Ore","quantity":1},{"percent":25,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Machalite Ore","quantity":"2"},{"percent":25,"name":"Iron Ore","quantity":"8"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":5,"name":"Dragonite Ore","quantity":"2"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4249,6 +4289,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4272,6 +4313,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathian Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4295,6 +4337,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Rathalos Shell","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Wyvern Claw","quantity":"5"},{"percent":25,"name":"Med Monster Bone","quantity":"2"},{"percent":2,"name":"Lg Monster Bone","quantity":1},{"percent":4,"name":"Rathalos Wing","quantity":1},{"percent":1,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4318,6 +4361,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Electro Sac","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Pale Extract","quantity":1},{"percent":4,"name":"Pale Bone","quantity":1},{"percent":1,"name":"Electro Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4341,6 +4385,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Flabby Hide","quantity":1},{"percent":24,"name":"Wyvern Fang","quantity":10},{"percent":25,"name":"Electro Sac","quantity":1},{"percent":25,"name":"Med Monster Bone","quantity":1},{"percent":2,"name":"Pale Extract","quantity":1},{"percent":4,"name":"Pale Bone","quantity":1},{"percent":1,"name":"Electro Sac","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4364,6 +4409,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":9,"name":"Plesioth Fin","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":"6"},{"percent":2,"name":"Piscine Fang","quantity":1},{"percent":2,"name":"Scatterfish","quantity":"3"},{"percent":1,"name":"Lg Monster Bone","quantity":1},{"percent":2,"name":"Bomb Arrowana","quantity":"3"},{"percent":1,"name":"Lg Lobstershell","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4387,6 +4433,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Diablos Shell","quantity":1},{"percent":2,"name":"Blos Jaw","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"24"},{"percent":25,"name":"Lg Monster Bone","quantity":"2"},{"percent":2,"name":"Blos Fang","quantity":1},{"percent":5,"name":"Diablos Spine","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4410,6 +4457,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":1,"name":"Gravios Shell","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"48"},{"percent":2,"name":"Med Monster Bone","quantity":"3"},{"percent":25,"name":"Lg Monster Bone","quantity":"2"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Sleep Sac","quantity":1},{"percent":9,"name":"Lg Bone Husk","quantity":"24"},{"percent":5,"name":"Gravios Carapace","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4437,6 +4485,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Gravios Shell","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"48"},{"percent":2,"name":"Med Monster Bone","quantity":"3"},{"percent":25,"name":"Lg Monster Bone","quantity":"2"},{"percent":1,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Sleep Sac","quantity":1},{"percent":9,"name":"Lg Bone Husk","quantity":"24"},{"percent":5,"name":"Gravios Carapace","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4464,6 +4513,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
 						"rewards":[{"percent":1,"name":"Union Ore","quantity":1},{"percent":15,"name":"Lg Bone Husk","quantity":"24"},{"percent":3,"name":"Machalite Ore","quantity":"2"},{"percent":2,"name":"Iron Ore","quantity":10},{"percent":15,"name":"Poison Sac","quantity":1},{"percent":1,"name":"Dragonite Ore","quantity":"2"}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4488,6 +4538,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Wyvern Marrow","quantity":1},{"percent":2,"name":"Rathian Scale","quantity":1},{"percent":15,"name":"Rathian Shell","quantity":1},{"percent":2,"name":"Rathalos Scale","quantity":1},{"percent":15,"name":"Rathalos Shell","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":5,"name":"Rathalos Wing","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -4512,6 +4563,7 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
 						],
 						"rewards":[{"percent":5,"name":"Rathalos Wing","quantity":1},{"percent":2,"name":"Rathian Scale","quantity":1},{"percent":15,"name":"Rathian Shell","quantity":1},{"percent":2,"name":"Rathalos Scale","quantity":1},{"percent":15,"name":"Rathalos Shell","quantity":1},{"percent":1,"name":"Rathian Spike","quantity":"3"},{"percent":1,"name":"Rathalos Tail","quantity":1},{"percent":5,"name":"Wyvern Marrow","quantity":1}],
+						"hrRequire":13,
 						"note":""
 					},
 					{
@@ -7984,6 +8036,7 @@
 							{"name":"Lao-Shan's Scale","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's right shoulder"},
 							{"name":"Lao-Shan's Shell","quantity":1,"percent":50,"require":"Break Lao-Shun Lung's right shoulder"}
 						],
+						"hrRequire":9,
 						"notes":"Can only be completed once"
 					}
 				]
@@ -8014,7 +8067,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Flame Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Wyvern Egg Hunt","icon":"yellow-icon egg-icon","hrp":480,"type":"gather","area":"Jungle",
@@ -8042,7 +8096,8 @@
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian&#8271;s head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"The Velociprey Lords","icon":"monster-icon monster-velocidrome","hrp":200,"type":"hunt","area":"Forest and Hills",
@@ -8080,7 +8135,8 @@
 							{"name":"Rathalos Shell","quantity":1,"percent":25,"require":"Break Rathalos's head"},
 							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Rathalos Claw","quantity":1,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Raid the Wyvern's Nest","icon":"yellow-icon egg-icon","hrp":490,"type":"gather","area":"Forest and Hills",
@@ -8109,7 +8165,8 @@
 							{"name":"Rathalos Scale","quantity":1,"percent":25},
 							{"name":"Rathalos Claw","quantity":1,"percent":75},
 							{"name":"Wyvern Claw","quantity":3,"percent":25}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-rathian","hrp":440,"type":"hunt","area":"Forest and Hills",
@@ -8138,7 +8195,8 @@
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Liver of Legend!","icon":"yellow-icon creature-icon","hrp":300,"type":"gather","area":"Desert",
@@ -8163,7 +8221,8 @@
 							{"name":"Burst Arrowana","quantity":5,"percent":25},
 							{"name":"Bomb Arrowana","quantity":3,"percent":15},
 							{"name":"Sm Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-rathian","hrp":450,"type":"hunt","area":"Desert",
@@ -8192,7 +8251,8 @@
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"The Land Shark","icon":"monster-icon monster-cephadrome","hrp":420,"type":"hunt","area":"Desert",
@@ -8217,7 +8277,8 @@
 							{"name":"Burst Arrowana","quantity":5,"percent":25},
 							{"name":"Bomb Arrowana","quantity":3,"percent":20},
 							{"name":"Sm Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Apceros Egg Hunt","icon":"white-icon egg-icon","hrp":500,"type":"gather","area":"Desert",
@@ -8243,7 +8304,8 @@
 							{"name":"Master's Skull","quantity":1,"percent":10},
 							{"name":"Twisted Horn","quantity":1,"percent":92,"require":"Break Diablos's horns"},
 							{"name":"Majestic Horn","quantity":1,"percent":8,"require":"Break Diablos's horns"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Panning for Goldenfish","icon":"yellow-icon fish-icon","hrp":230,"type":"gather","area":"Swamp",
@@ -8271,7 +8333,8 @@
 							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":400,"type":"hunt","area":"Swamp",
@@ -8299,7 +8362,8 @@
 							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
 							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Crystal Hunting!","icon":"white-icon stone-icon","hrp":330,"type":"gather","area":"Swamp",
@@ -8326,7 +8390,8 @@
 							{"name":"Novacrystal","quantity":1,"percent":1},
 							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":20,"percent":25,"require":"Break Basarios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":230,"type":"hunt","area":"Swamp",
@@ -8365,7 +8430,8 @@
 							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Wyvern Claw","quantity":3,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-rathian","hrp":450,"type":"hunt","area":"Swamp",
@@ -8394,7 +8460,8 @@
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":210,"type":"hunt","area":"Jungle",
@@ -8417,7 +8484,8 @@
 							{"name":"Vespoid Wing","quantity":2,"percent":35},
 							{"name":"Vespoid Wing","quantity":1,"percent":10},
 							{"name":"Vespoid Abdomen","quantity":1,"percent":5}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-yian-kut-ku","hrp":330,"type":"hunt","area":"Jungle",
@@ -8443,7 +8511,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Flame Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":390,"type":"hunt","area":"Jungle",
@@ -8471,7 +8540,8 @@
 							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
 							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Capture the Yian Kut-Ku!","icon":"monster-icon monster-yian-kut-ku","hrp":390,"type":"capture","area":"Forest and Hills",
@@ -8500,7 +8570,8 @@
 							{"name":"Flame Sac","quantity":1,"percent":12},
 							{"name":"Kut-Ku Ear","quantity":1,"percent":6},
 							{"name":"Giant Beak","quantity":1,"percent":2}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Bring me a Plesioth!","icon":"monster-icon monster-plesioth","hrp":500,"type":"capture","area":"Jungle",
@@ -8528,7 +8599,8 @@
 							{"name":"Bomb Arrowana","quantity":3,"percent":5},
 							{"name":"Plesioth Fin","quantity":1,"percent":14},
 							{"name":"Plesioth Fin","quantity":2,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
@@ -8555,7 +8627,8 @@
 							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos's horns"},
 							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos's horns"},
 							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos's horns"}
-						]
+						],
+						"hrRequire":13
 					}
 				]
 			},
@@ -8590,7 +8663,8 @@
 							{"name":"Rathalos Plate","quantity":1,"percent":1,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-azure-rathalos","hrp":490,"type":"hunt","area":"Forest and Hills",
@@ -8621,7 +8695,8 @@
 							{"name":"Azure Rathalos Plate","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
 							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-diablos","hrp":530,"type":"hunt","area":"Desert",
@@ -8647,7 +8722,8 @@
 							{"name":"Diablos Spine","quantity":1,"percent":5},
 							{"name":"Twisted Horn","quantity":1,"percent":88,"require":"Break Diablos's horns"},
 							{"name":"Majestic Horn","quantity":1,"percent":12,"require":"Break Diablos's horns"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Quartz Ore Request","icon":"white-icon stone-icon","hrp":350,"type":"gather","area":"Swamp",
@@ -8675,7 +8751,8 @@
 							{"name":"Machalite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
 							{"name":"Lightcrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"The Fearsome Gravios","icon":"monster-icon monster-gravios","hrp":530,"type":"hunt","area":"Swamp",
@@ -8703,7 +8780,8 @@
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
 							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
 							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":380,"type":"hunt","area":"Volcano",
@@ -8729,7 +8807,8 @@
 							{"name":"Union Ore","quantity":1,"percent":5},
 							{"name":"Machalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-gravios","hrp":550,"type":"hunt","area":"Volcano",
@@ -8757,7 +8836,8 @@
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
 							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
 							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Leaders of the Ioprey","icon":"monster-icon monster-iodrome","hrp":260,"type":"hunt","area":"Volcano",
@@ -8793,7 +8873,8 @@
 							{"name":"Ioprey Scale","quantity":4,"percent":15},
 							{"name":"Ioprey Fang","quantity":15,"percent":4},
 							{"name":"Poison Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":620,"type":"gather","area":"Volcano",
@@ -8820,7 +8901,8 @@
 							{"name":"Firestone","quantity":3,"percent":1},
 							{"name":"Gravios Shell","quantity":1,"percent":75,"require":"Break Gravios's chest"},
 							{"name":"Gravios Carapace","quantity":1,"percent":25,"require":"Break Gravios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-khezu","hrp":430,"type":"hunt","area":"Jungle",
@@ -8845,7 +8927,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Bone","quantity":1,"percent":4},
 							{"name":"Electro Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-plesioth","hrp":470,"type":"hunt","area":"Jungle",
@@ -8870,7 +8953,8 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":10},
 							{"name":"Bomb Arrowana","quantity":3,"percent":20},
 							{"name":"Sm Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Bring us Powderstone!","icon":"orange-icon stone-icon","hrp":620,"type":"gather","area":"Volcano",
@@ -8899,7 +8983,8 @@
 							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":470,"type":"hunt","area":"Jungle",
@@ -8928,7 +9013,8 @@
 							{"name":"Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-pink-rathian","hrp":460,"type":"hunt","area":"Jungle",
@@ -8957,7 +9043,8 @@
 							{"name":"Pink Rathian Scale","quantity":1,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"A Troublesome Pair","icon":"monster-icon monster-twin-raths","hrp":960,"type":"hunt","area":"Forest and Hills",
@@ -9001,7 +9088,8 @@
 							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Four Horns","icon":"monster-icon monster-diablos","hrp":1080,"type":"hunt","area":"Desert",
@@ -9028,7 +9116,8 @@
 							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Diablos's horns"},
 							{"name":"Diablos Spine","quantity":2,"percent":22,"require":"Break Diablos's horns"},
 							{"name":"Majestic Horn","quantity":1,"percent":16,"require":"Break Diablos's horns"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Two Rock Wyverns","icon":"monster-icon monster-basarios","hrp":820,"type":"hunt","area":"Volcano",
@@ -9054,7 +9143,8 @@
 							{"name":"Dragonite Ore","quantity":2,"percent":10},
 							{"name":"Union Ore","quantity":1,"percent":50,"require":"Break Basarios's chest"},
 							{"name":"Dragonite Ore","quantity":1,"percent":50,"require":"Break Basarios's chest"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Wyverns of Land and Sky","icon":"monster-icon monster-twin-raths","hrp":1000,"type":"hunt","area":"Swamp",
@@ -9098,7 +9188,8 @@
 							{"name":"Rathian Shell","quantity":2,"percent":25,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":2,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Catch a Rathalos","icon":"monster-icon monster-rathalos","hrp":620,"type":"capture","area":"Forest and Hills",
@@ -9132,7 +9223,8 @@
 							{"name":"Rathalos Scale","quantity":1,"percent":25,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"Get me a Live Khezu!","icon":"monster-icon monster-khezu","hrp":490,"type":"capture","area":"Swamp",
@@ -9159,7 +9251,8 @@
 							{"name":"Electro Sac","quantity":1,"percent":15},
 							{"name":"Electro Sac","quantity":1,"percent":4},
 							{"name":"Pale Extract","quantity":5,"percent":1}
-						]
+						],
+						"hrRequire":13
 					},
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":1200,"type":"hunt","area":"Fort",
@@ -9201,6 +9294,7 @@
 							{"name":"Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
 							{"name":"Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
 						],
+						"hrRequire":17,
 						"notes":"Once completed, will appear permanently in the Urgent category."
 					}
 				]
@@ -9242,7 +9336,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Inferno Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-blue-kut-ku","hrp":500,"type":"hunt","area":"Forest and Hills",
@@ -9268,7 +9363,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Inferno Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-yian-kut-ku","hrp":550,"type":"hunt","area":"Jungle",
@@ -9294,7 +9390,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Inferno Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Jungle Menace","icon":"monster-icon monster-blue-kut-ku","hrp":520,"type":"hunt","area":"Jungle",
@@ -9320,7 +9417,8 @@
 							{"name":"Screamer","quantity":5,"percent":20},
 							{"name":"Screamer","quantity":6,"percent":4},
 							{"name":"Inferno Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":600,"type":"hunt","area":"Forest and Hills",
@@ -9349,7 +9447,8 @@
 							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-purple-gypceros","hrp":580,"type":"hunt","area":"Forest and Hills",
@@ -9378,7 +9477,8 @@
 							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-gypceros","hrp":620,"type":"hunt","area":"Swamp",
@@ -9406,7 +9506,8 @@
 							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Gypceros in the Swamp","icon":"monster-icon monster-purple-gypceros","hrp":600,"type":"hunt","area":"Swamp",
@@ -9435,7 +9536,8 @@
 							{"name":"Dragonite Ore","quantity":1,"percent":70,"require":"Break Purple Gypceros's head"},
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":610,"type":"hunt","area":"Jungle",
@@ -9465,7 +9567,8 @@
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Gypceros's head"},
 							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-purple-gypceros","hrp":590,"type":"hunt","area":"Jungle",
@@ -9495,7 +9598,8 @@
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
 							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Plague of Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":120,"type":"hunt","area":"Forest and Hills",
@@ -9528,7 +9632,8 @@
 							{"name":"Kut-Ku Ear","quantity":2,"percent":100,"require":"Slay 6 or more"},
 							{"name":"Kut-Ku Webbing","quantity":4,"percent":100,"require":"Slay 4 or more"},
 							{"name":"Kut-Ku Shell","quantity":2,"percent":100,"require":"Slay 2 or more"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Thugs From the Ground?","icon":"monster-icon monster-cephadrome","hrp":730,"type":"hunt","area":"Desert",
@@ -9565,7 +9670,8 @@
 							{"name":"Bomb Arrowana","quantity":3,"percent":20},
 							{"name":"Coral Cephalos Fin","quantity":1,"percent":1},
 							{"name":"Lg Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Yian Kut-Ku's Pincer Attack","icon":"monster-icon monster-blue-kut-ku","hrp":860,"type":"hunt","area":"Forest and Hills",
@@ -9592,7 +9698,8 @@
 							{"name":"Screamer","quantity":6,"percent":3},
 							{"name":"Blue Kut-Ku Ear","quantity":1,"percent":1},
 							{"name":"Inferno Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Deadly Poisonous Siege","icon":"monster-icon monster-purple-gypceros","hrp":920,"type":"hunt","area":"Swamp",
@@ -9622,7 +9729,8 @@
 							{"name":"Novacrystal","quantity":1,"percent":29,"require":"Break Purple Gypceros's head"},
 							{"name":"Gypceros Head","quantity":1,"percent":1,"require":"Break Purple Gypceros's head"},
 							{"name":"Purecrystal","quantity":1,"percent":2,"require":"Break Purple Gypceros's head"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Two Sand Shadows","icon":"monster-icon monster-cephadrome","hrp":1120,"type":"hunt","area":"Desert",
@@ -9650,7 +9758,8 @@
 							{"name":"Bomb Arrowana","quantity":2,"percent":24},
 							{"name":"Coral Cephalos Fin","quantity":1,"percent":5},
 							{"name":"Lg Lobstershell","quantity":1,"percent":2}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
@@ -9677,7 +9786,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":8},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					}
 				]
 			},
@@ -9713,7 +9823,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-pink-rathian","hrp":760,"type":"hunt","area":"Forest and Hills",
@@ -9744,7 +9855,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-rathian","hrp":800,"type":"hunt","area":"Desert",
@@ -9775,7 +9887,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Queen of the Desert","icon":"monster-icon monster-pink-rathian","hrp":780,"type":"hunt","area":"Desert",
@@ -9806,7 +9919,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-rathian","hrp":810,"type":"hunt","area":"Swamp",
@@ -9837,7 +9951,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Rathian!","icon":"monster-icon monster-pink-rathian","hrp":790,"type":"hunt","area":"Swamp",
@@ -9868,7 +9983,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-khezu","hrp":740,"type":"hunt","area":"Swamp",
@@ -9894,7 +10010,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":4},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Shadow in the Cave","icon":"monster-icon monster-red-khezu","hrp":720,"type":"hunt","area":"Swamp",
@@ -9920,7 +10037,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":4},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-khezu","hrp":730,"type":"hunt","area":"Jungle",
@@ -9946,7 +10064,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":4},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Wyvern in the Darkness","icon":"monster-icon monster-red-khezu","hrp":710,"type":"hunt","area":"Jungle",
@@ -9972,7 +10091,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":4},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":680,"type":"hunt","area":"Volcano",
@@ -9999,7 +10119,8 @@
 							{"name":"Hellfire Stone","quantity":1,"percent":5},
 							{"name":"Carbalite Ore","quantity":3,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Two Rock Wyverns","icon":"monster-icon monster-basarios","hrp":1080,"type":"hunt","area":"Volcano",
@@ -10027,7 +10148,8 @@
 							{"name":"Hellfire Stone","quantity":1,"percent":5},
 							{"name":"Carbalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-khezu","hrp":1220,"type":"hunt","area":"Swamp",
@@ -10054,7 +10176,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":8},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Thunderous Duo","icon":"monster-icon monster-red-khezu","hrp":1160,"type":"hunt","area":"Swamp",
@@ -10081,7 +10204,8 @@
 							{"name":"Pale Extract","quantity":1,"percent":20},
 							{"name":"Pale Khezu Steak","quantity":1,"percent":8},
 							{"name":"Thunder Sac","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Wyverns of Land and Sky","icon":"monster-icon monster-twin-raths","hrp":1340,"type":"hunt","area":"Forest and Hills",
@@ -10130,7 +10254,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
@@ -10179,7 +10304,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					}
 				]
 			},
@@ -10215,7 +10341,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":1,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-pink-rathian","hrp":800,"type":"hunt","area":"Jungle",
@@ -10246,7 +10373,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-gold-rathian","hrp":800,"type":"hunt","area":"Jungle",
@@ -10276,7 +10404,8 @@
 							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian's head"},
 							{"name":"Gold Rathian Claw","quantity":1,"percent":75,"require":"Break Gold Rathian's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Gold Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":920,"type":"hunt","area":"Forest and Hills",
@@ -10307,7 +10436,8 @@
 							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-azure-rathalos","hrp":900,"type":"hunt","area":"Forest and Hills",
@@ -10338,7 +10468,8 @@
 							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
 							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-silver-rathalos","hrp":900,"type":"hunt","area":"Forest and Hills",
@@ -10368,7 +10499,8 @@
 							{"name":"Wrath of Silver Fire Dragon","quantity":1,"percent":1,"require":"Break Silver Rathalos's head"},
 							{"name":"Silver Rathalos Claw","quantity":1,"percent":75,"require":"Break Silver Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Silver Rathalos's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Eruption-clad King","icon":"monster-icon monster-rathalos","hrp":940,"type":"hunt","area":"Volcano",
@@ -10399,7 +10531,8 @@
 							{"name":"Rathalos Ruby","quantity":1,"percent":1,"require":"Break Rathalos's head"},
 							{"name":"Rathalos Claw","quantity":1,"percent":75,"require":"Break Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Rathalos's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Eruption-clad King","icon":"monster-icon monster-azure-rathalos","hrp":920,"type":"hunt","area":"Volcano",
@@ -10430,7 +10563,8 @@
 							{"name":"Azure Rathalos Ruby","quantity":1,"percent":1,"require":"Break Azure Rathalos's head"},
 							{"name":"Azure Rathalos Claw","quantity":1,"percent":75,"require":"Break Azure Rathalos's wings"},
 							{"name":"Wyvern Claw","quantity":3,"percent":25,"require":"Break Azure Rathalos's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-plesioth","hrp":860,"type":"hunt","area":"Jungle",
@@ -10456,7 +10590,8 @@
 							{"name":"Monster Bone+","quantity":1,"percent":10},
 							{"name":"Bomb Arrowana","quantity":3,"percent":20},
 							{"name":"Lg Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Water Wyvern in the Jungle","icon":"monster-icon monster-green-plesioth","hrp":840,"type":"hunt","area":"Jungle",
@@ -10483,7 +10618,8 @@
 							{"name":"Monster Bone+","quantity":1,"percent":12},
 							{"name":"Bomb Arrowana","quantity":3,"percent":10},
 							{"name":"Lg Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-diablos","hrp":960,"type":"hunt","area":"Desert",
@@ -10510,7 +10646,8 @@
 							{"name":"Diablos Thoracic","quantity":1,"percent":5},
 							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Diablos's horns"},
 							{"name":"Solid Blos Horn","quantity":1,"percent":12,"require":"Break Diablos's horns"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"The Runaway Diablos","icon":"monster-icon monster-black-diablos","hrp":940,"type":"hunt","area":"Desert",
@@ -10538,7 +10675,8 @@
 							{"name":"Black horned dragon back","quantity":2,"percent":4},
 							{"name":"Majestic Horn","quantity":1,"percent":88,"require":"Break Black Diablos's horns"},
 							{"name":"Black winding horn","quantity":1,"percent":12,"require":"Break Black Diablos's horns"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-gravios","hrp":1000,"type":"hunt","area":"Volcano",
@@ -10568,7 +10706,8 @@
 							{"name":"Gravios Carapace","quantity":1,"percent":63,"require":"Break Gravios's chest"},
 							{"name":"Gravios Carapace","quantity":1,"percent":35,"require":"Break Gravios's chest"},
 							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Gravios's chest"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Volcanic Valor","icon":"monster-icon monster-black-gravios","hrp":980,"type":"hunt","area":"Volcano",
@@ -10599,7 +10738,8 @@
 							{"name":"Black Gravios Carapace","quantity":1,"percent":63,"require":"Break Black Gravios's chest"},
 							{"name":"Black Gravios Carapace","quantity":1,"percent":35,"require":"Break Black Gravios's chest"},
 							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Black Gravios's chest"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Four Horns","icon":"monster-icon monster-black-diablos","hrp":1540,"type":"hunt","area":"Desert",
@@ -10628,7 +10768,8 @@
 							{"name":"Twisted Horn","quantity":2,"percent":62,"require":"Break Black Diablos's horns"},
 							{"name":"High quality twisted horn","quantity":2,"percent":22,"require":"Break Black Diablos's horns"},
 							{"name":"Black winding horn","quantity":1,"percent":16,"require":"Break Black Diablos's horns"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Burning Twins","icon":"monster-icon monster-black-gravios","hrp":1740,"type":"hunt","area":"Volcano",
@@ -10659,7 +10800,8 @@
 							{"name":"Black Gravios Wing","quantity":1,"percent":3},
 							{"name":"Black Gravios Carapace","quantity":1,"percent":75,"require":"Break Black Gravios's chest"},
 							{"name":"Black Gravios Carapace","quantity":1,"percent":25,"require":"Break Black Gravios's chest"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Twin Piscine Wyverns","icon":"monster-icon monster-green-plesioth","hrp":1600,"type":"hunt","area":"Jungle",
@@ -10685,7 +10827,8 @@
 							{"name":"Monster Bone+","quantity":3,"percent":10},
 							{"name":"Bomb Arrowana","quantity":3,"percent":20},
 							{"name":"Lg Lobstershell","quantity":1,"percent":1}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Wrath of Heaven and Earth","icon":"monster-icon monster-twin-raths","hrp":1420,"type":"hunt","area":"Swamp",
@@ -10734,7 +10877,8 @@
 							{"name":"Rathian Ruby","quantity":1,"percent":1,"require":"Break Rathian's head"},
 							{"name":"Rathian Claw","quantity":2,"percent":75,"require":"Break Rathian's wings"},
 							{"name":"Rathian Claw","quantity":1,"percent":25,"require":"Break Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Azure and Pink","icon":"monster-icon monster-ash-raths","hrp":1400,"type":"hunt","area":"Forest and Hills",
@@ -10783,7 +10927,8 @@
 							{"name":"Pink Rathian Ruby","quantity":1,"percent":1,"require":"Break Pink Rathian's head"},
 							{"name":"Pink Rathian Claw","quantity":2,"percent":75,"require":"Break Pink Rathian's wings"},
 							{"name":"Pink Rathian Claw","quantity":1,"percent":25,"require":"Break Pink Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"Wrath of Heaven and Earth","icon":"monster-icon monster-kim-raths","hrp":1400,"type":"hunt","area":"Swamp",
@@ -10832,7 +10977,8 @@
 							{"name":"Gold Rathian Ruby","quantity":1,"percent":1,"require":"Break Gold Rathian's head"},
 							{"name":"Gold Rathian Claw","quantity":2,"percent":75,"require":"Break Gold Rathian's wings"},
 							{"name":"Gold Rathian Claw","quantity":1,"percent":25,"require":"Break Gold Rathian's wings"}
-						]
+						],
+						"hrRequire":21
 					},
 					{
 						"name":"A Giant Dragon Invades!","icon":"monster-icon monster-unknown","hrp":2000,"type":"hunt","area":"Fort",
@@ -10876,7 +11022,8 @@
 							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
 							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
 							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
-						]
+						],
+						"hrRequire":27
 					}
 				]
 			},
@@ -10925,7 +11072,8 @@
 							{"name":"Lao-Shan's Thoracic","quantity":1,"percent":80,"require":"Break Lao-Shan Lung's right shoulder"},
 							{"name":"Blue Lao-Shan's Shell","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"},
 							{"name":"Blue Lao-Shan's Scale","quantity":1,"percent":10,"require":"Break Lao-Shan Lung's right shoulder"}
-						]
+						],
+						"hrRequire":27
 					},
 					{
 						"name":"Legendary Black Dragon (1)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
@@ -10953,7 +11101,8 @@
 							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
 							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
-						]
+						],
+						"hrRequire":27
 					},
 					{
 						"name":"Legendary Black Dragon (2)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
@@ -10981,7 +11130,8 @@
 							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
 							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
-						]
+						],
+						"hrRequire":27
 					},
 					{
 						"name":"Legendary Black Dragon (3)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
@@ -11009,7 +11159,8 @@
 							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
 							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
-						]
+						],
+						"hrRequire":27
 					},
 					{
 						"name":"Legendary Black Dragon (4)","icon":"monster-icon monster-unknown","hrp":2500,"type":"special","area":"Castle Schrade",
@@ -11037,7 +11188,8 @@
 							{"name":"Fatalis' Wing","quantity":1,"percent":37,"require":"Additional rewards #4"},
 							{"name":"Fatalis' Crust","quantity":1,"percent":58,"require":"Additional rewards #5"},
 							{"name":"Fatalis' Crust+","quantity":1,"percent":42,"require":"Additional rewards #5"}
-						]
+						],
+						"hrRequire":27
 					}
 				]
 			}
