@@ -88,7 +88,12 @@
 }
 .day-event-mh1,
 .day-event-mhg {
-	padding: 1.25rem 0.25rem 2.125rem;
+	padding: 1.25rem 0.375rem 2.125rem;
+}
+.day-event-content-mhg {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 100%;
 }
 .day-special {
 	position: absolute;
@@ -235,8 +240,12 @@
 .current-events-g-none #current-events-slider {
 	display: none;
 }
-.current-events-g-none #current-events-none {
+.show-g .current-events-g-none #current-event {
+	margin-bottom: 0;
+}
+.show-g .current-events-g-none #current-events-none {
 	display: block;
+	margin-bottom: 1rem;
 }
 
 /* Tablet */
@@ -261,7 +270,7 @@
 	}
 	.day-event-mh1,
 	.day-event-mhg {
-		padding-bottom: 1.5rem;
+		padding-bottom: 1.125rem;
 	}
 
 	.current-container {

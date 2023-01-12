@@ -10,7 +10,7 @@ ready(() => {
 	const SHOP_ROTATION_START = new Date(Date.UTC(2023, 0, 10, START_HOUR, 0, 0));
 	const SHOP_SPECIALS = [
 		{
-			title: "No Shop Specials",
+			title: "No shop specials currently active",
 			description: ""
 		},
 		{
@@ -446,7 +446,7 @@ ready(() => {
 					dayTitlesG[dayTitlesG.length - 1] = "and " + dayTitlesG[dayTitlesG.length - 1];
 				}
 
-				dayEventsG[firstDayOfWeek + i].innerText = dayTitlesG[0] + (dayTitlesG.length > 1 ? ` (+${dayTitlesG.length - 1})` : "");
+				dayEventsG[firstDayOfWeek + i].innerText = dayTitlesG[0] + (dayTitlesG.length > 1 ? `${dayTitlesG.length > 2 ? "," : ""} ${dayTitlesG[1].substr(0, 3)}...` : "");
 				dayEventsG[firstDayOfWeek + i].title = dayTitlesG.join(", ");
 			}
 			else {
@@ -514,7 +514,7 @@ ready(() => {
 			const currentEventGClients = document.getElementsByClassName("current-event-client-g");
 			const currentEventGDescriptions = document.getElementsByClassName("current-event-description-g");
 
-			currentEventElement.classList.remove("current-events-g-none");
+			currentEventElement.parentElement.classList.remove("current-events-g-none");
 			for (var i = 0; i < currentEventsIndices.length; i++) {
 				currentEvent = MHG_EVENTS[currentEventsIndices[i]];
 
@@ -533,7 +533,7 @@ ready(() => {
 			currentEventsSliderContainer.dataset.maxEvents = currentEventsIndices.length;
 		}
 		else {
-			currentEventElement.classList.add("current-events-g-none");
+			currentEventElement.parentElement.classList.add("current-events-g-none");
 			currentEventsSliderContainer.dataset.maxEvents = 0;
 		}
 	}
