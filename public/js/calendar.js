@@ -118,6 +118,30 @@ ready(() => {
 			target: "Diablos",
 			client: "GMR",
 			description: "Level the field with the Holy Grail of Heavy Metal. Only those with hearts of steel will walk away with The GMR Chrome Heart. (Actually the King Meat quest.)"
+		},
+		{
+			title: "Gravios Hunting!",
+			category: "hunt",
+			location: "Volcano",
+			target: "Gravios",
+			client:"Requestor: Guild Boss",
+			details:"The battle royale is about to begin! Can you hunt down a Gravios and make it back alive? Slip up once and it's QUEST OVER!"
+		},
+		{
+			title: "Rulers of Heaven and Earth",
+			category: "hunt",
+			location: "Forest and Hills",
+			target: "Rathian and Rathalos",
+			client:"Requestor: Brave Prince",
+			details:"A Rathalos and Rathian have paired up and are ravaging my country! My father won't let me go, so please kill them for me!"
+		},
+		{
+			title: "Expeditious Assault!",
+			category: "hunt",
+			location: "Forest and Hills",
+			target: "Gypceros",
+			client:"Requestor: Guild Boss",
+			details:"Prove your strength, skills and teamwork as a hunter! The time limit is just 5 minutes, and you only have one chance. Don't blow it!"
 		}
 	];
 	// Day 1 Lao
@@ -130,9 +154,131 @@ ready(() => {
 	// Day 8 Gather Desert
 	// Day 9 GMR Chrome Heart (actually King Meat quest)
 	// Day 10 Gather Volcano
+	// Day 11 Gravios Hunting
+	// Day 12 Gather Forest
+	// Day 13 Rulers of Heaven and Earth
+	// Day 14 Gather Jungle
+	// Day 15 Gary Expeditious Assault Paw Tix
 	var MH1_EVENTS_ROTATION = new Uint8Array([
-		5,0,6,1,7,2,8,3,9,4
+		5,0,6,1,7,2,8,3,9,4//,10,0,11,1,12
 	]);
+
+	/*
+	none
+	none
+	none
+	none
+	none
+	Kirin Low
+	Kirin Low, Kirin High
+	Kirin Low, Kirin High
+	none
+	none
+	none
+	none
+	Crimson Fatalis
+	Crimson Fatalis Hard
+	Crimson Fatalis Hard
+	none
+	none
+	none
+	none
+	Lao
+	Lao, Ashen Lao
+	Lao, Ashen Lao
+	none
+	none
+	none
+	none
+	Lao, Kirin Low
+	Crimson Fatalis, Kirin High, Kirin Low
+	Crimson Fatalis, Ashen Lao, Lao
+	none
+	none
+	*/
+	const MHG_EVENTS = [
+		{
+			title: "The Legendary Kirin",
+			category: "special",
+			location: "Swamp",
+			target: "Kirin",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "On the Trail of the Beast!",
+			category: "special",
+			location: "Swamp",
+			target: "Kirin",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "The Advent of Calamity",
+			category: "special",
+			location: "The Battleground",
+			target: "Crimson Fatalis",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "The Wrath of Calamity",
+			category: "special",
+			location: "The Battleground",
+			target: "Crimson Fatalis",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "Stop the Giant Dragon!",
+			category: "hunt",
+			location: "The Fort",
+			target: "Lao-Shan Lung",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "Rocky Mountain Dragon",
+			category: "hunt",
+			location: "The Fort",
+			target: "Ashen Lao-Shan Lung",
+			client: "??",
+			description: "??"
+		}
+	];
+	var MHG_EVENTS_ROTATION = [
+		0,
+		0,
+		0,
+		0,
+		0,
+		[0],
+		[0,1],
+		[0,1],
+		0,
+		0,
+		0,
+		0,
+		[2],
+		[2,3],
+		[2,3],
+		0,
+		0,
+		0,
+		0,
+		[4],
+		[4,5],
+		[4,5],
+		0,
+		0,
+		0,
+		0,
+		[4,0],
+		[2,1,0],
+		[2,5,4],
+		0,
+		0
+	];
 
 	function isMondayStart() {
 		return document.body.classList.contains("monday-start");
@@ -256,23 +402,51 @@ ready(() => {
 
 		var now = new Date();
 		var pastEventDeadline = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR) < Date.now();
+
 		// Add events to the calendar
 		let firstDayEventIndex = getFirstDayEventIndex(year, monthIndex);
-		let dayEvents = document.getElementsByClassName("day-event");
-		let eventIndex = firstDayEventIndex;
-		for (let i = 0; i < dayCount; i++) {
+		var dayEvents1 = document.getElementsByClassName("day-event-mh1");
+		var dayEventsG = document.getElementsByClassName("day-event-mhg");
+		var eventIndex1 = eventIndexG = firstDayEventIndex;
+		for (var i = 0; i < dayCount; i++) {
 			// If it's the last day of the month, and we're past the event deadline,
 			// we should show the first event
 			if (i == dayCount - 1 && pastEventDeadline) {
-				eventIndex = 0;
+				eventIndex1 = 0;
+				eventIndexG = 0;
 			}
-			var currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
 
-			calendarDays[firstDayOfWeek + i].className = currentEvent.category + "-quest";
-			dayEvents[firstDayOfWeek + i].innerText = currentEvent.title;
-			dayEvents[firstDayOfWeek + i].title = currentEvent.description;
+			var currentEvent1 = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex1]];
 
-			eventIndex = (eventIndex + 1) % MH1_EVENTS_ROTATION.length;
+			dayEvents1[firstDayOfWeek + i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
+			dayEvents1[firstDayOfWeek + i].classList.add(currentEvent1.category + "-quest");
+			dayEvents1[firstDayOfWeek + i].innerText = currentEvent1.title;
+			dayEvents1[firstDayOfWeek + i].title = currentEvent1.description;
+
+			eventIndex1 = (eventIndex1 + 1) % MH1_EVENTS_ROTATION.length;
+
+			var currentEventGIndices = MHG_EVENTS_ROTATION[eventIndexG];
+
+			dayEventsG[firstDayOfWeek + i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
+			if (currentEventGIndices) {
+				dayEventsG[firstDayOfWeek + i].classList.add(MHG_EVENTS[currentEventGIndices[0]].category + "-quest")
+
+				var dayTitlesG = [];
+				currentEventGIndices.forEach((index) => {
+					dayTitlesG.push(MHG_EVENTS[index].title);
+				});
+				if (dayTitlesG.length > 1) {
+					dayTitlesG[dayTitlesG.length - 1] = "and " + dayTitlesG[dayTitlesG.length - 1];
+				}
+
+				dayEventsG[firstDayOfWeek + i].innerText = dayTitlesG[0] + (dayTitlesG.length > 1 ? ` (+${dayTitlesG.length - 1})` : "");
+				dayEventsG[firstDayOfWeek + i].title = dayTitlesG.join(", ");
+			}
+			else {
+				dayEventsG[firstDayOfWeek + i].innerText = "no events";
+				dayEventsG[firstDayOfWeek + i].title = "no events";
+			}
+			eventIndexG = (eventIndexG + 1) % MHG_EVENTS_ROTATION.length;
 		}
 
 		let firstDayShopIndex = getFirstDayShopIndex(year, monthIndex);
@@ -299,7 +473,11 @@ ready(() => {
 		}
 	}
 
+	var currentEventsSliderContainer = document.getElementById("current-events-container");
+
 	function setCurrentEvent() {
+		const currentEventElement = document.getElementById("current-event");
+
 		let now = new Date();
 		let firstDayEventIndex = getFirstDayEventIndex(now.getFullYear(), now.getMonth());
 
@@ -307,16 +485,50 @@ ready(() => {
 		let currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
 
 		var eventContent = document.getElementById("current-event-content");
-		eventContent.classList.remove("gather", "hunt", "capture", "special");
+		eventContent.classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
 		eventContent.classList.add(currentEvent.category + "-quest");
 
-		// document.getElementById("current-event").className = currentEvent.category + "-quest";
 		document.getElementById("current-event-title").innerText = currentEvent.title;
 		document.getElementById("current-event-location").innerText = currentEvent.location;
 		document.getElementById("current-target-container").style.display = currentEvent.category == "gather" ? "none" : "";
 		document.getElementById("current-target").innerText = currentEvent.target;
 		document.getElementById("current-event-client").innerText = currentEvent.client;
 		document.getElementById("current-event-description").innerText = currentEvent.description;
+
+		// MHG events
+		var eventIndexG = (firstDayEventIndex + (now.getDate() - 1)) % MHG_EVENTS_ROTATION.length;
+		var currentEventsIndices = MHG_EVENTS_ROTATION[eventIndexG];
+		if (currentEventsIndices) {
+			const currentEventGContents = document.getElementsByClassName("current-content-g");
+			const currentEventGTitles = document.getElementsByClassName("current-event-title-g");
+			const currentEventGLocations = document.getElementsByClassName("current-event-location-g");
+			const currentEventGTargetContainers = document.getElementsByClassName("current-target-container-g");
+			const currentEventGTargets = document.getElementsByClassName("current-target-g");
+			const currentEventGClients = document.getElementsByClassName("current-event-client-g");
+			const currentEventGDescriptions = document.getElementsByClassName("current-event-description-g");
+
+			currentEventElement.classList.remove("current-events-g-none");
+			for (var i = 0; i < currentEventsIndices.length; i++) {
+				currentEvent = MHG_EVENTS[currentEventsIndices[i]];
+
+				currentEventGContents[i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
+				currentEventGContents[i].classList.add(currentEvent.category + "-quest");
+
+				currentEventGTitles[i].innerText = currentEvent.title;
+				currentEventGLocations[i].innerText = currentEvent.location;
+				currentEventGTargetContainers[i].style.display = currentEvent.category == "gather" ? "none" : "";
+				currentEventGTargets[i].innerText = currentEvent.target;
+
+				currentEventGClients[i].innerText = currentEvent.client;
+				currentEventGDescriptions[i].innerText = currentEvent.description;
+			}
+
+			currentEventsSliderContainer.dataset.maxEvents = currentEventsIndices.length;
+		}
+		else {
+			currentEventElement.classList.add("current-events-g-none");
+			currentEventsSliderContainer.dataset.maxEvents = 0;
+		}
 	}
 	function setCurrentShopSpecial() {
 		let now = new Date();
@@ -375,6 +587,21 @@ ready(() => {
 	}
 
 	initCalendar();
+
+	var mhgEventIndex = 0;
+	function slideEvents(direction) {
+		var nextIndex = mhgEventIndex + direction;
+		if (0 <= nextIndex && nextIndex < currentEventsSliderContainer.dataset.maxEvents) {
+			mhgEventIndex = nextIndex;
+			currentEventsSliderContainer.style.left = `-${mhgEventIndex}00%`;
+		}
+	}
+	document.getElementById("slider-button-previous").addEventListener("click", () => {
+		slideEvents(-1);
+	});
+	document.getElementById("slider-button-next").addEventListener("click", () => {
+		slideEvents(1);
+	});
 
 	var lastTimestamp = 0;
 	function getTimeToNextEvent() {
