@@ -11389,6 +11389,28 @@
 				]
 			},
 			{
+				"stars": 6,
+				"quests":[
+					{
+						"name":"Hot Wind and Lightning","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"The Battleground",
+						"japanese":"熱風と落雷",
+						"goal":"Slay the Kirin","reward":"??","fee":"??","time":"??",
+						"details":"","hrRequire":21,
+						"largeMonsters":[
+							{
+								"n":"Kirin","q":2
+							}
+						],
+						"rewards":[
+							{"name":"Ancient Potion","quantity":1,"percent":1},
+							{"name":"Kirin Azure Horn","quantity":1,"percent":39},
+							{"name":"Kirin Mane","quantity":1,"percent":45},
+							{"name":"Kirin Hide","quantity":1,"percent":15}
+						]
+					}
+				]
+			},
+			{
 				"stars": 8,
 				"quests":[
 					{

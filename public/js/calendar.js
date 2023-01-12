@@ -125,7 +125,7 @@ ready(() => {
 			location: "Volcano",
 			target: "Gravios",
 			client:"Requestor: Guild Boss",
-			details:"The battle royale is about to begin! Can you hunt down a Gravios and make it back alive? Slip up once and it's QUEST OVER!"
+			description:"The battle royale is about to begin! Can you hunt down a Gravios and make it back alive? Slip up once and it's QUEST OVER!"
 		},
 		{
 			title: "Rulers of Heaven and Earth",
@@ -133,7 +133,7 @@ ready(() => {
 			location: "Forest and Hills",
 			target: "Rathian and Rathalos",
 			client:"Requestor: Brave Prince",
-			details:"A Rathalos and Rathian have paired up and are ravaging my country! My father won't let me go, so please kill them for me!"
+			description:"A Rathalos and Rathian have paired up and are ravaging my country! My father won't let me go, so please kill them for me!"
 		},
 		{
 			title: "Expeditious Assault!",
@@ -141,7 +141,7 @@ ready(() => {
 			location: "Forest and Hills",
 			target: "Gypceros",
 			client:"Requestor: Guild Boss",
-			details:"Prove your strength, skills and teamwork as a hunter! The time limit is just 5 minutes, and you only have one chance. Don't blow it!"
+			description:"Prove your strength, skills and teamwork as a hunter! The time limit is just 5 minutes, and you only have one chance. Don't blow it!"
 		}
 	];
 	// Day 1 Lao
@@ -160,42 +160,9 @@ ready(() => {
 	// Day 14 Gather Jungle
 	// Day 15 Gary Expeditious Assault Paw Tix
 	var MH1_EVENTS_ROTATION = new Uint8Array([
-		5,0,6,1,7,2,8,3,9,4//,10,0,11,1,12
+		5,0,6,1,7,2,8,3,9,4,10,0,11,1,12
 	]);
 
-	/*
-	none
-	none
-	none
-	none
-	none
-	Kirin Low
-	Kirin Low, Kirin High
-	Kirin Low, Kirin High
-	none
-	none
-	none
-	none
-	Crimson Fatalis
-	Crimson Fatalis Hard
-	Crimson Fatalis Hard
-	none
-	none
-	none
-	none
-	Lao
-	Lao, Ashen Lao
-	Lao, Ashen Lao
-	none
-	none
-	none
-	none
-	Lao, Kirin Low
-	Crimson Fatalis, Kirin High, Kirin Low
-	Crimson Fatalis, Ashen Lao, Lao
-	none
-	none
-	*/
 	const MHG_EVENTS = [
 		{
 			title: "The Legendary Kirin",
@@ -210,6 +177,13 @@ ready(() => {
 			category: "special",
 			location: "Swamp",
 			target: "Kirin",
+			client: "??",
+			description: "??"
+		},
+		{
+			title: "Hot Wind and Lightning",
+			category: "special",
+			location: "The Battleground",
 			client: "??",
 			description: "??"
 		},
@@ -246,6 +220,39 @@ ready(() => {
 			description: "??"
 		}
 	];
+	/*
+	none
+	none
+	none
+	none
+	none
+	Kirin Low
+	Kirin Low, Kirin High
+	Kirin Low, Kirin High
+	none
+	none
+	none
+	none
+	Crimson Fatalis
+	Crimson Fatalis Hard
+	Crimson Fatalis Hard
+	none
+	none
+	none
+	none
+	Lao
+	Lao, Ashen Lao
+	Lao, Ashen Lao
+	none
+	none
+	none
+	none
+	Lao, Kirin Low, Double Kirin
+	Crimson Fatalis, Kirin High, Kirin Low
+	Crimson Fatalis, Ashen Lao, Lao
+	none
+	none
+	*/
 	var MHG_EVENTS_ROTATION = [
 		0,
 		0,
@@ -259,23 +266,23 @@ ready(() => {
 		0,
 		0,
 		0,
-		[2],
-		[2,3],
-		[2,3],
+		[3],
+		[3,4],
+		[3,4],
 		0,
 		0,
 		0,
 		0,
-		[4],
-		[4,5],
-		[4,5],
+		[5],
+		[5,6],
+		[5,6],
 		0,
 		0,
 		0,
 		0,
-		[4,0],
-		[2,1,0],
-		[2,5,4],
+		[5,0,2],
+		[3,1,0],
+		[3,6,5],
 		0,
 		0
 	];
