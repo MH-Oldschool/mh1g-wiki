@@ -4976,8 +4976,8 @@
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
 							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
-							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
-							{"name":"Paintball","icon":"pink-icon seed-icon","quantity":1},
+							{"name":"Paintball","icon":"pink-icon bomb-icon","quantity":1},
+							{"name":"Paintball","icon":"pink-icon bomb-icon","quantity":1},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
 							{"name":"Pierce S Lv1","icon":"white-icon shot-icon","quantity":10},
@@ -4990,6 +4990,66 @@
 						],
 						"rewards":[{"percent":26,"name":"Kut-Ku Shell","quantity":1},{"percent":15,"name":"Screamer","quantity":"3"},{"percent":15,"name":"Med Monster Bone","quantity":"2"},{"percent":25,"name":"Kut-Ku Webbing","quantity":1},{"percent":9,"name":"Kut-Ku Ear","quantity":1},{"percent":5,"name":"Flame Sac","quantity":1},{"percent":4,"name":"Giant Beak","quantity":1},{"percent":1,"name":"Guild Ticket","quantity":1}],
 						"note":"{JP/US:n/a}, 1!! K.O. fail"
+					},
+					{
+						"name":"Expeditious Assault!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Forest and Hills",
+						"japanese":"n/a",
+						"goal":"Slay the Gypceros","reward":"2800z","fee":"200z","time":"5′","penalty":"2800z",
+						"client":"Requestor: Guild Boss","details":"Prove your strength, skills and teamwork as a hunter! The time limit is just 5 minutes, and you only have one chance. Don't blow it!",
+						"largeMonsters":[
+							{"n":"Gypceros"}
+						],
+						"supplies":[
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Mini-Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"Mini-Whetstone","icon":"yellow-icon whetstone-icon","quantity":2},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
+							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
+							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
+							{"name":"Ration","icon":"orange-icon meat-icon","quantity":2},
+							{"name":"Paintball","icon":"pink-icon bomb-icon","quantity":1},
+							{"name":"Paintball","icon":"pink-icon bomb-icon","quantity":1},
+							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
+							{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon","quantity":2},
+							{"name":"Large Barrel","icon":"red-icon barrel-icon","quantity":1},
+							{"name":"Normal S Lv2","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Stun S Lv1","icon":"yellow-icon shot-icon","quantity":5},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
+						],
+						"rewards":[
+							{"percent":1,"name":"Rubbery Hide","quantity":1},
+							{"percent":24,"name":"Med Monster Bone","quantity":1},
+							{"percent":25,"name":"Sm Monster Bone","quantity":5},
+							{"percent":25,"name":"Wyvern Fang","quantity":3},
+							{"percent":20,"name":"Wyvern Claw","quantity":1},
+							{"percent":4,"name":"Poison Sac","quantity":1},
+							{"percent":1,"name":"Lightcrystal","quantity":1}
+						]
+					},
+					{
+						"name":"Gravios Hunting!","icon":"monster-icon monster-gravios","hrp":150,"type":"hunt","area":"Volcano",
+						"japanese":"[グラビモスハンティング！]",
+						"goal":"Slay the Gravios","reward":"5000z","fee":"260z","time":"15′","penalty":"5000z",
+						"client":"Requestor: Guild Boss","details":"The battle royale is about to begin! Can you hunt down a Gravios and make it back alive? Slip up once and it's QUEST OVER!",
+						"largeMonsters":[
+							{"n":"Gravios"}
+						],
+						"supplies":[],
+						"rewards":[
+							{"percent":1,"name":"Commendation","quantity":1},
+							{"percent":48,"name":"Gravios Shell","quantity":1},
+							{"percent":15,"name":"Sleep Sac","quantity":1},
+							{"percent":15,"name":"Flame Sac","quantity":1},
+							{"percent":14,"name":"Lightcrystal","quantity":1},
+							{"percent":7,"name":"Guild Ticket","quantity":1}
+						]
 					}
 				]
 			},
@@ -5125,9 +5185,43 @@
 						"intOnly":true
 					},
 					{
+						"name":"Rulers of Heaven and Earth","icon":"monster-icon monster-twin-raths","hrp":500,"type":"hunt","area":"Forest and Hills",
+						"japanese":"[天と地の覇者]",
+						"goal":"Slay the Rathalos and Rathian","reward":"6000z","fee":"800z","time":"30′","penalty":"6000z",
+						"client":"Requestor: Brave Prince","details":"A Rathalos and Rathian have paired up and are ravaging my country! My father won't let me go, so please kill them for me!",
+						"largeMonsters":[
+							{"n":"Rathian"},
+							{"n":"Rathalos"}
+						],
+						"supplies":[
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"Map","icon":"white-icon map-icon","quantity":1},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"First-aid Med.","icon":"green-icon jar-icon","quantity":3},
+							{"name":"Pellet S Lv1","icon":"white-icon shot-icon","quantity":10},
+							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5}
+						],
+						"rewards":[
+							{"percent":1,"name":"Rathalos Wing","quantity":1},
+							{"percent":14,"name":"Rathian Scale","quantity":1},
+							{"percent":10,"name":"Rathian Shell","quantity":1},
+							{"percent":15,"name":"Rathalos Scale","quantity":1},
+							{"percent":12,"name":"Rathalos Shell","quantity":1},
+							{"percent":20,"name":"Lg Monster Bone","quantity":1},
+							{"percent":8,"name":"Rathian Spike","quantity":3},
+							{"percent":6,"name":"Rathalos Tail","quantity":1},
+							{"percent":8,"name":"Wyvern Marrow","quantity":1},
+							{"percent":6,"name":"Guild Ticket","quantity":1}
+						]
+					},
+					{
 						"name":"Repel the Giant Dragon!","icon":"monster-icon monster-unknown","hrp":1000,"type":"hunt","area":"Fort",
 						"japanese":"[巨大龍を食い止めろ！]",
-						"goal":"Slay Lao-Shan Lung","reward":"5200z","fee":"4500z","time":"30′","penalty":"",
+						"goal":"Slay Lao-Shan Lung","reward":"5200z","fee":"4500z","time":"30′","penalty":"??",
 						"client":"Requestor: Fort Guard","details":"Lao-Shan Lung is attacking the fort! Use every weapon we've got and stop this monster. This is your one and only chance. Good luck! Notes: In-Game this event was called &#8220;Repel the Giant!&#8221; omitting the word dragon. Also, the Goal Condition was to slay Lao, not repel yet repelling it cleared the quest.",
 						"largeMonsters":[
 							{"n":"Lao-Shan Lung"}
