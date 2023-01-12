@@ -11311,7 +11311,7 @@
 						"name":"The Legendary Kirin","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"Swamp",
 						"japanese":"幻獣、キリン現る！",
 						"goal":"Slay the Kirin","reward":"2800z","fee":"1000z","time":"50′",
-						"details":"","hrRange":"1 - 12",
+						"details":"",
 						"largeMonsters":[
 							{
 								"n":"Kirin"
