@@ -682,22 +682,32 @@ ArmorBuilder.prototype.getResistances = function() {
 ArmorBuilder.prototype.setHeadgear = function(headgearData) {
 	this.currentArmor.headgear = headgearData;
 	document.getElementById(`headgear-name-${ this.version }`).innerText = headgearData.name;
+	document.getElementById(`headgear-suffix-a`).innerText = headgearData.suffA ? headgearData.suffA : "";
+	document.getElementById(`headgear-suffix-b`).innerText = headgearData.suffB ? headgearData.suffB : "";
 };
 ArmorBuilder.prototype.setTorso = function(torsoData) {
 	this.currentArmor.torso = torsoData;
 	document.getElementById(`torso-name-${ this.version }`).innerText = torsoData.name;
+	document.getElementById(`torso-suffix-a`).innerText = torsoData.suffA ? torsoData.suffA : "";
+	document.getElementById(`torso-suffix-b`).innerText = torsoData.suffB ? torsoData.suffB : "";
 };
 ArmorBuilder.prototype.setArms = function(armsData) {
 	this.currentArmor.arms = armsData;
 	document.getElementById(`arms-name-${ this.version }`).innerText = armsData.name;
+	document.getElementById(`arms-suffix-a`).innerText = armsData.suffA ? armsData.suffA : "";
+	document.getElementById(`arms-suffix-b`).innerText = armsData.suffB ? armsData.suffB : "";
 };
 ArmorBuilder.prototype.setWaist = function(waistData) {
 	this.currentArmor.waist = waistData;
 	document.getElementById(`waist-name-${ this.version }`).innerText = waistData.name;
+	document.getElementById(`waist-suffix-a`).innerText = waistData.suffA ? waistData.suffA : "";
+	document.getElementById(`waist-suffix-b`).innerText = waistData.suffB ? waistData.suffB : "";
 };
 ArmorBuilder.prototype.setLegs = function(legsData) {
 	this.currentArmor.legs = legsData;
 	document.getElementById(`legs-name-${ this.version }`).innerText = legsData.name;
+	document.getElementById(`legs-suffix-a`).innerText = legsData.suffA ? legsData.suffA : "";
+	document.getElementById(`legs-suffix-b`).innerText = legsData.suffB ? legsData.suffB : "";
 };
 ArmorBuilder.prototype.sumMaterialsAndZenny = function() {
 	// Sum up zenny cost and all required materials
