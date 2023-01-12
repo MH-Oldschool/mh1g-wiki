@@ -7,7 +7,7 @@ ready(() => {
 	const START_HOUR = 23; // DST: 22; not-DST: 23
 
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = new Date(Date.UTC(2022, 5, 17, START_HOUR, 0, 0));
+	const SHOP_ROTATION_START = new Date(Date.UTC(2023, 0, 10, START_HOUR, 0, 0));
 	const SHOP_SPECIALS = [
 		{
 			title: "No Shop Specials",
@@ -40,10 +40,8 @@ ready(() => {
 	// Day 8	[none]
 	// Day 9	Food/Fish Shop Day
 	// Day 10	[none]
-	// Day 11	Half-Price Day
-	// Day 12	[none]
-	// Day 13=1	[Repeat, starting with Day 1]
-	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0,2,0]);
+	// Day 11=1	[Repeat, starting with Day 1]
+	var SHOP_SPECIAL_ROTATION = new Uint8Array([1,0,2,0,3,0,2,0,4,0]);
 
 	const MH1_EVENTS = [
 		{
