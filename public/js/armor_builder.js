@@ -513,22 +513,26 @@ ArmorBuilder.prototype.calculateSkills = function() {
 	else {
 		// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
 		var torsoUpModifier = 1;
-		function updateTorsoUp(skill) {
+		var torsoAdd2 = false;
+		function updateTorsoSkills(skill) {
 			if (skill.k == "Torso Up") {
 				torsoUpModifier++;
 			}
+			else if (skill.k == "Torso +2") {
+				torsoAdd2 = true;
+			}
 		}
-		this.currentArmor.headgear.skills.forEach(updateTorsoUp);
-		this.currentArmor.arms.skills.forEach(updateTorsoUp);
-		this.currentArmor.waist.skills.forEach(updateTorsoUp);
-		this.currentArmor.legs.skills.forEach(updateTorsoUp);
+		this.currentArmor.headgear.skills.forEach(updateTorsoSkills);
+		this.currentArmor.arms.skills.forEach(updateTorsoSkills);
+		this.currentArmor.waist.skills.forEach(updateTorsoSkills);
+		this.currentArmor.legs.skills.forEach(updateTorsoSkills);
 		// And now we apply it
 		let torsoSkills = [];
-		if (torsoUpModifier !== 1 && this.currentArmor.torso.skills) {
+		if (this.currentArmor.torso.skills && (torsoUpModifier !== 1 || torsoAdd2)) {
 			torsoSkills = this.currentArmor.torso.skills.map((skill) => {
 				return {
 					k: skill.k,
-					q: skill.q * torsoUpModifier
+					q: (skill.q * torsoUpModifier) + (torsoAdd2 ? 2 : 0)
 				};
 			});
 		}
@@ -538,14 +542,11 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 		var skillsParsed = {};
 		function parseSkills(skill) {
-			// Skip Torso Up
-			if (skill.k != "Torso Up") {
-				if (skillsParsed[skill.k]) {
-					skillsParsed[skill.k] += skill.q;
-				}
-				else {
-					skillsParsed[skill.k] = skill.q;
-				}
+			if (skillsParsed[skill.k]) {
+				skillsParsed[skill.k] += skill.q;
+			}
+			else {
+				skillsParsed[skill.k] = skill.q;
 			}
 		}
 		// In case we get MH1-only armor, which has no skill points
