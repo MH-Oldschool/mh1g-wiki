@@ -615,8 +615,18 @@ ready(() => {
 	var dialogSlideIndex = 0;
 	var dialogPageNumber = document.getElementById("page-number");
 	var dialogPageTotal = document.getElementById("page-total");
+	var eventsDialog = document.getElementById("events-dialog");
+	function toggleEventsDialog(toggleOn) {
+		if (toggleOn) {
+			eventsDialog.showModal();
+			document.body.classList.add("show-dialog");
+		}
+		else {
+			eventsDialog.close();
+			document.body.classList.remove("show-dialog");
+		}
+	}
 	function activateEventsDialog(givenDate) {
-		const eventsDialog = document.getElementById("events-dialog");
 		const dialogDate = document.getElementById("dialog-date");
 		dialogDate.innerText = `${MONTH_NAMES[givenDate.getMonth()]} ${givenDate.getDate()}`
 
@@ -689,12 +699,20 @@ ready(() => {
 			}
 		}
 
-		eventsDialog.showModal();
+		toggleEventsDialog(true);
 	}
 	function handleCalendarDayClick(event) {
 		var givenDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth(), this.dataset.day);
 		activateEventsDialog(givenDate);
 	}
+	document.body.addEventListener("click", (event) => {
+		if (event.target.id == eventsDialog.id) {
+			toggleEventsDialog(false);
+		}
+	});
+	document.getElementById("close-events-dialog").addEventListener("click", () => {
+		toggleEventsDialog(false);
+	});
 
 	var dialogSliderRow = document.getElementById("dialog-slider-row");
 	function resetDialogSlider() {
