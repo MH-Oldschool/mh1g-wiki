@@ -179,20 +179,6 @@
 			"desc":"The hunter is careful when using their tools, so they break less often."
 		},
 		{
-			"name":"Torso Up",
-			"stages":[
-				"Torso Up"
-			],
-			"desc":"Exaggerates the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Each piece of torso armor adds all the skill points for the torso armor an additional time. E.G. 1 Torso Up doubles the points, 2 Torso Ups triple, etc.</span>"
-		},
-		{
-			"name":"Torso +2",
-			"stages":[
-				"Torso +2"
-			],
-			"desc":"Improves the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Adds two points to each armor skill on torso armor, after applying the Torso Up skill, if present."
-		},
-		{
 			"name":"Water Resist",
 			"stages":[
 				"Water - 10",
@@ -669,6 +655,20 @@
 				{ "points":"+25", "name":"Thunder Res +10" }
 			],
 			"desc":"The hunter&#8217;s armor is a good conductor, drawing more thunder damage; or their armor is a good resistor, dissipating more thunder damage."
+		},
+		{
+			"name":"Torso Up",
+			"stages":[
+				"Torso Up"
+			],
+			"desc":"Exaggerates the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Each piece of torso armor adds all the skill points for the torso armor an additional time. E.G. 1 Torso Up doubles the points, 2 Torso Ups triple, etc.</span>"
+		},
+		{
+			"name":"Torso +2",
+			"stages":[
+				"Torso +2"
+			],
+			"desc":"Improves the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Adds two points to each armor skill on torso armor, after applying the Torso Up skill, if present."
 		},
 		{
 			"name":"Water Res Up",
