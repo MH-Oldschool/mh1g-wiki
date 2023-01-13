@@ -5,6 +5,7 @@ ready(() => {
 			to just get the time from a given timezone properly
 	*/
 	const START_HOUR = 23; // DST: 22; not-DST: 23
+	const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 	// This gives us the local time when the rotation starts
 	const SHOP_ROTATION_START = new Date(Date.UTC(2023, 0, 10, START_HOUR, 0, 0));
@@ -184,6 +185,7 @@ ready(() => {
 			title: "Thunder and Lighting",
 			category: "special",
 			location: "The Battleground",
+			target: "Two Kirin",
 			client: "??",
 			description: "??"
 		},
@@ -364,8 +366,27 @@ ready(() => {
 		return lastDay.getDate();
 	}
 
+	function get1Event(givenDate) {
+		var firstDayEventIndex = getFirstDayEventIndex(givenDate.getFullYear(), givenDate.getMonth());
+		var eventIndex = (firstDayEventIndex + (givenDate.getDate() - 1)) % MH1_EVENTS_ROTATION.length;
+
+		return MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
+	}
+	function getGEvents(givenDate) {
+		var firstDayEventIndex = getFirstDayEventIndex(givenDate.getFullYear(), givenDate.getMonth());
+		var eventIndexG = (firstDayEventIndex + (givenDate.getDate() - 1)) % MHG_EVENTS_ROTATION.length;
+		var currentEventsIndices = MHG_EVENTS_ROTATION[eventIndexG];
+
+		if (currentEventsIndices) {
+			return currentEventsIndices.map((eventIndex) => {
+				return MHG_EVENTS[eventIndex];
+			});
+		}
+
+		return false;
+	}
+
 	function setMonthTable(year, monthIndex) {
-		const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 		document.getElementById("calendar-title").innerText = `${ MONTH_NAMES[monthIndex] } ${ year }`;
 
 		let firstDay = new Date(year, monthIndex, 1);
@@ -384,6 +405,7 @@ ready(() => {
 		let calendarDayNumbers = document.getElementsByClassName("day-number");
 		for (let i = 0; i < dayCount; i++) {
 			calendarDayNumbers[i + firstDayOfWeek].innerText = (i + 1).toString();
+			calendarDays[i].dataset.day = i - firstDayOfWeek + 1;
 		}
 
 		// Hide excess days
@@ -485,11 +507,8 @@ ready(() => {
 	function setCurrentEvent() {
 		const currentEventElement = document.getElementById("current-event");
 
-		let now = new Date();
-		let firstDayEventIndex = getFirstDayEventIndex(now.getFullYear(), now.getMonth());
-
-		let eventIndex = (firstDayEventIndex + (now.getDate() - 1)) % MH1_EVENTS_ROTATION.length;
-		let currentEvent = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
+		var now = new Date();
+		var currentEvent = get1Event(now);
 
 		var eventContent = document.getElementById("current-event-content");
 		eventContent.classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
@@ -503,9 +522,8 @@ ready(() => {
 		document.getElementById("current-event-description").innerText = currentEvent.description;
 
 		// MHG events
-		var eventIndexG = (firstDayEventIndex + (now.getDate() - 1)) % MHG_EVENTS_ROTATION.length;
-		var currentEventsIndices = MHG_EVENTS_ROTATION[eventIndexG];
-		if (currentEventsIndices) {
+		var currentGEvents = getGEvents(now);
+		if (currentGEvents) {
 			const currentEventGContents = document.getElementsByClassName("current-content-g");
 			const currentEventGTitles = document.getElementsByClassName("current-event-title-g");
 			const currentEventGLocations = document.getElementsByClassName("current-event-location-g");
@@ -515,22 +533,20 @@ ready(() => {
 			const currentEventGDescriptions = document.getElementsByClassName("current-event-description-g");
 
 			currentEventElement.parentElement.classList.remove("current-events-g-none");
-			for (var i = 0; i < currentEventsIndices.length; i++) {
-				currentEvent = MHG_EVENTS[currentEventsIndices[i]];
-
+			for (var i = 0; i < currentGEvents.length; i++) {
 				currentEventGContents[i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
-				currentEventGContents[i].classList.add(currentEvent.category + "-quest");
+				currentEventGContents[i].classList.add(currentGEvents[i].category + "-quest");
 
-				currentEventGTitles[i].innerText = currentEvent.title;
-				currentEventGLocations[i].innerText = currentEvent.location;
-				currentEventGTargetContainers[i].style.display = currentEvent.category == "gather" ? "none" : "";
-				currentEventGTargets[i].innerText = currentEvent.target;
+				currentEventGTitles[i].innerText = currentGEvents[i].title;
+				currentEventGLocations[i].innerText = currentGEvents[i].location;
+				currentEventGTargetContainers[i].style.display = currentGEvents[i].category == "gather" ? "none" : "";
+				currentEventGTargets[i].innerText = currentGEvents[i].target;
 
-				currentEventGClients[i].innerText = currentEvent.client;
-				currentEventGDescriptions[i].innerText = currentEvent.description;
+				currentEventGClients[i].innerText = currentGEvents[i].client;
+				currentEventGDescriptions[i].innerText = currentGEvents[i].description;
 			}
 
-			currentEventsSliderContainer.dataset.maxEvents = currentEventsIndices.length;
+			currentEventsSliderContainer.dataset.maxEvents = currentGEvents.length;
 		}
 		else {
 			currentEventElement.parentElement.classList.add("current-events-g-none");
@@ -594,6 +610,114 @@ ready(() => {
 	}
 
 	initCalendar();
+
+	// Dialog stuff
+	var dialogSlideIndex = 0;
+	var dialogPageNumber = document.getElementById("page-number");
+	var dialogPageTotal = document.getElementById("page-total");
+	function activateEventsDialog(givenDate) {
+		const eventsDialog = document.getElementById("events-dialog");
+		const dialogDate = document.getElementById("dialog-date");
+		dialogDate.innerText = `${MONTH_NAMES[givenDate.getMonth()]} ${givenDate.getDate()}`
+
+		if (getMHVersion() == 1) {
+			var event1 = get1Event(givenDate);
+			if (event1) {
+				eventsDialog.classList.remove("no-events");
+
+				const eventContent = document.getElementById("dialog-event-content");
+				const title = document.getElementById("dialog-event-title-1");
+				const location = document.getElementById("dialog-event-location-1");
+				const targetContainer = document.getElementById("dialog-event-target-container-1");
+				const target = document.getElementById("dialog-event-target-1");
+				const client = document.getElementById("dialog-event-client-1");
+				const description = document.getElementById("dialog-event-description-1");
+
+				var hasTarget = event1.category != "gather";
+
+				eventContent.classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
+				eventContent.classList.add(event1.category + "-quest");
+
+				title.innerText = event1.title;
+				location.innerText = event1.location;
+				targetContainer.style.display = hasTarget ? "" : "none";
+				if (hasTarget) {
+					target.innerText = event1.target;
+				}
+				client.innerText = event1.client;
+				description.innerText = event1.description;
+			}
+			else {
+				eventsDialog.classList.add("no-events");
+			}
+		}
+		else {
+			var eventsG = getGEvents(givenDate);
+			if (eventsG) {
+				eventsDialog.classList.remove("no-events");
+
+				const slides = document.getElementsByClassName("dialog-event-slide");
+				const titles = document.getElementsByClassName("dialog-event-title-g");
+				const locations = document.getElementsByClassName("dialog-event-location-g");
+				const targetContainers = document.getElementsByClassName("dialog-event-target-container-g");
+				const targets = document.getElementsByClassName("dialog-event-target-g");
+				const clients = document.getElementsByClassName("dialog-event-client-g");
+				const descriptions = document.getElementsByClassName("dialog-event-description-g");
+
+				for (var i = 0; i < eventsG.length; i++) {
+					var hasTarget = eventsG[i].category != "gather";
+
+					slides[i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
+					slides[i].classList.add(eventsG[i].category + "-quest");
+
+					titles[i].innerText = eventsG[i].title;
+					locations[i].innerText = eventsG[i].location;
+					targetContainers[i].style.display = hasTarget ? "" : "none";
+					if (hasTarget) {
+						targets[i].innerText = eventsG[i].target;
+					}
+					clients[i].innerText = eventsG[i].client;
+					descriptions[i].innerText = eventsG[i].description;
+				}
+
+				dialogPageNumber.innerText = "1";
+				dialogPageTotal.innerText = eventsG.length;
+				resetDialogSlider();
+			}
+			else {
+				eventsDialog.classList.add("no-events");
+			}
+		}
+
+		eventsDialog.showModal();
+	}
+	function handleCalendarDayClick(event) {
+		var givenDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth(), this.dataset.day);
+		activateEventsDialog(givenDate);
+	}
+
+	var dialogSliderRow = document.getElementById("dialog-slider-row");
+	function resetDialogSlider() {
+		dialogSlideIndex = 0;
+		dialogSliderRow.style.left = "0%";
+	}
+	function slideDialogEvents(direction) {
+		var newIndex = dialogSlideIndex + direction;
+		if (0 <= newIndex && newIndex < dialogPageTotal.innerText) {
+			dialogSlideIndex = newIndex;
+			dialogSliderRow.style.left = `-${dialogSlideIndex}00%`;
+			dialogPageNumber.innerText = dialogSlideIndex + 1;
+		}
+	}
+	for (var i = 0; i < calendarDays.length; i++) {
+		calendarDays[i].addEventListener("click", handleCalendarDayClick);
+	}
+	document.getElementById("dialog-button-previous").addEventListener("click", (event) => {
+		slideDialogEvents(-1);
+	});
+	document.getElementById("dialog-button-next").addEventListener("click", (event) => {
+		slideDialogEvents(1);
+	});
 
 	var mhgEventIndex = 0;
 	function slideEvents(direction) {

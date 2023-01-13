@@ -248,6 +248,53 @@
 	margin-bottom: 1rem;
 }
 
+#events-dialog {
+	color: inherit;
+	padding: 0.25rem 0 0;
+	width: 80%;
+	max-width: 32rem;
+}
+#events-dialog h2 {
+	padding: 0.5rem;
+}
+.dialog-button {
+	background: transparent;
+	color: #e6c;
+	border: 0;
+}
+
+#events-dialog .slider-container {
+	overflow: hidden;
+	width: 100%;
+}
+#events-dialog .slider-row {
+	position: relative;
+	display: flex;
+	width: 300%;
+	left: 0%;
+	transition: left 800ms;
+}
+#events-dialog .dialog-event-slide {
+	width: 33.333333%;
+}
+.dialog-button-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem 0.5rem;
+}
+
+.dialog-no-events {
+	display: none;
+}
+.no-events .slider-container,
+.no-events .dialog-button-container {
+	display: none;
+}
+.no-events .dialog-no-events {
+	display: block;
+	padding: 0 0.5rem;
+}
+
 /* Tablet */
 @media screen and (min-width: 50rem) {
 	.calendar-container {
