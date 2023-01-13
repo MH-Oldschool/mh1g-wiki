@@ -11392,7 +11392,7 @@
 				"stars": 6,
 				"quests":[
 					{
-						"name":"Hot Wind and Lightning","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"The Battleground",
+						"name":"Thunder and Lighting","icon":"monster-icon monster-unknown","hrp":"??","type":"hunt","area":"The Battleground",
 						"japanese":"熱風と落雷",
 						"goal":"Slay the Kirin","reward":"??","fee":"??","time":"??",
 						"details":"","hrRequire":21,

@@ -181,7 +181,7 @@ ready(() => {
 			description: "??"
 		},
 		{
-			title: "Hot Wind and Lightning",
+			title: "Thunder and Lighting",
 			category: "special",
 			location: "The Battleground",
 			client: "??",
