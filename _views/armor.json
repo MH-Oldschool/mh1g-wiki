@@ -318,8 +318,8 @@
 		{"name":"Life Piercing","rarity":5,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"skills":[{"k":"Health","q":25},{"k":"Blessing","q":-10}],"mats":[{"m":"Training center only"}]},
 		{"name":"Technique Piercing","rarity":5,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"skills":[{"k":"Bomber","q":10},{"k":"Throw","q":10}],"mats":[{"m":"Training center only"}]},
 		{"name":"Ambitious Piercing","rarity":5,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"skills":[{"k":"Rapid Fire","q":10},{"k":"Health","q":-25}],"mats":[{"m":"Training center only"}]},
-		{"name":"Early Bird Piercing","rarity":5,"forge":0,"buy":0,"def":10,"res":[0,0,0,0],"skills":[{"k":"Fast collection","q":10}]},
-		{"name":"Guildmaster Piercing","rarity":7,"forge":0,"buy":0,"def":40,"res":[2,2,2,0],"skills":[{"k":"Blessing","q":10},{"k":"Fate","q":5}]}
+		{"name":"Early Bird Piercing","rarity":5,"forge":0,"buy":0,"def":10,"res":[0,0,0,0],"skills":[{"k":"Fast collection","q":10}],"mats":[{"m":"Reward from the Kotoko Village Chief"}]},
+		{"name":"Guildmaster Piercing","dev":true,"rarity":7,"forge":0,"buy":0,"def":40,"res":[2,2,2,0],"skills":[{"k":"Blessing","q":10},{"k":"Fate","q":5}]}
 	],
 	"torso_1":[
 		{"name":"None","rarity":1,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"mats":[]},
