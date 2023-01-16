@@ -1053,4 +1053,22 @@ ready(() => {
 	document.querySelectorAll("#ranged-weapons .weapon-button").forEach(function(element) {
 		element.addEventListener("click", handleBowgunClick);
 	});
+
+
+	var searchInput = document.getElementById("search");
+	function doesWeaponContainTerm(weaponRow, searchTerm) {
+		return searchTerm.length === 0 || weaponRow.dataset.name.toLowerCase().indexOf(searchTerm) !== -1;
+	}
+	var weaponRows = document.getElementsByClassName("weapon-row");
+	function filterBySearch() {
+		var searchTerm = searchInput.value.toLowerCase();
+
+		for (var i = 0; i < weaponRows.length; i++) {
+			weaponRows[i].style.display = doesWeaponContainTerm(weaponRows[i], searchTerm) ? "" : "none";
+		}
+	}
+	searchInput.addEventListener("keyup", (event) => {
+		filterBySearch();
+	});
+	filterBySearch();
 });

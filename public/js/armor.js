@@ -97,6 +97,16 @@ ready(() => {
 		return matchesFireRes && matchesWaterRes && matchesThunderRes && matchesDragonRes;
 	}
 
+	var headgear1Rows = document.getElementById("headgear-1-tbody").children;
+	var torso1Rows = document.getElementById("torso-1-tbody").children;
+	var arms1Rows = document.getElementById("arms-1-tbody").children;
+	var waist1Rows = document.getElementById("waist-1-tbody").children;
+	var legs1Rows = document.getElementById("legs-1-tbody").children;
+	var headgearGRows = document.getElementById("headgear-g-tbody").children;
+	var torsoGRows = document.getElementById("torso-g-tbody").children;
+	var armsGRows = document.getElementById("arms-g-tbody").children;
+	var waistGRows = document.getElementById("waist-g-tbody").children;
+	var legsGRows = document.getElementById("legs-g-tbody").children;
 	function updateArmorResVisibility() {
 		var armorResChecked = {};
 
@@ -104,47 +114,37 @@ ready(() => {
 			armorResChecked[armorStatCheckboxes[i].value] = armorStatCheckboxes[i].checked;
 		}
 
-		var headgear1Rows = document.getElementById("headgear-1-tbody").children;
 		for (var i = 0; i < headgear1Rows.length; i++) {
 			headgear1Rows[i].style.display = shouldShowRow(window.armorData1.headgear[i].res, armorResChecked) ? "" : "none";
 		}
-		var headgearGRows = document.getElementById("headgear-g-tbody").children;
 		for (var i = 0; i < headgearGRows.length; i++) {
 			headgearGRows[i].style.display = shouldShowRow(window.armorDataG.headgear[i].res, armorResChecked) ? "" : "none";
 		}
 
-		var torso1Rows = document.getElementById("torso-1-tbody").children;
 		for (var i = 0; i < torso1Rows.length; i++) {
 			torso1Rows[i].style.display = shouldShowRow(window.armorData1.torso[i].res, armorResChecked) ? "" : "none";
 		}
-		var torsoGRows = document.getElementById("torso-g-tbody").children;
 		for (var i = 0; i < torsoGRows.length; i++) {
 			torsoGRows[i].style.display = shouldShowRow(window.armorDataG.torso[i].res, armorResChecked) ? "" : "none";
 		}
 
-		var arms1Rows = document.getElementById("arms-1-tbody").children;
 		for (var i = 0; i < arms1Rows.length; i++) {
 			arms1Rows[i].style.display = shouldShowRow(window.armorData1.arms[i].res, armorResChecked) ? "" : "none";
 		}
-		var armsGRows = document.getElementById("arms-g-tbody").children;
 		for (var i = 0; i < armsGRows.length; i++) {
 			armsGRows[i].style.display = shouldShowRow(window.armorDataG.arms[i].res, armorResChecked) ? "" : "none";
 		}
 
-		var waist1Rows = document.getElementById("waist-1-tbody").children;
 		for (var i = 0; i < waist1Rows.length; i++) {
 			waist1Rows[i].style.display = shouldShowRow(window.armorData1.waist[i].res, armorResChecked) ? "" : "none";
 		}
-		var waistGRows = document.getElementById("waist-g-tbody").children;
 		for (var i = 0; i < waistGRows.length; i++) {
 			waistGRows[i].style.display = shouldShowRow(window.armorDataG.waist[i].res, armorResChecked) ? "" : "none";
 		}
 
-		var legsRows = document.getElementById("legs-1-tbody").children;
-		for (var i = 0; i < legsRows.length; i++) {
-			legsRows[i].style.display = shouldShowRow(window.armorData1.legs[i].res, armorResChecked) ? "" : "none";
+		for (var i = 0; i < legs1Rows.length; i++) {
+			legs1Rows[i].style.display = shouldShowRow(window.armorData1.legs[i].res, armorResChecked) ? "" : "none";
 		}
-		var legsGRows = document.getElementById("legs-g-tbody").children;
 		for (var i = 0; i < legsGRows.length; i++) {
 			legsGRows[i].style.display = shouldShowRow(window.armorDataG.legs[i].res, armorResChecked) ? "" : "none";
 		}
@@ -205,4 +205,48 @@ ready(() => {
 
 	new ArmorBuilder("1", builderContainer);
 	new ArmorBuilder("g", builderContainer);
+
+	var searchInput = document.getElementById("search");
+	function doesArmorPieceContainTerm(armorData, category, index, searchTerm) {
+		return searchTerm.length === 0 || armorData[category][index].name.toLowerCase().indexOf(searchTerm) !== -1;
+	}
+	function filterBySearch() {
+		var searchTerm = searchInput.value.toLowerCase();
+
+		for (var i = 0; i < headgear1Rows.length; i++) {
+			headgear1Rows[i].style.display = doesArmorPieceContainTerm(armorData1, "headgear", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < torso1Rows.length; i++) {
+			torso1Rows[i].style.display = doesArmorPieceContainTerm(armorData1, "torso", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < arms1Rows.length; i++) {
+			arms1Rows[i].style.display = doesArmorPieceContainTerm(armorData1, "arms", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < waist1Rows.length; i++) {
+			waist1Rows[i].style.display = doesArmorPieceContainTerm(armorData1, "waist", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < legs1Rows.length; i++) {
+			legs1Rows[i].style.display = doesArmorPieceContainTerm(armorData1, "legs", i, searchTerm) ? "" : "none";
+		}
+
+		for (var i = 0; i < headgearGRows.length; i++) {
+			headgearGRows[i].style.display = doesArmorPieceContainTerm(armorDataG, "headgear", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < torsoGRows.length; i++) {
+			torsoGRows[i].style.display = doesArmorPieceContainTerm(armorDataG, "torso", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < armsGRows.length; i++) {
+			armsGRows[i].style.display = doesArmorPieceContainTerm(armorDataG, "arms", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < waistGRows.length; i++) {
+			waistGRows[i].style.display = doesArmorPieceContainTerm(armorDataG, "waist", i, searchTerm) ? "" : "none";
+		}
+		for (var i = 0; i < legsGRows.length; i++) {
+			legsGRows[i].style.display = doesArmorPieceContainTerm(armorDataG, "legs", i, searchTerm) ? "" : "none";
+		}
+	}
+	searchInput.addEventListener("keyup", (event) => {
+		filterBySearch();
+	});
+	filterBySearch();
 });
