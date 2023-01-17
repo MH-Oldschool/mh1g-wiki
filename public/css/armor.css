@@ -53,6 +53,23 @@ body {
 	display: none;
 }
 
+.download-button {
+	display: block;
+	background: #29c;
+	color: #fff;
+	font-weight: bold;
+	line-height: 2;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.25rem;
+	margin: 0.125rem 0;
+	width: 11rem;
+	transition: background-color 300ms;
+}
+.download-button:hover {
+	background-color: #3af;
+}
+
 details {
 	overflow-x: auto;
 }
@@ -190,6 +207,21 @@ body.show-1 #armor-builder {
 }
 .armor-cost-table td:last-child {
 	text-align: right;
+}
+
+.armor-builder-content button {
+	background: transparent;
+	margin-top: 0.125rem;
+}
+
+.show-1 #armor-code-dialog {
+	background-image: url("/images/background/menu_1.gif");
+}
+.show-g #armor-code-dialog {
+	background-image: url("/images/background/menu_g.gif");
+}
+#armor-code-dialog button {
+	background: transparent;
 }
 
 #skill-set-popup {

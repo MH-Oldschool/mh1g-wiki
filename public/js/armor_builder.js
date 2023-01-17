@@ -1,13 +1,9 @@
 function ArmorBuilder(version, builderContainer) {
 	this.version = version;
 	this.armorData = version == "g" ? window.armorDataG : window.armorData1;
-	this.currentArmor = {
-		headgear: this.armorData.headgear[0],
-		torso: this.armorData.torso[0],
-		arms: this.armorData.arms[0],
-		waist: this.armorData.waist[0],
-		legs: this.armorData.legs[0]
-	};
+
+	this.currentArmor = {};
+	this.resetArmor();
 
 	this.headgearRadios = document.getElementById(`headgear-${ version }-tbody`).getElementsByClassName("headgear-radio");
 	this.torsoRadios = document.getElementById(`torso-${ version }-tbody`).getElementsByClassName("torso-radio");
@@ -18,23 +14,23 @@ function ArmorBuilder(version, builderContainer) {
 	// Try to circumvent JavaScript context nonsense
 	var self = this;
 	function handleHeadgearClick(event) {
-		self.setHeadgear(self.armorData.headgear[event.target.dataset.index]);
+		self.setHeadgear(event.target.dataset.index);
 		self.updateArmorStats();
 	};
 	function handleTorsoClick(event) {
-		self.setTorso(self.armorData.torso[event.target.dataset.index]);
+		self.setTorso(event.target.dataset.index);
 		self.updateArmorStats();
 	};
 	function handleArmsClick(event) {
-		self.setArms(self.armorData.arms[event.target.dataset.index]);
+		self.setArms(event.target.dataset.index);
 		self.updateArmorStats();
 	};
 	function handleWaistClick(event) {
-		self.setWaist(self.armorData.waist[event.target.dataset.index]);
+		self.setWaist(event.target.dataset.index);
 		self.updateArmorStats();
 	};
 	function handleLegsClick(event) {
-		self.setLegs(self.armorData.legs[event.target.dataset.index]);
+		self.setLegs(event.target.dataset.index);
 		self.updateArmorStats();
 	};
 	for (let i = 0; i < this.headgearRadios.length; i++) {
@@ -82,7 +78,7 @@ function ArmorBuilder(version, builderContainer) {
 			if (skillSet.armor[0].length !== 0) {
 				for (var i = 0; i < self.armorData.headgear.length; i++) {
 					if (self.armorData.headgear[i].name == skillSet.armor[0]) {
-						self.setHeadgear(self.armorData.headgear[i]);
+						self.setHeadgear(self.armorData.headgear[i].index);
 						self.headgearRadios[i].checked = true;
 						break;
 					}
@@ -92,7 +88,7 @@ function ArmorBuilder(version, builderContainer) {
 			if (skillSet.armor[1].length !== 0) {
 				for (var i = 0; i < self.armorData.torso.length; i++) {
 					if (self.armorData.torso[i].name == skillSet.armor[1]) {
-						self.setTorso(self.armorData.torso[i]);
+						self.setTorso(self.armorData.torso[i].index);
 						self.torsoRadios[i].checked = true;
 						break;
 					}
@@ -102,7 +98,7 @@ function ArmorBuilder(version, builderContainer) {
 			if (skillSet.armor[2].length !== 0) {
 				for (var i = 0; i < self.armorData.arms.length; i++) {
 					if (self.armorData.arms[i].name == skillSet.armor[2]) {
-						self.setArms(self.armorData.arms[i]);
+						self.setArms(self.armorData.arms[i].index);
 						self.armsRadios[i].checked = true;
 						break;
 					}
@@ -112,7 +108,7 @@ function ArmorBuilder(version, builderContainer) {
 			if (skillSet.armor[3].length !== 0) {
 				for (var i = 0; i < self.armorData.waist.length; i++) {
 					if (self.armorData.waist[i].name == skillSet.armor[3]) {
-						self.setWaist(self.armorData.waist[i]);
+						self.setWaist(self.armorData.waist[i].index);
 						self.waistRadios[i].checked = true;
 						break;
 					}
@@ -122,7 +118,7 @@ function ArmorBuilder(version, builderContainer) {
 			if (skillSet.armor[4].length !== 0) {
 				for (var i = 0; i < self.armorData.legs.length; i++) {
 					if (self.armorData.legs[i].name == skillSet.armor[4]) {
-						self.setLegs(self.armorData.legs[i]);
+						self.setLegs(self.armorData.legs[i].index);
 						self.legsRadios[i].checked = true;
 						break;
 					}
@@ -142,60 +138,60 @@ function ArmorBuilder(version, builderContainer) {
 	for (let i = 0; i < this.headgearRadios.length; i++) {
 		if (this.headgearRadios[i].checked) {
 			armorFound = true;
-			this.setHeadgear(this.armorData.headgear[this.headgearRadios[i].dataset.index]);
+			this.setHeadgear(this.headgearRadios[i].dataset.index);
 			break;
 		}
 	}
 	if (!armorFound) {
-		this.setHeadgear(this.currentArmor.headgear);
+		this.setHeadgear(this.currentArmor.headgear.index);
 	}
 
 	armorFound = false;
 	for (let i = 0; i < this.torsoRadios.length; i++) {
 		if (this.torsoRadios[i].checked) {
 			armorFound = true;
-			this.setTorso(this.armorData.torso[this.torsoRadios[i].dataset.index]);
+			this.setTorso(this.torsoRadios[i].dataset.index);
 			break;
 		}
 	}
 	if (!armorFound) {
-		this.setTorso(this.currentArmor.torso);
+		this.setTorso(this.currentArmor.torso.index);
 	}
 
 	armorFound = false;
 	for (let i = 0; i < this.armsRadios.length; i++) {
 		if (this.armsRadios[i].checked) {
 			armorFound = true;
-			this.setArms(this.armorData.arms[this.armsRadios[i].dataset.index]);
+			this.setArms(this.armsRadios[i].dataset.index);
 			break;
 		}
 	}
 	if (!armorFound) {
-		this.setArms(this.currentArmor.arms);
+		this.setArms(this.currentArmor.arms.index);
 	}
 
 	armorFound = false;
 	for (let i = 0; i < this.waistRadios.length; i++) {
 		if (this.waistRadios[i].checked) {
 			armorFound = true;
-			this.setWaist(this.armorData.waist[this.waistRadios[i].dataset.index]);
+			this.setWaist(this.waistRadios[i].dataset.index);
 			break;
 		}
 	}
 	if (!armorFound) {
-		this.setWaist(this.currentArmor.waist);
+		this.setWaist(this.currentArmor.waist.index);
 	}
 
 	armorFound = false;
 	for (let i = 0; i < this.legsRadios.length; i++) {
 		if (this.legsRadios[i].checked) {
 			armorFound = true;
-			this.setLegs(this.armorData.legs[this.legsRadios[i].dataset.index]);
+			this.setLegs(this.legsRadios[i].dataset.index);
 			break;
 		}
 	}
 	if (!armorFound) {
-		this.setLegs(this.currentArmor.legs);
+		this.setLegs(this.currentArmor.legs.index);
 	}
 
 	this.updateArmorStats();
@@ -670,6 +666,8 @@ ArmorBuilder.prototype.checkGenderMismatch = function() {
 
 	var gendersMixed = (femalePartCount !== 0) && (malePartCount !== 0);
 	document.getElementById(`gender-mixing-error-${ this.version }`).style.display = gendersMixed ? "block" : "";
+
+	return gendersMixed;
 };
 ArmorBuilder.prototype.checkClassMismatch = function() {
 	// Show an error if there is a mix of Blademaster and Gunner armor
@@ -689,6 +687,8 @@ ArmorBuilder.prototype.checkClassMismatch = function() {
 
 	var classesMixed = (blademasterPartCount !== 0) && (gunnerPartCount !== 0);
 	document.getElementById(`class-mixing-error-${ this.version }`).style.display = classesMixed ? "block" : "";
+
+	return classesMixed;
 };
 ArmorBuilder.prototype.getResistances = function() {
 	return [
@@ -698,35 +698,101 @@ ArmorBuilder.prototype.getResistances = function() {
 		parseInt(document.getElementById(`dragon-res-${ this.version }`).innerText)
 	];
 };
-ArmorBuilder.prototype.setHeadgear = function(headgearData) {
-	this.currentArmor.headgear = headgearData;
-	document.getElementById(`headgear-name-${ this.version }`).innerText = headgearData.name;
-	document.getElementById(`headgear-suffix-a`).innerText = headgearData.suffA ? headgearData.suffA : "";
-	document.getElementById(`headgear-suffix-b`).innerText = headgearData.suffB ? headgearData.suffB : "";
+ArmorBuilder.prototype.getArmorCode = function() {
+	var armorCode = [
+		this.version == "1" ? "0" : "1", // Game
+		"2", // Gender
+		"2", // Hunter Class
+		this.currentArmor.headgear.index,
+		this.currentArmor.torso.index,
+		this.currentArmor.arms.index,
+		this.currentArmor.waist.index,
+		this.currentArmor.legs.index
+	];
+
+	// Leave "BOTH" setting if mixed gender set
+	if (!this.checkGenderMismatch()) {
+		if (this.currentArmor.headgear.gender) armorCode[1] = this.currentArmor.headgear.gender == "Female" ? "0" : "1";
+		else if (this.currentArmor.torso.gender) armorCode[1] = this.currentArmor.torso.gender == "Female" ? "0" : "1";
+		else if (this.currentArmor.arms.gender) armorCode[1] = this.currentArmor.arms.gender == "Female" ? "0" : "1";
+		else if (this.currentArmor.waist.gender) armorCode[1] = this.currentArmor.waist.gender == "Female" ? "0" : "1";
+		else if (this.currentArmor.legs.gender) armorCode[1] = this.currentArmor.legs.gender == "Female" ? "0" : "1";
+	}
+
+	// Leave "BOTH" setting if mixed class set
+	if (!this.checkClassMismatch()) {
+		// Skip headgear which is never class-restricted
+		if (this.currentArmor.torso.class) armorCode[2] = this.currentArmor.torso.class == "Blademaster" ? "0" : "1";
+		else if (this.currentArmor.arms.class) armorCode[2] = this.currentArmor.arms.class == "Blademaster" ? "0" : "1";
+		else if (this.currentArmor.waist.class) armorCode[2] = this.currentArmor.waist.class == "Blademaster" ? "0" : "1";
+		else if (this.currentArmor.legs.class) armorCode[2] = this.currentArmor.legs.class == "Blademaster" ? "0" : "1";
+	}
+
+	return armorCode.join(",");
 };
-ArmorBuilder.prototype.setTorso = function(torsoData) {
-	this.currentArmor.torso = torsoData;
-	document.getElementById(`torso-name-${ this.version }`).innerText = torsoData.name;
-	document.getElementById(`torso-suffix-a`).innerText = torsoData.suffA ? torsoData.suffA : "";
-	document.getElementById(`torso-suffix-b`).innerText = torsoData.suffB ? torsoData.suffB : "";
+ArmorBuilder.prototype.setArmorFromCode = function(armorCode) {
+	this.setHeadgear(armorCode[3]);
+	this.setTorso(armorCode[4]);
+	this.setArms(armorCode[5]);
+	this.setWaist(armorCode[6]);
+	this.setLegs(armorCode[7]);
 };
-ArmorBuilder.prototype.setArms = function(armsData) {
-	this.currentArmor.arms = armsData;
-	document.getElementById(`arms-name-${ this.version }`).innerText = armsData.name;
-	document.getElementById(`arms-suffix-a`).innerText = armsData.suffA ? armsData.suffA : "";
-	document.getElementById(`arms-suffix-b`).innerText = armsData.suffB ? armsData.suffB : "";
+ArmorBuilder.prototype.setHeadgear = function(headgearIndex) {
+	if (!this.armorData.headgear[headgearIndex]) {
+		return false;
+	}
+	this.currentArmor.headgear = this.armorData.headgear[headgearIndex];
+	this.currentArmor.headgear.index = headgearIndex;
+	document.getElementById(`headgear-name-${ this.version }`).innerText = this.currentArmor.headgear.name;
+	document.getElementById(`headgear-suffix-a`).innerText = this.currentArmor.headgear.suffA ? this.currentArmor.headgear.suffA : "";
+	document.getElementById(`headgear-suffix-b`).innerText = this.currentArmor.headgear.suffB ? this.currentArmor.headgear.suffB : "";
 };
-ArmorBuilder.prototype.setWaist = function(waistData) {
-	this.currentArmor.waist = waistData;
-	document.getElementById(`waist-name-${ this.version }`).innerText = waistData.name;
-	document.getElementById(`waist-suffix-a`).innerText = waistData.suffA ? waistData.suffA : "";
-	document.getElementById(`waist-suffix-b`).innerText = waistData.suffB ? waistData.suffB : "";
+ArmorBuilder.prototype.setTorso = function(torsoIndex) {
+	if (!this.armorData.torso[torsoIndex]) {
+		return false;
+	}
+	this.currentArmor.torso = this.armorData.torso[torsoIndex];
+	this.currentArmor.torso.index = torsoIndex;
+	document.getElementById(`torso-name-${ this.version }`).innerText = this.currentArmor.torso.name;
+	document.getElementById(`torso-suffix-a`).innerText = this.currentArmor.torso.suffA ? this.currentArmor.torso.suffA : "";
+	document.getElementById(`torso-suffix-b`).innerText = this.currentArmor.torso.suffB ? this.currentArmor.torso.suffB : "";
 };
-ArmorBuilder.prototype.setLegs = function(legsData) {
-	this.currentArmor.legs = legsData;
-	document.getElementById(`legs-name-${ this.version }`).innerText = legsData.name;
-	document.getElementById(`legs-suffix-a`).innerText = legsData.suffA ? legsData.suffA : "";
-	document.getElementById(`legs-suffix-b`).innerText = legsData.suffB ? legsData.suffB : "";
+ArmorBuilder.prototype.setArms = function(armsIndex) {
+	if (!this.armorData.arms[armsIndex]) {
+		return false;
+	}
+	this.currentArmor.arms = this.armorData.arms[armsIndex];
+	this.currentArmor.arms.index = armsIndex;
+	document.getElementById(`arms-name-${ this.version }`).innerText = this.currentArmor.arms.name;
+	document.getElementById(`arms-suffix-a`).innerText = this.currentArmor.arms.suffA ? this.currentArmor.arms.suffA : "";
+	document.getElementById(`arms-suffix-b`).innerText = this.currentArmor.arms.suffB ? this.currentArmor.arms.suffB : "";
+};
+ArmorBuilder.prototype.setWaist = function(waistIndex) {
+	if (!this.armorData.waist[waistIndex]) {
+		return false;
+	}
+	this.currentArmor.waist = this.armorData.waist[waistIndex];
+	this.currentArmor.waist.index = waistIndex;
+	document.getElementById(`waist-name-${ this.version }`).innerText = this.currentArmor.waist.name;
+	document.getElementById(`waist-suffix-a`).innerText = this.currentArmor.waist.suffA ? this.currentArmor.waist.suffA : "";
+	document.getElementById(`waist-suffix-b`).innerText = this.currentArmor.waist.suffB ? this.currentArmor.waist.suffB : "";
+};
+ArmorBuilder.prototype.setLegs = function(legsIndex) {
+	if (!this.armorData.legs[legsIndex]) {
+		return false;
+	}
+	this.currentArmor.legs = this.armorData.legs[legsIndex];
+	this.currentArmor.legs.index = legsIndex;
+	document.getElementById(`legs-name-${ this.version }`).innerText = this.currentArmor.legs.name;
+	document.getElementById(`legs-suffix-a`).innerText = this.currentArmor.legs.suffA ? this.currentArmor.legs.suffA : "";
+	document.getElementById(`legs-suffix-b`).innerText = this.currentArmor.legs.suffB ? this.currentArmor.legs.suffB : "";
+};
+ArmorBuilder.prototype.resetArmor = function() {
+	this.setHeadgear(0);
+	this.setTorso(0);
+	this.setArms(0);
+	this.setWaist(0);
+	this.setLegs(0);
 };
 ArmorBuilder.prototype.sumMaterialsAndZenny = function() {
 	// Sum up zenny cost and all required materials

@@ -248,41 +248,10 @@
 	margin-bottom: 1rem;
 }
 
-#dialog-backdrop {
-	display: none;
-	position: absolute;
-	background: rgba(0,0,0,0.5);
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-.show-dialog #dialog-backdrop {
-	display: block;
-}
 #events-dialog {
-	overflow: visible;
-	position: relative;
-	color: inherit;
 	padding: 0.25rem 0 0;
 	width: 80%;
 	max-width: 32rem;
-}
-#close-events-dialog {
-	position: absolute;
-	background: transparent;
-	font-size: 1.5rem;
-	line-height: 2rem;
-	text-shadow:
-		1px 1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		-1px -1px 0 #000;
-	border: 0;
-	padding: 0;
-	width: 2rem;
-	top: -2rem;
-	right: -2rem;
 }
 #events-dialog h2 {
 	padding: 0.5rem;

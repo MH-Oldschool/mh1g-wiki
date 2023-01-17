@@ -203,8 +203,65 @@ ready(() => {
 
 	document.body.addEventListener("g-toggle", window.closePopup);
 
-	new ArmorBuilder("1", builderContainer);
-	new ArmorBuilder("g", builderContainer);
+	var armorBuilder1 = new ArmorBuilder("1", builderContainer);
+	var armorBuilderG = new ArmorBuilder("g", builderContainer);
+
+	var armorCodeExport = document.getElementById("armor-code-export");
+	var armorCodeDialog = document.getElementById("armor-code-dialog");
+	function toggleArmorCodeDialog(toggleOn) {
+		if (toggleOn) {
+			var armorCode = (getMHVersion() == "1") ? armorBuilder1.getArmorCode() : armorBuilderG.getArmorCode();
+			armorCodeExport.value = armorCode;
+
+			armorCodeDialog.showModal();
+			document.body.classList.add("show-dialog");
+		}
+		else {
+			armorCodeDialog.close();
+			document.body.classList.remove("show-dialog");
+		}
+	}
+	function armorCodeIsValid(armorCode) {
+		// TODO: indicate what's invalid?
+		if (armorCode.length !== 8) {
+			return false;
+		}
+		if (armorCode[0] < 0 || 1 < armorCode[0]) {
+			return false;
+		}
+
+		return true;
+	}
+	document.getElementById("import-export-armor-code-button").addEventListener("click", () => {
+		toggleArmorCodeDialog(true);
+	});
+	document.getElementById("armor-code-close").addEventListener("click", () => {
+		toggleArmorCodeDialog(false);
+	});
+	armorCodeDialog.addEventListener("click", (event) => {
+		if (event.target == armorCodeDialog) {
+			toggleArmorCodeDialog(false);
+		}
+	});
+	document.getElementById("import-code-button").addEventListener("click", () => {
+		const armorCodeImport = document.getElementById("armor-code-import");
+		var armorCode = armorCodeImport.value.split(",");
+
+		if (armorCodeIsValid(armorCode)) {
+			if (armorCode[0] == 0) {
+				armorBuilder1.setArmorFromCode(armorCode);
+			}
+			if (armorCode[0] == 1) {
+				armorBuilderG.setArmorFromCode(armorCode);
+			}
+
+			toggleArmorCodeDialog(false);
+		}
+	});
+	document.getElementById("copy-code-button").addEventListener("click", () => {
+		armorCodeExport.select();
+		document.execCommand("copy");
+	});
 
 	var searchInput = document.getElementById("search");
 	function doesArmorPieceContainTerm(armorData, category, index, searchTerm) {

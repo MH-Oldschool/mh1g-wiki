@@ -247,6 +247,16 @@
 	</table>
 </details>
 
+<details class="hide-mobile">
+	<summary>Download the Monster Hunter Wardrobe app</summary>
+
+	<a class="download-button" href="https://drive.google.com/file/d/1nlmDATCSv_UAKvmwG-t7cIysz-FUUrUj/view?usp=share_link" target="_blank">Windows (64-bit)</a>
+	<a class="download-button" href="https://drive.google.com/file/d/1IoqshUziUe8zhsF8BYOH_vcGsMyf-TJ4/view?usp=sharing" target="_blank">Windows (32-bit)</a>
+	<a class="download-button" href="https://drive.google.com/file/d/1Ch7rqu0OzJlSPE_9vJaxcTD7eS3EZNy_/view?usp=sharing" target="_blank">Apple OSX</a>
+	<a class="download-button" href="https://drive.google.com/file/d/1ulUkPZjx2DKZr6tXYjj5DQgkL6FpX2Ze/view?usp=sharing" target="_blank">Linux/X11 (64-bit)</a>
+	<a class="download-button" href="https://drive.google.com/file/d/1sc46D1Hhf0Az3aAZHPk_C2bjV0w__T9H/view?usp=share_link" target="_blank">Linux/X11 (32-bit)</a>
+</details>
+
 <aside id="armor-builder">
 	<button id="toggle-builder">
 		<div class="builder-button-copy">Armor Set Builder</div>
@@ -427,6 +437,8 @@
 				</tbody>
 			</table>
 		</div>
+
+		<button id="import-export-armor-code-button">Import/Export Armor Code</button>
 	</div>
 </aside>
 
@@ -450,4 +462,19 @@
 	</div>
 </div>
 
+<div id="dialog-backdrop"></div>
+<dialog id="armor-code-dialog">
+	<button id="armor-code-close" class="close-dialog-button">X</button>
+	<h2>Import/Export Armor Code</h2>
+
+	<div>
+		<input id="armor-code-import" type="text"/>
+		<button id="import-code-button">Import Armor</button>
+	</div>
+
+	<div>
+		<input id="armor-code-export" type="text" readonly/>
+		<button id="copy-code-button">Copy Code</button>
+	</div>
+</dialog>
 {{> foot}}

@@ -685,6 +685,46 @@ body.show-popup .popup {
 	display: block;
 }
 
+/* Common dialog things */
+#dialog-backdrop {
+	display: none;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+dialog {
+	z-index: 11;
+	overflow: visible;
+	position: fixed;
+	color: inherit;
+}
+body.show-dialog {
+	overflow: hidden;
+}
+.show-dialog #dialog-backdrop {
+	z-index: 10;
+	display: block;
+}
+.close-dialog-button {
+	position: absolute;
+	background: transparent;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-shadow:
+		1px 1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		-1px -1px 0 #000;
+	border: 0;
+	padding: 0;
+	width: 2rem;
+	top: -2rem;
+	right: -2rem;
+}
+
 .hide-mobile,
 .show-tablet-desktop {
 	display: none;

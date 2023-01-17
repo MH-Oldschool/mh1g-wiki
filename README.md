@@ -32,9 +32,9 @@ Feel free to reach out and submit any corrections, but keep the Issues tab purel
 	- [x] Correct material names
 - [x] Armor Set Builder
 - [x] Armor Skills
-- [ ] Monster Bestiary
+- [x] Monster Bestiary
 	- [x] General descriptions
-	- [ ] Moderate details and recommendations for hunting
+	- [x] Moderate details and recommendations for hunting
 	- [x] All the numbers
 - [ ] Items
 	- [ ] All items and monster materials with in-game descriptions
