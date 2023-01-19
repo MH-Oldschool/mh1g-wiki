@@ -135,11 +135,10 @@
 		{
 			"name":"Sleep",
 			"stages":[
-				"Sleep x 2",
 				"Sleep Halved",
 				"Sleep Negated"
 			],
-			"desc":"The hunter is a heavy sleeper, and takes longer to wake; the hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
+			"desc":"The hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
 		},
 		{
 			"name":"Stealth",
