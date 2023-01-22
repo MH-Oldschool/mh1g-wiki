@@ -462,6 +462,7 @@ body {
 .calc-hit-count {
 	font-size: 0.625rem;
 	text-align: center;
+	min-width: 0.75rem;
 }
 .calc-hit-count:nth-child(1) { color: #ee0000; }
 .calc-hit-count:nth-child(2) { color: #eea000; }
