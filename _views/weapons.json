@@ -9311,7 +9311,7 @@
 		{"id":"water","name":"Water Shot","power":0.01,"recoil":10,"reload":6,"impacts":3,"attribute":"water","attributeAlt":"Water","attributeMod":0.1,"mhg":true},
 		{"id":"thunder","name":"Thunder Shot","power":0.01,"recoil":10,"reload":6,"impacts":3,"attribute":"thunder","attributeAlt":"Thunder","attributeMod":0.2,"mhg":true},
 		{"id":"dragon","name":"Dragon Shot","power":0.01,"recoil":13,"reload":9,"impacts1":1,"impactsG":6,"attribute":"dragon","attributeAlt":"Dragon","attributeValue":48},
-		{"id":"disc","name":"Disc Shot","power":0.2,"recoil":0,"reload":0,"impacts":"1 - 4","effect":"Ricochet","mh1":true},
+		{"id":"disc","name":"Disc Shot","power":0.17,"recoil":0,"reload":0,"impacts":"1 - 4","attribute":"thunder","attributeAlt":"Thunder","attributeValue":4,"effect":"Ricochet","mh1":true},
 		{"id":"recover-1","name":"Recover Shot Lv.1","power":0,"recoil":11,"reload":7,"effect":"Health + ","attributeValue":30},
 		{"id":"recover-2","name":"Recover Shot Lv.2","power":0,"recoil":13,"reload":9,"effect":"Health + ","attributeValue":50},
 		{"id":"poison-1","name":"Poison Shot Lv.1","power":0.1,"recoil":11,"reload":7,"attribute":"poison","attributeAlt":"Poison","attributeValue":25},
