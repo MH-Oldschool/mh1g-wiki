@@ -23,7 +23,7 @@
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Binoculars","icon":"gray-icon binoculars-icon","quantity":1}
 						],
-						"rewards":[{"percent":4,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":2,"name":"Mystery Bone","quantity":1},{"percent":1,"name":"Sm Monster Bone","quantity":"2"}],
+						"rewards":[{"percent":4,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":2,"name":"Mystery Bone","quantity":1},{"percent":1,"name":"Sm Monster Bone","quantity":2}],
 						"note":"-Binoculars"
 					},
 					{
@@ -39,7 +39,7 @@
 							{"name":"Portable BBQ Spit","icon":"orange-icon spit-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":4,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":2,"name":"Mystery Bone","quantity":1},{"percent":1,"name":"Sm Monster Bone","quantity":"2"}],
+						"rewards":[{"percent":4,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Cricket","quantity":1},{"percent":25,"name":"Mystery Bone","quantity":1},{"percent":2,"name":"Mystery Bone","quantity":1},{"percent":1,"name":"Sm Monster Bone","quantity":2}],
 						"note":""
 					},
 					{
@@ -105,7 +105,8 @@
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Binoculars","icon":"gray-icon binoculars-icon","quantity":1}
 						],
-						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":"4"},{"percent":25,"name":"Velociprey Hide","quantity":1},{"percent":4,"name":"Velociprey Fang","quantity":"8"},{"percent":1,"name":"Velociprey Fang","quantity":12}],
+						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":4},{"percent":25,"name":"Velociprey Hide","quantity":1},{"percent":4,"name":"Velociprey Fang","quantity":8
+						},{"percent":1,"name":"Velociprey Fang","quantity":12}],
 						"note":"-Binoculars"
 					}
 				]
@@ -126,7 +127,9 @@
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Binoculars","icon":"gray-icon binoculars-icon","quantity":1}
 						],
-						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":"4"},{"percent":25,"name":"Velociprey Hide","quantity":1},{"percent":4,"name":"Velociprey Fang","quantity":"8"},{"percent":1,"name":"Velociprey Fang","quantity":12}],
+						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":4
+						},{"percent":25,"name":"Velociprey Hide","quantity":1},{"percent":4,"name":"Velociprey Fang","quantity":8
+						},{"percent":1,"name":"Velociprey Fang","quantity":12}],
 						"note":"-Binoculars"
 					},
 					{
@@ -146,7 +149,7 @@
 							{"name":"Old Pickaxe","icon":"gray-icon pick-icon","quantity":1},
 							{"name":"Old Bugnet","icon":"gray-icon bugnet-icon","quantity":1}
 						],
-						"rewards":[{"percent":25,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Stunshroom","quantity":"3"},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
+						"rewards":[{"percent":25,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Stunshroom","quantity":3},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
 						"note":"-Old Pickaxe, -Old Bugnet"
 					},
 					{
@@ -164,7 +167,7 @@
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Kelbi Hide","quantity":"2"},{"percent":25,"name":"Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":3,"name":"Kelbi Hide","quantity":1},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Honey","quantity":1}],
+						"rewards":[{"percent":15,"name":"Kelbi Hide","quantity":2},{"percent":25,"name":"Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":3,"name":"Kelbi Hide","quantity":1},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Honey","quantity":1}],
 						"note":""
 					},
 					{
@@ -180,7 +183,7 @@
 							{"name":"Portable BBQ Spit","icon":"orange-icon spit-icon","quantity":1},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":1,"name":"Power Seed","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":"2"},{"percent":1,"name":"Armor Seed","quantity":1},{"percent":5,"name":"BBQ Ticket","quantity":1}],
+						"rewards":[{"percent":1,"name":"Power Seed","quantity":1},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":2},{"percent":1,"name":"Armor Seed","quantity":1},{"percent":5,"name":"BBQ Ticket","quantity":1}],
 						"note":""
 					},
 					{
@@ -224,7 +227,7 @@
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Binoculars","icon":"gray-icon binoculars-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"8"},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"8"},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
+						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":8},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":8},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
 						"note":"-Binoculars"
 					}
 				]
@@ -253,7 +256,7 @@
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1},
 							{"name":"Binoculars","icon":"gray-icon binoculars-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"8"},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"8"},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
+						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":8},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":8},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
 						"note":"-Binoculars"
 					},
 					{
@@ -271,7 +274,7 @@
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":25,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Stunshroom","quantity":"3"},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
+						"rewards":[{"percent":25,"name":"Blue Mushroom","quantity":1},{"percent":25,"name":"Nitroshroom","quantity":1},{"percent":25,"name":"Toadstool","quantity":1},{"percent":2,"name":"Stunshroom","quantity":1},{"percent":4,"name":"Stunshroom","quantity":3},{"percent":1,"name":"Dragon Toadstool","quantity":1}],
 						"note":""
 					},
 					{
@@ -330,7 +333,7 @@
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1},
 							{"name":"Cool Drink","icon":"white-icon jar-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Piscine Jaw","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":2,"name":"Piscine Fang","quantity":1},{"percent":2,"name":"Sm Monster Bone","quantity":1},{"percent":2,"name":"Med Monster Bone","quantity":1},{"percent":4,"name":"Burst Arrowana","quantity":10},{"percent":1,"name":"Bomb Arrowana","quantity":"2"}],
+						"rewards":[{"percent":15,"name":"Piscine Jaw","quantity":1},{"percent":2,"name":"Wyvern Claw","quantity":1},{"percent":2,"name":"Piscine Fang","quantity":1},{"percent":2,"name":"Sm Monster Bone","quantity":1},{"percent":2,"name":"Med Monster Bone","quantity":1},{"percent":4,"name":"Burst Arrowana","quantity":10},{"percent":1,"name":"Bomb Arrowana","quantity":2}],
 						"note":""
 					},
 					{
@@ -347,7 +350,7 @@
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Bullfango Pelt","quantity":"2"},{"percent":25,"name":"Antidote Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":3,"name":"Bullfango Pelt","quantity":1},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Honey","quantity":1}],
+						"rewards":[{"percent":15,"name":"Bullfango Pelt","quantity":2},{"percent":25,"name":"Antidote Herb","quantity":1},{"percent":25,"name":"Sap Plant","quantity":1},{"percent":3,"name":"Bullfango Pelt","quantity":1},{"percent":4,"name":"Honey","quantity":1},{"percent":1,"name":"Honey","quantity":1}],
 						"note":"{JP:n/a}",
 						"intOnly": true
 					},
@@ -370,7 +373,7 @@
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":"8"},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":"8"},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
+						"rewards":[{"percent":15,"name":"Screamer","quantity":1},{"percent":2,"name":"Velociprey Fang","quantity":8},{"percent":2,"name":"Velociprey Hide","quantity":1},{"percent":2,"name":"Velociprey Scale","quantity":1},{"percent":2,"name":"Sm Bone Husk","quantity":8},{"percent":4,"name":"Screamer","quantity":1},{"percent":1,"name":"Velocidrome Claw","quantity":1}],
 						"note":""
 					},
 					{
@@ -388,7 +391,7 @@
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10},
 							{"name":"Normal S Lv1","icon":"white-icon shot-icon","quantity":1}
 						],
-						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":"2"},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":"4"},{"percent":25,"name":"Velociprey Hide","quantity":"2"},{"percent":4,"name":"Velociprey Fang","quantity":10},{"percent":1,"name":"Velociprey Fang","quantity":"20"}],
+						"rewards":[{"percent":2,"name":"Velociprey Scale","quantity":2},{"percent":25,"name":"Sm Monster Bone","quantity":1},{"percent":25,"name":"Velociprey Fang","quantity":4},{"percent":25,"name":"Velociprey Hide","quantity":2},{"percent":4,"name":"Velociprey Fang","quantity":10},{"percent":1,"name":"Velociprey Fang","quantity":20}],
 						"note":""
 					},
 					{
@@ -1601,7 +1604,14 @@
 							{"name":"Recov S Lv1","icon":"green-icon shot-icon","quantity":5},
 							{"name":"Huskberry","icon":"gray-icon husk-icon","quantity":10}
 						],
-						"rewards":[{"percent":1,"name":"Vespoid Shell","quantity":25},{"percent":1,"name":"Vespoid Wing","quantity":25},{"percent":1,"name":"Hornetaur Wing","quantity":25},{"percent":1,"name":"Hornetaur Shell","quantity":20},{"percent":1,"name":"Monster Fluid","quantity":4},{"percent":1,"name":"Thunderbug","quantity":1}],
+						"rewards":[
+							{"percent":25,"name":"Vespoid Shell","quantity":1},
+							{"percent":25,"name":"Vespoid Wing","quantity":1},
+							{"percent":25,"name":"Hornetaur Wing","quantity":1},
+							{"percent":20,"name":"Hornetaur Shell","quantity":1},
+							{"percent":4,"name":"Monster Fluid","quantity":1},
+							{"percent":1,"name":"Thunderbug","quantity":1}
+						],
 						"note":"[{percent: 4,name: Vespoid Shell,quantity: 1},{percent: 4,name: Vespoid Wing,quantity: 1},{percent: 12,name: Monster Fluid,quantity: 1},{percent: 5,name: Thunderbug,quantity: 1},{percent: 2,name: Monster Fluid,quantity: 2},{percent: 1,name: Thunderbug,quantity: 2}]"
 					},
 					{
