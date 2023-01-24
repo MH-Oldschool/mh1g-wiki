@@ -641,7 +641,7 @@
 			"stages":[
 				{ "points":"+10", "name": "Throw" }
 			],
-			"desc":"The hunter has an excellent throwing arm, dealing more damage with items like Stones and Paintballs."
+			"desc":"The hunter has an excellent throwing arm, able to throw items such as Paintballs and Throwing Knives farther."
 		},
 		{
 			"name":"Thunder Res Up",
