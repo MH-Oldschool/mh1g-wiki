@@ -536,7 +536,6 @@ ready(() => {
 			}
 		}
 
-		console.log(hitsPerLevel);
 		for (var i = 0; i < CALC_HIT_COUNTS.length; i++) {
 			CALC_HIT_COUNTS[i].style.display = hitsPerLevel[i] === 0 ? "none" : "";
 			CALC_HIT_COUNTS[i].style.width = `${100 * hitsPerLevel[i] / maxHits}%`;

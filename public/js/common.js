@@ -146,9 +146,22 @@ ready(() => {
 	var footer = document.getElementById("footer");
 	function updateFooterPosition() {
 		var boundingRect = footer.getBoundingClientRect();
-		footer.style.top = (window.innerHeight - boundingRect.height) + "px";
+		var footerPadding = boundingRect.height;
+		var footerTop = window.innerHeight - boundingRect.height;
+
+		if (document.body.dataset.footerPadding != footerPadding) {
+			document.body.dataset.footerPadding = footerPadding;
+			document.body.style.paddingBottom = footerPadding + "px";
+		}
+		if (footer.dataset.top != footerTop) {
+			footer.dataset.top = footerTop;
+			footer.style.top = footerTop + "px";
+		}
 	}
 	window.addEventListener("resize", () => {
+		window.requestAnimationFrame(updateFooterPosition);
+	});
+	window.addEventListener("scroll", () => {
 		window.requestAnimationFrame(updateFooterPosition);
 	});
 	updateFooterPosition();
