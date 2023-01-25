@@ -7278,7 +7278,7 @@
 							}
 						],
 						"rewards":[
-							{"name":"Kut-Ku Membrane","quantity":1,"percent":1},
+							{"name":"Kut-Ku Webbing","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":2,"percent":24},
 							{"name":"Sm Monster Bone","quantity":5,"percent":25},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -7386,7 +7386,7 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":5},
 							{"name":"Kut-Ku Scale","quantity":1,"percent":20},
 							{"name":"Kut-Ku Shell","quantity":1,"percent":20},
-							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
+							{"name":"Kut-Ku Webbing","quantity":1,"percent":20},
 							{"name":"Kut-Ku Ear","quantity":1,"percent":6},
 							{"name":"Giant Beak","quantity":1,"percent":2}
 						]
@@ -8534,7 +8534,7 @@
 							}
 						],
 						"rewards":[
-							{"name":"Kut-Ku Membrane","quantity":1,"percent":1},
+							{"name":"Kut-Ku Webbing","quantity":1,"percent":1},
 							{"name":"Screamer","quantity":2,"percent":24},
 							{"name":"Sm Monster Bone","quantity":5,"percent":25},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
@@ -9089,7 +9089,7 @@
 							}
 						],
 						"rewards":[
-							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
+							{"name":"Kut-Ku Webbing","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
 							{"name":"Screamer","quantity":5,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":5},
@@ -10208,7 +10208,7 @@
 							}
 						],
 						"rewards":[
-							{"name":"Kut-Ku Membrane","quantity":1,"percent":20},
+							{"name":"Kut-Ku Webbing","quantity":1,"percent":20},
 							{"name":"Wyvern Claw","quantity":5,"percent":5},
 							{"name":"Screamer","quantity":5,"percent":5},
 							{"name":"Med Monster Bone","quantity":1,"percent":5},

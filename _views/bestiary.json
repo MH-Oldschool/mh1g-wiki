@@ -1732,14 +1732,14 @@
 			"carvesG":[
 				{"name":"Low Rank","parts":[
 					{"n":"Kut-Ku Shell","p":50},
-					{"n":"Kut-Ku Membrane","p":36},
+					{"n":"Kut-Ku Webbing","p":36},
 					{"n":"Kut-Ku Ear","p":8},
 					{"n":"Kut-Ku Scale","p":5},
 					{"n":"Giant Beak","p":1}
 				]},
 				{"name":"High Rank","parts":[
 					{"n":"Kut-Ku Shell","p":45},
-					{"n":"Kut-Ku Membrane","p":25},
+					{"n":"Kut-Ku Webbing","p":25},
 					{"n":"Kut-Ku Ear","p":20},
 					{"n":"Giant Beak","p":10}
 				]},
@@ -1790,7 +1790,7 @@
 			"carvesG":[
 				{"name":"G Rank","parts":[
 					{"n":"Blue Kut-Ku Shell","p":45},
-					{"n":"Blue Kut-Ku Membrane","p":25},
+					{"n":"Blue Kut-Ku Webbing","p":25},
 					{"n":"Blue Kut-Ku Ear","p":20},
 					{"n":"Splendid Beak","p":10}
 				]}
