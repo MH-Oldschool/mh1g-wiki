@@ -405,7 +405,7 @@ ready(() => {
 		let calendarDayNumbers = document.getElementsByClassName("day-number");
 		for (let i = 0; i < dayCount; i++) {
 			calendarDayNumbers[i + firstDayOfWeek].innerText = (i + 1).toString();
-			calendarDays[i].dataset.day = i - firstDayOfWeek + 1;
+			calendarDays[i + firstDayOfWeek].dataset.day = i + 1;
 		}
 
 		// Hide excess days
