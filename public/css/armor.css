@@ -53,21 +53,8 @@ body {
 	display: none;
 }
 
-.download-button {
-	display: block;
-	background: #29c;
-	color: #fff;
-	font-weight: bold;
-	line-height: 2;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 0.25rem;
-	margin: 0.125rem 0;
-	width: 11rem;
-	transition: background-color 300ms;
-}
-.download-button:hover {
-	background-color: #3af;
+.download-container {
+	display: none;
 }
 
 details {
@@ -265,5 +252,27 @@ body.show-1 #armor-builder {
 @media screen and (min-width: 50rem) {
 	.toggle-everything-container {
 		padding: 0 0.5rem;
+	}
+}
+@media screen and (min-width: 64rem) {
+	.download-container {
+		display: inline-block;
+		padding: 0 1rem;
+	}
+	.download-button {
+		display: block;
+		background: #29c;
+		color: #fff;
+		font-weight: bold;
+		line-height: 2;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 0.25rem;
+		margin: 0.125rem 0;
+		width: 11rem;
+		transition: background-color 300ms;
+	}
+	.download-button:hover {
+		background-color: #3af;
 	}
 }

@@ -306,4 +306,31 @@ ready(() => {
 		filterBySearch();
 	});
 	filterBySearch();
+
+	function showDownloadButtonForUser() {
+		var buttons = {
+			"Mac": document.getElementById("apple-download-button").outerHTML,
+			"Linux 64": document.getElementById("linux-64-download-button").outerHTML,
+			"Linux 32": document.getElementById("linux-32-download-button").outerHTML,
+			"Windows 64": document.getElementById("windows-64-download-button").outerHTML,
+			"Windows 32": document.getElementById("windows-32-download-button").outerHTML
+		};
+
+		var userOS = getUserOS();
+		var downloadButtonForUser = "";
+		if (buttons[userOS]) {
+			downloadButtonForUser = buttons[userOS];
+		}
+		else if (userOS == "Linux") {
+			downloadButtonForUser = buttons["Linux 64"] + buttons["Linux 32"];
+		}
+		else if (userOS == "Windows") {
+			downloadButtonForUser = buttons["Windows 64"] + buttons["Windows 32"];
+		}
+
+		if (downloadButtonForUser) {
+			document.getElementById("download-button-container").innerHTML = downloadButtonForUser;
+		}
+	}
+	showDownloadButtonForUser();
 });

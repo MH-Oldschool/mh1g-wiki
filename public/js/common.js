@@ -48,6 +48,30 @@ window.numberWithCommas = (number) => {
 	return number;
 };
 
+window.getUserOS = () => {
+	var userOS = "";
+
+	if (navigator.userAgent.indexOf("Linux") !== -1 || navigator.userAgent.indexOf("X11") !== -1) {
+		userOS = "Linux";
+	}
+	else if (navigator.userAgent.indexOf("Mac") !== -1) {
+		userOS = "Mac";
+	}
+	else if (navigator.userAgent.indexOf("Win") !== -1) {
+		userOS = "Windows";
+	}
+
+	// If we can determine whether it's a 32- or 64-bit OS, add that
+	if (navigator.userAgent.indexOf("x64") !== -1) {
+		userOS += " 64";
+	}
+	else if (navigator.userAgent.indexOf("x86") !== -1) {
+		userOS += " 32";
+	}
+
+	return userOS;
+}
+
 // Choose a random cursor
 var cursorClass = (() => {
 	const CURSORS = ["greatsword","hammer","lance","sword","bowgun"];
