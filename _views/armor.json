@@ -919,7 +919,7 @@
 		{"name":"Golden Moon Guards","class":"Gunner","rarity":7,"buy":0,"forge":110000,"def":20,"res":[4,2,0,0],"skills":[{"k":"Fate","q":2},{"k":"Normal S Up","q":3},{"k":"Reload Speed","q":-3},{"k":"Sense","q":-3}],"mats":[{"m":"Gold Rathian Ruby","q":1},{"m":"Gold Rathian Shell","q":5},{"m":"Gold Rathian Claw","q":5},{"m":"Gold Rathian Scale","q":6}],"rank":"g"},
 		{"name":"Silver Sol Vambraces","class":"Blademaster","rarity":7,"buy":0,"forge":120000,"def":42,"res":[2,-1,2,0],"skills":[{"k":"Swordsmanship","q":3},{"k":"Sharpness","q":2},{"k":"Stun","q":-4},{"k":"Fate","q":-2}],"mats":[{"m":"Silver Rathalos Ruby","q":1},{"m":"Silver Rathalos Shell","q":5},{"m":"Silver Rathalos Scale","q":6},{"m":"Silver Rathalos Claw","q":5}],"rank":"g"},
 		{"name":"Silver Sol Guards","class":"Gunner","rarity":7,"buy":0,"forge":120000,"def":21,"res":[4,2,5,0],"skills":[{"k":"Pierce S Add","q":5},{"k":"Flute","q":2},{"k":"Health","q":-4}],"mats":[{"m":"Silver Rathalos Ruby","q":1},{"m":"Silver Rathalos Tail","q":4},{"m":"Silver Rathalos Scale","q":6},{"m":"Silver Rathalos Claw","q":5}],"rank":"g"},
-		{"name":"Tenjho Tenge Musou Tekko","dev":true,"rarity":7,"buy":0,"forge":0,"def":48,"res":[2,2,2,0],"skills":[{"k":"Swordsmanship","q":10}],"mats":[]}
+		{"name":"Heaven's Gauntlet","dev":true,"rarity":7,"buy":0,"forge":0,"def":48,"res":[2,2,2,0],"skills":[{"k":"Swordsmanship","q":10}],"mats":[]}
 	],
 	"waist_1":[
 		{"name":"None","rarity":1,"forge":0,"buy":0,"def":0,"res":[0,0,0,0],"mats":[]},
