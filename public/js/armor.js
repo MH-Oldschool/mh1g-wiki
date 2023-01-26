@@ -89,10 +89,10 @@ ready(() => {
 	// Show/hide armor based on elemental res
 	var armorStatCheckboxes = document.getElementsByName("armor-stat");
 	function shouldShowRow(resistances, checked) {
-		var matchesFireRes = (checked["f+"] && resistances[0] >= 0) || (checked["f-"] && resistances[0] <= 0) || (!checked["f+"] && !checked["f-"]);
-		var matchesWaterRes = (checked["w+"] && resistances[1] >= 0) || (checked["w-"] && resistances[1] <= 0) || (!checked["w+"] && !checked["w-"]);
-		var matchesThunderRes = (checked["t+"] && resistances[2] >= 0) || (checked["t-"] && resistances[2] <= 0) || (!checked["t+"] && !checked["t-"]);
-		var matchesDragonRes = (checked["d+"] && resistances[3] >= 0) || (checked["d-"] && resistances[3] <= 0) || (!checked["d+"] && !checked["d-"]);
+		var matchesFireRes = (checked["f+"] && resistances[0] > 0) || (checked["f-"] && resistances[0] < 0) || (!checked["f+"] && !checked["f-"]);
+		var matchesWaterRes = (checked["w+"] && resistances[1] > 0) || (checked["w-"] && resistances[1] < 0) || (!checked["w+"] && !checked["w-"]);
+		var matchesThunderRes = (checked["t+"] && resistances[2] > 0) || (checked["t-"] && resistances[2] < 0) || (!checked["t+"] && !checked["t-"]);
+		var matchesDragonRes = (checked["d+"] && resistances[3] > 0) || (checked["d-"] && resistances[3] < 0) || (!checked["d+"] && !checked["d-"]);
 
 		return matchesFireRes && matchesWaterRes && matchesThunderRes && matchesDragonRes;
 	}
