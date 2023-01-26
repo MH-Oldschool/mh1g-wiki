@@ -2187,14 +2187,14 @@
 		},
 		{
 			"group":"Crystal Hammer Group",
-			"id":"crystal-hammer-group","class":"fire-pre thunder-pre-g poison-pre",
+			"id":"crystal-hammer-group","class":"fire-pre-g thunder-pre-g poison-pre",
 			"toggleAll":true,"gToggleAll":true,
 			"tbody":[
 				{
 					"bodyClass":"fire-pre thunder-pre poison-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-pre-g fire-pre poison-pre",
+							"rowClass":"thunder-pre-g fire-pre-g poison-pre",
 							"name":"<b>Crystal Hammer</b>","branchStart":true,
 							"rarity":4,
 							"damage1":623,"damageG":624,
@@ -2208,7 +2208,7 @@
 							]
 						},
 						{
-							"rowClass":"thunder-pre-g fire-pre poison-pre",
+							"rowClass":"thunder-pre-g fire-pre-g poison-pre",
 							"name":"Crystal Nova",
 							"branchG":"great-nova",
 							"name":"Crystal Nova",
@@ -2244,7 +2244,7 @@
 					]
 				},
 				{
-					"bodyClass":"fire-pre poison-pre",
+					"bodyClass":"fire-pre-g poison-pre",
 					"weapons":[
 						{
 							"rowClass":"fire-pre poison-status",
@@ -2262,7 +2262,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre high-rank poison-status",
+							"rowClass":"fire-pre-g high-rank poison-status",
 							"name":"Gigaton Hammer+",
 							"rarity":4,
 							"damage1":779,"damageG":884,
@@ -2277,7 +2277,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre high-rank poison-status",
+							"rowClass":"fire-pre-g high-rank poison-status",
 							"name":"Titan Hammer","branchBend":true,"branchBend1":true,
 							"branchG":"torment-purgatory",
 							"rarity":4,
