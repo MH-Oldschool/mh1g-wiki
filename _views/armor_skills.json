@@ -205,6 +205,13 @@
 			"desc":"Unlocks the secrets of special item combinations for the hunter."
 		},
 		{
+			"name":"Ammo Mixer",
+			"stages":[
+				{ "points":"+10", "name": "Ammo Mixer" }
+			],
+			"desc":"The hunter&#8217;s excellent craftsmanship ensures they always make the maximum possible amount of ammunition when combining."
+		},
+		{
 			"name":"Anti-Theft",
 			"stages":[
 				{ "points":"+10", "name": "Anti-Theft" }
@@ -240,13 +247,6 @@
 				{ "points":"+10", "name": "Bomber" }
 			],
 			"desc":"The hunter&#8217;s knowledge of explosives increases the yield of their bombs<span class='details'>, dealing 1.5x damage</span>."
-		},
-		{
-			"name":"Bullet Formulation",
-			"stages":[
-				{ "points":"+10", "name": "Bullet Formulation" }
-			],
-			"desc":"The hunter&#8217;s excellent craftsmanship ensures they always make the maximum possible amount of ammunition when combining."
 		},
 		{
 			"name":"Clust S Add",

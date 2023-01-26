@@ -374,7 +374,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Flute": [ "","","","Flute Master","","" ],
 	"Bomber": [ "","","","Bomber","","" ],
 	"Status": [ "","","","Status Attack Up","","" ],
-	"Bullet Formulation": [ "","","","Bullet Formulation","","" ],
+	"Ammo Mixer": [ "","","","Ammo Mixer","","" ],
 	"Swordsmanship": [ "","","","ESP","","" ],
 	"Rapid Fire": [ "","","","Rapid Fire","","" ]
 };
