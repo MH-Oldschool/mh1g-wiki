@@ -376,7 +376,8 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Status": [ "","","","Status Attack Up","","" ],
 	"Ammo Mixer": [ "","","","Ammo Mixer","","" ],
 	"Swordsmanship": [ "","","","ESP","","" ],
-	"Rapid Fire": [ "","","","Rapid Fire","","" ]
+	"Rapid Fire": [ "","","","Rapid Fire","","" ],
+	"Speed Gathering": [ "","","","Speed Gathering","","" ]
 };
 ArmorBuilder.doesSkillSetMatch = function(skillset, armor) {
 	if (skillset.armor[0] && skillset.armor[0] != armor.headgear.name) {
@@ -509,13 +510,20 @@ ArmorBuilder.prototype.calculateSkills = function() {
 	else {
 		// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
 		var torsoUpModifier = 1;
+		var torsoAdd1 = false;
 		var torsoAdd2 = false;
 		function updateTorsoSkills(skill) {
 			if (skill.k == "Torso Up") {
 				torsoUpModifier++;
+				skill.q = 1;
+			}
+			else if (skill.k == "Torso +1") {
+				torsoAdd1 = true;
+				skill.q = 1;
 			}
 			else if (skill.k == "Torso +2") {
 				torsoAdd2 = true;
+				skill.q = 1;
 			}
 		}
 		this.currentArmor.headgear.skills.forEach(updateTorsoSkills);
@@ -524,11 +532,19 @@ ArmorBuilder.prototype.calculateSkills = function() {
 		this.currentArmor.legs.skills.forEach(updateTorsoSkills);
 		// And now we apply it
 		let torsoSkills = [];
-		if (this.currentArmor.torso.skills && (torsoUpModifier !== 1 || torsoAdd2)) {
+		if (this.currentArmor.torso.skills && (torsoUpModifier !== 1 || torsoAdd1 || torsoAdd2)) {
 			torsoSkills = this.currentArmor.torso.skills.map((skill) => {
+				var quantity = skill.q * torsoUpModifier;
+				if (torsoAdd1) {
+					quantity += 1;
+				}
+				if (torsoAdd2) {
+					quantity += 2;
+				}
+
 				return {
 					k: skill.k,
-					q: (skill.q * torsoUpModifier) + (torsoAdd2 ? 2 : 0)
+					q: quantity
 				};
 			});
 		}
@@ -637,9 +653,6 @@ ArmorBuilder.prototype.calculateSkills = function() {
 							}
 						}
 					}
-				}
-				else {
-					console.warn("No such skill:", prop);
 				}
 
 				skillRows.push("<tr class=skill-level-" + skillLevel + "><td>" + skillName + "</td><td>" + skillsParsed[prop] + "</td></tr>");

@@ -621,6 +621,13 @@
 			"desc":"The hunter is a heavy sleeper, and takes longer to wake; the hunter is a light sleeper, and wakes quickly; or the hunter is practically an insomniac, only able to sleep at the camp."
 		},
 		{
+			"name":"Speed Gathering",
+			"stages":[
+				{ "points":"+10", "name": "Speed Gathering" }
+			],
+			"desc":"The hunter has deft fingers, gathering and carving monsters <span class='details'> 1.3 times more </span>quickly."
+		},
+		{
 			"name":"Status",
 			"stages":[
 				{ "points":"+10", "name": "Status Attack Up" }
@@ -663,11 +670,12 @@
 			"desc":"Exaggerates the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Each piece of torso armor adds all the skill points for the torso armor an additional time. E.G. 1 Torso Up doubles the points, 2 Torso Ups triple, etc.</span>"
 		},
 		{
-			"name":"Torso +2",
+			"name":"Torso +",
 			"stages":[
-				"Torso +2"
+				{ "name": "Torso +1" },
+				{ "name": "Torso +2" }
 			],
-			"desc":"Improves the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Adds two points to each armor skill on torso armor, after applying the Torso Up skill, if present."
+			"desc":"Improves the unique qualities of the hunter&#8217;s torso armor.<span class='details'> Adds one or two points to each armor skill on torso armor, after applying the Torso Up skill, if present.</span>"
 		},
 		{
 			"name":"Water Res Up",
