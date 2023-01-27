@@ -12967,7 +12967,7 @@
 						],
 						"rewards":[
 							{"name":"Ancient Potion","quantity":1,"percent":1},
-							{"name":"Kirin Azure Horn","quantity":1,"percent":39},
+							{"name":"Kirin Horn","quantity":1,"percent":39},
 							{"name":"Kirin Mane","quantity":1,"percent":45},
 							{"name":"Kirin Hide","quantity":1,"percent":15}
 						]
