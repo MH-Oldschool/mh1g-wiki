@@ -8245,7 +8245,7 @@
 		],
 		"townQuests": [
 			{
-				"stars": 1,
+				"stars": 1,"ranks":"1-4",
 				"quests":[
 					{
 						"name":"Mushroom Picking","icon":"white-icon mushroom-icon","hrp":50,"type":"gather","area":"Forest and Hills",
@@ -8625,7 +8625,7 @@
 				]
 			},
 			{
-				"stars": 2,
+				"stars": 2,"ranks":"5-8",
 				"quests":[
 					{
 						"name":"Slay the Gypceros!","icon":"monster-icon monster-gypceros","hrp":250,"type":"hunt","area":"Forest and Hills",
@@ -9133,7 +9133,7 @@
 				]
 			},
 			{
-				"stars": 3,
+				"stars": 3,"ranks":"9-12",
 				"quests":[
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":380,"type":"hunt","area":"Forest and Hills",
@@ -9690,7 +9690,7 @@
 				]
 			},
 			{
-				"stars": 4,
+				"stars": 4,"ranks":"13-16",
 				"quests":[
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":320,"type":"hunt","area":"Forest and Hills",
@@ -10281,7 +10281,7 @@
 				]
 			},
 			{
-				"stars": 5,
+				"stars": 5,"ranks":"17-20",
 				"quests":[
 					{
 						"name":"Slay the Rathalos!","icon":"monster-icon monster-rathalos","hrp":500,"type":"hunt","area":"Forest and Hills",
@@ -10948,7 +10948,7 @@
 				]
 			},
 			{
-				"stars": 6,
+				"stars": 6,"ranks":"21-23",
 				"quests":[
 					{
 						"name":"Attack of the Yian Kut-Ku","icon":"monster-icon monster-yian-kut-ku","hrp":530,"type":"hunt","area":"Forest and Hills",
@@ -11440,7 +11440,7 @@
 				]
 			},
 			{
-				"stars": 7,
+				"stars": 7,"ranks":"24-27",
 				"quests":[
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-rathian","hrp":780,"type":"hunt","area":"Forest and Hills",
@@ -11958,7 +11958,7 @@
 				]
 			},
 			{
-				"stars": 8,
+				"stars": 8,"ranks":"28-30",
 				"quests":[
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":820,"type":"hunt","area":"Jungle",
