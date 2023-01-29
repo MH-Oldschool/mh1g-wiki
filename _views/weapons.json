@@ -1078,9 +1078,9 @@
 							"sharpness":"sharpness_gs/red_dragonsword",
 							"price":"87,750",
 							"upgrade":[
-								{"n":"Lao-Shan Horn","q":3},
-								{"n":"Commendation","q":5},
-								{"n":"Firestone","q":20}
+								{"n":"Lao-Shan Horn","q":1},
+								{"n":"Commendation","q":3},
+								{"n":"Firestone","q":8}
 							]
 						}
 					]
