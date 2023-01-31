@@ -55,9 +55,16 @@ function ArmorBuilder(version, builderContainer) {
 	}
 
 	if (version == "1") {
+		function getArmorDataByName(category, armorName) {
+			for (var i = 0; i < this.armorData[category].length; i++) {
+				this.armorData[category];
+			}
+		}
+
 		// Populate skillset popup
 		let skillSetRows = ArmorBuilder.SKILL_SETS.map((skillSet, index) => {
 			let armorSetRow = `<tr><td><button class="skill-set-button" data-index=${ index }>Equip &rarr;</button></td>`;
+			var armorName = "";
 
 			for (let i = 0; i < 5; i++) {
 				armorSetRow += `<td>${ skillSet.armor[i] ? skillSet.armor[i] : "-" }</td>`
@@ -313,7 +320,7 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["Cephalos Cap","Hi-Metal Mail+","Cephalos Guards","Rathian Tasset","Velociprey Leggings"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 	{armor:["Plesioth Cap+","Cephalos Mail","Khezu Vambraces+","Cephalos Tasset","Khezu Greaves+"],skills:["Health Recovery Items Improved","Faint x 2"]},
 	{armor:["Plesioth Helm+","Cephalos Vest","Khezu Guard+","Cephalos Coat","Khezu Leggings+"],skills:["Health Recovery Items Improved","Faint x 2"]},
-	{armor:["Velociprey Mask","Mosswine Mail","","Bone Coat",""],skills:["Faint Negated","Good Fortune"]},
+	{armor:["Velociprey Mask","Moss Breastplate","","Bone Coat",""],skills:["Faint Negated","Good Fortune"]},
 	{armor:["Monoblos Helm","Hornet Mail+","Rathian Vambraces","Hi-Metal Tasset+","Rathalos Greaves"],skills:["Good Fortune"]},
 	{armor:["Monoblos Helm","Hornet Vest+","Rathian Guards","Hi-Metal Coat+","Rathalos Leggings"],skills:["Good Fortune"]},
 	{armor:["","Vespoid Mail+","Hornet Vambraces+","Hornet Tasset+","Vespoid Greaves+"],skills:["Dragon + 25"]},
