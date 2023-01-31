@@ -29,7 +29,10 @@
 					<tr class="weapon-row {{^dbLink}}rarity-{{rarity}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}} data-name="{{name}}">
 						{{#dbLink}}
 							<td colspan="9">
-								<button class="weapon-button" data-id="{{sharpness}}"></button>
+								<label class="weapon-button">
+									<input type="radio" name="weapon" value="{{sharpness}}"/>
+									<div class="icon"></div>
+								</label>
 
 								&#8735;<a href="#{{dbLink}}" data-target="{{dbLink}}">{{name}}</a>
 							</td>
@@ -37,7 +40,10 @@
 
 						{{^dbLink}}
 						<td>
-							<button class="weapon-button" data-id="{{sharpness}}"></button>
+							<label class="weapon-button">
+								<input type="radio" name="weapon" value="{{sharpness}}"/>
+								<div class="icon"></div>
+							</label>
 
 							{{#other}}
 								{{{name}}}
@@ -124,7 +130,8 @@
 						</td>
 						<td class="sharpness-cell">
 							<div class="sharpness-container">
-								<img src="images/{{sharpness}}.gif"/>
+								<img class="mh1" src="images/{{sharpness}}_1.gif"/>
+								<img class="mhg" src="images/{{sharpness}}_g.gif"/>
 							</div>
 						</td>
 						<td>

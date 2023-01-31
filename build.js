@@ -113,31 +113,32 @@ function generateWeaponsDataJS() {
 					rawData[category].forEach((group) => {
 						group.tbody.forEach((tbody) => {
 							tbody.weapons.forEach((weapon) => {
+								var weaponId = weapon.sharpness;
 								// Check if we already have another version of this weapon
-								if (weaponData[category][weapon.sharpness]) {
+								if (weaponData[category][weaponId]) {
 									// Only add values that are different per version
-									if (weaponData[category][weapon.sharpness].rarity1) weaponData[category][weapon.sharpness].rarityG = weapon.rarityG;
-									else if (weaponData[category][weapon.sharpness].rarityG) weaponData[category][weapon.sharpness].rarity1 = weapon.rarity1;
+									if (weaponData[category][weaponId].rarity1) weaponData[category][weaponId].rarityG = weapon.rarityG;
+									else if (weaponData[category][weaponId].rarityG) weaponData[category][weaponId].rarity1 = weapon.rarity1;
 
-									if (weaponData[category][weapon.sharpness].damage1) weaponData[category][weapon.sharpness].damageG = weapon.damageG;
-									else if (weaponData[category][weapon.sharpness].damageG) weaponData[category][weapon.sharpness].damage1 = weapon.damage1;
+									if (weaponData[category][weaponId].damage1) weaponData[category][weaponId].damageG = weapon.damageG;
+									else if (weaponData[category][weaponId].damageG) weaponData[category][weaponId].damage1 = weapon.damage1;
 
-									if (weaponData[category][weapon.sharpness].attributeValue1) weaponData[category][weapon.sharpness].attributeValueG = weapon.attributeValueG;
-									else if (weaponData[category][weapon.sharpness].attributeValueG) weaponData[category][weapon.sharpness].attributeValue1 = weapon.attributeValue1;
+									if (weaponData[category][weaponId].attributeValue1) weaponData[category][weaponId].attributeValueG = weapon.attributeValueG;
+									else if (weaponData[category][weaponId].attributeValueG) weaponData[category][weaponId].attributeValue1 = weapon.attributeValue1;
 
-									if (weaponData[category][weapon.sharpness].price1) weaponData[category][weapon.sharpness].priceG = weapon.priceG;
-									else if (weaponData[category][weapon.sharpness].priceG) weaponData[category][weapon.sharpness].price1 = weapon.price1;
+									if (weaponData[category][weaponId].price1) weaponData[category][weaponId].priceG = weapon.priceG;
+									else if (weaponData[category][weaponId].priceG) weaponData[category][weaponId].price1 = weapon.price1;
 
-									if (weaponData[category][weapon.sharpness].forge1) weaponData[category][weapon.sharpness].forgeG = weapon.forgeG;
-									else if (weaponData[category][weapon.sharpness].forgeG) weaponData[category][weapon.sharpness].forge1 = weapon.forge1;
+									if (weaponData[category][weaponId].forge1) weaponData[category][weaponId].forgeG = weapon.forgeG;
+									else if (weaponData[category][weaponId].forgeG) weaponData[category][weaponId].forge1 = weapon.forge1;
 
-									if (weaponData[category][weapon.sharpness].upgrade1) weaponData[category][weapon.sharpness].upgradeG = weapon.upgradeG;
-									else if (weaponData[category][weapon.sharpness].upgradeG) weaponData[category][weapon.sharpness].upgrade1 = weapon.upgrade1;
+									if (weaponData[category][weaponId].upgrade1) weaponData[category][weaponId].upgradeG = weapon.upgradeG;
+									else if (weaponData[category][weaponId].upgradeG) weaponData[category][weaponId].upgrade1 = weapon.upgrade1;
 								}
 								else {
-									weaponData[category][weapon.sharpness] = weapon;
+									weaponData[category][weaponId] = weapon;
 									// Also trim out excess stuff from the weapon's name
-									weaponData[category][weapon.sharpness].name = weapon.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, "");
+									weaponData[category][weaponId].name = weapon.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, "");
 								}
 							});
 						});

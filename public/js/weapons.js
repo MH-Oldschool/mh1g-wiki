@@ -438,8 +438,11 @@ ready(() => {
 	}
 
 	var calcSharpnessColor = document.getElementById("calc-sharpness-color");
-	function getSharpnessFromColors(red, green, blue) {
-		if (red === 238) {
+	function getSharpnessFromColors(red, green, blue, alpha) {
+		if (alpha === 0) {
+			return -1;
+		}
+		else if (red === 238) {
 			if (green === 0) {
 				return 0;
 			}
@@ -480,25 +483,21 @@ ready(() => {
 		var red = 4 * value;
 		var green = red + 1;
 		var blue = red + 2;
+		var alpha = red + 3;
 
-		// Transparent
-		if (sharpnessData.data[blue + 1] === 0) {
-			return;
-		}
-
-		var sharpnessLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[green], sharpnessData.data[blue]);
+		var sharpnessLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[green], sharpnessData.data[blue], sharpnessData.data[alpha]);
 		if (sharpnessLevel === -1) {
-			// TODO: set range max to current weapon's max sharpness?
 			// We're beyond the end of the sharpness range, in the black area
-			// so we have to find the last point with a non-black color
+			// so we have to find the last point with a non-black, non-border color
 			for (var i = value; i >= 0; i--) {
-				if (sharpnessData.data[red] !== 0 || sharpnessData.data[green] !== 0 || sharpnessData.data[blue] !== 0) {
+				if (getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[green], sharpnessData.data[blue], sharpnessData.data[alpha]) !== -1) {
 					// This should be safe?
 					return getSharpnessAtValue(i);
 				}
 				red -= 4;
 				green -= 4;
 				blue -= 4;
+				alpha -= 4;
 			}
 		}
 
@@ -522,11 +521,9 @@ ready(() => {
 		var sharpnessData = calcSharpnessContext.getImageData(0, yPos, 120, 1);
 		var red, green, blue;
 		for (var i = 0; i < calcSharpness.max; i += 3) {
-			hitsPerLevel[sharpnessLevel] += 10;
-
 			red = 4 * i;
 
-			var newLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[red + 1], sharpnessData.data[red + 2]);
+			var newLevel = getSharpnessFromColors(sharpnessData.data[red], sharpnessData.data[red + 1], sharpnessData.data[red + 2], sharpnessData.data[red + 3]);
 			if (newLevel === -1) {
 				break;
 			}
@@ -534,6 +531,8 @@ ready(() => {
 			if (newLevel != sharpnessLevel) {
 				sharpnessLevel = newLevel;
 			}
+
+			hitsPerLevel[sharpnessLevel] += 10;
 		}
 
 		for (var i = 0; i < CALC_HIT_COUNTS.length; i++) {
@@ -888,15 +887,7 @@ ready(() => {
 	const weaponIcon = document.getElementById("calc-weapon-icon");
 	const sidebarContent = document.getElementById("sidebar-content")
 
-	function populateBlademasterCalculator(element, category) {
-		var selectedButton = document.querySelector(".weapon-button.selected");
-		if (selectedButton) {
-			selectedButton.classList.remove("selected");
-		}
-		element.classList.add("selected");
-
-		var weaponID = element.dataset.id;
-
+	function populateBlademasterCalculator(weaponID, category) {
 		const ICON_NAMES = {
 			greatswords: "gs",
 			hammers: "hammer",
@@ -921,18 +912,21 @@ ready(() => {
 		weaponName.innerHTML = currentWeapon.name;
 		weaponIcon.className = `${getIconColor(currentWeapon.rarity)}-icon ${ICON_NAMES[category]}-icon`;
 
-		weaponSharpness.src = `images/${currentWeapon.sharpness}.gif`;
-		// Draw normal and handicraft sharpness bars
-		calcSharpnessContext.drawImage(weaponSharpness, 1, 1, 119, 1, 0, 0, 119, 1);
-		calcSharpnessContext.drawImage(weaponSharpness, 1, 10, 119, 1, 0, 1, 119, 1);
-		calcSharpness.value = calcSharpness.max;
-		updateSharpnessColor(calcSharpness.value);
+		weaponSharpness.addEventListener("load", () => {
+			// Draw normal and handicraft sharpness bars
+			calcSharpnessContext.drawImage(weaponSharpness, 1, 1, 119, 1, 0, 0, 119, 1);
+			calcSharpnessContext.drawImage(weaponSharpness, 1, 10, 119, 1, 0, 1, 119, 1);
+			calcSharpness.value = calcSharpness.max;
+			updateSharpnessColor(calcSharpness.value);
 
-		updateWeaponDamage();
+			updateWeaponDamage();
 
-		if (!calculator.classList.contains("show")) {
-			calculator.classList.add("show");
-		}
+			if (!calculator.classList.contains("show")) {
+				calculator.classList.add("show");
+			}
+		}, { once: true });
+
+		weaponSharpness.src = `images/${currentWeapon.sharpness}_${getMHVersion().toUpperCase()}.gif`;
 	}
 	function populateGunnerCalculator(element) {
 		var selectedButton = document.querySelector(".weapon-button.selected");
@@ -1012,44 +1006,44 @@ ready(() => {
 	}
 
 	function handleGreatswordClick(event) {
-		populateBlademasterCalculator(event.target, "greatswords");
+		populateBlademasterCalculator(event.target.value, "greatswords");
 	}
-	document.querySelectorAll("#greatswords .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#greatswords input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleGreatswordClick);
 	});
 
 	function handleHammerClick(event) {
-		populateBlademasterCalculator(event.target, "hammers");
+		populateBlademasterCalculator(event.target.value, "hammers");
 	}
-	document.querySelectorAll("#hammers .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#hammers input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleHammerClick);
 	});
 
 	function handleLanceClick(event) {
-		populateBlademasterCalculator(event.target, "lances");
+		populateBlademasterCalculator(event.target.value, "lances");
 	}
-	document.querySelectorAll("#lances .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#lances input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleLanceClick);
 	});
 
 	function handleSwordClick(event) {
-		populateBlademasterCalculator(event.target, "swords");
+		populateBlademasterCalculator(event.target.value, "swords");
 	}
-	document.querySelectorAll("#swords .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#swords input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleSwordClick);
 	});
 
 	function handleDualSwordClick(event) {
-		populateBlademasterCalculator(event.target, "dualSwords");
+		populateBlademasterCalculator(event.target.value, "dualSwords");
 	}
-	document.querySelectorAll("#dual-swords .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#dual-swords input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleDualSwordClick);
 	});
 
 	function handleBowgunClick(event) {
 		populateGunnerCalculator(event.target);
 	}
-	document.querySelectorAll("#ranged-weapons .weapon-button").forEach(function(element) {
+	document.querySelectorAll("#ranged-weapons input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleBowgunClick);
 	});
 
