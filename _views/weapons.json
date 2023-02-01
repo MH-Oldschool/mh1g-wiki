@@ -1570,13 +1570,13 @@
 							"forge":[
 								{"n":"Great Sword Ticket","q":10},
 								{"n":"Gypceros Coin","q":6},
-								{"n":"Gravios Coin","q":9},
+								{"n":"Basarios Coin","q":9},
 								{"n":"Plesioth Coin","q":11}
 							]
 						},
 						{
 							"rowClass":"g-rank",
-							"name":"<b>Tatsujin Blade</b>","gOnly":true,
+							"name":"<b>Expert Blade</b>","gOnly":true,
 							"rarity":6,
 							"damage":"960",
 							"defense":8,
@@ -1585,7 +1585,7 @@
 							"forge":[
 								{"n":"Silver Rathalos Claw","q":12},
 								{"n":"Gypceros Coin","q":6},
-								{"n":"Gravios Coin","q":9},
+								{"n":"Basarios Coin","q":9},
 								{"n":"Great Sword Ticket","q":10}
 							]
 						},
@@ -3044,7 +3044,7 @@
 								{"n":"Hammer Ticket","q":10},
 								{"n":"Kut-Ku Coin","q":10},
 								{"n":"Cephalos Coin","q":5},
-								{"n":"Gravios Coin","q":3}
+								{"n":"Basarios Coin","q":3}
 							]
 						},
 						{
@@ -6439,7 +6439,7 @@
 							"forge":[
 								{"n":"Sword and Shield Ticket","q":10},
 								{"n":"Cephalos Coin","q":6},
-								{"n":"Gravios Coin","q":9},
+								{"n":"Basarios Coin","q":9},
 								{"n":"Rathian Coin","q":10}
 							]
 						},
@@ -6454,7 +6454,7 @@
 							"forge":[
 								{"n":"Bone","q":10},
 								{"n":"Cephalos Coin","q":6},
-								{"n":"Gravios Coin","q":9},
+								{"n":"Basarios Coin","q":9},
 								{"n":"Sword and Shield Ticket","q":10}
 							]
 						},
