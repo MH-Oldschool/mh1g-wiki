@@ -928,14 +928,7 @@ ready(() => {
 
 		weaponSharpness.src = `images/${currentWeapon.sharpness}_${getMHVersion()}.gif`;
 	}
-	function populateGunnerCalculator(element) {
-		var selectedButton = document.querySelector(".weapon-button.selected");
-		if (selectedButton) {
-			selectedButton.classList.remove("selected");
-		}
-		element.classList.add("selected");
-
-		var weaponID = element.dataset.id;
+	function populateGunnerCalculator(weaponID) {
 		sidebarContent.className = "bowgun";
 		currentCategory = "bowguns";
 		currentWeapon = window.bowguns[weaponID];
@@ -1041,7 +1034,7 @@ ready(() => {
 	});
 
 	function handleBowgunClick(event) {
-		populateGunnerCalculator(event.target);
+		populateGunnerCalculator(event.target.value);
 	}
 	document.querySelectorAll("#ranged-weapons input[name=weapon]").forEach(function(element) {
 		element.addEventListener("click", handleBowgunClick);
