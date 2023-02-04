@@ -12865,6 +12865,20 @@
 						"rewards":[
 							{"name":"Flute","quantity":1,"percent":1}
 						]
+					},
+					{
+						"name":"Treasure Hunting!","icon":"white-icon pick-icon","hrp":"??","type":"??","area":"??",
+						"japanese":"トレジャーハンティング！",
+						"goal":"??","reward":"??","fee":"??","time":"??",
+						"details":"??","hrRequire":21,
+						"rewards":[
+							{"name":"Great Stone","quantity":1,"percent":1},
+							{"name":"Honey","quantity":5,"percent":29},
+							{"name":"Honey","quantity":10,"percent":15},
+							{"name":"Nutrient","quantity":3,"percent":30},
+							{"name":"Nutrient Great","quantity":2,"percent":20},
+							{"name":"Guild ticket","quantity":1,"percent":5}
+						]
 					}
 				]
 			},

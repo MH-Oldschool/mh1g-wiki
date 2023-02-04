@@ -1618,7 +1618,7 @@
 							]
 						},
 						{
-							"dev":true,
+							"dev":true,"gOnly":true,
 							"rowClass":"thunder-element",
 							"name":"Serial Edge",
 							"rarity":7,
@@ -3103,7 +3103,7 @@
 							]
 						},
 						{
-							"dev":true,
+							"dev":true,"gOnly":true,
 							"rowClass":"dragon-element mhg",
 							"name":"<b>Howling G</b>",
 							"rarity":5,
@@ -4813,7 +4813,7 @@
 							]
 						},
 						{
-							"dev":true,
+							"dev":true,"gOnly":true,
 							"rowClass":"fire-element mhg",
 							"name":"Doom",
 							"rarity":7,
@@ -5920,7 +5920,7 @@
 						{
 							"rowClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 							"branch":".g-knife-swords",
-							"name":"<b>Origin Knife G</b>","branchStart":true,
+							"name":"<b>Origin Knife G</b>","branchStart":true,"gOnly":true,
 							"rarity":4,
 							"damage":210,
 							"sharpness":"sharpness_sns/g_knife_origin",
@@ -6459,7 +6459,7 @@
 							]
 						},
 						{
-							"dev":true,
+							"dev":true,"gOnly":true,
 							"rowClass":"sleep-status",
 							"name":"Coma Stick",
 							"rarity":6,
@@ -7138,7 +7138,7 @@
 							]
 						},
 						{
-							"dev":true,
+							"dev":true,"gOnly":true,
 							"rowClass":"water-element",
 							"name":"Water Cutters",
 							"rarity":6,

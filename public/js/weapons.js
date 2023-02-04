@@ -926,7 +926,7 @@ ready(() => {
 			}
 		}, { once: true });
 
-		weaponSharpness.src = `images/${currentWeapon.sharpness}_${getMHVersion().toUpperCase()}.gif`;
+		weaponSharpness.src = `images/${currentWeapon.sharpness}_${getMHVersion()}.gif`;
 	}
 	function populateGunnerCalculator(element) {
 		var selectedButton = document.querySelector(".weapon-button.selected");
