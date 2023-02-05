@@ -427,7 +427,7 @@
 		},
 		{
 			"name": "Melynx", "kata": "メラルー", "rome": "Merarū",
-			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won&#8217;t pass up a chance to steal and take it to their village. Distracted by Felvine. <sub>[Monster Hunter (US)]</sub>",
+			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won't pass up a chance to steal and take it to their village. Distracted by Felvine. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "melynx",
 			"image": "melynx",
 			"stars1":{
@@ -2034,7 +2034,7 @@
 			"sizes":{"base":873.2,"silver":1030.4,"gold":1178.8},
 			"notes": [
 				"Found in jungles and swamps.",
-				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
+				"Able to climb on any surface, it's nearly impossible to dislodge while climbing."
 			]
 		},
 		{
@@ -2080,7 +2080,7 @@
 			"sizes":{"base":873.2,"silver":1030.4,"gold":1178.8},
 			"notes": [
 				"Found in jungles and swamps.",
-				"Able to climb on any surface, it&#8217;s nearly impossible to dislodge while climbing."
+				"Able to climb on any surface, it's nearly impossible to dislodge while climbing."
 			],
 			"gOnly": true
 		},
@@ -2174,7 +2174,7 @@
 		},
 		{
 			"name": "Green Plesioth", "kata": "ガノトトス亜種", "rome": "Ganototosu Ashu",
-			"description": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature&#8217;s movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land. <sub>[Monster Hunter 3U]</sub>",
+			"description": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature's movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "green-plesioth",
 			"image": "green_plesioth",
 			"starsG":{
@@ -2548,7 +2548,7 @@
 		},
 		{
 			"name": "Diablos", "kata": "ディアブロス", "rome": "Diaburosu",
-			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It&#8217;s confirmed that they have a subspecies called Monoblos. <sub>[Monster Hunter (US)]</sub>",
+			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It's confirmed that they have a subspecies called Monoblos. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "diablos",
 			"image": "diablos",
 			"stars1":{
@@ -3007,7 +3007,7 @@
 		},
 		{
 			"name": "Kirin", "kata": "キリン", "rome": "Kirin",
-			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It&#8217;s apparently capable of calling forth lightning at will. Its material is very valuable. <sub>[Monster Hunter (US)]</sub>",
+			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It's apparently capable of calling forth lightning at will. Its material is very valuable. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "kirin",
 			"stars1":{
