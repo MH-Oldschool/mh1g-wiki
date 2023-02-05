@@ -11440,7 +11440,7 @@
 				]
 			},
 			{
-				"stars": 7,"ranks":"24-27",
+				"stars": 7,"ranks":"24-26",
 				"quests":[
 					{
 						"name":"Attack of the Rathian","icon":"monster-icon monster-rathian","hrp":780,"type":"hunt","area":"Forest and Hills",
@@ -11958,7 +11958,7 @@
 				]
 			},
 			{
-				"stars": 8,"ranks":"28-30",
+				"stars": 8,"ranks":"27-30",
 				"quests":[
 					{
 						"name":"Queen of the Jungle","icon":"monster-icon monster-rathian","hrp":820,"type":"hunt","area":"Jungle",
