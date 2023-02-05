@@ -1012,7 +1012,7 @@
 		},
 		{"name":"Sm Barrel-Bomb+","class":"yellow-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Monster Juice","class":"cyan-icon jar-icon"},
+				{"name":"Monster Broth","class":"cyan-icon jar-icon"},
 				{"name":"Sm Barrel-Bomb","class":"yellow-icon barrel-bomb-icon"}
 			],
 			"percent":90
@@ -1026,7 +1026,7 @@
 		},
 		{"name":"Lg Barrel-Bomb+","class":"red-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Monster Juice","class":"cyan-icon jar-icon"},
+				{"name":"Monster Broth","class":"cyan-icon jar-icon"},
 				{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon"}
 			],
 			"percent":75
@@ -1537,7 +1537,7 @@
 			],
 			"percent":75
 		},
-		{"name":"Monster Juice","class":"cyan-icon jar-icon",
+		{"name":"Monster Broth","class":"cyan-icon jar-icon",
 			"ingredients":[
 				{"name":"Monster Fluid","class":"cyan-icon jar-icon"},
 				{"name":"Bitterbug","class":"blue-icon bug-icon"}
