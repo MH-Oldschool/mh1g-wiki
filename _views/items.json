@@ -859,7 +859,7 @@
 		{"name":"Power Juice","class":"yellow-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Raw Meat","class":"red-icon meat-icon"}
+				{"name":"Rare Steak","class":"orange-icon meat-icon"}
 			],
 			"percent":75
 		},
