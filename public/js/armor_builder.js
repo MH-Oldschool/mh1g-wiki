@@ -55,19 +55,27 @@ function ArmorBuilder(version, builderContainer) {
 	}
 
 	if (version == "1") {
-		function getArmorDataByName(category, armorName) {
-			for (var i = 0; i < this.armorData[category].length; i++) {
-				this.armorData[category];
+		const ARMOR_CATEGORIES = ["headgear","torso","arms","waist","legs"];
+		var getArmorDataByName = (category, armorName) => {
+			for (var i = 0; i < self.armorData[category].length; i++) {
+				if (self.armorData[category][i].name == armorName) {
+					var armorPiece = self.armorData[category][i];
+					armorPiece.index = i;
+					return armorPiece;
+				}
 			}
+
+			return {};
 		}
 
 		// Populate skillset popup
-		let skillSetRows = ArmorBuilder.SKILL_SETS.map((skillSet, index) => {
+		var skillSetRows = ArmorBuilder.SKILL_SETS.map((skillSet, index) => {
 			let armorSetRow = `<tr><td><button class="skill-set-button" data-index=${ index }>Equip &rarr;</button></td>`;
-			var armorName = "";
+			var armorPieceData = {};
 
 			for (let i = 0; i < 5; i++) {
-				armorSetRow += `<td>${ skillSet.armor[i] ? skillSet.armor[i] : "-" }</td>`
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[i], skillSet.armor[i]);
+				armorSetRow += `<td${ armorPieceData.rarity ? ' class="rarity-' + armorPieceData.rarity + '"' : "" }>${ skillSet.armor[i] ? skillSet.armor[i] : "-" }</td>`
 			}
 			for (let i = 0; i < 3; i++) {
 				armorSetRow += `<td>${ skillSet.skills[i] ? skillSet.skills[i] : "-" }</td>`;
@@ -81,55 +89,36 @@ function ArmorBuilder(version, builderContainer) {
 		function handleSkillSetButtonClick(event) {
 			// Assign full armor sets with skills for MH1
 			var skillSet = ArmorBuilder.SKILL_SETS[event.target.dataset.index];
+			var armorPieceData = {};
 
 			if (skillSet.armor[0].length !== 0) {
-				for (var i = 0; i < self.armorData.headgear.length; i++) {
-					if (self.armorData.headgear[i].name == skillSet.armor[0]) {
-						self.setHeadgear(self.armorData.headgear[i].index);
-						self.headgearRadios[i].checked = true;
-						break;
-					}
-				}
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[0], skillSet.armor[0]);
+				self.setHeadgear(self.armorData.headgear[armorPieceData.index].index);
+				self.headgearRadios[armorPieceData.index].checked = true;
 			}
 
 			if (skillSet.armor[1].length !== 0) {
-				for (var i = 0; i < self.armorData.torso.length; i++) {
-					if (self.armorData.torso[i].name == skillSet.armor[1]) {
-						self.setTorso(self.armorData.torso[i].index);
-						self.torsoRadios[i].checked = true;
-						break;
-					}
-				}
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[1], skillSet.armor[1]);
+				self.setTorso(self.armorData.torso[armorPieceData.index].index);
+				self.torsoRadios[armorPieceData.index].checked = true;
 			}
 
 			if (skillSet.armor[2].length !== 0) {
-				for (var i = 0; i < self.armorData.arms.length; i++) {
-					if (self.armorData.arms[i].name == skillSet.armor[2]) {
-						self.setArms(self.armorData.arms[i].index);
-						self.armsRadios[i].checked = true;
-						break;
-					}
-				}
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[2], skillSet.armor[2]);
+				self.setArms(self.armorData.arms[armorPieceData.index].index);
+				self.armsRadios[armorPieceData.index].checked = true;
 			}
 
 			if (skillSet.armor[3].length !== 0) {
-				for (var i = 0; i < self.armorData.waist.length; i++) {
-					if (self.armorData.waist[i].name == skillSet.armor[3]) {
-						self.setWaist(self.armorData.waist[i].index);
-						self.waistRadios[i].checked = true;
-						break;
-					}
-				}
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[3], skillSet.armor[3]);
+				self.setWaist(self.armorData.waist[armorPieceData.index].index);
+				self.waistRadios[armorPieceData.index].checked = true;
 			}
 
 			if (skillSet.armor[4].length !== 0) {
-				for (var i = 0; i < self.armorData.legs.length; i++) {
-					if (self.armorData.legs[i].name == skillSet.armor[4]) {
-						self.setLegs(self.armorData.legs[i].index);
-						self.legsRadios[i].checked = true;
-						break;
-					}
-				}
+				armorPieceData = getArmorDataByName(ARMOR_CATEGORIES[4], skillSet.armor[4]);
+				self.setLegs(self.armorData.legs[armorPieceData.index].index);
+				self.legsRadios[armorPieceData.index].checked = true;
 			}
 
 			self.updateArmorStats();
@@ -245,25 +234,25 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["Diablo Helm","Diablo Mail","Diablo Vambraces","",""],skills:["Anti-Wind"]},
 	{armor:["Diablo Cap","Diablo Vest","Diablo Guards","",""],skills:["Anti-Wind"]},
 	{armor:["","Vespoid Mail+","Vespoid Vambraces+","Vespoid Tasset+","Vespoid Greaves+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
-	{armor:["","Vespoid Vest+","Vespoid Guard+","Vespoid Coat+","Vespoid Leggings+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
+	{armor:["","Vespoid Vest+","Vespoid Guards+","Vespoid Coat+","Vespoid Leggings+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
 	{armor:["","Hornet Mail+","Hornet Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Poison Negated","Stun Negated"]},
-	{armor:["","Hornet Vest+","Hornet Guard+","Hornet Coat+","Hornet Leggings+"],skills:["Poison Negated","Stun Negated"]},
+	{armor:["","Hornet Vest+","Hornet Guards+","Hornet Coat+","Hornet Leggings+"],skills:["Poison Negated","Stun Negated"]},
 	{armor:["","Hi-Metal Mail+","Hi-Metal Vambraces+","Hi-Metal Tasset+","Hi-Metal Greaves+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
-	{armor:["","Hi-Metal Vest+","Hi-Metal Guard+","Hi-Metal Coat+","Hi-Metal Leggings+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
+	{armor:["","Hi-Metal Vest+","Hi-Metal Guards+","Hi-Metal Coat+","Hi-Metal Leggings+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
 	{armor:["","Khezu Mail+","Khezu Vambraces+","Khezu Tasset+","Khezu Greaves+"],skills:["Wide Area Potion","Anti-Heat","Faint x 2"]},
-	{armor:["","Khezu Vest+","Khezu Guard+","Khezu Coat+","Khezu Leggings+"],skills:["Wide Area Potion","Anti-Heat","Faint x 2"]},
+	{armor:["","Khezu Vest+","Khezu Guards+","Khezu Coat+","Khezu Leggings+"],skills:["Wide Area Potion","Anti-Heat","Faint x 2"]},
 	{armor:["Plesioth Helm+","Plesioth Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],skills:["Hunger Halved","Anti-Heat","Faint x 2"]},
-	{armor:["Plesioth Cap+","Plesioth Vest+","Plesioth Guard+","","Plesioth Leggings"],skills:["Hunger Halved","Anti-Heat","Faint x 2"]},
+	{armor:["Plesioth Cap+","Plesioth Vest+","Plesioth Guards+","","Plesioth Leggings+"],skills:["Hunger Halved","Anti-Heat","Faint x 2"]},
 	{armor:["Lobster Helm+","Lobster Mail+","Lobster Vambraces+","",""],skills:["Anti-Cold","Faint Halved"]},
-	{armor:["Lobster Helm+","Lobster Vest+","Lobster Guard+","",""],skills:["Anti-Cold","Faint Halved"]},
+	{armor:["Lobster Helm+","Lobster Vest+","Lobster Guards+","",""],skills:["Anti-Cold","Faint Halved"]},
 	{armor:["","Rathian Mail+","Rathian Vambraces+","Rathian Tasset+","Rathian Greaves+"],skills:["Provocation","Health + 30","Defense + 10"]},
-	{armor:["","Rathian Vest+","Rathian Guard+","Rathian Coat+","Rathian Leggings+"],skills:["Provocation","Health + 30","Defense + 10"]},
+	{armor:["","Rathian Vest+","Rathian Guards+","Rathian Coat+","Rathian Leggings+"],skills:["Provocation","Health + 30","Defense + 10"]},
 	{armor:["","Rathalos Mail+","Rathalos Vambraces+","Rathalos Tasset+","Rathalos Greaves+"],skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]},
-	{armor:["","Rathalos Vest+","Rathalos Guard+","Rathalos Coat+","Rathalos Leggings+"],skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]},
+	{armor:["","Rathalos Vest+","Rathalos Guards+","Rathalos Coat+","Rathalos Leggings+"],skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]},
 	{armor:["","Gravios Mail+","Gravios Vambraces+","Gravios Tasset+","Gravios Greaves+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
-	{armor:["","Gravios Vest+","Gravios Guard+","Gravios Coat+","Gravios Leggings+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
+	{armor:["","Gravios Vest+","Gravios Guards+","Gravios Coat+","Gravios Leggings+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
 	{armor:["Diablo Helm+","Diablo Mail+","Diablo Vambraces+","",""],skills:["Anti-Wind","Attack Up [S]","Hunger x 1.5"]},
-	{armor:["Diablo Cap+","Diablo Vest+","Diablo Guard+","",""],skills:["Anti-Wind","Attack Up [S]","Hunger x 1.5"]},
+	{armor:["Diablo Cap+","Diablo Vest+","Diablo Guards+","",""],skills:["Anti-Wind","Attack Up [S]","Hunger x 1.5"]},
 	{armor:["Dragonhead","Dragonhide","Dragonclaw","Dragonwings","Dragonfeet"],skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]},
 	{armor:["Dragonface","Dragonskin","Dragonfist","Dragontail","Dragonlegs"],skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]},
 	{armor:["Guild Knight Feather","Guild Knight Suit","Guild Knight Gloves","Guild Knight Coat","Guild Knight Boots"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
@@ -276,9 +265,9 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Glyph Tasset","Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
 	{armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Red Borealis Tasset","Red Borealis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
 	{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Red Glyph Tasset","Red Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
-	{armor:["Shinobi Mask [Sun]","Shinobi Suit [Sun]","Shinobi Kote [Sun]","Shinobi Belt [Sun]","Shinobi Boots [Sun]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-	{armor:["Shinobi Mask [Moon]","Shinobi Suit [Moon]","Shinobi Kote [Moon]","Shinobi Belt [Moon]","Shinobi Boots [Moon]"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-	{armor:["Moss Mask","Moss Breastplate","","",""],skills:["Hunger x 1.5"]},
+	{armor:["Shinobi Mask 'Sun'","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Shinobi Belt 'Sun'","Shinobi Boots 'Sun'"],skills:["Hunger Negated","Poison Negated","Stealth"]},
+	{armor:["Shinobi Mask 'Moon'","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Shinobi Belt 'Moon'","Shinobi Boots 'Moon'"],skills:["Hunger Negated","Poison Negated","Stealth"]},
+	{armor:["Mosswine Mask","Moss Breastplate","","",""],skills:["Hunger x 1.5"]},
 	{armor:["Leather Helm","Leather Armor","Leather Vambraces","Light Belt","Green Pants"],skills:["Toolsaver"]},
 	{armor:["","Chain Mail","Hunter's Vambraces","","Hunter's Greaves"],skills:["Defense + 5","Health + 10"]},
 	{armor:["","Chain Mail","Hunter's Guards","","Hunter's Leggings"],skills:["Defense + 5","Health + 10"]},
@@ -293,39 +282,39 @@ ArmorBuilder.SKILL_SETS = [
 	{armor:["Rathalos Helm","Rathian Mail","Rathalos Vambraces","Rathian Tasset","Rathalos Greaves"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
 	{armor:["Rathian Cap","Rathalos Vest","Rathian Guards","Rathalos Coat","Rathian Leggings"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
 	{armor:["Lobster Helm+","Lobster Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],skills:["Fire - 10","Water + 25","Sleep Halved"]},
-	{armor:["Plesioth Cap+","Lobster Vest+","Lobster Guard+","","Plesioth Leggings+"],skills:["Fire - 10","Water + 25","Sleep Halved"]},
+	{armor:["Plesioth Cap+","Lobster Vest+","Lobster Guards+","","Plesioth Leggings+"],skills:["Fire - 10","Water + 25","Sleep Halved"]},
 	{armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Ioprey Tasset","Gypceros Greaves"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guard+","Ioprey Coat","Gypceros Leggings"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
+	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Ioprey Coat","Gypceros Leggings"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
 	{armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Gypceros Tasset","Ioprey Greaves"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guard+","GypcerosCoat","Silver Metal Boots"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
+	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Gypceros Coat","Silver Boots"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
 	{armor:["","Khezu Mail+","Gravios Vambraces+","Gravios Tasset+","Khezu Greaves+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["","Khezu Vest+","Gravios Guard+","Gravios Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
+	{armor:["","Khezu Vest+","Gravios Guards+","Gravios Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
 	{armor:["","Gravios Mail+","Gravios Vambraces+","Khezu Tasset+","Khezu Greaves+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["","Gravios Vest+","Gravios Guard+","Khezu Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
+	{armor:["","Gravios Vest+","Gravios Guards+","Khezu Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
 	{armor:["Gypceros Helm","Khezu Mail+","Khezu Vambraces+","Gypceros Tasset","Gypceros Greaves"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
-	{armor:["Gypceros Cap","Khezu Vest+","Khezu Guard+","Gypceros Coat","Gypceros Leggings"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
+	{armor:["Gypceros Cap","Khezu Vest+","Khezu Guards+","Gypceros Coat","Gypceros Leggings"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
 	{armor:["Khezu Helm+","Gypceros Mail","Gypceros Vambraces","Khezu Tasset+","Khezu Greaves+"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
 	{armor:["Khezu Cap+","Gypceros Vest","Gypceros Guards","Khezu Coat+","Khezu Leggings+"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
 	// {armor:["Skull Face","Dragon Hide","Hunter's Vambraces","Velociprey Tasset","Rathalos Greaves"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
 	// {armor:["Skull Face","Dragon Skin","Hunter's Guards","Velociprey Coat","Rathalos Leggings"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
 	// {armor:["Skull Face","Monoblos Mail","Rathian Vambraces","Dragon Wing","Dragon Foot"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
 	// {armor:["Skull Face","Monoblos Vest","Rathian Guards","Dragon Tail","Dragon Legs"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
-	{armor:["Velociprey Helm","Auroros Mail","Shinobi Vambraces [Sun]","Auroros Tasset","Shinobi Greaves [Sun]"],skills:["Automatic Marking"]},
-	{armor:["Velociprey Cap","Genesis Vest","Shinobi Guard [Moon]","Genesis Coat","Shinobi Leggings [Moon]"],skills:["Automatic Marking"]},
-	{armor:["Borealis Helm","Shinobi Mail [Sun]","Shinobi Vambraces [Sun]","Ioprey Tasset","Borealis Greaves"],skills:["Automatic Marking"]},
-	{armor:["Glyph Cap","Shinobi Vest [Moon]","Shinobi Guard [Moon]","Ioprey Coat","Glyph Leggings"],skills:["Automatic Marking"]},
-	{armor:["Gravios Helm+","Velociprey Vest","Hunter's Vambraces","Hi-Metal Tasset+","Silver Metal Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
-	{armor:["Gravios Cap+","Velociprey Vest","Hunter's Guards","Hi-Metal Coat+","Silver Metal Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
+	{armor:["Velociprey Helm","Auroros Torso","Shinobi Kote 'Sun'","Auroros Tasset","Shinobi Boots 'Sun'"],skills:["Automatic Marking"]},
+	{armor:["Velociprey Cap","Genesis Torso","Shinobi Kote 'Moon'","Genesis Tasset","Shinobi Boots 'Moon'"],skills:["Automatic Marking"]},
+	{armor:["Borealis Crown","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Ioprey Tasset","Borealis Pants"],skills:["Automatic Marking"]},
+	{armor:["Glyph Crown","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Ioprey Coat","Glyph Pants"],skills:["Automatic Marking"]},
+	{armor:["Gravios Helm+","Velociprey Vest","Hunter's Vambraces","Hi-Metal Tasset+","Silver Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
+	{armor:["Gravios Cap+","Velociprey Vest","Hunter's Guards","Hi-Metal Coat+","Silver Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 	{armor:["Cephalos Helm","Hi-Metal Mail+","Cephalos Vambraces","Rathian Tasset","Velociprey Greaves"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 	{armor:["Cephalos Cap","Hi-Metal Mail+","Cephalos Guards","Rathian Tasset","Velociprey Leggings"],skills:["Automatic Marking","Provocation","Poison x 2"]},
 	{armor:["Plesioth Cap+","Cephalos Mail","Khezu Vambraces+","Cephalos Tasset","Khezu Greaves+"],skills:["Health Recovery Items Improved","Faint x 2"]},
-	{armor:["Plesioth Helm+","Cephalos Vest","Khezu Guard+","Cephalos Coat","Khezu Leggings+"],skills:["Health Recovery Items Improved","Faint x 2"]},
+	{armor:["Plesioth Helm+","Cephalos Vest","Khezu Guards+","Cephalos Coat","Khezu Leggings+"],skills:["Health Recovery Items Improved","Faint x 2"]},
 	{armor:["Velociprey Mask","Moss Breastplate","","Bone Coat",""],skills:["Faint Negated","Good Fortune"]},
 	{armor:["Monoblos Helm","Hornet Mail+","Rathian Vambraces","Hi-Metal Tasset+","Rathalos Greaves"],skills:["Good Fortune"]},
 	{armor:["Monoblos Helm","Hornet Vest+","Rathian Guards","Hi-Metal Coat+","Rathalos Leggings"],skills:["Good Fortune"]},
 	{armor:["","Vespoid Mail+","Hornet Vambraces+","Hornet Tasset+","Vespoid Greaves+"],skills:["Dragon + 25"]},
 	{armor:["","Vespoid Mail+","Vespoid Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Dragon + 25"]},
-	{armor:["","Vespoid Vest+","Hornet Guard+","Vespoid Coat+","Hornet Leggings+"],skills:["Dragon + 25"]}
+	{armor:["","Vespoid Vest+","Hornet Guards+","Vespoid Coat+","Hornet Leggings+"],skills:["Dragon + 25"]}
 ];
 ArmorBuilder.SKILL_LEVELS = {
 	"Health": [ -30,-20,-10,10,20,30 ], // Be sure to handle these special cases
