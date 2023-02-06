@@ -388,6 +388,7 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 /* Colored Icons */
 .pink-icon, .red-icon, .orange-icon, .yellow-icon, .green-icon,
 .cyan-icon, .blue-icon, .purple-icon, .white-icon, .gray-icon, .brown-icon {
+	image-rendering: pixelated;
 	overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
@@ -465,6 +466,7 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 /* There are more icons, not sure where to use 'em yet */
 
 .monster-icon {
+	image-rendering: pixelated;
 	position: relative;
 	background-image: url("/images/icon_sheets/monster_icons.png");
 	background-repeat: no-repeat;
@@ -524,6 +526,7 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 .monster-kim-raths { background-position: 0 -19.125rem }
 
 .ui-icon {
+	image-rendering: pixelated;
 	display: inline-block;
 	background-image: url("/images/icon_sheets/interface_icons.png");
 	background-repeat: no-repeat;
