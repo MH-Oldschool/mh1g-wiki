@@ -4090,7 +4090,7 @@
 				]
 			},
 			{
-				"stars": 4, "ranks": "13-15",
+				"stars": 4, "ranks": "13-16",
 				"quests":[
 					{
 						"name":"It's Party Time!","icon":"red-icon meat-icon","hrp":100,"type":"gather","area":"Forest and Hills",
@@ -4567,7 +4567,7 @@
 				]
 			},
 			{
-				"stars": 5, "ranks": "16-18",
+				"stars": 5, "ranks": "17-18",
 				"quests":[
 					{
 						"name":"Basarios: Unseen Peril","icon":"monster-icon monster-basarios","hrp":370,"type":"hunt","area":"Volcano",
