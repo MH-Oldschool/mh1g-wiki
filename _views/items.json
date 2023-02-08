@@ -1248,7 +1248,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":0,
-			"sell":2400
+			"sell":2400,
+			"mhg":true
 		},
 		{
 			"name":"Whetstone",
