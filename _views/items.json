@@ -3183,7 +3183,7 @@
 			"sell":650
 		},
 		{
-			"name":"Rathlos Carapace",
+			"name":"Rathalos Carapace",
 			"japanese":"火竜の堅殻",
 			"icon":"red-icon creature-icon",
 			"description":"Harder than a Rathalos shell, this material is also known as Gravite.",
@@ -7071,7 +7071,7 @@
 				{"items":["StrngGraviosWing","Solid Blos Horn","Hrd Monster Bone"]},
 				{"items":["Firecell Stone","Pale Khezu Steak","Gravios Carapace"]},
 				{"items":["Gt Lobstershell","Rthlos BrainStem","Rathalos Scale+"]},
-				{"items":["Azre Rthlos Scl+","Rathalos Scale+","Rathlos Carapace"]},
+				{"items":["Azre Rthlos Scl+","Rathalos Scale+","Rathalos Carapace"]},
 				{"items":["Pale Khezu Steak","Rathian Scale+","Rathian Carapace"]},
 				{"items":["Splendid Beak","Monster Broth","Hornet Bladefin"]},
 				{"items":["Long Kut-Ku Ear","Joiner Grasshppr","King Scarab"]},
