@@ -5,7 +5,7 @@
 	"subtitle": "<p>Names adjusted based on best guesses from <a href='https://gamefaqs.gamespot.com/ps2/914914-monster-hunter/faqs'>the Gamefaqs MH1 weapon trees</a> and <a href='https://monsterhunter.fandom.com/wiki/MHF1:_Weapons'>MHF1 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
 	"onWeapons": true,
 	"gToggle": true,
-	"matsToggle": true,
+	"expandToggle": true,
 	"greatswords":[
 		{
 			"group":"Iron Sword Group",
@@ -2800,7 +2800,7 @@
 							"sharpness":"sharpness_h/kut_ku_pick",
 							"price":"18,690",
 							"upgrade":[
-								{"n":"Bone","q":3},
+								{"n":"Hard Bone","q":3},
 								{"n":"Splendid Beak","q":6},
 								{"n":"Monster Broth","q":10}
 							]
@@ -2817,7 +2817,7 @@
 							"sharpness":"sharpness_h/kut_ku_pick+",
 							"price":"33,000",
 							"upgrade":[
-								{"n":"Bone","q":3},
+								{"n":"Hard Bone","q":3},
 								{"n":"Splendid Beak","q":12},
 								{"n":"Monster Broth","q":5}
 							]
@@ -7670,7 +7670,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 1 ","(1)","(1)"],"pellet":["(1)","(1)","(1)"],"crag":[" 1 ","(1)","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["3 ",""],"stun":[" 3 ",""],"sleep":[" 3 ",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"(1,800z) 900z",
 				"mats":[
 					{"n":"Iron Ore","q":4},
@@ -7688,7 +7688,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 ","(2)","(2)"],"pellet":[" 2 ","(2)","(2)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":2,"water":"","thunder":2,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"1,200z",
 				"mats":[
 					{"n":"Machalite Ore","q":4},
@@ -7706,7 +7706,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 ","(2)","(2)"],"pellet":[" 4 "," 4 ","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":"","water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"1,100z",
 				"mats":[
 					{"n":"Iron Ore","q":6},
@@ -7726,7 +7726,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 ","(2)","(2)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":"","water":"","thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"1,800z",
 				"mats":[
 					{"n":"Iron Ore","q":8},
@@ -7746,7 +7746,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 ","(2)","(2)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"2,400z",
 				"mats":[
 					{"n":"Iron Ore","q":10},
@@ -7766,7 +7766,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"tranq":2,"paint":2,"demon":"","armor":1,
 				"price":"2,500z",
 				"mats":[
 					{"n":"Rathian Scale","q":5},
@@ -7786,7 +7786,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"2,600z",
 				"mats":[
 					{"n":"Rathalos Shell","q":3},
@@ -7806,7 +7806,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":"","water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"2,200z",
 				"mats":[
 					{"n":"Cephalos Scale","q":5},
@@ -7827,7 +7827,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 2 "," 2 "," 2 "],"clust":[" 2 "," 2 ","(2)"],
 				"flame":"","water":"","thunder":"","dragon":1,
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"2,800z",
 				"mats":[
 					{"n":"Hornetaur Bladefin","q":5},
@@ -7848,7 +7848,7 @@
 				"normal":[" 6 "," 3 ","(6)"],"pierce":[" 2 "," 2 "," 2 "],"pellet":[" 2 "," 2 "," 2 "],"crag":[" 1 "," 1 "," 1 "],"clust":[" 1 "," 1 "," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"4,100z",
 				"mats":[
 					{"n":"Union Ore","q":5},
@@ -7869,7 +7869,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 "," 2 ","(2)"],"pellet":[" 2 "," 2 ","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"3,200z",
 				"mats":[
 					{"n":"Dragonite Ore","q":10},
@@ -7889,7 +7889,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":["(3)/ 3 "," 3 "],"pellet":["(3)/ 3 "," 3 "],"crag":["(1)/ 1 "," 1 "],"clust":["(1)/ 1 "," 1 "],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"4,000z",
 				"mats":[
 					{"n":"Gravios Carapace","q":3},
@@ -7910,7 +7910,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"tranq":2,"paint":2,"demon":"","armor":1,
 				"price":"3,750z",
 				"mats":[
 					{"n":"Dragonite Ore","q":5},
@@ -7931,7 +7931,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"3,900z",
 				"mats":[
 					{"n":"Dragonite Ore","q":5},
@@ -7952,7 +7952,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 ","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"1,650z",
 				"mats":[
 					{"n":"Dragonite Ore","q":6},
@@ -7973,7 +7973,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"2,700z",
 				"mats":[
 					{"n":"Dragonite Ore","q":8},
@@ -7994,7 +7994,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"3,600z",
 				"mats":[
 					{"n":"Dragonite Ore","q":10},
@@ -8015,7 +8015,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":"","water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"3,300z",
 				"mats":[
 					{"n":"Dragonite Ore","q":5},
@@ -8035,7 +8035,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 3 "," 3 "," 3 "],"clust":[" 3 "," 3 "," 3 "],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[""," 3 "],"poison":[""," 1 "],"stun":[""," 1 "],"sleep":[""," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"1,000z",
 				"mats":[
 					{"n":"Ruststone (LBG)","q":1}
@@ -8053,7 +8053,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"4,500z",
 				"mats":[
 					{"n":"Lost Umbrella","q":1},
@@ -8073,7 +8073,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":[" 2 ","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"3,000z",
 				"mats":[
 					{"n":"Azure Rathalos Shell","q":5},
@@ -8094,7 +8094,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":[" 2 ","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"4,500z",
 				"mats":[
 					{"n":"Azure Rathalos Plate","q":1},
@@ -8114,7 +8114,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[ "4 ","(4)","(4)"],"pellet":[" 6 ","(6)","(6)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"3,000z",
 				"mats":[
 					{"n":"Gunner Ticket","q":10},
@@ -8134,7 +8134,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1"],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,000z",
 				"mats":[
 					{"n":"Platinum Ticket","q":5},
@@ -8154,7 +8154,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"tranq":2,"paint":2,"demon":"","armor":1,
 				"price":"5,500z",
 				"mats":[
 					{"n":"Rathian Scale+","q":5},
@@ -8175,7 +8175,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"5,700z",
 				"mats":[
 					{"n":"Rathalos Cortex","q":3},
@@ -8196,7 +8196,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,150z",
 				"mats":[
 					{"n":"Rathalos Ruby","q":1},
@@ -8217,7 +8217,7 @@
 				"normal":[" 6 "," 3 ","(6)"],"pierce":[" 2 "," 2 "," 2 "],"pellet":[" 2 "," 2 "," 2 "],"crag":[" 1 "," 1 "," 1 "],"clust":[" 1 "," 1 "," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,050z",
 				"mats":[
 					{"n":"Plesioth Top Fin","q":4},
@@ -8238,7 +8238,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":"","water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"4,800z",
 				"mats":[
 					{"n":"Cephalos Top Fin","q":4},
@@ -8259,7 +8259,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 "," 2 ","(2)"],"pellet":[" 2 "," 2 ","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"4,150z",
 				"mats":[
 					{"n":"Gravios Tears","q":1},
@@ -8280,7 +8280,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":["(3)/ 3 "," 3 "],"pellet":["(3)/ 3 "," 3 "],"crag":["(1)/ 1 "," 1 "],"clust":["(1)/ 1 "," 1 "],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"5,800z",
 				"mats":[
 					{"n":"Gravios Heavy Shell","q":3},
@@ -8301,7 +8301,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":["(3)/ 3 ","(3)"],"pellet":["(4)/ 4 ","(4)"],"crag":["(1)/ 1 ","(1)"],"clust":["(1)/ 1 ","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":["",""],"poison":[""," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"5,600z",
 				"mats":[
 					{"n":"Small Beak","q":2},
@@ -8322,7 +8322,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[ "4 ","(4)","(4)"],"pellet":[" 6 ","(6)","(6)"],"crag":[" 3 ","(3)","(3)"],"clust":[" 3 ","(3)","(3)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"5,000z",
 				"mats":[
 					{"n":"Inferno Sac","q":3},
@@ -8343,7 +8343,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 "," 1 "," 1 "],"clust":["(1)","(1)","(1)"],
 				"flame":"","water":"","thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"5,350z",
 				"mats":[
 					{"n":"Khezu Hide - Tan","q":3},
@@ -8364,7 +8364,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 ","(4)"],"pellet":[" 2 ","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"tranq":2,"paint":2,"demon":"","armor":1,
 				"price":"7,000z",
 				"mats":[
 					{"n":"Rathian Scale","q":5},
@@ -8385,7 +8385,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 ","(4)"],"pellet":[" 2 ","(2)","(2)"],"crag":[" 2 "," 2 ","(2)"],"clust":[" 2 "," 2 ","(2)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":["",""],"stun":["",""],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":1,
+				"tranq":2,"paint":2,"demon":"","armor":1,
 				"price":"7,900z",
 				"mats":[
 					{"n":"Gold Rathian Plate","q":1},
@@ -8406,7 +8406,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":["(2)","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"7,250z",
 				"mats":[
 					{"n":"Azure Rathalos Cortex","q":3},
@@ -8427,7 +8427,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 6 "," 6 "," 6 "],"pellet":["(2)","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"9,000z",
 				"mats":[
 					{"n":"Silver Rathalos Plate","q":1},
@@ -8448,7 +8448,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":[" 2 ","(2)","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"8,400z",
 				"mats":[
 					{"n":"Azure Rathalos Ruby","q":1},
@@ -8469,7 +8469,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 6 "," 6 "," 6 "],"pellet":[" 2 ","(2)","(2)"],"crag":[" 2 "," 2 ","(2)"],"clust":[" 2 "," 2 ","(2)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"11,450z",
 				"mats":[
 					{"n":"Silver Rathalos Ruby","q":1},
@@ -8490,7 +8490,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"5,000z",
 				"mats":[
 					{"n":"Giaprey Shard","q":10},
@@ -8511,7 +8511,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":6,"water":6,"thunder":6,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,150z",
 				"mats":[
 					{"n":"Coral Cephalos Fin","q":4},
@@ -8532,7 +8532,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":["(4)/ 4 "," 4 "],"pellet":["(4)/ 4 "," 4 "],"crag":["(1)/ 1 "," 1 "],"clust":["(1)/ 1 "," 1"],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":["",""],"poison":[" 3 "," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"7,400z",
 				"mats":[
 					{"n":"Black Gravios Carapace","q":3},
@@ -8553,7 +8553,7 @@
 				"normal":[" 3 "," 3 "," 6 "],"pierce":["(2)/ 2 ","(2)"],"pellet":["(2)/ 2 ","(2)"],"crag":["(1)/ 1 ","(1)"],"clust":["(1)/ 1 ","(1)"],
 				"flame":2,"water":"","thunder":"","dragon":"",
 				"recover":["",""],"poison":[""," 1 "],"stun":["",""],"sleep":["",""],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"7,100z",
 				"mats":[
 					{"n":"Small Beak","q":2},
@@ -8574,7 +8574,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 3 "," 3 "," 3 "],"clust":[" 3 "," 3 "," 3 "],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[""," 3 "],"poison":[""," 1 "],"stun":[""," 1 "],"sleep":[""," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,600z",
 				"mats":[
 					{"n":"Ancient Shard (LBG)","q":1}
@@ -8592,7 +8592,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":1,
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"7,500z",
 				"mats":[
 					{"n":"Fatalis' Rigid Wing","q":1},
@@ -8613,7 +8613,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[ "2 "," 2 "," 2 "],"clust":["(2)","(2)","(2)"],
 				"flame":"","water":"","thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,850z",
 				"mats":[
 					{"n":"Alluring Hide","q":3},
@@ -8634,7 +8634,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 6 "," 6 "," 6 "],"pellet":[" 2 ","(2)","(2)"],"crag":[" 2 "," 2 ","(2)"],"clust":[" 2 "," 2 ","(2)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"-----"
 			}
 		],
@@ -8650,7 +8650,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" - "," - "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"(2,800z) 1,400z",
 				"mats":[
 					{"n":"Iron Ore","q":10},
@@ -8668,7 +8668,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 "," 3 ","(3)"],"pellet":[" 4 "," 4 ","(4)"],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":3,"water":3,"thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" - "," - "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"2,000z",
 				"mats":[
 					{"n":"Machalite Ore","q":1},
@@ -8688,7 +8688,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"2,800z",
 				"mats":[
 					{"n":"Rubbery Hide","q":10},
@@ -8706,7 +8706,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"2,600z",
 				"mats":[
 					{"n":"Machalite Ore","q":5},
@@ -8727,7 +8727,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":["(2)","(2)","(2)"],"crag":[" 1 "," 1 "," 1 "],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"4,500z",
 				"mats":[
 					{"n":"Firestone","q":2},
@@ -8747,7 +8747,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":["(3)"," 3 ","(3)"],"pellet":["(4)"," 4 ","(4)"],"crag":["(1)"," 1 ","(1)"],"clust":["(1)"," 1 ","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"8,000z",
 				"mats":[
 					{"n":"Dragonite Ore","q":5},
@@ -8768,7 +8768,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 "," 1 "," 1 "],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":1,
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"6,400z",
 				"mats":[
 					{"n":"Dragonite Ore","q":10},
@@ -8789,7 +8789,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 "," 2 ","(2)"],"pellet":[" 2 "," 2 ","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":"","thunder":"","dragon":1,
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"6,800z",
 				"mats":[
 					{"n":"Vespoid Abdomen","q":1},
@@ -8810,7 +8810,7 @@
 				"normal":[" 3 "," 6 "," 6 "],"pierce":[" 1 "," 1 "," 1 "],"pellet":["(1)","(1)","(1)"],"crag":["(2)","(2)","(2)"],"clust":["(2)","(2)","(2)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"8,500z",
 				"mats":[
 					{"n":"Diablos Spine","q":5},
@@ -8831,7 +8831,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":["(4)"," 4 ","(4)"],"crag":["(1)"," 1 ","(1)"],"clust":["(1)"," 1 ","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"7,500z",
 				"mats":[
 					{"n":"Kirin Mane","q":8},
@@ -8852,7 +8852,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 "," 1 "],"clust":[" 1 "," 1 "," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"9,000z",
 				"mats":[
 					{"n":"Fatalis' Horn","q":2},
@@ -8873,7 +8873,7 @@
 				"normal":["(6)"," 6 "," 9 "],"pierce":["(3)","(3)"," 3 "],"pellet":["(4)","(4)"," 4 "],"crag":["(1)","(1)"," 1 "],"clust":["(1)","(1)"," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"12,000z",
 				"mats":[
 					{"n":"Rathalos Plate","q":3},
@@ -8893,7 +8893,7 @@
 				"normal":[" 3 "," 6 "," 6 "],"pierce":[" 1 "," 1 "," 1 "],"pellet":[" 1 "," 1 "," 1 "],"crag":["(2)","(2)","(2)"],"clust":["(2)","(2)","(2)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"6,100z",
 				"mats":[
 					{"n":"White Monoblos Spine","q":5},
@@ -8913,7 +8913,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 ","(4)","(4)"],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 ","(1)","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" - "," - "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"10,000z",
 				"mats":[
 					{"n":"Platinum Ticket","q":5},
@@ -8933,7 +8933,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 4 "," 4 "," 4 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"7,000z",
 				"mats":[
 					{"n":"Rubbery Hide+","q":10},
@@ -8952,7 +8952,7 @@
 				"normal":[" 3 "," 6 "," 6 "],"pierce":[" 1 "," 1 "," 1 "],"pellet":["(1)","(1)","(1)"],"crag":["(2)","(2)","(2)"],"clust":["(2)","(2)","(2)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"12,500z",
 				"mats":[
 					{"n":"Diablos Thoracic","q":5},
@@ -8973,7 +8973,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":["(3)"," 3 ","(3)"],"pellet":["(4)"," 4 ","(4)"],"crag":["(1)"," 1 ","(1)"],"clust":["(1)"," 1 ","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"11,750z",
 				"mats":[
 					{"n":"Long Kut-Ku Ear","q":2},
@@ -8994,7 +8994,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 2 "," 2 ","(2)"],"pellet":[" 2 "," 2 ","(2)"],"crag":[" 1 "," 1 ","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":"","water":"","thunder":"","dragon":1,
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":1,"antidote":"",
+				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"10,000z",
 				"mats":[
 					{"n":"Vespoid Carapace","q":10},
@@ -9015,7 +9015,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":["(3)"," 3 "," 3 "],"pellet":["(3)"," 3 "," 3 "],"crag":["(1)"," 1 "," 1 "],"clust":["(1)"," 1 "," 1 "],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"12,000z",
 				"mats":[
 					{"n":"Gravios Jaw","q":3},
@@ -9036,7 +9036,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":["(4)"," 4 "," 4 "],"pellet":["(4)"," 4 "," 4 "],"crag":["(1)"," 1 "," 1 "],"clust":["(1)"," 1 "," 1 "],
 				"flame":3,"water":"","thunder":3,"dragon":"",
 				"recover":[" - "," - "],"poison":[" 3 "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"14,400z",
 				"mats":[
 					{"n":"Black Gravios Head","q":3},
@@ -9057,7 +9057,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":["(3)"," 3 ","(3)"],"pellet":["(4)"," 4 ","(4)"],"crag":["(1)"," 1 ","(1)"],"clust":["(1)"," 1 ","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"14,100z",
 				"mats":[
 					{"n":"Blue Kut-Ku Ear","q":2},
@@ -9078,7 +9078,7 @@
 				"normal":[" 6 "," 6 ","(9)"],"pierce":[" 3 ","(3)","(3)"],"pellet":[" 6 "," 6 "," 6 "],"crag":[" 1 ","(1)","(1)"],"clust":[" 1 "," 1 ","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," 3 "],"poison":[" 3 "," 1 "],"stun":[" 3 "," 1 "],"sleep":[" 3 "," 1 "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"8,400z",
 				"mats":[
 					{"n":"Purple Rubbery Hide","q":10},
@@ -9098,7 +9098,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 ","(3)"],"pellet":["(4)"," 4 ","(4)"],"crag":["(1)"," 1 ","(1)"],"clust":["(1)"," 1 ","(1)"],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":1,"antidote":1,
+				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"11,250z",
 				"mats":[
 					{"n":"Kirin Thunder Tail","q":2},
@@ -9119,7 +9119,7 @@
 				"normal":[" 3 "," 6 "," 6 "],"pierce":[" 1 "," 1 "," 1 "],"pellet":[" 1 "," 1 "," 1 "],"crag":["(2)","(2)","(2)"],"clust":["(2)","(2)","(2)"],
 				"flame":"","water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"9,000z",
 				"mats":[
 					{"n":"Robust Twisted Horn","q":2},
@@ -9140,7 +9140,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 4 "," 4 "," 4 "],"pellet":["(2)","(2)","(2)"],"crag":[" 1 "," 1 "," 1 "],"clust":["(1)","(1)","(1)"],
 				"flame":3,"water":"","thunder":"","dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"9,000z",
 				"mats":[
 					{"n":"Firecell Stone","q":3},
@@ -9161,7 +9161,7 @@
 				"normal":[" 6 "," 6 "," 9 "],"pierce":[" 3 "," 3 "," 3 "],"pellet":["(4)","(4)","(4)"],"crag":[" 1 "," 1 "," 1 "],"clust":[" 1 "," 1 "," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"13,750z",
 				"mats":[
 					{"n":"Fatalis' Heavy Shell","q":2},
@@ -9182,7 +9182,7 @@
 				"normal":[" 9 "," 9 ","12"],"pierce":[" 6 "," 6 "," 6 "],"pellet":["(6)","(6)","(6)"],"crag":[" 2 "," 2 "," 2 "],"clust":[" 2 "," 2 "," 2 "],
 				"flame":6,"water":6,"thunder":6,"dragon":"",
 				"recover":[" 3 "," - "],"poison":[" 3 "," - "],"stun":[" 3 "," - "],"sleep":[" 3 "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"16,500z",
 				"mats":[
 					{"n":"Fatalis' Crimson Shell","q":2},
@@ -9203,7 +9203,7 @@
 				"normal":["(6)"," 6 "," 9 "],"pierce":["(3)","(3)"," 3 "],"pellet":["(4)","(4)"," 4 "],"crag":["(1)","(1)"," 1 "],"clust":["(1)","(1)"," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"17,500z",
 				"mats":[
 					{"n":"Lao-Shan Ruby","q":1},
@@ -9224,7 +9224,7 @@
 				"normal":["(6)"," 6 "," 9 "],"pierce":["(3)","(3)"," 3 "],"pellet":["(4)","(4)"," 4 "],"crag":["(1)","(1)"," 1 "],"clust":["(1)","(1)"," 1 "],
 				"flame":3,"water":3,"thunder":3,"dragon":"",
 				"recover":[" - "," - "],"poison":[" - "," 1 "],"stun":[" - "," - "],"sleep":[" - "," - "],
-				"tranq":2,"paint":2,"demon":"","antidote":"",
+				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"25,000z",
 				"mats":[
 					{"n":"Azure Lao-Shan Plate","q":1},

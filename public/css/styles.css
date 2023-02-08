@@ -551,13 +551,13 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 	background-position: -5rem -13.5rem;
 }
 
-td.materials {
+td.expandable {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	max-width: 13rem;
 }
-td.materials.full-details {
+td.expandable.full-details {
 	white-space: normal;
 }
 

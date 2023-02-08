@@ -14,13 +14,12 @@ thead {
 }
 
 .japanese {
-	opacity: 0;
+	display: none;
 	font-weight: normal;
 	font-size: 1rem;
-	transition: 300ms;
 }
 summary:hover .japanese {
-	opacity: 1;
+	display: inline;
 }
 
 .quest-body {

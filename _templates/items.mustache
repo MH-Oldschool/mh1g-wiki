@@ -1,5 +1,44 @@
 {{> head}}
 
+<article class="items">
+	<details>
+		<summary><span class="blue-icon tools-icon"></span>Items and Materials</summary>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Maximum Stack</th>
+						<th>Rarity</th>
+						<th>Buying Price</th>
+						<th>Sell Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#items}}
+					{{^hide}}
+						<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+							<td>
+								<span class="{{icon}}"></span>
+								<span>{{&name}}{{#mh1}} <sup>1</sup>{{/mh1}}{{#mhg}} <sup>G</sup>{{/mhg}}</span>
+							</td>
+							<td class="expandable">{{description}}</td>
+							<td>
+								{{maxStack}}
+								{{#maxStack1}}<span class="mh1">{{maxStack1}}</span>{{/maxStack1}}
+								{{#maxStackG}}<span class="mhg">{{maxStackG}}</span>{{/maxStackG}}
+							</td>
+							<td>{{rarity}}</td>
+							<td>{{buy}}z</td>
+							<td>{{sell}}z</td>
+						</tr>
+					{{/hide}}
+					{{/items}}
+				</tbody>
+			</table>
+	</details>
+</article>
+
 <article class="shops">
 	<details>
 		<summary><span class="orange-icon coin-icon"></span>Shops</summary>
@@ -17,7 +56,7 @@
 						<tbody>
 							{{#stock}}
 								<tr class="{{#mhg}}mhg{{/mhg}}{{#special}} shop-special{{/special}}">
-									<td><span class="{{class}}"></span>{{&name}}</td>
+									<td><span class="{{class}}"></span><span>{{&name}}</span></td>
 									<td>
 										{{price}}
 										{{#mh1Price}}<span class="mh1">{{mh1Price}}{{/mh1Price}}</span>

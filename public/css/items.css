@@ -1,3 +1,17 @@
+.items td {
+	text-align: right;
+}
+.items td:first-child,
+.items td:nth-child(2) {
+	text-align: left;
+}
+.items td:first-child {
+	width: 12rem;
+}
+.items td.expandable {
+	max-width: none;
+}
+
 .shops caption {
 	font-size: 1.125rem;
 	line-height: 1.5;
