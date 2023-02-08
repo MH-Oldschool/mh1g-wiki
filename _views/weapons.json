@@ -100,7 +100,7 @@
 								{"n":"Silver Ticket","q":10},
 								{"n":"Lao-Shan Scale","q":1},
 								{"n":"Vespoid Bladefin","q":1},
-								{"n":"Hornetaur Bladefin","q":1}
+								{"n":"Hornet Bladefin","q":1}
 							]
 						}
 					]
@@ -486,8 +486,8 @@
 							"sharpness":"sharpness_gs/auberon",
 							"price":"31,250",
 							"upgrade":[
-								{"n":"Azure Rathalos Shell","q":5},
-								{"n":"Azure Rathalos Scale","q":8},
+								{"n":"Azure Rthlos Shl","q":5},
+								{"n":"Azure Rthlos Scl","q":8},
 								{"n":"Monster Broth","q":3}
 							]
 						}
@@ -522,7 +522,7 @@
 							"sharpness":"sharpness_gs/titania",
 							"price":"31,250",
 							"upgrade":[
-								{"n":"Silver Horn","q":2},
+								{"n":"Wht Monoblos Hrn","q":2},
 								{"n":"Pink Rathian Shell","q":10},
 								{"n":"Monster Broth","q":5}
 							]
@@ -729,7 +729,7 @@
 							"sharpness":"sharpness_gs/black_katana_1",
 							"price":"4,350",
 							"upgrade":[
-								{"n":"Hornetaur Bladefin","q":2},
+								{"n":"Hornet Bladefin","q":2},
 								{"n":"Hornetaur Shell","q":5},
 								{"n":"Demondrug","q":1}
 							]
@@ -742,7 +742,7 @@
 							"sharpness":"sharpness_gs/black_katana_2",
 							"price":"5,850",
 							"upgrade":[
-								{"n":"Hornetaur Bladefin","q":5},
+								{"n":"Hornet Bladefin","q":5},
 								{"n":"Hornetaur Shell","q":10},
 								{"n":"Mega Demondrug","q":1}
 							]
@@ -819,7 +819,7 @@
 							"sharpness":"sharpness_gs/smolder_dragonsword",
 							"price":"250,000",
 							"upgrade":[
-								{"n":"Azure Lao-Shan Horn","q":5},
+								{"n":"Azure LaoS Horn","q":5},
 								{"n":"Commendation","q":5},
 								{"n":"Joiner Grasshopper","q":20}
 							]
@@ -986,8 +986,8 @@
 							"sharpness":"sharpness_gs/executioners_axe",
 							"price":"48,000",
 							"upgrade":[
-								{"n":"White Monoblos Spine","q":5},
-								{"n":"White Monoblos Shell","q":5},
+								{"n":"Wht Monoblos Spn","q":5},
+								{"n":"Wht Monoblos Shl","q":5},
 								{"n":"Joiner Grasshopper","q":10}
 							]
 						}
@@ -1022,7 +1022,7 @@
 							"sharpness":"sharpness_gs/sickle_sword",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Master&#8217s Skull","q":3},
+								{"n":"Master's Skull","q":3},
 								{"n":"Unknown Skull","q":10},
 								{"n":"Joiner Grasshopper","q":3}
 							]
@@ -1038,7 +1038,7 @@
 							"sharpness":"sharpness_gs/tormentor",
 							"price":"15,750",
 							"upgrade":[
-								{"n":"Master&#8217s Skull","q":1},
+								{"n":"Master's Skull","q":1},
 								{"n":"Unknown Skull","q":5},
 								{"n":"Union Ore","q":3}
 							]
@@ -1153,7 +1153,7 @@
 							"upgrade":[
 								{"n":"Platinum Ticket","q":5},
 								{"n":"Wyvern Fang","q":99},
-								{"n":"Azure Lao-Shan Horn","q":2}
+								{"n":"Azure LaoS Horn","q":2}
 							]
 						}
 					]
@@ -1287,8 +1287,8 @@
 							"sharpness":"sharpness_gs/kaiser_sword",
 							"price":"75,000",
 							"upgrade":[
-								{"n":"Azure Rathalos Carapace","q":2},
-								{"n":"Azure Rathalos Scale","q":5},
+								{"n":"Azure Rthlos Cpc","q":2},
+								{"n":"Azure Rthlos Scl","q":5},
 								{"n":"Monster Broth","q":3}
 							]
 						},
@@ -1301,9 +1301,9 @@
 							"sharpness":"sharpness_gs/pale_kaiser",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Azure Rathalos Carapace","q":3},
-								{"n":"Azure Rathalos Scale","q":3},
-								{"n":"Azure Rathalos Plate","q":2}
+								{"n":"Azure Rthlos Cpc","q":3},
+								{"n":"Azure Rthlos Scl","q":3},
+								{"n":"Azre Rthls Plate","q":2}
 							]
 						}
 					]
@@ -1358,9 +1358,9 @@
 							"sharpness":"sharpness_gs/shining_rathalos_sword",
 							"price":"250,000",
 							"upgrade":[
-								{"n":"Azure Rathalos Ruby","q":1},
+								{"n":"Azure Rthlos Rby","q":1},
 								{"n":"Inferno Sac","q":5},
-								{"n":"Azure Rathalos Scale","q":4}
+								{"n":"Azure Rthlos Scl","q":4}
 							]
 						}
 					]
@@ -1434,7 +1434,7 @@
 							"sharpness":"sharpness_gs/chrome_death_razor",
 							"price":"250,000",
 							"upgrade":[
-								{"n":"Azure Lao-Shan Horn","q":1},
+								{"n":"Azure LaoS Horn","q":1},
 								{"n":"Rathalos Plate","q":4},
 								{"n":"Rathian Plate","q":4}
 							]
@@ -1568,7 +1568,7 @@
 							"sharpness":"sharpness_gs/black_belt_blade",
 							"price":"14,550",
 							"forge":[
-								{"n":"Great Sword Ticket","q":10},
+								{"n":"Grt Sword Ticket","q":10},
 								{"n":"Gypceros Coin","q":6},
 								{"n":"Basarios Coin","q":9},
 								{"n":"Plesioth Coin","q":11}
@@ -1583,10 +1583,10 @@
 							"sharpness":"sharpness_gs/tatsujin_blade",
 							"price":"20,550",
 							"forge":[
-								{"n":"Silver Rathalos Claw","q":12},
+								{"n":"Slvr Rthalos Clw","q":12},
 								{"n":"Gypceros Coin","q":6},
 								{"n":"Basarios Coin","q":9},
-								{"n":"Great Sword Ticket","q":10}
+								{"n":"Grt Sword Ticket","q":10}
 							]
 						},
 						{
@@ -2307,8 +2307,8 @@
 							"sharpness":"sharpness_h/torment_purgatory",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Black Gravios Shell","q":14},
-								{"n":"Black Gravios Head","q":1},
+								{"n":"Blk Gravios Shl","q":14},
+								{"n":"Blk Gravios Head","q":1},
 								{"n":"Firecell Stone","q":9}
 							]
 						}
@@ -2328,7 +2328,7 @@
 							"price":"48,000",
 							"upgrade":[
 								{"n":"Gravios Carapace","q":10},
-								{"n":"Gravios Heavy Shell","q":5},
+								{"n":"GraviosHeavyShl","q":5},
 								{"n":"Toxin Sac","q":9}
 							]
 						}
@@ -2875,8 +2875,8 @@
 							"sharpness":"sharpness_h/dragon_demolisher",
 							"price":"200,000",
 							"upgrade":[
-								{"n":"Azure Lao-Shan Claw","q":3},
-								{"n":"Azure Lao-Shan Plate","q":1},
+								{"n":"Azure LaoS Claw","q":3},
+								{"n":"Azure LaoS Plate","q":1},
 								{"n":"Purecrystal","q":3}
 							]
 						}
@@ -3056,7 +3056,7 @@
 							"sharpness":"sharpness_h/expert_hammer",
 							"price":"25,410",
 							"forge":[
-								{"n":"Silver Rathalos Shell","q":8},
+								{"n":"Slvr Rthalos Shl","q":8},
 								{"n":"Kut-Ku Coin","q":5},
 								{"n":"Cephalos Coin","q":6},
 								{"n":"Hammer Ticket","q":10}
@@ -3455,8 +3455,8 @@
 							"sharpness":"sharpness_l/ceramic_blos_lance",
 							"price":"31,250",
 							"upgrade":[
-								{"n":"Silver Horn","q":1},
-								{"n":"White Monoblos Spine","q":5},
+								{"n":"Wht Monoblos Hrn","q":1},
+								{"n":"Wht Monoblos Spn","q":5},
 								{"n":"Monster Broth","q":4}
 							]
 						}
@@ -3900,7 +3900,7 @@
 							"price":"7,590",
 							"forge":[
 								{"n":"Hornetaur Head","q":3},
-								{"n":"Hornetaur Bladefin","q":3},
+								{"n":"Hornet Bladefin","q":3},
 								{"n":"Hornetaur Shell","q":5},
 								{"n":"Stun Sac","q":3}
 							]
@@ -4166,12 +4166,12 @@
 							"price":"7,590",
 							"forge":[
 								{"n":"Hornetaur Head","q":2},
-								{"n":"Hornetaur Bladefin","q":1},
+								{"n":"Hornet Bladefin","q":1},
 								{"n":"Stun Sac","q":3}
 							],
 							"upgradeG":[
 								{"n":"Hornetaur Head","q":3},
-								{"n":"Hornetaur Bladefin","q":3},
+								{"n":"Hornet Bladefin","q":3},
 								{"n":"Hornetaur Shell","q":5},
 								{"n":"Stun Sac","q":3}
 							]
@@ -4219,7 +4219,7 @@
 							"sharpness":"sharpness_l/dark",
 							"price":"48,000",
 							"upgrade":[
-								{"n":"Hornetaur Razorwing","q":5},
+								{"n":"Hornet Razorwing","q":5},
 								{"n":"King Scarab","q":4},
 								{"n":"Paralysis Sac","q":5}
 							]
@@ -4397,9 +4397,9 @@
 							"sharpness":"sharpness_l/blue_prominence",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Azure Rathalos Carapace","q":6},
+								{"n":"Azure Rthlos Cpc","q":6},
 								{"n":"Rathalos Marrow","q":5},
-								{"n":"Azure Rathalos Ruby","q":1}
+								{"n":"Azure Rthlos Rby","q":1}
 							]
 						}
 					]
@@ -4435,7 +4435,7 @@
 							"price":"140,000",
 							"upgrade":[
 								{"n":"Robust Twisted Horn","q":1},
-								{"n":"White Monoblos Spine","q":8},
+								{"n":"Wht Monoblos Spn","q":8},
 								{"n":"Green Plesioth Scale","q":10}
 							]
 						}
@@ -4451,9 +4451,9 @@
 							"sharpness":"sharpness_l/black_tempest",
 							"price":"100,000",
 							"upgrade":[
-								{"n":"Black Diablos Spine","q":3},
+								{"n":"Black Blos Spine","q":3},
 								{"n":"Ancient Potion","q":1},
-								{"n":"Black Twisted Horn","q":1}
+								{"n":"TwstBlkBlosHrn","q":1}
 							]
 						}
 					]
@@ -4545,7 +4545,7 @@
 							"upgrade":[
 								{"n":"Platinum Ticket","q":8},
 								{"n":"Black Dragon Red Horn","q":2},
-								{"n":"Fatalis' Devil Eye","q":2}
+								{"n":"Fatalis Devl Eye","q":2}
 							]
 						}
 					]
@@ -4565,7 +4565,7 @@
 							"upgrade":[
 								{"n":"Platinum Ticket","q":8},
 								{"n":"Fatalis' Gore","q":2},
-								{"n":"Fatalis' Evil Eye","q":1}
+								{"n":"Fatalis Evil Eye","q":1}
 							]
 						}
 					]
@@ -4652,7 +4652,7 @@
 							"sharpness":"sharpness_l/black_gravios_spear",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Strong Gravios Wing","q":1},
+								{"n":"StrngGraviosWing","q":1},
 								{"n":"Inferno Sac","q":12},
 								{"n":"Firecell Stone","q":5}
 							]
@@ -4672,7 +4672,7 @@
 							"sharpness":"sharpness_l/gravios_venom_spear",
 							"price":"130,000",
 							"upgrade":[
-								{"n":"Strong Gravios Wing","q":1},
+								{"n":"StrngGraviosWing","q":1},
 								{"n":"Toxin Sac","q":12},
 								{"n":"King Scarab","q":6}
 							]
@@ -4806,7 +4806,7 @@
 							"sharpness":"sharpness_l/expert_lance",
 							"price":"15,000",
 							"forge":[
-								{"n":"Silver Rathalos Tail","q":4},
+								{"n":"Slvr Rthalos Tail","q":4},
 								{"n":"Rathalos Coin","q":8},
 								{"n":"Rathian Coin","q":10},
 								{"n":"Lance Ticket","q":10}
@@ -5727,7 +5727,7 @@
 							"price":"100,000",
 							"upgrade":[
 								{"n":"Kirin Mane","q":18},
-								{"n":"Kirin Blue Thunder Tail","q":3},
+								{"n":"Kirin Azure T-Tail","q":3},
 								{"n":"Kirin Azure Horn","q":3}
 							]
 						}
@@ -5816,7 +5816,7 @@
 							"sharpness":"sharpness_sns/ninja_sword_g",
 							"price":"70,000",
 							"upgrade":[
-								{"n":"Fatalis' Crust+","q":1},
+								{"n":"Hrd Fatalis Crst","q":1},
 								{"n":"Guild Ticket","q":1},
 								{"n":"Egg Ticket","q":5}
 							]
@@ -5963,9 +5963,9 @@
 							"sharpness":"sharpness_sns/odyssey_blade",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Strong Gravios Wing","q":1},
+								{"n":"StrngGraviosWing","q":1},
 								{"n":"Gravios Tears","q":2},
-								{"n":"Azure Rathalos Ruby","q":1}
+								{"n":"Azure Rthlos Rby","q":1}
 							]
 						}
 					]
@@ -6244,8 +6244,8 @@
 							"sharpness":"sharpness_sns/cursed_spirit",
 							"price":"60,000",
 							"upgrade":[
-								{"n":"Black Twisted Horn","q":1},
-								{"n":"Black Diablos Spine","q":3},
+								{"n":"TwstBlkBlosHrn","q":1},
+								{"n":"Black Blos Spine","q":3},
 								{"n":"Wyvern Claw","q":10}
 							]
 						}
@@ -6347,7 +6347,7 @@
 							"price":"250,000",
 							"upgrade":[
 								{"n":"Gold Ticket","q":10},
-								{"n":"Fatalis' Crimson Shell","q":4},
+								{"n":"Fatlis Crmsn Shl","q":4},
 								{"n":"Fatalis' Crimson Crust","q":1}
 							]
 						}
@@ -6367,7 +6367,7 @@
 							"upgrade":[
 								{"n":"Gold Ticket","q":10},
 								{"n":"Fatalis' Shell","q":5},
-								{"n":"Fatalis' Crust+","q":1}
+								{"n":"Hrd Fatalis Crst","q":1}
 							]
 						}
 					]
@@ -6437,7 +6437,7 @@
 							"sharpness":"sharpness_sns/black_belt_sword",
 							"price":"12,420",
 							"forge":[
-								{"n":"Sword and Shield Ticket","q":10},
+								{"n":"SnS Ticket","q":10},
 								{"n":"Cephalos Coin","q":6},
 								{"n":"Basarios Coin","q":9},
 								{"n":"Rathian Coin","q":10}
@@ -6455,7 +6455,7 @@
 								{"n":"Bone","q":10},
 								{"n":"Cephalos Coin","q":6},
 								{"n":"Basarios Coin","q":9},
-								{"n":"Sword and Shield Ticket","q":10}
+								{"n":"SnS Ticket","q":10}
 							]
 						},
 						{
@@ -6805,7 +6805,7 @@
 							"sharpness":"sharpness_ds/insector",
 							"price":"6,930",
 							"upgrade":[
-								{"n":"Hornetaur Bladefin","q":3},
+								{"n":"Hornet Bladefin","q":3},
 								{"n":"Vespoid Bladefin","q":20},
 								{"n":"Union Ore","q":10}
 							]
@@ -6822,7 +6822,7 @@
 							"sharpness":"sharpness_ds/insector+",
 							"price":"15,210",
 							"upgrade":[
-								{"n":"Hornetaur Bladefin","q":5},
+								{"n":"Hornet Bladefin","q":5},
 								{"n":"Vespoid Bladefin","q":30},
 								{"n":"Monster Fluid","q":10}
 							]
@@ -6875,7 +6875,7 @@
 							"sharpness":"sharpness_ds/legendary_blades",
 							"price":"50,000",
 							"upgrade":[
-								{"n":"Village Chief's Old Sword","q":1}
+								{"n":"Chief's Old Sword","q":1}
 							]
 						}
 					]
@@ -6988,7 +6988,7 @@
 							"price":"250,000",
 							"upgrade":[
 								{"n":"Platinum Ticket","q":5},
-								{"n":"Azure Lao-Shan Horn","q":2},
+								{"n":"Azure LaoS Horn","q":2},
 								{"n":"Fatalis' Gore","q":2}
 							]
 						}
@@ -7013,7 +7013,7 @@
 							"sharpness":"sharpness_ds/corpse_blades",
 							"price":"150,000",
 							"upgrade":[
-								{"n":"Silver Rathalos Wing","q":1},
+								{"n":"Slvr Rthalos Wing","q":1},
 								{"n":"Gold Rathian Spike","q":4},
 								{"n":"Gold Rathian Ruby","q":1}
 							]
@@ -7094,7 +7094,7 @@
 							"price":"250,000",
 							"upgrade":[
 								{"n":"Kirin Mane","q":20},
-								{"n":"Kirin Thunder Tail","q":4},
+								{"n":"Kirin Thndr Tail","q":4},
 								{"n":"Kirin Azure Horn","q":4}
 							]
 						}
@@ -7324,7 +7324,7 @@
 				"demon":"","armor":"","dragon":"","dung":1,
 				"price":"2,800z",
 				"mats":[
-					{"n":"Hornetaur Bladefin","q":5},
+					{"n":"Hornet Bladefin","q":5},
 					{"n":"Hornetaur Wing","q":20},
 					{"n":"Monster Fluid","q":4},
 					{"n":"Machalite Ore","q":10}
@@ -7830,7 +7830,7 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"2,800z",
 				"mats":[
-					{"n":"Hornetaur Bladefin","q":5},
+					{"n":"Hornet Bladefin","q":5},
 					{"n":"Hornetaur Wing","q":20},
 					{"n":"Monster Fluid","q":4},
 					{"n":"Machalite Ore","q":10}
@@ -8076,7 +8076,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"3,000z",
 				"mats":[
-					{"n":"Azure Rathalos Shell","q":5},
+					{"n":"Azure Rthlos Shl","q":5},
 					{"n":"Pink Rathian Scale","q":5},
 					{"n":"Lightcrystal","q":2},
 					{"n":"Gunpowder","q":10}
@@ -8097,7 +8097,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"4,500z",
 				"mats":[
-					{"n":"Azure Rathalos Plate","q":1},
+					{"n":"Azre Rthls Plate","q":1},
 					{"n":"Pink Rathian Plate","q":1},
 					{"n":"Nova Crystal","q":2},
 					{"n":"Flame Sac","q":10}
@@ -8283,7 +8283,7 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"5,800z",
 				"mats":[
-					{"n":"Gravios Heavy Shell","q":3},
+					{"n":"GraviosHeavyShl","q":3},
 					{"n":"Gravios Carapace","q":5},
 					{"n":"Gravios Wing","q":2},
 					{"n":"Union Ore","q":10}
@@ -8410,7 +8410,7 @@
 				"price":"7,250z",
 				"mats":[
 					{"n":"Azure Rathalos Cortex","q":3},
-					{"n":"Azure Rathalos Scale","q":5},
+					{"n":"Azure Rthlos Scl","q":5},
 					{"n":"Carbalite Ore","q":5},
 					{"n":"Rathalos Medulla","q":5}
 				]
@@ -8430,8 +8430,8 @@
 				"tranq":2,"paint":2,"demon":1,"armor":"",
 				"price":"9,000z",
 				"mats":[
-					{"n":"Silver Rathalos Plate","q":1},
-					{"n":"Silver Rathalos Scale","q":5},
+					{"n":"Slvr Rthalos Plate","q":1},
+					{"n":"Slvr Rthalos Scl","q":5},
 					{"n":"Purecrystal","q":2},
 					{"n":"Rathalos Medulla","q":10}
 				]
@@ -8451,7 +8451,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"8,400z",
 				"mats":[
-					{"n":"Azure Rathalos Ruby","q":1},
+					{"n":"Azure Rthlos Rby","q":1},
 					{"n":"Pink Rathian Ruby","q":1},
 					{"n":"Purecrystal","q":2},
 					{"n":"Inferno Sac","q":10}
@@ -8472,7 +8472,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"11,450z",
 				"mats":[
-					{"n":"Silver Rathalos Ruby","q":1},
+					{"n":"Slvr Rthalos Rby","q":1},
 					{"n":"Gold Rathian Ruby","q":1},
 					{"n":"Purecrystal","q":2},
 					{"n":"Inferno Sac","q":10}
@@ -8535,9 +8535,9 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"7,400z",
 				"mats":[
-					{"n":"Black Gravios Carapace","q":3},
-					{"n":"Black Gravios Shell","q":5},
-					{"n":"Strong Gravios Wing","q":2},
+					{"n":"Blk Gravios Cpc","q":3},
+					{"n":"Blk Gravios Shl","q":5},
+					{"n":"StrngGraviosWing","q":2},
 					{"n":"Union Ore","q":10}
 				]
 			},
@@ -8595,7 +8595,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"7,500z",
 				"mats":[
-					{"n":"Fatalis' Rigid Wing","q":1},
+					{"n":"Fatalis Strg Wng","q":1},
 					{"n":"Lost Umbrella","q":1},
 					{"n":"Carbalite Ore","q":5},
 					{"n":"Dragonite Ore","q":20}
@@ -8896,10 +8896,10 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"6,100z",
 				"mats":[
-					{"n":"White Monoblos Spine","q":5},
-					{"n":"White Monoblos Shell","q":5},
+					{"n":"Wht Monoblos Spn","q":5},
+					{"n":"Wht Monoblos Shl","q":5},
 					{"n":"Machalite Ore","q":15},
-					{"n":"Silver Horn","q":2}
+					{"n":"Wht Monoblos Hrn","q":2}
 				]
 			},
 			{
@@ -9019,7 +9019,7 @@
 				"price":"12,000z",
 				"mats":[
 					{"n":"Gravios Jaw","q":3},
-					{"n":"Gravios Heavy Shell","q":5},
+					{"n":"GraviosHeavyShl","q":5},
 					{"n":"Basarios Tears","q":1},
 					{"n":"Joiner Grasshopper","q":3}
 				]
@@ -9039,8 +9039,8 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"14,400z",
 				"mats":[
-					{"n":"Black Gravios Head","q":3},
-					{"n":"Black Gravios Carapace","q":5},
+					{"n":"Blk Gravios Head","q":3},
+					{"n":"Blk Gravios Cpc","q":5},
 					{"n":"Basarios Tears","q":3},
 					{"n":"Joiner Grasshopper","q":3}
 				]
@@ -9101,7 +9101,7 @@
 				"tranq":2,"paint":2,"demon":1,"armor":1,
 				"price":"11,250z",
 				"mats":[
-					{"n":"Kirin Thunder Tail","q":2},
+					{"n":"Kirin Thndr Tail","q":2},
 					{"n":"Kirin Hide","q":4},
 					{"n":"Carbalite Ore","q":5},
 					{"n":"Robust Twisted Horn","q":2}
@@ -9123,8 +9123,8 @@
 				"price":"9,000z",
 				"mats":[
 					{"n":"Robust Twisted Horn","q":2},
-					{"n":"White Monoblos Spine","q":5},
-					{"n":"White Monoblos Shell","q":5},
+					{"n":"Wht Monoblos Spn","q":5},
+					{"n":"Wht Monoblos Shl","q":5},
 					{"n":"Monoblos Heart","q":1}
 				]
 			},
@@ -9164,7 +9164,7 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"13,750z",
 				"mats":[
-					{"n":"Fatalis' Heavy Shell","q":2},
+					{"n":"Fatalis Hvy Shl","q":2},
 					{"n":"Fatalis' Gore","q":2},
 					{"n":"Fatalis' Scale","q":2},
 					{"n":"Carbalite Ore","q":10}
@@ -9185,8 +9185,8 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"16,500z",
 				"mats":[
-					{"n":"Fatalis' Crimson Shell","q":2},
-					{"n":"Fatalis' Crimson Horn","q":2},
+					{"n":"Fatlis Crmsn Shl","q":2},
+					{"n":"Fatlis Crmsn Hrn","q":2},
 					{"n":"Fatalis' Scale","q":2},
 					{"n":"Carbalite Ore","q":10}
 				]
@@ -9207,8 +9207,8 @@
 				"price":"17,500z",
 				"mats":[
 					{"n":"Lao-Shan Ruby","q":1},
-					{"n":"Lao-Shan Heavy Shell","q":3},
-					{"n":"Lao-Shan Carapace","q":5},
+					{"n":"LaoS Heavy Shell","q":3},
+					{"n":"Lao-ShanCarapace","q":5},
 					{"n":"Lao-Shan Scale","q":5}
 				]
 			},
@@ -9227,10 +9227,10 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"25,000z",
 				"mats":[
-					{"n":"Azure Lao-Shan Plate","q":1},
+					{"n":"Azure LaoS Plate","q":1},
 					{"n":"Lao-Shan Ruby","q":1},
-					{"n":"Azure Lao-Shan Shell","q":5},
-					{"n":"Azure Lao-Shan Scale","q":5}
+					{"n":"Azure LaoS Shell","q":5},
+					{"n":"Azure LaoS Scale","q":5}
 				]
 			}
 		]

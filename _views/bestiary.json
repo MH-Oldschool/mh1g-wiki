@@ -540,7 +540,7 @@
 					{"n":"Vespoid Bladefin","p":30},
 					{"n":"Vespoid Carapace","p":30},
 					{"n":"Monster Broth","p":30},
-					{"n":"Vespoid Razorwing","p":10}
+					{"n":"Vspoid Razorwing","p":10}
 				]}
 			],
 			"notes": [
@@ -600,7 +600,7 @@
 					{"n":"Monster Fluid","p":30},
 					{"n":"Hornetaur Wing","p":20},
 					{"n":"Hornetaur Head","p":18},
-					{"n":"Hornetaur Bladefin","p":2}
+					{"n":"Hornet Bladefin","p":2}
 				]}
 			],
 			"carvesG":[
@@ -614,14 +614,14 @@
 					{"n":"Hornetaur Shell","p":30},
 					{"n":"Hornetaur Wing","p":20},
 					{"n":"Hornetaur Head","p":18},
-					{"n":"Hornetaur Bladefin","p":2}
+					{"n":"Hornet Bladefin","p":2}
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Hornetaur Carapace","p":28},
 					{"n":"Monster Broth","p":24},
-					{"n":"Hornetaur Bladefin","p":20},
+					{"n":"Hornet Bladefin","p":20},
 					{"n":"Hornetaur Head","p":18},
-					{"n":"Hornetaur Razorwing","p":10}
+					{"n":"Hornet Razorwing","p":10}
 				]}
 			],
 			"notes": [
@@ -1234,7 +1234,7 @@
 					{"n":"Rathalos Shell","p":30},
 					{"n":"Rathalos Membrane","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rath Medulla","p":8},
+					{"n":"Rthlos BrainStem","p":8},
 					{"n":"Rathalos Scale+","p":5},
 					{"n":"Rathalos Wing","p":2}
 				]},
@@ -1242,7 +1242,7 @@
 					{"n":"Rathalos Tail","p":55},
 					{"n":"Rathalos Scale+","p":26},
 					{"n":"Rathalos Plate","p":12},
-					{"n":"Rath Medulla","p":6},
+					{"n":"Rthlos BrainStem","p":6},
 					{"n":"Rathalos Ruby","p":1}
 				]}
 			],
@@ -1286,47 +1286,47 @@
 			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"Village","parts":[
-					{"n":"Azure Rathalos Shell","p":30},
-					{"n":"Azure Rathalos Scale","p":30},
-					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Azure Rthlos Shl","p":30},
+					{"n":"Azure Rthlos Scl","p":30},
+					{"n":"Azr Rthls Webbng","p":30},
 					{"n":"Flame Sac","p":8},
 					{"n":"Wyvern Marrow","p":2}
 				]},
 				{"name":"Village Tail","parts":[
-					{"n":"Azure Rathalos Tail","p":38},
-					{"n":"Azure Rathalos Scale","p":35},
-					{"n":"Azure Rathalos Shell","p":25},
+					{"n":"Azur Rthlos Tail","p":38},
+					{"n":"Azure Rthlos Scl","p":35},
+					{"n":"Azure Rthlos Shl","p":25},
 					{"n":"Wyvern Marrow","p":2}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Azure Rathalos Shell","p":30},
-					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Azure Rthlos Shl","p":30},
+					{"n":"Azr Rthls Webbng","p":30},
 					{"n":"Flame Sac","p":25},
 					{"n":"Wyvern Marrow","p":8},
-					{"n":"Azure Rathalos Scale","p":5},
-					{"n":"Azure Rathalos Wing","p":2}
+					{"n":"Azure Rthlos Scl","p":5},
+					{"n":"Azr Rthls Wing","p":2}
 				]},
 				{"name":"High Rank Tail","parts":[
-					{"n":"Azure Rathalos Tail","p":55},
-					{"n":"Azure Rathalos Shell","p":30},
-					{"n":"Azure Rathalos Scale","p":8},
+					{"n":"Azur Rthlos Tail","p":55},
+					{"n":"Azure Rthlos Shl","p":30},
+					{"n":"Azure Rthlos Scl","p":8},
 					{"n":"Wyvern Marrow","p":6},
-					{"n":"Azure Rathalos Plate","p":1}
+					{"n":"Azre Rthls Plate","p":1}
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Azure Rathalos Cortex","p":30},
-					{"n":"Azure Rathalos Membrane","p":30},
+					{"n":"Azr Rthls Webbng","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rath Medulla","p":8},
-					{"n":"Azure Rathalos Scale+","p":5},
-					{"n":"Azure Rathalos Wing","p":2}
+					{"n":"Rthlos BrainStem","p":8},
+					{"n":"Azure Rthlos Scl+","p":5},
+					{"n":"Azr Rthls Wing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Azure Rathalos Tail","p":55},
-					{"n":"Azure Rathalos Scale+","p":24},
-					{"n":"Azure Rathalos Plate","p":12},
+					{"n":"Azur Rthlos Tail","p":55},
+					{"n":"Azure Rthlos Scl+","p":24},
+					{"n":"Azre Rthls Plate","p":12},
 					{"n":"Azure Rathalos Cortex","p":8},
-					{"n":"Azure Rathalos Ruby","p":1}
+					{"n":"Azure Rthlos Rby","p":1}
 				]}
 			],
 			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
@@ -1370,20 +1370,20 @@
 			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Silver Rathalos Shell","p":30},
-					{"n":"Silver Rathalos Wing Membrane","p":30},
+					{"n":"Slvr Rthalos Shl","p":30},
+					{"n":"Slvr Rthalos Wing Membrane","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rath Medulla","p":8},
-					{"n":"Silver Rathalos Scale","p":5},
-					{"n":"Silver Rathalos Wing","p":2}
+					{"n":"Rthlos BrainStem","p":8},
+					{"n":"Slvr Rthalos Scl","p":5},
+					{"n":"Slvr Rthalos Wing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Silver Rathalos Tail","p":55},
-					{"n":"Silver Rathalos Scale","p":20},
-					{"n":"Silver Rathalos Plate","p":9},
-					{"n":"Silver Rathalos Shell","p":8},
-					{"n":"Rath Medulla","p":6},
-					{"n":"Silver Rathalos Ruby","p":2}
+					{"n":"Slvr Rthalos Tail","p":55},
+					{"n":"Slvr Rthalos Scl","p":20},
+					{"n":"Slvr Rthalos Plate","p":9},
+					{"n":"Slvr Rthalos Shl","p":8},
+					{"n":"Rthlos BrainStem","p":6},
+					{"n":"Slvr Rthalos Rby","p":2}
 				]}
 			],
 			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
@@ -1515,7 +1515,7 @@
 					{"n":"Rathian Shell","p":23},
 					{"n":"Rathian Spike","p":13},
 					{"n":"Rathian Plate","p":12},
-					{"n":"Rath Medulla","p":5},
+					{"n":"Rthlos BrainStem","p":5},
 					{"n":"Rathian Ruby","p":2}
 				]}
 			],
@@ -1596,7 +1596,7 @@
 					{"n":"Pink Rathian Scale+","p":50},
 					{"n":"Pink Rathian Cortex","p":30},
 					{"n":"Pink Rathian Plate","p":12},
-					{"n":"Rath Medulla","p":6},
+					{"n":"Rthlos BrainStem","p":6},
 					{"n":"Pink Rathian Ruby","p":2}
 				]}
 			],
@@ -2162,7 +2162,7 @@
 				{"name":"G Rank","parts":[
 					{"n":"Plesioth Top Fin","p":48},
 					{"n":"Plesioth Scale+","p":45},
-					{"n":"Great Lobstershell","p":7}
+					{"n":"Gt Lobstershell","p":7}
 				]}
 			],
 			"sizes":{"base":2315.2,"silver":2847.7,"gold":3102.4},
@@ -2209,7 +2209,7 @@
 					{"n":"Green Plesioth Scale","p":11},
 					{"n":"Sm Lobstershell","p":19},
 					{"n":"Lg Lobstershell","p":10},
-					{"n":"Great Lobstershell","p":6}
+					{"n":"Gt Lobstershell","p":6}
 				]}
 			],
 			"sizes":{"base":2315.2,"silver":2847.7,"gold":3102.4},
@@ -2528,13 +2528,13 @@
 			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"Village","parts":[
-					{"n":"White Monoblos Spine","p":45},
-					{"n":"White Monoblos Shell","p":29},
+					{"n":"Wht Monoblos Spn","p":45},
+					{"n":"Wht Monoblos Shl","p":29},
 					{"n":"Blos Fang","p":24},
 					{"n":"Monoblos Heart","p":2}
 				]},
 				{"name":"Village Tail","parts":[
-					{"n":"White Monoblos Shell","p":80},
+					{"n":"Wht Monoblos Shl","p":80},
 					{"n":"Lg Monster Bone","p":20}
 				]}
 			],
@@ -2692,12 +2692,12 @@
 				{"name":"G Rank","parts":[
 					{"n":"Black Diablos Carapace","p":56},
 					{"n":"Blos Fang","p":32},
-					{"n":"Black Diablos Spine","p":12}
+					{"n":"Black Blos Spine","p":12}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Black Diablos Tail","p":64},
-					{"n":"Black Diablos Shell","p":26},
-					{"n":"Black Diablos Spine","p":10}
+					{"n":"Black Blos Tail","p":64},
+					{"n":"Black Blos Shell","p":26},
+					{"n":"Black Blos Spine","p":10}
 				]}
 			],
 			"sizes":{"base":1993.4,"silver":2451.9,"gold":2770.8},
@@ -2811,15 +2811,15 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Gravios Shell","p":45},
-					{"n":"Gravios Heavy Shell","p":20},
+					{"n":"GraviosHeavyShl","p":20},
 					{"n":"Sleep Sac","p":20},
 					{"n":"Inferno Sac","p":9},
 					{"n":"Gravios Jaw","p":4},
-					{"n":"Strong Gravios Wing","p":2}
+					{"n":"StrngGraviosWing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
 					{"n":"Gravios Shell","p":63},
-					{"n":"Gravios Heavy Shell","p":35},
+					{"n":"GraviosHeavyShl","p":35},
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
@@ -2864,16 +2864,16 @@
 			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Black Gravios Carapace","p":46},
-					{"n":"Black Gravios Shell","p":20},
+					{"n":"Blk Gravios Cpc","p":46},
+					{"n":"Blk Gravios Shl","p":20},
 					{"n":"Sleep Sac","p":20},
 					{"n":"Inferno Sac","p":9},
-					{"n":"Black Gravios Head","p":4},
-					{"n":"Black Gravios Wing","p":1}
+					{"n":"Blk Gravios Head","p":4},
+					{"n":"Blk Gravios Wing","p":1}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Black Gravios Carapace","p":63},
-					{"n":"Black Gravios Shell","p":35},
+					{"n":"Blk Gravios Cpc","p":63},
+					{"n":"Blk Gravios Shl","p":35},
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
@@ -3073,7 +3073,7 @@
 				{"name":"High Rank","parts":[
 					{"n":"Kirin Horn","p":35},
 					{"n":"Kirin Azure Horn","p":20},
-					{"n":"Kirin Thunder Tail","p":14},
+					{"n":"Kirin Azure T-Tail","p":14},
 					{"n":"Kirin Mane","p":13},
 					{"n":"Novacrystal","p":10},
 					{"n":"Kirin Hide","p":8}
@@ -3081,7 +3081,7 @@
 				{"name":"G Rank","parts":[
 					{"n":"Kirin Horn","p":35},
 					{"n":"Kirin Mane","p":25},
-					{"n":"Kirin Thunder Tail","p":15},
+					{"n":"Kirin Thndr Tail","p":15},
 					{"n":"Purecrystal","p":10},
 					{"n":"Kirin Hide","p":8},
 					{"n":"Kirin Azure Horn","p":7}

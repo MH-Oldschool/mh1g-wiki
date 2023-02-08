@@ -505,8 +505,7 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":54,
-			"mhg":true
+			"sell":54
 		},
 		{
 			"name":"Bomb Material",
@@ -4077,7 +4076,7 @@
 			"name":"Wht Monoblos Spn",
 			"japanese":"白一角竜の背甲",
 			"icon":"white-icon creature-icon",
-			"description":"Unusual White Monoblos Spine, expertly cut away. It is a burning white.",
+			"description":"Unusual Wht Monoblos Spn, expertly cut away. It is a burning white.",
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
@@ -4159,7 +4158,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Lao-Shan's Claw",
+			"name":"Lao-Shan Claw",
 			"japanese":"老山龍の大爪",
 			"icon":"red-icon claw-icon",
 			"description":"Lao-Shan's massive claw. Impossible to work, so it must be used as-is.",
@@ -4169,7 +4168,7 @@
 			"sell":1920
 		},
 		{
-			"name":"Lao-Shan's Horn",
+			"name":"Lao-Shan Horn",
 			"japanese":"老山龍の角",
 			"icon":"red-icon claw-icon",
 			"description":"Horn from Lao-Shan's snout. A prized find. Can be fused with Firestone.",
@@ -4179,7 +4178,7 @@
 			"sell":1700
 		},
 		{
-			"name":"Lao-Shan's Scale",
+			"name":"Lao-Shan Scale",
 			"japanese":"老山龍の鱗",
 			"icon":"red-icon scale-icon",
 			"description":"Deep red scale that is the equal of any wyvern's shell. Easy to work with.",
@@ -4200,7 +4199,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Lao-Shan's Plate",
+			"name":"Lao-Shan Plate",
 			"japanese":"老山龍の逆鱗",
 			"icon":"red-icon scale-icon",
 			"description":"A massive scale from Lao-Shan. Possessing it proves a hunter's worth.",
@@ -4210,7 +4209,7 @@
 			"sell":6700
 		},
 		{
-			"name":"Lao-Shan's Ruby",
+			"name":"Lao-Shan Ruby",
 			"japanese":"老山龍の紅玉",
 			"icon":"red-icon bomb-icon",
 			"description":"A precious gem from inside a wyvern. The burning red is the gem's soul.",
@@ -4221,7 +4220,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Lao-Shan's Shell",
+			"name":"Lao-Shan Shell",
 			"japanese":"老山龍の甲殻",
 			"icon":"red-icon creature-icon",
 			"description":"Shell of Lao-Shan Lung. The thick dragon shell tells you of its age.",
@@ -4242,7 +4241,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Lao-Shan's Spine",
+			"name":"Lao-Shan Spine",
 			"japanese":"老山龍の背甲",
 			"icon":"red-icon creature-icon",
 			"description":"The back-spine of a thousand-year-old dragon. Boasts superior hardness.",
@@ -4741,7 +4740,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Saber Ticket",
+			"name":"SnS Ticket",
 			"japanese":"片手剣チケット",
 			"icon":"green-icon ticket-icon",
 			"description":"Awarded for achievement in Sword training. Proof of strength.",
@@ -4825,7 +4824,7 @@
 			"sell":1240
 		},
 		{
-			"name":"Chief's Old Swrd",
+			"name":"Chief's Old Sword",
 			"japanese":"村長の古い剣",
 			"icon":"white-icon mystery-icon",
 			"description":"Village Chief's sword from his hunting days. Rumored to be part of a set.",
@@ -7054,7 +7053,7 @@
 				{"items":["Diablos Spine","Gravios Carapace","Iodrome Hide"]},
 				{"items":["Gravios Carapace","Diablos Spine","Gendrome Hide"]},
 				{"items":["Gravios Head","Vespoid Abdomen","Mosswine Hide"]},
-				{"items":["Gravios Wing","Hornetaur Bladefin","Mosswine Head"]},
+				{"items":["Gravios Wing","Hornet Bladefin","Mosswine Head"]},
 				{"items":["Monoblos Spine","Diablos Tail","Twisted Horn"]},
 				{"items":["Rathian Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
 				{"items":["Rathalos Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
@@ -7074,7 +7073,7 @@
 				{"items":["Gt Lobstershell","Rthlos BrainStem","Rathalos Scale+"]},
 				{"items":["Azre Rthlos Scl+","Rathalos Scale+","Rathlos Carapace"]},
 				{"items":["Pale Khezu Steak","Rathian Scale+","Rathian Carapace"]},
-				{"items":["Splendid Beak","Monster Broth","Hornetaur Bladefin"]},
+				{"items":["Splendid Beak","Monster Broth","Hornet Bladefin"]},
 				{"items":["Long Kut-Ku Ear","Joiner Grasshppr","King Scarab"]},
 				{"items":["Grt Sword Ticket","Dragon Toadstool","Godbug"]},
 				{"items":["Hammer Ticket","Dragon Toadstool","Kelbi Horn"]},
@@ -7212,7 +7211,7 @@
 				{"items":["Long Kut-Ku Ear","Union Ore","Dragonite Ore"]},
 				{"items":["Rathian Shell","Machalite Ore","Earth Crystal"]},
 				{"items":["Flame Sac","Machalite Ore","Earth Crystal"]},
-				{"items":["Hornetaur Bladefin","Firestone","Union Ore"]},
+				{"items":["Hornet Bladefin","Firestone","Union Ore"]},
 				{"items":["Giant Beak","Lightcrystal","Machalite Ore"]},
 				{"items":["Cephalos Fin","Earth Crystal","Iron Ore"]},
 				{"items":["Rubbery Hide","Earth Crystal","Iron Ore"]},
