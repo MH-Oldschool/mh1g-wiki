@@ -15,7 +15,9 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":1000,
-			"sell":100
+			"sell":100,
+			"details":"Adds 5% to combination success.",
+			"acquire":"Buy from the Peddler in Kokoto or the Combiner in Minegarde."
 		},
 		{
 			"name":"Book of Combos 2",
@@ -5644,7 +5646,7 @@
 			]
 		},
 		{
-			"name":"Minegarde Alchemist",
+			"name":"Minegarde Combiner",
 			"stock":[
 				{"name":"Potion","class":"green-icon jar-icon","price":"66z"},
 				{"name":"Nutrients","class":"cyan-icon jar-icon","price":"760z"},
@@ -5662,7 +5664,7 @@
 			]
 		},
 		{
-			"name":"Hunter’s Guild Quartermaster",
+			"name":"Hunter's Guild Vendor",
 			"stock":[
 				{"name":"Iron Pickaxe","class":"white-icon pick-icon","price":"160z"},
 				{"name":"Bugnet","class":"white-icon bugnet-icon","price":"80z"},
@@ -5693,6 +5695,7 @@
 				{"name":"Water S","class":"cyan-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Thunder S","class":"yellow-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Organizer Guide","class":"blue-icon book-icon","price":"30,000z","mhg":true},
+				{"name":"Pack Rat Guide","class":"red-icon book-icon","price":"100,000z","mhg":true},
 				{"name":"Mosswine Info","class":"white-icon book-icon","price":"100z"},
 				{"name":"Bullfango Info","class":"white-icon book-icon","price":"100z"},
 				{"name":"Kelbi Info","class":"white-icon book-icon","price":"100z"},
