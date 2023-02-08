@@ -411,7 +411,8 @@
 			"maxStack":3,
 			"rarity":3,
 			"buy":0,
-			"sell":64
+			"sell":64,
+			"mhg":true
 		},
 		{
 			"name":"Burnt Meat",
@@ -471,7 +472,8 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":10
+			"sell":10,
+			"mhg":true
 		},
 		{
 			"name":"Poison Thrw Knf",
@@ -481,7 +483,8 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":24
+			"sell":24,
+			"mhg":true
 		},
 		{
 			"name":"Sleeping Thr Knf",
@@ -491,7 +494,8 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":35
+			"sell":35,
+			"mhg":true
 		},
 		{
 			"name":"Paralyze Thr Knf",
@@ -501,7 +505,8 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":54
+			"sell":54,
+			"mhg":true
 		},
 		{
 			"name":"Bomb Material",
