@@ -335,6 +335,7 @@ ArmorBuilder.SKILL_LEVELS = {
 	"Normal S Add": [ "","","","Normal S Add 1","Normal S Add All","" ],
 	"Pierce S Add": [ "","","","Pierce S Add 1","Pierce S Add 2","Pierce S Add 3" ],
 	"Crag S Add": [ "","","","Crag S Add 1","Crag S Add 2","Crag S Add 3" ],
+	"Clust S Add": [ "","","","Clust S Add 1","Clust S Add 2","Clust S Add 3" ],
 	"Attack": [ "","","","Attack Up [S]","Attack Up [M]","Attack Up [L]" ],
 	"Gluttony": [ "","","","Eating +1","Eating +2","Speed Eater" ], // ?? Probably the wrong skill names
 	"Guard": [ "","Guard -2","Guard -1","Guard +1","Guard +2","" ],
