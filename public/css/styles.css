@@ -235,6 +235,9 @@ input[type="range"] {
 .hide {
 	display: none !important;
 }
+.col-yellow {
+	color: #ff3;
+}
 .ta-l {
 	text-align: left !important;
 }
@@ -528,9 +531,25 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 .ui-icon {
 	image-rendering: pixelated;
 	display: inline-block;
+	vertical-align: middle;
 	background-image: url("/images/icon_sheets/interface_icons.png");
 	background-repeat: no-repeat;
 	background-size: 16rem 16rem;
+}
+.circle-icon {
+	background-position: 0rem 0rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.cross-icon {
+	background-position: -1.5rem 0rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.triangle-icon {
+	background-position: -3.0rem 0rem;
+	width: 1.5rem;
+	height: 1.5rem;
 }
 .square-icon {
 	background-position: -4.5rem 0rem;

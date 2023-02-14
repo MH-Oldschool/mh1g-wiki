@@ -2,7 +2,7 @@
 	"title": "Monster Hunter Wiki | Items",
 	"description": "A full list of item combinations, and the various in-game shops.",
 	"subtitle": "<p>Items highlighted in orange are only available from vendors during certain shop specials.</p>",
-	"head": "<link type='text/css' rel='stylesheet' href='css/items.css'/><script type='text/javascript' src='js/toggle_full_details.js'></script>",
+	"head": "<link type='text/css' rel='stylesheet' href='css/items.css'/><script type='text/javascript' src='js/toggle_full_details.js'></script><script type='text/javascript' src='js/armor_data.js'></script><script type='text/javascript' src='js/weapon_data.js'></script><script type='text/javascript' src='js/item_data.js'></script><script type='text/javascript' src='js/items.js'></script>",
 	"onItems": true,
 	"gToggle": true,
 	"expandToggle": true,
@@ -16,8 +16,8 @@
 			"rarity":4,
 			"buy":1000,
 			"sell":100,
-			"details":"Adds 5% to combination success.",
-			"acquire":"Buy from the Peddler in Kokoto or the Combiner in Minegarde."
+			"details":"Add 5% to combination success, while in your inventory.",
+			"acquire":"Buy from the Kokoto Peddler and the Combiner in Minegarde."
 		},
 		{
 			"name":"Book of Combos 2",
@@ -27,7 +27,9 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":2000,
-			"sell":200
+			"sell":200,
+			"details":"Add a further 5% (10% total) to combination success, while in your inventory along with the Book of Combos 1",
+			"acquire":"Buy from the Kokoto Peddler and the Combiner in Minegarde."
 		},
 		{
 			"name":"Book of Combos 3",
@@ -37,7 +39,9 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":5000,
-			"sell":500
+			"sell":500,
+			"details":"Add a further 10% (20% total) to combination success, while in your inventory along with the Book of Combos 1 and 2",
+			"acquire":"Buy from the Kokoto Peddler and the Combiner in Minegarde."
 		},
 		{
 			"name":"Book of Combos 4",
@@ -47,7 +51,9 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":10000,
-			"sell":1000
+			"sell":1000,
+			"details":"Add a further 10% (30% total) to combination success, while in your inventory along with the Book of Combos 1, 2, and 3",
+			"acquire":"Buy from the Kokoto Peddler and the Combiner in Minegarde."
 		},
 		{
 			"name":"Book of Combos 5",
@@ -57,7 +63,9 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":15000,
-			"sell":1500
+			"sell":1500,
+			"details":"Add a further 20% (50% total) to combination success, while in your inventory along with the Book of Combos 1, 2, 3, and 4",
+			"acquire":"Buy from the Kokoto Peddler and the Combiner in Minegarde."
 		},
 		{
 			"name":"Alchemy Guide",
@@ -68,6 +76,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2000,
+			"details":"Allow additional combo recipies (the same as the Alchemy armor skill), while in your inventory.",
+			"acquire":"Successfully combine every item combo (excluding Alchemy combos), and speak to the combiner in Minegarde.",
 			"mhg":true
 		},
 		{
@@ -78,7 +88,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":66,
-			"sell":7
+			"sell":7,
+			"details":"Restore 30 hitpoints.",
+			"acquire":"Buy from the Kokoto Peddler (after unlocking ?-star quests), the combiner in Minegarde, and the Hunter's Guild Vendor. Rewarded by some quests."
 		},
 		{
 			"name":"Mega Potion",
@@ -88,7 +100,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":83
+			"sell":83,
+			"details":"Restore 50 hitpoints."
 		},
 		{
 			"name":"Nutrients",
@@ -98,7 +111,9 @@
 			"maxStack":5,
 			"rarity":2,
 			"buy":760,
-			"sell":76
+			"sell":76,
+			"details":"Increase maximum health by 10 points, until you cart. This does not restore any hitpoints.",
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Mega Nutrients",
@@ -108,7 +123,9 @@
 			"maxStack":5,
 			"rarity":3,
 			"buy":0,
-			"sell":460
+			"sell":460,
+			"details":"Increase maximum health by 20 points, until you cart. This does not restore any hitpoints.",
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Antidote",
@@ -118,7 +135,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":60,
-			"sell":6
+			"sell":6,
+			"details":"Cure poison.",
+			"acquire":"Buy from the Minegarde Combiner and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Immunizer",
@@ -128,7 +147,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":0,
-			"sell":461
+			"sell":461,
+			"details":"Double the speed of red-bar health recovery for 5 minutes."
 		},
 		{
 			"name":"Power Juice",
@@ -138,7 +158,8 @@
 			"maxStack":5,
 			"rarity":2,
 			"buy":0,
-			"sell":29
+			"sell":29,
+			"details":"Stop all stamina loss for 3 minutes, and increase maximum stamina by 25. Maximum stamina can still be reduced by cold temperatures."
 		},
 		{
 			"name":"Mega Juice",
@@ -148,7 +169,8 @@
 			"maxStack":5,
 			"rarity":3,
 			"buy":0,
-			"sell":514
+			"sell":514,
+			"details":"Stop all stamina loss for 6 minutes, and increase maximum stamina by 50. Maximum stamina can still be reduced by cold temperatures."
 		},
 		{
 			"name":"Demondrug",
@@ -158,7 +180,8 @@
 			"maxStack":5,
 			"rarity":4,
 			"buy":0,
-			"sell":67
+			"sell":67,
+			"details":"Add 3 to your weapon's true damage, until you cart. This does not stack with meal buffs or Mega Demondrug."
 		},
 		{
 			"name":"Mega Demondrug",
@@ -168,7 +191,8 @@
 			"maxStack":5,
 			"rarity":5,
 			"buy":0,
-			"sell":1416
+			"sell":1416,
+			"details":"Add 5 to your weapon's true damage, until you cart. This does not stack with meal buffs or Demondrug."
 		},
 		{
 			"name":"Power Pill",
@@ -179,6 +203,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":1000,
+			"details":"Add 25 to your weapon's true damage for 20 seconds.",
 			"mhg":true
 		},
 		{
@@ -189,7 +214,8 @@
 			"maxStack":5,
 			"rarity":4,
 			"buy":0,
-			"sell":58
+			"sell":58,
+			"details":"Add 3 to your defense, until you cart. This does not stack with meal buffs or Mega Armorskin."
 		},
 		{
 			"name":"Mega Armorskin",
@@ -199,7 +225,8 @@
 			"maxStack":5,
 			"rarity":5,
 			"buy":0,
-			"sell":1348
+			"sell":1348,
+			"details":"Add 5 to your defense, until you cart. This does not stack with meal buffs or Armorskin."
 		},
 		{
 			"name":"Armor Pill",
@@ -210,6 +237,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":900,
+			"details":"Add 25 to your defense for 20 seconds.",
 			"mhg":true
 		},
 		{
@@ -220,7 +248,9 @@
 			"maxStack":3,
 			"rarity":1,
 			"buy":300,
-			"sell":30
+			"sell":30,
+			"details":"Prevent damage taken from hot temperatures for 10 minutes.",
+			"acquire":"Buy from the Kokoto Peddler, the Minegarde Combiner, and the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Hot Drink",
@@ -230,7 +260,9 @@
 			"maxStack":3,
 			"rarity":1,
 			"buy":250,
-			"sell":25
+			"sell":25,
+			"details":"Prevent increased maximum stamina loss from cold temperatures for 10 minutes.",
+			"acquire":"Buy from the Kokoto Peddler, the Minegarde Combiner, and the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Psychoserum",
@@ -240,7 +272,9 @@
 			"maxStack":3,
 			"rarity":3,
 			"buy":300,
-			"sell":30
+			"sell":30,
+			"details":"Reveal all large monsters on the map for 10 seconds.",
+			"acquire":"Buy from the Kokoto Peddler and the Minegarde Tool Stall"
 		},
 		{
 			"name":"Monster Fluid",
@@ -250,7 +284,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":5000,
-			"sell":500
+			"sell":500,
+			"acquire":"Carve from<span class=\"mhg\"> Low and High Rank</span> Vespoids and Hornetaurs. Rewarded by some quests."
 		},
 		{
 			"name":"Monster Broth",
@@ -261,6 +296,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1000,
+			"acquire":"Carve from G Rank Vespoids and Hornetaurs.",
 			"mhg":true
 		},
 		{
@@ -271,7 +307,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":250,
-			"sell":125
+			"sell":125,
+			"details":"Cure poison and restore 10 hitpoints.",
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Max Potion",
@@ -281,7 +319,8 @@
 			"maxStack":2,
 			"rarity":3,
 			"buy":0,
-			"sell":910
+			"sell":910,
+			"details":"Increase maximum health to 150 and restore all hitpoints."
 		},
 		{
 			"name":"Ancient Potion",
@@ -291,7 +330,9 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":0,
-			"sell":1727
+			"sell":1727,
+			"details":"Increase maximum health to 150, increase maximum stamina to 150, and restore all hitpoints.",
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Catalyst",
@@ -301,7 +342,8 @@
 			"maxStack":5,
 			"rarity":2,
 			"buy":480,
-			"sell":48
+			"sell":48,
+			"acquire":"Buy from the Minegarde Combiner."
 		},
 		{
 			"name":"Gunpowder",
@@ -311,7 +353,8 @@
 			"maxStack":20,
 			"rarity":2,
 			"buy":222,
-			"sell":67
+			"sell":67,
+			"acquire":"Buy from the Minegarde Tool Stall on Tool Day. Rewarded by some quests."
 		},
 		{
 			"name":"Lifecrystals",
@@ -331,7 +374,9 @@
 			"maxStack":3,
 			"rarity":4,
 			"buy":0,
-			"sell":630
+			"sell":630,
+			"details":"Restore 50 hitpoints to yourself and all hunters in the same zone.",
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Powercharm",
@@ -341,7 +386,9 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":36000,
-			"sell":3600
+			"sell":3600,
+			"details":"Add 5 to your weapon's true attack, while in your inventory.<span class=\"mhg\"> Stacks with Powertalon.</span> Duplicates do not stack this effect.",
+			"acquire":"Buy from<span class=\"mhg\"> the Kokoto Peddler and</span> the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Powertalon",
@@ -352,6 +399,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":6840,
+			"details":"Add 10 to your weapon's true attack, while in your inventory. Stacks with Powercharm. Duplicates do not stack this effect.",
 			"mhg":true
 		},
 		{
@@ -362,7 +410,9 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":24000,
-			"sell":2400
+			"sell":2400,
+			"details":"Add 10 to your defense, while in your inventory.<span class=\"mhg\"> Stacks with Armortalon.</span> Duplicates do not stack this effect.",
+			"acquire":"Buy from<span class=\"mhg\"> the Kokoto Peddler and</span> the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Armortalon",
@@ -373,6 +423,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5040,
+			"details":"Add 25 to your defense, while in your inventory. Stacks with Armorcharm. Duplicates do not stack this effect.",
 			"mhg":true
 		},
 		{
@@ -383,7 +434,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":5
+			"sell":5,
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach and eat it. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":"Carve from Mosswine, Bullfango, Kelbi, Aptonoth, and Apceros."
 		},
 		{
 			"name":"Rare Steak",
@@ -393,7 +446,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":3
+			"sell":3,
+			"details":"Increase maximum stamina by 25. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":"Cook a Raw Meat on a BBQ Spit, and take it off the spit right after the music ends."
 		},
 		{
 			"name":"Well-Done Steak",
@@ -403,7 +458,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":48
+			"sell":48,
+			"details":"Increase maximum stamina by 50. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":"Cook a Raw Meat on a BBQ Spit, and take it off the spit a few seconds after the music ends."
 		},
 		{
 			"name":"Gourmet Steak",
@@ -414,6 +471,8 @@
 			"rarity":3,
 			"buy":0,
 			"sell":64,
+			"details":"Increase maximum stamina to 150. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":"Cook a Raw Meat on a Gourmet BBQ Spit, and take it off the spit a few seconds after the music ends.",
 			"mhg":true
 		},
 		{
@@ -424,7 +483,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":1
+			"sell":1,
+			"details":"50/50 chance to increase maximum stamina by 25 or decrease by 25.",
+			"acquire":"Cook a Raw Meat on a BBQ Spit, and take it off too late."
 		},
 		{
 			"name":"Poisoned Meat",
@@ -434,7 +495,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":188,
-			"sell":19
+			"sell":19,
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and become poisoned. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":"Buy from the Kokoto Market and Minegarde Food Stall."
 		},
 		{
 			"name":"Tainted Meat",
@@ -444,7 +507,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":300,
-			"sell":30
+			"sell":30,
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and become paralyzed. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":"Buy from the Minegarde Food Stall."
 		},
 		{
 			"name":"Drugged Meat",
@@ -454,7 +519,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":315,
-			"sell":32
+			"sell":32,
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and fall asleep. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":"Buy from the Minegarde Food Stall."
 		},
 		{
 			"name":"Kingmeat",
@@ -464,7 +531,9 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":550
+			"sell":550,
+			"acquire":"<span class=\"mh1\">Rewarded by the event quest \"The GMR Heavy Metal Crusade\".</span><span class=\"mhg\">Rewarded by the event quest \"肉焼き・リベンジ！\", which is currently unavailable.</span>",
+			"unavailableG":true
 		},
 		{
 			"name":"Throwing Knife",
@@ -475,6 +544,8 @@
 			"rarity":1,
 			"buy":0,
 			"sell":10,
+			"details":"Throw a knife in a straight line horizontal to the ground.",
+			"acquire":"Provided in the Supply Box during some quests.",
 			"mhg":true
 		},
 		{
@@ -486,6 +557,8 @@
 			"rarity":1,
 			"buy":0,
 			"sell":24,
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies poison status to any monster it hits.",
+			"acquire":"Provided in the Supply Box during some quests.",
 			"mhg":true
 		},
 		{
@@ -497,6 +570,8 @@
 			"rarity":1,
 			"buy":0,
 			"sell":35,
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies sleep status to any monster it hits.",
+			"acquire":"Provided in the Supply Box during some quests.",
 			"mhg":true
 		},
 		{
@@ -507,7 +582,10 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":0,
-			"sell":54
+			"sell":54,
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies paralysis status to any monster it hits.",
+			"acquire":"Provided in the Supply Box during some quests.",
+			"mhg":true
 		},
 		{
 			"name":"Bomb Material",
@@ -517,7 +595,8 @@
 			"maxStack":30,
 			"rarity":1,
 			"buy":150,
-			"sell":15
+			"sell":15,
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Combiner"
 		},
 		{
 			"name":"Paintball",
@@ -527,7 +606,9 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":0,
-			"sell":10
+			"sell":10,
+			"details":"Throw at a monster and it's location will appear on the map for 10 minutes. If a small monster is painted, its icon will disappear once you leave the zone. <span class=\"mh1\">For</span><span class=\"mhg\">With the Detect or Autotracker armor skill, for</span> large monsters, the icon will indicate the monster's facing direction, whether it's flying, and whether it's alerted for combat or calm.",
+			"acquire":"Provided in the Supply Box during most quests."
 		},
 		{
 			"name":"Flash Bomb",
@@ -537,7 +618,9 @@
 			"maxStack":5,
 			"rarity":2,
 			"buy":0,
-			"sell":57
+			"sell":57,
+			"details":"Throw in a short arc and explode in a bright flash of light. Some monsters will by temporarily stunned by this if they are close enough to and facing the explosion, even while flying. The sound of the explosion will draw the attention of any calm large monsters in the area.",
+			"acquire":"Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Sonic Bomb",
@@ -547,7 +630,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":45
+			"sell":45,
+			"details":"Throw in a short arc and explode with a high-pitched, loud noise. Some monsters will be startled by this, with varying results: Yian Kut-Ku will be temporarily stunned and unable to move or attack; if swimming, Plesioth will often leap out of the water on to dry land; if burrowing through the sand, Cephalos and Cephadrome will leap out and flop around on the ground for a few seconds; while underground, Monoblos or Diablos will emerge halfway above the ground and flail around as if caught in a pitfall trap.",
+			"acquire":"Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Dung",
@@ -557,7 +642,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather from piles of monster dung."
 		},
 		{
 			"name":"Dung Bomb",
@@ -567,7 +653,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":9
+			"sell":9,
+			"details":"Cover a wide area in a cloud of foul smoke. If standing still, you will throw it at your feet; throw while moving to toss ahead of you. The following monsters will leave the zone where the dung bomb was detonated, unless already alerted by a hunter: Rathian, Rathalos, Yian Kut-Ku, Gypceros."
 		},
 		{
 			"name":"Smoke Bomb",
@@ -577,7 +664,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":44
+			"sell":44,
+			"details":"Cover a small area with smoke, obscuring you from monsters. The smoke lasts 20 seconds after detonating. If standing still, you will throw it at your feet; throw while moving to toss ahead of you. While you remain in the smoke, calm monsters cannot see you. This has no effect on alert monsters.",
+			"acquire":"Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Poison Smoke Bmb",
@@ -588,6 +677,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":60,
+			"details":"Throw and cover a small area with poisonous smoke. Any monsters that are close enough will take poison status. Some monsters are susceptible enough that one bomb will poison them instantly.",
 			"mhg":true
 		},
 		{
@@ -598,7 +688,9 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":300,
-			"sell":30
+			"sell":30,
+			"details":"Transport yourself to the basecamp after 2 seconds; monsters can interrupt the process during this window.",
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Tool Stall."
 		},
 		{
 			"name":"Spiderweb",
@@ -608,7 +700,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":60,
-			"sell":6
+			"sell":6,
+			"acquire":"Gather from spiderwebs in the Forest and Hills, Jungle, and Swamp. Buy from the Kokoto Market."
 		},
 		{
 			"name":"Net",
@@ -628,7 +721,9 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":0,
-			"sell":231
+			"sell":231,
+			"details":"Trap a large monster for a short time. Will disappear after 5 minutes if not triggered. Only one can be placed at a time. Cannot be placed in certain zones of the Swamp. The following monsters will not, or cannot, trigger the trap: Velocidrome, Gendrome, Iodrome, Cephadrome, Monoblos, Diablos, Lao-Shan Lung, Kirin, and Fatalis.",
+			"acquire":"Provided in the Supply Box during some quests, usually capture quests."
 		},
 		{
 			"name":"Trap Tool",
@@ -638,7 +733,8 @@
 			"maxStack":2,
 			"rarity":3,
 			"buy":200,
-			"sell":20
+			"sell":20,
+			"acquire":"Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor. Provided in the Supply Box during some quests, usually capture quests."
 		},
 		{
 			"name":"Barrel Lid",
@@ -648,7 +744,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":10
+			"sell":10,
+			"acquire":"Gather from certain Felyne caches."
 		},
 		{
 			"name":"Small Barrel",
@@ -658,7 +755,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":80,
-			"sell":8
+			"sell":8,
+			"acquire":"Gather from some Felyne caches. Buy from the Kokoto Market and Minegarde Tool Stall."
 		},
 		{
 			"name":"Large Barrel",
@@ -668,7 +766,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":210,
-			"sell":21
+			"sell":21,
+			"acquire":"Gather from some Felyne caches. Buy from the Kokoto Market and Minegarde Tool Stall."
 		},
 		{
 			"name":"Sm Barrel-Bomb",
@@ -678,7 +777,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":156,
-			"sell":16
+			"sell":16,
+			"details":"Explode with a three-second fuse, dealing 20 explosive damage.",
+			"acquire":"Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Sm Barrel-Bomb+",
@@ -689,6 +790,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":52,
+			"details":"Place at your feet and explode with a three-second fuse, dealing 30 explosive damage.",
 			"mhg":true
 		},
 		{
@@ -699,7 +801,9 @@
 			"maxStack":3,
 			"rarity":3,
 			"buy":518,
-			"sell":52
+			"sell":52,
+			"details":"Place at your feet and explode when damaged by most damage sources, dealing 80 explosive damage. Decays after 5 minutes.",
+			"acquire":"Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Lg Barrel-Bomb+",
@@ -710,6 +814,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":80,
+			"details":"Place at your feet and explode when damaged by most damage sources, dealing 150 explosive damage. Decays after 5 minutes.",
 			"mhg":true
 		},
 		{
@@ -720,7 +825,9 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":2,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather from various locations. Buy from the Kokoto Market and Minegarde Materials Shell. Provided in the Supply Box during most quests.",
+			"alchemy":"Huskberry + Iron Ore"
 		},
 		{
 			"name":"Sm Bone Husk",
@@ -730,7 +837,8 @@
 			"maxStack":99,
 			"rarity":2,
 			"buy":30,
-			"sell":3
+			"sell":3,
+			"acquire":"Gather from various locations. Rewarded by some quests."
 		},
 		{
 			"name":"Lg Bone Husk",
@@ -740,7 +848,8 @@
 			"maxStack":99,
 			"rarity":3,
 			"buy":0,
-			"sell":5
+			"sell":5,
+			"acquire":"Rewarded by some quests."
 		},
 		{
 			"name":"Normal S Lv1",
@@ -750,7 +859,9 @@
 			"maxStack":255,
 			"rarity":1,
 			"buy":1,
-			"sell":0
+			"sell":0,
+			"details":"6-Motion-Value Normal Shot. Can be loaded into nearly any bowgun.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor. Provided in the Supply Box during many quests."
 		},
 		{
 			"name":"Normal S Lv2",
@@ -760,7 +871,9 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":3,
-			"sell":1
+			"sell":1,
+			"details":"12-Motion-Value Normal Shot. Can be loaded into any bowgun.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Normal S Lv3",
@@ -770,7 +883,9 @@
 			"maxStack":99,
 			"rarity":2,
 			"buy":5,
-			"sell":2
+			"sell":2,
+			"details":"10-Motion-Value Normal Shot.<span class=\"mhg\"> Ricochet up to 3 times.</span>",
+			"acquire":"Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Pierce S Lv1",
@@ -780,7 +895,9 @@
 			"maxStack":60,
 			"rarity":2,
 			"buy":14,
-			"sell":1
+			"sell":1,
+			"details":"10-Motion-Value Piercing Shot. Impacts up to 3 times.",
+			"acquire":"Buy from the Kokoto Peddler and the Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Pierce S Lv2",
@@ -790,7 +907,9 @@
 			"maxStack":50,
 			"rarity":2,
 			"buy":32,
-			"sell":3
+			"sell":3,
+			"details":"9-Motion-Value Piercing Shot. Impacts up to 4 times.",
+			"acquire":"Buy from the Kokoto Peddler and the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Pierce S Lv3",
@@ -800,7 +919,8 @@
 			"maxStack":40,
 			"rarity":3,
 			"buy":52,
-			"sell":5
+			"sell":5,
+			"details":"7-Motion-Value Piercing Shot. Impacts up to 6 times."
 		},
 		{
 			"name":"Pellet S Lv1",
@@ -810,7 +930,9 @@
 			"maxStack":60,
 			"rarity":2,
 			"buy":14,
-			"sell":1
+			"sell":1,
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 3 times.",
+			"acquire":"Buy from the Kokoto Market and the Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Pellet S Lv2",
@@ -820,7 +942,10 @@
 			"maxStack":60,
 			"rarity":2,
 			"buy":20,
-			"sell":2
+			"sell":2,
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 4 times.",
+			"acquire":"Buy from the Kokoto Peddler and the Hunter's Guild Vendor."
+
 		},
 		{
 			"name":"Pellet S Lv3",
@@ -830,7 +955,8 @@
 			"maxStack":60,
 			"rarity":3,
 			"buy":0,
-			"sell":3
+			"sell":3,
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 6 times."
 		},
 		{
 			"name":"Crag S Lv1",
@@ -840,7 +966,9 @@
 			"maxStack":9,
 			"rarity":3,
 			"buy":41,
-			"sell":4
+			"sell":4,
+			"details":"Deal 3-Motion-Value raw damage on impact, 20 explosive and 30 fire damage on explosion.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor"
 		},
 		{
 			"name":"Crag S Lv2",
@@ -850,7 +978,8 @@
 			"maxStack":9,
 			"rarity":3,
 			"buy":0,
-			"sell":7
+			"sell":7,
+			"details":"Deal 3-Motion-Value raw damage on impact, 30 explosive and 45 fire damage on explosion."
 		},
 		{
 			"name":"Crag S Lv3",
@@ -860,7 +989,8 @@
 			"maxStack":9,
 			"rarity":3,
 			"buy":0,
-			"sell":7
+			"sell":7,
+			"details":"Deal 3-Motion-Value raw damage on impact, 40 explosive and 60 fire damage on explosion."
 		},
 		{
 			"name":"Clust S Lv1",
@@ -870,7 +1000,9 @@
 			"maxStack":3,
 			"rarity":2,
 			"buy":38,
-			"sell":4
+			"sell":4,
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage.",
+			"acquire":"Buy from Kokoto Peddler and Hunter's Guild Vendor"
 		},
 		{
 			"name":"Clust S Lv2",
@@ -880,7 +1012,8 @@
 			"maxStack":3,
 			"rarity":3,
 			"buy":0,
-			"sell":6
+			"sell":6,
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage."
 		},
 		{
 			"name":"Clust S Lv3",
@@ -890,10 +1023,11 @@
 			"maxStack":3,
 			"rarity":3,
 			"buy":0,
-			"sell":10
+			"sell":10,
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage."
 		},
 		{
-			"name":"Flaming S",
+			"name":"Flame S",
 			"japanese":"火炎弾",
 			"icon":"red-icon shot-icon",
 			"description":"Shot effective against monsters vulnerable to fire. Max 60 shots.",
@@ -901,6 +1035,8 @@
 			"rarity":3,
 			"buy":32,
 			"sell":3,
+			"details":"Deal 1-Motion-Value raw and 40-Motion-Value Fire damage.",
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor",
 			"mhg":true
 		},
 		{
@@ -912,6 +1048,8 @@
 			"rarity":3,
 			"buy":32,
 			"sell":3,
+			"details":"Deal 1-Motion-Value raw and 10-Motion-Value Water damage. Impacts up to 3 times.",
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor",
 			"mhg":true
 		},
 		{
@@ -923,6 +1061,8 @@
 			"rarity":3,
 			"buy":32,
 			"sell":3,
+			"details":"Deal 1-Motion-Value raw and 20-Motion-Value Water damage. Impacts up to 3 times.",
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor",
 			"mhg":true
 		},
 		{
@@ -933,7 +1073,8 @@
 			"maxStack":20,
 			"rarity":5,
 			"buy":0,
-			"sell":24
+			"sell":24,
+			"details":"Deal 48 Dragon damage.<span class=\"mhg\"> Impacts up to 6 times.</span>"
 		},
 		{
 			"name":"Dung S",
@@ -944,6 +1085,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":1,
+			"details":"Cover a wide area in a cloud of foul smoke. The following monsters will leave the zone where the dung bomb was detonated, unless already alerted by a hunter: Rathian, Rathalos, Yian Kut-Ku, Gypceros.",
 			"mh1":true
 		},
 		{
@@ -955,6 +1097,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":103,
+			"details":"Deal 19-Motion-Value raw and 4 Thunder damage. Ricochet up to 4 times.",
 			"mh1":true
 		},
 		{
@@ -965,7 +1108,9 @@
 			"maxStack":12,
 			"rarity":1,
 			"buy":8,
-			"sell":2
+			"sell":2,
+			"details":"Restore 30 hitpoints to all hunters and monsters in the firing cone.",
+			"acquire":"Buy from the Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Recov S Lv2",
@@ -975,7 +1120,8 @@
 			"maxStack":12,
 			"rarity":2,
 			"buy":0,
-			"sell":2
+			"sell":2,
+			"details":"Restore 30 hitpoints to all hunters and monsters in the firing cone."
 		},
 		{
 			"name":"Poison S Lv1",
@@ -985,7 +1131,9 @@
 			"maxStack":12,
 			"rarity":2,
 			"buy":17,
-			"sell":2
+			"sell":2,
+			"details":"Apply 25 Poison status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Poison S Lv2",
@@ -995,7 +1143,8 @@
 			"maxStack":8,
 			"rarity":3,
 			"buy":0,
-			"sell":2
+			"sell":2,
+			"details":"Apply 50 Poison status to a monster. Can affect more than one monster if they are very close together."
 		},
 		{
 			"name":"Stun S Lv1",
@@ -1005,7 +1154,9 @@
 			"maxStack":12,
 			"rarity":3,
 			"buy":26,
-			"sell":3
+			"sell":3,
+			"details":"Apply 25 Paralysis status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Stun S Lv2",
@@ -1015,7 +1166,8 @@
 			"maxStack":8,
 			"rarity":4,
 			"buy":0,
-			"sell":5
+			"sell":5,
+			"details":"Apply 50 Paralysis status to a monster. Can affect more than one monster if they are very close together."
 		},
 		{
 			"name":"Sleep S Lv1",
@@ -1025,7 +1177,9 @@
 			"maxStack":12,
 			"rarity":3,
 			"buy":17,
-			"sell":2
+			"sell":2,
+			"details":"Apply 25 Sleep status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":"Buy from the Kokoto Market and Hunter's Guild Vendor. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Sleep S Lv2",
@@ -1035,7 +1189,8 @@
 			"maxStack":8,
 			"rarity":4,
 			"buy":0,
-			"sell":3
+			"sell":3,
+			"details":"Apply 50 Sleep status to a monster. Can affect more than one monster if they are very close together."
 		},
 		{
 			"name":"Tranq S",
@@ -1045,7 +1200,9 @@
 			"maxStack":8,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Apply 40 Tranquilizer to a monster; 80 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
 			"name":"Paint S",
@@ -1055,7 +1212,8 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":0,
-			"sell":6
+			"sell":6,
+			"details":"Paint a monster and it's location will appear on the map for 10 minutes. If a small monster is painted, its icon will disappear once you leave the zone. <span class=\"mh1\">For</span><span class=\"mhg\">With the Detect or Autotracker armor skill, for</span> large monsters, the icon will indicate the monster's facing direction, whether it's flying, and whether it's alerted for combat or calm."
 		},
 		{
 			"name":"Demon S",
@@ -1065,7 +1223,8 @@
 			"maxStack":5,
 			"rarity":3,
 			"buy":0,
-			"sell":9
+			"sell":9,
+			"details":"Add 3 to another hunter's true damage, until they cart. Does not stack with Demondrug or Mega Demondrug. Will not take effect if the hunter is using the Supply Box at camp."
 		},
 		{
 			"name":"Armor S",
@@ -1075,7 +1234,8 @@
 			"maxStack":5,
 			"rarity":3,
 			"buy":0,
-			"sell":7
+			"sell":7,
+			"details":"Add 3 to another hunter's defense, until they cart. Does not stack with Armorskin or Mega Armorskin. Will not take effect if the hunter is using the Supply Box at camp."
 		},
 		{
 			"name":"Antidote S",
@@ -1086,6 +1246,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":1,
+			"details":"Cure a hunter of poison.",
 			"mh1": true
 		},
 		{
@@ -1096,7 +1257,9 @@
 			"maxStack":5,
 			"rarity":1,
 			"buy":10,
-			"sell":1
+			"sell":1,
+			"details":"Fishing bait with no special properties.",
+			"acquire":"Gather from various locations in the Forest and Hills, Jungle, Desert, and Swamp. Buy from the Kokoto Market and Minegarde Tool Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Worm",
@@ -1106,7 +1269,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":20,
-			"sell":2
+			"sell":2,
+			"details":"Fishing bait with no special properties.",
+			"acquire":"Gather from various locations in the Forest and Hills, Jungle, Swamp, and Volcano. Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor. Provided in the Supply Box during some quests. Rewarded by some quests."
 		},
 		{
 			"name":"Firefly",
@@ -1116,7 +1281,9 @@
 			"maxStack":20,
 			"rarity":2,
 			"buy":40,
-			"sell":4
+			"sell":4,
+			"details":"Fishing bait with no special properties.",
+			"acquire":"Gather from various locations in the Forest and Hills, Jungle, Desert, and Swamp. Buy from the Kokoto Market and Minegarde Tool Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Frog",
@@ -1126,7 +1293,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":15
+			"sell":15,
+			"details":"Fishing bait that can also be used to fish Plesioth, dealing damage.",
+			"acquire":"Gather from various locations in the Forest and Hills, Jungle, and Desert."
 		},
 		{
 			"name":"Tuna Bait",
@@ -1137,6 +1306,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":4,
+			"details":"Attact Pin Tuna to your fishing lure.",
 			"mhg":true
 		},
 		{
@@ -1148,6 +1318,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":7,
+			"details":"Attact Burst Arrowana and Bomb Arrowana to your fishing lure.",
 			"mhg":true
 		},
 		{
@@ -1159,6 +1330,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":30,
+			"details":"Attack Goldenfish to your fishing lure.",
 			"mhg":true
 		},
 		{
@@ -1170,6 +1342,7 @@
 			"rarity":3,
 			"buy":30,
 			"sell":3,
+			"details":"??",
 			"mhg":true
 		},
 		{
@@ -1180,7 +1353,8 @@
 			"maxStack":3,
 			"rarity":1,
 			"buy":60,
-			"sell":6
+			"sell":6,
+			"acquire":"Buy from the Kokoto Market and Minegarde Tool Stall. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Iron Pickaxe",
@@ -1190,7 +1364,8 @@
 			"maxStack":4,
 			"rarity":1,
 			"buy":160,
-			"sell":16
+			"sell":16,
+			"acquire":"Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Mega Pickaxe",
@@ -1210,7 +1385,8 @@
 			"maxStack":3,
 			"rarity":1,
 			"buy":30,
-			"sell":3
+			"sell":3,
+			"acquire":"Buy from the Kokoto Market and Minegarde Tool Stall. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Bugnet",
@@ -1220,7 +1396,8 @@
 			"maxStack":4,
 			"rarity":1,
 			"buy":80,
-			"sell":8
+			"sell":8,
+			"acquire":"Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Mega Bugnet",
@@ -1240,7 +1417,9 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":560,
-			"sell":56
+			"sell":56,
+			"details":"Cook Raw Meat into Steak, if you have Raw Meat in your inventory. Use to start cooking, and press <span class=\"ui-icon circle-icon\"></span> to take the meat off the spit. Remove while the music is playing to keep the Raw Meat, shortly after the music stops for Rare Steak, a few seconds after the music for Well-Done Steak, too late or not at all for Burnt Steak.",
+			"acquire":"Buy from the Kokoto Market and Minegarde Tool Stall"
 		},
 		{
 			"name":"Gourmet BBQ Spit",
@@ -1251,6 +1430,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":2400,
+			"acquire":"Rewarded by an event quest. Trade 99 BBQ Tickets to the Veggie Elder.",
 			"mhg":true
 		},
 		{
@@ -1261,7 +1441,10 @@
 			"maxStack":20,
 			"rarity":1,
 			"buy":80,
-			"sell":8
+			"sell":8,
+			"details":"Restore 150 hits of sharpness to your weapon.",
+			"acquire":"Gather from various locations and mineral deposits in the Forest and Hills, Jungle, Desert, Swamp, and Volcano. Buy from the Kokoto Market, Minegarde Tool Stall, and Hunter's Guild Vendor.",
+			"alchemy":"Disk Stone + Sm Monster Bone"
 		},
 		{
 			"name":"Binoculars",
@@ -1271,7 +1454,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":50,
-			"sell":5
+			"sell":5,
+			"acquire":"Buy from the Kokoto Market and Minegarde Tool Stall. Provided in the Supply Box during some quests."
 		},
 		{
 			"name":"Garbage",
@@ -1291,7 +1475,9 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":480,
-			"sell":48
+			"sell":48,
+			"details":"Alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Tool Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Health Flute",
@@ -1301,7 +1487,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":0,
-			"sell":830
+			"sell":830,
+			"details":"Restore 20 hitpoints to yourself and 60 hitpoints to other hunters in the same zone. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected."
 		},
 		{
 			"name":"Antidote Flute",
@@ -1311,7 +1498,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":0,
-			"sell":780
+			"sell":780,
+			"details":"Cure poison on yourself and other hunters in the same zone. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected."
 		},
 		{
 			"name":"Demon Flute",
@@ -1321,7 +1509,8 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":0,
-			"sell":1620
+			"sell":1620,
+			"details":"Add 10 to the true damage of your weapon and the weapons of any hunters in the same zone for 3 minutes. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected."
 		},
 		{
 			"name":"Armor Flute",
@@ -1331,7 +1520,8 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":0,
-			"sell":1480
+			"sell":1480,
+			"details":"Add 20 to your defense and the defense of any hunters in the same zone for 3 minutes. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected."
 		},
 		{
 			"name":"Honey",
@@ -1341,7 +1531,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":90,
-			"sell":45
+			"sell":45,
+			"acquire":"Gather from beehives in the Forest and Hills and Jungle. Rewarded by some quests."
 		},
 		{
 			"name":"Herb",
@@ -1351,7 +1542,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":20,
-			"sell":2
+			"sell":2,
+			"details":"Restore 20 hitpoints.",
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, Desert, Swamp, and Volcano. Buy from the Kokoto Market and Minegarde Materials Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Antidote Herb",
@@ -1361,7 +1554,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":20,
-			"sell":2
+			"sell":2,
+			"details":"Cure poison 50% of the time.",
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, and Swamp. Rewarded by some quests."
 		},
 		{
 			"name":"Fire Herb",
@@ -1371,7 +1566,8 @@
 			"maxStack":20,
 			"rarity":2,
 			"buy":44,
-			"sell":4
+			"sell":4,
+			"acquire":"Gather from plants in the Desert and Volcano. Buy from the Kokoto Market and Minegarde Materials Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Ivy",
@@ -1381,7 +1577,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":75,
-			"sell":8
+			"sell":8,
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, and Swamp. Buy from the Minegarde Materials Stall on Materials Day."
 		},
 		{
 			"name":"Sleep Herb",
@@ -1391,7 +1588,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":50,
-			"sell":5
+			"sell":5,
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, and Swamp. Buy from the Minegarde Materials Stall."
 		},
 		{
 			"name":"Sap Plant",
@@ -1401,7 +1599,8 @@
 			"maxStack":30,
 			"rarity":1,
 			"buy":24,
-			"sell":2
+			"sell":2,
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, Desert, and Swamp. Buy from the Kokoto Market and Minegarde Materials Stall. Rewarded by some quests."
 		},
 		{
 			"name":"Felvine",
@@ -1411,7 +1610,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":14,
-			"sell":1
+			"sell":1,
+			"details":"A Melynx will always steal this instead of other items.",
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, Desert, and Swamp. Buy from the Kokoto Market and Minegarde Materials Stall."
 		},
 		{
 			"name":"Cactus Flower",
@@ -1421,7 +1622,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":100,
-			"sell":10
+			"sell":10,
+			"acquire":"Gather from cactuses in the Desert. Buy from the Mingarde Materials Stall on Materials Day. Rewarded by some quests."
 		},
 		{
 			"name":"King Cactus",
@@ -1431,7 +1633,8 @@
 			"maxStack":10,
 			"rarity":5,
 			"buy":0,
-			"sell":3600
+			"sell":3600,
+			"acquire":"Gather from cactuses in the Desert."
 		},
 		{
 			"name":"Hot Pepper",
@@ -1442,6 +1645,7 @@
 			"rarity":2,
 			"buy":44,
 			"sell":4,
+			"acquire":"Buy from the Kokoto Market and Minegarde Materials Stall.",
 			"mhg":true
 		},
 		{
@@ -1452,7 +1656,9 @@
 			"maxStack":10,
 			"rarity":5,
 			"buy":0,
-			"sell":60
+			"sell":60,
+			"details":"<span class=\"mh1\">Remain in your inventory after returning from a quest.</span><span class=\"mhg\">Sold automatically at the end of a quest.</span>",
+			"acquire":"Gather from mushrooms in Special Mushroom delivery quests."
 		},
 		{
 			"name":"Blue Mushroom",
@@ -1462,7 +1668,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":24,
-			"sell":2
+			"sell":2,
+			"acquire":"Gather from mushrooms in the Forest and Hills, Jungle, and Swamp. Buy from the Minegarde Materials Stall on Materials Day. Rewarded by some quests."
 		},
 		{
 			"name":"Nitroshroom",
@@ -1472,7 +1679,8 @@
 			"maxStack":20,
 			"rarity":2,
 			"buy":60,
-			"sell":6
+			"sell":6,
+			"acquire":"Gather from mushrooms in the Forest and Hills and Swamp. Buy from the Minegarde Materials Stall on Materials Day. Rewarded by some quests."
 		},
 		{
 			"name":"Stunshroom",
@@ -1482,7 +1690,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":0,
-			"sell":15
+			"sell":15,
+			"acquire":"Gather from mushrooms in the Forest and Hills, Jungle, and Swamp. Buy from the Minegarde Materials Stall on Materials Day. Rewarded by some quests."
 		},
 		{
 			"name":"Toadstool",
@@ -1492,7 +1701,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":75,
-			"sell":8
+			"sell":8,
+			"acquire":"Gather from mushrooms in the Swamp. Buy from the Minegarde Materials Stall on Materials Day. Rewarded by some quests."
 		},
 		{
 			"name":"Dragon Toadstool",
@@ -1502,7 +1712,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":400,
-			"sell":40
+			"sell":40,
+			"acquire":"Gather from cave mushrooms in the Jungle, Desert, and Swamp.<span class=\"mhg\"> Buy from the Minegarde Materials Stall.</span> Rewarded by some quests."
 		},
 		{
 			"name":"Spicy Mushroom",
@@ -1513,6 +1724,7 @@
 			"rarity":3,
 			"buy":0,
 			"sell":54,
+			"acquire":"Provided in the Supply Box during some quests.",
 			"mhg":true
 		},
 		{
@@ -1523,7 +1735,8 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":60,
-			"sell":6
+			"sell":6,
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, and Desert. Rewarded by some quests."
 		},
 		{
 			"name":"Power Seed",
@@ -1533,7 +1746,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":280,
-			"sell":140
+			"sell":140,
+			"details":"Add 10 to your weaon's raw damage for 3 minutes.",
+			"acquire":"Gather from plants in the Forest and Hills, Desert, and Volcano. Rewarded by some quests."
 		},
 		{
 			"name":"Armor Seed",
@@ -1543,7 +1758,9 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":220,
-			"sell":110
+			"sell":110,
+			"details":"Add 20 to your defense for 3 minutes.",
+			"acquire":"Gather from plants in the Volcano. Rewarded by some quests."
 		},
 		{
 			"name":"Dragon Seed",
@@ -1553,7 +1770,8 @@
 			"maxStack":2,
 			"rarity":2,
 			"buy":0,
-			"sell":78
+			"sell":78,
+			"acquire":"Gather from various locations in the Jungle and Volcano."
 		},
 		{
 			"name":"Scatternut",
@@ -1563,7 +1781,8 @@
 			"maxStack":30,
 			"rarity":2,
 			"buy":82,
-			"sell":4
+			"sell":4,
+			"acquire":"Gather from plants in the Forest and Hills, Jungle, and Swamp. Buy from the Minegarde Food Stall."
 		},
 		{
 			"name":"Needleberry",
@@ -1573,7 +1792,8 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":22,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather from plants in the Forest and Hills, Desert, and Volcano. Buy from the Minegarde Food Stall."
 		},
 		{
 			"name":"Bomberry",
@@ -1583,7 +1803,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":120,
-			"sell":12
+			"sell":12,
+			"acquire":"Gather from plants in the Desert and Swamp. Buy from the Minegarde Food Stall."
 		},
 		{
 			"name":"Stone",
@@ -1593,7 +1814,8 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":0,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather from ore deposits and some other locations. Sometimes rewarded for breaking Gypceros's Head."
 		},
 		{
 			"name":"Disk Stone",
@@ -1603,7 +1825,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":68
+			"sell":68,
+			"acquire":"Gather from ore deposits in Village and Low Rank. Rewarded by some quests."
 		},
 		{
 			"name":"Iron Ore",
@@ -1613,7 +1836,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":60
+			"sell":60,
+			"acquire":"Gather from ore deposits. Rewarded by some quests."
 		},
 		{
 			"name":"Earth Crystal",
@@ -1623,7 +1847,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Gather from ore deposits. Rewarded by some quests."
 		},
 		{
 			"name":"Machalite Ore",
@@ -1633,7 +1858,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":160
+			"sell":160,
+			"acquire":"Gather from ore deposits. Rewarded by some quests."
 		},
 		{
 			"name":"Dragonite Ore",
@@ -1643,7 +1869,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":480
+			"sell":480,
+			"acquire":"Gather from ore deposits in High Rank<span class=\"mhg\"> and G Rank</span>."
 		},
 		{
 			"name":"Carbalite Ore",
@@ -1654,6 +1881,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":960,
+			"acquire":"Gather from ore deposits in G Rank.",
 			"mhg":true
 		},
 		{
@@ -1665,6 +1893,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1000,
+			"acquire":"Rewarded by an event quest.",
 			"mhg":true
 		},
 		{
@@ -1675,7 +1904,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":320
+			"sell":320,
+			"acquire":"Gather from ore deposits in High Rank<span class=\"mhg\"> and G Rank</span>."
 		},
 		{
 			"name":"Firestone",
@@ -1685,7 +1915,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":860
+			"sell":860,
+			"acquire":"Gather from ore deposits at the peak of the Volcano in High Rank."
 		},
 		{
 			"name":"Firecell Stone",
@@ -1696,6 +1927,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1720,
+			"acquire":"Gather from ore deposits in G Rank.",
 			"mhg":true
 		},
 		{
@@ -1706,7 +1938,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Gather from ore deposits in Coal delivery quests."
 		},
 		{
 			"name":"Lightcrystal",
@@ -1716,7 +1949,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1150
+			"sell":1150,
+			"acquire":"Gather from ore deposits in certain quests. Carve from Gypceros and Kirin in the Village and Low Rank. Sometimes rewarded for breaking Gypceros's Head<span class=\"mhg\"> in Low and High Rank</span>. Rewarded by some quests."
 		},
 		{
 			"name":"Novacrystal",
@@ -1726,10 +1960,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2440
+			"sell":2440,
+			"acquire":"Gather from ore deposits in certain quests. Carve from Gypceros<span class=\"mhg\"> and Kirin</span> in High Rank. Sometimes rewarded for breaking Gypceros's Head in High Rank<span class=\"mhg\"> and G Rank</span>. Rewarded by some quests."
 		},
 		{
-			"name":"Pure Crystal",
+			"name":"Purecrystal",
 			"japanese":"ピュアクリスタル",
 			"icon":"cyan-icon stone-icon",
 			"description":"100% Pure. Due to its hardness, it is often used in workshops and armories.",
@@ -1737,6 +1972,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":9999,
+			"acquire":"Gather from ore deposits in certain quests. Carve from Gypceros and Kirin in G Rank. Sometimes rewarded for breaking Gypceros's Head in G Rank.",
 			"mhg":true
 		},
 		{
@@ -1758,6 +1994,7 @@
 			"rarity":2,
 			"buy":0,
 			"sell":60,
+			"acquire":"Gather from ore deposits in the Desert and Volcano.",
 			"mhg":true
 		},
 		{
@@ -1768,7 +2005,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":190,
-			"sell":60
+			"sell":60,
+			"details":"Restore 150 hits of sharpness.",
+			"acquire":"Fish from any fishing spot."
 		},
 		{
 			"name":"Sushifish",
@@ -1778,7 +2017,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":45
+			"sell":45,
+			"details":"Restore 20 hitpoints.",
+			"acquire":"Fish from the Forest and Hills, Jungle,<span class=\"mh1\"> and</span> Desert<span class=\"mhg\">, and secret zone in the Swamp</span>."
 		},
 		{
 			"name":"Sleepyfish",
@@ -1788,7 +2029,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":90,
-			"sell":45
+			"sell":45,
+			"acquire":"Fish from any fishing spot."
 		},
 		{
 			"name":"Pin Tuna",
@@ -1798,7 +2040,8 @@
 			"maxStack":30,
 			"rarity":1,
 			"buy":190,
-			"sell":50
+			"sell":50,
+			"acquire":"Fish from any fishing spot. Looks like a large tuna. Rewarded by Goldenfish delivery quests."
 		},
 		{
 			"name":"Rumblefish",
@@ -1808,7 +2051,8 @@
 			"maxStack":30,
 			"rarity":2,
 			"buy":38,
-			"sell":15
+			"sell":15,
+			"acquire":"Fish from any fishing spot. Rewarded by Goldenfish delivery quests."
 		},
 		{
 			"name":"Scatterfish",
@@ -1818,7 +2062,8 @@
 			"maxStack":10,
 			"rarity":4,
 			"buy":300,
-			"sell":240
+			"sell":240,
+			"acquire":"Fish from the cave in the Swamp and the Volcano. Rewarded by Goldenfish delivery quests."
 		},
 		{
 			"name":"Burst Arrowana",
@@ -1828,7 +2073,8 @@
 			"maxStack":10,
 			"rarity":4,
 			"buy":90,
-			"sell":88
+			"sell":88,
+			"acquire":"Fish from the Forest and Hill, Jungle, Swamp, and Volcano. Rewarded by Goldenfish delivery quests."
 		},
 		{
 			"name":"Bomb Arrowana",
@@ -1838,7 +2084,8 @@
 			"maxStack":10,
 			"rarity":4,
 			"buy":270,
-			"sell":264
+			"sell":264,
+			"acquire":"Fish from the Jungle, Desert,<span class=\"mhg\"> secret zone in the Swamp,</span> and the Volcano. Rewarded by Goldenfish delivery quests."
 		},
 		{
 			"name":"Goldenfish",
@@ -1848,7 +2095,8 @@
 			"maxStack":10,
 			"rarity":4,
 			"buy":0,
-			"sell":760
+			"sell":760,
+			"acquire":"Fish from the creek in the Forest and Hills and the cave in the Swamp during a Goldenfish delivery quest."
 		},
 		{
 			"name":"Speartuna",
@@ -1858,7 +2106,8 @@
 			"maxStack":10,
 			"rarity":5,
 			"buy":0,
-			"sell":2200
+			"sell":2200,
+			"acquire":"Fish from any fishing point in High Rank<span class=\"mhg\"> and G Rank</span>."
 		},
 		{
 			"name":"Insect Husk",
@@ -1868,7 +2117,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather from bug swarms."
 		},
 		{
 			"name":"Yambug",
@@ -1879,6 +2129,7 @@
 			"rarity":1,
 			"buy":30,
 			"sell":3,
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Materials Stall.",
 			"mhg":true
 		},
 		{
@@ -1890,6 +2141,7 @@
 			"rarity":1,
 			"buy":60,
 			"sell":6,
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Materials Stall.",
 			"mhg":true
 		},
 		{
@@ -1901,6 +2153,7 @@
 			"rarity":1,
 			"buy":300,
 			"sell":30,
+			"acquire":"Buy from the Kokoto Peddler and Minegarde Materials Stall.",
 			"mhg":true
 		},
 		{
@@ -1911,7 +2164,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":420,
-			"sell":210
+			"sell":210,
+			"acquire":"Gather from bug swarms."
 		},
 		{
 			"name":"Bitterbug",
@@ -1921,7 +2175,8 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":2
+			"sell":2,
+			"acquire":"Gather from bug swarms in the Village and Low Rank."
 		},
 		{
 			"name":"Flashbug",
@@ -1931,7 +2186,8 @@
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
-			"sell":48
+			"sell":48,
+			"acquire":"Gather from bug swarms."
 		},
 		{
 			"name":"Thunderbug",
@@ -1941,7 +2197,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":350
+			"sell":350,
+			"acquire":"Gather from bug swarms. Rewarded by some quests."
 		},
 		{
 			"name":"King Scarab",
@@ -1952,6 +2209,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":2240,
+			"acquire":"Gather from bug swarms in High and G Rank",
 			"mhg":true
 		},
 		{
@@ -1963,6 +2221,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":640,
+			"acquire":"Gather from bug swarms in G Rank.",
 			"mhg":true
 		},
 		{
@@ -1973,7 +2232,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":15
+			"sell":15,
+			"acquire":"Rewarded for hunting Velocidrome<span class=\"mh1\"> and</span><span class=\"mhg\">,</span> Yian Kut-Ku<span class=\"mhg\">, and Blue Yian Kut-Ku</span>."
 		},
 		{
 			"name":"Poison Sac",
@@ -1983,7 +2243,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":96
+			"sell":96,
+			"acquire":"Carve from Iodrome, Gypceros, and Basarios<span class=\"mhg\"> in Village, Low, and High Rank</span>. Rewarded for hunting Iodrome, Gypceros, and Basarios<span class=\"mhg\"> in Village, Low, and High Rank</span>."
 		},
 		{
 			"name":"Toxin Sac",
@@ -1994,6 +2255,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":192,
+			"acquire":"Carve from Iodrome, Gypceros, Purple Gypceros, and Basarios in G Rank. Rewarded for hunting Iodrome, Gypceros, Purple Gypceros, and Basarios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2004,7 +2266,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Carve from Gendrome<span class=\"mhg\"> in Village, Low, and High Rank</span>. Rewarded for hunting Gendrome<span class=\"mhg\"> in Village, Low, and High Rank</span>."
 		},
 		{
 			"name":"Paralysis Sac",
@@ -2015,6 +2278,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":240,
+			"acquire":"Carve from Gendrome in G Rank. Rewarded for hunting Gendrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2025,7 +2289,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":340
+			"sell":340,
+			"acquire":"Carve from Gravios<span class=\"mhg\"> in Village, Low, and High Rank</span>. Rewarded for hunting Gravios<span class=\"mhg\"> in Village, Low, and High Rank</span>."
 		},
 		{
 			"name":"Coma Sac",
@@ -2036,6 +2301,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":680,
+			"acquire":"Carve from Gravios and Black Gravios in G Rank. Rewarded for hunting Gravios and Black Gravios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2046,7 +2312,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":240
+			"sell":240,
+			"acquire":"Carve from Rathalos<span class=\"mhg\">, Azure Rathalos</span>, Rathian<span class=\"mhg\">, Pink Rathian</span>, and Gravios<span class=\"mhg\"> in the Village, Low, and High Rank</span>. Rewarded for hunting Rathalos<span class=\"mhg\">, Azure Rathalos</span>, Rathian<span class=\"mhg\">, Pink Rathian</span>, and Gravios<span class=\"mhg\"> in the Village, Low, and High Rank</span>."
 		},
 		{
 			"name":"Inferno Sac",
@@ -2057,6 +2324,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":480,
+			"acquire":"Carve from Rathalos, Azure Rathalos, Silver Rathalos, Rathian, Pink Rathian, Gold Rathian, Gravios, and Black Gravios in G Rank. Rewarded for hunting Rathalos, Azure Rathalos, Silver Rathalos, Rathian, Pink Rathian, Gold Rathian, Gravios, and Black Gravios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2067,7 +2335,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":480
+			"sell":480,
+			"acquire":"Carve from Khezu<span class=\"mh1\"> in the Village, Low, and High Rank</span>. Rewarded for hunting Khezu<span class=\"mh1\"> in the Village, Low, and High Rank</span>."
 		},
 		{
 			"name":"Thunder Sac",
@@ -2078,6 +2347,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":960,
+			"acquire":"Carve from Khezu and Red Khezu in G Rank. Rewarded for hunting Khezu and Red Khezu in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2088,7 +2358,8 @@
 			"maxStack":20,
 			"rarity":3,
 			"buy":0,
-			"sell":56
+			"sell":56,
+			"acquire":"Carve from Gypceros<span class=\"mhg\"> and Purple Gypceros</span>. Rewarded for hunting Gypceros<span class=\"mhg\"> and Purple Gypceros</span>."
 		},
 		{
 			"name":"Pale Extract",
@@ -2098,7 +2369,8 @@
 			"maxStack":20,
 			"rarity":3,
 			"buy":0,
-			"sell":122
+			"sell":122,
+			"acquire":"Carve from Khezu<span class=\"mhg\"> and Red Khezu</span>. Rewarded for hunting Khezu<span class=\"mhg\"> and Red Khezu</span>."
 		},
 		{
 			"name":"Sm Monster Bone",
@@ -2108,7 +2380,8 @@
 			"maxStack":99,
 			"rarity":3,
 			"buy":100,
-			"sell":10
+			"sell":10,
+			"acquire":"Carve from Aptonoth and Apceros. Rewarded by many quests."
 		},
 		{
 			"name":"Med Monster Bone",
@@ -2118,7 +2391,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":210
+			"sell":210,
+			"acquire":"Carve from Aptonoth and Apceros. Rewarded by many quests."
 		},
 		{
 			"name":"Lg Monster Bone",
@@ -2128,7 +2402,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":440
+			"sell":440,
+			"acquire":"Carve from Village and Low Rank Rathian Tail<span class=\"mhg\">, Village Pink Rathian Tail</span>, Monoblos<span class=\"mhg\"> and White Monoblos</span> Tail, Village and Low Rank Gravios Tail,<span class=\"mhg\"> Village, Low, and High Rank</span> Basarios, and Lao-Shan Lung. Rewarded for hunting most large monsters."
 		},
 		{
 			"name":"Monster Bone+",
@@ -2139,6 +2414,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":880,
+			"acquire":"Carve from G Rank Basarios and Ashen Lao-Shan Lung's back. Rewarded for hunting most large monsters in G Rank",
 			"mhg":true
 		},
 		{
@@ -2149,7 +2425,8 @@
 			"maxStack":99,
 			"rarity":1,
 			"buy":0,
-			"sell":1
+			"sell":1,
+			"acquire":"Gather at bone piles. Rewarded by one-star Village quests."
 		},
 		{
 			"name":"Unknown Skull",
@@ -2159,7 +2436,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Gather at bone piles. Rewarded for delivering herbivore eggs."
 		},
 		{
 			"name":"Master's Skull",
@@ -2169,7 +2447,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1250
+			"sell":1250,
+			"acquire":"Gather at bone piles in High<span class=\"mhg\"> and G</span> Rank. Rewarded for delivering herbivore eggs in High Rank."
 		},
 		{
 			"name":"Bone",
@@ -2180,6 +2459,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":15,
+			"acquire":"Gather at bone piles. Rewarded by the Village Plague of Yian Kut-Ku quest.",
 			"mhg":true
 		},
 		{
@@ -2190,7 +2470,8 @@
 			"maxStack":99,
 			"rarity":3,
 			"buy":58,
-			"sell":6
+			"sell":6,
+			"acquire":"Rewarded for hunting most flying wyverns."
 		},
 		{
 			"name":"Wyvern Claw",
@@ -2201,7 +2482,8 @@
 			"maxStackG":50,
 			"rarity":3,
 			"buy":180,
-			"sell":18
+			"sell":18,
+			"acquire":"Carve from Rathian<span class=\"mhg\"> and Pink Rathian</span> in High Rank<span class=\"mhg\"> and G Rank</span>. Rewarded for hunting most flying wyverns."
 		},
 		{
 			"name":"Mosswine Hide",
@@ -2211,7 +2493,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":36
+			"sell":36,
+			"acquire":"Carve from Mosswine in High<span class=\"mhg\"> and G</span> Rank.<span class=\"mh1\"> Rewarded by the 4-star quests \"It's Party Time!\" and \"Show me your Cooking Skills!\"</span>"
 		},
 		{
 			"name":"Mosswine Head",
@@ -2221,7 +2504,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":12
+			"sell":12,
+			"acquire":"Carve from Mosswine in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
 			"name":"Bullfango Pelt",
@@ -2231,7 +2515,8 @@
 			"maxStack":50,
 			"rarity":1,
 			"buy":0,
-			"sell":40
+			"sell":40,
+			"acquire":"Carve from Bullfango. Rewarded for hunting Bullfango."
 		},
 		{
 			"name":"Bullfango Head",
@@ -2241,7 +2526,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":98
+			"sell":98,
+			"acquire":"Carve from Bullfango in High<span class=\"mhg\"> and G</span> Rank.<span class=\"mh1\"> Rewarded by the 4-star quest \"Trouble in the Swamp\".</span>"
 		},
 		{
 			"name":"Kelbi Horn",
@@ -2251,7 +2537,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":52
+			"sell":52,
+			"acquire":"Carve from Kelbi."
 		},
 		{
 			"name":"Kelbi Hide",
@@ -2261,7 +2548,8 @@
 			"maxStack":50,
 			"rarity":1,
 			"buy":0,
-			"sell":24
+			"sell":24,
+			"acquire":"Carve from Kelbi. Rewarded by quests Kelbi Horn delivery quests."
 		},
 		{
 			"name":"Velociprey Fang",
@@ -2271,7 +2559,8 @@
 			"maxStack":99,
 			"rarity":2,
 			"buy":82,
-			"sell":15
+			"sell":15,
+			"acquire":"Carve from Velociprey<span class=\"mhg\"> and White Velociprey</span>. Rewarded for hunting Velociprey and Velocidrome. Buy from the Minegarde Materials Stall."
 		},
 		{
 			"name":"Velociprey Scale",
@@ -2281,7 +2570,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":40
+			"sell":40,
+			"acquire":"Carve from Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Velociprey Scle+",
@@ -2292,6 +2582,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":120,
+			"acquire":"Carve from Velociprey and Velocidrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2302,7 +2593,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":28
+			"sell":28,
+			"acquire":"Carve from Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Velociprey Hide+",
@@ -2313,6 +2605,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":84,
+			"acquire":"Carve from Velociprey and Velocidrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2323,7 +2616,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":240
+			"sell":240,
+			"acquire":"Carve from Velocidrome. Rewarded for hunting Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Velocidrome Head",
@@ -2333,10 +2627,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":560
+			"sell":560,
+			"acquire":"Carve from Velocidrome in High<span class=\"mhg\"> and G</span> Rank. Rewarded for hunting Velocidrome in High Rank."
 		},
 		{
-			"name":"WhtVelopry Scale",
+			"name":"White Velociprey Scale",
 			"japanese":"ランポスの白鱗",
 			"icon":"white-icon scale-icon",
 			"description":"Rare, White Velociprey scale. Its refined hue is a popular secret.",
@@ -2344,10 +2639,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":360,
+			"acquire":"Carve from White Velociprey.",
 			"mhg":true
 		},
 		{
-			"name":"Wht Velopry Hide",
+			"name":"White Velociprey Hide",
 			"japanese":"ランポスの白皮",
 			"icon":"white-icon hide-icon",
 			"description":"Rare, White Velociprey hide. The elegant color is quite popular.",
@@ -2355,6 +2651,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":252,
+			"acquire":"Carve from White Velociprey.",
 			"mhg":true
 		},
 		{
@@ -2365,7 +2662,8 @@
 			"maxStack":99,
 			"rarity":2,
 			"buy":80,
-			"sell":35
+			"sell":35,
+			"acquire":"Carve from Genprey. Rewarded for slaying Genprey and Gendrome."
 		},
 		{
 			"name":"Genprey Scale",
@@ -2375,7 +2673,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":40
+			"sell":40,
+			"acquire":"Carve from Genprey and Gendrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for slaying Genprey and Gendrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Genprey Scale+",
@@ -2386,6 +2685,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":180,
+			"acquire":"Carve from Genprey and Gendrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2396,7 +2696,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":28
+			"sell":28,
+			"acquire":"Carve from Genprey and Gendrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for slaying Genprey and Gendrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Genprey Hide+",
@@ -2407,6 +2708,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":126,
+			"acquire":"Carve from Genprey and Gendrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2417,7 +2719,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":560
+			"sell":560,
+			"acquire":"Carve from Gendrome in High<span class=\"mhg\"> and G</span> Rank. Rewarded for slaying Gendrome in High Rank."
 		},
 		{
 			"name":"Ioprey Fang",
@@ -2427,7 +2730,8 @@
 			"maxStack":99,
 			"rarity":2,
 			"buy":50,
-			"sell":25
+			"sell":25,
+			"acquire":"Carve from Ioprey. Rewarded for slaying Ioprey and Iodrome."
 		},
 		{
 			"name":"Ioprey Scale",
@@ -2437,7 +2741,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":40
+			"sell":40,
+			"acquire":"Carve from Ioprey and Iodrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for slaying Ioprey and Iodrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Ioprey Scale+",
@@ -2448,6 +2753,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":240,
+			"acquire":"Carve from Ioprey and Iodrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2458,7 +2764,8 @@
 			"maxStack":50,
 			"rarity":3,
 			"buy":0,
-			"sell":28
+			"sell":28,
+			"acquire":"Carve from Ioprey and Iodrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for slaying Ioprey and Iodrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Ioprey Hide+",
@@ -2469,6 +2776,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":168,
+			"acquire":"Carve from Ioprey and Iodrome in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2479,7 +2787,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":560
+			"sell":560,
+			"acquire":"Carve from Iodrome in High<span class=\"mhg\"> and G</span> Rank. Rewarded for slaying Iodrome in High Rank."
 		},
 		{
 			"name":"Kut-Ku Coin",
@@ -2490,6 +2799,7 @@
 			"rarity":3,
 			"buy":0,
 			"sell":100,
+			"acquire":"Rewarded by Yian Kut-Ku Training, the Village \"The Plague of Yian Kut-Ku\", and 6-star \"The Plague of Yian Kut-Ku\" quests.",
 			"mhg":true
 		},
 		{
@@ -2500,7 +2810,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":250
+			"sell":250,
+			"acquire":"Gather from various locations in the Forest and Hills, Desert, and Swamp. Carve from Yian Kut-Ku in Low Rank. Rewarded by various quests."
 		},
 		{
 			"name":"Kut-Ku Shell",
@@ -2510,7 +2821,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":345
+			"sell":345,
+			"acquire":"Carve from Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Kut-Ku Carapace",
@@ -2521,6 +2833,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":690,
+			"acquire":"Carve from Yian Kut-Ku in G Rank. Rewarded for hunting Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2531,7 +2844,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1280
+			"sell":1280,
+			"acquire":"Carve from Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Long Kut-Ku Ear",
@@ -2542,6 +2856,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1600,
+			"acquire":"Carve from Yian Kut-Ku in G Rank. Rewarded for hunting Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2553,7 +2868,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1200,
-			"mhg":true
+			"acquire":"Rewarded by the event quest \"幻の怪鳥\", which is currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Giant Beak",
@@ -2563,7 +2879,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1500
+			"sell":1500,
+			"acquire":"Carve from Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Splendid Beak",
@@ -2574,6 +2891,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2250,
+			"acquire":"Carve from Yian Kut-Ku and Blue Yian Kut-Ku in G Rank. Rewarded for hunting Yian Kut-Ku and Blue Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2584,7 +2902,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Yian Kut-Ku<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Kut-Ku Wing",
@@ -2595,10 +2914,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1300,
+			"acquire":"Carve from Yian Kut-Ku in G Rank. Rewarded for hunting Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"BluKutKuCarapace",
+			"name":"Blue Kut-Ku Carapace",
 			"japanese":"青怪鳥の甲殻",
 			"icon":"blue-icon creature-icon",
 			"description":"Carapace of a rare Blue Kut-Ku. The vivid blue makes it a popular item.",
@@ -2606,6 +2926,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":862,
+			"acquire":"Carve from Blue Yian Kut-Ku in G Rank. Rewarded for hunting Blue Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2617,6 +2938,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2225,
+			"acquire":"Carve from Blue Yian Kut-Ku in G Rank. Rewarded for hunting Blue Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2628,6 +2950,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1300,
+			"acquire":"Carve from Blue Yian Kut-Ku in G Rank. Rewarded for hunting Blue Yian Kut-Ku in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2639,6 +2962,7 @@
 			"rarity":3,
 			"buy":0,
 			"sell":300,
+			"acquire":"Rewarded by Gypceros Training.",
 			"mhg":true
 		},
 		{
@@ -2649,7 +2973,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":370
+			"sell":370,
+			"acquire":"Carve from Gypceros. Rewarded for hunting Gypceros<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Rubbery Hide+",
@@ -2660,6 +2985,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":740,
+			"acquire":"Carve from Gypceros in G Rank. Rewarded for hunting Gypceros in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2671,10 +2997,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2200,
+			"acquire":"Carve from Purple Gypceros in G Rank. Rewarded for hunting Gypceros and Purple Gypceros in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Pur Rubbery Hide",
+			"name":"Purple Rubbery Hide",
 			"japanese":"ゴム質の紫皮",
 			"icon":"purple-icon hide-icon",
 			"description":"A rarely seen Purple Gypceros hide. The chic purple hide is en vogue.",
@@ -2682,6 +3009,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1110,
+			"acquire":"Carve from Purple Gypceros in G Rank. Rewarded for hunting Purple Gypceros in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2692,7 +3020,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":250
+			"sell":250,
+			"acquire":"Carve from Cephalos and Cephadrome. Rewarded for hunting Cephalos, Cephadrome, and Plesioth."
 		},
 		{
 			"name":"Piscine Liver",
@@ -2702,7 +3031,8 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":0,
-			"sell":300
+			"sell":300,
+			"acquire":"Carve from Cephalos and Cephadrome."
 		},
 		{
 			"name":"Piscine Jaw",
@@ -2712,7 +3042,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":460
+			"sell":460,
+			"acquire":"Rewarded for hunting Cephalos, Cephadrome, and Plesioth<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Plesioth Coin",
@@ -2723,6 +3054,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":700,
+			"acquire":"Rewarded by Plesioth Training.",
 			"mhg":true
 		},
 		{
@@ -2733,7 +3065,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":445
+			"sell":445,
+			"acquire":"Carve from Plesioth<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for capturing Plesioth<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Plesioth Scale+",
@@ -2744,6 +3077,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1780,
+			"acquire":"Carve from Plesioth in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2754,7 +3088,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":820
+			"sell":820,
+			"acquire":"Carve from Plesioth<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Plesioth<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Plesioth Top Fin",
@@ -2765,10 +3100,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3280,
+			"acquire":"Carve from Plesioth in G Rank. Rewarded for hunting Plesioth in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Grn Plesioth Scl",
+			"name":"Green Plesioth Scale",
 			"japanese":"翠水竜の鱗",
 			"icon":"green-icon scale-icon",
 			"description":"Scale of a mysterious Green Plesioth. It has a emerald-like glow.",
@@ -2776,10 +3112,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3560,
+			"acquire":"Carve from Green Plesioth in G Rank. Rewarded for hunting Green Plesioth in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Grn Plesioth Fin",
+			"name":"Green Plesioth Fin",
 			"japanese":"翠水竜のヒレ",
 			"icon":"green-icon creature-icon",
 			"description":"A beautiful fin from a Green Plesioth. Often used in decoration.",
@@ -2787,6 +3124,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5740,
+			"acquire":"Carve from Green Plesioth in G Rank. Rewarded for hunting Green Plesioth in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2798,6 +3136,7 @@
 			"rarity":3,
 			"buy":0,
 			"sell":200,
+			"acquire":"Rewarded by Cephadrome Training.",
 			"mhg":true
 		},
 		{
@@ -2808,7 +3147,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":480
+			"sell":480,
+			"acquire":"Carve from Cephalos and Cephadrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Cephalos and Cephadrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Cephalos Scale+",
@@ -2819,6 +3159,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1440,
+			"acquire":"Carve from Cephalos and Cephadrome in G Rank. Rewarded for hunting Cephalos and Cephadrome G Rank.",
 			"mhg":true
 		},
 		{
@@ -2829,10 +3170,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":550
+			"sell":550,
+			"acquire":"Carve from Cephalos and Cephadrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Cephalos and Cephadrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
-			"name":"Cephalos Fin+",
+			"name":"Cephalos Top Fin",
 			"japanese":"砂竜の背ビレ",
 			"icon":"cyan-icon creature-icon",
 			"description":"A sand wyvern fin. Always being sanded to a sharp point, it can cut a rock.",
@@ -2840,10 +3182,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1650,
+			"acquire":"Carve from Cephalos and Cephadrome in G Rank. Rewarded for hunting Cephalos and Cephadrome G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Coral Cphlos Scl",
+			"name":"Coral Cephalos Scale",
 			"japanese":"砂竜の紫鱗",
 			"icon":"purple-icon scale-icon",
 			"description":"A coral sand wyvern scale. The vivid purple is popular with hunters.",
@@ -2851,10 +3194,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2400,
+			"acquire":"Carve from Cephalos and Cephadrome in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Coral Cphlos Fin",
+			"name":"Coral Cephalos Fin",
 			"japanese":"砂竜の桃ヒレ",
 			"icon":"pink-icon creature-icon",
 			"description":"A pink sand wyvern fin. The faint pink color is quite cute.",
@@ -2862,6 +3206,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2750,
+			"acquire":"Carve from Cephalos and Cephadrome in G Rank. Rewarded for hunting Cephalos and Cephadrome G Rank.",
 			"mhg":true
 		},
 		{
@@ -2873,6 +3218,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":600,
+			"acquire":"Rewarded by Rathian Training.",
 			"mhg":true
 		},
 		{
@@ -2883,7 +3229,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":600
+			"sell":600,
+			"acquire":"Rewarded for breaking Rathian wings."
 		},
 		{
 			"name":"Rathian Scale",
@@ -2893,7 +3240,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":4900,
-			"sell":490
+			"sell":490,
+			"acquire":"Carve from Rathian<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Rathian<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Rathian Scale+",
@@ -2904,6 +3252,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1470,
+			"acquire":"Carve from Rathian in G Rank. Rewarded for hunting Rathian in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2914,7 +3263,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":4850
+			"sell":4850,
+			"acquire":"Carve from Rathian Tail in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
 			"name":"Rathian Ruby",
@@ -2925,6 +3275,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":9700,
+			"acquire":"Carve from Rathian Tail in G Rank. Rewarded for breaking a Rathian head in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2935,7 +3286,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Rathian<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Rathian and breaking a Rathian head."
 		},
 		{
 			"name":"Rathian Carapace",
@@ -2946,6 +3298,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1950,
+			"acquire":"Carve from Rathian and Rathian Tail in G Rank. Rewarded for hunting Rathian and breaking a Rathian head in G Rank.",
 			"mhg":true
 		},
 		{
@@ -2956,10 +3309,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":300
+			"sell":300,
+			"acquire":"Carve from Rathian and Rathian Tail. Rewarded for hunting Rathian."
 		},
 		{
-			"name":"Pnk Rathian Claw",
+			"name":"Pink Rathian Claw",
 			"japanese":"桜火竜の翼爪",
 			"icon":"pink-icon claw-icon",
 			"description":"Wing claw from a Pink Rathian. When torn off, it flutters like flowers.",
@@ -2967,10 +3321,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":900,
+			"acquire":"Rewarded for breaking Pink Rathian wings.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rathian Scl",
+			"name":"Pink Rathian Scale",
 			"japanese":"桜火竜の鱗",
 			"icon":"pink-icon scale-icon",
 			"description":"Scale from a Pink Rathian, that resembles a dream-like flower petal.",
@@ -2978,10 +3333,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":735,
+			"acquire":"Carve from Pink Rathian and Pink Rathian Tail. Rewarded for hunting Pink Rathian.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rathian Scl+",
+			"name":"Pink Rathian Scale+",
 			"japanese":"桜火竜の上鱗",
 			"icon":"pink-icon scale-icon",
 			"description":"Scale from a Pink Rathian. The color masks its true strength.",
@@ -2989,10 +3345,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2450,
+			"acquire":"Carve from Pink Rathian and Pink Rathian Tail in G Rank. Rewarded for hunting Pink Rathian in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rthian Plate",
+			"name":"Pink Rathian Plate",
 			"japanese":"桜火竜の逆鱗",
 			"icon":"pink-icon scale-icon",
 			"description":"The plate from a Pink Rathian tail. The color is enchanting.",
@@ -3000,10 +3357,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7275,
+			"acquire":"Carve from Pink Rathian Tail in High and G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rathian Rby",
+			"name":"Pink Rathian Ruby",
 			"japanese":"桜火竜の紅玉",
 			"icon":"pink-icon bomb-icon",
 			"description":"A faintly pink, crimson colored gem. It is enthralling to view.",
@@ -3011,10 +3369,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":19400,
+			"acquire":"Carve from Pink Rathian Tail in G Rank. Rewarded for breaking a Pink Rathian head in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rathian Shl",
+			"name":"Pink Rathian Shell",
 			"japanese":"桜火竜の甲殻",
 			"icon":"pink-icon creature-icon",
 			"description":"Shell from a Pink Rathian. It hardened during adolescence.",
@@ -3022,10 +3381,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":975,
+			"acquire":"Carve from Pink Rathian in Low and High Rank. Rewarded for hunting Pink Rathian and breaking a Pink Rathian head.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rathian Cpc",
+			"name":"Pink Rathian Carapace",
 			"japanese":"桜火竜の堅殻",
 			"icon":"pink-icon creature-icon",
 			"description":"Harder than Pink Rathian Shell. Its beautiful color is often used in armor.",
@@ -3033,10 +3393,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3250,
+			"acquire":"Carve from Pink Rathian and Pink Rathian Tail in G Rank. Rewarded for hunting Pink Rathian and breaking a Pink Rathian head.",
 			"mhg":true
 		},
 		{
-			"name":"Pnk Rthian Thorn",
+			"name":"Pink Rathian Spike",
 			"japanese":"桜火竜の棘",
 			"icon":"pink-icon creature-icon",
 			"description":"Poisoned, needle-like hair of a Pink Rathian. Pretty things all have thorns.",
@@ -3044,10 +3405,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":450,
+			"acquire":"Carve from Pink Rathian and Pink Rathian tail.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rathian Clw",
+			"name":"Gold Rathian Claw",
 			"japanese":"金火竜の翼爪",
 			"icon":"yellow-icon claw-icon",
 			"description":"Legendary wing claw from a Gold Rathian. Eye catching if torn off.",
@@ -3055,10 +3417,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2400,
+			"acquire":"Rewarded for breaking Gold Rathian wings in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rathian Scl",
+			"name":"Gold Rathian Scale",
 			"japanese":"金火竜の鱗",
 			"icon":"yellow-icon scale-icon",
 			"description":"Legendary scale from a Gold Rathian. Lights up even the darkest night.",
@@ -3066,10 +3429,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2200,
+			"acquire":"Carve from Gold Rathian and Gold Rathian Tail in G Rank. Rewarded for hunting Gold Rathian and breaking a Gold Rathian head in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rthian Plate",
+			"name":"Gold Rathian Plate",
 			"japanese":"金火竜の逆鱗",
 			"icon":"yellow-icon scale-icon",
 			"description":"Plate from a Gold Rathian tail. Incredibly radiant.",
@@ -3077,10 +3441,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":14550,
+			"acquire":"Carve from Gold Rathian tail in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rathian Rby",
+			"name":"Gold Rathian Ruby",
 			"japanese":"金火竜の紅玉",
 			"icon":"yellow-icon bomb-icon",
 			"description":"Captivating stone burning with radiance. A once in a lifetime item.",
@@ -3088,10 +3453,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":24250,
+			"acquire":"Carve from Gold Rathian tail in G Rank. Rewarded for breaking a Gold Rathian head in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rathian Shl",
+			"name":"Gold Rathian Shell",
 			"japanese":"金火竜の甲殻",
 			"icon":"yellow-icon creature-icon",
 			"description":"When the golden scales are gathered to form a shell, it resembles a golden bar.",
@@ -3099,10 +3465,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3900,
+			"acquire":"Carve from Gold Rathian and Gold Rathian tail in G Rank. Rewarded for hunting Gold Rathian in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Gld Rthian Thorn",
+			"name":"Gold Rathian Spike",
 			"japanese":"金火竜の棘",
 			"icon":"yellow-icon creature-icon",
 			"description":"A gold hair from the back wing of a Gold Rathian. How can beauty be toxic?",
@@ -3110,6 +3477,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1800,
+			"acquire":"Carve from Gold Rathian and Gold Rathian tail in G Rank. Rewarded for hunting Gold Rathian in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3121,6 +3489,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":400,
+			"acquire":"Rewarded by Rathalos Training.",
 			"mhg":true
 		},
 		{
@@ -3131,7 +3500,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":600
+			"sell":600,
+			"acquire":"Rewarded for breaking Rathalos wings."
 		},
 		{
 			"name":"Rathalos Scale",
@@ -3141,7 +3511,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":4900,
-			"sell":490
+			"sell":490,
+			"acquire":"Carve from Rathalos and Rathalos tail<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Rathalos and Rathalos tail<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Rathalos Scale+",
@@ -3152,6 +3523,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1470,
+			"acquire":"Carve from Rathalos and Rathalos tail in G Rank. Rewarded for hunting Rathalos and Rathalos tail in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3162,7 +3534,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":4850
+			"sell":4850,
+			"acquire":"Carve from Rathalos tail in High<span class=\"mhg\"> and G</span> Rank.<span class=\"mhg\"> Rewarded for breaking a Rathalos head in the 5-star Town quest \"Slay the Rathalos!\"</span>"
 		},
 		{
 			"name":"Rathalos Ruby",
@@ -3173,6 +3546,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":9700,
+			"acquire":"Carve from Rathalos tail in G Rank. Rewarded for breaking a Rathalos head in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3183,7 +3557,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Rathalos<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Rathalos and breaking a Rathalos head<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Rathalos Carapace",
@@ -3194,6 +3569,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1950,
+			"acquire":"Carve from Rathalos in G Rank. Rewarded for hunting Rathalos and breaking a Rathalos head in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3204,7 +3580,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2100
+			"sell":2100,
+			"acquire":"Carve from Rathalos<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Rathalos<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Rathalos Tail",
@@ -3214,7 +3591,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1200
+			"sell":1200,
+			"acquire":"Carve from Rathalos tail. Rewarded for hunting Rathalos."
 		},
 		{
 			"name":"Rathalos Webbing",
@@ -3224,7 +3602,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":880
+			"sell":880,
+			"acquire":"Carve from Rathalos. Rewarded for hunting Rathalos."
 		},
 		{
 			"name":"Rathalos Wing",
@@ -3234,10 +3613,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2550
+			"sell":2550,
+			"acquire":"Carve from Rathalos in High<span class=\"mhg\"> and G</span> Rank. Rewarded for hunting Rathalos in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
-			"name":"Azure Rthlos Clw",
+			"name":"Azure Rathalos Claw",
 			"japanese":"蒼火竜の翼爪",
 			"icon":"blue-icon claw-icon",
 			"description":"Wing claw from an Azure Rathalos. If torn off, it floats like a firefly.",
@@ -3245,10 +3625,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":900,
+			"acquire":"Rewarded for breaking Azure Rathalos wings.",
 			"mhg":true
 		},
 		{
-			"name":"Azure Rthlos Scl",
+			"name":"Azure Rathalos Scale",
 			"japanese":"蒼火竜の鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"The scale of an Azure Rathalos. It is the deep blue of the night sky.",
@@ -3256,10 +3637,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":735,
+			"acquire":"Carve from Village and High Rank Azure Rathalos and Azure Rathalos Tail. Rewarded for hunting Village and High Rank Azure Rathalos.",
 			"mhg":true
 		},
 		{
-			"name":"Azre Rthlos Scl+",
+			"name":"Azure Rathalos Scale+",
 			"japanese":"蒼火竜の上鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"Scale of an Azure Rathalos. Its strength is higher than its beauty.",
@@ -3267,10 +3649,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1960,
+			"acquire":"Carve from Azure Rathalos and Azure Rathalos Tail in G Rank. Rewarded for hunting G Rank Azure Rathalos.",
 			"mhg":true
 		},
 		{
-			"name":"Azre Rthls Plate",
+			"name":"Azure Rathalos Plate",
 			"japanese":"蒼火竜の逆鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"Plate from the tail of an Azure Rathalos. More blue than the deepest sea.",
@@ -3278,10 +3661,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7275,
+			"acquire":"Carve from Azure Rathalos Tail in High and G Rank. Rewarded for breaking an Azure Rathalos head in High and G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure Rthlos Rby",
+			"name":"Azure Rathalos Ruby",
 			"japanese":"蒼火竜の紅玉",
 			"icon":"blue-icon bomb-icon",
 			"description":"A rare gem from inside a wyvern. The interior is a battle between blue & red.",
@@ -3289,10 +3673,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":19400,
+			"acquire":"Carve from Azure Rathalos Tail in G Rank. Rewarded for breaking an Azure Rathalos head in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure Rthlos Shl",
+			"name":"Azure Rathalos Shell",
 			"japanese":"蒼火竜の甲殻",
 			"icon":"blue-icon creature-icon",
 			"description":"The shell of an Azure Rathalos. Made of scales hardened at adolescence.",
@@ -3300,10 +3685,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":975,
+			"acquire":"Carve from Azure Rathalos in Village and High Rank. Rewarded for hunting Azure Rathalos in Village and High Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure Rthlos Cpc",
+			"name":"Azure Rathalos Carapace",
 			"japanese":"蒼火竜の堅殻",
 			"icon":"blue-icon creature-icon",
 			"description":"Harder than an Azure Rathalos Shell. Its beauty is desirable for armor.",
@@ -3311,10 +3697,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2600,
+			"acquire":"Carve from Azure Rathalos and Azure Rathalos tail in G Rank. Rewarded for hunting Azure Rathalos and Azure Rathalos tail in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Rthlos BrainStem",
+			"name":"Rath Medulla",
 			"japanese":"火竜の延髄",
 			"icon":"red-icon creature-icon",
 			"description":"The latest material to be removed with technology. Difficult to process.",
@@ -3322,10 +3709,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":4200,
+			"acquire":"Carve from Rathalos, Rathalos tail, Azure Rathalos, Silver Rathalos, Silver Rathalos tail, Rathian tail, and Pink Rathian tail in G Rank. Rewarded for hunting Rathalos, Azure Rathalos, Silver Rathalos, Rathian, Pink Rathian, and Gold Rathian in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azur Rthlos Tail",
+			"name":"Azure Rathalos Tail",
 			"japanese":"蒼火竜の尻尾",
 			"icon":"blue-icon creature-icon",
 			"description":"The severed tail of an Azure Rathalos. Valuable for its many uses.",
@@ -3333,10 +3721,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1800,
+			"acquire":"Carve from Azure Rathalos tail. Rewarded for hunting Azure Rathalos.",
 			"mhg":true
 		},
 		{
-			"name":"Azr Rthls Webbng",
+			"name":"Azure Rathalos Webbing",
 			"japanese":"蒼火竜の翼膜",
 			"icon":"blue-icon honey-icon",
 			"description":"Webbing of an Azure Rathalos. Very valuable as a workshop material.",
@@ -3344,10 +3733,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1320,
+			"acquire":"Carve from Azure Rathalos. Rewarded by the Azure Rathalos Village quest \"Attack of the Rathalos!\"",
 			"mhg":true
 		},
 		{
-			"name":"Azur Rthlos Wing",
+			"name":"Azure Rathalos Wing",
 			"japanese":"蒼火竜の翼",
 			"icon":"blue-icon creature-icon",
 			"description":"Wing shed by an Azure Rathalos. Used to make both weapons and armor.",
@@ -3355,10 +3745,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5100,
+			"acquire":"Carve from Azure Rathalos in High and G Rank. Rewarded for hunting Azure Rathalos.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthalos Clw",
+			"name":"Silver Rathalos Claw",
 			"japanese":"銀火竜の翼爪",
 			"icon":"gray-icon claw-icon",
 			"description":"The wing claw of a Silver Rathalos. If torn off it falls like powdered snow.",
@@ -3366,10 +3757,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2400,
+			"acquire":"Rewarded for breaking Silver Rathalos wings in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthalos Scl",
+			"name":"Silver Rathalos Scale",
 			"japanese":"銀火竜の鱗",
 			"icon":"gray-icon scale-icon",
 			"description":"The legendary scale of a Silver Rathalos. Shines like a summer moon.",
@@ -3377,10 +3769,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2200,
+			"acquire":"Carve from Silver Rathalos and Silver Rathalos tail in G Rank. Rewarded for hunting Silver Rathalos.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthls Plate",
+			"name":"Silver Rathalos Plate",
 			"japanese":"銀火竜の逆鱗",
 			"icon":"gray-icon scale-icon",
 			"description":"Plate from the tail of a Silver Rathalos. Explodes with an array of colors.",
@@ -3388,10 +3781,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":14550,
+			"acquire":"Carve from Silver Rathalos tail in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthalos Rby",
+			"name":"Silver Rathalos Ruby",
 			"japanese":"銀火竜の紅玉",
 			"icon":"gray-icon bomb-icon",
 			"description":"A rare, precious gem from inside a wyvern. Shines like stars in the heavens.",
@@ -3399,10 +3793,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":24250,
+			"acquire":"Carve from Silver Rathalos tail in G Rank. Rewarded for hunting Silver Rathalos tail in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthalos Shl",
+			"name":"Silver Rathalos Shell",
 			"japanese":"銀火竜の甲殻",
 			"icon":"gray-icon creature-icon",
 			"description":"The hardened scales of a Silver Rathalos. Gives off a cool light. Stylish!",
@@ -3410,10 +3805,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3900,
+			"acquire":"Carve from Silver Rathalos and Silver Rathalos tail in G Rank. Rewarded for hunting Silver Rathalos and breaking a Silver Rathalos head in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthals Tail",
+			"name":"Silver Rathalos Tail",
 			"japanese":"銀火竜の尻尾",
 			"icon":"gray-icon creature-icon",
 			"description":"The severed tail of a Silver Rathalos. Valuable for its many uses.",
@@ -3421,10 +3817,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":4800,
+			"acquire":"Carve from Silver Rathalos in G Rank. Rewarded by the 8-star Silver Rathalos and Gold Rathian town quest \"Wrath of Heaven and Earth\".",
 			"mhg":true
 		},
 		{
-			"name":"Slv Rthls Webbng",
+			"name":"Silver Rathalos Webbing",
 			"japanese":"銀火竜の翼膜",
 			"icon":"gray-icon honey-icon",
 			"description":"Webbing of a Silver Rathalos. Very valuable as a workshop material.",
@@ -3432,10 +3829,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3520,
+			"acquire":"Carve from Silver Rathalos in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Slvr Rthlos Wing",
+			"name":"Silver Rathalos Wing",
 			"japanese":"銀火竜の翼",
 			"icon":"gray-icon creature-icon",
 			"description":"Wing shed by a Silver Rathalos. Hunters long for its shining glory.",
@@ -3443,6 +3841,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":10200,
+			"acquire":"Carve from Silver Rathalos in G Rank. Rewarded for Silver Rathalos in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3454,6 +3853,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":900,
+			"acquire":"Rewarded by Khezu Training.",
 			"mhg":true
 		},
 		{
@@ -3464,7 +3864,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":760
+			"sell":760,
+			"acquire":"Carve from Khezu. Rewarded for hunting Khezu."
 		},
 		{
 			"name":"Khezu Hide - Tan",
@@ -3475,6 +3876,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1520,
+			"acquire":"Carve from Khezu in G Rank. Rewarded for hunting Khezu in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3485,7 +3887,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2380
+			"sell":2380,
+			"acquire":"Carve from Khezu in High Rank. Rewarded for hunting Khezu in High Rank."
 		},
 		{
 			"name":"Pale Khezu Steak",
@@ -3496,6 +3899,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5950,
+			"acquire":"Carve from Khezu in G Rank. Rewarded for hunting Khezu in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3506,7 +3910,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":3550
+			"sell":3550,
+			"acquire":"Carve from Khezu in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
 			"name":"Alluring Hide",
@@ -3517,6 +3922,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3040,
+			"acquire":"Carve from Red Khezu in G Rank. Rewarded for hunting Red Khezu in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3528,6 +3934,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":600,
+			"acquire":"Rewarded by Basarios Training.",
 			"mhg":true
 		},
 		{
@@ -3538,10 +3945,11 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":440
+			"sell":440,
+			"acquire":"Carve from Basarios<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Basarios and breaking Basarios chest<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
-			"name":"Basrios Carapace",
+			"name":"Basarios Carapace",
 			"japanese":"岩竜の堅殻",
 			"icon":"gray-icon creature-icon",
 			"description":"Harder than a Basarios shell, this material is also known as Gravite.",
@@ -3549,6 +3957,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2200,
+			"acquire":"Carve from Basarios G Rank. Rewarded for hunting Basarios and breaking Basarios chest<span class=\"mhg\"> in Low and High Rank</span>.",
 			"mhg":true
 		},
 		{
@@ -3559,7 +3968,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1420
+			"sell":1420,
+			"acquire":"Carve from Basarios in High Rank."
 		},
 		{
 			"name":"Basarios Tears",
@@ -3570,6 +3980,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":8888,
+			"acquire":"Carve from Basarios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3581,6 +3992,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1000,
+			"acquire":"Rewarded by Gravios Training.",
 			"mhg":true
 		},
 		{
@@ -3591,7 +4003,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":970
+			"sell":970,
+			"acquire":"Carve from Gravios and Gravios tail<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Gravios and breaking Gravios chest<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Gravios Carapace",
@@ -3601,10 +4014,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1880
+			"sell":1880,
+			"acquire":"Carve from Gravios and Gravios tail in High<span class=\"mhg\"> and G</span> Rank. Rewarded for hunting Gravios and breaking Gravios chest in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
-			"name":"GraviosHeavyShl",
+			"name":"Gravios Heavy Shell",
 			"japanese":"鎧竜の重殻",
 			"icon":"white-icon creature-icon",
 			"description":"Even harder than a Gravios Carapace, this material is known as Mymaite.",
@@ -3612,6 +4026,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3760,
+			"acquire":"Carve from Gravios and Gravios tail in G Rank. Rewarded for hunting Gravios and breaking Gravios chest in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3622,10 +4037,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1980
+			"sell":1980,
+			"acquire":"Carve from Gravios in High Rank."
 		},
 		{
-			"name":"StrngGraviosWing",
+			"name":"Strong Gravios Wing",
 			"japanese":"鎧竜の剛翼",
 			"icon":"white-icon creature-icon",
 			"description":"Strongest part of a Gravios wing. Difficult to use, even for the skilled.",
@@ -3633,6 +4049,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3960,
+			"acquire":"Carve from Gravios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3643,7 +4060,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2550
+			"sell":2550,
+			"acquire":"Carve from Gravios in High Rank."
 		},
 		{
 			"name":"Gravios Jaw",
@@ -3654,10 +4072,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5100,
+			"acquire":"Carve from Gravios in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Blk Gravios Shl",
+			"name":"Black Gravios Shell",
 			"japanese":"黒鎧竜の甲殻",
 			"icon":"gray-icon creature-icon",
 			"description":"The shell of the rare Black Gravios. The pitch black color is appealing.",
@@ -3665,10 +4084,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3760,
+			"acquire":"Carve from Black Gravios and Black Gravios tail in G Rank. Rewarded for hunting Black Gravios and breaking Black Gravios chest in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Blk Gravios Cpc",
+			"name":"Black Gravios Carapace",
 			"japanese":"黒鎧竜の堅殻",
 			"icon":"gray-icon creature-icon",
 			"description":"Carapace of a Black Gravios. A charred color, it is difficult to use.",
@@ -3676,10 +4096,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5640,
+			"acquire":"Carve from Black Gravios and Black Gravios tail in G Rank. Rewarded for hunting Black Gravios and breaking Black Gravios chest in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Blk Gravios Head",
+			"name":"Black Gravios Head",
 			"japanese":"黒鎧竜の頭",
 			"icon":"gray-icon creature-icon",
 			"description":"The armored face of a Black Gravios, like a black mask. Desirable.",
@@ -3687,10 +4108,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7650,
+			"acquire":"Carve from Black Gravios in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Blk Gravios Wing",
+			"name":"Black Gravios Wing",
 			"japanese":"黒鎧竜の翼",
 			"icon":"gray-icon creature-icon",
 			"description":"The wing of a Black Gravios. Amazingly hard, for a wing.",
@@ -3698,6 +4120,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":11800,
+			"acquire":"Carve from Black Gravios in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3708,7 +4131,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":780
+			"sell":780,
+			"acquire":"Rewarded for breaking both Diablos horns in Low and High Rank."
 		},
 		{
 			"name":"Majestic Horn",
@@ -3718,7 +4142,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2400
+			"sell":2400,
+			"acquire":"Rewarded for breaking both Diablos horns in High<span class=\"mhg\"> and G</span> Rank."
 		},
 		{
 			"name":"Solid Blos Horn",
@@ -3729,6 +4154,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":6000,
+			"acquire":"Rewarded for breaking both Diablos horns in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3739,7 +4165,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Diablos and Diablos tail. Rewarded for hunting Diablos<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Diablos Carapace",
@@ -3750,6 +4177,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1950,
+			"acquire":"Carve from Diablos in G Rank. Rewarded for hunting Diablos in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3760,7 +4188,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1340
+			"sell":1340,
+			"acquire":"Carve from Diablos in High Rank. Rewarded for hunting Diablos in High Rank."
 		},
 		{
 			"name":"Diablos Thoracic",
@@ -3771,6 +4200,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":4020,
+			"acquire":"Carve from Diablos and Diablos tail in G Rank. Rewarded for hunting Diablos in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3781,7 +4211,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1280
+			"sell":1280,
+			"acquire":"Carve from Diablos tail. Rewarded for hunting Diablos<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Blos Jaw",
@@ -3791,7 +4222,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":880
+			"sell":880,
+			"acquire":"Rewarded for hunting Diablos."
 		},
 		{
 			"name":"Blos Fang",
@@ -3801,10 +4233,11 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":220
+			"sell":220,
+			"acquire":"Carve from Diablos<span class=\"mhg\"> and Black Diablos</span>. Rewarded for hunting Diablos<span class=\"mhg\"> and Black Diablos</span>."
 		},
 		{
-			"name":"TwstBlkBlosHrn",
+			"name":"Twisted Black Blos Horn",
 			"japanese":"黒巻き角",
 			"icon":"gray-icon claw-icon",
 			"description":"Rumored to be the twisted horn of a Black Diablos. A stunning item.",
@@ -3812,6 +4245,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":9600,
+			"acquire":"Rewarded for breaking both Black Diablos horns in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3823,6 +4257,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3900,
+			"acquire":"Carve from Black Diablos and Black Diablos tail in G Rank. Rewarded for hunting Black Diablos in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3834,6 +4269,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":8040,
+			"acquire":"Carve from Black Diablos and Black Diablos tail in G Rank. Rewarded for hunting Black Diablos in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3845,6 +4281,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7680,
+			"acquire":"Carve from Black Diablos tail in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3855,7 +4292,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":4444
+			"sell":4444,
+			"acquire":"Rewarded for hunting Vespoid in High Rank."
 		},
 		{
 			"name":"Vespoid Shell",
@@ -3865,7 +4303,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Carve from Vespoid<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Vespoid<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Vespoid Carapace",
@@ -3876,6 +4315,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":240,
+			"acquire":"Carve from Vespoid in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3886,7 +4326,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":73
+			"sell":73,
+			"acquire":"Carve from Vespoid<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Vespoid<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Vespoid Bladefin",
@@ -3896,10 +4337,11 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":256
+			"sell":256,
+			"acquire":"Carve from Vespoid in High<span class=\"mhg\"> and G</span> Rank. Rewarded for hunting Vespoid in High Rank."
 		},
 		{
-			"name":"Vspoid Razorwing",
+			"name":"Vespoid Razorwing",
 			"japanese":"ランゴスタの斬羽",
 			"icon":"yellow-icon honey-icon",
 			"description":"Even sharper than a Bladefin, the lightest touch will cut anything.",
@@ -3907,6 +4349,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1024,
+			"acquire":"Carve from Vespoid in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3917,10 +4360,11 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":120
+			"sell":120,
+			"acquire":"Carve from Hornetaur<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Hornetaur<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
-			"name":"Hornet Carapace",
+			"name":"Hornetaur Carapace",
 			"japanese":"カンタロスの堅殻",
 			"icon":"gray-icon bug-icon",
 			"description":"Hardest part of a Hornet shell. Exhibits special properties when worked.",
@@ -3928,6 +4372,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":360,
+			"acquire":"Carve from Hornetaur in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3938,7 +4383,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":175
+			"sell":175,
+			"acquire":"Carve from Hornetaur in High<span class=\"mhg\"> and G</span> Rank.<span class=\"mh1\"> Rewarded for hunting Hornetaur in High Rank</span>."
 		},
 		{
 			"name":"Hornetaur Wing",
@@ -3948,7 +4394,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":73
+			"sell":73,
+			"acquire":"Carve from Hornetaur<span class=\"mhg\"> in Low and High Rank</span>.<span class=\"mh1\"> Rewarded for hunting Hornetaur.</span>"
 		},
 		{
 			"name":"Hornet Bladefin",
@@ -3958,7 +4405,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":256
+			"sell":256,
+			"acquire":"Carve from Hornetaur in High<span class=\"mhg\"> and G</span> Rank.<span class=\"mh1\"> Rewarded for hunting Hornetaur in High Rank.</span>"
 		},
 		{
 			"name":"Hornet Razorwing",
@@ -3969,6 +4417,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1536,
+			"acquire":"Carve from Hornetaur in G Rank.",
 			"mhg":true
 		},
 		{
@@ -3979,7 +4428,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":3580
+			"sell":3580,
+			"acquire":"Carve from Plesioth in Low Rank<span class=\"mhg\"> and Green Plesioth in G Rank</span>. Rewarded for hunting Plesioth in Low Rank."
 		},
 		{
 			"name":"Lg Lobstershell",
@@ -3989,7 +4439,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":3270
+			"sell":3270,
+			"acquire":"Carve from Plesioth in High Rank<span class=\"mhg\"> and Green Plesioth in G Rank</span>. Rewarded for hunting Plesioth in High Rank."
 		},
 		{
 			"name":"Gt Lobstershell",
@@ -4000,6 +4451,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":6540,
+			"acquire":"Carve from Plesioth and Green Plesioth in G Rank. Rewarded for hunting Plesioth and Green Plesioth in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4011,6 +4463,7 @@
 			"rarity":4,
 			"buy":0,
 			"sell":800,
+			"acquire":"Rewarded by Monoblos Training.",
 			"mhg":true
 		},
 		{
@@ -4021,7 +4474,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1520
+			"sell":1520,
+			"acquire":"Rewarded for breaking Monoblos horn."
 		},
 		{
 			"name":"Monoblos Shell",
@@ -4031,7 +4485,8 @@
 			"maxStack":99,
 			"rarity":4,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Monoblos and Monoblos tail. Rewarded for hunting Monoblos."
 		},
 		{
 			"name":"Monoblos Spine",
@@ -4041,7 +4496,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1340
+			"sell":1340,
+			"acquire":"Carve from Monoblos. Rewarded for hunting Monoblos."
 		},
 		{
 			"name":"Monoblos Heart",
@@ -4051,10 +4507,11 @@
 			"maxStack":10,
 			"rarity":5,
 			"buy":0,
-			"sell":3600
+			"sell":3600,
+			"acquire":"Carve from Monoblos<span class=\"mhg\"> and White Monoblos</span>."
 		},
 		{
-			"name":"Wht Monoblos Hrn",
+			"name":"White Monoblos Horn",
 			"japanese":"白銀の角",
 			"icon":"white-icon claw-icon",
 			"description":"Unusual White Monoblos Horn. Shines like new snow. Highly desirable.",
@@ -4062,10 +4519,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2280,
+			"acquire":"Rewarded for breaking White Monoblos horn.",
 			"mhg":true
 		},
 		{
-			"name":"Wht Monoblos Shl",
+			"name":"White Monoblos Shell",
 			"japanese":"白一角竜の甲殻",
 			"icon":"white-icon creature-icon",
 			"description":"Unique White Monoblos Shell. The clean white is a popular mystery.",
@@ -4073,17 +4531,19 @@
 			"rarity":5,
 			"buy":0,
 			"sell":975,
+			"acquire":"Carve from White Monoblos and White Monoblos tail. Rewarded for hunting White Monoblos.",
 			"mhg":true
 		},
 		{
-			"name":"Wht Monoblos Spn",
+			"name":"White Monoblos Spine",
 			"japanese":"白一角竜の背甲",
 			"icon":"white-icon creature-icon",
-			"description":"Unusual Wht Monoblos Spn, expertly cut away. It is a burning white.",
+			"description":"Unusual White Monoblos Spine, expertly cut away. It is a burning white.",
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
 			"sell":2010,
+			"acquire":"Carve from White Monoblos. Rewarded for hunting White Monoblos.",
 			"mhg":true
 		},
 		{
@@ -4094,7 +4554,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2200
+			"sell":2200,
+			"acquire":"Carve from Kirin. Rewarded for hunting Kirin."
 		},
 		{
 			"name":"Kirin Hide",
@@ -4104,7 +4565,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":3250
+			"sell":3250,
+			"acquire":"Carve from Kirin. Rewarded for hunting Kirin."
 		},
 		{
 			"name":"Kirin Mane",
@@ -4114,10 +4576,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1200
+			"sell":1200,
+			"acquire":"Carve from Kirin. Rewarded for hunting Kirin."
 		},
 		{
-			"name":"Kirin Thndr Tail",
+			"name":"Kirin Thunder Tail",
 			"japanese":"キリンの雷尾",
 			"icon":"white-icon creature-icon",
 			"description":"A rare tail overflowing with elegance, charged with electricity.",
@@ -4125,6 +4588,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":4500,
+			"acquire":"Carve from Kirin in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4136,10 +4600,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5500,
+			"acquire":"Carve from Kirin in High and G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Kirin Azr T-Tail",
+			"name":"Kirin Azure Thunder Tail",
 			"japanese":"キリンの蒼雷尾",
 			"icon":"blue-icon creature-icon",
 			"description":"Extremely rare Azure Kirin tail, crackling blue and white with electricity.",
@@ -4147,6 +4612,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3000,
+			"acquire":"Carve from Kirin in High Rank.",
 			"mhg":true
 		},
 		{
@@ -4158,6 +4624,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1440,
+			"acquire":"Carve from Lao-Shan Lung in the Village quest \"A Giant Dragon Invades!\" Rewarded for repelling or slaying Lao-Shan Lung in the Village quest \"A Giant Dragon Invades!\"",
 			"mhg":true
 		},
 		{
@@ -4168,7 +4635,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1920
+			"sell":1920,
+			"acquire":"Carve from Lao-Shan Lung. Rewarded for repelling or slaying Lao-Shan Lung."
 		},
 		{
 			"name":"Lao-Shan Horn",
@@ -4178,7 +4646,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1700
+			"sell":1700,
+			"acquire":"Rewarded for slaying Lao-Shan Lung."
 		},
 		{
 			"name":"Lao-Shan Scale",
@@ -4188,7 +4657,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":650
+			"sell":650,
+			"acquire":"Carve from Lao-Shan Lung. Rewarded for repelling or slaying Lao-Shan Lung and for breaking Lao-Shan Lung shoulders."
 		},
 		{
 			"name":"Lao-Shan Scale+",
@@ -4199,6 +4669,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1950,
+			"acquire":"Carve from Lao-Shan Lung. Rewarded for repelling or slaying Lao-Shan Lung.",
 			"mhg":true
 		},
 		{
@@ -4209,7 +4680,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":6700
+			"sell":6700,
+			"acquire":"Carve from Lao-Shan Lung in High Rank and Ashen Lao-Shan Lung in G Rank.<span class=\"mh1\"> Rewarded for breaking Lao-Shan Lung back.</span><span class=\"mhg\"> Rewarded for repelling or slaying Lao-Shan Lung in High Rank and Ashen Lao-Shan Lung in G Rank.</span>"
 		},
 		{
 			"name":"Lao-Shan Ruby",
@@ -4220,6 +4692,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":20000,
+			"acquire":"Carve from Ashen Lao-Shan Lung in G Rank. Rewarded for repelling and slaying Ashen Lao-Shan Lung in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4230,10 +4703,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":900
+			"sell":900,
+			"acquire":"Carve from Lao-Shan Lung and Lao-Shan Lung back<span class=\"mhg\">in Village, Low, and High Rank</span>. Rewarded for repelling or slaying Lao-Shan Lung, breaking Lao-Shan Lung head, and breaking Lao-Shan Lung shoulders<span class=\"mhg\"> in Village, Low, and High Rank</span>."
 		},
 		{
-			"name":"Lao-ShanCarapace",
+			"name":"Lao-Shan Carapace",
 			"japanese":"老山龍の堅殻",
 			"icon":"red-icon creature-icon",
 			"description":"The carapace of a giant wyvern. Years ago, this carapace was a shell.",
@@ -4241,6 +4715,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2700,
+			"acquire":"Carve from Ashen Lao-Shan Lung in High Rank. Rewarded for repelling or slaying Ashen Lao-Shan Lung and breaking Ashen Lao-Shan Lung back or shoulders in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4251,21 +4726,23 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2160
+			"sell":2160,
+			"acquire":"<span class=\"mh1\">Carve from Lao-Shan Lung in High Rank</span><span class=\"mhg\">Carve from Lao-Shan Lung in Village and Low Rank</span>."
 		},
 		{
-			"name":"LaoShan Thoracic",
+			"name":"Lao-Shan Thoracic",
 			"japanese":"老山龍の堅甲",
 			"icon":"red-icon creature-icon",
-			"description":"The hardest part of a (DIABLOS) Lao-Shan spine. Incredibly hard to carve away.",
+			"description":"The hardest part of a Lao-Shan spine. Incredibly hard to carve away.",
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
 			"sell":4320,
+			"acquire":"Carve from Lao-Shan Lung and Lao-Shan Lung back in High Rank. Rewarded for repelling or slaying Lao-Shan Lung and breaking Lao-Shan Lung back or shoulders in High Rank.",
 			"mhg":true
 		},
 		{
-			"name":"LaoS Heavy Shell",
+			"name":"Lao-Shan Heavy Shell",
 			"japanese":"老山龍の重甲",
 			"icon":"red-icon creature-icon",
 			"description":"The hardest part of Lao-Shan's shell. Very difficult to work.",
@@ -4273,10 +4750,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7200,
+			"acquire":"Carve from Ashen Lao-Shan Lung back in G Rank. Rewarded for repelling or slaying Ashen Lao-Shan Lung and breaking Ashen Lao-Shan Lung shoulders in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Claw",
+			"name":"Azure Lao-Shan Claw",
 			"japanese":"老山龍の蒼大爪",
 			"icon":"blue-icon claw-icon",
 			"description":"Claw from a mountain-like Azure Lao-Shan. It cannot be worked upon.",
@@ -4284,10 +4762,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3840,
+			"acquire":"Carve from Ashen Lao-Shan Lung in G Rank. Rewarded for repelling or slaying Ashen Lao-Shan Lung in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Horn",
+			"name":"Azure Lao-Shan Horn",
 			"japanese":"老山龍の蒼角",
 			"icon":"blue-icon claw-icon",
 			"description":"A horn carved from an Azure Lao-Shan. A priceless treasure.",
@@ -4295,10 +4774,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5100,
+			"acquire":"Rewarded for slaying Ashen Lao-Shan Lung in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Scale",
+			"name":"Azure Lao-Shan Scale",
 			"japanese":"老山龍の蒼鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"A scale carved from an Azure Lao-Shan, it is much bigger than normal.",
@@ -4306,10 +4786,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2430,
+			"acquire":"Carve from Ashen Lao-Shan Lung in G Rank. Rewarded for repelling or slaying Ashen Lao-Shan Lung and breaking Ashen Lao-Shan Lung shoulders in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Plate",
+			"name":"Azure Lao-Shan Plate",
 			"japanese":"老山龍の蒼逆鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"Tail plate from an Azure Lao-Shan. Worth enough to change a man's fate.",
@@ -4317,10 +4798,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":15000,
+			"acquire":"Carve from Ashen Lao-Shan Lung in the HR27+ event quest \"Rocky Mountain Dragon.\" Rewarded by the HR27+ event quest \"Rocky Mountain Dragon.\"",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Shell",
+			"name":"Azure Lao-Shan Shell",
 			"japanese":"老山龍の蒼甲殻",
 			"icon":"blue-icon creature-icon",
 			"description":"Shell from an enormous Azure Lao-Shan, it is as big as a piece of bedrock.",
@@ -4328,10 +4810,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3375,
+			"acquire":"Carve from Ashen Lao-Shan Lung in G Rank. Rewarded for repelling or slaying Ashen Lao-Shan Lung and breaking Ashen Lao-Shan Lung head, back, or shoulders in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Azure LaoS Spine",
+			"name":"Azure Lao-Shan Spine",
 			"japanese":"老山龍の蒼背甲",
 			"icon":"blue-icon creature-icon",
 			"description":"Spine as large as a rocky mountain. Only one part can be used for crafting.",
@@ -4339,6 +4822,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":10800,
+			"acquire":"Carve from Ashen Lao-Shan Lung and Ashen Lao-Shan Lung back in the HR27+ event quest \"Rocky Mountain Dragon.\" Rewarded for breaking Ashen Lao-Shan Lung back in the HR27+ event quest \"Rocky Mountain Dragon.\"",
 			"mhg":true
 		},
 		{
@@ -4349,7 +4833,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1088
+			"sell":1088,
+			"acquire":"Carve from Fatalis<span class=\"mh1\"> in High Rank</span><span class=\"mhg\"> in G Rank</span>. Rewarded for repelling Fatalis<span class=\"mh1\"> in High Rank</span><span class=\"mhg\"> in G Rank</span>."
 		},
 		{
 			"name":"Fatalis' Spike",
@@ -4360,6 +4845,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2720,
+			"acquire":"Carve from Fatalis in G Rank. Rewarded for repelling Fatalis and hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4371,6 +4857,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5440,
+			"acquire":"Carve from Fatalis in G Rank. Rewarded for repelling Fatalis and hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4381,7 +4868,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1068
+			"sell":1068,
+			"acquire":"<span class=\"mh1\">Carve from Fatalis in High Rank. </span>Rewarded for repelling Fatalis<span class=\"mh1\"> in High Rank</span><span class=\"mhg\"> in G Rank</span>."
 		},
 		{
 			"name":"Fatalis' Scale+",
@@ -4392,10 +4880,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1780,
+			"acquire":"Carve from Fatalis in G Rank. Rewarded for repelling Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Thck Fatalis Scl",
+			"name":"Thick Fatalis Scale",
 			"japanese":"黒龍の厚鱗",
 			"icon":"gray-icon scale-icon",
 			"description":"Thick, jet black Fatalis scale. The thickness tells the story of its age.",
@@ -4403,6 +4892,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3560,
+			"acquire":"Carve from Fatalis and Crimson Fatalis in G Rank. Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4413,7 +4903,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1395
+			"sell":1395,
+			"acquire":"<span class=\"mh1\">Carve from Fatalis in High Rank. </span>Rewarded for hunting Fatalis in<span class=\"mh1\"> High</span><span class=\"mhg\"> G</span> Rank."
 		},
 		{
 			"name":"Fatalis Carapace",
@@ -4424,10 +4915,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":2325,
+			"acquire":"Carve from Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatalis Hvy Shl",
+			"name":"Fatalis Heavy Shell",
 			"japanese":"黒龍の重殻",
 			"icon":"gray-icon creature-icon",
 			"description":"Even harder than a Fatalis Carapace, this material is known as Mymaite.",
@@ -4435,6 +4927,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5580,
+			"acquire":"Carve from Fatalis and Crimson Fatalis in G Rank. Rewarded for repelling Fatalis in High Rank and hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4445,10 +4938,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":2310
+			"sell":2310,
+			"acquire":"Rewarded for repelling Fatalis in<span class=\"mh1\"> High</span><span class=\"mhg\"> G</span> Rank."
 		},
 		{
-			"name":"Hrd Fatalis Crst",
+			"name":"Hard Fatalis Crust",
 			"japanese":"黒龍の堅胸殻",
 			"icon":"gray-icon creature-icon",
 			"description":"A breastplate that has become harder with age. A source of terrible pride.",
@@ -4456,10 +4950,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":3850,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Hvy Fatalis Crst",
+			"name":"Heavy Fatalis Crust",
 			"japanese":"黒龍の重胸殻",
 			"icon":"gray-icon creature-icon",
 			"description":"Strange amalgamation of armor and shell. A living thing can't be this heavy!",
@@ -4467,6 +4962,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7392,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4477,10 +4973,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":9600
+			"sell":9600,
+			"acquire":"Rewarded for repelling Fatalis in<span class=\"mh1\"> High</span><span class=\"mhg\"> G</span> Rank."
 		},
 		{
-			"name":"Fatalis Shrp Eye",
+			"name":"Fatalis Sharp Crust",
 			"japanese":"黒龍の鋭眼",
 			"icon":"yellow-icon creature-icon",
 			"description":"A Fatalis eye with a piercing gaze, it glows as if it were still alive.",
@@ -4488,7 +4985,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":14400,
-			"mhg":true
+			"acquire":"Rewarded by the HR17+ Event Quest \"黒龍伝説\", which is currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Fatalis Evil Eye",
@@ -4499,6 +4997,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":21600,
+			"acquire":"Rewarded for repelling Fatalis and hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4509,7 +5008,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1965
+			"sell":1965,
+			"acquire":"Rewarded for repelling Fatalis<span class=\"mh1\"> in High Rank</span><span class=\"mhg\"> and hunting Crimson Fatalis in G Rank</span>."
 		},
 		{
 			"name":"Fatalis' Wing",
@@ -4519,10 +5019,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":3275
+			"sell":3275,
+			"acquire":"Rewarded for repelling Fatalis in<span class=\"mh1\"> High</span><span class=\"mhg\"> G</span> Rank."
 		},
 		{
-			"name":"Fatalis Strg Wng",
+			"name":"Fatalis Strong Wing",
 			"japanese":"黒龍の剛翼",
 			"icon":"gray-icon creature-icon",
 			"description":"A Fatalis wing with metal like strength. Working it requires high technology.",
@@ -4530,10 +5031,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7860,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatlis Crmsn Hrn",
+			"name":"Fatalis Crimson Horn",
 			"japanese":"黒龍の紅角",
 			"icon":"red-icon claw-icon",
 			"description":"Crimson red horn of an angered Fatalis. Glows red, even if cut off.",
@@ -4541,10 +5043,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":6528,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatlis Crmsn Scl",
+			"name":"Fatalis Crimson Scale",
 			"japanese":"黒龍の紅鱗",
 			"icon":"red-icon scale-icon",
 			"description":"Fatalis scale dyed red with hate. It flashes crimson in the darkness.",
@@ -4552,10 +5055,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":4272,
+			"acquire":"Carve from Crimson Fatalis in G Rank. Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatlis Crmsn Shl",
+			"name":"Fatalis Crimson Shell",
 			"japanese":"黒龍の紅殻",
 			"icon":"red-icon creature-icon",
 			"description":"Fatalis shell bathed red with wrath, but the black base betrays its roots.",
@@ -4563,10 +5067,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5580,
+			"acquire":"Carve from Crimson Fatalis in G Rank. Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Ft Crmsn B-Plate",
+			"name":"Fatalis Crimson Breastplate",
 			"japanese":"黒龍の紅胸殻",
 			"icon":"red-icon creature-icon",
 			"description":"Breastplate of a Fatalis, red with anger, shining as if verging on eruption.",
@@ -4574,10 +5079,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":9240,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatalis Devl Eye",
+			"name":"Fatalis Devil Eye",
 			"japanese":"黒龍の魔眼",
 			"icon":"red-icon creature-icon",
 			"description":"The eye of an angered Fatalis, its fiendish gaze is too much for some.",
@@ -4585,10 +5091,11 @@
 			"rarity":5,
 			"buy":0,
 			"sell":32400,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
-			"name":"Fatlis Crmsn Wng",
+			"name":"Fatalis Crimson Wing",
 			"japanese":"黒龍の紅翼",
 			"icon":"red-icon creature-icon",
 			"description":"The wing of Fatalis, swirling with a magma-like crimson of anger.",
@@ -4596,6 +5103,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":7860,
+			"acquire":"Rewarded for hunting Crimson Fatalis in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4606,7 +5114,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by Wyvern and Herbivore Egg delivery quests."
 		},
 		{
 			"name":"Jewel Ticket",
@@ -4616,7 +5125,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by Sootstone and Quartz Ore delivery quests."
 		},
 		{
 			"name":"Commendation",
@@ -4626,7 +5136,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by some Herbivore Egg delivery quests, Powderstone delivery quests, and repelling or slaying Lao-Shan Lung."
 		},
 		{
 			"name":"Pawprint Stamp",
@@ -4636,7 +5147,9 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by the event quest \"白毛と黒毛の闘技場\", which is currently unavailable.",
+			"unavailable":true
 		},
 		{
 			"name":"Old Lady's Note",
@@ -4646,7 +5159,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Speak to the Food and Fish Vendor at the Minegarde market. This is a unique item that cannot be acquired more than once."
 		},
 		{
 			"name":"Guild Ticket",
@@ -4656,7 +5170,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by various event quests. Speak to the guildmaster after completing all 1-<span class=\"mh1\">6</span><span class=\"mhg\">8</span> star quests."
 		},
 		{
 			"name":"Silver Ticket",
@@ -4666,7 +5181,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by the hotel manager for staying in the Rook<span class=\"mh1\"> and Bishop</span> room<span class=\"mh1\">s</span> many times. There are a limited number of these that can be acquired."
 		},
 		{
 			"name":"Gold Ticket",
@@ -4676,7 +5192,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by the hotel manager for staying in the<span class=\"mh1\"> Queen and King rooms</span><span class=\"mhg\"> Bishop room</span> many times. There are a limited number of these that can be acquired."
 		},
 		{
 			"name":"Platinum Ticket",
@@ -4687,6 +5204,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by the hotel manager for staying in the Queen and King rooms many times. There are a limited number of these that can be acquired.",
 			"mhg":true
 		},
 		{
@@ -4697,7 +5215,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by Well-Done Steak delivery quests."
 		},
 		{
 			"name":"Hunter Citation",
@@ -4707,10 +5226,11 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Rewarded by the Village Chief after hunting Monoblos for the first time. This is a unique item that cannot be acquired more than once."
 		},
 		{
-			"name":"Grt Sword Ticket",
+			"name":"Great Sword Ticket",
 			"japanese":"大剣チケット",
 			"icon":"green-icon ticket-icon",
 			"description":"Awarded for achievement in Great Sword training. Proof of strength.",
@@ -4718,6 +5238,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by Great Sword Training.",
 			"mhg":true
 		},
 		{
@@ -4729,6 +5250,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by Hammer Training.",
 			"mhg":true
 		},
 		{
@@ -4740,6 +5262,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by Lance Training.",
 			"mhg":true
 		},
 		{
@@ -4751,6 +5274,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by Sword and Shield Training.",
 			"mhg":true
 		},
 		{
@@ -4762,6 +5286,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
+			"acquire":"Rewarded by Bowgun Training.",
 			"mhg":true
 		},
 		{
@@ -4772,7 +5297,9 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Deliver to the box at camp to complete the current quest.",
+			"acquire":"Provided in the Supply Box during certain event quests."
 		},
 		{
 			"name":"Famitsu Ticket",
@@ -4782,7 +5309,9 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Provided by the event quests \"ファミ通クック連続討伐！\" and \"ファミ通蒼き飛竜を屠れ！\", which are currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Dengeki Ticket",
@@ -4792,7 +5321,9 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Provided by the event quest<span class=\"mh1\"> \"Capture a Khezu!\"</span><span class=\"mhg\"> \"電撃祭りリターンズ！\", which is currently unavailable.</span>",
+			"unavailableG":true
 		},
 		{
 			"name":"Dengeki G Ticket",
@@ -4803,7 +5334,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
-			"mhg":true
+			"acquire":"Provided by the event quest \"電撃祭りリターンズ！\", which is currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Chrome Voucher",
@@ -4824,7 +5356,8 @@
 			"maxStack":99,
 			"rarity":5,
 			"buy":0,
-			"sell":1240
+			"sell":1240,
+			"acquire":"Gather from a hidden Felyne cache in the Swamp in High Rank."
 		},
 		{
 			"name":"Chief's Old Sword",
@@ -4835,6 +5368,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":1000,
+			"acquire":"Speak to the Village Chief after completing the Village quest \"A Giant Dragon Invades!\"",
 			"mhg":true
 		},
 		{
@@ -4845,7 +5379,8 @@
 			"maxStack":1,
 			"rarity":5,
 			"buy":0,
-			"sell":180
+			"sell":180,
+			"acquire":"Gather from some mining nodes<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for breaking Lao-Shan Lung head or back<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
 			"name":"Ruststone (bowgun)",
@@ -4911,6 +5446,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":360,
+			"acquire":"Gather from some mining nodes in G Rank. Rewarded for breaking Ashen Lao-Shan Lung head or back in G Rank.",
 			"mhg":true
 		},
 		{
@@ -4982,6 +5518,7 @@
 			"rarity":4,
 			"buy":30000,
 			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor.",
 			"mhg":true
 		},
 		{
@@ -4993,6 +5530,7 @@
 			"rarity":5,
 			"buy":100000,
 			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor.",
 			"mhg":true
 		},
 		{
@@ -5003,7 +5541,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Bullfango Info",
@@ -5013,7 +5552,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Kelbi Info",
@@ -5023,7 +5563,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Aptonoth Info",
@@ -5033,7 +5574,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Apceros Info",
@@ -5043,7 +5585,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Felyne Info",
@@ -5053,7 +5596,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Melynx Info",
@@ -5063,7 +5607,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":100,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Velociprey Info",
@@ -5073,7 +5618,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Velocidrome Info",
@@ -5083,7 +5629,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Genprey Info",
@@ -5093,7 +5640,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Gendrome Info",
@@ -5103,7 +5651,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Ioprey Info",
@@ -5113,7 +5662,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Iodrome Info",
@@ -5123,7 +5673,8 @@
 			"maxStack":1,
 			"rarity":2,
 			"buy":200,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Rathalos Info",
@@ -5133,7 +5684,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Rathian Info",
@@ -5143,7 +5695,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Yian Kut-Ku Info",
@@ -5153,7 +5706,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Gypceros Info",
@@ -5163,7 +5717,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Vespoid Info",
@@ -5173,7 +5728,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Hornetaur Info",
@@ -5183,7 +5739,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Khezu Info",
@@ -5193,7 +5750,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Plesioth Info",
@@ -5203,7 +5761,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Cephalos Info",
@@ -5213,7 +5772,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Cephadrome Info",
@@ -5223,7 +5783,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Monoblos Info",
@@ -5233,7 +5794,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Diablos Info",
@@ -5243,7 +5805,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Gravios Info",
@@ -5253,7 +5816,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Basarios Info",
@@ -5263,7 +5827,8 @@
 			"maxStack":1,
 			"rarity":3,
 			"buy":500,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Kokoto Peddler and Hunter's Guild Vendor."
 		},
 		{
 			"name":"Kirin Info",
@@ -5273,7 +5838,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":1000,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Lao-Shan Info",
@@ -5283,7 +5849,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":1000,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the<span class=\"mhg\"> Kokoto Peddler and</span> Hunter's Guild Vendor."
 		},
 		{
 			"name":"Fatalis Info",
@@ -5293,7 +5860,8 @@
 			"maxStack":1,
 			"rarity":4,
 			"buy":1000,
-			"sell":0
+			"sell":0,
+			"acquire":"Buy from the Hunter's Guild Vendor."
 		},
 		{
 			"name":"Silver Egg",
@@ -5304,7 +5872,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":5000,
-			"mhg":true
+			"acquire":"Rewarded by the event quests \"大量奪取・草食竜の卵！\", \"大量奪取・草食竜の卵！\", and \"大怪鳥の怒り\", which are currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Golden Egg",
@@ -5315,7 +5884,8 @@
 			"rarity":5,
 			"buy":0,
 			"sell":10000,
-			"mhg":true
+			"acquire":"Rewarded by the event quests \"大量奪取・草食竜の卵！\", \"大量奪取・草食竜の卵！\", and \"大怪鳥の怒り\", which are currently unavailable.",
+			"mhg":true,"unavailable":true
 		},
 		{
 			"name":"Map",
@@ -5325,7 +5895,8 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"acquire":"Provided in the Supply Box during quests."
 		},
 		{
 			"name":"First-aid Med.",
@@ -5335,7 +5906,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Restore 30 hitpoints.",
+			"acquire":"Provided in the Supply Box during Low Rank and some High<span class=\"mhg\"> and G</span> Rank quests."
 		},
 		{
 			"name":"Ration",
@@ -5345,7 +5918,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Increase maximum stamina by 25. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":"Provided in the Supply Box during Low Rank and some High<span class=\"mhg\"> and G</span> Rank quests."
 		},
 		{
 			"name":"Portable Spit",
@@ -5355,7 +5930,9 @@
 			"maxStack":1,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Cook Raw Meat into Steak, if you have Raw Meat in your inventory. Use to start cooking, and press <span class=\"ui-icon circle-icon\"></span> to take the meat off the spit. Remove while the music is playing to keep the Raw Meat, shortly after the music stops for Rare Steak, a few seconds after the music for Well-Done Steak, too late or not at all for Burnt Steak.",
+			"acquire":"Provided in the Supply Box during Well-Done Steak delivery quests."
 		},
 		{
 			"name":"Mini Whetstone",
@@ -5365,7 +5942,9 @@
 			"maxStack":10,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Restore 100 hits of sharpness to your weapon.",
+			"acquire":"Provided in the Supply Box during Low Rank and some High<span class=\"mhg\"> and G</span> Rank quests."
 		},
 		{
 			"name":"Tranq Bomb",
@@ -5375,7 +5954,9 @@
 			"maxStack":8,
 			"rarity":1,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"Apply 40 Tranquilizer to a monster; 80 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
 			"name":"Ballista S",
@@ -5385,7 +5966,9 @@
 			"maxStack":10,
 			"rarity":3,
 			"buy":0,
-			"sell":0
+			"sell":0,
+			"details":"<span class=\"va-m\">Use at a Ballista emplacement to load the shot. Deal 100 damage to monsters before defense modifiers. Press R1 to aim, </span><span class=\"ui-icon circle-icon\"></span><span class=\"va-m\"> to fire, and </span><span class=\"ui-icon cross-icon\"></span><span class=\"va-m\"> to unload and leave the Ballista.</span>",
+			"acquire":"Gather at the camp during Lao-Shan Lung<span class=\"mhg\">, Ashen Lao-Shan Lung,</span> and Fatalis quests. Provided in the Supply Box during Lao-Shan Lung<span class=\"mhg\">, Ashen Lao-Shan Lung,</span> and Fatalis quests."
 		},
 		{
 			"name":"Cannon S",
@@ -5396,6 +5979,8 @@
 			"rarity":3,
 			"buy":0,
 			"sell":0,
+			"details":"Use at a cannon to load the shot. Deal 250 damage to monsters before defense modifiers.",
+			"acquire":"Gather at the camp during Lao-Shan Lung<span class=\"mhg\">, Ashen Lao-Shan Lung,</span> and Fatalis quests.",
 			"hide":true
 		},
 		{
@@ -5517,7 +6102,7 @@
 				{"name":"Flute","class":"yellow-icon flute-icon","price":"480z"},
 				{"name":"Potion","class":"green-icon jar-icon","price":"66z","mhg":true},
 				{"name":"Normal S Lv 3","class":"white-icon shot-icon","price":"5z","mhg":true},
-				{"name":"Fire S","class":"red-icon shot-icon","price":"32z","mhg":true},
+				{"name":"Flame S","class":"red-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Water S","class":"cyan-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Thunder S","class":"yellow-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Mega Pickaxe","class":"yellow-icon pick-icon","price":"240z","mhg":true},
@@ -5616,8 +6201,8 @@
 				{"name":"Small Barrel","class":"yellow-icon barrel-icon","price":"80z"},
 				{"name":"Large Barrel","class":"red-icon barrel-icon","price":"210z"},
 				{"name":"BBQ Spit","class":"red-icon spit-icon","price":"560z"},
-				{"name":"Sm Barrel-Bomb","class":"yellow-icon barrel-icon","price":"156z"},
-				{"name":"Lg Barrel-Bomb","class":"red-icon barrel-icon","price":"518z"},
+				{"name":"Sm Barrel-Bomb","class":"yellow-icon barrel-bomb-icon","price":"156z"},
+				{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon","price":"518z"},
 				{"name":"Psychoserum","class":"orange-icon jar-icon","price":"300z"},
 				{"name":"Farcaster","class":"green-icon smoke-icon","price":"300z"},
 				{"name":"Binoculars","class":"white-icon binoculars-icon","mh1Price":"280z","mhgPrice":"50z"},
@@ -5691,7 +6276,7 @@
 				{"name":"Pellet S Lv1","class":"white-icon shot-icon","price":"14z"},
 				{"name":"Pellet S Lv2","class":"white-icon shot-icon","price":"20z"},
 				{"name":"Clust S Lv1","class":"white-icon shot-icon","price":"38z"},
-				{"name":"Fire S","class":"red-icon shot-icon","price":"32z","mhg":true},
+				{"name":"Flame S","class":"red-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Water S","class":"cyan-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Thunder S","class":"yellow-icon shot-icon","price":"32z","mhg":true},
 				{"name":"Organizer Guide","class":"blue-icon book-icon","price":"30,000z","mhg":true},
@@ -5799,8 +6384,8 @@
 		},
 		{"name":"Nutrients","class":"cyan-icon jar-icon",
 			"ingredients":[
-				{"name":"Blue Mushroom","class":"blue-icon mushroom-icon"},
-				{"name":"Godbug","class":"white-icon bug-icon"}
+				{"name":"Godbug","class":"white-icon bug-icon"},
+				{"name":"Blue Mushroom","class":"blue-icon mushroom-icon"}
 			],
 			"percent":90
 		},
@@ -5967,8 +6552,8 @@
 		},
 		{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Gunpowder","class":"red-icon powder-icon"},
-				{"name":"Large Barrel","class":"red-icon barrel-icon"}
+				{"name":"Large Barrel","class":"red-icon barrel-icon"},
+				{"name":"Gunpowder","class":"red-icon powder-icon"}
 			],
 			"percent":75
 		},
@@ -6016,8 +6601,8 @@
 		},
 		{"name":"Health Flute","class":"green-icon flute-icon",
 			"ingredients":[
-				{"name":"Lifepowder","class":"white-icon powder-icon"},
-				{"name":"Flute","class":"yellow-icon flute-icon"}
+				{"name":"Flute","class":"yellow-icon flute-icon"},
+				{"name":"Lifepowder","class":"white-icon powder-icon"}
 			],
 			"percent":65
 		},
@@ -6030,15 +6615,15 @@
 		},
 		{"name":"Demon Flute","class":"red-icon flute-icon",
 			"ingredients":[
-				{"name":"Mega Demondrug","class":"red-icon jar-icon"},
-				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"}
+				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"},
+				{"name":"Mega Demondrug","class":"red-icon jar-icon"}
 			],
 			"percent":55
 		},
 		{"name":"Armor Flute","class":"orange-icon flute-icon",
 			"ingredients":[
-				{"name":"Mega Armorskin","class":"orange-icon jar-icon"},
-				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"}
+				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"},
+				{"name":"Mega Armorskin","class":"orange-icon jar-icon"}
 			],
 			"percent":55
 		},
@@ -6149,22 +6734,22 @@
 		},
 		{"name":"Recov S Lv1","class":"green-icon shot-icon",
 			"ingredients":[
-				{"name":"Herb","class":"green-icon herb-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Herb","class":"green-icon herb-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Recov S Lv2","class":"green-icon shot-icon",
 			"ingredients":[
-				{"name":"Potion","class":"green-icon jar-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Potion","class":"green-icon jar-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Poison S Lv1","class":"purple-icon shot-icon",
 			"ingredients":[
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
 			],
 			"percent":90
 		},
@@ -6177,8 +6762,8 @@
 		},
 		{"name":"Stun S Lv1","class":"yellow-icon shot-icon",
 			"ingredients":[
-				{"name":"Stunshroom","class":"yellow-icon mushroom-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Stunshroom","class":"yellow-icon mushroom-icon"}
 			],
 			"percent":90
 		},
@@ -6191,29 +6776,29 @@
 		},
 		{"name":"Sleep S Lv1","class":"cyan-icon shot-icon",
 			"ingredients":[
-				{"name":"Sleep Herb","class":"cyan-icon herb-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Sleep Herb","class":"cyan-icon herb-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Sleep S Lv2","class":"cyan-icon shot-icon",
 			"ingredients":[
-				{"name":"Sleepyfish","class":"cyan-icon fish-icon"},
-				{"name":"Sm Bone Husk","class":"white-icon husk-icon"}
+				{"name":"Sm Bone Husk","class":"white-icon husk-icon"},
+				{"name":"Sleepyfish","class":"cyan-icon fish-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Paint S","class":"pink-icon shot-icon",
 			"ingredients":[
-				{"name":"Paintberry","class":"pink-icon seed-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Paintberry","class":"pink-icon seed-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Antidote S","class":"blue-icon shot-icon",
 			"ingredients":[
-				{"name":"Antidote Herb","class":"blue-icon herb-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Antidote Herb","class":"blue-icon herb-icon"}
 			],
 			"percent":90
 		},
@@ -6233,15 +6818,15 @@
 		},
 		{"name":"Dragon S","class":"red-icon shot-icon",
 			"ingredients":[
-				{"name":"Dragon Seed","class":"red-icon seed-icon"},
-				{"name":"Lg Bone Husk","class":"white-icon husk-icon"}
+				{"name":"Lg Bone Husk","class":"white-icon husk-icon"},
+				{"name":"Dragon Seed","class":"red-icon seed-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Dung S","class":"brown-icon shot-icon",
 			"ingredients":[
-				{"name":"Dung","class":"brown-icon dung-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Dung","class":"brown-icon dung-icon"}
 			],
 			"percent":75
 		}
@@ -6411,7 +6996,7 @@
 		{"name":"Drugged Meat","class":"cyan-icon meat-icon",
 			"ingredients":[
 				{"name":"Raw Meat","class":"red-icon meat-icon"},
-				{"name":"Sleep Herb","class":"cyan-icon mushroom-icon"}
+				{"name":"Sleep Herb","class":"cyan-icon herb-icon"}
 			],
 			"percent":90
 		},
@@ -6473,22 +7058,22 @@
 		},
 		{"name":"Sm Barrel-Bomb+","class":"yellow-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Monster Broth","class":"cyan-icon jar-icon"},
-				{"name":"Sm Barrel-Bomb","class":"yellow-icon barrel-bomb-icon"}
+				{"name":"Sm Barrel-Bomb","class":"yellow-icon barrel-bomb-icon"},
+				{"name":"Monster Broth","class":"cyan-icon jar-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Gunpowder","class":"red-icon powder-icon"},
-				{"name":"Large Barrel","class":"red-icon barrel-icon"}
+				{"name":"Large Barrel","class":"red-icon barrel-icon"},
+				{"name":"Gunpowder","class":"red-icon powder-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Lg Barrel-Bomb+","class":"red-icon barrel-bomb-icon",
 			"ingredients":[
-				{"name":"Monster Broth","class":"cyan-icon jar-icon"},
-				{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon"}
+				{"name":"Lg Barrel-Bomb","class":"red-icon barrel-bomb-icon"},
+				{"name":"Monster Broth","class":"cyan-icon jar-icon"}
 			],
 			"percent":75
 		},
@@ -6599,8 +7184,8 @@
 		},
 		{"name":"Health Flute","class":"green-icon flute-icon",
 			"ingredients":[
-				{"name":"Lifepowder","class":"white-icon powder-icon"},
-				{"name":"Flute","class":"yellow-icon flute-icon"}
+				{"name":"Flute","class":"yellow-icon flute-icon"},
+				{"name":"Lifepowder","class":"white-icon powder-icon"}
 			],
 			"percent":65
 		},
@@ -6613,15 +7198,15 @@
 		},
 		{"name":"Demon Flute","class":"red-icon flute-icon",
 			"ingredients":[
-				{"name":"Mega Demondrug","class":"red-icon jar-icon"},
-				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"}
+				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"},
+				{"name":"Mega Demondrug","class":"red-icon jar-icon"}
 			],
 			"percent":55
 		},
 		{"name":"Armor flute","class":"orange-icon flute-icon",
 			"ingredients":[
-				{"name":"Mega Armorskin","class":"orange-icon jar-icon"},
-				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"}
+				{"name":"Med Monster Bone","class":"yellow-icon bone-icon"},
+				{"name":"Mega Armorskin","class":"orange-icon jar-icon"}
 			],
 			"percent":55
 		},
@@ -6768,7 +7353,7 @@
 		{"name":"Water S","class":"cyan-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Knife Mackerel","class":"yellow-icon whetstone-icon"}
+				{"name":"Knife Mackerel","class":"yellow-icon fish-icon"}
 			],
 			"percent":75,"quantity":"1～3"
 		},
@@ -6795,8 +7380,8 @@
 		},
 		{"name":"Recover S Lv2","class":"green-icon shot-icon",
 			"ingredients":[
-				{"name":"Potion","class":"green-icon jar-icon"},
-				{"name":"Huskberry","class":"gray-icon husk-icon"}
+				{"name":"Huskberry","class":"gray-icon husk-icon"},
+				{"name":"Potion","class":"green-icon jar-icon"}
 			],
 			"percent":90
 		},
@@ -7032,7 +7617,7 @@
 				{"items":["Monoblos Spine","Wyvern Marrow","Wyvern Marrow"]},
 				{"items":["Rathian Plate","Lao-Shan’s Scale","Lao-Shan’s Scale"]},
 				{"items":["Rathalos Plate","Lao-Shan’s Shell","Lao-Shan’s Shell"]},
-				{"items":["Fatalis’ Eye","Kirin Hide",""]},
+				{"items":["Fatalis' Eye","Kirin Hide",""]},
 				{"items":["Firestone","Rathalos Wing",""]},
 				{"items":["Pale Lips","Pale Bone",""]},
 				{"items":["Mystery Bone","Stunshroom","Stunshroom"]},
@@ -7061,7 +7646,7 @@
 				{"items":["Monoblos Spine","Diablos Tail","Twisted Horn"]},
 				{"items":["Rathian Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
 				{"items":["Rathalos Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
-				{"items":["Kirin Thndr Tail","Gravios Wing","Gravios Head"]},
+				{"items":["Kirin Thunder Tail","Gravios Wing","Gravios Head"]},
 				{"items":["Firestone","Majestic Horn","Rathalos Wing"]},
 				{"items":["Pale Lips","Lg Lobstershell","Sm Lobstershell"]},
 				{"items":["Sm Monster Bone","Sm Bone Husk","Mystery Bone"]},
@@ -7072,14 +7657,14 @@
 				{"items":["Magazine Ticket","Mega Pickaxe","Iron Pickaxe"]},
 				{"items":["Dengeki Ticket","Iron Pickaxe","Old Pickaxe"]},
 				{"items":["Dengeki G Ticket","Mega Pickaxe","Iron Pickaxe"]},
-				{"items":["StrngGraviosWing","Solid Blos Horn","Hrd Monster Bone"]},
+				{"items":["Strong Gravios Wing","Solid Blos Horn","Hrd Monster Bone"]},
 				{"items":["Firecell Stone","Pale Khezu Steak","Gravios Carapace"]},
-				{"items":["Gt Lobstershell","Rthlos BrainStem","Rathalos Scale+"]},
-				{"items":["Azre Rthlos Scl+","Rathalos Scale+","Rathalos Carapace"]},
+				{"items":["Gt Lobstershell","Rath Medulla","Rathalos Scale+"]},
+				{"items":["Azure Rathalos Scale+","Rathalos Scale+","Rathalos Carapace"]},
 				{"items":["Pale Khezu Steak","Rathian Scale+","Rathian Carapace"]},
 				{"items":["Splendid Beak","Monster Broth","Hornet Bladefin"]},
 				{"items":["Long Kut-Ku Ear","Joiner Grasshppr","King Scarab"]},
-				{"items":["Grt Sword Ticket","Dragon Toadstool","Godbug"]},
+				{"items":["Great Sword Ticket","Dragon Toadstool","Godbug"]},
 				{"items":["Hammer Ticket","Dragon Toadstool","Kelbi Horn"]},
 				{"items":["Lance Ticket","Dragon Toadstool","Kelbi Horn"]},
 				{"items":["Saber Ticket","Dragon Toadstool","Godbug"]},
@@ -7160,7 +7745,7 @@
 				{"items":["Iron Ore","Potion","Rare Steak"]},
 				{"items":["BBQ Ticket","Well-Done Steak","Rare Steak"]},
 				{"items":["Thunderbug","Mega Potion","Antidote"]},
-				{"items":["Grt Sword Ticket","Catalyst","Hot Drink"]},
+				{"items":["Great Sword Ticket","Catalyst","Hot Drink"]},
 				{"items":["Hammer Ticket","Catalyst","Hot Drink"]},
 				{"items":["Lance Ticket","Catalyst","Cool Drink"]},
 				{"items":["Saber Ticket","Catalyst","Cool Drink"]},
@@ -7211,7 +7796,7 @@
 				{"items":["Pale Bone","Union Ore","Dragonite Ore"]},
 				{"items":["Gravios Head","Firestone","Union Ore"]},
 				{"items":["Basarios Wing","Machalite Ore","Earth Crystal"]},
-				{"items":["LaoShan Thoracic","Firestone","Dragonite Ore"]},
+				{"items":["Lao-Shan Thoracic","Firestone","Dragonite Ore"]},
 				{"items":["Long Kut-Ku Ear","Union Ore","Dragonite Ore"]},
 				{"items":["Rathian Shell","Machalite Ore","Earth Crystal"]},
 				{"items":["Flame Sac","Machalite Ore","Earth Crystal"]},
@@ -7234,9 +7819,9 @@
 				{"items":["Rathalos Wing","Ruststone(大)","Lightcrystal"]},
 				{"items":["Vespoid Bladefin","Ruststone(ハ)","Lightcrystal"]},
 				{"items":["Hornet Razorwing","Carbalite Ore","Dragonite Ore"]},
-				{"items":["Rthlos BrainStem","Firecell Stone","Carbalite Ore"]},
-				{"items":["Rathalos Ruby","Pure Crystal","Firecell Stone"]},
-				{"items":["Grt Sword Ticket","Earth Crystal","Iron Ore"]},
+				{"items":["Rath Medulla","Firecell Stone","Carbalite Ore"]},
+				{"items":["Rathalos Ruby","Purecrystal","Firecell Stone"]},
+				{"items":["Great Sword Ticket","Earth Crystal","Iron Ore"]},
 				{"items":["Hammer Ticket","Earth Crystal","Iron Ore"]},
 				{"items":["Lance Ticket","Earth Crystal","Iron Ore"]},
 				{"items":["Saber Ticket","Earth Crystal","Iron Ore"]},

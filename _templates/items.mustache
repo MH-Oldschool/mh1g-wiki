@@ -16,13 +16,19 @@
 				</thead>
 				<tbody>
 					{{#items}}
-					{{^hide}}
-						<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+						<tr class="{{#hide}}hide{{/hide}}{{#mh1}} mh1{{/mh1}}{{#mhg}} mhg{{/mhg}}">
 							<td>
-								<span class="{{icon}}"></span>
-								<span>{{&name}}{{#mh1}} <sup>1</sup>{{/mh1}}{{#mhg}} <sup>G</sup>{{/mhg}}</span>
+								<button class="item-details-button" title="See further details{{#unavailable}} (all methods to acquire in-game are currently unavailable){{/unavailable}}{{#unavailableG}}{{^mhg}} (all method to acquire in-game are currently unavailable, apart from acquiring in MH1 and importing your character){{/mhg}}{{/unavailableG}}">
+									<span class="{{icon}}"></span>
+									<span>
+										{{&name}}
+										{{#mh1}} <sup>1</sup>{{/mh1}}
+										{{#mhg}} <sup>G</sup>{{/mhg}}
+										{{#unavailable}} <sup class="col-yellow">!</sup>{{/unavailable}}
+									</span>
+								</button>
 							</td>
-							<td class="expandable">{{description}}</td>
+							<td class="expandable">{{&description}}</td>
 							<td>
 								{{maxStack}}
 								{{#maxStack1}}<span class="mh1">{{maxStack1}}</span>{{/maxStack1}}
@@ -32,7 +38,6 @@
 							<td>{{buy}}z</td>
 							<td>{{sell}}z</td>
 						</tr>
-					{{/hide}}
 					{{/items}}
 				</tbody>
 			</table>
@@ -118,7 +123,7 @@
 					</tr>
 				{{/combosG}}
 				<tr>
-					<td colspan=5><span class="cyan-icon book-icon"></span>Alchemy Combinations</td>
+					<td colspan=5><span class="yellow-icon book-icon"></span>Alchemy Combinations</td>
 				</tr>
 				{{#combosAlchemy}}
 					<tr class="requires-alchemy">
@@ -173,5 +178,53 @@
 		{{/trades}}
 	</details>
 </article>
+
+<div id="dialog-backdrop"></div>
+<dialog id="item-dialog">
+	<button class="close-dialog-button">X</button>
+
+	<div class="dialog-content">
+		<h2 id="item-dialog-name"></h2>
+		<p id="item-dialog-description"></p>
+		<p id="item-dialog-details"></p>
+
+		<details class="item-dialog-acquire-combo">
+			<summary><b>How to acquire:</b></summary>
+			<p class="item-dialog-acquire-container"><span id="item-dialog-acquire"></span></p>
+
+			<table class="item-dialog-combo-container">
+				<thead>
+					<th colspan=2><span class="alchemy-copy">Alchemy </span>Ingredients</th>
+				</thead>
+				<tbody id="item-dialog-combo"></tbody>
+			</table>
+		</details>
+
+		<details class="item-dialog-uses-container">
+			<summary><b>Uses:</b></summary>
+
+			<details class="item-dialog-combo-uses-container">
+				<summary><b>Combos:</b></summary>
+				<table>
+					<thead>
+						<th>Result</th>
+						<th colspan=2>Ingredients</th>
+					</thead>
+					<tbody id="item-dialog-combo-uses"></tbody>
+				</table>
+			</details>
+
+			<details class="item-dialog-weapon-uses-container">
+				<summary><b>Weapon Uses:</b></summary>
+				<div id="item-dialog-weapon-uses"></div>
+			</details>
+
+			<details class="item-dialog-armor-uses-container">
+				<summary><b>Armor Uses:</b></summary>
+				<div id="item-dialog-armor-uses"></div>
+			</details>
+		</details>
+	</div>
+</dialog>
 
 {{> foot}}

@@ -2,7 +2,7 @@
 	"title": "Monster Hunter Wiki | Bestiary",
 	"description": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
 	"head": "<link rel='stylesheet' href='css/bestiary.css'/>",
-	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (MH1 carves are based on the US version, and may vary from MH1J. MH1J Fatalis hitzones derived from <a href=\"https://www.youtube.com/watch?app=desktop&v=qfgLj40Zkog\">this video,</a> all other 1J hitzones from <a href=\"https://pastebin.com/LG7hPYPG\">this pastebin.</a> MHG item names are based on Yuzu's English language patch v0.6)",
+	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (Village carves are only specified for monsters that do not appear in Low Rank, or where they differ from Low Rank. MH1 carves are based on the US version, and may vary from MH1J. MH1J Fatalis hitzones derived from <a href=\"https://www.youtube.com/watch?app=desktop&v=qfgLj40Zkog\">this video,</a> all other 1J hitzones from <a href=\"https://pastebin.com/LG7hPYPG\">this pastebin.</a> MHG item names are based on Amaillo's English language patch)",
 	"onBestiary": true,
 	"gToggle": true,
 	"monsters": [
@@ -140,16 +140,16 @@
 			],
 			"carvesG":[
 				{"name":"Low Rank","parts":[
-					{"n":"Bullfango Hide","p":62},
+					{"n":"Bullfango Pelt","p":62},
 					{"n":"Raw Meat","p":38}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Bullfango Hide","p":60},
+					{"n":"Bullfango Pelt","p":60},
 					{"n":"Raw Meat","p":39},
 					{"n":"Bullfango Head","p":1}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Bullfango Hide","p":60},
+					{"n":"Bullfango Pelt","p":60},
 					{"n":"Raw Meat","p":39},
 					{"n":"Bullfango Head","p":1}
 				]}
@@ -540,7 +540,7 @@
 					{"n":"Vespoid Bladefin","p":30},
 					{"n":"Vespoid Carapace","p":30},
 					{"n":"Monster Broth","p":30},
-					{"n":"Vspoid Razorwing","p":10}
+					{"n":"Vespoid Razorwing","p":10}
 				]}
 			],
 			"notes": [
@@ -694,7 +694,7 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Velociprey Hide+","p":45},
-					{"n":"Rampos Upper Scale","p":30},
+					{"n":"Velociprey Scle+","p":30},
 					{"n":"Velociprey Fang","p":25}
 				]}
 			],
@@ -809,7 +809,7 @@
 				{"name":"G Rank","parts":[
 					{"n":"Velocidrome Claw","p":54},
 					{"n":"Velociprey Hide+","p":30},
-					{"n":"Rampos Upper Scale","p":15},
+					{"n":"Velociprey Scle+","p":15},
 					{"n":"Velocidrome Head","p":1}
 				]}
 			],
@@ -1108,7 +1108,7 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Iodrome Hide","p":45},
-					{"n":"Poison Sac","p":40},
+					{"n":"Toxin Sac","p":40},
 					{"n":"Ioprey Scale+","p":15}
 				]}
 			],
@@ -1204,7 +1204,7 @@
 			"carvesG":[
 				{"name":"Low Rank","parts":[
 					{"n":"Rathalos Shell","p":30},
-					{"n":"Rathalos Membrane","p":30},
+					{"n":"Rathalos Webbing","p":30},
 					{"n":"Rathalos Scale","p":30},
 					{"n":"Flame Sac","p":8},
 					{"n":"Wyvern Marrow","p":2}
@@ -1217,7 +1217,7 @@
 				]},
 				{"name":"High Rank","parts":[
 					{"n":"Rathalos Shell","p":30},
-					{"n":"Rathalos Membrane","p":30},
+					{"n":"Rathalos Webbing","p":30},
 					{"n":"Flame Sac","p":25},
 					{"n":"Wyvern Marrow","p":8},
 					{"n":"Rathalos Scale","p":5},
@@ -1231,10 +1231,10 @@
 					{"n":"Rathalos Plate","p":1}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Rathalos Shell","p":30},
-					{"n":"Rathalos Membrane","p":30},
+					{"n":"Rathalos Carapace","p":30},
+					{"n":"Rathalos Webbing","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rthlos BrainStem","p":8},
+					{"n":"Rath Medulla","p":8},
 					{"n":"Rathalos Scale+","p":5},
 					{"n":"Rathalos Wing","p":2}
 				]},
@@ -1242,7 +1242,7 @@
 					{"n":"Rathalos Tail","p":55},
 					{"n":"Rathalos Scale+","p":26},
 					{"n":"Rathalos Plate","p":12},
-					{"n":"Rthlos BrainStem","p":6},
+					{"n":"Rath Medulla","p":6},
 					{"n":"Rathalos Ruby","p":1}
 				]}
 			],
@@ -1286,47 +1286,47 @@
 			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"Village","parts":[
-					{"n":"Azure Rthlos Shl","p":30},
-					{"n":"Azure Rthlos Scl","p":30},
-					{"n":"Azr Rthls Webbng","p":30},
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Scale","p":30},
+					{"n":"Azure Rathalos Webbing","p":30},
 					{"n":"Flame Sac","p":8},
 					{"n":"Wyvern Marrow","p":2}
 				]},
 				{"name":"Village Tail","parts":[
-					{"n":"Azur Rthlos Tail","p":38},
-					{"n":"Azure Rthlos Scl","p":35},
-					{"n":"Azure Rthlos Shl","p":25},
+					{"n":"Azure Rathalos Tail","p":38},
+					{"n":"Azure Rathalos Scale","p":35},
+					{"n":"Azure Rathalos Shell","p":25},
 					{"n":"Wyvern Marrow","p":2}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Azure Rthlos Shl","p":30},
-					{"n":"Azr Rthls Webbng","p":30},
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Webbing","p":30},
 					{"n":"Flame Sac","p":25},
 					{"n":"Wyvern Marrow","p":8},
-					{"n":"Azure Rthlos Scl","p":5},
-					{"n":"Azr Rthls Wing","p":2}
+					{"n":"Azure Rathalos Scale","p":5},
+					{"n":"Azure Rathalos Wing","p":2}
 				]},
 				{"name":"High Rank Tail","parts":[
-					{"n":"Azur Rthlos Tail","p":55},
-					{"n":"Azure Rthlos Shl","p":30},
-					{"n":"Azure Rthlos Scl","p":8},
+					{"n":"Azure Rathalos Tail","p":55},
+					{"n":"Azure Rathalos Shell","p":30},
+					{"n":"Azure Rathalos Scale","p":8},
 					{"n":"Wyvern Marrow","p":6},
-					{"n":"Azre Rthls Plate","p":1}
+					{"n":"Azure Rathalos Plate","p":1}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Azure Rathalos Cortex","p":30},
-					{"n":"Azr Rthls Webbng","p":30},
+					{"n":"Azure Rathalos Carapace","p":30},
+					{"n":"Azure Rathalos Webbing","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rthlos BrainStem","p":8},
-					{"n":"Azure Rthlos Scl+","p":5},
-					{"n":"Azr Rthls Wing","p":2}
+					{"n":"Rath Medulla","p":8},
+					{"n":"Azure Rathalos Scale+","p":5},
+					{"n":"Azure Rathalos Wing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Azur Rthlos Tail","p":55},
-					{"n":"Azure Rthlos Scl+","p":24},
-					{"n":"Azre Rthls Plate","p":12},
-					{"n":"Azure Rathalos Cortex","p":8},
-					{"n":"Azure Rthlos Rby","p":1}
+					{"n":"Azure Rathalos Tail","p":55},
+					{"n":"Azure Rathalos Scale+","p":24},
+					{"n":"Azure Rathalos Plate","p":12},
+					{"n":"Azure Rathalos Carapace","p":8},
+					{"n":"Azure Rathalos Ruby","p":1}
 				]}
 			],
 			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
@@ -1370,20 +1370,20 @@
 			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Slvr Rthalos Shl","p":30},
-					{"n":"Slvr Rthalos Wing Membrane","p":30},
+					{"n":"Silver Rathalos Shell","p":30},
+					{"n":"Silver Rathalos Webbing","p":30},
 					{"n":"Inferno Sac","p":25},
-					{"n":"Rthlos BrainStem","p":8},
-					{"n":"Slvr Rthalos Scl","p":5},
-					{"n":"Slvr Rthalos Wing","p":2}
+					{"n":"Rath Medulla","p":8},
+					{"n":"Silver Rathalos Scale","p":5},
+					{"n":"Silver Rathalos Wing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Slvr Rthalos Tail","p":55},
-					{"n":"Slvr Rthalos Scl","p":20},
-					{"n":"Slvr Rthalos Plate","p":9},
-					{"n":"Slvr Rthalos Shl","p":8},
-					{"n":"Rthlos BrainStem","p":6},
-					{"n":"Slvr Rthalos Rby","p":2}
+					{"n":"Silver Rathalos Tail","p":55},
+					{"n":"Silver Rathalos Scale","p":20},
+					{"n":"Silver Rathalos Plate","p":9},
+					{"n":"Silver Rathalos Shell","p":8},
+					{"n":"Rath Medulla","p":6},
+					{"n":"Silver Rathalos Ruby","p":2}
 				]}
 			],
 			"sizes":{"base":1629.4,"silver":1857.5,"gold":2069.3},
@@ -1505,17 +1505,17 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Rathian Scale+","p":35},
-					{"n":"Rathian Shell","p":30},
+					{"n":"Rathian Carapace","p":30},
 					{"n":"Inferno Sac","p":25},
 					{"n":"Rathian Spike","p":8},
 					{"n":"Wyvern Claw","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
 					{"n":"Rathian Scale+","p":45},
-					{"n":"Rathian Shell","p":23},
+					{"n":"Rathian Carapace","p":23},
 					{"n":"Rathian Spike","p":13},
 					{"n":"Rathian Plate","p":12},
-					{"n":"Rthlos BrainStem","p":5},
+					{"n":"Rath Medulla","p":5},
 					{"n":"Rathian Ruby","p":2}
 				]}
 			],
@@ -1587,16 +1587,16 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Pink Rathian Scale+","p":35},
-					{"n":"Pink Rathian Cortex","p":30},
+					{"n":"Pink Rathian Carapace","p":30},
 					{"n":"Inferno Sac","p":25},
 					{"n":"Pink Rathian Spike","p":8},
 					{"n":"Wyvern Claw","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
 					{"n":"Pink Rathian Scale+","p":50},
-					{"n":"Pink Rathian Cortex","p":30},
+					{"n":"Pink Rathian Carapace","p":30},
 					{"n":"Pink Rathian Plate","p":12},
-					{"n":"Rthlos BrainStem","p":6},
+					{"n":"Rath Medulla","p":6},
 					{"n":"Pink Rathian Ruby","p":2}
 				]}
 			],
@@ -1744,7 +1744,7 @@
 					{"n":"Giant Beak","p":10}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Kut-Ku Shell","p":55},
+					{"n":"Kut-Ku Carapace","p":55},
 					{"n":"Kut-Ku Wing","p":30},
 					{"n":"Long Kut-Ku Ear","p":10},
 					{"n":"Splendid Beak","p":5}
@@ -1789,8 +1789,8 @@
 			"carveCount":3,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Blue Kut-Ku Shell","p":45},
-					{"n":"Blue Kut-Ku Webbing","p":25},
+					{"n":"Blue Kut-Ku Carapace","p":45},
+					{"n":"Blue Kut-Ku Wing","p":25},
 					{"n":"Blue Kut-Ku Ear","p":20},
 					{"n":"Splendid Beak","p":10}
 				]}
@@ -1859,7 +1859,7 @@
 					{"n":"Rubbery Hide","p":62},
 					{"n":"Power Extract","p":20},
 					{"n":"Poison Sac","p":10},
-					{"n":"Light Crystal","p":8}
+					{"n":"Lightcrystal","p":8}
 				]},
 				{"name":"High Rank","parts":[
 					{"n":"Power Extract","p":50},
@@ -1885,7 +1885,7 @@
 					{"n":"Power Extract","p":50},
 					{"n":"Rubbery Hide+","p":20},
 					{"n":"Rubbery Hide","p":15},
-					{"n":"Poison Sac","p":9},
+					{"n":"Toxin Sac","p":9},
 					{"n":"Purecrystal","p":6}
 				]}
 			],
@@ -1932,7 +1932,7 @@
 					{"n":"Power Extract","p":38},
 					{"n":"Purple Rubbery Hide","p":37},
 					{"n":"Gypceros Head","p":11},
-					{"n":"Poison Sac","p":9},
+					{"n":"Toxin Sac","p":9},
 					{"n":"Purecrystal","p":5}
 				]}
 			],
@@ -2528,13 +2528,13 @@
 			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"Village","parts":[
-					{"n":"Wht Monoblos Spn","p":45},
-					{"n":"Wht Monoblos Shl","p":29},
+					{"n":"White Monoblos Spine","p":45},
+					{"n":"White Monoblos Shell","p":29},
 					{"n":"Blos Fang","p":24},
 					{"n":"Monoblos Heart","p":2}
 				]},
 				{"name":"Village Tail","parts":[
-					{"n":"Wht Monoblos Shl","p":80},
+					{"n":"White Monoblos Shell","p":80},
 					{"n":"Lg Monster Bone","p":20}
 				]}
 			],
@@ -2627,7 +2627,7 @@
 					{"n":"Diablos Tail","p":30}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Diablos Carapace","p":45},
+					{"n":"Diablos Spine","p":45},
 					{"n":"Diablos Shell","p":40},
 					{"n":"Blos Fang","p":15}
 				]},
@@ -2690,7 +2690,7 @@
 			"tailCarveCount":1,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Black Diablos Carapace","p":56},
+					{"n":"Black Blos Shell","p":56},
 					{"n":"Blos Fang","p":32},
 					{"n":"Black Blos Spine","p":12}
 				]},
@@ -2810,16 +2810,16 @@
 					{"n":"Firestone","p":2}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Gravios Shell","p":45},
-					{"n":"GraviosHeavyShl","p":20},
-					{"n":"Sleep Sac","p":20},
+					{"n":"Gravios Carapace","p":45},
+					{"n":"Gravios Heavy Shell","p":20},
+					{"n":"Coma Sac","p":20},
 					{"n":"Inferno Sac","p":9},
 					{"n":"Gravios Jaw","p":4},
-					{"n":"StrngGraviosWing","p":2}
+					{"n":"Strong Gravios Wing","p":2}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Gravios Shell","p":63},
-					{"n":"GraviosHeavyShl","p":35},
+					{"n":"Gravios Carapace","p":63},
+					{"n":"Gravios Heavy Shell","p":35},
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
@@ -2864,16 +2864,16 @@
 			"tailCarveCount":2,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Blk Gravios Cpc","p":46},
-					{"n":"Blk Gravios Shl","p":20},
-					{"n":"Sleep Sac","p":20},
+					{"n":"Black Gravios Carapace","p":46},
+					{"n":"Black Gravios Shell","p":20},
+					{"n":"Coma Sac","p":20},
 					{"n":"Inferno Sac","p":9},
-					{"n":"Blk Gravios Head","p":4},
-					{"n":"Blk Gravios Wing","p":1}
+					{"n":"Black Gravios Head","p":4},
+					{"n":"Black Gravios Wing","p":1}
 				]},
 				{"name":"G Rank Tail","parts":[
-					{"n":"Blk Gravios Cpc","p":63},
-					{"n":"Blk Gravios Shl","p":35},
+					{"n":"Black Gravios Carapace","p":63},
+					{"n":"Black Gravios Shell","p":35},
 					{"n":"Firecell Stone","p":2}
 				]}
 			],
@@ -2985,8 +2985,8 @@
 					{"n":"Dragonite Ore","p":25}
 				]},
 				{"name":"G Rank","parts":[
-					{"n":"Basarios Shell","p":32},
-					{"n":"Poison Sac","p":19},
+					{"n":"Basarios Carapace","p":32},
+					{"n":"Toxin Sac","p":19},
 					{"n":"Dragonite Ore","p":17},
 					{"n":"Basarios Tears","p":15},
 					{"n":"Carbalite Ore","p":9},
@@ -2994,7 +2994,7 @@
 				]},
 				{"name":"G Rank Tail","parts":[
 					{"n":"Dragonite Ore","p":52},
-					{"n":"Basarios Shell","p":30},
+					{"n":"Basarios Carapace","p":30},
 					{"n":"Carbalite Ore","p":18}
 				]}
 			],
@@ -3073,7 +3073,7 @@
 				{"name":"High Rank","parts":[
 					{"n":"Kirin Horn","p":35},
 					{"n":"Kirin Azure Horn","p":20},
-					{"n":"Kirin Azure T-Tail","p":14},
+					{"n":"Kirin Azure Thunder Tail","p":14},
 					{"n":"Kirin Mane","p":13},
 					{"n":"Novacrystal","p":10},
 					{"n":"Kirin Hide","p":8}
@@ -3081,7 +3081,7 @@
 				{"name":"G Rank","parts":[
 					{"n":"Kirin Horn","p":35},
 					{"n":"Kirin Mane","p":25},
-					{"n":"Kirin Thndr Tail","p":15},
+					{"n":"Kirin Thunder Tail","p":15},
 					{"n":"Purecrystal","p":10},
 					{"n":"Kirin Hide","p":8},
 					{"n":"Kirin Azure Horn","p":7}
@@ -3148,53 +3148,53 @@
 			"carveCount":9,
 			"carves1":[
 				{"name":"Low Rank","parts":[
-					{"n":"Lao-Shan's Scale","p":50},
-					{"n":"Lao-Shan's Shell","p":45},
-					{"n":"Lao-Shan's Claw","p":5}
+					{"n":"Lao-Shan Scale","p":50},
+					{"n":"Lao-Shan Shell","p":45},
+					{"n":"Lao-Shan Claw","p":5}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Lao-Shan's Shell","p":35},
-					{"n":"Lao-Shan's Scale","p":25},
-					{"n":"Lao-Shan's Spine","p":20},
-					{"n":"Lao-Shan's Claw","p":18},
-					{"n":"Lao-Shan's Plate","p":2}
+					{"n":"Lao-Shan Shell","p":35},
+					{"n":"Lao-Shan Scale","p":25},
+					{"n":"Lao-Shan Spine","p":20},
+					{"n":"Lao-Shan Claw","p":18},
+					{"n":"Lao-Shan Plate","p":2}
 				]}
 			],
 			"carvesG":[
 				{"name":"Village","parts":[
-					{"n":"Lao-Shan's Shell","p":43},
-					{"n":"Lao-Shan's Scale","p":32},
-					{"n":"Lao-Shan's Spine","p":20},
+					{"n":"Lao-Shan Shell","p":43},
+					{"n":"Lao-Shan Scale","p":32},
+					{"n":"Lao-Shan Spine","p":20},
 					{"n":"Sm Lao-Shan's Claw","p":5}
 				]},
 				{"name":"Village Back","parts":[
 					{"n":"Lg Monster Bone","p":54},
-					{"n":"Lao-Shan's Scale","p":28},
-					{"n":"Lao-Shan's Shell","p":18}
+					{"n":"Lao-Shan Scale","p":28},
+					{"n":"Lao-Shan Shell","p":18}
 				]},
 				{"name":"Low Rank","parts":[
-					{"n":"Lao-Shan's Scale","p":48},
-					{"n":"Lao-Shan's Shell","p":27},
-					{"n":"Lao-Shan's Spine","p":20},
-					{"n":"Lao-Shan's Claw","p":5}
+					{"n":"Lao-Shan Scale","p":48},
+					{"n":"Lao-Shan Shell","p":27},
+					{"n":"Lao-Shan Spine","p":20},
+					{"n":"Lao-Shan Claw","p":5}
 				]},
 				{"name":"Low Rank Back","parts":[
 					{"n":"Lg Monster Bone","p":65},
-					{"n":"Lao-Shan's Scale","p":25},
-					{"n":"Lao-Shan's Shell","p":10}
+					{"n":"Lao-Shan Scale","p":25},
+					{"n":"Lao-Shan Shell","p":10}
 				]},
 				{"name":"High Rank","parts":[
-					{"n":"Lao-Shan's Shell","p":35},
-					{"n":"Lao-Shan's Scale","p":25},
-					{"n":"Lao-Shan's Carapace","p":20},
-					{"n":"Lao-Shan's Claw","p":18},
-					{"n":"Lao-Shan's Plate","p":2}
+					{"n":"Lao-Shan Shell","p":35},
+					{"n":"Lao-Shan Scale","p":25},
+					{"n":"Lao-Shan Thoracic","p":20},
+					{"n":"Lao-Shan Claw","p":18},
+					{"n":"Lao-Shan Plate","p":2}
 				]},
 				{"name":"High Rank Back","parts":[
 					{"n":"Lg Monster Bone","p":44},
-					{"n":"Lao-Shan's Scale","p":28},
-					{"n":"Lao-Shan's Carapace","p":18},
-					{"n":"Lao-Shan's Shell","p":10}
+					{"n":"Lao-Shan Scale","p":28},
+					{"n":"Lao-Shan Thoracic","p":18},
+					{"n":"Lao-Shan Shell","p":10}
 				]}
 			],
 			"notes": [
@@ -3236,19 +3236,19 @@
 			"carveCount":9,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Lao-Shan's Thoracic","p":28},
-					{"n":"Lao-Shan's Scale+","p":20},
-					{"n":"Azure Lao-Shan's Shell","p":19},
-					{"n":"Azure Lao-Shan's Claw","p":13},
-					{"n":"Azure Lao-Shan's Scale","p":12},
-					{"n":"Lao-Shan's Plate","p":5},
-					{"n":"Lao-Shan's Ruby","p":3}
+					{"n":"Lao-Shan Carapace","p":28},
+					{"n":"Lao-Shan Scale+","p":20},
+					{"n":"Azure Lao-Shan Shell","p":19},
+					{"n":"Azure Lao-Shan Claw","p":13},
+					{"n":"Azure Lao-Shan Scale","p":12},
+					{"n":"Lao-Shan Plate","p":5},
+					{"n":"Lao-Shan Ruby","p":3}
 				]},
 				{"name":"G Rank Back","parts":[
 					{"n":"Monster Bone+","p":52},
-					{"n":"Lao-Shan's Scale+","p":25},
-					{"n":"Lao-Shan's Thoracic","p":13},
-					{"n":"Lao-Shan's Heavy Shell","p":10}
+					{"n":"Lao-Shan Scale+","p":25},
+					{"n":"Lao-Shan Carapace","p":13},
+					{"n":"Lao-Shan Heavy Shell","p":10}
 				]}
 			],
 			"notes": [
@@ -3314,19 +3314,19 @@
 			"carveCount":9,
 			"carves1":[
 				{"name":"High Rank","parts":[
-					{"n":"Fatalis’ Scale","p":45},
-					{"n":"Fatalis’ Shell","p":45},
-					{"n":"Fatalis’ Horn","p":10}
+					{"n":"Fatalis' Scale","p":45},
+					{"n":"Fatalis' Shell","p":45},
+					{"n":"Fatalis' Horn","p":10}
 				]}
 			],
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Fatalis’ Scale+","p":30},
-					{"n":"Fatalis’ Shell","p":25},
-					{"n":"Fatalis’ Scale","p":20},
-					{"n":"Fatalis’ Shell","p":15},
-					{"n":"Fatalis’ Horn","p":6},
-					{"n":"Fatalis’ Gore","p":4}
+					{"n":"Fatalis' Scale+","p":30},
+					{"n":"Fatalis' Carapace","p":25},
+					{"n":"Thick Fatalis Scale","p":20},
+					{"n":"Fatalis Heavy Shell","p":15},
+					{"n":"Fatalis' Horn","p":6},
+					{"n":"Fatalis' Gore","p":4}
 				]}
 			],
 			"notes": [
@@ -3373,12 +3373,12 @@
 			"carveCount":9,
 			"carvesG":[
 				{"name":"G Rank","parts":[
-					{"n":"Fatalis’ Crimson Scale","p":34},
-					{"n":"Fatalis’ Crimson Shell","p":23},
-					{"n":"Fatalis’ Scale","p":19},
-					{"n":"Fatalis’ Shell","p":15},
-					{"n":"Fatalis’ Crimson Horn","p":6},
-					{"n":"Fatalis’ Gore","p":3}
+					{"n":"Fatalis Crimson Scale","p":34},
+					{"n":"Fatalis Crimson Shell","p":23},
+					{"n":"Thick Fatalis Scale","p":19},
+					{"n":"Fatalis Heavy Shell","p":15},
+					{"n":"Fatalis Crimson Horn","p":6},
+					{"n":"Fatalis' Gore","p":3}
 				]}
 			],
 			"notes": [

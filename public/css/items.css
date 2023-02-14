@@ -6,7 +6,18 @@
 	text-align: left;
 }
 .items td:first-child {
-	width: 12rem;
+	padding: 0;
+}
+.item-details-button {
+	background: rgba(255,255,255,0.0);
+	text-align: left;
+	border: 0;
+	padding: 0 0.25rem;
+	width: 100%;
+	transition: background-color 300ms;
+}
+.item-details-button:hover {
+	background-color: rgba(255,255,255,0.25);
 }
 .items td.expandable {
 	max-width: none;
@@ -39,6 +50,65 @@
 }
 .requires-alchemy {
 	background-color: rgba(32,64,16,0.5);
+}
+
+dialog {
+	background-repeat: repeat;
+	text-shadow: 0.125rem 0.125rem #000;
+	border-style: double;
+	width: 90%;
+	max-width: 40rem;
+}
+.show-1 dialog { background-image: url("/images/background/menu_1.gif"); }
+.show-g dialog { background-image: url("/images/background/menu_g.gif"); }
+
+dialog thead {
+	position: static;
+}
+
+dialog #item-dialog-details,
+dialog .item-dialog-acquire-combo,
+dialog .item-dialog-acquire-container,
+dialog .item-dialog-combo-container,
+dialog .item-dialog-uses-container,
+dialog .item-dialog-combo-uses-container,
+dialog .item-dialog-weapon-uses-container,
+dialog .item-dialog-armor-uses-container {
+	display: none;
+}
+dialog.show-details #item-dialog-details,
+dialog.show-acquire .item-dialog-acquire-combo,
+dialog.show-acquire .item-dialog-acquire-container,
+dialog.show-combo .item-dialog-acquire-combo,
+dialog.show-combo .item-dialog-combo-container,
+dialog.show-combo-uses .item-dialog-uses-container,
+dialog.show-combo-uses .item-dialog-combo-uses-container,
+dialog.show-weapon-uses .item-dialog-uses-container,
+dialog.show-weapon-uses .item-dialog-weapon-uses-container,
+dialog.show-armor-uses .item-dialog-uses-container,
+dialog.show-armor-uses .item-dialog-armor-uses-container {
+	display: block;
+}
+
+dialog .alchemy-copy {
+	display: none;
+}
+dialog.show-alchemy .alchemy-copy {
+	display: inline;
+}
+
+.dialog-content {
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	max-height: 90vh;
+}
+.dialog-content p {
+	margin: 0.5rem 0;
+}
+.dialog-content details p {
+	text-indent: -1rem;
+	padding-left: 1rem;
 }
 
 @media screen and (min-width: 50rem) {
