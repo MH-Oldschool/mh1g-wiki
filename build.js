@@ -273,7 +273,7 @@ function generateItemDataJS(weaponData, armorData) {
 			var weaponNames = [];
 
 			for (var prop in weapons) {
-				if (weapons.hasOwnProperty(prop) && doesBlademasterWeaponUseItem(weapons[prop])) {
+				if (weapons.hasOwnProperty(prop) && (version == "g" || !weapons[prop].gOnly) && doesBlademasterWeaponUseItem(weapons[prop])) {
 					weaponNames.push(weapons[prop].name.replace(/ /g, "&nbsp;"));
 				}
 			}
@@ -292,7 +292,7 @@ function generateItemDataJS(weaponData, armorData) {
 			var weaponNames = [];
 
 			for (var prop in bowguns) {
-				if (bowguns.hasOwnProperty(prop) && bowguns[prop].icon == category && doesBowgunUseItem(bowguns[prop])) {
+				if (bowguns.hasOwnProperty(prop) && bowguns[prop].icon == category && (version == "g" || !bowguns[prop].gOnly) && doesBowgunUseItem(bowguns[prop])) {
 					weaponNames.push(bowguns[prop].name.replace(/ /g, "&nbsp;"));
 				}
 			}
