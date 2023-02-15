@@ -418,6 +418,28 @@ function generateItemDataJS(weaponData, armorData) {
 			return "";
 		}
 
+		function getTradesForItem(itemName, version) {
+			var tradesForItem = [];
+			itemData.trades.forEach((localeTrades) => {
+				var localeTradesFound = [];
+
+				localeTrades["mh" + version].forEach((trade) => {
+					if (trade.items[1].n == itemName) {
+						localeTradesFound.push(trade.items[0].n);
+					}
+					if (version == "g" && trade.items[2].n == itemName) {
+						localeTradesFound.push(trade.items[0].n);
+					}
+				});
+
+				if (localeTradesFound.length !== 0) {
+					tradesForItem.push(`<p><span class="${ localeTrades.color }-icon map-icon"></span> <b>${ localeTrades.name }:</b> ${ localeTradesFound.join(", ") }</p>`);
+				}
+			});
+
+			return tradesForItem.join("");
+		}
+
 		itemData.items.forEach((item) => {
 			var weaponUses1 = getWeaponUses(item.name, "1");
 			var weaponUsesG = getWeaponUses(item.name, "g");
@@ -455,6 +477,14 @@ function generateItemDataJS(weaponData, armorData) {
 
 			var alchemyForItem = getAlchemyForItem(item.name);
 			if (alchemyForItem.length !== 0) item.alchemyForItem = alchemyForItem;
+
+			var tradesForItem1 = getTradesForItem(item.name, "1");
+			var tradesForItemG = getTradesForItem(item.name, "g");
+			if (tradesForItem1 || tradesForItemG) {
+				item.tradesForItem = {};
+				if (tradesForItem1) item.tradesForItem["1"] = tradesForItem1;
+				if (tradesForItemG) item.tradesForItem["g"] = tradesForItemG;
+			}
 
 			// This has to be at the end for all the searches to work
 			item.name = `${ item.name } <span class="katakana">${ item.japanese }</span>`;

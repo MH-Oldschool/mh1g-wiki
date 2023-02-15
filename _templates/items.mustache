@@ -161,7 +161,7 @@
 						{{#mh1}}
 							<tr class="mh1">
 								{{#items}}
-									<td>{{#n}}<span class="{{icon}}"></span><span>{{n}}</span>{{/n}}</td>
+									<td><span class="{{icon}}"></span><span>{{n}}</span></td>
 								{{/items}}
 							</tr>
 						{{/mh1}}
@@ -169,7 +169,7 @@
 						{{#mhg}}
 							<tr class="mhg">
 								{{#items}}
-									<td>{{#n}}<span class="{{icon}}"></span><span>{{n}}</span>{{/n}}</td>
+									<td><span class="{{icon}}"></span><span>{{n}}</span></td>
 								{{/items}}
 							</tr>
 						{{/mhg}}
@@ -196,6 +196,12 @@
 		<details class="item-dialog-acquire-combo">
 			<summary><b>How to acquire:</b></summary>
 			<p class="item-dialog-acquire-container"><span id="item-dialog-acquire"></span></p>
+
+			<details class="item-dialog-trades-container">
+				<summary>Trades:</summary>
+				<div id="item-dialog-trades">
+				</div>
+			</details>
 
 			<table class="item-dialog-combo-container">
 				<thead>
