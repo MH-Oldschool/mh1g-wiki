@@ -5964,7 +5964,7 @@
 							"price":"150,000",
 							"upgrade":[
 								{"n":"Strong Gravios Wing","q":1},
-								{"n":"Gravios Tears","q":2},
+								{"n":"Basarios Tears","q":2},
 								{"n":"Azure Rathalos Ruby","q":1}
 							]
 						}
@@ -8262,7 +8262,7 @@
 				"tranq":2,"paint":2,"demon":"","armor":"",
 				"price":"4,150z",
 				"mats":[
-					{"n":"Gravios Tears","q":1},
+					{"n":"Basarios Tears","q":1},
 					{"n":"Carbalite Ore","q":10},
 					{"n":"Dragonite Ore","q":10},
 					{"n":"Union Ore","q":20}
