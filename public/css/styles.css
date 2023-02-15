@@ -235,6 +235,9 @@ input[type="range"] {
 .hide {
 	display: none !important;
 }
+.katakana {
+	font-weight: normal;
+}
 .col-yellow {
 	color: #ff3;
 }

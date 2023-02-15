@@ -419,6 +419,8 @@ function generateItemDataJS(weaponData, armorData) {
 		}
 
 		itemData.items.forEach((item) => {
+			item.name = `${ item.name } <span class="katakana">${ item.japanese }</span>`;
+
 			var weaponUses1 = getWeaponUses(item.name, "1");
 			var weaponUsesG = getWeaponUses(item.name, "g");
 			var armorUses1 = getArmorUses(item.name, "1");

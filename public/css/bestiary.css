@@ -25,15 +25,6 @@
 	transform: rotate(90deg);
 }
 
-.katakana {
-	font-weight: normal;
-	opacity: 0;
-	transition: opacity 500ms;
-}
-.monster-details summary:hover .katakana {
-	opacity: 1;
-}
-
 .monster-image {
 	position: relative;
 	box-sizing: border-box;
