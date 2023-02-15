@@ -152,15 +152,16 @@
 					<thead>
 						<tr>
 							<th>Trade Item</th>
-							<th>Common Result (80%)</th>
-							<th>Rare Result (20%)</th>
+							<th class="mh1">Result</th>
+							<th class="mhg">Common Result (80%)</th>
+							<th class="mhg">Rare Result (20%)</th>
 						</tr>
 					</thead>
 					<tbody>
 						{{#mh1}}
 							<tr class="mh1">
 								{{#items}}
-									<td>{{.}}</td>
+									<td>{{#n}}<span class="{{icon}}"></span><span>{{n}}</span>{{/n}}</td>
 								{{/items}}
 							</tr>
 						{{/mh1}}
@@ -168,7 +169,7 @@
 						{{#mhg}}
 							<tr class="mhg">
 								{{#items}}
-									<td>{{.}}</td>
+									<td>{{#n}}<span class="{{icon}}"></span><span>{{n}}</span>{{/n}}</td>
 								{{/items}}
 							</tr>
 						{{/mhg}}
@@ -176,6 +177,10 @@
 				</table>
 			</details>
 		{{/trades}}
+
+		<p class="mhg">
+			Trade 99 BBQ Tickets to any Veggie Elder to receive a Gourmet BBQ Spit.
+		</p>
 	</details>
 </article>
 

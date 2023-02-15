@@ -7595,237 +7595,1436 @@
 		{
 			"name":"Forest and Hills","color":"green",
 			"mh1":[
-				{"items":["Insect Husk","Special Mushroom","Special Mushroom"]},
-				{"items":["Cactus Flower","Special Mushroom","Special Mushroom"]},
-				{"items":["Felvine","Special Mushroom","Special Mushroom"]},
-				{"items":["Fire Herb","Special Mushroom","Special Mushroom"]},
-				{"items":["Iron Ore","Small Monster Bone","Small Monster Bone"]},
-				{"items":["Machalite Ore","Medium Monster Bone","Medium Monster Bone"]},
-				{"items":["Dragonite Ore","Large Monster Bone",""]},
-				{"items":["Crimson Horn","Wyvern Marrow","Wyvern Marrow"]},
-				{"items":["Lao-Shan's Claw","Lao Shan's Spine",""]},
-				{"items":["Lightcrystal","Rathian Spike","Rathian Spike"]},
-				{"items":["Kut-Ku Shell","Plesioth Scale","Plesioth Scale"]},
-				{"items":["Kut-Ku Ear","Plesioth Fin","Plesioth Fin"]},
-				{"items":["Cephalos Fin","Rathalos Webbing","Rathalos Webbing"]},
-				{"items":["Blos Fang","Medium Monster Bone","Medium Monster Bone"]},
-				{"items":["Piscine Jaw","Medium Monster Bone","Medium Monster Bone"]},
-				{"items":["Diablos Spine","Gravios Carapace",""]},
-				{"items":["Gravios Carapace","Diablos Spine",""]},
-				{"items":["Gravios Head","Vespoid Abdomen",""]},
-				{"items":["Gravios Wing","Vespoid Abdomen",""]},
-				{"items":["Monoblos Spine","Wyvern Marrow","Wyvern Marrow"]},
-				{"items":["Rathian Plate","Lao-Shan’s Scale","Lao-Shan’s Scale"]},
-				{"items":["Rathalos Plate","Lao-Shan’s Shell","Lao-Shan’s Shell"]},
-				{"items":["Fatalis' Eye","Kirin Hide",""]},
-				{"items":["Firestone","Rathalos Wing",""]},
-				{"items":["Pale Lips","Pale Bone",""]},
-				{"items":["Mystery Bone","Stunshroom","Stunshroom"]},
-				{"items":["Garbage","Fire Herb","Fire Herb"]},
-				{"items":["Pawprint Stamp","Firefly",""]},
-				{"items":["BBQ Ticket","Egg Ticket",""]},
-				{"items":["Blos Jaw","Rathalos Webbing",""]}
+				{
+					"items":[
+						{"n":"Insect Husk","icon":"gray-icon bug-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cactus Flower","icon":"pink-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Felvine","icon":"yellow-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Fire Herb","icon":"red-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"n":"Sm Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"},
+						{"n":"Lg Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Crimson Horn","icon":"red-icon claw-icon"},
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lao-Shan Claw","icon":"red-icon claw-icon"},
+						{"n":"Lao Shan Spine","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"},
+						{"n":"Rathian Spike","icon":"green-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kut-Ku Shell","icon":"pink-icon creature-icon"},
+						{"n":"Plesioth Scale","icon":"green-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kut-Ku Ear","icon":"pink-icon creature-icon"},
+						{"n":"Plesioth Fin","icon":"green-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cephalos Fin","icon":"cyan-icon creature-icon"},
+						{"n":"Rathalos Webbing","icon":"red-icon honey-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Piscine Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Diablos Spine","icon":"yellow-icon creature-icon"},
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"},
+						{"n":"Diablos Spine","icon":"yellow-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Head","icon":"white-icon creature-icon"},
+						{"n":"Vespoid Abdomen","icon":"yellow-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Wing","icon":"white-icon creature-icon"},
+						{"n":"Vespoid Abdomen","icon":"yellow-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Monoblos Spine","icon":"red-icon creature-icon"},
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Plate","icon":"green-icon scale-icon"},
+						{"n":"Lao-Shan Scale","icon":"red-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Plate","icon":"red-icon scale-icon"},
+						{"n":"Lao-Shan Shell","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Fatalis' Eye","icon":"yellow-icon creature-icon"},
+						{"n":"Kirin Hide","icon":"white-icon hide-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Firestone","icon":"red-icon stone-icon"},
+						{"n":"Rathalos Wing","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pale Lips","icon":"white-icon creature-icon"},
+						{"n":"Pale Bone","icon":"white-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Fire Herb","icon":"red-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Firefly","icon":"yellow-icon bait-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"BBQ Ticket","icon":"orange-icon ticket-icon"},
+						{"n":"Egg Ticket","icon":"white-icon ticket-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Rathalos Webbing","icon":"red-icon honey-icon"}
+					]
+				}
 			],
 			"mhg":[
-				{"items":["Iron Ore","Sm Monster Bone","Mystery Bone"]},
-				{"items":["Earth Crystal","Med Monster Bone","Bone"]},
-				{"items":["Machalite Ore","Lg Monster Bone","Unknown Skull"]},
-				{"items":["Crimson Horn","Wyvern Marrow","Rathalos Tail"]},
-				{"items":["Majestic Horn","Wyvern Marrow","Rathalos Tail"]},
-				{"items":["Lightcrystal","Rathian Spike","Lg Monster Bone"]},
-				{"items":["Kut-Ku Shell","Plesioth Scale","Cephalos Scale"]},
-				{"items":["Kut-Ku Ear","Plesioth Fin","Piscine Fang"]},
-				{"items":["Cephalos Fin","Rathalos Webbing","Rathalos Scale"]},
-				{"items":["Blos Fang","Lg Monster Bone","Rathian Claw"]},
-				{"items":["Power Extract","Piscine Jaw","Med Monster Bone"]},
-				{"items":["Blos Jaw","Rathalos Webbing","Rathalos Tail"]},
-				{"items":["Diablos Spine","Gravios Carapace","Iodrome Hide"]},
-				{"items":["Gravios Carapace","Diablos Spine","Gendrome Hide"]},
-				{"items":["Gravios Head","Vespoid Abdomen","Mosswine Hide"]},
-				{"items":["Gravios Wing","Hornet Bladefin","Mosswine Head"]},
-				{"items":["Monoblos Spine","Diablos Tail","Twisted Horn"]},
-				{"items":["Rathian Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
-				{"items":["Rathalos Plate","Lao-Shan's Claw","Lao-Shan's Scale"]},
-				{"items":["Kirin Thunder Tail","Gravios Wing","Gravios Head"]},
-				{"items":["Firestone","Majestic Horn","Rathalos Wing"]},
-				{"items":["Pale Lips","Lg Lobstershell","Sm Lobstershell"]},
-				{"items":["Sm Monster Bone","Sm Bone Husk","Mystery Bone"]},
-				{"items":["Garbage","Firefly","Dung"]},
-				{"items":["Pawprint Stamp","Mega Pickaxe","Iron Pickaxe"]},
-				{"items":["Egg Ticket","Mega Pickaxe","Iron Pickaxe"]},
-				{"items":["Commendation","Monster Fluid","Vespoid Shell"]},
-				{"items":["Magazine Ticket","Mega Pickaxe","Iron Pickaxe"]},
-				{"items":["Dengeki Ticket","Iron Pickaxe","Old Pickaxe"]},
-				{"items":["Dengeki G Ticket","Mega Pickaxe","Iron Pickaxe"]},
-				{"items":["Strong Gravios Wing","Solid Blos Horn","Hrd Monster Bone"]},
-				{"items":["Firecell Stone","Pale Khezu Steak","Gravios Carapace"]},
-				{"items":["Gt Lobstershell","Rath Medulla","Rathalos Scale+"]},
-				{"items":["Azure Rathalos Scale+","Rathalos Scale+","Rathalos Carapace"]},
-				{"items":["Pale Khezu Steak","Rathian Scale+","Rathian Carapace"]},
-				{"items":["Splendid Beak","Monster Broth","Hornet Bladefin"]},
-				{"items":["Long Kut-Ku Ear","Joiner Grasshppr","King Scarab"]},
-				{"items":["Great Sword Ticket","Dragon Toadstool","Godbug"]},
-				{"items":["Hammer Ticket","Dragon Toadstool","Kelbi Horn"]},
-				{"items":["Lance Ticket","Dragon Toadstool","Kelbi Horn"]},
-				{"items":["Saber Ticket","Dragon Toadstool","Godbug"]},
-				{"items":["Gunner Ticket","Dragon Toadstool","Godbug"]},
-				{"items":["Rathian Spike","Monster Broth","Monster Fluid"]},
-				{"items":["Rathalos Tail","Monster Broth","Monster Fluid"]}
+				{
+					"items":[
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"n":"Sm Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Bone","icon":"white-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Lg Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Unknown Skull","icon":"white-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Crimson Horn","icon":"red-icon claw-icon"},
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Rathalos Tail","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Majestic Horn","icon":"yellow-icon claw-icon"},
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Rathalos Tail","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"},
+						{"n":"Rathian Spike","icon":"green-icon creature-icon"},
+						{"n":"Lg Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kut-Ku Shell","icon":"pink-icon creature-icon"},
+						{"n":"Plesioth Scale","icon":"green-icon scale-icon"},
+						{"n":"Cephalos Scale","icon":"cyan-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kut-Ku Ear","icon":"pink-icon creature-icon"},
+						{"n":"Plesioth Fin","icon":"green-icon creature-icon"},
+						{"n":"Piscine Fang","icon":"yellow-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cephalos Fin","icon":"cyan-icon creature-icon"},
+						{"n":"Rathalos Webbing","icon":"red-icon honey-icon"},
+						{"n":"Rathalos Scale","icon":"red-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Lg Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Rathian Claw","icon":"green-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Power Extract","icon":"blue-icon jar-icon"},
+						{"n":"Piscine Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Rathalos Webbing","icon":"red-icon honey-icon"},
+						{"n":"Rathalos Tail","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Diablos Spine","icon":"yellow-icon creature-icon"},
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"},
+						{"n":"Iodrome Hide","icon":"red-icon hide-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"},
+						{"n":"Diablos Spine","icon":"yellow-icon creature-icon"},
+						{"n":"Gendrome Hide","icon":"green-icon hide-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Head","icon":"white-icon creature-icon"},
+						{"n":"Vespoid Abdomen","icon":"yellow-icon bug-icon"},
+						{"n":"Mosswine Hide","icon":"pink-icon hide-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Wing","icon":"white-icon creature-icon"},
+						{"n":"Hornet Bladefin","icon":"gray-icon honey-icon"},
+						{"n":"Mosswine Head","icon":"pink-icon honey-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Monoblos Spine","icon":"red-icon creature-icon"},
+						{"n":"Diablos Tail","icon":"yellow-icon creature-icon"},
+						{"n":"Twisted Horn","icon":"yellow-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Plate","icon":"green-icon scale-icon"},
+						{"n":"Lao-Shan Claw","icon":"red-icon claw-icon"},
+						{"n":"Lao-Shan Scale","icon":"red-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Plate","icon":"red-icon scale-icon"},
+						{"n":"Lao-Shan Claw","icon":"red-icon claw-icon"},
+						{"n":"Lao-Shan Scale","icon":"red-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kirin Thunder Tail","icon":"white-icon creature-icon"},
+						{"n":"Gravios Wing","icon":"white-icon creature-icon"},
+						{"n":"Gravios Head","icon":"white-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Firestone","icon":"red-icon stone-icon"},
+						{"n":"Majestic Horn","icon":"yellow-icon claw-icon"},
+						{"n":"Rathalos Wing","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pale Lips","icon":"white-icon creature-icon"},
+						{"n":"Lg Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Sm Lobstershell","icon":"purple-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sm Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Firefly","icon":"yellow-icon bait-icon"},
+						{"n":"Dung","icon":"brown-icon dung-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Mega Pickaxe","icon":"yellow-icon pick-icon"},
+						{"n":"Iron Pickaxe","icon":"white-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Egg Ticket","icon":"white-icon ticket-icon"},
+						{"n":"Mega Pickaxe","icon":"yellow-icon pick-icon"},
+						{"n":"Iron Pickaxe","icon":"white-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Commendation","icon":"white-icon ticket-icon"},
+						{"n":"Monster Fluid","icon":"cyan-icon jar-icon"},
+						{"n":"Vespoid Shell","icon":"yellow-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Famitsu Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Mega Pickaxe","icon":"yellow-icon pick-icon"},
+						{"n":"Iron Pickaxe","icon":"white-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Iron Pickaxe","icon":"white-icon pick-icon"},
+						{"n":"Old Pickaxe","icon":"gray-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki G Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Mega Pickaxe","icon":"yellow-icon pick-icon"},
+						{"n":"Iron Pickaxe","icon":"white-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Strong Gravios Wing","icon":"white-icon creature-icon"},
+						{"n":"Solid Blos Horn","icon":"yellow-icon claw-icon"},
+						{"n":"Monster Bone+","icon":"yellow-icon bone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Firecell Stone","icon":"orange-icon stone-icon"},
+						{"n":"Pale Khezu Steak","icon":"white-icon creature-icon"},
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gt Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Rath Medulla","icon":"red-icon creature-icon"},
+						{"n":"Rathalos Scale+","icon":"red-icon scale-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Azure Rathalos Scale+","icon":"blue-icon scale-icon"},
+						{"n":"Rathalos Scale+","icon":"red-icon scale-icon"},
+						{"n":"Rathalos Carapace","icon":"red-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pale Khezu Steak","icon":"white-icon creature-icon"},
+						{"n":"Rathian Scale+","icon":"green-icon scale-icon"},
+						{"n":"Rathian Carapace","icon":"green-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Splendid Beak","icon":"pink-icon bone-icon"},
+						{"n":"Monster Broth","icon":"cyan-icon jar-icon"},
+						{"n":"Hornet Bladefin","icon":"gray-icon honey-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Long Kut-Ku Ear","icon":"pink-icon creature-icon"},
+						{"n":"Joiner Grasshppr","icon":"pink-icon bug-icon"},
+						{"n":"King Scarab","icon":"red-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Great Sword Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Godbug","icon":"white-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hammer Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Kelbi Horn","icon":"blue-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lance Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Kelbi Horn","icon":"blue-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"SnS Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Godbug","icon":"white-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gunner Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Godbug","icon":"white-icon bug-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Spike","icon":"green-icon creature-icon"},
+						{"n":"Monster Broth","icon":"cyan-icon jar-icon"},
+						{"n":"Monster Fluid","icon":"cyan-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Tail","icon":"red-icon creature-icon"},
+						{"n":"Monster Broth","icon":"cyan-icon jar-icon"},
+						{"n":"Monster Fluid","icon":"cyan-icon jar-icon"}
+					]
+				}
 			]
 		},
 		{
 			"name":"Jungle","color":"cyan",
 			"mh1":[
-				{"items":["Insect Husk","Special Mushroom","Special Mushroom"]},
-				{"items":["Cactus Flower","Special Mushroom","Special Mushroom"]},
-				{"items":["Sushifish","Special Mushroom","Special Mushroom"]},
-				{"items":["Fire Herb","Special Mushroom","Special Mushroom"]},
-				{"items":["Rathalos Claw","Demondrug","Demondrug"]},
-				{"items":["Rathian Claw","Armorskin","Armorskin"]},
-				{"items":["Rathalos Scale","Catalyst","Catalyst"]},
-				{"items":["Rathian Scale","Catalyst","Catalyst"]},
-				{"items":["Rathalos Shell","Dragon Toadstool","Dragon Toadstool"]},
-				{"items":["Rathian Shell","Dragon Toadstool","Dragon Toadstool"]},
-				{"items":["Piscine Fang","Power Extract","Power Extract"]},
-				{"items":["Blos Fang","Power Extract","Power Extract"]},
-				{"items":["Blos Jaw","Pale Extract","Pale Extract"]},
-				{"items":["Mosswine Head","Max Potion",""]},
-				{"items":["Mosswine Hide","Max Potion",""]},
-				{"items":["Bullfango Head","Max Potion",""]},
-				{"items":["Flame Sac","Demondrug","Demondrug"]},
-				{"items":["Electro Sac","Immunizer","Immunizer"]},
-				{"items":["Poison Sac","Lifecrystals","Lifecrystals"]},
-				{"items":["Stun Sac","Catalyst","Catalyst"]},
-				{"items":["Sleep Sac","Armorskin","Armorskin"]},
-				{"items":["Wyvern Marrow","Ancient Potion","Ancient Potion"]},
-				{"items":["Small Lobstershell","Mega Armorskin","Mega Armorskin"]},
-				{"items":["Large Lobstershell","Mega Demondrug",""]},
-				{"items":["Mystery Bone","Toadstool","Toadstool"]},
-				{"items":["Garbage","Screamer","Screamer"]},
-				{"items":["Cephalos Fin","Twisted Horn","Twisted Horn"]},
-				{"items":["Plesioth Fin","Twisted Horn","Twisted Horn"]},
-				{"items":["Pawprint Stamp","Mega Bugnet",""]},
-				{"items":["BBQ Ticket","Commendation",""]},
-				{"items":["Piscine Jaw","Pale Extract",""]}
+				{
+					"items":[
+						{"n":"Insect Husk","icon":"gray-icon bug-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cactus Flower","icon":"pink-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sushifish","icon":"orange-icon fish-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Fire Herb","icon":"red-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Claw","icon":"red-icon claw-icon"},
+						{"n":"Demondrug","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Claw","icon":"green-icon claw-icon"},
+						{"n":"Armorskin","icon":"orange-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Scale","icon":"red-icon scale-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Scale","icon":"green-icon scale-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Shell","icon":"red-icon creature-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Shell","icon":"green-icon creature-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Piscine Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Power Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Power Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Pale Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mosswine Head","icon":"pink-icon honey-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mosswine Hide","icon":"pink-icon hide-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Bullfango Head","icon":"orange-icon creature-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Flame Sac","icon":"red-icon powder-icon"},
+						{"n":"Demondrug","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Electro Sac","icon":"yellow-icon powder-icon"},
+						{"n":"Immunizer","icon":"yellow-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Poison Sac","icon":"purple-icon powder-icon"},
+						{"n":"Lifecrystals","icon":"white-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Stun Sac","icon":"yellow-icon powder-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sleep Sac","icon":"cyan-icon powder-icon"},
+						{"n":"Armorskin","icon":"orange-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Ancient Potion","icon":"red-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sm Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Mega Armorskin","icon":"orange-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lg Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Mega Demondrug","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Toadstool","icon":"purple-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Screamer","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cephalos Fin","icon":"cyan-icon creature-icon"},
+						{"n":"Twisted Horn","icon":"yellow-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Plesioth Fin","icon":"green-icon creature-icon"},
+						{"n":"Twisted Horn","icon":"yellow-icon claw-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Mega Bugnet","icon":"yellow-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"BBQ Ticket","icon":"orange-icon ticket-icon"},
+						{"n":"Commendation","icon":"white-icon ticket-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Piscine Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Pale Extract","icon":"blue-icon jar-icon"}
+					]
+				}
 			],
 			"mhg":[
-				{"items":["Rathalos Claw","Demondrug","Power Seed"]},
-				{"items":["Rathian Claw","Armorskin","Armor Seed"]},
-				{"items":["Rathalos Scale","Catalyst","Herbal Medicine"]},
-				{"items":["Rathian Scale","Catalyst","Herbal Medicine"]},
-				{"items":["Rathalos Shell","Dragon Toadstool","Dragon Seed"]},
-				{"items":["Rathian Shell","Dragon Toadstool","Dragon Seed"]},
-				{"items":["Piscine Fang","Power Juice","Power Extract"]},
-				{"items":["Blos Fang","Mega Juice","Power Juice"]},
-				{"items":["Blos Jaw","Pale Extract","Mega Juice"]},
-				{"items":["Mosswine Head","Ancient Potion","Max Potion"]},
-				{"items":["Mosswine Hide","Max Potion","Lifepowder"]},
-				{"items":["Bullfango Head","Ancient Potion","Max Potion"]},
-				{"items":["Flame Sac","Demondrug","Power Seed"]},
-				{"items":["Electro Sac","Immunizer","Catalyst"]},
-				{"items":["Poison Sac","Lifecrystals","Antiseptic Stone"]},
-				{"items":["Stun Sac","Nutrients","Catalyst"]},
-				{"items":["Sleep Sac","Armorskin","Armor Seed"]},
-				{"items":["Wyvern Marrow","Power Pill","Armor Pill"]},
-				{"items":["Sm Lobstershell","Armor Pill","Mega Armorskin"]},
-				{"items":["Lg Lobstershell","Power Pill","Mega Demondrug"]},
-				{"items":["Mystery Bone","Blue Mushroom","Burnt Meat"]},
-				{"items":["Garbage","Scatternut","Needleberry"]},
-				{"items":["Cephalos Fin","Power Juice","Power Extract"]},
-				{"items":["Plesioth Fin","Power Juice","Power Extract"]},
-				{"items":["Pawprint Stamp","Mega Bugnet","Bugnet"]},
-				{"items":["Egg Ticket","Mega Bugnet","Bugnet"]},
-				{"items":["Commendation","Mega Nutrients","Nutrients"]},
-				{"items":["Magazine Ticket","Bugnet","Old Bugnet"]},
-				{"items":["Dengeki Ticket","Mega Bugnet","Bugnet"]},
-				{"items":["Dengeki G Ticket","Mega Bugnet","Bugnet"]},
-				{"items":["Ioprey Hide","Honey","Hot Pepper"]},
-				{"items":["Genprey Hide","Honey","Hot Pepper"]},
-				{"items":["Velociprey Hide","Honey","Hot Pepper"]},
-				{"items":["Iron Ore","Potion","Rare Steak"]},
-				{"items":["BBQ Ticket","Well-Done Steak","Rare Steak"]},
-				{"items":["Thunderbug","Mega Potion","Antidote"]},
-				{"items":["Great Sword Ticket","Catalyst","Hot Drink"]},
-				{"items":["Hammer Ticket","Catalyst","Hot Drink"]},
-				{"items":["Lance Ticket","Catalyst","Cool Drink"]},
-				{"items":["Saber Ticket","Catalyst","Cool Drink"]},
-				{"items":["Gunner Ticket","Catalyst","Hot Drink"]}
+				{
+					"items":[
+						{"n":"Rathalos Claw","icon":"red-icon claw-icon"},
+						{"n":"Demondrug","icon":"red-icon jar-icon"},
+						{"n":"Power Seed","icon":"red-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Claw","icon":"green-icon claw-icon"},
+						{"n":"Armorskin","icon":"orange-icon jar-icon"},
+						{"n":"Armor Seed","icon":"orange-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Scale","icon":"red-icon scale-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Herbal Medicine","icon":"white-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Scale","icon":"green-icon scale-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Herbal Medicine","icon":"white-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Shell","icon":"red-icon creature-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Dragon Seed","icon":"red-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Shell","icon":"green-icon creature-icon"},
+						{"n":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"n":"Dragon Seed","icon":"red-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Piscine Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Power Juice","icon":"yellow-icon jar-icon"},
+						{"n":"Power Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Fang","icon":"yellow-icon claw-icon"},
+						{"n":"Mega Juice","icon":"yellow-icon jar-icon"},
+						{"n":"Power Juice","icon":"yellow-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blos Jaw","icon":"yellow-icon claw-icon"},
+						{"n":"Pale Extract","icon":"blue-icon jar-icon"},
+						{"n":"Mega Juice","icon":"yellow-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mosswine Head","icon":"pink-icon honey-icon"},
+						{"n":"Ancient Potion","icon":"red-icon powder-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mosswine Hide","icon":"pink-icon hide-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"},
+						{"n":"Lifepowder","icon":"white-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Bullfango Head","icon":"orange-icon creature-icon"},
+						{"n":"Ancient Potion","icon":"red-icon powder-icon"},
+						{"n":"Max Potion","icon":"yellow-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Flame Sac","icon":"red-icon powder-icon"},
+						{"n":"Demondrug","icon":"red-icon jar-icon"},
+						{"n":"Power Seed","icon":"red-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Electro Sac","icon":"yellow-icon powder-icon"},
+						{"n":"Immunizer","icon":"yellow-icon jar-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Poison Sac","icon":"purple-icon powder-icon"},
+						{"n":"Lifecrystals","icon":"white-icon powder-icon"},
+						{"n":"Antiseptic Stone","icon":"yellow-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Stun Sac","icon":"yellow-icon powder-icon"},
+						{"n":"Nutrients","icon":"cyan-icon jar-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sleep Sac","icon":"cyan-icon powder-icon"},
+						{"n":"Armorskin","icon":"orange-icon jar-icon"},
+						{"n":"Armor Seed","icon":"orange-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Power Pill","icon":"red-icon powder-icon"},
+						{"n":"Armor Pill","icon":"orange-icon powder-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sm Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Armor Pill","icon":"orange-icon powder-icon"},
+						{"n":"Mega Armorskin","icon":"orange-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lg Lobstershell","icon":"purple-icon creature-icon"},
+						{"n":"Power Pill","icon":"red-icon powder-icon"},
+						{"n":"Mega Demondrug","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"n":"Burnt Meat","icon":"gray-icon meat-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Scatternut","icon":"gray-icon seed-icon"},
+						{"n":"Needleberry","icon":"gray-icon seed-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cephalos Fin","icon":"cyan-icon creature-icon"},
+						{"n":"Power Juice","icon":"yellow-icon jar-icon"},
+						{"n":"Power Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Plesioth Fin","icon":"green-icon creature-icon"},
+						{"n":"Power Juice","icon":"yellow-icon jar-icon"},
+						{"n":"Power Extract","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Mega Bugnet","icon":"yellow-icon bugnet-icon"},
+						{"n":"Bugnet","icon":"white-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Egg Ticket","icon":"white-icon ticket-icon"},
+						{"n":"Mega Bugnet","icon":"yellow-icon bugnet-icon"},
+						{"n":"Bugnet","icon":"white-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Commendation","icon":"white-icon ticket-icon"},
+						{"n":"Mega Nutrients","icon":"cyan-icon jar-icon"},
+						{"n":"Nutrients","icon":"cyan-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Famitsu Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Bugnet","icon":"white-icon bugnet-icon"},
+						{"n":"Old Bugnet","icon":"gray-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Mega Bugnet","icon":"yellow-icon bugnet-icon"},
+						{"n":"Bugnet","icon":"white-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki G Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Mega Bugnet","icon":"yellow-icon bugnet-icon"},
+						{"n":"Bugnet","icon":"white-icon bugnet-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Ioprey Hide","icon":"red-icon hide-icon"},
+						{"n":"Honey","icon":"orange-icon honey-icon"},
+						{"n":"Hot Pepper","icon":"red-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Genprey Hide","icon":"green-icon hide-icon"},
+						{"n":"Honey","icon":"orange-icon honey-icon"},
+						{"n":"Hot Pepper","icon":"red-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Velociprey Hide","icon":"blue-icon hide-icon"},
+						{"n":"Honey","icon":"orange-icon honey-icon"},
+						{"n":"Hot Pepper","icon":"red-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"n":"Potion","icon":"green-icon jar-icon"},
+						{"n":"Rare Steak","icon":"orange-icon meat-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"BBQ Ticket","icon":"orange-icon ticket-icon"},
+						{"n":"Well-Done Steak","icon":"orange-icon meat-icon"},
+						{"n":"Rare Steak","icon":"orange-icon meat-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Thunderbug","icon":"yellow-icon bug-icon"},
+						{"n":"Mega Potion","icon":"green-icon jar-icon"},
+						{"n":"Antidote","icon":"blue-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Great Sword Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Hot Drink","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hammer Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Hot Drink","icon":"red-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lance Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Cool Drink","icon":"white-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"SnS Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Cool Drink","icon":"white-icon jar-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gunner Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Catalyst","icon":"gray-icon powder-icon"},
+						{"n":"Hot Drink","icon":"red-icon jar-icon"}
+					]
+				}
 			]
 		},
 		{
 			"name":"Swamp","color":"purple",
 			"mh1":[
-				{"items":["Insect Husk","Special Mushroom","Special Mushroom"]},
-				{"items":["Ivy","Special Mushroom","Special Mushroom"]},
-				{"items":["Blue Mushroom","Special Mushroom","Special Mushroom"]},
-				{"items":["Honey","Special Mushroom","Special Mushroom"]},
-				{"items":["Small Monster Bone","Iron Ore","Iron Ore"]},
-				{"items":["Medium Monster Bone","Machalite Ore","Machalite Ore"]},
-				{"items":["Basarios Shell","Machalite Ore","Machalite Ore"]},
-				{"items":["Gravios Carapace","Dragonite Ore",""]},
-				{"items":["Rathalos Wing","Lightcrystal","Lightcrystal"]},
-				{"items":["Rathalos Claw","Machalite Ore","Machalite Ore"]},
-				{"items":["Rathian Claw","Machalite Ore","Machalite Ore"]},
-				{"items":["Pale Bone","Union Ore",""]},
-				{"items":["Gravios Head","Firestone",""]},
-				{"items":["Gravios Wing","Large Lobstershell",""]},
-				{"items":["Basarios Wing","Small Lobstershell",""]},
-				{"items":["Lao-Shan’s Spine","Firestone",""]},
-				{"items":["Kirin Mane","Lightcrystal",""]},
-				{"items":["Rathalos Tail","Machalite Ore","Machalite Ore"]},
-				{"items":["Wyvern Marrow","Lightcrystal","Lightcrystal"]},
-				{"items":["Hornet Bladefin","Union Ore",""]},
-				{"items":["Diablos Spine","Dragonite Ore",""]},
-				{"items":["Kut-Ku Ear","Machalite Ore","Machalite Ore"]},
-				{"items":["Giant Beak","Lightcrystal","Lightcrystal"]},
-				{"items":["Rathian Spike","Machalite Ore","Machalite Ore"]},
-				{"items":["Mystery Bone","Sleep Herb","Sleep Herb"]},
-				{"items":["Garbage","Sap Plant","Sap Plant"]},
-				{"items":["Pawprint Stamp","Mega Pickaxe",""]},
-				{"items":["Kirin Horn","Novacrystal",""]},
-				{"items":["Kirin Hide","Lightcrystal",""]},
-				{"items":["BBQ Ticket","Jewel Ticket",""]}
+				{
+					"items":[
+						{"n":"Insect Husk","icon":"gray-icon bug-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Ivy","icon":"green-icon herb-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Honey","icon":"orange-icon honey-icon"},
+						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Sm Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Basarios Shell","icon":"gray-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Wing","icon":"red-icon creature-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Claw","icon":"red-icon claw-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Claw","icon":"green-icon claw-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pale Bone","icon":"white-icon creature-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Head","icon":"white-icon creature-icon"},
+						{"n":"Firestone","icon":"red-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Wing","icon":"white-icon creature-icon"},
+						{"n":"Lg Lobstershell","icon":"purple-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Basarios Wing","icon":"gray-icon creature-icon"},
+						{"n":"Sm Lobstershell","icon":"purple-icon creature-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lao-Shan Spine","icon":"red-icon creature-icon"},
+						{"n":"Firestone","icon":"red-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kirin Mane","icon":"white-icon creature-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Tail","icon":"red-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hornet Bladefin","icon":"gray-icon honey-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Diablos Spine","icon":"yellow-icon creature-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kut-Ku Ear","icon":"pink-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Giant Beak","icon":"pink-icon bone-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Spike","icon":"green-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Sleep Herb","icon":"cyan-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Sap Plant","icon":"white-icon herb-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Mega Pickaxe","icon":"yellow-icon pick-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kirin Horn","icon":"white-icon claw-icon"},
+						{"n":"Novacrystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Kirin Hide","icon":"white-icon hide-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"BBQ Ticket","icon":"orange-icon ticket-icon"},
+						{"n":"Jewel Ticket","icon":"white-icon ticket-icon"}
+					]
+				}
 			],
 			"mhg":[
-				{"items":["Sm Monster Bone","Iron Ore","Disk Stone"]},
-				{"items":["Med Monster Bone","Earth Crystal","Iron Ore"]},
-				{"items":["Basarios Shell","Machalite Ore","Earth Crystal"]},
-				{"items":["Gravios Carapace","Dragonite Ore","Lightcrystal"]},
-				{"items":["Rathalos Claw","Machalite Ore","Earth Crystal"]},
-				{"items":["Rathian Claw","Machalite Ore","Earth Crystal"]},
-				{"items":["Pale Bone","Union Ore","Dragonite Ore"]},
-				{"items":["Gravios Head","Firestone","Union Ore"]},
-				{"items":["Basarios Wing","Machalite Ore","Earth Crystal"]},
-				{"items":["Lao-Shan Thoracic","Firestone","Dragonite Ore"]},
-				{"items":["Long Kut-Ku Ear","Union Ore","Dragonite Ore"]},
-				{"items":["Rathian Shell","Machalite Ore","Earth Crystal"]},
-				{"items":["Flame Sac","Machalite Ore","Earth Crystal"]},
-				{"items":["Hornet Bladefin","Firestone","Union Ore"]},
-				{"items":["Giant Beak","Lightcrystal","Machalite Ore"]},
-				{"items":["Cephalos Fin","Earth Crystal","Iron Ore"]},
-				{"items":["Rubbery Hide","Earth Crystal","Iron Ore"]},
-				{"items":["Monoblos Spine","Machalite Ore","Earth Crystal"]},
-				{"items":["Vespoid Abdomen","Novacrystal","Lightcrystal"]},
-				{"items":["Garbage","Disk Stone","Stone"]},
-				{"items":["Pawprint Stamp","Earth Crystal","Iron Ore"]},
-				{"items":["Egg Ticket","Machalite Ore","Earth Crystal"]},
-				{"items":["Commendation","Lightcrystal","Machalite Ore"]},
-				{"items":["Magazine Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Dengeki Ticket","Iron Ore","Disk Stone"]},
-				{"items":["Dengeki G Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Crimson Horn","Ruststone(小)","Machalite Ore"]},
-				{"items":["Majestic Horn","Ruststone(ハ)","Machalite Ore"]},
-				{"items":["Wyvern Marrow","Ruststone(ラ)","Lightcrystal"]},
-				{"items":["Rathalos Wing","Ruststone(大)","Lightcrystal"]},
-				{"items":["Vespoid Bladefin","Ruststone(ハ)","Lightcrystal"]},
-				{"items":["Hornet Razorwing","Carbalite Ore","Dragonite Ore"]},
-				{"items":["Rath Medulla","Firecell Stone","Carbalite Ore"]},
-				{"items":["Rathalos Ruby","Purecrystal","Firecell Stone"]},
-				{"items":["Great Sword Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Hammer Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Lance Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Saber Ticket","Earth Crystal","Iron Ore"]},
-				{"items":["Gunner Ticket","Earth Crystal","Iron Ore"]}
+				{
+					"items":[
+						{"n":"Sm Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"n":"Disk Stone","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Med Monster Bone","icon":"yellow-icon bone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Basarios Shell","icon":"gray-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Carapace","icon":"white-icon creature-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Claw","icon":"red-icon claw-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Claw","icon":"green-icon claw-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pale Bone","icon":"white-icon creature-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gravios Head","icon":"white-icon creature-icon"},
+						{"n":"Firestone","icon":"red-icon stone-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Basarios Wing","icon":"gray-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lao-Shan Thoracic","icon":"red-icon creature-icon"},
+						{"n":"Firestone","icon":"red-icon stone-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Long Kut-Ku Ear","icon":"pink-icon creature-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathian Shell","icon":"green-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Flame Sac","icon":"red-icon powder-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hornet Bladefin","icon":"gray-icon honey-icon"},
+						{"n":"Firestone","icon":"red-icon stone-icon"},
+						{"n":"Union Ore","icon":"pink-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Giant Beak","icon":"pink-icon bone-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Cephalos Fin","icon":"cyan-icon creature-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rubbery Hide","icon":"blue-icon creature-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Monoblos Spine","icon":"red-icon creature-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Vespoid Abdomen","icon":"yellow-icon bug-icon"},
+						{"n":"Novacrystal","icon":"white-icon stone-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Garbage","icon":"gray-icon mystery-icon"},
+						{"n":"Disk Stone","icon":"gray-icon stone-icon"},
+						{"n":"Stone","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Pawprint Stamp","icon":"orange-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Egg Ticket","icon":"white-icon ticket-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Commendation","icon":"white-icon ticket-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Famitsu Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"n":"Disk Stone","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Dengeki G Ticket","icon":"yellow-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Crimson Horn","icon":"red-icon claw-icon"},
+						{"n":"Ruststone (SnS)","icon":"gray-icon mystery-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Majestic Horn","icon":"yellow-icon claw-icon"},
+						{"n":"Ruststone (Hammer)","icon":"gray-icon mystery-icon"},
+						{"n":"Machalite Ore","icon":"blue-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Wyvern Marrow","icon":"red-icon creature-icon"},
+						{"n":"Ruststone (Lance)","icon":"gray-icon mystery-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Wing","icon":"red-icon creature-icon"},
+						{"n":"Ruststone (GS)","icon":"gray-icon mystery-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Vespoid Bladefin","icon":"yellow-icon honey-icon"},
+						{"n":"Ruststone (Hammer)","icon":"gray-icon mystery-icon"},
+						{"n":"Lightcrystal","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hornet Razorwing","icon":"gray-icon honey-icon"},
+						{"n":"Carbalite Ore","icon":"purple-icon stone-icon"},
+						{"n":"Dragonite Ore","icon":"green-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rath Medulla","icon":"red-icon creature-icon"},
+						{"n":"Firecell Stone","icon":"orange-icon stone-icon"},
+						{"n":"Carbalite Ore","icon":"purple-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Rathalos Ruby","icon":"red-icon bomb-icon"},
+						{"n":"Purecrystal","icon":"cyan-icon stone-icon"},
+						{"n":"Firecell Stone","icon":"orange-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Great Sword Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Hammer Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Lance Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"SnS Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				},
+				{
+					"items":[
+						{"n":"Gunner Ticket","icon":"green-icon ticket-icon"},
+						{"n":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"n":"Iron Ore","icon":"gray-icon stone-icon"}
+					]
+				}
 			]
 		}
 	]
