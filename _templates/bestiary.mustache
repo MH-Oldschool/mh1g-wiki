@@ -195,6 +195,12 @@
 								{{/hp1}}
 							</tr>
 							<tr>
+								<th>Attack</th>
+								{{#atk1}}
+									<td>{{^.}}n/a{{/.}}{{.}}</td>
+								{{/atk1}}
+							</tr>
+							<tr>
 								<th>Defense</th>
 								{{#def1}}
 									<td>{{^.}}n/a{{/.}}{{.}}</td>
@@ -279,16 +285,16 @@
 
 							<tbody class="mh1">
 								{{#status1}}
-									<tr>
+									<tr class="ta-r">
 										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
 										{{#immune}}
 											<td colspan=4 class="ta-c">Immune</td>
 										{{/immune}}
 										{{^immune}}
 											<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
-											<td class="ta-r">{{duration}}s</td>
-											<td class="ta-r">{{recovery}}</td>
-											<td class="ta-r">{{^damage}}n/a{{/damage}}{{damage}}</td>
+											<td>{{duration}}s</td>
+											<td>{{recovery}}</td>
+											<td>{{^damage}}n/a{{/damage}}{{damage}}</td>
 										{{/immune}}
 									</tr>
 								{{/status1}}
@@ -296,16 +302,16 @@
 
 							<tbody class="mhg">
 								{{#statusG}}
-									<tr>
+									<tr class="ta-r">
 										<td><img class="status-icon" src="images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
 										{{#immune}}
 											<td colspan=4 class="ta-c">Immune</td>
 										{{/immune}}
 										{{^immune}}
 											<td>{{#tolerance}}<span class="comma-separated">{{.}}</span>{{/tolerance}}</td>
-											<td class="ta-r">{{duration}}s</td>
-											<td class="ta-r">{{recovery}}</td>
-											<td class="ta-r">{{^damage}}n/a{{/damage}}{{damage}}</td>
+											<td>{{duration}}s</td>
+											<td>{{recovery}}</td>
+											<td>{{^damage}}n/a{{/damage}}{{damage}}</td>
 										{{/immune}}
 									</tr>
 								{{/statusG}}

@@ -22,6 +22,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[48,48,48],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
@@ -36,9 +37,9 @@
 				{"name":"Body","zones":[150,150,120,100,100,100,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":60,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":30,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -103,6 +104,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[160,"200 (300)","259 (389)"],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
 				{"h":"100 (150)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.00,"d":1.00},{"h":"160 (240)","a":1.01,"d":1.00},{"h":"160 (240)","a":1.02,"d":1.00},
@@ -117,9 +119,9 @@
 				{"name":"Body","zones":[100,100,160,50,50,100,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[150],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":90,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[150],"duration":20,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":30,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -175,6 +177,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[48,48,48],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":30,"a":1.00,"d":1.00},{"h":48,"a":1.00,"d":1.00},{"h":48,"a":1.01,"d":1.00},{"h":48,"a":1.02,"d":1.00},
@@ -189,9 +192,9 @@
 				{"name":"Body","zones":[140,140,150,100,100,100,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":90,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":30,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -250,6 +253,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":["64 (88)","64 (88)","64 (88)"],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":"40 (55)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.00,"d":1.00},{"h":"64 (88)","a":1.01,"d":1.00},{"h":"64 (88)","a":1.02,"d":1.00},
@@ -264,9 +268,9 @@
 				{"name":"Body","zones":[110,110,110,50,50,50,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":90,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -321,6 +325,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[160,200,259],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
@@ -337,9 +342,9 @@
 				{"name":"Neck (body?)","zones":[70,100,70,40,100,40,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":10,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -387,6 +392,7 @@
 			"icon": "felyne",
 			"image": "felyne",
 			"hp1":[32,32,32],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"stars1":{
 				"weapons":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"],
@@ -411,9 +417,9 @@
 				{"name":"Body","zones":[120,120,120,100,100,100,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":60,"recovery":"10/5s","damage":"20/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":5,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -441,6 +447,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[40,32,32],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":25,"a":1.00,"d":1.00},{"h":40,"a":1.00,"d":1.00},{"h":40,"a":1.01,"d":1.00},{"h":40,"a":1.02,"d":1.00},
@@ -455,9 +462,9 @@
 				{"name":"Body","zones":[100,100,100,50,50,50,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[30],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[30],"duration":60,"recovery":"10/5s","damage":"5/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[30],"duration":5,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[30],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -486,6 +493,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[32,"32 (64)","32 (64)"],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":"20 (40)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.00,"d":1.00},{"h":"32 (64)","a":1.01,"d":1.00},{"h":"32 (64)","a":1.02,"d":1.00},
@@ -500,9 +508,9 @@
 				{"name":"Body","zones":[120,130,110,100,50,10,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[10],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[10],"duration":60,"recovery":"5/10s","damage":"40/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":5,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":40,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -565,6 +573,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[40,"40 (80)","40 (80)"],
+			"atk1":[1.0,1.0,1.0],
 			"def1":[1.0,1.0,1.0],
 			"hpG":[
 				{"h":"25 (50)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.00,"d":1.00},{"h":"40 (80)","a":1.01,"d":1.00},{"h":"40 (80)","a":1.02,"d":1.00},
@@ -579,9 +588,9 @@
 				{"name":"Body","zones":[100,120,100,100,20,60,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[10],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[10],"duration":60,"recovery":"10/5s","damage":"5/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":15,"recovery":"5/10s"},
+				{"name":"sleep","title":"Sleep","tolerance":[200],"duration":15,"recovery":"5/10s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -645,6 +654,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[60,70,90],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
 				{"h":35,"a":1.00,"d":1.00},{"h":56,"a":1.00,"d":1.00},{"h":56,"a":1.01,"d":1.00},{"h":56,"a":1.02,"d":1.00},
@@ -659,9 +669,9 @@
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":90,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":15,"recovery":"5/15s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -757,6 +767,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[500,1000,1500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":300,"a":1.00,"d":1.00},{"h":400,"a":1.00,"d":1.00},{"h":500,"a":1.01,"d":1.00},{"h":600,"a":1.03,"d":1.00},
@@ -771,9 +782,9 @@
 				{"name":"Body","zones":[120,120,120,50,50,50,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[80,95,110,125],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":60,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80,95,110,125],"duration":10,"recovery":"5/20s"},
+				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":15,"recovery":"5/20s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -835,6 +846,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[80,100,129],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
 				{"h":50,"a":1.00,"d":1.00},{"h":80,"a":1.00,"d":1.00},{"h":80,"a":1.01,"d":1.00},{"h":80,"a":1.02,"d":1.00},
@@ -849,9 +861,9 @@
 				{"name":"Body","zones":[100,100,100,30,60,20,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[50],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[50],"duration":90,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[100],"duration":5,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":15,"recovery":"5/15s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -910,6 +922,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[750,1500,2250],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":450,"a":1.00,"d":1.00},{"h":600,"a":1.00,"d":1.00},{"h":750,"a":1.01,"d":1.00},{"h":900,"a":1.03,"d":1.00},
@@ -924,9 +937,9 @@
 				{"name":"Body","zones":[90,90,90,40,40,40,10]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[200,225,250,275],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[100,125,150,175],"duration":60,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[200,225,250,275],"duration":5,"recovery":"5/20s"},
+				{"name":"sleep","title":"Sleep","tolerance":[70,85,100,115,130],"duration":30,"recovery":"5/20s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -985,6 +998,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[120,150,194],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
 				{"h":75,"a":1.00,"d":1.00},{"h":120,"a":1.00,"d":1.00},{"h":120,"a":1.01,"d":1.00},{"h":120,"a":1.02,"d":1.00},
@@ -999,9 +1013,9 @@
 				{"name":"Body","zones":[90,90,90,20,30,50,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[100],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[100],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[50],"duration":15,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[50],"duration":15,"recovery":"5/15s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -1059,6 +1073,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[1000,2000,3000],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":1000,"a":1.01,"d":1.00},{"h":1200,"a":1.03,"d":1.00},
@@ -1134,6 +1149,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[2000,4000,6000],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":1200,"a":1.00,"d":1.00},{"h":1600,"a":1.00,"d":1.00},{"h":2000,"a":1.01,"d":1.00},{"h":2400,"a":1.03,"d":1.00},
@@ -1409,6 +1425,7 @@
 				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[2500,5000,7500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":1500,"a":1.00,"d":1.00},{"h":2000,"a":1.00,"d":1.00},{"h":2500,"a":1.01,"d":1.00},{"h":3000,"a":1.03,"d":1.00},
@@ -1677,6 +1694,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[1000,2000,3000],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":1000,"a":1.01,"d":1.00},{"h":1200,"a":1.03,"d":1.00},
@@ -1818,6 +1836,7 @@
 				"statuses":["&starf; &starf; &star;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[1500,3000,4500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":900,"a":1.00,"d":1.00},{"h":1200,"a":1.00,"d":1.00},{"h":1500,"a":1.01,"d":1.00},{"h":1800,"a":1.03,"d":1.00},
@@ -1960,6 +1979,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
 			},
 			"hp1":[2000,4000,6000],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":1200,"a":1.00,"d":1.00},{"h":1600,"a":1.00,"d":1.00},{"h":2000,"a":1.01,"d":1.00},{"h":2400,"a":1.03,"d":1.00},
@@ -2099,7 +2119,8 @@
 				"elements":["&starf; &starf; &star;","&star; &star; &star;","&starf; &starf; &star;","&starf; &star; &star;"],
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
-			"hp1":["",5000,7500],
+			"hp1":[2500,5000,7500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":1500,"a":1.00,"d":1.00},{"h":2000,"a":1.00,"d":1.00},{"h":2500,"a":1.01,"d":1.00},{"h":3000,"a":1.03,"d":1.00},
@@ -2236,6 +2257,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[240,300,389],
+			"atk1":[1.0,1.05,1.5],
 			"def1":[1.0,1.0,0.9],
 			"hpG":[
 				{"h":150,"a":1.00,"d":1.00},{"h":240,"a":1.00,"d":1.00},{"h":240,"a":1.01,"d":1.00},{"h":240,"a":1.02,"d":1.00},
@@ -2262,9 +2284,9 @@
 				{"name":"Foot","zones":[50,45,50,30,25,10,0]}
 			],
 			"status1":[
-				{"name":"poison","title":"Poison","tolerance":[200],"duration":"??","recovery":"??","damage":"??"},
-				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":"??","recovery":"??"},
-				{"name":"sleep","title":"Sleep","tolerance":[100],"duration":"??","recovery":"??"}
+				{"name":"poison","title":"Poison","tolerance":[200],"duration":30,"recovery":"10/5s","damage":"10/5s"},
+				{"name":"paralysis","title":"Paralysis","tolerance":[80],"duration":10,"recovery":"5/15s"},
+				{"name":"sleep","title":"Sleep","tolerance":[100],"duration":40,"recovery":"5/20s"}
 			],
 			"statusG":[
 				{"name":"poison","title":"Poison","tolerance":["??"],"duration":"??","recovery":"??","damage":"??"},
@@ -2330,6 +2352,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[2000,4000,6000],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":600,"a":1.00,"d":1.00},{"h":800,"a":1.00,"d":1.00},{"h":1000,"a":1.01,"d":1.00},{"h":1200,"a":1.03,"d":1.00},
@@ -2424,6 +2447,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &starf;","&starf; &starf; &starf;"]
 			},
 			"hp1":[3000,"",""],
+			"atk1":[1.0,"",""],
 			"def1":[1.0,"",""],
 			"unusedHPG":true,
 			"hpG":[
@@ -2562,6 +2586,7 @@
 				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
 			},
 			"hp1":[3500,7000,10500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":2100,"a":1.00,"d":1.00},{"h":2800,"a":1.00,"d":1.00},{"h":3500,"a":1.01,"d":1.00},{"h":4200,"a":1.03,"d":1.00},
@@ -2724,6 +2749,7 @@
 				"statuses":["&starf; &starf; &starf;","&starf; &starf; &star;","&starf; &starf; &star;"]
 			},
 			"hp1":[2500,5000,7500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":1500,"a":1.00,"d":1.00},{"h":2000,"a":1.00,"d":1.00},{"h":2500,"a":1.01,"d":1.00},{"h":3000,"a":1.03,"d":1.00},
@@ -2900,6 +2926,7 @@
 				"statuses":["&starf; &starf; &star;","&starf; &starf; &star;","&starf; &starf; &starf;"]
 			},
 			"hp1":[1500,3000,4500],
+			"atk1":[1.0,1.1,1.7],
 			"def1":[1.0,0.95,0.9],
 			"hpG":[
 				{"h":900,"a":1.00,"d":1.00},{"h":1200,"a":1.00,"d":1.00},{"h":1500,"a":1.01,"d":1.00},{"h":1800,"a":1.03,"d":1.00},
@@ -3021,6 +3048,7 @@
 				"statuses":["&starf; &starf; &star;","&star; &star; &star;","&starf; &starf; &star;"]
 			},
 			"hp1":["",4000,""],
+			"atk1":["",1.1,""],
 			"def1":["",0.95,""],
 			"hpG":[
 				{"h":1200,"a":1.00,"d":1.00},{"h":1600,"a":1.00,"d":1.00},{"h":2000,"a":1.01,"d":1.00},{"h":2400,"a":1.03,"d":1.00},
@@ -3110,6 +3138,7 @@
 				"statuses":["&star; &star; &star;","&star; &star; &star;","&star; &star; &star;"]
 			},
 			"hp1":["",26666,31999],
+			"atk1":["",1.1,1.7],
 			"def1":["",0.95,0.9],
 			"hpG":[
 				{"h":7999,"a":1.00,"d":1.00},{"h":10666,"a":1.00,"d":1.00},{"h":13333,"a":1.01,"d":1.00},{"h":15999,"a":1.03,"d":1.00},
@@ -3274,6 +3303,7 @@
 				"statuses":["&starf; &star; &star;","&starf; &star; &star;","&starf; &star; &star;"]
 			},
 			"hp1":["","",32000],
+			"atk1":["","",1.1],
 			"def1":["","",0.95],
 			"hpG":[
 				{"h":32000,"a":2.60,"d":0.85}
