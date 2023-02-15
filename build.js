@@ -419,8 +419,6 @@ function generateItemDataJS(weaponData, armorData) {
 		}
 
 		itemData.items.forEach((item) => {
-			item.name = `${ item.name } <span class="katakana">${ item.japanese }</span>`;
-
 			var weaponUses1 = getWeaponUses(item.name, "1");
 			var weaponUsesG = getWeaponUses(item.name, "g");
 			var armorUses1 = getArmorUses(item.name, "1");
@@ -457,6 +455,9 @@ function generateItemDataJS(weaponData, armorData) {
 
 			var alchemyForItem = getAlchemyForItem(item.name);
 			if (alchemyForItem.length !== 0) item.alchemyForItem = alchemyForItem;
+
+			// This has to be at the end for all the searches to work
+			item.name = `${ item.name } <span class="katakana">${ item.japanese }</span>`;
 		});
 		var formattedData = `window.items=${JSON.stringify(itemData.items)};`;
 
