@@ -181,6 +181,7 @@ function generateWeaponsDataJS() {
 						weaponData.bowguns[bowgun.name] = {
 							icon: category,
 							name: bowgun.name.replace(/&lt;(&#x2F)?[^&]+&gt;/g, ""),
+							gOnly:bowgun.mhg,
 							rarity: bowgun.rarity,
 							damage: bowgun.dmg.split(" - "),
 							def: bowgun.def,
