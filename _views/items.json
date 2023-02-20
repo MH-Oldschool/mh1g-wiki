@@ -1201,7 +1201,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":0,
-			"details":"Apply 40 Tranquilizer to a monster; 80 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"details":"Apply 80 Tranquilizer to a monster; 160 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
 			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
@@ -2074,7 +2074,7 @@
 			"rarity":4,
 			"buy":90,
 			"sell":88,
-			"acquire":"Fish from the Forest and Hill, Jungle, Swamp, and Volcano. Rewarded by Goldenfish delivery quests."
+			"acquire":"Fish from the Forest and Hill, Jungle, Swamp, and Volcano. Rewarded by Goldenfish and Piscine Liver delivery quests, and for hunting Cephadrome."
 		},
 		{
 			"name":"Bomb Arrowana",
@@ -2085,7 +2085,7 @@
 			"rarity":4,
 			"buy":270,
 			"sell":264,
-			"acquire":"Fish from the Jungle, Desert,<span class=\"mhg\"> secret zone in the Swamp,</span> and the Volcano. Rewarded by Goldenfish delivery quests."
+			"acquire":"Fish from the Jungle, Desert,<span class=\"mhg\"> secret zone in the Swamp,</span> and the Volcano. Rewarded by Goldenfish and Piscine Liver delivery quests, and for hunting Cephadrome and Plesioth."
 		},
 		{
 			"name":"Goldenfish",
@@ -5955,7 +5955,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":0,
-			"details":"Apply 40 Tranquilizer to a monster; 80 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"details":"Apply 80 Tranquilizer to a monster; 160 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
 			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
