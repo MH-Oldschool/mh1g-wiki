@@ -13,15 +13,6 @@ thead {
 	display: none;
 }
 
-.japanese {
-	display: none;
-	font-weight: normal;
-	font-size: 1rem;
-}
-summary:hover .japanese {
-	display: inline;
-}
-
 .quest-body {
 	text-shadow:
 		1px 1px 0 #000,
