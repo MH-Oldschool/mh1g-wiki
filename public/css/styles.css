@@ -126,8 +126,12 @@ article {
 	font-family: "Arial", helvetica, sans-serif;
 	padding: 0.5rem;
 }
+article h2,
+article h3 {
+	margin: 0.5rem 0;
+}
 article p {
-	line-height: 2;
+	line-height: 1.6;
 	margin: 0;
 }
 
