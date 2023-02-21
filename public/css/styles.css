@@ -487,6 +487,7 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 .waist-icon { background-position: -4rem -12rem; }
 .arm-icon { background-position: -6rem -12rem; }
 .foot-icon { background-position: -8rem -12rem; }
+.bowgun-icon { background-position: -10rem -12rem; }
 /* There are more icons, not sure where to use 'em yet */
 
 .monster-icon {

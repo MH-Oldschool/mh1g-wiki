@@ -68,6 +68,58 @@
 	</article>
 </details>
 
+<details class="mhg">
+	<summary>Training</summary>
+
+	<article>
+		{{#mhg.trainingQuests}}
+		<details>
+			<summary>{{monster}}</summary>
+				<section class="quest-body hunt-quest">
+					<p>
+						Locale: {{area}}<br/>
+						Level: {{&level}}
+					</p>
+
+					<h3>Quest Rewards:</h3>
+					{{#quests}}
+						<details>
+							<summary>
+								<span class="quest-icon {{icon}}"></span> <span>{{weapon}}</span>
+							</summary>
+
+							<table>
+								<thead>
+									<tr>
+										<td>Item</td>
+										<td>Quantity</td>
+										<td>% Chance</td>
+										{{#hasBreaks}}
+											<td>Requirement</td>
+										{{/hasBreaks}}
+									</tr>
+								</thead>
+								<tbody>
+									{{#rewards}}
+									<tr>
+										<td>{{{name}}}</td>
+										<td class="ta-r">{{quantity}}</td>
+										<td class="ta-r">{{percent}}%</td>
+										{{#hasBreaks}}
+											<td>{{{require}}}</td>
+										{{/hasBreaks}}
+									</tr>
+									{{/rewards}}
+								</tbody>
+							</table>
+						</details>
+					{{/quests}}
+				</section>
+		</details>
+		{{/mhg.trainingQuests}}
+	</article>
+</details>
+
 <hr/>
 
 <details class="mhg">
@@ -134,6 +186,10 @@
 			</tr>
 		</tbody>
 	</table>
+
+	<p class="mhg">
+		Training Quests handle reward results differently: the first reward in the list is guaranteed, but the total rewards only range from one to four. The chance to receive a second reward is 75%, for a third 50%, and for a fourth 25%.
+	</p>
 </details>
 
 {{>foot }}

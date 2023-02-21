@@ -8410,6 +8410,584 @@
 				]
 			}
 		],
+		"trainingQuests": [
+			{
+				"monster":"Yian Kut-Ku","area":"Forest and Hills","level":"&starf;",
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Kut-Ku Coin","quantity":1,"percent":45},
+							{"name":"Kut-Ku Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":46}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Kut-Ku Coin","quantity":1,"percent":41},
+							{"name":"Kut-Ku Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":50}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Kut-Ku Coin","quantity":1,"percent":43},
+							{"name":"Kut-Ku Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":48}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Kut-Ku Coin","quantity":1,"percent":43},
+							{"name":"Kut-Ku Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":48}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Kut-Ku Coin","quantity":1,"percent":45},
+							{"name":"Kut-Ku Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":46}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Cephadrome","area":"Desert","level":"&starf;",
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Cephalos Coin","quantity":1,"percent":52},
+							{"name":"Cephalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":39}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Cephalos Coin","quantity":1,"percent":43},
+							{"name":"Cephalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":48}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Cephalos Coin","quantity":1,"percent":47},
+							{"name":"Cephalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":44}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Cephalos Coin","quantity":1,"percent":45},
+							{"name":"Cephalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":46}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Cephalos Coin","quantity":1,"percent":40},
+							{"name":"Cephalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":51}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Gypceros","area":"Jungle","level":"&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Gypceros Coin","quantity":1,"percent":52},
+							{"name":"Gypceros Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":39},
+							{"name":"Gypceros Coin","quantity":1,"percent":35,"require":"Break Gypceros's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Gypceros's head"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Gypceros Coin","quantity":1,"percent":43},
+							{"name":"Gypceros Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":48},
+							{"name":"Gypceros Coin","quantity":1,"percent":35,"require":"Break Gypceros's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Gypceros's head"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Gypceros Coin","quantity":1,"percent":47},
+							{"name":"Gypceros Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":44},
+							{"name":"Gypceros Coin","quantity":1,"percent":35,"require":"Break Gypceros's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Gypceros's head"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Gypceros Coin","quantity":1,"percent":45},
+							{"name":"Gypceros Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":46},
+							{"name":"Gypceros Coin","quantity":1,"percent":35,"require":"Break Gypceros's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Gypceros's head"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Gypceros Coin","quantity":1,"percent":40},
+							{"name":"Gypceros Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":51},
+							{"name":"Gypceros Coin","quantity":1,"percent":35,"require":"Break Gypceros's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Gypceros's head"}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Rathalos","area":"Forest and Hills","level":"&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Rathalos Coin","quantity":1,"percent":58},
+							{"name":"Rathalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":33},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's head"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's wings"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's wings"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Rathalos Coin","quantity":1,"percent":58},
+							{"name":"Rathalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":33},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's head"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's wings"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's wings"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Rathalos Coin","quantity":1,"percent":60},
+							{"name":"Rathalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":31},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's head"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's wings"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's wings"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Rathalos Coin","quantity":1,"percent":55},
+							{"name":"Rathalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":36},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's head"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's wings"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's wings"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Rathalos Coin","quantity":1,"percent":55},
+							{"name":"Rathalos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":36},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's head"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's head"},
+							{"name":"Rathalos Coin","quantity":1,"percent":45,"require":"Break Rathalos's wings"},
+							{"name":"nothing","quantity":"n/a","percent":55,"require":"Break Rathalos's wings"}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Basarios","area":"Volcano","level":"&starf;&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Dual Swords","icon":"white-icon duals-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Basarios Coin","quantity":1,"percent":50},
+							{"name":"Basarios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41},
+							{"name":"Basarios Coin","quantity":1,"percent":20,"require":"Break Basarios's stomach"},
+							{"name":"nothing","quantity":"n/a","percent":80,"require":"Break Basarios's stomach"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Basarios Coin","quantity":1,"percent":54},
+							{"name":"Basarios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":38},
+							{"name":"Basarios Coin","quantity":1,"percent":20,"require":"Break Basarios's stomach"},
+							{"name":"nothing","quantity":"n/a","percent":80,"require":"Break Basarios's stomach"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Basarios Coin","quantity":1,"percent":53},
+							{"name":"Basarios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":38},
+							{"name":"Basarios Coin","quantity":1,"percent":20,"require":"Break Basarios's stomach"},
+							{"name":"nothing","quantity":"n/a","percent":80,"require":"Break Basarios's stomach"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Basarios Coin","quantity":1,"percent":50},
+							{"name":"Basarios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41},
+							{"name":"Basarios Coin","quantity":1,"percent":20,"require":"Break Basarios's stomach"},
+							{"name":"nothing","quantity":"n/a","percent":80,"require":"Break Basarios's stomach"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Basarios Coin","quantity":1,"percent":48},
+							{"name":"Basarios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43},
+							{"name":"Basarios Coin","quantity":1,"percent":20,"require":"Break Basarios's stomach"},
+							{"name":"nothing","quantity":"n/a","percent":80,"require":"Break Basarios's stomach"}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Rathian","area":"Jungle","level":"&starf;&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Dual Swords","icon":"white-icon duals-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Rathian Coin","quantity":1,"percent":50},
+							{"name":"Rathian Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's head"},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's wings"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's wings"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Rathian Coin","quantity":1,"percent":48},
+							{"name":"Rathian Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's head"},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's wings"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's wings"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Rathian Coin","quantity":1,"percent":53},
+							{"name":"Rathian Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":38},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's head"},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's wings"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's wings"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Rathian Coin","quantity":1,"percent":48},
+							{"name":"Rathian Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's head"},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's wings"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's wings"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Rathian Coin","quantity":1,"percent":53},
+							{"name":"Rathian Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":38},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's head"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's head"},
+							{"name":"Rathian Coin","quantity":1,"percent":35,"require":"Break Rathian's wings"},
+							{"name":"nothing","quantity":"n/a","percent":65,"require":"Break Rathian's wings"}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Plesioth","area":"Jungle","level":"&starf;&starf;&starf;&starf;",
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Plesioth Coin","quantity":1,"percent":55},
+							{"name":"Plesioth Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":36}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Plesioth Coin","quantity":1,"percent":48},
+							{"name":"Plesioth Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Plesioth Coin","quantity":1,"percent":52},
+							{"name":"Plesioth Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":39}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Plesioth Coin","quantity":1,"percent":48},
+							{"name":"Plesioth Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Plesioth Coin","quantity":1,"percent":47},
+							{"name":"Plesioth Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":44}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Monoblos","area":"Desert","level":"&starf;&starf;&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Monoblos Coin","quantity":1,"percent":53},
+							{"name":"Monoblos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":38},
+							{"name":"Monoblos Coin","quantity":1,"percent":100,"require":"Break Monoblos's Horn"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Monoblos Coin","quantity":1,"percent":50},
+							{"name":"Monoblos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41},
+							{"name":"Monoblos Coin","quantity":1,"percent":100,"require":"Break Monoblos's Horn"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Monoblos Coin","quantity":1,"percent":57},
+							{"name":"Monoblos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":32},
+							{"name":"Monoblos Coin","quantity":1,"percent":100,"require":"Break Monoblos's Horn"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Monoblos Coin","quantity":1,"percent":47},
+							{"name":"Monoblos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":44},
+							{"name":"Monoblos Coin","quantity":1,"percent":100,"require":"Break Monoblos's Horn"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Monoblos Coin","quantity":1,"percent":50},
+							{"name":"Monoblos Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41},
+							{"name":"Monoblos Coin","quantity":1,"percent":100,"require":"Break Monoblos's Horn"}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Khezu","area":"Swamp","level":"&starf;&starf;&starf;&starf;&starf;",
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Khezu Coin","quantity":1,"percent":55},
+							{"name":"Khezu Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":36}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Khezu Coin","quantity":1,"percent":48},
+							{"name":"Khezu Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":43}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Khezu Coin","quantity":1,"percent":50},
+							{"name":"Khezu Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Khezu Coin","quantity":1,"percent":43},
+							{"name":"Khezu Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":48}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Khezu Coin","quantity":1,"percent":50},
+							{"name":"Khezu Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":41}
+						]
+					}
+				]
+			},
+			{
+				"monster":"Gravios","area":"Volcano","level":"&starf;&starf;&starf;&starf;&starf;",
+				"hasBreaks":true,
+				"quests":[
+					{
+						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
+						"rewards":[
+							{"name":"SnS Ticket","quantity":1,"percent":5},
+							{"name":"Gravios Coin","quantity":1,"percent":72},
+							{"name":"Gravios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":15},
+							{"name":"Gravios Coin","quantity":3,"percent":100,"require":"Break Gravios's stomach"}
+						]
+					},
+					{
+						"weapon":"Great Sword","icon":"white-icon gs-icon",
+						"rewards":[
+							{"name":"Great Sword Ticket","quantity":1,"percent":5},
+							{"name":"Gravios Coin","quantity":1,"percent":62},
+							{"name":"Gravios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":29},
+							{"name":"Gravios Coin","quantity":3,"percent":100,"require":"Break Gravios's stomach"}
+						]
+					},
+					{
+						"weapon":"Hammer","icon":"white-icon hammer-icon",
+						"rewards":[
+							{"name":"Hammer Ticket","quantity":1,"percent":5},
+							{"name":"Gravios Coin","quantity":1,"percent":65},
+							{"name":"Gravios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":26},
+							{"name":"Gravios Coin","quantity":3,"percent":100,"require":"Break Gravios's stomach"}
+						]
+					},
+					{
+						"weapon":"Lance","icon":"white-icon lance-icon",
+						"rewards":[
+							{"name":"Lance Ticket","quantity":1,"percent":5},
+							{"name":"Gravios Coin","quantity":1,"percent":65},
+							{"name":"Gravios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":26},
+							{"name":"Gravios Coin","quantity":3,"percent":100,"require":"Break Gravios's stomach"}
+						]
+					},
+					{
+						"weapon":"Bowgun","icon":"white-icon lbg-icon",
+						"rewards":[
+							{"name":"Gunner Ticket","quantity":1,"percent":5},
+							{"name":"Gravios Coin","quantity":1,"percent":60},
+							{"name":"Gravios Coin","quantity":2,"percent":4},
+							{"name":"nothing","quantity":"n/a","percent":31},
+							{"name":"Gravios Coin","quantity":3,"percent":100,"require":"Break Gravios's stomach"}
+						]
+					}
+				]
+			}
+		],
 		"townQuests": [
 			{
 				"stars": 1,"ranks":"1-4",
