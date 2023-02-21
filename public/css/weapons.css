@@ -423,6 +423,14 @@ body {
 	width: 100%;
 }
 
+.about-weapons table {
+	width: auto;
+}
+.about-weapons h2,
+.about-weapons h3 {
+	margin: 1rem 0;
+}
+
 .attack-raw {
 	text-align: right;
 }

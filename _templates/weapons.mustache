@@ -121,7 +121,7 @@
 <section id="ranged-weapons">
 	<article>
 		<h2>Bowguns</h2>
-		<p class="mhg">Ammo values in parentheses indicate the maximum capacity with the ?bullet addition? armor skill</p>
+		<p class="mhg">Ammo values in parentheses indicate ammo types that are only available with the appropriate Shot Add armor skill</p>
 	</article>
 
 	<article class="filters">
@@ -392,6 +392,639 @@
 	</details>
 </section>
 
+<hr/>
+
+<section class="about-weapons">
+	<details>
+		<summary>
+			<h2>About Weapons</h2>
+		</summary>
+
+		<h3>Bloat Values</h3>
+		<p>
+			Each weapon class has a predefined multiplier that is used to indicate its relative damage considering its motion values. So the Attack stat seen in-game is a "bloated" version of the weapon's True Base Damage, as detailed below.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Weapon</th>
+					<th>Bloat Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Greatsword</th>
+					<td>4.8</td>
+				</tr>
+				<tr>
+					<th>Hammer</th>
+					<td>5.2</td>
+				</tr>
+				<tr>
+					<th>Lance</th>
+					<td>2.3</td>
+				</tr>
+				<tr>
+					<th>Sword and Shield</th>
+					<td>1.4</td>
+				</tr>
+				<tr class="mhg">
+					<th>Dual Swords</th>
+					<td>1.4</td>
+				</tr>
+				<tr>
+					<th>Bowgun</th>
+					<td>1.2</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Attack Up Buffs</h3>
+		<p>
+			There are three stages of the Attack Up buff: Small,<span class="mhg"> Medium, and</span> Large<span class="mh1">, and Extra Large</span>.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Small</th>
+					<td class="ta-r">3</td>
+				</tr>
+				<tr class="mh1">
+					<th>Large</th>
+					<td class="ta-r">5</td>
+				</tr>
+				<tr class="mh1">
+					<th>Extra Large</th>
+					<td class="ta-r">10</td>
+				</tr>
+				<tr class="mhg">
+					<th>Medium</th>
+					<td class="ta-r">5</td>
+				</tr>
+				<tr class="mhg">
+					<th>Large</th>
+					<td class="ta-r">10</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Your total Attack Up buff is added to your weapon's True Base Damage before any other calculations.<br/>
+			<br/>
+			Some Attack Up buffs can stack, while others can't. Per the chart below, anything within the same category cannot stack. E.G. Powercharm [+5], Attack Up Small [+3], Demondrug [+3], and Power Seed [+10] would all stack for a total of +21 True Base Damage. However, Attack Up Small from Dining [+3] and Mega Demondrug [+5] would not stack.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Charm:</th>
+					<td>Powercharm [5]</td>
+				</tr>
+				<tr class="mhg">
+					<th>Talon:</th>
+					<td>Powertalon [10]</td>
+				</tr>
+				<tr>
+					<th>Armor Skill:</th>
+					<td>Attack Up [3, 5, 10]</td>
+				</tr>
+				<tr>
+					<th>Dining &amp; Consumables:</th>
+					<td>Dining Buff [3, 5, 10], Demondrug [3], Mega Demondrug [5], &amp; Demon Shot [3]*</td>
+				</tr>
+				<tr>
+					<th>Short-Term Consumables:</th>
+					<td>Power Seed [10]<span class="mhg">, Power Pill [25],</span> &amp; Demon Flute [10]</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<i>*Demon Shot will <b>replace</b> any other attack buffs from its category. E.G. replacing Mega Demondrug's +5 with +3 from the shot.</i>
+		</p>
+
+		<h2>Blademaster Weapons</h2>
+
+		<h3>Motion Values</h3>
+		<p>
+			Every attack for each weapon class has its own multiplier to determine how much damage it will do. This Motion Value (MV) represents a fraction of the weapon's True Base Damage.
+		</p>
+
+		<table>
+			<tbody>
+				<tr>
+					<th class="ta-c" rowspan="5">Great Sword</th>
+				</tr>
+				{{#motionValues.greatsword}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/motionValues.greatsword}}
+				<tr>
+					<th class="ta-c" rowspan="12">Hammer</th>
+				</tr>
+				{{#motionValues.hammer}}
+					<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+						<td>{{name}}</td>
+						<td>{{value}}{{#value1}}<span class="mh1">{{value1}}</span>{{/value1}}{{#valueG}}<span class="mhg">{{valueG}}</span>{{/valueG}}</td>
+					</tr>
+				{{/motionValues.hammer}}
+				<tr>
+					<th class="ta-c" rowspan="8">Lance</th>
+				</tr>
+				{{#motionValues.lance}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/motionValues.lance}}
+				<tr>
+					<th class="ta-c" rowspan="9">Sword and Shield</th>
+				</tr>
+				{{#motionValues.sword}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/motionValues.sword}}
+				<tr class="mhg">
+					<th class="ta-c" rowspan="14">Dual Swords</th>
+				</tr>
+				{{#motionValues.dualSwords}}
+					<tr class="mhg">
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/motionValues.dualSwords}}
+			</tbody>
+		</table>
+
+		<h3>Sharpness</h3>
+		<p>
+			A weapon's current sharpness will also modify its attack damage per the chart below.
+		</p>
+
+		<table>
+			<tbody class="mh1">
+				<tr>
+					<td title="Red Sharpness">
+						<span class="sharpness-0"></span>
+						<span class="ui-icon-2 sharpness-icon-dullest sharpness-icon-red"></span>
+					</td>
+					<td>&times;0.5</td>
+				</tr>
+				<tr>
+					<td title="Orange Sharpness">
+						<span class="sharpness-1"></span>
+						<span class="ui-icon-2 sharpness-icon-dull sharpness-icon-orange"></span>
+					</td>
+					<td>&times;0.75</td>
+				</tr>
+				<tr>
+					<td title="Yellow Sharpness">
+						<span class="sharpness-2"></span>
+						<span class="ui-icon-2 sharpness-icon"></span>
+					</td>
+					<td>&times;1.0</td>
+				</tr>
+				<tr>
+					<td title="Green Sharpness">
+						<span class="sharpness-3"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-yellow"></span>
+					</td>
+					<td>&times;1.125</td>
+				</tr>
+			</tbody>
+			<tbody class="mhg">
+				<tr>
+					<td title="Red Sharpness">
+						<span class="sharpness-0"></span>
+						<span class="ui-icon-2 sharpness-icon-dullest sharpness-icon-red"></span>
+					</td>
+					<td>&times;0.5</td>
+				</tr>
+				<tr>
+					<td title="Orange Sharpness">
+						<span class="sharpness-1"></span>
+						<span class="ui-icon-2 sharpness-icon-dull sharpness-icon-orange"></span>
+					</td>
+					<td>&times;0.75</td>
+				</tr>
+				<tr>
+					<td title="Yellow Sharpness">
+						<span class="sharpness-2"></span>
+						<span class="ui-icon-2 sharpness-icon"></span>
+					</td>
+					<td>&times;1.0</td>
+				</tr>
+				<tr>
+					<td title="Green Sharpness">
+						<span class="sharpness-3"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-green"></span>
+					</td>
+					<td>&times;1.125</td>
+				</tr>
+				<tr>
+					<td title="Blue Sharpness">
+						<span class="sharpness-4"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-blue"></span>
+					</td>
+					<td>&times;1.25</td>
+				<tr>
+					<td title="White Sharpness">
+						<span class="sharpness-5"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-white"></span>
+					</td>
+					<td>&times;1.5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Attack Motion Sweetspot</h3>
+		<p>
+			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, and the late penalty will apply at all sharpness levels<span class="mhg"> except white</span>. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.
+		</p>
+
+		<h3>Weapon Reaction Value</h3>
+		<p>
+			A Blademaster weapon's attack can have one of four different reactions on hitting a monster: bounce, hitslow, hitstop, or normal motion. This Reaction Value is the product of the weapon's sharpness modifier, monster hitzone, and sweetspot.
+		</p>
+		<pre>Sharpness Mod &times; Hitzone &times; Sweetspot Mod</pre>
+		<p>
+			If the Reaction Value is less than 0.25 the weapon will bounce, if it's less than 0.45 the motion will continue like normal, if it's less than 1.0 the weapon motion will be slowed for a moment (hitslow), if it is greater than or equal to 1.0 it'll be stopped for a moment (hitstop.) Hitslow and Hitstop durations are defined per attack.<br/>
+			<br/>
+			Reaction Value does not affect damage, but bouncing will reduce weapon sharpness by two points instead of one.
+		</p>
+
+		<h3>Element</h3>
+		<p>
+			Much like the Attack stat, the displayed Element value is bloated<span class="mh1"> in the weapons table above (in line with later games)</span><span class="mhg"> in-game</span>, by 10 times to be exact. Any weapon with Element damage will deal that element damage on any hit, regardless of<span class="mh1"> sharpness or</span> Reaction value (before defense, hitzones, etc.)<span class="mhg"> Sharpness modifies element damage much like it does raw damage.</span>
+		</p>
+		<table class="mhg">
+			<tbody>
+				<tr>
+					<td title="Red Sharpness">
+						<span class="sharpness-0"></span>
+						<span class="ui-icon-2 sharpness-icon-dullest sharpness-icon-red"></span>
+					</td>
+					<td>&times;0.25</td>
+				</tr>
+				<tr>
+					<td title="Orange Sharpness">
+						<span class="sharpness-1"></span>
+						<span class="ui-icon-2 sharpness-icon-dull sharpness-icon-orange"></span>
+					</td>
+					<td>&times;0.5</td>
+				</tr>
+				<tr>
+					<td title="Yellow Sharpness">
+						<span class="sharpness-2"></span>
+						<span class="ui-icon-2 sharpness-icon"></span>
+					</td>
+					<td>&times;0.75</td>
+				</tr>
+				<tr>
+					<td title="Green Sharpness">
+						<span class="sharpness-3"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-green"></span>
+					</td>
+					<td>&times;1.0</td>
+				</tr>
+				<tr>
+					<td title="Blue Sharpness">
+						<span class="sharpness-4"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-blue"></span>
+					</td>
+					<td>&times;1.0625</td>
+				<tr>
+					<td title="White Sharpness">
+						<span class="sharpness-5"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-white"></span>
+					</td>
+					<td>&times;1.125</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Total Blademaster Damage</h3>
+		<pre>Total Raw Damage = ((True Base Damage + Attack Buffs) * Motion Value * Sharpness Modifier * Sweetspot Modifier)<br/>Total Element Damage = <span class="mhg">(</span>True Element<span class="mhg"> * Element Sharpness Mod)</span></pre>
+
+		<h2>Bowguns</h2>
+
+		<h3>Motion Values</h3>
+		<p>
+			Bowguns calculate raw damage based on ammo MVs. Some shots can hit a target multiple times, and some shots also deal additional effects:
+		</p>
+		<ul>
+			<li>Pierce Shot will hit a monster at least once, and up to the maximum number of impacts in a straight line, unless it exits the monster sooner.</li>
+			<li>Pellet Shot will hit all monsters in the cone of effect multiple times in quick succession; the number of impacts is higher the closer the monster is to the hunter and the center of the cone; all monsters in the cone take the full number of impacts regardless of any other monsters or hunters in the cone with them; Pellet shot is also not affected by physical obstructions.</li>
+			<li>Clust Shot spawns a number of bomblets on impact, which scatter and explode on impact with any solid object.</li>
+			<li><span class="mh1">Shots that deal element damage only deal a fixed amount.</span><span class="mhg">Flame, Water, and Thunder shot deal element damage as MV. Pellet, Crag, Clust and Dragon shot deal flat element damage.</span></li>
+			<li>Shots with Ricochet will deal damage and change direction on impacting a monster; if it hits the monster again, it will deal full damage and ricochet again until reaching the maximum number of possible impacts (defined per shot below) or missing the monster.</li>
+			<li>Recover Shot heals both hunters and monsters alike.</li>
+		</ul>
+
+		<h3>Reload</h3>
+		<p>
+			Reload time is determined by the Bowgun's innate loading speed and the Ammo being loaded. There are three possible reload speeds:
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Fast</th>
+					<td>0 - 4</td>
+				</tr>
+				<tr>
+					<th>Medium</th>
+					<td>5 - 7</td>
+				</tr>
+				<tr>
+					<th>Slow</th>
+					<td>8 - 10</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			A bowgun can have one of five different reload speeds, which reduce an ammunition's reload time by the following amounts:
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Very Slow</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Slow</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Normal</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Fast</th>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>Very Fast</th>
+					<td>4</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Reload Speed armor skills can reduce reload even further: each level reduces reload time by one point.
+		</p>
+		<pre>
+			Shot Reload Time - Bowgun Reload - Reload Skill Level
+		</pre>
+
+		<h3>Recoil</h3>
+		<p>
+			<span class="mh1">Recoil is determined entirely by ammunition, and has three possible levels.</span>
+			<span class="mhg">Much like Reload Time, Recoil is determined by ammunition, bowgun recoil compensation, and the Recoil armor skill. Nearly all bowguns have "Moderate" recoil compensation (-2 to shot recoil), and a few have "Light" (-3 to shot recoil.)</span>
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Small</th>
+					<td>&nbsp;0 - 8</td>
+				</tr>
+				<tr>
+					<th>Medium</th>
+					<td>&nbsp;9 - 10</td>
+				</tr>
+				<tr>
+					<th>Large</th>
+					<td>11 - 14</td>
+				</tr>
+			</tbody>
+		</table>
+		<pre>
+			Shot Recoil - Bowgun Recoil Compensation - Recoil Skill Level
+		</pre>
+
+		<h3>Critical Range</h3>
+		<p>
+			Normal and Pierce Shots deal different damage based on how far the shot has to travel to hit the monster. The range during which they deal maximum damage (1.5&times;) is Critical Range. Normal Shot starts in critical range and falls off over time. Pierce Shot starts at 1.0 &times; damage initially, enters Critical Range after a short travel time, and falls off after that. Higher levels of Normal and Pierce Shot remain in their critical range for longer.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Shot</th>
+					<th>MV</th>
+					<th>Impacts</th>
+					<th>Effect</th>
+					<th>Reload</th>
+					<th>Recoil</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#bowgunAmmo}}
+					<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+						<th>{{name}}</th>
+						<td>{{power}}</td>
+						<td class="ta-c">
+							{{impacts}}
+							<span class="mh1">{{#impacts1}}{{impacts1}}{{/impacts1}}</span>
+							<span class="mhg">{{#impactsG}}{{impactsG}}{{/impactsG}}</span>
+						</td>
+						<td>
+							{{#effect}}{{{effect}}} {{/effect}}
+							{{#explosion}}
+								Explosion: {{explosion.power}} <img class="attribute-icon" src="images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
+								{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
+							{{/explosion}}
+							{{#attributeAlt}}
+								<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+							{{/attributeAlt}}
+							<span>
+								{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+								{{#attributeMV}}{{attributeMV}} MV{{/attributeMV}}
+							</span>
+						</td>
+						<td class="ta-r">{{reload}}</td>
+						<td class="ta-r">
+							{{#recoil1}}<span class="mh1">{{recoil1}}</span>{{/recoil1}}
+							{{#recoilG}}<span class="mhg">{{recoilG}}</span>{{/recoilG}}
+						</td>
+					</tr>
+				{{/bowgunAmmo}}
+			</tbody>
+		</table>
+
+		<h3>Total Bowgun Damage (per impact)</h3>
+		<pre>Normal and Pierce Shots = (True Base Damage + Attack Buffs) * Ammo Motion Value * Critical Range Modifier<br/>All Other Shots = (True Base Damage + Attack Buffs) * Ammo Motion Value</pre>
+
+		<h2>Damage to Monsters</h2>
+
+		<h3>Defense Modifier</h3>
+		<p>
+			A weapon's attack is further modified by the monster's Defense Modifier. This is determined<span class="mh1"> by the monster's category and in which rank it is hunted. See the <a href="/bestiary">Bestiary</a> for which monsters use which Defense Modifiers.</span><span class="mhg"> per monster per quest. See the <a href="/bestiary">Bestiary</a> for the full range of possible Defense modifiers for each monster. See the <a href="/quests">Quests page</a> for the full range of possible Defense Modifiers the monsters on a given quest can have.</span>
+		</p>
+		<table class="mh1">
+			<thead>
+				<tr>
+					<th>Monster Category</th>
+					<th>Village</th>
+					<th>Low Rank Town [1-3 Star]</th>
+					<th>High Rank Town [4-6 Star]</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Most Small Monsters</th>
+					<td>1.0</td>
+					<td>1.0</td>
+					<td>1.0</td>
+				</tr>
+				<tr>
+					<th>Strong Small Monsters</th>
+					<td>1.0</td>
+					<td>1.0</td>
+					<td>0.9</td>
+				</tr>
+				<tr>
+					<th>Large Monsters</th>
+					<td>1.0</td>
+					<td>0.95</td>
+					<td>0.9</td>
+				</tr>
+				<tr>
+					<th>Fatalis</th>
+					<td>n/a</td>
+					<td>n/a</td>
+					<td>0.95</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Hitzones</h3>
+		<p>
+			After the Defense Modifier, weapon damage is reduced again by monster hitzones. Each part of a monster resists cutting, blunt, shot, and element damage differently (see the <a href="/bestiary">Bestiary</a>.) These hitzones represent the percent damage the monster will take from the given damage type. Great Sword<span class="mh1"> and</span><span class="mhg">,</span> Sword and Shield<span class="mhg">, and Dual Swords</span> deal Cutting damage; Hammer deals Blunt damage; and Bowgun deals Shot Damage. Lance is a special case: for the purpose of damage calculations, the Lance will compare Cutting and Blunt hitzones and choose the greater (Lance damage is always considered Cutting Damage for all other reasons, E.G. Lance can always cut tails.)
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Great Sword</th>
+					<td><pre>Raw Damage * (Cutting Hitzone / 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Hammer</th>
+					<td><pre>Raw Damage * (Blunt Hitzone / 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Lance</th>
+					<td><pre>Raw Damage * ((Cutting OR Blunt Hitzone) / 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Sword and Shield</th>
+					<td><pre>Raw Damage * (Cutting Hitzone / 100)</pre></td>
+				</tr>
+				<tr class="mhg">
+					<th>Dual Swords</th>
+					<td><pre>Raw Damage * (Cutting Hitzone / 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Bowgun</th>
+					<td><pre>Raw Damage * (Blunt Hitzone / 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Element</th>
+					<td><pre>Element Damage * (Element Hitzone / 100)</pre></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Damage to a Monster</h3>
+		<pre>(Total Weapon Raw Damage * Monster Defense * Monster Raw Hitzone) + (Total Weapon Element Damage * Monster Element Hitzone)</pre>
+
+		<h3>Explosive Damage</h3>
+		<p>
+			Crag Shot, Cluster Shot, and Barrel Bombs deal damage that ignores monster hitzones, and is only affected by the monster's defense modifier.<span class="mhg"> The Bomber skill will increase the damage of Barrel Bombs by 1.5 times.</span>
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Explosive</th>
+					<th>Damage</th>
+					<th>with Bomber</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Crag S Lv 1</th>
+					<td class="ta-r">20</td>
+					<td class="ta-r">20</td>
+				</tr>
+				<tr>
+					<th>Crag S Lv 2</th>
+					<td class="ta-r">30</td>
+					<td class="ta-r">30</td>
+				</tr>
+				<tr>
+					<th>Crag S Lv 3</th>
+					<td class="ta-r">40</td>
+					<td class="ta-r">40</td>
+				</tr>
+				<tr>
+					<th>Clust S Bomblet</th>
+					<td class="ta-r">32</td>
+					<td class="ta-r">32</td>
+				</tr>
+				<tr>
+					<th>Sm Barrel Bomb</th>
+					<td class="ta-r">20</td>
+					<td class="ta-r">30</td>
+				</tr>
+				<tr class="mhg">
+					<th>Sm Barrel Bomb+</th>
+					<td class="ta-r">30</td>
+					<td class="ta-r">45</td>
+				</tr>
+				<tr>
+					<th>Lg Barrel Bomb</th>
+					<td class="ta-r">80</td>
+					<td class="ta-r">120</td>
+				</tr>
+				<tr class="mhg">
+					<th>Lg Barrel Bomb+</th>
+					<td class="ta-r">150</td>
+					<td class="ta-r">225</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Siege Weapons</h3>
+		<p>
+			The various siege weapons provided at certain locales also deal damage in the same way as explosives. The Fort Dragonator has four drivers with the potential to deal damage to Lao-Shan Lung with all four upon activation. The Castle Schrade Dragonator has one driver that continues to deal damage at a regular interval for the duration of its activation. The Gate at Castle Schrade will drop automatically, and cannot be reset.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Ballista</th>
+					<td>100</td>
+				</tr>
+				<tr>
+					<th>Cannon</th>
+					<td>250</td>
+				</tr>
+				<tr>
+					<th>Fort Dragonator</th>
+					<td>255 &times; 4</td>
+				</tr>
+				<tr>
+					<th>Castle Schrade Dragonator</th>
+					<td>255 per 0.8 seconds</td>
+				</tr>
+				<tr>
+					<th>Castle Schrade Gate</th>
+					<td>255</td>
+				</tr>
+			</tbody>
+		</table>
+	</details>
+</section>
+
 <div id="damage-calculator">
 	<div id="sidebar-content">
 		<div class="columns-container">
@@ -425,7 +1058,7 @@
 			<div>
 				<div class="columns-container">
 					<div class="column">
-						<h4>Food/Item Skills:</h4>
+						<h4 title="Dining buffs, Demondrug, Mega Demondrug, and Demon Shot do not stack">Food/Item Skills:</h4>
 
 						<div class="radio-container">
 							<input id="calc-food-attack-up-none" type="radio" name="item_attack_up" checked/>
@@ -456,7 +1089,7 @@
 						<div class="checkbox-container">
 							<input id="calc-item-attack-up" type="checkbox"/>
 							<div class="radio-icon"></div>
-							<label for="calc-item-attack-up" title="10">Demon Seed/Flute Buff</label>
+							<label for="calc-item-attack-up" title="10">Seed/Flute Buff</label>
 						</div>
 					</div>
 

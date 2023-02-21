@@ -708,11 +708,11 @@ ready(() => {
 			motionValues[currentCategory].raw.forEach(function(element) {
 				if (element.dataset.value) {
 					if (trueDamage) {
-						element.innerHTML = (parseInt((trueDamage + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+						element.innerHTML = parseInt((trueDamage + attackUpBonus) * element.dataset.value).toFixed(0);
 					}
 					else {
-						var motionDamage1 = (parseInt((trueDamage1 + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
-						var motionDamageG = (parseInt((trueDamageG + attackUpBonus) * element.dataset.value) / 100).toFixed(0);
+						var motionDamage1 = parseInt((trueDamage1 + attackUpBonus) * element.dataset.value).toFixed(0);
+						var motionDamageG = parseInt((trueDamageG + attackUpBonus) * element.dataset.value).toFixed(0);
 						element.innerHTML = `<span class="mh1">${motionDamage1}</span><span class="mhg">${motionDamageG}</span>`;
 					}
 				}
@@ -720,12 +720,12 @@ ready(() => {
 					var motionDamage1, motionDamageG;
 
 					if (trueDamage) {
-						motionDamage1 = (parseInt((trueDamage + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
-						motionDamageG = (parseInt((trueDamage + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
+						motionDamage1 = parseInt((trueDamage + attackUpBonus) * element.dataset["value-1"]).toFixed(0);
+						motionDamageG = parseInt((trueDamage + attackUpBonus) * element.dataset.valueG).toFixed(0);
 					}
 					else {
-						motionDamage1 = (parseInt((trueDamage1 + attackUpBonus) * element.dataset["value-1"]) / 100).toFixed(0);
-						motionDamageG = (parseInt((trueDamageG + attackUpBonus) * element.dataset.valueG) / 100).toFixed(0);
+						motionDamage1 = parseInt((trueDamage1 + attackUpBonus) * element.dataset["value-1"]).toFixed(0);
+						motionDamageG = parseInt((trueDamageG + attackUpBonus) * element.dataset.valueG).toFixed(0);
 					}
 
 					element.innerHTML = `<span class="mh1">${motionDamage1}</span><span class="mhg">${motionDamageG}</span>`;
