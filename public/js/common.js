@@ -48,6 +48,15 @@ window.numberWithCommas = (number) => {
 	return number;
 };
 
+window.toggleDialogBackdrop = (toggleOn) => {
+	if (toggleOn) {
+		document.body.classList.add("show-dialog");
+	}
+	else {
+		document.body.classList.remove("show-dialog");
+	}
+}
+
 window.getUserOS = () => {
 	var userOS = "";
 
@@ -142,27 +151,10 @@ ready(() => {
 		}
 	}
 
-	// Keep footer at the bottom of the visible screen
-	var footer = document.getElementById("footer");
-	function updateFooterPosition() {
-		var boundingRect = footer.getBoundingClientRect();
-		var footerPadding = boundingRect.height;
-		var footerTop = window.innerHeight - boundingRect.height;
-
-		if (document.body.dataset.footerPadding != footerPadding) {
-			document.body.dataset.footerPadding = footerPadding;
-			document.body.style.paddingBottom = footerPadding + "px";
-		}
-		if (footer.dataset.top != footerTop) {
-			footer.dataset.top = footerTop;
-			footer.style.top = footerTop + "px";
-		}
+	var dialogs = document.getElementsByTagName("dialog");
+	for (var i = 0; i < dialogs.length; i++) {
+		dialogs[i].addEventListener("close", () => {
+			toggleDialogBackdrop(false);
+		});
 	}
-	window.addEventListener("resize", () => {
-		window.requestAnimationFrame(updateFooterPosition);
-	});
-	window.addEventListener("scroll", () => {
-		window.requestAnimationFrame(updateFooterPosition);
-	});
-	updateFooterPosition();
 });

@@ -212,14 +212,13 @@ ready(() => {
 		if (toggleOn) {
 			var armorCode = (getMHVersion() == "1") ? armorBuilder1.getArmorCode() : armorBuilderG.getArmorCode();
 			armorCodeExport.value = armorCode;
-
 			armorCodeDialog.showModal();
-			document.body.classList.add("show-dialog");
 		}
 		else {
 			armorCodeDialog.close();
-			document.body.classList.remove("show-dialog");
 		}
+
+		toggleDialogBackdrop(toggleOn);
 	}
 	function armorCodeIsValid(armorCode) {
 		// TODO: indicate what's invalid?

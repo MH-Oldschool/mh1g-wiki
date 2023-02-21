@@ -807,50 +807,52 @@
 			Normal and Pierce Shots deal different damage based on how far the shot has to travel to hit the monster. The range during which they deal maximum damage (1.5&times;) is Critical Range. Normal Shot starts in critical range and falls off over time. Pierce Shot starts at 1.0 &times; damage initially, enters Critical Range after a short travel time, and falls off after that. Higher levels of Normal and Pierce Shot remain in their critical range for longer.
 		</p>
 
-		<table>
-			<thead>
-				<tr>
-					<th>Shot</th>
-					<th>MV</th>
-					<th>Impacts</th>
-					<th>Effect</th>
-					<th>Reload</th>
-					<th>Recoil</th>
-				</tr>
-			</thead>
-			<tbody>
-				{{#bowgunAmmo}}
-					<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
-						<th>{{name}}</th>
-						<td>{{power}}</td>
-						<td class="ta-c">
-							{{impacts}}
-							<span class="mh1">{{#impacts1}}{{impacts1}}{{/impacts1}}</span>
-							<span class="mhg">{{#impactsG}}{{impactsG}}{{/impactsG}}</span>
-						</td>
-						<td>
-							{{#effect}}{{{effect}}} {{/effect}}
-							{{#explosion}}
-								Explosion: {{explosion.power}} <img class="attribute-icon" src="images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
-								{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
-							{{/explosion}}
-							{{#attributeAlt}}
-								<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
-							{{/attributeAlt}}
-							<span>
-								{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
-								{{#attributeMV}}{{attributeMV}} MV{{/attributeMV}}
-							</span>
-						</td>
-						<td class="ta-r">{{reload}}</td>
-						<td class="ta-r">
-							{{#recoil1}}<span class="mh1">{{recoil1}}</span>{{/recoil1}}
-							{{#recoilG}}<span class="mhg">{{recoilG}}</span>{{/recoilG}}
-						</td>
+		<div class="table-container">
+			<table>
+				<thead>
+					<tr>
+						<th>Shot</th>
+						<th>MV</th>
+						<th>Impacts</th>
+						<th>Effect</th>
+						<th>Reload</th>
+						<th>Recoil</th>
 					</tr>
-				{{/bowgunAmmo}}
-			</tbody>
-		</table>
+				</thead>
+				<tbody>
+					{{#bowgunAmmo}}
+						<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+							<th>{{name}}</th>
+							<td>{{power}}</td>
+							<td class="ta-c">
+								{{impacts}}
+								<span class="mh1">{{#impacts1}}{{impacts1}}{{/impacts1}}</span>
+								<span class="mhg">{{#impactsG}}{{impactsG}}{{/impactsG}}</span>
+							</td>
+							<td>
+								{{#effect}}{{{effect}}} {{/effect}}
+								{{#explosion}}
+									Explosion: {{explosion.power}} <img class="attribute-icon" src="images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
+									{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
+								{{/explosion}}
+								{{#attributeAlt}}
+									<img class="attribute-icon" src="images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+								{{/attributeAlt}}
+								<span>
+									{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+									{{#attributeMV}}{{attributeMV}} MV{{/attributeMV}}
+								</span>
+							</td>
+							<td class="ta-r">{{reload}}</td>
+							<td class="ta-r">
+								{{#recoil1}}<span class="mh1">{{recoil1}}</span>{{/recoil1}}
+								{{#recoilG}}<span class="mhg">{{recoilG}}</span>{{/recoilG}}
+							</td>
+						</tr>
+					{{/bowgunAmmo}}
+				</tbody>
+			</table>
+		</div>
 
 		<h3>Total Bowgun Damage (per impact)</h3>
 		<pre>Normal and Pierce Shots = (True Base Damage + Attack Buffs) * Ammo Motion Value * Critical Range Modifier<br/>All Other Shots = (True Base Damage + Attack Buffs) * Ammo Motion Value</pre>
@@ -1254,7 +1256,7 @@
 					<tr>
 						<td><span class="blademaster-stat">Kick</span><span class="gunner-stat">Melee</span></td>
 						<td class="blademaster-stat">R3 (while sheathed)</td>
-						<td class="blademaster-stat">2</td>
+						<td class="blademaster-stat mv-column">2</td>
 						<td id="kick-raw" class="attack-raw" data-value="0.02"></td>
 						<td class="gunner-stat">1</td><!-- impacts -->
 						<td class="gunner-stat"><!-- effect --></td>

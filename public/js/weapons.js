@@ -374,9 +374,11 @@ ready(() => {
 	function toggleCalculator() {
 		if (calculator.classList.contains("expanded")) {
 			calculator.classList.remove("expanded");
+			document.body.style.overflowY = "";
 		}
 		else {
 			calculator.classList.add("expanded");
+			document.body.style.overflowY = "hidden";
 		}
 	}
 	calculatorButton.addEventListener("click", function() {

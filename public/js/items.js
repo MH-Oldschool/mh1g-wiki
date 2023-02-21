@@ -3,13 +3,13 @@ ready(() => {
 
 	function toggleItemDialog(toggleOn) {
 		if (toggleOn) {
-			document.body.classList.add("show-dialog");
 			itemDialog.showModal();
 		}
 		else {
-			document.body.classList.remove("show-dialog");
 			itemDialog.close();
 		}
+
+		toggleDialogBackdrop(toggleOn);
 	}
 	function showItemDetails(index) {
 		const dialogName = document.getElementById("item-dialog-name");

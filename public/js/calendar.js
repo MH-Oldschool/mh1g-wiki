@@ -619,12 +619,12 @@ ready(() => {
 	function toggleEventsDialog(toggleOn) {
 		if (toggleOn) {
 			eventsDialog.showModal();
-			document.body.classList.add("show-dialog");
 		}
 		else {
 			eventsDialog.close();
-			document.body.classList.remove("show-dialog");
 		}
+
+		toggleDialogBackdrop(toggleOn);
 	}
 	function activateEventsDialog(givenDate) {
 		const dialogDate = document.getElementById("dialog-date");
