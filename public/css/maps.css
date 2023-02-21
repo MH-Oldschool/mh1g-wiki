@@ -48,6 +48,10 @@
   display: block;
 }
 
+.random-start-container table {
+  max-width: 16rem;
+}
+
 @media screen and (min-width: 50rem) {
   #maps-container {
     padding: 0.25rem;
@@ -62,5 +66,14 @@
   }
   .gathering-point {
     transform: scale(1);
+  }
+
+  .random-start-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .random-start-container table {
+    max-width: 100%;
+    width: 15%;
   }
 }
