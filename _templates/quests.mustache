@@ -80,6 +80,9 @@
 						Locale: {{area}}<br/>
 						Level: {{&level}}
 					</p>
+					{{#note}}
+						<p><b>Note:</b> {{&note}}</p>
+					{{/note}}
 
 					<h3>Quest Rewards:</h3>
 					{{#quests}}
@@ -211,7 +214,9 @@
 		<p>
 			You will always receive at least four, and up to ten, reward items from any quest. The first item in the rewards table is guaranteed, with additional rewards chosen at random from the full table. Your luck skill determines whether you receive any additional items.
 		</p>
-
+		<p>
+			Breaking a monster part will guarantee one of the listed rewards for each part-break. The percent chance determines which part.
+		</p>
 		<table class="luck-table">
 			<tbody>
 				<tr class="mhg">

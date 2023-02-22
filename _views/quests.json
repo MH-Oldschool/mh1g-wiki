@@ -8574,7 +8574,7 @@
 			},
 			{
 				"monster":"Rathalos","area":"Forest and Hills","level":"&starf;&starf;",
-				"hasBreaks":true,
+				"hasBreaks":true,"note":"All Rathalos training quests are bugged, and will never drop rewards for part-breaks.",
 				"quests":[
 					{
 						"weapon":"Sword and Shield","icon":"white-icon sns-icon",
