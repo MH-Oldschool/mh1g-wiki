@@ -764,15 +764,16 @@ ready(() => {
 
 		return DEADLINE - milliseconds;
 	}
-	var remainingTime = getTimeToNextEvent();
 
-	function updateCountdown(time) {
+	function updateCountdown() {
 		const MS_PER_MINUTE = 60000;
+
+		var remainingTime = getTimeToNextEvent();
 
 		var hours = document.getElementById("countdown-hours");
 		var minutes = document.getElementById("countdown-minutes");
 
-		var minutesLeft = time / MS_PER_MINUTE;
+		var minutesLeft = remainingTime / MS_PER_MINUTE;
 		var hoursLeft = Math.floor(Math.ceil(minutesLeft) / 60);
 		if (minutesLeft % 60 == 0) {
 			hoursLeft += 1;
@@ -780,33 +781,10 @@ ready(() => {
 
 		hours.innerText = hoursLeft.toString().padStart(2, "0");
 		minutes.innerText = ((Math.ceil(minutesLeft) % 60)).toString().padStart(2, "0");
+
+		// Schedule the next update to happen on the next minute
+		var now = new Date
+		setTimeout(updateCountdown, 1000 - now.getMilliseconds());
 	}
-	var delta = 0;
-	function frameStep(timestamp) {
-		const MIN_STEP = 60000;
-
-		if (timestamp !== 0) {
-			delta += timestamp - lastTimestamp;
-
-			if (delta > MIN_STEP) {
-				remainingTime -= delta;
-
-				if (remainingTime <= 0) {
-					remainingTime = getTimeToNextEvent();
-					initCalendar();
-				}
-
-				updateCountdown(remainingTime);
-				delta -= MIN_STEP;
-			}
-		}
-
-		lastTimestamp = timestamp;
-		window.requestAnimationFrame(frameStep);
-	}
-	function initCountdown() {
-		window.requestAnimationFrame(frameStep);
-		updateCountdown(remainingTime);
-	}
-	initCountdown();
+	updateCountdown();
 });
