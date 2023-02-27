@@ -641,7 +641,9 @@
 
 		<h3>Attack Motion Sweetspot</h3>
 		<p>
-			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, and the late penalty will apply at all sharpness levels<span class="mhg"> except white</span>. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.
+			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, <span title="see the NOTE below">and the late penalty will apply at all sharpness levels.</span><span class="mhg" title="see the NOTE below"> The ESP skill will remove the late timing penalty if your weapon is at White sharpness*.</span> Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.<br/>
+			<br/>
+			NOTE: this mechanic is bugged in-game. At Green sharpness<span class="mhg"> and above</span> the late timing penalty is <i>also</i> removed.<span class="mhg"> So in practice, the ESP skill doesn't do anything.</span>
 		</p>
 
 		<h3>Weapon Reaction Value</h3>
@@ -652,7 +654,9 @@
 		<p>
 			If the Reaction Value is less than 0.25 the weapon will bounce, if it's less than 0.45 the motion will continue like normal, if it's less than 1.0 the weapon motion will be slowed for a moment (hitslow), if it is greater than or equal to 1.0 it'll be stopped for a moment (hitstop.) Hitslow and Hitstop durations are defined per attack.<br/>
 			<br/>
-			Bouncing, critslow, and critstop do not directly affect damage, but bouncing will reduce weapon sharpness by two points instead of one.
+			Bouncing, critslow, and critstop do not directly affect damage, but bouncing will reduce weapon sharpness by two points instead of one.<br/>
+			<br/>
+			A few Hammer<span class="mhg"> and Dual Swords</span> attacks will never make your hunter bounce, though the sound and particle effects will still play, and sharpness is reduced by two hits all the same. These include the Hammer Spins<span class="mhg">, combo Golf Swing</span>, Golf Swing after spinning, and both components of the Superpound<span class="mhg">, and the Dual Swords Fury Combo</span>.
 		</p>
 
 		<h3>Element</h3>
