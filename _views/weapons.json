@@ -5943,6 +5943,12 @@
 							"attribute":"water","attributeAlt":"Water","attributeValue":300,
 							"sharpness":"sharpness_sns/odyssey",
 							"priceG":"100,000",
+							"forgeG":[
+								{"n":"Gold Ticket","q":10},
+								{"n":"Gravios Wing","q":1},
+								{"n":"Basarios Wing","q":1},
+								{"n":"Rathalos Wing","q":1}
+							],
 							"upgradeG":[
 								{"n":"Gravios Wing","q":1},
 								{"n":"Basarios Wing","q":1},
