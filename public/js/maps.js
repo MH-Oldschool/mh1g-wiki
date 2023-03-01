@@ -15,4 +15,21 @@ ready(() => {
     toggleGatheringPoints(event.target.checked)
   });
   toggleGatheringPoints(showGatheringSpots.checked);
+
+  function toggleGatheringDetails(toggleOn) {
+    if (toggleOn) {
+      document.body.classList.add("show-gathering-details");
+      showGatheringSpots.checked = true;
+      toggleGatheringPoints(true);
+    }
+    else {
+      document.body.classList.remove("show-gathering-details");
+    }
+  }
+
+  var showGatheringDetails = document.getElementById("show-gathering-details");
+  showGatheringDetails.addEventListener("change", (event) => {
+    toggleGatheringDetails(event.target.checked);
+  });
+  toggleGatheringDetails(showGatheringDetails.checked);
 });

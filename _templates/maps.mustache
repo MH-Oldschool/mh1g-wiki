@@ -2,8 +2,12 @@
 
 <article class="filters">
 	<div class="filter-checks">
-		<input id="show-gathering-spots" name="ammo_base" type="checkbox"/>
-		<label for="show-gathering-spots" class="ammo-label">Show Gathering Spots</label>
+		<input id="show-gathering-spots" type="checkbox"/>
+		<label for="show-gathering-spots">Show Gathering Spots</label>
+	</div>
+	<div class="filter-checks mhg">
+		<input id="show-gathering-details" type="checkbox"/>
+		<label for="show-gathering-details">Show Gathering Details</label>
 	</div>
 </article>
 
@@ -20,8 +24,87 @@
 				{{/icons}}
 			</div>
 		</div>
+
+		{{#yields}}
+			<div class="gathering-container mhg">
+				{{#yields.mhg}}
+					<h2 class="zone-name">{{zone}}</h2>
+
+					<div class="gathering-spots-container">
+						{{#spots}}
+							<h2 class="gathering-spot-name"{{#note}} title="{{note}}"{{/note}}>
+								<span class="{{class}} va-m"></span><span class="va-m">{{spotName}}</span>
+							</h2>
+
+							<div class="gathering-row">
+								{{^secret}}
+								<table>
+									<caption class="ta-l">Low Rank</caption>
+									<tbody>
+										{{#itemsLow}}
+											<tr>
+												<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+												<td class="ta-r">{{percent}}%</td>
+											</tr>
+										{{/itemsLow}}
+									</tbody>
+								</table>
+								<table>
+									<tbody>
+										<caption class="ta-l">High Rank</caption>
+										{{#itemsHigh}}
+											<tr>
+												<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+												<td class="ta-r">{{percent}}%</td>
+											</tr>
+										{{/itemsHigh}}
+									</tbody>
+								</table>
+								{{/secret}}
+								<table{{#secret}} class="w-auto"{{/secret}}>
+									<tbody>
+										<caption class="ta-l">G Rank</caption>
+										{{#itemsG}}
+											<tr>
+												<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+												<td class="ta-r">{{percent}}%</td>
+											</tr>
+										{{/itemsG}}
+									</tbody>
+								</table>
+							</div>
+						{{/spots}}
+					</div>
+				{{/yields.mhg}}
+			</div>
+		{{/yields}}
 	{{/maps}}
 </div>
+
+<details>
+	<summary>
+		How Gathering Points Work
+	</summary>
+
+	<p>
+		You are guaranteed one result from any gathering point. Further gathering attempts have an 84% chance to reward another item, otherwise the point is depleted; the Gathering skill can improve, or worsen, your odds for additional items. All gathering points have a maximum number of times they can be gathered, regardless of armor skills.
+	</p>
+	<p>
+		The percents for Fishing Spots are the chances that a given fish will spawn. Fish spawn when you enter the zone, and one will spawn when you catch a fish.
+	</p>
+	<p>
+		Gathering points, their yields, and maximum number of items are defined per quest, and will sometimes vary from the above information.
+	</p>
+	<p>
+		Some Special Mushroom gathering spots will only yield mushrooms during mushroom delivery quests.
+	</p>
+	<p>
+		Monster nests will yield the appropriate eggs on egg delivery quests.
+	</p>
+	<p class="mh1">
+		In some High Rank quests, all gathering points will only yield Low Rank items. Known quests include "Two Rock Wyverns", "Troublesome Pair", and "Wyverns of Land and Sky".
+	</p>
+</details>
 
 <details class="mhg">
 	<summary>
@@ -34,7 +117,7 @@
 
 	<div class="random-start-container">
 		<table>
-			<caption class="ta-l">Forest and Hills</caption>
+			<caption class="ta-l">Forest &amp; Hills</caption>
 			<tbody>
 				<tr>
 					<th colspan=2>High Rank</th>

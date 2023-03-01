@@ -48,6 +48,36 @@
   display: block;
 }
 
+.gathering-container {
+  display: none;
+}
+.show-gathering-details .gathering-container {
+  overflow-y: auto;
+  display: block;
+  padding: 0;
+  margin: 0.5rem;
+  height: 32rem;
+}
+.gathering-spots-container {
+  background: rgba(0,0,0,0.5);
+  border-top: 0.0625rem solid;
+  padding: 0.25rem 0.5rem;
+}
+.gathering-row {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 0.5rem;
+}
+.zone-name {
+  padding: 0.5rem 0.25rem;
+}
+.show-1 .gathering-row table {
+  width: 50%;
+}
+.show-g .gathering-row table {
+  width: 33.333333%;
+}
+
 .random-start-container table {
   max-width: 16rem;
 }
@@ -58,6 +88,7 @@
   }
 
   .map {
+    vertical-align: top;
     margin: 1rem;
   }
   .map-container {
@@ -66,6 +97,13 @@
   }
   .gathering-point {
     transform: scale(1);
+  }
+
+  .show-gathering-details .gathering-container {
+    display: inline-block;
+    margin: 1rem;
+    width: calc(100% - 38rem);
+    height: 35.5rem;
   }
 
   .random-start-container {
