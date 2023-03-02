@@ -354,6 +354,9 @@
 }
 
 /* Damage Calculator */
+body.calculator-expanded {
+	overflow-y: hidden;
+}
 #damage-calculator {
 	position: fixed;
 	display: none;
@@ -608,6 +611,9 @@
 @media screen and (min-width: 50rem) {
 	body {
 		padding-right: 1.25rem;
+	}
+	body.calculator-expanded {
+		overflow-y: auto;
 	}
 
 	.mv-column {
