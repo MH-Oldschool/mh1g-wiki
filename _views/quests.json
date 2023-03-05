@@ -12509,7 +12509,7 @@
 							{"name":"Machalite Ore","quantity":2,"percent":25},
 							{"name":"Iron Ore","quantity":8,"percent":25},
 							{"name":"Toxin Sac","quantity":1,"percent":10},
-							{"name":"Hellfire Stone","quantity":1,"percent":5},
+							{"name":"Firecell Stone","quantity":1,"percent":5},
 							{"name":"Carbalite Ore","quantity":3,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
 						],
@@ -12538,7 +12538,7 @@
 							{"name":"Machalite Ore","quantity":4,"percent":25},
 							{"name":"Iron Ore","quantity":10,"percent":20},
 							{"name":"Toxin Sac","quantity":2,"percent":10},
-							{"name":"Hellfire Stone","quantity":1,"percent":5},
+							{"name":"Firecell Stone","quantity":1,"percent":5},
 							{"name":"Carbalite Ore","quantity":4,"percent":75,"require":"Break Basarios's chest"},
 							{"name":"Iron Ore","quantity":16,"percent":25,"require":"Break Basarios's chest"}
 						],
@@ -13108,7 +13108,7 @@
 							{"name":"Gravios Carapace","quantity":1,"percent":5},
 							{"name":"Gravios Heavy Shell","quantity":1,"percent":63,"require":"Break Gravios's chest"},
 							{"name":"Gravios Carapace","quantity":1,"percent":35,"require":"Break Gravios's chest"},
-							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Gravios's chest"}
+							{"name":"Firecell Stone","quantity":1,"percent":2,"require":"Break Gravios's chest"}
 						],
 						"hrRequire":21
 					},
@@ -13140,7 +13140,7 @@
 							{"name":"Black Gravios Wing","quantity":1,"percent":5},
 							{"name":"Black Gravios Carapace","quantity":1,"percent":63,"require":"Break Black Gravios's chest"},
 							{"name":"Black Gravios Shell","quantity":1,"percent":35,"require":"Break Black Gravios's chest"},
-							{"name":"Hellfire Stone","quantity":1,"percent":2,"require":"Break Black Gravios's chest"}
+							{"name":"Firecell Stone","quantity":1,"percent":2,"require":"Break Black Gravios's chest"}
 						],
 						"hrRequire":21
 					},

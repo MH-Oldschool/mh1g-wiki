@@ -160,7 +160,7 @@
 							"price":"4,650",
 							"upgrade":[
 								{"n":"Iron Ore","q":10},
-								{"n":"Disc Stone","q":5}
+								{"n":"Disk Stone","q":5}
 							]
 						},
 						{
@@ -172,7 +172,7 @@
 							"price":"6,750",
 							"upgrade":[
 								{"n":"Iron Ore","q":15},
-								{"n":"Disc Stone","q":10},
+								{"n":"Disk Stone","q":10},
 								{"n":"Machalite Ore","q":5}
 							]
 						},
@@ -185,7 +185,7 @@
 							"price":"10,950",
 							"upgrade":[
 								{"n":"Iron Ore","q":20},
-								{"n":"Disc Stone","q":15},
+								{"n":"Disk Stone","q":15},
 								{"n":"Machalite Ore","q":10}
 							]
 						}
@@ -1784,7 +1784,7 @@
 							"price":"2,310",
 							"upgrade":[
 								{"n":"Iron Ore","q":8},
-								{"n":"Disc Stone","q":3}
+								{"n":"Disk Stone","q":3}
 							],
 							"forge":[
 								{"n":"Machalite Ore","q":5},
@@ -1800,7 +1800,7 @@
 							"price":"3,150",
 							"upgrade":[
 								{"n":"Iron Ore","q":10},
-								{"n":"Disc Stone","q":6}
+								{"n":"Disk Stone","q":6}
 							]
 						},
 						{
@@ -1811,7 +1811,7 @@
 							"price":"3,990",
 							"upgrade":[
 								{"n":"Iron Ore","q":30},
-								{"n":"Disc Stone","q":9}
+								{"n":"Disk Stone","q":9}
 							]
 						},
 						{
@@ -1823,7 +1823,7 @@
 							"upgrade":[
 								{"n":"Iron Ore","q":20},
 								{"n":"Machalite Ore","q":10},
-								{"n":"Disc Stone","q":5}
+								{"n":"Disk Stone","q":5}
 							]
 						},
 						{
@@ -1835,7 +1835,7 @@
 							"upgrade":[
 								{"n":"Iron Ore","q":25},
 								{"n":"Machalite Ore","q":15},
-								{"n":"Disc Stone","q":10}
+								{"n":"Disk Stone","q":10}
 							]
 						},
 						{
@@ -1847,7 +1847,7 @@
 							"upgrade":[
 								{"n":"Iron Ore","q":30},
 								{"n":"Machalite Ore","q":20},
-								{"n":"Disc Stone","q":15}
+								{"n":"Disk Stone","q":15}
 							]
 						},
 						{
@@ -1859,7 +1859,7 @@
 							"upgrade":[
 								{"n":"Iron Ore","q":40},
 								{"n":"Machalite Ore","q":30},
-								{"n":"Disc Stone","q":20}
+								{"n":"Disk Stone","q":20}
 							]
 						}
 					]
@@ -2706,7 +2706,7 @@
 							"upgrade":[
 								{"n":"Dragonite Ore","q":12},
 								{"n":"Carbalite Ore","q":30},
-								{"n":"Disc Stone","q":40}
+								{"n":"Disk Stone","q":40}
 							]
 						},
 						{
@@ -2718,7 +2718,7 @@
 							"upgrade":[
 								{"n":"Dragonite Ore","q":18},
 								{"n":"Carbalite Ore","q":60},
-								{"n":"Disc Stone","q":60}
+								{"n":"Disk Stone","q":60}
 							]
 						}
 					]
@@ -6520,7 +6520,7 @@
 							"price":"1,710",
 							"upgrade":[
 								{"n":"Machalite Ore","q":5},
-								{"n":"Disc Stone","q":10},
+								{"n":"Disk Stone","q":10},
 								{"n":"Earth Crystal","q":15}
 							]
 						},
@@ -6532,7 +6532,7 @@
 							"price":"3,150",
 							"upgrade":[
 								{"n":"Machalite Ore","q":8},
-								{"n":"Disc Stone","q":15},
+								{"n":"Disk Stone","q":15},
 								{"n":"Earth Crystal","q":10}
 							]
 						},
@@ -6544,7 +6544,7 @@
 							"price":"5,850",
 							"upgrade":[
 								{"n":"Machalite Ore","q":10},
-								{"n":"Disc Stone","q":20},
+								{"n":"Disk Stone","q":20},
 								{"n":"Earth Crystal","q":5}
 							]
 						}
@@ -6730,7 +6730,7 @@
 							"forge":[
 								{"n":"Dragonite Ore","q":5},
 								{"n":"Machalite Ore","q":25},
-								{"n":"Disc Stone","q":10}
+								{"n":"Disk Stone","q":10}
 							]
 						}
 					]
@@ -6858,7 +6858,7 @@
 							"price":"20,610",
 							"upgrade":[
 								{"n":"Union Ore","q":10},
-								{"n":"Disc Stone","q":20},
+								{"n":"Disk Stone","q":20},
 								{"n":"Machalite Ore","q":20}
 							]
 						}
