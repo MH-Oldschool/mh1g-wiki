@@ -7,7 +7,7 @@
 	"gToggle": true,
 	"monsters": [
 		{
-			"name": "Mosswine", "kata": "モス", "rome": "Mosu",
+			"name": "Mosswine", "japanese": "モス", "rome": "Mosu",
 			"description": "Wild pigs covered in moss and fungus. Sometimes you will even find mushrooms growing on them. Their meat is known as a delicacy. Though normally docile, they will charge you if angered! <sub>[Monster Hunter (US)]</sub>",
 			"icon": "mosswine",
 			"image": "mosswine",
@@ -88,7 +88,7 @@
 			]
 		},
 		{
-			"name": "Bullfango", "kata": "ブルファンゴ", "rome": "Burufango",
+			"name": "Bullfango", "japanese": "ブルファンゴ", "rome": "Burufango",
 			"description": "A large wild boar. Foul tempered, they will charge hunters on sight. Aggressive and powerful, so beware! Often hunted for their meat, which many hunters find delicious. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "bullfango",
 			"image": "bullfango",
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			"name": "Kelbi", "kata": "ケルビ", "rome": "Kerubi",
+			"name": "Kelbi", "japanese": "ケルビ", "rome": "Kerubi",
 			"description": "A herbivorous, deer-like monster. Valued for their horns, they run away at the first hint of danger. Hunted for their chewy but flavorful meat. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "kelbi",
 			"image": "kelbi",
@@ -237,7 +237,7 @@
 			]
 		},
 		{
-			"name": "Aptonoth", "kata": "アプトノス", "rome": "Aputonosu",
+			"name": "Aptonoth", "japanese": "アプトノス", "rome": "Aputonosu",
 			"description": "Hunted as a food source, these creatures are preyed upon by both hunter and monster alike. Usually timid, but in packs they defend themselves with surprising strength. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "aptonoth",
 			"image": "aptonoth",
@@ -310,7 +310,7 @@
 			]
 		},
 		{
-			"name": "Apceros", "kata": "アプケロス", "rome": "Apukerosu",
+			"name": "Apceros", "japanese": "アプケロス", "rome": "Apukerosu",
 			"description": "Hunted for their meat, which is buried under a thick, armored hide. Aggressive, hunting them can be a challenge. Its eggs are a valuable guild commodity. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "apceros",
 			"image": "apceros",
@@ -387,7 +387,7 @@
 			]
 		},
 		{
-			"name": "Felyne", "kata": "アイルー", "rome": "Airū",
+			"name": "Felyne", "japanese": "アイルー", "rome": "Airū",
 			"description": "Cat-like humanoids with white fur. Normally quiet unless angered, in which case they attack. Capable of speech. Found in the employ of humans. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "felyne",
 			"image": "felyne",
@@ -432,7 +432,7 @@
 			]
 		},
 		{
-			"name": "Melynx", "kata": "メラルー", "rome": "Merarū",
+			"name": "Melynx", "japanese": "メラルー", "rome": "Merarū",
 			"description": "Cat-like humanoids with black fur. Sticky-fingered, they won't pass up a chance to steal and take it to their village. Distracted by Felvine. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "melynx",
 			"image": "melynx",
@@ -477,7 +477,7 @@
 			]
 		},
 		{
-			"name": "Vespoid", "kata": "ランゴスタ", "rome": "Rangosuta",
+			"name": "Vespoid", "japanese": "ランゴスタ", "rome": "Rangosuta",
 			"description": "Enormous, wasp-like insectoid with a stinger that stuns prey. There are rarely any usable materials left to harvest from them once killed. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "vespoid",
 			"image": "vespoid",
@@ -557,7 +557,7 @@
 			]
 		},
 		{
-			"name": "Hornetaur", "kata": "カンタロス", "rome": "Kantarosu",
+			"name": "Hornetaur", "japanese": "カンタロス", "rome": "Kantarosu",
 			"description": "Vespoid-like monster with a thicker shell. Rarely any usable materials are left to harvest once they are killed. But if you could sap their Health gradually... <sub>[Monster Hunter (US)]</sub>",
 			"icon": "hornetaur",
 			"image": "hornetaur",
@@ -639,7 +639,7 @@
 			]
 		},
 		{
-			"name": "Velociprey", "kata": "ランポス", "rome": "Ranposu",
+			"name": "Velociprey", "japanese": "ランポス", "rome": "Ranposu",
 			"description": "Aggressive, carnivorous monsters that travel in packs. Even master hunters should avoid getting surrounded! Wide ranging, they are found in many different climates. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "velociprey",
 			"image": "velociprey",
@@ -714,7 +714,7 @@
 			]
 		},
 		{
-			"name": "White Velociprey", "kata": "ギアノス", "rome": "Gianosu",
+			"name": "White Velociprey", "japanese": "ギアノス", "rome": "Gianosu",
 			"description": "A species very similar to, and often found in the company of, Velociprey. Their white skin is beautiful, but their temperament is not. Much like their blue cousins, they attack in deadly packs. <sub>[Monster Hunter Freedom 2]</sub>",
 			"icon": "giaprey",
 			"image": "giaprey",
@@ -752,7 +752,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Velocidrome", "kata": "ドスランポス", "rome": "Dosuranposu",
+			"name": "Velocidrome", "japanese": "ドスランポス", "rome": "Dosuranposu",
 			"description": "The alpha monster that leads a Velociprey pack. Larger and with a more prominent crest. Highly territorial, but will retreat to a safe place when injured. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "velocidrome",
 			"image": "velocidrome",
@@ -831,7 +831,7 @@
 			]
 		},
 		{
-			"name": "Genprey", "kata": "ゲネポス", "rome": "Geneposu",
+			"name": "Genprey", "japanese": "ゲネポス", "rome": "Geneposu",
 			"description": "Subspecies of Velociprey mainly found in deserts. They travel in packs. Their large fangs and claws contain a neurotoxin that is used to stun and paralyze prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "genprey",
 			"image": "genprey",
@@ -907,7 +907,7 @@
 			]
 		},
 		{
-			"name": "Gendrome", "kata": "ドスゲネポス", "rome": "Dosugeneposu",
+			"name": "Gendrome", "japanese": "ドスゲネポス", "rome": "Dosugeneposu",
 			"description": "The alpha monster that leads a Genprey pack. They are larger and have a more prominent crest. Found in the desert. They can paralyze prey using their toxic fangs and claws. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "gendrome",
 			"image": "gendrome",
@@ -983,7 +983,7 @@
 			]
 		},
 		{
-			"name": "Ioprey", "kata": "イーオス", "rome": "Īosu",
+			"name": "Ioprey", "japanese": "イーオス", "rome": "Īosu",
 			"description": "A subspecies of Velociprey often found in subtropical zones. Sacs in their throat contain a powerful poison that slowly drains the Health of their prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "ioprey",
 			"image": "ioprey",
@@ -1058,7 +1058,7 @@
 			]
 		},
 		{
-			"name": "Iodrome", "kata": "ドスイーオス", "rome": "Dosuiosu",
+			"name": "Iodrome", "japanese": "ドスイーオス", "rome": "Dosuiosu",
 			"description": "Alpha monster of an Ioprey pack. Larger and with a more prominent crest. Found in tropical zones. Their poison saps the life force of its prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "iodrome",
 			"image": "iodrome",
@@ -1134,7 +1134,7 @@
 			]
 		},
 		{
-			"name": "Rathalos", "kata": "リオレウス", "rome": "Rioreusu",
+			"name": "Rathalos", "japanese": "リオレウス", "rome": "Rioreusu",
 			"description": "Male wyvern that keeps a nest and patrols its territory from the air in search of prey. Its claws are filled with poison that weakens its prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "rathalos",
 			"image": "rathalos",
@@ -1269,7 +1269,7 @@
 			]
 		},
 		{
-			"name": "Azure Rathalos", "kata": "リオレウス亜種", "rome": "Rioreusu Ashu",
+			"name": "Azure Rathalos", "japanese": "リオレウス亜種", "rome": "Rioreusu Ashu",
 			"description": "An azure-colored subspecies of Rathalos. More mobile than their standard cousin, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "azure-rathalos",
 			"image": "azure_rathalos",
@@ -1353,7 +1353,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Silver Rathalos", "kata": "リオレウス希少種", "rome": "Rioreusu Kishou Shu",
+			"name": "Silver Rathalos", "japanese": "リオレウス希少種", "rome": "Rioreusu Kishou Shu",
 			"description": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "silver-rathalos",
 			"image": "silver_rathalos",
@@ -1410,7 +1410,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Rathian", "kata": "リオレイア", "rome": "Rioreia",
+			"name": "Rathian", "japanese": "リオレイア", "rome": "Rioreia",
 			"description": "Female wyvern to the male Rathalos. Unlike its male counterpart, it usually patrols its territory by foot. Its tail spikes are filled with poison. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "rathian",
 			"image": "rathian",
@@ -1543,7 +1543,7 @@
 			]
 		},
 		{
-			"name": "Pink Rathian", "kata": "リオレイア(亜種)", "rome": "Rioreia Ashu",
+			"name": "Pink Rathian", "japanese": "リオレイア(亜種)", "rome": "Rioreia Ashu",
 			"description": "A subspecies of Rathian with vibrant pink scales. Pink Rathian wield their toxic tails more skillfully than normal Rathian, using a wide variety of attacks to weaken their prey before eventually moving in for the kill. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "pink-rathian",
 			"image": "pink_rathian",
@@ -1625,7 +1625,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Gold Rathian", "kata": "リオレイア希少種", "rome": "Rioreia Kishou Shu",
+			"name": "Gold Rathian", "japanese": "リオレイア希少種", "rome": "Rioreia Kishou Shu",
 			"description": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "gold-rathian",
 			"image": "gold_rathian",
@@ -1679,7 +1679,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Yian Kut-Ku", "kata": "イャンクック", "rome": "Iyankukku",
+			"name": "Yian Kut-Ku", "japanese": "イャンクック", "rome": "Iyankukku",
 			"description": "A bird-like wyvern with a huge beak and large ears. With its sensitive hearing it dislikes loud noises. Smaller but faster than other wyverns. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "yian-kut-ku",
 			"image": "yian_kut_ku",
@@ -1775,7 +1775,7 @@
 			]
 		},
 		{
-			"name": "Blue Yian Kut-Ku", "kata": "イャンクック亜種", "rome": "Iyankukku Ashu",
+			"name": "Blue Yian Kut-Ku", "japanese": "イャンクック亜種", "rome": "Iyankukku Ashu",
 			"description": "A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "blue-kut-ku",
 			"image": "blue_yian_kut_ku",
@@ -1821,7 +1821,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Gypceros", "kata": "ゲリョス", "rome": "Geryosu",
+			"name": "Gypceros", "japanese": "ゲリョス", "rome": "Geryosu",
 			"description": "A wyvern that can generate bright flashes of light with its prominent head crest. Its rubbery hide resists damage, and it can spit a poisonous substance. <sub>[Monster Hunter (US)]",
 			"icon": "gypceros",
 			"image": "gypceros",
@@ -1916,7 +1916,7 @@
 			]
 		},
 		{
-			"name": "Purple Gypceros", "kata": "ゲリョス(亜種)", "rome": "Geryosu Ashu",
+			"name": "Purple Gypceros", "japanese": "ゲリョス(亜種)", "rome": "Geryosu Ashu",
 			"description": "A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "purple-gypceros",
 			"image": "purple_gypceros",
@@ -1964,7 +1964,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Khezu", "kata": "フルフル", "rome": "Furufuru",
+			"name": "Khezu", "japanese": "フルフル", "rome": "Furufuru",
 			"description": "Loathsome wyverns that live inside caves. Near blind, they detect their prey by smell. They are capable of generating electric shocks, which they use to paralyze their prey. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "khezu",
 			"image": "khezu",
@@ -2058,7 +2058,7 @@
 			]
 		},
 		{
-			"name": "Red Khezu", "kata": "フルフル(亜種)", "rome": "Furufuru Ashu",
+			"name": "Red Khezu", "japanese": "フルフル(亜種)", "rome": "Furufuru Ashu",
 			"description": "A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "red-khezu",
 			"image": "red_khezu",
@@ -2105,7 +2105,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Plesioth", "kata": "ガノトトス", "rome": "Ganototosu",
+			"name": "Plesioth", "japanese": "ガノトトス", "rome": "Ganototosu",
 			"description": "An enormous, flightless, aquatic wyvern with wings that have evolved into fins for swimming. Although superficially fish-like, they can move on land as well. They love frogs. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "plesioth",
 			"image": "plesioth",
@@ -2194,7 +2194,7 @@
 			]
 		},
 		{
-			"name": "Green Plesioth", "kata": "ガノトトス亜種", "rome": "Ganototosu Ashu",
+			"name": "Green Plesioth", "japanese": "ガノトトス亜種", "rome": "Ganototosu Ashu",
 			"description": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature's movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "green-plesioth",
 			"image": "green_plesioth",
@@ -2242,7 +2242,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Cephalos", "kata": "ガレオス", "rome": "Gareosu",
+			"name": "Cephalos", "japanese": "ガレオス", "rome": "Gareosu",
 			"description": "Wyverns found only in the desert. They resemble a Plesioth, but live and &#8220;swim&#8221; in sand rather than water. They seldom appear above land, but when their hearing is disturbed... <sub>[Monster Hunter (US)]</sub>",
 			"icon": "cephalos",
 			"image": "cephalos",
@@ -2337,7 +2337,7 @@
 			]
 		},
 		{
-			"name": "Cephadrome", "kata": "ドスガレオス", "rome": "Dosugareosu",
+			"name": "Cephadrome", "japanese": "ドスガレオス", "rome": "Dosugareosu",
 			"description": "The alpha monster form of the Cephalos. Larger and armored with black scales, they fit the appearance of a leader perfectly. Their fins hold a paralyzing toxin. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "cephadrome",
 			"image": "cephadrome",
@@ -2432,7 +2432,7 @@
 			]
 		},
 		{
-			"name": "Monoblos", "kata": "モノブロス", "rome": "Monoburosu",
+			"name": "Monoblos", "japanese": "モノブロス", "rome": "Monoburosu",
 			"description": "Large-horned wyvern found in deserts. The giant horn makes their attacks very dangerous. Without breath attack. Their ear-splitting roar is the bane of hunters. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "monoblos",
 			"image": "monoblos",
@@ -2518,7 +2518,7 @@
 			]
 		},
 		{
-			"name": "White Monoblos", "kata": "モノブロス亜種", "rome": "Monoburosu Ashu",
+			"name": "White Monoblos", "japanese": "モノブロス亜種", "rome": "Monoburosu Ashu",
 			"description": "A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "white-monoblos",
 			"image": "white_monoblos",
@@ -2571,7 +2571,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Diablos", "kata": "ディアブロス", "rome": "Diaburosu",
+			"name": "Diablos", "japanese": "ディアブロス", "rome": "Diaburosu",
 			"description": "A two-horned wyvern found in deserts. They are capable of burrowing into the sand to attack prey from below. It's confirmed that they have a subspecies called Monoblos. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "diablos",
 			"image": "diablos",
@@ -2682,7 +2682,7 @@
 			]
 		},
 		{
-			"name": "Black Diablos", "kata": "ディアブロス亜種", "rome": "Diaburosu Ashu",
+			"name": "Black Diablos", "japanese": "ディアブロス亜種", "rome": "Diaburosu Ashu",
 			"description": "These black-shelled Diablos are treated as a subspecies, but are actually just normal female Diablos in heat. The color change is a warning to other creatures, as they tend to become extremely aggressive during mating season. <sub>[Monster Hunter 3U]</sub>",
 			"icon": "black-diablos",
 			"image": "black_diablos",
@@ -2734,7 +2734,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Gravios", "kata": "グラビモス", "rome": "Gurabimosu",
+			"name": "Gravios", "japanese": "グラビモス", "rome": "Gurabimosu",
 			"description": "A large wyvern found in volcanic zones. It possesses a fiery breath-attack and can emit a sleeping gas. Their scales are extremely hard, deflecting most weapon attacks. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "gravios",
 			"image": "gravios",
@@ -2856,7 +2856,7 @@
 			]
 		},
 		{
-			"name": "Black Gravios", "kata": "グラビモス亜種", "rome": "Gurabimosu Ashu",
+			"name": "Black Gravios", "japanese": "グラビモス亜種", "rome": "Gurabimosu Ashu",
 			"description": "A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray. <sub>[Monster Hunter 4U]</sub>",
 			"icon": "black-gravios",
 			"image": "black_gravios",
@@ -2911,7 +2911,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Basarios", "kata": "バサルモス", "rome": "Basarumosu",
+			"name": "Basarios", "japanese": "バサルモス", "rome": "Basarumosu",
 			"description": "A large wyvern found in volcanic zones. They are the juvenile form of the Gravios. They have a steel-like carapace that requires powerful weapons to crack. Emits poison gas. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "basarios",
 			"image": "basarios",
@@ -3033,7 +3033,7 @@
 			]
 		},
 		{
-			"name": "Kirin", "kata": "キリン", "rome": "Kirin",
+			"name": "Kirin", "japanese": "キリン", "rome": "Kirin",
 			"description": "Said to glow a faint blue. Few have seen it so details are scarce. It's apparently capable of calling forth lightning at will. Its material is very valuable. <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "kirin",
@@ -3123,7 +3123,7 @@
 			"unknown": true
 		},
 		{
-			"name": "Lao-Shan Lung", "kata": "ラオシャンロン", "rome": "Raoshanron",
+			"name": "Lao-Shan Lung", "japanese": "ラオシャンロン", "rome": "Raoshanron",
 			"description": "A giant dragon few have seen and lived to tell the tale. When on a rampage it wreaks havoc on all in its path. The guild has built a fortress to repel the beast. Will it hold? <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "lao_shan_lung",
@@ -3233,7 +3233,7 @@
 			"unknown": true
 		},
 		{
-			"name": "Ashen Lao-Shan Lung", "kata": "ラオシャンロン亜種", "rome": "Raoshanron Ashu",
+			"name": "Ashen Lao-Shan Lung", "japanese": "ラオシャンロン亜種", "rome": "Raoshanron Ashu",
 			"description": "This subspecies of is Lao-Shan Lung characterized by a bluish shell. The color of its shell is determined by the minerals it takes in while its shell is forming. This subspecies incorporates harder minerals, and is also known as the rocky mountain dragon. <sub>[Monster Hunter Frontier]</sub>",
 			"icon": "unknown",
 			"image": "ashen_lao_shan_lung",
@@ -3288,7 +3288,7 @@
 			"gOnly": true
 		},
 		{
-			"name": "Fatalis", "kata": "ミラボレアス", "rome": "Miraboreasu",
+			"name": "Fatalis", "japanese": "ミラボレアス", "rome": "Miraboreasu",
 			"description": "A legendary black dragon said to have prowled these lands from the days of old. A monster shrouded in mystery... <sub>[Monster Hunter (US)]</sub>",
 			"icon": "unknown",
 			"image": "fatalis",
@@ -3366,7 +3366,7 @@
 			"unknown": true
 		},
 		{
-			"name": "Crimson Fatalis", "kata": "ミラボレアス(紅龍)", "rome": "Miraboreasu Kou Ryuu",
+			"name": "Crimson Fatalis", "japanese": "ミラボレアス(紅龍)", "rome": "Miraboreasu Kou Ryuu",
 			"description": "It is said that this is an especially old Fatalis whose scales have turned red from years of exposure to volcanic heat. <sub>[no known sources]</sub>",
 			"icon": "unknown",
 			"image": "crimson_fatalis",

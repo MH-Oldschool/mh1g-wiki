@@ -488,7 +488,7 @@ function generateItemDataJS(weaponData, armorData) {
 			}
 
 			// This has to be at the end for all the searches to work
-			item.name = `${ item.name } <span class="kana">${ item.japanese }</span>`;
+			item.name = `${ item.name } <span class="japanese">${ item.japanese }</span>`;
 		});
 		var formattedData = `window.items=${JSON.stringify(itemData.items)};`;
 
