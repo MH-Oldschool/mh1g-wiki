@@ -549,7 +549,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Poison Thrw Knf",
+			"name":"Poison Throwing Knife",
 			"japanese":"毒投げナイフ",
 			"icon":"purple-icon knife-icon",
 			"description":"Throwing knife with a poison edge. Has a toxic effect. (Supply Item)",
@@ -562,7 +562,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Sleeping Thr Knf",
+			"name":"Sleep Throwing Knife",
 			"japanese":"眠り投げナイフ",
 			"icon":"cyan-icon knife-icon",
 			"description":"Throwing knife with an edge daubed with sleeping powder. (Supply Item)",
@@ -575,7 +575,7 @@
 			"mhg":true
 		},
 		{
-			"name":"Paralyze Thr Knf",
+			"name":"Paralysis Throwing Knife",
 			"japanese":"麻痺投げナイフ",
 			"icon":"yellow-icon knife-icon",
 			"description":"Throwing knife with a paralysis toxin coated edge. (Supply Item)",
@@ -2574,7 +2574,7 @@
 			"acquire":"Carve from Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>. Rewarded for hunting Velociprey and Velocidrome<span class=\"mhg\"> in Low and High Rank</span>."
 		},
 		{
-			"name":"Velociprey Scle+",
+			"name":"Velociprey Scale+",
 			"japanese":"ランポスの上鱗",
 			"icon":"blue-icon scale-icon",
 			"description":"Scale stripped from a Velociprey. It can be made into light, durable armor.",

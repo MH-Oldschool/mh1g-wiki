@@ -704,7 +704,7 @@
 				]},
 				{"name":"G Rank","parts":[
 					{"n":"Velociprey Hide+","p":45},
-					{"n":"Velociprey Scle+","p":30},
+					{"n":"Velociprey Scale+","p":30},
 					{"n":"Velociprey Fang","p":25}
 				]}
 			],
@@ -820,7 +820,7 @@
 				{"name":"G Rank","parts":[
 					{"n":"Velocidrome Claw","p":54},
 					{"n":"Velociprey Hide+","p":30},
-					{"n":"Velociprey Scle+","p":15},
+					{"n":"Velociprey Scale+","p":15},
 					{"n":"Velocidrome Head","p":1}
 				]}
 			],
