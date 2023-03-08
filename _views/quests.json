@@ -13838,5 +13838,117 @@
 				]
 			}
 		]
-	}
+	},
+	"trainingUnlocks":[
+		{
+			"name":"Yian Kut-Ku",
+			"first":"Great Sword",
+			"require":"3&starf; Slay the Yian Kut-Ku!",
+			"weapons":[
+				{"name":"Bowgun","times":3},
+				{"name":"Sword","times":5},
+				{"name":"Lance","times":10},
+				{"name":"Hammer","times":15}
+			]
+		},
+		{
+			"name":"Cephadrome",
+			"first":"Hammer",
+			"require":"4&starf; The Land Shark",
+			"weapons":[
+				{"name":"Great Sword","times":2},
+				{"name":"Lance","times":4},
+				{"name":"Sword","times":6},
+				{"name":"Bowgun","times":8}
+			]
+		},
+		{
+			"name":"Gypceros",
+			"first":"Lance",
+			"require":"4&starf; Slay the Gypceros!",
+			"weapons":[
+				{"name":"Great Sword","times":3},
+				{"name":"Bowgun","times":5},
+				{"name":"Sword","times":10},
+				{"name":"Hammer","times":15}
+			]
+		},
+		{
+			"name":"Rathalos",
+			"first":"Hammer",
+			"require":"5&starf; Attack of the Rathalos",
+			"weapons":[
+				{"name":"Bowgun","times":4},
+				{"name":"Sword","times":8},
+				{"name":"Lance","times":13},
+				{"name":"Great Sword","times":18}
+			]
+		},
+		{
+			"name":"Basarios",
+			"first":"Bowgun",
+			"require":"5&starf; Basarios: Unseen Peril",
+			"weapons":[
+				{"name":"Sword","times":4},
+				{"name":"Hammer","times":8},
+				{"name":"Lance","times":13},
+				{"name":"Great Sword","times":18}
+			]
+		},
+		{
+			"name":"Rathian",
+			"first":"Bowgun",
+			"require":"5&starf; Slay the Rathian!",
+			"weapons":[
+				{"name":"Lance","times":5},
+				{"name":"Sword","times":9},
+				{"name":"Great Sword","times":15},
+				{"name":"Hammer","times":20}
+			]
+		},
+		{
+			"name":"Plesioth",
+			"first":"Great Sword",
+			"require":"5&starf; Water Wyvern in the Desert",
+			"weapons":[
+				{"name":"Lance","times":3},
+				{"name":"Bowgun","times":5},
+				{"name":"Hammer","times":7},
+				{"name":"Sword","times":10}
+			]
+		},
+		{
+			"name":"Monoblos",
+			"first":"Lance",
+			"require":"6&starf; Horn of the Monoblos",
+			"weapons":[
+				{"name":"Great Sword","times":2},
+				{"name":"Bowgun","times":4},
+				{"name":"Hammer","times":6},
+				{"name":"Sword","times":8}
+			]
+		},
+		{
+			"name":"Khezu",
+			"first":"Bowgun",
+			"require":"6&starf; The Shadow in the Cave",
+			"weapons":[
+				{"name":"Great Sword","times":4},
+				{"name":"Lance","times":8},
+				{"name":"Sword","times":13},
+				{"name":"Hammer","times":18}
+			]
+		},
+		{
+			"name":"Gravios",
+			"first":"Bowgun",
+			"require":"6&starf; Terror of the Gravios",
+			"weapons":[
+				{"name":"Hammer","times":3},
+				{"name":"Sword","times":6},
+				{"name":"Great Sword","times":9},
+				{"name":"Lance","times":12}
+			]
+		}
+	]
 }

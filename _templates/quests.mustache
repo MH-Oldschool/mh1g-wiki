@@ -170,6 +170,48 @@
 	</article>
 </details>
 
+<details>
+	<summary>
+		How to unlock Training Quests
+	</summary>
+
+	<article>
+		<p>
+			Clear the given Village quest to unlock the first weapon training for that monster. Subsequent weapons training quests require hunting that monster a given number of times, in Village or Town quests.
+		</p>
+
+		<div class="training-unlocks-container">
+			{{#trainingUnlocks}}
+				<div class="column">
+					<h2>{{name}}</h2>
+
+					<h3>
+						Clear {{&require}}<br/>
+						for {{first}} Training
+					</h3>
+
+					<table class="training-unlock-counts">
+						<thead>
+							<tr>
+								<th>Weapon</th>
+								<th># of Hunts</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{#weapons}}
+								<tr>
+									<th>{{name}}</th>
+									<td>{{times}}</td>
+								</tr>
+							{{/weapons}}
+						</tbody>
+					</table>
+				</div>
+			{{/trainingUnlocks}}
+		</div>
+	</article>
+</details>
+
 <details class="mhg">
 	<summary>
 		Crowns and Subspecies Quests
