@@ -4498,7 +4498,7 @@
 									{"name":"Earth Crystal","icon":"white-icon stone-icon","percent":30},
 									{"name":"Machalite Ore","icon":"blue-icon stone-icon","percent":16},
 									{"name":"Dragonite Ore","icon":"green-icon stone-icon","percent":8},
-									{"name":"Union Ore","icon":"-icon stone-icon","percent":5},
+									{"name":"Union Ore","icon":"pink-icon stone-icon","percent":5},
 									{"name":"Ruststone","icon":"gray-icon mystery-icon","percent":1}
 								],
 								"itemsG":[
