@@ -285,9 +285,22 @@ ready(() => {
 		0
 	];
 
-	// function isMondayStart() {
-	// 	return document.body.classList.contains("monday-start");
-	// }
+	function isMondayStart() {
+		return document.body.classList.contains("monday-start");
+	}
+	function getIntDay(myDate) {
+		var myDay = myDate.day();
+
+		if (isMondayStart()) {
+			if (myDay == 0) {
+				return 6;
+			}
+
+			return myDay - 1;
+		}
+
+		return myDay;
+	}
 
 	const MILLISECONDS_PER_DAY = 86400000;
 	function populateStartTime() {
@@ -310,7 +323,6 @@ ready(() => {
 		var nowOnFirstDay = moment({ year: year, month: monthIndex, date: 1 });
 
 		if (nowOnFirstDay.isAfter(eventRotationStart)) {
-			// return (version == "1" ? MH1_EVENTS_ROTATION.length : MHG_EVENTS_ROTATION.length) - 1;
 			return 1;
 		}
 
@@ -375,7 +387,7 @@ ready(() => {
 		document.getElementById("calendar-title").innerText = `${ MONTH_NAMES[monthIndex] } ${ year }`;
 
 		var firstDay = moment({ year: year, month: monthIndex, date: 1 });
-		var firstDayOfWeek = parseInt(firstDay.format("e"));
+		var firstDayOfWeek = getIntDay(firstDay);
 
 		for (let i = 0; i < 7; i++) {
 			if (i < firstDayOfWeek) {
@@ -395,7 +407,7 @@ ready(() => {
 
 		// Hide excess days
 		var lastDay = moment({ year: year, month: monthIndex, date: dayCount });
-		var lastDayOfWeek = parseInt(lastDay.format("e"));
+		var lastDayOfWeek = getIntDay(lastDay);
 		let lastDayIndex = (dayCount - 1) + firstDayOfWeek;
 		for (let i = calendarDays.length - 1; i > 28; i--) {
 			if (i > lastDayIndex) {
@@ -423,13 +435,6 @@ ready(() => {
 		var eventIndex1 = getFirstDayEventIndex(year, monthIndex, "1");
 		var eventIndexG = getFirstDayEventIndex(year, monthIndex, "g");
 		for (var i = 0; i < dayCount; i++) {
-			// If it's the last day of the month, and we're past the event deadline,
-			// we should show the first event
-			// if (i == dayCount - 1 && pastEventDeadline) {
-			// 	eventIndex1 = 0;
-			// 	eventIndexG = 0;
-			// }
-
 			var currentEvent1 = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex1]];
 
 			dayEvents1[firstDayOfWeek + i].classList.remove("gather-quest", "hunt-quest", "capture-quest", "special-quest");
@@ -571,31 +576,31 @@ ready(() => {
 		setMonthTable(calendarDate.year(), calendarDate.month());
 	});
 
-	// var weekStartToggle = document.getElementById("week-start-toggle");
-	// function setWeekStart(weekStart, setCheckbox) {
-	// 	if (weekStart == "s") {
-	// 		document.body.classList.remove("monday-start");
-	// 		document.body.classList.add("sunday-start");
-	// 	}
-	// 	else {
-	// 		document.body.classList.add("monday-start");
-	// 		document.body.classList.remove("sunday-start");
-	// 	}
+	var weekStartToggle = document.getElementById("week-start-toggle");
+	function setWeekStart(weekStart, setCheckbox) {
+		if (weekStart == "s") {
+			document.body.classList.remove("monday-start");
+			document.body.classList.add("sunday-start");
+		}
+		else {
+			document.body.classList.add("monday-start");
+			document.body.classList.remove("sunday-start");
+		}
 
-	// 	if (setCheckbox) {
-	// 		weekStartToggle.checked = weekStart == "m";
-	// 	}
+		if (setCheckbox) {
+			weekStartToggle.checked = weekStart == "m";
+		}
 
-	// 	window.localStorage.setItem("weekStart", weekStart);
-	// }
-	// weekStartToggle.addEventListener("change", (event) => {
-	// 	setWeekStart(isMondayStart() ? "s" : "m");
-	// 	initCalendar();
-	// });
+		window.localStorage.setItem("weekStart", weekStart);
+	}
+	weekStartToggle.addEventListener("change", (event) => {
+		setWeekStart(isMondayStart() ? "s" : "m");
+		initCalendar();
+	});
 
-	// if (window.localStorage.getItem("weekStart") == "m") {
-	// 	setWeekStart("m", true);
-	// }
+	if (window.localStorage.getItem("weekStart") == "m") {
+		setWeekStart("m", true);
+	}
 
 	initCalendar();
 
