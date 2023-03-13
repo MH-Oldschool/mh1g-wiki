@@ -1,14 +1,10 @@
 ready(() => {
-	/*
-		TODO: for now I have to change this when DST changes in Germany (server
-			timezone), but there should be a way to use moment.js or another library
-			to just get the time from a given timezone properly
-	*/
-	const START_HOUR = 23; // DST: 22; not-DST: 23
+	const SERVER_TZ = "Europe/Berlin";
+	const START_HOUR = 0; // Midnight, I hope
 	const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = new Date(Date.UTC(2023, 0, 10, START_HOUR, 0, 0));
+	const SHOP_ROTATION_START = moment.tz(`2023-01-10T${ START_HOUR.toString().padStart(2, "0") }:00:00`, SERVER_TZ);
 	const SHOP_SPECIALS = [
 		{
 			title: "No shop specials currently active",
@@ -289,92 +285,81 @@ ready(() => {
 		0
 	];
 
-	function isMondayStart() {
-		return document.body.classList.contains("monday-start");
-	}
-	function getIntDay(myDate) {
-		let myDay = myDate.getDay();
-
-		if (isMondayStart()) {
-			if (myDay == 0) {
-				return 6;
-			}
-
-			return myDay - 1;
-		}
-
-		return myDay;
-	}
+	// function isMondayStart() {
+	// 	return document.body.classList.contains("monday-start");
+	// }
 
 	const MILLISECONDS_PER_DAY = 86400000;
-	function dateToDays(date) {
-		let timestamp = Date.parse(date);
-		// divide by milliseconds in a day, and truncate
-		return Math.floor(timestamp / MILLISECONDS_PER_DAY);
-	}
 	function populateStartTime() {
-		document.getElementById("event-time-gmt").innerText = START_HOUR;
+		var now = moment.tz(SERVER_TZ);
+		var startTime = moment.tz({
+			year: now.year(),
+			month: now.month(),
+			day: now.date(),
+			hour: START_HOUR
+		}, SERVER_TZ);
 
-		var now = new Date;
-		var startTime = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR, 0, 0));
-		document.getElementById("event-special-time").innerText = startTime.toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
+		document.getElementById("event-time-gmt").innerText = startTime.tz("Etc/GMT").format("h");
+		document.getElementById("event-special-time").innerText = startTime.tz(moment.tz.guess()).format("h:mm:ss A");
 	}
 	populateStartTime();
 
 	// Get the event index based on the current time
-	function getFirstDayEventIndex(year, monthIndex) {
-		const MILLISECONDS_PER_DAY = 86400000;
+	function getFirstDayEventIndex(year, monthIndex, version) {
+		var eventRotationStart = moment.tz({ year: year, month: monthIndex, date: 1, hour: START_HOUR }, SERVER_TZ);
+		var nowOnFirstDay = moment({ year: year, month: monthIndex, date: 1 });
 
-		var eventRotationStart = Date.UTC(year, monthIndex, 0, START_HOUR, 0, 0);
-		var now = new Date();
-		var firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes(), 0));
-
-		var daysSinceRotation = Math.floor((firstOfMonth - eventRotationStart) / MILLISECONDS_PER_DAY);
-		if (daysSinceRotation < 0) {
-			daysSinceRotation = MH1_EVENTS_ROTATION.length + daysSinceRotation;
+		if (nowOnFirstDay.isAfter(eventRotationStart)) {
+			// return (version == "1" ? MH1_EVENTS_ROTATION.length : MHG_EVENTS_ROTATION.length) - 1;
+			return 1;
 		}
 
-		return daysSinceRotation;
+		return 0;
 	}
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
-		let ROTATION_LENGTH = SHOP_SPECIAL_ROTATION.length;
-		let now = new Date();
-		let firstOfMonth = Date.parse(new Date(year, monthIndex, 1, now.getHours(), now.getMinutes()));
-		// Add one rotation's worth of days until firstOfMonth is greater than the start date
-		while (firstOfMonth < SHOP_ROTATION_START) {
-			firstOfMonth += ROTATION_LENGTH * MILLISECONDS_PER_DAY;
-		}
-		let daysSinceStart = (firstOfMonth - SHOP_ROTATION_START) / MILLISECONDS_PER_DAY;
-		let cyclesSinceStart = daysSinceStart / ROTATION_LENGTH;
-		// Use parseInt to truncate decimals
-		let index = parseInt(ROTATION_LENGTH * (cyclesSinceStart - parseInt(cyclesSinceStart)));
-		while (index < 0) index += ROTATION_LENGTH;
+		var ROTATION_LENGTH = SHOP_SPECIAL_ROTATION.length;
+		var now = moment.tz(SERVER_TZ);
+		var firstOfMonth = moment.tz({
+			year: year,
+			month: monthIndex,
+			date: 1,
+			hour: now.hour()
+		}, SERVER_TZ);
 
-		return index;
+		// Find the most recent start of the rotation
+		var latestRotationStart = SHOP_ROTATION_START;
+		if (firstOfMonth.isBefore(latestRotationStart)) {
+			let difference = latestRotationStart.diff(firstOfMonth, "days");
+			let cycles = Math.ceil(difference / ROTATION_LENGTH);
+			latestRotationStart.subtract(cycles * ROTATION_LENGTH, "days");
+		}
+		else {
+			let difference = firstOfMonth.diff(latestRotationStart, "days");
+			let cycles = Math.floor(difference / ROTATION_LENGTH);
+			latestRotationStart.add(cycles * ROTATION_LENGTH, "days");
+		}
+
+		return firstOfMonth.diff(latestRotationStart, "days");
 	}
 
 	var calendarDays = document.getElementById("calendar-tbody").getElementsByTagName("td");
 	var calendarWeeks = document.getElementsByClassName("calendar-week");
 	function getDaysInMonth(year, monthIndex) {
-		// Try and set the date at the next month, with day 0
-		// this should get the last day of the previous month
-		if (monthIndex == 11) year += 1;
-		monthIndex = (monthIndex + 1) % 12;
-		let lastDay = new Date(year, monthIndex, 0);
+		var thisMonth = moment.tz({ year: year, month: monthIndex }, SERVER_TZ);
 
-		return lastDay.getDate();
+		return thisMonth.daysInMonth();
 	}
 
 	function get1Event(givenDate) {
-		var firstDayEventIndex = getFirstDayEventIndex(givenDate.getFullYear(), givenDate.getMonth());
-		var eventIndex = (firstDayEventIndex + (givenDate.getDate() - 1)) % MH1_EVENTS_ROTATION.length;
+		var firstDayEventIndex = getFirstDayEventIndex(givenDate.year(), givenDate.month(), "1");
+		var eventIndex = (firstDayEventIndex + (givenDate.date() - 1)) % MH1_EVENTS_ROTATION.length;
 
 		return MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
 	}
 	function getGEvents(givenDate) {
-		var firstDayEventIndex = getFirstDayEventIndex(givenDate.getFullYear(), givenDate.getMonth());
-		var eventIndexG = (firstDayEventIndex + (givenDate.getDate() - 1)) % MHG_EVENTS_ROTATION.length;
+		var firstDayEventIndex = getFirstDayEventIndex(givenDate.year(), givenDate.month(), "g");
+		var eventIndexG = (firstDayEventIndex + (givenDate.date() - 1)) % MHG_EVENTS_ROTATION.length;
 		var currentEventsIndices = MHG_EVENTS_ROTATION[eventIndexG];
 
 		if (currentEventsIndices) {
@@ -389,8 +374,8 @@ ready(() => {
 	function setMonthTable(year, monthIndex) {
 		document.getElementById("calendar-title").innerText = `${ MONTH_NAMES[monthIndex] } ${ year }`;
 
-		let firstDay = new Date(year, monthIndex, 1);
-		let firstDayOfWeek = getIntDay(firstDay)
+		var firstDay = moment({ year: year, month: monthIndex, date: 1 });
+		var firstDayOfWeek = parseInt(firstDay.format("e"));
 
 		for (let i = 0; i < 7; i++) {
 			if (i < firstDayOfWeek) {
@@ -401,7 +386,7 @@ ready(() => {
 			}
 		}
 
-		let dayCount = getDaysInMonth(year, monthIndex);
+		var dayCount = firstDay.daysInMonth();
 		let calendarDayNumbers = document.getElementsByClassName("day-number");
 		for (let i = 0; i < dayCount; i++) {
 			calendarDayNumbers[i + firstDayOfWeek].innerText = (i + 1).toString();
@@ -409,8 +394,8 @@ ready(() => {
 		}
 
 		// Hide excess days
-		let lastDay = new Date(year, monthIndex, dayCount);
-		let lastDayOfWeek = getIntDay(lastDay);
+		var lastDay = moment({ year: year, month: monthIndex, date: dayCount });
+		var lastDayOfWeek = parseInt(lastDay.format("e"));
 		let lastDayIndex = (dayCount - 1) + firstDayOfWeek;
 		for (let i = calendarDays.length - 1; i > 28; i--) {
 			if (i > lastDayIndex) {
@@ -429,21 +414,21 @@ ready(() => {
 			calendarWeeks[calendarWeeks.length - 1].classList.remove("hidden");
 		}
 
-		var now = new Date();
-		var pastEventDeadline = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR) < Date.now();
+		var now = moment();
+		var pastEventDeadline = moment.tz({ year: now.year(), month: now.month(), date: now.date(), hour: START_HOUR }, SERVER_TZ).isBefore(now);
 
 		// Add events to the calendar
-		let firstDayEventIndex = getFirstDayEventIndex(year, monthIndex);
 		var dayEvents1 = document.getElementsByClassName("day-event-mh1");
 		var dayEventsG = document.getElementsByClassName("day-event-mhg");
-		var eventIndex1 = eventIndexG = firstDayEventIndex;
+		var eventIndex1 = getFirstDayEventIndex(year, monthIndex, "1");
+		var eventIndexG = getFirstDayEventIndex(year, monthIndex, "g");
 		for (var i = 0; i < dayCount; i++) {
 			// If it's the last day of the month, and we're past the event deadline,
 			// we should show the first event
-			if (i == dayCount - 1 && pastEventDeadline) {
-				eventIndex1 = 0;
-				eventIndexG = 0;
-			}
+			// if (i == dayCount - 1 && pastEventDeadline) {
+			// 	eventIndex1 = 0;
+			// 	eventIndexG = 0;
+			// }
 
 			var currentEvent1 = MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex1]];
 
@@ -496,9 +481,9 @@ ready(() => {
 		}
 
 		// Highlight current day
-		var today = new Date();
-		if (year == today.getFullYear() && monthIndex == today.getMonth()) {
-			calendarDays[firstDayOfWeek + today.getDate() - 1].classList.add("today");
+		var today = moment();
+		if (year == today.year() && monthIndex == today.month()) {
+			calendarDays[firstDayOfWeek + today.date() - 1].classList.add("today");
 		}
 	}
 
@@ -507,7 +492,7 @@ ready(() => {
 	function setCurrentEvent() {
 		const currentEventElement = document.getElementById("current-event");
 
-		var now = new Date();
+		var now = moment();
 		var currentEvent = get1Event(now);
 
 		var eventContent = document.getElementById("current-event-content");
@@ -553,61 +538,64 @@ ready(() => {
 			currentEventsSliderContainer.dataset.maxEvents = 0;
 		}
 	}
-	function setCurrentShopSpecial() {
-		let now = new Date();
-		let firstDayShopIndex = getFirstDayShopIndex(now.getFullYear(), now.getMonth());
+	function getCurrentShopSpecial() {
+		var now = moment.tz(SERVER_TZ);
+		var firstDayIndex = getFirstDayShopIndex(now.year(), now.month());
+		var shopIndex = (firstDayIndex + now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1}, SERVER_TZ), "days")) % SHOP_SPECIAL_ROTATION.length;
 
-		let shopIndex = (firstDayShopIndex + (now.getDate() - 1)) % SHOP_SPECIAL_ROTATION.length;
-		let currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
+		return SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
+	}
+	function setCurrentShopSpecial() {
+		var currentSpecial = getCurrentShopSpecial();
 
 		document.getElementById("current-special-title").innerText = currentSpecial.title;
 		document.getElementById("current-special-description").innerHTML = currentSpecial.description;
 	}
 
 	function initCalendar() {
-		var now = new Date();
-		setMonthTable(now.getFullYear(), now.getMonth());
+		var now = moment();
+		setMonthTable(now.year(), now.month());
 		setCurrentEvent();
 		setCurrentShopSpecial();
 	}
 
-	var calendarDate = new Date();
+	var calendarDate = moment();
 	document.getElementById("previous-month").addEventListener("click", () => {
-		calendarDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth() - 1, 1);
+		calendarDate.subtract(1, "month");
 
-		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
+		setMonthTable(calendarDate.year(), calendarDate.month());
 	});
 	document.getElementById("next-month").addEventListener("click", () => {
-		calendarDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth() + 1, 1);
+		calendarDate.add(1, "month");
 
-		setMonthTable(calendarDate.getFullYear(), calendarDate.getMonth());
+		setMonthTable(calendarDate.year(), calendarDate.month());
 	});
 
-	var weekStartToggle = document.getElementById("week-start-toggle");
-	function setWeekStart(weekStart, setCheckbox) {
-		if (weekStart == "s") {
-			document.body.classList.remove("monday-start");
-			document.body.classList.add("sunday-start");
-		}
-		else {
-			document.body.classList.add("monday-start");
-			document.body.classList.remove("sunday-start");
-		}
+	// var weekStartToggle = document.getElementById("week-start-toggle");
+	// function setWeekStart(weekStart, setCheckbox) {
+	// 	if (weekStart == "s") {
+	// 		document.body.classList.remove("monday-start");
+	// 		document.body.classList.add("sunday-start");
+	// 	}
+	// 	else {
+	// 		document.body.classList.add("monday-start");
+	// 		document.body.classList.remove("sunday-start");
+	// 	}
 
-		if (setCheckbox) {
-			weekStartToggle.checked = weekStart == "m";
-		}
+	// 	if (setCheckbox) {
+	// 		weekStartToggle.checked = weekStart == "m";
+	// 	}
 
-		window.localStorage.setItem("weekStart", weekStart);
-	}
-	weekStartToggle.addEventListener("change", (event) => {
-		setWeekStart(isMondayStart() ? "s" : "m");
-		initCalendar();
-	});
+	// 	window.localStorage.setItem("weekStart", weekStart);
+	// }
+	// weekStartToggle.addEventListener("change", (event) => {
+	// 	setWeekStart(isMondayStart() ? "s" : "m");
+	// 	initCalendar();
+	// });
 
-	if (window.localStorage.getItem("weekStart") == "m") {
-		setWeekStart("m", true);
-	}
+	// if (window.localStorage.getItem("weekStart") == "m") {
+	// 	setWeekStart("m", true);
+	// }
 
 	initCalendar();
 
@@ -628,7 +616,7 @@ ready(() => {
 	}
 	function activateEventsDialog(givenDate) {
 		const dialogDate = document.getElementById("dialog-date");
-		dialogDate.innerText = `${MONTH_NAMES[givenDate.getMonth()]} ${givenDate.getDate()}`
+		dialogDate.innerText = `${MONTH_NAMES[givenDate.month()]} ${givenDate.date()}`
 
 		if (getMHVersion() == 1) {
 			var event1 = get1Event(givenDate);
@@ -702,7 +690,7 @@ ready(() => {
 		toggleEventsDialog(true);
 	}
 	function handleCalendarDayClick(event) {
-		var givenDate = new Date(calendarDate.getFullYear(), calendarDate.getMonth(), this.dataset.day);
+		var givenDate = moment({ year: calendarDate.year(), month: calendarDate.month(), day: this.dataset.day });
 		activateEventsDialog(givenDate);
 	}
 	document.body.addEventListener("click", (event) => {
@@ -753,38 +741,29 @@ ready(() => {
 	});
 
 	var lastTimestamp = 0;
+	var now = moment();
+	var DEADLINE = moment.tz({ year: now.year(), month: now.month(), day: now.date(), hour: START_HOUR }, SERVER_TZ);
 	function getTimeToNextEvent() {
-		var now = new Date();
-		var milliseconds = Date.now();
-		var DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), START_HOUR);
+		var now = moment();
 		// Move deadline ahead a day if it's already passed
-		if (DEADLINE < milliseconds) {
-			DEADLINE = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + 1, START_HOUR);
+		if (DEADLINE.isBefore(now)) {
+			DEADLINE.add(1, "day");
 		}
 
-		return DEADLINE - milliseconds;
+		return moment.duration(DEADLINE.diff(now));
 	}
 
 	function updateCountdown() {
-		const MS_PER_MINUTE = 60000;
-
 		var remainingTime = getTimeToNextEvent();
 
 		var hours = document.getElementById("countdown-hours");
 		var minutes = document.getElementById("countdown-minutes");
 
-		var minutesLeft = remainingTime / MS_PER_MINUTE;
-		var hoursLeft = Math.floor(Math.ceil(minutesLeft) / 60);
-		if (minutesLeft % 60 == 0) {
-			hoursLeft += 1;
-		}
-
-		hours.innerText = hoursLeft.toString().padStart(2, "0");
-		minutes.innerText = ((Math.ceil(minutesLeft) % 60)).toString().padStart(2, "0");
+		hours.innerText = remainingTime.hours();
+		minutes.innerText = remainingTime.minutes().toString().padStart(2, "0");
 
 		// Schedule the next update to happen on the next minute
-		var now = new Date
-		setTimeout(updateCountdown, 1000 - now.getMilliseconds());
+		setTimeout(updateCountdown, 1000 - moment().milliseconds());
 	}
 	updateCountdown();
 });
