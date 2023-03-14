@@ -4,7 +4,12 @@ ready(() => {
 	const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 	// This gives us the local time when the rotation starts
-	const SHOP_ROTATION_START = moment.tz(`2023-01-10T${ START_HOUR.toString().padStart(2, "0") }:00:00`, SERVER_TZ);
+	const SHOP_ROTATION_START = moment.tz({
+		year: 2023,
+		month: 1,
+		date: 1,
+		hour: START_HOUR
+	}, SERVER_TZ);
 	const SHOP_SPECIALS = [
 		{
 			title: "No shop specials currently active",
@@ -544,9 +549,10 @@ ready(() => {
 		}
 	}
 	function getCurrentShopSpecial() {
-		var now = moment.tz(SERVER_TZ);
+		var now = moment.tz();
 		var firstDayIndex = getFirstDayShopIndex(now.year(), now.month());
-		var shopIndex = (firstDayIndex + now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1}, SERVER_TZ), "days")) % SHOP_SPECIAL_ROTATION.length;
+		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1, hour: now.hour() }, SERVER_TZ), "hours");
+		var shopIndex = (firstDayIndex + Math.floor(hoursSinceShopSwitched / 24)) % SHOP_SPECIAL_ROTATION.length;
 
 		return SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 	}
