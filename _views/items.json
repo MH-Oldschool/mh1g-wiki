@@ -9027,5 +9027,24 @@
 				}
 			]
 		}
+	],
+	"gifts":[
+		{"item":"Sap Plant","icon":"white-icon herb-icon","percent":10},
+		{"item":"Sm Bone Husk","icon":"white-icon husk-icon","percent":10},
+		{"item":"Potion","icon":"green-icon jar-icon","percent":10},
+		{"item":"Blue Mushroom","icon":"blue-icon mushroom-icon","percent":10},
+		{"item":"Special Mushroom","icon":"white-icon mushroom-icon","percent":10},
+		{"item":"Cricket","icon":"green-icon bait-icon","percent":8},
+		{"item":"Insect Husk","icon":"gray-icon bug-icon","percent":8},
+		{"item":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":8},
+		{"item":"Kut-Ku Scale","icon":"pink-icon scale-icon","percent":8},
+		{"item":"Sm Monster Bone","icon":"yellow-icon bone-icon","percent":6},
+		{"item":"Old Pickaxe","icon":"gray-icon pick-icon","percent":6},
+		{"item":"Scatterfish","icon":"gray-icon fish-icon","percent":1},
+		{"item":"Max Potion","icon":"yellow-icon powder-icon","percent":1},
+		{"item":"Machalite Ore","icon":"blue-icon stone-icon","percent":1},
+		{"item":"Power Seed","icon":"red-icon seed-icon","percent":1},
+		{"item":"Armor Seed","icon":"orange-icon seed-icon","percent":1},
+		{"item":"Godbug","icon":"white-icon bug-icon","percent":1}
 	]
 }

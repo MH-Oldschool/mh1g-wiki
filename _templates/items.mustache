@@ -178,6 +178,28 @@
 			</details>
 		{{/trades}}
 
+		<p>
+			If you have no items the Veggie Elder will accept in trade, there is a chance he will give you one of the following items:
+		</p>
+
+		<table class="mh1 w-auto">
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Chance</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				{{#gifts}}
+					<tr>
+						<td><span class="{{icon}}"></span><span>{{item}}</span></td>
+						<td>{{percent}}%</td>
+					</tr>
+				{{/gifts}}
+			</tbody>
+		</table>
+
 		<p class="mhg">
 			Trade 99 BBQ Tickets to any Veggie Elder to receive a Gourmet BBQ Spit.
 		</p>
