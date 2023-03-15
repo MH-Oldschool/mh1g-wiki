@@ -324,11 +324,11 @@ ready(() => {
 
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex, version) {
-		var eventRotationStart = moment.tz({ year: year, month: monthIndex, date: 1, hour: START_HOUR }, SERVER_TZ);
+		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 2, hour: START_HOUR }, SERVER_TZ);
 		var now = moment.tz(SERVER_TZ);
 		var nowOnFirstDay = moment.tz({ year: year, month: monthIndex, date: 1, hour: now.hour() }, SERVER_TZ);
 
-		if (nowOnFirstDay.isAfter(eventRotationStart)) {
+		if (nowOnFirstDay.isAfter(firstDayEventEnd)) {
 			return 1;
 		}
 
