@@ -325,7 +325,8 @@ ready(() => {
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex, version) {
 		var eventRotationStart = moment.tz({ year: year, month: monthIndex, date: 1, hour: START_HOUR }, SERVER_TZ);
-		var nowOnFirstDay = moment({ year: year, month: monthIndex, date: 1 });
+		var now = moment.tz(SERVER_TZ);
+		var nowOnFirstDay = moment.tz({ year: year, month: monthIndex, date: 1, hour: now.hour() }, SERVER_TZ);
 
 		if (nowOnFirstDay.isAfter(eventRotationStart)) {
 			return 1;
@@ -370,9 +371,9 @@ ready(() => {
 
 	function get1Event(givenDate) {
 		var firstDayEventIndex = getFirstDayEventIndex(givenDate.year(), givenDate.month(), "1");
-		var eventIndex = (firstDayEventIndex + (givenDate.date() - 1)) % MH1_EVENTS_ROTATION.length;
+		var eventIndex1 = (firstDayEventIndex + (givenDate.date() - 1)) % MH1_EVENTS_ROTATION.length;
 
-		return MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex]];
+		return MH1_EVENTS[MH1_EVENTS_ROTATION[eventIndex1]];
 	}
 	function getGEvents(givenDate) {
 		var firstDayEventIndex = getFirstDayEventIndex(givenDate.year(), givenDate.month(), "g");
