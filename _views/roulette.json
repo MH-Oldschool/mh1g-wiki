@@ -1,7 +1,7 @@
 {
 	"title": "Monster Hunter Wiki | Roulette",
 	"description": "",
-	"subtitle": "",
+	"subtitle": "<p>Choose a quest, pick which monsters you want to carve, set your luck armor skill, pet the poogie, and embark to see what you got from the quest! Quest reward outcomes emulate the real game to the best of my knowledge. See the \"How quest rewards work\" section on the <a href=\"/quests\">quests page</a> for details on how quest rewards work.</p>",
 	"head": "<link rel='stylesheet' href='css/quests.css'/><link rel='stylesheet' href='css/roulette.css'/><script type=\"text/javascript\" src=\"js/roulette.js\"></script>",
 	"onRoulette": true,
 	"gToggle": true

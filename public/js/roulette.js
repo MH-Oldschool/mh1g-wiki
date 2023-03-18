@@ -286,7 +286,8 @@ ready(() => {
 				"r=" + checkedQuest.dataset.rank,
 				"i=" + checkedQuest.dataset.index,
 				"m=" + encodeURIComponent(largeMonsters.join("+")),
-				"k=" + luck
+				"k=" + luck,
+				"p=" + document.getElementById("pet-the-poogie").checked ? "1" : "0"
 			];
 
 			getJSON(`/quest-results?${parameters.join("&")}`, (carveResults) => {
