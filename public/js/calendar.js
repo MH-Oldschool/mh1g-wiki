@@ -347,18 +347,15 @@ ready(() => {
 
 		// Find the most recent start of the rotation
 		var latestRotationStart = SHOP_ROTATION_START;
+		var difference = 0;
 		if (firstOfMonth.isBefore(latestRotationStart)) {
-			let difference = latestRotationStart.diff(firstOfMonth, "days");
-			let cycles = Math.ceil(difference / ROTATION_LENGTH);
-			latestRotationStart.subtract(cycles * ROTATION_LENGTH, "days");
+			difference = latestRotationStart.diff(firstOfMonth, "hours");
 		}
 		else {
-			let difference = firstOfMonth.diff(latestRotationStart, "days");
-			let cycles = Math.floor(difference / ROTATION_LENGTH);
-			latestRotationStart.add(cycles * ROTATION_LENGTH, "days");
+			difference = firstOfMonth.diff(latestRotationStart, "hours");
 		}
 
-		return firstOfMonth.diff(latestRotationStart, "days");
+		return Math.ceil(difference / 24) % ROTATION_LENGTH;
 	}
 
 	var calendarDays = document.getElementById("calendar-tbody").getElementsByTagName("td");
