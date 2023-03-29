@@ -41,27 +41,18 @@
 			"desc":"Increase your total Defense."
 		},
 		{
-			"name":"Dragon Resist",
+			"name":"Dragon Resistance",
 			"stages":[
-				"Dragon - 10",
-				"Dragon + 25"
+				"Dragon Res - 10",
+				"Dragon Res + 25"
 			],
 			"desc":"Reduce, or increase, your Dragon Element Resistance by the given amount."
 		},
 		{
-			"name":"Faint",
+			"name":"Fire Resistance",
 			"stages":[
-				"Faint x 2",
-				"Faint Halved",
-				"Faint Negated"
-			],
-			"desc":"Suffer the effects of Stun for twice as long, half as long, or not at all."
-		},
-		{
-			"name":"Fire Resist",
-			"stages":[
-				"Fire - 10",
-				"Fire + 25"
+				"Fire Res - 10",
+				"Fire Res + 25"
 			],
 			"desc":"Reduce, or increase, your Fire Element Resistance by the given amount."
 		},
@@ -89,11 +80,20 @@
 		{
 			"name": "Hunger",
 			"stages":[
-				"Hunger x 1.5<span class='details'> (actually 2x)</span>",
+				"Hunger Doubled (Hunger x 1.5)",
 				"Hunger Halved",
 				"Hunger Negated"
 			],
-			"desc":"Lose maximum Stamina over time twice as quickly, half as quickly, or not at all."
+			"desc":"Lose maximum Stamina over time twice as quickly, half as quickly, or not at all. (Mistakenly labelled as \"Hunger x 1.5\" in-game.)"
+		},
+		{
+			"name":"Knockout (Faint)",
+			"stages":[
+				"KO Duration Doubled",
+				"KO Duration Halved",
+				"KO Negated"
+			],
+			"desc":"Suffer the effects of Knockout for twice as long, half as long, or not at all. (May be called \"Faint\" in-game.)"
 		},
 		{
 			"name":"Luck",
@@ -101,13 +101,22 @@
 				"Bad Luck",
 				"Good Fortune"
 			],
-			"desc":"Worsen/improve chances to receive additional items in quest rewards (see \"How quest rewards work\" on the <a href='/quests'>Quests page</a>.)"
+			"desc":"Worsen/improve chances to receive additional items in quest rewards. (See \"How quest rewards work\" on the <a href='/quests'>Quests page</a>.)"
+		},
+		{
+			"name":"Paralysis (Stun)",
+			"stages":[
+				"Paralysis Duration Doubled",
+				"Paralysis Duration Halved",
+				"Paralysis Negated"
+			],
+			"desc":"Suffer the effects of Paralysis for twice as long, half as long, or not at all. (May be called \"Stun\" in-game.)"
 		},
 		{
 			"name":"Poison",
 			"stages":[
-				"Poison x 2",
-				"Poison Halved",
+				"Poison Duration Doubled",
+				"Poison Duration Halved",
 				"Poison Negated"
 			],
 			"desc":"Suffer the effects of Poison for twice as long, half as long, or not at all."
@@ -122,7 +131,7 @@
 				"Reload + 1",
 				"Reload + 2"
 			],
-			"desc":"Reduces reload speed by one, or two, points (see the Reload section under About Weapons in the <a href='/weapons'>Weapons page</a>.)"
+			"desc":"Reduces reload speed by one, or two, points. (See the Reload section under About Weapons in the <a href='/weapons'>Weapons page</a>.)"
 		},
 		{
 			"name":"Sharpness Restoration",
@@ -130,28 +139,20 @@
 				"Sharpness Restoration + 25%",
 				"Sharpness Restoration + 50%"
 			],
-			"desc":"Restore more hits when sharpening your weapon.<span class='details'> A Whetstone or Knife Mackaral normally restore 150 hits, and a Mini-Whetstone 100 hits. +25% increases these to 187 and 125 respectively, +50% increases to 225 and 150. See the Sharpness section under About Weapons in the <a href='/weapons'>Weapons page</a>."
+			"desc":"Restore more hits when sharpening your weapon.<span class='details'> A Whetstone or Knife Mackaral normally restore 150 hits, and a Mini-Whetstone 100 hits. +25% increases these to 187 and 125 respectively, +50% increases to 225 and 150.</span> (See the Sharpness section under About Weapons in the <a href='/weapons'>Weapons page</a>.)"
 		},
 		{
 			"name":"Sleep",
 			"stages":[
-				"Sleep Halved",
+				"Sleep Duration Doubled",
+				"Sleep Duration Halved",
 				"Sleep Negated"
 			],
-			"desc":"Wake from monster-induced sleep in half the time, or totally negate such sleep effects."
+			"desc":"Suffer from monster-induced sleep for double the time, half the time, or totally negate such sleep effects."
 		},
 		{
 			"name":"Stealth",
 			"desc":"Draw the aggression of monsters less often than other hunters in the zone. This does not impact how a monster first detects you."
-		},
-		{
-			"name":"Stun",
-			"stages":[
-				"Stun x 2",
-				"Stun Halved",
-				"Stun Negated"
-			],
-			"desc":"Suffer the effects of Paralysis for twice as long, half as long, or not at all."
 		},
 		{
 			"name":"Temperature Resistance",
@@ -162,10 +163,10 @@
 			"desc":"Eliminate the maximum Stamina-reducing effects of cold zones, or the Hitpoint-depleting effects of hot zones."
 		},
 		{
-			"name":"Thunder Resist",
+			"name":"Thunder Resistance",
 			"stages":[
-				"Thunder - 10",
-				"Thunder + 25"
+				"Thunder Res - 10",
+				"Thunder Res + 25"
 			],
 			"desc":"Reduce, or increase, your Thunder Element Resistance by the given amount."
 		},
@@ -178,10 +179,10 @@
 			"desc":"Reduce the likeliness that your tools will break on use.<span class='details'> This includes Pickaxes, Bugnets, and Flutes.</span>"
 		},
 		{
-			"name":"Water Resist",
+			"name":"Water Resistance",
 			"stages":[
-				"Water - 10",
-				"Water + 25"
+				"Water Res - 10",
+				"Water Res + 25"
 			],
 			"desc":"Reduce, or increase, your Water Element Resistance by the given amount."
 		},

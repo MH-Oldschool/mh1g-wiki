@@ -194,127 +194,486 @@ function ArmorBuilder(version, builderContainer) {
 }
 // Armor names are in this order: [headgear,torso,arms,waist,legs]
 ArmorBuilder.SKILL_SETS = [
-	{armor:["","Battle Mail","Battle Vambraces","Battle Tasset",""],skills:["Sharpness Restoration + 25%"]},
-	{armor:["","Battle Vest","Battle Guards","Battle Coat",""],skills:["Reload + 1"]},
-	{armor:["","Bone Mail","Bone Vambraces","","Bone Greaves"],skills:["Provocation","Stealing Negated","Hunger Halved"]},
-	{armor:["","Bone Vest","Bone Guards","","Bone Leggings"],skills:["Provocation","Stealing Negated","Hunger Halved"]},
-	{armor:["","Velociprey Mail","Velociprey Vambraces","","Velociprey Greaves"],skills:["Faint Negated"]},
-	{armor:["","Velociprey Vest","Velociprey Guards","","Velociprey Leggings"],skills:["Faint Negated"]},
-	{armor:["","Genprey Mail","Genprey Vambraces","","Genprey Greaves"],skills:["Stun Negated"]},
-	{armor:["","Genprey Vest","Genprey Guards","","Genprey Leggings"],skills:["Stun Negated"]},
-	{armor:["","Ioprey Mail","Ioprey Vambraces","","Ioprey Greaves"],skills:["Poison Negated"]},
-	{armor:["","Ioprey Vest","Ioprey Guards","","Ioprey Leggings"],skills:["Poison Negated"]},
-	{armor:["","Vespoid Mail","Vespoid Vambraces","Vespoid Tasset","Vespoid Greaves"],skills:["Sleep Negated"]},
-	{armor:["","Vespoid Vest","Vespoid Guards","Vespoid Coat","Vespoid Leggings"],skills:["Sleep Negated"]},
-	{armor:["","Hornet Mail","Hornet Vambraces","Hornet Tasset","Hornet Greaves"],skills:["Poison Negated"]},
-	{armor:["","Hornet Vest","Hornet Guards","Hornet Coat","Hornet Leggings"],skills:["Poison Negated"]},
-	{armor:["","Cephalos Mail","Cephalos Vambraces","","Cephalos Greaves"],skills:["High Speed Damage Recovery", "Sleep Halved"]},
-	{armor:["","Cephalos Vest","Cephalos Guards","","Cephalos Leggings"],skills:["High Speed Damage Recovery", "Sleep Halved"]},
-	// {armor:["","Steel Mail","Steel Vambraces","Steel Tasset",""],skills:["Item Combination Success + 10%"]}, // Only MH1 US/EU?
-	{armor:["","Hi-Metal Mail","Hi-Metal Vambraces","Hi-Metal Tasset","Hi-Metal Greaves"],skills:["Health + 10"]},
-	{armor:["","Hi-Metal Vest","Hi-Metal Guards","Hi-Metal Coat","Hi-Metal Leggings"],skills:["Health + 10"]},
-	{armor:["","Kut-Ku Mail","Kut-Ku Vambraces","Kut-Ku Tasset",""],skills:["Attack Up [S]"]},
-	{armor:["","Kut-Ku Vest","Kut-Ku Guards","Kut-Ku Coat",""],skills:["Attack Up [S]"]},
-	{armor:["","Gypceros Mail","Gypceros Vambraces","Gypceros Tasset","Gypceros Greaves"],skills:["Wide Area Antidote","Health + 10"]},
-	{armor:["","Gypceros Vest","Gypceros Guards","Gypceros Coat","Gypceros Leggings"],skills:["Wide Area Antidote","Health + 10"]},
-	{armor:["","Khezu Mail","Khezu Vambraces","Khezu Tasset","Khezu Greaves"],skills:["High Speed Damage Recovery"]},
-	{armor:["","Khezu Vest","Khezu Guards","Khezu Coat","Khezu Leggings"],skills:["High Speed Damage Recovery"]},
-	{armor:["Plesioth Helm","Plesioth Mail","Plesioth Vambraces","","Plesioth Greaves"],skills:["Hunger Halved"]},
-	{armor:["Plesioth Cap","Plesioth Vest","Plesioth Guards","","Plesioth Leggings"],skills:["Hunger Halved"]},
-	{armor:["Lobster Helm","Lobster Mail","Lobster Vambraces","",""],skills:["Anti-Cold"]},
-	{armor:["Lobster Helm","Lobster Vest","Lobster Guards","",""],skills:["Anti-Cold"]},
-	{armor:["","Rathian Mail","Rathian Vambraces","","Rathian Greaves"],skills:["Provocation","Health + 20"]},
-	{armor:["","Rathian Vest","Rathian Guards","","Rathian Leggings"],skills:["Provocation","Health + 20"]},
-	{armor:["Rathalos Helm","Rathalos Mail","Rathalos Vambraces","","Rathalos Greaves"],skills:["Attack Up [L]","Provocation","Dragon - 10"]},
-	{armor:["Rathalos Cap","Rathalos Vest","Rathalos Guards","","Rathalos Leggings"],skills:["Attack Up [L]","Provocation","Dragon - 10"]},
-	{armor:["","Gravios Mail","Gravios Vambraces","Gravios Tasset","Gravios Greaves"],skills:["Health + 10"]},
-	{armor:["","Gravios Vest","Gravios Guards","Gravios Coat","Gravios Leggings"],skills:["Health + 10"]},
-	{armor:["Monoblos Helm","Monoblos Mail","Monoblos Vambraces","",""],skills:["Attack Up [L]","Stun Negated","Hunger x 1.5"]},
-	{armor:["Monoblos Cap","Monoblos Vest","Monoblos Guards","",""],skills:["Attack Up [L]","Stun Negated","Hunger x 1.5"]},
-	{armor:["Diablo Helm","Diablo Mail","Diablo Vambraces","",""],skills:["Anti-Wind"]},
-	{armor:["Diablo Cap","Diablo Vest","Diablo Guards","",""],skills:["Anti-Wind"]},
-	{armor:["","Vespoid Mail+","Vespoid Vambraces+","Vespoid Tasset+","Vespoid Greaves+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
-	{armor:["","Vespoid Vest+","Vespoid Guards+","Vespoid Coat+","Vespoid Leggings+"],skills:["Sleep Negated","Stun Halved","Poison Halved"]},
-	{armor:["","Hornet Mail+","Hornet Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Poison Negated","Stun Negated"]},
-	{armor:["","Hornet Vest+","Hornet Guards+","Hornet Coat+","Hornet Leggings+"],skills:["Poison Negated","Stun Negated"]},
-	{armor:["","Hi-Metal Mail+","Hi-Metal Vambraces+","Hi-Metal Tasset+","Hi-Metal Greaves+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
-	{armor:["","Hi-Metal Vest+","Hi-Metal Guards+","Hi-Metal Coat+","Hi-Metal Leggings+"],skills:["Health + 30","Stealth","Hunger x 1.5"]},
-	{armor:["","Khezu Mail+","Khezu Vambraces+","Khezu Tasset+","Khezu Greaves+"],skills:["Wide Area Potion","Anti-Heat","Faint x 2"]},
-	{armor:["","Khezu Vest+","Khezu Guards+","Khezu Coat+","Khezu Leggings+"],skills:["Wide Area Potion","Anti-Heat","Faint x 2"]},
-	{armor:["Plesioth Helm+","Plesioth Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],skills:["Hunger Halved","Anti-Heat","Faint x 2"]},
-	{armor:["Plesioth Cap+","Plesioth Vest+","Plesioth Guards+","","Plesioth Leggings+"],skills:["Hunger Halved","Anti-Heat","Faint x 2"]},
-	{armor:["Lobster Helm+","Lobster Mail+","Lobster Vambraces+","",""],skills:["Anti-Cold","Faint Halved"]},
-	{armor:["Lobster Helm+","Lobster Vest+","Lobster Guards+","",""],skills:["Anti-Cold","Faint Halved"]},
-	{armor:["","Rathian Mail+","Rathian Vambraces+","Rathian Tasset+","Rathian Greaves+"],skills:["Provocation","Health + 30","Defense + 10"]},
-	{armor:["","Rathian Vest+","Rathian Guards+","Rathian Coat+","Rathian Leggings+"],skills:["Provocation","Health + 30","Defense + 10"]},
-	{armor:["","Rathalos Mail+","Rathalos Vambraces+","Rathalos Tasset+","Rathalos Greaves+"],skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]},
-	{armor:["","Rathalos Vest+","Rathalos Guards+","Rathalos Coat+","Rathalos Leggings+"],skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]},
-	{armor:["","Gravios Mail+","Gravios Vambraces+","Gravios Tasset+","Gravios Greaves+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
-	{armor:["","Gravios Vest+","Gravios Guards+","Gravios Coat+","Gravios Leggings+"],skills:["Health + 20","Anti-Heat","Hunger x 1.5"]},
-	{armor:["Diablo Helm+","Diablo Mail+","Diablo Vambraces+","",""],skills:["Anti-Wind","Attack Up [S]","Hunger x 1.5"]},
-	{armor:["Diablo Cap+","Diablo Vest+","Diablo Guards+","",""],skills:["Anti-Wind","Attack Up [S]","Hunger x 1.5"]},
-	{armor:["Dragonhead","Dragonhide","Dragonclaw","Dragonwings","Dragonfeet"],skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]},
-	{armor:["Dragonface","Dragonskin","Dragonfist","Dragontail","Dragonlegs"],skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]},
-	{armor:["Guild Knight Feather","Guild Knight Suit","Guild Knight Gloves","Guild Knight Coat","Guild Knight Boots"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-	{armor:["Guild Knight Mask","Guild Knight Vest","Guild Knight Sleeves","Guild Knight Kilt","Guild Knight Tights"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-	{armor:["Maiden's Hat","Maiden's Vest","Maiden's Sleeves","Maiden's Skirt","Maiden's Stockings"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-	{armor:["Personal Hat","Personal Vest","Personal Sleeves","Personal Frills","Personal Tights"],skills:["Gathering","Divine Toolsaver","Good Fortune"]},
-	{armor:["Auroros Helm","Auroros Torso","Auroros Gauntlets","Auroros Tasset","Auroros Pants"],skills:["High Speed Damage Recovery","Auto-Map","Sharpness Restoration + 50%"]},
-	{armor:["Genesis Headpiece","Genesis Torso","Genesis Gauntlets","Genesis Tasset","Genesis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
-	{armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Borealis Tasset","Borealis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Sharpness Restoration + 50%"]},
-	{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Glyph Tasset","Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]},
-	{armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Red Borealis Tasset","Red Borealis Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
-	{armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Red Glyph Tasset","Red Glyph Pants"],skills:["High Speed Damage Recovery","Auto-Map","Fire + 25"]},
-	{armor:["Shinobi Mask 'Sun'","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Shinobi Belt 'Sun'","Shinobi Boots 'Sun'"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-	{armor:["Shinobi Mask 'Moon'","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Shinobi Belt 'Moon'","Shinobi Boots 'Moon'"],skills:["Hunger Negated","Poison Negated","Stealth"]},
-	{armor:["Mosswine Mask","Moss Breastplate","","",""],skills:["Hunger x 1.5"]},
-	{armor:["Leather Helm","Leather Armor","Leather Vambraces","Light Belt","Green Pants"],skills:["Toolsaver"]},
-	{armor:["","Chain Mail","Hunter's Vambraces","","Hunter's Greaves"],skills:["Defense + 5","Health + 10"]},
-	{armor:["","Chain Mail","Hunter's Guards","","Hunter's Leggings"],skills:["Defense + 5","Health + 10"]},
-	{armor:["Hunter's Helm","Battle Mail","Battle Vambraces","Hunter's Tasset","Battle Greaves"],skills:["Defense + 10","Health + 10"]},
-	{armor:["Hunter's Cap","Battle Vest","Battle Guards","Hunter's Coat","Battle Leggings"],skills:["Defense + 10","Health + 10"]},
-	{armor:["Battle Helm","Battle Mail","Chain Vambraces","Velociprey Tasset","Blue Pants"],skills:["Defense + 10","Health + 10"]},
-	{armor:["Battle Cap","Battle Vest","Chain Vambraces","Velociprey Coat","Blue Pants"],skills:["Defense + 10","Health + 10"]},
-	{armor:["","Kut-Ku Mail","Kut-Ku Vambraces","Ioprey Tasset","Rathalos Greaves"],skills:["Attack Up [S]","Health + 20","Stun x 2"]},
-	{armor:["","Rathalos Vest","Rathalos Guards","Ioprey Coat","Dark Metal Boots"],skills:["Attack Up [S]","High Speed damage recovery","Stun x 2"]},
-	{armor:["Rathalos Helm","Rathian Mail","Rathalos Vambraces","Rathalos Tasset","Rathian Greaves"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
-	{armor:["Rathalos Cap","Rathian Vest","Rathalos Guards","Rathalos Coat","Rathian Leggings"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
-	{armor:["Rathalos Helm","Rathian Mail","Rathalos Vambraces","Rathian Tasset","Rathalos Greaves"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
-	{armor:["Rathian Cap","Rathalos Vest","Rathian Guards","Rathalos Coat","Rathian Leggings"],skills:["Fire + 25","Water - 10","Thunder - 10"]},
-	{armor:["Lobster Helm+","Lobster Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],skills:["Fire - 10","Water + 25","Sleep Halved"]},
-	{armor:["Plesioth Cap+","Lobster Vest+","Lobster Guards+","","Plesioth Leggings+"],skills:["Fire - 10","Water + 25","Sleep Halved"]},
-	{armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Ioprey Tasset","Gypceros Greaves"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Ioprey Coat","Gypceros Leggings"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Gypceros Tasset","Ioprey Greaves"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Gypceros Coat","Silver Boots"],skills:["Stun Halved","Water - 10","Thunder + 25"]},
-	{armor:["","Khezu Mail+","Gravios Vambraces+","Gravios Tasset+","Khezu Greaves+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["","Khezu Vest+","Gravios Guards+","Gravios Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["","Gravios Mail+","Gravios Vambraces+","Khezu Tasset+","Khezu Greaves+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["","Gravios Vest+","Gravios Guards+","Khezu Coat+","Khezu Leggings+"],skills:["Anti-Heat","Anti-Cold","Faint x 2"]},
-	{armor:["Gypceros Helm","Khezu Mail+","Khezu Vambraces+","Gypceros Tasset","Gypceros Greaves"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
-	{armor:["Gypceros Cap","Khezu Vest+","Khezu Guards+","Gypceros Coat","Gypceros Leggings"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
-	{armor:["Khezu Helm+","Gypceros Mail","Gypceros Vambraces","Khezu Tasset+","Khezu Greaves+"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
-	{armor:["Khezu Cap+","Gypceros Vest","Gypceros Guards","Khezu Coat+","Khezu Leggings+"],skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]},
-	// {armor:["Skull Face","Dragon Hide","Hunter's Vambraces","Velociprey Tasset","Rathalos Greaves"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
-	// {armor:["Skull Face","Dragon Skin","Hunter's Guards","Velociprey Coat","Rathalos Leggings"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
-	// {armor:["Skull Face","Monoblos Mail","Rathian Vambraces","Dragon Wing","Dragon Foot"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
-	// {armor:["Skull Face","Monoblos Vest","Rathian Guards","Dragon Tail","Dragon Legs"],skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep x 2"]},
-	{armor:["Velociprey Helm","Auroros Torso","Shinobi Kote 'Sun'","Auroros Tasset","Shinobi Boots 'Sun'"],skills:["Automatic Marking"]},
-	{armor:["Velociprey Cap","Genesis Torso","Shinobi Kote 'Moon'","Genesis Tasset","Shinobi Boots 'Moon'"],skills:["Automatic Marking"]},
-	{armor:["Borealis Crown","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Ioprey Tasset","Borealis Pants"],skills:["Automatic Marking"]},
-	{armor:["Glyph Crown","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Ioprey Coat","Glyph Pants"],skills:["Automatic Marking"]},
-	{armor:["Gravios Helm+","Velociprey Vest","Hunter's Vambraces","Hi-Metal Tasset+","Silver Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
-	{armor:["Gravios Cap+","Velociprey Vest","Hunter's Guards","Hi-Metal Coat+","Silver Boots"],skills:["Automatic Marking","Provocation","Poison x 2"]},
-	{armor:["Cephalos Helm","Hi-Metal Mail+","Cephalos Vambraces","Rathian Tasset","Velociprey Greaves"],skills:["Automatic Marking","Provocation","Poison x 2"]},
-	{armor:["Cephalos Cap","Hi-Metal Mail+","Cephalos Guards","Rathian Tasset","Velociprey Leggings"],skills:["Automatic Marking","Provocation","Poison x 2"]},
-	{armor:["Plesioth Cap+","Cephalos Mail","Khezu Vambraces+","Cephalos Tasset","Khezu Greaves+"],skills:["Health Recovery Items Improved","Faint x 2"]},
-	{armor:["Plesioth Helm+","Cephalos Vest","Khezu Guards+","Cephalos Coat","Khezu Leggings+"],skills:["Health Recovery Items Improved","Faint x 2"]},
-	{armor:["Velociprey Mask","Moss Breastplate","","Bone Coat",""],skills:["Faint Negated","Good Fortune"]},
-	{armor:["Monoblos Helm","Hornet Mail+","Rathian Vambraces","Hi-Metal Tasset+","Rathalos Greaves"],skills:["Good Fortune"]},
-	{armor:["Monoblos Helm","Hornet Vest+","Rathian Guards","Hi-Metal Coat+","Rathalos Leggings"],skills:["Good Fortune"]},
-	{armor:["","Vespoid Mail+","Hornet Vambraces+","Hornet Tasset+","Vespoid Greaves+"],skills:["Dragon + 25"]},
-	{armor:["","Vespoid Mail+","Vespoid Vambraces+","Hornet Tasset+","Hornet Greaves+"],skills:["Dragon + 25"]},
-	{armor:["","Vespoid Vest+","Hornet Guards+","Vespoid Coat+","Hornet Leggings+"],skills:["Dragon + 25"]}
+	{
+		armor:["","Battle Mail","Battle Vambraces","Battle Tasset",""],
+		skills:["Sharpness Restoration + 25%"]
+	},
+	{
+		armor:["","Battle Vest","Battle Guards","Battle Coat",""],
+		skills:["Reload + 1"]
+	},
+	{
+		armor:["","Bone Mail","Bone Vambraces","","Bone Greaves"],
+		skills:["Provocation","Anti-Theft","Hunger Halved"]
+	},
+	{
+		armor:["","Bone Vest","Bone Guards","","Bone Leggings"],
+		skills:["Provocation","Anti-Theft","Hunger Halved"]
+	},
+	{
+		armor:["","Velociprey Mail","Velociprey Vambraces","","Velociprey Greaves"],
+		skills:["KO Negated"]
+	},
+	{
+		armor:["","Velociprey Vest","Velociprey Guards","","Velociprey Leggings"],
+		skills:["KO Negated"]
+	},
+	{
+		armor:["","Genprey Mail","Genprey Vambraces","","Genprey Greaves"],
+		skills:["Paralysis Negated"]
+	},
+	{
+		armor:["","Genprey Vest","Genprey Guards","","Genprey Leggings"],
+		skills:["Paralysis Negated"]
+	},
+	{
+		armor:["","Ioprey Mail","Ioprey Vambraces","","Ioprey Greaves"],
+		skills:["Poison Negated"]
+	},
+	{
+		armor:["","Ioprey Vest","Ioprey Guards","","Ioprey Leggings"],
+		skills:["Poison Negated"]
+	},
+	{
+		armor:["","Vespoid Mail","Vespoid Vambraces","Vespoid Tasset","Vespoid Greaves"],
+		skills:["Sleep Negated"]
+	},
+	{
+		armor:["","Vespoid Vest","Vespoid Guards","Vespoid Coat","Vespoid Leggings"],
+		skills:["Sleep Negated"]
+	},
+	{
+		armor:["","Hornet Mail","Hornet Vambraces","Hornet Tasset","Hornet Greaves"],
+		skills:["Poison Negated"]
+	},
+	{
+		armor:["","Hornet Vest","Hornet Guards","Hornet Coat","Hornet Leggings"],
+		skills:["Poison Negated"]
+	},
+	{
+		armor:["","Cephalos Mail","Cephalos Vambraces","","Cephalos Greaves"],
+		skills:["High Speed Damage Recovery", "Sleep Duration Halved"]
+	},
+	{
+		armor:["","Cephalos Vest","Cephalos Guards","","Cephalos Leggings"],
+		skills:["High Speed Damage Recovery", "Sleep Duration Halved"]
+	},
+	{
+		armor:["","Hi-Metal Mail","Hi-Metal Vambraces","Hi-Metal Tasset","Hi-Metal Greaves"],
+		skills:["Health + 10"]
+	},
+	{
+		armor:["","Hi-Metal Vest","Hi-Metal Guards","Hi-Metal Coat","Hi-Metal Leggings"],
+		skills:["Health + 10"]
+	},
+	{
+		armor:["","Kut-Ku Mail","Kut-Ku Vambraces","Kut-Ku Tasset",""],
+		skills:["Attack Up [S]"]
+	},
+	{
+		armor:["","Kut-Ku Vest","Kut-Ku Guards","Kut-Ku Coat",""],
+		skills:["Attack Up [S]"]
+	},
+	{
+		armor:["","Gypceros Mail","Gypceros Vambraces","Gypceros Tasset","Gypceros Greaves"],
+		skills:["Wide Area Antidote","Health + 10"]
+	},
+	{
+		armor:["","Gypceros Vest","Gypceros Guards","Gypceros Coat","Gypceros Leggings"],
+		skills:["Wide Area Antidote","Health + 10"]
+	},
+	{
+		armor:["","Khezu Mail","Khezu Vambraces","Khezu Tasset","Khezu Greaves"],
+		skills:["High Speed Damage Recovery"]
+	},
+	{
+		armor:["","Khezu Vest","Khezu Guards","Khezu Coat","Khezu Leggings"],
+		skills:["High Speed Damage Recovery"]
+	},
+	{
+		armor:["Plesioth Helm","Plesioth Mail","Plesioth Vambraces","","Plesioth Greaves"],
+		skills:["Hunger Halved"]
+	},
+	{
+		armor:["Plesioth Cap","Plesioth Vest","Plesioth Guards","","Plesioth Leggings"],
+		skills:["Hunger Halved"]
+	},
+	{
+		armor:["Lobster Helm","Lobster Mail","Lobster Vambraces","",""],
+		skills:["Anti-Cold"]
+	},
+	{
+		armor:["Lobster Helm","Lobster Vest","Lobster Guards","",""],
+		skills:["Anti-Cold"]
+	},
+	{
+		armor:["","Rathian Mail","Rathian Vambraces","","Rathian Greaves"],
+		skills:["Provocation","Health + 20"]
+	},
+	{
+		armor:["","Rathian Vest","Rathian Guards","","Rathian Leggings"],
+		skills:["Provocation","Health + 20"]
+	},
+	{
+		armor:["Rathalos Helm","Rathalos Mail","Rathalos Vambraces","","Rathalos Greaves"],
+		skills:["Attack Up [L]","Provocation","Dragon Res - 10"]
+	},
+	{
+		armor:["Rathalos Cap","Rathalos Vest","Rathalos Guards","","Rathalos Leggings"],
+		skills:["Attack Up [L]","Provocation","Dragon Res - 10"]
+	},
+	{
+		armor:["","Gravios Mail","Gravios Vambraces","Gravios Tasset","Gravios Greaves"],
+		skills:["Health + 10"]
+	},
+	{
+		armor:["","Gravios Vest","Gravios Guards","Gravios Coat","Gravios Leggings"],
+		skills:["Health + 10"]
+	},
+	{
+		armor:["Monoblos Helm","Monoblos Mail","Monoblos Vambraces","",""],
+		skills:["Attack Up [L]","Paralysis Negated","Hunger Doubled"]
+	},
+	{
+		armor:["Monoblos Cap","Monoblos Vest","Monoblos Guards","",""],
+		skills:["Attack Up [L]","Paralysis Negated","Hunger Doubled"]
+	},
+	{
+		armor:["Diablo Helm","Diablo Mail","Diablo Vambraces","",""],
+		skills:["Anti-Wind"]
+	},
+	{
+		armor:["Diablo Cap","Diablo Vest","Diablo Guards","",""],
+		skills:["Anti-Wind"]
+	},
+	{
+		armor:["","Vespoid Mail+","Vespoid Vambraces+","Vespoid Tasset+","Vespoid Greaves+"],
+		skills:["Sleep Negated","Paralysis Duration Halved","Poison Duration Halved"]
+	},
+	{
+		armor:["","Vespoid Vest+","Vespoid Guards+","Vespoid Coat+","Vespoid Leggings+"],
+		skills:["Sleep Negated","Paralysis Duration Halved","Poison Duration Halved"]
+	},
+	{
+		armor:["","Hornet Mail+","Hornet Vambraces+","Hornet Tasset+","Hornet Greaves+"],
+		skills:["Poison Negated","Paralysis Negated"]
+	},
+	{
+		armor:["","Hornet Vest+","Hornet Guards+","Hornet Coat+","Hornet Leggings+"],
+		skills:["Poison Negated","Paralysis Negated"]
+	},
+	{
+		armor:["","Hi-Metal Mail+","Hi-Metal Vambraces+","Hi-Metal Tasset+","Hi-Metal Greaves+"],
+		skills:["Health + 30","Stealth","Hunger Doubled"]
+	},
+	{
+		armor:["","Hi-Metal Vest+","Hi-Metal Guards+","Hi-Metal Coat+","Hi-Metal Leggings+"],
+		skills:["Health + 30","Stealth","Hunger Doubled"]
+	},
+	{
+		armor:["","Khezu Mail+","Khezu Vambraces+","Khezu Tasset+","Khezu Greaves+"],
+		skills:["Wide Area Potion","Anti-Heat","KO Duration Doubled"]
+	},
+	{
+		armor:["","Khezu Vest+","Khezu Guards+","Khezu Coat+","Khezu Leggings+"],
+		skills:["Wide Area Potion","Anti-Heat","KO Duration Doubled"]
+	},
+	{
+		armor:["Plesioth Helm+","Plesioth Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],
+		skills:["Hunger Halved","Anti-Heat","KO Duration Doubled"]
+	},
+	{
+		armor:["Plesioth Cap+","Plesioth Vest+","Plesioth Guards+","","Plesioth Leggings+"],
+		skills:["Hunger Halved","Anti-Heat","KO Duration Doubled"]
+	},
+	{
+		armor:["Lobster Helm+","Lobster Mail+","Lobster Vambraces+","",""],
+		skills:["Anti-Cold","KO Duration Halved"]
+	},
+	{
+		armor:["Lobster Helm+","Lobster Vest+","Lobster Guards+","",""],
+		skills:["Anti-Cold","KO Duration Halved"]
+	},
+	{
+		armor:["","Rathian Mail+","Rathian Vambraces+","Rathian Tasset+","Rathian Greaves+"],
+		skills:["Provocation","Health + 30","Defense + 10"]
+	},
+	{
+		armor:["","Rathian Vest+","Rathian Guards+","Rathian Coat+","Rathian Leggings+"],
+		skills:["Provocation","Health + 30","Defense + 10"]
+	},
+	{
+		armor:["","Rathalos Mail+","Rathalos Vambraces+","Rathalos Tasset+","Rathalos Greaves+"],
+		skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]
+	},
+	{
+		armor:["","Rathalos Vest+","Rathalos Guards+","Rathalos Coat+","Rathalos Leggings+"],
+		skills:["Attack Up [L]","Provocation","High Speed Damage Recovery"]
+	},
+	{
+		armor:["","Gravios Mail+","Gravios Vambraces+","Gravios Tasset+","Gravios Greaves+"],
+		skills:["Health + 20","Anti-Heat","Hunger Doubled"]
+	},
+	{
+		armor:["","Gravios Vest+","Gravios Guards+","Gravios Coat+","Gravios Leggings+"],
+		skills:["Health + 20","Anti-Heat","Hunger Doubled"]
+	},
+	{
+		armor:["Diablo Helm+","Diablo Mail+","Diablo Vambraces+","",""],
+		skills:["Anti-Wind","Attack Up [S]","Hunger Doubled"]
+	},
+	{
+		armor:["Diablo Cap+","Diablo Vest+","Diablo Guards+","",""],
+		skills:["Anti-Wind","Attack Up [S]","Hunger Doubled"]
+	},
+	{
+		armor:["Dragonhead","Dragonhide","Dragonclaw","Dragonwings","Dragonfeet"],
+		skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]
+	},
+	{
+		armor:["Dragonface","Dragonskin","Dragonfist","Dragontail","Dragonlegs"],
+		skills:["Attack Up [S]","Anti-Wind","High Speed Damage Recovery"]
+	},
+	{
+		armor:["Guild Knight Feather","Guild Knight Suit","Guild Knight Gloves","Guild Knight Coat","Guild Knight Boots"],
+		skills:["Gathering","Divine Toolsaver","Good Fortune"]
+	},
+	{
+		armor:["Guild Knight Mask","Guild Knight Vest","Guild Knight Sleeves","Guild Knight Kilt","Guild Knight Tights"],
+		skills:["Gathering","Divine Toolsaver","Good Fortune"]
+	},
+	{
+		armor:["Maiden's Hat","Maiden's Vest","Maiden's Sleeves","Maiden's Skirt","Maiden's Stockings"],
+		skills:["Gathering","Divine Toolsaver","Good Fortune"]
+	},
+	{
+		armor:["Personal Hat","Personal Vest","Personal Sleeves","Personal Frills","Personal Tights"],
+		skills:["Gathering","Divine Toolsaver","Good Fortune"]
+	},
+	{
+		armor:["Auroros Helm","Auroros Torso","Auroros Gauntlets","Auroros Tasset","Auroros Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Sharpness Restoration + 50%"]
+	},
+	{
+		armor:["Genesis Headpiece","Genesis Torso","Genesis Gauntlets","Genesis Tasset","Genesis Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]
+	},
+	{
+		armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Borealis Tasset","Borealis Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Sharpness Restoration + 50%"]
+	},
+	{
+		armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Glyph Tasset","Glyph Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Reload + 2"]
+	},
+	{
+		armor:["Borealis Crown","Borealis Chest","Borealis Gauntlets","Red Borealis Tasset","Red Borealis Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Fire Res + 25"]
+	},
+	{
+		armor:["Glyph Crown","Glyph Chest","Glyph Gauntlets","Red Glyph Tasset","Red Glyph Pants"],
+		skills:["High Speed Damage Recovery","Auto-Map","Fire Res + 25"]
+	},
+	{
+		armor:["Shinobi Mask 'Sun'","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Shinobi Belt 'Sun'","Shinobi Boots 'Sun'"],
+		skills:["Hunger Negated","Poison Negated","Stealth"]
+	},
+	{
+		armor:["Shinobi Mask 'Moon'","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Shinobi Belt 'Moon'","Shinobi Boots 'Moon'"],
+		skills:["Hunger Negated","Poison Negated","Stealth"]
+	},
+	{
+		armor:["Mosswine Mask","Moss Breastplate","","",""],
+		skills:["Hunger Doubled"]
+	},
+	{
+		armor:["Leather Helm","Leather Armor","Leather Vambraces","Light Belt","Green Pants"],
+		skills:["Toolsaver"]
+	},
+	{
+		armor:["","Chain Mail","Hunter's Vambraces","","Hunter's Greaves"],
+		skills:["Defense + 5","Health + 10"]
+	},
+	{
+		armor:["","Chain Mail","Hunter's Guards","","Hunter's Leggings"],
+		skills:["Defense + 5","Health + 10"]
+	},
+	{
+		armor:["Hunter's Helm","Battle Mail","Battle Vambraces","Hunter's Tasset","Battle Greaves"],
+		skills:["Defense + 10","Health + 10"]
+	},
+	{
+		armor:["Hunter's Cap","Battle Vest","Battle Guards","Hunter's Coat","Battle Leggings"],
+		skills:["Defense + 10","Health + 10"]
+	},
+	{
+		armor:["Battle Helm","Battle Mail","Chain Vambraces","Velociprey Tasset","Blue Pants"],
+		skills:["Defense + 10","Health + 10"]
+	},
+	{
+		armor:["Battle Cap","Battle Vest","Chain Vambraces","Velociprey Coat","Blue Pants"],
+		skills:["Defense + 10","Health + 10"]
+	},
+	{
+		armor:["","Kut-Ku Mail","Kut-Ku Vambraces","Ioprey Tasset","Rathalos Greaves"],
+		skills:["Attack Up [S]","Health + 20","Paralysis Duration Doubled"]
+	},
+	{
+		armor:["","Rathalos Vest","Rathalos Guards","Ioprey Coat","Dark Metal Boots"],
+		skills:["Attack Up [S]","High Speed damage recovery","Paralysis Duration Doubled"]
+	},
+	{
+		armor:["Rathalos Helm","Rathian Mail","Rathalos Vambraces","Rathalos Tasset","Rathian Greaves"],
+		skills:["Fire Res + 25","Water Res - 10","Thunder Res - 10"]
+	},
+	{
+		armor:["Rathalos Cap","Rathian Vest","Rathalos Guards","Rathalos Coat","Rathian Leggings"],
+		skills:["Fire Res + 25","Water Res - 10","Thunder Res - 10"]
+	},
+	{
+		armor:["Rathalos Helm","Rathian Mail","Rathalos Vambraces","Rathian Tasset","Rathalos Greaves"],
+		skills:["Fire Res + 25","Water Res - 10","Thunder Res - 10"]
+	},
+	{
+		armor:["Rathian Cap","Rathalos Vest","Rathian Guards","Rathalos Coat","Rathian Leggings"],
+		skills:["Fire Res + 25","Water Res - 10","Thunder Res - 10"]
+	},
+	{
+		armor:["Lobster Helm+","Lobster Mail+","Plesioth Vambraces+","","Plesioth Greaves+"],
+		skills:["Fire Res - 10","Water Res + 25","Sleep Duration Halved"]
+	},
+	{
+		armor:["Plesioth Cap+","Lobster Vest+","Lobster Guards+","","Plesioth Leggings+"],
+		skills:["Fire Res - 10","Water Res + 25","Sleep Duration Halved"]
+	},
+	{
+		armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Ioprey Tasset","Gypceros Greaves"],
+		skills:["Paralysis Duration Halved","Water Res - 10","Thunder Res + 25"]
+	},
+	{
+		armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Ioprey Coat","Gypceros Leggings"],
+		skills:["Paralysis Duration Halved","Water Res - 10","Thunder Res + 25"]
+	},
+	{
+		armor:["Hi-Metal Helm+","Ioprey Mail","Hi-Metal Vambraces+","Gypceros Tasset","Ioprey Greaves"],
+		skills:["Paralysis Duration Halved","Water Res - 10","Thunder Res + 25"]
+	},
+	{
+		armor:["Hi-Metal Cap+","Ioprey Vest","Hi-Metal Guards+","Gypceros Coat","Silver Boots"],
+		skills:["Paralysis Duration Halved","Water Res - 10","Thunder Res + 25"]
+	},
+	{
+		armor:["","Khezu Mail+","Gravios Vambraces+","Gravios Tasset+","Khezu Greaves+"],
+		skills:["Anti-Heat","Anti-Cold","KO Duration Doubled"]
+	},
+	{
+		armor:["","Khezu Vest+","Gravios Guards+","Gravios Coat+","Khezu Leggings+"],
+		skills:["Anti-Heat","Anti-Cold","KO Duration Doubled"]
+	},
+	{
+		armor:["","Gravios Mail+","Gravios Vambraces+","Khezu Tasset+","Khezu Greaves+"],
+		skills:["Anti-Heat","Anti-Cold","KO Duration Doubled"]
+	},
+	{
+		armor:["","Gravios Vest+","Gravios Guards+","Khezu Coat+","Khezu Leggings+"],
+		skills:["Anti-Heat","Anti-Cold","KO Duration Doubled"]
+	},
+	{
+		armor:["Gypceros Helm","Khezu Mail+","Khezu Vambraces+","Gypceros Tasset","Gypceros Greaves"],
+		skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]
+	},
+	{
+		armor:["Gypceros Cap","Khezu Vest+","Khezu Guards+","Gypceros Coat","Gypceros Leggings"],
+		skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]
+	},
+	{
+		armor:["Khezu Helm+","Gypceros Mail","Gypceros Vambraces","Khezu Tasset+","Khezu Greaves+"],
+		skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]
+	},
+	{
+		armor:["Khezu Cap+","Gypceros Vest","Gypceros Guards","Khezu Coat+","Khezu Leggings+"],
+		skills:["Wide Area Potion","Wide Area Antidote","Bad Luck"]
+	},
+	{
+		armor:["Skull Face","Dragon Hide","Hunter's Vambraces","Velociprey Tasset","Rathalos Greaves"],
+		skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep Duration Doubled"]
+	},
+	{
+		armor:["Skull Face","Dragon Skin","Hunter's Guards","Velociprey Coat","Rathalos Leggings"],
+		skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep Duration Doubled"]
+	},
+	{
+		armor:["Skull Face","Monoblos Mail","Rathian Vambraces","Dragon Wing","Dragon Foot"],
+		skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep Duration Doubled"]
+	},
+	{
+		armor:["Skull Face","Monoblos Vest","Rathian Guards","Dragon Tail","Dragon Legs"],
+		skills:["Wide Area Power Seed","Wide Area Armor Seed","Sleep Duration Doubled"]
+	},
+	{
+		armor:["Velociprey Helm","Auroros Torso","Shinobi Kote 'Sun'","Auroros Tasset","Shinobi Boots 'Sun'"],
+		skills:["Automatic Marking"]
+	},
+	{
+		armor:["Velociprey Cap","Genesis Torso","Shinobi Kote 'Moon'","Genesis Tasset","Shinobi Boots 'Moon'"],
+		skills:["Automatic Marking"]
+	},
+	{
+		armor:["Borealis Crown","Shinobi Suit 'Sun'","Shinobi Kote 'Sun'","Ioprey Tasset","Red Borealis Pants"],
+		skills:["Automatic Marking"]
+	},
+	{
+		armor:["Glyph Crown","Shinobi Suit 'Moon'","Shinobi Kote 'Moon'","Ioprey Coat","Red Glyph Pants"],
+		skills:["Automatic Marking"]
+	},
+	{
+		armor:["Gravios Helm+","Velociprey Vest","Hunter's Vambraces","Hi-Metal Tasset+","Silver Boots"],
+		skills:["Automatic Marking","Provocation","Poison Duration Doubled"]
+	},
+	{
+		armor:["Gravios Cap+","Velociprey Vest","Hunter's Guards","Hi-Metal Coat+","Silver Boots"],
+		skills:["Automatic Marking","Provocation","Poison Duration Doubled"]
+	},
+	{
+		armor:["Cephalos Helm","Hi-Metal Mail+","Cephalos Vambraces","Rathian Tasset","Velociprey Greaves"],
+		skills:["Automatic Marking","Provocation","Poison Duration Doubled"]
+	},
+	{
+		armor:["Cephalos Cap","Hi-Metal Mail+","Cephalos Guards","Rathian Tasset","Velociprey Leggings"],
+		skills:["Automatic Marking","Provocation","Poison Duration Doubled"]
+	},
+	{
+		armor:["Plesioth Cap+","Cephalos Mail","Khezu Vambraces+","Cephalos Tasset","Khezu Greaves+"],
+		skills:["Health Recovery Items Improved","KO Duration Doubled"]
+	},
+	{
+		armor:["Plesioth Helm+","Cephalos Vest","Khezu Guards+","Cephalos Coat","Khezu Leggings+"],
+		skills:["Health Recovery Items Improved","KO Duration Doubled"]
+	},
+	{
+		armor:["Velociprey Mask","Moss Breastplate","","Bone Coat",""],
+		skills:["KO Negated","Good Fortune"]
+	},
+	{
+		armor:["Monoblos Helm","Hornet Mail+","Rathian Vambraces","Hi-Metal Tasset+","Rathalos Greaves"],
+		skills:["Good Fortune"]
+	},
+	{
+		armor:["Monoblos Helm","Hornet Vest+","Rathian Guards","Hi-Metal Coat+","Rathalos Leggings"],
+		skills:["Good Fortune"]
+	},
+	{
+		armor:["","Vespoid Mail+","Hornet Vambraces+","Hornet Tasset+","Vespoid Greaves+"],
+		skills:["Dragon Res + 25"]
+	},
+	{
+		armor:["","Vespoid Mail+","Vespoid Vambraces+","Hornet Tasset+","Hornet Greaves+"],
+		skills:["Dragon Res + 25"]
+	},
+	{
+		armor:["","Vespoid Vest+","Hornet Guards+","Vespoid Coat+","Hornet Leggings+"],
+		skills:["Dragon Res + 25"]
+	}
 ];
 ArmorBuilder.SKILL_LEVELS = {
 	"Health": [ -30,-20,-10,10,20,30 ], // Be sure to handle these special cases
