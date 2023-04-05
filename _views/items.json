@@ -1201,7 +1201,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":0,
-			"details":"Apply 80 Tranquilizer to a monster; 160 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"details":"Apply 80 Tranquilizer to a monster; 100 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
 			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
@@ -5955,7 +5955,7 @@
 			"rarity":1,
 			"buy":0,
 			"sell":0,
-			"details":"Apply 80 Tranquilizer to a monster; 160 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"details":"Apply 80 Tranquilizer to a monster; 100 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
 			"acquire":"Provided in the Supply Box during capture quests."
 		},
 		{
