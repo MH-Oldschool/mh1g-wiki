@@ -1,0 +1,70 @@
+body {
+	background-image: url("/mh2/images/background.gif");
+}
+
+.arrow-separated:after { content: " → "; }
+.arrow-separated:last-child:after { content: ""; }
+
+.pink-icon { background-image: url("/mh2/images/icon_sheets/icons_pink.png"); }
+.red-icon { background-image: url("/mh2/images/icon_sheets/icons_red.png"); }
+.orange-icon { background-image: url("/mh2/images/icon_sheets/icons_orange.png"); }
+.yellow-icon { background-image: url("/mh2/images/icon_sheets/icons_yellow.png"); }
+.green-icon { background-image: url("/mh2/images/icon_sheets/icons_green.png"); }
+.cyan-icon { background-image: url("/mh2/images/icon_sheets/icons_cyan.png"); }
+.blue-icon { background-image: url("/mh2/images/icon_sheets/icons_blue.png"); }
+.purple-icon { background-image: url("/mh2/images/icon_sheets/icons_purple.png"); }
+.white-icon { background-image: url("/mh2/images/icon_sheets/icons_white.png"); }
+.gray-icon { background-image: url("/mh2/images/icon_sheets/icons_gray.png"); }
+.brown-icon { background-image: url("/mh2/images/icon_sheets/icons_brown.png"); }
+/* Icon Clips */
+.coating-icon { background-position: -6rem -12rem; }
+.great-sword-icon { background-position: -14rem -14rem; }
+.note-icon {
+	background-position: -7rem -15rem;
+	width: 1rem;
+	height: 1rem;
+}
+.heavy-bowgun-icon { background-position: 0rem -16rem; }
+.hammer-icon { background-position: -2rem -16rem; }
+.lance-icon { background-position: -4rem -16rem; }
+.sword-icon { background-position: -6rem -16rem; }
+.light-bowgun-icon { background-position: -8rem -16rem; }
+.dual-swords-icon { background-position: -10rem -16rem; }
+.longsword-icon { background-position: -12rem -16rem; }
+.hunting-horn-icon { background-position: -14rem -16rem; }
+.gunlance-icon { background-position: 0rem -18rem; }
+.bow-icon { background-position: -2rem -18rem; }
+.foot-icon { background-position: -4rem -18rem; }
+.helm-icon { background-position: -8rem -18rem; }
+.torso-icon { background-position: -10rem -18rem; }
+.arm-icon { background-position: -12rem -18rem; }
+.waist-icon { background-position: -14rem -18rem; }
+
+.small-icon {
+	display: inline-block;
+	background-image: url("/mh2/images/icon_sheets/interface_icons.png");
+	background-repeat: no-repeat;
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.small-bow-icon { background-position: -8.375rem -12.25rem; }
+.small-longsword-icon { background-position: 0rem -13.5rem; }
+.small-gunlance-icon { background-position: -1.25rem -13.5rem; }
+.small-heavy-bowgun-icon { background-position: -2.5rem -13.5rem; }
+.small-hunting-horn-icon { background-position: -3.75rem -13.5rem; }
+.small-dual-swords-icon { background-position: -5rem -13.5rem; }
+.small-great-sword-icon { background-position: 0rem -14.75rem; }
+.small-lance-icon { background-position: -1.25rem -14.75rem; }
+.small-light-bowgun-icon { background-position: -2.5rem -14.75rem; }
+.small-hammer-icon { background-position: -3.75rem -14.75rem; }
+.small-sword-icon { background-position: -5rem -14.75rem; }
+
+.small-icon.shell-icon {
+	background-image: url("/mh2/images/icon_sheets/interface_icons_2.png");
+	background-position: -13.5rem -14.75rem;
+	width: 0.75rem;
+}
+
+.sharpness-icon-blue:after {
+	background-image: url("/mh2/images/sharpness_color_blue.png");
+}

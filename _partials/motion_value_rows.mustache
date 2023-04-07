@@ -2,10 +2,15 @@
 	<td>{{name}}</td>
 	<td>{{#inputs}}<span class="comma-separated">{{.}}</span>{{/inputs}}</td>
 	<td class="mv-column">
-		{{value}}
-		{{#value1}}<span class="mh1">{{value1}}</span>{{/value1}}
-		{{#valueG}}<span class="mhg">{{valueG}}</span>{{/valueG}}
-		<span{{^parts}} class="hide"{{/parts}}>: </span>
-		{{#parts}}<span class="sum-component">{{.}}</span>{{/parts}}</td>
+		<span{{^parts}} class="hide"{{/parts}}>
+			<span>(</span>
+			<span>{{#parts}}<span class="sum-component">{{.}}</span>{{/parts}}</span>
+			<span>) </span>
+		</span>
+
+		<span>{{motion}}</span>
+		{{#motion1}}<span class="mh1">{{motion1}}</span>{{/motion1}}
+		{{#motionG}}<span class="mhg">{{motionG}}</span>{{/motionG}}
+	</td>
 	<td id="{{id}}-raw" class="attack-raw"{{#value}} data-value="{{value}}"{{/value}}{{#value1}} data-value-1="{{value1}}"{{/value1}}{{#valueG}} data-value-g="{{valueG}}{{/valueG}}"></td>
 </tr>

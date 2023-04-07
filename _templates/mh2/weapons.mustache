@@ -1,0 +1,1708 @@
+{{> head}}
+
+<section id="melee-weapons" class="weapons-with-attributes">
+	<article>
+		<h2>Melee Weapons</h2>
+	</article>
+
+	<article class="filters">
+		<div class="filter-checks">
+			<div class="filter-column">
+				<h3 title="highlight weapons with a certain element/status">Element/Status:</h3>
+				<div>
+					<input id="weapon-element-fire" name="weapon-element-status" type="checkbox" value="highlight-fire"/>
+					<label for="weapon-element-fire" class="element-res-label" title="Fire">
+						<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/>
+					</label>
+					<input id="weapon-element-water" name="weapon-element-status" type="checkbox" value="highlight-water"/>
+					<label for="weapon-element-water" class="element-res-label" title="Water">
+						<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/>
+					</label>
+					<input id="weapon-element-thunder" name="weapon-element-status" type="checkbox" value="highlight-thunder"/>
+					<label for="weapon-element-thunder" class="element-res-label" title="Thunder">
+						<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/>
+					</label>
+					<input id="weapon-element-ice" name="weapon-element-status" type="checkbox" value="highlight-ice"/>
+					<label for="weapon-element-ice" class="element-res-label" title="Ice">
+						<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/>
+					</label>
+					<input id="weapon-element-dragon" name="weapon-element-status" type="checkbox" value="highlight-dragon"/>
+					<label for="weapon-element-dragon" class="element-res-label" title="Dragon">
+						<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/>
+					</label>
+				</div>
+				<div>
+					<input id="weapon-status-poison" name="weapon-element-status" type="checkbox" value="highlight-poison"/>
+					<label for="weapon-status-poison" class="element-res-label" title="Poison">
+						<img class="attribute-icon" src="../images/attributes/poison.png" alt="Poison"/>
+					</label>
+					<input id="weapon-status-paralysis" name="weapon-element-status" type="checkbox" value="highlight-paralysis"/>
+					<label for="weapon-status-paralysis" class="element-res-label" title="Paralysis">
+						<img class="attribute-icon" src="../images/attributes/paralysis.png" alt="Paralysis"/>
+					</label>
+					<input id="weapon-status-sleep" name="weapon-element-status" type="checkbox" value="highlight-sleep"/>
+					<label for="weapon-status-sleep" class="element-res-label" title="Sleep">
+						<img class="attribute-icon" src="../images/attributes/sleep.png" alt="Sleep"/>
+					</label>
+					<input id="weapon-status-element-all" type="checkbox" value="highlight-all" checked/>
+					<label for="weapon-status-element-all" class="element-res-label">All</label>
+				</div>
+			</div>
+
+			<div class="filter-column" style="display:none">
+				<div id="rank-filters" class="range-container">
+					<label for="rank-filter">Rank:</label>
+					<input id="rank-filter" type="range" min="0" max="2" step="1" value="2"/>
+					<div class="range-labels-container">
+						<span class="range-label highlighted">Low</span>|<span class="range-label highlighted">High</span>|<span class="g-rank-label range-label highlighted">G</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="filter-column">
+				<label for="search">Search: </label>
+				<input id="search" type="text" placeholder="Weapon"/>
+			</div>
+		</div>
+
+		<div class="filter-checks">
+			<input id="toggle-everything" type="checkbox"/>
+			<label for="toggle-everything">Show Everything</label>
+		</div>
+	</article>
+
+	{{#blademasterWeapons}}
+		<details id="great-longswords" class="weapon-class-container">
+			<summary>
+				<h2>{{&weaponClassTitle}}</h2>
+			</summary>
+
+			{{#groups}}
+				<details id="{{groupId}}" class="weapon-group-container {{#highRank}}high-rank {{/highRank}}{{#gRank}}g-rank {{/gRank}}{{groupClass}}">
+					<summary>
+						<h3>
+							{{group}}
+							{{#from}} (from <a href="#{{fromId}}" data-target="{{fromId}}">{{from}}</a>){{/from}}
+							{{#toggleAll}}
+								<button class="toggle-all-button" data-target="{{groupId}}" title="toggle all">toggle all</button>
+							{{/toggleAll}}
+						</h3>
+					</summary>
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Rarity</th>
+								<th>Attack</th>
+								<th>Affinity</th>
+								<th>Attribute</th>
+								<th>Defense</th>
+								<th>Sharpness</th>
+								{{#hasGunlance}}
+									<th>Shell Type</th>
+								{{/hasGunlance}}
+								{{#hasHuntingHorn}}
+									<th>Notes</th>
+								{{/hasHuntingHorn}}
+								<th>Price</th>
+								{{^other}}<th>Upgrade Materials</th>{{/other}}
+								<th>Forge Materials</th>
+							</tr>
+						</thead>
+
+						{{#tbody}}
+							<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}}{{#bodyClass}} class="{{bodyClass}}"{{/bodyClass}}{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
+								{{#weapons}}
+									<tr class="weapon-row {{^weaponLink}}rarity-{{rarity}} {{/weaponLink}}{{rowClass}}{{#attribute}} {{attribute}}-attribute{{/attribute}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}} data-name="{{name}}">
+										{{#weaponLink}}
+											<td colspan="9" class="weapon-link-cell">
+												&#8735;<a href="#{{weaponLink}}" data-target="{{weaponLink}}"><span class="{{icon}}" title="{{weaponClass}}"></span>{{name}}</a>
+											</td>
+										{{/weaponLink}}
+
+										{{^weaponLink}}
+											<td>
+												<label class="weapon-button">
+													<input type="radio" name="weapon" value="{{index}}" data-weapon-class="{{weaponClass}}"/>
+													<div class="icon"></div>
+												</label>
+
+												{{#other}}
+													<span class="{{icon}}" title="{{weaponClass}}"></span>{{name}}
+												{{/other}}
+
+												{{^other}}
+													{{#branch}}
+														<button class="branch-button" data-target="{{branch}}">
+													{{/branch}}
+
+													{{^branchBend}}
+														{{^branchStart}}| {{/branchStart}}
+													{{/branchBend}}
+													{{#branchBend}}&#8735;{{/branchBend}}
+
+													<span class="{{icon}}" title="{{weaponClass}}"></span>{{name}}
+												{{/other}}
+
+												{{#dev}}<sup title="Dev Only">Dev</sup>{{/dev}}
+
+												{{#branch}}</button>{{/branch}}
+											</td>
+											<td>{{rarity}}</td>
+											<td>{{attack}}</td>
+											<td>{{affinity}}</td>
+											<td>
+												{{#attribute}}
+													<img class="attribute-icon" src="../images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+													{{attributeValue}}
+												{{/attribute}}
+												{{^attribute}}-{{/attribute}}
+											</td>
+											<td class="ta-r">{{defense}}{{^defense}}-{{/defense}}</td>
+											<td class="sharpness-cell">
+												<div class="sharpness-container">
+													<img src="images/sharpness/sharpness_{{index}}.gif"/>
+												</div>
+											</td>
+											{{#hasGunlance}}
+												<td>
+													{{#shellType}}
+														{{shellType}} Lv{{shellLevel}}
+													{{/shellType}}
+												</td>
+											{{/hasGunlance}}
+											{{#hasHuntingHorn}}
+												<td title="{{notes}}">
+													{{#noteIcons}}
+														<span class="{{.}}-icon note-icon"></span>
+													{{/noteIcons}}
+												</td>
+											{{/hasHuntingHorn}}
+											<td class="ta-r">{{#price}}{{price}}z{{/price}}</td>
+											{{^other}}
+											<td class="expandable" title="click to toggle full list">
+												{{#upgrade}}
+													{{>material}}
+												{{/upgrade}}
+											</td>
+											{{/other}}
+											<td class="expandable" title="click to toggle full list">
+												{{#forge}}
+													{{>material}}
+												{{/forge}}
+
+												{{{acquire}}}
+
+												{{#dev}}
+													This weapon is not obtainable by normal means.
+												{{/dev}}
+											</td>
+										{{/weaponLink}}
+									</tr>
+								{{/weapons}}
+							</tbody>
+						{{/tbody}}
+					</table>
+				</details>
+			{{/groups}}
+		</details>
+	{{/blademasterWeapons}}
+</section>
+
+<section id="ranged-weapons">
+	<article>
+		<h2>Ranged Weapons</h2>
+
+		<h3>Bowguns</h3>
+		<p>Ammo values in parentheses indicate ammo types that are only available with the appropriate Shot Add armor skill</p>
+	</article>
+
+	<article class="filters">
+		<details>
+			<summary>
+				<h3 title="highlight weapons with a certain element/status">Ammo:</h3>
+			</summary>
+
+			<div class="filter-checks">
+				<div class="filter-column">
+					<input id="ammo-normal-1" name="ammo" type="checkbox" value="show-nrm-1"/>
+					<label for="ammo-normal-1" class="ammo-label">Normal Shot 1</label>
+					<!-- All bowguns can load Normal 2 -->
+					<input id="ammo-normal-3" name="ammo" type="checkbox" value="show-nrm-3"/>
+					<label for="ammo-normal-3" class="ammo-label">Normal Shot 3</label>
+					<hr/>
+					<input id="ammo-pierce-1" name="ammo" type="checkbox" value="show-prc-1"/>
+					<label for="ammo-pierce-1" class="ammo-label">Pierce Shot 1</label>
+					<input id="ammo-pierce-2" name="ammo" type="checkbox" value="show-prc-2"/>
+					<label for="ammo-pierce-2" class="ammo-label">Pierce Shot 2</label>
+					<input id="ammo-pierce-3" name="ammo" type="checkbox" value="show-prc-3"/>
+					<label for="ammo-pierce-3" class="ammo-label">Pierce Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="ammo-pellet-1" name="ammo" type="checkbox" value="show-pllt-1"/>
+					<label for="ammo-pellet-1" class="ammo-label">Pellet Shot 1</label>
+					<input id="ammo-pellet-2" name="ammo" type="checkbox" value="show-pllt-2"/>
+					<label for="ammo-pellet-2" class="ammo-label">Pellet Shot 2</label>
+					<input id="ammo-pellet-3" name="ammo" type="checkbox" value="show-pllt-3"/>
+					<label for="ammo-pellet-3" class="ammo-label">Pellet Shot 3</label>
+					<hr/>
+					<input id="ammo-crag-1" name="ammo" type="checkbox" value="show-crag-1"/>
+					<label for="ammo-crag-1" class="ammo-label">Crag Shot 1</label>
+					<input id="ammo-crag-2" name="ammo" type="checkbox" value="show-crag-2"/>
+					<label for="ammo-crag-2" class="ammo-label">Crag Shot 2</label>
+					<input id="ammo-crag-3" name="ammo" type="checkbox" value="show-crag-3"/>
+					<label for="ammo-crag-3" class="ammo-label">Crag Shot 3</label>
+				</div>
+				<div class="filter-column">
+					<input id="ammo-clust-1" name="ammo" type="checkbox" value="clust-1"/>
+					<label for="ammo-clust-1" class="ammo-label">Cluster Shot 1</label>
+					<input id="ammo-clust-2" name="ammo" type="checkbox" value="clust-2"/>
+					<label for="ammo-clust-2" class="ammo-label">Cluster Shot 2</label>
+					<input id="ammo-clust-3" name="ammo" type="checkbox" value="clust-3"/>
+					<label for="ammo-clust-3" class="ammo-label">Cluster Shot 3</label>
+					<hr/>
+					<input id="ammo-flame" name="ammo" type="checkbox" value="show-flame"/>
+					<label for="ammo-flame" class="ammo-label">Flame Shot</label>
+					<input id="ammo-water" name="ammo" type="checkbox" value="show-water"/>
+					<label for="ammo-water" class="ammo-label">Water Shot</label>
+					<input id="ammo-thunder" name="ammo" type="checkbox" value="show-thunder"/>
+					<label for="ammo-thunder" class="ammo-label">Thunder Shot</label>
+					<input id="ammo-ice" name="ammo" type="checkbox" value="show-ice"/>
+					<label for="ammo-ice" class="ammo-label">Ice Shot</label>
+					<input id="ammo-dragon" name="ammo" type="checkbox" value="show-dragon"/>
+					<label for="ammo-dragon" class="ammo-label">Dragon Shot</label>
+				</div>
+				<div class="filter-column">
+					<input id="ammo-poison-1" name="ammo" type="checkbox" value="show-poi-1"/>
+					<label for="ammo-poison-1" class="ammo-label">Poison Shot 1</label>
+					<input id="ammo-poison-2" name="ammo" type="checkbox" value="show-poi-2"/>
+					<label for="ammo-poison-2" class="ammo-label">Poison Shot 2</label>
+					<hr/>
+					<input id="ammo-stun-1" name="ammo" type="checkbox" value="show-stun-1"/>
+					<label for="ammo-stun-1" class="ammo-label">Stun Shot 1</label>
+					<input id="ammo-stun-2" name="ammo" type="checkbox" value="show-stun-2"/>
+					<label for="ammo-stun-2" class="ammo-label">Stun Shot 2</label>
+					<hr/>
+					<input id="ammo-sleep-1" name="ammo" type="checkbox" value="show-slp-1"/>
+					<label for="ammo-sleep-1" class="ammo-label">Sleep Shot 1</label>
+					<input id="ammo-sleep-2" name="ammo" type="checkbox" value="show-slp-2"/>
+					<label for="ammo-sleep-2" class="ammo-label">Sleep Shot 2</label>
+				</div>
+				<div class="filter-column">
+					<input id="ammo-recover-1" name="ammo" type="checkbox" value="show-rec-1"/>
+					<label for="ammo-recover-1" class="ammo-label">Recover Shot 1</label>
+					<input id="ammo-recover-2" name="ammo" type="checkbox" value="show-rec-2"/>
+					<label for="ammo-recover-2" class="ammo-label">Recover Shot 2</label>
+					<hr/>
+					<input id="ammo-demon" name="ammo" type="checkbox" value="show-demon"/>
+					<label for="ammo-demon" class="ammo-label">Demon Shot</label>
+					<input id="ammo-antidote" name="ammo" type="checkbox" value="show-anti"/>
+					<label for="ammo-antidote" class="ammo-label">Antidote Shot</label>
+				</div>
+				<div class="filter-column">
+					<input id="ammo-all" type="checkbox" value="highlight-all" checked/>
+					<label for="ammo-all" class="ammo-label">All</label>
+				</div>
+			</div>
+		</details>
+
+		<!-- No data for bowgun range! -->
+		<div class="filter-checks hide">
+			<input id="show-range-stat" type="checkbox"/>
+			<label for="show-range-stat">Show Range Stat</label>
+		</div>
+	</article>
+
+	<details class="weapon-class-container">
+		<summary><h2><span class="white-icon light-bowgun-icon"></span> Light Bowguns</h2></summary>
+		<table id="lbg">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Damage</th>
+					<th>Defense</th>
+					<th>Reload</th>
+					<th>Recoil</th>
+					<th class="range-stat">Range</th>
+					<th colspan="4">Ammo</th>
+					<th>Rapidfire</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#lightBowguns}}
+					{{>mh2/bowgun }}
+				{{/lightBowguns}}
+			</tbody>
+		</table>
+	</details>
+
+	<details class="weapon-class-container">
+		<summary><h2><span class="white-icon heavy-bowgun-icon"></span> Heavy Bowguns</h2></summary>
+		<table id="hbg">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Damage</th>
+					<th>Defense</th>
+					<th>Reload</th>
+					<th>Recoil</th>
+					<th class="range-stat">Range</th>
+					<th colspan="4">Ammo</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#heavyBowguns}}
+					{{>mh2/bowgun }}
+				{{/heavyBowguns}}
+			</tbody>
+		</table>
+	</details>
+
+	<details class="weapon-class-container weapons-with-attributes">
+		<summary><h2><span class="white-icon bow-icon"></span> Bows</h2></summary>
+		{{#bows}}
+			<details class="weapon-group-container{{#groupClass}} {{groupClass}}{{/groupClass}}">
+				<summary>
+					<h3>{{group}}</h3>
+				</summary>
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Rarity</th>
+							<th>Attack</th>
+							<th>Affinity</th>
+							<th>Attribute</th>
+							<th>Defense</th>
+							<th>Price</th>
+							<th>Charge Levels</th>
+							<th>Coatings</th>
+							<th>Forge Materials</th>
+							<th>Upgrade Materials</th>
+						</tr>
+					</thead>
+					<tbody{{#groupClass}} class="{{groupClass}}"{{/groupClass}}>
+						{{#weapons}}
+							<tr class="rarity-{{rarity}}{{#attribute}} {{attribute}}-attribute{{/attribute}}">
+								<td>
+									<label class="weapon-button">
+										<input type="radio" name="weapon" value="{{index}}" data-weapon-class="Bow"/>
+										<div class="icon"></div>
+									</label>
+
+									{{^branchBend}}
+										{{^branchStart}}| {{/branchStart}}
+									{{/branchBend}}
+									{{#branchBend}}&#8735;{{/branchBend}}
+
+									<span class="{{icon}}" title="{{weaponClass}}"></span>
+									{{name}}
+									{{#dev}}<sup title="Dev Only">Dev</sup>{{/dev}}
+								</td>
+								<td>{{rarity}}</td>
+								<td>{{attack}}</td>
+								<td>{{affinity}}</td>
+								<td>
+									{{#attribute}}
+										<img class="attribute-icon" src="../images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+										{{attributeValue}}
+									{{/attribute}}
+								</td>
+								<td class="ta-r">{{defense}}</td>
+								<td class="ta-r">{{price}}z</td>
+								<td>
+									{{#chargeLevels}}
+										<span class="comma-separated">{{type}} Lv{{level}}</span>
+									{{/chargeLevels}}
+								</td>
+								<td>
+									{{#powerCoating}}<span class="red-icon coating-icon" title="Power"></span>{{/powerCoating}}
+									{{#poisonCoating}}<span class="purple-icon coating-icon" title="Poison"></span>{{/poisonCoating}}
+									{{#paraCoating}}<span class="yellow-icon coating-icon" title="Paralysis"></span>{{/paraCoating}}
+									{{#sleepCoating}}<span class="cyan-icon coating-icon" title="Sleep"></span>{{/sleepCoating}}
+
+									{{^powerCoating}}{{^poisonCoating}}{{^paraCoating}}{{^sleepCoating}}
+										none
+									{{/sleepCoating}}{{/paraCoating}}{{/poisonCoating}}{{/powerCoating}}
+								</td>
+								<td class="expandable" title="click to toggle full list">
+									{{#forge}}
+										{{>material}}
+									{{/forge}}
+
+									{{{acquire}}}
+
+									{{#dev}}
+										This weapon is not obtainable by normal means.
+									{{/dev}}
+								</td>
+								<td class="expandable" title="click to toggle full list">
+									{{#upgrade}}
+										{{>material}}
+									{{/upgrade}}
+								</td>
+							</tr>
+						{{/weapons}}
+					</tbody>
+				</table>
+			</details>
+		{{/bows}}
+	</details>
+</section>
+
+<hr/>
+
+<section class="about-weapons">
+	<details>
+		<summary>
+			<h2>About Weapons</h2>
+		</summary>
+
+		<h3>Bloat Values</h3>
+		<p>
+			Each weapon class has a predefined multiplier that is used to indicate its relative damage considering its motion values. So the Attack stat seen in-game is a "bloated" version of the weapon's True Base Damage, as detailed below.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Weapon</th>
+					<th>Bloat Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Great Sword</th>
+					<td>4.8</td>
+				</tr>
+				<tr>
+					<th>Longsword</th>
+					<td>4.8</td>
+				</tr>
+				<tr>
+					<th>Hammer</th>
+					<td>5.2</td>
+				</tr>
+				<tr>
+				<tr>
+					<th>Hunting Horn</th>
+					<td>5.2</td>
+				</tr>
+				<tr>
+					<th>Lance</th>
+					<td>2.3</td>
+				</tr>
+				<tr>
+					<th>Gunlance</th>
+					<td>2.3</td>
+				</tr>
+				<tr>
+					<th>Sword and Shield</th>
+					<td>1.4</td>
+				</tr>
+				<tr>
+					<th>Dual Swords</th>
+					<td>1.4</td>
+				</tr>
+				<tr>
+					<th>Bowgun</th>
+					<td>1.2</td>
+				</tr>
+				<tr>
+					<th>Bow</th>
+					<td>1.2</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Attack Up Buffs</h3>
+		<p>
+			There are three stages of the Attack Up buff: Small, Medium, and Large.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Small</th>
+					<td class="ta-r">3</td>
+				</tr>
+				<tr>
+					<th>Medium</th>
+					<td class="ta-r">5</td>
+				</tr>
+				<tr>
+					<th>Large</th>
+					<td class="ta-r">10</td>
+				</tr>
+				<tr>
+					<th>Extra Large</th>
+					<td class="ta-r">25</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Your total Attack Up buff is added to your weapon's True Base Damage before any other calculations.<br/>
+			<br/>
+			Some Attack Up buffs can stack, while others can't. Per the chart below, anything within the same category cannot stack. E.G. Powercharm [+5], Attack Up Small [+3], Demondrug [+3], and Power Seed [+10] would all stack for a total of +21 True Base Damage. However, Attack Up Small from Dining [+3] and Mega Demondrug [+5] would not stack.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Charm:</th>
+					<td>Powercharm [5]</td>
+				</tr>
+				<tr>
+					<th>Talon:</th>
+					<td>Powertalon [10]</td>
+				</tr>
+				<tr>
+					<th>Armor Skill:</th>
+					<td>Attack Up [3, 5, 10]</td>
+				</tr>
+				<tr>
+					<th>Dining &amp; Consumables:</th>
+					<td>Dining Buff [3, 5, 10], Demondrug [3], Mega Demondrug [5], &amp; Demon Shot [3]*</td>
+				</tr>
+				<tr>
+					<th>Short-Term Consumables:</th>
+					<td>Power Seed [10], Power Pill [25], &amp; Demon Flute [10]</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<i>*Demon Shot will <b>replace</b> any other attack buffs from its category. E.G. replacing Mega Demondrug's +5 with +3 from the shot.</i>
+		</p>
+
+		<h2><span class="random-blademaster-icon white-icon"></span> <span>Blademaster Weapons</span></h2>
+		<p>
+			Blademaster (melee) weapon damage is based on attack motion, sharpness, and attack timing.
+		</p>
+
+		<h3>Motion Values</h3>
+		<p>
+			Every attack for each weapon class has its own multiplier to determine how much damage it will do. This Motion Value (MV) represents a fraction of the weapon's True Base Damage.<br/>
+			<br/>
+			Additionally, the Great Sword's Charged Overhead Slashes are multiplied by a further modifier, listed for each motion below.
+		</p>
+
+		<div class="motion-value-tables">
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Great Sword</caption>
+					<tbody>
+						<tr>
+						</tr>
+						{{#motionValues.greatSword}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+								<td>{{#modifier}}{{modifier}}%{{/modifier}}</td>
+							</tr>
+						{{/motionValues.greatSword}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Longsword</caption>
+					<tbody>
+						<tr>
+						</tr>
+						{{#motionValues.longsword}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.longsword}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Hammer</caption>
+					<tbody>
+						{{#motionValues.hammer}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.hammer}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Hunting Horn</caption>
+					<tbody>
+						{{#motionValues.huntingHorn}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.huntingHorn}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Lance</caption>
+					<tbody>
+						{{#motionValues.lance}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.lance}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Gunlance</caption>
+					<tbody>
+						{{#motionValues.gunlance}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.gunlance}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Sword and Shield</caption>
+					<tbody>
+						{{#motionValues.sword}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.sword}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Dual Swords</caption>
+					<tbody>
+						{{#motionValues.dualSwords}}
+							<tr>
+								<td>{{name}}</td>
+								<td class="ta-r">{{motion}}</td>
+							</tr>
+						{{/motionValues.dualSwords}}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<h3>Sharpness</h3>
+		<p>
+			The full sharpness bar on a weapon represents 400 hits. Select a weapon and open the Damage Calculator to see how many hits it has per sharpness level. Bouncing reduces your weapon's sharpness by two hits, otherwise every attack reduces sharpness by one. Blocking an attack with a Great Sword will reduce its sharpness as well.<br/>
+			<br/>
+			A Whetstone or Knife Mackaral restore 150 hits, and a Mini-Whetstone 100 hits.<br/>
+			<br/>
+			A weapon's current sharpness will also modify its attack damage per the chart below.
+		</p>
+
+		<table>
+			<tbody>
+				<tr>
+					<td title="Red Sharpness">
+						<span class="sharpness-0"></span>
+						<span class="ui-icon-2 sharpness-icon-dullest sharpness-icon-red"></span>
+					</td>
+					<td>&times;0.5</td>
+				</tr>
+				<tr>
+					<td title="Orange Sharpness">
+						<span class="sharpness-1"></span>
+						<span class="ui-icon-2 sharpness-icon-dull sharpness-icon-orange"></span>
+					</td>
+					<td>&times;0.75</td>
+				</tr>
+				<tr>
+					<td title="Yellow Sharpness">
+						<span class="sharpness-2"></span>
+						<span class="ui-icon-2 sharpness-icon"></span>
+					</td>
+					<td>&times;1.0</td>
+				</tr>
+				<tr>
+					<td title="Green Sharpness">
+						<span class="sharpness-3"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-green"></span>
+					</td>
+					<td>&times;1.125</td>
+				</tr>
+				<tr>
+					<td title="Blue Sharpness">
+						<span class="sharpness-4"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-blue"></span>
+					</td>
+					<td>&times;1.25</td>
+				<tr>
+					<td title="White Sharpness">
+						<span class="sharpness-5"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-white"></span>
+					</td>
+					<td>&times;1.5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Additional Modifiers</h3>
+		<p>
+			A few weapons are subjected to additional raw damage modifiers as well. Gunlance damage is reduced to 95%, Sword and Shield is increased to 120%.
+		</p>
+
+		<h3>Attack Motion Sweetspot</h3>
+		<p>
+			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, <span title="see the NOTE below">and the late penalty will apply at all sharpness levels.</span> The ESP skill will remove the late timing penalty if your weapon is at White sharpness*. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.<br/>
+			<br/>
+			NOTE: this mechanic is bugged in-game. At Green sharpness and above the late timing penalty is <i>also</i> removed. So in practice, the ESP skill doesn't do anything.
+		</p>
+
+		<h3>Weapon Reaction Value</h3>
+		<p>
+			A Blademaster weapon's attack can have one of four different reactions on hitting a monster: bounce, hitslow, hitstop, or normal motion. This Reaction Value is the product of the weapon's sharpness modifier, monster hitzone, and sweetspot.
+		</p>
+		<pre>Sharpness Mod &times; Hitzone &times; Sweetspot Mod</pre>
+		<p>
+			If the Reaction Value is less than 0.25 the weapon will bounce, if it's less than 0.45 the motion will continue like normal, if it's less than 1.0 the weapon motion will be slowed for a moment (hitslow), if it is greater than or equal to 1.0 it'll be stopped for a moment (hitstop.) Hitslow and Hitstop durations are defined per attack.<br/>
+			<br/>
+			Bouncing, critslow, and critstop do not directly affect damage, but bouncing will reduce weapon sharpness by two points instead of one.<br/>
+			<br/>
+			A few Hammer and Dual Swords attacks will never make your hunter bounce, though the sound and particle effects will still play, and sharpness is reduced by two hits all the same. These include the Hammer Spins, combo Golf Swing, Golf Swing after spinning, and both components of the Superpound, and the Dual Swords Fury Combo.
+		</p>
+
+		<h3>Element</h3>
+		<p>
+			Much like the Attack stat, the displayed Element value is bloated in-game, by 10 times to be exact. Any weapon with Element damage will deal that element damage on any hit, regardless of Reaction Value (before defense, hitzones, etc.) Sharpness modifies element damage much like it does raw damage.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<td title="Red Sharpness">
+						<span class="sharpness-0"></span>
+						<span class="ui-icon-2 sharpness-icon-dullest sharpness-icon-red"></span>
+					</td>
+					<td>&times;0.25</td>
+				</tr>
+				<tr>
+					<td title="Orange Sharpness">
+						<span class="sharpness-1"></span>
+						<span class="ui-icon-2 sharpness-icon-dull sharpness-icon-orange"></span>
+					</td>
+					<td>&times;0.5</td>
+				</tr>
+				<tr>
+					<td title="Yellow Sharpness">
+						<span class="sharpness-2"></span>
+						<span class="ui-icon-2 sharpness-icon"></span>
+					</td>
+					<td>&times;0.75</td>
+				</tr>
+				<tr>
+					<td title="Green Sharpness">
+						<span class="sharpness-3"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-green"></span>
+					</td>
+					<td>&times;1.0</td>
+				</tr>
+				<tr>
+					<td title="Blue Sharpness">
+						<span class="sharpness-4"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-blue"></span>
+					</td>
+					<td>&times;1.0625</td>
+				<tr>
+					<td title="White Sharpness">
+						<span class="sharpness-5"></span>
+						<span class="ui-icon-2 sharpness-icon sharpness-icon-white"></span>
+					</td>
+					<td>&times;1.125</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Total Blademaster Damage (before hitting a monster)</h3>
+		<pre>Total Raw Damage = ((True Base Damage + Attack Buffs) * (Motion Value / 100) * Sharpness Modifier * Sweetspot Modifier)<br/>Total Element Damage = (True Element * Element Sharpness Mod)</pre>
+
+		<h2><span class="random-bowgun-icon white-icon"></span> <span>Bowguns</span></h2>
+		<p>
+			Bowgun damage is based on ammo type and range.
+		</p>
+
+		<h3>Motion Values</h3>
+		<p>
+			Bowguns calculate raw damage based on ammo MVs. Some shots can hit a target multiple times, and some shots also deal additional effects:
+		</p>
+		<ul>
+			<li>Pierce Shot will hit a monster at least once, and up to the maximum number of impacts in a straight line, unless it exits the monster sooner.</li>
+			<li>Pellet Shot will hit all monsters in the cone of effect multiple times in quick succession; the number of impacts is higher the closer the monster is to the hunter and the center of the cone; all monsters in the cone take the full number of impacts regardless of any other monsters or hunters in the cone with them; Pellet shot is also not affected by physical obstructions.</li>
+			<li>Clust Shot spawns a number of bomblets on impact, which scatter and explode on impact with any solid object.</li>
+			<li>Flame, Water, and Thunder shot deal element damage as MV. Pellet, Crag, Clust and Dragon shot deal flat element damage.</li>
+			<li>Shots with Ricochet will deal damage and change direction on impacting a monster; if it hits the monster again, it will deal full damage and ricochet again until reaching the maximum number of possible impacts (defined per shot below) or missing the monster.</li>
+			<li>Recover Shot heals both hunters and monsters alike.</li>
+		</ul>
+		<p>
+			Additionally, the Heavy Bowgun can be equipped with a Power Barrel for an additional 24 Attack.
+		</p>
+
+		<h3>Reload</h3>
+		<p>
+			Reload time is determined by the Bowgun's innate loading speed and the Ammo being loaded. There are three possible reload speeds:
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Fast</th>
+					<td>0 - 4</td>
+				</tr>
+				<tr>
+					<th>Medium</th>
+					<td>5 - 7</td>
+				</tr>
+				<tr>
+					<th>Slow</th>
+					<td>8 - 10</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			A bowgun can have one of five different reload speeds, which reduce an ammunition's reload time by the following amounts:
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Very Slow</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Slow</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Normal</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Fast</th>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>Very Fast</th>
+					<td>4</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Reload Speed armor skills can reduce reload even further: each level reduces reload time by one point.
+		</p>
+		<pre>
+			Shot Reload Time - Bowgun Reload - Reload Skill Level
+		</pre>
+
+		<h3>Recoil</h3>
+		<p>
+			Much like Reload Time, Recoil is determined by ammunition, bowgun recoil compensation, and the Recoil armor skill. Nearly all bowguns have "Moderate" recoil compensation (-2 to shot recoil), and a few have "Light" (-3 to shot recoil.)
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Small</th>
+					<td>&nbsp;0 - 8</td>
+				</tr>
+				<tr>
+					<th>Medium</th>
+					<td>&nbsp;9 - 10</td>
+				</tr>
+				<tr>
+					<th>Large</th>
+					<td>11 - 14</td>
+				</tr>
+			</tbody>
+		</table>
+		<pre>
+			Shot Recoil - Bowgun Recoil Compensation - Recoil Skill Level
+		</pre>
+		<p>
+			The Rapid Fire skill removes Bowgun Recoil Compensation from the calculation, thus increasing recoil for all shots.
+		</p>
+
+		<h3>Critical Range</h3>
+		<p>
+			Normal and Pierce Shots deal different damage based on how far the shot has to travel to hit the monster. The range during which they deal maximum damage (1.5&times;) is Critical Range. Normal Shot starts in critical range and falls off over time. Pierce Shot starts at 1.0 &times; damage initially, enters Critical Range after a short travel time, and falls off after that. Higher levels of Normal and Pierce Shot remain in their critical range for longer.
+		</p>
+
+		<h3>Normal Shot</h3>
+		<img src="images/normal_shot_range_chart.png"/>
+
+		<h3>Pierce Shot</h3>
+		<img src="images/pierce_shot_range_chart.png"/>
+
+		<div class="table-container">
+			<table>
+				<thead>
+					<tr>
+						<th>Shot</th>
+						<th>MV</th>
+						<th>Impacts</th>
+						<th>Effect</th>
+						<th>Reload</th>
+						<th>Recoil</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#bowgunAmmo}}
+						<tr>
+							<th>{{name}}</th>
+							<td class="ta-r">{{motion}}</td>
+							<td class="ta-c">{{impacts}}</td>
+							<td>
+								{{#effect}}{{{effect}}} {{/effect}}
+								{{#explosion}}
+									Explosion: {{explosion.motion}} <img class="attribute-icon" src="../images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
+									{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
+								{{/explosion}}
+								{{#attributeAlt}}
+									<img class="attribute-icon" src="../images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+								{{/attributeAlt}}
+								<span>
+									{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+									{{#attributeMV}}{{attributeMV}} MV{{/attributeMV}}
+								</span>
+							</td>
+							<td class="ta-r">{{reload}}</td>
+							<td class="ta-r">{{recoil}}</td>
+						</tr>
+					{{/bowgunAmmo}}
+				</tbody>
+			</table>
+		</div>
+
+		<h3>Total Bowgun Damage (per impact, before hitting a monster)</h3>
+		<pre>Normal and Pierce Shots = (True Base Damage + Attack Buffs) &times; (Ammo Motion Value &div; 100) &times; Critical Range Modifier<br/>All Other Shots = (True Base Damage + Attack Buffs) &times; Ammo Motion Value</pre>
+
+		<h2><span class="white-icon bow-icon"></span> <span>Bow</span></h2>
+		<p>
+			Bow damage is calculated based on the type of Arrow being fired, charge level, and range.
+		</p>
+
+		<h3>Arrows</h3>
+		<p>
+			Each Bow has four levels of charge which will determine which type of Arrows it will fire. The type of Arrows at each charge level is determined per Bow, listed in increasing order of charge. E.G. the first Arrow type is fired at charge level 1, the second at level 2, etc. Arrows can be any of the following types: Rapid, Scatter, and Pierce.<br/>
+			<br/>
+			<b>Rapid</b> will fire from 1 to 4 arrows, depending on level, at once in a tight cluster.<br/>
+			<br/>
+			<b>Scatter</b> will fire either 3 or 5 arrows, depending on level, in a wide arc.<br/>
+			<br/>
+			<b>Pierce</b> will fire one arrow that hits from 3 to 6 times, depending on level. It passes through the monster, hitting multiple points along its trajectory.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Type</th>
+					<th>Impacts</th>
+					<th>Power</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#arrows}}
+					<tr>
+						<td>{{name}} Lv{{level}}</td>
+						<td>
+							{{impacts}}
+							{{^impacts}}1{{/impacts}}
+						</td>
+						<td>{{power}}</td>
+					</tr>
+				{{/arrows}}
+			</tbody>
+		</table>
+
+		<h3>Charge Level Multiplier</h3>
+		<p>
+			Additionally, Arrow damage is affected by the bow's charge level. Even the exact same Arrow Type may be weaker or stronger on a given bow, depending on what charge level is required to fire it.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<td>Lv 1</td>
+					<td>&times; 0.4</td>
+				</tr>
+				<tr>
+					<td>Lv 2</td>
+					<td>&times; 1.0</td>
+				</tr>
+				<tr>
+					<td>Lv 3</td>
+					<td>&times; 1.5</td>
+				</tr>
+				<tr>
+					<td>Lv 4</td>
+					<td>&times; 1.5</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Critical Range</h3>
+
+		<p>
+			Arrows are further affected by Critical Range per the following chart. After approximately 233ms all Arrows will deal a boosted 150% damage, followed by periodic reductions based on Arrow type, eventually losing all power. Arrow type level does not affect Critical Range.
+		</p>
+
+		<img src="images/bow_range_chart.png"/>
+
+		<h3>Melee Attacks</h3>
+		<p>
+			The Bow has two melee attacks, the first combos into the second. They deal cutting damage, but like the Lance will prefer a monster's Blunt damage hitzone if it's higher. If the Bow has an element, these attacks will also deal element damage.
+		</p>
+		<table>
+			<tbody>
+				{{#motionValues.bow}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{motion}}</td>
+					</tr>
+				{{/motionValues.bow}}
+			</tbody>
+		</table>
+
+		<h3>Total Bow Damage (per Arrow per impact, before hitting a monster)</h3>
+		<pre>(True Base Damage + Attack Buffs) &times; (Arrow Power &div; 100) &times; Charge Level Multiplier &times; Critical Range Modifier</pre>
+
+		<h2><span class="white-icon creature-icon"></span> <span>Damage to Monsters</span></h2>
+
+		<h3>Defense Modifier</h3>
+		<p>
+			A weapon's attack is further modified by the monster's Defense Modifier. This is determined per monster per quest. See the <a href="/bestiary">Bestiary</a> for the full range of possible Defense modifiers for each monster. See the <a href="/quests">Quests page</a> for the full range of possible Defense Modifiers the monsters on a given quest can have.
+		</p>
+
+		<h3>Hitzones</h3>
+		<p>
+			After the Defense Modifier, weapon damage is reduced again by monster hitzones. Each part of a monster resists cutting, blunt, shot, and element damage differently (see the <a href="/bestiary">Bestiary</a>.) These hitzones represent the percent damage the monster will take from the given damage type. Great Sword, Longsword, Gunlance, Sword and Shield, and Dual Swords deal Cutting damage; Hammer and Hunting Horn deal Blunt damage; and Bowgun and Bow deal Shot Damage.<br/>
+			<br/>
+			Lance is a special case: for the purpose of damage calculations, the Lance will compare Cutting and Blunt hitzones and choose the greater (Lance damage is always considered Cutting Damage for all other reasons, E.G. Lance can always cut tails.) If the Blunt hitzone is greater, the Lance's damage is reduced to 72%.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Great Sword</th>
+					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Longsword</th>
+					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Hammer</th>
+					<td><pre>Raw Damage * (Blunt Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Hunting Hammer</th>
+					<td><pre>Raw Damage * (Blunt Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Lance</th>
+					<td><pre>Raw Damage * ((Cutting OR Blunt Hitzone) &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Gunlance</th>
+					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Sword and Shield</th>
+					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Dual Swords</th>
+					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Bowgun</th>
+					<td><pre>Raw Damage * (Shot Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Bow</th>
+					<td><pre>Raw Damage * (Shot Hitzone &div; 100)</pre></td>
+				</tr>
+				<tr>
+					<th>Element</th>
+					<td><pre>Element Damage * (Element Hitzone &div; 100)</pre></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Conditional Modifiers</h3>
+		<p>
+			A Large Monster will take additional damage under certain conditions:
+		</p>
+		<ul>
+			<li>If Paralyzed: &times; 1.1</li>
+			<li>Basarios while hiding in plain sight: &times; 1.1</li>
+			<li>Pitfall Trap (after falling, before struggling) &times; 1.1</li>
+			<li>If sleeping: &times; 3.0</li>
+		</ul>
+		<p>
+			A shock trap does not increase damage done to the monster.
+		</p>
+
+		<h3>Damage to a Monster</h3>
+		<pre>(Total Weapon Raw Damage * (Conditional Modifier) * Monster Defense * (Monster Raw Hitzone / 100)) + (Total Weapon Element Damage * (Monster Element Hitzone / 100))</pre>
+
+		<h3><span class="white-icon hammer-icon"></span><span class="white-icon hunting-horn-icon"></span> <span>Knock-Out (KO)</span></h3>
+		<p>
+			Certain Hammer and Hunting Horn attacks apply KO value to a monster, which will eventually Knock Out the monster for a short time. With rare exception, KO will only accumulate when hittine the monster in the head. Some monsters, such as Vespoid and Popo, are immune to KO.
+		</p>
+
+		<table>
+			<caption>Hammer</caption>
+			<thead>
+				<tr>
+					<th>Attack</th>
+					<th>KO</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#koValues.hammer}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/koValues.hammer}}
+			</tbody>
+		</table>
+
+		<table>
+			<caption>Hunting Horn</caption>
+			<thead>
+				<tr>
+					<th>Attack</th>
+					<th>KO</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#koValues.huntingHorn}}
+					<tr>
+						<td>{{name}}</td>
+						<td>{{value}}</td>
+					</tr>
+				{{/koValues.huntingHorn}}
+			</tbody>
+		</table>
+
+		<h3><span class="white-icon gunlance-icon"></span> <span>Gunlance Shells and Wyvernfire</span></h3>
+		<p>
+			Gunlance Shells deal both Explosive and Fire damage, based on the weapon's Shell type and Level. The Shell type also determines the Shell capacity of that Gunlance.
+		</p>
+		<div>
+			<table class="column">
+				<thead>
+					<tr>
+						<th>Shelling Level</th>
+						<th>Explosive</th>
+						<th>Fire</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#gunlanceShellLevels}}
+						<tr>
+							<td>{{name}}</td>
+							<td>{{power}}</td>
+							<td>{{power}}</td>
+						</tr>
+					{{/gunlanceShellLevels}}
+				</tbody>
+			</table>
+
+			<table class="column">
+				<tbody>
+					<tr>
+						<td>Normal</td>
+						<td title="5">
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>Long</td>
+						<td title="3">
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>Wide</td>
+						<td title="2">
+							<span class="small-icon shell-icon"></span>
+							<span class="small-icon shell-icon"></span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p>
+			Wyvernfire has four impact points, each of which deals damage per the following table. The Shell Level determines how much damage each impact will do, while the Shell Type determines the pattern.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Shelling Level</th>
+					<th>Explosive</th>
+					<th>Fire</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#wyvernfire}}
+					<tr>
+						<td>Shell {{name}}</td>
+						<td>{{explosion}}</td>
+						<td>{{fire}}</td>
+					</tr>
+				{{/wyvernfire}}
+			</tbody>
+		</table>
+
+		<h3>Explosive Damage</h3>
+		<p>
+			Crag Shot, Cluster Shot, and Barrel Bombs deal damage that ignores monster hitzones, and is only affected by the monster's defense modifier. The Bomber skill will increase the damage of Barrel Bombs by 1.5 times.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Explosive</th>
+					<th>Damage</th>
+					<th>with Bomber</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Crag S Lv 1</th>
+					<td class="ta-r">20</td>
+					<td class="ta-r">20</td>
+				</tr>
+				<tr>
+					<th>Crag S Lv 2</th>
+					<td class="ta-r">30</td>
+					<td class="ta-r">30</td>
+				</tr>
+				<tr>
+					<th>Crag S Lv 3</th>
+					<td class="ta-r">40</td>
+					<td class="ta-r">40</td>
+				</tr>
+				<tr>
+					<th>Clust S Bomblet</th>
+					<td class="ta-r">32</td>
+					<td class="ta-r">32</td>
+				</tr>
+				<tr>
+					<th>Sm Barrel Bomb</th>
+					<td class="ta-r">20</td>
+					<td class="ta-r">30</td>
+				</tr>
+				<tr>
+					<th>Sm Barrel Bomb+</th>
+					<td class="ta-r">30</td>
+					<td class="ta-r">45</td>
+				</tr>
+				<tr>
+					<th>Lg Barrel Bomb</th>
+					<td class="ta-r">80</td>
+					<td class="ta-r">120</td>
+				</tr>
+				<tr>
+					<th>Lg Barrel Bomb+</th>
+					<td class="ta-r">150</td>
+					<td class="ta-r">225</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Siege Weapons</h3>
+		<p>
+			The various siege weapons provided at certain locales also deal damage in the same way as explosives. The Fort Dragonator has four drivers with the potential to deal damage to Lao-Shan Lung with all four upon activation. The Castle Schrade Dragonator has one driver that continues to deal damage at a regular interval for the duration of its activation. The Gate at Castle Schrade will drop automatically, and cannot be reset.
+		</p>
+		<table>
+			<tbody>
+				<tr>
+					<th>Ballista</th>
+					<td>100</td>
+				</tr>
+				<tr>
+					<th>Cannon</th>
+					<td>250</td>
+				</tr>
+				<tr>
+					<th>Fort Dragonator</th>
+					<td>255 &times; 4</td>
+				</tr>
+				<tr>
+					<th>Castle Schrade Dragonator</th>
+					<td>255 per 0.8 seconds</td>
+				</tr>
+				<tr>
+					<th>Castle Schrade Gate</th>
+					<td>255</td>
+				</tr>
+			</tbody>
+		</table>
+	</details>
+</section>
+
+<div id="damage-calculator">
+	<div id="sidebar-content">
+		<div class="columns-container">
+			<div class="weapon-column">
+				<h2>Weapon: <span id="calc-weapon-icon"></span> <span id="calc-weapon-name"></span></h2>
+
+				<h3 class="calculator-attack-container">
+					<span>Attack: </span><span id="calc-weapon-attack"></span> <span class="calc-horn-notes-container">
+						<span class="calc-horn-note white-icon note-icon"></span>
+						<span class="calc-horn-note white-icon note-icon"></span>
+						<span class="calc-horn-note white-icon note-icon"></span>
+					</span>
+					<span class="calc-gunlance-shells-container">
+						<span id="calc-gunlance-shell-level"></span>
+
+						<span class="calc-gunlance-shell small-icon shell-icon"></span>
+						<span class="calc-gunlance-shell small-icon shell-icon"></span>
+						<span class="calc-gunlance-shell small-icon shell-icon"></span>
+						<span class="calc-gunlance-shell small-icon shell-icon"></span>
+						<span class="calc-gunlance-shell small-icon shell-icon"></span>
+					</span>
+				</h3>
+				<h3 id="calc-weapon-element-container">Element: <img id="calc-weapon-element-icon" class="attribute-icon va-m" src="" alt="" title=""/><span id="calc-weapon-element"></span> (<span id="calc-true-element"></span>)</h3>
+				<h3 id="calc-weapon-status-container">Status: <img id="calc-weapon-status-icon" class="attribute-icon va-m" src="" alt="" title=""/><span id="calc-weapon-status"></span> (<span id="calc-true-status"></span>)</h3>
+
+				<div class="sharpness-range-color">
+					<div id="calc-sharpness-color"></div>
+					<div class="calc-sharpness-container">
+						<canvas id="calc-sharpness-canvas" class="hide" width="119" height="2"></canvas>
+						<div class="sharpness-container"><img id="calc-sharpness-img" src=""/></div>
+
+						<div class="calc-hit-count-container">
+							<div class="calc-hit-count"></div>
+							<div class="calc-hit-count"></div>
+							<div class="calc-hit-count"></div>
+							<div class="calc-hit-count"></div>
+							<div class="calc-hit-count"></div>
+							<div class="calc-hit-count"></div>
+						</div>
+
+						<input id="calc-sharpness" type="range" min="0" max="118" step="1"/>
+					</div>
+				</div>
+
+				<div class="calc-horn-songs-container">
+					<table class="w-auto">
+						<tbody id="calc-horn-songs-list">
+						</tbody>
+					</table>
+				</div>
+
+				<div class="checkbox-container heavy-bowgun-option">
+					<input id="calc-power-barrel" type="checkbox"/>
+					<div class="checkbox-icon"></div>
+					<label for="calc-power-barrel">Power Barrel</label>
+				</div>
+
+				<div class="bow-stat">
+					<div class="calc-bow-coatings">
+						<span class="red-icon coating-icon"></span>
+						<span class="purple-icon coating-icon"></span>
+						<span class="yellow-icon coating-icon"></span>
+						<span class="cyan-icon coating-icon"></span>
+					</div>
+
+					<div class="checkbox-container">
+						<input id="calc-power-coating" type="checkbox"/>
+						<div class="checkbox-icon"></div>
+						<label for="calc-power-coating">Power Coating</label>
+					</div>
+				</div>
+
+				<div id="calc-range-slider">
+					<h3>Range Modifier</h3>
+					<div class="calc-range-labels">
+						<div class="calc-range-label">50%</div>
+						<div class="calc-range-label">80%</div>
+						<div class="calc-range-label">100%</div>
+						<div class="calc-range-label">150%</div>
+					</div>
+					<input id="calc-range" type="range" min="0" max="3" step="1" value="3"/>
+				</div>
+			</div>
+
+			<div>
+				<div class="columns-container">
+					<div class="column">
+						<h4 title="Dining buffs, Demondrug, Mega Demondrug, and Demon Shot do not stack">Food/Item Skills:</h4>
+
+						<div class="radio-container">
+							<input id="calc-food-attack-up-none" type="radio" name="item_attack_up" checked/>
+							<div class="radio-icon"></div>
+							<label for="calc-food-attack-up-none" title="0">No Attack Up</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-food-attack-up-small" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-food-attack-up-small" title="3">Attack Up Small</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-food-attack-up-medium" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-food-attack-up-medium" title="5">Attack Up Medium</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-food-attack-up-large" type="radio" name="item_attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-food-attack-up-large" title="10">Attack Up Large</label>
+						</div>
+						<hr/>
+						<div class="radio-container">
+							<input id="calc-item-attack-up-none" name="seed_pill_attack_up" type="radio" checked/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-none" title="10">No Attack Up</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-item-attack-up-seed" name="seed_pill_attack_up" type="radio"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-seed" title="10">Seed/Flute Buff</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-item-attack-up-pill" name="seed_pill_attack_up" type="radio"/>
+							<div class="radio-icon"></div>
+							<label for="calc-item-attack-up-pill" title="10">Power Pill</label>
+						</div>
+					</div>
+
+					<div class="column">
+						<h4>Armor Skills:</h4>
+
+						<div class="radio-container">
+							<input id="calc-attack-up-none" type="radio" name="attack_up" checked/>
+							<div class="radio-icon"></div>
+							<label for="calc-attack-up-none" title="0">No Attack Up</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-attack-up-small" type="radio" name="attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-attack-up-small" title="3">Attack Up Small</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-attack-up-medium" type="radio" name="attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-attack-up-medium" title="5">Attack Up Medium</label>
+						</div>
+						<div class="radio-container">
+							<input id="calc-attack-up-large" type="radio" name="attack_up"/>
+							<div class="radio-icon"></div>
+							<label for="calc-attack-up-large" title="10">Attack Up Large</label>
+						</div>
+						<hr class="blademaster-stat"/>
+						<div class="checkbox-container blademaster-stat">
+							<input id="calc-handicraft" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-handicraft">Handicraft</label>
+						</div>
+						<hr/>
+						<div class="checkbox-container">
+							<input id="calc-special-attack" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-special-attack" title="Status x1.125">Special Attack</label>
+						</div>
+					</div>
+
+					<div class="column">
+						<h4 class="gunner-stat">Shot Up Skills:</h4>
+
+						<div class="checkbox-container gunner-stat">
+							<input id="calc-normal-shot-up" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-normal-shot-up">Normal Shot Up</label>
+						</div>
+						<div class="checkbox-container gunner-stat">
+							<input id="calc-pierce-shot-up" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-pierce-shot-up">Pierce Shot Up</label>
+						</div>
+						<div class="checkbox-container gunner-stat">
+							<input id="calc-pellet-shot-up" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-pellet-shot-up">Pellet Shot Up</label>
+						</div>
+
+						<h4>Items:</h4>
+
+						<div class="checkbox-container">
+							<input id="calc-powercharm" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-powercharm" title="5">Powercharm</label>
+						</div>
+
+						<div class="checkbox-container">
+							<input id="calc-powertalon" type="checkbox"/>
+							<div class="checkbox-icon"></div>
+							<label for="calc-powertalon" title="10">Powertalon</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="table-container">
+			<table>
+				<caption class="blademaster-stat">Motion Values</caption>
+				<caption class="gunner-stat">Ammo Damage</caption>
+
+				<thead>
+					<tr class="blademaster-stat">
+						<th>Attack</th>
+						<th>Controller Inputs</th>
+						<th class="mv-column">Motion Value</th>
+						<th>Raw Damage</th>
+					</tr>
+
+					<tr class="gunner-stat">
+						<th>Shot Name</th>
+						<th>Power</th>
+						<th># of Impacts</th>
+						<th>Effect</th>
+					</tr>
+
+					<tr class="bow-stat">
+						<th>Arrow Type</th>
+						<th>Controller Inputs</th>
+						<th># of Impacts</th>
+						<th>Power</th>
+						<th>Raw Damage</th>
+					</tr>
+				</thead>
+
+				<tbody class="motion-values great-sword-mvs">
+					{{#motionValues.greatSword}}
+						{{> motion_value_rows }}
+					{{/motionValues.greatSword}}
+				</tbody>
+
+				<tbody class="motion-values longsword-mvs">
+					{{#motionValues.longsword}}
+						{{> motion_value_rows }}
+					{{/motionValues.longsword}}
+				</tbody>
+
+				<tbody class="motion-values hammer-mvs">
+					{{#motionValues.hammer}}
+						{{> motion_value_rows }}
+					{{/motionValues.hammer}}
+				</tbody>
+
+				<tbody class="motion-values hunting-horn-mvs">
+					{{#motionValues.huntingHorn}}
+						{{> motion_value_rows }}
+					{{/motionValues.huntingHorn}}
+				</tbody>
+
+				<tbody class="motion-values lance-mvs">
+					{{#motionValues.lance}}
+						{{> motion_value_rows }}
+					{{/motionValues.lance}}
+				</tbody>
+
+				<tbody class="motion-values gunlance-mvs">
+					{{#motionValues.gunlance}}
+						{{> motion_value_rows }}
+					{{/motionValues.gunlance}}
+				</tbody>
+
+				<tbody class="motion-values sword-mvs">
+					{{#motionValues.sword}}
+						{{> motion_value_rows }}
+					{{/motionValues.sword}}
+				</tbody>
+
+				<tbody class="motion-values dual-swords-mvs">
+					{{#motionValues.dualSwords}}
+						{{> motion_value_rows }}
+					{{/motionValues.dualSwords}}
+				</tbody>
+
+				<tbody class="bowgun-ammo">
+					{{#bowgunAmmo}}
+						<tr id="{{id}}-row" class="bowgun-shot-row" data-power="{{power}}">
+							<td>{{name}}</td>
+							<td class="bowgun-shot-power"></td>
+							<td>{{impacts}}</td>
+							<td>
+								{{#effect}}{{{effect}}} {{/effect}}
+								{{#attributeAlt}}
+									<img class="attribute-icon" src="../images/attributes/{{attribute}}.png" alt="{{attributeAlt}}" title="{{attributeAlt}}"/>
+								{{/attributeAlt}}
+								<span class="bowgun-shot-attribute" data-attribute="{{attribute}}" data-attribute-value="{{attributeValue}}">
+									{{#attributeValue}}{{attributeValue}}{{/attributeValue}}
+								</span>
+								{{#attributeMod}}
+									<span id="ammo-{{attribute}}-attribute"></span>
+								{{/attributeMod}}
+								{{#explosion}}
+									Explosion: {{explosion.power}} <img class="attribute-icon" src="../images/attributes/{{explosion.attribute}}.png" alt="{{explosion.attributeAlt}}" title="{{explosion.attributeAlt}}"/>{{explosion.attributeValue}}
+									{{#explosion.impacts}} x{{explosion.impacts}} {{/explosion.impacts}}
+								{{/explosion}}
+							</td>
+						</tr>
+					{{/bowgunAmmo}}
+				</tbody>
+
+				<tbody id="calc-bow-arrows" class="bow-stat"></tbody>
+				<tbody class="motion-values bow-mvs bow-stat">
+					{{#motionValues.bow}}
+						<tr>
+							<td>{{name}}</td>
+							<td>{{#inputs}}<span class="comma-separated">{{.}}</span>{{/inputs}}</td>
+							<td></td>
+							<td class="mv-column">{{motion}}</td>
+							<td id="{{id}}-raw" class="attack-raw" data-value="{{value}}"></td>
+						</tr>
+					{{/motionValues.bow}}
+				</tbody>
+
+				<tbody class="blademaster-gunner-melee">
+					<tr>
+						<td><span class="blademaster-stat">Kick</span><span class="gunner-stat">Melee</span></td>
+						<td class="blademaster-stat">R3 (while sheathed)</td>
+						<td class="blademaster-stat mv-column">2</td>
+						<td id="kick-raw" class="attack-raw" data-value="0.02"></td>
+						<td class="gunner-stat"></td><!-- impacts -->
+						<td class="gunner-stat"></td><!-- effect -->
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<button id="toggle-damage-calculator">
+		<div class="button-copy">Damage Calculator</div>
+	</button>
+</div>
+
+{{> foot}}

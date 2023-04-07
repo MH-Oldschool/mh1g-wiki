@@ -39,6 +39,16 @@ app.get("/roulette", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/roulette.html"));
 });
 
+app.get("/mh2", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/index.html"));
+});
+app.get("/mh2/weapons", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/weapons.html"));
+});
+app.get("/mh2/quests", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/quests.html"));
+});
+
 function getJSON(filename, callback) {
 	fs.readFile(filename, "utf8", (err, data) => {
 		if (err) {

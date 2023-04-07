@@ -1,0 +1,73 @@
+{{#weapons}}
+	<tr class="weapon-row rarity-{{rarity}} {{#rank}}rank-{{rank}} {{/rank}}{{#normal.0}}nrm-1 {{/normal.0}}{{#normal.2}}nrm-3 {{/normal.2}}{{#pierce.0}}prc-1 {{/pierce.0}}{{#pierce.1}}prc-2 {{/pierce.1}}{{#pierce.2}}prc-3 {{/pierce.2}}{{#pellet.0}}pllt-1 {{/pellet.0}}{{#pellet.1}}pllt-2 {{/pellet.1}}{{#pellet.2}}pllt-3 {{/pellet.2}}{{#crag.0}}crag-1 {{/crag.0}}{{#crag.1}}crag-2 {{/crag.1}}{{#crag.2}}crag-3 {{/crag.2}}{{#clust.0}}clust-1 {{/clust.0}}{{#clust.1}}clust-2 {{/clust.1}}{{#clust.2}}clust-3 {{/clust.2}}{{#flame}}flame {{/flame}}{{#water}}water {{/water}}{{#thunder}}thunder {{/thunder}}{{#ice}}ice {{/ice}}{{#dragon}}dragon {{/dragon}}{{#recover.0}}rec-1 {{/recover.0}}{{#recover.1}}rec-2 {{/recover.1}}{{#poison.0}}poi-1 {{/poison.0}}{{#poison.1}}poi-2 {{/poison.1}}{{#stun.0}}stun-1 {{/stun.0}}{{#stun.1}}stun-2 {{/stun.1}}{{#sleep.0}}slp-1 {{/sleep.0}}{{#sleep.1}}slp-2 {{/sleep.1}}{{#antidote}}anti {{/antidote}}{{#demon}}demon {{/demon}}{{#armor}}armor {{/armor}}{{#dragon}}dragon {{/dragon}}{{#dung}}dung {{/dung}}" data-name="{{name}}">
+		<td>
+			<label class="weapon-button">
+				<input type="radio" name="weapon" value="{{index}}" data-weapon-class="{{weaponClass}}"/>
+				<div class="icon"></div>
+			</label>
+			{{&name}}
+			{{#dev}}<sup title="Dev Only">Dev</sup>{{/dev}}
+		</td>
+		<td>{{rarity}}</td>
+		<td>{{dmg}}</td>
+		<td>{{def}}</td>
+		<td>{{reload}}</td>
+		<td>{{recoil}}</td>
+		<td class="range-stat">{{range}}</td>
+		<td>
+			Normal: {{normal.0}}{{#normalAdd.0}}<span class="shot-add" title="requires Normal S Add 1">{{normalAdd.0}}</span>{{/normalAdd.0}}/
+				{{normal.1}}/
+				{{normal.2}}{{#normalAdd.2}}<span class="shot-add" title="requires Normal S Add All">{{normalAdd.2}}</span>{{/normalAdd.2}}
+			<br/>
+			Pierce: {{pierce.0}}{{#pierceAdd.0}}<span class="shot-add" title="requires Pierce S Add 1">{{pierceAdd.0}}</span>{{/pierceAdd.0}}/
+				{{pierce.1}}{{#pierceAdd.1}}<span class="shot-add" title="requires Pierce S Add 2">{{pierceAdd.1}}</span>{{/pierceAdd.1}}/
+				{{pierce.2}}{{#pierceAdd.2}}<span class="shot-add" title="requires Pierce S Add 3">{{pierceAdd.2}}</span>{{/pierceAdd.2}}
+			<br/>
+			Pellet: {{pellet.0}}{{#pelletAdd.0}}<span class="shot-add" title="requires Pellet S Add 1">{{pelletAdd.0}}</span>{{/pelletAdd.0}}/
+				{{pellet.1}}{{#pelletAdd.1}}<span class="shot-add" title="requires Pellet S Add 2">{{pelletAdd.1}}</span>{{/pelletAdd.1}}/
+				{{pellet.2}}{{#pelletAdd.2}}<span class="shot-add" title="requires Pellet S Add 3">{{pelletAdd.2}}</span>{{/pelletAdd.2}}
+			<br/>
+			Crag: {{crag.0}}{{#cragAdd.0}}<span class="shot-add" title="requires Crag S Add 1">{{cragAdd.0}}</span>{{/cragAdd.0}}/
+				{{crag.1}}{{#cragAdd.1}}<span class="shot-add" title="requires Crag S Add 2">{{cragAdd.1}}</span>{{/cragAdd.1}}/
+				{{crag.2}}{{#cragAdd.2}}<span class="shot-add" title="requires Crag S Add 3">{{cragAdd.2}}</span>{{/cragAdd.2}}
+			<br/>
+			Clust: {{clust.0}}{{#clustAdd.0}}<span class="shot-add" title="requires Clust S Add 1">{{clustAdd.0}}</span>{{/clustAdd.0}}/
+				{{clust.1}}{{#clustAdd.1}}<span class="shot-add" title="requires Clust S Add 2">{{clustAdd.1}}</span>{{/clustAdd.1}}/
+				{{clust.2}}{{#clustAdd.2}}<span class="shot-add" title="requires Clust S Add 3">{{clustAdd.2}}</span>{{/clustAdd.2}}
+		</td>
+		<td>
+			Flame: {{flame}}{{^flame}}-{{/flame}}<br/>
+			Water: {{water}}{{^water}}-{{/water}}<br/>
+			Thunder: {{thunder}}{{^thunder}}-{{/thunder}}<br/>
+			Ice: {{ice}}{{^ice}}-{{/ice}}<br/>
+			Dragon: {{dragon}}{{^dragon}}-{{/dragon}}
+		</td>
+		<td>
+			Recover: {{recover.0}}{{^recover.0}}-{{/recover.0}}/{{recover.1}}{{^recover.1}}-{{/recover.1}}<br/>
+			Poison: {{poison.0}}{{^poison.0}}-{{/poison.0}}/{{poison.1}}{{^poison.1}}-{{/poison.1}}<br/>
+			Stun: {{stun.0}}{{^stun.0}}-{{/stun.0}}/{{stun.1}}{{^stun.1}}-{{/stun.1}}<br/>
+			Sleep: {{sleep.0}}{{^sleep.0}}-{{/sleep.0}}/{{sleep.1}}{{^sleep.1}}-{{/sleep.1}}
+		</td>
+		<td>
+			Tranq: 2<br/>
+			Paint: 2<br/>
+			Demon: {{demon}}{{^demon}}-{{/demon}}<br/>
+			Armor: {{armor}}{{^armor}}-{{/armor}}
+		</td>
+		{{#rapidfire}}
+			<td>{{rapidfire}}</td>
+		{{/rapidfire}}
+		<td>{{price}}</td>
+		<td>
+			{{#forge}}
+				{{>material_row}}
+			{{/forge}}
+
+			{{#alternateMats}}{{alternateMats}}{{/alternateMats}}
+
+			{{#dev}}
+				This weapon is not obtainable by normal means.
+			{{/dev}}
+		</td>
+	</tr>
+{{/weapons}}

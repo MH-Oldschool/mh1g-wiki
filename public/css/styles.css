@@ -211,9 +211,18 @@ input[type="checkbox"]:checked + .checkbox-icon:after,
 input[type="radio"]:checked + .checkbox-icon:after {
 	display: block;
 }
+input:disabled + .radio-icon,
+input:disabled + .radio-icon + label,
+input:disabled + .checkbox-icon,
+input:disabled + .checkbox-icon + label {
+	opacity: 0.5;
+}
 
 .d-ib {
 	display: inline-block;
+}
+.va-t {
+	vertical-align: top;
 }
 .va-m {
 	vertical-align: middle;
@@ -423,7 +432,6 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 	background-repeat: no-repeat;
 	background-size: 16rem;
 	text-indent: -999em;
-	margin-right: 0.125rem;
 	width: 2rem;
 	height: 2rem;
 }

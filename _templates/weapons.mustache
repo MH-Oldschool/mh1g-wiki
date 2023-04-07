@@ -1,6 +1,6 @@
 {{> head}}
 
-<section id="melee-weapons">
+<section id="melee-weapons" class="weapons-with-attributes">
 	<article>
 		<h2>Melee Weapons</h2>
 	</article>
@@ -10,33 +10,33 @@
 			<div class="filter-column">
 				<h3 title="highlight weapons with a certain element/status">Element/Status:</h3>
 				<div>
-					<input id="weapon-element-fire" name="weapon-element-status" type="checkbox" value="highlight-fire" checked/>
+					<input id="weapon-element-fire" name="weapon-element-status" type="checkbox" value="highlight-fire"/>
 					<label for="weapon-element-fire" class="element-res-label" title="Fire">
 						<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/>
 					</label>
-					<input id="weapon-element-water" name="weapon-element-status" type="checkbox" value="highlight-water" checked/>
+					<input id="weapon-element-water" name="weapon-element-status" type="checkbox" value="highlight-water"/>
 					<label for="weapon-element-water" class="element-res-label" title="Water">
 						<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/>
 					</label>
-					<input id="weapon-element-thunder" name="weapon-element-status" type="checkbox" value="highlight-thunder" checked/>
+					<input id="weapon-element-thunder" name="weapon-element-status" type="checkbox" value="highlight-thunder"/>
 					<label for="weapon-element-thunder" class="element-res-label" title="Thunder">
 						<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/>
 					</label>
-					<input id="weapon-element-dragon" name="weapon-element-status" type="checkbox" value="highlight-dragon" checked/>
+					<input id="weapon-element-dragon" name="weapon-element-status" type="checkbox" value="highlight-dragon"/>
 					<label for="weapon-element-dragon" class="element-res-label" title="Dragon">
 						<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/>
 					</label>
 				</div>
 				<div>
-					<input id="weapon-status-poison" name="weapon-element-status" type="checkbox" value="highlight-poison" checked/>
+					<input id="weapon-status-poison" name="weapon-element-status" type="checkbox" value="highlight-poison"/>
 					<label for="weapon-status-poison" class="element-res-label" title="Poison">
 						<img class="attribute-icon" src="images/attributes/poison.png" alt="Poison"/>
 					</label>
-					<input id="weapon-status-paralysis" name="weapon-element-status" type="checkbox" value="highlight-paralysis" checked/>
+					<input id="weapon-status-paralysis" name="weapon-element-status" type="checkbox" value="highlight-paralysis"/>
 					<label for="weapon-status-paralysis" class="element-res-label" title="Paralysis">
 						<img class="attribute-icon" src="images/attributes/paralysis.png" alt="Paralysis"/>
 					</label>
-					<input id="weapon-status-sleep" name="weapon-element-status" type="checkbox" value="highlight-sleep" checked/>
+					<input id="weapon-status-sleep" name="weapon-element-status" type="checkbox" value="highlight-sleep"/>
 					<label for="weapon-status-sleep" class="element-res-label" title="Sleep">
 						<img class="attribute-icon" src="images/attributes/sleep.png" alt="Sleep"/>
 					</label>
@@ -1044,7 +1044,7 @@
 			<div class="weapon-column">
 				<h2>Weapon: <span id="calc-weapon-icon"></span> <span id="calc-weapon-name"></span></h2>
 
-				<h3>Attack: <span id="calc-weapon-attack"></span></h3>
+				<h3 class="calculator-attack-container"><span>Attack:</span> <span id="calc-weapon-attack"></span></h3>
 				<h3 id="calc-weapon-element-container" class="blademaster-stat">Element: <img id="calc-weapon-element-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-element"></span> (<span id="calc-true-element"></span>)</h3>
 				<h3 id="calc-weapon-status-container" class="blademaster-stat">Status: <img id="calc-weapon-status-icon" class="attribute-icon" src="" alt="" title=""/><span id="calc-weapon-status"></span> (<span id="calc-true-status"></span>)</h3>
 

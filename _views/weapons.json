@@ -1,7 +1,7 @@
 {
 	"title": "Monster Hunter Wiki | Weapon Trees",
 	"description": "Easily view and navigate the complex weapon trees of Japanese versions of Monster Hunter and Monster Hunter G.",
-	"head": "<link rel='stylesheet' href='css/weapons.css'/><script type='text/javascript' src='js/toggle_full_details.js'></script><script type='text/javascript' src='js/weapon_data.js'></script><script type='text/javascript' src='js/weapons.js'></script>",
+	"head": "<link rel='stylesheet' href='css/weapons.css'/><script type='text/javascript' src='js/toggle_full_details.js'></script><script type='text/javascript' src='js/weapon_data.js'></script><script type='text/javascript' src='js/weapons_common.js'></script><script type='text/javascript' src='js/weapons.js'></script>",
 	"subtitle": "<p>Names adjusted based on best guesses from <a href='https://gamefaqs.gamespot.com/ps2/914914-monster-hunter/faqs'>the Gamefaqs MH1 weapon trees</a> and <a href='https://monsterhunter.fandom.com/wiki/MHF1:_Weapons'>MHF1 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
 	"onWeapons": true,
 	"gToggle": true,
@@ -84,7 +84,7 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element rarity-1-4 rarity-g-3",
+							"rowClass":"rarity-1-4 rarity-g-3",
 							"name":"<b>Eager Cleaver</b>","branchBend":true,
 							"rarity1":4,"rarityG":3,
 							"damage":720,
@@ -403,7 +403,6 @@
 					"bodyId":"redwing","bodyClass":"branch indent-1",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Redwing",
 							"rarity":3,
 							"damage":624,
@@ -417,7 +416,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Rathalos Firesword","branchBend":true,
 							"rarity":3,
 							"damage":672,
@@ -478,7 +476,7 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element mhg g-rank",
+							"rowClass":"mhg g-rank",
 							"name":"Auberon","gOnly":true,"branchBend":true,
 							"rarity":5,
 							"damage":816,
@@ -514,7 +512,6 @@
 					"bodyId":"titania","bodyClass":"branch indent-1 g-rank mhg dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Titania","gOnly":true,"branchBend":true,
 							"rarity":5,
 							"damage":768,
@@ -585,7 +582,6 @@
 					"bodyClass":"water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"<b>Finblade</b>","branchStart":true,
 							"rarity":4,
 							"damage":480,
@@ -600,7 +596,6 @@
 							]
 						},
 						{
-							"rowClass":"water-element",
 							"name":"Finblade+",
 							"rarity":4,
 							"damage":624,
@@ -614,7 +609,6 @@
 							]
 						},
 						{
-							"rowClass":"water-element",
 							"name":"Plesioth Water Sword","branchBend":true,"branchBend1":true,
 							"rarity":4,
 							"damage":768,
@@ -628,7 +622,7 @@
 							]
 						},
 						{
-							"rowClass":"water-element g-rank mhg",
+							"rowClass":"g-rank mhg",
 							"name":"Plesioth Azureblade","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":864,
@@ -772,7 +766,6 @@
 					"dataChildBranch":"smolder-dragonsword",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Fire Dragonsword</b>",
 							"rarity":5,
 							"damageG":768,
@@ -791,7 +784,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"branch":"smolder-dragonsword",
 							"name":"Red Dragonsword",
 							"rarity":5,
@@ -811,7 +803,6 @@
 					"bodyId":"smolder-dragonsword","bodyClass":"branch indent-2 g-rank mhg dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Smolder Dragonsword","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":864,
@@ -830,7 +821,6 @@
 					"bodyClass":"dragonsword branch indent-1 g-rank mhg dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Inferno Dragonsword","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":"1,008",
@@ -867,7 +857,6 @@
 					"bodyId":"devil-slicer","bodyClass":"branch indent-1 g-rank thunder-pre-g mhg",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"Devil Slicer","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":912,
@@ -1014,7 +1003,6 @@
 					"bodyId":"sickle-sword","bodyClass":"branch indent-1 g-rank mhg poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"Sickle Sword","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,104",
@@ -1056,7 +1044,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Fire Dragonsword</b>","branchStart":true,
 							"rarity":5,
 							"damage1":864,
@@ -1070,7 +1057,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Red Dragonsword","branchBend":true,
 							"rarity":5,
 							"damage1":960,
@@ -1096,7 +1082,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragonslayer</b>","branchStart":true,
 							"rarity":4,
 							"damage1":672,"damageG":576,
@@ -1111,7 +1096,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragon Massacre",
 							"rarity":4,
 							"damage1":768,"damageG":624,
@@ -1124,7 +1108,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Eternal Annihilator","branchBend":true,"branchBend1":true,
 							"rarity":5,
 							"damage1":912,"damageG":672,
@@ -1143,7 +1126,7 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element g-rank mhg",
+							"rowClass":"g-rank mhg",
 							"name":"Eternal Eradicator","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":768,
@@ -1279,7 +1262,6 @@
 					"bodyId":"kaiser-sword","bodyClass":"branch g-rank indent-1 dragon-pre-g",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Kaiser Sword","gOnly":true,
 							"rarity":6,
 							"damage":912,
@@ -1293,7 +1275,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Pale Kaiser","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,056",
@@ -1330,7 +1311,6 @@
 					"bodyClass":"branch rathalos-fireswords g-rank indent-1 fire-pre-g dragon-pre-g",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"branch":"shining-rathalos-sword",
 							"name":"Rathalos Firesword+","gOnly":true,
 							"rarity":6,
@@ -1350,7 +1330,6 @@
 					"bodyId":"shining-rathalos-sword","bodyClass":"branch g-rank indent-2 fire-pre-g",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Shining Rathalos Sword","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":816,
@@ -1369,7 +1348,6 @@
 					"bodyClass":"branch rathalos-fireswords g-rank indent-1 dragon-pre-g",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Blushing Dame","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,008",
@@ -1411,7 +1389,6 @@
 					"bodyClass":"poison-pre-g",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"<b>Chrome Razor","branchStart":true,
 							"rarity":5,
 							"damage":912,
@@ -1426,7 +1403,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status g-rank",
+							"rowClass":"g-rank",
 							"name":"Chrome Death Razor","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":"1,008",
@@ -1501,7 +1478,7 @@
 					"bodyClass":"water-pre poison-pre-1",
 					"weapons":[
 						{
-							"rowClass":"water-element high-rank",
+							"rowClass":"high-rank",
 							"name":"<b>Frozen Tuna</b>",
 							"rarity":5,
 							"damage":480,
@@ -1514,7 +1491,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status high-rank mh1",
+							"rowClass":"high-rank mh1",
 							"name":"<b>Chrome Razor</b>",
 							"rarity":5,
 							"damage":912,
@@ -1547,7 +1524,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-element g-rank",
+							"rowClass":"g-rank",
 							"name":"<b>Barbaroi Blade</b>","gOnly":true,
 							"rarity":6,
 							"damage":624,
@@ -1619,7 +1596,6 @@
 						},
 						{
 							"dev":true,"gOnly":true,
-							"rowClass":"thunder-element",
 							"name":"Serial Edge",
 							"rarity":7,
 							"damage":"1,152",
@@ -1701,7 +1677,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Shell Hammer",
 							"rarity":2,
 							"damage1":675,"damageG":676,
@@ -1715,7 +1690,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Graviton Hammer","branchBend":true,
 							"rarity":2,
 							"damage1":727,"damageG":728,
@@ -2021,7 +1995,6 @@
 					"bodyId":"jail-hammer","bodyClass":"branch indent-1 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"Jail Hammer",
 							"rarity":3,
 							"damage1":623,"damageG":624,
@@ -2035,7 +2008,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Jail Hammer+",
 							"rarity":3,
 							"damage1":675,"damageG":676,
@@ -2049,7 +2021,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Prison Hammer",
 							"rarity":3,
 							"damage1":727,"damageG":728,
@@ -2063,7 +2034,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Binder Mace</b>","branchBend":true,
 							"rarity":3,
 							"damage1":779,"damageG":780,
@@ -2228,7 +2198,6 @@
 					"bodyId":"great-nova","bodyClass":"branch indent-1 g-rank mhg thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"Great Nova","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":884,
@@ -2247,7 +2216,7 @@
 					"bodyClass":"fire-pre-g poison-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-pre poison-status",
+							"rowClass":"fire-pre",
 							"name":"Gigaton Hammer",
 							"rarity":4,
 							"damage1":727,"damageG":832,
@@ -2262,7 +2231,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre-g high-rank poison-status",
+							"rowClass":"fire-pre-g high-rank",
 							"name":"Gigaton Hammer+",
 							"rarity":4,
 							"damage1":779,"damageG":884,
@@ -2277,7 +2246,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre-g high-rank poison-status",
+							"rowClass":"fire-pre-g high-rank",
 							"name":"Titan Hammer","branchBend":true,"branchBend1":true,
 							"branchG":"torment-purgatory",
 							"rarity":4,
@@ -2298,7 +2267,6 @@
 					"bodyId":"torment-purgatory","bodyClass":"branch indent-1 g-rank mhg",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Torment (Purgatory)","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,040",
@@ -2318,7 +2286,6 @@
 					"bodyClass":"high-rank mhg poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"Great Titan","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,092",
@@ -2442,7 +2409,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"<b>Gunhammer Prototype</b>","branchStart":true,
 							"rarity":4,
 							"damage1":779,
@@ -2457,7 +2423,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Dead Revolver","branchBend":true,
 							"rarity":4,
 							"damage1":935,
@@ -2482,7 +2447,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragon Destroyer</b>","branchStart":true,
 							"rarity":5,
 							"damage1":831,
@@ -2496,7 +2460,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragon Breaker","branchBend":true,
 							"rarity":5,
 							"damage1":987,
@@ -2577,7 +2540,6 @@
 					"bodyClass":"anvil-hammers branch indent-2 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Iron Devil</b>","branchBend":true,
 							"rarity":5,
 							"damageG":988,
@@ -2602,7 +2564,7 @@
 					"bodyClass":"anvil-hammers branch indent-3 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"g-rank paralysis-status",
+							"rowClass":"g-rank",
 							"name":"Devil Masher","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":"1,040",
@@ -2621,7 +2583,6 @@
 					"bodyClass":"anvil-hammers branch indent-2 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"<b>Gunhammer Prototype</b>","branchBend":true,
 							"rarity":4,
 							"damageG":780,
@@ -2646,7 +2607,6 @@
 					"bodyClass":"anvil-hammers branch indent-3 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Dead Revolver",
 							"rarity":4,
 							"damageG":936,
@@ -2660,7 +2620,7 @@
 							]
 						},
 						{
-							"rowClass":"g-rank fire-element",
+							"rowClass":"g-rank",
 							"name":"Sanctioned Gunhammer","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":988,
@@ -2775,7 +2735,6 @@
 					"bodyClass":"atlas-hammers branch indent-1 g-rank poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"Venom Monster","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":988,
@@ -2828,7 +2787,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragon Destroyer",
 							"rarity":5,
 							"damageG":988,
@@ -2847,7 +2805,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"branch":"dragon-demolisher",
 							"name":"Dragon Breaker",
 							"rarity":5,
@@ -2867,7 +2824,6 @@
 					"bodyId":"dragon-demolisher","bodyClass":"branch indent-1 g-rank dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragon Demolisher","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":"1,092",
@@ -2886,7 +2842,7 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"g-rank dragon-element",
+							"rowClass":"g-rank",
 							"name":"Dark Punisher","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":"1,144",
@@ -2911,7 +2867,6 @@
 					"bodyClass":"thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Polytan</b>","branchStart":true,
 							"rarity":5,
 							"damageG":520,
@@ -2923,7 +2878,7 @@
 							]
 						},
 						{
-							"rowClass":"high-rank thunder-element",
+							"rowClass":"high-rank",
 							"name":"Polytan+","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":676,
@@ -3002,7 +2957,7 @@
 					"bodyClass":"high-rank mh1 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"rarity-5 paralysis-status",
+							"rowClass":"rarity-5",
 							"name":"<b>Iron Devil</b>",
 							"rarity":5,
 							"damage1":987,
@@ -3022,7 +2977,7 @@
 					"bodyClass":"thunder-pre dragon-pre poison-pre sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element mh1",
+							"rowClass":"mh1",
 							"name":"<b>Polytan</b>",
 							"rarity":5,
 							"damage1":519,
@@ -3063,7 +3018,7 @@
 							]
 						},
 						{
-							"rowClass":"sleep-status high-rank",
+							"rowClass":"high-rank",
 							"name":"<b>Teddybear</b>",
 							"rarity":5,
 							"damage1":259,"damageG":260,
@@ -3089,7 +3044,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"<b>Cactus Creamer</b>",
 							"rarity":5,
 							"damage1":103,"damageG":104,
@@ -3104,7 +3058,7 @@
 						},
 						{
 							"dev":true,"gOnly":true,
-							"rowClass":"dragon-element mhg",
+							"rowClass":"mhg",
 							"name":"<b>Howling G</b>",
 							"rarity":5,
 							"damage":676,
@@ -3321,7 +3275,6 @@
 					"bodyId":"red-tail","bodyClass":"branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Red Tail",
 							"rarity":3,
 							"damage1":206,"damageG":207,
@@ -3335,7 +3288,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Red Tail+",
 							"rarity":3,
 							"damage1":229,"damageG":230,
@@ -3349,7 +3301,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Hellfire",
 							"rarity":3,
 							"damage1":275,"damageG":276,
@@ -3363,7 +3314,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Spear of Prominence","branchBend":true,
 							"rarity":4,
 							"damage1":321,"damageG":322,
@@ -3427,7 +3377,7 @@
 					"dataChildBranch":"ceramic-blos-lance",
 					"weapons":[
 						{
-							"rowClass":"fire-element water-pre-g",
+							"rowClass":"water-pre-g",
 							"name":"Crimson Lance",
 							"branchG":"ceramic-blos-lance",
 							"rarity":3,
@@ -3447,7 +3397,6 @@
 					"bodyId":"ceramic-blos-lance","bodyClass":"branch indent-2 g-rank mhg water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"Ceramic Blos Lance","gOnly":true,"branchBend":true,
 							"rarity":5,
 							"damage":414,
@@ -3466,7 +3415,6 @@
 					"bodyClass":"crimson-lance branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Crimson War Pike","branchBend":true,
 							"rarity":3,
 							"damage1":367,"damageG":368,
@@ -3541,7 +3489,6 @@
 					"bodyClass":"water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"<b>Aqua Spear</b>","branchStart":true,
 							"rarity":2,
 							"damage1":229,"damageG":230,
@@ -3555,7 +3502,6 @@
 							]
 						},
 						{
-							"rowClass":"water-element",
 							"name":"Aqua Spear+","branchBend":true,
 							"rarity":2,
 							"damage1":252,"damageG":253,
@@ -3580,7 +3526,6 @@
 					"bodyClass":"sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status",
 							"name":"<b>Lullaby Spear</b>","branchStart":true,
 							"rarity":3,
 							"damage1":160,"damageG":161,
@@ -3595,7 +3540,6 @@
 							]
 						},
 						{
-							"rowClass":"sleep-status",
 							"name":"Requiem Spear",
 							"rarity":3,
 							"damage1":183,"damageG":184,
@@ -3609,7 +3553,6 @@
 							]
 						},
 						{
-							"rowClass":"sleep-status",
 							"name":"Nightmare","branchBend":true,
 							"rarity":4,
 							"damage1":206,"damageG":207,
@@ -3726,7 +3669,6 @@
 					"bodyId":"gunlance-prototype","bodyClass":"branch indent-1 mhg fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"<b>Gunlance Prototype</b>",
 							"rarity":4,
 							"damageG":345,
@@ -3747,7 +3689,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Gatling Lance",
 							"rarity":4,
 							"damageG":368,
@@ -3762,7 +3703,7 @@
 							]
 						},
 						{
-							"rowClass":"g-rank fire-element",
+							"rowClass":"g-rank",
 							"name":"Sanctioned Gunlance","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":391,
@@ -3891,7 +3832,6 @@
 					"bodyClass":"paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Dark Lance</b>","branchStart":true,
 							"rarity":4,
 							"damage1":114,
@@ -3906,7 +3846,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Dark Lance+",
 							"rarity":4,
 							"damage1":137,
@@ -3920,7 +3859,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Dark Spear",
 							"rarity":4,
 							"damage1":160,
@@ -3934,7 +3872,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Shock Lance",
 							"rarity":4,
 							"damage1":183,
@@ -3948,7 +3885,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Trident","branchBend":true,
 							"rarity":4,
 							"damage":229,
@@ -3973,7 +3909,6 @@
 					"bodyClass":"poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"<b>Venom Lance</b>","branchStart":true,
 							"rarity":4,
 							"damage1":275,
@@ -3987,7 +3922,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Venom Lance+",
 							"rarity":4,
 							"damage1":321,
@@ -4001,7 +3935,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Venom Spear",
 							"rarity":4,
 							"damage1":367,
@@ -4016,7 +3949,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Gravios Spear","branchBend":true,
 							"rarity":4,
 							"damage1":413,
@@ -4042,7 +3974,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"<b>Gunlance Prototype</b>","branchStart":true,
 							"rarity":4,
 							"damage1":297,
@@ -4058,7 +3989,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Gatling Lance","branchBend":true,
 							"rarity":4,
 							"damage1":344,
@@ -4084,7 +4014,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragonlance</b>","branchStart":true,
 							"rarity":4,
 							"damage1":413,
@@ -4098,7 +4027,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragoon Lord",
 							"rarity":4,
 							"damage1":481,
@@ -4112,7 +4040,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Black Dragon Spear","branchBend":true,
 							"rarity":5,
 							"damage1":551,
@@ -4157,7 +4084,6 @@
 					"bodyClass":"dark-lance branch indent-1 paralysis-pre","dataChildBranch":"dark",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Dark Lance</b>",
 							"rarity":4,
 							"damageG":368,
@@ -4177,7 +4103,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Dark Lance+",
 							"rarity":4,
 							"damageG":391,
@@ -4191,7 +4116,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Dark Spear",
 							"branchG":"dark",
 							"rarity":4,
@@ -4211,7 +4135,7 @@
 					"bodyId":"dark","bodyClass":"branch g-rank indent-2 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"rarity-6 paralysis-status",
+							"rowClass":"rarity-6",
 							"name":"Dark","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":437,
@@ -4230,7 +4154,6 @@
 					"bodyClass":"dark-lance branch indent-1 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":" Shock Lance",
 							"rarity":4,
 							"damageG":345,
@@ -4244,7 +4167,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Trident","branchBend":true,
 							"rarity":4,
 							"damage":299,
@@ -4332,7 +4254,6 @@
 					"bodyClass":"diablo-horn-lances branch g-rank indent-2 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Blaze Tail","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":460,
@@ -4351,7 +4272,6 @@
 					"bodyClass":"diablo-horn-lances branch g-rank indent-3 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Red Prominence","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":483,
@@ -4370,7 +4290,6 @@
 					"bodyClass":"diablo-horn-lances branch g-rank indent-2 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Blue Tail","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":460,
@@ -4389,7 +4308,6 @@
 					"bodyClass":"diablo-horn-lances branch g-rank indent-3 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Blue Prominence","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":437,
@@ -4426,7 +4344,6 @@
 					"bodyId":"white-disaster","bodyClass":"branch g-rank indent-2 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"White Disaster","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":529,
@@ -4480,7 +4397,6 @@
 					"bodyClass":"dragonlance branch indent-1 dragon-pre","dataChildBranch":"black-ruiner-lance",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragonlance</b>",
 							"rarity":4,
 							"damageG":437,
@@ -4499,7 +4415,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragoon Lord",
 							"rarity":4,
 							"damageG":460,
@@ -4513,7 +4428,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"branch":"black-ruiner-lance",
 							"name":"Black Dragon Spear",
 							"rarity":5,
@@ -4534,7 +4448,6 @@
 					"bodyId":"black-ruiner-lance","bodyClass":"branch g-rank indent-2 dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"Black Ruiner Lance","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":575,
@@ -4554,7 +4467,6 @@
 					"bodyClass":"dragonlance branch g-rank indent-1 dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"True Black Dragon Lance","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":529,
@@ -4574,7 +4486,7 @@
 					"bodyClass":"fire-pre poison-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-pre poison-status",
+							"rowClass":"fire-pre",
 							"name":"<b>Venom Lance</b>",
 							"rarity":4,
 							"damageG":437,
@@ -4593,7 +4505,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre poison-status",
+							"rowClass":"fire-pre",
 							"name":"Venom Lance+",
 							"rarity":4,
 							"damageG":460,
@@ -4607,7 +4519,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre poison-status",
+							"rowClass":"fire-pre",
 							"name":"Venom Spear",
 							"rarity":4,
 							"damageG":483,
@@ -4622,7 +4534,7 @@
 							]
 						},
 						{
-							"rowClass":"fire-pre poison-status",
+							"rowClass":"fire-pre",
 							"branch":"black-gravios-spear",
 							"name":"Gravios Spear",
 							"rarity":4,
@@ -4643,7 +4555,6 @@
 					"bodyId":"black-gravios-spear","bodyClass":"branch g-rank indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Black Gravios Spear","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":506,
@@ -4663,7 +4574,7 @@
 					"bodyClass":"poison-pre",
 					"weapons":[
 						{
-							"rowClass":"g-rank poison-status",
+							"rowClass":"g-rank",
 							"name":"Gravios Venom Spear","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":529,
@@ -4754,7 +4665,7 @@
 							]
 						},
 						{
-							"rowClass":"water-element high-rank",
+							"rowClass":"high-rank",
 							"name":"<b>Vacuum Striker</b>",
 							"rarity":4,
 							"damage1":137,"damageG":138,
@@ -4767,7 +4678,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status high-rank",
+							"rowClass":"high-rank",
 							"name":"<b>Native Spear</b>",
 							"rarity":4,
 							"damage1":183,"damageG":184,
@@ -4781,7 +4692,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status mhg",
+							"rowClass":"mhg",
 							"name":"<b>Black Belt Lance</b>","gOnly":true,
 							"rarity":5,
 							"damage":414,
@@ -4797,7 +4708,7 @@
 							]
 						},
 						{
-							"rowClass":"poison-status g-rank mhg",
+							"rowClass":"g-rank mhg",
 							"name":"<b>Expert Lance</b>","gOnly":true,
 							"rarity":6,
 							"damage":460,
@@ -4814,7 +4725,7 @@
 						},
 						{
 							"dev":true,"gOnly":true,
-							"rowClass":"fire-element mhg",
+							"rowClass":"mhg",
 							"name":"Doom",
 							"rarity":7,
 							"damage":529,
@@ -4897,7 +4808,6 @@
 					"bodyId":"hydra-bite","bodyClass":"branch indent-2 poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"Hydra Bite",
 							"rarity":3,
 							"damage1":83,"damageG":84,
@@ -4911,7 +4821,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Hydra Bite+",
 							"rarity":3,
 							"damage1":125,"damageG":126,
@@ -4925,7 +4834,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Deadly Poison","branchBend":true,
 							"rarity":3,
 							"damage1":167,"damageG":168,
@@ -4944,7 +4852,6 @@
 					"bodyClass":"serpent-bite branch indent-1 paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"Viper Bite",
 							"rarity":3,
 							"damage1":181,"damageG":182,
@@ -4958,7 +4865,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Viper Bite+",
 							"rarity":3,
 							"damage1":195,"damageG":196,
@@ -4972,7 +4878,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Deathprize","branchBend":true,
 							"rarity":3,
 							"damage1":209,"damageG":210,
@@ -5037,7 +4942,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Poison Axe",
 							"rarity":3,
 							"damage1":223,"damageG":224,
@@ -5051,7 +4955,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Poison Battleaxe","branchBend":true,
 							"rarity":3,
 							"damage1":237,"damageG":238,
@@ -5111,7 +5014,6 @@
 					"bodyClass":"bone-kris-swords branch indent-1 sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status",
 							"name":"Weary Finsword","branchBend":true,
 							"rarity":2,
 							"damage1":139,"damageG":140,
@@ -5130,7 +5032,6 @@
 					"bodyClass":"bone-kris-swords branch indent-2 sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status",
 							"name":"Weary Finsword+",
 							"rarity":2,
 							"damage1":153,"damageG":154,
@@ -5144,7 +5045,6 @@
 							]
 						},
 						{
-							"rowClass":"sleep-status",
 							"name":"Sandman Finsword","branchBend":true,
 							"rarity":2,
 							"damage1":167,"damageG":168,
@@ -5163,7 +5063,6 @@
 					"bodyClass":"bone-kris-swords branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Crimson Club","branchBend":true,
 							"rarity":3,
 							"damage1":167,"damageG":168,
@@ -5181,7 +5080,6 @@
 					"bodyClass":"bone-kris-swords branch indent-2 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Monoblos Club","branchBend":true,
 							"rarity":3,
 							"damage1":195,"damageG":196,
@@ -5243,7 +5141,6 @@
 					"bodyId":"corona","bodyClass":"branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Corona","branchBend":true,
 							"rarity":4,
 							"damage1":167,"damageG":168,
@@ -5274,7 +5171,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Red Saber",
 							"rarity":2,
 							"damage1":195,"damageG":196,
@@ -5287,7 +5183,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Red Saber+",
 							"rarity":2,
 							"damage1":209,"damageG":210,
@@ -5301,7 +5196,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Flame Falchion",
 							"rarity":3,
 							"damage1":223,"damageG":224,
@@ -5315,7 +5209,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Blazing Falchion","branchBend":true,
 							"rarity":3,
 							"damage1":237,"damageG":238,
@@ -5411,7 +5304,7 @@
 							]
 						},
 						{
-							"rowClass":"help-cursor dragon-element","rowTitle":"Can also be downgraded back to the Legendary Sword",
+							"rowClass":"help-cursor","rowTitle":"Can also be downgraded back to the Legendary Sword",
 							"name":"Eternal Strife*","branchBend":true,
 							"rarity":5,
 							"damage1":83,"damageG":84,
@@ -5465,7 +5358,6 @@
 					"bodyClass":"paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Catspaw</b>","branchStart":true,
 							"rarity":5,
 							"damage1":111,"damageG":112,
@@ -5478,7 +5370,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"Catburglar","branchBend":true,"branchBend1":true,
 							"rarity":5,
 							"damage1":28,"damageG":98,
@@ -5491,7 +5382,7 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status mhg",
+							"rowClass":"mhg",
 							"name":"Melynx Tool","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":84,
@@ -5566,7 +5457,6 @@
 					"bodyClass":"thunder-pre","branchStart":true,
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Thunderbane</b>",
 							"rarity":2,
 							"damage1":209,
@@ -5581,7 +5471,6 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
 							"name":"Thunderbane+",
 							"rarity":2,
 							"damage1":237,
@@ -5595,7 +5484,6 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
 							"name":"Frightbane",
 							"rarity":2,
 							"damage1":279,
@@ -5609,7 +5497,6 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Thundertip</b>","branchEnd":true,
 							"rarity":4,
 							"damage1":321,
@@ -5642,7 +5529,6 @@
 					"bodyClass":"thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Kirin Bolt</b>","branchStart":true,
 							"rarity":5,
 							"damage1":181,"damageG":182,
@@ -5656,7 +5542,7 @@
 							]
 						},
 						{
-							"rowClass":"high-rank thunder-element",
+							"rowClass":"high-rank",
 							"name":"Kirin Bolt+",
 							"rarity":5,
 							"damage1":195,"damageG":196,
@@ -5670,7 +5556,7 @@
 							]
 						},
 						{
-							"rowClass":"high-rank thunder-element",
+							"rowClass":"high-rank",
 							"name":"Kirin Bolt Mega",
 							"rarity":5,
 							"damage1":209,"damageG":210,
@@ -5685,7 +5571,7 @@
 							]
 						},
 						{
-							"rowClass":"high-rank thunder-element",
+							"rowClass":"high-rank",
 							"name":"Kirin Bolt Ultimus","branchBend":true,"branchBend1":true,
 							"branchG":"kirin-bolts-link",
 							"name":"Kirin Bolt Ultimus",
@@ -5707,7 +5593,6 @@
 					"bodyId":"kirin-bolts-link","bodyClass":"branch indent-1 mhg thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"dbLink":"kirin-bolts",
 							"name":"Kirin Bolts"
 						}
@@ -5717,7 +5602,6 @@
 					"bodyClass":"g-rank mhg thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"Kirin Bolt Kami","gOnly":true,"branchBend":true,
 							"rarity":5,
 							"damage":238,
@@ -5743,7 +5627,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragonbuster</b>","branchStart":true,
 							"rarity":4,
 							"damage1":251,
@@ -5757,7 +5640,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragonblood",
 							"rarity":4,
 							"damage1":279,
@@ -5772,7 +5654,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Black Dragon Sword","branchBend":true,
 							"rarity":5,
 							"damage1":321,
@@ -5834,7 +5715,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"<b>Djinn</b>","gOnly":true,"branchStart":true,
 							"rarity":6,
 							"damage":210,
@@ -5848,7 +5728,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"branch":"gold-marrow",
 							"name":"Djinn+","gOnly":true,
 							"rarity":6,
@@ -5868,7 +5747,6 @@
 					"bodyId":"gold-marrow","bodyClass":"branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Gold Marrow","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":252,
@@ -5892,7 +5770,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Ifrit","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":266,
@@ -5936,7 +5813,6 @@
 					"bodyClass":"g-knife-swords branch indent-1 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"Odyssey","branchBend":true,
 							"rarity":5,
 							"damageG":252,
@@ -5961,7 +5837,7 @@
 					"bodyClass":"g-knife-swords branch indent-2 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element g-rank",
+							"rowClass":"g-rank",
 							"name":"Odyssey Blade","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":280,
@@ -5980,7 +5856,7 @@
 					"bodyClass":"g-knife-swords branch indent-1 sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status g-rank",
+							"rowClass":"g-rank",
 							"name":"Sandman Spike","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":238,
@@ -5999,7 +5875,7 @@
 					"bodyClass":"g-knife-swords branch indent-2 sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status g-rank",
+							"rowClass":"g-rank",
 							"name":"High Sandman Spike","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":266,
@@ -6036,7 +5912,7 @@
 					"bodyClass":"thunderbane branch indent-1 thunder-pre poison-pre","dataChildBranch":"upper-battleaxe",
 					"weapons":[
 						{
-							"rowClass":"thunder-element poison-pre",
+							"rowClass":"poison-pre",
 							"name":"<b>Thunderbane</b>",
 							"rarity":2,
 							"damageG":210,
@@ -6056,7 +5932,7 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element poison-pre",
+							"rowClass":"poison-pre",
 							"branch":"upper-battleaxe",
 							"name":"Thunderbane+",
 							"rarity":2,
@@ -6076,7 +5952,6 @@
 					"bodyId":"upper-battleaxe","bodyClass":"branch indent-2 poison-pre",
 					"weapons":[
 						{
-							"rowClass":"poison-status",
 							"name":"Upper Battleaxe","gOnly":true,
 							"rarity":3,
 							"damage":252,
@@ -6090,7 +5965,6 @@
 							]
 						},
 						{
-							"rowClass":"poison-status",
 							"name":"Deadly Battleaxe","gOnly":true,"branchBend":true,
 							"rarity":3,
 							"damage":266,
@@ -6109,7 +5983,6 @@
 					"bodyClass":"thunderbane branch indent-1 thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"Frightbane",
 							"rarity":2,
 							"damageG":280,
@@ -6123,7 +5996,6 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Thundertip</b>",
 							"rarity":4,
 							"damageG":308,
@@ -6144,7 +6016,7 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element g-rank",
+							"rowClass":"g-rank",
 							"name":"Thunder God Sword Indra","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":322,
@@ -6288,7 +6160,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Dragonbuster</b>",
 							"rarity":4,
 							"damageG":252,
@@ -6307,7 +6178,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dragonblood",
 							"rarity":4,
 							"damageG":266,
@@ -6322,7 +6192,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"branch":"black-ruiner-sword",
 							"name":"Black Dragon Sword",
 							"rarity":5,
@@ -6343,7 +6212,7 @@
 					"bodyId":"black-ruiner-sword","bodyClass":"branch indent-1 dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element g-rank",
+							"rowClass":"g-rank",
 							"name":"Black Ruiner Sword","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":308,
@@ -6362,7 +6231,7 @@
 				{
 					"weapons":[
 						{
-							"rowClass":"dragon-element g-rank",
+							"rowClass":"g-rank",
 							"name":"True Black Dragon Sword","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":336,
@@ -6388,7 +6257,7 @@
 					"bodyClass":"mh1 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element high-rank",
+							"rowClass":"high-rank",
 							"name":"<b>Odyssey</b>",
 							"rarity":5,
 							"damage1":279,
@@ -6435,7 +6304,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Black Belt Sword</b>","gOnly":true,
 							"rarity":5,
 							"damage":224,
@@ -6450,7 +6318,6 @@
 							]
 						},
 						{
-							"rowClass":"paralysis-status",
 							"name":"<b>Expert Sword</b>","gOnly":true,
 							"rarity":6,
 							"damage":252,
@@ -6466,7 +6333,6 @@
 						},
 						{
 							"dev":true,"gOnly":true,
-							"rowClass":"sleep-status",
 							"name":"Coma Stick",
 							"rarity":6,
 							"damage":14,
@@ -6594,7 +6460,6 @@
 					"bodyId":"gradios","bodyClass":"branch indent-1 fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Gradios","gOnly":true,
 							"rarity":3,
 							"damage":196,
@@ -6608,7 +6473,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Gradios+","gOnly":true,
 							"rarity":3,
 							"damage":224,
@@ -6622,7 +6486,6 @@
 							]
 						},
 						{
-							"rowClass":"fire-element",
 							"name":"Gradios Ultimus","gOnly":true,"branchBend":true,
 							"rarity":4,
 							"damage":252,
@@ -6641,7 +6504,6 @@
 					"bodyClass":"water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"Cutlass","gOnly":true,
 							"rarity":3,
 							"damage":182,
@@ -6656,7 +6518,6 @@
 							]
 						},
 						{
-							"rowClass":"water-element",
 							"name":"Cutlass+","gOnly":true,"branchBend":true,
 							"rarity":3,
 							"damage":210,
@@ -6739,7 +6600,6 @@
 					"bodyClass":"tomahawk-swords branch indent-1 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"Guild Rapier","gOnly":true,"branchBend":true,
 							"rarity":4,
 							"damage":210,
@@ -6758,7 +6618,6 @@
 					"bodyClass":"tomahawk-swords branch indent-2 water-pre",
 					"weapons":[
 						{
-							"rowClass":"water-element",
 							"name":"Guild Rapier+","gOnly":true,
 							"rarity":4,
 							"damage":224,
@@ -6772,7 +6631,6 @@
 							]
 						},
 						{
-							"rowClass":"water-element",
 							"name":"Guild Saber","gOnly":true,
 							"rarity":4,
 							"damage":238,
@@ -6786,7 +6644,7 @@
 							]
 						},
 						{
-							"rowClass":"g-rank water-element",
+							"rowClass":"g-rank",
 							"name":"Guild Knight Saber","gOnly":true,"branchBend":true,
 							"rarity":4,
 							"damage":266,
@@ -6896,7 +6754,6 @@
 					"bodyClass":"thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"<b>Prototype Saw-Slicer</b>","gOnly":true,"branchStart":true,
 							"rarity":4,
 							"damage":224,
@@ -6911,7 +6768,6 @@
 							]
 						},
 						{
-							"rowClass":"thunder-element",
 							"name":"Guillotine","gOnly":true,
 							"rarity":4,
 							"damage":266,
@@ -6925,7 +6781,7 @@
 							]
 						},
 						{
-							"rowClass":"g-rank thunder-element",
+							"rowClass":"g-rank",
 							"name":"Sanctioned Blades","gOnly":true,"branchBend":true,
 							"rarity":6,
 							"damage":294,
@@ -6951,7 +6807,6 @@
 					"bodyClass":"dragon-pre",
 					"weapons":[
 						{
-							"rowClass":"dragon-element",
 							"name":"<b>Double Dragon</b>","gOnly":true,"branchStart":true,
 							"rarity":4,
 							"damage":266,
@@ -6971,7 +6826,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Dual Dragon Ultimus","gOnly":true,
 							"rarity":5,
 							"damage":294,
@@ -6985,7 +6839,7 @@
 							]
 						},
 						{
-							"rowClass":"g-rank dragon-element",
+							"rowClass":"g-rank",
 							"name":"Ultimus Heaven and Earth","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":322,
@@ -7011,7 +6865,6 @@
 					"bodyClass":"fire-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-element",
 							"name":"Corpse Blades","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":336,
@@ -7066,7 +6919,6 @@
 							]
 						},
 						{
-							"rowClass":"dragon-element",
 							"name":"Eternal Schism","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":182,
@@ -7090,7 +6942,6 @@
 					"bodyClass":"thunder-pre",
 					"weapons":[
 						{
-							"rowClass":"thunder-element",
 							"name":"Kirin Bolts","gOnly":true,"branchBend":true,
 							"rarity":7,
 							"damage":252,
@@ -7117,7 +6968,6 @@
 					"bodyClass":"water-pre sleep-pre",
 					"weapons":[
 						{
-							"rowClass":"sleep-status",
 							"name":"<b>Gabas</b>","gOnly":true,
 							"rarity":6,
 							"damage":224,
@@ -7145,7 +6995,6 @@
 						},
 						{
 							"dev":true,"gOnly":true,
-							"rowClass":"water-element",
 							"name":"Water Cutters",
 							"rarity":6,
 							"damage":252,
@@ -9243,58 +9092,58 @@
 	},
 	"motionValues":{
 		"greatsword":[
-			{ "name":"Chop","id":"chop","inputs":["R Stick Up","R Stick Down"],"value":0.48 },
-			{ "name":"Slash","id":"slash","inputs":["R Stick Left"],"value":0.36 },
-			{ "name":"Upswing","id":"upswing","inputs":["R Stick Right"],"value":0.46 },
-			{ "name":"Drawing Chop","id":"drawing-chop","inputs":["R Stick (while moving, weapon sheathed)"],"value":0.48 }
+			{ "name":"Chop","id":"chop","inputs":["R Stick Up","R Stick Down"],"value":0.48,"motion":48 },
+			{ "name":"Slash","id":"slash","inputs":["R Stick Left"],"value":0.36,"motion":36 },
+			{ "name":"Upswing","id":"upswing","inputs":["R Stick Right"],"value":0.46,"motion":46 },
+			{ "name":"Drawing Chop","id":"drawing-chop","inputs":["R Stick (while moving, weapon sheathed)"],"value":0.48,"motion":48 }
 		],
 		"hammer":[
-			{ "name":"Slam 1","id":"slam-1","inputs":["R Stick Up (first)"],"value":0.52 },
-			{ "name":"Slam 2","id":"slam-2","inputs":["R Stick Up (second)"],"value":0.2 },
-			{ "name":"Slam 3","id":"slam-3","inputs":["R Stick Up (third)"],"value":0.2,"mh1":true },
-			{ "name":"Golf Swing","id":"golf-swing","inputs":["R Stick Up (third)"],"value":1.0,"mhg":true },
-			{ "name":"Side Swing","id":"side-swing","inputs":["R Stick Down"],"value":0.15 },
-			{ "name":"Charged Swing 1","id":"charged-swing-1","inputs":["R1 (level 1 charge)"],"value":0.45 },
-			{ "name":"Charged Swing 2","id":"charged-swing-2","inputs":["R1 (level 2 charge)"],"parts":[0.45,0.35],"value":0.8 },
-			{ "name":"Superpound","id":"superpound","inputs":["R1 (level 3 charge)"],"parts":[0.2,0.76],"value":0.96 },
-			{ "name":"Spin 1","id":"spin-1","inputs":["R1 (full charge while moving, first hit)"],"value":0.2 },
-			{ "name":"Spin 2","id":"spin-2","inputs":["R1 (full charge while moving, hits 2 through 5)"],"value":0.1 },
-			{ "name":"Golf Swing Finisher","id":"golf-swing-finisher","inputs":["R Stick (during third or fourth spin)"],"value1":1.0,"valueG":0.4 },
-			{ "name":"Drawing Swing","id":"drawing-swing","inputs":["R Stick (while moving, weapon sheathed)"],"value":0.2 }
+			{ "name":"Slam 1","id":"slam-1","inputs":["R Stick Up (first)"],"value":0.52,"motion":52 },
+			{ "name":"Slam 2","id":"slam-2","inputs":["R Stick Up (second)"],"value":0.2,"motion":20 },
+			{ "name":"Slam 3","id":"slam-3","inputs":["R Stick Up (third)"],"value":0.2,"motion":20,"mh1":true },
+			{ "name":"Golf Swing","id":"golf-swing","inputs":["R Stick Up (third)"],"value":1.0,"motion":100,"mhg":true },
+			{ "name":"Side Swing","id":"side-swing","inputs":["R Stick Down"],"value":0.15,"motion":15 },
+			{ "name":"Charged Swing 1","id":"charged-swing-1","inputs":["R1 (level 1 charge)"],"value":0.45,"motion":45 },
+			{ "name":"Charged Swing 2","id":"charged-swing-2","inputs":["R1 (level 2 charge)"],"parts":[45,35],"value":0.8,"motion":80 },
+			{ "name":"Superpound","id":"superpound","inputs":["R1 (level 3 charge)"],"parts":[20,76],"value":0.96,"motion":96 },
+			{ "name":"Spin 1","id":"spin-1","inputs":["R1 (full charge while moving, first hit)"],"value":0.2,"motion":20 },
+			{ "name":"Spin 2","id":"spin-2","inputs":["R1 (full charge while moving, hits 2 through 5)"],"value":0.1,"motion":10 },
+			{ "name":"Golf Swing Finisher","id":"golf-swing-finisher","inputs":["R Stick (during third or fourth spin)"],"value1":1.0,"valueG":0.4,"motion1":100,"motionG":40 },
+			{ "name":"Drawing Swing","id":"drawing-swing","inputs":["R Stick (while moving, weapon sheathed)"],"value":0.2,"motion":20 }
 		],
 		"lance":[
-			{ "name":"Level Thrust","id":"level-thrust","inputs":["R Stick Up","R Stick Left","R Stick Right"],"value":0.23 },
-			{ "name":"Upward Thrust","id":"upward-thrust","inputs":["R Stick Down"],"value":0.28 },
-			{ "name":"Final Thrust","id":"final-thrust","inputs":["R Stick (third of either thrust)"],"value":0.3 },
-			{ "name":"Charge Attack","id":"charge-attack","inputs":["R3"],"value":0.2 },
-			{ "name":"Charge Attack Thrust","id":"charge-attack-thrust","inputs":["R Stick (while charging)"],"value":0.4 },
-			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":0.2 },
-			{ "name":"Drawing Thrust","id":"drawing-thrust","inputs":["R Stick (while moving, weapon sheathed"],"value":0.28 }
+			{ "name":"Level Thrust","id":"level-thrust","inputs":["R Stick Up","R Stick Left","R Stick Right"],"value":0.23,"motion":23 },
+			{ "name":"Upward Thrust","id":"upward-thrust","inputs":["R Stick Down"],"value":0.28,"motion":28 },
+			{ "name":"Final Thrust","id":"final-thrust","inputs":["R Stick (third of either thrust)"],"value":0.3,"motion":30 },
+			{ "name":"Charge Attack","id":"charge-attack","inputs":["R3"],"value":0.2,"motion":20 },
+			{ "name":"Charge Attack Thrust","id":"charge-attack-thrust","inputs":["R Stick (while charging)"],"value":0.4,"motion":40 },
+			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":0.2,"motion":20 },
+			{ "name":"Drawing Thrust","id":"drawing-thrust","inputs":["R Stick (while moving, weapon sheathed"],"value":0.28,"motion":28 }
 		],
 		"sword":[
-			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":0.14 },
-			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"value":0.12 },
-			{ "name":"Slice 3","id":"slice 3","inputs":["R Stick Up (third)"],"parts":[0.08,0.12],"value":0.2 },
-			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"value":0.24 },
-			{ "name":"Jumping Slice","id":"jumping-slice","inputs":["R Stick Down"],"value":0.18 },
-			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":0.15 },
-			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":0.14 },
-			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"value":0.18 }
+			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":0.14,"motion":14 },
+			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"value":0.12,"motion":12 },
+			{ "name":"Slice 3","id":"slice 3","inputs":["R Stick Up (third)"],"parts":[8,12],"value":0.2,"motion":20 },
+			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"value":0.24,"motion":24 },
+			{ "name":"Jumping Slice","id":"jumping-slice","inputs":["R Stick Down"],"value":0.18,"motion":18 },
+			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":0.15,"motion":15 },
+			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":0.14,"motion":14 },
+			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"value":0.18,"motion":18 }
 		],
 		"dualSwords":[
-			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":0.14 },
-			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"parts":[0.08,0.06], "value":0.14 },
-			{ "name":"Slice 3","id":"slice-3","inputs":["R Stick Up (third)"],"parts":[0.05,0.07,0.16],"value":0.28 },
-			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"parts":[0.1,0.08,0.06],"value":0.24 },
-			{ "name":"Charging Slice","id":"charging-slice","inputs":["R Stick Down"],"parts":[0.12,0.06],"value":0.18 },
-			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":0.15 },
-			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"parts":[0.12,0.06],"value":0.18 },
-			{ "name":"Demon Slice 1","id":"slice-1","inputs":["R Stick Up (first, demon mode)"],"value":0.18 },
-			{ "name":"Demon Slice 2","id":"slice-2","inputs":["R Stick Up (second, demon mode)"],"parts":[0.1,0.08],"value":0.18 },
-			{ "name":"Demon Slice 3","id":"slice-3","inputs":["R Stick Up (third, demon mode)"],"parts":[0.06,0.09,0.21],"value":0.36 },
-			{ "name":"Demon Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right (demon mode)"],"parts":[0.13,0.1,0.08,0.13,0.1,0.08],"value":0.62 },
-			{ "name":"Demon Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling, demon mode)"],"value":0.20 },
-			{ "name":"Fury Combo","id":"fury-combo","inputs":["R Stick Down (demon mode)"],"parts":[0.28,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.33],"value":1.01 }
+			{ "name":"Slice 1","id":"slice-1","inputs":["R Stick Up (first)"],"value":0.14,"motion":14 },
+			{ "name":"Slice 2","id":"slice-2","inputs":["R Stick Up (second)"],"parts":[8,6], "value":0.14,"motion":14 },
+			{ "name":"Slice 3","id":"slice-3","inputs":["R Stick Up (third)"],"parts":[5,7,16],"value":0.28,"motion":28 },
+			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"parts":[10,8,6],"value":0.24,"motion":24 },
+			{ "name":"Charging Slice","id":"charging-slice","inputs":["R Stick Down"],"parts":[12,6],"value":0.18,"motion":18 },
+			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":0.15,"motion":15 },
+			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"parts":[12,6],"value":0.18,"motion":18 },
+			{ "name":"Demon Slice 1","id":"slice-1","inputs":["R Stick Up (first, demon mode)"],"value":0.18,"motion":18 },
+			{ "name":"Demon Slice 2","id":"slice-2","inputs":["R Stick Up (second, demon mode)"],"parts":[10,8],"value":0.18,"motion":18 },
+			{ "name":"Demon Slice 3","id":"slice-3","inputs":["R Stick Up (third, demon mode)"],"parts":[6,9,0.21],"value":0.36,"motion":36 },
+			{ "name":"Demon Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right (demon mode)"],"parts":[13,10,8,13,10,8],"value":0.62,"motion":62 },
+			{ "name":"Demon Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling, demon mode)"],"value":0.20,"motion":20 },
+			{ "name":"Fury Combo","id":"fury-combo","inputs":["R Stick Down (demon mode)"],"parts":[28,5,5,5,5,5,5,5,5,33],"value":1.01,"motion":101 }
 		]
 	},
 	"bowgunAmmo":[

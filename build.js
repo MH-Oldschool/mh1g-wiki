@@ -486,6 +486,92 @@ function generateItemDataJS(weaponData, armorData) {
 		console.error("Unable to parse item file:", e);
 	}
 }
+// Convert weapon data, formatted for mustache to generate detail elements with tables, into manageable objects
+function generateWeaponsData2JS() {
+	var data = fs.readFileSync("_views/mh2/weapons.json", "utf8");
+
+	try {
+		var weaponData = {};
+		var rawData = JSON.parse(data);
+
+		rawData.blademasterWeapons.forEach((weaponDetails) => {
+			var detailsWeaponClass = weaponDetails.weaponClass;
+
+			weaponDetails.groups.forEach((weaponGroup) => {
+				var groupWeaponClass = weaponGroup.weaponClass;
+
+				weaponGroup.tbody.forEach((tbody) => {
+					var bodyWeaponClass = tbody.weaponClass;
+
+					tbody.weapons.forEach((weapon) => {
+						var currentWeaponClass = detailsWeaponClass;
+						if (weapon.weaponClass) currentWeaponClass = weapon.weaponClass;
+						else if (bodyWeaponClass) currentWeaponClass = bodyWeaponClass;
+						else if (groupWeaponClass) currentWeaponClass = groupWeaponClass;
+
+						weapon.weaponClass = currentWeaponClass;
+
+						if (!weaponData[currentWeaponClass]) {
+							weaponData[currentWeaponClass] = {};
+						}
+
+						if (weapon.index !== undefined) {
+							weaponData[currentWeaponClass][weapon.index.toString()] = weapon;
+						}
+					});
+				});
+			});
+		});
+
+		weaponData["Light Bowgun"] = {};
+		rawData.lightBowguns.weapons.forEach((bowgun) => {
+			bowgun.weaponClass = "Light Bowgun";
+			weaponData["Light Bowgun"][bowgun.index.toString()] = bowgun;
+		});
+		weaponData["Heavy Bowgun"] = {};
+		rawData.heavyBowguns.weapons.forEach((bowgun) => {
+			bowgun.weaponClass = "Heavy Bowgun";
+			weaponData["Heavy Bowgun"][bowgun.index.toString()] = bowgun;
+		});
+
+		weaponData["Bow"] = {};
+		rawData.bows.forEach((bowGroup) => {
+			bowGroup.weapons.forEach((bow) => {
+				bow.weaponClass = "Bow";
+				weaponData["Bow"][bow.index.toString()] = bow;
+			});
+		});
+
+		var gunlanceShellLevels = {};
+		rawData.gunlanceShellLevels.forEach(shellLevel => gunlanceShellLevels[shellLevel.name] = shellLevel.power);
+		weaponData.gunlanceShellLevels = gunlanceShellLevels;
+
+		var arrowData = {};
+		rawData.arrows.forEach(arrow => {
+			if (!arrowData[arrow.name]) {
+				arrowData[arrow.name] = Array(4);
+			}
+
+			arrowData[arrow.name][arrow.level - 1] = {
+				power: arrow.power,
+				impacts: arrow.impacts ? arrow.impacts : 1
+			};
+		});
+		weaponData.arrowData = arrowData;
+
+		weaponData.huntingHornMelodies = rawData.huntingHornMelodies;
+		weaponData.wyvernfire = rawData.wyvernfire;
+
+		var formattedData = "window.weaponData=" + JSON.stringify(weaponData);
+
+		fs.writeFileSync("public/mh2/js/weapon_data.js", formattedData);
+
+		return weaponData;
+	}
+	catch (err) {
+		console.error("Unable to parse JSON:", err);
+	}
+}
 
 function buildPage(pageName, partials) {
 	var fileNames = [
@@ -516,10 +602,41 @@ function buildPage(pageName, partials) {
 		}
 	});
 }
+function buildPage2(pageName, partials) {
+	var fileNames = [
+		path.join(__dirname, "_partials/mh2/head.mustache"),
+		path.join(__dirname, "_partials/mh2/foot.mustache"),
+		path.join(__dirname, "_templates/" + pageName + ".mustache"),
+		path.join(__dirname, "_views/" + pageName + ".json")
+	];
+	if (partials) {
+		fileNames = fileNames.concat(partials.map((name) => path.join(__dirname, "_partials", name + ".mustache")));
+	}
+
+	readFiles(fileNames, null, (files) => {
+		var partialFiles = {
+			head: files[0],
+			foot: files[1]
+		}
+		for (var i = 4; i < files.length; i++) {
+			partialFiles[partials[i - 4]] = files[i];
+		}
+
+		try {
+			var view = JSON.parse(files[3]);
+			renderAndWriteToFile(pageName, files[2], view, partialFiles);
+		}
+		catch (err) {
+			console.log("Unable to parse JSON:", err);
+		}
+	});
+}
 
 var armorData = generateArmorDataJS();
 var weaponData = generateWeaponsDataJS();
 generateItemDataJS(weaponData, armorData);
+
+var weaponData2 = generateWeaponsData2JS();
 
 buildPage("index");
 buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
@@ -531,3 +648,5 @@ buildPage("quests", ["quest"]);
 buildPage("maps");
 buildPage("miscellany", ["hotel_room"]);
 buildPage("roulette");
+
+buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);

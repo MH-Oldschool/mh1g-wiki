@@ -26,7 +26,7 @@
 		{{#tbody}}
 			<tbody{{#bodyId}} id="{{bodyId}}"{{/bodyId}}{{#bodyClass}} class="{{bodyClass}}"{{/bodyClass}}{{#dataChildBranch}} data-child-branch="{{dataChildBranch}}"{{/dataChildBranch}}>
 				{{#weapons}}
-					<tr class="weapon-row {{^dbLink}}rarity-{{rarity}} {{/dbLink}}{{rowClass}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}} data-name="{{name}}">
+					<tr class="weapon-row {{^dbLink}}rarity-{{rarity}} {{/dbLink}}{{rowClass}}{{#attribute}} {{attribute}}-attribute{{/attribute}}"{{#rowTitle}} title="{{rowTitle}}"{{/rowTitle}} data-name="{{name}}">
 						{{#dbLink}}
 							<td colspan="9">
 								<label class="weapon-button">

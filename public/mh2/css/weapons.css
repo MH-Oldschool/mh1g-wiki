@@ -1,0 +1,178 @@
+.indent-4 tr td:first-child { padding-left: 4rem; }
+
+/* Element filters */
+/* Ice */
+.highlight-ice .weapons-with-attributes .weapon-group-container.ice-pre { display: block; }
+.highlight-ice .weapons-with-attributes tbody.ice-pre { display: table-row-group; }
+.highlight-ice .weapons-with-attributes tr.ice-pre { display: table-row; }
+
+.highlight-ice .ice-attribute {
+	display: table-row;
+	text-shadow: 0.0625rem 0.0625rem 0 #000;
+}
+
+.highlight-ice .ice-attribute { color: #c3e6ff; }
+
+.show-ice .ice {
+	display: table-row;
+}
+
+.shot-add {
+	font-size: 0.75rem;
+	text-shadow: 1px 1px 0 #e75;
+}
+
+/* New color for blue sharpness */
+.calc-hit-count:nth-child(5) { color: #4040ff; }
+.sharpness-4 { background: #4040ff; }
+
+.great-sword .gunner-stat,
+.longsword .gunner-stat,
+.hammer .gunner-stat,
+.hunting-horn .gunner-stat,
+.lance .gunner-stat,
+.gunlance .gunner-stat,
+.sword .gunner-stat,
+.dual-swords .gunner-stat,
+.light-bowgun .blademaster-stat,
+.heavy-bowgun .blademaster-stat,
+.light-bowgun .sharpness-range-color,
+.heavy-bowgun .sharpness-range-color,
+.bow .sharpness-range-color,
+.bow .blademaster-stat,
+.bow .gunner-stat {
+	display: none;
+}
+.great-sword .great-sword-mvs,
+.longsword .longsword-mvs,
+.hammer .hammer-mvs,
+.hunting-horn .hunting-horn-mvs,
+.lance .lance-mvs,
+.gunlance .gunlance-mvs,
+.sword .sword-mvs,
+.dual-swords .dual-swords-mvs,
+.light-bowgun .bowgun-ammo,
+.heavy-bowgun .bowgun-ammo {
+	display: table-row-group;
+}
+
+.bow-stat { display: none }
+.bow .bow-stat { display: block }
+.bow tr.bow-stat { display: table-row }
+.bow tbody.bow-stat { display: table-row-group }
+
+#calc-range-slider { display: none }
+.light-bowgun #calc-range-slider,
+.heavy-bowgun #calc-range-slider,
+.bow #calc-range-slider {
+	display: block;
+	width: 12rem;
+}
+.calc-bow-coatings {
+	padding: 0.25rem 0;
+}
+.calc-range-labels {
+	display: flex;
+	justify-content: space-between;
+}
+#calc-range {
+	width: 90%;
+}
+.light-bowgun #kick-raw,
+.heavy-bowgun #kick-raw {
+	text-align: center;
+}
+
+#calc-bow-arrows td:nth-child(3),
+#calc-bow-arrows td:nth-child(4),
+#calc-bow-arrows td:nth-child(5) {
+	text-align: right;
+}
+
+.bow .blademaster-gunner-melee { display: none }
+
+.motion-value-tables .mv-table-container {
+	box-sizing: border-box;
+	padding: 1rem 0;
+}
+
+.calc-sharpness-container {
+	width: 137px;
+}
+#damage-calculator .sharpness-container {
+	overflow: hidden;
+	height: 10px;
+}
+#damage-calculator.handicraft .sharpness-container img {
+	position: relative;
+	top: -9px;
+}
+.calc-hit-count-container {
+	width: 122px;
+}
+
+/* Weapon-class-unique elements */
+.calc-horn-notes-container,
+.calc-horn-songs-container,
+.calc-gunlance-shells-container {
+	display: none;
+}
+.calc-horn-notes-container,
+.calc-gunlance-shells-container {
+	vertical-align: top;
+}
+.hunting-horn .calc-horn-notes-container { display: inline-block }
+.hunting-horn .calc-horn-songs-container { display: block }
+.gunlance .calc-gunlance-shells-container { display: inline-block }
+
+#calc-gunlance-shell-level {
+	margin-right: 0.25rem;
+}
+
+.heavy-bowgun-option { display: none }
+.heavy-bowgun .heavy-bowgun-option { display: block }
+
+/* Highlight ammo that needs Shot Up */
+.normal-1-shot-up #normal-1-row,
+.normal-3-shot-up #normal-3-row,
+.pierce-1-shot-up #pierce-1-row,
+.pierce-2-shot-up #pierce-2-row,
+.pierce-3-shot-up #pierce-3-row,
+.pellet-1-shot-up #pellet-1-row,
+.pellet-2-shot-up #pellet-2-row,
+.pellet-3-shot-up #pellet-3-row,
+.crag-1-shot-up #crag-1-row,
+.crag-2-shot-up #crag-2-row,
+.crag-3-shot-up #crag-3-row,
+.clust-1-shot-up #clust-1-row,
+.clust-2-shot-up #clust-2-row,
+.clust-3-shot-up #clust-3-row {
+	font-size: 0.875rem;
+	text-shadow: 1px 1px 0 #e75;
+}
+
+.calc-arrows { display: none }
+.bow .calc-arrows { display: block }
+
+@media screen and (min-width: 40rem) {
+	.motion-value-tables {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.motion-value-tables .mv-table-container {
+		padding: 1rem;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 64rem) {
+	.motion-value-tables .mv-table-container {
+		width: 33%;
+	}
+}
+@media screen and (min-width: 80rem) {
+	.motion-value-tables .mv-table-container {
+		width: 25%;
+	}
+}
