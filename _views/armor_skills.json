@@ -256,7 +256,7 @@
 				{ "points":"+15", "name":"Clust S Add 2" },
 				{ "points":"+25", "name":"Clust S Add 3" }
 			],
-			"desc":"Load Cluster Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href='details'>Weapons page</a> for which weapons have what ammo by default.)"
+			"desc":"Load Cluster Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/weapons\">Weapons page</a> for which weapons have what ammo by default.)"
 		},
 		{
 			"name":"Cold Res",
@@ -287,7 +287,7 @@
 				{ "points":"+15", "name":"Crag S Add 2" },
 				{ "points":"+25", "name":"Crag S Add 3" }
 			],
-			"desc":"Load Crag Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href='details'>Weapons page</a> for which weapons have what ammo by default.)"
+			"desc":"Load Crag Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/weapons\">Weapons page</a> for which weapons have what ammo by default.)"
 		},
 		{
 			"name":"Defense",
@@ -466,7 +466,7 @@
 				{ "points":"+10", "name":"Normal S Add 1" },
 				{ "points":"+15", "name":"Normal S Add All" }
 			],
-			"desc":"Load Normal Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href='details'>Weapons page</a> for which weapons have what ammo by default.)"
+			"desc":"Load Normal Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/weapons\">Weapons page</a> for which weapons have what ammo by default.)"
 		},
 		{
 			"name":"Normal S Up",
@@ -491,7 +491,7 @@
 				{ "points":"+15", "name":"Pellet S Add 2" },
 				{ "points":"+25", "name":"Pellet S Add 3" }
 			],
-			"desc":"Load Pellet Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href='details'>Weapons page</a> for which weapons have what ammo by default.)"
+			"desc":"Load Pellet Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/weapons\">Weapons page</a> for which weapons have what ammo by default.)"
 		},
 		{
 			"name":"Pellet S Up",
@@ -507,7 +507,7 @@
 				{ "points":"+15", "name":"Pierce S Add 2" },
 				{ "points":"+25", "name":"Pierce S Add 3" }
 			],
-			"desc":"Load Pierce Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href='details'>Weapons page</a> for which weapons have what ammo by default.)"
+			"desc":"Load Pierce Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/weapons\">Weapons page</a> for which weapons have what ammo by default.)"
 		},
 		{
 			"name":"Pierce S Up",

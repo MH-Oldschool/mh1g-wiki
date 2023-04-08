@@ -1,0 +1,30 @@
+{{> head}}
+
+<section class="filters">
+	<div class="filter-checks" title="Show/Hide more detailed information like exact formulas and modifiers.">
+		<input id="details-toggle" type="checkbox"/>
+		<label for="details-toggle">Show Details</label>
+	</div>
+</section>
+
+<section>
+	<article>
+		{{#armorSkills}}
+			<div class="skill-row">
+				<ul class="skill-stages">
+					{{#stagesFormatted}}
+						<li><span class="skill-points">{{points}}</span> {{&name}}</li>
+					{{/stagesFormatted}}
+				</ul>
+				<div class="skill-description">
+					<h3>{{name}}</h3>
+					<p>
+						{{&desc}}
+					</p>
+				</div>
+			</div>
+		{{/armorSkills}}
+	</article>
+</section>
+
+{{> foot}}

@@ -1,76 +1,711 @@
 {
+	"title": "Monster Hunter 2 Wiki | Armor Skills",
+	"description": "All armor skills with descriptions.",
+	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge. The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level.</p>",
+	"head": "<link type='text/css' rel='stylesheet' href='../css/armor_skills.css'/><script type='text/javascript' src='../js/armor_skills.js'></script>",
+	"onArmorSkills":true,
 	"armorSkills":[
-		{"name":"Alchemy","japanese":"錬金術","stages":["","","","Alchemy","","",""]},
-		{"name":"Ammo Mixer","japanese":"弾調合","stages":["","","","Ammo Mixer","","",""]},
-		{"name":"Anti-Theft","japanese":"盗み無効","stages":["","","","Anti-Theft","","",""]},
-		{"name":"Antibacterial","japanese":"抗菌・抗毒","stages":["","","bikin","Antibacterial +1","","Antibacterial +2",""]},
-		{"name":"Attack","japanese":"攻撃","stages":["","","","Attack Up [S]","Attack Up [M]","","Attack Up [L]"]},
-		{"name":"Auto-Guard","japanese":"自動防御","stages":["","","","Auto-Guard","","",""]},
-		{"name":"Backpacking","japanese":"運搬","stages":["","","","Backpacking Expert","","",""]},
-		{"name":"BBQ","japanese":"肉焼き","stages":["","","BBQ Amateur","BBQ Expert","BBQ Master","",""]},
-		{"name":"Bomber","japanese":"爆弾強化","stages":["","","","Bomber","","",""]},
-		{"name":"Carving","japanese":"剥ぎ取り","stages":["","","","","Master Carver","",""]},
-		{"name":"Clust S Add","japanese":"拡散弾追加","stages":["","","","Clust S Add 1","Clust S Add 2","Clust S Add All",""]},
-		{"name":"Cold Resistance","japanese":"耐寒","stages":["Large Cold Doubled","","Minor Cold Doubled","Cold Halved","Negate Minor Cold","Negate Large Cold",""]},
-		{"name":"Combo Success","japanese":"調合成功率","stages":["Combo Success -15%","","Combo Success -5%","Combo Success +5%","Combo Success +10%","Combo Success +20%",""]},
-		{"name":"Crag S Add","japanese":"榴弾追加","stages":["","","","Crag S Add 1","Crag S Add 2","Crag S Add All",""]},
-		{"name":"Defense","japanese":"防御","stages":["-40","-30","-20","20","30","40",""]},
-		{"name":"Dragon Resistance","japanese":"龍耐性","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Earplugs","japanese":"聴覚保護","stages":["","","","Earplugs","High Grade Earplugs","",""]},
-		{"name":"Eating","japanese":"食事","stages":["","","Slow Eating","Speed Eating","","",""]},
-		{"name":"Element Resistance","japanese":"全耐性ＵＰ","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Evasion","japanese":"回避性能","stages":["","","","Evasion +1","","Evasion +2",""]},
-		{"name":"Expert","japanese":"達人","stages":["","","","Mind's Eye","Edge +1","","Edge +2"]},
-		{"name":"Fate","japanese":"運気","stages":["Disaster","","Bad Luck","Good Luck","Very Good Luck","",""]},
-		{"name":"Fire Resistance","japanese":"火耐性","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Fishing","japanese":"釣り","stages":["","","","Fishing Master","","",""]},
-		{"name":"Gathering","japanese":"採取","stages":["","Gathering -2","Gathering -1","Gathering +1","Gathering +2","",""]},
-		{"name":"Gluttony","japanese":"食いしん坊","stages":["","","","Eating","Scavenging","",""]},
-		{"name":"Guard","japanese":"ガード性能","stages":["","Guard -2","Guard -1","Guard +1","","Guard +2",""]},
-		{"name":"Handicraft","japanese":"匠","stages":["","","Sharpness -1","Sharpness +1","","",""]},
-		{"name":"Health","japanese":"体力","stages":["-30","-20","-10","10","20","30",""]},
-		{"name":"Heat Resistance","japanese":"耐暑","stages":["Large Heat Doubled","","Minor Heat Doubled","Heat Halved","Negate Minor Heat","Negate Large Heat",""]},
-		{"name":"High Speed Recovery","japanese":"回復速度","stages":["Recovery Speed -2","","Recovery Speed -1","Recovery Speed +1","","Recovery Speed +2",""]},
-		{"name":"Hunger","japanese":"はらへり","stages":["","Double Hunger","Hunger x1.5","Hunger Halved","Negate Hunger","",""]},
-		{"name":"Ice Resistance","japanese":"氷耐性","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Lasting Power","japanese":"効果持続","stages":["","","Item Use Down","Item Use Up","","",""]},
-		{"name":"Lightning Resistance","japanese":"雷耐性","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Loading","japanese":"装填数","stages":["","","","Loading Up","","",""]},
-		{"name":"Map","japanese":"地図","stages":["","","No Map","Auto-Map","","",""]},
-		{"name":"Monster","japanese":"モンスター","stages":["","","","Monster","","",""]},
-		{"name":"Normal S Add","japanese":"通常弾追加","stages":["","","","Normal S Add 1","Normal S Add All","",""]},
-		{"name":"Normal S Up","japanese":"通常弾強化","stages":["","","","Normal S Up","","",""]},
-		{"name":"Paralysis","japanese":"麻痺","stages":["","","Paralysis Doubled","Paralysis Halved","Paralysis Negated","",""]},
-		{"name":"Pellet S Add","japanese":"散弾追加","stages":["","","","Pellet S Add 1","Pellet S Add 2","Pellet S Add All",""]},
-		{"name":"Pellet S Up","japanese":"散弾強化","stages":["","","","Pellet S Up","","",""]},
-		{"name":"Pierce S Add","japanese":"貫通弾追加","stages":["","","","Pierce S Add 1","Pierce S Add 2","Pierce S Add All",""]},
-		{"name":"Pierce S Up","japanese":"貫通弾強化","stages":["","","","Pierce S Up","","",""]},
-		{"name":"Poison","japanese":"毒","stages":["","","Poison Doubled","Poison Halved","Poison Negated","",""]},
-		{"name":"Potential","japanese":"底力","stages":["","Anxious Mind","","Fire Force +1","Fire Force +2","",""]},
-		{"name":"Precision","japanese":"精密射撃","stages":["","","Precision Down","Precision Up","","",""]},
-		{"name":"Protection","japanese":"加護","stages":["","","Demonic Protection","Divine Protection","","",""]},
-		{"name":"Psychic","japanese":"千里眼","stages":["","","","Detect","Autotracker","",""]},
-		{"name":"Rapid Fire","japanese":"連射","stages":["","","","Rapid Fire","","",""]},
-		{"name":"Recoil","japanese":"反動","stages":["","","","Recoil +1","Recoil +2","",""]},
-		{"name":"Recovery Items","japanese":"回復","stages":["","","Recovery Items Weakened","Recovery Items Strengthened","","",""]},
-		{"name":"Reload Speed","japanese":"装填","stages":["","Reload Speed -2","Reload Speed -1","Reload Speed +1","Reload Speed +2","Reload Speed +3",""]},
-		{"name":"Sense","japanese":"気配","stages":["","","Provocation","Stealth","","",""]},
-		{"name":"Sharpness","japanese":"斬れ味","stages":["","","Blunt","Sharp Sword","","",""]},
-		{"name":"Sharpshooter","japanese":"砲術師","stages":["","","","Sharpshooter","","",""]},
-		{"name":"Silence","japanese":"声帯","stages":["","","","Silence Halved","Silence Doubled","",""]},
-		{"name":"Sleep","japanese":"睡眠","stages":["","","Sleep Doubled","Sleep Halved","Sleep Negated","",""]},
-		{"name":"Snow Resistance","japanese":"耐雪","stages":["","","Freeze","Snow Res +1","","Snow Res +2",""]},
-		{"name":"Speed Gathering","japanese":"高速収集","stages":["","","","Speed Gathering","","",""]},
-		{"name":"Speed Sharpening","japanese":"研ぎ師","stages":["","","Sharpening Slowed","Fast Sharpening","","",""]},
-		{"name":"Stamina","japanese":"スタミナ","stages":["","","Short Sprinter","Marathon Runner","","",""]},
-		{"name":"Status","japanese":"特殊攻撃","stages":["","","","Status Attack Up","","",""]},
-		{"name":"Stun","japanese":"気絶","stages":["","","Stun Doubled","Stun Halved","Stun Negated","",""]},
-		{"name":"Terrain","japanese":"地形","stages":["","Terrain Up Large","Terrain Up Small","Terrain Down Small","Terrain Down Large","",""]},
-		{"name":"Throw","japanese":"投擲","stages":["","","","Throw","","",""]},
-		{"name":"Tremor Resistance","japanese":"耐震","stages":["","","","","Tremor Resistance","",""]},
-		{"name":"Water Resistance","japanese":"水耐性","stages":["-10","-5","-3","3","5","10",""]},
-		{"name":"Whim","japanese":"気まぐれ","stages":["","Devil's Whim","Spectre's Whim","Spirit's Whim","Divine Whim","",""]},
-		{"name":"Wide Area","japanese":"広域","stages":["","","","Wide-Area +1","","Wide-Area +2",""]},
-		{"name":"Wind Pressure","japanese":"風圧","stages":["","","","Wind Res Small","Wind Res Large","","Wind Res Dragon"]}
+		{
+			"name":"Alchemy","japanese":"錬金術",
+			"desc":"Allow special item combinations without the Alchemy Book.",
+			"stages":["","","","Alchemy","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Alchemy"}
+			]
+		},
+		{
+			"name":"Ammo Mixer","japanese":"弾調合",
+			"desc":"Always make the maximum possible amount of ammunition when combining.",
+			"stages":["","","","Ammo Mixer","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Ammo Mixer"}
+			]
+		},
+		{
+			"name":"Anti-Theft","japanese":"盗み無効",
+			"desc":"Prevent anyone from stealing your items.<span class=\"/mh2/weapons\"> Works against Melynxes, Gypceroses, and Purple Gypceroses.</span>",
+			"stages":["","","","Anti-Theft","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Anti-Theft"}
+			]
+		},
+		{
+			"name":"Antiseptic","japanese":"抗菌・抗毒",
+			"desc":"Affects your susceptibility to Stench status.",
+			"stages":["","","Extra Stinky","Antiseptic +1","","Antiseptic +2",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Extra Stinky"},
+				{"points":"+10","name":"Antiseptic +1"},
+				{"points":"+15","name":"Antiseptic +2"}
+			]
+		},
+		{
+			"name":"Attack","japanese":"攻撃",
+			"desc":"Increase your weapon's Attack.<span class=\"/mh2/weapons\"> Adds the amount in parentheses to the weapon's True Damage Value before its Bloat Value.</span>",
+			"stages":["","","","Attack Up [S]","Attack Up [M]","","Attack Up [L]"],
+			"stagesFormatted":[
+				{"points":"+10","name":"Attack Up [S]<span class=\"/mh2/weapons\"> (+3)</span>"},
+				{"points":"+15","name":"Attack Up [M]<span class=\"/mh2/weapons\"> (+5)</span>"},
+				{"points":"+25","name":"Attack Up [L]<span class=\"/mh2/weapons\"> (+10)</span>"}
+			]
+		},
+		{
+			"name":"Auto-Guard","japanese":"自動防御",
+			"desc":"Block attacks automatically if your weapon is drawn.<span class=\"/mh2/weapons\"> You must also be facing the direction of the incoming attack (within 180 degrees in front of you), and be free to block it (that is, not be in the middle of dodging or attacking.)</span>",
+			"stages":["","","","Auto-Guard","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Auto-Guard"}
+			]
+		},
+		{
+			"name":"Backpacking","japanese":"運搬",
+			"desc":"Move faster while carrying an egg or other delivery item, and drop from a greater height without breaking or dropping it.",
+			"stages":["","","","Backpacking Expert","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Backpacking Expert"}
+			]
+		},
+		{
+			"name":"BBQ","japanese":"肉焼き",
+			"desc":"",
+			"stages":["","","BBQ Amateur","BBQ Expert","BBQ Master","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"BBQ Amateur"},
+				{"points":"+10","name":"BBQ Expert"},
+				{"points":"+15","name":"BBQ Master"}
+			]
+		},
+		{
+			"name":"Bomber","japanese":"爆弾強化",
+			"desc":"Increases the yield of barrel bombs<span class=\"/mh2/weapons\">, dealing 1.5x damage. See the Explosive Damage section under About Weapons in the <a href='/mh2/weapons'>Weapons page</a></span>.",
+			"stages":["","","","Bomber","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Bomber"}
+			]
+		},
+		{
+			"name":"Carving","japanese":"剥ぎ取り",
+			"desc":"Speeds up carving monsters.",
+			"stages":["","","","","Master Carver","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Master Carver"}
+			]
+		},
+		{
+			"name":"Clust S Add","japanese":"拡散弾追加",
+			"desc":"Load Cluster Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/mh2/weapons\">Weapons page</a> for which weapons have what ammo by default.)",
+			"stages":["","","","Clust S Add 1","Clust S Add 2","Clust S Add All",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Clust S Add 1"},
+				{"points":"+15","name":"Clust S Add 2"},
+				{"points":"+20","name":"Clust S Add All"}
+			]
+		},
+		{
+			"name":"Cold Resistance","japanese":"耐寒",
+			"desc":"Hasten, reduce, or totally negate the maximum Stamina-reducing effects of cold zones.",
+			"stages":["Large Cold Doubled","","Minor Cold Doubled","Cold Halved","Negate Minor Cold","Negate Large Cold",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Large Cold Doubled"},
+				{"points":"-10","name":"Minor Cold Doubled"},
+				{"points":"+10","name":"Cold Halved"},
+				{"points":"+15","name":"Negate Minor Cold"},
+				{"points":"+20","name":"Negate Large Cold"}
+			]
+		},
+		{
+			"name":"Combo Success","japanese":"調合成功率",
+			"desc":"Increase, or reduce, your chances to successfully combine items.",
+			"stages":["Combo Success -15%","","Combo Success -5%","Combo Success +5%","Combo Success +10%","Combo Success +20%",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Combo Success -15%"},
+				{"points":"-10","name":"Combo Success -5%"},
+				{"points":"+10","name":"Combo Success +5%"},
+				{"points":"+15","name":"Combo Success +10%"},
+				{"points":"+20","name":"Combo Success +20%"}
+			]
+		},
+		{
+			"name":"Crag S Add","japanese":"榴弾追加",
+			"desc":"Load Crag Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/mh2/weapons\">Weapons page</a> for which weapons have what ammo by default.)",
+			"stages":["","","","Crag S Add 1","Crag S Add 2","Crag S Add All",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Crag S Add 1"},
+				{"points":"+15","name":"Crag S Add 2"},
+				{"points":"+20","name":"Crag S Add All"}
+			]
+		},
+		{
+			"name":"Defense","japanese":"防御",
+			"desc":"Reduce, or increase, your total Defense.",
+			"stages":[-40,-30,-20,20,30,40,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Defense - 40"},
+				{"points":"-15","name":"Defense - 30"},
+				{"points":"-10","name":"Defense - 20"},
+				{"points":"+10","name":"Defense + 20"},
+				{"points":"+15","name":"Defense + 30"},
+				{"points":"+20","name":"Defense + 40"}
+			]
+		},
+		{
+			"name":"Dragon Resistance","japanese":"龍耐性",
+			"desc":"Reduce, or increase, your Dragon Element Resistance.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Dragon Resistance - 10"},
+				{"points":"-15","name":"Dragon Resistance - 5"},
+				{"points":"-10","name":"Dragon Resistance - 3"},
+				{"points":"+10","name":"Dragon Resistance + 3"},
+				{"points":"+15","name":"Dragon Resistance + 5"},
+				{"points":"+20","name":"Dragon Resistance + 10"}
+			]
+		},
+		{
+			"name":"Earplugs","japanese":"聴覚保護",
+			"desc":"Negate the staggering effect of monster roars. Some monsters roar so loudly, only High Grade Earplugs can block them out.<span class=\"/mh2/weapons\"> Diablos and Fatalis roars require High Grade Earplugs.</span>",
+			"stages":["","","","Earplugs","High Grade Earplugs","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Earplugs"},
+				{"points":"+15","name":"High Grade Earplugs"}
+			]
+		},
+		{
+			"name":"Eating","japanese":"食事",
+			"desc":"Take more or less time to eat consumable items",
+			"stages":["","","Slow Eating","Speed Eating","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Slow Eating"},
+				{"points":"+15","name":"Speed Eating"}
+			]
+		},
+		{
+			"name":"Element Resistance","japanese":"全耐性ＵＰ",
+			"desc":"Reduce, or increase, all of your Element Resistances.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Element Resistance - 10"},
+				{"points":"-15","name":"Element Resistance - 5"},
+				{"points":"-10","name":"Element Resistance - 3"},
+				{"points":"+10","name":"Element Resistance + 3"},
+				{"points":"+15","name":"Element Resistance + 5"},
+				{"points":"+20","name":"Element Resistance + 10"}
+			]
+		},
+		{
+			"name":"Evasion","japanese":"回避性能",
+			"desc":"Increase the amount of time that you are invulnerable during dodge moves.<span class=\"details\"> Normally, dodge moves have six frames of invulnerability: Evasion +1 increases this to 8 frames, +2 to 10 frames.</span>",
+			"stages":["","","","Evasion +1","","Evasion +2",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Evasion +1"},
+				{"points":"+20","name":"Evasion +2"}
+			]
+		},
+		{
+			"name":"Expert","japanese":"達人",
+			"desc":"",
+			"stages":["","","","Mind's Eye","Edge +1","","Edge +2"],
+			"stagesFormatted":[
+				{"points":"+10","name":"Mind's Eye"},
+				{"points":"+15","name":"Edge +1"},
+				{"points":"+25","name":"Edge +2"}
+			]
+		},
+		{
+			"name":"Fate","japanese":"運気",
+			"desc":"Worsen/improve chances to receive additional items in quest rewards (see \"How quest rewards work\" on the <a href='/mh2/quests'>Quests page</a>.)",
+			"stages":["Disaster","","Bad Luck","Good Luck","Very Good Luck","",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Disaster"},
+				{"points":"-10","name":"Bad Luck"},
+				{"points":"+10","name":"Good Luck"},
+				{"points":"+15","name":"Very Good Luck"}
+			]
+		},
+		{
+			"name":"Fire Resistance","japanese":"火耐性",
+			"desc":"Reduce, or increase, your Fire Element Resistance.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Fire Resistance - 10"},
+				{"points":"-15","name":"Fire Resistance - 5"},
+				{"points":"-10","name":"Fire Resistance - 3"},
+				{"points":"+10","name":"Fire Resistance + 3"},
+				{"points":"+15","name":"Fire Resistance + 5"},
+				{"points":"+20","name":"Fire Resistance + 10"}
+			]
+		},
+		{
+			"name":"Fishing","japanese":"釣り",
+			"desc":"Increase the timing window to reel in a fish, and make the lure appear to be much bigger.",
+			"stages":["","","","Fishing Master","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Fishing Master"}
+			]
+		},
+		{
+			"name":"Gathering","japanese":"採取",
+			"desc":"Worsen, or improve, your chance to gather additional items.<span class=\"/mh2/weapons\"> One item is guaranteed and each successive attempt has a chance to have another item or the gathering point will be depleted. Normally this chance is 84%, and changes to the value in parentheses for the given level of this skill.</span>",
+			"stages":["","Gathering -2","Gathering -1","Gathering +1","Gathering +2","",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Gathering -2<span class=\"/mh2/weapons\"> (59%)</span>"},
+				{"points":"-10","name":"Gathering -1<span class=\"/mh2/weapons\"> (72%)</span>"},
+				{"points":"+10","name":"Gathering +1<span class=\"/mh2/weapons\"> (91%)</span>"},
+				{"points":"+15","name":"Gathering +2<span class=\"/mh2/weapons\"> (97%)</span>"}
+			]
+		},
+		{
+			"name":"Gluttony","japanese":"食いしん坊",
+			"desc":"Increase the amount of maximum Stamina gained when eating cooked meat<span class=\"/mh2/weapons\"> by the amount in parentheses</span>. Additionally, the Scavenging skill will occasionally increase maximum Stamina when using a recovery item.<span class=\"/mh2/weapons\"> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>",
+			"stages":["","","","Eating","Scavenging","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Eating<span class=\"/mh2/weapons\"> (+25)</span>"},
+				{"points":"+15","name":"Scavenging<span class=\"/mh2/weapons\"> (+50)</span>"}
+			]
+		},
+		{
+			"name":"Guard","japanese":"ガード性能",
+			"desc":"Reduce, or improve, your shield's effectiveness while blocking.<span class=\"/mh2/weapons\"> You'll get knocked back farther and take more chip damage with the negative skills, less knockback and chip damage from the positive skills. This also affects the blocking animation, based on monster attack and weapon class.</span>",
+			"stages":["","Guard -2","Guard -1","Guard +1","","Guard +2",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Guard -2"},
+				{"points":"-10","name":"Guard -1"},
+				{"points":"+10","name":"Guard +1"},
+				{"points":"+20","name":"Guard +2"}
+			]
+		},
+		{
+			"name":"Handicraft","japanese":"匠",
+			"desc":"Reduce, or increase, the maximum sharpness of your weapon (normal and increased sharpness are included on the <a href='/mh2/weapons'>Weapons page</a> per weapon.)",
+			"stages":["","","Sharpness -1","Sharpness +1","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Sharpness -1"},
+				{"points":"+10","name":"Sharpness +1"}
+			]
+		},
+		{
+			"name":"Health","japanese":"体力",
+			"desc":"Reduce, or increase, your maximum Hitpoints by the given amount.",
+			"stages":["-30","-20","-10","10","20","30",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Health - 30"},
+				{"points":"-15","name":"Health - 20"},
+				{"points":"-10","name":"Health - 10"},
+				{"points":"+10","name":"Health + 10"},
+				{"points":"+15","name":"Health + 20"},
+				{"points":"+20","name":"Health + 30"}
+			]
+		},
+		{
+			"name":"Heat Resistance","japanese":"耐暑",
+			"desc":"Hasten, reduce, or totally negate the Hitpoint-depleting effects of hot zones.",
+			"stages":["Large Heat Doubled","","Minor Heat Doubled","Heat Halved","Negate Minor Heat","Negate Large Heat",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Large Heat Doubled"},
+				{"points":"-10","name":"Minor Heat Doubled"},
+				{"points":"+10","name":"Heat Halved"},
+				{"points":"+15","name":"Negate Minor Heat"},
+				{"points":"+20","name":"Negate Large Heat"}
+			]
+		},
+		{
+			"name":"High Speed Recovery","japanese":"回復速度",
+			"desc":"Recover temporary damage (red bar) more slowly, or quickly<span class=\"/mh2/weapons\">, per the multipliers in parentheses</span>.",
+			"stages":["Recovery Speed -2","","Recovery Speed -1","Recovery Speed +1","","Recovery Speed +2",""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Recovery Speed -2"},
+				{"points":"-10","name":"Recovery Speed -1"},
+				{"points":"+10","name":"Recovery Speed +1"},
+				{"points":"+20","name":"Recovery Speed +2"}
+			]
+		},
+		{
+			"name":"Hunger","japanese":"はらへり",
+			"desc":"Hasten, reduce, or totally negate the maximum Stamina-reducing effects of hunger.",
+			"stages":["","Double Hunger","Hunger x1.5","Hunger Halved","Negate Hunger","",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Double Hunger"},
+				{"points":"-10","name":"Hunger x1.5"},
+				{"points":"+10","name":"Hunger Halved"},
+				{"points":"+15","name":"Negate Hunger"}
+			]
+		},
+		{
+			"name":"Ice Resistance","japanese":"氷耐性",
+			"desc":"Reduce, or increase, your Ice Element Resistance.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Ice Resistance - 10"},
+				{"points":"-15","name":"Ice Resistance - 5"},
+				{"points":"-10","name":"Ice Resistance - 3"},
+				{"points":"+10","name":"Ice Resistance + 3"},
+				{"points":"+15","name":"Ice Resistance + 5"},
+				{"points":"+20","name":"Ice Resistance + 10"}
+			]
+		},
+		{
+			"name":"Lasting Power","japanese":"効果持続",
+			"desc":"Reduce or increase the duration of consumables with a time-limited effect.",
+			"stages":["","","Item Use Down","Item Use Up","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Item Use Down<span class=\"details\"> 2/3 Duration</span>"},
+				{"points":"+10","name":"Item Use Up<span class=\"details\"> 1.5&times; Duration</span>"}
+			]
+		},
+		{
+			"name":"Loading","japanese":"装填数",
+			"desc":"Maximizes the number of shots that can be loaded into bowguns.",
+			"stages":["","","","Loading Up","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Loading Up"}
+			]
+		},
+		{
+			"name":"Map","japanese":"地図",
+			"desc":"Hide most of the map even with the Map supply item, or display the full locale map at all times.",
+			"stages":["","","No Map","Auto-Map","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"No Map"},
+				{"points":"+10","name":"Auto-Map"}
+			]
+		},
+		{
+			"name":"Monster","japanese":"モンスター",
+			"desc":"",
+			"stages":["","","","Monster","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Monster"}
+			]
+		},
+		{
+			"name":"Normal S Add","japanese":"通常弾追加",
+			"desc":"Load Normal Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/mh2/weapons\">Weapons page</a> for which weapons have what ammo by default.)",
+			"stages":["","","","Normal S Add 1","Normal S Add All","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Normal S Add 1"},
+				{"points":"+15","name":"Normal S Add All"}
+			]
+		},
+		{
+			"name":"Normal S Up","japanese":"通常弾強化",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"/mh2/weapons\"> 1.1x</span> damage with Normal Shot.",
+			"stages":["","","","Normal S Up","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Normal S Up"}
+			]
+		},
+		{
+			"name":"Paralysis","japanese":"麻痺",
+			"desc":"Suffer the effects of Paralysis for twice as long, half as long, or not at all.",
+			"stages":["","","Paralysis Doubled","Paralysis Halved","Paralysis Negated","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Paralysis Doubled"},
+				{"points":"+10","name":"Paralysis Halved"},
+				{"points":"+15","name":"Paralysis Negated"}
+			]
+		},
+		{
+			"name":"Pellet S Add","japanese":"散弾追加",
+			"desc":"Load Pellet Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/mh2/weapons\">Weapons page</a> for which weapons have what ammo by default.)",
+			"stages":["","","","Pellet S Add 1","Pellet S Add 2","Pellet S Add All",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Pellet S Add 1"},
+				{"points":"+15","name":"Pellet S Add 2"},
+				{"points":"+20","name":"Pellet S Add All"}
+			]
+		},
+		{
+			"name":"Pellet S Up","japanese":"散弾強化",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"/mh2/weapons\"> 1.3x</span> damage with Pellet Shot.",
+			"stages":["","","","Pellet S Up","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Pellet S Up"}
+			]
+		},
+		{
+			"name":"Pierce S Add","japanese":"貫通弾追加",
+			"desc":"Load Pierce Shot of increasing levels in bowguns that cannot normally use it. Each level includes the shot(s) from previous levels (see the <a href=\"/mh2/weapons\">Weapons page</a> for which weapons have what ammo by default.)",
+			"stages":["","","","Pierce S Add 1","Pierce S Add 2","Pierce S Add All",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Pierce S Add 1"},
+				{"points":"+15","name":"Pierce S Add 2"},
+				{"points":"+20","name":"Pierce S Add All"}
+			]
+		},
+		{
+			"name":"Pierce S Up","japanese":"貫通弾強化",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"/mh2/weapons\"> 1.1x</span> damage with Pierce Shot.",
+			"stages":["","","","Pierce S Up","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Pierce S Up"}
+			]
+		},
+		{
+			"name":"Poison","japanese":"毒",
+			"desc":"Suffer Poison for four times as long, three times, twice, half as long, or not at all.",
+			"stages":["","","Poison Doubled","Poison Halved","Poison Negated","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Poison Doubled"},
+				{"points":"+10","name":"Poison Halved"},
+				{"points":"+15","name":"Poison Negated"}
+			]
+		},
+		{
+			"name":"Potential","japanese":"底力",
+			"desc":"Affects your Attack or Defense when your health drops low enough.",
+			"stages":["","Anxious Mind","","Fire Force +1","Fire Force +2","",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Anxious Mind<span class=\"details\"> Attack &times; 0.7 &amp; Defense - 24</span>"},
+				{"points":"+10","name":"Fire Force +1<span class=\"details\"> Defense + 90</span>"},
+				{"points":"+15","name":"Fire Force +2<span class=\"details\"> Attack &times; 1.5 &amp; Defense + 90</span>"}
+			]
+		},
+		{
+			"name":"Precision","japanese":"精密射撃",
+			"desc":"Reduce or increase precision of bowgun shots.",
+			"stages":["","","Precision Down","Precision Up","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Precision Down"},
+				{"points":"+10","name":"Precision Up"}
+			]
+		},
+		{
+			"name":"Protection","japanese":"加護",
+			"desc":"Take<span class='vaguery'> more</span><span class=\"/mh2/weapons\"> 1.3x</span> damage,<span class='vaguery'> on occasion</span><span class=\"/mh2/weapons\"> 25% of the time</span>; or take<span class='vaguery'> less</span><span class=\"/mh2/weapons\"> 0.7x</span> damage,<span class='vaguery'> on occasion</span><span class=\"/mh2/weapons\"> 25% of the time</span>.",
+			"stages":["","","Demonic Protection","Divine Protection","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Demonic Protection"},
+				{"points":"+10","name":"Divine Protection"}
+			]
+		},
+		{
+			"name":"Psychic","japanese":"千里眼",
+			"desc":"Detect will show a detailed monster icon on the map, as long as the monster is being tracked<span class=\"/mh2/weapons\">(if it is Paintballed or the hunter is using Psychoserum)</span>; Autotracker will additionally show monster icons on the map at all times.",
+			"stages":["","","","Detect","Autotracker","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Detect"},
+				{"points":"+15","name":"Autotracker"}
+			]
+		},
+		{
+			"name":"Rapid Fire","japanese":"連射",
+			"desc":"Fire bowgun shots without having to reload, except when changing ammo type. This also increases recoil (see the Recoil section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
+			"stages":["","","","Rapid Fire","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Rapid Fire"}
+			]
+		},
+		{
+			"name":"Recoil","japanese":"反動",
+			"desc":"Reduce bowgun Recoil<span class=\"details\"> by two, or four, points</span>. (see the Recoil section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
+			"stages":["","","","Recoil +1","Recoil +2","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Recoil +1"},
+				{"points":"+15","name":"Recoil +2"}
+			]
+		},
+		{
+			"name":"Recovery Items","japanese":"回復",
+			"desc":"Reduce, or increase, the amount of Hitpoints recovered from healing items. (This effect is not applied to other hunters when using Lifepowder or recovery items with the Wide Area skills.)",
+			"stages":["","","Recovery Items Weakened","Recovery Items Strengthened","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Recovery Items Weakened<span class=\"/mh2/weapons\"> (0.75x)</span>"},
+				{"points":"+10","name":"Recovery Items Strengthened<span class=\"/mh2/weapons\"> (1.5x)</span>"}
+			]
+		},
+		{
+			"name":"Reload Speed","japanese":"装填",
+			"desc":"Increase, or reduce, the time it takes to reload bowgun shots (see the Reload section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
+			"stages":["","Reload Speed -2","Reload Speed -1","Reload Speed +1","Reload Speed +2","Reload Speed +3",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Reload Speed -2"},
+				{"points":"-10","name":"Reload Speed -1"},
+				{"points":"+10","name":"Reload Speed +1"},
+				{"points":"+15","name":"Reload Speed +2"},
+				{"points":"+20","name":"Reload Speed +3"}
+			]
+		},
+		{
+			"name":"Sense","japanese":"気配",
+			"desc":"Draw the aggression of monsters more, or less, often than other hunters in the zone. This does not impact how a monster first detects you.",
+			"stages":["","","Provocation","Stealth","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Provocation"},
+				{"points":"+10","name":"Stealth"}
+			]
+		},
+		{
+			"name":"Sharpness","japanese":"斬れ味",
+			"desc":"Occasionally lose more, or less, sharpness when attacking with a Blademaster weapon. This also applies to sharpness lost when blocking with the Great Sword.",
+			"stages":["","","Blunt","Sharp Sword","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Blunt"},
+				{"points":"+10","name":"Sharp Sword"}
+			]
+		},
+		{
+			"name":"Sharpshooter","japanese":"砲術師",
+			"desc":"",
+			"stages":["","","","Sharpshooter","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Sharpshooter"}
+			]
+		},
+		{
+			"name":"Silence","japanese":"声帯",
+			"desc":"Increase or reduce the duration of Silence status.",
+			"stages":["","","","Silence Doubled","Silence Halved","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Silence Doubled"},
+				{"points":"+10","name":"Silence Halved"}
+			]
+		},
+		{
+			"name":"Sleep","japanese":"睡眠",
+			"desc":"Sleep for twice as long, half as long, or not at all when inflicted by Sleep from a monster.",
+			"stages":["","","Sleep Doubled","Sleep Halved","Sleep Negated","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Sleep Doubled"},
+				{"points":"+10","name":"Sleep Halved"},
+				{"points":"+15","name":"Sleep Negated"}
+			]
+		},
+		{
+			"name":"Snow Resistance","japanese":"耐雪",
+			"desc":"Increase the duration, reduce the duration, or totally negate the effects of Snowman status.",
+			"stages":["","","Freeze","Snow Res +1","","Snow Res +2",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Freeze"},
+				{"points":"+10","name":"Snow Res +1"},
+				{"points":"+20","name":"Snow Res +2"}
+			]
+		},
+		{
+			"name":"Speed Gathering","japanese":"高速収集",
+			"desc":"Gather items in the field and carve monsters <span class=\"details\"> 1.3 times more </span>quickly.",
+			"stages":["","","","Speed Gathering","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Speed Gathering"}
+			]
+		},
+		{
+			"name":"Speed Sharpening","japanese":"研ぎ師",
+			"desc":"Take twice, or half, as long to sharpen your weapon.",
+			"stages":["","","Sharpening Slowed","Fast Sharpening","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Sharpening Slowed"},
+				{"points":"+10","name":"Fast Sharpening"}
+			]
+		},
+		{
+			"name":"Stamina","japanese":"スタミナ",
+			"desc":"Increase or reduce the amount of stamina used while sprinting.<span class\"details\"> The normal amount of stamina consumption for sprinting is 15 units.</span>",
+			"stages":["","","Short Sprinter","Marathon Runner","","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Short Sprinter<span class=\"details\"> 18 units</span>"},
+				{"points":"+10","name":"Marathon Runner<span class=\"details\"> 8 units</span>"}
+			]
+		},
+		{
+			"name":"Status","japanese":"特殊攻撃",
+			"desc":"Apply<span class=\"vaguery\"> more</span><span class=\"details\"> 1.125x</span> status with every hit. This applies to all Blademaster weapons that have status, Poison S, Stun S, Sleep S, Poison Coating, Para Coating, and Sleep Coating.",
+			"stages":["","","","Status Attack Up","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Status Attack Up"}
+			]
+		},
+		{
+			"name":"Stun","japanese":"気絶",
+			"desc":"Suffer the effects of being Stunned by a monster for twice as long, half as long, or not at all.",
+			"stages":["","","Stun Doubled","Stun Halved","Stun Negated","",""],
+			"stagesFormatted":[
+				{"points":"-10","name":"Stun Doubled"},
+				{"points":"+10","name":"Stun Halved"},
+				{"points":"+15","name":"Stun Negated"}
+			]
+		},
+		{
+			"name":"Terrain","japanese":"地形",
+			"desc":"Increase or reduce the effects of Terrain damage.",
+			"stages":["","Terrain Up Large","Terrain Up Small","Terrain Down Small","Terrain Down Large","",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Terrain Up Large"},
+				{"points":"-10","name":"Terrain Up Small"},
+				{"points":"+10","name":"Terrain Down Small"},
+				{"points":"+15","name":"Terrain Down Large"}
+			]
+		},
+		{
+			"name":"Throw","japanese":"投擲",
+			"desc":"Throw items such as Paintballs and Throwing Knives farther.",
+			"stages":["","","","Throw","","",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Throw"}
+			]
+		},
+		{
+			"name":"Thunder Resistance","japanese":"雷耐性",
+			"desc":"Reduce, or increase, your Thunder Element Resistance.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Thunder Resistance - 10"},
+				{"points":"-15","name":"Thunder Resistance - 5"},
+				{"points":"-10","name":"Thunder Resistance - 3"},
+				{"points":"+10","name":"Thunder Resistance + 3"},
+				{"points":"+15","name":"Thunder Resistance + 5"},
+				{"points":"+20","name":"Thunder Resistance + 10"}
+			]
+		},
+		{
+			"name":"Tremor Resistance","japanese":"耐震",
+			"desc":"Eliminate the effects of monster-induced Tremors.",
+			"stages":["","","","","Tremor Resistance","",""],
+			"stagesFormatted":[
+				{"points":"+15","name":"Tremor Resistance"}
+			]
+		},
+		{
+			"name":"Water Resistance","japanese":"水耐性",
+			"desc":"Reduce, or increase, your Water Element Resistance.",
+			"stages":[-10,-5,-3,3,5,10,""],
+			"stagesFormatted":[
+				{"points":"-20","name":"Water Resistance - 10"},
+				{"points":"-15","name":"Water Resistance - 5"},
+				{"points":"-10","name":"Water Resistance - 3"},
+				{"points":"+10","name":"Water Resistance + 3"},
+				{"points":"+15","name":"Water Resistance + 5"},
+				{"points":"+20","name":"Water Resistance + 10"}
+			]
+		},
+		{
+			"name":"Whim","japanese":"気まぐれ",
+			"desc":"Increase, or reduce, the chance that a tool will break when used.<span class=\"/mh2/weapons\"> The chance the tool will break is in parentheses.</span>",
+			"stages":["","Devil's Whim","Spectre's Whim","Spirit's Whim","Divine Whim","",""],
+			"stagesFormatted":[
+				{"points":"-15","name":"Devil's Whim<span class=\"details\"> (+50%)</span>"},
+				{"points":"-10","name":"Spectre's Whim<span class=\"details\"> (+25%)</span>"},
+				{"points":"+10","name":"Spirit's Whim<span class=\"details\"> (-25%)</span>"},
+				{"points":"+15","name":"Divine Whim<span class=\"details\"> (-50%)</span"}
+			]
+		},
+		{
+			"name":"Wide Area","japanese":"広域",
+			"desc":"Share the effects of certain consumables with all hunters in the zone.",
+			"stages":["","","","Wide-Area +1","","Wide-Area +2",""],
+			"stagesFormatted":[
+				{"points":"+10","name":"Wide-Area +1"},
+				{"points":"+20","name":"Wide-Area +2"}
+			]
+		},
+		{
+			"name":"Wind Pressure","japanese":"風圧",
+			"desc":"Resist the effects of wind created by monsters beating their wings, kicking up dust, etc. Some monsters apply stronger Wind Pressure than others, and can only be resisted by the High Wind Pressure skill.<span class=\"details\"></span>",
+			"stages":["","","","Wind Res Small","Wind Res Large","","Wind Res Dragon"],
+			"stagesFormatted":[
+				{"points":"+10","name":"Wind Res Small"},
+				{"points":"+15","name":"Wind Res Large"},
+				{"points":"+25","name":"Wind Res Dragon"}
+			]
+		}
 	]
 }

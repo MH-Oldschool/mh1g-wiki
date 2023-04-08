@@ -587,13 +587,7 @@ function generateArmorData2JS() {
 		var rawArmorSkills = JSON.parse(armorSkillData);
 		var parsedArmorSkills = {};
 		rawArmorSkills.armorSkills.forEach(skill => {
-			parsedArmorSkills[skill.name] = skill.stages.map(skillStage => {
-				if (!isNaN(skillStage) && skillStage !== "") {
-					return parseInt(skillStage);
-				}
-
-				return skillStage;
-			});
+			parsedArmorSkills[skill.name] = skill.stages;
 		});
 
 		var formattedData = `window.armorData=${JSON.stringify(armorData)};window.armorSkills=${JSON.stringify(parsedArmorSkills)}`;
@@ -687,3 +681,4 @@ buildPage("roulette");
 buildPage2("mh2/index");
 buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);
 buildPage2("mh2/armor");
+buildPage2("mh2/armor_skills");
