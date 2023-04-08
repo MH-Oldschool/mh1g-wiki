@@ -486,6 +486,7 @@ function generateItemDataJS(weaponData, armorData) {
 		console.error("Unable to parse item file:", e);
 	}
 }
+
 // Convert weapon data, formatted for mustache to generate detail elements with tables, into manageable objects
 function generateWeaponsData2JS() {
 	var data = fs.readFileSync("_views/mh2/weapons.json", "utf8");
@@ -572,6 +573,39 @@ function generateWeaponsData2JS() {
 		console.error("Unable to parse JSON:", err);
 	}
 }
+function generateArmorData2JS() {
+	var data = fs.readFileSync("_views/mh2/armor.json", "utf8");
+	var armorSkillData = fs.readFileSync("_views/mh2/armor_skills.json", "utf8");
+
+	try {
+		var rawData = JSON.parse(data);
+		var armorData = {};
+		rawData.armorCategories.forEach(armorCategory => {
+			armorData[armorCategory.armorCategory] = armorCategory.armor;
+		});
+
+		var rawArmorSkills = JSON.parse(armorSkillData);
+		var parsedArmorSkills = {};
+		rawArmorSkills.armorSkills.forEach(skill => {
+			parsedArmorSkills[skill.name] = skill.stages.map(skillStage => {
+				if (!isNaN(skillStage) && skillStage !== "") {
+					return parseInt(skillStage);
+				}
+
+				return skillStage;
+			});
+		});
+
+		var formattedData = `window.armorData=${JSON.stringify(armorData)};window.armorSkills=${JSON.stringify(parsedArmorSkills)}`;
+
+		fs.writeFileSync("public/mh2/js/armor_data.js", formattedData);
+
+		return armorData;
+	}
+	catch (e) {
+		console.log("Error parsing armor json:", e);
+	}
+}
 
 function buildPage(pageName, partials) {
 	var fileNames = [
@@ -637,6 +671,7 @@ var weaponData = generateWeaponsDataJS();
 generateItemDataJS(weaponData, armorData);
 
 var weaponData2 = generateWeaponsData2JS();
+var armorData2 = generateArmorData2JS();
 
 buildPage("index");
 buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
@@ -649,4 +684,6 @@ buildPage("maps");
 buildPage("miscellany", ["hotel_room"]);
 buildPage("roulette");
 
+buildPage2("mh2/index");
 buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);
+buildPage2("mh2/armor");

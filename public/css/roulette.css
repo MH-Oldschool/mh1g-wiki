@@ -31,7 +31,7 @@ ul {
 }
 .roulette-header h1 {
 	display: inline-block;
-	font: italic bold 2rem Arial, sans-serif;
+	font: italic bold 2rem var(--font_arial);
 	border: 0.25rem double #fa2;
 	padding: 0.5rem 1rem;
 	margin: 0 auto;

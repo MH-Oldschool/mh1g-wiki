@@ -38,12 +38,15 @@ app.get("/miscellany", (req, res) => {
 app.get("/roulette", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/roulette.html"));
 });
-
+// MH2 pages
 app.get("/mh2", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/index.html"));
 });
 app.get("/mh2/weapons", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/weapons.html"));
+});
+app.get("/mh2/armor", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/armor.html"));
 });
 app.get("/mh2/quests", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/quests.html"));

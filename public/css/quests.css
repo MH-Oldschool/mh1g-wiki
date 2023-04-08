@@ -3,7 +3,7 @@ ul {
 }
 
 tbody {
-	font-family: "Nanum Gothic Coding";
+	font-family: var(--font_nanum);
 }
 thead {
 	position: static;

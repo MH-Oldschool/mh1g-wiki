@@ -1,0 +1,227 @@
+body {
+	padding-right: 1.5rem;
+}
+
+select {
+	background: transparent;
+	color: white;
+	font-family: var(--font_nanum);
+	border: 0.0625rem solid;
+}
+option {
+	background: #fff;
+	color: #000;
+}
+option:disabled {
+	color: #999;
+}
+
+/* Hide for Headgear */
+details:first-of-type .hunter-class-cell {
+	display: none;
+}
+
+.show-male tbody tr:not(.armor-gender-M),
+.show-female tbody tr:not(.armor-gender-F) {
+	display: none;
+}
+
+.show-blade tbody tr:not(.armor-class-B),
+.show-gun tbody tr:not(.armor-class-G) {
+	display: none;
+}
+.show-either .armor-class-B,
+.show-either .armor-class-G {
+	display: none;
+}
+
+.branch-button {
+	position: relative;
+	background: transparent;
+	text-align: left;
+	border: 0;
+	border-radius: 0;
+	padding: 0 1.5rem 0 0;
+	margin-left: 0.25rem;
+}
+.branch-button::after {
+	content: "";
+	position: absolute;
+	border-color: transparent;
+	border-left-color: #d7d7d7;
+	border-style: solid;
+	border-width: 0.375rem 0.5rem;
+	margin: -0.375rem 0 0;
+	top: 50%;
+	right: 0;
+}
+.branch-button.open::after {
+	border-left-color: transparent;
+	border-top-color: #d7d7d7;
+	border-width: 0.5rem 0.375rem;
+	margin-top: -0.25rem;
+	right: 0.125rem;
+}
+
+.branch { display: none; }
+.branch.open { display: table-row; }
+
+.upgrade-level {
+	text-indent: -1rem;
+	padding-left: 1rem;
+}
+
+details {
+	overflow-x: auto;
+}
+
+#popup-show {
+	background: rgba(255,255,255,0.0);
+	border-radius: 0.25rem;
+	transition: background-color 300ms;
+}
+#popup-show:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.gender-mixing-error,
+.class-mixing-error {
+	display: none;
+	color: #f73;
+	font-style: italic;
+}
+.res-value {
+	float: right;
+}
+
+#armor-builder {
+	z-index: 1;
+	position: fixed;
+	box-sizing: border-box;
+	background: transparent url("/mh2/images/menu_bg.gif");
+	width: 16rem;
+	top: 50%;
+	right: -16rem;
+	transform: translateY(-50%);
+	transition: 400ms;
+}
+#armor-builder.expanded {
+	box-shadow: 0 0 0.25rem #333;
+	right: 0;
+}
+#toggle-builder {
+	position: absolute;
+	background: rgba(0,0,0,0.65);
+	line-height: 1.375rem;
+	border: 0.0625rem solid #999;
+	border-radius: 0.25rem 0 0 0.25rem;
+	padding: 1rem 0;
+	width: 1.375rem;
+	min-height: 11.5rem;
+	height: 100%;
+	top: 50%;
+	left: -1.375rem;
+	transform: translateY(-50%);
+}
+#toggle-builder .builder-button-copy {
+  position: absolute;
+	margin-top: -0.6875rem;
+	width: 12rem;
+  height: 1.375rem;
+	top: 50%;
+  left: -5.375rem;
+	transform: rotate(90deg);
+}
+#toggle-builder:before,
+#toggle-builder:after {
+	content: "";
+	position: absolute;
+	border-color: transparent #d7d7d7 transparent transparent;
+	border-style: solid;
+	border-width: 0.25rem 0.5rem;
+	right: 0.375rem;
+}
+#toggle-builder:before {
+	top: 0.25rem;
+}
+#toggle-builder:after {
+	bottom: 0.25rem;
+}
+#armor-builder.expanded #toggle-builder:before,
+#armor-builder.expanded #toggle-builder:after {
+	border-color: transparent transparent transparent #d7d7d7;
+	right: 0;
+}
+
+.armor-builder-content {
+	overflow-y: auto;
+	border: 0.25rem double #856b5c;
+	padding: 0.25rem;
+	max-height: 90vh;
+}
+
+.armor-rows-container {
+	margin: 0 0 0.375rem;
+}
+.armor-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	line-height: 1.75rem;
+}
+.armor-icon,
+.armor-name {
+	vertical-align: middle;
+}
+.armor-icon {
+	width: 1.75rem;
+}
+.armor-level-label {
+	padding: 0 0.5rem;
+	margin-left: auto;
+}
+
+.true-value {
+	display: none;
+}
+.show-true-values .true-value {
+	display: inline;
+}
+
+.stats-rows {
+	margin: 0.375rem 0;
+}
+
+.skill-level-none {
+	color: #aaa;
+}
+.skill-level-positive {
+	color: #3af;
+	font-weight: bold;
+}
+.skill-level-negative {
+	color: #f33;
+	font-weight: bold;
+}
+
+.armor-cost-table {
+	margin: 0.5rem 0;
+}
+.armor-cost-table td:first-child {
+	width: 4rem;
+}
+.armor-cost-table td:last-child {
+	text-align: right;
+}
+
+.armor-builder-content button {
+	background: transparent;
+	margin-top: 0.125rem;
+}
+
+@media screen and (min-width: 50rem) {
+	#armor-builder {
+		width: 20rem;
+		right: -20rem;
+	}
+}

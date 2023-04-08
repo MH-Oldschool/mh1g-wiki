@@ -1,0 +1,374 @@
+{{> head }}
+
+<section class="filters">
+	<div class="filter-column">
+		<div class="filter-buttons">
+			<h3>Gender:</h3>
+			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">All</label>
+			<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
+			<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
+		</div>
+
+		<div class="filter-buttons">
+			<h3>Armor Class:</h3>
+			<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
+			<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
+			<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
+			<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
+		</div>
+	</div>
+
+	<div class="filter-column">
+		<div class="filter-checks">
+			<h3>Elemental Resistances:</h3>
+			<div>
+				<input id="armor-stat-fire-up" name="armor-stat" type="checkbox" value="f+"/>
+				<label for="armor-stat-fire-up" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/><span>+</span>
+				</label>
+				<input id="armor-stat-water-up" name="armor-stat" type="checkbox" value="w+"/>
+				<label for="armor-stat-water-up" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/><span>+</span>
+				</label>
+				<input id="armor-stat-thunder-up" name="armor-stat" type="checkbox" value="t+"/>
+				<label for="armor-stat-thunder-up" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/><span>+</span>
+				</label>
+				<input id="armor-stat-ice-up" name="armor-stat" type="checkbox" value="i+"/>
+				<label for="armor-stat-ice-up" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/><span>+</span>
+				</label>
+				<input id="armor-stat-dragon-up" name="armor-stat" type="checkbox" value="d+"/>
+				<label for="armor-stat-dragon-up" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/><span>+</span>
+				</label>
+			</div>
+			<div>
+				<input id="armor-stat-fire-down" name="armor-stat" type="checkbox" value="f-"/>
+				<label for="armor-stat-fire-down" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/><span>-</span>
+				</label>
+				<input id="armor-stat-water-down" name="armor-stat" type="checkbox" value="w-"/>
+				<label for="armor-stat-water-down" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/><span>-</span>
+				</label>
+				<input id="armor-stat-thunder-down" name="armor-stat" type="checkbox" value="t-"/>
+				<label for="armor-stat-thunder-down" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/><span>-</span>
+				</label>
+				<input id="armor-stat-ice-down" name="armor-stat" type="checkbox" value="i-"/>
+				<label for="armor-stat-ice-down" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/><span>-</span>
+				</label>
+				<input id="armor-stat-dragon-down" name="armor-stat" type="checkbox" value="d-"/>
+				<label for="armor-stat-dragon-down" class="element-res-label">
+					<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/><span>-</span>
+				</label>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="filter-column">
+			<label for="search">Search: </label>
+			<input id="search" type="text" placeholder="Armor"/>
+		</div>
+	</div>
+
+	<div class="filter-column toggle-everything-container">
+		<div class="filter-checks">
+			<input id="toggle-everything" type="checkbox"/>
+			<label for="toggle-everything">Show Everything</label>
+		</div>
+	</div>
+</section>
+
+{{#armorCategories}}
+	<details class="armor-class-container">
+		<summary>
+			<h2><span class="white-icon {{categoryClass}}-icon"></span> <span>{{armorCategory}}</span></h2>
+		</summary>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Rarity</th>
+					<th>Gender</th>
+					<th class="hunter-class-cell">Class</th>
+					<th>Defense</th>
+					<th colspan="5">Resistances</th>
+					<th>Slots</th>
+					<th>Skills</th>
+					<th>Price</th>
+					<th>Forge Materials</th>
+					<th>Branch At</th>
+					<th>Upgrade Materials</th>
+				</tr>
+			</thead>
+			<tbody id="{{categoryClass}}-tbody">
+				{{#armor}}
+					<tr class="rarity-{{rarity}} {{#sex}}armor-gender-{{sex.0}} {{/sex}}{{#hunterClass}}armor-class-{{hunterClass.0}} {{/hunterClass}}{{#branching}}branching{{/branching}}{{#branch}}branch {{branchClass}}{{/branch}}">
+						<td>
+							<label>
+								<input class="armor-radio" type="radio" name="{{categoryClass}}_armor" value="{{name}}" data-armor-category="{{armorCategory}}"/>
+								<div class="radio-icon"></div>
+							</label>
+							{{#branching}}<button class="branch-button" data-target="{{branchTarget}}">{{/branching}}
+							{{#branch}}&nbsp;&#8735;{{/branch}}
+							{{name}}
+							{{#branching}}</button>{{/branching}}
+						</td>
+						<td class="ta-c">{{rarity}}</td>
+						<td>{{sex}}</td>
+						<td class="hunter-class-cell">{{hunterClass}}</td>
+						<td>{{defense}}</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/>
+							<span class="res-value">{{resistances.0}}</span>
+						</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/>
+							<span class="res-value">{{resistances.1}}</span>
+						</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/>
+							<span class="res-value">{{resistances.2}}</span>
+						</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/>
+							<span class="res-value">{{resistances.3}}</span>
+						</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/>
+							<span class="res-value">{{resistances.4}}</span>
+						</td>
+						<td>{{slots}}</td>
+						<td class="expandable" title="click to toggle full list">
+							{{#skills}}
+								<span class="comma-separated"> {{k}}{{#q}} {{q}}{{/q}}</span>
+							{{/skills}}
+						</td>
+						<td class="ta-r">
+							{{#cost}}{{cost}}z{{/cost}}
+							{{^cost}}n/a{{/cost}}
+						</td>
+						<td class="expandable" title="click to toggle full list">
+							{{#forge}}
+								<span class="comma-separated"> {{q}} {{&m}}</span>
+							{{/forge}}
+							{{acquire}}
+						</td>
+						<td>
+							{{#upgradeLevel}}
+								Lv {{upgradeLevel}}
+							{{/upgradeLevel}}
+						</td>
+						<td class="expandable" title="click to toggle full list">
+							{{#upgradeLevels}}
+								<div class="upgrade-level">
+									<span>Lv {{level}}: [{{price}}z] </span>
+									{{#materials}}
+										<span class="comma-separated"> {{q}} {{&m}}</span>
+									{{/materials}}
+								</div>
+							{{/upgradeLevels}}
+						</td>
+					</tr>
+				{{/armor}}
+			</tbody>
+		</table>
+	</details>
+{{/armorCategories}}
+
+<hr/>
+
+<details>
+	<summary>About Armor</summary>
+
+	<h2>Defense</h2>
+	<p>
+		The Defense stat determines how much raw damage your armor will block. The formula is as follows:
+	</p>
+	<pre>Percent Damage Blocked = (80 + Defense) &div; 80</pre>
+	<p>
+		Furthermore if your health drops to 40% or less, your defense is boosted by 30.
+	</p>
+
+	<h2>Element Resistance</h2>
+	<p>
+		The Element Resistance stats determine how much of the relevant element damage your armor will block. The given number is a percent of damage blocked.
+	</p>
+
+	<h2>Upgrades</h2>
+	<p>
+		Armor can be upgraded with monster parts up to a certain level: usually level 5, but higher for some armor pieces. Upgraded armor will have higher defense, and sometimes additional decoration slots. If the upgrade will add a decoration slot, all decorations currently slotted in the armor will be destroyed.
+	</p>
+
+	<h2>Branches</h2>
+	<p>
+		Most armor will branch into one or more variants at a certain level. These branching pieces will differ in appearance, defense, and armor skills, and may have different resistances and a different number of decoration slots. This lateral upgrade can only be made at the given upgrade level: usually Level 3, but it differs for some armor pieces. If the upgrade will change the number of decoration slots, all decorations currently slotted in the armor will be destroyed.
+	</p>
+</details>
+
+<aside id="armor-builder">
+	<button id="toggle-builder">
+		<div class="builder-button-copy">Armor Set Builder</div>
+	</button>
+
+	<div class="armor-builder-content">
+		<div class="armor-rows-container">
+			<div class="armor-row">
+				<span class="white-icon helm-icon"></span>
+				<span id="headgear-name" class="headgear-name armor-name"></span>
+				<label class="armor-level-label">Lv</label>
+				<select id="headgear-level" class="armor-piece-level">
+					<option value="0">1</option>
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+				</select>
+			</div>
+			<div class="armor-row">
+				<span class="white-icon torso-icon"></span>
+				<span id="torso-name" class="torso-name armor-name"></span>
+				<label class="armor-level-label">Lv</label>
+				<select id="torso-level" class="armor-piece-level">
+					<option value="0">1</option>
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+				</select>
+			</div>
+			<div class="armor-row">
+				<span class="white-icon arm-icon"></span>
+				<span id="arms-name" class="arms-name armor-name"></span>
+				<label class="armor-level-label">Lv</label>
+				<select id="arms-level" class="armor-piece-level">
+					<option value="0">1</option>
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+				</select>
+			</div>
+			<div class="armor-row">
+				<span class="white-icon waist-icon"></span>
+				<span id="waist-name" class="waist-name armor-name"></span>
+				<label class="armor-level-label">Lv</label>
+				<select id="waist-level" class="armor-piece-level">
+					<option value="0">1</option>
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+				</select>
+			</div>
+			<div class="armor-row">
+				<span class="white-icon foot-icon"></span>
+				<span id="legs-name" class="legs-name armor-name"></span>
+				<label class="armor-level-label">Lv</label>
+				<select id="legs-level" class="armor-piece-level">
+					<option value="0">1</option>
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+				</select>
+			</div>
+		</div>
+
+		<div id="gender-mixing-error" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>
+		<div id="class-mixing-error" class="class-mixing-error">Blademaster and Gunner armor cannot be worn together!</div>
+		<div class="stats-rows">
+			<table>
+				<tbody>
+					<tr>
+						<th scope="row">Health</th><td id="health-stat" class="health-stat ta-r">100</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/>
+							<div class="res-value">
+								<span id="fire-res">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Stamina</th><td id="stamina-stat" class="stamina-stat ta-r">100</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/>
+							<div class="res-value">
+								<span id="water-res">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Attack</th><td id="attack-stat" class="attack-stat ta-r">0</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/>
+							<div class="res-value">
+								<span id="thunder-res">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">Defense</th><td id="defense-stat" class="defense-stat ta-r">0</td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/>
+							<div class="res-value">
+								<span id="ice-res">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+						<td>
+							<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/>
+							<div class="res-value">
+								<span id="dragon-res">0</span>
+								<span class="true-value">%</span>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<label>
+			<input id="show-true-values" type="checkbox"/>
+			<span class="checkbox-icon"></span> <span class="label-copy">Show True Values</span>
+		</label>
+
+		<table>
+			<tbody id="armor-skills">
+			</tbody>
+		</table>
+		<table class="armor-cost-table">
+			<tbody>
+				<tr><td>Cost:</td><td><span id="armor-cost">0</span>z</td></tr>
+			</tbody>
+		</table>
+		<table>
+			<tbody id="armor-materials">
+				<tr><td>None</td></tr>
+			</tbody>
+		</table>
+	</div>
+</aside>
+
+{{> foot }}

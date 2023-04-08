@@ -1,0 +1,131 @@
+<details class="{{seasonClass}}">
+	<summary>
+		<h3{{#key}} title="Key Quest"{{/key}}{{#urgentQuest}} style="color:#f02100" title="Urgent Quest (unlocked when all key quests are cleared, and Hunter Rank is high enough)"{{/urgentQuest}}>
+			{{stars}} &starf; {{name}}
+			{{#key}} *{{/key}}
+		</h3>
+	</summary>
+
+	<section class="quest-body {{type}}-quest">
+		<div class="quest-head">
+			<div class="quest-icon-container">
+				<div class="quest-icon {{icon}}">
+				</div>
+			</div>
+
+			<p>
+				Title (Japanese): <span class="japanese">{{japanese}}</span><br/>
+				Season: {{season}}<br/>
+				Locale: {{locale}}<br/>
+			</p>
+
+			<p>
+				{{#time}}Time Limit: {{time}}<br/>{{/time}}
+				Fee: {{fee}}<br/>
+				Reward: {{rewardMoney.0}}
+			</p>
+		</div>
+
+		<h4>Goals:</h4>
+		<ul>
+			{{#goals}}
+				<li>{{.}}</li>
+			{{/goals}}
+		</ul>
+
+		{{#client}}
+			<h3>{{{client}}}</h3>
+		{{/client}}
+		{{#details}}
+			<p>{{{details}}}</p>
+		{{/details}}
+
+		{{#require}}
+			<p>Requires: {{require}}</p>
+		{{/require}}
+
+		<div class="hidden-details">
+			{{#prerequisites}}
+				<p>Prerequisites: {{{prerequisites}}}</p>
+			{{/prerequisites}}
+
+			<details>
+				<summary>In-depth Details</summary>
+
+				<aside>
+					<h4 class="supplies-title">Supplies:</h4>
+					<div class="supplies-list">
+						{{#supplies}}
+							<div class="supply-item {{icon}}" title="{{name}}"><div class="quantity">x{{quantity}}</div></div>
+						{{/supplies}}
+						{{^supplies}}
+							None
+						{{/supplies}}
+					</div>
+
+					Large Monster(s):{{^largeMonsters}} none<br/>{{/largeMonsters}}
+					<ul{{^largeMonsters}} style="display:none"{{/largeMonsters}}>
+						{{#largeMonsters}}
+							<li class="large-monster">
+								<div class="d-ib">
+									<span class="va-m">{{#q}}{{q}} {{/q}}{{n}}</span>
+									{{#silver}}<span class="va-m"> (max:</span> <span class="ui-icon silver-crown-icon"></span><span class="va-m">)</span>{{/silver}}
+									{{#gold}}<span class="va-m"> (max:</span> <span class="ui-icon gold-crown-icon"></span><span class="va-m">)</span>{{/gold}}
+								</div>
+
+								<details class="d-ib"{{^stats}} style="display:none"{{/stats}}>
+									<summary>Possible Stats</summary>
+
+									<table>
+										<thead>
+											<tr>
+												<th>HP</th>
+												<th>Atk</th>
+												<th>Def</th>
+											</tr>
+										</thead>
+										<tbody>
+											{{#stats}}
+												<tr>
+													<td>{{h}}</td>
+													<td>&times;{{a}}</td>
+													<td>&times;{{d}}</td>
+												</tr>
+											{{/stats}}
+										</tbody>
+									</table>
+								</details>
+							</li>
+						{{/largeMonsters}}
+					</ul>
+
+					{{#health}}Monster Health: {{health}}<br/>{{/health}}
+					Cart Penalty: {{penalty}}<br/>
+					HRP Reward: {{hrp}}<br/>
+				</aside>
+
+				<table>
+					<caption>Quest Rewards</caption>
+					<thead>
+						<tr>
+							<td>Item</td>
+							<td>Quantity</td>
+							<td>% Chance</td>
+							<td>Requirement</td>
+						</tr>
+					</thead>
+					<tbody>
+						{{#rewards}}
+						<tr>
+							<td>{{{name}}}</td>
+							<td class="ta-r">{{quantity}}</td>
+							<td class="ta-r">{{percent}}%</td>
+							<td>{{{require}}}</td>
+						</tr>
+						{{/rewards}}
+					</tbody>
+				</table>
+			</details>
+		</div>
+	</section>
+</details>

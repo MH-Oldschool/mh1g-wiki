@@ -1,3 +1,8 @@
+:root {
+	--font_arial: "Arial", helvetica, sans-serif;
+	--font_nanum: "Nanum Gothic Coding", courier, monospace;
+}
+
 html, body {
 	width: 100%;
 }
@@ -9,7 +14,7 @@ body {
 	background: #000 url("/images/background/mhg.gif");
 	background-size: 2.5rem;
 	color: #d7d7d7;
-	font: 1rem "Nanum Gothic Coding", courier, monospace;
+	font: 1rem var(--font_nanum);
 	margin: 0;
 	min-height: 100%;
 }
@@ -123,7 +128,7 @@ td pre {
 }
 
 article {
-	font-family: "Arial", helvetica, sans-serif;
+	font-family: var(--font_arial);
 	padding: 0.5rem;
 }
 article h2,
@@ -683,7 +688,7 @@ header img {
 }
 header h1,
 header p {
-	font-family: "Arial", helvetica, sans-serif;
+	font-family: var(--font_arial);
 	padding: 0.25rem 0;
 	margin: 0;
 }
@@ -706,7 +711,7 @@ footer {
 }
 footer p {
 	color: #999;
-	font: 1rem "Arial", helvetica, sans-serif;
+	font: 1rem var(--font_arial);
 	text-align: right;
 	padding: 0;
 	margin: 0;
