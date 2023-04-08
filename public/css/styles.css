@@ -237,6 +237,24 @@ input:disabled + .checkbox-icon + label {
 	width: auto;
 }
 
+.header-title-container {
+	display: flex;
+	align-items: center;
+}
+.title-separator {
+	margin: 0 0.25rem;
+}
+.version-link {
+	color: inherit;
+	font-family: var(--font_arial);
+}
+.version-link.mh1 {
+	text-shadow: 0.0625rem 0.0625rem 0 #509f40;
+}
+.version-link.mh2 {
+	text-shadow: 0.0625rem 0.0625rem 0 #6050af;
+}
+
 .range-container {
 	text-align: center;
 	padding: 0.25rem 0.125rem;
