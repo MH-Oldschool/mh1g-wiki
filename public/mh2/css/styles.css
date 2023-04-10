@@ -65,6 +65,19 @@ body {
 	width: 0.75rem;
 }
 
-.sharpness-icon-blue:after {
-	background-image: url("/mh2/images/sharpness_color_blue.png");
+.ui-icon-2 {
+	image-rendering: pixelated;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url("/mh2/images/icon_sheets/interface_icons_2.png");
 }
+.sharpness-icon-dullest { background-position: -12.25rem -8.625rem; }
+.sharpness-icon-dull { background-position: -12.25rem -7.75rem; }
+.sharpness-icon { background-position: -12.25rem -6.875rem; }
+
+.sharpness-icon-red:after { background-image: url("/mh2/images/sharpness_colors/red.png"); }
+.sharpness-icon-yellow:after { background-image: url("/mh2/images/sharpness_colors/yellow.png"); }
+.sharpness-icon-green:after { background-image: url("/mh2/images/sharpness_colors/green.png"); }
+.sharpness-icon-blue:after { background-image: url("/mh2/images/sharpness_colors/blue.png"); }
+.sharpness-icon-white:after { background-image: url("/mh2/images/sharpness_colors/white.png"); }
