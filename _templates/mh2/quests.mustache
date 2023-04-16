@@ -1,72 +1,28 @@
 {{> head }}
 
-<details>
-	<summary>Jumbo Village</summary>
-
+<article>
 	<details>
-		<summary>Jungle</summary>
+		<summary>
+			<span class="blue-icon house-icon"></span>
+			<span> Jumbo Village</span>
+		</summary>
 
-		<article>
-			{{#jumbo.jungle}}
-				{{> quest }}
-			{{/jumbo.jungle}}
-		</article>
+		{{#jumbo}}
+			{{> mh2/quest_category }}
+		{{/jumbo}}
 	</details>
 
 	<details>
-		<summary>Desert</summary>
+		<summary>
+			<span class="yellow-icon house-icon"></span>
+			<span> Dundorma</span>
+		</summary>
 
-		<article>
-			{{#jumbo.desert}}
-				{{> quest }}
-			{{/jumbo.desert}}
-		</article>
+		{{#dundorma}}
+			{{> mh2/quest_category }}
+		{{/dundorma}}
 	</details>
-
-	<details>
-		<summary>Swamp</summary>
-
-		<article>
-			{{#jumbo.swamp}}
-				{{> quest }}
-			{{/jumbo.swamp}}
-		</article>
-	</details>
-
-	<details>
-		<summary>Snowy Mountain</summary>
-
-		<article>
-			{{#jumbo.snowyMountain}}
-				{{> quest }}
-			{{/jumbo.snowyMountain}}
-		</article>
-	</details>
-
-	<details>
-		<summary>Volcano</summary>
-
-		<article>
-			{{#jumbo.volcano}}
-				{{> quest }}
-			{{/jumbo.volcano}}
-		</article>
-	</details>
-</details>
-
-<details>
-	<summary>Dundorma</summary>
-
-	<details>
-		<summary>Jungle</summary>
-
-		<article>
-			{{#jumbo.jungle}}
-				{{> quest }}
-			{{/jumbo.jungle}}
-		</article>
-	</details>
-</details>
+</article>
 
 <hr/>
 
@@ -76,24 +32,15 @@
 	</summary>
 
 	<article>
-	</article>
-</details>
+		<h2>Key Quests</h2>
+		<p>
+			In order to unlock new quests and locales, you must complete certain "Key" quests from the available pool. These quests are not distinguished from optional quests in any way in-game.
+		</p>
 
-<details>
-	<summary>
-		How to unlock Training Quests
-	</summary>
-
-	<article>
-	</article>
-</details>
-
-<details class="mhg">
-	<summary>
-		Crowns and Subspecies Quests
-	</summary>
-
-	<article>
+		<h2>Jumbo Villager Requests</h2>
+		<p>
+			Certain Villager requests are key to progression, indicated by a Red speech bubble, as opposed to a Blue one.
+		</p>
 	</article>
 </details>
 
@@ -103,6 +50,58 @@
 	</summary>
 
 	<article>
+		<p>
+			The first item in the rewards table is guaranteed, with additional rewards chosen at random from the full table. Your Luck skill determines whether you receive any additional items.
+		</p>
+		<table class="luck-table">
+			<tbody>
+				<tr>
+					<td>Very Good Luck</td>
+					<td>91%</td>
+				</tr>
+				<tr>
+					<td>Good Luck</td>
+					<td>81%</td>
+				</tr>
+				<tr>
+					<td>(no luck skill)</td>
+					<td>69%</td>
+				</tr>
+				<tr>
+					<td>Bad Luck</td>
+					<td>50%</td>
+				</tr>
+				<tr>
+					<td>Disaster</td>
+					<td>25%</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			The game first determines how many rewards you will get, based on your Luck skill and the reward category (Main Goal, Subquest, Capture, etc.) Then, the first reward item is always the first item in the rewards table. Finally, each item after the first is picked at random from the table based on each item's listed drop chance. See each quest's In-depth Details for the full listing of rewards by category. The minimum and maximum numbers of rewards depend on the type of quest, and category of quest rewards. Base rewards for completing the Main Goal differ based on whether there are any Subquests:
+		</p>
+		<ul>
+			<li>If the quest has one or more Subquests, you will receive 3-8 items for completing the Main Goal.</li>
+			<li>If the quest has no Subquests, you will receive 4-10 items for completing the Main Goal.</li>
+		</ul>
+		<p>
+			After that, each category of rewards has its own range of items as follows:
+		</p>
+		<table class="w-auto">
+			<tbody>
+				<tr>
+					<th>Subquest</th>
+					<td>2 - 4</td>
+				</tr>
+				<tr>
+					<th>Capture</th>
+					<td>2 - 3</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Breaking a monster part will guarantee one of the listed rewards for each part-break. The percent chance determines which part. Dojo quests will only guarantee one reward item, with a maximum of four possible rewards.
+		</p>
 	</article>
 </details>
 

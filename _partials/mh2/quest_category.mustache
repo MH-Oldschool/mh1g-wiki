@@ -1,0 +1,132 @@
+<details>
+	<summary>{{category}}</summary>
+
+	{{#questLocales}}
+		<details{{#open}} open{{/open}}>
+			<summary>
+				<span class="{{localeColor}}-icon map-icon"></span>
+				<span> {{locale}}</span>
+			</summary>
+
+			{{#quests}}
+				<details>
+					<summary>
+						<h3{{#key}} title="Key Quest"{{/key}}{{#urgentQuest}} style="color:#f02100" title="Urgent Quest (unlocked when all key quests are cleared, and Hunter Rank is high enough)"{{/urgentQuest}}>
+							{{stars}} &starf; {{name}}
+							{{#key}} *{{/key}}
+						</h3>
+					</summary>
+
+					<section class="quest-body {{localeClass}}-quest">
+						<div class="quest-head">
+							<p>
+								Japanese Title: <span class="japanese">{{japanese}}</span><br/>
+								{{#season}}Season: {{season}}<br/>{{/season}}
+								Locale: {{locale}}<br/>
+							</p>
+
+							<p>
+								{{#time}}Time Limit: {{time}}<br/>{{/time}}
+								Fee: {{fee}}<br/>
+								Reward: {{rewardMoney.0}}
+							</p>
+						</div>
+
+						<h4>Goals:</h4>
+						<ul>
+							<li>Main: {{goals.0}}</li>
+							<li>Subquest A: {{goals.1}}</li>
+							<li>Subquest B: {{goals.2}}</li>
+						</ul>
+
+						{{#client}}
+							<h3>{{{client}}}</h3>
+						{{/client}}
+						{{#details}}
+							<p>{{{details}}}</p>
+						{{/details}}
+
+						{{#require}}
+							<p>Requires: {{require}}</p>
+						{{/require}}
+
+						<div class="hidden-details">
+							{{#prerequisites}}
+								<p>Prerequisites: {{{prerequisites}}}</p>
+							{{/prerequisites}}
+
+							<details>
+								<summary>In-depth Details</summary>
+
+								<aside>
+									<h4 class="supplies-title">Supplies:</h4>
+									<div class="supplies-list">
+										{{#supplies}}
+											<div class="supply-item {{icon}}" title="{{material}}">{{material}}<div class="quantity">&times;{{quantity}}</div></div>
+										{{/supplies}}
+										{{^supplies}}
+											None
+										{{/supplies}}
+									</div>
+
+									{{#health}}Monster Health: {{health}}<br/>{{/health}}
+									{{#hrp.0}}
+										<table class="w-auto">
+											<caption>HRP Rewards</caption>
+											<tbody>
+												<tr>
+													<td>Main</td>
+													<td class="ta-r">{{hrp.0}}</td>
+												</tr>
+												<tr>
+													<td>Subquest A</td>
+													<td class="ta-r">{{hrp.1}}</td>
+												</tr>
+												<tr>
+													<td>Subquest B</td>
+													<td class="ta-r">{{hrp.2}}</td>
+												</tr>
+											</tbody>
+										</table>
+									{{/hrp.0}}
+								</aside>
+
+								<table>
+									<caption>Quest Rewards</caption>
+									<thead>
+										<tr>
+											<td>Item</td>
+											<td>Quantity</td>
+											<td>% Chance</td>
+											<!-- <td>Requirement</td> -->
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="4" class="quest-reward-category">Main Goal</td>
+										</tr>
+										{{#rewards}}
+											{{#rewardName}}
+												<tr>
+													<td colspan="4" class="quest-reward-category">{{rewardName}}</td>
+												</tr>
+											{{/rewardName}}
+											{{#materials}}
+												<tr>
+													<td>{{{material}}}</td>
+													<td class="ta-r">{{quantity}}</td>
+													<td class="ta-r">{{percent}}%</td>
+													<!-- <td>{{{require}}}</td> -->
+												</tr>
+											{{/materials}}
+										{{/rewards}}
+									</tbody>
+								</table>
+							</details>
+						</div>
+					</section>
+				</details>
+			{{/quests}}
+		</details>
+	{{/questLocales}}
+</details>

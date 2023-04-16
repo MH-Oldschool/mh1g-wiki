@@ -682,3 +682,4 @@ buildPage2("mh2/index");
 buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);
 buildPage2("mh2/armor");
 buildPage2("mh2/armor_skills");
+buildPage2("mh2/quests", ["mh2/quest_category"]);

@@ -5,6 +5,7 @@ body {
 .arrow-separated:after { content: " → "; }
 .arrow-separated:last-child:after { content: ""; }
 
+/* Icon Sheets by color */
 .pink-icon { background-image: url("/mh2/images/icon_sheets/icons_pink.png"); }
 .red-icon { background-image: url("/mh2/images/icon_sheets/icons_red.png"); }
 .orange-icon { background-image: url("/mh2/images/icon_sheets/icons_orange.png"); }
@@ -16,14 +17,37 @@ body {
 .white-icon { background-image: url("/mh2/images/icon_sheets/icons_white.png"); }
 .gray-icon { background-image: url("/mh2/images/icon_sheets/icons_gray.png"); }
 .brown-icon { background-image: url("/mh2/images/icon_sheets/icons_brown.png"); }
+
 /* Icon Clips */
+.ocarina-icon { background-position: 0rem -10rem; }
+.bed-icon { background-position: -2rem -10rem; }
+.sheet-music-icon { background-position: -4rem -10rem; }
+.talking-head-icon { background-position: -6rem -10rem; }
+.gem-icon { background-position: -8rem -10rem; }
+.house-icon { background-position: -10rem -10rem; }
+.tuber-icon { background-position: -12rem -10rem; }
+.monster-eating-icon { background-position: -14rem -10rem; }
+
+.maka-pot-prepared-icon { background-position: 0rem -12rem; }
+.maka-pot-icon { background-position: -2rem -12rem; }
+.boomerang-icon { background-position: -4rem -12rem; }
 .coating-icon { background-position: -6rem -12rem; }
+.empty-bottle-icon { background-position: -8rem -12rem; }
+.monster-shell-icon { background-position: -10rem -12rem; }
+.compass-icon { background-position: -12rem -12rem; }
+.arc-icon { background-position: -14rem -12rem; }
+
+.edible-icon { background-position: -8rem -14rem; }
+.cross-icon { background-position: -10rem -14rem; }
+.mystery-weapon-icon { background-position: -12rem -14rem; }
 .great-sword-icon { background-position: -14rem -14rem; }
+
 .note-icon {
 	background-position: -7rem -15rem;
 	width: 1rem;
 	height: 1rem;
 }
+
 .heavy-bowgun-icon { background-position: 0rem -16rem; }
 .hammer-icon { background-position: -2rem -16rem; }
 .lance-icon { background-position: -4rem -16rem; }
@@ -32,6 +56,7 @@ body {
 .dual-swords-icon { background-position: -10rem -16rem; }
 .longsword-icon { background-position: -12rem -16rem; }
 .hunting-horn-icon { background-position: -14rem -16rem; }
+
 .gunlance-icon { background-position: 0rem -18rem; }
 .bow-icon { background-position: -2rem -18rem; }
 .foot-icon { background-position: -4rem -18rem; }

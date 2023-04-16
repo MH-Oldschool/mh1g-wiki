@@ -1,3 +1,53 @@
 h4 {
 	margin: 0;
 }
+
+ul {
+	padding-left: 1.25rem;
+}
+
+article p {
+	margin: 0.5rem 0;
+}
+
+.quest-head p {
+	margin: 0 1rem 0 0;
+}
+
+/* Quest locale colors */
+.quest-body.jungle-quest { background: linear-gradient(0.375turn, #63bd85, #725533 10rem) }
+.quest-body.desert-quest { background: linear-gradient(0.375turn, #f69b61, #725533 10rem) }
+.quest-body.swamp-quest { background: linear-gradient(0.375turn, #c6a3ce, #725533 10rem) }
+.quest-body.snowy-mountain-quest { background: linear-gradient(0.375turn, #fff, #725533 10rem) }
+.quest-body.volcano-quest,
+.quest-body.battleground-quest {
+	background: linear-gradient(0.375turn, #e7515a, #725533 10rem);
+}
+.quest-body.forest-quest,
+.quest-body.arena-quest {
+	background: linear-gradient(0.375turn, #ffd763, #725533 10rem);
+}
+.quest-body.tower-quest { background: linear-gradient(0.375turn, #9dddf7, #725533 10rem) }
+.quest-body.fort-quest,
+.quest-body.castle-schrade-quest,
+.quest-body.battle-quarters-quest {
+	background: linear-gradient(0.375turn, #ababab, #725533 10rem);
+}
+.quest-body table {
+	color: #d7d7d7;
+}
+.quest-reward-category {
+	font-weight: bold;
+	padding: 0.25rem 0.5rem;
+}
+
+@media screen and (min-width: 48rem) {
+	.three-columns {
+		display: flex;
+		align-items: top;
+	}
+	.three-columns .column {
+		width: 33.333333%;
+	}
+}
+@media screen and (min-width: 64rem) {}
