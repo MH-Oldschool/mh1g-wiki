@@ -600,6 +600,238 @@ function generateArmorData2JS() {
 		console.log("Error parsing armor json:", e);
 	}
 }
+function generateItemData2JS(weaponData, armorData) {
+	function getWeaponUses(itemName) {
+		var uses = [];
+
+		var doesMaterialUseItem = (material) => {
+			return material.n == itemName;
+		}
+		var doesBlademasterWeaponUseItem = (weapon) => {
+			var itemsFound = [];
+
+			if (weapon.forge) {
+				itemsFound = weapon.forge.filter(doesMaterialUseItem);
+			}
+			else if (weapon.upgrade) {
+				itemsFound = weapon.upgrade.filter(doesMaterialUseItem);
+			}
+
+			return itemsFound.length !== 0;
+		}
+		var getWeaponNamesThatUseItem = (weapons) => {
+			var weaponNames = [];
+
+			for (var prop in weapons) {
+				if (weapons.hasOwnProperty(prop) && doesBlademasterWeaponUseItem(weapons[prop])) {
+					weaponNames.push(weapons[prop].name.replace(/ /g, "&nbsp;"));
+				}
+			}
+
+			return weaponNames.join(", ");
+		}
+
+		// var doesBowgunUseItem = (bowgun) => {
+		// 	if (bowgun.mats) {
+		// 		return bowgun.mats.filter((material) => { return material.n == itemName }).length !== 0;
+		// 	}
+
+		// 	return false;
+		// }
+		// var getBowgunNamesThatUseItem = (bowguns, category) => {
+		// 	var weaponNames = [];
+
+		// 	for (var prop in bowguns) {
+		// 		if (bowguns.hasOwnProperty(prop) && bowguns[prop].icon == category && doesBowgunUseItem(bowguns[prop])) {
+		// 			weaponNames.push(bowguns[prop].name.replace(/ /g, "&nbsp;"));
+		// 		}
+		// 	}
+
+		// 	return weaponNames.join(", ");
+		// }
+
+		var greatswords = getWeaponNamesThatUseItem(weaponData["Great Sword"]);
+		if (greatswords) uses.push("<b>Great Swords:</b> " + greatswords);
+		var longswords = getWeaponNamesThatUseItem(weaponData["Longsword"]);
+		if (longswords) uses.push("<b>Longswords:</b> " + longswords);
+
+		var hammers = getWeaponNamesThatUseItem(weaponData["Hammer"]);
+		if (hammers) uses.push("<b>Hammers:</b> " + hammers);
+		var huntingHorns = getWeaponNamesThatUseItem(weaponData["Hunting Horn"]);
+		if (huntingHorns) uses.push("<b>Hunting Horns:</b> " + huntingHorns);
+
+		var lances = getWeaponNamesThatUseItem(weaponData["Lance"]);
+		if (lances) uses.push("<b>Lances:</b> " + lances);
+		var gunlances = getWeaponNamesThatUseItem(weaponData["Gunlance"]);
+		if (gunlances) uses.push("<b>Gunlances:</b> " + gunlances);
+
+		var swords = getWeaponNamesThatUseItem(weaponData["Sword and Shield"]);
+		if (swords) uses.push("<b>Swords and Shields:</b> " + swords);
+		var dualSwords = getWeaponNamesThatUseItem(weaponData["Dual Swords"]);
+		if (dualSwords) uses.push("<b>Dual Swords:</b> " + dualSwords);
+
+		var lightBowguns = getWeaponNamesThatUseItem(weaponData["Light Bowgun"]);
+		if (lightBowguns) uses.push("<b>Light Bowguns:</b> " + lightBowguns);
+		var heavyBowguns = getWeaponNamesThatUseItem(weaponData["Heavy Bowgun"]);
+		if (heavyBowguns) uses.push("<b>Heavy Bowguns:</b> " + heavyBowguns);
+		var bows = getWeaponNamesThatUseItem(weaponData["Bow"]);
+		if (bows) uses.push("<b>Bows:</b> " + bows);
+
+		return uses;
+	}
+	function getArmorUses(itemName) {
+		var uses = [];
+
+		var doesMaterialUseItem = (material) => {
+			return material.m == itemName;
+		}
+		var doesArmorUseItem = (armor) => {
+			var itemsFound = [];
+
+			if (armor.forge) {
+				itemsFound = armor.forge.filter(doesMaterialUseItem);
+			}
+			if (armor.upgrade) {
+				itemsFound = armor.upgrade.filter(doesMaterialUseItem);
+			}
+
+			return itemsFound.length !== 0;
+		}
+		var getArmorNamesThatUseItem = (armor) => {
+			var armorNames = [];
+
+			armor.forEach((armorPiece) => {
+				if (doesArmorUseItem(armorPiece)) {
+					var armorName = armorPiece.name;
+					if (armorPiece.suffA) {
+						armorName += armorPiece.suffA;
+					}
+					armorNames.push(armorName.replace(/ /g, "&nbsp;"));
+				}
+			});
+
+			return armorNames.join(", ");
+		}
+
+		var headgear = getArmorNamesThatUseItem(armorData["Headgear"]);
+		if (headgear) uses.push("<b>Headgear:</b> " + headgear);
+		var torso = getArmorNamesThatUseItem(armorData["Torso"]);
+		if (torso) uses.push("<b>Torso:</b> " + torso);
+		var arms = getArmorNamesThatUseItem(armorData["Arms"]);
+		if (arms) uses.push("<b>Arms:</b> " + arms);
+		var waist = getArmorNamesThatUseItem(armorData["Waist"]);
+		if (waist) uses.push("<b>Waist:</b> " + waist);
+		var legs = getArmorNamesThatUseItem(armorData["Legs"]);
+		if (legs) uses.push("<b>Legs:</b> " + legs);
+
+		return uses;
+	}
+
+	var itemFile = fs.readFileSync("_views/mh2/items.json", "utf8");
+
+	try {
+		var itemData = JSON.parse(itemFile);
+
+		function formatItemWithIcon(ingredient) {
+			return `<span class="${ ingredient.class }"></span><span>${ ingredient.name }</span>`;
+		}
+		function getComboForItem(itemName, version) {
+			var combo = itemData["combos" + version.toUpperCase()].filter((combo) => combo.name == itemName);
+			if (combo.length !== 0) {
+				return `<tr><td>${ combo[0].ingredients.map(formatItemWithIcon).join("</td><td>") }</td></tr>`;
+			}
+
+			return "";
+		}
+		function getCombosThatUseItem(itemName, version) {
+			var combos = itemData["combos" + version.toUpperCase()].filter((combo) => {
+				return combo.ingredients[0].name == itemName || combo.ingredients[1].name == itemName;
+			});
+			var alchemy = [];
+			if (version == "g") {
+				alchemy = itemData.combosAlchemy.filter((combo) => {
+					return combo.ingredients[0].name == itemName || combo.ingredients[1].name == itemName;
+				});
+			}
+
+			if (combos.length !== 0) {
+				var formattedCombos = `<tr>${ combos.map((combo) => {
+					return `<td>${ formatItemWithIcon(combo) }</td><td>${ combo.ingredients.map(formatItemWithIcon).join("</td><td>") }</td>`;
+				}).join("</tr><tr>") }</tr>`;
+
+				if (version == "g" && alchemy.length !== 0) {
+					formattedCombos = `${ formattedCombos }<tr class="requires-alchemy" title="Requires Alchemy">${ alchemy.map((combo) => {
+						return `<td>${ formatItemWithIcon(combo) }</td><td>${ combo.ingredients.map(formatItemWithIcon).join("</td><td>") }</td>`;
+					}).join("</tr><tr>") }</tr>`;
+				}
+
+				return formattedCombos;
+			}
+
+			return "";
+		}
+
+		function getAlchemyForItem(itemName) {
+			var combo = itemData.combosAlchemy.filter((combo) => combo.name == itemName);
+			if (combo.length !== 0) {
+				return `<tr class="requires-alchemy" title="Requires Alchemy"><td>${ combo[0].ingredients.map(formatItemWithIcon).join("</td><td>") }</td></tr>`;
+			}
+
+			return "";
+		}
+
+		function getTradesForItem(itemName) {
+			var tradesForItem = [];
+			itemData.trades.forEach((localeTrades) => {
+				var localeTradesFound = [];
+
+				localeTrades.forEach((trade) => {
+					if (trade.items[1].n == itemName) {
+						localeTradesFound.push(trade.items[0].n);
+					}
+					if (trade.items[2].n == itemName) {
+						localeTradesFound.push(trade.items[0].n);
+					}
+				});
+
+				if (localeTradesFound.length !== 0) {
+					tradesForItem.push(`<p><span class="${ localeTrades.color }-icon map-icon"></span> <b>${ localeTrades.name }:</b> ${ localeTradesFound.join(", ") }</p>`);
+				}
+			});
+
+			return tradesForItem.join("");
+		}
+
+		itemData.items.forEach((item) => {
+			var weaponUses = getWeaponUses(item.name);
+			var armorUses = getArmorUses(item.name);
+
+			if (weaponUses.length) item.weaponUses = `<p>${ weaponUses.join("</p><p>") }</p>`;
+			if (armorUses.length) item.armorUses = `<p>${ armorUses.join("</p><p>") }</p>`;
+
+			// var comboForItem = getComboForItem(item.name);
+			// var combosUsingItem = getCombosThatUseItem(item.name);
+
+			// if (comboForItem) item.comboForItem = comboForItem;
+			// if (combosUsingItem) item.combosUsingItem = combosUsingItem;
+
+			// var alchemyForItem = getAlchemyForItem(item.name);
+			// if (alchemyForItem.length !== 0) item.alchemyForItem = alchemyForItem;
+
+			// var tradesForItem = getTradesForItem(item.name);
+			// if (tradesForItem) item.tradesForItem = tradesForItem;
+
+			// This has to be at the end for all the searches to work
+			item.name = `${ item.name } <span class="japanese">${ item.japanese }</span>`;
+		});
+		var formattedData = `window.items=${JSON.stringify(itemData.items)};`;
+
+		fs.writeFileSync("public/mh2/js/item_data.js", formattedData, "utf8");
+	}
+	catch (e) {
+		console.error("Unable to parse item file:", e);
+	}
+}
 
 function buildPage(pageName, partials) {
 	var fileNames = [
@@ -666,6 +898,7 @@ generateItemDataJS(weaponData, armorData);
 
 var weaponData2 = generateWeaponsData2JS();
 var armorData2 = generateArmorData2JS();
+generateItemData2JS(weaponData2, armorData2);
 
 buildPage("index");
 buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
@@ -681,5 +914,6 @@ buildPage("roulette");
 buildPage2("mh2/index");
 buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);
 buildPage2("mh2/armor");
+buildPage2("mh2/items");
 buildPage2("mh2/armor_skills");
 buildPage2("mh2/quests", ["mh2/quest_category"]);

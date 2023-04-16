@@ -1,0 +1,5855 @@
+{
+	"title": "Monster Hunter 2 Wiki",
+	"description": "A full list of item combinations, and the various in-game shops.",
+	"subtitle": "",
+	"head": "<link type='text/css' rel='stylesheet' href='../css/items.css'/><link type='text/css' rel='stylesheet' href='css/items.css'/><script type='text/javascript' src='../js/toggle_full_details.js'></script><script type='text/javascript' src='../mh2/js/item_data.js'></script><script type='text/javascript' src='js/items.js'></script>",
+	"onItems": true,
+	"expandToggle": true,
+	"items":[
+		{
+			"name":"Book of Combos 1","japanese":"調合書①入門編",
+			"maxStack":1,"rarity":4,"buy":1000,"sell":100,
+			"icon":"gray-icon book-icon",
+			"description":"Intro text for first-time combiners. Improves your combining success rate.",
+			"details":"Add 5% to combination success, while in your inventory.",
+			"acquire":""
+		},
+		{
+			"name":"Book of Combos 2","japanese":"調合書②初級編",
+			"maxStack":1,"rarity":4,"buy":2000,"sell":200,
+			"icon":"gray-icon book-icon",
+			"description":"Basic text. Together with 1, improves your combining success rate.",
+			"details":"Add a further 5% (10% total) to combination success, while in your inventory along with the Book of Combos 1",
+			"acquire":""
+		},
+		{
+			"name":"Book of Combos 3","japanese":"調合書③中級編",
+			"maxStack":1,"rarity":4,"buy":5000,"sell":500,
+			"icon":"white-icon book-icon",
+			"description":"Intermediate text. Along with 1 and 2, improves your combining success rate.",
+			"details":"Add a further 10% (20% total) to combination success, while in your inventory along with the Book of Combos 1 and 2",
+			"acquire":""
+		},
+		{
+			"name":"Book of Combos 4","japanese":"調合書④上級編",
+			"maxStack":1,"rarity":5,"buy":10000,"sell":1000,
+			"icon":"white-icon book-icon",
+			"description":"Advanced text. Along with 1, 2, and 3, improves your combining success rate.",
+			"details":"Add a further 10% (30% total) to combination success, while in your inventory along with the Book of Combos 1, 2, and 3",
+			"acquire":""
+		},
+		{
+			"name":"Book of Combos 5","japanese":"調合書⑤達人編",
+			"maxStack":1,"rarity":5,"buy":15000,"sell":1500,
+			"icon":"yellow-icon book-icon",
+			"description":"Pro text. Along with 1, 2, 3 and 4, improves your combining success rate.",
+			"details":"Add a further 20% (50% total) to combination success, while in your inventory along with the Book of Combos 1, 2, 3, and 4",
+			"acquire":""
+		},
+		{
+			"name":"Alchemy Guide","japanese":"調合書Ｇ・錬金編",
+			"maxStack":1,"rarity":5,"sell":2000,
+			"icon":"yellow-icon book-icon",
+			"description":"With this book, you too can use alchemy. What will you create?",
+			"details":"Allow additional combo recipies (the same as the Alchemy armor skill), while in your inventory.",
+			"acquire":""
+		},
+		{
+			"name":"Potion","japanese":"回復薬",
+			"maxStack":10,"rarity":1,"buy":66,"sell":7,
+			"icon":"green-icon jar-icon",
+			"description":"Restores a small amount of Health.",
+			"details":"Restore 30 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Potion","japanese":"回復薬グレート",
+			"maxStack":10,"rarity":2,"sell":16,
+			"icon":"green-icon jar-icon",
+			"description":"Restores a moderate amount of Health.",
+			"details":"Restore 50 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Nutrients","japanese":"栄養剤",
+			"maxStack":5,"rarity":2,"buy":760,"sell":25,
+			"icon":"cyan-icon jar-icon",
+			"description":"Increases the maximum Health level slightly.",
+			"details":"Increase maximum health by 10 points, until you cart. This does not restore any hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Nutrients","japanese":"栄養剤グレート",
+			"maxStack":5,"rarity":3,"sell":92,
+			"icon":"cyan-icon jar-icon",
+			"description":"Medicine that increases the maximum Health level by a small amount.",
+			"details":"Increase maximum health by 20 points, until you cart. This does not restore any hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Antidote","japanese":"解毒薬",
+			"maxStack":10,"rarity":1,"buy":60,"sell":6,
+			"icon":"blue-icon jar-icon",
+			"description":"Effectively removes all traces of poison in your system.",
+			"details":"Cure poison.",
+			"acquire":""
+		},
+		{
+			"name":"Immunizer","japanese":"活力剤",
+			"maxStack":10,"rarity":3,"sell":92,
+			"icon":"yellow-icon jar-icon",
+			"description":"Medicine that enhances natural recovery ability.",
+			"details":"Double the speed of red-bar health recovery for 5 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Power Juice","japanese":"強走薬",
+			"maxStack":5,"rarity":2,"sell":29,
+			"icon":"yellow-icon jar-icon",
+			"description":"Allows you to run without becoming fatigued for a period of time.",
+			"details":"Stop all stamina loss for 3 minutes, and increase maximum stamina by 25. Maximum stamina can still be reduced by cold temperatures.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Juice","japanese":"強走薬グレート",
+			"maxStack":5,"rarity":3,"sell":205,
+			"icon":"yellow-icon jar-icon",
+			"description":"Allows you to run without fatiguing for even longer than Power Juice.",
+			"details":"Stop all stamina loss for 6 minutes, and increase maximum stamina by 50. Maximum stamina can still be reduced by cold temperatures.",
+			"acquire":""
+		},
+		{
+			"name":"Demondrug","japanese":"鬼人薬",
+			"maxStack":5,"rarity":4,"sell":67,
+			"icon":"red-icon jar-icon",
+			"description":"Increases Attack power, bestowing the strength of Asura himself on user.",
+			"details":"Add 3 to your weapon's true damage, until you cart. This does not stack with meal buffs or Mega Demondrug.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Demondrug","japanese":"鬼人薬グレート",
+			"maxStack":5,"rarity":5,"sell":283,
+			"icon":"red-icon jar-icon",
+			"description":"Increases Attack power even more than Demondrug.",
+			"details":"Add 5 to your weapon's true damage, until you cart. This does not stack with meal buffs or Demondrug.",
+			"acquire":""
+		},
+		{
+			"name":"Power Pill","japanese":"怪力の丸薬",
+			"maxStack":5,"rarity":1,"sell":280,
+			"icon":"red-icon powder-icon",
+			"description":"A strengthening pill that endows you with the power of a fierce god.",
+			"details":"Add 25 to your weapon's true damage for 20 seconds.",
+			"acquire":""
+		},
+		{
+			"name":"Armorskin","japanese":"硬化薬",
+			"maxStack":5,"rarity":4,"sell":58,
+			"icon":"orange-icon jar-icon",
+			"description":"Increases Defense by hardening your skin to stone-like armor.",
+			"details":"Add 3 to your defense, until you cart. This does not stack with meal buffs or Mega Armorskin.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Armorskin","japanese":"硬化薬グレート",
+			"maxStack":5,"rarity":5,"sell":269,
+			"icon":"orange-icon jar-icon",
+			"description":"Increases Defense even more than Armorskin.",
+			"details":"Add 5 to your defense, until you cart. This does not stack with meal buffs or Armorskin.",
+			"acquire":""
+		},
+		{
+			"name":"Armor Pill","japanese":"忍耐の丸薬",
+			"maxStack":5,"rarity":1,"sell":260,
+			"icon":"orange-icon powder-icon",
+			"description":"A pill that temporarily makes your skin as hard as metal.",
+			"details":"Add 25 to your defense for 20 seconds.",
+			"acquire":""
+		},
+		{
+			"name":"Cool Drink","japanese":"クーラードリンク",
+			"maxStack":5,"rarity":1,"buy":300,"sell":30,
+			"icon":"white-icon jar-icon",
+			"description":"A drink that bestows temporary resistance to extreme heat.",
+			"details":"Prevent damage taken from hot temperatures for 10 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Hot Drink","japanese":"ホットドリンク",
+			"maxStack":5,"rarity":1,"buy":250,"sell":25,
+			"icon":"red-icon jar-icon",
+			"description":"A drink that bestows temporary resistance to extreme cold.",
+			"details":"Prevent increased maximum stamina loss from cold temperatures for 10 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Psychoserum","japanese":"千里眼の薬",
+			"maxStack":3,"rarity":3,"buy":300,"sell":30,
+			"icon":"orange-icon jar-icon",
+			"description":"Temporarily activates an ESP-like ability to sense wyverns.",
+			"details":"Reveal all large monsters on the map for 10 seconds.",
+			"acquire":""
+		},
+		{
+			"name":"Monster Fluid","japanese":"モンスターの体液",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"cyan-icon jar-icon",
+			"description":"Can be mixed with insect stomach juices to make an adhesive."
+		},
+		{
+			"name":"Monster Broth","japanese":"モンスターの濃汁",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"cyan-icon jar-icon",
+			"description":"A broth made from only the thickest of a monster's juices. Quite rich."
+		},
+		{
+			"name":"Herbal Medicine","japanese":"漢方薬",
+			"maxStack":10,"rarity":2,"buy":250,"sell":25,
+			"icon":"white-icon powder-icon",
+			"description":"Effectively cures poison, and restores a slight amount of Health.",
+			"details":"Cure poison and restore 10 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Max Potion","japanese":"秘薬",
+			"maxStack":2,"rarity":3,"sell":210,
+			"icon":"yellow-icon powder-icon",
+			"description":"Restores Health to the maximum level, enabling a full recovery.",
+			"details":"Increase maximum health to 150 and restore all hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Potion","japanese":"いにしえの秘薬",
+			"maxStack":1,"rarity":5,"sell":345,
+			"icon":"red-icon powder-icon",
+			"description":"Restores Health and Stamina to maximum levels, enabling a full recovery.",
+			"details":"Increase maximum health to 150, increase maximum stamina to 150, and restore all hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Catalyst","japanese":"増強剤",
+			"maxStack":5,"rarity":2,"buy":480,"sell":48,
+			"icon":"gray-icon powder-icon",
+			"description":"Mixes with other materials to improve their effect. Cannot be used by itself."
+		},
+		{
+			"name":"Energy Drink","japanese":"元気ドリンコ",
+			"maxStack":10,"rarity":2,"sell":6,
+			"icon":"yellow-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":10,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gunpowder","japanese":"爆薬",
+			"maxStack":20,"rarity":2,"buy":222,"sell":22,
+			"icon":"red-icon powder-icon",
+			"description":"A dangerous chemical that explodes when disturbed or heated."
+		},
+		{
+			"name":"Lifecrystals","japanese":"生命の粉",
+			"maxStack":10,"rarity":3,"sell":59,
+			"icon":"white-icon powder-icon",
+			"description":"Mysterious crystals long worshipped as a fount of life."
+		},
+		{
+			"name":"Lifepowder","japanese":"生命の粉塵",
+			"maxStack":3,"rarity":4,"sell":315,
+			"icon":"white-icon powder-icon",
+			"description":"Medicine created by combining Lifecrystals. Strong restorative power.",
+			"details":"Restore 50 hitpoints to yourself and all hunters in the same zone.",
+			"acquire":""
+		},
+		{
+			"name":"Powercharm","japanese":"力の護符",
+			"maxStack":1,"rarity":5,"buy":36000,"sell":3600,
+			"icon":"red-icon powder-icon",
+			"description":"Amulet that raises Attack power. The holder gains the strength of a demon.",
+			"details":"Add 5 to your weapon's true attack, while in your inventory.<span class=\"mhg\"> Stacks with Powertalon.</span> Duplicates do not stack this effect.",
+			"acquire":""
+		},
+		{
+			"name":"Powertalon","japanese":"力の爪",
+			"maxStack":1,"rarity":5,"sell":6840,
+			"icon":"red-icon claw-icon",
+			"description":"Amulet that raises Offense. Made from a wyvern's claw.",
+			"details":"Add 10 to your weapon's true attack, while in your inventory. Stacks with Powercharm. Duplicates do not stack this effect.",
+			"acquire":""
+		},
+		{
+			"name":"Armorcharm","japanese":"守りの護符",
+			"maxStack":1,"rarity":5,"buy":24000,"sell":2400,
+			"icon":"orange-icon powder-icon",
+			"description":"Amulet that causes one's skin to become as hard as stone. Raises Defense.",
+			"details":"Add 10 to your defense, while in your inventory.<span class=\"mhg\"> Stacks with Armortalon.</span> Duplicates do not stack this effect.",
+			"acquire":""
+		},
+		{
+			"name":"Armortalon","japanese":"守りの爪",
+			"maxStack":1,"rarity":5,"sell":5040,
+			"icon":"orange-icon claw-icon",
+			"description":"Amulet that raises Defense. Made from a wyvern's claw.",
+			"details":"Add 25 to your defense, while in your inventory. Stacks with Armorcharm. Duplicates do not stack this effect.",
+			"acquire":""
+		},
+		{
+			"name":"Tranquilizer","japanese":"捕獲用麻酔薬",
+			"maxStack":10,"rarity":4,"buy":150,"sell":15,
+			"icon":"red-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Raw Meat","japanese":"生肉",
+			"maxStack":10,"rarity":1,"sell":5,
+			"icon":"red-icon meat-icon",
+			"description":"Meat obtained through carving up a monster. Has many uses.",
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach and eat it. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":""
+		},
+		{
+			"name":"Seasoned Meat","japanese":"調理肉",
+			"maxStack":10,"rarity":1,"sell":12,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Spicy Meat","japanese":"スパイシー生肉",
+			"maxStack":10,"rarity":1,"sell":20,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cold Meat","japanese":"クール生肉",
+			"maxStack":10,"rarity":1,"sell":22,
+			"icon":"cyan-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Poisoned Meat","japanese":"毒生肉",
+			"maxStack":10,"rarity":1,"buy":188,"sell":19,
+			"icon":"purple-icon meat-icon",
+			"description":"Poisons if consumed. Used as bait in traps.",
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and become poisoned. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":""
+		},
+		{
+			"name":"Tainted Meat","japanese":"シビレ生肉",
+			"maxStack":10,"rarity":2,"buy":300,"sell":30,
+			"icon":"yellow-icon meat-icon",
+			"description":"Paralyzes if consumed. Used as bait in traps.",
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and become paralyzed. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":""
+		},
+		{
+			"name":"Drugged Meat","japanese":"眠り生肉",
+			"maxStack":10,"rarity":1,"buy":315,"sell":32,
+			"icon":"cyan-icon meat-icon",
+			"description":"Causes sleepiness if consumed. Used as bait in traps.",
+			"details":"Place on the ground and any calm, carnivorous large monsters will approach, eat it, and fall asleep. After 3 minutes, it will disappear. A maximum of 3 can be placed at once.",
+			"acquire":""
+		},
+		{
+			"name":"Rare Steak","japanese":"生焼け肉",
+			"maxStack":10,"rarity":1,"sell":3,
+			"icon":"orange-icon meat-icon",
+			"description":"Meat cooked on the rare side. Gives a small boost to Stamina.",
+			"details":"Increase maximum stamina by 25. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":""
+		},
+		{
+			"name":"Well-Done Steak","japanese":"こんがり肉",
+			"maxStack":10,"rarity":2,"sell":48,
+			"icon":"orange-icon meat-icon",
+			"description":"Well-cooked meat. Gives a medium boost to Stamina.",
+			"details":"Increase maximum stamina by 50. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":""
+		},
+		{
+			"name":"Gourmet Steak","japanese":"こんがり肉Ｇ",
+			"maxStack":10,"rarity":3,"sell":64,
+			"icon":"red-icon meat-icon",
+			"description":"A gourmet steak cook to perfection. Gives a full boost to Stamina.",
+			"details":"Increase maximum stamina to 150. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":""
+		},
+		{
+			"name":"Burnt Meat","japanese":"コゲ肉",
+			"maxStack":10,"rarity":1,"sell":1,
+			"icon":"gray-icon meat-icon",
+			"description":"Meat burnt to a crisp. Boosts Stamina sometimes, but can also weaken you.",
+			"details":"50/50 chance to increase maximum stamina by 25 or decrease by 25.",
+			"acquire":""
+		},
+		{
+			"name":"Hot Steak","japanese":"ホットミート",
+			"maxStack":10,"rarity":1,"sell":25,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hot Steak+","japanese":"ホットミートＧ",
+			"maxStack":10,"rarity":1,"sell":30,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cold Steak","japanese":"クーラーミート",
+			"maxStack":10,"rarity":1,"sell":30,
+			"icon":"cyan-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cold Steak+","japanese":"クーラーミートＧ",
+			"maxStack":10,"rarity":1,"sell":38,
+			"icon":"cyan-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Antidote Steak","japanese":"解毒ミート",
+			"maxStack":10,"rarity":1,"sell":20,
+			"icon":"blue-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Antidote Steak+","japanese":"解毒ミートＧ",
+			"maxStack":10,"rarity":1,"sell":28,
+			"icon":"blue-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rare Cooked Fish?","japanese":"生焼け魚",
+			"maxStack":10,"rarity":1,"sell":2,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Well-Done Fish?","japanese":"こんがり魚",
+			"maxStack":10,"rarity":2,"sell":40,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Well-Done Fish+?","japanese":"こんがり魚ドス",
+			"maxStack":10,"rarity":2,"sell":60,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Well-Done Big Fish?","japanese":"こんがり魚Ｇ",
+			"maxStack":3,"rarity":3,"sell":58,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Well-Done Big Fish+?","japanese":"こんがり魚ドスＧ",
+			"maxStack":3,"rarity":3,"sell":70,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Koge? Fish","japanese":"コゲ魚",
+			"maxStack":10,"rarity":1,"sell":1,
+			"icon":"gray-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":10,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Boomerang","japanese":"ブーメラン",
+			"maxStack":5,"rarity":4,"buy":150,"sell":15,
+			"icon":"yellow-icon boomerang-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Throwing Knife","japanese":"投げナイフ",
+			"maxStack":5,"rarity":1,"sell":0,
+			"icon":"white-icon knife-icon",
+			"description":"A standard throwing knife. Goes straight to a target. (Supply Item)",
+			"details":"Throw a knife in a straight line horizontal to the ground.",
+			"acquire":""
+		},
+		{
+			"name":"Poison Throwing Knife","japanese":"毒投げナイフ",
+			"maxStack":5,"rarity":1,"sell":0,
+			"icon":"purple-icon knife-icon",
+			"description":"Throwing knife with a poison edge. Has a toxic effect. (Supply Item)",
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies poison status to any monster it hits.",
+			"acquire":""
+		},
+		{
+			"name":"Sleep Throwing Knife","japanese":"眠り投げナイフ",
+			"maxStack":5,"rarity":1,"sell":0,
+			"icon":"cyan-icon knife-icon",
+			"description":"Throwing knife with an edge daubed with sleeping powder. (Supply Item)",
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies sleep status to any monster it hits.",
+			"acquire":""
+		},
+		{
+			"name":"Paralysis Throwing Knife","japanese":"麻痺投げナイフ",
+			"maxStack":5,"rarity":1,"sell":0,
+			"icon":"yellow-icon knife-icon",
+			"description":"Throwing knife with a paralysis toxin coated edge. (Supply Item)",
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies paralysis status to any monster it hits.",
+			"acquire":""
+		},
+		{
+			"name":"Tranq Throwing Knife","japanese":"捕獲用麻酔ナイフ",
+			"maxStack":5,"rarity":4,"sell":0,
+			"icon":"red-icon knife-icon",
+			"description":"",
+			"details":"Throw a knife in a straight line horizontal to the ground. Applies tranquilizer to any monster it hits.",
+			"acquire":""
+		},
+		{
+			"name":"Bomb Material","japanese":"素材玉",
+			"maxStack":30,"rarity":1,"buy":150,"sell":15,
+			"icon":"white-icon bomb-icon",
+			"description":"Basic ingredient for making hand-thrown bombs."
+		},
+		{
+			"name":"Paintball","japanese":"ペイントボール",
+			"maxStack":99,"rarity":1,"sell":10,
+			"icon":"pink-icon bomb-icon",
+			"description":"Can be thrown at a monster to mark it for easy tracking.",
+			"details":"Throw at a monster and it's location will appear on the map for 10 minutes. If a small monster is painted, its icon will disappear once you leave the zone. <span class=\"mh1\">For</span><span class=\"mhg\">With the Detect or Autotracker armor skill, for</span> large monsters, the icon will indicate the monster's facing direction, whether it's flying, and whether it's alerted for combat or calm.",
+			"acquire":""
+		},
+		{
+			"name":"Flash Bomb","japanese":"閃光玉",
+			"maxStack":5,"rarity":2,"sell":57,
+			"icon":"yellow-icon bomb-icon",
+			"description":"Bomb that flashes brightly upon impact. Confuses monsters.",
+			"details":"Throw in a short arc and explode in a bright flash of light. Some monsters will by temporarily stunned by this if they are close enough to and facing the explosion, even while flying. The sound of the explosion will draw the attention of any calm large monsters in the area.",
+			"acquire":""
+		},
+		{
+			"name":"Sonic Bomb","japanese":"音爆弾",
+			"maxStack":10,"rarity":2,"sell":45,
+			"icon":"gray-icon bomb-icon",
+			"description":"Emits a powerful, high-frequency sound upon detonation.",
+			"details":"Throw in a short arc and explode with a high-pitched, loud noise. Some monsters will be startled by this, with varying results: Yian Kut-Ku will be temporarily stunned and unable to move or attack; if swimming, Plesioth will often leap out of the water on to dry land; if burrowing through the sand, Cephalos and Cephadrome will leap out and flop around on the ground for a few seconds; while underground, Monoblos or Diablos will emerge halfway above the ground and flail around as if caught in a pitfall trap.",
+			"acquire":""
+		},
+		{
+			"name":"Dung","japanese":"モンスターのフン",
+			"maxStack":10,"rarity":1,"sell":1,
+			"icon":"brown-icon dung-icon",
+			"description":"Monster excrement."
+		},
+		{
+			"name":"Dung Bomb","japanese":"こやし玉",
+			"maxStack":10,"rarity":2,"sell":9,
+			"icon":"brown-icon bomb-icon",
+			"description":"Creates a terrible smell upon impact, which certain wyverns dislike.",
+			"details":"Cover a wide area in a cloud of foul smoke. If standing still, you will throw it at your feet; throw while moving to toss ahead of you. The following monsters will leave the zone where the dung bomb was detonated, unless already alerted by a hunter: Rathian, Rathalos, Yian Kut-Ku, Gypceros.",
+			"acquire":""
+		},
+		{
+			"name":"Smoke Bomb","japanese":"けむり玉",
+			"maxStack":10,"rarity":2,"sell":44,
+			"icon":"white-icon smoke-icon",
+			"description":"Creates a large cloud of smoke in the area where it lands.",
+			"details":"Cover a small area with smoke, obscuring you from monsters. The smoke lasts 20 seconds after detonating. If standing still, you will throw it at your feet; throw while moving to toss ahead of you. While you remain in the smoke, calm monsters cannot see you. This has no effect on alert monsters.",
+			"acquire":""
+		},
+		{
+			"name":"Poison Smoke Bmb","japanese":"毒けむり玉",
+			"maxStack":10,"rarity":2,"sell":60,
+			"icon":"purple-icon smoke-icon",
+			"description":"Smoke bomb containing a toxic chemical. Popular as a household bug bomb.",
+			"details":"Throw and cover a small area with poisonous smoke. Any monsters that are close enough will take poison status. Some monsters are susceptible enough that one bomb will poison them instantly.",
+			"acquire":""
+		},
+		{
+			"name":"Farcaster","japanese":"モドリ玉",
+			"maxStack":1,"rarity":3,"buy":300,"sell":30,
+			"icon":"green-icon smoke-icon",
+			"description":"Instantly transports you back to base camp.",
+			"details":"Transport yourself to the basecamp after 2 seconds; monsters can interrupt the process during this window.",
+			"acquire":""
+		},
+		{
+			"name":"Deodorant","japanese":"消臭玉",
+			"maxStack":5,"rarity":2,"sell":8,
+			"icon":"cyan-icon smoke-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tranq Bomb","japanese":"捕獲用麻酔玉",
+			"maxStack":8,"rarity":4,"sell":35,
+			"icon":"red-icon bomb-icon",
+			"description":"Use to subdue and capture a trapped monster. (Supply Item)",
+			"details":"Apply 80 Tranquilizer to a monster; 100 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"acquire":""
+		},
+		{
+			"name":"Spiderweb","japanese":"クモの巣",
+			"maxStack":10,"rarity":1,"buy":60,"sell":6,
+			"icon":"white-icon web-icon",
+			"description":"A spider's web. Very sticky."
+		},
+		{
+			"name":"Net","japanese":"ネット",
+			"maxStack":10,"rarity":2,"sell":54,
+			"icon":"white-icon web-icon",
+			"description":"Powerful net able to withstand a certain amount of weight."
+		},
+		{
+			"name":"Trap Tool","japanese":"トラップツール",
+			"maxStack":2,"rarity":3,"buy":200,"sell":20,
+			"icon":"green-icon tools-icon",
+			"description":"A tool needed to place a Pitfall Trap."
+		},
+		{
+			"name":"Pitfall Trap","japanese":"落とし穴",
+			"maxStack":1,"rarity":3,"sell":46,
+			"icon":"green-icon trap-icon",
+			"description":"Trap for catching certain wyverns. It is tripped by a heavy weight.",
+			"details":"Trap a large monster for a short time. Will disappear after 5 minutes if not triggered. Only one can be placed at a time. Cannot be placed in certain zones of the Swamp. The following monsters will not, or cannot, trigger the trap: Velocidrome, Gendrome, Iodrome, Cephadrome, Monoblos, Diablos, Lao-Shan Lung, Kirin, and Fatalis.",
+			"acquire":""
+		},
+		{
+			"name":"Shock Trap","japanese":"シビレ罠",
+			"maxStack":1,"rarity":3,"buy":320,"sell":160,
+			"icon":"purple-icon trap-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lightning Rod","japanese":"爆雷針",
+			"maxStack":5,"rarity":3,"sell":28,
+			"icon":"gray-icon trap-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":3,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Barrel Lid","japanese":"タルの蓋",
+			"maxStack":99,"rarity":5,"sell":10,
+			"icon":"gray-icon barrel-icon",
+			"description":"A small barrel lid. There appears to be a drawing on it."
+		},
+		{
+			"name":"Small Barrel","japanese":"小タル",
+			"maxStack":10,"rarity":1,"buy":80,"sell":8,
+			"icon":"yellow-icon barrel-icon",
+			"description":"A small, empty barrel."
+		},
+		{
+			"name":"Large Barrel","japanese":"大タル",
+			"maxStack":10,"rarity":2,"buy":210,"sell":21,
+			"icon":"red-icon barrel-icon",
+			"description":"A large, empty barrel."
+		},
+		{
+			"name":"Sm Barrel-Bomb","japanese":"小タル爆弾",
+			"maxStack":10,"rarity":2,"buy":156,"sell":16,
+			"icon":"yellow-icon barrel-bomb-icon",
+			"description":"A small time-bomb.",
+			"details":"Explode with a three-second fuse, dealing 20 explosive damage.",
+			"acquire":""
+		},
+		{
+			"name":"Sm Barrel-Bomb+","japanese":"小タル爆弾Ｇ",
+			"maxStack":5,"rarity":4,"sell":52,
+			"icon":"yellow-icon barrel-bomb-icon",
+			"description":"Upgraded Small Barrel Bomb. Not to be taken lightly despite its size.",
+			"details":"Place at your feet and explode with a three-second fuse, dealing 30 explosive damage.",
+			"acquire":""
+		},
+		{
+			"name":"Lg Barrel-Bomb","japanese":"大タル爆弾",
+			"maxStack":3,"rarity":3,"buy":518,"sell":52,
+			"icon":"red-icon barrel-bomb-icon",
+			"description":"Powerful bomb triggered by external physical impact.",
+			"details":"Place at your feet and explode when damaged by most damage sources, dealing 80 explosive damage. Decays after 5 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Lg Barrel-Bomb+","japanese":"大タル爆弾Ｇ",
+			"maxStack":2,"rarity":4,"sell":80,
+			"icon":"red-icon barrel-bomb-icon",
+			"description":"Upgraded Large Barrel Bomb. Effective against wyverns.",
+			"details":"Place at your feet and explode when damaged by most damage sources, dealing 150 explosive damage. Decays after 5 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Bounce Bomb","japanese":"打上げタル爆弾",
+			"maxStack":10,"rarity":2,"buy":180,"sell":18,
+			"icon":"cyan-icon barrel-bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bounce Bomb+","japanese":"打上げタル爆弾Ｇ",
+			"maxStack":10,"rarity":4,"sell":68,
+			"icon":"cyan-icon barrel-bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Anti-Dragon Bomb","japanese":"対巨龍爆弾",
+			"maxStack":10,"rarity":3,"sell":0,
+			"icon":"green-icon barrel-bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Polytan Bomb","japanese":"ポリタン爆弾",
+			"maxStack":10,"rarity":5,"sell":50,
+			"icon":"orange-icon barrel-bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Huskberry","japanese":"カラの実",
+			"maxStack":99,"rarity":1,"buy":2,"sell":1,
+			"icon":"gray-icon husk-icon",
+			"description":"An empty berry with nothing inside."
+		},
+		{
+			"name":"Sm Bone Husk","japanese":"カラ骨【小】",
+			"maxStack":99,"rarity":2,"buy":30,"sell":3,
+			"icon":"white-icon husk-icon",
+			"description":"Bone ammunition casing. Stronger than a Huskberry ammunition casing."
+		},
+		{
+			"name":"Lg Bone Husk","japanese":"カラ骨【大】",
+			"maxStack":99,"rarity":3,"sell":5,
+			"icon":"white-icon husk-icon",
+			"description":"Bone ammunition casing that can withstand powerful explosions."
+		},
+		{
+			"name":"Normal S Lv1","japanese":"LV1 通常弾",
+			"maxStack":0,"rarity":1,"buy":1,"sell":0,
+			"icon":"white-icon shot-icon",
+			"description":"Inexpensive ammo for novices, but don't expect much. Unlimited shots.",
+			"details":"6-Motion-Value Normal Shot. Can be loaded into nearly any bowgun.",
+			"acquire":""
+		},
+		{
+			"name":"Normal S Lv2","japanese":"LV2 通常弾",
+			"maxStack":99,"rarity":1,"buy":3,"sell":1,
+			"icon":"white-icon shot-icon",
+			"description":"Normal ammo that is more powerful than Normal S Lv1. Maximum of 99 shots.",
+			"details":"12-Motion-Value Normal Shot. Can be loaded into any bowgun.",
+			"acquire":""
+		},
+		{
+			"name":"Normal S Lv3","japanese":"LV3 通常弾",
+			"maxStack":99,"rarity":2,"buy":5,"sell":2,
+			"icon":"white-icon shot-icon",
+			"description":"Normal ammo that causes more damage than its predecessor. Max 99 shots.",
+			"details":"10-Motion-Value Normal Shot.<span class=\"mhg\"> Ricochet up to 3 times.</span>",
+			"acquire":""
+		},
+		{
+			"name":"Pierce S Lv1","japanese":"LV1 貫通弾",
+			"maxStack":60,"rarity":2,"buy":14,"sell":1,
+			"icon":"white-icon shot-icon",
+			"description":"Piercing round that causes multiple hits to monsters. Max 60 shots.",
+			"details":"10-Motion-Value Piercing Shot. Impacts up to 3 times.",
+			"acquire":""
+		},
+		{
+			"name":"Pierce S Lv2","japanese":"LV2 貫通弾",
+			"maxStack":50,"rarity":2,"buy":32,"sell":3,
+			"icon":"white-icon shot-icon",
+			"description":"Piercing round that causes more hits than Lv1 ammo. Max 50 shots.",
+			"details":"9-Motion-Value Piercing Shot. Impacts up to 4 times.",
+			"acquire":""
+		},
+		{
+			"name":"Pierce S Lv3","japanese":"LV3 貫通弾",
+			"maxStack":40,"rarity":3,"buy":52,"sell":5,
+			"icon":"white-icon shot-icon",
+			"description":"Piercing round that causes the most hits in the class. Max 40 shots.",
+			"details":"7-Motion-Value Piercing Shot. Impacts up to 6 times.",
+			"acquire":""
+		},
+		{
+			"name":"Pellet S Lv1","japanese":"LV1 散弾",
+			"maxStack":60,"rarity":2,"buy":14,"sell":1,
+			"icon":"white-icon shot-icon",
+			"description":"Sprays a wide area and can cause multiple hits at close range. Max 60 shots.",
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 3 times.",
+			"acquire":""
+		},
+		{
+			"name":"Pellet S Lv2","japanese":"LV2 散弾",
+			"maxStack":60,"rarity":2,"buy":20,"sell":2,
+			"icon":"white-icon shot-icon",
+			"description":"Sprays a wide area, causing more hits than Lv1 ammo. Max 60 shots.",
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 4 times.",
+			"acquire":""
+		},
+		{
+			"name":"Pellet S Lv3","japanese":"LV3 散弾",
+			"maxStack":60,"rarity":3,"buy":27,"sell":3,
+			"icon":"white-icon shot-icon",
+			"description":"Sprays a wide area, causing the most hits in the class. Max 60 shots.",
+			"details":"5-Motion-Value Pellet Shot. Impacts up to 6 times.",
+			"acquire":""
+		},
+		{
+			"name":"Crag S Lv1","japanese":"LV1 徹甲榴弾",
+			"maxStack":9,"rarity":3,"buy":41,"sell":4,
+			"icon":"white-icon shot-icon",
+			"description":"Penetrates and explodes in its target. Quite powerful. Max 9 shots.",
+			"details":"Deal 3-Motion-Value raw damage on impact, 20 explosive and 30 fire damage on explosion.",
+			"acquire":""
+		},
+		{
+			"name":"Crag S Lv2","japanese":"LV2 徹甲榴弾",
+			"maxStack":9,"rarity":3,"buy":66,"sell":7,
+			"icon":"white-icon shot-icon",
+			"description":"Very powerful shot that penetrates and explodes in its target. Max 9 shots.",
+			"details":"Deal 3-Motion-Value raw damage on impact, 30 explosive and 45 fire damage on explosion.",
+			"acquire":""
+		},
+		{
+			"name":"Crag S Lv3","japanese":"LV3 徹甲榴弾",
+			"maxStack":9,"rarity":3,"sell":7,
+			"icon":"white-icon shot-icon",
+			"description":"Tremendously powerful shot that penetrates and explodes. Max 9 shots.",
+			"details":"Deal 3-Motion-Value raw damage on impact, 40 explosive and 60 fire damage on explosion.",
+			"acquire":""
+		},
+		{
+			"name":"Clust S Lv1","japanese":"LV1 拡散弾",
+			"maxStack":3,"rarity":2,"buy":38,"sell":4,
+			"icon":"white-icon shot-icon",
+			"description":"Splits into 3 bombs upon impact. Beware of friendly fire. Max 3 shots.",
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage.",
+			"acquire":""
+		},
+		{
+			"name":"Clust S Lv2","japanese":"LV2 拡散弾",
+			"maxStack":3,"rarity":3,"buy":63,"sell":6,
+			"icon":"white-icon shot-icon",
+			"description":"Splits into 4 bombs upon impact. Beware of friendly fire. Max 3 shots.",
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage.",
+			"acquire":""
+		},
+		{
+			"name":"Clust S Lv3","japanese":"LV3 拡散弾",
+			"maxStack":3,"rarity":3,"sell":10,
+			"icon":"white-icon shot-icon",
+			"description":"Splits into 5 bombs upon impact. Beware of friendly fire. Max 3 shots.",
+			"details":"Deal 6-Motion-Value raw damage on impact, 32 explosive and 2 fire damage from each bomblet. Friendly fire will stagger but do no damage.",
+			"acquire":""
+		},
+		{
+			"name":"Flame S","japanese":"火炎弾",
+			"maxStack":60,"rarity":3,"buy":32,"sell":3,
+			"icon":"red-icon shot-icon",
+			"description":"Shot effective against monsters vulnerable to fire. Max 60 shots.",
+			"details":"Deal 1-Motion-Value raw and 40-Motion-Value Fire damage.",
+			"acquire":""
+		},
+		{
+			"name":"Water S","japanese":"水冷弾",
+			"maxStack":60,"rarity":3,"buy":32,"sell":3,
+			"icon":"cyan-icon shot-icon",
+			"description":"Shot effective against monsters vulnerable to water. Max 60 shots.",
+			"details":"Deal 1-Motion-Value raw and 10-Motion-Value Water damage. Impacts up to 3 times.",
+			"acquire":""
+		},
+		{
+			"name":"Thunder S","japanese":"電撃弾",
+			"maxStack":60,"rarity":3,"buy":32,"sell":3,
+			"icon":"yellow-icon shot-icon",
+			"description":"Shot effective against monsters vulnerable to thunder. Max 60 shots.",
+			"details":"Deal 1-Motion-Value raw and 20-Motion-Value Water damage. Impacts up to 3 times.",
+			"acquire":""
+		},
+		{
+			"name":"Ice S","japanese":"氷結弾",
+			"maxStack":60,"rarity":3,"buy":32,"sell":3,
+			"icon":"blue-icon shot-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon S","japanese":"滅龍弾",
+			"maxStack":20,"rarity":5,"sell":24,
+			"icon":"red-icon shot-icon",
+			"description":"Mysterious ammo that can't be used in normal Bowguns. Maximum of 20 shots.",
+			"details":"Deal 48 Dragon damage.<span class=\"mhg\"> Impacts up to 6 times.</span>",
+			"acquire":""
+		},
+		{
+			"name":"Recov S Lv1","japanese":"LV1 回復弾",
+			"maxStack":12,"rarity":1,"buy":8,"sell":2,
+			"icon":"green-icon shot-icon",
+			"description":"Restores a small amount of Health to the target. Maximum of 12 shots.",
+			"details":"Restore 30 hitpoints to all hunters and monsters in the firing cone.",
+			"acquire":""
+		},
+		{
+			"name":"Recov S Lv2","japanese":"LV2 回復弾",
+			"maxStack":12,"rarity":2,"buy":21,"sell":2,
+			"icon":"green-icon shot-icon",
+			"description":"Restores a moderate amount of Health to the target. Maximum of 12 shots.",
+			"details":"Restore 30 hitpoints to all hunters and monsters in the firing cone.",
+			"acquire":""
+		},
+		{
+			"name":"Poison S Lv1","japanese":"LV1 毒弾",
+			"maxStack":12,"rarity":2,"buy":17,"sell":2,
+			"icon":"purple-icon shot-icon",
+			"description":"Poisons target, but may require several shots. Maximum of 12 shots.",
+			"details":"Apply 25 Poison status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Poison S Lv2","japanese":"LV2 毒弾",
+			"maxStack":8,"rarity":3,"sell":2,
+			"icon":"purple-icon shot-icon",
+			"description":"Uses a stronger poison, but may require several shots. Max 8 shots.",
+			"details":"Apply 50 Poison status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Stun S Lv1","japanese":"LV1 麻痺弾",
+			"maxStack":12,"rarity":3,"buy":26,"sell":3,
+			"icon":"yellow-icon shot-icon",
+			"description":"Paralyzes target, but may require several shots. Maximum of 12 shots.",
+			"details":"Apply 25 Paralysis status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Stun S Lv2","japanese":"LV2 麻痺弾",
+			"maxStack":8,"rarity":4,"sell":5,
+			"icon":"yellow-icon shot-icon",
+			"description":"Stronger paralysis effect, but may require several shots. Max 8 shots.",
+			"details":"Apply 50 Paralysis status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Sleep S Lv1","japanese":"LV1 睡眠弾",
+			"maxStack":12,"rarity":3,"buy":17,"sell":2,
+			"icon":"cyan-icon shot-icon",
+			"description":"Puts target to sleep, but may require several shots. Maximum of 12 shots.",
+			"details":"Apply 25 Sleep status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Sleep S Lv2","japanese":"LV2 睡眠弾",
+			"maxStack":8,"rarity":4,"sell":3,
+			"icon":"cyan-icon shot-icon",
+			"description":"Stronger sleep effect, but may require several shots. Max 8 shots.",
+			"details":"Apply 50 Sleep status to a monster. Can affect more than one monster if they are very close together.",
+			"acquire":""
+		},
+		{
+			"name":"Tranq S","japanese":"捕獲用麻酔弾",
+			"maxStack":8,"rarity":4,"sell":4,
+			"icon":"red-icon shot-icon",
+			"description":"Tranquilizer for wyverns. Use on trapped monsters. Max 8 shots. (Supply Item)",
+			"details":"Apply 80 Tranquilizer to a monster; 100 Tranquilizer will put a monster to sleep. Does no damage, but will wake a sleeping monster.",
+			"acquire":""
+		},
+		{
+			"name":"Paint S","japanese":"ペイント弾",
+			"maxStack":99,"rarity":1,"sell":6,
+			"icon":"pink-icon shot-icon",
+			"description":"Marks a monster's position on the map for a set time period. Max 99 shots.",
+			"details":"Paint a monster and it's location will appear on the map for 10 minutes. If a small monster is painted, its icon will disappear once you leave the zone. <span class=\"mh1\">For</span><span class=\"mhg\">With the Detect or Autotracker armor skill, for</span> large monsters, the icon will indicate the monster's facing direction, whether it's flying, and whether it's alerted for combat or calm.",
+			"acquire":""
+		},
+		{
+			"name":"Demon S","japanese":"鬼人弾",
+			"maxStack":5,"rarity":3,"sell":9,
+			"icon":"red-icon shot-icon",
+			"description":"Said to bestow the strength of Asura on the target. Max 5 shots.",
+			"details":"Add 3 to another hunter's true damage, until they cart. Does not stack with Demondrug or Mega Demondrug. Will not take effect if the hunter is using the Supply Box at camp.",
+			"acquire":""
+		},
+		{
+			"name":"Armor S","japanese":"硬化弾",
+			"maxStack":5,"rarity":3,"sell":7,
+			"icon":"orange-icon shot-icon",
+			"description":"Said to make target's skin as hard as stone. Maximum of 5 shots.",
+			"details":"Add 3 to another hunter's defense, until they cart. Does not stack with Armorskin or Mega Armorskin. Will not take effect if the hunter is using the Supply Box at camp.",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"no bottle?","hide":true,"japanese":"ビン無し",
+			"maxStack":0,"rarity":1,"sell":0,
+			"icon":"",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Empty Bottle","japanese":"空きビン",
+			"maxStack":99,"rarity":1,"buy":5,"sell":1,
+			"icon":"white-icon empty-bottle-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Power Coating","japanese":"強撃ビン",
+			"maxStack":50,"rarity":2,"buy":52,"sell":5,
+			"icon":"red-icon coating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Poison Coating","japanese":"毒ビン",
+			"maxStack":20,"rarity":3,"buy":24,"sell":2,
+			"icon":"purple-icon coating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Paralysis Coating","japanese":"麻痺ビン",
+			"maxStack":20,"rarity":3,"buy":54,"sell":5,
+			"icon":"yellow-icon coating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sleep Coating","japanese":"睡眠ビン",
+			"maxStack":20,"rarity":3,"buy":35,"sell":3,
+			"icon":"cyan-icon coating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cricket","japanese":"釣りバッタ",
+			"maxStack":5,"rarity":1,"buy":10,"sell":1,
+			"icon":"green-icon bait-icon",
+			"description":"Energetic insect that works well as bait for fishing.",
+			"details":"Fishing bait with no special properties.",
+			"acquire":""
+		},
+		{
+			"name":"Worm","japanese":"釣りミミズ",
+			"maxStack":10,"rarity":1,"buy":20,"sell":2,
+			"icon":"gray-icon bait-icon",
+			"description":"A fat nightcrawler that works well as bait for fishing.",
+			"details":"Fishing bait with no special properties.",
+			"acquire":""
+		},
+		{
+			"name":"Firefly","japanese":"釣りホタル",
+			"maxStack":20,"rarity":2,"buy":40,"sell":4,
+			"icon":"yellow-icon bait-icon",
+			"description":"A firefly that's always glowing. Works well as bait for fishing.",
+			"details":"Fishing bait with no special properties.",
+			"acquire":""
+		},
+		{
+			"name":"Frog","japanese":"釣りカエル",
+			"maxStack":10,"rarity":2,"sell":15,
+			"icon":"blue-icon bait-icon",
+			"description":"A frog. Works well as bait for fishing.",
+			"details":"Fishing bait that can also be used to fish Plesioth, dealing damage.",
+			"acquire":""
+		},
+		{
+			"name":"Tuna Bait","japanese":"マグダンゴ",
+			"maxStack":10,"rarity":2,"sell":4,
+			"icon":"cyan-icon bait-icon",
+			"description":"The bait preferred by the tuna family of fish.",
+			"details":"Attact Pin Tuna and Speartuna to your fishing lure.",
+			"acquire":""
+		},
+		{
+			"name":"Arrowana Bait","japanese":"アロダンゴ",
+			"maxStack":10,"rarity":2,"sell":7,
+			"icon":"green-icon bait-icon",
+			"description":"The bait preferred by the arrowana family of fish.",
+			"details":"Attact Burst Arrowana and Bomb Arrowana to your fishing lure.",
+			"acquire":""
+		},
+		{
+			"name":"Goldenfish Bait","japanese":"黄金ダンゴ",
+			"maxStack":5,"rarity":4,"sell":30,
+			"icon":"yellow-icon bait-icon",
+			"description":"The bait preferred by Goldenfish.",
+			"details":"Attract Goldenfish to your fishing lure.",
+			"acquire":""
+		},
+		{
+			"name":"Mega Fishing Fly","japanese":"釣りフィーバエ",
+			"maxStack":10,"rarity":3,"buy":30,"sell":3,
+			"icon":"pink-icon bait-icon",
+			"description":"A fly lure that causes a feeding frenzy, no matter what fish is biting.",
+			"details":"??",
+			"acquire":""
+		},
+		{
+			"name":"Old Pickaxe","japanese":"ボロピッケル",
+			"maxStack":3,"rarity":1,"buy":60,"sell":6,
+			"icon":"gray-icon pick-icon",
+			"description":"A cheap pickaxe with an easily chipped blade."
+		},
+		{
+			"name":"Iron Pickaxe","japanese":"ピッケル",
+			"maxStack":4,"rarity":1,"buy":160,"sell":16,
+			"icon":"white-icon pick-icon",
+			"description":"An iron pickaxe with a strong blade."
+		},
+		{
+			"name":"Mega Pickaxe","japanese":"ピッケルグレート",
+			"maxStack":5,"rarity":3,"buy":240,"sell":24,
+			"icon":"yellow-icon pick-icon",
+			"description":"A steel-reinforced pickaxe that is hard to chip."
+		},
+		{
+			"name":"Old Bugnet","japanese":"ボロ虫あみ",
+			"maxStack":3,"rarity":1,"buy":30,"sell":3,
+			"icon":"gray-icon bugnet-icon",
+			"description":"Cheap and easily torn net for catching bugs."
+		},
+		{
+			"name":"Bugnet","japanese":"虫あみ",
+			"maxStack":4,"rarity":1,"buy":80,"sell":8,
+			"icon":"white-icon bugnet-icon",
+			"description":"Strong net for catching bugs."
+		},
+		{
+			"name":"Mega Bugnet","japanese":"虫あみグレート",
+			"maxStack":5,"rarity":3,"buy":120,"sell":12,
+			"icon":"yellow-icon bugnet-icon",
+			"description":"Extremely durable net for catching bugs."
+		},
+		{
+			"name":"BBQ Spit","japanese":"肉焼きセット",
+			"maxStack":1,"rarity":4,"buy":1980,"sell":198,
+			"icon":"red-icon spit-icon",
+			"description":"A must-have item for any hunter. Allows for the cooking of meat.",
+			"details":"Cook Raw Meat into Steak, if you have Raw Meat in your inventory. Use to start cooking, and press <span class=\"ui-icon circle-icon\"></span> to take the meat off the spit. Remove while the music is playing to keep the Raw Meat, shortly after the music stops for Rare Steak, a few seconds after the music for Well-Done Steak, too late or not at all for Burnt Steak.",
+			"acquire":""
+		},
+		{
+			"name":"Fast BBQ Spit","japanese":"高速肉焼きセット",
+			"maxStack":1,"rarity":4,"sell":1000,
+			"icon":"orange-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Men's BBQ Spit","japanese":"男の肉焼きセット",
+			"maxStack":1,"rarity":4,"sell":498,
+			"icon":"cyan-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Women's BBQ Spit","japanese":"女の肉焼きセット",
+			"maxStack":1,"rarity":4,"buy":4980,"sell":498,
+			"icon":"pink-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Felyne BBQ Spit","japanese":"猫の肉焼きセット",
+			"maxStack":1,"rarity":4,"sell":498,
+			"icon":"white-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Kit","japanese":"よろず焼きキット",
+			"maxStack":1,"rarity":4,"buy":1280,"sell":128,
+			"icon":"gray-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set","japanese":"よろず焼きセット",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Raw Meat)","japanese":"よろず焼き・肉",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Seasoned)","japanese":"よろず焼き・肉",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Spicy Meat)","japanese":"よろず焼き・肉",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Cool Meat)","japanese":"よろず焼き・肉",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Poisonous Meat)","japanese":"よろず焼き・肉",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Fish)","japanese":"よろず焼き・魚",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"BBQ Set (Big Fish)","japanese":"よろず焼き・魚",
+			"maxStack":1,"rarity":4,"sell":350,
+			"icon":"blue-icon spit-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Whetstone","japanese":"砥石",
+			"maxStack":20,"rarity":1,"buy":80,"sell":8,
+			"icon":"yellow-icon whetstone-icon",
+			"description":"A standard whetstone. By grinding weapons with it Sharpness is restored.",
+			"details":"Restore 150 hits of sharpness to your weapon.",
+			"acquire":""
+		},
+		{
+			"name":"Binoculars","japanese":"双眼鏡",
+			"maxStack":1,"rarity":1,"buy":50,"sell":5,
+			"icon":"white-icon binoculars-icon",
+			"description":"Lets you observe from a distance."
+		},
+		{
+			"name":"Garbage","japanese":"もえないゴミ",
+			"maxStack":99,"rarity":1,"sell":1,
+			"icon":"gray-icon mystery-icon",
+			"description":"Junk created when a combination attempt fails."
+		},
+		{
+			"name":"Flute","japanese":"角笛",
+			"maxStack":1,"rarity":2,"buy":480,"sell":48,
+			"icon":"yellow-icon flute-icon",
+			"description":"A dangerous device used to attract certain monsters. May break when used.",
+			"details":"Alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":""
+		},
+		{
+			"name":"Health Flute","japanese":"回復笛",
+			"maxStack":1,"rarity":4,"sell":550,
+			"icon":"green-icon flute-icon",
+			"description":"Restores the Health of those who hear it. May break when used.",
+			"details":"Restore 20 hitpoints to yourself and 60 hitpoints to other hunters in the same zone. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":""
+		},
+		{
+			"name":"Antidote Flute","japanese":"解毒笛",
+			"maxStack":1,"rarity":4,"sell":520,
+			"icon":"blue-icon flute-icon",
+			"description":"Eliminates poison in the blood of those who hear it. May break when used.",
+			"details":"Cure poison on yourself and other hunters in the same zone. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":""
+		},
+		{
+			"name":"Demon Flute","japanese":"鬼人笛",
+			"maxStack":1,"rarity":5,"sell":1080,
+			"icon":"red-icon flute-icon",
+			"description":"Increases the strength of those who hear it. May break when used.",
+			"details":"Add 10 to the true damage of your weapon and the weapons of any hunters in the same zone for 3 minutes. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":""
+		},
+		{
+			"name":"Armor Flute","japanese":"硬化笛",
+			"maxStack":1,"rarity":5,"sell":986,
+			"icon":"orange-icon flute-icon",
+			"description":"Improves the endurance of those who hear it. May break when used.",
+			"details":"Add 20 to your defense and the defense of any hunters in the same zone for 3 minutes. Also, alert all monsters in the zone to attack you. Monsters who are actively fleeing to another zone will not be affected.",
+			"acquire":""
+		},
+		{
+			"name":"Honey","japanese":"ハチミツ",
+			"maxStack":10,"rarity":2,"buy":90,"sell":45,
+			"icon":"orange-icon honey-icon",
+			"description":"Normal honey. Highly nutritious."
+		},
+		{
+			"name":"Dawn Herb","japanese":"太陽草",
+			"maxStack":10,"rarity":2,"buy":15,"sell":2,
+			"icon":"yellow-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dusk Herb","japanese":"落陽草",
+			"maxStack":10,"rarity":2,"sell":2,
+			"icon":"purple-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Herb","japanese":"薬草",
+			"maxStack":10,"rarity":1,"buy":20,"sell":2,
+			"icon":"green-icon herb-icon",
+			"description":"A plant that restores a slight amount of Health.",
+			"details":"Restore 20 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Antidote Herb","japanese":"げどく草",
+			"maxStack":10,"rarity":1,"buy":20,"sell":2,
+			"icon":"blue-icon herb-icon",
+			"description":"A plant that has antidotal qualities. May work even if taken by itself.",
+			"details":"Cure poison 50% of the time.",
+			"acquire":""
+		},
+		{
+			"name":"Fire Herb","japanese":"火薬草",
+			"maxStack":20,"rarity":2,"buy":44,"sell":4,
+			"icon":"red-icon herb-icon",
+			"description":"A plant that has flammable properties."
+		},
+		{
+			"name":"Ivy","japanese":"ツタの葉",
+			"maxStack":10,"rarity":1,"buy":75,"sell":8,
+			"icon":"green-icon herb-icon",
+			"description":"A lightweight and extremely strong plant."
+		},
+		{
+			"name":"Sleep Herb","japanese":"ネムリ草",
+			"maxStack":10,"rarity":1,"buy":50,"sell":5,
+			"icon":"cyan-icon herb-icon",
+			"description":"A plant that possesses sleep-inducing qualities."
+		},
+		{
+			"name":"Sap Plant","japanese":"ネンチャク草",
+			"maxStack":30,"rarity":1,"buy":24,"sell":2,
+			"icon":"white-icon herb-icon",
+			"description":"A plant with leaves coated in sticky sap. Difficult to remove once attached."
+		},
+		{
+			"name":"Felvine","japanese":"マタタビ",
+			"maxStack":10,"rarity":1,"buy":14,"sell":1,
+			"icon":"yellow-icon herb-icon",
+			"description":"A Melynx favorite. They can't resist its charm.",
+			"details":"A Melynx will always steal this instead of other items.",
+			"acquire":""
+		},
+		{
+			"name":"Cactus Flower","japanese":"サボテンの花",
+			"maxStack":10,"rarity":2,"sell":10,
+			"icon":"pink-icon herb-icon",
+			"description":"Contains antidotal substances, but has no effect by itself."
+		},
+		{
+			"name":"Flowering Cactus","japanese":"百花サボテン",
+			"maxStack":10,"rarity":4,"sell":80,
+			"icon":"orange-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hot Pepper","japanese":"トウガラシ",
+			"maxStack":10,"rarity":2,"buy":44,"sell":4,
+			"icon":"red-icon herb-icon",
+			"description":"Ignites a fire after only a single bite. Warms you up, but too hot to handle."
+		},
+		{
+			"name":"Special Mushroom","japanese":"特産キノコ",
+			"maxStack":10,"rarity":5,"sell":50,
+			"icon":"white-icon mushroom-icon",
+			"description":"Tiny and difficult to pick. A Mosswine's favorite food. (Account Item)",
+			"details":"<span class=\"mh1\">Remain in your inventory after returning from a quest.</span><span class=\"mhg\">Sold automatically at the end of a quest.</span>",
+			"acquire":""
+		},
+		{
+			"name":"Unique Mushroom","japanese":"厳選キノコ",
+			"maxStack":10,"rarity":5,"sell":100,
+			"icon":"green-icon mushroom-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ripened Mushroom","japanese":"熟成キノコ",
+			"maxStack":10,"rarity":5,"sell":70,
+			"icon":"purple-icon mushroom-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blue Mushroom","japanese":"アオキノコ",
+			"maxStack":10,"rarity":2,"buy":24,"sell":2,
+			"icon":"blue-icon mushroom-icon",
+			"description":"Rare mushroom with a power-enhancing effect."
+		},
+		{
+			"name":"Nitroshroom","japanese":"ニトロダケ",
+			"maxStack":20,"rarity":2,"buy":60,"sell":6,
+			"icon":"red-icon mushroom-icon",
+			"description":"Rare mushroom with the power to generate heat."
+		},
+		{
+			"name":"Stunshroom","japanese":"マヒダケ",
+			"maxStack":10,"rarity":3,"buy":150,"sell":15,
+			"icon":"yellow-icon mushroom-icon",
+			"description":"Mushroom that induces a paralytic effect."
+		},
+		{
+			"name":"Toadstool","japanese":"毒テングダケ",
+			"maxStack":10,"rarity":2,"buy":75,"sell":8,
+			"icon":"purple-icon mushroom-icon",
+			"description":"A poisonous fungus. But perhaps it has other effects as well..."
+		},
+		{
+			"name":"Exciteshroom","japanese":"ドキドキノコ",
+			"maxStack":10,"rarity":3,"sell":18,
+			"icon":"purple-icon mushroom-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Toadstool","japanese":"マンドラゴラ",
+			"maxStack":10,"rarity":3,"buy":400,"sell":40,
+			"icon":"red-icon mushroom-icon",
+			"description":"A dangerous fungus said to draw the life out of people. Beware."
+		},
+		{
+			"name":"Spicy Mushroom","japanese":"特産キノコキムチ",
+			"maxStack":5,"rarity":3,"sell":54,
+			"icon":"orange-icon mushroom-icon",
+			"description":"A mushroom that recovers a small amount of Stamina. (Account Item)"
+		},
+		{
+			"name":"Deadly Toadstool","japanese":"ゲキレツ毒テング",
+			"maxStack":10,"rarity":3,"sell":80,
+			"icon":"purple-icon mushroom-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rainbow Dandelion","japanese":"七色たんぽぽ",
+			"maxStack":99,"rarity":4,"sell":150,
+			"icon":"white-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Paintberry","japanese":"ペイントの実",
+			"maxStack":99,"rarity":1,"sell":6,
+			"icon":"pink-icon seed-icon",
+			"description":"Releases a paint-like juice and a powerful smell when broken."
+		},
+		{
+			"name":"Power Seed","japanese":"怪力の種",
+			"maxStack":10,"rarity":2,"buy":280,"sell":140,
+			"icon":"red-icon seed-icon",
+			"description":"Improves natural energy- flow and temporarily raises Attack power.",
+			"details":"Add 10 to your weaon's raw damage for 3 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Armor Seed","japanese":"忍耐の種",
+			"maxStack":10,"rarity":2,"buy":220,"sell":110,
+			"icon":"orange-icon seed-icon",
+			"description":"Temporarily increases Defense when consumed. Very invigorating.",
+			"details":"Add 20 to your defense for 3 minutes.",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Seed","japanese":"龍殺しの実",
+			"maxStack":2,"rarity":2,"sell":78,
+			"icon":"red-icon seed-icon",
+			"description":"Mysterious berry said to be hated by dragons."
+		},
+		{
+			"name":"Scatternut","japanese":"はじけクルミ",
+			"maxStack":30,"rarity":2,"buy":82,"sell":4,
+			"icon":"gray-icon seed-icon",
+			"description":"A nut that shatters to pieces when subjected to an impact."
+		},
+		{
+			"name":"Needleberry","japanese":"ハリの実",
+			"maxStack":99,"rarity":1,"buy":22,"sell":1,
+			"icon":"gray-icon seed-icon",
+			"description":"A berry covered in needle-like thorns."
+		},
+		{
+			"name":"Bomberry","japanese":"カクサンの実",
+			"maxStack":10,"rarity":2,"buy":120,"sell":12,
+			"icon":"gray-icon seed-icon",
+			"description":"A berry that explodes when subjected to an impact."
+		},
+		{
+			"name":"Chipped Shell","japanese":"かけた貝殻",
+			"maxStack":10,"rarity":2,"sell":30,
+			"icon":"gray-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Black Pearl","japanese":"黒真珠",
+			"maxStack":99,"rarity":4,"sell":50,
+			"icon":"gray-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sunshine Ore","japanese":"陽光石",
+			"maxStack":99,"rarity":2,"sell":75,
+			"icon":"yellow-icon stone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Stone","japanese":"石ころ",
+			"maxStack":99,"rarity":1,"sell":1,
+			"icon":"gray-icon stone-icon",
+			"description":"A small rock. Can be thrown."
+		},
+		{
+			"name":"Iron Ore","japanese":"鉄鉱石",
+			"maxStack":99,"rarity":4,"sell":60,
+			"icon":"gray-icon stone-icon",
+			"description":"Iron Ore can be smelted into metal and used for many different purposes."
+		},
+		{
+			"name":"Earth Crystal","japanese":"大地の結晶",
+			"maxStack":99,"rarity":4,"sell":80,
+			"icon":"white-icon stone-icon",
+			"description":"Crystallized remains of micro biotic organisms. A prized weapon abrasive."
+		},
+		{
+			"name":"Machalite Ore","japanese":"マカライト鉱石",
+			"maxStack":99,"rarity":5,"sell":160,
+			"icon":"blue-icon stone-icon",
+			"description":"Better than Iron Ore. Used to make Machalite. Also called Sparrowstone."
+		},
+		{
+			"name":"Dragonite Ore","japanese":"ドラグライト鉱石",
+			"maxStack":99,"rarity":5,"sell":480,
+			"icon":"green-icon stone-icon",
+			"description":"Better than Machalite. Extremely valuable. Also called Dragonstone."
+		},
+		{
+			"name":"Carbalite Ore","japanese":"カブレライト鉱石",
+			"maxStack":99,"rarity":5,"sell":680,
+			"icon":"purple-icon stone-icon",
+			"description":"An experimental ore also called Spiritstone, it is superior to Dragonite."
+		},
+		{
+			"name":"Union Ore","japanese":"ユニオン鉱石",
+			"maxStack":99,"rarity":5,"sell":320,
+			"icon":"pink-icon stone-icon",
+			"description":"Ore containing a metal that can fuse any other material together."
+		},
+		{
+			"name":"Firestone","japanese":"紅蓮石",
+			"maxStack":99,"rarity":5,"sell":860,
+			"icon":"red-icon stone-icon",
+			"description":"Combusts at room temp. Can only be mixed with suitable materials."
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Coal","japanese":"燃石炭",
+			"maxStack":10,"rarity":3,"sell":120,
+			"icon":"gray-icon stone-icon",
+			"description":"A combustible rock that emanates a faint warmth. (Account Item)"
+		},
+		{
+			"name":"Lightcrystal","japanese":"ライトクリスタル",
+			"maxStack":99,"rarity":5,"sell":1150,
+			"icon":"gray-icon stone-icon",
+			"description":"Crystal with a dull glow. Extremely hard, it is used for tools in the armory."
+		},
+		{
+			"name":"Novacrystal","japanese":"ノヴァクリスタル",
+			"maxStack":99,"rarity":5,"sell":2440,
+			"icon":"white-icon stone-icon",
+			"description":"Brightly glowing crystal. Extremely hard, it is used for tools in the armory."
+		},
+		{
+			"name":"Antiseptic Stone","japanese":"抗菌石",
+			"maxStack":10,"rarity":3,"sell":183,
+			"icon":"yellow-icon stone-icon",
+			"description":"An unnatural Crystal with enhanced antiseptic qualities."
+		},
+		{
+			"name":"Ice Crystal","japanese":"氷結晶",
+			"maxStack":20,"rarity":2,"sell":60,
+			"icon":"cyan-icon stone-icon",
+			"description":"Will not thaw at room temperature. This crystal is quite pleasant."
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":10,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Great Hibiscus","japanese":"ドスビスカス",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"pink-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Beer Nuts","japanese":"エールナッツ",
+			"maxStack":99,"rarity":5,"sell":950,
+			"icon":"orange-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Amber Ore","japanese":"アンバル鉱石",
+			"maxStack":99,"rarity":5,"sell":1100,
+			"icon":"orange-icon stone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Secret Stash","japanese":"秘密のポーチ",
+			"maxStack":10,"rarity":4,"sell":100,
+			"icon":"green-icon powder-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Knife Mackerel","japanese":"キレアジ",
+			"maxStack":10,"rarity":1,"buy":135,"sell":45,
+			"icon":"yellow-icon fish-icon",
+			"description":"A fish with a dorsal fin hard enough to be used to sharpen weapons.",
+			"details":"Restore 150 hits of sharpness.",
+			"acquire":""
+		},
+		{
+			"name":"Sushifish","japanese":"サシミウオ",
+			"maxStack":10,"rarity":1,"buy":90,"sell":45,
+			"icon":"orange-icon fish-icon",
+			"description":"A delicious fish that restores a small amount of Health when consumed.",
+			"details":"Restore 20 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Sleepyfish","japanese":"眠魚",
+			"maxStack":10,"rarity":2,"sell":45,
+			"icon":"cyan-icon fish-icon",
+			"description":"A fish with sleep-inducing properties."
+		},
+		{
+			"name":"Pin Tuna","japanese":"ハリマグロ",
+			"maxStack":30,"rarity":1,"buy":190,"sell":50,
+			"icon":"gray-icon fish-icon",
+			"description":"A fish with a jaw covered in tiny needle-like spikes."
+		},
+		{
+			"name":"Rumblefish","japanese":"はじけイワシ",
+			"maxStack":30,"rarity":2,"buy":38,"sell":15,
+			"icon":"gray-icon fish-icon",
+			"description":"A fish that cracks open when killed."
+		},
+		{
+			"name":"Scatterfish","japanese":"カクサンデメキン",
+			"maxStack":10,"rarity":4,"sell":150,
+			"icon":"gray-icon fish-icon",
+			"description":"A fish that shatters to pieces when killed."
+		},
+		{
+			"name":"Burst Arrowana","japanese":"ハレツアロワナ",
+			"maxStack":10,"rarity":4,"sell":45,
+			"icon":"gray-icon fish-icon",
+			"description":"A fish that ruptures open when killed."
+		},
+		{
+			"name":"Bomb Arrowana","japanese":"バクレツアロワナ",
+			"maxStack":10,"rarity":4,"sell":135,
+			"icon":"gray-icon fish-icon",
+			"description":"A fish that explodes when killed."
+		},
+		{
+			"name":"Knife Mackerel+","japanese":"ドスキレアジ",
+			"maxStack":5,"rarity":3,"sell":70,
+			"icon":"yellow-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sleepyfish+","japanese":"ドス眠魚",
+			"maxStack":5,"rarity":4,"sell":60,
+			"icon":"cyan-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Pin Tuna+","japanese":"ドスハリマグロ",
+			"maxStack":5,"rarity":4,"sell":100,
+			"icon":"gray-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rumblefish+","japanese":"ドスはじけイワシ",
+			"maxStack":5,"rarity":4,"sell":50,
+			"icon":"gray-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Great Arrowana","japanese":"ドスアロワナ",
+			"maxStack":5,"rarity":4,"sell":150,
+			"icon":"green-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Glutton Tuna","japanese":"大食いマグロ",
+			"maxStack":10,"rarity":4,"sell":13,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Glutton Tuna+","japanese":"ドス大食いマグロ",
+			"maxStack":5,"rarity":5,"sell":23,
+			"icon":"orange-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Goldenfish","japanese":"黄金魚",
+			"maxStack":10,"rarity":4,"sell":200,
+			"icon":"yellow-icon fish-icon",
+			"description":"A rare fish whose entire body is gold. Can be sold for profit. (Account Item)"
+		},
+		{
+			"name":"Speartuna","japanese":"カジキマグロ",
+			"maxStack":10,"rarity":5,"sell":1000,
+			"icon":"blue-icon fish-icon",
+			"description":"A rare and valuable giant-sized fish. What could it be used for...?"
+		},
+		{
+			"name":"Small Goldenfish","japanese":"小金魚",
+			"maxStack":10,"rarity":4,"sell":110,
+			"icon":"yellow-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Platinumfish","japanese":"白金魚",
+			"maxStack":10,"rarity":5,"sell":770,
+			"icon":"white-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Fish","japanese":"古代魚",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"white-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Queen Shrimp","japanese":"女王エビ",
+			"maxStack":99,"rarity":4,"sell":880,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Insect Husk","japanese":"虫の死骸",
+			"maxStack":10,"rarity":1,"buy":10,"sell":1,
+			"icon":"gray-icon bug-icon",
+			"description":"The remains of a dead insect."
+		},
+		{
+			"name":"Yambug","japanese":"ヤマイモムシ",
+			"maxStack":99,"rarity":1,"buy":30,"sell":3,
+			"icon":"blue-icon bug-icon",
+			"description":"Yam-like bug that exudes a scent that drives tuna wild. Great fishing lure."
+		},
+		{
+			"name":"Bughopper","japanese":"カクバッタ",
+			"maxStack":99,"rarity":1,"buy":60,"sell":6,
+			"icon":"white-icon bug-icon",
+			"description":"An insect that exudes a scent that drives arrowana wild. Great fishing lure."
+		},
+		{
+			"name":"Snakebee Larva","japanese":"ツチハチノコ",
+			"maxStack":99,"rarity":1,"buy":300,"sell":30,
+			"icon":"orange-icon bug-icon",
+			"description":"A snake-like larva with a scent that Goldenfish just love. Great fishing lure."
+		},
+		{
+			"name":"Godbug","japanese":"不死虫",
+			"maxStack":10,"rarity":4,"buy":420,"sell":210,
+			"icon":"white-icon bug-icon",
+			"description":"An insect said to live for a thousand years."
+		},
+		{
+			"name":"Bitterbug","japanese":"にが虫",
+			"maxStack":10,"rarity":1,"sell":2,
+			"icon":"blue-icon bug-icon",
+			"description":"Contains a bitter essence. Has a 50% chance of curing poison if consumed."
+		},
+		{
+			"name":"Flashbug","japanese":"光蟲",
+			"maxStack":10,"rarity":2,"sell":48,
+			"icon":"yellow-icon bug-icon",
+			"description":"An insect that emits a powerful flash when it dies."
+		},
+		{
+			"name":"Thunderbug","japanese":"雷光虫",
+			"maxStack":99,"rarity":4,"sell":350,
+			"icon":"yellow-icon bug-icon",
+			"description":"An insect that emits electricity when struck. Has many applications."
+		},
+		{
+			"name":"King Scarab","japanese":"王族カナブン",
+			"maxStack":99,"rarity":4,"sell":800,
+			"icon":"red-icon bug-icon",
+			"description":"The royal class of the scarabs, with a hard shell and lustrous wings."
+		},
+		{
+			"name":"Joiner Grasshopper","japanese":"のりこねバッタ",
+			"maxStack":99,"rarity":5,"sell":120,
+			"icon":"pink-icon bug-icon",
+			"description":"A grasshopper capable of joining any two materials by excreting a firm glue."
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Glittering Beetle","japanese":"キラビートル",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Male Scarab Beetle","japanese":"マレコガネ",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"green-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Royal Rhino","japanese":"ロイヤルカブト",
+			"maxStack":10,"rarity":2,"sell":200,
+			"icon":"blue-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Jungle Onion","japanese":"ジャンゴーネギ",
+			"maxStack":99,"rarity":2,"buy":50,"sell":5,
+			"icon":"green-icon tuber-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sliced Cactus","japanese":"スライスサボテン",
+			"maxStack":99,"rarity":2,"buy":100,"sell":10,
+			"icon":"yellow-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rare Onion","japanese":"レアオニオン",
+			"maxStack":99,"rarity":3,"buy":250,"sell":25,
+			"icon":"orange-icon tuber-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Juicy Tomato","japanese":"シモフリトマト",
+			"maxStack":99,"rarity":3,"buy":450,"sell":45,
+			"icon":"red-icon tuber-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Demon Mushroom","japanese":"オニマツタケ",
+			"maxStack":99,"rarity":4,"sell":98,
+			"icon":"yellow-icon mushroom-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Warm Wheat","japanese":"ウォーミル麦",
+			"maxStack":99,"rarity":1,"buy":80,"sell":8,
+			"icon":"orange-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bean Mix","japanese":"ミックスビーンズ",
+			"maxStack":99,"rarity":2,"buy":150,"sell":15,
+			"icon":"green-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hard Bread","japanese":"頑固パン",
+			"maxStack":99,"rarity":2,"buy":350,"sell":35,
+			"icon":"yellow-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Silver Rice Grass","japanese":"銀シャリ草",
+			"maxStack":99,"rarity":3,"buy":560,"sell":56,
+			"icon":"gray-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Elder Beans","japanese":"古代豆",
+			"maxStack":99,"rarity":5,"sell":88,
+			"icon":"red-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"White Liver","japanese":"ホワイトレバー",
+			"maxStack":99,"rarity":2,"buy":100,"sell":10,
+			"icon":"white-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Popo Tongue","japanese":"ポポノタン",
+			"maxStack":99,"rarity":3,"buy":200,"sell":20,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Pickled Khezu Whelp","japanese":"フルベビ漬け",
+			"maxStack":99,"rarity":3,"sell":38,
+			"icon":"white-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Remobra Meat","japanese":"ガブリブロース",
+			"maxStack":99,"rarity":4,"sell":55,
+			"icon":"red-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Meat","japanese":"リュウノテール",
+			"maxStack":99,"rarity":5,"sell":200,
+			"icon":"purple-icon meat-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Notefish","japanese":"オンプウオ",
+			"maxStack":99,"rarity":2,"buy":30,"sell":3,
+			"icon":"gray-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Snake Salmon","japanese":"スネークサーモン",
+			"maxStack":99,"rarity":4,"buy":280,"sell":28,
+			"icon":"green-icon fish-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rice Bug","japanese":"米虫",
+			"maxStack":99,"rarity":2,"buy":30,"sell":3,
+			"icon":"gray-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Spiceworm","japanese":"スパイスワーム",
+			"maxStack":99,"rarity":3,"buy":400,"sell":40,
+			"icon":"red-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Honeyfly","japanese":"蜜トンボ",
+			"maxStack":99,"rarity":3,"sell":66,
+			"icon":"yellow-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hercules Beetle","japanese":"ドスヘラクレス",
+			"maxStack":99,"rarity":5,"sell":118,
+			"icon":"blue-icon bug-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Red Oil","japanese":"レッドオイル",
+			"maxStack":99,"rarity":2,"buy":100,"sell":10,
+			"icon":"red-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Power Lard","japanese":"パワーラード",
+			"maxStack":99,"rarity":3,"buy":400,"sell":40,
+			"icon":"green-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Life Jam","japanese":"長寿ジャム",
+			"maxStack":99,"rarity":4,"buy":980,"sell":98,
+			"icon":"red-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dry Margerine","japanese":"ドライマーガリン",
+			"maxStack":99,"rarity":2,"buy":100,"sell":10,
+			"icon":"yellow-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fierce Butter","japanese":"猛牛バター",
+			"maxStack":99,"rarity":3,"buy":400,"sell":40,
+			"icon":"red-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Royal Cheese","japanese":"ロイヤルチーズ",
+			"maxStack":99,"rarity":4,"buy":880,"sell":88,
+			"icon":"yellow-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hopi Wine","japanese":"ホピ酒",
+			"maxStack":99,"rarity":2,"buy":300,"sell":30,
+			"icon":"green-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blessed Wine","japanese":"ブレスワイン",
+			"maxStack":99,"rarity":3,"buy":600,"sell":60,
+			"icon":"pink-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Golden Wine","japanese":"黄金芋酒",
+			"maxStack":99,"rarity":5,"buy":1280,"sell":128,
+			"icon":"yellow-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Monster Egg","japanese":"モンスターエッグ",
+			"maxStack":99,"rarity":3,"sell":77,
+			"icon":"yellow-icon egg-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rice Crackers","japanese":"ブタせんべい",
+			"maxStack":99,"rarity":1,"buy":10,"sell":1,
+			"icon":"white-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Screamer","japanese":"鳴き袋",
+			"maxStack":99,"rarity":4,"buy":150,"sell":15,
+			"icon":"gray-icon powder-icon",
+			"description":"A monster's internal organ. If broken, it emits a shrill sound."
+		},
+		{
+			"name":"Poison Sac","japanese":"毒袋",
+			"maxStack":99,"rarity":4,"sell":96,
+			"icon":"purple-icon powder-icon",
+			"description":"A monster's internal organ. Contains a lethal poison."
+		},
+		{
+			"name":"Stun Sac","japanese":"麻痺袋",
+			"maxStack":99,"rarity":4,"sell":120,
+			"icon":"yellow-icon powder-icon",
+			"description":"A monster's internal organ filled with a paralyzing neurotoxin."
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sleep Sac","japanese":"睡眠袋",
+			"maxStack":99,"rarity":4,"sell":340,
+			"icon":"cyan-icon powder-icon",
+			"description":"A monster's internal organ filled with a powder that causes sleep when inhaled."
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Sac","japanese":"火炎袋",
+			"maxStack":99,"rarity":4,"sell":240,
+			"icon":"red-icon powder-icon",
+			"description":"A monster's internal organ. Contains a very flammable powder."
+		},
+		{
+			"name":"Electro Sac","japanese":"電気袋",
+			"maxStack":99,"rarity":4,"sell":480,
+			"icon":"yellow-icon powder-icon",
+			"description":"The internal organ of a Khezu. Releases electricity if disturbed."
+		},
+		{
+			"name":"Power Extract","japanese":"狂走エキス",
+			"maxStack":20,"rarity":3,"sell":56,
+			"icon":"blue-icon jar-icon",
+			"description":"Gypceros extract. The secret to its ability to run fast and far."
+		},
+		{
+			"name":"Pale Extract","japanese":"アルビノエキス",
+			"maxStack":20,"rarity":3,"sell":122,
+			"icon":"blue-icon jar-icon",
+			"description":"Khezu extract. Has the ability to amplify the effects of medicines."
+		},
+		{
+			"name":"Sm Monster Bone","japanese":"竜骨【小】",
+			"maxStack":99,"rarity":3,"buy":100,"sell":10,
+			"icon":"yellow-icon bone-icon",
+			"description":"A very useful material, indispensable for both hunting and daily life."
+		},
+		{
+			"name":"Med Monster Bone","japanese":"竜骨【中】",
+			"maxStack":99,"rarity":4,"sell":210,
+			"icon":"yellow-icon bone-icon",
+			"description":"These have more uses than smaller bones. Usually carved to make an item."
+		},
+		{
+			"name":"Lg Monster Bone","japanese":"竜骨【大】",
+			"maxStack":99,"rarity":5,"sell":440,
+			"icon":"yellow-icon bone-icon",
+			"description":"Indispensable for crafting one-piece items. Bone can be connected to shell."
+		},
+		{
+			"name":"Monster Bone+","japanese":"堅竜骨",
+			"maxStack":99,"rarity":5,"sell":560,
+			"icon":"pink-icon bone-icon",
+			"description":"A monster's most unique bone. Priceless strength, but difficult to work."
+		},
+		{
+			"name":"Ancient Bone","japanese":"古龍骨",
+			"maxStack":99,"rarity":4,"sell":880,
+			"icon":"red-icon bone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Mystery Bone","japanese":"なぞの骨",
+			"maxStack":99,"rarity":1,"sell":1,
+			"icon":"yellow-icon bone-icon",
+			"description":"A well-worn bone. Not sturdy enough to use in combination."
+		},
+		{
+			"name":"Unknown Skull","japanese":"なぞの頭骨",
+			"maxStack":99,"rarity":4,"sell":120,
+			"icon":"white-icon bone-icon",
+			"description":"Animal skull. So worn and weathered, it's unidentifiable."
+		},
+		{
+			"name":"Master's Skull","japanese":"達人のドクロ",
+			"maxStack":99,"rarity":5,"sell":1250,
+			"icon":"white-icon bone-icon",
+			"description":"The remains of a top hunter who once let his guard down."
+		},
+		{
+			"name":"Bone","japanese":"棒状の骨",
+			"maxStack":99,"rarity":1,"sell":15,
+			"icon":"white-icon bone-icon",
+			"description":"Just a bone. So worn and weathered, it's unidentifiable."
+		},
+		{
+			"name":"Jumbo Bone","japanese":"大きな骨",
+			"maxStack":99,"rarity":4,"sell":50,
+			"icon":"white-icon bone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Fang","japanese":"竜の牙",
+			"maxStack":99,"rarity":3,"buy":58,"sell":6,
+			"icon":"white-icon claw-icon",
+			"description":"Used for Bowgun munitions. Combined with explosives, it makes spreading shots."
+		},
+		{
+			"name":"Wyvern Claw","japanese":"竜の爪",
+			"maxStack":50,"rarity":3,"buy":180,"sell":18,
+			"icon":"white-icon claw-icon",
+			"description":"Used for Bowgun munitions. Combined with explosives, it makes explosive shots."
+		},
+		{
+			"name":"Wyvern Stone","japanese":"竜玉",
+			"maxStack":50,"rarity":4,"sell":6000,
+			"icon":"blue-icon stone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Tears","japanese":"竜のナミダ",
+			"maxStack":10,"rarity":5,"sell":500,
+			"icon":"blue-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Territorial Dung","japanese":"なわばりのフン",
+			"maxStack":10,"rarity":5,"sell":500,
+			"icon":"orange-icon dung-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Crab Pearl","japanese":"ヤド真珠",
+			"maxStack":10,"rarity":5,"sell":500,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Treasure","japanese":"龍秘宝",
+			"maxStack":10,"rarity":5,"sell":800,
+			"icon":"yellow-icon bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Decayed Scale","japanese":"朽ちた龍鱗",
+			"maxStack":99,"rarity":5,"sell":320,
+			"icon":"gray-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Medicine Stone","japanese":"龍薬石",
+			"maxStack":10,"rarity":5,"sell":500,
+			"icon":"red-icon stone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Mosswine Hide","japanese":"モスの苔皮",
+			"maxStack":99,"rarity":4,"sell":36,
+			"icon":"pink-icon hide-icon",
+			"description":"Mosswine hide. It's covered in moss."
+		},
+		{
+			"name":"Mosswine Head","japanese":"モスの頭",
+			"maxStack":99,"rarity":4,"sell":12,
+			"icon":"pink-icon creature-icon",
+			"description":"The head of a Mosswine. Only a true collector would bring one back."
+		},
+		{
+			"name":"Bullfango Pelt","japanese":"ファンゴの毛皮",
+			"maxStack":50,"rarity":1,"sell":40,
+			"icon":"orange-icon hide-icon",
+			"description":"Bullfango hide. It's covered in bristly fur."
+		},
+		{
+			"name":"Bullfango Head","japanese":"ファンゴの頭",
+			"maxStack":99,"rarity":4,"sell":130,
+			"icon":"orange-icon creature-icon",
+			"description":"A Bullfango head with a pair of huge fangs."
+		},
+		{
+			"name":"Bulldrome Hide","japanese":"大猪の皮",
+			"maxStack":99,"rarity":3,"sell":100,
+			"icon":"white-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bulldrome Hide+","japanese":"大猪の硬い皮",
+			"maxStack":99,"rarity":4,"sell":200,
+			"icon":"white-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Kelbi Horn","japanese":"ケルビの角",
+			"maxStack":99,"rarity":4,"buy":520,"sell":52,
+			"icon":"blue-icon claw-icon",
+			"description":"Infusions of powdered Kelbi Horn are used as medicine here."
+		},
+		{
+			"name":"Kelbi Hide","japanese":"ケルビの皮",
+			"maxStack":50,"rarity":1,"sell":24,
+			"icon":"blue-icon hide-icon",
+			"description":"Used to join the plates in a suit of armor and to make winter clothing."
+		},
+		{
+			"name":"Anteka Pelt","japanese":"ガウシカの毛皮",
+			"maxStack":99,"rarity":3,"sell":35,
+			"icon":"orange-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Anteka Horn","japanese":"ガウシカの角",
+			"maxStack":99,"rarity":4,"sell":58,
+			"icon":"orange-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Velociprey Fang","japanese":"ランポスの牙",
+			"maxStack":99,"rarity":2,"buy":82,"sell":15,
+			"icon":"blue-icon claw-icon",
+			"description":"Sharp (though not as sharp as a wyvern fang). Used to make Bowgun ammo."
+		},
+		{
+			"name":"Velociprey Scale","japanese":"ランポスの鱗",
+			"maxStack":50,"rarity":3,"sell":40,
+			"icon":"blue-icon scale-icon",
+			"description":"Scale obtained by carving up a Velociprey. Blue and black in color."
+		},
+		{
+			"name":"Velociprey Scale+","japanese":"ランポスの上鱗",
+			"maxStack":99,"rarity":5,"sell":120,
+			"icon":"blue-icon scale-icon",
+			"description":"Scale stripped from a Velociprey. It can be made into light, durable armor."
+		},
+		{
+			"name":"Velociprey Hide","japanese":"ランポスの皮",
+			"maxStack":50,"rarity":3,"sell":28,
+			"icon":"blue-icon hide-icon",
+			"description":"Obtained by carving up a Velociprey. Valued as a fusing item in armorcraft."
+		},
+		{
+			"name":"Velocidrome Hide","japanese":"ドスランポスの皮",
+			"maxStack":50,"rarity":5,"sell":240,
+			"icon":"blue-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Velocidrome Claw","japanese":"ドスランポスの爪",
+			"maxStack":99,"rarity":5,"sell":200,
+			"icon":"blue-icon claw-icon",
+			"description":"Claw from an alpha Velociprey. Sharp and blade-like."
+		},
+		{
+			"name":"Velocidrome Claw+","japanese":"ランポスの尖爪",
+			"maxStack":99,"rarity":5,"sell":550,
+			"icon":"blue-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Velocidrome Head","japanese":"ドスランポスの頭",
+			"maxStack":99,"rarity":5,"sell":560,
+			"icon":"blue-icon creature-icon",
+			"description":"Large head with a crest. You'd look pretty fierce if you wore it on your head."
+		},
+		{
+			"name":"White Velociprey Scale","japanese":"ランポスの白鱗",
+			"maxStack":99,"rarity":5,"sell":360,
+			"icon":"white-icon scale-icon",
+			"description":"Rare, White Velociprey scale. Its refined hue is a popular secret."
+		},
+		{
+			"name":"White Velociprey Hide","japanese":"ランポスの白皮",
+			"maxStack":99,"rarity":5,"sell":252,
+			"icon":"white-icon hide-icon",
+			"description":"Rare, White Velociprey hide. The elegant color is quite popular."
+		},
+		{
+			"name":"Genprey Fang","japanese":"ゲネポスの麻痺牙",
+			"maxStack":99,"rarity":2,"buy":80,"sell":35,
+			"icon":"green-icon claw-icon",
+			"description":"Poisonous fang from a Genprey. The neurotoxin even works on wyverns."
+		},
+		{
+			"name":"Genprey Scale","japanese":"ゲネポスの鱗",
+			"maxStack":50,"rarity":3,"sell":40,
+			"icon":"green-icon scale-icon",
+			"description":"Scale from a Genprey. Acts as camouflage in the desert zones."
+		},
+		{
+			"name":"Genprey Scale+","japanese":"ゲネポスの上鱗",
+			"maxStack":99,"rarity":5,"sell":180,
+			"icon":"green-icon scale-icon",
+			"description":"Scale taken from a Genprey. Strong enough to repel a wyvern's fangs."
+		},
+		{
+			"name":"Genprey Hide","japanese":"ゲネポスの皮",
+			"maxStack":50,"rarity":3,"sell":28,
+			"icon":"green-icon hide-icon",
+			"description":"A hide with all the scales removed. Can be tanned at the fort."
+		},
+		{
+			"name":"Gendrome Hide","japanese":"ドスゲネポスの皮",
+			"maxStack":99,"rarity":4,"sell":560,
+			"icon":"green-icon hide-icon",
+			"description":"Sturdy green hide from a Gendrome. Perfect for making strong armor."
+		},
+		{
+			"name":"Gendrome Head","japanese":"ドスゲネポスの頭",
+			"maxStack":99,"rarity":4,"sell":880,
+			"icon":"green-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ioprey Fang","japanese":"イーオスの毒牙",
+			"maxStack":99,"rarity":2,"buy":50,"sell":25,
+			"icon":"red-icon claw-icon",
+			"description":"Fang filled with deadly poison. Care is required when handling it."
+		},
+		{
+			"name":"Ioprey Scale","japanese":"イーオスの鱗",
+			"maxStack":50,"rarity":3,"sell":40,
+			"icon":"red-icon scale-icon",
+			"description":"The dangerous poison normally in the scale has been removed."
+		},
+		{
+			"name":"Ioprey Scale+","japanese":"イーオスの上鱗",
+			"maxStack":99,"rarity":5,"sell":240,
+			"icon":"red-icon scale-icon",
+			"description":"Scale stripped from an Ioprey. Can be used, once the poison is removed."
+		},
+		{
+			"name":"Ioprey Hide","japanese":"イーオスの皮",
+			"maxStack":50,"rarity":3,"sell":28,
+			"icon":"red-icon hide-icon",
+			"description":"Can be tanned at the fort. The red portions are used as decorations."
+		},
+		{
+			"name":"Iodrome Hide","japanese":"ドスイーオスの皮",
+			"maxStack":99,"rarity":4,"sell":560,
+			"icon":"red-icon hide-icon",
+			"description":"Sturdy red hide from an Iodrome. Perfect for making strong armor."
+		},
+		{
+			"name":"Iodrome Head","japanese":"ドスイーオスの頭",
+			"maxStack":99,"rarity":4,"sell":770,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Kut-Ku Scale","japanese":"怪鳥の鱗",
+			"maxStack":99,"rarity":4,"buy":1500,"sell":150,
+			"icon":"pink-icon scale-icon",
+			"description":"Pink colored scale from a Kut-Ku. Fire-resistant. Can be found in the field."
+		},
+		{
+			"name":"Kut-Ku Shell","japanese":"怪鳥の甲殻",
+			"maxStack":99,"rarity":4,"sell":345,
+			"icon":"pink-icon creature-icon",
+			"description":"The Fire resistant shell of a Kut-Ku. Quite resistant to Fire."
+		},
+		{
+			"name":"Kut-Ku Carapace","japanese":"怪鳥の堅殻",
+			"maxStack":99,"rarity":5,"sell":690,
+			"icon":"pink-icon creature-icon",
+			"description":"Harder than Kut-Ku Shell, this material is also known as Gravite."
+		},
+		{
+			"name":"Kut-Ku Ear","japanese":"怪鳥の耳",
+			"maxStack":99,"rarity":5,"sell":1280,
+			"icon":"pink-icon creature-icon",
+			"description":"The Fire resistant ear of a Kut-Ku. Used to prevent Bowgun flash-back."
+		},
+		{
+			"name":"Long Kut-Ku Ear","japanese":"怪鳥の地獄耳",
+			"maxStack":99,"rarity":5,"sell":1600,
+			"icon":"pink-icon creature-icon",
+			"description":"Kut-Ku's Fire resistant ear. The flexible material is a good base for armor."
+		},
+		{
+			"name":"Giant Beak","japanese":"巨大なクチバシ",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"pink-icon bone-icon",
+			"description":"The huge, sturdy beak of a Yian Kut-Ku."
+		},
+		{
+			"name":"Splendid Beak","japanese":"立派なクチバシ",
+			"maxStack":99,"rarity":5,"sell":2250,
+			"icon":"pink-icon bone-icon",
+			"description":"Encountering a large, beautiful beak like this is quite rare. Splendid!"
+		},
+		{
+			"name":"Kut-Ku Webbing","japanese":"怪鳥の翼膜",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"pink-icon honey-icon",
+			"description":"Webbing from a Kut-Ku wing. Better as a fusing material than animal skin."
+		},
+		{
+			"name":"Blue Kut-Ku Scale","japanese":"青怪鳥の鱗",
+			"maxStack":99,"rarity":5,"sell":400,
+			"icon":"blue-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blue Kut-Ku Shell","japanese":"青怪鳥の甲殻",
+			"maxStack":99,"rarity":5,"sell":550,
+			"icon":"blue-icon creature-icon",
+			"description":"Carapace of a rare Blue Kut-Ku. The vivid blue makes it a popular item."
+		},
+		{
+			"name":"Blue Kut-Ku Carapace","japanese":"青怪鳥の堅殻",
+			"maxStack":99,"rarity":5,"sell":1380,
+			"icon":"blue-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rubbery Hide","japanese":"ゴム質の皮",
+			"maxStack":99,"rarity":4,"sell":370,
+			"icon":"blue-icon hide-icon",
+			"description":"Highly elastic Gypceros hide. A good insulator, resistant to electricity."
+		},
+		{
+			"name":"Rubbery Hide+","japanese":"ゴム質の上皮",
+			"maxStack":99,"rarity":5,"sell":740,
+			"icon":"blue-icon hide-icon",
+			"description":"High quality, highly elastic Gypceros hide. Gives off a strange scent."
+		},
+		{
+			"name":"Gypceros Head","japanese":"毒怪鳥の頭",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"blue-icon creature-icon",
+			"description":"The uniquely shaped head of a Gypceros. A must have for Gypceros lovers!"
+		},
+		{
+			"name":"Purple Rubbery Hide","japanese":"ゴム質の紫皮",
+			"maxStack":99,"rarity":5,"sell":620,
+			"icon":"purple-icon hide-icon",
+			"description":"A rarely seen Purple Gypceros hide. The chic purple hide is en vogue."
+		},
+		{
+			"name":"Purple Gypceros Wing","japanese":"毒怪鳥の紫翼",
+			"maxStack":99,"rarity":5,"sell":2300,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Piscine Liver","japanese":"魚竜のキモ",
+			"maxStack":10,"rarity":3,"sell":300,
+			"icon":"yellow-icon creature-icon",
+			"description":"Internal organ from a Piscine Wyvern. A great cure-all. (Account Item)"
+		},
+		{
+			"name":"Piscine Fang","japanese":"魚竜の牙",
+			"maxStack":99,"rarity":4,"sell":250,
+			"icon":"yellow-icon claw-icon",
+			"description":"Fang from a Plesioth or Cephalos. Used to hold and kill prey."
+		},
+		{
+			"name":"Plesioth Scale","japanese":"水竜の鱗",
+			"maxStack":99,"rarity":4,"sell":480,
+			"icon":"blue-icon scale-icon",
+			"description":"An incandescent scale from a Plesioth. Becomes brittle if it dries out."
+		},
+		{
+			"name":"Plesioth Scale+","japanese":"水竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":1780,
+			"icon":"blue-icon scale-icon",
+			"description":"An incandescent scale from a Plesioth. Becomes brittle if it dries out."
+		},
+		{
+			"name":"Plesioth Fin","japanese":"水竜のヒレ",
+			"maxStack":99,"rarity":5,"sell":820,
+			"icon":"blue-icon creature-icon",
+			"description":"A beautiful fin from a Plesioth. The spikes are deadly poisonous."
+		},
+		{
+			"name":"Green Plesioth Scale","japanese":"翠水竜の鱗",
+			"maxStack":99,"rarity":5,"sell":2560,
+			"icon":"green-icon scale-icon",
+			"description":"Scale of a mysterious Green Plesioth. It has a emerald-like glow."
+		},
+		{
+			"name":"Green Plesioth Fin","japanese":"翠水竜のヒレ",
+			"maxStack":99,"rarity":5,"sell":3280,
+			"icon":"green-icon creature-icon",
+			"description":"A beautiful fin from a Green Plesioth. Often used in decoration."
+		},
+		{
+			"name":"Cephalos Scale","japanese":"砂竜の鱗",
+			"maxStack":99,"rarity":4,"sell":400,
+			"icon":"cyan-icon scale-icon",
+			"description":"A sand wyvern scale. Its color is a brilliant blue. Retains moisture."
+		},
+		{
+			"name":"Cephalos Scale+","japanese":"砂竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":1440,
+			"icon":"cyan-icon scale-icon",
+			"description":"High quality sand wyvern scale. Its color is a stunning blue."
+		},
+		{
+			"name":"Cephalos Fin","japanese":"砂竜のヒレ",
+			"maxStack":99,"rarity":5,"sell":550,
+			"icon":"cyan-icon creature-icon",
+			"description":"A sand wyvern fin. It isn't poisonous, but it's very sharp."
+		},
+		{
+			"name":"Cephalos Topfin","japanese":"砂竜の上ビレ",
+			"maxStack":99,"rarity":5,"sell":1050,
+			"icon":"cyan-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Coral Cephalos Scale","japanese":"砂竜の紫鱗",
+			"maxStack":99,"rarity":5,"sell":2400,
+			"icon":"purple-icon scale-icon",
+			"description":"A coral sand wyvern scale. The vivid purple is popular with hunters."
+		},
+		{
+			"name":"Coral Cephalos Fin","japanese":"砂竜の桃ヒレ",
+			"maxStack":99,"rarity":5,"sell":2750,
+			"icon":"pink-icon creature-icon",
+			"description":"A pink sand wyvern fin. The faint pink color is quite cute."
+		},
+		{
+			"name":"Rathian Scale","japanese":"雌火竜の鱗",
+			"maxStack":99,"rarity":4,"sell":490,
+			"icon":"green-icon scale-icon",
+			"description":"A scale from a Rathian, the female version of the Rathalos."
+		},
+		{
+			"name":"Rathian Scale+","japanese":"雌火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":1470,
+			"icon":"green-icon scale-icon",
+			"description":"The scale of a Rathian. It appears to be normal, but its stiffness is not."
+		},
+		{
+			"name":"Rathian Plate","japanese":"雌火竜の逆鱗",
+			"maxStack":99,"rarity":5,"sell":4850,
+			"icon":"green-icon scale-icon",
+			"description":"A fiery scale from the tail of a Rathian."
+		},
+		{
+			"name":"Rathian Ruby","japanese":"雌火竜の紅玉",
+			"maxStack":99,"rarity":5,"sell":9700,
+			"icon":"green-icon bomb-icon",
+			"description":"A rare, precious gem from inside a wyvern. Almost too nice to use."
+		},
+		{
+			"name":"Rathian Shell","japanese":"雌火竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"green-icon creature-icon",
+			"description":"Shell from a Rathian, comprised of numerous scales. Very hard."
+		},
+		{
+			"name":"Rathian Carapace","japanese":"雌火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":1950,
+			"icon":"green-icon creature-icon",
+			"description":"Harder than a Rathian Shell, this material is also known as Gravite."
+		},
+		{
+			"name":"Rathian Spike","japanese":"雌火竜の棘",
+			"maxStack":99,"rarity":5,"sell":300,
+			"icon":"green-icon creature-icon",
+			"description":"Spike-like hairs from the back and wings of a Rathian. Poisonous."
+		},
+		{
+			"name":"Rathian Spike+","japanese":"雌火竜の上棘",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"green-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Pink Rathian Scale","japanese":"桜火竜の鱗",
+			"maxStack":99,"rarity":5,"sell":735,
+			"icon":"pink-icon scale-icon",
+			"description":"Scale from a Pink Rathian, that resembles a dream-like flower petal."
+		},
+		{
+			"name":"Pink Rathian Scale+","japanese":"桜火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":2450,
+			"icon":"pink-icon scale-icon",
+			"description":"Scale from a Pink Rathian. The color masks its true strength."
+		},
+		{
+			"name":"Pink Rathian Shell","japanese":"桜火竜の甲殻",
+			"maxStack":99,"rarity":5,"sell":975,
+			"icon":"pink-icon creature-icon",
+			"description":"Shell from a Pink Rathian. It hardened during adolescence."
+		},
+		{
+			"name":"Pink Rathian Carapace","japanese":"桜火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":3250,
+			"icon":"pink-icon creature-icon",
+			"description":"Harder than Pink Rathian Shell. Its beautiful color is often used in armor."
+		},
+		{
+			"name":"Golden Rathian Scale","japanese":"金火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"yellow-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Golden Rathian Shell","japanese":"金火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":3900,
+			"icon":"yellow-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rathalos Claw","japanese":"火竜の翼爪",
+			"maxStack":99,"rarity":4,"sell":600,
+			"icon":"red-icon claw-icon",
+			"description":"A Rathalos wing claw. Occasionally comes off during a fight."
+		},
+		{
+			"name":"Wyvern Marrow","japanese":"火竜の骨髄",
+			"maxStack":99,"rarity":5,"sell":2100,
+			"icon":"red-icon creature-icon",
+			"description":"A material obtained via new carving techniques. Highly combustible."
+		},
+		{
+			"name":"Rathalos Scale","japanese":"火竜の鱗",
+			"maxStack":99,"rarity":4,"sell":490,
+			"icon":"red-icon scale-icon",
+			"description":"A scale from a Rathalos. These are a highly prized crafting material."
+		},
+		{
+			"name":"Rathalos Scale+","japanese":"火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":1470,
+			"icon":"red-icon scale-icon",
+			"description":"A scale from a Rathalos, it is extraordinarily strong."
+		},
+		{
+			"name":"Rathalos Plate","japanese":"火竜の逆鱗",
+			"maxStack":99,"rarity":5,"sell":4850,
+			"icon":"red-icon scale-icon",
+			"description":"A fiery scale from the tail of a Rathalos."
+		},
+		{
+			"name":"Rathalos Ruby","japanese":"火竜の紅玉",
+			"maxStack":99,"rarity":5,"sell":9700,
+			"icon":"red-icon bomb-icon",
+			"description":"A precious gem from inside a wyvern. Sending it to be processed is excruciating."
+		},
+		{
+			"name":"Rathalos Shell","japanese":"火竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"red-icon creature-icon",
+			"description":"Shell from a Rathalos, comprised of numerous scales. Very hard."
+		},
+		{
+			"name":"Rathalos Carapace","japanese":"火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":1950,
+			"icon":"red-icon creature-icon",
+			"description":"Harder than a Rathalos shell, this material is also known as Gravite."
+		},
+		{
+			"name":"Rathalos Tail","japanese":"火竜の尻尾",
+			"maxStack":99,"rarity":5,"sell":1200,
+			"icon":"red-icon creature-icon",
+			"description":"The tail of a Rathalos. A multi-purpose item."
+		},
+		{
+			"name":"Rathalos Webbing","japanese":"火竜の翼膜",
+			"maxStack":99,"rarity":4,"sell":880,
+			"icon":"red-icon honey-icon",
+			"description":"This heat-resistant material is often used as armor lining."
+		},
+		{
+			"name":"Rathalos Wing","japanese":"火竜の翼",
+			"maxStack":99,"rarity":5,"sell":2550,
+			"icon":"red-icon creature-icon",
+			"description":"A valuable item. Used by smiths at the armory to make Great Swords."
+		},
+		{
+			"name":"Azure Rathalos Scale","japanese":"蒼火竜の鱗",
+			"maxStack":99,"rarity":5,"sell":735,
+			"icon":"blue-icon scale-icon",
+			"description":"The scale of an Azure Rathalos. It is the deep blue of the night sky."
+		},
+		{
+			"name":"Azure Rathalos Scale+","japanese":"蒼火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":1960,
+			"icon":"blue-icon scale-icon",
+			"description":"Scale of an Azure Rathalos. Its strength is higher than its beauty."
+		},
+		{
+			"name":"Azure Rathalos Shell","japanese":"蒼火竜の甲殻",
+			"maxStack":99,"rarity":5,"sell":975,
+			"icon":"blue-icon creature-icon",
+			"description":"The shell of an Azure Rathalos. Made of scales hardened at adolescence."
+		},
+		{
+			"name":"Azure Rathalos Carapace","japanese":"蒼火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":2600,
+			"icon":"blue-icon creature-icon",
+			"description":"Harder than an Azure Rathalos Shell. Its beauty is desirable for armor."
+		},
+		{
+			"name":"Azure Rathalos Tail","japanese":"蒼火竜の尻尾",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"blue-icon creature-icon",
+			"description":"The severed tail of an Azure Rathalos. Valuable for its many uses."
+		},
+		{
+			"name":"Azure Rathalos Wing","japanese":"蒼火竜の翼",
+			"maxStack":99,"rarity":5,"sell":5100,
+			"icon":"blue-icon creature-icon",
+			"description":"Wing shed by an Azure Rathalos. Used to make both weapons and armor."
+		},
+		{
+			"name":"Silver Rathalos Scale","japanese":"銀火竜の上鱗",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"gray-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Silver Rathalos Shell","japanese":"銀火竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":3900,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Silver Rathalos Tail","japanese":"銀火竜の尻尾",
+			"maxStack":99,"rarity":5,"sell":4800,
+			"icon":"gray-icon creature-icon",
+			"description":"The severed tail of a Silver Rathalos. Valuable for its many uses."
+		},
+		{
+			"name":"Silver Rathalos Webbing","japanese":"銀火竜の翼膜",
+			"maxStack":99,"rarity":5,"sell":3520,
+			"icon":"gray-icon honey-icon",
+			"description":"Webbing of a Silver Rathalos. Very valuable as a workshop material."
+		},
+		{
+			"name":"Silver Rathalos Wing","japanese":"銀火竜の翼",
+			"maxStack":99,"rarity":5,"sell":10200,
+			"icon":"gray-icon creature-icon",
+			"description":"Wing shed by a Silver Rathalos. Hunters long for its shining glory."
+		},
+		{
+			"name":"Flabby Hide","japanese":"ブヨブヨした皮",
+			"maxStack":99,"rarity":4,"sell":760,
+			"icon":"white-icon hide-icon",
+			"description":"Workable as a material after recent advances. Has mysterious properties."
+		},
+		{
+			"name":"Khezu Hide - Tan","japanese":"真珠色の柔皮",
+			"maxStack":99,"rarity":5,"sell":1520,
+			"icon":"white-icon hide-icon",
+			"description":"The tanned hide of a Khezu. Its strange properties are a mystery."
+		},
+		{
+			"name":"Pale Bone","japanese":"アルビノの中落ち",
+			"maxStack":99,"rarity":5,"sell":2380,
+			"icon":"white-icon creature-icon",
+			"description":"Rib bone from a Khezu with meat still attached."
+		},
+		{
+			"name":"Pale Khezu Steak","japanese":"アルビノの霜降り",
+			"maxStack":99,"rarity":5,"sell":3580,
+			"icon":"white-icon creature-icon",
+			"description":"Fatty red meat from a Pale Khezu. Looks tasty, but cannot be eaten."
+		},
+		{
+			"name":"Alluring Hide","japanese":"魅惑色の柔皮",
+			"maxStack":99,"rarity":5,"sell":1620,
+			"icon":"pink-icon hide-icon",
+			"description":"Khezu hide polished to a luster. Just looking at it makes you feel strange."
+		},
+		{
+			"name":"Alluring Webbing","japanese":"魅惑色の翼膜",
+			"maxStack":99,"rarity":5,"sell":2400,
+			"icon":"pink-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Basarios Shell","japanese":"岩竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":440,
+			"icon":"gray-icon creature-icon",
+			"description":"Shell from a Basarios. Rock-like consistency. Can be forged into metal."
+		},
+		{
+			"name":"Basarios Carapace","japanese":"岩竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"gray-icon creature-icon",
+			"description":"Harder than a Basarios shell, this material is also known as Gravite."
+		},
+		{
+			"name":"Basarios Wing","japanese":"岩竜の翼",
+			"maxStack":99,"rarity":5,"sell":1420,
+			"icon":"gray-icon creature-icon",
+			"description":"The wing of a Basarios. Very hard to work as a material."
+		},
+		{
+			"name":"Gravios Marrow","japanese":"鎧竜の骨髄",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"orange-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gravios Shell","japanese":"鎧竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":970,
+			"icon":"white-icon creature-icon",
+			"description":"The stone-like shell of a Gravios. May contain traces of ore."
+		},
+		{
+			"name":"Gravios Carapace","japanese":"鎧竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":1880,
+			"icon":"white-icon creature-icon",
+			"description":"Harder than Gravios Shell, this material is known as Gravite around here."
+		},
+		{
+			"name":"Gravios Skull","japanese":"鎧竜の頭殻",
+			"maxStack":99,"rarity":5,"sell":2550,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Black Gravios Shell","japanese":"黒鎧竜の甲殻",
+			"maxStack":99,"rarity":5,"sell":3760,
+			"icon":"gray-icon creature-icon",
+			"description":"The shell of the rare Black Gravios. The pitch black color is appealing."
+		},
+		{
+			"name":"Black Gravios Carapace","japanese":"黒鎧竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":5640,
+			"icon":"gray-icon creature-icon",
+			"description":"Carapace of a Black Gravios. A charred color, it is difficult to use."
+		},
+		{
+			"name":"Black Gravios Skull","japanese":"黒鎧竜の頭殻",
+			"maxStack":99,"rarity":5,"sell":7650,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Twisted Horn","japanese":"ねじれた角",
+			"maxStack":99,"rarity":4,"sell":780,
+			"icon":"yellow-icon claw-icon",
+			"description":"The large, gnarled horn of a Diablos. Has a variety of uses."
+		},
+		{
+			"name":"Majestic Horn","japanese":"上質なねじれた角",
+			"maxStack":99,"rarity":5,"sell":2400,
+			"icon":"yellow-icon claw-icon",
+			"description":"High-quality horn from a Diablos. Used to make strong weapons."
+		},
+		{
+			"name":"Diablos Shell","japanese":"角竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":850,
+			"icon":"yellow-icon creature-icon",
+			"description":"Part of the shell that covers a Diablos. Very dense and heavy."
+		},
+		{
+			"name":"Diablos Carapace","japanese":"角竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":1950,
+			"icon":"yellow-icon creature-icon",
+			"description":"Harder than a Diablos shell, it is also known as Gravite."
+		},
+		{
+			"name":"Diablos Spine","japanese":"角竜の背甲",
+			"maxStack":99,"rarity":5,"sell":1340,
+			"icon":"yellow-icon creature-icon",
+			"description":"Part of the hard spine from a Diablos' back. A weaponcraft material."
+		},
+		{
+			"name":"Diablos Thoracic","japanese":"角竜の堅甲",
+			"maxStack":99,"rarity":5,"sell":4020,
+			"icon":"yellow-icon creature-icon",
+			"description":"The hardest part of a Diablos spine. Incredibly hard to carve away."
+		},
+		{
+			"name":"Diablos Tail","japanese":"角竜の尻尾",
+			"maxStack":99,"rarity":5,"sell":1280,
+			"icon":"yellow-icon creature-icon",
+			"description":"A Diablos tail. Stronger and more durable than an iron hammer."
+		},
+		{
+			"name":"Blos Fang","japanese":"角竜の牙",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"yellow-icon claw-icon",
+			"description":"A large, sturdy fang from a Diablos or Monoblos. Stays sharp."
+		},
+		{
+			"name":"Twisted Black Blos Horn","japanese":"黒巻き角",
+			"maxStack":99,"rarity":5,"sell":9600,
+			"icon":"gray-icon claw-icon",
+			"description":"Rumored to be the twisted horn of a Black Diablos. A stunning item."
+		},
+		{
+			"name":"Black Blos Shell","japanese":"黒角竜の甲殻",
+			"maxStack":99,"rarity":5,"sell":1900,
+			"icon":"gray-icon creature-icon",
+			"description":"A shell from a Black Diablos. The dark color is popular with hunters."
+		},
+		{
+			"name":"Black Blos Spine","japanese":"黒角竜の背甲",
+			"maxStack":99,"rarity":5,"sell":4040,
+			"icon":"gray-icon creature-icon",
+			"description":"The skillfully removed spine of a Black Diablos, it is thick and dull."
+		},
+		{
+			"name":"Black Blos Tail","japanese":"黒角竜の尻尾",
+			"maxStack":99,"rarity":5,"sell":3680,
+			"icon":"gray-icon creature-icon",
+			"description":"The tail of a Black Diablos, like a giant black iron hammer."
+		},
+		{
+			"name":"Black Blos Carapace","japanese":"黒角竜の堅殻",
+			"maxStack":99,"rarity":5,"sell":3280,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Vespoid Abdomen","japanese":"女王虫の尻尾",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"yellow-icon bug-icon",
+			"description":"The abdomen of a Vespoid queen. In rare cases these are filled with eggs."
+		},
+		{
+			"name":"Vespoid Shell","japanese":"ランゴスタの甲殻",
+			"maxStack":99,"rarity":4,"sell":120,
+			"icon":"yellow-icon bug-icon",
+			"description":"With special materials, this can be worked into very strong armor."
+		},
+		{
+			"name":"Vespoid Carapace","japanese":"ランゴスタの堅殻",
+			"maxStack":99,"rarity":5,"sell":240,
+			"icon":"yellow-icon bug-icon",
+			"description":"Hardest part of a Vespoid shell. Exhibits special properties when processed."
+		},
+		{
+			"name":"Vespoid Wing","japanese":"ランゴスタの羽",
+			"maxStack":99,"rarity":4,"sell":73,
+			"icon":"yellow-icon honey-icon",
+			"description":"A hard-to-work material.  Front and reverse sides have different textures."
+		},
+		{
+			"name":"Vespoid Bladefin","japanese":"ランゴスタの薄羽",
+			"maxStack":99,"rarity":4,"sell":256,
+			"icon":"yellow-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hornetaur Shell","japanese":"カンタロスの甲殻",
+			"maxStack":99,"rarity":4,"sell":120,
+			"icon":"gray-icon bug-icon",
+			"description":"With special materials, this can be worked into very strong armor."
+		},
+		{
+			"name":"Hornetaur Head","japanese":"カンタロスの頭",
+			"maxStack":99,"rarity":4,"sell":175,
+			"icon":"gray-icon bug-icon",
+			"description":"With special materials, can be worked into strong weapons or armor."
+		},
+		{
+			"name":"Hornetaur Wing","japanese":"カンタロスの羽",
+			"maxStack":99,"rarity":4,"sell":73,
+			"icon":"gray-icon honey-icon",
+			"description":"A hard-to-work material. Appears pearlescent when struck by light."
+		},
+		{
+			"name":"Hornetaur Bladefin","japanese":"カンタロスの薄羽",
+			"maxStack":99,"rarity":5,"sell":256,
+			"icon":"gray-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sm Lobstershell","japanese":"エビの小殻",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"purple-icon creature-icon",
+			"description":"The cranial shell of a King Lobster eaten by a Piscine Wyvern. Very rare."
+		},
+		{
+			"name":"Lg Lobstershell","japanese":"エビの大殻",
+			"maxStack":99,"rarity":5,"sell":2500,
+			"icon":"purple-icon creature-icon",
+			"description":"The body shell of a King Lobster eaten by a Piscine Wyvern. Very rare."
+		},
+		{
+			"name":"Gt Lobstershell","japanese":"エビの巨大殻",
+			"maxStack":99,"rarity":5,"sell":3500,
+			"icon":"purple-icon creature-icon",
+			"description":"King Lobster used as bait for a Piscine, the shell remains in its stomach."
+		},
+		{
+			"name":"Clam Shell","japanese":"アメザリの甲殻",
+			"maxStack":99,"rarity":5,"sell":3000,
+			"icon":"white-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Crimson Horn","japanese":"真紅の角",
+			"maxStack":99,"rarity":5,"sell":1520,
+			"icon":"red-icon claw-icon",
+			"description":"Obtaining this Monoblos horn makes you the Hero of Kokoto."
+		},
+		{
+			"name":"Monoblos Shell","japanese":"一角竜の甲殻",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"red-icon creature-icon",
+			"description":"Shell from a Monoblos, a sub-species of Diablos. Gray-colored."
+		},
+		{
+			"name":"Monoblos Spine","japanese":"一角竜の背甲",
+			"maxStack":99,"rarity":5,"sell":1340,
+			"icon":"red-icon creature-icon",
+			"description":"A hard spine from the back of a Monoblos. A weaponcraft material."
+		},
+		{
+			"name":"Monoblos Heart","japanese":"モノブロスハート",
+			"maxStack":10,"rarity":5,"sell":10000,
+			"icon":"red-icon creature-icon",
+			"description":"The heart of a Monoblos. Symbolizes ferocious anger."
+		},
+		{
+			"name":"White Monoblos Horn","japanese":"白銀の角",
+			"maxStack":99,"rarity":5,"sell":2280,
+			"icon":"white-icon claw-icon",
+			"description":"Unusual White Monoblos Horn. Shines like new snow. Highly desirable."
+		},
+		{
+			"name":"White Monoblos Shell","japanese":"白一角竜の甲殻",
+			"maxStack":99,"rarity":5,"sell":975,
+			"icon":"white-icon creature-icon",
+			"description":"Unique White Monoblos Shell. The clean white is a popular mystery."
+		},
+		{
+			"name":"White Monoblos Spine","japanese":"白一角竜の背甲",
+			"maxStack":99,"rarity":5,"sell":2010,
+			"icon":"white-icon creature-icon",
+			"description":"Unusual White Monoblos Spine, expertly cut away. It is a burning white."
+		},
+		{
+			"name":"Kirin Horn","japanese":"キリンの雷角",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"white-icon claw-icon",
+			"description":"The horn of the beast god, as powerful as a lightning bolt. Exquisite material."
+		},
+		{
+			"name":"Kirin Hide","japanese":"キリンの皮",
+			"maxStack":99,"rarity":5,"sell":3250,
+			"icon":"white-icon hide-icon",
+			"description":"Beautiful white hide. As hard to use as it is to obtain. Exquisite."
+		},
+		{
+			"name":"Kirin Hide+","japanese":"キリンの上皮",
+			"maxStack":99,"rarity":5,"sell":5000,
+			"icon":"white-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Kirin Mane","japanese":"キリンのたてがみ",
+			"maxStack":99,"rarity":5,"sell":1200,
+			"icon":"white-icon creature-icon",
+			"description":"Magnificent silver mane. Even after being cut off, it seems to retain energy."
+		},
+		{
+			"name":"Kirin Thunder Tail","japanese":"キリンの雷尾",
+			"maxStack":99,"rarity":5,"sell":4500,
+			"icon":"white-icon creature-icon",
+			"description":"A rare tail overflowing with elegance, charged with electricity."
+		},
+		{
+			"name":"Kirin Azure Horn","japanese":"キリンの蒼角",
+			"maxStack":99,"rarity":5,"sell":5500,
+			"icon":"blue-icon claw-icon",
+			"description":"This azure horn is a rare item even for Kirin Horns, giving off a divine light."
+		},
+		{
+			"name":"Lao-Shan Claw","japanese":"老山龍の大爪",
+			"maxStack":99,"rarity":5,"sell":1920,
+			"icon":"red-icon claw-icon",
+			"description":"Lao-Shan's massive claw. Impossible to work, so it must be used as-is."
+		},
+		{
+			"name":"Lao-Shan Horn","japanese":"老山龍の角",
+			"maxStack":99,"rarity":5,"sell":1700,
+			"icon":"red-icon claw-icon",
+			"description":"Horn from Lao-Shan's snout. A prized find. Can be fused with Firestone."
+		},
+		{
+			"name":"Lao-Shan Scale","japanese":"老山龍の鱗",
+			"maxStack":99,"rarity":5,"sell":650,
+			"icon":"red-icon scale-icon",
+			"description":"Deep red scale that is the equal of any wyvern's shell. Easy to work with."
+		},
+		{
+			"name":"Lao-Shan Ruby","japanese":"老山龍の紅玉",
+			"maxStack":99,"rarity":5,"sell":20000,
+			"icon":"red-icon bomb-icon",
+			"description":"A precious gem from inside a wyvern. The burning red is the gem's soul."
+		},
+		{
+			"name":"Lao-Shan Shell","japanese":"老山龍の甲殻",
+			"maxStack":99,"rarity":5,"sell":900,
+			"icon":"red-icon creature-icon",
+			"description":"Shell of Lao-Shan Lung. The thick dragon shell tells you of its age."
+		},
+		{
+			"name":"Lao-Shan Carapace","japanese":"老山龍の堅殻",
+			"maxStack":99,"rarity":5,"sell":2700,
+			"icon":"red-icon creature-icon",
+			"description":"The carapace of a giant wyvern. Years ago, this carapace was a shell."
+		},
+		{
+			"name":"Azure Lao-Shan Horn","japanese":"老山龍の蒼角",
+			"maxStack":99,"rarity":5,"sell":5100,
+			"icon":"blue-icon claw-icon",
+			"description":"A horn carved from an Azure Lao-Shan. A priceless treasure."
+		},
+		{
+			"name":"Azure Lao-Shan Shell","japanese":"老山龍の蒼甲殻",
+			"maxStack":99,"rarity":5,"sell":3375,
+			"icon":"blue-icon creature-icon",
+			"description":"Shell from an enormous Azure Lao-Shan, it is as big as a piece of bedrock."
+		},
+		{
+			"name":"Fatalis' Horn","japanese":"黒龍の角",
+			"maxStack":99,"rarity":5,"sell":1088,
+			"icon":"gray-icon claw-icon",
+			"description":"The power of the dragon is said to reside in the four horns atop his skull."
+		},
+		{
+			"name":"Fatalis' Scale","japanese":"黒龍の鱗",
+			"maxStack":99,"rarity":5,"sell":1068,
+			"icon":"gray-icon scale-icon",
+			"description":"A scale from Fatalis' body that goes on to form its shell."
+		},
+		{
+			"name":"Fatalis' Shell","japanese":"黒龍の甲殻",
+			"maxStack":99,"rarity":5,"sell":1395,
+			"icon":"gray-icon creature-icon",
+			"description":"A multi-layered carapace that cannot be damaged by normal weaponry."
+		},
+		{
+			"name":"Fatalis' Eye","japanese":"黒龍の眼",
+			"maxStack":99,"rarity":5,"sell":9600,
+			"icon":"yellow-icon creature-icon",
+			"description":"The crystalline eyeball of Fatalis. One of the Three Great Treasures."
+		},
+		{
+			"name":"Fatalis' Webbing","japanese":"黒龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":1965,
+			"icon":"gray-icon honey-icon",
+			"description":"The large surface area makes it very useful. Must be used when fresh."
+		},
+		{
+			"name":"Fatalis Crimson Horn","japanese":"黒龍の紅角",
+			"maxStack":99,"rarity":5,"sell":6528,
+			"icon":"red-icon claw-icon",
+			"description":"Crimson red horn of an angered Fatalis. Glows red, even if cut off."
+		},
+		{
+			"name":"Fatalis Crimson Scale","japanese":"黒龍の紅鱗",
+			"maxStack":99,"rarity":5,"sell":4272,
+			"icon":"red-icon scale-icon",
+			"description":"Fatalis scale dyed red with hate. It flashes crimson in the darkness."
+		},
+		{
+			"name":"Fatalis Crimson Shell","japanese":"黒龍の紅殻",
+			"maxStack":99,"rarity":5,"sell":5580,
+			"icon":"red-icon creature-icon",
+			"description":"Fatalis shell bathed red with wrath, but the black base betrays its roots."
+		},
+		{
+			"name":"Fatalis Devil Eye","japanese":"黒龍の魔眼",
+			"maxStack":99,"rarity":5,"sell":25000,
+			"icon":"red-icon creature-icon",
+			"description":"The eye of an angered Fatalis, its fiendish gaze is too much for some."
+		},
+		{
+			"name":"Fatalis Crimson Wing","japanese":"黒龍の紅翼",
+			"maxStack":99,"rarity":5,"sell":7860,
+			"icon":"red-icon creature-icon",
+			"description":"The wing of Fatalis, swirling with a magma-like crimson of anger."
+		},
+		{
+			"name":"Fatalis White Scale","japanese":"祖龍の白鱗",
+			"maxStack":99,"rarity":5,"sell":8852,
+			"icon":"white-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fatalis White Shell","japanese":"祖龍の堅殻",
+			"maxStack":99,"rarity":5,"sell":10230,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fatalis White Wing","japanese":"祖龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":9900,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fatalis White Horn","japanese":"祖龍の角",
+			"maxStack":99,"rarity":5,"sell":12300,
+			"icon":"white-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sharp Claw","japanese":"とがった爪",
+			"maxStack":99,"rarity":3,"sell":120,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blangonga Fang","japanese":"雪獅子の牙",
+			"maxStack":99,"rarity":5,"sell":1350,
+			"icon":"white-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blangonga Fang+","japanese":"雪獅子の鋭牙",
+			"maxStack":99,"rarity":5,"sell":2150,
+			"icon":"white-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blango Pelt","japanese":"雪獅子の毛",
+			"maxStack":99,"rarity":4,"sell":80,
+			"icon":"white-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blango Pelt+","japanese":"雪獅子の剛毛",
+			"maxStack":99,"rarity":4,"sell":250,
+			"icon":"white-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blangonga Whisker","japanese":"雪獅子の髭",
+			"maxStack":99,"rarity":5,"sell":820,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blangonga Tail","japanese":"雪獅子の尻尾",
+			"maxStack":99,"rarity":5,"sell":980,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Conga Pelt","japanese":"桃毛獣の毛",
+			"maxStack":99,"rarity":4,"sell":75,
+			"icon":"pink-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Vibrant Pelt","japanese":"極彩色の毛",
+			"maxStack":99,"rarity":5,"sell":980,
+			"icon":"pink-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Congalala Claw","japanese":"桃毛獣の爪",
+			"maxStack":99,"rarity":4,"sell":880,
+			"icon":"pink-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Congalala Fang","japanese":"桃毛獣の牙",
+			"maxStack":99,"rarity":5,"sell":770,
+			"icon":"pink-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Conga Pelt+","japanese":"桃毛獣の剛毛",
+			"maxStack":99,"rarity":5,"sell":180,
+			"icon":"pink-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Congalala Claw+","japanese":"桃毛獣の尖爪",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"pink-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Horn","japanese":"金獅子の尖角",
+			"maxStack":99,"rarity":5,"sell":3200,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Fang","japanese":"金獅子の鋭牙",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Pelt+","japanese":"金獅子の黒毛",
+			"maxStack":99,"rarity":5,"sell":1200,
+			"icon":"gray-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Claw","japanese":"金獅子の尖爪",
+			"maxStack":99,"rarity":5,"sell":2200,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Tail","japanese":"金獅子の尻尾",
+			"maxStack":99,"rarity":5,"sell":4500,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Pelt","japanese":"黄金の毛",
+			"maxStack":99,"rarity":5,"sell":8880,
+			"icon":"gray-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Carapaceon Brains","japanese":"ザザミソ",
+			"maxStack":10,"rarity":2,"sell":50,
+			"icon":"orange-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Skull","japanese":"竜頭殻",
+			"maxStack":99,"rarity":4,"sell":780,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sm Hermitaur Shell","japanese":"盾蟹の小殻",
+			"maxStack":99,"rarity":2,"sell":45,
+			"icon":"red-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hermitaur Shell","japanese":"盾蟹の甲殻",
+			"maxStack":99,"rarity":4,"sell":550,
+			"icon":"red-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hermitaur Claw","japanese":"盾蟹の爪",
+			"maxStack":99,"rarity":4,"sell":1350,
+			"icon":"red-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hermitaur Carapace","japanese":"盾蟹の堅殻",
+			"maxStack":99,"rarity":4,"sell":1050,
+			"icon":"red-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Hermitaur Claw+","japanese":"盾蟹の尖爪",
+			"maxStack":99,"rarity":5,"sell":1950,
+			"icon":"red-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sm Ceanataur Shell","japanese":"鎌蟹の小殻",
+			"maxStack":99,"rarity":2,"sell":55,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Shell","japanese":"鎌蟹の甲殻",
+			"maxStack":99,"rarity":4,"sell":720,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Carapace","japanese":"鎌蟹の堅殻",
+			"maxStack":99,"rarity":4,"sell":2500,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Legs","japanese":"鎌蟹の脚",
+			"maxStack":99,"rarity":4,"sell":750,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Pincers","japanese":"鎌蟹の鋏",
+			"maxStack":99,"rarity":4,"sell":1800,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Claws","japanese":"鎌蟹の爪",
+			"maxStack":99,"rarity":4,"sell":1200,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ceanataur Claws+","japanese":"鎌蟹の尖爪",
+			"maxStack":99,"rarity":5,"sell":3500,
+			"icon":"blue-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gaoren Shell","japanese":"砦蟹の甲殻",
+			"maxStack":99,"rarity":5,"sell":1400,
+			"icon":"gray-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gaoren Spine","japanese":"砦蟹の背甲",
+			"maxStack":99,"rarity":5,"sell":3000,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gaoren Pincers","japanese":"砦蟹の鋏",
+			"maxStack":99,"rarity":5,"sell":2150,
+			"icon":"gray-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Gaoren Claw","japanese":"砦蟹の尖爪",
+			"maxStack":99,"rarity":5,"sell":3200,
+			"icon":"gray-icon shell-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Shell","japanese":"鋼龍の甲殻",
+			"maxStack":99,"rarity":5,"sell":1300,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Carapace","japanese":"鋼龍の堅殻",
+			"maxStack":99,"rarity":5,"sell":3200,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Scale","japanese":"鋼の龍鱗",
+			"maxStack":99,"rarity":5,"sell":800,
+			"icon":"gray-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Wing","japanese":"鋼龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"gray-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Horn","japanese":"鋼龍の角",
+			"maxStack":99,"rarity":5,"sell":2450,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Tail","japanese":"鋼龍の尻尾",
+			"maxStack":99,"rarity":5,"sell":2250,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Claw","japanese":"鋼龍の爪",
+			"maxStack":99,"rarity":5,"sell":2100,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Claw+","japanese":"鋼龍の尖爪",
+			"maxStack":99,"rarity":5,"sell":3600,
+			"icon":"gray-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Daora Gem","japanese":"鋼龍の宝玉",
+			"maxStack":99,"rarity":5,"sell":4000,
+			"icon":"gray-icon bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rusted Daora Shell","japanese":"錆びた甲殻",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"orange-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Decayed Wing","japanese":"朽ちた龍翼",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"gray-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rusted Daora Wing","japanese":"錆びた龍翼",
+			"maxStack":99,"rarity":5,"sell":2800,
+			"icon":"orange-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Hide","japanese":"霞龍の皮",
+			"maxStack":99,"rarity":5,"sell":1250,
+			"icon":"purple-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Hide+","japanese":"霞龍の上皮",
+			"maxStack":99,"rarity":5,"sell":1840,
+			"icon":"purple-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Horn","japanese":"霞龍の角",
+			"maxStack":99,"rarity":5,"sell":2680,
+			"icon":"purple-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Horn+","japanese":"霞龍の尖角",
+			"maxStack":99,"rarity":5,"sell":3220,
+			"icon":"purple-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Claw","japanese":"霞龍の爪",
+			"maxStack":99,"rarity":5,"sell":2800,
+			"icon":"purple-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Webbing","japanese":"霞龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":1760,
+			"icon":"purple-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Tail","japanese":"霞龍の尻尾",
+			"maxStack":99,"rarity":5,"sell":3800,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Gem","japanese":"霞龍の宝玉",
+			"maxStack":99,"rarity":5,"sell":4000,
+			"icon":"purple-icon bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Scale","japanese":"炎の龍鱗",
+			"maxStack":99,"rarity":5,"sell":1050,
+			"icon":"red-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Claw","japanese":"炎龍の爪",
+			"maxStack":99,"rarity":5,"sell":1200,
+			"icon":"red-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Dust","japanese":"炎龍の塵粉",
+			"maxStack":99,"rarity":5,"sell":3250,
+			"icon":"red-icon powder-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Gem","japanese":"炎龍の宝玉",
+			"maxStack":99,"rarity":5,"sell":4000,
+			"icon":"red-icon bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Elder Dragon Blood","japanese":"古龍の血",
+			"maxStack":99,"rarity":5,"sell":1500,
+			"icon":"red-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Scale+","japanese":"獄炎の龍鱗",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"red-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Shell","japanese":"炎妃龍の甲殻",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flame Dragon Mane","japanese":"炎妃龍のたてがみ",
+			"maxStack":99,"rarity":5,"sell":1900,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lunastra Webbing","japanese":"炎妃龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":1600,
+			"icon":"blue-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lunastra Tail","japanese":"炎妃龍の尻尾",
+			"maxStack":99,"rarity":5,"sell":2500,
+			"icon":"blue-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lunastra Horn","japanese":"炎妃龍の角",
+			"maxStack":99,"rarity":5,"sell":2000,
+			"icon":"blue-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Shell","japanese":"炎王龍の甲殻",
+			"maxStack":99,"rarity":5,"sell":1800,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Carapace","japanese":"炎王龍の堅殻",
+			"maxStack":99,"rarity":5,"sell":3200,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Mane","japanese":"炎王龍のたてがみ",
+			"maxStack":99,"rarity":5,"sell":1900,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Webbing","japanese":"炎王龍の翼膜",
+			"maxStack":99,"rarity":5,"sell":1600,
+			"icon":"red-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Tail","japanese":"炎王龍の尻尾",
+			"maxStack":99,"rarity":5,"sell":2500,
+			"icon":"red-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Horn","japanese":"炎王龍の角",
+			"maxStack":99,"rarity":5,"sell":2000,
+			"icon":"red-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Horn+","japanese":"炎王龍の尖角",
+			"maxStack":99,"rarity":5,"sell":2800,
+			"icon":"red-icon claw-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Yama Fin","japanese":"浮岳龍のヒレ",
+			"maxStack":99,"rarity":5,"sell":2500,
+			"icon":"green-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Yama Hide","japanese":"浮岳龍の皮",
+			"maxStack":99,"rarity":5,"sell":1580,
+			"icon":"green-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Yama Fluid","japanese":"浮岳龍の体液",
+			"maxStack":99,"rarity":5,"sell":2500,
+			"icon":"green-icon jar-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Moss","japanese":"龍苔",
+			"maxStack":99,"rarity":5,"sell":3050,
+			"icon":"green-icon herb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Wood","japanese":"龍木",
+			"maxStack":99,"rarity":5,"sell":2135,
+			"icon":"green-icon seed-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Remobra Skin","japanese":"蛇竜の皮",
+			"maxStack":99,"rarity":4,"sell":180,
+			"icon":"gray-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Remobra Skin+","japanese":"蛇竜の上皮",
+			"maxStack":99,"rarity":4,"sell":450,
+			"icon":"gray-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Striped Skin","japanese":"縞模様の皮",
+			"maxStack":99,"rarity":4,"sell":290,
+			"icon":"gray-icon hide-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Remobra Head","japanese":"蛇竜の頭",
+			"maxStack":99,"rarity":4,"sell":750,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Scale","japanese":"黒狼鳥の鱗",
+			"maxStack":99,"rarity":4,"sell":400,
+			"icon":"purple-icon scale-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Carapace","japanese":"黒狼鳥の甲殻",
+			"maxStack":99,"rarity":4,"sell":650,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Ear","japanese":"黒狼鳥の耳",
+			"maxStack":99,"rarity":4,"sell":1500,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Razor Beak","japanese":"尖ったクチバシ",
+			"maxStack":99,"rarity":4,"sell":1800,
+			"icon":"purple-icon bone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Webbing","japanese":"黒狼鳥の翼",
+			"maxStack":99,"rarity":4,"sell":1950,
+			"icon":"purple-icon honey-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Tail","japanese":"黒狼鳥の尻尾",
+			"maxStack":99,"rarity":4,"sell":1500,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Garuga Mane","japanese":"黒狼鳥のたてがみ",
+			"maxStack":99,"rarity":4,"sell":1800,
+			"icon":"purple-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lost Umbrella","japanese":"落し物の傘",
+			"maxStack":99,"rarity":5,"sell":1240,
+			"icon":"orange-icon mystery-icon",
+			"description":"Noblewoman's umbrella. Seems to have hidden features. Try fixing it."
+		},
+		{
+			"name":"Chief's Old Sword","japanese":"村長の古い剣",
+			"maxStack":1,"rarity":5,"sell":1000,
+			"icon":"white-icon mystery-icon",
+			"description":"Village Chief's sword from his hunting days. Rumored to be part of a set."
+		},
+		{
+			"name":"Stone Fist","japanese":"石像の拳",
+			"maxStack":99,"rarity":4,"sell":1880,
+			"icon":"yellow-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Broken Dragonator","japanese":"折れた撃龍槍",
+			"maxStack":99,"rarity":4,"sell":1530,
+			"icon":"blue-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Strong Chains","japanese":"豪腕の鎖",
+			"maxStack":1,"rarity":5,"sell":120,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(bonus reward)","hide":true,"japanese":"おまけ報酬",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ruststone","japanese":"さびた塊",
+			"maxStack":1,"rarity":5,"sell":180,
+			"icon":"gray-icon mystery-icon",
+			"description":"Looks like a lump of dirt, but it's actually rusted metal. Try polishing it..."
+		},
+		{
+			"name":"Ruststone Slab","japanese":"さびた板状の塊",
+			"maxStack":1,"rarity":5,"sell":180,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ruststone Large","japanese":"さびた大きな塊",
+			"maxStack":1,"rarity":5,"sell":180,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ruststone Small","japanese":"さびた小さな塊",
+			"maxStack":1,"rarity":5,"sell":180,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ruststone Long","japanese":"さびた棒状の塊",
+			"maxStack":1,"rarity":5,"sell":180,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Stone","japanese":"太古の塊",
+			"maxStack":1,"rarity":5,"sell":360,
+			"icon":"gray-icon mystery-icon",
+			"description":"Appears to be some kind of fossilized metal. Maybe a treasure if polished."
+		},
+		{
+			"name":"Ancient Stone Slab","japanese":"太古の板状の塊",
+			"maxStack":1,"rarity":5,"sell":360,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Stone Large","japanese":"太古の大きな塊",
+			"maxStack":1,"rarity":5,"sell":360,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Stone Small","japanese":"太古の小さな塊",
+			"maxStack":1,"rarity":5,"sell":360,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Stone Long","japanese":"太古の棒状の塊",
+			"maxStack":1,"rarity":5,"sell":360,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Organizer Guide","japanese":"収納上手・技の書",
+			"maxStack":1,"rarity":4,"buy":3000,"sell":0,
+			"icon":"blue-icon book-icon",
+			"description":"Issue of popular \"Hunting Life\" magazine that has an article on item box usage."
+		},
+		{
+			"name":"Backpacker Guide","japanese":"収納上手・力の書",
+			"maxStack":1,"rarity":5,"buy":10000,"sell":0,
+			"icon":"red-icon book-icon",
+			"description":"Issue of popular \"Hunting Life\" magazine that has an article on carrying items."
+		},
+		{
+			"name":"Remodeling Guide","japanese":"改築上手・匠の技",
+			"maxStack":1,"rarity":4,"buy":20000,"sell":0,
+			"icon":"purple-icon house-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Remodeling Guide 2","japanese":"改築上手・銭の技",
+			"maxStack":1,"rarity":5,"buy":30000,"sell":0,
+			"icon":"blue-icon house-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lynian Info","japanese":"獣人種の書",
+			"maxStack":1,"rarity":1,"buy":100,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Shakalaka Info","japanese":"チャチャブーの書",
+			"maxStack":1,"rarity":1,"buy":100,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Neopteron Info","japanese":"甲虫種の書",
+			"maxStack":1,"rarity":1,"buy":100,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Great Thunderbug Info","japanese":"大雷光虫の書",
+			"maxStack":1,"rarity":1,"buy":100,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Herbivore Info","japanese":"草食種の書",
+			"maxStack":1,"rarity":1,"buy":100,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bird Wyvern Info","japanese":"鳥竜種の書",
+			"maxStack":1,"rarity":1,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Yian Garuga Info","japanese":"イャンガルルガの書",
+			"maxStack":1,"rarity":1,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Info Vol. 1","japanese":"飛竜種の書【上巻】",
+			"maxStack":1,"rarity":1,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern Info Vol. 2","japanese":"飛竜種の書【下巻】",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rathalos Info","japanese":"リオレウスの書",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Monoblos Info","japanese":"モノブロスの書",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Piscine Info","japanese":"魚竜種の書",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Carapaceon Info Vol. 1","japanese":"甲殻種の書【上巻】",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Carapaceon Info Vol. 2","japanese":"甲殻種の書【下巻】",
+			"maxStack":1,"rarity":2,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Shen Gaoren Info","japanese":"シェンガオレンの書",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fanged Beast Info","japanese":"牙獣種の書",
+			"maxStack":1,"rarity":3,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blangonga Info","japanese":"ドドブランゴの書",
+			"maxStack":1,"rarity":3,"buy":200,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rajang Info","japanese":"ラージャンの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Kirin Info","japanese":"キリンの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Kushala Daora Info","japanese":"クシャルダオラの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Chameleos Info","japanese":"オオナズチの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lunastra Info","japanese":"ナナ・テスカトリの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Teostra Info","japanese":"テオ・テスカトルの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lao-Shan Lung Info","japanese":"ラオシャンロンの書",
+			"maxStack":1,"rarity":3,"buy":500,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Yamatsukami Info","japanese":"ヤマツカミの書",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fatalis Info","japanese":"ミラボレアスの書",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"gray-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Silver Egg","japanese":"銀のたまご",
+			"maxStack":10,"rarity":5,"sell":5000,
+			"icon":"white-icon egg-icon",
+			"description":"A glittering Silver Egg. Incredibly expensive and rare. No use to a hunter."
+		},
+		{
+			"name":"Golden Egg","japanese":"金のたまご",
+			"maxStack":5,"rarity":5,"sell":10000,
+			"icon":"yellow-icon egg-icon",
+			"description":"A glittering Gold Egg. Incredibly expensive and rare. No use to a hunter."
+		},
+		{
+			"name":"Map","japanese":"地図",
+			"maxStack":1,"rarity":1,"sell":0,
+			"icon":"white-icon map-icon",
+			"description":"A map that shows the topography of the region. (Supply Item)"
+		},
+		{
+			"name":"First-aid Med.","japanese":"応急薬",
+			"maxStack":10,"rarity":1,"sell":0,
+			"icon":"green-icon jar-icon",
+			"description":"Medicine that restores a small amount of Health. (Supply Item)",
+			"details":"Restore 30 hitpoints.",
+			"acquire":""
+		},
+		{
+			"name":"Ration","japanese":"携帯食料",
+			"maxStack":10,"rarity":1,"sell":0,
+			"icon":"orange-icon meat-icon",
+			"description":"Restores a small amount of Stamina if eaten. (Supply Item)",
+			"details":"Increase maximum stamina by 25. If max stamina is already at 150, this will not reset the stamina loss timer.",
+			"acquire":""
+		},
+		{
+			"name":"Portable Spit","japanese":"携帯肉焼きセット",
+			"maxStack":1,"rarity":1,"sell":0,
+			"icon":"red-icon spit-icon",
+			"description":"A Guild BBQ spit for novice hunters. (Supply Item)",
+			"details":"Cook Raw Meat into Steak, if you have Raw Meat in your inventory. Use to start cooking, and press <span class=\"ui-icon circle-icon\"></span> to take the meat off the spit. Remove while the music is playing to keep the Raw Meat, shortly after the music stops for Rare Steak, a few seconds after the music for Well-Done Steak, too late or not at all for Burnt Steak.",
+			"acquire":""
+		},
+		{
+			"name":"Mini Whetstone","japanese":"携帯砥石",
+			"maxStack":10,"rarity":1,"sell":0,
+			"icon":"yellow-icon whetstone-icon",
+			"description":"A small whetstone for restoring Sharpness. (Supply Item)",
+			"details":"Restore 100 hits of sharpness to your weapon.",
+			"acquire":""
+		},
+		{
+			"name":"EZ Shock Trap","japanese":"携帯シビレ罠",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"purple-icon trap-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"EZ Flash Bomb","japanese":"支給専用閃光玉",
+			"maxStack":5,"rarity":2,"sell":0,
+			"icon":"yellow-icon bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"EZ Max Potion","japanese":"支給専用秘薬",
+			"maxStack":3,"rarity":2,"sell":0,
+			"icon":"yellow-icon powder-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"EZ Pitfall Trap","japanese":"支給専用落とし穴",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"green-icon trap-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"EZ Large Barrel Bomb","japanese":"支給用大タル爆弾",
+			"maxStack":2,"rarity":3,"sell":0,
+			"icon":"red-icon barrel-bomb-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ballista S","japanese":"バリスタの弾",
+			"maxStack":10,"rarity":5,"sell":0,
+			"icon":"gray-icon shot-icon",
+			"description":"Ammunition for a very large Bowgun installation. (Supply Item)",
+			"details":"<span class=\"va-m\">Use at a Ballista emplacement to load the shot. Deal 100 damage to monsters before defense modifiers. Press R1 to aim, </span><span class=\"ui-icon circle-icon\"></span><span class=\"va-m\"> to fire, and </span><span class=\"ui-icon cross-icon\"></span><span class=\"va-m\"> to unload and leave the Ballista.</span>",
+			"acquire":""
+		},
+		{
+			"name":"Cannon S","japanese":"大砲の弾",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"gray-icon shot-icon",
+			"description":"Special ammo used against large dragons. Very heavy. (Supply Item)",
+			"details":"Use at a cannon to load the shot. Deal 250 damage to monsters before defense modifiers.",
+			"acquire":""
+		},
+		{
+			"name":"Wyvern","hide":true,"japanese":"ワイバーン",
+			"maxStack":10,"rarity":1,"sell":0,
+			"description":"No explanation necessary."
+		},
+		{
+			"name":"Wyvern Egg","japanese":"飛竜の卵",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"white-icon egg-icon",
+			"description":"An egg stolen from a wyvern's nest."
+		},
+		{
+			"name":"Herbivore Egg","japanese":"草食竜の卵",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"orange-icon egg-icon",
+			"description":"An egg stolen from an Apceros nest. Said to be delicious."
+		},
+		{
+			"name":"Carnivore Egg","japanese":"肉食竜の卵",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"orange-icon egg-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sootstone Ore","japanese":"灰水晶の原石",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"gray-icon stone-icon",
+			"description":"Ore that contains Sootstone."
+		},
+		{
+			"name":"Quartz Ore","japanese":"白水晶の原石",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"gray-icon stone-icon",
+			"description":"Ore that contains White Quartz."
+		},
+		{
+			"name":"Powderstone","japanese":"火薬岩",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"red-icon stone-icon",
+			"description":"Rock that explodes upon even the slightest impact. Be careful!"
+		},
+		{
+			"name":"Khezu Whelp","japanese":"フルフルベビー",
+			"maxStack":1,"rarity":5,"sell":156,
+			"icon":"gray-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Khezu Ice Cream","japanese":"フルベビアイス",
+			"maxStack":10,"rarity":5,"sell":500,
+			"icon":"white-icon creature-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Guild Flag","japanese":"ギルドフラッグ",
+			"maxStack":1,"rarity":3,"sell":0,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"City Leftovers","japanese":"街の残飯",
+			"maxStack":10,"rarity":2,"sell":0,
+			"icon":"gray-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bizarre Food","japanese":"奇天烈フード",
+			"maxStack":10,"rarity":4,"sell":100,
+			"icon":"white-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Big Food","japanese":"巨龍フード",
+			"maxStack":10,"rarity":5,"sell":100,
+			"icon":"yellow-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Strong Dragon Food","japanese":"強龍フード",
+			"maxStack":10,"rarity":5,"sell":100,
+			"icon":"orange-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragon Food","japanese":"龍フード",
+			"maxStack":10,"rarity":4,"sell":5,
+			"icon":"red-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ultimate Dragon Food","japanese":"龍フード・極み",
+			"maxStack":10,"rarity":5,"sell":100,
+			"icon":"blue-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Red Dragon food","japanese":"紅い龍フード",
+			"maxStack":10,"rarity":4,"sell":50,
+			"icon":"red-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Green Dragon food","japanese":"翠の龍フード",
+			"maxStack":10,"rarity":4,"sell":50,
+			"icon":"green-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Blue Dragon food","japanese":"蒼い龍フード",
+			"maxStack":10,"rarity":4,"sell":50,
+			"icon":"blue-icon monster-eating-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Whistle","japanese":"弾撃笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"white-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Attack Whistle","japanese":"突撃笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"red-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tail Whistle","japanese":"尾撃笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"yellow-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Determination Whistle","japanese":"必撃笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"orange-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Special Whistle","japanese":"特撃笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"blue-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Rage Whistle","japanese":"怒り笛",
+			"maxStack":1,"rarity":4,"sell":0,
+			"icon":"red-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Reverse Whistle","japanese":"逆鱗笛",
+			"maxStack":1,"rarity":4,"sell":10,
+			"icon":"green-icon ocarina-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dragonator Key","japanese":"撃龍槍の鍵",
+			"maxStack":10,"rarity":2,"sell":0,
+			"icon":"red-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tournament Ticket","japanese":"闘技会チケット",
+			"maxStack":5,"rarity":5,"sell":0,
+			"icon":"red-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(dummy)","hide":true,"japanese":"（ダミー）",
+			"maxStack":3,"rarity":5,"sell":0,
+			"icon":"red-icon cross-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sleep Smoke Bomb","japanese":"睡眠けむり玉",
+			"maxStack":10,"rarity":2,"sell":0,
+			"icon":"cyan-icon smoke-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Calming Smoke Bomb","japanese":"鎮静玉",
+			"maxStack":10,"rarity":2,"sell":0,
+			"icon":"blue-icon smoke-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Health Smoke Bomb","japanese":"回復玉",
+			"maxStack":10,"rarity":2,"sell":0,
+			"icon":"green-icon smoke-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Soulful Song","japanese":"魂を宿す唄",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Divine Song","japanese":"精霊へ歌う唄",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Song for Life","japanese":"生命に捧ぐ唄",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Song for the Beginning","japanese":"始まりの唄",
+			"maxStack":99,"rarity":5,"sell":1000,
+			"icon":"white-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Horn Sheet Music","japanese":"狩猟笛の楽譜",
+			"maxStack":1,"rarity":4,"buy":300,"sell":30,
+			"icon":"orange-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancient Horn Sheet Music","japanese":"古の狩猟笛の楽譜",
+			"maxStack":1,"rarity":4,"buy":800,"sell":80,
+			"icon":"white-icon sheet-music-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Beginner Coin","japanese":"シロオビコイン",
+			"maxStack":99,"rarity":4,"sell":50,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Black Belt Coin","japanese":"クロオビコイン",
+			"maxStack":99,"rarity":4,"sell":100,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Expert Coin","japanese":"タツジンコイン",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bird Wyvern Coin","japanese":"鳥竜のコイン",
+			"maxStack":99,"rarity":4,"sell":550,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Flying Wyvern Coin","japanese":"飛竜のコイン",
+			"maxStack":99,"rarity":4,"sell":1000,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Piscine Coin","japanese":"魚竜のコイン",
+			"maxStack":99,"rarity":4,"sell":750,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Fanged Beast Coin","japanese":"牙獣のコイン",
+			"maxStack":99,"rarity":4,"sell":1250,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Carapaceon Coin","japanese":"甲殻のコイン",
+			"maxStack":99,"rarity":4,"sell":1500,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Elder Dragon Coin","japanese":"古龍のコイン",
+			"maxStack":99,"rarity":4,"sell":5000,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Eternal Coin","japanese":"永遠のコイン",
+			"maxStack":99,"rarity":4,"sell":1000,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Deluxe Coin","japanese":"豪華なコイン",
+			"maxStack":99,"rarity":4,"sell":1250,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Solid Coin","japanese":"堅実なコイン",
+			"maxStack":99,"rarity":4,"sell":500,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Guild Coin","japanese":"ギルドコイン",
+			"maxStack":99,"rarity":5,"sell":5000,
+			"icon":"white-icon coin-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Secret Compass","japanese":"秘境へのコンパス",
+			"maxStack":1,"rarity":5,"sell":300,
+			"icon":"white-icon compass-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Uncharted Map","japanese":"秘境への地図",
+			"maxStack":1,"rarity":5,"sell":100,
+			"icon":"white-icon map-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"5 Uncharted Tools","japanese":"秘境への５つ道具",
+			"maxStack":1,"rarity":5,"sell":500,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Uncharted Set","japanese":"秘境セット",
+			"maxStack":1,"rarity":5,"sell":3000,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Book of Demise","japanese":"終焉の書",
+			"maxStack":1,"rarity":5,"sell":200,
+			"icon":"white-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Book of Legends","japanese":"伝説の書",
+			"maxStack":1,"rarity":5,"sell":150,
+			"icon":"white-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Elder Dragon Book","japanese":"古龍の書",
+			"maxStack":1,"rarity":5,"sell":500,
+			"icon":"white-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Ancestor Dragon Tome","japanese":"祖龍の書",
+			"maxStack":1,"rarity":5,"sell":2500,
+			"icon":"white-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tower Info 1","japanese":"古塔の断章・前編",
+			"maxStack":1,"rarity":5,"sell":50,
+			"icon":"red-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tower Info 2","japanese":"古塔の断章・中編",
+			"maxStack":1,"rarity":5,"buy":20000,"sell":2000,
+			"icon":"red-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Tower Info 3","japanese":"古塔の断章・後編",
+			"maxStack":1,"rarity":5,"sell":50,
+			"icon":"red-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Old Tower Book","japanese":"古塔の書",
+			"maxStack":1,"rarity":5,"sell":1000,
+			"icon":"red-icon book-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cauldron Lid","japanese":"古びたツボの口",
+			"maxStack":1,"rarity":5,"sell":10000,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cauldron Body","japanese":"古びたツボの胴",
+			"maxStack":1,"rarity":5,"sell":5000,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Cauldron Legs","japanese":"古びたツボの底",
+			"maxStack":1,"rarity":5,"sell":5000,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"(ancient pot)","hide":true,"japanese":"古代のツボ",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Meteoric Iron","japanese":"星鉄",
+			"maxStack":99,"rarity":5,"sell":15,
+			"icon":"gray-icon stone-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Main Sail","japanese":"メインセイル",
+			"maxStack":10,"rarity":5,"sell":1000,
+			"icon":"white-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Main Mast","japanese":"メインマスト",
+			"maxStack":10,"rarity":5,"sell":300,
+			"icon":"cyan-icon mystery-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Comrade's Mark","japanese":"戦友の証",
+			"maxStack":99,"rarity":4,"sell":5000,
+			"icon":"white-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Bond of Comrades","japanese":"戦友の絆",
+			"maxStack":99,"rarity":5,"sell":500,
+			"icon":"white-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Instructor's Ticket","japanese":"教官の注文書",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"white-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Egg Ticket","japanese":"たまご券",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"white-icon ticket-icon",
+			"description":"Ticket obtained by giving eggs to the Guild. Try collecting them."
+		},
+		{
+			"name":"Jewel Ticket","japanese":"宝石券",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"white-icon ticket-icon",
+			"description":"Ticket obtained by giving ore to the Guild. Try collecting them."
+		},
+		{
+			"name":"Commendation","japanese":"勇気の証",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"white-icon ticket-icon",
+			"description":"Ticket awarded for a display of bravery. Try collecting them."
+		},
+		{
+			"name":"Pawprint Stamp","japanese":"肉球のハンコ",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"orange-icon ticket-icon",
+			"description":"Money used by beast creatures. You can't decipher the writing."
+		},
+		{
+			"name":"Guild Ticket","japanese":"ギルドチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"orange-icon ticket-icon",
+			"description":"Rare ticket obtained by attending and completing a Guild-sponsored event."
+		},
+		{
+			"name":"BBQ Ticket","japanese":"焼き肉券",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"orange-icon ticket-icon",
+			"description":"Awarded to those who truly know how to cook flavorful meat."
+		},
+		{
+			"name":"Hunter Citation","japanese":"一流ハンターの証",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"yellow-icon ticket-icon",
+			"description":"Awarded to top hunters by the Hero of Kokoto."
+		},
+		{
+			"name":"Great Sword Ticket","japanese":"大剣チケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"green-icon ticket-icon",
+			"description":"Awarded for achievement in Great Sword training. Proof of strength."
+		},
+		{
+			"name":"Hammer Ticket","japanese":"ハンマーチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"green-icon ticket-icon",
+			"description":"Awarded for achievement in Hammer training. Proof of strength."
+		},
+		{
+			"name":"Lance Ticket","japanese":"ランスチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"green-icon ticket-icon",
+			"description":"Awarded for achievement in Lance training. Proof of strength."
+		},
+		{
+			"name":"SnS Ticket","japanese":"片手剣チケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"green-icon ticket-icon",
+			"description":"Awarded for achievement in Sword training. Proof of strength."
+		},
+		{
+			"name":"Gunner Ticket","japanese":"ガンナーチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"green-icon ticket-icon",
+			"description":"Awarded for achievement in Gunner training. Proof of strength."
+		},
+		{
+			"name":"Meatball Stamp","japanese":"肉球のスタンプ",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"red-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Famitsu Ticket","japanese":"ファミ通チケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"yellow-icon ticket-icon",
+			"description":"Ticket needed to begin production of the Hunting Life special weapon."
+		},
+		{
+			"name":"Famitsu Order Form","japanese":"ファミ通の注文書",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"yellow-icon ticket-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Dengeki Ticket","japanese":"デンゲキチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"yellow-icon ticket-icon",
+			"description":"Wow, thanks for participating in the event. The Dengeki game magazine is good too. -Polytan."
+		},
+		{
+			"name":"Dengeki G Ticket","japanese":"電撃Ｇチケット",
+			"maxStack":99,"rarity":5,"sell":0,
+			"icon":"yellow-icon ticket-icon",
+			"description":"How was the event? You should definitely come and fight me again. -Polytan"
+		},
+		{
+			"name":"Maka Pot","japanese":"マカ漬けの壷",
+			"maxStack":3,"rarity":3,"buy":300,"sell":30,
+			"icon":"white-icon maka-pot-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":31,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":31,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":35,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":40,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":80,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":35,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":31,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":3,"sell":55,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Green)","japanese":"マカ漬けの壷・緑",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"green-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Red)","japanese":"マカ漬けの壷・赤",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"red-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Red)","japanese":"マカ漬けの壷・赤",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"red-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Red)","japanese":"マカ漬けの壷・赤",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"red-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Red)","japanese":"マカ漬けの壷・赤",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"red-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":32,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":31,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Blue)","japanese":"マカ漬けの壷・青",
+			"maxStack":1,"rarity":5,"sell":0,
+			"icon":"blue-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":77,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":77,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":35,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":50,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":40,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":50,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":70,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":90,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":35,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Maka Pot (Yellow)","japanese":"マカ漬けの壷・黄",
+			"maxStack":1,"rarity":3,"sell":30,
+			"icon":"yellow-icon maka-pot-prepared-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sea Pearl","japanese":"水光原珠",
+			"maxStack":99,"rarity":4,"sell":200,
+			"icon":"white-icon gem-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Sun Pearl","japanese":"陽翔原珠",
+			"maxStack":99,"rarity":4,"sell":350,
+			"icon":"yellow-icon gem-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Asura Pearl","japanese":"修羅原珠",
+			"maxStack":99,"rarity":5,"sell":530,
+			"icon":"red-icon gem-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		},
+		{
+			"name":"Lapis Lazuli","japanese":"瑠璃原珠",
+			"maxStack":99,"rarity":5,"sell":880,
+			"icon":"blue-icon gem-icon",
+			"description":"",
+			"details":"",
+			"acquire":""
+		}
+	]
+}

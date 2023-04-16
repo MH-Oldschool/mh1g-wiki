@@ -1,0 +1,200 @@
+{{> head }}
+
+<article class="items">
+	<details>
+		<summary><span class="blue-icon tools-icon"></span>Items and Materials</summary>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Maximum Stack</th>
+						<th>Rarity</th>
+						<th>Buying Price</th>
+						<th>Sell Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#items}}
+						<tr class="{{#hide}}hide{{/hide}}">
+							<td>
+								<button class="item-details-button" title="See further details{{#unavailable}} (all methods to acquire in-game are currently unavailable){{/unavailable}}">
+									<span class="{{icon}}"></span>
+									<span>
+										{{&name}}
+										{{#unavailable}} <sup class="col-yellow">!</sup>{{/unavailable}}
+									</span>
+								</button>
+							</td>
+							<td class="expandable">{{&description}}</td>
+							<td>{{maxStack}}</td>
+							<td>{{rarity}}</td>
+							<td>{{buy}}z</td>
+							<td>{{sell}}z</td>
+						</tr>
+					{{/items}}
+				</tbody>
+			</table>
+	</details>
+</article>
+
+<hr/>
+
+<details>
+	<summary>
+		Jumbo Villager Requests
+	</summary>
+
+	<article>
+		<p>
+			As you complete requests for villagers, their Friendship will increase. This will unlock certain events and quests, reward you with items, and upgrade parts of Jumbo Village. Villagers will either ask you for certain items, or to complete a specific quest. When a villager has a blue or red speech bubble above their head, they have a request to complete. Blue speech bubbles indicate non-urgent requests, while red speech bubbles indicate urgent requests, required to progress.
+		</p>
+
+		<h2>Villagers by Category</h2>
+		<div class="three-columns">
+			<div class="column">
+				<h4>General</h4>
+				<ul>
+					<li>Village Chief</li>
+					<li>Instructor</li>
+					<li>Myarket Felyne</li>
+					<li>Novice Hunter</li>
+					<li>Rival Hunter</li>
+					<li>Wyverian Madame</li>
+				</ul>
+			</div>
+			<div class="column">
+				<h4>Workshop Staff</h4>
+				<ul>
+					<li>Forge Granny</li>
+					<li>Promising Apprentice</li>
+					<li>Forge Apprentice</li>
+					<li>Forge Greenhorn</li>
+				</ul>
+			</div>
+			<div class="column">
+				<h4>Port Officials</h4>
+				<ul>
+					<li>Master Shipwright</li>
+					<li>Combo Master</li>
+					<li>Gregarious Grocer</li>
+					<li>Contraption Craftsman</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Item Delivery Requests</h2>
+		<p>
+			On completing an item delivery request, you will be rewarded with some items as well. The item rewarded will depend on which category the villager is in, as well as how many item deliveries you've completed for villagers in that category so far. The first five item rewards are fixed, after which you will receive a random item from that category. After completing 20 deliveries in a category, the Meteorite rewards will start again from the top of the following chart.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th># Deliveries</th>
+					<th>General</th>
+					<th>Workshop Staff</th>
+					<th>Port Officials</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th>
+					<td>Mega Potion &times; 3</td>
+					<td>Machalite Ore &times; 3</td>
+					<td>White Liver &times; 5</td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Honey &times; 5</td>
+					<td>Sonic Bomb &times; 5</td>
+					<td>Elder Beans &times; 3</td>
+				</tr>
+				<tr>
+					<th>3</th>
+					<td>Well-Done Steak &times; 5</td>
+					<td>Flash Bomb &times; 5</td>
+					<td>Hardtack &times; 3</td>
+				</tr>
+				<tr>
+					<th>4</th>
+					<td>Sunrise Herb &times; 5</td>
+					<td>Lg Barrel Bomb &times; 2</td>
+					<td>Royal Cheese &times; 3</td>
+				</tr>
+				<tr>
+					<th>5</th>
+					<td>Meteorite &times; 1</td>
+					<td>Meteorite &times; 1</td>
+					<td>Meteorite &times; 1</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Quest Levels</h2>
+		<p>
+			Once you've accumulated enough Friendship points with a given villager, they will request quests of increasing star-rank.
+		</p>
+		<ul>
+			<li>1&starf; 6 points</li>
+			<li>2&starf; 8 points</li>
+			<li>3&starf; 10 points</li>
+			<li>4&starf; 12 points</li>
+		</ul>
+	</article>
+</details>
+
+<div id="dialog-backdrop"></div>
+<dialog id="item-dialog">
+	<button class="close-dialog-button">X</button>
+
+	<div class="dialog-content">
+		<h2 id="item-dialog-name"></h2>
+		<p id="item-dialog-description"></p>
+		<p id="item-dialog-details"></p>
+
+		<details class="item-dialog-acquire-combo">
+			<summary><b>How to acquire:</b></summary>
+			<p class="item-dialog-acquire-container"><span id="item-dialog-acquire"></span></p>
+
+			<details class="item-dialog-trades-container">
+				<summary>Trades:</summary>
+				<div id="item-dialog-trades">
+				</div>
+			</details>
+
+			<table class="item-dialog-combo-container">
+				<thead>
+					<th colspan=2><span class="alchemy-copy">Alchemy </span>Ingredients</th>
+				</thead>
+				<tbody id="item-dialog-combo"></tbody>
+			</table>
+		</details>
+
+		<details class="item-dialog-uses-container">
+			<summary><b>Uses:</b></summary>
+
+			<details class="item-dialog-combo-uses-container">
+				<summary><b>Combos:</b></summary>
+				<table>
+					<thead>
+						<th>Result</th>
+						<th colspan=2>Ingredients</th>
+					</thead>
+					<tbody id="item-dialog-combo-uses"></tbody>
+				</table>
+			</details>
+
+			<details class="item-dialog-weapon-uses-container">
+				<summary><b>Weapon Uses:</b></summary>
+				<div id="item-dialog-weapon-uses"></div>
+			</details>
+
+			<details class="item-dialog-armor-uses-container">
+				<summary><b>Armor Uses:</b></summary>
+				<div id="item-dialog-armor-uses"></div>
+			</details>
+		</details>
+	</div>
+</dialog>
+
+{{> foot }}
