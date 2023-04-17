@@ -77,6 +77,77 @@
 	</details>
 </article>
 
+<article class="veggie-elder-trades">
+	<details>
+		<summary><span class="green-icon mystery-icon"></span>Veggie Elder Trades</summary>
+
+		<p>
+			The Veggie Elder appears in several locales, and will trade certain items with you. If you have an item that he wants in your inventory, he will give you one of four items, depending on his mood and an element of chance. There are two possible trade results when he's in either a good or bad mood: a common result (80% chance) and a rare result (20%).
+		</p>
+
+		{{#trades}}
+			<details>
+				<summary><span class="{{color}}-icon map-icon"></span>{{name}}</summary>
+
+				<table>
+					<thead>
+						<tr>
+							<th>Trade Item</th>
+							<th>Good Mood Result 80%</th>
+							<th>Good Mood Result 20%</th>
+							<th>Bad Mood Result 80%</th>
+							<th>Bad Mood Result 20%</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#localeTrades}}
+							<tr>
+								<td><span class="{{itemIcon}}"></span><span>{{item}}</span></td>
+								{{#itemsGood}}
+									<td><span class="{{icon}}"></span><span>{{n}}</span></td>
+								{{/itemsGood}}
+								{{#itemsBad}}
+									<td><span class="{{icon}}"></span><span>{{n}}</span></td>
+								{{/itemsBad}}
+							</tr>
+						{{/localeTrades}}
+					</tbody>
+				</table>
+			</details>
+		{{/trades}}
+
+		<p>
+			If you have no items the Veggie Elder will accept in trade, there is a chance he will give you one of the following items also based on his mood:
+		</p>
+
+		<details>
+			<summary>Gifts</summary>
+
+			<table class="mh1 w-auto">
+				<thead>
+					<tr>
+						<th>Good Mood Item</th>
+						<th>Good Mood Chance</th>
+						<th>Bad Mood Item</th>
+						<th>Bad Mood Chance</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					{{#elderGifts}}
+						<tr>
+							<td><span class="{{goodMood.icon}}"></span><span>{{goodMood.name}}</span></td>
+							<td class="ta-r">{{goodMood.percent}}%</td>
+							<td><span class="{{badMood.icon}}"></span><span>{{badMood.name}}</span></td>
+							<td class="ta-r">{{badMood.percent}}%</td>
+						</tr>
+					{{/elderGifts}}
+				</tbody>
+			</table>
+		</details>
+	</details>
+</article>
+
 <hr/>
 
 <details>
