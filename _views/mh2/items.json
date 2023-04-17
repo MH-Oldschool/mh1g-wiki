@@ -5851,5 +5851,2523 @@
 			"details":"",
 			"acquire":""
 		}
+	],
+	"itemCombos":[
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Dawn Herb","icon":"yellow-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Herb","icon":"green-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Potion","icon":"green-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Potion","icon":"green-icon jar-icon"},
+						{"name":"Honey","icon":"orange-icon honey-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Dawn Herb","icon":"yellow-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Herb","icon":"green-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Mega Potion","icon":"green-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Energy Drink","icon":"yellow-icon jar-icon"},
+						{"name":"Unique Mushroom","icon":"green-icon mushroom-icon"}
+					],
+				"quantity":"1","percent":75,"alchemy":true},
+				{
+					"ingredients":[
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"name":"Godbug","icon":"white-icon bug-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Dawn Herb","icon":"yellow-icon herb-icon"},
+						{"name":"Dusk Herb","icon":"purple-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Nutrients","icon":"cyan-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Nutrients","icon":"cyan-icon jar-icon"},
+						{"name":"Honey","icon":"orange-icon honey-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Energy Drink","icon":"yellow-icon jar-icon"},
+						{"name":"Ripened Mushroom","icon":"purple-icon mushroom-icon"}
+					],
+				"quantity":"1","percent":75,"alchemy":true},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"name":"Godbug","icon":"white-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Mega Nutrients","icon":"cyan-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Antidote","icon":"blue-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Immunizer","icon":"yellow-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Rare Steak","icon":"orange-icon meat-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Rare Steak","icon":"orange-icon meat-icon"},
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"},
+						{"name":"Deadly Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Power Juice","icon":"yellow-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Well-Done Steak","icon":"orange-icon meat-icon"},
+						{"name":"Power Extract","icon":"blue-icon jar-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Mega Juice","icon":"yellow-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Special Mushroom","icon":"white-icon mushroom-icon"},
+						{"name":"Unique Mushroom","icon":"green-icon mushroom-icon"},
+						{"name":"Ripened Mushroom","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Demondrug","icon":"red-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Demondrug","icon":"red-icon jar-icon"},
+						{"name":"Pale Extract","icon":"blue-icon jar-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"},
+						{"name":"Pale Extract","icon":"blue-icon jar-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Mega Demondrug","icon":"red-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Immunizer","icon":"yellow-icon jar-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Power Pill","icon":"red-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Stone","icon":"gray-icon stone-icon"},
+						{"name":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"name":"Earth Crystal","icon":"white-icon stone-icon"}
+					],
+					"quantity":"1","percent":90,"alchemy":true
+				}
+			],
+		"name":"Armorskin","icon":"orange-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Armorskin","icon":"orange-icon jar-icon"},
+						{"name":"Pale Extract","icon":"blue-icon jar-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"},
+						{"name":"Pale Extract","icon":"blue-icon jar-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Mega Armorskin","icon":"orange-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Immunizer","icon":"yellow-icon jar-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Armor Pill","icon":"orange-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Ice Crystal","icon":"cyan-icon stone-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Cool Drink","icon":"white-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Hot Pepper","icon":"red-icon herb-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Hot Drink","icon":"red-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Cactus Flower","icon":"pink-icon herb-icon"},
+						{"name":"Thunderbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"1","percent":75,"alchemy":true
+				}
+			],
+		"name":"Psychoserum","icon":"orange-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Ice Crystal","icon":"cyan-icon stone-icon"},
+						{"name":"Sleep Sac","icon":"cyan-icon powder-icon"}
+					],
+					"quantity":"1","percent":55,"alchemy":true
+				}
+			],
+		"name":"Monster Fluid","icon":"cyan-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Cactus Flower","icon":"pink-icon herb-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Dung","icon":"brown-icon dung-icon"},
+						{"name":"Garbage","icon":"gray-icon mystery-icon"},
+						{"name":"Insect Husk","icon":"gray-icon bug-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Mega Nutrients","icon":"cyan-icon jar-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Potion","icon":"green-icon jar-icon"},
+						{"name":"Mega Potion","icon":"green-icon jar-icon"},
+						{"name":"Dragon Medicine Stone","icon":"red-icon stone-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Nutrients","icon":"cyan-icon jar-icon"},
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Max Potion","icon":"yellow-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Immunizer","icon":"yellow-icon jar-icon"},
+						{"name":"Kelbi Horn","icon":"blue-icon claw-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon"},
+						{"name":"Kelbi Horn","icon":"blue-icon claw-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Ancient Potion","icon":"red-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Ripened Mushroom","icon":"purple-icon mushroom-icon"},
+						{"name":"Piscine Liver","icon":"yellow-icon creature-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Catalyst","icon":"gray-icon powder-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Honey","icon":"orange-icon honey-icon"},
+						{"name":"Dusk Herb","icon":"purple-icon herb-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Energy Drink","icon":"yellow-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Fire Herb","icon":"red-icon herb-icon"},
+						{"name":"Nitroshroom","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Gunpowder","icon":"red-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Godbug","icon":"white-icon bug-icon"},
+						{"name":"Wyvern Fang","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Lifecrystals","icon":"white-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lifecrystals","icon":"white-icon powder-icon"},
+						{"name":"Wyvern Claw","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Godbug","icon":"white-icon bug-icon"},
+						{"name":"Wyvern Fang","icon":"white-icon claw-icon"},
+						{"name":"Wyvern Claw","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Lifepowder","icon":"white-icon powder-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Powercharm","icon":"red-icon powder-icon"},
+						{"name":"Lao-Shan Claw","icon":"red-icon claw-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Powertalon","icon":"red-icon claw-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Armorcharm","icon":"orange-icon powder-icon"},
+						{"name":"Lao-Shan Claw","icon":"red-icon claw-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Armortalon","icon":"orange-icon claw-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Tranquilizer","icon":"red-icon jar-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Burnt Meat","icon":"gray-icon meat-icon"},
+						{"name":"Dung","icon":"brown-icon dung-icon"}
+					],
+					"quantity":"1","percent":95,"alchemy":true
+				}
+			],
+		"name":"Raw Meat","icon":"red-icon meat-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Dusk Herb","icon":"purple-icon herb-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Red Oil","icon":"red-icon jar-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Power Lard","icon":"green-icon jar-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Seasoned Meat","icon":"red-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Hot Pepper","icon":"red-icon herb-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Spicy Meat","icon":"red-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Ice Crystal","icon":"cyan-icon stone-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Cold Meat","icon":"cyan-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Poisoned Meat","icon":"purple-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Tainted Meat","icon":"yellow-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Drugged Meat","icon":"cyan-icon meat-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Thunderbug","icon":"yellow-icon bug-icon"},
+						{"name":"Velociprey Hide","icon":"blue-icon hide-icon"}
+					],
+					"quantity":"1","percent":90,"alchemy":true
+				}
+			],
+		"name":"Rare Steak","icon":"orange-icon meat-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Whetstone","icon":"yellow-icon whetstone-icon"},
+						{"name":"Sm Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Boomerang","icon":"yellow-icon boomerang-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Throwing Knife","icon":"white-icon knife-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Poison Throwing Knife","icon":"purple-icon knife-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Throwing Knife","icon":"white-icon knife-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Sleep Throwing Knife","icon":"cyan-icon knife-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Throwing Knife","icon":"white-icon knife-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Paralysis Throwing Knife","icon":"yellow-icon knife-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Tranquilizer","icon":"red-icon jar-icon"},
+						{"name":"Throwing Knife","icon":"white-icon knife-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Throwing Knife","icon":"white-icon knife-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Tranq Throwing Knife","icon":"red-icon knife-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Stone","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Iron Ore","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"1-2","percent":95
+				}
+			],
+			"name":"Bomb Material","icon":"white-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Paintberry","icon":"pink-icon seed-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Paintball","icon":"pink-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Flashbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Nitroshroom","icon":"red-icon mushroom-icon"},
+						{"name":"Sunshine Ore","icon":"yellow-icon stone-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Stone","icon":"gray-icon stone-icon"},
+						{"name":"Flashbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Flash Bomb","icon":"yellow-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Gunpowder","icon":"red-icon powder-icon"},
+						{"name":"Screamer","icon":"gray-icon powder-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Screamer","icon":"gray-icon powder-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Fire Herb","icon":"red-icon herb-icon"},
+						{"name":"Nitroshroom","icon":"red-icon mushroom-icon"},
+						{"name":"Screamer","icon":"gray-icon powder-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Sonic Bomb","icon":"gray-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Dung","icon":"brown-icon dung-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Dung","icon":"brown-icon dung-icon"},
+						{"name":"Territorial Dung","icon":"orange-icon dung-icon"}
+					],
+				"quantity":"1-2","percent":65,"alchemy":true},
+				{
+					"ingredients":[
+						{"name":"Dung","icon":"brown-icon dung-icon"},
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Stone","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Dung Bomb","icon":"brown-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Ivy","icon":"green-icon herb-icon"},
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Stone","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Smoke Bomb","icon":"white-icon smoke-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Poison Sac","icon":"purple-icon powder-icon"}
+					],
+					"quantity":"1-3","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"},
+						{"name":"Stone","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Poison Smoke Bmb","icon":"purple-icon smoke-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Exciteshroom","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Farcaster","icon":"green-icon smoke-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Dusk Herb","icon":"purple-icon herb-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Deodorant","icon":"cyan-icon smoke-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Tranquilizer","icon":"red-icon jar-icon"},
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Bomb Material","icon":"white-icon bomb-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Tranq Bomb","icon":"red-icon bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Spiderweb","icon":"white-icon web-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Net","icon":"white-icon web-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Net","icon":"white-icon web-icon"},
+						{"name":"Trap Tool","icon":"green-icon tools-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Spiderweb","icon":"white-icon web-icon"},
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Pitfall Trap","icon":"green-icon trap-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Stun Sac","icon":"yellow-icon powder-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"},
+						{"name":"Flashbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Shock Trap","icon":"purple-icon trap-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Needleberry","icon":"gray-icon seed-icon"},
+						{"name":"Thunderbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Lightning Rod","icon":"gray-icon trap-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Sm Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":75,"alchemy":true
+				}
+			],
+		"name":"Small Barrel","icon":"yellow-icon barrel-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Ivy","icon":"green-icon herb-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Large Barrel","icon":"red-icon barrel-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Small Barrel","icon":"yellow-icon barrel-icon"},
+						{"name":"Fire Herb","icon":"red-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Sm Barrel-Bomb","icon":"yellow-icon barrel-bomb-icon"},
+						{"name":"Flame Sac","icon":"red-icon powder-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Sm Barrel-Bomb+","icon":"yellow-icon barrel-bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Gunpowder","icon":"red-icon powder-icon"},
+						{"name":"Large Barrel","icon":"red-icon barrel-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Large Barrel","icon":"red-icon barrel-icon"},
+						{"name":"Fire Herb","icon":"red-icon herb-icon"},
+						{"name":"Nitroshroom","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Lg Barrel-Bomb","icon":"red-icon barrel-bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Trap Tool","icon":"green-icon tools-icon"},
+						{"name":"Lg Barrel-Bomb","icon":"red-icon barrel-bomb-icon"},
+						{"name":"Flame Sac","icon":"red-icon powder-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Lg Barrel-Bomb+","icon":"red-icon barrel-bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Gunpowder","icon":"red-icon powder-icon"},
+						{"name":"Small Barrel","icon":"yellow-icon barrel-icon"},
+						{"name":"Vespoid Wing","icon":"yellow-icon honey-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Bounce Bomb","icon":"cyan-icon barrel-bomb-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Iron Ore","icon":"gray-icon stone-icon"}
+					],
+					"quantity":"5","percent":75,"alchemy":true
+				}
+			],
+		"name":"Huskberry","icon":"gray-icon husk-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Needleberry","icon":"gray-icon seed-icon"}
+					],
+					"quantity":"2-4","percent":95
+				}
+			],
+			"name":"Normal S Lv2","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Rumblefish","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"2-4","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Rumblefish+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"3-5","percent":90
+				}
+			],
+			"name":"Normal S Lv3","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Velociprey Fang","icon":"blue-icon claw-icon"}
+					],
+					"quantity":"1-3","percent":90
+				}
+			],
+			"name":"Pierce S Lv1","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Pin Tuna","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Pin Tuna+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"2-4","percent":65
+				}
+			],
+			"name":"Pierce S Lv2","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Pin Tuna","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1-2","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Pin Tuna+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Pin Tuna+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":90
+				}
+			],
+			"name":"Pierce S Lv3","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Scatternut","icon":"gray-icon seed-icon"}
+					],
+					"quantity":"1-3","percent":90
+				}
+			],
+			"name":"Pellet S Lv1","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Wyvern Fang","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1-3","percent":75
+				}
+			],
+			"name":"Pellet S Lv2","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Wyvern Fang","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1-3","percent":75
+				}
+			],
+			"name":"Pellet S Lv3","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Burst Arrowana","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Great Arrowana","icon":"green-icon fish-icon"}
+					],
+					"quantity":"1-2","percent":75
+				}
+			],
+			"name":"Crag S Lv1","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Burst Arrowana","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Great Arrowana","icon":"green-icon fish-icon"}
+					],
+					"quantity":"1-2","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Great Arrowana","icon":"green-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":65
+				}
+			],
+			"name":"Crag S Lv2","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Bomb Arrowana","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Crag S Lv3","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Bomberry","icon":"gray-icon seed-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Clust S Lv1","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Wyvern Claw","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Clust S Lv2","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Scatterfish","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Clust S Lv3","icon":"white-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Fire Herb","icon":"red-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Flame S","icon":"red-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Knife Mackerel","icon":"yellow-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Knife Mackerel+","icon":"yellow-icon fish-icon"}
+					],
+					"quantity":"2-4","percent":65
+				}
+			],
+			"name":"Water S","icon":"cyan-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Flashbug","icon":"yellow-icon bug-icon"}
+					],
+					"quantity":"2-4","percent":75
+				}
+			],
+			"name":"Thunder S","icon":"yellow-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Ice Crystal","icon":"cyan-icon stone-icon"}
+					],
+					"quantity":"1-3","percent":75
+				}
+			],
+			"name":"Ice S","icon":"blue-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Dragon Seed","icon":"red-icon seed-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Dragon S","icon":"red-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Herb","icon":"green-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Recov S Lv1","icon":"green-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Potion","icon":"green-icon jar-icon"},
+						{"name":"Huskberry","icon":"gray-icon husk-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Recov S Lv2","icon":"green-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Poison S Lv1","icon":"purple-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Ioprey Fang","icon":"red-icon claw-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Poison S Lv2","icon":"purple-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Stun S Lv1","icon":"yellow-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Genprey Fang","icon":"green-icon claw-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Stun S Lv2","icon":"yellow-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Sleep S Lv1","icon":"cyan-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Sleepyfish","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Sleepyfish+","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1-2","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Lg Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Sleepyfish+","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1-3","percent":65
+				}
+			],
+			"name":"Sleep S Lv2","icon":"cyan-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Tranquilizer","icon":"red-icon jar-icon"},
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Tranq S","icon":"red-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Paintberry","icon":"pink-icon seed-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Paint S","icon":"pink-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Demon S","icon":"red-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Huskberry","icon":"gray-icon husk-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Armor S","icon":"orange-icon shot-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sm Bone Husk","icon":"white-icon husk-icon"},
+						{"name":"Whetstone","icon":"yellow-icon whetstone-icon"}
+					],
+					"quantity":"1-3","percent":75
+				}
+			],
+			"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Nitroshroom","icon":"red-icon mushroom-icon"}
+					],
+					"quantity":"1-2","percent":75
+				}
+			],
+			"name":"Power Coating","icon":"red-icon coating-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1-2","percent":75
+				}
+			],
+			"name":"Poison Coating","icon":"purple-icon coating-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Stunshroom","icon":"yellow-icon mushroom-icon"}
+					],
+					"quantity":"1-2","percent":75
+				}
+			],
+			"name":"Paralysis Coating","icon":"yellow-icon coating-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Sleep Herb","icon":"cyan-icon herb-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Sleepyfish","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1","percent":90
+				},
+				{
+					"ingredients":[
+						{"name":"Empty Bottle","icon":"white-icon empty-bottle-icon"},
+						{"name":"Sleepyfish+","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1-2","percent":95
+				}
+			],
+			"name":"Sleep Coating","icon":"cyan-icon coating-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Worm","icon":"gray-icon bait-icon"},
+						{"name":"Yambug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Tuna Bait","icon":"cyan-icon bait-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Cricket","icon":"green-icon bait-icon"},
+						{"name":"Bughopper","icon":"white-icon bug-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Arrowana Bait","icon":"green-icon bait-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Firefly","icon":"yellow-icon bait-icon"},
+						{"name":"Snakebee Larva","icon":"orange-icon bug-icon"}
+					],
+					"quantity":"1","percent":90
+				}
+			],
+			"name":"Goldenfish Bait","icon":"yellow-icon bait-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Stone","icon":"gray-icon stone-icon"},
+						{"name":"Mystery Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Stone","icon":"gray-icon stone-icon"},
+						{"name":"Bone","icon":"white-icon bone-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Old Pickaxe","icon":"gray-icon pick-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Iron Ore","icon":"gray-icon stone-icon"},
+						{"name":"Bone","icon":"white-icon bone-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Iron Pickaxe","icon":"white-icon pick-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Machalite Ore","icon":"blue-icon stone-icon"},
+						{"name":"Bone","icon":"white-icon bone-icon"}
+					],
+					"quantity":"1","percent":95
+				}
+			],
+			"name":"Mega Pickaxe","icon":"yellow-icon pick-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Net","icon":"white-icon web-icon"},
+						{"name":"Mystery Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Spiderweb","icon":"white-icon web-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"},
+						{"name":"Mystery Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Old Bugnet","icon":"gray-icon bugnet-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Net","icon":"white-icon web-icon"},
+						{"name":"Sm Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":75
+				},
+				{
+					"ingredients":[
+						{"name":"Spiderweb","icon":"white-icon web-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"},
+						{"name":"Sm Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":65
+				}
+			],
+			"name":"Bugnet","icon":"white-icon bugnet-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Net","icon":"white-icon web-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":95
+				},
+				{
+					"ingredients":[
+						{"name":"Spiderweb","icon":"white-icon web-icon"},
+						{"name":"Ivy","icon":"green-icon herb-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Mega Bugnet","icon":"yellow-icon bugnet-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Men's BBQ Spit","icon":"cyan-icon spit-icon"},
+						{"name":"BBQ Kit","icon":"gray-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"Women's BBQ Spit","icon":"pink-icon spit-icon"},
+						{"name":"BBQ Kit","icon":"gray-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"Felyne BBQ Spit","icon":"white-icon spit-icon"},
+						{"name":"BBQ Kit","icon":"gray-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Raw Meat","icon":"red-icon meat-icon"},
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Poisonous Meat)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Seasoned Meat","icon":"red-icon meat-icon"},
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Poisonous Meat)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Spicy Meat","icon":"red-icon meat-icon"},
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Poisonous Meat)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Cold Meat","icon":"cyan-icon meat-icon"},
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Poisonous Meat)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Poisoned Meat","icon":"purple-icon meat-icon"},
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Poisonous Meat)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Knife Mackerel","icon":"yellow-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Pin Tuna","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Rumblefish","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Big Fish)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Knife Mackerel+","icon":"yellow-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Pin Tuna+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"BBQ Set","icon":"blue-icon spit-icon"},
+						{"name":"Rumblefish+","icon":"gray-icon fish-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"BBQ Set (Big Fish)","icon":"blue-icon spit-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lifepowder","icon":"white-icon powder-icon"},
+						{"name":"Flute","icon":"yellow-icon flute-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Lifecrystals","icon":"white-icon powder-icon"},
+						{"name":"Flute","icon":"yellow-icon flute-icon"},
+						{"name":"Wyvern Claw","icon":"white-icon claw-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Health Flute","icon":"green-icon flute-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Flute","icon":"yellow-icon flute-icon"},
+						{"name":"Antiseptic Stone","icon":"yellow-icon stone-icon"}
+					],
+					"quantity":"1","percent":65
+				},
+				{
+					"ingredients":[
+						{"name":"Flute","icon":"yellow-icon flute-icon"},
+						{"name":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Antidote Flute","icon":"blue-icon flute-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Mega Demondrug","icon":"red-icon jar-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Power Seed","icon":"red-icon seed-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Demon Flute","icon":"red-icon flute-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Mega Armorskin","icon":"orange-icon jar-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":55
+				},
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Armor Seed","icon":"orange-icon seed-icon"},
+						{"name":"Med Monster Bone","icon":"yellow-icon bone-icon"}
+					],
+					"quantity":"1","percent":55
+				}
+			],
+			"name":"Armor Flute","icon":"orange-icon flute-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Firefly","icon":"yellow-icon bait-icon"},
+						{"name":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":90,"alchemy":true
+				}
+			],
+		"name":"Honey","icon":"orange-icon honey-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Sap Plant","icon":"white-icon herb-icon"},
+						{"name":"Insect Husk","icon":"gray-icon bug-icon"}
+					],
+					"quantity":"1","percent":95,"alchemy":true
+				}
+			],
+		"name":"Herb","icon":"green-icon herb-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Garbage","icon":"gray-icon mystery-icon"},
+						{"name":"Hot Pepper","icon":"red-icon herb-icon"}
+					],
+					"quantity":"1","percent":90,"alchemy":true
+				}
+			],
+		"name":"Fire Herb","icon":"red-icon herb-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+						{"name":"Toadstool","icon":"purple-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":95,"alchemy":true
+				}
+			],
+		"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Hot Pepper","icon":"red-icon herb-icon"},
+						{"name":"Special Mushroom","icon":"white-icon mushroom-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Spicy Mushroom","icon":"orange-icon mushroom-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Bomberry","icon":"gray-icon seed-icon"},
+						{"name":"Kut-Ku Scale","icon":"pink-icon scale-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Power Seed","icon":"red-icon seed-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Needleberry","icon":"gray-icon seed-icon"},
+						{"name":"Velocidrome Claw","icon":"blue-icon claw-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Armor Seed","icon":"orange-icon seed-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Needleberry","icon":"gray-icon seed-icon"},
+						{"name":"Earth Crystal","icon":"white-icon stone-icon"}
+					],
+					"quantity":"5","percent":75,"alchemy":true
+				}
+			],
+		"name":"Needleberry","icon":"gray-icon seed-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Earth Crystal","icon":"white-icon stone-icon"},
+						{"name":"Bitterbug","icon":"blue-icon bug-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Antiseptic Stone","icon":"yellow-icon stone-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+						{"name":"Sleepyfish","icon":"cyan-icon fish-icon"}
+					],
+					"quantity":"1","percent":75,"alchemy":true
+				}
+			],
+		"name":"Sushifish","icon":"orange-icon fish-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Hot Pepper","icon":"red-icon herb-icon"},
+						{"name":"Sushifish","icon":"orange-icon fish-icon"}
+					],
+					"quantity":"1","percent":75,"alchemy":true
+				}
+			],
+		"name":"Rumblefish","icon":"gray-icon fish-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Frog","icon":"blue-icon bait-icon"},
+						{"name":"Flute","icon":"yellow-icon flute-icon"}
+					],
+					"quantity":"1","percent":75,"alchemy":true
+				}
+			],
+		"name":"Screamer","icon":"gray-icon powder-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Dragon Seed","icon":"red-icon seed-icon"},
+						{"name":"Piscine Liver","icon":"yellow-icon creature-icon"}
+					],
+					"quantity":"1","percent":65,"alchemy":true
+				}
+			],
+		"name":"Power Extract","icon":"blue-icon jar-icon"},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Catalyst","icon":"gray-icon powder-icon"},
+						{"name":"Lifecrystals","icon":"white-icon powder-icon"},
+						{"name":"Decayed Scale","icon":"gray-icon scale-icon"}
+					],
+					"quantity":"1","percent":75
+				}
+			],
+			"name":"Daora Scale","icon":"gray-icon scale-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Secret Compass","icon":"white-icon compass-icon"},
+						{"name":"Uncharted Map","icon":"white-icon map-icon"},
+						{"name":"5 Uncharted Tools","icon":"white-icon mystery-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Uncharted Set","icon":"white-icon mystery-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Book of Demise","icon":"white-icon book-icon"},
+						{"name":"Book of Legends","icon":"white-icon book-icon"},
+						{"name":"Elder Dragon Book","icon":"white-icon book-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Ancestor Dragon Tome","icon":"white-icon book-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Tower Info 1","icon":"red-icon book-icon"},
+						{"name":"Tower Info 2","icon":"red-icon book-icon"},
+						{"name":"Tower Info 3","icon":"red-icon book-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Old Tower Book","icon":"red-icon book-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Blango Pelt","icon":"white-icon hide-icon"},
+						{"name":"Blangonga Whisker","icon":"white-icon creature-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"Blango Pelt","icon":"white-icon hide-icon"},
+						{"name":"Vibrant Pelt","icon":"pink-icon hide-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Main Sail","icon":"white-icon mystery-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Lg Monster Bone","icon":"yellow-icon bone-icon"},
+						{"name":"Conga Pelt","icon":"pink-icon hide-icon"}
+					],
+					"quantity":"1","percent":100
+				},
+				{
+					"ingredients":[
+						{"name":"Jumbo Bone","icon":"white-icon bone-icon"},
+						{"name":"Conga Pelt","icon":"pink-icon hide-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Main Mast","icon":"cyan-icon mystery-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Herb","icon":"green-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Potion","icon":"green-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Mega Potion","icon":"green-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Nutrients","icon":"cyan-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Antidote","icon":"blue-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Green)","icon":"green-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Burnt Meat","icon":"gray-icon meat-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Red)","icon":"red-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Rare Steak","icon":"orange-icon meat-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Red)","icon":"red-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Koge? Fish","icon":"gray-icon fish-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Red)","icon":"red-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Rare Cooked Fish?","icon":"orange-icon fish-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Red)","icon":"red-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Dawn Herb","icon":"yellow-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Dusk Herb","icon":"purple-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Fire Herb","icon":"red-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Special Mushroom","icon":"white-icon mushroom-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Unique Mushroom","icon":"green-icon mushroom-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Cactus Flower","icon":"pink-icon herb-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Khezu Whelp","icon":"gray-icon creature-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Deadly Toadstool","icon":"purple-icon mushroom-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Rice Bug","icon":"gray-icon bug-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Warm Wheat","icon":"orange-icon seed-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Red Oil","icon":"red-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Dry Margerine","icon":"yellow-icon jar-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Insect Husk","icon":"gray-icon bug-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		},
+		{
+			"combos":[
+				{
+					"ingredients":[
+						{"name":"Garbage","icon":"gray-icon mystery-icon"},
+						{"name":"Maka Pot","icon":"white-icon maka-pot-icon"}
+					],
+					"quantity":"1","percent":100
+				}
+			],
+			"name":"Maka Pot (Yellow)","icon":"yellow-icon maka-pot-prepared-icon"
+		}
 	]
 }

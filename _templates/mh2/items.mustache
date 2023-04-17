@@ -38,6 +38,45 @@
 	</details>
 </article>
 
+<article class="combinations">
+	<details>
+		<summary><span class="white-icon book-icon"></span>Item Combinations</summary>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Ingredients</th>
+					<th>Success %</th>
+					<th>Quantity</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#itemCombos}}
+					<tr>
+						<th colspan="4" class="combo-name-header"><span class="{{icon}}"></span>{{name}}</th>
+					</tr>
+					{{#combos}}
+						<tr{{#alchemy}} class="alchemy-row" title="Requires Alchemy"{{/alchemy}}>
+							<td colspan="2" class="combo-ingredients">
+								{{#alchemy}}<span class="alchemy-tag">A</span>{{/alchemy}}
+								{{#ingredients}}
+									<span class="plus-separated">
+										<span class="{{icon}}"></span>
+										<span>{{name}}</span>
+									</span>
+								{{/ingredients}}
+							</td>
+							<td>{{percent}}%</td>
+							<td>{{quantity}}{{^quantity}}1{{/quantity}}</td>
+						</tr>
+					{{/combos}}
+				{{/itemCombos}}
+			</tbody>
+		</table>
+	</details>
+</article>
+
 <hr/>
 
 <details>

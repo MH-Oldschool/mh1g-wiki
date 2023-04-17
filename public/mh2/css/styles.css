@@ -5,6 +5,9 @@ body {
 .arrow-separated:after { content: " → "; }
 .arrow-separated:last-child:after { content: ""; }
 
+.plus-separated:after { content: " + "; }
+.plus-separated:last-child:after { content: ""; }
+
 /* Icon Sheets by color */
 .pink-icon { background-image: url("/mh2/images/icon_sheets/icons_pink.png"); }
 .red-icon { background-image: url("/mh2/images/icon_sheets/icons_red.png"); }

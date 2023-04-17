@@ -1,3 +1,23 @@
 dialog {
 	background-image: url("/mh2/images/background.gif");
 }
+
+.combo-name-header {
+	padding: 0.25rem;
+}
+.combo-ingredients {
+	padding-left: 1rem;
+}
+
+.alchemy-row {
+	background-color: rgba(32,64,16,0.5);
+}
+.alchemy-tag {
+	cursor: url("/images/cursors/star.png") 5 5, help;
+	color: #e70;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+.alchemy-row .combo-ingredients {
+	padding-left: 0.5rem;
+}
