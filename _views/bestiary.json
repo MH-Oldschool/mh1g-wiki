@@ -3,7 +3,7 @@
 	"description": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
 	"head": "<link rel='stylesheet' href='css/bestiary.css'/>",
 	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them. (Village carves are only specified for monsters that do not appear in Low Rank, or where they differ from Low Rank. MH1 carves are based on the US version, and may vary from MH1J. MH1J Fatalis hitzones derived from <a href=\"https://www.youtube.com/watch?app=desktop&v=qfgLj40Zkog\">this video,</a> all other 1J hitzones from <a href=\"https://pastebin.com/LG7hPYPG\">this pastebin.</a> MHG item names are based on Amaillo's English language patch)",
-	"onBestiary": true,
+	"onBestiary": true,"versionUrl":"bestiary",
 	"gToggle": true,
 	"monsters": [
 		{

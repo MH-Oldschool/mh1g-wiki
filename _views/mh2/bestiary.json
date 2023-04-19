@@ -3,7 +3,7 @@
 	"description": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
 	"head": "<link rel='stylesheet' href='../css/bestiary.css'/><link rel='stylesheet' href='css/bestiary.css'/>",
 	"subtitle": "In-game descriptions and brief notes for the all monsters. Some monsters are so mysterious, little is known about them.",
-	"onBestiary": true,
+	"onBestiary": true,"versionUrl":"bestiary",
 	"monsters":[
 		{
 			"name":"Felyne","japanese":"アイルー","description":"Cat-like humanoids with white fur. Normally quiet unless angered, in which case they attack. Capable of speech. Found in the employ of humans. <sub>[Monster Hunter (US)]</sub>",

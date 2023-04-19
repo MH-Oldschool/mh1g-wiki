@@ -3,7 +3,7 @@
 	"description": "A full list of items, item combinations, and Veggie Elder trades.",
 	"subtitle": "",
 	"head": "<link type='text/css' rel='stylesheet' href='../css/items.css'/><link type='text/css' rel='stylesheet' href='css/items.css'/><script type='text/javascript' src='../js/toggle_full_details.js'></script><script type='text/javascript' src='../mh2/js/item_data.js'></script><script type='text/javascript' src='js/items.js'></script>",
-	"onItems": true,
+	"onItems": true,"versionUrl":"items",
 	"expandToggle": true,
 	"items":[
 		{

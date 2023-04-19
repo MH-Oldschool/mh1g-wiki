@@ -2,10 +2,8 @@
 	"title": "Monster Hunter Wiki | Armor Skills",
 	"description": "All armor skills with descriptions.",
 	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge.<span class='g-only'> The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level.</span></p>",
-	"head": "
-		<link type='text/css' rel='stylesheet' href='css/armor_skills.css'/>
-		<script type='text/javascript' src='js/armor_skills.js'></script>",
-	"onArmorSkills": true,
+	"head": "<link type='text/css' rel='stylesheet' href='css/armor_skills.css'/><script type='text/javascript' src='js/armor_skills.js'></script>",
+	"onArmorSkills": true,"versionUrl":"armor-skills",
 	"gToggle": true,
 	"baseSkills": [
 		{

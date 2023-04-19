@@ -3,7 +3,7 @@
 	"description": "All armor skills with descriptions.",
 	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge. The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level.</p>",
 	"head": "<link type='text/css' rel='stylesheet' href='../css/armor_skills.css'/><script type='text/javascript' src='../js/armor_skills.js'></script>",
-	"onArmorSkills":true,
+	"onArmorSkills":true,"versionUrl":"armor-skills",
 	"armorSkills":[
 		{
 			"name":"Alchemy","japanese":"錬金術",
