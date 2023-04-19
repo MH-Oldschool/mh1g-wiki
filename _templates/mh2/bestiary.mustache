@@ -1,0 +1,433 @@
+{{> head}}
+
+{{#monsters}}
+{{^hide}}
+	<details class="monster-details{{#unknown}} unknown{{/unknown}}">
+		<summary>
+			<div class="monster-row">
+				<div class="monster-icon-container">
+					<div class="{{ icon }}"></div>
+				</div>
+				<div class="monster-description">
+					<h3>{{ name }} <span class="japanese" title="{{ japanese }} ({{ rome }})">{{ japanese }}</span></h3>
+					<p>{{ &description }}</p>
+				</div>
+			</div>
+		</summary>
+
+		<section class="monster-container">
+			<div class="monster-image">
+				<img src="{{ image }}.png" alt="{{ name }}" title="{{ name }}"/>
+			</div>
+
+			<aside class="monster-data">
+				<ul>
+					{{#notes}}
+						<li>{{&.}}</li>
+					{{/notes}}
+				</ul>
+
+				{{#stars}}
+					<div class="starred-stats mh1">
+						<table>
+							<caption>Weapon Class</caption>
+							<tbody>
+								<tr>
+									<td><span class="white-icon gs-icon" title="Cutting">Cutting</span></td>
+									<td>{{{stars.weapons.0}}}</td>
+								</tr>
+								<tr>
+									<td><span class="white-icon hammer-icon" title="Blunt">Blunt</span></td>
+									<td>{{{stars.weapons.1}}}</td>
+								</tr>
+								<tr>
+									<td><span class="white-icon shot-icon" title="Shot">Shot</span></td>
+									<td>{{{stars.weapons.2}}}</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table>
+							<caption>Element</caption>
+							<tbody>
+								<tr>
+									<td><img class="attribute-icon" src="images/attributes/fire.png" alt="Fire" title="Fire"/></td>
+									<td>{{{stars.elements.0}}}</td>
+								</tr>
+								<tr>
+									<td><img class="attribute-icon" src="images/attributes/water.png" alt="Water" title="Water"/></td>
+									<td>{{{stars.elements.1}}}</td>
+								</tr>
+								<tr>
+									<td><img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder" title="Thunder"/></td>
+									<td>{{{stars.elements.2}}}</td>
+								</tr>
+								<tr>
+									<td><img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon" title="Dragon"/></td>
+									<td>{{{stars.elements.3}}}</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table>
+							<caption>Status</caption>
+							<tbody>
+								<tr>
+									<td><img class="status-icon" src="images/attributes/poison.png" alt="Poison" title="Poison"/></td>
+									<td>{{{stars.statuses.0}}}</td>
+								</tr>
+								<tr>
+									<td><img class="status-icon" src="images/attributes/paralysis.png" alt="Paralysis" title="Paralysis"/></td>
+									<td>{{{stars.statuses.1}}}</td>
+								</tr>
+								<tr>
+									<td><img class="status-icon" src="images/attributes/sleep.png" alt="Sleep" title="Sleep"/></td>
+									<td>{{{stars.statuses.2}}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				{{/stars}}
+
+				<details>
+					<summary>Detailed Stats</summary>
+
+					<table class="sizes"{{^sizes}} style="display:none"{{/sizes}}>
+						<caption>Sizes</caption>
+
+						<tbody>
+							<tr>
+								<th><span class="ui-icon mini-crown-icon" title="Mini">Mini</span></th>
+								<td>Mini Crown</td>
+								<td class="ta-r">{{sizes.2}} cm</td>
+							</tr>
+							<tr title="Minimum size for a silver crown">
+								<th><span class="ui-icon silver-crown-icon" title="Silver">Silver</span></th>
+								<td>Silver Crown</td>
+								<td class="ta-r">{{sizes.1}} cm</td>
+							</tr>
+							<tr title="Minimum size for a gold crown">
+								<th><span class="ui-icon gold-crown-icon" title="Gold">Gold</span></th>
+								<td>Gold Crown</td>
+								<td class="ta-r">{{sizes.0}} cm</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<table class="hitpoints-table">
+						<caption>Stats</caption>
+						<thead>
+							<tr>
+								<th>Rank</th>
+								<th>Hitpoints</th>
+								<th>Attack %</th>
+								<th>Defense %</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							{{#stats}}
+								<tr>
+									<th>{{rank}}</th>
+									<td class="ta-r">{{health}}</td>
+									<td>{{attack}}</td>
+									<td>{{defense}}</td>
+								</tr>
+							{{/stats}}
+						</tbody>
+					</table>
+
+					<table class="hitzones-table">
+						<caption>Weapon and Element Effectiveness</caption>
+						<thead>
+							<tr>
+								<th><span class="yellow-icon creature-icon" title="Body Part">Body Part</span></th>
+								<th><span class="white-icon great-sword-icon" title="Cutting">Cutting</span></th>
+								<th><span class="white-icon hammer-icon" title="Blunt">Blunt</span></th>
+								<th><span class="white-icon shot-icon" title="Shot">Shot</span></th>
+								<th><img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire" title="Fire"/></th>
+								<th><img class="attribute-icon" src="../images/attributes/water.png" alt="Water" title="Water"/></th>
+								<th><img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder" title="Thunder"/></th>
+								<th><img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice" title="Ice"/></th>
+								<th><img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon" title="Dragon"/></th>
+								<th><img class="attribute-icon" src="../images/attributes/stun.png" alt="KO" title="Knock-out"/></th>
+								<th>Stagger</th>
+								<th>Break/Cut</th>
+							</tr>
+						</thead>
+
+						<tbody class="ta-r">
+							{{#hitzones}}
+								<tr>
+									<td class="ta-l">{{part}}</td>
+									{{#zones}}
+										<td>{{.}}</td>
+									{{/zones}}
+									<td class="ta-l">
+										{{break}}
+										{{^break}}n/a{{/break}}
+									</td>
+								</tr>
+							{{/hitzones}}
+						</tbody>
+					</table>
+
+					{{#hitzoneNotes}}
+						<p>
+							{{hitzoneNotes}}
+						</p>
+					{{/hitzoneNotes}}
+
+					<div>
+						<table>
+							<caption>Status Tolerance</caption>
+							<thead>
+								<tr>
+									<th></th>
+									<th>Tolerance</th>
+									<th>Duration</th>
+									<th>Recovery</th>
+									<th>Damage | Total</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								{{#statusTolerances}}
+									<tr class="ta-r">
+										<td><img class="status-icon" src="../images/attributes/{{name}}.png" alt="{{title}}" title="{{title}}"/></td>
+										{{#immune}}
+											<td colspan=4 class="ta-c">Immune</td>
+										{{/immune}}
+										{{^immune}}
+											<td>{{#tolerances}}<span class="comma-separated">{{.}}</span>{{/tolerances}}</td>
+											<td>{{duration}}</td>
+											<td>{{recovery}}</td>
+											<td>
+												{{^damage}}n/a{{/damage}}
+												{{damage}}
+												{{#totalDamage}} | {{totalDamage}}{{/totalDamage}}
+											</td>
+										{{/immune}}
+									</tr>
+								{{/statusTolerances}}
+							</tbody>
+						</table>
+
+						<p>
+							Tolerance increases to the next value each time the monster succumbs to the status effect, up to the given maximum.
+						</p>
+					</div>
+				</details>
+
+				<details{{^carves}} style="display:none"{{/carves}}>
+					<summary>Materials</summary>
+
+					<table>
+						<caption>Carves</caption>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Carve Chance</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							{{#carves}}
+								<tr>
+									<th colspan=2 class="ta-c">{{rank}}</th>
+								</tr>
+								{{#sources}}
+									<tr>
+										<th colspan=2>{{name}} &times; {{carveCount}}</th>
+									</tr>
+									{{#materials}}
+										<tr>
+											<td>{{name}}</td>
+											<td class="ta-r">{{percent}}%</td>
+										</tr>
+									{{/materials}}
+								{{/sources}}
+							{{/carves}}
+						</tbody>
+					</table>
+
+					<table{{^breakRewards}} style="display:none"{{/breakRewards}}>
+						<caption>Part-break Rewards</caption>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Reward Chance</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							{{#breakRewards}}
+								<tr>
+									<th colspan=2 class="ta-c">{{rank}}</th>
+								</tr>
+								{{#sources}}
+									<tr>
+										<th colspan=2>{{name}}</th>
+									</tr>
+									{{#materials}}
+										<tr>
+											<td>{{name}}</td>
+											<td class="ta-r">{{percent}}%</td>
+										</tr>
+									{{/materials}}
+								{{/sources}}
+							{{/breakRewards}}
+						</tbody>
+					</table>
+
+					<table{{^captureRewards}} style="display:none"{{/captureRewards}}>
+						<caption>Capture Rewards</caption>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Quantity</th>
+								<th>Reward Chance</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							{{#captureRewards}}
+								<tr>
+									<th colspan=3 class="ta-c">{{rank}}</th>
+								</tr>
+								{{#materials}}
+									<tr class="ta-r">
+										<td class="ta-l">{{name}}</td>
+										<td>&times;{{quantity}}</td>
+										<td>{{percent}}%</td>
+									</tr>
+								{{/materials}}
+							{{/captureRewards}}
+						</tbody>
+					</table>
+				</details>
+			</aside>
+		</section>
+	</details>
+{{/hide}}
+{{/monsters}}
+
+<hr/>
+
+<details class="about-monsters">
+	<summary>
+		About Monsters
+	</summary>
+
+	<article>
+		<h2>Monster Stats</h2>
+
+		<h3>Monster Level</h3>
+		<p>
+			A monster's level will determine which stat modifiers apply to that monster on the quest. Each quest defines its own base monster level, which is then modified based on time of day and season. Day/Night and Season Modifiers depend on the monster. Some monsters prefer day over night, or vice versa, and some have a preferred season.
+		</p>
+		<table class="w-auto">
+			<thead>
+				<tr>
+					<th>Monster</th>
+					<th>Day</th>
+					<th>Night</th>
+					<th>Season</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				{{#monsterPreferences}}
+					<tr>
+						<th>{{monster}}</th>
+						<td>{{day}}</td>
+						<td>{{night}}</td>
+						<td>
+							{{season}}
+							{{^season}}none{{/season}}
+						</td>
+					</tr>
+				{{/monsterPreferences}}
+			</tbody>
+		</table>
+
+		<p>
+			The Day/Night and Season modifiers can range from -1 to +2 depending on the monster's preferences and an element of chance. First, the appropriate column is chosen based on the monster's preference. Then, the modifier is selected at random based on a given percent chance. See the table below for details. Note that some modifiers have a 0% chance to apply, under some conditions.
+		</p>
+
+		<table class="w-auto">
+			<thead>
+				<tr>
+					<th>Modifier</th>
+					<th>Default %</th>
+					<th>Preferred %</th>
+					<th>Disliked %</th>
+				</tr>
+			</thead>
+
+			<tbody class="ta-r">
+				<tr>
+					<td>-1</td>
+					<td>0</td>
+					<td>5</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>0</td>
+					<td>85</td>
+					<td>70</td>
+					<td>80</td>
+				</tr>
+				<tr>
+					<td>+1</td>
+					<td>10</td>
+					<td>15</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>+2</td>
+					<td>5</td>
+					<td>10</td>
+					<td>0</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<pre>Quest Level + Day/Night Modifier + Season Modifier = Monster Level</pre>
+
+		<div class="two-columns">
+			{{#monsterLevels}}
+				<div class="column">
+					<h3>{{categoryName}}</h3>
+					<table class="w-auto">
+						<thead>
+							<tr>
+								<th>Level</th>
+								<th>Health %</th>
+								<th>Attack %</th>
+								<th>Defense %</th>
+							</tr>
+						</thead>
+
+						<tbody class="ta-r">
+							{{#levels}}
+								<tr>
+									<td>{{level}}</td>
+									<td>{{health}}</td>
+									<td>{{attack}}</td>
+									<td>{{defense}}</td>
+								</tr>
+							{{/levels}}
+						</tbody>
+					</table>
+				</div>
+			{{/monsterLevels}}
+		</div>
+
+		<p>
+			Typically, Village quests use the first nine monster levels, while Town quests use the remaining seventeen.
+		</p>
+	</details>
+</article>
+
+{{> foot}}

@@ -54,6 +54,9 @@ app.get("/mh2/armor-skills", (req, res) => {
 app.get("/mh2/items", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/items.html"));
 });
+app.get("/mh2/bestiary", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/bestiary.html"));
+});
 app.get("/mh2/quests", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/quests.html"));
 });

@@ -2,6 +2,11 @@ body {
 	background-image: url("/mh2/images/background.gif");
 }
 
+tbody th {
+	font-weight: bold;
+	padding: 0.25rem 0.5rem;
+}
+
 .arrow-separated:after { content: " → "; }
 .arrow-separated:last-child:after { content: ""; }
 
@@ -93,6 +98,43 @@ body {
 	width: 0.75rem;
 }
 
+.ui-icon {
+	overflow: hidden;
+	background-image: url("/mh2/images/icon_sheets/interface_icons.png");
+	text-indent: -999rem;
+}
+.mini-crown-icon,
+.gold-crown-icon,
+.silver-crown-icon {
+	position: relative;
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.mini-crown-icon,
+.gold-crown-icon {
+	background-position: -6.25rem -12.375rem;
+}
+.silver-crown-icon { background-position: -6.25rem -13.5625rem; }
+/* Crown jewels */
+.mini-crown-icon:after,
+.silver-crown-icon:after,
+.gold-crown-icon:after {
+	content: "";
+	position: absolute;
+	background-image: url("/mh2/images/icon_sheets/interface_icons.png");
+	margin: -0.1875rem auto 0;
+	width: 0.5rem;
+	height: 0.5rem;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.mini-crown-icon:after { background-position: -7.9375rem -12.4375rem; }
+.silver-crown-icon:after,
+.gold-crown-icon:after {
+	background-position: -7.9375rem -12.9375rem;
+}
+
 .ui-icon-2 {
 	image-rendering: pixelated;
 	position: relative;
@@ -109,3 +151,83 @@ body {
 .sharpness-icon-green:after { background-image: url("/mh2/images/sharpness_colors/green.png"); }
 .sharpness-icon-blue:after { background-image: url("/mh2/images/sharpness_colors/blue.png"); }
 .sharpness-icon-white:after { background-image: url("/mh2/images/sharpness_colors/white.png"); }
+
+.monster-icon-2 {
+	image-rendering: pixelated;
+	position: relative;
+	background-image: url("/mh2/images/icon_sheets/monster_icons.png");
+	background-repeat: no-repeat;
+	background-size: 18.375rem 21rem;
+	margin: 0.25rem;
+	width: 2.625rem;
+	height: 2.625rem;
+}
+.monster-velociprey { background-position: 0rem 0rem; }
+.monster-genprey { background-position: -2.625rem 0rem; }
+.monster-ioprey { background-position: -5.25rem 0rem; }
+.monster-velocidrome { background-position: -7.875rem 0rem; }
+.monster-gendrome { background-position: -10.5rem 0rem; }
+.monster-iodrome { background-position: -13.125rem 0rem; }
+.monster-azure-rathalos { background-position: -15.75rem 0rem; }
+
+.monster-yian-kut-ku { background-position: 0rem -2.625rem; }
+.monster-gypceros { background-position: -2.625rem -2.625rem; }
+.monster-cephalos { background-position: -5.25rem -2.625rem; }
+.monster-plesioth { background-position: -7.875rem -2.625rem; }
+.monster-rathalos { background-position: -10.5rem -2.625rem; }
+.monster-rathian { background-position: -13.125rem -2.625rem; }
+.monster-silver-rathalos { background-position: -15.75rem -2.625rem; }
+
+.monster-khezu { background-position: 0rem -5.25rem; }
+.monster-gravios { background-position: -2.625rem -5.25rem; }
+.monster-basarios { background-position: -5.25rem -5.25rem; }
+.monster-monoblos { background-position: -7.875rem -5.25rem; }
+.monster-diablos { background-position: -10.5rem -5.25rem; }
+.monster-kirin { background-position: -13.125rem -5.25rem; }
+.monster-pink-rathian { background-position: -15.75rem -5.25rem; }
+
+.monster-lao-shan-lung { background-position: 0rem -7.875rem; }
+.monster-yian-garuga { background-position: -2.625rem -7.875rem; }
+.monster-bulldrome { background-position: -5.25rem -7.875rem; }
+.monster-blangonga { background-position: -7.875rem -7.875rem; }
+.monster-congalala { background-position: -10.5rem -7.875rem; }
+.monster-rajang { background-position: -13.125rem -7.875rem; }
+.monster-gold-rathian { background-position: -15.75rem -7.875rem; }
+
+.monster-hermitaur { background-position: 0rem -10.5rem; }
+.monster-ceanataur { background-position: -2.625rem -10.5rem; }
+.monster-kushala-daora { background-position: -5.25rem -10.5rem; }
+.monster-chameleos { background-position: -7.875rem -10.5rem; }
+.monster-lunastra { background-position: -10.5rem -10.5rem; }
+.monster-teostra { background-position: -13.125rem -10.5rem; }
+.monster-blue-yian-kut-ku { background-position: -15.75rem -10.5rem; }
+
+.monster-yama-tsukami { background-position: 0rem -13.125rem; }
+.monster-unknown { background-position: -2.625rem -13.125rem; }
+.monster-white-monoblos { background-position: -5.25rem -13.125rem; }
+.monster-black-diablos { background-position: -7.875rem -13.125rem; }
+.monster-blango { background-position: -10.5rem -13.125rem; }
+.monster-conga { background-position: -13.125rem -13.125rem; }
+.monster-purple-gypceros { background-position: -15.75rem -13.125rem; }
+
+.monster-green-plesioth { background-position: 0rem -15.75rem; }
+.monster-red-khezu { background-position: -2.625rem -15.75rem; }
+.monster-black-gravios { background-position: -5.25rem -15.75rem; }
+.monster-giaprey { background-position: -7.875rem -15.75rem; }
+.monster-cephadrome { background-position: -10.5rem -15.75rem; }
+.monster-ashen-lao-shan-lung { background-position: -13.125rem -15.75rem; }
+.monster-great-thunderbug { background-position: -15.75rem -15.75rem; }
+
+.monster-shakalaka { background-position: 0rem -18.375rem; }
+.monster-anteka { background-position: -2.625rem -18.375rem; }
+.monster-popo { background-position: -5.25rem -18.375rem; }
+.monster-remobra { background-position: -7.875rem -18.375rem; }
+
+@media screen and (min-width: 48rem) {
+	.two-columns {
+		display: flex;
+	}
+	.two-columns .column {
+		width: 50%;
+	}
+}

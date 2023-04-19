@@ -1,0 +1,13 @@
+.monster-icon-container {
+	background-image: url("/mh2/images/black_panel.png");
+}
+
+.monster-data table caption {
+	font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
+.about-monsters p {
+	margin: 0.5rem 0;
+}
