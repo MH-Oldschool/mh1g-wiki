@@ -38,10 +38,10 @@
 			<img src="/mh2/images/logo.png" alt="Monster Hunter 2 DOS"/>
 
 			<aside>
+				<a href="/{{versionUrl}}" class="version-link mh1g" title="Monster Hunter 1/G Wiki">Monster Hunter 1/G Wiki</a>
+
 				<div class="header-title-container">
 					<h1>{{ title }}</h1>
-					<span class="title-separator">|</span>
-					<a href="/{{versionUrl}}" class="version-link mh1">Monster Hunter 1/G</a>
 				</div>
 				<p>
 					Sourced from <a href="http://mh2kaiseki.web.fc2.com/index.html">mmpotato's MH2 wiki</a>.
@@ -71,4 +71,9 @@
 
 			{{#onQuests}}<div class="link">Quests</div>{{/onQuests}}
 			{{^onQuests}}<a href="/mh2/quests" class="link">Quests</a>{{/onQuests}}
+
+			{{#onMaps}}<div class="link">Maps</div>{{/onMaps}}
+			{{^onMaps}}<a href="/mh2/maps" class="link">Maps</a>{{/onMaps}}
+
+			<a href="/{{versionUrl}}" class="link hide-tablet-desktop" title="Monster Hunter 1/G Wiki">Monster Hunter 1/G Wiki</a>
 		</nav>
