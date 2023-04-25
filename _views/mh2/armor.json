@@ -2,7 +2,7 @@
 	"title": "Monster Hunter 2 Wiki | Armor",
 	"description": "Navigate all the armor pieces available in Monster Hunter 2.",
 	"head": "<link rel='stylesheet' href='css/armor.css'/><script type='text/javascript' src='../js/toggle_full_details.js'></script><script type='text/javascript' src='js/armor_data.js'></script><script type='text/javascript' src='js/armor_builder.js'></script><script type='text/javascript' src='js/armor.js'></script>",
-	"subtitle": "<p>All armor is grouped together based on the required starting pieces. Click the arrowhead next to an armor piece's name to show all armor it can be upgraded into. English names based the English language patch by Break Arts, and best guesses from <a href=\"https://monsterhunter.fandom.com/wiki/Monster_Hunter_Freedom_2\">MHF2 wiki weapons pages</a>. Some armor may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
+	"subtitle": "<p>All armor is grouped together based on the required starting pieces. Click the arrowhead next to an armor piece's name to show all armor it can be upgraded into. English names are based the English language patch by Break Arts, and best guesses from <a href=\"https://monsterhunter.fandom.com/wiki/Monster_Hunter_Freedom_2\">MHF2 wiki weapons pages</a>. Some armor may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
 	"onArmor": true,"versionUrl":"armor",
 	"expandToggle": true,
 	"armorCategories":[
