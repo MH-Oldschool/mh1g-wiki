@@ -181,6 +181,48 @@
 	</details>
 {{/armorCategories}}
 
+<details>
+	<summary>
+		<h2><span class="white-icon gem-icon"></span> <span>Decorations</span></h2>
+	</summary>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Rarity</th>
+				<th>Slots</th>
+				<th>Skills</th>
+				<th>Price</th>
+				<th>Forge</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#decorations}}
+				<tr class="rarity-{{rarity}}">
+					<td>
+						{{japanese}}
+						{{#gunner}}<sup>Gunner</sup>{{/gunner}}
+					</td>
+					<td>{{rarity}}</td>
+					<td>{{slots}}</td>
+					<td class="expandable">
+						{{#skills}}
+							<span class="comma-separated">{{k}} {{q}}</span>
+						{{/skills}}
+					</td>
+					<td>{{price}}z</td>
+					<td>
+						{{#forge}}
+							<span class="comma-separated">{{q}} {{m}}</span>
+						{{/forge}}
+					</td>
+				</tr>
+			{{/decorations}}
+		</tbody>
+	</table>
+</details>
+
 <hr/>
 
 <details>
@@ -208,6 +250,11 @@
 	<h2>Branches</h2>
 	<p>
 		Most armor will branch into one or more variants at a certain level. These branching pieces will differ in appearance, defense, and armor skills, and may have different resistances and a different number of decoration slots. This lateral upgrade can only be made at the given upgrade level: usually Level 3, but it differs for some armor pieces. If the upgrade will change the number of decoration slots, all decorations currently slotted in the armor will be destroyed.
+	</p>
+
+	<h2>Decorations</h2>
+	<p>
+		Decorations can be slotted into armor and weapons to add (and often subtract) armor skill points. A Decoration cannot be removed once slotted, but can be destroyed and replaced by another Decoration. If you upgrade a weapon or piece of armor and the number of slots changes, all Decorations in that piece of equipment will be destroyed.
 	</p>
 </details>
 
