@@ -22,6 +22,11 @@
 	text-shadow: 1px 1px 0 #e75;
 }
 
+.melody-cell {
+	text-align: center;
+	width: 4.25rem;
+}
+
 /* New color for blue sharpness */
 .calc-hit-count:nth-child(5) { color: #4040ff; }
 .sharpness-4 { background: #4040ff; }

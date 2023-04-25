@@ -10958,24 +10958,27 @@
 			]
 		},
 		{
-			"shortName":"Antidote/Restore HP [S]",
+			"shortName":"Antidote/Restore HP [S]*",
 			"notes":["purple","yellow","yellow"],
 			"effects":[
-				{"effect":"2/3: Antidote, 1/3: Restore HP [S] (10)"}
+				{"effect":"2/3: Antidote, 1/3: Restore HP [S] (10)"},
+				{"effect":"none"}
 			]
 		},
 		{
-			"shortName":"Antidote/Restore HP [S]",
+			"shortName":"Antidote/Restore HP [S]*",
 			"notes":["green","green","yellow"],
 			"effects":[
-				{"effect":"2/3: Antidote, 1/3: Restore HP [S] (10)"}
+				{"effect":"2/3: Antidote, 1/3: Restore HP [S] (10)"},
+				{"effect":"none"}
 			]
 		},
 		{
-			"shortName":"Antidote/Restore HP [L]",
+			"shortName":"Antidote/Restore HP [L]*",
 			"notes":["yellow","purple","blue","blue"],
 			"effects":[
-				{"effect":"2/3: Antidote, 1/3: Restore HP [L] (20)"}
+				{"effect":"2/3: Antidote, 1/3: Restore HP [L] (20)"},
+				{"effect":"none"}
 			]
 		},
 		{
