@@ -1,7 +1,7 @@
 {
 	"title": "Monster Hunter 2 Wiki | Maps",
 	"description": "Maps for every locale.",
-	"subtitle": "<p></p>",
+	"subtitle": "<p>(The locations of hidden zones and their gathering points are currently unknown.)</p>",
 	"head": "<link href=\"../css/maps.css\" rel=\"stylesheet\" type=\"text/css\"/><link href=\"css/maps.css\" rel=\"stylesheet\" type=\"text/css\"/><script type=\"text/javascript\" src=\"../js/maps.js\"></script>",
 	"onMaps": true,"versionUrl":"maps",
 	"gToggle": true,

@@ -1,8 +1,8 @@
 {
 	"title": "Monster Hunter 2 Wiki | Weapons",
-	"description": "Easily view and navigate the complex weapon trees of Japanese versions of Monster Hunter and Monster Hunter G.",
+	"description": "Easily view and navigate the complex weapon trees of Monster Hunter 2.",
 	"head": "<link rel='stylesheet' href='../css/weapons.css'/><link rel='stylesheet' href='css/weapons.css'/><script type='text/javascript' src='../js/toggle_full_details.js'></script></script><script type='text/javascript' src='../js/weapons_common.js'></script><script type='text/javascript' src='js/weapon_data.js'></script><script type='text/javascript' src='js/weapons.js'></script>",
-	"subtitle": "<p>Names adjusted based on best guesses from <a href='https://gamefaqs.gamespot.com/ps2/914914-monster-hunter/faqs'>the Gamefaqs MH1 weapon trees</a> and <a href='https://monsterhunter.fandom.com/wiki/MHF1:_Weapons'>MHF1 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Most prices are for forging; a price in parentheses is the cost to buy.</p>",
+	"subtitle": "<p>Weapons are grouped together based on upgrade trees. Click the arrowhead next to a weapon's name to show all weapons it can be upgraded into. English names based the English language patch by Break Arts, and best guesses from <a href=\"https://monsterhunter.fandom.com/wiki/Monster_Hunter_Freedom_2\">MHF2 wiki weapons pages</a>. Some weapons may not be obtainable through normal play. Prices are the cost to forge.</p>",
 	"onWeapons": true,"versionUrl":"weapons",
 	"gToggle": true,
 	"expandToggle": true,

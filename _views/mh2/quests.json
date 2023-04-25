@@ -1,7 +1,7 @@
 {
 	"title":"Monster Hunter 2 Wiki | Quests",
 	"description":"All known quests and in-depth data.",
-	"name":"<p>Here are all known quests in MH2, including as much data on rewards and monster health as I could find. Listed event quests are all known events released up to November 2006.</p>",
+	"name":"<p>Here are all known quests in MH2, including as much data on rewards and monster health as I could find. Listed event quests are all known events released up to November 2006. Quest names are largely rough guesses based on translation tools like <a href=\"https://jisho.org\">jisho.org</a></p>",
 	"head":"<link rel='stylesheet' href='../css/quests.css'/><link rel='stylesheet' href='../mh2/css/quests.css'/>",
 	"onQuests":true,
 	"versionUrl":"quests",

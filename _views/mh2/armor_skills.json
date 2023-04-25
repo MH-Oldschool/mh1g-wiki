@@ -1,7 +1,7 @@
 {
 	"title": "Monster Hunter 2 Wiki | Armor Skills",
 	"description": "All armor skills with descriptions.",
-	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge. The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level.</p>",
+	"subtitle": "<p>Find here all available armor skills in the game with descriptions, to the best of my knowledge. The required points are indicated on the far left, the associated skill name for those points to the right. Any values in parentheses indicate details per skill level. English names based the English language patch by Break Arts, and best guesses from <a href=\"https://monsterhunter.fandom.com/wiki/Monster_Hunter_Freedom_2\">MHF2 wiki weapons pages</a>.</p>",
 	"head": "<link type='text/css' rel='stylesheet' href='../css/armor_skills.css'/><script type='text/javascript' src='../js/armor_skills.js'></script>",
 	"onArmorSkills":true,"versionUrl":"armor-skills",
 	"armorSkills":[
