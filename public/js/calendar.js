@@ -324,7 +324,7 @@ ready(() => {
 
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex, version) {
-		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 2, hour: START_HOUR }, SERVER_TZ);
+		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 1, hour: START_HOUR }, SERVER_TZ);
 		var now = moment.tz(SERVER_TZ);
 		var nowOnFirstDay = moment.tz({ year: year, month: monthIndex, date: 1, hour: now.hour() }, SERVER_TZ);
 
@@ -549,7 +549,7 @@ ready(() => {
 	function getCurrentShopSpecial() {
 		var now = moment.tz();
 		var firstDayIndex = getFirstDayShopIndex(now.year(), now.month());
-		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1, hour: now.hour() }, SERVER_TZ), "hours");
+		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month() - 1, date: 1, hour: now.hour() }, SERVER_TZ), "hours");
 		var shopIndex = (firstDayIndex + Math.floor(hoursSinceShopSwitched / 24)) % SHOP_SPECIAL_ROTATION.length;
 
 		return SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
