@@ -137,7 +137,7 @@
 				"Sharpness Restoration + 25%",
 				"Sharpness Restoration + 50%"
 			],
-			"desc":"Restore more hits when sharpening your weapon.<span class='details'> A Whetstone or Knife Mackaral normally restore 150 hits, and a Mini-Whetstone 100 hits. +25% increases these to 187 and 125 respectively, +50% increases to 225 and 150.</span> (See the Sharpness section under About Weapons in the <a href='/weapons'>Weapons page</a>.)"
+			"desc":"Restore more hits when sharpening your weapon.<span class='details'> A Whetstone or Knife Mackerel normally restore 150 hits, and a Mini-Whetstone 100 hits. +25% increases these to 187 and 125 respectively, +50% increases to 225 and 150.</span> (See the Sharpness section under About Weapons in the <a href='/weapons'>Weapons page</a>.)"
 		},
 		{
 			"name":"Sleep",

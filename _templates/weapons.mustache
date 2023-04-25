@@ -508,55 +508,77 @@
 			Every attack for each weapon class has its own multiplier to determine how much damage it will do. This Motion Value (MV) represents a fraction of the weapon's True Base Damage.
 		</p>
 
-		<table>
-			<tbody>
-				<tr>
-					<th class="ta-c" rowspan="5">Great Sword</th>
-				</tr>
-				{{#motionValues.greatsword}}
-					<tr>
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/motionValues.greatsword}}
-				<tr>
-					<th class="ta-c" rowspan="12">Hammer</th>
-				</tr>
-				{{#motionValues.hammer}}
-					<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
-						<td>{{name}}</td>
-						<td>{{value}}{{#value1}}<span class="mh1">{{value1}}</span>{{/value1}}{{#valueG}}<span class="mhg">{{valueG}}</span>{{/valueG}}</td>
-					</tr>
-				{{/motionValues.hammer}}
-				<tr>
-					<th class="ta-c" rowspan="8">Lance</th>
-				</tr>
-				{{#motionValues.lance}}
-					<tr>
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/motionValues.lance}}
-				<tr>
-					<th class="ta-c" rowspan="9">Sword and Shield</th>
-				</tr>
-				{{#motionValues.sword}}
-					<tr>
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/motionValues.sword}}
-				<tr class="mhg">
-					<th class="ta-c" rowspan="14">Dual Swords</th>
-				</tr>
-				{{#motionValues.dualSwords}}
-					<tr class="mhg">
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/motionValues.dualSwords}}
-			</tbody>
-		</table>
+		<div class="motion-value-tables">
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Great Sword</caption>
+					<tbody>
+						{{#motionValues.greatsword}}
+							<tr>
+								<td>{{name}}</td>
+								<td>{{value}}</td>
+							</tr>
+						{{/motionValues.greatsword}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Hammer</caption>
+					<tbody>
+						{{#motionValues.hammer}}
+							<tr{{#mh1}} class="mh1"{{/mh1}}{{#mhg}} class="mhg"{{/mhg}}>
+								<td>{{name}}</td>
+								<td>{{value}}{{#value1}}<span class="mh1">{{value1}}</span>{{/value1}}{{#valueG}}<span class="mhg">{{valueG}}</span>{{/valueG}}</td>
+							</tr>
+						{{/motionValues.hammer}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Lance</caption>
+					<tbody>
+						{{#motionValues.lance}}
+							<tr>
+								<td>{{name}}</td>
+								<td>{{value}}</td>
+							</tr>
+						{{/motionValues.lance}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container">
+				<table>
+					<caption class="ta-c">Sword and Shield</caption>
+					<tbody>
+						{{#motionValues.sword}}
+							<tr>
+								<td>{{name}}</td>
+								<td>{{value}}</td>
+							</tr>
+						{{/motionValues.sword}}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="mv-table-container mhg">
+				<table>
+					<caption class="ta-c">Dual Swords</caption>
+					<tbody>
+						{{#motionValues.dualSwords}}
+							<tr>
+								<td>{{name}}</td>
+								<td>{{value}}</td>
+							</tr>
+						{{/motionValues.dualSwords}}
+					</tbody>
+				</table>
+			</div>
+		</div>
 
 		<h3>Sharpness</h3>
 		<p>

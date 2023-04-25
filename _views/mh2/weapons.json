@@ -11126,17 +11126,17 @@
 		{"id":"armor","name":"Armor Shot","motion":0,"power":0,"recoil":11,"reload":7,"effect":"Defense Up Small"}
 	],
 	"arrows":[
-		{"name":"Rapid","level":1,"power":[12]},
-		{"name":"Rapid","level":2,"power":[12,5]},
-		{"name":"Rapid","level":3,"power":[12,5,4]},
-		{"name":"Rapid","level":4,"power":[12,5,4,2]},
-		{"name":"Scatter","level":1,"power":[4,3,3]},
-		{"name":"Scatter","level":2,"power":[5,4,4]},
-		{"name":"Scatter","level":3,"power":[4,4,4,3,3]},
-		{"name":"Scatter","level":4,"power":[5,4,4,3,3]},
-		{"name":"Pierce","level":1,"power":[6],"impacts":3},
-		{"name":"Pierce","level":2,"power":[6],"impacts":4},
-		{"name":"Pierce","level":3,"power":[6],"impacts":5},
-		{"name":"Pierce","level":4,"power":[6],"impacts":6}
+		{"name":"Rapid","level":1,"power":[12],"totalPower":12,"status":[13],"totalStatus":13},
+		{"name":"Rapid","level":2,"power":[12,5],"totalPower":17,"status":[7,7],"totalStatus":14},
+		{"name":"Rapid","level":3,"power":[12,5,4],"totalPower":21,"status":[5,5,5],"totalStatus":15},
+		{"name":"Rapid","level":4,"power":[12,5,4,2],"totalPower":23,"status":[4,4,4,4],"totalStatus":16},
+		{"name":"Scatter","level":1,"power":[4,3,3],"totalPower":10,"status":[5,5,5],"totalStatus":15},
+		{"name":"Scatter","level":2,"power":[5,4,4],"totalPower":13,"status":[6,6,6],"totalStatus":18},
+		{"name":"Scatter","level":3,"power":[4,4,4,3,3],"totalPower":18,"status":[4,4,4,4,4],"totalStatus":20},
+		{"name":"Scatter","level":4,"power":[5,4,4,3,3],"totalPower":19,"status":[4,4,4,4,4],"totalStatus":20},
+		{"name":"Pierce","level":1,"power":[6],"totalPower":18,"impacts":3,"status":[5],"totalStatus":15},
+		{"name":"Pierce","level":2,"power":[6],"totalPower":24,"impacts":4,"status":[4],"totalStatus":16},
+		{"name":"Pierce","level":3,"power":[6],"totalPower":30,"impacts":5,"status":[4],"totalStatus":20},
+		{"name":"Pierce","level":4,"power":[6],"totalPower":36,"impacts":6,"status":[4],"totalStatus":24}
 	]
 }

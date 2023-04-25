@@ -91,11 +91,6 @@
 
 .bow .blademaster-gunner-melee { display: none }
 
-.motion-value-tables .mv-table-container {
-	box-sizing: border-box;
-	padding: 1rem 0;
-}
-
 .calc-sharpness-container {
 	width: 137px;
 }
@@ -155,28 +150,12 @@
 .bow .calc-arrows { display: block }
 
 @media screen and (min-width: 40rem) {
-	.motion-value-tables {
-		display: flex;
-		align-items: flex-start;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		max-width: 56rem;
+	.inline-block-columns .column {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 2rem;
 	}
-	.motion-value-tables .mv-table-container {
-		padding: 1rem;
-		width: 50%;
-	}
-	.about-weapons .mv-table-container table {
-		width: 100%;
-	}
-}
-@media screen and (min-width: 64rem) {
-	.motion-value-tables .mv-table-container {
-		width: 33%;
-	}
-}
-@media screen and (min-width: 80rem) {
-	.motion-value-tables .mv-table-container {
-		width: 25%;
+	.inline-block-columns .column:last-child {
+		margin-right: 0;
 	}
 }

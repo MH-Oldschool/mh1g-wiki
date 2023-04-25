@@ -611,7 +611,7 @@
 						</tr>
 						{{#motionValues.greatSword}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 								<td>{{#modifier}}{{modifier}}%{{/modifier}}</td>
 							</tr>
@@ -628,7 +628,7 @@
 						</tr>
 						{{#motionValues.longsword}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.longsword}}
@@ -642,7 +642,7 @@
 					<tbody>
 						{{#motionValues.hammer}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.hammer}}
@@ -656,7 +656,7 @@
 					<tbody>
 						{{#motionValues.huntingHorn}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.huntingHorn}}
@@ -670,7 +670,7 @@
 					<tbody>
 						{{#motionValues.lance}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.lance}}
@@ -684,7 +684,7 @@
 					<tbody>
 						{{#motionValues.gunlance}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.gunlance}}
@@ -698,7 +698,7 @@
 					<tbody>
 						{{#motionValues.sword}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.sword}}
@@ -712,7 +712,7 @@
 					<tbody>
 						{{#motionValues.dualSwords}}
 							<tr>
-								<td>{{name}}</td>
+								<th>{{name}}</th>
 								<td class="ta-r">{{motion}}</td>
 							</tr>
 						{{/motionValues.dualSwords}}
@@ -783,7 +783,7 @@
 
 		<h3>Attack Motion Sweetspot</h3>
 		<p>
-			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, and the late penalty will apply at all sharpness levels. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.
+			Every weapon attack has a sweetspot during its motion, which will affect its damage if its in yellow sharpness or worse. If the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length.
 		</p>
 
 		<h3>Weapon Reaction Value</h3>
@@ -1030,17 +1030,19 @@
 					<th>Type</th>
 					<th>Impacts</th>
 					<th>Power</th>
+					<th>Total</th>
 				</tr>
 			</thead>
 			<tbody>
 				{{#arrows}}
 					<tr>
-						<td>{{name}} Lv{{level}}</td>
+						<th>{{name}} Lv{{level}}</th>
 						<td>
 							{{impacts}}
 							{{^impacts}}1{{/impacts}}
 						</td>
 						<td>{{power}}</td>
+						<td>{{totalPower}}</td>
 					</tr>
 				{{/arrows}}
 			</tbody>
@@ -1053,21 +1055,49 @@
 		<table>
 			<tbody>
 				<tr>
-					<td>Lv 1</td>
+					<th>Lv 1</th>
 					<td>&times; 0.4</td>
 				</tr>
 				<tr>
-					<td>Lv 2</td>
+					<th>Lv 2</th>
 					<td>&times; 1.0</td>
 				</tr>
 				<tr>
-					<td>Lv 3</td>
+					<th>Lv 3</th>
 					<td>&times; 1.5</td>
 				</tr>
 				<tr>
-					<td>Lv 4</td>
+					<th>Lv 4</th>
 					<td>&times; 1.5</td>
 				</tr>
+			</tbody>
+		</table>
+
+		<h3>Coatings</h3>
+		<p>
+			A Bow can have four possible coatings: Power, Poison, Paralysis, and Sleep. Power coating will increase raw damage to 150% of normal. Poison, Paralysis, and Sleep will add the respective status to your arrows. Each shot fired will consume one coating from your inventory. The amount of status per shot depends on the Arrow Type and Level (not to be confused with the Bow Charge Level.) If a status coating is applied to a bow that deals element damage, shots with the status coating will not deal that element damage. Pierce shots will deal the listed amount of status per impact that actually lands.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Type</th>
+					<th>Impacts</th>
+					<th>Status</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#arrows}}
+					<tr>
+						<th>{{name}} Lv{{level}}</th>
+						<td>
+							{{impacts}}
+							{{^impacts}}1{{/impacts}}
+						</td>
+						<td>{{status}}</td>
+						<td>{{totalStatus}}</td>
+					</tr>
+				{{/arrows}}
 			</tbody>
 		</table>
 
@@ -1087,7 +1117,7 @@
 			<tbody>
 				{{#motionValues.bow}}
 					<tr>
-						<td>{{name}}</td>
+						<th>{{name}}</th>
 						<td>{{motion}}</td>
 					</tr>
 				{{/motionValues.bow}}
@@ -1095,7 +1125,7 @@
 		</table>
 
 		<h3>Total Bow Damage (per Arrow per impact, before hitting a monster)</h3>
-		<pre>(True Base Damage + Attack Buffs) &times; (Arrow Power &div; 100) &times; Charge Level Multiplier &times; Critical Range Modifier</pre>
+		<pre>(True Base Damage + Attack Buffs) &times; (Power Coating Modifier) &times; (Arrow Power &div; 100) &times; Charge Level Multiplier &times; Critical Range Modifier</pre>
 
 		<h2><span class="white-icon creature-icon"></span> <span>Damage to Monsters</span></h2>
 
@@ -1181,98 +1211,114 @@
 			Certain Hammer and Hunting Horn attacks apply KO value to a monster, which will eventually Knock Out the monster for a short time. With rare exception, KO will only accumulate when hittine the monster in the head. Some monsters, such as Vespoid and Popo, are immune to KO.
 		</p>
 
-		<table>
-			<caption>Hammer</caption>
-			<thead>
-				<tr>
-					<th>Attack</th>
-					<th>KO</th>
-				</tr>
-			</thead>
-			<tbody>
-				{{#koValues.hammer}}
-					<tr>
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/koValues.hammer}}
-			</tbody>
-		</table>
+		<div class="inline-block-columns">
+			<div class="column">
+				<table>
+					<caption>Hammer</caption>
+					<thead>
+						<tr>
+							<th>Attack</th>
+							<th>KO</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#koValues.hammer}}
+							<tr>
+								<th>{{name}}</th>
+								<td>{{value}}</td>
+							</tr>
+						{{/koValues.hammer}}
+					</tbody>
+				</table>
+			</div>
 
-		<table>
-			<caption>Hunting Horn</caption>
-			<thead>
-				<tr>
-					<th>Attack</th>
-					<th>KO</th>
-				</tr>
-			</thead>
-			<tbody>
-				{{#koValues.huntingHorn}}
-					<tr>
-						<td>{{name}}</td>
-						<td>{{value}}</td>
-					</tr>
-				{{/koValues.huntingHorn}}
-			</tbody>
-		</table>
+			<div class="column">
+				<table>
+					<caption>Hunting Horn</caption>
+					<thead>
+						<tr>
+							<th>Attack</th>
+							<th>KO</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#koValues.huntingHorn}}
+							<tr>
+								<th>{{name}}</th>
+								<td>{{value}}</td>
+							</tr>
+						{{/koValues.huntingHorn}}
+					</tbody>
+				</table>
+			</div>
+		</div>
 
 		<h3><span class="white-icon gunlance-icon"></span> <span>Gunlance Shells and Wyvernfire</span></h3>
 		<p>
-			Gunlance Shells deal both Explosive and Fire damage, based on the weapon's Shell type and Level. The Shell type also determines the Shell capacity of that Gunlance.
+			Gunlance Shells deal both Explosive and Fire damage, based on the weapon's Shell type and Level. Shell type determines the range of your shells explosions, but has no impact on Wyvernfire. Normal shells detonate a short distance ahead in a small sphere, Wide shells detonate in a 180 degree arc centered on the end of the Gunlance's barrel, and Long shells are like Normal but twice the length stretching from the Gunlance's barrel. Shell type also determines the Shell capacity of that Gunlance.
 		</p>
-		<div>
-			<table class="column">
-				<thead>
-					<tr>
-						<th>Shelling Level</th>
-						<th>Explosive</th>
-						<th>Fire</th>
-					</tr>
-				</thead>
-				<tbody>
-					{{#gunlanceShellLevels}}
+		<div class="inline-block-columns">
+			<div class="column">
+				<table>
+					<thead>
 						<tr>
-							<td>{{name}}</td>
-							<td class="ta-r">{{power}}</td>
-							<td class="ta-r">{{power}}</td>
+							<th>Shelling Level</th>
+							<th>Explosive</th>
+							<th>Fire</th>
 						</tr>
-					{{/gunlanceShellLevels}}
-				</tbody>
-			</table>
+					</thead>
+					<tbody>
+						{{#gunlanceShellLevels}}
+							<tr>
+								<th>{{name}}</th>
+								<td class="ta-r">{{power}}</td>
+								<td class="ta-r">{{power}}</td>
+							</tr>
+						{{/gunlanceShellLevels}}
+					</tbody>
+				</table>
+			</div>
 
-			<table class="column">
-				<tbody>
-					<tr>
-						<td>Normal</td>
-						<td title="5">
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-						</td>
-					</tr>
-					<tr>
-						<td>Long</td>
-						<td title="3">
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-						</td>
-					</tr>
-					<tr>
-						<td>Wide</td>
-						<td title="2">
-							<span class="small-icon shell-icon"></span>
-							<span class="small-icon shell-icon"></span>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="column">
+				<table>
+					<thead>
+						<tr>
+							<th>Shell Type</th>
+							<th>Capacity</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Normal</th>
+							<td title="5 Shells">
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+							</td>
+						</tr>
+						<tr>
+							<th>Long</th>
+							<td title="3 Shells">
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+							</td>
+						</tr>
+						<tr>
+							<th>Wide</th>
+							<td title="2 Shells">
+								<span class="small-icon shell-icon"></span>
+								<span class="small-icon shell-icon"></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 		<p>
-			Wyvernfire has four impact points, each of which deals damage per the following table. The Shell Level determines how much damage each impact will do, while the Shell Type determines the pattern.
+			Wyvernfire has four impact points, each of which deals damage per the following table. The Shell Level determines how much damage each impact will do.
 		</p>
 		<table>
 			<thead>
@@ -1282,10 +1328,10 @@
 					<th>Fire</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="ta-r">
 				{{#wyvernfire}}
 					<tr>
-						<td>Shell {{name}}</td>
+						<th class="ta-l">Shell {{name}}</th>
 						<td>{{explosion}}</td>
 						<td>{{fire}}</td>
 					</tr>
