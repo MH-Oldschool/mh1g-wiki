@@ -371,7 +371,7 @@
 		},
 		{
 			"name":"Monster","japanese":"モンスター",
-			"desc":"The effect of this skill is currently unknown.",
+			"desc":"Increase the odds that monsters will be large individuals.",
 			"stages":["","","","Monster","","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Monster"}
