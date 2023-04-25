@@ -547,10 +547,9 @@ ready(() => {
 		}
 	}
 	function getCurrentShopSpecial() {
-		var now = moment.tz();
-		var firstDayIndex = getFirstDayShopIndex(now.year(), now.month());
-		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month() - 1, date: 1, hour: now.hour() }, SERVER_TZ), "hours");
-		var shopIndex = (firstDayIndex + Math.floor(hoursSinceShopSwitched / 24)) % SHOP_SPECIAL_ROTATION.length;
+		var now = moment.tz(SERVER_TZ);
+		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1, hour: now.hour() }, SERVER_TZ), "hours");
+		var shopIndex = Math.floor(hoursSinceShopSwitched / 24) % SHOP_SPECIAL_ROTATION.length;
 
 		return SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 	}
