@@ -578,6 +578,18 @@
 			<i>*Demon Shot will <b>replace</b> any other attack buffs from its category. E.G. replacing Mega Demondrug's +5 with +3 from the shot.</i>
 		</p>
 
+		<h3>Affinity</h3>
+		<p>
+			Weapon Affinity introduces an element of chance to each attack. A weapon with positive Affinity has a chance to deal 125% damage every time you attack, while those with negative Affinity can deal 50% damage. The percent chance to do more, or less, damage is usually the Affinity number itself (E.G. 5 Affinity = 5% chance.) If your weapon has a positive Affinity, Blue and White sharpness will increase this chance by 5 and 10 percent respectively (E.G. 5 Affinity at White Sharpness = 5 + 10 = 15% chance.)<br/>
+			<br/>
+			The Expert skill will increase your affinity:
+		</p>
+		<ul>
+			<li>Mind's Eye: +5</li>
+			<li>Edge +1: +10</li>
+			<li>Edge +2: +15</li>
+		</ul>
+
 		<h2><span class="random-blademaster-icon white-icon"></span> <span>Blademaster Weapons</span></h2>
 		<p>
 			Blademaster (melee) weapon damage is based on attack motion, sharpness, and attack timing.
@@ -713,7 +725,7 @@
 		<p>
 			The full sharpness bar on a weapon represents 400 hits. Select a weapon and open the Damage Calculator to see how many hits it has per sharpness level. Bouncing reduces your weapon's sharpness by two hits, otherwise every attack reduces sharpness by one. Blocking an attack with a Great Sword will reduce its sharpness as well.<br/>
 			<br/>
-			A Whetstone or Knife Mackaral restore 150 hits, and a Mini-Whetstone 100 hits.<br/>
+			A Whetstone or Knife Mackerel restore 150 hits, and a Mini-Whetstone 100 hits.<br/>
 			<br/>
 			A weapon's current sharpness will also modify its attack damage per the chart below.
 		</p>
@@ -771,9 +783,7 @@
 
 		<h3>Attack Motion Sweetspot</h3>
 		<p>
-			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, <span title="see the NOTE below">and the late penalty will apply at all sharpness levels.</span> The ESP skill will remove the late timing penalty if your weapon is at White sharpness*. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.<br/>
-			<br/>
-			NOTE: this mechanic is bugged in-game. At Green sharpness and above the late timing penalty is <i>also</i> removed. So in practice, the ESP skill doesn't do anything.
+			Every weapon attack has a sweetspot during its motion: if the attack hits a monster during the sweetspot it will deal full damage, if it hits too early it will deal 30% damage, and if it hits too late it will deal 50%. The early penalty will only apply at yellow sharpness and below, and the late penalty will apply at all sharpness levels. Additionally, Great Sword attacks deal 105% damage instead of 100% if the attack hits in the middle of the blade's length and during the sweetspot of the motion.
 		</p>
 
 		<h3>Weapon Reaction Value</h3>
@@ -840,7 +850,7 @@
 		</table>
 
 		<h3>Total Blademaster Damage (before hitting a monster)</h3>
-		<pre>Total Raw Damage = ((True Base Damage + Attack Buffs) * (Motion Value / 100) * Sharpness Modifier * Sweetspot Modifier)<br/>Total Element Damage = (True Element * Element Sharpness Mod)</pre>
+		<pre>Total Raw Damage = ((True Base Damage + Attack Buffs) &times; Affinity Modifier &times; (Motion Value / 100) &times; Sharpness Modifier &times; Sweetspot Modifier)<br/>Total Element Damage = (True Element &times; Element Sharpness Mod)</pre>
 
 		<h2><span class="random-bowgun-icon white-icon"></span> <span>Bowguns</span></h2>
 		<p>
@@ -997,7 +1007,7 @@
 		</div>
 
 		<h3>Total Bowgun Damage (per impact, before hitting a monster)</h3>
-		<pre>Normal and Pierce Shots = (True Base Damage + Attack Buffs) &times; (Ammo Motion Value &div; 100) &times; Critical Range Modifier<br/>All Other Shots = (True Base Damage + Attack Buffs) &times; Ammo Motion Value</pre>
+		<pre>Normal and Pierce Shots = (True Base Damage + Attack Buffs) &times; Affinity Modifier &times; (Ammo Motion Value &div; 100) &times; Critical Range Modifier<br/>All Other Shots = (True Base Damage + Attack Buffs) &times; Ammo Motion Value</pre>
 
 		<h2><span class="white-icon bow-icon"></span> <span>Bow</span></h2>
 		<p>
@@ -1104,47 +1114,47 @@
 			<tbody>
 				<tr>
 					<th>Great Sword</th>
-					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Cutting Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Longsword</th>
-					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Cutting Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Hammer</th>
-					<td><pre>Raw Damage * (Blunt Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Blunt Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Hunting Hammer</th>
-					<td><pre>Raw Damage * (Blunt Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Blunt Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Lance</th>
-					<td><pre>Raw Damage * ((Cutting OR Blunt Hitzone) &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; ((Cutting OR Blunt Hitzone) &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Gunlance</th>
-					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Cutting Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Sword and Shield</th>
-					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Cutting Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Dual Swords</th>
-					<td><pre>Raw Damage * (Cutting Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Cutting Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Bowgun</th>
-					<td><pre>Raw Damage * (Shot Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Shot Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Bow</th>
-					<td><pre>Raw Damage * (Shot Hitzone &div; 100)</pre></td>
+					<td><pre>Raw Damage &times; (Shot Hitzone &div; 100)</pre></td>
 				</tr>
 				<tr>
 					<th>Element</th>
-					<td><pre>Element Damage * (Element Hitzone &div; 100)</pre></td>
+					<td><pre>Element Damage &times; (Element Hitzone &div; 100)</pre></td>
 				</tr>
 			</tbody>
 		</table>
@@ -1164,7 +1174,7 @@
 		</p>
 
 		<h3>Damage to a Monster</h3>
-		<pre>(Total Weapon Raw Damage * (Conditional Modifier) * Monster Defense * (Monster Raw Hitzone / 100)) + (Total Weapon Element Damage * (Monster Element Hitzone / 100))</pre>
+		<pre>(Total Weapon Raw Damage &times; (Conditional Modifier) &times; Monster Defense &times; (Monster Raw Hitzone / 100)) + (Total Weapon Element Damage &times; (Monster Element Hitzone / 100))</pre>
 
 		<h3><span class="white-icon hammer-icon"></span><span class="white-icon hunting-horn-icon"></span> <span>Knock-Out (KO)</span></h3>
 		<p>

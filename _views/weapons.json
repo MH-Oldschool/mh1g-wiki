@@ -9108,7 +9108,7 @@
 			{ "name":"Superpound","id":"superpound","inputs":["R1 (level 3 charge)"],"parts":[20,76],"value":0.96,"motion":96 },
 			{ "name":"Spin 1","id":"spin-1","inputs":["R1 (full charge while moving, first hit)"],"value":0.2,"motion":20 },
 			{ "name":"Spin 2","id":"spin-2","inputs":["R1 (full charge while moving, hits 2 through 5)"],"value":0.1,"motion":10 },
-			{ "name":"Golf Swing Finisher","id":"golf-swing-finisher","inputs":["R Stick (during third or fourth spin)"],"value1":1.0,"valueG":0.4,"motion1":100,"motionG":40 },
+			{ "name":"Golf Swing Finisher","id":"golf-swing-finisher","inputs":["R Stick (during third or fourth spin)"],"value":1.0,"motion":100 },
 			{ "name":"Drawing Swing","id":"drawing-swing","inputs":["R Stick (while moving, weapon sheathed)"],"value":0.2,"motion":20 }
 		],
 		"lance":[

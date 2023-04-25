@@ -160,10 +160,14 @@
 		align-items: flex-start;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		max-width: 56rem;
 	}
 	.motion-value-tables .mv-table-container {
 		padding: 1rem;
 		width: 50%;
+	}
+	.about-weapons .mv-table-container table {
+		width: 100%;
 	}
 }
 @media screen and (min-width: 64rem) {
