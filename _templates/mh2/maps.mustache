@@ -1,0 +1,92 @@
+{{> head}}
+
+<article class="filters">
+	<div class="filter-checks">
+		<input id="show-gathering-spots" type="checkbox"/>
+		<label for="show-gathering-spots">Show Gathering Spots</label>
+	</div>
+	<div class="filter-checks mhg">
+		<input id="show-gathering-details" type="checkbox"/>
+		<label for="show-gathering-details">Show Gathering Details</label>
+	</div>
+</article>
+
+<div id="maps-container">
+	{{#gatherData}}
+		{{#maps}}
+			<div class="map">
+				<h3>{{title}}</h3>
+
+				<div class="map-container">
+					<img src="/mh2/images/maps/{{image}}.png"/>
+
+					{{#icons}}
+						<div class="gathering-point {{icon}}" style="left:{{x}}%;top:{{y}}%" title="{{name}}">{{name}}</div>
+					{{/icons}}
+				</div>
+			</div>
+
+			<div class="gathering-container">
+				{{#yieldRanks}}
+					<details open>
+						<summary>{{rank}}</summary>
+
+						{{#zones}}
+							<div class="gathering-spots-container">
+								<h2 class="underlined">{{zone}}</h2>
+
+								{{#spots}}
+									<h3 class="gathering-spot-name"{{#note}} title="{{note}}"{{/note}}>
+										<span class="{{icon}} va-m"></span>
+										<span class="va-m">{{name}}</span>
+									</h3>
+									{{#count}}
+										<h4>({{count}} items max)</h4>
+									{{/count}}
+
+									<div class="gathering-row">
+										<table{{^summer}} style="display:none"{{/summer}}>
+											<caption class="ta-l">Summer</caption>
+											<tbody>
+												{{#summer}}
+													<tr>
+														<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+														<td class="ta-r">{{percent}}%</td>
+													</tr>
+												{{/summer}}
+											</tbody>
+										</table>
+										<table{{^winter}} style="display:none"{{/winter}}>
+											<caption class="ta-l">Winter</caption>
+											<tbody>
+												{{#winter}}
+													<tr>
+														<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+														<td class="ta-r">{{percent}}%</td>
+													</tr>
+												{{/winter}}
+											</tbody>
+										</table>
+										<table>
+											<caption class="ta-l">Breeding Season</caption>
+											<tbody>
+												{{#breeding}}
+													<tr>
+														<td><span class="{{icon}}"></span><span>{{name}}</span></td>
+														<td class="ta-r">{{percent}}%</td>
+													</tr>
+												{{/breeding}}
+											</tbody>
+										</table>
+									</div>
+								{{/spots}}
+							</div>
+						{{/zones}}
+					</details>
+				{{/yieldRanks}}
+			</div>
+		{{/maps}}
+	{{/gatherData}}
+</div>
+
+{{> foot}}

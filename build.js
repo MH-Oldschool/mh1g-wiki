@@ -918,3 +918,4 @@ buildPage2("mh2/armor_skills");
 buildPage2("mh2/items");
 buildPage2("mh2/bestiary");
 buildPage2("mh2/quests", ["mh2/quest_category"]);
+buildPage2("mh2/maps");

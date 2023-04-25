@@ -855,24 +855,7 @@ body.show-dialog {
 	}
 
 	.version-link {
-		overflow: hidden;
 		display: block;
-		float: right;
-		image-rendering: smooth;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-		text-indent: -999em;
-	}
-	.version-link.mh1g {
-		background-image: url("/images/logo_1.gif");
-		width: 4.3125rem;
-		height: 3rem;
-	}
-	.version-link.mh2 {
-		background-image: url("/mh2/images/logo.png");
-		width: 4rem;
-		height: 3rem;
 	}
 
 	footer {

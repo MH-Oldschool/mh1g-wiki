@@ -60,6 +60,9 @@ app.get("/mh2/bestiary", (req, res) => {
 app.get("/mh2/quests", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/quests.html"));
 });
+app.get("/mh2/maps", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/maps.html"));
+});
 
 function getJSON(filename, callback) {
 	fs.readFile(filename, "utf8", (err, data) => {

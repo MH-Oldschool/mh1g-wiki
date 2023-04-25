@@ -1,0 +1,14 @@
+.gathering-point {
+	overflow: hidden;
+	text-indent: -999em;
+}
+
+h4 {
+	margin: 0.125rem;
+}
+
+.underlined {
+	border-bottom: 0.0625rem solid;
+	padding: 0.125rem 0;
+	margin: 0.125rem 0;
+}
