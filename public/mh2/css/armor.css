@@ -21,13 +21,17 @@ details:first-of-type .hunter-class-cell {
 	display: none;
 }
 
-.show-male tbody tr:not(.armor-gender-M),
-.show-female tbody tr:not(.armor-gender-F) {
+.show-female .armor-gender-M {
+	display: none;
+}
+.show-male .armor-gender-F {
 	display: none;
 }
 
-.show-blade tbody tr:not(.armor-class-B),
-.show-gun tbody tr:not(.armor-class-G) {
+.show-blade .armor-class-G {
+	display: none;
+}
+.show-gun .armor-class-B {
 	display: none;
 }
 .show-either .armor-class-B,
