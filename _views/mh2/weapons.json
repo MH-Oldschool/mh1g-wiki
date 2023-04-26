@@ -10783,7 +10783,8 @@
 			{"name":"Level Thrust","input":["R Stick Up","R Stick Left","R Stick Right"],"value":0.21,"motion":21},
 			{"name":"Final Thrust","input":["R Stick Up (after second Level Thrust)","R Stick Left (after second Level Thrust)","R Stick Right (after second Level Thrust)"],"value":0.28,"motion":28},
 			{"name":"Upswing","input":["R Stick Down"],"value":0.30,"motion":30},
-			{"name":"Upward Thrust","input":["R Stick Up (while blocking or after Upswing)","R Stick Left (while blocking or after Upswing)","R Stick Right (while blocking or after Upswing)"],"value":0.24,"motion":24},
+			{"name":"Guarding Thrust","input":["R Stick Up (while blocking)","R Stick Left (while blocking)","R Stick Right (while blocking)"],"value":0.24,"motion":24},
+			{"name":"Upward Thrust","input":["R Stick Up (after Advancing Thrust or Upswing)","R Stick Left (after Advancing Thrust or Upswing)","R Stick Right (after Advancing Thrust or Upswing)"],"value":0.30,"motion":30},
 			{"name":"Drawing Thrust","inputs":["R Stick (while moving, weapon sheathed"],"value":0.34,"motion":34}
 		],
 		"sword":[
