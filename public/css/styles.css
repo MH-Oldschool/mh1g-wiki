@@ -518,6 +518,22 @@ input[type="checkbox"]:checked + label .switch-button .button-tab {
 .bowgun-icon { background-position: -10rem -12rem; }
 /* There are more icons, not sure where to use 'em yet */
 
+/* This adds another layer to the icon for stuff like Rations */
+.edible-icon {
+	position: relative;
+}
+.edible-icon:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("/images/icon_sheets/icons_white.png");
+	background-position: -8rem -14rem;
+	background-size: 16rem;
+	width: 2rem;
+	height: 2rem;
+}
+
 .monster-icon {
 	image-rendering: pixelated;
 	position: relative;

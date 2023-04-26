@@ -5913,7 +5913,7 @@
 		{
 			"name":"Ration",
 			"japanese":"携帯食料",
-			"icon":"orange-icon meat-icon",
+			"icon":"orange-icon meat-icon edible-icon",
 			"description":"Restores a small amount of Stamina if eaten. (Supply Item)",
 			"maxStack":10,
 			"rarity":1,

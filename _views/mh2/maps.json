@@ -15867,7 +15867,7 @@
 											"number":1,"count":4,
 											"summer":[
 												{"percent":55,"name":"Paintball","icon":"pink-icon bomb-icon"},
-												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon"},
+												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon edible-icon"},
 												{"percent":38,"name":"Silver Rice Grass","icon":"gray-icon herb-icon"}
 											],
 											"breeding":[
@@ -16405,7 +16405,7 @@
 											"number":1,"count":4,
 											"summer":[
 												{"percent":55,"name":"Paintball","icon":"pink-icon bomb-icon"},
-												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon"},
+												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon edible-icon"},
 												{"percent":38,"name":"Silver Rice Grass","icon":"gray-icon herb-icon"}
 											],
 											"breeding":[
@@ -17741,7 +17741,7 @@
 											"number":1,"count":4,
 											"summer":[
 												{"percent":55,"name":"Paintball","icon":"pink-icon bomb-icon"},
-												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon"},
+												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon edible-icon"},
 												{"percent":38,"name":"Silver Rice Grass","icon":"gray-icon herb-icon"}
 											],
 											"breeding":[
@@ -18280,7 +18280,7 @@
 											"number":1,"count":4,
 											"summer":[
 												{"percent":55,"name":"Paintball","icon":"pink-icon bomb-icon"},
-												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon"},
+												{"percent":7,"name":"Ration","icon":"orange-icon meat-icon edible-icon"},
 												{"percent":38,"name":"Silver Rice Grass","icon":"gray-icon herb-icon"}
 											],
 											"breeding":[

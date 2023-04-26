@@ -1531,7 +1531,7 @@
 		{
 			"name":"Exciteshroom","japanese":"ドキドキノコ",
 			"maxStack":10,"rarity":3,"sell":18,
-			"icon":"purple-icon mushroom-icon",
+			"icon":"purple-icon mushroom-icon edible-icon",
 			"description":"",
 			"details":"",
 			"acquire":""
@@ -4785,7 +4785,7 @@
 		{
 			"name":"Ration","japanese":"携帯食料",
 			"maxStack":10,"rarity":1,"sell":0,
-			"icon":"orange-icon meat-icon",
+			"icon":"orange-icon meat-icon edible-icon",
 			"description":"Restores a small amount of Stamina if eaten. (Supply Item)",
 			"details":"Increase maximum stamina by 25. If max stamina is already at 150, this will not reset the stamina loss timer.",
 			"acquire":""
