@@ -1926,13 +1926,13 @@
 
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":26,"y":7},
 				{"name":"Felvine","class":"yellow-icon herb-icon","x":21,"y":6},
-				{"name":"Stones","class":"gray-icon stone-icon","x":28,"y":15},
-				{"name":"Huskberries","class":"red-icon seed-icon","x":21,"y":13},
+				{"name":"Stones","class":"gray-icon stone-icon","x":24,"y":15},
+				{"name":"Huskberries","class":"red-icon seed-icon","x":21,"y":12},
 
-				{"name":"Junk","class":"yellow-icon barrel-icon","x":8,"y":8},
+				{"name":"Junk","class":"yellow-icon barrel-icon","x":6,"y":8},
 				{"name":"Herbs","class":"green-icon herb-icon","x":8,"y":14},
-				{"name":"Stones","class":"gray-icon stone-icon","x":4,"y":13},
-				{"name":"Bugs","class":"white-icon bugnet-icon","x":2,"y":9}
+				{"name":"Felyne Stash","class":"red-icon barrel-icon","x":9,"y":9},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":3,"y":13}
 			],
 			"yields":{
 				"mhg":[
