@@ -3560,26 +3560,12 @@
 					]
 				},
 				{
-					"group":"White Cat Hammer",
+					"group":"Black Cat Hammer",
 					"groupClass":"paralysis-pre",
 					"tbody":[
 						{
 							"bodyClass":"paralysis-pre",
 							"weapons":[
-								{
-									"index":434,
-									"name":"White Cat Hammer","japanese":"しろねこハンマー",
-									"rarity":6,
-									"price":25000,
-									"attack":728,
-									"attribute":"paralysis",
-									"attributeAlt":"Paralysis",
-									"attributeValue":310,
-									"slots":1,
-									"affinity":0,
-									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Beer Nuts","q":2},{"n":"Meatball Stamp","q":7}],
-									"branchStart":true
-								},
 								{
 									"index":435,
 									"name":"Black Cat Hammer","japanese":"くろねこハンマー",
@@ -3592,6 +3578,20 @@
 									"slots":0,
 									"affinity":0,
 									"forge":[{"n":"Dragonite Ore","q":2},{"n":"Daora Tail","q":1},{"n":"Meatball Stamp","q":5}],
+									"branchStart":true
+								},
+								{
+									"index":434,
+									"name":"White Cat Hammer","japanese":"しろねこハンマー",
+									"rarity":6,
+									"price":25000,
+									"attack":728,
+									"attribute":"paralysis",
+									"attributeAlt":"Paralysis",
+									"attributeValue":310,
+									"slots":1,
+									"affinity":0,
+									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Beer Nuts","q":2},{"n":"Meatball Stamp","q":7}],
 									"branchBend":true
 								}
 							]
