@@ -58,7 +58,7 @@
 				{"name":"Bugs","class":"white-icon bugnet-icon","x":44,"y":35},
 				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":41,"y":28},
 
-				{"name":"Plants","class":"cyan-icon herb-icon","x":32,"y":24},
+				{"name":"Plants","class":"cyan-icon herb-icon","x":30,"y":24},
 				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":26,"y":25},
 				{"name":"Herbs","class":"blue-icon herb-icon","x":22,"y":32},
 				{"name":"Berries","class":"pink-icon seed-icon","x":30,"y":31},
@@ -1010,10 +1010,10 @@
 				{"name":"Ore Deposit","class":"white-icon pick-icon","x":16,"y":61},
 				{"name":"Ore Deposit","class":"white-icon pick-icon","x":11,"y":63},
 
-				{"name":"Plants","class":"white-icon herb-icon","x":54,"y":10},
-				{"name":"Plants","class":"white-icon herb-icon","x":59,"y":11},
-				{"name":"Herbs","class":"green-icon herb-icon","x":55,"y":16},
-				{"name":"Bugs","class":"white-icon bugnet-icon","x":57,"y":24},
+				{"name":"Herbs","class":"green-icon herb-icon","x":53,"y":13},
+				{"name":"Plants","class":"white-icon herb-icon","x":55,"y":10},
+				{"name":"Plants","class":"white-icon herb-icon","x":59,"y":9},
+				{"name":"Bugs","class":"white-icon bugnet-icon","x":57,"y":20},
 
 				{"name":"Dung","class":"brown-icon dung-icon","x":20,"y":74},
 				{"name":"Bones","class":"yellow-icon bone-icon","x":15,"y":77},
@@ -1031,17 +1031,17 @@
 				{"name":"Worms","class":"gray-icon bait-icon","x":53,"y":81},
 				{"name":"Herbs","class":"green-icon herb-icon","x":53,"y":88},
 
-				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":62,"y":56},
-				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":58,"y":59},
-				{"name":"Herbs","class":"purple-icon herb-icon","x":63,"y":58},
 				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":62,"y":64},
+				{"name":"Herbs","class":"purple-icon herb-icon","x":63,"y":58},
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":55,"y":60},
 				{"name":"Ore Deposit","class":"white-icon pick-icon","x":66,"y":61},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":61,"y":54},
 
-				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":72,"y":48},
 				{"name":"Seeds","class":"red-icon seed-icon","x":73,"y":52},
-				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":79,"y":50},
 				{"name":"Seeds","class":"gray-icon seed-icon","x":85,"y":48},
-				{"name":"Ore Deposit","class":"yellow-icon pick-icon","x":77,"y":57}
+				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":79,"y":51},
+				{"name":"Ore Deposit","class":"yellow-icon pick-icon","x":77,"y":56},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":72,"y":48}
 			],
 			"yields":{
 				"mhg":[
@@ -1774,7 +1774,7 @@
 						"zone":"Zone 10",
 						"spots":[
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"Dragon Seed","icon":"red-icon seed-icon","percent":80},
 									{"name":"nothing","percent":20}
@@ -1789,7 +1789,7 @@
 								]
 							},
 							{
-								"spotName":"Seeds","class":"gray-icon seed-icon",
+								"spotName":"Seeds","class":"gray-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"Scatternut","icon":"gray-icon seed-icon","percent":75},
 									{"name":"Dragon Seed","icon":"red-icon seed-icon","percent":25}
@@ -1893,9 +1893,9 @@
 
 				{"name":"Seeds","class":"gray-icon seed-icon","x":68,"y":20},
 				{"name":"Herbs","class":"green-icon herb-icon","x":69,"y":14},
-				{"name":"Bait","class":"green-icon bait-icon","x":65,"y":16},
-				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":60,"y":15},
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":64,"y":7},
+				{"name":"Bait","class":"green-icon bait-icon","x":63,"y":16},
+				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":60,"y":15},
 
 				{"name":"Stones","class":"gray-icon stone-icon","x":45,"y":10},
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":44,"y":15},
@@ -1919,9 +1919,9 @@
 				{"name":"Eggs","class":"yellow-icon egg-icon","x":8,"y":47},
 
 				{"name":"Bones","class":"yellow-icon bone-icon","x":28,"y":23},
-				{"name":"Seeds","class":"gray-icon seed-icon","x":24,"y":20},
-				{"name":"cactus","class":"pink-icon herb-icon","x":24,"y":24},
 				{"name":"Dung","class":"brown-icon dung-icon","x":23,"y":26},
+				{"name":"Seeds","class":"gray-icon seed-icon","x":24,"y":20},
+				{"name":"Cactus","class":"pink-icon herb-icon","x":24,"y":24},
 				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":20,"y":24},
 
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":26,"y":7},
@@ -2830,17 +2830,20 @@
 				{"name":"Bugs","class":"yellow-icon bugnet-icon","x":77,"y":68},
 				{"name":"Bugs","class":"white-icon bugnet-icon","x":71,"y":67},
 
+				{"name":"Huskberries","class":"gray-icon husk-icon","x":71,"y":49},
 				{"name":"Herbs","class":"green-icon herb-icon","x":68,"y":47},
+				{"name":"Plants","class":"white-icon herb-icon","x":70,"y":44},
 				{"name":"Bugs","class":"white-icon bugnet-icon","x":67,"y":53},
 
-				{"name":"Plants","class":"white-icon herb-icon","x":57,"y":31},
-				{"name":"Bug Swarm","class":"white-icon bugnet-icon","x":54,"y":22},
+				{"name":"Bug Swarm","class":"yellow-icon bugnet-icon","x":54,"y":22},
 				{"name":"Bug Swarm","class":"yellow-icon bugnet-icon","x":53,"y":28},
 				{"name":"Herbs","class":"green-icon herb-icon","x":48,"y":29},
+				{"name":"Plants","class":"white-icon herb-icon","x":57,"y":31},
 
-				{"name":"Web","class":"white-icon web-icon","x":59,"y":70},
-				{"name":"Plants","class":"purple-icon herb-icon","x":55,"y":65},
-				{"name":"Herbs","class":"green-icon herb-icon","x":49,"y":70},
+				{"name":"Web","class":"white-icon web-icon","x":57,"y":71},
+				{"name":"Plants","class":"white-icon herb-icon","x":49,"y":70},
+				{"name":"Antidote Herbs","class":"blue-icon herb-icon","x":59,"y":67},
+				{"name":"Sleep Herbs","class":"cyan-icon herb-icon","x":55,"y":65},
 
 				{"name":"Mushrooms","class":"blue-icon mushroom-icon","x":49,"y":47},
 				{"name":"Mushrooms","class":"white-icon mushroom-icon","x":45,"y":43},
@@ -2859,24 +2862,24 @@
 				{"name":"Stones","class":"gray-icon stone-icon","x":35,"y":10},
 
 				{"name":"Worms","class":"gray-icon bait-icon","x":35,"y":83},
-				{"name":"Ore Deposit","class":"white-icon pick-icon","x":30,"y":84},
-				{"name":"Ore Deposit","class":"white-icon pick-icon","x":27,"y":88},
 				{"name":"Plants","class":"white-icon herb-icon","x":25,"y":81},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":30,"y":85},
+				{"name":"Ore Deposit","class":"white-icon pick-icon","x":31,"y":90},
 
 				{"name":"Herbs","class":"blue-icon herb-icon","x":28,"y":60},
 				{"name":"Felyne Cache","class":"red-icon barrel-icon","x":25,"y":63},
 				{"name":"Felvine","class":"gray-icon seed-icon","x":29,"y":66},
-				{"name":"Plants","class":"cyan-icon herb-icon","x":25,"y":68},
+				{"name":"Sleep Herbs","class":"cyan-icon herb-icon","x":25,"y":68},
 
 				{"name":"Worms","class":"gray-icon bait-icon","x":30,"y":42},
-				{"name":"Mushrooms","class":"purple-icon mushroom-icon","x":29,"y":49},
 				{"name":"Toadstools","class":"purple-icon mushroom-icon","x":21,"y":40},
 				{"name":"Herbs","class":"green-icon herb-icon","x":22,"y":49},
+				{"name":"Nitroshrooms","class":"red-icon mushroom-icon","x":29,"y":49},
 
-				{"name":"Bugs","class":"white-icon bugnet-icon","x":20,"y":27},
+				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":15,"y":31},
 				{"name":"Stones","class":"gray-icon stone-icon","x":19,"y":21},
 				{"name":"Ore Deposit","class":"yellow-icon pick-icon","x":14,"y":22},
-				{"name":"Mushrooms","class":"red-icon mushroom-icon","x":15,"y":31}
+				{"name":"Bug Swarm","class":"white-icon bugnet-icon","x":20,"y":27}
 			],
 			"yields":{
 				"mhg":[
@@ -2911,7 +2914,7 @@
 						"zone":"Zone 1",
 						"spots":[
 							{
-								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
+								"spotName":"Toadstools","class":"purple-icon mushroom-icon edible-icon",
 								"itemsLow":[
 									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
@@ -3064,7 +3067,7 @@
 						"zone":"Zone 3",
 						"spots":[
 							{
-								"spotName":"Bug Swarm","class":"white-icon bugnet-icon",
+								"spotName":"Bug Swarm","class":"yellow-icon bugnet-icon",
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
@@ -3162,7 +3165,7 @@
 								]
 							},
 							{
-								"spotName":"Plants","class":"green-icon herb-icon",
+								"spotName":"Plants","class":"white-icon herb-icon",
 								"itemsLow":[
 									{"name":"Ivy","icon":"green-icon herb-icon","percent":80},
 									{"name":"nothing","percent":20}
@@ -3271,7 +3274,7 @@
 						"zone":"Zone 6",
 						"spots":[
 							{
-								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
+								"spotName":"Toadstools","class":"purple-icon mushroom-icon edible-icon",
 								"itemsLow":[
 									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":80},
 									{"name":"nothing","percent":20}
@@ -3580,7 +3583,7 @@
 						"zone":"Zone 10",
 						"spots":[
 							{
-								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
+								"spotName":"Toadstools","class":"purple-icon mushroom-icon edible-icon",
 								"itemsLow":[
 									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
@@ -3700,7 +3703,7 @@
 								]
 							},
 							{
-								"spotName":"Bug Swarm","icon":"white-icon bugnet-icon",
+								"spotName":"Bug Swarm","class":"white-icon bugnet-icon",
 								"itemsLow":[
 									{"name":"Firefly","icon":"yellow-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":25},
@@ -3792,16 +3795,15 @@
 			"icons":[
 				{"name":"Fishing Spot","class":"gray-icon fish-icon","x":46,"y":88},
 
-				{"name":"Worms","class":"gray-icon bait-icon","x":72,"y":72},
 				{"name":"Stones","class":"gray-icon stone-icon","x":67,"y":70},
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":62,"y":69},
+				{"name":"Worms","class":"gray-icon bait-icon","x":73,"y":69},
 				{"name":"Ore Deposit","class":"white-icon pick-icon","x":70,"y":64},
 
-				{"name":"Ore Deposit","class":"gray-icon pick-icon","x":37,"y":79},
-				{"name":"Stones","class":"gray-icon stone-icon","x":36,"y":73},
 				{"name":"Huskberries","class":"gray-icon husk-icon","x":34,"y":67},
-				{"name":"Stones","class":"gray-icon stone-icon","x":29,"y":70},
 				{"name":"Seeds","class":"gray-icon seed-icon","x":28,"y":76},
+				{"name":"Stones","class":"gray-icon stone-icon","x":29,"y":70},
+				{"name":"Ore Deposit","class":"gray-icon pick-icon","x":37,"y":79},
 
 				{"name":"Ore Deposit","class":"white-icon pick-icon","x":79,"y":50},
 				{"name":"Seeds","class":"gray-icon seed-icon","x":80,"y":60},
@@ -3870,7 +3872,7 @@
 						"zone":"Zone 1",
 						"spots":[
 							{
-								"spotName":"Shiny Spot","class":"white-icon mystery-icon",
+								"spotName":"Stones","class":"gray-icon stone-icon",
 								"itemsLow":[
 									{"name":"Stone","icon":"gray-icon stone-icon","percent":75},
 									{"name":"Whetstone","icon":"yellow-icon whetstone-icon","percent":25}
@@ -4062,7 +4064,7 @@
 									{"name":"Machalite Ore","icon":"blue-icon stone-icon","percent":22},
 									{"name":"Carbalite Ore","icon":"purple-icon stone-icon","percent":8},
 									{"name":"Union Ore","icon":"pink-icon stone-icon","percent":7},
-									{"name":"Ancient Stone","icon":"gray-icon stone-icon","percent":1}
+									{"name":"Ancient Stone","icon":"gray-icon mystery-icon","percent":1}
 								]
 							},
 							{
@@ -4088,7 +4090,7 @@
 									{"name":"Machalite Ore","icon":"blue-icon stone-icon","percent":22},
 									{"name":"Carbalite Ore","icon":"purple-icon stone-icon","percent":8},
 									{"name":"Union Ore","icon":"pink-icon stone-icon","percent":7},
-									{"name":"Ancient Stone","icon":"gray-icon stone-icon","percent":1}
+									{"name":"Ancient Stone","icon":"gray-icon mystery-icon","percent":1}
 								]
 							}
 						]
@@ -4112,7 +4114,7 @@
 								]
 							},
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":70},
 									{"name":"Armor Seed","icon":"red-icon seed-icon","percent":30}
@@ -4323,7 +4325,7 @@
 								]
 							},
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"nothing","percent":75},
 									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
@@ -4388,7 +4390,7 @@
 								]
 							},
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"nothing","percent":75},
 									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
@@ -4408,7 +4410,7 @@
 						"zone":"Zone 8",
 						"spots":[
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsLow":[
 									{"name":"Dragon Seed","icon":"red-icon seed-icon","percent":80},
 									{"name":"nothing","percent":20}
@@ -4525,7 +4527,7 @@
 								]
 							},
 							{
-								"spotName":"Seeds","class":"red-icon seed-icon",
+								"spotName":"Seeds","class":"red-icon seed-icon edible-icon",
 								"itemsG":[
 									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":65},
 									{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon","percent":35}
