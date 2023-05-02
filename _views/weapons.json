@@ -400,7 +400,7 @@
 					]
 				},
 				{
-					"bodyId":"redwing","bodyClass":"branch indent-1",
+					"bodyId":"redwing","bodyClass":"branch indent-1 fire-pre",
 					"weapons":[
 						{
 							"name":"Redwing",
@@ -901,8 +901,10 @@
 			"highRank":true,"toggleAll":true,"gToggleAll":true,
 			"tbody":[
 				{
+					"bodyClass":"poison-pre",
 					"weapons":[
 						{
+							"rowClass":"poison-pre",
 							"name":"<b>Halberd</b>","branchStart":true,
 							"rarity":4,
 							"damage":864,
@@ -915,6 +917,7 @@
 							]
 						},
 						{
+							"rowClass":"poison-pre",
 							"name":"Halberd+",
 							"rarity":4,
 							"damage":816,
@@ -927,6 +930,7 @@
 							]
 						},
 						{
+							"rowClass":"poison-pre",
 							"name":"Judgement",
 							"rarity":4,
 							"damage":768,
@@ -939,6 +943,7 @@
 							]
 						},
 						{
+							"rowClass":"poison-pre",
 							"name":"Executioner",
 							"rarity":4,
 							"damage":816,
@@ -951,6 +956,7 @@
 							]
 						},
 						{
+							"rowClass":"poison-pre",
 							"name":"Executioner+",
 							"branchG":"executioners-axe",
 							"rarity":4,
@@ -983,8 +989,10 @@
 					]
 				},
 				{
+					"bodyClass":"poison-pre",
 					"weapons":[
 						{
+							"rowClass":"poison-pre",
 							"name":"Dark Scythe",
 							"branchG":"sickle-sword",
 							"rarity":4,
@@ -2951,7 +2959,7 @@
 		},
 		{
 			"group":"Others","other":true,
-			"class":"thunder-pre dragon-pre poison-pre paralysis-pre sleep-pre",
+			"class":"thunder-pre-1 dragon-pre poison-pre paralysis-pre-1 sleep-pre",
 			"tbody":[
 				{
 					"bodyClass":"high-rank mh1 paralysis-pre",
@@ -4063,10 +4071,10 @@
 			"toggleAll":true,
 			"tbody":[
 				{
-					"bodyClass":"fire-pre water-pre dragon-pre poison-pre paralysis-pre",
+					"bodyClass":"fire-pre water-pre dragon-pre-g poison-pre paralysis-pre",
 					"weapons":[
 						{
-							"rowClass":"fire-pre water-pre dragon-pre poison-pre paralysis-pre",
+							"rowClass":"fire-pre water-pre dragon-pre-g poison-pre paralysis-pre",
 							"branch":".dark-lance",
 							"name":"<b>Origin Lance G</b>","gOnly":true,"branchStart":true,
 							"rarity":4,
@@ -4649,6 +4657,7 @@
 			"group":"Others","other":true,
 			"tbody":[
 				{
+					"bodyClass":"fire-pre water-pre poison-pre",
 					"weapons":[
 						{
 							"rowClass":"high-rank",
@@ -5275,6 +5284,7 @@
 					"weapons":[
 						{
 							"name":"<b>Rusted Sword</b>","branchStart":true,
+							"rowClass":"dragon-pre",
 							"rarity":1,
 							"damage1":41,"damageG":42,
 							"sharpness":"sharpness_sns/rusted_sword",
@@ -5285,6 +5295,7 @@
 						},
 						{
 							"name":"Tarnished Sword",
+							"rowClass":"dragon-pre",
 							"rarity":1,
 							"damage1":55,"damageG":56,
 							"sharpness":"sharpness_sns/tarnished_sword",
@@ -5295,6 +5306,7 @@
 						},
 						{
 							"name":"Legendary Sword",
+							"rowClass":"dragon-pre",
 							"rarity":5,
 							"damage1":349,"damageG":350,
 							"sharpness":"sharpness_sns/legendary_sword",
@@ -6250,11 +6262,11 @@
 			]
 		},
 		{
-			"class":"water-pre paralysis-pre-g sleep-pre-g",
+			"class":"water-pre-1 paralysis-pre-g sleep-pre-g",
 			"group":"Others","other":true,
 			"tbody":[
 				{
-					"bodyClass":"mh1 water-pre",
+					"bodyClass":"mh1 water-pre-1",
 					"weapons":[
 						{
 							"rowClass":"high-rank",

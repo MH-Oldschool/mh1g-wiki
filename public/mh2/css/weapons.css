@@ -6,7 +6,7 @@
 .highlight-ice .weapons-with-attributes tbody.ice-pre { display: table-row-group; }
 .highlight-ice .weapons-with-attributes tr.ice-pre { display: table-row; }
 
-.highlight-ice .ice-attribute {
+.filter-weapons.highlight-ice .ice-attribute {
 	display: table-row;
 	text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
