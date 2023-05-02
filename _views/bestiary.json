@@ -2678,7 +2678,7 @@
 				"Very sensitive to loud noises."
 			],
 			"mhgNotes": [
-				"When enraged, it is unaffected by flash bombs."
+				"When enraged, it is unaffected by sonic bombs."
 			]
 		},
 		{
@@ -2729,7 +2729,7 @@
 			"notes": [
 				"Found only in deserts.",
 				"Very sensitive to loud noises.",
-				"When enraged, it is unaffected by flash bombs."
+				"When enraged, it is unaffected by sonic bombs."
 			],
 			"gOnly": true
 		},
