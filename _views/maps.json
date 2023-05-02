@@ -161,7 +161,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -752,15 +752,15 @@
 								"spotName":"Plants","class":"cyan-icon herb-icon",
 								"itemsLow":[
 									{"name":"Sleep Herb","icon":"cyan-icon herb-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsHigh":[
 									{"name":"Sleep Herb","icon":"cyan-icon herb-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsG":[
 									{"name":"Sleep Herb","icon":"cyan-icon herb-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								]
 							},
 							{
@@ -879,27 +879,27 @@
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":17},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":40},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":40},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":10},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":13},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":15},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":5}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":5}
 								],
 								"itemsHigh":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":15},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":22},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":22},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":23},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":10}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":10}
 								],
 								"itemsG":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":15},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":22},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":22},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":23},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":10}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":10}
 								]
 							}
 						]
@@ -960,7 +960,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -1168,7 +1168,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -1264,7 +1264,7 @@
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":19},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":10},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":10},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":26},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":30}
@@ -1585,7 +1585,7 @@
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":20},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":16},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":16},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":9},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":20},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":5},
@@ -1593,14 +1593,14 @@
 								],
 								"itemsHigh":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":5},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":17},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":17},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":33},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":8},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":37}
 								],
 								"itemsG":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":5},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":17},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":17},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":33},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":8},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":37}
@@ -1747,24 +1747,24 @@
 							{
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsLow":[
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":25},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":25},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":28},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":10},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":32},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":5}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":32},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":5}
 								],
 								"itemsHigh":[
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":15},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":15},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":30},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":38},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":15},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":38},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								],
 								"itemsG":[
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":15},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":15},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":30},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":38},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":15},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":38},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								]
 							}
@@ -1849,21 +1849,21 @@
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":21},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":38},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":26},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":15}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":26},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":15}
 								],
 								"itemsHigh":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":10},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":40},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":29},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":19},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":29},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":19},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								],
 								"itemsG":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":10},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":40},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":29},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":19},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":29},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":19},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								]
 							}
@@ -2112,15 +2112,15 @@
 								"spotName":"Huskberries","class":"gray-icon husk-icon",
 								"itemsLow":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":80},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":20}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":20}
 								],
 								"itemsHigh":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":5},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":95}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":95}
 								],
 								"itemsG":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":5},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":95}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":95}
 								]
 							}
 						]
@@ -2177,15 +2177,15 @@
 								"spotName":"Seeds","class":"gray-icon seed-icon",
 								"itemsLow":[
 									{"name":"Needleberry","icon":"gray-icon seed-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsHigh":[
 									{"name":"Needleberry","icon":"gray-icon seed-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsG":[
 									{"name":"Needleberry","icon":"gray-icon seed-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								]
 							},
 							{
@@ -2218,15 +2218,15 @@
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsLow":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsHigh":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":20},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":80}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":80}
 								],
 								"itemsG":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":20},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":80}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":80}
 								]
 							},
 							{
@@ -2264,7 +2264,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -2287,22 +2287,22 @@
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":23},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":19},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":19},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":32},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":26}
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":26}
 								],
 								"itemsHigh":[
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":13},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":13},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":39},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":31},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":31},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								],
 								"itemsG":[
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":13},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":13},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":39},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":31},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":31},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								]
 							}
@@ -2452,15 +2452,15 @@
 								"spotName":"Huskberries","class":"gray-icon husk-icon",
 								"itemsLow":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								],
 								"itemsHigh":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								],
 								"itemsG":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								]
 							}
 						]
@@ -2610,19 +2610,19 @@
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":16},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":10},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":23},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":21}
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":21}
 								],
 								"itemsHigh":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":28},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":17},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":29},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":26}
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":26}
 								],
 								"itemsG":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":28},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":17},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":29},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":26}
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":26}
 								]
 							}
 						]
@@ -2679,15 +2679,15 @@
 								"spotName":"Huskberries","class":"red-icon seed-icon",
 								"itemsLow":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":95},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":5}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":5}
 								],
 								"itemsHigh":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":20},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":80}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":80}
 								],
 								"itemsG":[
 									{"name":"Huskberry","icon":"gray-icon husk-icon","percent":20},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":80}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":80}
 								]
 							}
 						]
@@ -2747,7 +2747,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -2773,7 +2773,7 @@
 							{
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsG":[
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":65},
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":65},
 									{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon","percent":35}
 								]
 							},
@@ -2890,19 +2890,19 @@
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":21},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":12},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":25},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":20}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":20}
 								],
 								"itemsHigh":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":25},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":24},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":34},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":17}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":17}
 								],
 								"itemsG":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":25},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":24},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":34},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":17}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":17}
 								]
 							}
 						]
@@ -2913,15 +2913,15 @@
 							{
 								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
 								"itemsLow":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								],
 								"itemsHigh":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								],
 								"itemsG":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								]
 							},
@@ -2945,7 +2945,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -3068,7 +3068,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -3092,7 +3092,7 @@
 								"itemsLow":[
 									{"name":"Cricket","icon":"green-icon bait-icon","percent":40},
 									{"name":"Flashbug","icon":"yellow-icon bug-icon","percent":10},
-									{"name":"Bitterbug","icon":"blue-icon bug-icon","percent":30},
+									{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon","percent":30},
 									{"name":"Insect Husk","icon":"gray-icon bug-icon","percent":18},
 									{"name":"Thunderbug","icon":"yellow-icon bug-icon","percent":2}
 								],
@@ -3254,15 +3254,15 @@
 								"spotName":"Mushrooms","class":"white-icon mushroom-icon",
 								"itemsLow":[
 									{"name":"Special Mushroom","icon":"white-icon mushroom-icon","percent":80},
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":20}
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":20}
 								],
 								"itemsHigh":[
 									{"name":"Special Mushroom","icon":"white-icon mushroom-icon","percent":80},
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":20}
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":20}
 								],
 								"itemsG":[
 									{"name":"Special Mushroom","icon":"white-icon mushroom-icon","percent":80},
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":20}
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":20}
 								]
 							}
 						]
@@ -3273,15 +3273,15 @@
 							{
 								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
 								"itemsLow":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":80},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":80},
 									{"name":"nothing","percent":20}
 								],
 								"itemsHigh":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":80},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":80},
 									{"name":"nothing","percent":20}
 								],
 								"itemsG":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":80},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":80},
 									{"name":"nothing","percent":20}
 								]
 							},
@@ -3560,7 +3560,7 @@
 							{
 								"spotName":"Felyne Cache","class":"red-icon barrel-icon",
 								"itemsLow":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":75},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":75},
 									{"name":"Felvine","icon":"yellow-icon herb-icon","percent":25}
 								],
 								"itemsHigh":[
@@ -3582,15 +3582,15 @@
 							{
 								"spotName":"Toadstools","class":"purple-icon mushroom-icon",
 								"itemsLow":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								],
 								"itemsHigh":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								],
 								"itemsG":[
-									{"name":"Toadstool","icon":"purple-icon mushroom-icon","percent":85},
+									{"name":"Toadstool","icon":"purple-icon mushroom-icon edible-icon","percent":85},
 									{"name":"nothing","percent":15}
 								]
 							},
@@ -3737,7 +3737,7 @@
 							{
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsG":[
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":65},
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":65},
 									{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon","percent":35}
 								]
 							},
@@ -3770,13 +3770,13 @@
 								"spotName":"Fishing Spot","class":"gray-icon fish-icon",
 								"itemsG":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":12},
-									{"name":"Sushifish","icon":"orange-icon fish-icon","percent":5},
+									{"name":"Sushifish","icon":"orange-icon fish-icon edible-icon","percent":5},
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":8},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":2},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":38},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":9},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":9},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":5},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":9},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":5},
 									{"name":"Scatterfish","icon":"gray-icon fish-icon","percent":7},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":5}
 								]
@@ -3847,21 +3847,21 @@
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":16},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":2},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":21},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":24}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":24}
 								],
 								"itemsHigh":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":14},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":25},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":5},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":29},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":27}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":27}
 								],
 								"itemsG":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":14},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":25},
 									{"name":"Goldenfish","icon":"yellow-icon fish-icon","percent":5},
 									{"name":"Sleepyfish","icon":"cyan-icon fish-icon","percent":29},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":27}
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":27}
 								]
 							}
 						]
@@ -4180,21 +4180,21 @@
 								"itemsLow":[
 									{"name":"Knife Mackerel","icon":"yellow-icon fish-icon","percent":25},
 									{"name":"Rumblefish","icon":"gray-icon fish-icon","percent":9},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":18},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":15},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":18},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":15},
 									{"name":"Scatterfish","icon":"gray-icon fish-icon","percent":33}
 								],
 								"itemsHigh":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":18},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":20},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":24},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":20},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":24},
 									{"name":"Scatterfish","icon":"gray-icon fish-icon","percent":36},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								],
 								"itemsG":[
 									{"name":"Pin Tuna","icon":"gray-icon fish-icon","percent":18},
-									{"name":"Burst Arrowana","icon":"gray-icon fish-icon","percent":20},
-									{"name":"Bomb Arrowana","icon":"gray-icon fish-icon","percent":24},
+									{"name":"Burst Arowana","icon":"gray-icon fish-icon","percent":20},
+									{"name":"Bomb Arowana","icon":"gray-icon fish-icon","percent":24},
 									{"name":"Scatterfish","icon":"gray-icon fish-icon","percent":36},
 									{"name":"Speartuna","icon":"blue-icon fish-icon","percent":2}
 								]
@@ -4326,15 +4326,15 @@
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsLow":[
 									{"name":"nothing","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								],
 								"itemsHigh":[
 									{"name":"nothing","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								],
 								"itemsG":[
 									{"name":"nothing","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								]
 							}
 						]
@@ -4391,15 +4391,15 @@
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsLow":[
 									{"name":"nothing","percent":75},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":25}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":25}
 								],
 								"itemsHigh":[
 									{"name":"Unknown Skull","icon":"white-icon bone-icon","percent":5},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":95}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":95}
 								],
 								"itemsG":[
 									{"name":"Unknown Skull","icon":"white-icon bone-icon","percent":5},
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":95}
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":95}
 								]
 							}
 						]
@@ -4527,7 +4527,7 @@
 							{
 								"spotName":"Seeds","class":"red-icon seed-icon",
 								"itemsG":[
-									{"name":"Power Seed","icon":"red-icon seed-icon","percent":65},
+									{"name":"Power Seed","icon":"red-icon seed-icon edible-icon","percent":65},
 									{"name":"Dragon Toadstool","icon":"red-icon mushroom-icon","percent":35}
 								]
 							},

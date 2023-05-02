@@ -441,7 +441,7 @@
 		{
 			"name":"Rare Steak",
 			"japanese":"生焼け肉",
-			"icon":"orange-icon meat-icon",
+			"icon":"orange-icon meat-icon edible-icon",
 			"description":"Meat cooked on the rare side. Gives a small boost to Stamina.",
 			"maxStack":10,
 			"rarity":1,
@@ -453,7 +453,7 @@
 		{
 			"name":"Well-Done Steak",
 			"japanese":"こんがり肉",
-			"icon":"orange-icon meat-icon",
+			"icon":"orange-icon meat-icon edible-icon",
 			"description":"Well-cooked meat. Gives a medium boost to Stamina.",
 			"maxStack":10,
 			"rarity":2,
@@ -465,7 +465,7 @@
 		{
 			"name":"Gourmet Steak",
 			"japanese":"こんがり肉Ｇ",
-			"icon":"red-icon meat-icon",
+			"icon":"orange-icon meat-icon edible-icon",
 			"description":"A gourmet steak cook to perfection. Gives a full boost to Stamina.",
 			"maxStack":3,
 			"rarity":3,
@@ -478,7 +478,7 @@
 		{
 			"name":"Burnt Meat",
 			"japanese":"コゲ肉",
-			"icon":"gray-icon meat-icon",
+			"icon":"gray-icon meat-icon edible-icon",
 			"description":"Meat burnt to a crisp. Boosts Stamina sometimes, but can also weaken you.",
 			"maxStack":10,
 			"rarity":1,
@@ -669,7 +669,7 @@
 			"acquire":"Provided in the Supply Box during some quests."
 		},
 		{
-			"name":"Poison Smoke Bmb",
+			"name":"Poison Smoke Bomb",
 			"japanese":"毒けむり玉",
 			"icon":"purple-icon smoke-icon",
 			"description":"Smoke bomb containing a toxic chemical. Popular as a household bug bomb.",
@@ -1310,15 +1310,15 @@
 			"mhg":true
 		},
 		{
-			"name":"Arrowana Bait",
+			"name":"Arowana Bait",
 			"japanese":"アロダンゴ",
-			"icon":"green-icon bait-icon",
+			"icon":"white-icon bait-icon",
 			"description":"The bait preferred by the arrowana family of fish.",
 			"maxStack":10,
 			"rarity":2,
 			"buy":0,
 			"sell":7,
-			"details":"Attact Burst Arrowana and Bomb Arrowana to your fishing lure.",
+			"details":"Attact Burst Arowana and Bomb Arowana to your fishing lure.",
 			"mhg":true
 		},
 		{
@@ -1696,7 +1696,7 @@
 		{
 			"name":"Toadstool",
 			"japanese":"毒テングダケ",
-			"icon":"purple-icon mushroom-icon",
+			"icon":"purple-icon mushroom-icon edible-icon",
 			"description":"A poisonous fungus. But perhaps it has other effects as well...",
 			"maxStack":10,
 			"rarity":2,
@@ -1718,7 +1718,7 @@
 		{
 			"name":"Spicy Mushroom",
 			"japanese":"特産キノコキムチ",
-			"icon":"orange-icon mushroom-icon",
+			"icon":"orange-icon mushroom-icon edible-icon",
 			"description":"A mushroom that recovers a small amount of Stamina. (Account Item)",
 			"maxStack":5,
 			"rarity":3,
@@ -2066,7 +2066,7 @@
 			"acquire":"Fish from the cave in the Swamp and the Volcano. Rewarded by Goldenfish delivery quests."
 		},
 		{
-			"name":"Burst Arrowana",
+			"name":"Burst Arowana",
 			"japanese":"ハレツアロワナ",
 			"icon":"gray-icon fish-icon",
 			"description":"A fish that ruptures open when killed.",
@@ -2077,7 +2077,7 @@
 			"acquire":"Fish from the Forest and Hill, Jungle, Swamp, and Volcano. Rewarded by Goldenfish and Piscine Liver delivery quests, and for hunting Cephadrome."
 		},
 		{
-			"name":"Bomb Arrowana",
+			"name":"Bomb Arowana",
 			"japanese":"バクレツアロワナ",
 			"icon":"gray-icon fish-icon",
 			"description":"A fish that explodes when killed.",
@@ -2170,7 +2170,7 @@
 		{
 			"name":"Bitterbug",
 			"japanese":"にが虫",
-			"icon":"blue-icon bug-icon",
+			"icon":"blue-icon bug-icon edible-icon",
 			"description":"Contains a bitter essence. Has a 50% chance of curing poison if consumed.",
 			"maxStack":10,
 			"rarity":1,
@@ -6171,12 +6171,12 @@
 				{"name":"Ivy","class":"green-icon herb-icon","price":"75z","special":true},
 				{"name":"Godbug","class":"white-icon bug-icon","price":"420z","special":true},
 				{"name":"Nitroshroom","class":"red-icon mushroom-icon","price":"60z","special":true},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon","price":"75z","special":true},
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon","price":"75z","special":true},
 				{"name":"Blue Mushroom","class":"blue-icon mushroom-icon","price":"24z","special":true},
 				{"name":"Sm Bone Husk","class":"white-icon husk-icon","price":"30z","special":true},
 				{"name":"Cactus Flower","class":"pink-icon herb-icon","price":"100z","special":true},
-				{"name":"Power Seed","class":"red-icon seed-icon","price":"280z","special":true},
-				{"name":"Armor Seed","class":"orange-icon seed-icon","price":"220z","special":true},
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon","price":"280z","special":true},
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon","price":"220z","special":true},
 				{"name":"Paintberry","class":"pink-icon seed-icon","price":"60z","special":true},
 				{"name":"Sm Monster Bone","class":"yellow-icon bone-icon","price":"100z","special":true},
 				{"name":"Wyvern Fang","class":"white-icon claw-icon","price":"60z","special":true},
@@ -6225,8 +6225,8 @@
 				{"name":"Scatternut","class":"gray-icon seed-icon","price":"40z"},
 				{"name":"Sleepyfish","class":"cyan-icon fish-icon","price":"90z","special":true},
 				{"name":"Honey","class":"orange-icon honey-icon","price":"90z","special":true},
-				{"name":"Burst Arrowana","class":"gray-icon fish-icon","price":"110z","special":true},
-				{"name":"Bomb Arrowana","class":"gray-icon fish-icon","price":"330z","special":true},
+				{"name":"Burst Arowana","class":"gray-icon fish-icon","price":"110z","special":true},
+				{"name":"Bomb Arowana","class":"gray-icon fish-icon","price":"330z","special":true},
 				{"name":"Scatterfish","class":"gray-icon fish-icon","price":"300z","special":true}
 			]
 		},
@@ -6406,7 +6406,7 @@
 		{"name":"Herbal Medicine","class":"white-icon powder-icon",
 			"ingredients":[
 				{"name":"Cactus Flower","class":"pink-icon herb-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -6426,7 +6426,7 @@
 		},
 		{"name":"Catalyst","class":"gray-icon powder-icon",
 			"ingredients":[
-				{"name":"Bitterbug","class":"blue-icon bug-icon"},
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"},
 				{"name":"Honey","class":"orange-icon honey-icon"}
 			],
 			"percent":75
@@ -6441,13 +6441,13 @@
 		{"name":"Power Juice","class":"yellow-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Rare Steak","class":"orange-icon meat-icon"}
+				{"name":"Rare Steak","class":"orange-icon meat-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Mega Juice","class":"yellow-icon jar-icon",
 			"ingredients":[
-				{"name":"Well-Done Steak","class":"orange-icon meat-icon"},
+				{"name":"Well-Done Steak","class":"orange-icon meat-icon edible-icon"},
 				{"name":"Power Extract","class":"blue-icon jar-icon"}
 			],
 			"percent":65
@@ -6455,7 +6455,7 @@
 		{"name":"Demondrug","class":"red-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Power Seed","class":"red-icon seed-icon"}
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon"}
 			],
 			"percent":65
 		},
@@ -6469,7 +6469,7 @@
 		{"name":"Armorskin","class":"orange-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Armor Seed","class":"orange-icon seed-icon"}
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon"}
 			],
 			"percent":65
 		},
@@ -6483,7 +6483,7 @@
 		{"name":"Poisoned Meat","class":"purple-icon meat-icon",
 			"ingredients":[
 				{"name":"Raw Meat","class":"red-icon meat-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -6581,7 +6581,7 @@
 		{"name":"Antiseptic Stone","class":"yellow-icon stone-icon",
 			"ingredients":[
 				{"name":"Earth Crystal","class":"white-icon stone-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":75
 		},
@@ -6686,21 +6686,21 @@
 		{"name":"Crag S Lv1","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Burst Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Burst Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Crag S Lv2","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Sm Bone Husk","class":"white-icon husk-icon"},
-				{"name":"Burst Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Burst Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Crag S Lv3","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Lg Bone Husk","class":"white-icon husk-icon"},
-				{"name":"Bomb Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Bomb Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":95
 		},
@@ -6749,7 +6749,7 @@
 		{"name":"Poison S Lv1","class":"purple-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -6805,14 +6805,14 @@
 		{"name":"Demon S","class":"red-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Power Seed","class":"red-icon seed-icon"}
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Armor S","class":"orange-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Armor Seed","class":"orange-icon seed-icon"}
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		},
@@ -6870,7 +6870,7 @@
 		{"name":"Herbal Medicine","class":"white-icon powder-icon",
 			"ingredients":[
 				{"name":"Cactus Flower","class":"pink-icon herb-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -6891,7 +6891,7 @@
 		{"name":"Catalyst","class":"gray-icon powder-icon",
 			"ingredients":[
 				{"name":"Honey","class":"orange-icon honey-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":75
 		},
@@ -6905,13 +6905,13 @@
 		{"name":"Power Juice","class":"yellow-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Rare Steak","class":"orange-icon meat-icon"}
+				{"name":"Rare Steak","class":"orange-icon meat-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Mega Juice","class":"yellow-icon jar-icon",
 			"ingredients":[
-				{"name":"Well-Done Steak","class":"orange-icon meat-icon"},
+				{"name":"Well-Done Steak","class":"orange-icon meat-icon edible-icon"},
 				{"name":"Power Extract","class":"blue-icon jar-icon"}
 			],
 			"percent":65
@@ -6919,7 +6919,7 @@
 		{"name":"Demondrug","class":"red-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Power Seed","class":"red-icon seed-icon"}
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon"}
 			],
 			"percent":65
 		},
@@ -6933,14 +6933,14 @@
 		{"name":"Power Pill","class":"red-icon powder-icon",
 			"ingredients":[
 				{"name":"Immunizer","class":"yellow-icon jar-icon"},
-				{"name":"Power Seed","class":"red-icon seed-icon"}
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Armorskin","class":"orange-icon jar-icon",
 			"ingredients":[
 				{"name":"Catalyst","class":"gray-icon powder-icon"},
-				{"name":"Armor Seed","class":"orange-icon seed-icon"}
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon"}
 			],
 			"percent":65
 		},
@@ -6954,25 +6954,25 @@
 		{"name":"Armor Pill","class":"orange-icon powder-icon",
 			"ingredients":[
 				{"name":"Immunizer","class":"yellow-icon jar-icon"},
-				{"name":"Armor Seed","class":"orange-icon seed-icon"}
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Hot Drink","class":"red-icon jar-icon",
 			"ingredients":[
 				{"name":"Hot Pepper","class":"red-icon herb-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Cool Drink","class":"white-icon jar-icon",
 			"ingredients":[
 				{"name":"Ice Crystal","class":"cyan-icon stone-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":90
 		},
-		{"name":"Spicy Mushroom","class":"orange-icon mushroom-icon",
+		{"name":"Spicy Mushroom","class":"orange-icon mushroom-icon edible-icon",
 			"ingredients":[
 				{"name":"Hot Pepper","class":"red-icon herb-icon"},
 				{"name":"Special Mushroom","class":"white-icon mushroom-icon"}
@@ -6982,7 +6982,7 @@
 		{"name":"Poisoned Meat","class":"purple-icon meat-icon",
 			"ingredients":[
 				{"name":"Raw Meat","class":"red-icon meat-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -7017,7 +7017,7 @@
 		{"name":"Poison Smoke Bomb","class":"purple-icon smoke-icon",
 			"ingredients":[
 				{"name":"Bomb Material","class":"white-icon bomb-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":75
 		},
@@ -7105,7 +7105,7 @@
 			],
 			"percent":95
 		},
-		{"name":"Arrowana Bait","class":"white-icon bait-icon",
+		{"name":"Arowana Bait","class":"white-icon bait-icon",
 			"ingredients":[
 				{"name":"Cricket","class":"green-icon bait-icon"},
 				{"name":"Bughopper","class":"white-icon bug-icon"}
@@ -7164,7 +7164,7 @@
 		{"name":"Antiseptic Stone","class":"yellow-icon stone-icon",
 			"ingredients":[
 				{"name":"Earth Crystal","class":"white-icon stone-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":75
 		},
@@ -7213,7 +7213,7 @@
 		{"name":"Poison Throwing Knife","class":"purple-icon knife-icon",
 			"ingredients":[
 				{"name":"Throwing Knife","class":"gray-icon knife-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":65
 		},
@@ -7304,21 +7304,21 @@
 		{"name":"Crag S Lv1","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Burst Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Burst Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Crag S Lv2","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Sm Bone Husk","class":"white-icon husk-icon"},
-				{"name":"Burst Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Burst Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":90
 		},
 		{"name":"Crag S Lv3","class":"white-icon shot-icon",
 			"ingredients":[
 				{"name":"Lg Bone Husk","class":"white-icon husk-icon"},
-				{"name":"Bomb Arrowana","class":"gray-icon fish-icon"}
+				{"name":"Bomb Arowana","class":"gray-icon fish-icon"}
 			],
 			"percent":95
 		},
@@ -7388,7 +7388,7 @@
 		{"name":"Poison S Lv1","class":"purple-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":90
 		},
@@ -7437,14 +7437,14 @@
 		{"name":"Demon S","class":"red-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Power Seed","class":"red-icon seed-icon"}
+				{"name":"Power Seed","class":"red-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		},
 		{"name":"Armor S","class":"orange-icon shot-icon",
 			"ingredients":[
 				{"name":"Huskberry","class":"gray-icon husk-icon"},
-				{"name":"Armor Seed","class":"orange-icon seed-icon"}
+				{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon"}
 			],
 			"percent":75
 		}
@@ -7474,13 +7474,13 @@
 		{"name":"Blue Mushroom","class":"blue-icon mushroom-icon",
 			"ingredients":[
 				{"name":"Antidote Herb","class":"blue-icon herb-icon"},
-				{"name":"Toadstool","class":"purple-icon mushroom-icon"}
+				{"name":"Toadstool","class":"purple-icon mushroom-icon edible-icon"}
 			],
 			"percent":95
 		},
 		{"name":"Raw Meat","class":"red-icon meat-icon",
 			"ingredients":[
-				{"name":"Burnt Meat","class":"gray-icon meat-icon"},
+				{"name":"Burnt Meat","class":"gray-icon meat-icon edible-icon"},
 				{"name":"Dung","class":"brown-icon dung-icon"}
 			],
 			"percent":95
@@ -7527,7 +7527,7 @@
 			],
 			"percent":75
 		},
-		{"name":"Rare Steak","class":"orange-icon meat-icon",
+		{"name":"Rare Steak","class":"orange-icon meat-icon edible-icon",
 			"ingredients":[
 				{"name":"Thunderbug","class":"yellow-icon bug-icon"},
 				{"name":"Velociprey Hide","class":"blue-icon hide-icon"}
@@ -7562,14 +7562,14 @@
 			],
 			"percent":65
 		},
-		{"name":"Power Seed","class":"red-icon seed-icon",
+		{"name":"Power Seed","class":"red-icon seed-icon edible-icon",
 			"ingredients":[
 				{"name":"Bomberry","class":"gray-icon seed-icon"},
 				{"name":"Kut-Ku Scale","class":"pink-icon scale-icon"}
 			],
 			"percent":65
 		},
-		{"name":"Armor Seed","class":"orange-icon seed-icon",
+		{"name":"Armor Seed","class":"orange-icon seed-icon edible-icon",
 			"ingredients":[
 				{"name":"Needleberry","class":"gray-icon seed-icon"},
 				{"name":"Velocidrome Claw","class":"blue-icon claw-icon"}
@@ -7586,7 +7586,7 @@
 		{"name":"Monster Broth","class":"cyan-icon jar-icon",
 			"ingredients":[
 				{"name":"Monster Fluid","class":"cyan-icon jar-icon"},
-				{"name":"Bitterbug","class":"blue-icon bug-icon"}
+				{"name":"Bitterbug","class":"blue-icon bug-icon edible-icon"}
 			],
 			"percent":55
 		}
@@ -8104,7 +8104,7 @@
 				},
 				{
 					"items":[
-						{"n":"Sushifish","icon":"orange-icon fish-icon"},
+						{"n":"Sushifish","icon":"orange-icon fish-icon edible-icon"},
 						{"n":"Special Mushroom","icon":"white-icon mushroom-icon"}
 					]
 				},
@@ -8237,7 +8237,7 @@
 				{
 					"items":[
 						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
-						{"n":"Toadstool","icon":"purple-icon mushroom-icon"}
+						{"n":"Toadstool","icon":"purple-icon mushroom-icon edible-icon"}
 					]
 				},
 				{
@@ -8422,7 +8422,7 @@
 					"items":[
 						{"n":"Mystery Bone","icon":"yellow-icon bone-icon"},
 						{"n":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
-						{"n":"Burnt Meat","icon":"gray-icon meat-icon"}
+						{"n":"Burnt Meat","icon":"gray-icon meat-icon edible-icon"}
 					]
 				},
 				{
@@ -8513,14 +8513,14 @@
 					"items":[
 						{"n":"Iron Ore","icon":"gray-icon stone-icon"},
 						{"n":"Potion","icon":"green-icon jar-icon"},
-						{"n":"Rare Steak","icon":"orange-icon meat-icon"}
+						{"n":"Rare Steak","icon":"orange-icon meat-icon edible-icon"}
 					]
 				},
 				{
 					"items":[
 						{"n":"BBQ Ticket","icon":"orange-icon ticket-icon"},
-						{"n":"Well-Done Steak","icon":"orange-icon meat-icon"},
-						{"n":"Rare Steak","icon":"orange-icon meat-icon"}
+						{"n":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+						{"n":"Rare Steak","icon":"orange-icon meat-icon edible-icon"}
 					]
 				},
 				{

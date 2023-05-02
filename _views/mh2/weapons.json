@@ -42,7 +42,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Iron Ore","q":2}],
-									"forge":[{"n":"Ruststone Slab","q":1}],
+									"forge":[{"n":"Rustslab","q":1}],
 									"branch":"iron-katana"
 								}
 							]
@@ -156,9 +156,10 @@
 									"price":3850,
 									"attack":528,
 									"defense":14,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":10},{"n":"Sunshine Ore","q":5}]
+									"upgrade":[{"n":"Iron Ore","q":10},{"n":"Sunlight Stone","q":5}]
 								},
 								{
 									"rowClass":"fire-pre",
@@ -168,9 +169,10 @@
 									"price":6450,
 									"attack":576,
 									"defense":20,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunshine Ore","q":10},{"n":"Machalite Ore","q":5}]
+									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunlight Stone","q":10},{"n":"Machalite Ore","q":5}]
 								},
 								{
 									"index":259,
@@ -179,13 +181,14 @@
 									"price":8350,
 									"attack":624,
 									"defense":18,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":200,
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":8},{"n":"Unknown Skull","q":1},{"n":"Flame Sac","q":3}],
-									"forge":[{"n":"Flame Sac","q":4},{"n":"Machalite Ore","q":12},{"n":"Sunshine Ore","q":8},{"n":"Unknown Skull","q":1}]
+									"forge":[{"n":"Flame Sac","q":4},{"n":"Machalite Ore","q":12},{"n":"Sunlight Stone","q":8},{"n":"Unknown Skull","q":1}]
 								},
 								{
 									"index":260,
@@ -194,6 +197,7 @@
 									"price":17610,
 									"attack":672,
 									"defense":16,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":250,
@@ -217,7 +221,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Iron Ore","q":8},{"n":"Machalite Ore","q":2},{"n":"Earth Crystal","q":5}],
-									"forge":[{"n":"Ruststone Slab","q":1}],
+									"forge":[{"n":"Rustslab","q":1}],
 									"branch":"serpentblade"
 								}
 							]
@@ -274,10 +278,11 @@
 									"price":8850,
 									"attack":528,
 									"defense":1,
+
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":6},{"n":"Earth Crystal","q":10},{"n":"Ice Crystal","q":5}],
-									"forge":[{"n":"Ancient Stone Slab","q":1}],
+									"forge":[{"n":"Ancient Slab","q":1}],
 									"branch":"cats-soul"
 								}
 							]
@@ -296,7 +301,7 @@
 									"attributeValue":300,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Meatball Stamp","q":2},{"n":"Stun Sac","q":4},{"n":"Knife Mackerel+","q":2}]
+									"upgrade":[{"n":"Pawprint Stamp","q":2},{"n":"Paralysis Sac","q":4},{"n":"Great Whetfish","q":2}]
 								},
 								{
 									"index":423,
@@ -309,7 +314,7 @@
 									"attributeValue":360,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Meatball Stamp","q":4},{"n":"Stun Sac","q":6},{"n":"Glittering Beetle","q":10}],
+									"upgrade":[{"n":"Pawprint Stamp","q":4},{"n":"Paralysis Sac","q":6},{"n":"Shiny Beetle","q":10}],
 									"branchBend":true
 								}
 							]
@@ -323,9 +328,10 @@
 									"price":15700,
 									"attack":672,
 									"defense":3,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":11},{"n":"Rathalos Claw","q":5},{"n":"Velocidrome Claw","q":5}]
+									"upgrade":[{"n":"Machalite Ore","q":11},{"n":"Rath Wingtalon","q":5},{"n":"Velocidrome Claw","q":5}]
 								},
 								{
 									"index":207,
@@ -334,9 +340,10 @@
 									"price":41970,
 									"attack":768,
 									"defense":6,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Webbing","q":8},{"n":"Rathalos Claw","q":5},{"n":"Daora Claw","q":5}]
+									"upgrade":[{"n":"Rathalos Webbing","q":8},{"n":"Rath Wingtalon","q":5},{"n":"Daora Claw","q":5}]
 								},
 								{
 									"index":448,
@@ -345,9 +352,10 @@
 									"price":63450,
 									"attack":864,
 									"defense":8,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Carapace","q":8},{"n":"Rathalos Claw","q":10},{"n":"Rathalos Plate","q":1}],
+									"upgrade":[{"n":"Rathalos Carapace","q":8},{"n":"Rath Wingtalon","q":10},{"n":"Rathalos Plate","q":1}],
 									"branchBend":true
 								}
 							]
@@ -371,7 +379,7 @@
 									"attack":336,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Sm Monster Bone","q":3}],
+									"forge":[{"n":"Monster Bone S","q":3}],
 									"branchStart":true
 								},
 								{
@@ -383,7 +391,7 @@
 									"attack":384,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":4}],
+									"upgrade":[{"n":"Monster Bone S","q":4}],
 									"branch":".bone-katana-red-stripe"
 								}
 							]
@@ -399,10 +407,11 @@
 									"price":1850,
 									"attack":480,
 									"defense":4,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":4},{"n":"Sharp Claw","q":2},{"n":"Sm Hermitaur Shell","q":2}],
-									"forge":[{"n":"Sm Hermitaur Shell","q":5},{"n":"Bone","q":2},{"n":"Sharp Claw","q":3},{"n":"Black Pearl","q":1}],
+									"upgrade":[{"n":"Monster Bone S","q":4},{"n":"Sharp Claw","q":2},{"n":"Hermitaur Shell S","q":2}],
+									"forge":[{"n":"Hermitaur Shell S","q":5},{"n":"Bone","q":2},{"n":"Sharp Claw","q":3},{"n":"Black Pearl","q":1}],
 									"branchBend":true
 								}
 							]
@@ -417,9 +426,10 @@
 									"price":3700,
 									"attack":576,
 									"defense":4,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":8},{"n":"Sharp Claw","q":5},{"n":"Sm Hermitaur Shell","q":5}],
+									"upgrade":[{"n":"Monster Bone S","q":8},{"n":"Sharp Claw","q":5},{"n":"Hermitaur Shell S","q":5}],
 									"branch":"notched-blade"
 								}
 							]
@@ -435,7 +445,7 @@
 									"attack":672,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Legs","q":2},{"n":"Ceanataur Shell","q":5},{"n":"Knife Mackerel","q":10}]
+									"upgrade":[{"n":"Ceanataur Legs","q":2},{"n":"Ceanataur Shell","q":5},{"n":"Whetfish","q":10}]
 								},
 								{
 									"index":46,
@@ -445,7 +455,7 @@
 									"attack":816,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Pincers","q":1},{"n":"Ceanataur Claws","q":3},{"n":"Knife Mackerel+","q":5}]
+									"upgrade":[{"n":"Ceanataur Pincer","q":1},{"n":"Ceanataur Claw","q":3},{"n":"Great Whetfish","q":5}]
 								},
 								{
 									"index":415,
@@ -455,7 +465,7 @@
 									"attack":912,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Pincers","q":3},{"n":"Ceanataur Claws+","q":1},{"n":"Ancient Fish","q":5}],
+									"upgrade":[{"n":"Ceanataur Pincer","q":3},{"n":"Ceanataur Claw+","q":1},{"n":"Ancient Fish","q":5}],
 									"branchBend":true
 								}
 							]
@@ -470,9 +480,10 @@
 									"price":5860,
 									"attack":624,
 									"defense":8,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Med Monster Bone","q":2},{"n":"Hermitaur Claw","q":1},{"n":"Hermitaur Shell","q":5}]
+									"upgrade":[{"n":"Monster Bone M","q":2},{"n":"Hermitaur Claw","q":1},{"n":"Hermitaur Shell","q":5}]
 								},
 								{
 									"index":412,
@@ -481,9 +492,10 @@
 									"price":11340,
 									"attack":672,
 									"defense":12,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Claw","q":2},{"n":"Hermitaur Shell","q":7},{"n":"Armor Pill","q":1}],
+									"upgrade":[{"n":"Hermitaur Claw","q":2},{"n":"Hermitaur Shell","q":7},{"n":"Adamant Pill","q":1}],
 									"branchBend":true
 								}
 							]
@@ -504,7 +516,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":2},{"n":"Velociprey Fang","q":5},{"n":"Velociprey Hide","q":2}],
-									"forge":[{"n":"Velocidrome Hide","q":2},{"n":"Sm Monster Bone","q":5},{"n":"Machalite Ore","q":4},{"n":"Velociprey Fang","q":7}],
+									"forge":[{"n":"Velocidrome Hide","q":2},{"n":"Monster Bone S","q":5},{"n":"Machalite Ore","q":4},{"n":"Velociprey Fang","q":7}],
 									"branch":"black-katana",
 									"branchBend":true
 								}
@@ -522,6 +534,7 @@
 									"price":12350,
 									"attack":576,
 									"defense":2,
+
 									"slots":2,
 									"affinity":0,
 									"upgrade":[{"n":"Hornetaur Head","q":4},{"n":"Hornetaur Wing","q":10},{"n":"Armorskin","q":3}]
@@ -533,6 +546,7 @@
 									"price":15580,
 									"attack":672,
 									"defense":6,
+
 									"slots":2,
 									"affinity":0,
 									"upgrade":[{"n":"Hornetaur Head","q":6},{"n":"Hornetaur Wing","q":20},{"n":"Mega Armorskin","q":1}]
@@ -544,9 +558,10 @@
 									"price":50000,
 									"attack":816,
 									"defense":10,
+
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Hornetaur Head","q":10},{"n":"Hornetaur Bladefin","q":10},{"n":"Glittering Beetle","q":7}],
+									"upgrade":[{"n":"Hornetaur Head","q":10},{"n":"Hornetaur Innerwing","q":10},{"n":"Shiny Beetle","q":7}],
 									"branchBend":true
 								}
 							]
@@ -588,7 +603,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":15},{"n":"Rathian Spike","q":1},{"n":"Rathian Shell","q":4}],
-									"forge":[{"n":"Machalite Ore","q":15},{"n":"Rathian Spike","q":1},{"n":"Rathian Shell","q":6},{"n":"Glittering Beetle","q":3}]
+									"forge":[{"n":"Machalite Ore","q":15},{"n":"Rathian Spike","q":1},{"n":"Rathian Shell","q":6},{"n":"Shiny Beetle","q":3}]
 								},
 								{
 									"index":383,
@@ -719,7 +734,7 @@
 									"attributeValue":520,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Azure Lao-Shan Horn","q":3},{"n":"Lunastra Horn","q":5},{"n":"Bond of Comrades","q":5}],
+									"upgrade":[{"n":"Azure Lao-Shan Horn","q":3},{"n":"Lunastra Horn","q":5},{"n":"Bond Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -747,7 +762,7 @@
 									"attack":912,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Claw+","q":5},{"n":"Remobra Skin+","q":4},{"n":"Elder Dragon Blood","q":3}],
+									"upgrade":[{"n":"Daora Claw+","q":5},{"n":"Remobra Hide+","q":4},{"n":"Elder Dragon Blood","q":3}],
 									"branchBend":true
 								}
 							]
@@ -764,7 +779,7 @@
 									"attack":480,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":6},{"n":"Sharp Claw","q":3}]
+									"upgrade":[{"n":"Monster Bone S","q":6},{"n":"Sharp Claw","q":3}]
 								},
 								{
 									"rowClass":"dragon-pre",
@@ -775,7 +790,7 @@
 									"attack":528,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Med Monster Bone","q":3},{"n":"Piscine Fang","q":6}],
+									"upgrade":[{"n":"Monster Bone M","q":3},{"n":"Piscine Fang","q":6}],
 									"branch":"true-dragons-jaw"
 								}
 							]
@@ -807,9 +822,10 @@
 									"price":5650,
 									"attack":576,
 									"defense":2,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Lg Monster Bone","q":3},{"n":"Wyvern Fang","q":4},{"n":"Monster Fluid","q":2}]
+									"upgrade":[{"n":"Monster Bone L","q":3},{"n":"Wyvern Fang","q":4},{"n":"Monster Fluid","q":2}]
 								},
 								{
 									"rowClass":"dragon-pre",
@@ -819,6 +835,7 @@
 									"price":8850,
 									"attack":624,
 									"defense":4,
+
 									"slots":2,
 									"affinity":0,
 									"upgrade":[{"n":"Rathian Shell","q":3},{"n":"Wyvern Fang","q":6},{"n":"Monster Fluid","q":4}],
@@ -836,12 +853,13 @@
 									"price":24750,
 									"attack":768,
 									"defense":8,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":160,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":2},{"n":"Pink Rathian Shell","q":6},{"n":"Joiner Grasshopper","q":5}]
+									"upgrade":[{"n":"Elder Dragon Bone","q":2},{"n":"Pink Rathian Shell","q":6},{"n":"Gluehopper","q":5}]
 								},
 								{
 									"index":281,
@@ -850,12 +868,13 @@
 									"price":96180,
 									"attack":864,
 									"defense":10,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":220,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":8},{"n":"Pink Rathian Carapace","q":6},{"n":"Monster Broth","q":5}],
+									"upgrade":[{"n":"Elder Dragon Bone","q":8},{"n":"Pink Rathian Carapace","q":6},{"n":"Monster Broth","q":5}],
 									"branchBend":true
 								}
 							]
@@ -869,6 +888,7 @@
 									"price":12360,
 									"attack":816,
 									"defense":6,
+
 									"slots":2,
 									"affinity":0,
 									"upgrade":[{"n":"Rathian Shell","q":4},{"n":"Rathian Scale","q":6},{"n":"Mega Demondrug","q":1}],
@@ -896,7 +916,7 @@
 									"attack":864,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Firestone","q":1},{"n":"Ancient Bone","q":1},{"n":"Machalite Ore","q":8}],
+									"forge":[{"n":"Firestone","q":1},{"n":"Elder Dragon Bone","q":1},{"n":"Machalite Ore","q":8}],
 									"branchStart":true
 								},
 								{
@@ -908,7 +928,7 @@
 									"attack":816,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":2},{"n":"Machalite Ore","q":10},{"n":"Glittering Beetle","q":3}]
+									"upgrade":[{"n":"Elder Dragon Bone","q":2},{"n":"Machalite Ore","q":10},{"n":"Shiny Beetle","q":3}]
 								},
 								{
 									"rowClass":"fire-pre ice-pre",
@@ -919,7 +939,7 @@
 									"attack":768,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lg Monster Bone","q":8},{"n":"Hercules Beetle","q":3},{"n":"Monster Fluid","q":4}],
+									"upgrade":[{"n":"Monster Bone L","q":8},{"n":"Hercudrome","q":3},{"n":"Monster Fluid","q":4}],
 									"branch":".crimson-scythe-white-mantis"
 								}
 							]
@@ -962,7 +982,7 @@
 									"attributeValue":180,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Crimson Horn","q":3},{"n":"Monoblos Spine","q":5},{"n":"Monoblos Heart","q":1}],
+									"upgrade":[{"n":"Crimson Horn","q":3},{"n":"Monoblos Ridge","q":5},{"n":"Monoblos Heart","q":1}],
 									"branch":"white-mantis-link",
 									"branchBend":true
 								}
@@ -996,7 +1016,7 @@
 									"attributeValue":210,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"White Monoblos Horn","q":1},{"n":"White Monoblos Spine","q":5},{"n":"Monster Fluid","q":5}],
+									"upgrade":[{"n":"Silver Horn","q":1},{"n":"White Monoblos Ridge","q":5},{"n":"Monster Fluid","q":5}],
 									"branch":"monoblos-scythe-link",
 									"branchBend":true
 								}
@@ -1029,7 +1049,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"White Monoblos Horn","q":3},{"n":"Blangonga Fang+","q":2},{"n":"Monoblos Heart","q":1}],
+									"upgrade":[{"n":"Silver Horn","q":3},{"n":"Blangonga Fang+","q":2},{"n":"Monoblos Heart","q":1}],
 									"branchBend":true
 								}
 							]
@@ -1044,7 +1064,7 @@
 									"attack":816,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lg Monster Bone","q":12},{"n":"Diablos Spine","q":1},{"n":"Mega Demondrug","q":3}],
+									"upgrade":[{"n":"Monster Bone L","q":12},{"n":"Diablos Ridge","q":1},{"n":"Mega Demondrug","q":3}],
 									"branch":"double-diablos"
 								}
 							]
@@ -1060,7 +1080,7 @@
 									"attack":912,
 									"slots":0,
 									"affinity":-30,
-									"upgrade":[{"n":"Twisted Black Blos Horn","q":3},{"n":"Diablos Carapace","q":8},{"n":"Joiner Grasshopper","q":18}]
+									"upgrade":[{"n":"Black Twisted Horn","q":3},{"n":"Diablos Carapace","q":8},{"n":"Gluehopper","q":18}]
 								},
 								{
 									"index":419,
@@ -1070,7 +1090,7 @@
 									"attack":960,
 									"slots":0,
 									"affinity":-30,
-									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Black Blos Tail","q":5},{"n":"Monster Broth","q":12}],
+									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Black Diablos Tail","q":5},{"n":"Monster Broth","q":12}],
 									"branchBend":true
 								}
 							]
@@ -1085,7 +1105,7 @@
 									"attack":864,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":15},{"n":"Rathian Carapace","q":5},{"n":"Elder Dragon Blood","q":1}],
+									"upgrade":[{"n":"Elder Dragon Bone","q":15},{"n":"Rathian Carapace","q":5},{"n":"Elder Dragon Blood","q":1}],
 									"branchBend":true
 								}
 							]
@@ -1137,7 +1157,7 @@
 									"attributeValue":840,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Fatalis' Scale","q":10},{"n":"Fatalis Crimson Scale","q":10},{"n":"Fatalis Devil Eye","q":1}],
+									"upgrade":[{"n":"Fatalis' Scale","q":10},{"n":"Crimson Fatalis Scale","q":10},{"n":"Fatalis Devileye","q":1}],
 									"branchBend":true
 								}
 							]
@@ -1162,7 +1182,7 @@
 									"attributeValue":260,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Lg Monster Bone","q":2},{"n":"Plesioth Fin","q":2},{"n":"Monster Fluid","q":4}],
+									"forge":[{"n":"Monster Bone L","q":2},{"n":"Plesioth Fin","q":2},{"n":"Monster Fluid","q":4}],
 									"branchStart":true
 								},
 								{
@@ -1228,7 +1248,7 @@
 									"attributeValue":330,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Rathalos Scale","q":5},{"n":"Rathalos Shell","q":6},{"n":"Rathalos Claw","q":4},{"n":"Flame Sac","q":2}],
+									"forge":[{"n":"Rathalos Scale","q":5},{"n":"Rathalos Shell","q":6},{"n":"Rath Wingtalon","q":4},{"n":"Flame Sac","q":2}],
 									"branchStart":true,
 									"branch":"bluewing"
 								}
@@ -1278,7 +1298,7 @@
 									"attributeValue":570,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Wing","q":1},{"n":"Wyvern Marrow","q":1},{"n":"Rathalos Claw","q":5}],
+									"upgrade":[{"n":"Rathalos Wing","q":1},{"n":"Rath Marrow","q":1},{"n":"Rath Wingtalon","q":5}],
 									"branchBend":true
 								}
 							]
@@ -1302,7 +1322,7 @@
 									"attack":576,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ruststone Slab","q":1}],
+									"forge":[{"n":"Rustslab","q":1}],
 									"branchStart":true
 								},
 								{
@@ -1333,7 +1353,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Wing","q":3},{"n":"Ancient Bone","q":5},{"n":"Daora Scale","q":10}]
+									"upgrade":[{"n":"Daora Webbing","q":3},{"n":"Elder Dragon Bone","q":5},{"n":"Daora Scale","q":10}]
 								},
 								{
 									"index":284,
@@ -1346,7 +1366,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Wing","q":5},{"n":"Daora Shell","q":3},{"n":"Elder Dragon Blood","q":2}]
+									"upgrade":[{"n":"Daora Webbing","q":5},{"n":"Daora Shell","q":3},{"n":"Elder Dragon Blood","q":2}]
 								},
 								{
 									"index":414,
@@ -1359,7 +1379,7 @@
 									"attributeValue":350,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Scale","q":22},{"n":"Daora Gem","q":1},{"n":"Bond of Comrades","q":3}],
+									"upgrade":[{"n":"Daora Scale","q":22},{"n":"Daora Gem","q":1},{"n":"Bond Ticket","q":3}],
 									"branchBend":true
 								}
 							]
@@ -1473,7 +1493,7 @@
 									"attributeValue":300,
 									"slots":0,
 									"affinity":20,
-									"forge":[{"n":"Rajang Horn","q":1},{"n":"Rajang Fang","q":10},{"n":"Rajang Pelt+","q":5},{"n":"Union Ore","q":8}],
+									"forge":[{"n":"Rajang Horn","q":1},{"n":"Rajang Fang","q":10},{"n":"Rajang Blackfur","q":5},{"n":"Fucium Ore","q":8}],
 									"branchStart":true
 								},
 								{
@@ -1507,7 +1527,7 @@
 									"attack":528,
 									"slots":0,
 									"affinity":10,
-									"forge":[{"n":"Garuga Webbing","q":1},{"n":"Garuga Carapace","q":3},{"n":"Garuga Scale","q":5},{"n":"Jumbo Bone","q":2}],
+									"forge":[{"n":"Garuga Wing","q":1},{"n":"Garuga Shell","q":3},{"n":"Garuga Scale","q":5},{"n":"Giant Bone","q":2}],
 									"branchStart":true
 								},
 								{
@@ -1518,7 +1538,7 @@
 									"attack":624,
 									"slots":1,
 									"affinity":10,
-									"upgrade":[{"n":"Garuga Webbing","q":3},{"n":"Ancient Bone","q":2},{"n":"Hercules Beetle","q":4}],
+									"upgrade":[{"n":"Garuga Wing","q":3},{"n":"Elder Dragon Bone","q":2},{"n":"Hercudrome","q":4}],
 									"branchBend":true
 								}
 							]
@@ -1538,7 +1558,7 @@
 									"attack":720,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Great Sword Ticket","q":10},{"n":"Deluxe Coin","q":10},{"n":"Beginner Coin","q":30},{"n":"Daora Shell","q":2}],
+									"forge":[{"n":"Great Sword Ticket","q":10},{"n":"Shimmering Coin","q":10},{"n":"White Belt Coin","q":30},{"n":"Daora Shell","q":2}],
 									"branchStart":true
 								},
 								{
@@ -1549,7 +1569,7 @@
 									"attack":816,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Great Sword Ticket","q":20},{"n":"Bird Wyvern Coin","q":6},{"n":"Golden Rathian Scale","q":3}],
+									"upgrade":[{"n":"Great Sword Ticket","q":20},{"n":"Drome Coin","q":6},{"n":"Golden Rathian Scale+","q":3}],
 									"branchBend":true
 								}
 							]
@@ -1572,7 +1592,7 @@
 									"attack":720,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Slab","q":1}],
+									"forge":[{"n":"Ancient Slab","q":1}],
 									"branchStart":true
 								},
 								{
@@ -1602,7 +1622,7 @@
 									"attributeValue":480,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Teostra Horn+","q":1},{"n":"Teostra Shell","q":6},{"n":"Flame Dragon Dust","q":2}]
+									"upgrade":[{"n":"Teostra Horn+","q":1},{"n":"Teostra Shell","q":6},{"n":"Teostra Powder","q":2}]
 								},
 								{
 									"index":420,
@@ -1615,7 +1635,7 @@
 									"attributeValue":520,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Teostra Horn+","q":3},{"n":"Teostra Carapace","q":5},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"Teostra Horn+","q":3},{"n":"Teostra Carapace","q":5},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -1675,6 +1695,7 @@
 									"price":99800,
 									"attack":960,
 									"defense":10,
+
 									"slots":1,
 									"affinity":10,
 									"upgrade":[{"n":"Rathalos Carapace","q":8},{"n":"Rathalos Plate","q":2},{"n":"Monoblos Heart","q":1}],
@@ -1716,7 +1737,7 @@
 									"attack":672,
 									"slots":0,
 									"affinity":10,
-									"forge":[{"n":"Kut-Ku Carapace","q":3},{"n":"Kut-Ku Webbing","q":6},{"n":"Kut-Ku Ear","q":1},{"n":"Joiner Grasshopper","q":2}],
+									"forge":[{"n":"Kut-Ku Carapace","q":3},{"n":"Kut-Ku Webbing","q":6},{"n":"Kut-Ku Ear","q":1},{"n":"Gluehopper","q":2}],
 									"branchStart":true
 								},
 								{
@@ -1727,7 +1748,7 @@
 									"attack":768,
 									"slots":0,
 									"affinity":20,
-									"upgrade":[{"n":"Kut-Ku Carapace","q":6},{"n":"Long Kut-Ku Ear","q":1},{"n":"Glittering Beetle","q":3}],
+									"upgrade":[{"n":"Kut-Ku Carapace","q":6},{"n":"Kut-Ku Auricle","q":1},{"n":"Shiny Beetle","q":3}],
 									"branchBend":true
 								}
 							]
@@ -1751,7 +1772,7 @@
 									"attributeValue":550,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Horn","q":7},{"n":"Kirin Mane","q":10},{"n":"Hercules Beetle","q":8}],
+									"forge":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Thunderhorn","q":7},{"n":"Kirin Mane","q":10},{"n":"Hercudrome","q":8}],
 									"branchStart":true
 								},
 								{
@@ -1764,7 +1785,7 @@
 									"attributeValue":610,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Thunder Tail","q":3},{"n":"Novacrystal","q":3}],
+									"upgrade":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Thundertail","q":3},{"n":"Novacrystal","q":3}],
 									"branchBend":true
 								}
 							]
@@ -1789,7 +1810,7 @@
 									"attributeValue":140,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Fatalis' Scale","q":20},{"n":"Elder Dragon Blood","q":5},{"n":"Bond of Comrades","q":5},{"n":"Comrade's Mark","q":5}],
+									"forge":[{"n":"Fatalis' Scale","q":20},{"n":"Elder Dragon Blood","q":5},{"n":"Bond Ticket","q":5},{"n":"Friendship Ticket","q":5}],
 									"branch":"black-fatalis-blade",
 									"branchStart":true
 								}
@@ -1827,7 +1848,7 @@
 									"attributeValue":190,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Fatalis White Scale","q":4},{"n":"Fatalis White Shell","q":5},{"n":"Fatalis Devil Eye","q":1}]
+									"upgrade":[{"n":"White Fatalis Scale","q":4},{"n":"White Fatalis Shell","q":5},{"n":"Fatalis Devileye","q":1}]
 								},
 								{
 									"index":422,
@@ -1840,7 +1861,7 @@
 									"attributeValue":250,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Fatalis White Scale","q":6},{"n":"Fatalis White Horn","q":3},{"n":"Flame Dragon Gem","q":5}],
+									"upgrade":[{"n":"White Fatalis Scale","q":6},{"n":"White Fatalis Horn","q":3},{"n":"Teostra Gem","q":5}],
 									"branchBend":true
 								}
 							]
@@ -1866,7 +1887,7 @@
 									"attack":720,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Monster Bone+","q":4},{"n":"Black Blos Shell","q":6},{"n":"Ancient Fish","q":2},{"n":"Monster Broth","q":4}],
+									"forge":[{"n":"Monster Hardbone","q":4},{"n":"Black Diablos Shell","q":6},{"n":"Ancient Fish","q":2},{"n":"Monster Broth","q":4}],
 									"branchStart":true
 								},
 								{
@@ -1878,7 +1899,7 @@
 									"attack":768,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":5},{"n":"Black Blos Carapace","q":2},{"n":"Monster Broth","q":6}],
+									"upgrade":[{"n":"Elder Dragon Bone","q":5},{"n":"Black Diablos Carapace","q":2},{"n":"Monster Broth","q":6}],
 									"branch":".crab-cutter-demon-naginata"
 								}
 							]
@@ -1893,9 +1914,10 @@
 									"price":34450,
 									"attack":816,
 									"defense":8,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Claw+","q":1},{"n":"Hermitaur Shell","q":8},{"n":"Glittering Beetle","q":6}],
+									"upgrade":[{"n":"Hermitaur Claw+","q":1},{"n":"Hermitaur Shell","q":8},{"n":"Shiny Beetle","q":6}],
 									"branchBend":true
 								}
 							]
@@ -1910,9 +1932,10 @@
 									"price":43250,
 									"attack":864,
 									"defense":12,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Claw+","q":3},{"n":"Hermitaur Carapace","q":6},{"n":"King Scarab","q":4}],
+									"upgrade":[{"n":"Hermitaur Claw+","q":3},{"n":"Hermitaur Shell+","q":6},{"n":"King Scarab","q":4}],
 									"branchBend":true
 								}
 							]
@@ -1950,7 +1973,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":10,
-									"upgrade":[{"n":"Rajang Claw","q":4},{"n":"Rajang Tail","q":4},{"n":"Yama Fluid","q":5}],
+									"upgrade":[{"n":"Rajang Claw","q":4},{"n":"Rajang Tail","q":4},{"n":"Yama Tsukami Fluid","q":5}],
 									"branchBend":true
 								}
 							]
@@ -1996,7 +2019,7 @@
 									"attributeValue":280,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Dragon Wood","q":3},{"n":"Dragon Moss","q":1},{"n":"Yama Fin","q":3},{"n":"Thunderbug","q":15}],
+									"forge":[{"n":"Dragonwood","q":3},{"n":"Dragonmoss","q":1},{"n":"Yama Tsukami Fin","q":3},{"n":"Thunderbug","q":15}],
 									"branchStart":true
 								},
 								{
@@ -2010,7 +2033,7 @@
 									"attributeValue":350,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Dragon Wood","q":5},{"n":"Yama Fluid","q":3},{"n":"Comrade's Mark","q":5}],
+									"upgrade":[{"n":"Dragonwood","q":5},{"n":"Yama Tsukami Fluid","q":3},{"n":"Friendship Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -2037,7 +2060,7 @@
 									"attributeValue":250,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Flame Dragon Shell","q":4},{"n":"Lunastra Horn","q":1},{"n":"Flame Dragon Scale","q":3},{"n":"Meteoric Iron","q":5}],
+									"forge":[{"n":"Lunastra Shell","q":4},{"n":"Lunastra Horn","q":1},{"n":"Flame Dragon Scale","q":3},{"n":"Meteorite","q":5}],
 									"branchStart":true
 								},
 								{
@@ -2064,7 +2087,7 @@
 									"attributeValue":460,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Horn","q":5},{"n":"Flame Dragon Scale+","q":10},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"Lunastra Horn","q":5},{"n":"Flame Dragon Scale+","q":10},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -2086,7 +2109,7 @@
 									"attack":720,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Slab","q":1}],
+									"forge":[{"n":"Ancient Slab","q":1}],
 									"branchStart":true
 								},
 								{
@@ -2118,6 +2141,7 @@
 									"price":50000,
 									"attack":768,
 									"defense":10,
+
 									"slots":0,
 									"affinity":10,
 									"forge":[{"n":"Rusted Daora Shell","q":5},{"n":"Daora Scale","q":10},{"n":"Rathalos Shell","q":4},{"n":"Elder Dragon Blood","q":1}],
@@ -2130,6 +2154,7 @@
 									"price":75000,
 									"attack":816,
 									"defense":12,
+
 									"slots":1,
 									"affinity":10,
 									"upgrade":[{"n":"Rusted Daora Shell","q":10},{"n":"Daora Scale","q":20},{"n":"Rathalos Carapace","q":6}]
@@ -2141,9 +2166,10 @@
 									"price":150000,
 									"attack":864,
 									"defense":14,
+
 									"slots":2,
 									"affinity":10,
-									"upgrade":[{"n":"Rusted Daora Wing","q":5},{"n":"Daora Scale","q":30},{"n":"Elder Dragon Blood","q":5}],
+									"upgrade":[{"n":"Rusted Daora Webbing","q":5},{"n":"Daora Scale","q":30},{"n":"Elder Dragon Blood","q":5}],
 									"branchBend":true
 								}
 							]
@@ -2223,7 +2249,7 @@
 									"attributeValue":270,
 									"slots":3,
 									"affinity":0,
-									"forge":[{"n":"Carbalite Ore","q":12},{"n":"Remobra Head","q":1},{"n":"Remobra Skin+","q":4},{"n":"Ioprey Fang","q":60}]
+									"forge":[{"n":"Carbalite Ore","q":12},{"n":"Remobra Head","q":1},{"n":"Remobra Hide+","q":4},{"n":"Ioprey Fang","q":60}]
 								},
 								{
 									"index":465,
@@ -2256,7 +2282,7 @@
 									"attributeValue":420,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Famitsu Ticket","q":5},{"n":"Famitsu Order Form","q":3},{"n":"Daora Wing","q":2},{"n":"Remobra Skin","q":3}]
+									"forge":[{"n":"Famitsu Ticket","q":5},{"n":"Famitsu Voucher","q":3},{"n":"Daora Webbing","q":2},{"n":"Remobra Hide","q":3}]
 								},
 								{
 									"index":466,
@@ -2311,7 +2337,7 @@
 									"attack":364,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":6}],"forge":[{"n":"Ruststone Large","q":1}],
+									"upgrade":[{"n":"Iron Ore","q":6}],"forge":[{"n":"Rustchunk","q":1}],
 									"branch":"spiked-hammer-group"
 								}
 							]
@@ -2341,7 +2367,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Iron Ore","q":20},{"n":"Needleberry","q":15},{"n":"Mega Nutrients","q":5}],
-									"forge":[{"n":"Ancient Stone Large","q":1}]
+									"forge":[{"n":"Ancient Chunk","q":1}]
 								},
 								{
 									"rowClass":"thunder-pre",
@@ -2377,7 +2403,7 @@
 									"attributeValue":300,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Novacrystal","q":3},{"n":"Carbalite Ore","q":35},{"n":"Kirin Horn","q":5}],
+									"upgrade":[{"n":"Novacrystal","q":3},{"n":"Carbalite Ore","q":35},{"n":"Kirin Thunderhorn","q":5}],
 									"branchBend":true
 								}
 							]
@@ -2394,7 +2420,7 @@
 									"attack":416,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":10},{"n":"Sunshine Ore","q":2}]
+									"upgrade":[{"n":"Iron Ore","q":10},{"n":"Sunlight Stone","q":2}]
 								},
 								{
 									"rowClass":"paralysis-pre",
@@ -2405,8 +2431,8 @@
 									"attack":520,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunshine Ore","q":5}],
-									"forge":[{"n":"Ruststone Large","q":1}],
+									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunlight Stone","q":5}],
+									"forge":[{"n":"Rustchunk","q":1}],
 									"branch":"jail-hammer-group"
 								}
 							]
@@ -2453,7 +2479,7 @@
 									"attack":624,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":9},{"n":"Iron Ore","q":21},{"n":"Sunshine Ore","q":10}]
+									"upgrade":[{"n":"Machalite Ore","q":9},{"n":"Iron Ore","q":21},{"n":"Sunlight Stone","q":10}]
 								},
 								{
 									"index":63,
@@ -2487,7 +2513,7 @@
 									"attack":364,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Sm Monster Bone","q":4}],
+									"forge":[{"n":"Monster Bone S","q":4}],
 									"branchStart":true
 								},
 								{
@@ -2499,7 +2525,7 @@
 									"attack":416,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":6}],
+									"upgrade":[{"n":"Monster Bone S","q":6}],
 									"branch":"bone-axe"
 								}
 							]
@@ -2515,7 +2541,7 @@
 									"attack":624,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Med Monster Bone","q":6},{"n":"Monster Fluid","q":1}]
+									"upgrade":[{"n":"Monster Bone M","q":6},{"n":"Monster Fluid","q":1}]
 								},
 								{
 									"index":72,
@@ -2525,7 +2551,7 @@
 									"attack":780,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Lg Monster Bone","q":5},{"n":"Monster Fluid","q":3}],
+									"upgrade":[{"n":"Monster Bone L","q":5},{"n":"Monster Fluid","q":3}],
 									"branchBend":true
 								}
 							]
@@ -2543,7 +2569,7 @@
 									"attack":468,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Jumbo Bone","q":2},{"n":"Sm Monster Bone","q":7}],
+									"upgrade":[{"n":"Giant Bone","q":2},{"n":"Monster Bone S","q":7}],
 									"branch":".atlas-hammer-skullcrusher"
 								}
 							]
@@ -2558,7 +2584,7 @@
 									"rarity":2,
 									"price":3920,
 									"attack":572,
-									"slots":0,"affinity":0,"upgrade":[{"n":"Jumbo Bone","q":3},{"n":"Sm Monster Bone","q":11}]
+									"slots":0,"affinity":0,"upgrade":[{"n":"Giant Bone","q":3},{"n":"Monster Bone S","q":11}]
 								},
 								{
 									"rowClass":"poison-pre",
@@ -2586,7 +2612,7 @@
 									"attack":780,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Blue Kut-Ku Shell","q":8},{"n":"Blue Kut-Ku Scale","q":4},{"n":"Joiner Grasshopper","q":6}]
+									"upgrade":[{"n":"Blue Kut-Ku Shell","q":8},{"n":"Blue Kut-Ku Scale","q":4},{"n":"Gluehopper","q":6}]
 								},
 								{
 									"index":69,
@@ -2643,7 +2669,7 @@
 									"rarity":3,
 									"price":3190,
 									"attack":520,
-									"slots":0,"affinity":0,"upgrade":[{"n":"Med Monster Bone","q":2},{"n":"Sharp Claw","q":10},{"n":"Monster Fluid","q":1}]
+									"slots":0,"affinity":0,"upgrade":[{"n":"Monster Bone M","q":2},{"n":"Sharp Claw","q":10},{"n":"Monster Fluid","q":1}]
 								},
 								{
 									"rowClass":"ice-pre",
@@ -2652,7 +2678,7 @@
 									"rarity":3,
 									"price":5340,
 									"attack":572,
-									"slots":0,"affinity":0,"upgrade":[{"n":"Med Monster Bone","q":4},{"n":"Piscine Fang","q":12},{"n":"Monster Fluid","q":2}],
+									"slots":0,"affinity":0,"upgrade":[{"n":"Monster Bone M","q":4},{"n":"Piscine Fang","q":12},{"n":"Monster Fluid","q":2}],
 									"branch":"cone-head-hammer"
 								}
 							]
@@ -2684,7 +2710,7 @@
 									"attributeValue":370,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Blangonga Fang","q":3},{"n":"Blangonga Tail","q":2},{"n":"Glittering Beetle","q":5}]
+									"upgrade":[{"n":"Blangonga Fang","q":3},{"n":"Blangonga Tail","q":2},{"n":"Shiny Beetle","q":5}]
 								},
 								{
 									"index":86,
@@ -2711,6 +2737,7 @@
 									"price":12690,
 									"attack":728,
 									"defense":10,
+
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Diablos Tail","q":1},{"n":"Diablos Shell","q":2},{"n":"Machalite Ore","q":8}]
@@ -2722,9 +2749,10 @@
 									"price":31200,
 									"attack":832,
 									"defense":14,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Diablos Tail","q":3},{"n":"Diablos Shell","q":8},{"n":"Joiner Grasshopper","q":21}]
+									"upgrade":[{"n":"Diablos Tail","q":3},{"n":"Diablos Shell","q":8},{"n":"Gluehopper","q":21}]
 								},
 								{
 									"index":62,
@@ -2733,9 +2761,10 @@
 									"price":50000,
 									"attack":884,
 									"defense":18,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Crimson Horn","q":1},{"n":"Twisted Black Blos Horn","q":1},{"n":"Black Blos Carapace","q":6}]
+									"upgrade":[{"n":"Crimson Horn","q":1},{"n":"Black Twisted Horn","q":1},{"n":"Black Diablos Carapace","q":6}]
 								},
 								{
 									"index":430,
@@ -2744,9 +2773,10 @@
 									"price":120000,
 									"attack":936,
 									"defense":20,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Black Blos Tail","q":6},{"n":"Wyvern Stone","q":1}],
+									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Black Diablos Tail","q":6},{"n":"Wyvern Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -2766,7 +2796,7 @@
 									"attack":520,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Bulldrome Hide","q":2},{"n":"Bullfango Head","q":1},{"n":"Jumbo Bone","q":1}],
+									"forge":[{"n":"Bulldrome Hide","q":2},{"n":"Bullfango Head","q":1},{"n":"Giant Bone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -2777,8 +2807,8 @@
 									"attack":572,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Bullfango Head","q":1},{"n":"Jumbo Bone","q":5},{"n":"Demondrug","q":1}],
-									"forge":[{"n":"Bulldrome Hide","q":4},{"n":"Bullfango Head","q":1},{"n":"Jumbo Bone","q":5},{"n":"Power Seed","q":3}],
+									"upgrade":[{"n":"Bullfango Head","q":1},{"n":"Giant Bone","q":5},{"n":"Demondrug","q":1}],
+									"forge":[{"n":"Bulldrome Hide","q":4},{"n":"Bullfango Head","q":1},{"n":"Giant Bone","q":5},{"n":"Might Seed","q":3}],
 									"branchBend":true
 								}
 							]
@@ -2799,6 +2829,7 @@
 									"price":19740,
 									"attack":676,
 									"defense":4,
+
 									"slots":1,
 									"affinity":0,
 									"forge":[{"n":"Dragonite Ore","q":4},{"n":"Machalite Ore","q":15},{"n":"Iron Ore","q":50}],
@@ -2811,6 +2842,7 @@
 									"price":38750,
 									"attack":832,
 									"defense":6,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Dragonite Ore","q":10},{"n":"Machalite Ore","q":30},{"n":"Iron Ore","q":99}],
@@ -2839,7 +2871,7 @@
 									"attack":884,
 									"slots":1,
 									"affinity":20,
-									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Golden Rathian Shell","q":1},{"n":"Rajang Pelt","q":1}],
+									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Golden Rathian Carapace","q":1},{"n":"Rajang Pelt","q":1}],
 									"branchBend":true
 								}
 							]
@@ -2853,9 +2885,10 @@
 									"price":53720,
 									"attack":936,
 									"defense":7,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Dragonite Ore","q":15},{"n":"Carbalite Ore","q":30},{"n":"Sunshine Ore","q":30}]
+									"upgrade":[{"n":"Dragonite Ore","q":15},{"n":"Carbalite Ore","q":30},{"n":"Sunlight Stone","q":30}]
 								},
 								{
 									"index":301,
@@ -2864,9 +2897,10 @@
 									"price":75800,
 									"attack":1040,
 									"defense":8,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Dragonite Ore","q":18},{"n":"Carbalite Ore","q":60},{"n":"Sunshine Ore","q":60}],
+									"upgrade":[{"n":"Dragonite Ore","q":18},{"n":"Carbalite Ore","q":60},{"n":"Sunlight Stone","q":60}],
 									"branchBend":true
 								}
 							]
@@ -2891,7 +2925,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Plesioth Scale+","q":1},{"n":"Lg Lobstershell","q":1},{"n":"Sm Lobstershell","q":1},{"n":"Bone","q":1}],
+									"forge":[{"n":"Plesioth Scale+","q":1},{"n":"Lobstershell L","q":1},{"n":"Lobstershell S","q":1},{"n":"Bone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -2905,7 +2939,7 @@
 									"attributeValue":230,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Gt Lobstershell","q":1},{"n":"Queen Shrimp","q":3}],
+									"upgrade":[{"n":"Lobstershell G","q":1},{"n":"Queen Shrimp","q":3}],
 									"branchBend":true
 								}
 							]
@@ -2928,6 +2962,7 @@
 									"price":6780,
 									"attack":624,
 									"defense":8,
+
 									"slots":1,
 									"affinity":0,
 									"forge":[{"n":"Gravios Shell","q":4},{"n":"Basarios Shell","q":3},{"n":"Machalite Ore","q":11}],
@@ -2946,6 +2981,7 @@
 									"price":15780,
 									"attack":780,
 									"defense":8,
+
 									"attribute":"poison",
 									"attributeAlt":"Poison",
 									"attributeValue":160,
@@ -2960,12 +2996,13 @@
 									"price":52220,
 									"attack":884,
 									"defense":14,
+
 									"attribute":"poison",
 									"attributeAlt":"Poison",
 									"attributeValue":180,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Basarios Shell","q":12},{"n":"Rathalos Claw","q":8},{"n":"Rathian Spike","q":1}],
+									"upgrade":[{"n":"Basarios Shell","q":12},{"n":"Rath Wingtalon","q":8},{"n":"Rathian Spike","q":1}],
 									"branchBend":true
 								}
 							]
@@ -3046,7 +3083,7 @@
 									"attributeValue":340,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Strong Chains","q":1},{"n":"Plesioth Fin","q":2},{"n":"Meteoric Iron","q":3}],
+									"upgrade":[{"n":"Strong Arm Chain","q":1},{"n":"Plesioth Fin","q":2},{"n":"Meteorite","q":3}],
 									"branchBend":true
 								}
 							]
@@ -3066,7 +3103,7 @@
 									"attack":780,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Razor Beak","q":1},{"n":"Garuga Ear","q":2},{"n":"Garuga Mane","q":4},{"n":"Lg Monster Bone","q":3}],
+									"forge":[{"n":"Sharpened Beak","q":1},{"n":"Garuga Ear","q":2},{"n":"Garuga Mane","q":4},{"n":"Monster Bone L","q":3}],
 									"branchStart":true
 								},
 								{
@@ -3077,7 +3114,7 @@
 									"attack":884,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Razor Beak","q":3},{"n":"Garuga Mane","q":10},{"n":"Hercules Beetle","q":18}],
+									"upgrade":[{"n":"Sharpened Beak","q":3},{"n":"Garuga Mane","q":10},{"n":"Hercudrome","q":18}],
 									"branchBend":true
 								}
 							]
@@ -3097,7 +3134,7 @@
 									"attack":624,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Master's Skull","q":1},{"n":"Wyvern Skull","q":4},{"n":"Ancient Bone","q":7},{"n":"Monster Broth","q":5}],
+									"forge":[{"n":"Master's Skull","q":1},{"n":"Wyvern Skull","q":4},{"n":"Elder Dragon Bone","q":7},{"n":"Monster Broth","q":5}],
 									"branchStart":true
 								},
 								{
@@ -3108,7 +3145,7 @@
 									"attack":780,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Wyvern Skull","q":6},{"n":"Ancient Bone","q":15},{"n":"Joiner Grasshopper","q":20}],
+									"upgrade":[{"n":"Wyvern Skull","q":6},{"n":"Elder Dragon Bone","q":15},{"n":"Gluehopper","q":20}],
 									"branchBend":true
 								}
 							]
@@ -3128,7 +3165,7 @@
 									"attack":832,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Large","q":1}],
+									"forge":[{"n":"Ancient Chunk","q":1}],
 									"branchStart":true
 								},
 								{
@@ -3139,7 +3176,7 @@
 									"attack":936,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Basarios Carapace","q":15},{"n":"Union Ore","q":7},{"n":"Wyvern Stone","q":1}],
+									"upgrade":[{"n":"Basarios Carapace","q":15},{"n":"Fucium Ore","q":7},{"n":"Wyvern Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -3164,7 +3201,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Firestone","q":4},{"n":"Machalite Ore","q":20},{"n":"Wyvern Marrow","q":1},{"n":"Gunpowder","q":20}],
+									"forge":[{"n":"Firestone","q":4},{"n":"Machalite Ore","q":20},{"n":"Rath Marrow","q":1},{"n":"Gunpowder","q":20}],
 									"branchStart":true
 								},
 								{
@@ -3178,7 +3215,7 @@
 									"attributeValue":240,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Dragonite Ore","q":15},{"n":"Wyvern Marrow","q":2},{"n":"Firestone","q":4}]
+									"upgrade":[{"n":"Dragonite Ore","q":15},{"n":"Rath Marrow","q":2},{"n":"Firestone","q":4}]
 								},
 								{
 									"index":299,
@@ -3213,7 +3250,7 @@
 									"rarity":1,
 									"price":2500,
 									"attack":624,
-									"slots":0,"affinity":0,"forge":[{"n":"Ruststone Large","q":1}],
+									"slots":0,"affinity":0,"forge":[{"n":"Rustchunk","q":1}],
 									"branchStart":true
 								},
 								{
@@ -3242,8 +3279,8 @@
 									"attributeValue":260,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Horn","q":3},{"n":"Flame Dragon Shell","q":3},{"n":"Firestone","q":7}],
-									"forge":[{"n":"Lunastra Horn","q":2},{"n":"Flame Dragon Shell","q":3},{"n":"Firestone","q":1}]
+									"upgrade":[{"n":"Lunastra Horn","q":3},{"n":"Lunastra Shell","q":3},{"n":"Firestone","q":7}],
+									"forge":[{"n":"Lunastra Horn","q":2},{"n":"Lunastra Shell","q":3},{"n":"Firestone","q":1}]
 								},
 								{
 									"index":92,
@@ -3256,7 +3293,7 @@
 									"attributeValue":300,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Horn","q":3},{"n":"Flame Dragon Shell","q":7},{"n":"Elder Dragon Blood","q":2}]
+									"upgrade":[{"n":"Lunastra Horn","q":3},{"n":"Lunastra Shell","q":7},{"n":"Elder Dragon Blood","q":2}]
 								},
 								{
 									"index":426,
@@ -3269,7 +3306,7 @@
 									"attributeValue":370,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Horn","q":6},{"n":"Flame Dragon Dust","q":3},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"Lunastra Horn","q":6},{"n":"Teostra Powder","q":3},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -3340,7 +3377,7 @@
 									"attributeValue":170,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Lao-Shan Claw","q":1},{"n":"Lao-Shan Scale","q":5},{"n":"Lg Monster Bone","q":3}],
+									"forge":[{"n":"Lao-Shan Claw","q":1},{"n":"Lao-Shan Scale","q":5},{"n":"Monster Bone L","q":3}],
 									"branchStart":true
 								},
 								{
@@ -3387,7 +3424,7 @@
 									"attack":988,
 									"slots":1,
 									"affinity":-20,
-									"forge":[{"n":"Stone Fist","q":1},{"n":"Dragonite Ore","q":6}],
+									"forge":[{"n":"Fist Statue","q":1},{"n":"Dragonite Ore","q":6}],
 									"branchStart":true
 								},
 								{
@@ -3398,7 +3435,7 @@
 									"attack":1092,
 									"slots":2,
 									"affinity":-20,
-									"upgrade":[{"n":"Stone Fist","q":1},{"n":"Dragonite Ore","q":8},{"n":"Union Ore","q":11}],
+									"upgrade":[{"n":"Fist Statue","q":1},{"n":"Dragonite Ore","q":8},{"n":"Fucium Ore","q":11}],
 									"branchBend":true
 								}
 							]
@@ -3457,7 +3494,7 @@
 									"attack":780,
 									"slots":3,
 									"affinity":0,
-									"forge":[{"n":"Hammer Ticket","q":10},{"n":"Eternal Coin","q":10},{"n":"Expert Coin","q":10},{"n":"Gravios Shell","q":3}],
+									"forge":[{"n":"Hammer Ticket","q":10},{"n":"Eternal Coin","q":10},{"n":"Master Coin","q":10},{"n":"Gravios Shell","q":3}],
 									"branchStart":true
 								},
 								{
@@ -3467,9 +3504,10 @@
 									"price":21560,
 									"attack":884,
 									"defense":2,
+
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Hammer Ticket","q":20},{"n":"Fanged Beast Coin","q":6},{"n":"Golden Rathian Shell","q":3}],
+									"upgrade":[{"n":"Hammer Ticket","q":20},{"n":"Beast Coin","q":6},{"n":"Golden Rathian Carapace","q":3}],
 									"branchBend":true
 								}
 							]
@@ -3493,7 +3531,7 @@
 									"attack":780,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Large","q":1}],
+									"forge":[{"n":"Ancient Chunk","q":1}],
 									"branchStart":true
 								},
 								{
@@ -3524,7 +3562,7 @@
 									"attributeValue":290,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Carapace","q":6},{"n":"Daora Tail","q":1},{"n":"Male Scarab Beetle","q":4}]
+									"upgrade":[{"n":"Daora Carapace","q":6},{"n":"Daora Tail","q":1},{"n":"Rare Scarab","q":4}]
 								},
 								{
 									"index":433,
@@ -3577,7 +3615,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Dragonite Ore","q":2},{"n":"Daora Tail","q":1},{"n":"Meatball Stamp","q":5}],
+									"forge":[{"n":"Dragonite Ore","q":2},{"n":"Daora Tail","q":1},{"n":"Pawprint Stamp","q":5}],
 									"branchStart":true
 								},
 								{
@@ -3591,7 +3629,7 @@
 									"attributeValue":310,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Beer Nuts","q":2},{"n":"Meatball Stamp","q":7}],
+									"upgrade":[{"n":"Carbalite Ore","q":20},{"n":"Ale Nuts","q":2},{"n":"Pawprint Stamp","q":7}],
 									"branchBend":true
 								}
 							]
@@ -3617,7 +3655,7 @@
 									"attributeValue":100,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Fatalis' Horn","q":2},{"n":"Fatalis' Shell","q":6},{"n":"Bond of Comrades","q":10},{"n":"Comrade's Mark","q":5}],
+									"forge":[{"n":"Fatalis' Horn","q":2},{"n":"Fatalis' Shell","q":6},{"n":"Bond Ticket","q":10},{"n":"Friendship Ticket","q":5}],
 									"branch":"fatalis-buster",
 									"branchStart":true
 								}
@@ -3633,12 +3671,13 @@
 									"price":250000,
 									"attack":884,
 									"defense":8,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":350,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Fatalis White Horn","q":5},{"n":"Fatalis Devil Eye","q":2},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"White Fatalis Horn","q":5},{"n":"Fatalis Devileye","q":2},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -3681,9 +3720,10 @@
 									"notes":"White Blue Red",
 									"noteIcons":["white","blue","red"],
 									"defense":5,
+
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Blue Mushroom","q":1},{"n":"Jumbo Bone","q":1}],
+									"forge":[{"n":"Blue Mushroom","q":1},{"n":"Giant Bone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -3695,9 +3735,10 @@
 									"notes":"White Blue Red",
 									"noteIcons":["white","blue","red"],
 									"defense":10,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Blue Mushroom","q":3},{"n":"Jumbo Bone","q":5},{"n":"Monster Fluid","q":2}],
+									"upgrade":[{"n":"Blue Mushroom","q":3},{"n":"Giant Bone","q":5},{"n":"Monster Fluid","q":2}],
 									"branchBend":true
 								}
 							]
@@ -3722,7 +3763,7 @@
 									"noteIcons":["white","yellow","red"],
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Conga Pelt","q":8},{"n":"Med Monster Bone","q":3},{"n":"Fire Herb","q":5}],
+									"forge":[{"n":"Conga Pelt","q":8},{"n":"Monster Bone M","q":3},{"n":"Fire Herb","q":5}],
 									"branchStart":true
 								},
 								{
@@ -3735,7 +3776,7 @@
 									"noteIcons":["white","yellow","red"],
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Vibrant Pelt","q":2},{"n":"Conga Pelt","q":12},{"n":"Lg Monster Bone","q":3}],
+									"upgrade":[{"n":"Vibrant Pelt","q":2},{"n":"Conga Pelt","q":12},{"n":"Monster Bone L","q":3}],
 									"branchBend":true
 								}
 							]
@@ -3760,7 +3801,7 @@
 									"noteIcons":["white","green","yellow"],
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Lightcrystal","q":1},{"n":"Vespoid Wing","q":6},{"n":"Hornetaur Wing","q":6},{"n":"Joiner Grasshopper","q":3}],
+									"forge":[{"n":"Lightcrystal","q":1},{"n":"Vespoid Wing","q":6},{"n":"Hornetaur Wing","q":6},{"n":"Gluehopper","q":3}],
 									"branchStart":true
 								},
 								{
@@ -3785,7 +3826,7 @@
 									"noteIcons":["purple","green","yellow"],
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Novacrystal","q":1},{"n":"Vespoid Bladefin","q":20},{"n":"Hornetaur Bladefin","q":20}],
+									"upgrade":[{"n":"Novacrystal","q":1},{"n":"Vespoid Innerwing","q":20},{"n":"Hornetaur Innerwing","q":20}],
 									"branchBend":true
 								}
 							]
@@ -3809,9 +3850,10 @@
 									"notes":"White Green Red",
 									"noteIcons":["white","green","red"],
 									"defense":14,
+
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Dragonite Ore","q":3},{"n":"Machalite Ore","q":17},{"n":"Remobra Skin","q":2},{"n":"Screamer","q":6}],
+									"forge":[{"n":"Dragonite Ore","q":3},{"n":"Machalite Ore","q":17},{"n":"Remobra Hide","q":2},{"n":"Screamer Sac","q":6}],
 									"branchStart":true
 								},
 								{
@@ -3823,9 +3865,10 @@
 									"notes":"White Green Red",
 									"noteIcons":["white","green","red"],
 									"defense":18,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Dragonite Ore","q":6},{"n":"Machalite Ore","q":24},{"n":"Screamer","q":18}],
+									"upgrade":[{"n":"Dragonite Ore","q":6},{"n":"Machalite Ore","q":24},{"n":"Screamer Sac","q":18}],
 									"branchBend":true
 								}
 							]
@@ -3855,7 +3898,7 @@
 									"attributeValue":200,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Flabby Hide","q":5},{"n":"Pale Extract","q":4},{"n":"Electro Sac","q":2},{"n":"Lg Monster Bone","q":6}],
+									"forge":[{"n":"Flabby Hide","q":5},{"n":"Pale Extract","q":4},{"n":"Electro Sac","q":2},{"n":"Monster Bone L","q":6}],
 									"branchStart":true
 								},
 								{
@@ -3957,7 +4000,7 @@
 									"noteIcons":["purple","yellow","red"],
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Conga Pelt+","q":4},{"n":"Vibrant Pelt","q":6},{"n":"Beer Nuts","q":5},{"n":"Monster Bone+","q":3}],
+									"forge":[{"n":"Conga Pelt+","q":4},{"n":"Vibrant Pelt","q":6},{"n":"Ale Nuts","q":5},{"n":"Monster Hardbone","q":3}],
 									"branchStart":true
 								},
 								{
@@ -3970,7 +4013,7 @@
 									"noteIcons":["purple","yellow","red"],
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Conga Pelt+","q":6},{"n":"Vibrant Pelt","q":8},{"n":"Hercules Beetle","q":5}],
+									"upgrade":[{"n":"Conga Pelt+","q":6},{"n":"Vibrant Pelt","q":8},{"n":"Hercudrome","q":5}],
 									"branchBend":true
 								}
 							]
@@ -4000,7 +4043,7 @@
 									"attributeValue":240,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Alluring Webbing","q":2},{"n":"Alluring Hide","q":8},{"n":"Electro Sac","q":3},{"n":"Ancient Bone","q":6}],
+									"forge":[{"n":"Alluring Webbing","q":2},{"n":"Alluring Hide","q":8},{"n":"Electro Sac","q":3},{"n":"Elder Dragon Bone","q":6}],
 									"branchStart":true
 								},
 								{
@@ -4016,7 +4059,7 @@
 									"attributeValue":380,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Alluring Webbing","q":6},{"n":"Pale Khezu Steak","q":1},{"n":"Electro Sac","q":6}],
+									"upgrade":[{"n":"Alluring Webbing","q":6},{"n":"Pale Steak","q":1},{"n":"Electro Sac","q":6}],
 									"branchBend":true
 								}
 							]
@@ -4040,9 +4083,10 @@
 									"notes":"Purple Blue Yellow",
 									"noteIcons":["purple","blue","yellow"],
 									"defense":16,
+
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Gaoren Pincers","q":2},{"n":"Gaoren Shell","q":6},{"n":"Gaoren Spine","q":2},{"n":"Bond of Comrades","q":5}],
+									"forge":[{"n":"Gaoren Pincer","q":2},{"n":"Gaoren Shell","q":6},{"n":"Gaoren Ridge","q":2},{"n":"Bond Ticket","q":5}],
 									"branchStart":true
 								},
 								{
@@ -4054,9 +4098,10 @@
 									"notes":"Purple Blue Yellow",
 									"noteIcons":["purple","blue","yellow"],
 									"defense":20,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Gaoren Claw","q":4},{"n":"Gaoren Spine","q":3},{"n":"Gaoren Shell","q":8}],
+									"upgrade":[{"n":"Gaoren Claw","q":4},{"n":"Gaoren Ridge","q":3},{"n":"Gaoren Shell","q":8}],
 									"branchBend":true
 								}
 							]
@@ -4086,7 +4131,7 @@
 									"attributeValue":140,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Dragon Wood","q":6},{"n":"Dragon Moss","q":2},{"n":"Yama Fin","q":4},{"n":"Thunderbug","q":23}],
+									"forge":[{"n":"Dragonwood","q":6},{"n":"Dragonmoss","q":2},{"n":"Yama Tsukami Fin","q":4},{"n":"Thunderbug","q":23}],
 									"branchStart":true
 								},
 								{
@@ -4102,7 +4147,7 @@
 									"attributeValue":220,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Dragon Wood","q":12},{"n":"Yama Fluid","q":6},{"n":"Comrade's Mark","q":5}],
+									"upgrade":[{"n":"Dragonwood","q":12},{"n":"Yama Tsukami Fluid","q":6},{"n":"Friendship Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -4129,7 +4174,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Egg Ticket","q":1},{"n":"Jewel Ticket","q":1},{"n":"Meteoric Iron","q":1}]
+									"forge":[{"n":"Egg Ticket","q":1},{"n":"Jewel Ticket","q":1},{"n":"Meteorite","q":1}]
 								},
 								{
 									"index":436,
@@ -4142,7 +4187,7 @@
 									"attributeValue":280,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Pawprint Stamp","q":20},{"n":"Golden Rathian Scale","q":3},{"n":"King Scarab","q":8}]
+									"forge":[{"n":"Pawprint Ticket","q":20},{"n":"Golden Rathian Scale+","q":3},{"n":"King Scarab","q":8}]
 								},
 								{
 									"index":482,
@@ -4152,6 +4197,7 @@
 									"price":255000,
 									"attack":1144,
 									"defense":16,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":380,
@@ -4175,6 +4221,7 @@
 									"notes":"Purple Blue Yellow",
 									"noteIcons":["purple","blue","yellow"],
 									"defense":24,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":440,
@@ -4222,7 +4269,7 @@
 									"attack":161,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":3}],"forge":[{"n":"Ruststone Long","q":1}],
+									"upgrade":[{"n":"Iron Ore","q":3}],"forge":[{"n":"Rustrod","q":1}],
 									"branch":".iron-gunlance-group"
 								}
 							]
@@ -4244,7 +4291,7 @@
 									"shellLevel":1,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunshine Ore","q":5},{"n":"Gunpowder","q":5}],
+									"upgrade":[{"n":"Iron Ore","q":15},{"n":"Sunlight Stone","q":5},{"n":"Gunpowder","q":5}],
 									"forge":[{"n":"Machalite Ore","q":5},{"n":"Iron Ore","q":20},{"n":"Gunpowder","q":5},{"n":"Flame Sac","q":1}]
 								},
 								{
@@ -4258,7 +4305,7 @@
 									"shellLevel":1,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":3},{"n":"Sunshine Ore","q":8},{"n":"Gunpowder","q":10}],
+									"upgrade":[{"n":"Machalite Ore","q":3},{"n":"Sunlight Stone","q":8},{"n":"Gunpowder","q":10}],
 									"branch":"hell-sting"
 								}
 							]
@@ -4281,7 +4328,7 @@
 									"attributeValue":190,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Blangonga Fang","q":2},{"n":"Blango Pelt","q":15},{"n":"Cold Steak","q":5}]
+									"upgrade":[{"n":"Blangonga Fang","q":2},{"n":"Blango Pelt","q":15},{"n":"Chilled Meat","q":5}]
 								},
 								{
 									"index":404,
@@ -4317,7 +4364,7 @@
 									"shellLevel":2,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":7},{"n":"Sunshine Ore","q":12},{"n":"Flame Sac","q":3}],
+									"upgrade":[{"n":"Machalite Ore","q":7},{"n":"Sunlight Stone","q":12},{"n":"Flame Sac","q":3}],
 									"branch":"white-gunlance"
 								}
 							]
@@ -4336,6 +4383,7 @@
 									"shellType":"Long",
 									"shellLevel":1,
 									"defense":8,
+
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Gravios Shell","q":6},{"n":"Machalite Ore","q":12},{"n":"Flame Sac","q":4}]
@@ -4349,6 +4397,7 @@
 									"shellType":"Long",
 									"shellLevel":2,
 									"defense":8,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Gravios Shell","q":10},{"n":"Gravios Skull","q":1},{"n":"Firestone","q":4}]
@@ -4362,6 +4411,7 @@
 									"shellType":"Long",
 									"shellLevel":2,
 									"defense":8,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Black Gravios Carapace","q":4},{"n":"Black Gravios Shell","q":12},{"n":"Firestone","q":7}]
@@ -4375,6 +4425,7 @@
 									"shellType":"Long",
 									"shellLevel":3,
 									"defense":8,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Black Gravios Carapace","q":8},{"n":"Black Gravios Skull","q":2},{"n":"Gravios Marrow","q":2}],
@@ -4418,7 +4469,7 @@
 									"shellLevel":1,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Tail","q":1},{"n":"Flame Dragon Shell","q":3},{"n":"Flame Dragon Scale","q":5}],"forge":[{"n":"Lunastra Tail","q":1},{"n":"Flame Dragon Shell","q":5},{"n":"Dragonite Ore","q":5},{"n":"Meteoric Iron","q":5}]
+									"upgrade":[{"n":"Lunastra Tail","q":1},{"n":"Lunastra Shell","q":3},{"n":"Flame Dragon Scale","q":5}],"forge":[{"n":"Lunastra Tail","q":1},{"n":"Lunastra Shell","q":5},{"n":"Dragonite Ore","q":5},{"n":"Meteorite","q":5}]
 								},
 								{
 									"index":124,
@@ -4430,7 +4481,7 @@
 									"shellLevel":2,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Flame Dragon Shell","q":5},{"n":"Flame Dragon Claw","q":8},{"n":"Elder Dragon Blood","q":1}]
+									"upgrade":[{"n":"Lunastra Shell","q":5},{"n":"Flame Dragon Claw","q":8},{"n":"Elder Dragon Blood","q":1}]
 								},
 								{
 									"index":406,
@@ -4442,7 +4493,7 @@
 									"shellLevel":3,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lunastra Horn","q":4},{"n":"Flame Dragon Scale+","q":8},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"Lunastra Horn","q":4},{"n":"Flame Dragon Scale+","q":8},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -4474,7 +4525,7 @@
 									"shellLevel":3,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Silver Rathalos Tail","q":1},{"n":"Silver Rathalos Shell","q":5},{"n":"Silver Rathalos Scale","q":3}]
+									"upgrade":[{"n":"Silver Rathalos Tail","q":1},{"n":"Silver Rathalos Carapace","q":5},{"n":"Silver Rathalos Scale+","q":3}]
 								},
 								{
 									"index":409,
@@ -4515,7 +4566,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":3},{"n":"Earth Crystal","q":6},{"n":"Velociprey Hide","q":6}],
-									"forge":[{"n":"Ruststone Long","q":1}],
+									"forge":[{"n":"Rustrod","q":1}],
 									"branch":"estoc"
 								}
 							]
@@ -4530,6 +4581,7 @@
 									"price":11650,
 									"attack":276,
 									"defense":8,
+
 									"slots":2,
 									"affinity":0,
 									"upgrade":[{"n":"Lightcrystal","q":1},{"n":"Machalite Ore","q":4},{"n":"Ice Crystal","q":6}]
@@ -4541,6 +4593,7 @@
 									"price":15250,
 									"attack":299,
 									"defense":10,
+
 									"slots":3,
 									"affinity":0,
 									"upgrade":[{"n":"Jewel Ticket","q":1},{"n":"Machalite Ore","q":7},{"n":"Ice Crystal","q":12}],
@@ -4559,6 +4612,7 @@
 									"price":9420,
 									"attack":276,
 									"defense":4,
+
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":6},{"n":"Iron Ore","q":15},{"n":"Earth Crystal","q":8}]
@@ -4571,10 +4625,11 @@
 									"price":16440,
 									"attack":299,
 									"defense":6,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":10},{"n":"Earth Crystal","q":15},{"n":"Jewel Ticket","q":1}],
-									"forge":[{"n":"Ancient Stone Long","q":1}]
+									"forge":[{"n":"Ancient Rod","q":1}]
 								},
 								{
 									"rowClass":"dragon-pre",
@@ -4584,6 +4639,7 @@
 									"price":21400,
 									"attack":345,
 									"defense":8,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Machalite Ore","q":18},{"n":"Earth Crystal","q":20},{"n":"Genprey Scale","q":15}]
@@ -4595,12 +4651,13 @@
 									"price":37700,
 									"attack":368,
 									"defense":10,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":100,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Broken Dragonator","q":1},{"n":"Carbalite Ore","q":15},{"n":"Union Ore","q":4}]
+									"upgrade":[{"n":"Broken Dragonator","q":1},{"n":"Carbalite Ore","q":15},{"n":"Fucium Ore","q":4}]
 								},
 								{
 									"index":443,
@@ -4609,12 +4666,13 @@
 									"price":50000,
 									"attack":414,
 									"defense":12,
+
 									"attribute":"dragon",
 									"attributeAlt":"Dragon",
 									"attributeValue":100,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Tail","q":3},{"n":"Carbalite Ore","q":20},{"n":"Union Ore","q":6}],
+									"upgrade":[{"n":"Daora Tail","q":3},{"n":"Carbalite Ore","q":20},{"n":"Fucium Ore","q":6}],
 									"branchBend":true
 								}
 							]
@@ -4639,7 +4697,7 @@
 									"attack":161,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Sm Monster Bone","q":2},{"n":"Iron Ore","q":1}],
+									"forge":[{"n":"Monster Bone S","q":2},{"n":"Iron Ore","q":1}],
 									"branchStart":true
 								},
 								{
@@ -4651,7 +4709,7 @@
 									"attack":184,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":1},{"n":"Iron Ore","q":1}],
+									"upgrade":[{"n":"Monster Bone S","q":1},{"n":"Iron Ore","q":1}],
 									"branch":".bone-javelin-group"
 								}
 							]
@@ -4669,7 +4727,7 @@
 									"attack":207,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":4},{"n":"Iron Ore","q":4},{"n":"Ice Crystal","q":1}],"forge":[{"n":"Iron Ore","q":5},{"n":"Sm Monster Bone","q":5},{"n":"Joiner Grasshopper","q":1}]
+									"upgrade":[{"n":"Monster Bone S","q":4},{"n":"Iron Ore","q":4},{"n":"Ice Crystal","q":1}],"forge":[{"n":"Iron Ore","q":5},{"n":"Monster Bone S","q":5},{"n":"Gluehopper","q":1}]
 								},
 								{
 									"rowClass":"water-pre sleep-pre",
@@ -4680,7 +4738,7 @@
 									"attack":276,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":6},{"n":"Machalite Ore","q":3},{"n":"Ice Crystal","q":2}],
+									"upgrade":[{"n":"Monster Bone S","q":6},{"n":"Machalite Ore","q":3},{"n":"Ice Crystal","q":2}],
 									"branch":"lullaby-spear"
 								}
 							]
@@ -4757,7 +4815,7 @@
 									"attributeValue":390,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Green Plesioth Fin","q":4},{"n":"Green Plesioth Scale","q":12},{"n":"Cephalos Topfin","q":4}],
+									"upgrade":[{"n":"Green Plesioth Fin","q":4},{"n":"Green Plesioth Scale","q":12},{"n":"Cephalos Fin+","q":4}],
 									"branchBend":true
 								}
 							]
@@ -4773,7 +4831,7 @@
 									"attack":207,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":5},{"n":"Bone","q":3}],
+									"upgrade":[{"n":"Monster Bone S","q":5},{"n":"Bone","q":3}],
 									"branch":"dark-lance"
 								}
 							]
@@ -4792,7 +4850,7 @@
 									"attributeValue":180,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Hornetaur Head","q":2},{"n":"Hornetaur Shell","q":11},{"n":"Stun Sac","q":3}]
+									"upgrade":[{"n":"Hornetaur Head","q":2},{"n":"Hornetaur Shell","q":11},{"n":"Paralysis Sac","q":3}]
 								},
 								{
 									"index":117,
@@ -4805,7 +4863,7 @@
 									"attributeValue":200,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Hornetaur Head","q":4},{"n":"Monster Fluid","q":8},{"n":"Stun Sac","q":5}]
+									"upgrade":[{"n":"Hornetaur Head","q":4},{"n":"Monster Fluid","q":8},{"n":"Paralysis Sac","q":5}]
 								},
 								{
 									"index":318,
@@ -4818,7 +4876,7 @@
 									"attributeValue":230,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Hornetaur Bladefin","q":7},{"n":"Monster Broth","q":9},{"n":"Gendrome Head","q":1}],
+									"upgrade":[{"n":"Hornetaur Innerwing","q":7},{"n":"Monster Broth","q":9},{"n":"Gendrome Head","q":1}],
 									"branchBend":true
 								}
 							]
@@ -4831,7 +4889,7 @@
 									"rarity":2,
 									"price":4300,
 									"attack":253,
-									"slots":0,"affinity":0,"upgrade":[{"n":"Sm Monster Bone","q":8},{"n":"Jumbo Bone","q":1},{"n":"Monster Fluid","q":1}],
+									"slots":0,"affinity":0,"upgrade":[{"n":"Monster Bone S","q":8},{"n":"Giant Bone","q":1},{"n":"Monster Fluid","q":1}],
 									"branch":".bone-claw-lance-group"
 								}
 							]
@@ -4847,10 +4905,11 @@
 									"price":3940,
 									"attack":276,
 									"defense":12,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Shell","q":4},{"n":"Sm Hermitaur Shell","q":6},{"n":"Sharp Claw","q":3}],
-									"forge":[{"n":"Hermitaur Claw","q":2},{"n":"Hermitaur Shell","q":4},{"n":"Sm Hermitaur Shell","q":7},{"n":"Monster Fluid","q":3}],
+									"upgrade":[{"n":"Hermitaur Shell","q":4},{"n":"Hermitaur Shell S","q":6},{"n":"Sharp Claw","q":3}],
+									"forge":[{"n":"Hermitaur Claw","q":2},{"n":"Hermitaur Shell","q":4},{"n":"Hermitaur Shell S","q":7},{"n":"Monster Fluid","q":3}],
 									"branch":"blade-stinger"
 								}
 							]
@@ -4866,7 +4925,7 @@
 									"attack":368,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Pincers","q":2},{"n":"Ceanataur Shell","q":8},{"n":"Ceanataur Claws","q":10}]
+									"upgrade":[{"n":"Ceanataur Pincer","q":2},{"n":"Ceanataur Shell","q":8},{"n":"Ceanataur Claw","q":10}]
 								},
 								{
 									"index":152,
@@ -4876,7 +4935,7 @@
 									"attack":391,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Shell","q":12},{"n":"Ceanataur Claws+","q":2},{"n":"Hercules Beetle","q":5}]
+									"upgrade":[{"n":"Ceanataur Shell","q":12},{"n":"Ceanataur Claw+","q":2},{"n":"Hercudrome","q":5}]
 								},
 								{
 									"index":441,
@@ -4886,7 +4945,7 @@
 									"attack":437,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Pincers","q":4},{"n":"Ceanataur Carapace","q":8},{"n":"Ceanataur Claws+","q":3}],
+									"upgrade":[{"n":"Ceanataur Pincer","q":4},{"n":"Ceanataur Shell+","q":8},{"n":"Ceanataur Claw+","q":3}],
 									"branchBend":true
 								}
 							]
@@ -4901,9 +4960,10 @@
 									"price":5510,
 									"attack":345,
 									"defense":15,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Shell","q":8},{"n":"Hermitaur Claw","q":3},{"n":"Sm Lobstershell","q":1}]
+									"upgrade":[{"n":"Hermitaur Shell","q":8},{"n":"Hermitaur Claw","q":3},{"n":"Lobstershell S","q":1}]
 								},
 								{
 									"icon":"small-icon small-gunlance-icon",
@@ -4916,6 +4976,7 @@
 									"shellType":"Normal",
 									"shellLevel":2,
 									"defense":16,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Hermitaur Claw+","q":2},{"n":"Carbalite Ore","q":12},{"n":"Flame Sac","q":5}]
@@ -4931,9 +4992,10 @@
 									"shellType":"Normal",
 									"shellLevel":3,
 									"defense":18,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Hermitaur Claw+","q":5},{"n":"Hermitaur Carapace","q":10},{"n":"Monoblos Heart","q":1}],
+									"upgrade":[{"n":"Hermitaur Claw+","q":5},{"n":"Hermitaur Shell+","q":10},{"n":"Monoblos Heart","q":1}],
 									"branchBend":true
 								}
 							]
@@ -4948,7 +5010,7 @@
 									"attack":299,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Med Monster Bone","q":3},{"n":"Jumbo Bone","q":4},{"n":"Monster Fluid","q":3}]
+									"upgrade":[{"n":"Monster Bone M","q":3},{"n":"Giant Bone","q":4},{"n":"Monster Fluid","q":3}]
 								},
 								{
 									"index":135,
@@ -4958,7 +5020,7 @@
 									"attack":391,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lg Monster Bone","q":5},{"n":"Ioprey Hide","q":12},{"n":"Demondrug","q":5}]
+									"upgrade":[{"n":"Monster Bone L","q":5},{"n":"Ioprey Hide","q":12},{"n":"Demondrug","q":5}]
 								},
 								{
 									"index":485,
@@ -4968,7 +5030,7 @@
 									"attack":437,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Monster Bone+","q":5},{"n":"Iodrome Hide","q":8},{"n":"Monster Broth","q":5}],
+									"upgrade":[{"n":"Monster Hardbone","q":5},{"n":"Iodrome Hide","q":8},{"n":"Monster Broth","q":5}],
 									"branchBend":true
 								}
 							]
@@ -5053,7 +5115,7 @@
 									"attributeValue":300,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Azure Rathalos Tail","q":5},{"n":"Azure Rathalos Shell","q":8},{"n":"Wyvern Marrow","q":3}]
+									"upgrade":[{"n":"Azure Rathalos Tail","q":5},{"n":"Azure Rathalos Shell","q":8},{"n":"Rath Marrow","q":3}]
 								},
 								{
 									"index":327,
@@ -5085,7 +5147,7 @@
 									"attributeValue":460,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Tail","q":8},{"n":"Wyvern Marrow","q":1},{"n":"Rathalos Plate","q":1}],
+									"upgrade":[{"n":"Rathalos Tail","q":8},{"n":"Rath Marrow","q":1},{"n":"Rathalos Plate","q":1}],
 									"branchBend":true
 								}
 							]
@@ -5108,7 +5170,7 @@
 									"attack":322,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Twisted Horn","q":1},{"n":"Diablos Shell","q":4},{"n":"Blos Fang","q":2},{"n":"Joiner Grasshopper","q":3}],
+									"forge":[{"n":"Twisted Horn","q":1},{"n":"Diablos Shell","q":4},{"n":"Blos Fang","q":2},{"n":"Gluehopper","q":3}],
 									"branch":".diablo-horn-group",
 									"branchStart":true
 								}
@@ -5147,7 +5209,7 @@
 									"attributeValue":200,
 									"slots":1,
 									"affinity":10,
-									"upgrade":[{"n":"White Monoblos Horn","q":3},{"n":"White Monoblos Spine","q":5},{"n":"White Monoblos Shell","q":4}],
+									"upgrade":[{"n":"Silver Horn","q":3},{"n":"White Monoblos Ridge","q":5},{"n":"White Monoblos Shell","q":4}],
 									"branchBend":true
 								}
 							]
@@ -5166,7 +5228,7 @@
 									"attributeValue":220,
 									"slots":2,
 									"affinity":10,
-									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"White Monoblos Spine","q":8},{"n":"Blangonga Fang+","q":4}],
+									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"White Monoblos Ridge","q":8},{"n":"Blangonga Fang+","q":4}],
 									"branchBend":true
 								}
 							]
@@ -5185,7 +5247,7 @@
 									"attributeValue":160,
 									"slots":0,
 									"affinity":20,
-									"upgrade":[{"n":"Rajang Horn","q":2},{"n":"Rajang Fang","q":2},{"n":"Rajang Pelt+","q":2}],
+									"upgrade":[{"n":"Rajang Horn","q":2},{"n":"Rajang Fang","q":2},{"n":"Rajang Blackfur","q":2}],
 									"branchBend":true
 								}
 							]
@@ -5204,7 +5266,7 @@
 									"attributeValue":210,
 									"slots":0,
 									"affinity":20,
-									"upgrade":[{"n":"Rajang Pelt","q":1},{"n":"Rajang Claw","q":3},{"n":"Yama Fluid","q":5}],
+									"upgrade":[{"n":"Rajang Pelt","q":1},{"n":"Rajang Claw","q":3},{"n":"Yama Tsukami Fluid","q":5}],
 									"branchBend":true
 								}
 							]
@@ -5219,7 +5281,7 @@
 									"attack":391,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Twisted Horn","q":5},{"n":"Diablos Shell","q":10},{"n":"Diablos Spine","q":1}]
+									"upgrade":[{"n":"Twisted Horn","q":5},{"n":"Diablos Shell","q":10},{"n":"Diablos Ridge","q":1}]
 								},
 								{
 									"index":323,
@@ -5229,7 +5291,7 @@
 									"attack":460,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Twisted Black Blos Horn","q":4},{"n":"Black Blos Carapace","q":8}],
+									"upgrade":[{"n":"Majestic Horn","q":2},{"n":"Black Twisted Horn","q":4},{"n":"Black Diablos Carapace","q":8}],
 									"branchBend":true
 								}
 							]
@@ -5284,6 +5346,7 @@
 									"price":41180,
 									"attack":368,
 									"defense":8,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":310,
@@ -5298,6 +5361,7 @@
 									"price":92070,
 									"attack":414,
 									"defense":12,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":360,
@@ -5318,6 +5382,7 @@
 									"price":36260,
 									"attack":391,
 									"defense":10,
+
 									"attribute":"poison",
 									"attributeAlt":"Poison",
 									"attributeValue":270,
@@ -5344,12 +5409,13 @@
 									"price":16080,
 									"attack":345,
 									"defense":8,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":120,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Firestone","q":4},{"n":"Machalite Ore","q":15},{"n":"Wyvern Marrow","q":1},{"n":"Gunpowder","q":20}],
+									"forge":[{"n":"Firestone","q":4},{"n":"Machalite Ore","q":15},{"n":"Rath Marrow","q":1},{"n":"Gunpowder","q":20}],
 									"branchStart":true
 								},
 								{
@@ -5359,12 +5425,13 @@
 									"price":37540,
 									"attack":368,
 									"defense":8,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":160,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Firestone","q":4},{"n":"Sunshine Ore","q":15},{"n":"Flame Sac","q":5}]
+									"upgrade":[{"n":"Firestone","q":4},{"n":"Sunlight Stone","q":15},{"n":"Flame Sac","q":5}]
 								},
 								{
 									"index":319,
@@ -5373,6 +5440,7 @@
 									"price":73900,
 									"attack":414,
 									"defense":8,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":200,
@@ -5402,7 +5470,7 @@
 									"attack":276,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ruststone Long","q":1}],
+									"forge":[{"n":"Rustrod","q":1}],
 									"branchStart":true
 								},
 								{
@@ -5429,6 +5497,7 @@
 									"price":54100,
 									"attack":345,
 									"defense":6,
+
 									"attribute":"ice",
 									"attributeAlt":"Ice",
 									"attributeValue":240,
@@ -5443,6 +5512,7 @@
 									"price":67500,
 									"attack":391,
 									"defense":8,
+
 									"attribute":"ice",
 									"attributeAlt":"Ice",
 									"attributeValue":260,
@@ -5457,6 +5527,7 @@
 									"price":150000,
 									"attack":460,
 									"defense":10,
+
 									"attribute":"ice",
 									"attributeAlt":"Ice",
 									"attributeValue":300,
@@ -5516,7 +5587,7 @@
 									"attributeValue":320,
 									"slots":0,
 									"affinity":-20,
-									"upgrade":[{"n":"Fatalis' Eye","q":1},{"n":"Fatalis' Scale","q":10},{"n":"Bond of Comrades","q":5}]
+									"upgrade":[{"n":"Fatalis' Eye","q":1},{"n":"Fatalis' Scale","q":10},{"n":"Bond Ticket","q":5}]
 								},
 								{
 									"index":322,
@@ -5529,7 +5600,7 @@
 									"attributeValue":380,
 									"slots":0,
 									"affinity":-20,
-									"upgrade":[{"n":"Fatalis Crimson Horn","q":3},{"n":"Fatalis Crimson Shell","q":5},{"n":"Comrade's Mark","q":5}],
+									"upgrade":[{"n":"Crimson Fatalis Horn","q":3},{"n":"Crimson Fatalis Shell","q":5},{"n":"Friendship Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -5548,9 +5619,10 @@
 									"price":25000,
 									"attack":414,
 									"defense":8,
+
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Long","q":1}],
+									"forge":[{"n":"Ancient Rod","q":1}],
 									"branchStart":true
 								},
 								{
@@ -5560,9 +5632,10 @@
 									"price":50000,
 									"attack":460,
 									"defense":12,
+
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Daora Claw","q":3},{"n":"Daora Carapace","q":5},{"n":"Union Ore","q":7}],
+									"upgrade":[{"n":"Daora Claw","q":3},{"n":"Daora Carapace","q":5},{"n":"Fucium Ore","q":7}],
 									"branchBend":true
 								}
 							]
@@ -5582,7 +5655,7 @@
 									"attack":345,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Garuga Tail","q":3},{"n":"Razor Beak","q":1},{"n":"Garuga Ear","q":2},{"n":"Machalite Ore","q":10}],
+									"forge":[{"n":"Garuga Tail","q":3},{"n":"Sharpened Beak","q":1},{"n":"Garuga Ear","q":2},{"n":"Machalite Ore","q":10}],
 									"branchStart":true
 								},
 								{
@@ -5593,7 +5666,7 @@
 									"attack":414,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Garuga Tail","q":5},{"n":"Garuga Webbing","q":1},{"n":"Dragonite Ore","q":3}],
+									"upgrade":[{"n":"Garuga Tail","q":5},{"n":"Garuga Wing","q":1},{"n":"Dragonite Ore","q":3}],
 									"branchBend":true
 								}
 							]
@@ -5632,7 +5705,7 @@
 									"attributeValue":490,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Hide+","q":3},{"n":"Hercules Beetle","q":7}],
+									"upgrade":[{"n":"Kirin Azure Horn","q":1},{"n":"Kirin Hide+","q":3},{"n":"Hercudrome","q":7}],
 									"branchBend":true
 								}
 							]
@@ -5652,7 +5725,7 @@
 									"attack":345,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Lance Ticket","q":10},{"n":"Deluxe Coin","q":10},{"n":"Beginner Coin","q":30},{"n":"Hermitaur Shell","q":2}],
+									"forge":[{"n":"Lance Ticket","q":10},{"n":"Shimmering Coin","q":10},{"n":"White Belt Coin","q":30},{"n":"Hermitaur Shell","q":2}],
 									"branchStart":true
 								},
 								{
@@ -5687,7 +5760,7 @@
 									"attack":345,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Long","q":1}],
+									"forge":[{"n":"Ancient Rod","q":1}],
 									"branchStart":true
 								},
 								{
@@ -5718,7 +5791,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Teostra Tail","q":3},{"n":"Teostra Carapace","q":4},{"n":"Flame Dragon Dust","q":3}]
+									"upgrade":[{"n":"Teostra Tail","q":3},{"n":"Teostra Carapace","q":4},{"n":"Teostra Powder","q":3}]
 								},
 								{
 									"index":445,
@@ -5731,7 +5804,7 @@
 									"attributeValue":300,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Teostra Horn+","q":1},{"n":"Teostra Carapace","q":8},{"n":"Flame Dragon Gem","q":1}],
+									"upgrade":[{"n":"Teostra Horn+","q":1},{"n":"Teostra Carapace","q":8},{"n":"Teostra Gem","q":1}],
 									"branchBend":true
 								}
 							]
@@ -5785,7 +5858,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Lao-Shan Ruby","q":1},{"n":"Gaoren Spine","q":4},{"n":"Bond of Comrades","q":3}],
+									"upgrade":[{"n":"Lao-Shan Ruby","q":1},{"n":"Gaoren Ridge","q":4},{"n":"Bond Ticket","q":3}],
 									"branchBend":true
 								}
 							]
@@ -5815,7 +5888,7 @@
 									"attributeValue":290,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Rubbery Hide+","q":4},{"n":"Poison Sac","q":10},{"n":"Lightcrystal","q":8},{"n":"Wyvern Marrow","q":5}],
+									"forge":[{"n":"Rubbery Hide+","q":4},{"n":"Poison Sac","q":10},{"n":"Lightcrystal","q":8},{"n":"Rath Marrow","q":5}],
 									"branchStart":true
 								},
 								{
@@ -5861,7 +5934,7 @@
 									"attributeValue":180,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Dragon Wood","q":6},{"n":"Yama Fin","q":2},{"n":"Thunderbug","q":20},{"n":"Flame Dragon Dust","q":1}],
+									"forge":[{"n":"Dragonwood","q":6},{"n":"Yama Tsukami Fin","q":2},{"n":"Thunderbug","q":20},{"n":"Teostra Powder","q":1}],
 									"branchStart":true
 								},
 								{
@@ -5877,7 +5950,7 @@
 									"attributeValue":230,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Dragon Wood","q":8},{"n":"Flame Dragon Dust","q":3},{"n":"Comrade's Mark","q":5}],
+									"upgrade":[{"n":"Dragonwood","q":8},{"n":"Teostra Powder","q":3},{"n":"Friendship Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -5914,6 +5987,7 @@
 									"price":200000,
 									"attack":506,
 									"defense":12,
+
 									"attribute":"ice",
 									"attributeAlt":"Ice",
 									"attributeValue":320,
@@ -5974,7 +6048,7 @@
 									"attack":98,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":1 }],"forge":[{"n":"Ruststone Small","q":1}],
+									"upgrade":[{"n":"Iron Ore","q":1 }],"forge":[{"n":"Ruststone","q":1}],
 									"branch":".twin-dagger-group"
 								}
 							]
@@ -5993,8 +6067,8 @@
 									"attack":112,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sunshine Ore","q":2},{"n":"Earth Crystal","q":1}],
-									"forge":[{"n":"Machalite Ore","q":3},{"n":"Sunshine Ore","q":4},{"n":"Earth Crystal","q":2}]
+									"upgrade":[{"n":"Sunlight Stone","q":2},{"n":"Earth Crystal","q":1}],
+									"forge":[{"n":"Machalite Ore","q":3},{"n":"Sunlight Stone","q":4},{"n":"Earth Crystal","q":2}]
 								},
 								{
 									"index":236,
@@ -6004,7 +6078,7 @@
 									"attack":140,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":2},{"n":"Sunshine Ore","q":2},{"n":"Earth Crystal","q":3}]
+									"upgrade":[{"n":"Iron Ore","q":2},{"n":"Sunlight Stone","q":2},{"n":"Earth Crystal","q":3}]
 								},
 								{
 									"index":238,
@@ -6014,8 +6088,8 @@
 									"attack":154,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Iron Ore","q":3},{"n":"Sunshine Ore","q":4},{"n":"Earth Crystal","q":5}],
-									"forge":[{"n":"Ancient Stone Small","q":1}],
+									"upgrade":[{"n":"Iron Ore","q":3},{"n":"Sunlight Stone","q":4},{"n":"Earth Crystal","q":5}],
+									"forge":[{"n":"Ancient Stone","q":1}],
 									"branch":"insector"
 								}
 							]
@@ -6043,7 +6117,7 @@
 									"attack":210,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Vespoid Wing","q":20},{"n":"Hornetaur Head","q":7},{"n":"Glittering Beetle","q":5}]
+									"upgrade":[{"n":"Vespoid Wing","q":20},{"n":"Hornetaur Head","q":7},{"n":"Shiny Beetle","q":5}]
 								},
 								{
 									"index":360,
@@ -6053,7 +6127,7 @@
 									"attack":238,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Vespoid Bladefin","q":8},{"n":"Hornetaur Bladefin","q":10},{"n":"King Scarab","q":6}],
+									"upgrade":[{"n":"Vespoid Innerwing","q":8},{"n":"Hornetaur Innerwing","q":10},{"n":"King Scarab","q":6}],
 									"branchBend":true
 								}
 							]
@@ -6071,7 +6145,7 @@
 									"attack":168,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":8},{"n":"Sunshine Ore","q":6},{"n":"Antiseptic Stone","q":2}]
+									"upgrade":[{"n":"Machalite Ore","q":8},{"n":"Sunlight Stone","q":6},{"n":"Antiseptic Stone","q":2}]
 								},
 								{
 									"index":240,
@@ -6081,7 +6155,7 @@
 									"attack":196,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":15},{"n":"Sunshine Ore","q":12},{"n":"Jewel Ticket","q":1}],
+									"upgrade":[{"n":"Machalite Ore","q":15},{"n":"Sunlight Stone","q":12},{"n":"Jewel Ticket","q":1}],
 									"branchBend":true
 								}
 							]
@@ -6128,7 +6202,7 @@
 									"slots":0,
 									"affinity":0,
 									"upgrade":[{"n":"Velociprey Hide","q":6},{"n":"Velociprey Fang","q":4},{"n":"Monster Fluid","q":1 }],
-									"forge":[{"n":"Ruststone Small","q":1}],
+									"forge":[{"n":"Ruststone","q":1}],
 									"branch":"hydra-bite"
 								}
 							]
@@ -6221,7 +6295,7 @@
 									"rarity":4,
 									"price":8590,
 									"attack":210,
-									"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":260,"slots":2,"affinity":0,"upgrade":[{"n":"Gendrome Hide","q":3},{"n":"Genprey Fang","q":16},{"n":"Stun Sac","q":5 }],
+									"attribute":"paralysis","attributeAlt":"Paralysis","attributeValue":260,"slots":2,"affinity":0,"upgrade":[{"n":"Gendrome Hide","q":3},{"n":"Genprey Fang","q":16},{"n":"Paralysis Sac","q":5 }],
 									"branchBend":true
 								}
 							]
@@ -6296,7 +6370,7 @@
 									"attributeValue":320,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Green Plesioth Fin","q":4},{"n":"Cephalos Topfin","q":4},{"n":"Sleepyfish+","q":5 }],
+									"upgrade":[{"n":"Green Plesioth Fin","q":4},{"n":"Cephalos Fin+","q":4},{"n":"Great Sleepyfish","q":5 }],
 									"branchBend":true
 								}
 							]
@@ -6311,7 +6385,7 @@
 									"attack":224,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Velocidrome Claw","q":4},{"n":"Velocidrome Head","q":1},{"n":"Med Monster Bone","q":3 }]
+									"upgrade":[{"n":"Velocidrome Claw","q":4},{"n":"Velocidrome Head","q":1},{"n":"Monster Bone M","q":3 }]
 								},
 								{
 									"index":264,
@@ -6321,7 +6395,7 @@
 									"attack":238,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Velocidrome Claw","q":6},{"n":"Lg Monster Bone","q":3},{"n":"Vibrant Pelt","q":1 }]
+									"upgrade":[{"n":"Velocidrome Claw","q":6},{"n":"Monster Bone L","q":3},{"n":"Vibrant Pelt","q":1 }]
 								},
 								{
 									"index":468,
@@ -6331,7 +6405,7 @@
 									"attack":266,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Velocidrome Claw+","q":7},{"n":"Monster Bone+","q":5},{"n":"Wyvern Stone","q":1 }],
+									"upgrade":[{"n":"Velocidrome Claw+","q":7},{"n":"Monster Hardbone","q":5},{"n":"Wyvern Gem","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -6353,12 +6427,13 @@
 									"price":12570,
 									"attack":154,
 									"defense":2,
+
 									"attribute":"thunder",
 									"attributeAlt":"Thunder",
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Kirin Horn","q":1},{"n":"Kirin Mane","q":4},{"n":"Wyvern Fang","q":8},{"n":"Purple Rubbery Hide","q":2}],
+									"forge":[{"n":"Kirin Thunderhorn","q":1},{"n":"Kirin Mane","q":4},{"n":"Wyvern Fang","q":8},{"n":"Rubbery Finehide","q":2}],
 									"branchStart":true
 								},
 								{
@@ -6368,12 +6443,13 @@
 									"price":24350,
 									"attack":168,
 									"defense":6,
+
 									"attribute":"thunder",
 									"attributeAlt":"Thunder",
 									"attributeValue":250,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Horn","q":2},{"n":"Kirin Mane","q":6},{"n":"Dragonite Ore","q":4 }],
+									"upgrade":[{"n":"Kirin Thunderhorn","q":2},{"n":"Kirin Mane","q":6},{"n":"Dragonite Ore","q":4 }],
 									"branch":"kirin-bolts"
 								}
 							]
@@ -6390,12 +6466,13 @@
 									"price":41250,
 									"attack":210,
 									"defense":12,
+
 									"attribute":"thunder",
 									"attributeAlt":"Thunder",
 									"attributeValue":300,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Horn","q":4},{"n":"Kirin Thunder Tail","q":2},{"n":"Kirin Hide","q":1}],
+									"upgrade":[{"n":"Kirin Thunderhorn","q":4},{"n":"Kirin Thundertail","q":2},{"n":"Kirin Hide","q":1}],
 									"branchBend":true
 								}
 							]
@@ -6410,12 +6487,13 @@
 									"price":38400,
 									"attack":196,
 									"defense":10,
+
 									"attribute":"thunder",
 									"attributeAlt":"Thunder",
 									"attributeValue":280,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Horn","q":3},{"n":"Kirin Hide","q":1},{"n":"Lightcrystal","q":5 }]
+									"upgrade":[{"n":"Kirin Thunderhorn","q":3},{"n":"Kirin Hide","q":1},{"n":"Lightcrystal","q":5 }]
 								},
 								{
 									"index":356,
@@ -6424,6 +6502,7 @@
 									"price":100000,
 									"attack":238,
 									"defense":16,
+
 									"attribute":"thunder",
 									"attributeAlt":"Thunder",
 									"attributeValue":320,
@@ -6466,7 +6545,7 @@
 									"attributeValue":120,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Ancient Bone","q":3},{"n":"Elder Dragon Blood","q":1},{"n":"Meteoric Iron","q":3 }],
+									"upgrade":[{"n":"Elder Dragon Bone","q":3},{"n":"Elder Dragon Blood","q":1},{"n":"Meteorite","q":3 }],
 									"branchBend":true
 								}
 							]
@@ -6488,7 +6567,7 @@
 									"rarity":1,
 									"price":420,
 									"attack":98,
-									"slots":0,"affinity":0,"forge":[{"n":"Sm Monster Bone","q":2}],
+									"slots":0,"affinity":0,"forge":[{"n":"Monster Bone S","q":2}],
 									"branchStart":true
 								},
 								{
@@ -6498,7 +6577,7 @@
 									"rarity":1,
 									"price":660,
 									"attack":112,
-									"slots":0,"affinity":0,"upgrade":[{"n":"Sm Monster Bone","q":2 }],
+									"slots":0,"affinity":0,"upgrade":[{"n":"Monster Bone S","q":2 }],
 									"branch":".bone-scythe"
 								}
 							]
@@ -6516,7 +6595,7 @@
 									"rarity":2,
 									"price":1310,
 									"attack":126,
-									"slots":1,"affinity":0,"upgrade":[{"n":"Sharp Claw","q":2},{"n":"Sm Monster Bone","q":2}],
+									"slots":1,"affinity":0,"upgrade":[{"n":"Sharp Claw","q":2},{"n":"Monster Bone S","q":2}],
 									"forge":[{"n":"Sharp Claw","q":4},{"n":"Bone","q":2}]
 								},
 								{
@@ -6526,7 +6605,7 @@
 									"rarity":2,
 									"price":2710,
 									"attack":154,
-									"slots":1,"affinity":0,"upgrade":[{"n":"Sharp Claw","q":4},{"n":"Sm Monster Bone","q":4}],
+									"slots":1,"affinity":0,"upgrade":[{"n":"Sharp Claw","q":4},{"n":"Monster Bone S","q":4}],
 									"branch":".kut-ku-twins-cutlass-group"
 								}
 							]
@@ -6578,6 +6657,7 @@
 									"price":15370,
 									"attack":210,
 									"defense":10,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Conga Pelt","q":15},{"n":"Congalala Claw","q":4},{"n":"Blangonga Fang","q":2}]
@@ -6589,6 +6669,7 @@
 									"price":34500,
 									"attack":238,
 									"defense":14,
+
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Conga Pelt+","q":10},{"n":"Congalala Claw+","q":2},{"n":"Blangonga Fang+","q":2}],
@@ -6608,12 +6689,13 @@
 									"price":5400,
 									"attack":168,
 									"defense":10,
+
 									"attribute":"water",
 									"attributeAlt":"Water",
 									"attributeValue":180,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Plesioth Fin","q":2},{"n":"Cephalos Fin","q":2},{"n":"Knife Mackerel","q":4}],
+									"upgrade":[{"n":"Plesioth Fin","q":2},{"n":"Cephalos Fin","q":2},{"n":"Whetfish","q":4}],
 									"branchBend":true
 								}
 							]
@@ -6630,12 +6712,13 @@
 									"price":12810,
 									"attack":182,
 									"defense":13,
+
 									"attribute":"water",
 									"attributeAlt":"Water",
 									"attributeValue":230,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Plesioth Scale","q":10},{"n":"Cephalos Scale","q":10},{"n":"Knife Mackerel+","q":2}],
+									"upgrade":[{"n":"Plesioth Scale","q":10},{"n":"Cephalos Scale","q":10},{"n":"Great Whetfish","q":2}],
 									"branchBend":true
 								}
 							]
@@ -6653,8 +6736,8 @@
 									"attack":182,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Claws","q":2},{"n":"Sharp Claw","q":4},{"n":"Jumbo Bone","q":2}],
-									"forge":[{"n":"Ceanataur Legs","q":2},{"n":"Ceanataur Claws","q":3},{"n":"Sharp Claw","q":3},{"n":"Joiner Grasshopper","q":5}]
+									"upgrade":[{"n":"Ceanataur Claw","q":2},{"n":"Sharp Claw","q":4},{"n":"Giant Bone","q":2}],
+									"forge":[{"n":"Ceanataur Legs","q":2},{"n":"Ceanataur Claw","q":3},{"n":"Sharp Claw","q":3},{"n":"Gluehopper","q":5}]
 								},
 								{
 									"index":339,
@@ -6664,7 +6747,7 @@
 									"attack":196,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Pincers","q":2},{"n":"Ceanataur Claws","q":4},{"n":"Ancient Bone","q":2}]
+									"upgrade":[{"n":"Ceanataur Pincer","q":2},{"n":"Ceanataur Claw","q":4},{"n":"Elder Dragon Bone","q":2}]
 								},
 								{
 									"index":457,
@@ -6674,7 +6757,7 @@
 									"attack":210,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Ceanataur Claws+","q":2},{"n":"Ceanataur Pincers","q":4},{"n":"Wyvern Skull","q":2}],
+									"upgrade":[{"n":"Ceanataur Claw+","q":2},{"n":"Ceanataur Pincer","q":4},{"n":"Wyvern Skull","q":2}],
 									"branchBend":true
 								}
 							]
@@ -6691,7 +6774,7 @@
 									"attack":140,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":3},{"n":"Sm Bone Husk","q":6 }]
+									"upgrade":[{"n":"Monster Bone S","q":3},{"n":"Small Bone Husk","q":6 }]
 								},
 								{
 									"rowClass":"poison-pre thunder-pre",
@@ -6702,7 +6785,7 @@
 									"attack":168,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Sm Monster Bone","q":6},{"n":"Sm Bone Husk","q":10 }],
+									"upgrade":[{"n":"Monster Bone S","q":6},{"n":"Small Bone Husk","q":10 }],
 									"branch":"poison-axe"
 								}
 							]
@@ -6721,7 +6804,7 @@
 									"attributeValue":320,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Rubbery Hide","q":6},{"n":"Med Monster Bone","q":3},{"n":"Poison Sac","q":4 }]
+									"upgrade":[{"n":"Rubbery Hide","q":6},{"n":"Monster Bone M","q":3},{"n":"Poison Sac","q":4 }]
 								},
 								{
 									"index":341,
@@ -6734,7 +6817,7 @@
 									"attributeValue":390,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Purple Rubbery Hide","q":7},{"n":"Lg Monster Bone","q":3},{"n":"Poison Sac","q":6 }],
+									"upgrade":[{"n":"Rubbery Finehide","q":7},{"n":"Monster Bone L","q":3},{"n":"Poison Sac","q":6 }],
 									"branchBend":true
 								}
 							]
@@ -6751,7 +6834,7 @@
 									"attack":182,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Med Monster Bone","q":2},{"n":"Sm Bone Husk","q":12},{"n":"Sharp Claw","q":6 }],
+									"upgrade":[{"n":"Monster Bone M","q":2},{"n":"Small Bone Husk","q":12},{"n":"Sharp Claw","q":6 }],
 									"branch":"thunderbane"
 								}
 							]
@@ -6770,8 +6853,8 @@
 									"attributeValue":170,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Rubbery Hide","q":4},{"n":"Lg Monster Bone","q":3},{"n":"Electro Sac","q":2 }],
-									"forge":[{"n":"Electro Sac","q":3},{"n":"Pale Extract","q":5},{"n":"Lg Monster Bone","q":4},{"n":"Rubbery Hide","q":7}]
+									"upgrade":[{"n":"Rubbery Hide","q":4},{"n":"Monster Bone L","q":3},{"n":"Electro Sac","q":2 }],
+									"forge":[{"n":"Electro Sac","q":3},{"n":"Pale Extract","q":5},{"n":"Monster Bone L","q":4},{"n":"Rubbery Hide","q":7}]
 								},
 								{
 									"index":175,
@@ -6784,7 +6867,7 @@
 									"attributeValue":220,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Rubbery Hide","q":6},{"n":"Ancient Bone","q":2},{"n":"Electro Sac","q":4 }]
+									"upgrade":[{"n":"Rubbery Hide","q":6},{"n":"Elder Dragon Bone","q":2},{"n":"Electro Sac","q":4 }]
 								},
 								{
 									"index":342,
@@ -6797,7 +6880,7 @@
 									"attributeValue":240,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Purple Rubbery Hide","q":8},{"n":"Chameleos Horn","q":1},{"n":"Pale Bone","q":1 }],
+									"upgrade":[{"n":"Rubbery Finehide","q":8},{"n":"Chameleos Horn","q":1},{"n":"Pale Bone","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -6815,7 +6898,7 @@
 									"slots":1,
 									"affinity":0,
 									"upgrade":[{"n":"Twisted Horn","q":1},{"n":"Wyvern Fang","q":10},{"n":"Diablos Shell","q":3 }],
-									"forge":[{"n":"Twisted Horn","q":3},{"n":"Wyvern Fang","q":10},{"n":"Diablos Spine","q":1},{"n":"Diablos Shell","q":4}],
+									"forge":[{"n":"Twisted Horn","q":3},{"n":"Wyvern Fang","q":10},{"n":"Diablos Ridge","q":1},{"n":"Diablos Shell","q":4}],
 									"branch":"dual-diablo"
 								}
 							]
@@ -6832,9 +6915,10 @@
 									"price":21730,
 									"attack":252,
 									"defense":10,
+
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Monoblos Spine","q":1},{"n":"Diablos Spine","q":1},{"n":"Twisted Horn","q":2}]
+									"upgrade":[{"n":"Monoblos Ridge","q":1},{"n":"Diablos Ridge","q":1},{"n":"Twisted Horn","q":2}]
 								},
 								{
 									"index":251,
@@ -6843,9 +6927,10 @@
 									"price":35730,
 									"attack":266,
 									"defense":12,
+
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Monoblos Heart","q":1},{"n":"Diablos Thoracic","q":1},{"n":"Hercules Beetle","q":2}],
+									"upgrade":[{"n":"Monoblos Heart","q":1},{"n":"Diablos Ridge+","q":1},{"n":"Hercudrome","q":2}],
 									"branchBend":true
 								}
 							]
@@ -6881,7 +6966,7 @@
 									"attributeValue":100,
 									"slots":1,
 									"affinity":-50,
-									"upgrade":[{"n":"Rajang Horn","q":3},{"n":"Rajang Pelt+","q":4},{"n":"Carbalite Ore","q":15 }]
+									"upgrade":[{"n":"Rajang Horn","q":3},{"n":"Rajang Blackfur","q":4},{"n":"Carbalite Ore","q":15 }]
 								},
 								{
 									"index":202,
@@ -6909,7 +6994,7 @@
 									"attack":280,
 									"slots":2,
 									"affinity":20,
-									"upgrade":[{"n":"Twisted Black Blos Horn","q":3},{"n":"Black Blos Spine","q":2},{"n":"Elder Dragon Blood","q":1 }],
+									"upgrade":[{"n":"Black Twisted Horn","q":3},{"n":"Black Diablos Ridge","q":2},{"n":"Elder Dragon Blood","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -6935,7 +7020,7 @@
 									"attributeValue":240,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Rathalos Shell","q":3},{"n":"Rathalos Scale","q":4},{"n":"Wyvern Marrow","q":1},{"n":"Flame Sac","q":3}],
+									"forge":[{"n":"Rathalos Shell","q":3},{"n":"Rathalos Scale","q":4},{"n":"Rath Marrow","q":1},{"n":"Flame Sac","q":3}],
 									"branch":".corona",
 									"branchStart":true
 								}
@@ -6971,12 +7056,13 @@
 									"price":100000,
 									"attack":238,
 									"defense":10,
+
 									"attribute":"fire",
 									"attributeAlt":"Fire",
 									"attributeValue":480,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Golden Rathian Scale","q":12},{"n":"Golden Rathian Shell","q":8},{"n":"Rathian Ruby","q":1 }],
+									"upgrade":[{"n":"Golden Rathian Scale+","q":12},{"n":"Golden Rathian Carapace","q":8},{"n":"Rathian Ruby","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -7027,7 +7113,7 @@
 									"attributeValue":310,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Shell","q":5},{"n":"Wyvern Marrow","q":1},{"n":"Rathalos Scale","q":3 }]
+									"upgrade":[{"n":"Rathalos Shell","q":5},{"n":"Rath Marrow","q":1},{"n":"Rathalos Scale","q":3 }]
 								},
 								{
 									"index":186,
@@ -7040,7 +7126,7 @@
 									"attributeValue":380,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Shell","q":12},{"n":"Wyvern Marrow","q":3},{"n":"Flame Dragon Scale","q":6 }],
+									"upgrade":[{"n":"Rathalos Shell","q":12},{"n":"Rath Marrow","q":3},{"n":"Flame Dragon Scale","q":6 }],
 									"branchBend":true
 								}
 							]
@@ -7120,7 +7206,7 @@
 									"attack":266,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Hunter Citation","q":1},{"n":"Chief's Old Sword","q":1},{"n":"Elder Dragon Blood","q":1}],
+									"upgrade":[{"n":"Ace Hunter Ticket","q":1},{"n":"Old Hero's Sword","q":1},{"n":"Elder Dragon Blood","q":1}],
 									"branchBend":true
 								}
 							]
@@ -7135,7 +7221,7 @@
 									"attack":224,
 									"slots":2,
 									"affinity":30,
-									"upgrade":[{"n":"Hunter Citation","q":1},{"n":"Chief's Old Sword","q":1},{"n":"Monoblos Heart","q":1 }],
+									"upgrade":[{"n":"Ace Hunter Ticket","q":1},{"n":"Old Hero's Sword","q":1},{"n":"Monoblos Heart","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -7207,7 +7293,7 @@
 									"attack":238,
 									"slots":0,
 									"affinity":10,
-									"forge":[{"n":"Monoblos Shell","q":3},{"n":"Crimson Horn","q":1},{"n":"Blos Fang","q":4},{"n":"Meteoric Iron","q":1}],
+									"forge":[{"n":"Monoblos Shell","q":3},{"n":"Crimson Horn","q":1},{"n":"Blos Fang","q":4},{"n":"Meteorite","q":1}],
 									"branchStart":true
 								},
 								{
@@ -7218,7 +7304,7 @@
 									"attack":266,
 									"slots":0,
 									"affinity":10,
-									"upgrade":[{"n":"Crimson Horn","q":2},{"n":"Monoblos Spine","q":4},{"n":"Mega Demondrug","q":1 }],
+									"upgrade":[{"n":"Crimson Horn","q":2},{"n":"Monoblos Ridge","q":4},{"n":"Mega Demondrug","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -7242,7 +7328,7 @@
 									"attack":126,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ruststone Small","q":1}],
+									"forge":[{"n":"Ruststone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -7273,7 +7359,7 @@
 									"attributeValue":300,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Basarios Wing","q":1},{"n":"Ceanataur Pincers","q":1},{"n":"Rathian Plate","q":1 }]
+									"upgrade":[{"n":"Basarios Wing","q":1},{"n":"Ceanataur Pincer","q":1},{"n":"Rathian Plate","q":1 }]
 								},
 								{
 									"index":340,
@@ -7286,7 +7372,7 @@
 									"attributeValue":380,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Gravios Marrow","q":1},{"n":"Ceanataur Claws+","q":1},{"n":"Rathian Ruby","q":1 }],
+									"upgrade":[{"n":"Gravios Marrow","q":1},{"n":"Ceanataur Claw+","q":1},{"n":"Rathian Ruby","q":1 }],
 									"branchBend":true
 								}
 							]
@@ -7330,7 +7416,7 @@
 									"attributeValue":10,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Azure Lao-Shan Horn","q":1},{"n":"Azure Lao-Shan Shell","q":3},{"n":"Lao-Shan Ruby","q":1},{"n":"Bond of Comrades","q":5}],
+									"forge":[{"n":"Azure Lao-Shan Horn","q":1},{"n":"Azure Lao-Shan Shell","q":3},{"n":"Lao-Shan Ruby","q":1},{"n":"Bond Ticket","q":5}],
 									"branchStart":true
 								},
 								{
@@ -7345,7 +7431,7 @@
 									"attributeValue":10,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Azure Lao-Shan Horn","q":2},{"n":"Azure Lao-Shan Shell","q":5},{"n":"Yama Fluid","q":8 }],
+									"upgrade":[{"n":"Azure Lao-Shan Horn","q":2},{"n":"Azure Lao-Shan Shell","q":5},{"n":"Yama Tsukami Fluid","q":8 }],
 									"branch":"ultimus-heaven-and-earth-link",
 									"branchBend":true
 								}
@@ -7383,7 +7469,7 @@
 									"attributeValue":200,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Fatalis' Scale","q":12},{"n":"Lao-Shan Ruby","q":1},{"n":"Commendation","q":5},{"n":"Bond of Comrades","q":5}],
+									"forge":[{"n":"Fatalis' Scale","q":12},{"n":"Lao-Shan Ruby","q":1},{"n":"Commendation","q":5},{"n":"Bond Ticket","q":5}],
 									"branchStart":true
 								},
 								{
@@ -7410,7 +7496,7 @@
 									"attributeValue":300,
 									"slots":0,
 									"affinity":-20,
-									"upgrade":[{"n":"Fatalis Crimson Horn","q":3},{"n":"Fatalis Crimson Scale","q":7},{"n":"Comrade's Mark","q":5 }],
+									"upgrade":[{"n":"Crimson Fatalis Horn","q":3},{"n":"Crimson Fatalis Scale","q":7},{"n":"Friendship Ticket","q":5 }],
 									"branchBend":true
 								}
 							]
@@ -7430,7 +7516,7 @@
 									"attack":196,
 									"slots":0,
 									"affinity":10,
-									"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Scale","q":5},{"n":"Garuga Webbing","q":1},{"n":"Joiner Grasshopper","q":3}],
+									"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Scale","q":5},{"n":"Garuga Wing","q":1},{"n":"Gluehopper","q":3}],
 									"branchStart":true
 								},
 								{
@@ -7441,7 +7527,7 @@
 									"attack":224,
 									"slots":1,
 									"affinity":10,
-									"upgrade":[{"n":"Garuga Ear","q":4},{"n":"Garuga Webbing","q":2},{"n":"Hercules Beetle","q":6 }],
+									"upgrade":[{"n":"Garuga Ear","q":4},{"n":"Garuga Wing","q":2},{"n":"Hercudrome","q":6 }],
 									"branchBend":true
 								}
 							]
@@ -7467,7 +7553,7 @@
 									"attributeValue":180,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Meatball Stamp","q":3},{"n":"Barrel Lid","q":1}],
+									"forge":[{"n":"Pawprint Stamp","q":3},{"n":"Barrel Lid","q":1}],
 									"branch":"meow-meow-staff",
 									"branchStart":true
 								}
@@ -7506,7 +7592,7 @@
 									"attributeValue":360,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Meatball Stamp","q":5},{"n":"Glutton Tuna","q":10},{"n":"Felvine","q":10 }]
+									"upgrade":[{"n":"Pawprint Stamp","q":5},{"n":"Glutton Tuna","q":10},{"n":"Felvine","q":10 }]
 								},
 								{
 									"index":469,
@@ -7519,7 +7605,7 @@
 									"attributeValue":380,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Pawprint Stamp","q":10},{"n":"Glutton Tuna+","q":5},{"n":"Felvine","q":10 }],
+									"upgrade":[{"n":"Pawprint Ticket","q":10},{"n":"Gastronome Tuna","q":5},{"n":"Felvine","q":10 }],
 									"branchBend":true
 								}
 							]
@@ -7539,7 +7625,7 @@
 									"attack":210,
 									"slots":0,
 									"affinity":30,
-									"forge":[{"n":"Daora Horn","q":1},{"n":"Daora Scale","q":5},{"n":"Remobra Skin","q":2},{"n":"Egg Ticket","q":3}],
+									"forge":[{"n":"Daora Horn","q":1},{"n":"Daora Scale","q":5},{"n":"Remobra Hide","q":2},{"n":"Egg Ticket","q":3}],
 									"branchStart":true
 								},
 								{
@@ -7550,7 +7636,7 @@
 									"attack":238,
 									"slots":0,
 									"affinity":30,
-									"upgrade":[{"n":"Daora Horn","q":3},{"n":"Remobra Skin+","q":6},{"n":"Guild Ticket","q":2 }],
+									"upgrade":[{"n":"Daora Horn","q":3},{"n":"Remobra Hide+","q":6},{"n":"Guild Ticket","q":2 }],
 									"branchBend":true
 								}
 							]
@@ -7570,7 +7656,7 @@
 									"attack":210,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"SnS Ticket","q":10},{"n":"Solid Coin","q":10},{"n":"Black Belt Coin","q":20},{"n":"Lg Monster Bone","q":2}],
+									"forge":[{"n":"SnS Ticket","q":10},{"n":"Robust Coin","q":10},{"n":"Black Belt Coin","q":20},{"n":"Monster Bone L","q":2}],
 									"branchStart":true
 								},
 								{
@@ -7581,7 +7667,7 @@
 									"attack":238,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"SnS Ticket","q":20},{"n":"Flying Wyvern Coin","q":6},{"n":"Monster Bone+","q":4 }],
+									"upgrade":[{"n":"SnS Ticket","q":20},{"n":"Wyvern Coin","q":6},{"n":"Monster Hardbone","q":4 }],
 									"branchBend":true
 								}
 							]
@@ -7603,7 +7689,7 @@
 									"attack":112,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Small","q":1}],
+									"forge":[{"n":"Ancient Stone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -7614,7 +7700,7 @@
 									"attack":196,
 									"slots":3,
 									"affinity":20,
-									"upgrade":[{"n":"Carbalite Ore","q":14},{"n":"Machalite Ore","q":20},{"n":"Sunshine Ore","q":12}],
+									"upgrade":[{"n":"Carbalite Ore","q":14},{"n":"Machalite Ore","q":20},{"n":"Sunlight Stone","q":12}],
 									"branchBend":true
 								}
 							]
@@ -7655,7 +7741,7 @@
 									"attributeValue":190,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lightcrystal","q":6},{"n":"Sunshine Ore","q":8},{"n":"Jewel Ticket","q":5}]
+									"upgrade":[{"n":"Lightcrystal","q":6},{"n":"Sunlight Stone","q":8},{"n":"Jewel Ticket","q":5}]
 								},
 								{
 									"index":359,
@@ -7668,7 +7754,7 @@
 									"attributeValue":230,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Novacrystal","q":4},{"n":"Union Ore","q":8},{"n":"Jewel Ticket","q":7}],
+									"upgrade":[{"n":"Novacrystal","q":4},{"n":"Fucium Ore","q":8},{"n":"Jewel Ticket","q":7}],
 									"branchBend":true
 								}
 							]
@@ -7701,7 +7787,7 @@
 									"attack":224,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Garuga Webbing","q":2},{"n":"Garuga Mane","q":4},{"n":"Dragonite Ore","q":5}],
+									"upgrade":[{"n":"Garuga Wing","q":2},{"n":"Garuga Mane","q":4},{"n":"Dragonite Ore","q":5}],
 									"branchBend":true
 								}
 							]
@@ -7728,7 +7814,7 @@
 									"attributeValue":100,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Carbalite Ore","q":24},{"n":"Kirin Horn","q":4},{"n":"Electro Sac","q":6},{"n":"Rubbery Hide","q":8}],
+									"forge":[{"n":"Carbalite Ore","q":24},{"n":"Kirin Thunderhorn","q":4},{"n":"Electro Sac","q":6},{"n":"Rubbery Hide","q":8}],
 									"branchStart":true
 								},
 								{
@@ -7755,7 +7841,7 @@
 									"attributeValue":160,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Kirin Azure Horn","q":4},{"n":"Electro Sac","q":10},{"n":"Union Ore","q":12}],
+									"upgrade":[{"n":"Kirin Azure Horn","q":4},{"n":"Electro Sac","q":10},{"n":"Fucium Ore","q":12}],
 									"branchBend":true
 								}
 							]
@@ -7796,7 +7882,7 @@
 									"attributeValue":210,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Rathalos Scale","q":6},{"n":"Rathian Scale","q":8},{"n":"Wyvern Marrow","q":2}]
+									"upgrade":[{"n":"Rathalos Scale","q":6},{"n":"Rathian Scale","q":8},{"n":"Rath Marrow","q":2}]
 								},
 								{
 									"index":256,
@@ -7822,7 +7908,7 @@
 									"attributeValue":390,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Silver Rathalos Scale","q":6},{"n":"Golden Rathian Scale","q":8},{"n":"Rathalos Ruby","q":2}],
+									"upgrade":[{"n":"Silver Rathalos Scale+","q":6},{"n":"Golden Rathian Scale+","q":8},{"n":"Rathalos Ruby","q":2}],
 									"branchBend":true
 								}
 							]
@@ -7849,7 +7935,7 @@
 									"attributeValue":220,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Fatalis' Horn","q":1},{"n":"Lao-Shan Claw","q":2},{"n":"Lao-Shan Ruby","q":1},{"n":"Bond of Comrades","q":5}],
+									"forge":[{"n":"Fatalis' Horn","q":1},{"n":"Lao-Shan Claw","q":2},{"n":"Lao-Shan Ruby","q":1},{"n":"Bond Ticket","q":5}],
 									"branchStart":true
 								},
 								{
@@ -7877,7 +7963,7 @@
 									"attributeValue":280,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Azure Lao-Shan Horn","q":2},{"n":"Fatalis Crimson Horn","q":2},{"n":"Comrade's Mark","q":5}],
+									"upgrade":[{"n":"Azure Lao-Shan Horn","q":2},{"n":"Crimson Fatalis Horn","q":2},{"n":"Friendship Ticket","q":5}],
 									"branch":"azure-titan-sword-link",
 									"branchBend":true
 								}
@@ -7914,7 +8000,7 @@
 									"attributeValue":180,
 									"slots":1,
 									"affinity":0,
-									"forge":[{"n":"Gaoren Pincers","q":1},{"n":"Lao-Shan Horn","q":2},{"n":"Lao-Shan Ruby","q":1},{"n":"Firestone","q":8}],
+									"forge":[{"n":"Gaoren Pincer","q":1},{"n":"Lao-Shan Horn","q":2},{"n":"Lao-Shan Ruby","q":1},{"n":"Firestone","q":8}],
 									"branchStart":true
 								},
 								{
@@ -7928,7 +8014,7 @@
 									"attributeValue":270,
 									"slots":1,
 									"affinity":0,
-									"upgrade":[{"n":"Lao-Shan Horn","q":4},{"n":"Flame Dragon Dust","q":2},{"n":"Bond of Comrades","q":5}],
+									"upgrade":[{"n":"Lao-Shan Horn","q":4},{"n":"Teostra Powder","q":2},{"n":"Bond Ticket","q":5}],
 									"branchBend":true
 								}
 							]
@@ -7950,7 +8036,7 @@
 									"attack":224,
 									"slots":2,
 									"affinity":0,
-									"forge":[{"n":"Velocidrome Claw+","q":4},{"n":"Velociprey Scale+","q":4},{"n":"Velocidrome Head","q":2},{"n":"Glittering Beetle","q":6}],
+									"forge":[{"n":"Velocidrome Claw+","q":4},{"n":"Velociprey Scale+","q":4},{"n":"Velocidrome Head","q":2},{"n":"Shiny Beetle","q":6}],
 									"branchStart":true
 								},
 								{
@@ -7961,7 +8047,7 @@
 									"attack":238,
 									"slots":3,
 									"affinity":0,
-									"upgrade":[{"n":"Velocidrome Claw+","q":6},{"n":"Velociprey Scale+","q":4},{"n":"Wyvern Stone","q":2}],
+									"upgrade":[{"n":"Velocidrome Claw+","q":6},{"n":"Velociprey Scale+","q":4},{"n":"Wyvern Gem","q":2}],
 									"branchBend":true
 								}
 							]
@@ -7983,6 +8069,7 @@
 									"price":53680,
 									"attack":238,
 									"defense":8,
+
 									"attribute":"poison",
 									"attributeAlt":"Poison",
 									"attributeValue":100,
@@ -7998,12 +8085,13 @@
 									"price":106200,
 									"attack":252,
 									"defense":8,
+
 									"attribute":"poison",
 									"attributeAlt":"Poison",
 									"attributeValue":150,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Gravios Skull","q":4},{"n":"Wyvern Stone","q":1},{"n":"Deadly Toadstool","q":2}],
+									"upgrade":[{"n":"Gravios Skull","q":4},{"n":"Wyvern Gem","q":1},{"n":"Deadly Toadstool","q":2}],
 									"branchBend":true
 								}
 							]
@@ -8029,7 +8117,7 @@
 									"attack":168,
 									"slots":0,
 									"affinity":0,
-									"forge":[{"n":"Ancient Stone Small","q":1}],
+									"forge":[{"n":"Ancient Stone","q":1}],
 									"branchStart":true
 								},
 								{
@@ -8073,7 +8161,7 @@
 									"attributeValue":170,
 									"slots":2,
 									"affinity":0,
-									"upgrade":[{"n":"Chameleos Horn+","q":2},{"n":"Chameleos Gem","q":1},{"n":"Union Ore","q":8}],
+									"upgrade":[{"n":"Chameleos Spike","q":2},{"n":"Chameleos Gem","q":1},{"n":"Fucium Ore","q":8}],
 									"branchBend":true
 								}
 							]
@@ -8114,6 +8202,7 @@
 									"price":5000,
 									"attack":140,
 									"defense":10,
+
 									"slots":1,
 									"affinity":10,
 									"acquire":"I don't know how you acquire this weapon"
@@ -8126,7 +8215,7 @@
 									"attack":182,
 									"slots":3,
 									"affinity":20,
-									"forge":[{"n":"Guild Ticket","q":1},{"n":"Golden Rathian Scale","q":3},{"n":"Silver Rathalos Tail","q":1}]
+									"forge":[{"n":"Guild Ticket","q":1},{"n":"Golden Rathian Scale+","q":3},{"n":"Silver Rathalos Tail","q":1}]
 								},
 								{
 									"index":480,
@@ -8155,9 +8244,10 @@
 									"price":333,
 									"attack":168,
 									"defense":10,
+
 									"slots":1,
 									"affinity":20,
-									"forge":[{"n":"Famitsu Ticket","q":5},{"n":"Machalite Ore","q":8},{"n":"Pink Rathian Scale","q":6},{"n":"Glittering Beetle","q":4}]
+									"forge":[{"n":"Famitsu Ticket","q":5},{"n":"Machalite Ore","q":8},{"n":"Pink Rathian Scale","q":6},{"n":"Shiny Beetle","q":4}]
 								},
 								{
 									"index":462,
@@ -8211,7 +8301,7 @@
 				"recover":[3,3],"poison":[3,""],"para":[3,""],"sleep":[3,""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Iron Ore","q":4},{"n":"Sm Monster Bone","q":2}]
+				"forge":[{"n":"Iron Ore","q":4},{"n":"Monster Bone S","q":2}]
 			},
 			{
 				"index":2,
@@ -8253,7 +8343,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":"","water":"","thunder":"","ice":"","dragon":1,
 				"demon":"","armor":"",
-				"forge":[{"n":"Hornetaur Bladefin","q":3},{"n":"Hornetaur Wing","q":20},{"n":"Monster Broth","q":6},{"n":"Machalite Ore","q":10}]
+				"forge":[{"n":"Hornetaur Innerwing","q":3},{"n":"Hornetaur Wing","q":20},{"n":"Monster Broth","q":6},{"n":"Machalite Ore","q":10}]
 			},
 			{
 				"index":4,
@@ -8316,7 +8406,7 @@
 				"recover":[3,3],"poison":["",""],"para":["",""],"sleep":[3,1],
 				"flame":"","water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Iron Ore","q":6},{"n":"Sm Monster Bone","q":3},{"n":"Velociprey Scale","q":6},{"n":"Velociprey Hide","q":4}]
+				"forge":[{"n":"Iron Ore","q":6},{"n":"Monster Bone S","q":3},{"n":"Velociprey Scale","q":6},{"n":"Velociprey Hide","q":4}]
 			},
 			{
 				"index":7,
@@ -8337,7 +8427,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":[3,1],
 				"flame":"","water":"","thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Iron Ore","q":8},{"n":"Sm Monster Bone","q":4},{"n":"Genprey Scale","q":8},{"n":"Genprey Hide","q":6}]
+				"forge":[{"n":"Iron Ore","q":8},{"n":"Monster Bone S","q":4},{"n":"Genprey Scale","q":8},{"n":"Genprey Hide","q":6}]
 			},
 			{
 				"index":8,
@@ -8358,7 +8448,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Iron Ore","q":10},{"n":"Sm Monster Bone","q":5},{"n":"Ioprey Scale","q":10},{"n":"Ioprey Hide","q":3}]
+				"forge":[{"n":"Iron Ore","q":10},{"n":"Monster Bone S","q":5},{"n":"Ioprey Scale","q":10},{"n":"Ioprey Hide","q":3}]
 			},
 			{
 				"index":9,
@@ -8464,7 +8554,7 @@
 				"recover":["",3],"poison":["",1],"para":["",1],"sleep":["",1],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Ruststone","q":1}]
+				"forge":[{"n":"Rustshard","q":1}]
 			},
 			{
 				"index":25,
@@ -8506,7 +8596,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":3,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"King Scarab","q":6},{"n":"Bulldrome Hide+","q":2},{"n":"Guild Ticket","q":1},{"n":"Monster Bone+","q":3}]
+				"forge":[{"n":"King Scarab","q":6},{"n":"Bulldrome Hide+","q":2},{"n":"Guild Ticket","q":1},{"n":"Monster Hardbone","q":3}]
 			},
 			{
 				"index":29,
@@ -8569,7 +8659,7 @@
 				"recover":[3,3],"poison":["",""],"para":["",""],"sleep":[3,1],
 				"flame":3,"water":"","thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":1,
-				"forge":[{"n":"Pink Rathian Scale+","q":3},{"n":"Pink Rathian Carapace","q":5},{"n":"Carbalite Ore","q":6},{"n":"Wyvern Marrow","q":2}]
+				"forge":[{"n":"Pink Rathian Scale+","q":3},{"n":"Pink Rathian Carapace","q":5},{"n":"Carbalite Ore","q":6},{"n":"Rath Marrow","q":2}]
 			},
 			{
 				"index":32,
@@ -8590,7 +8680,7 @@
 				"recover":[3,3],"poison":["",""],"para":["",""],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":1,
-				"forge":[{"n":"Golden Rathian Shell","q":5},{"n":"Rathian Ruby","q":1},{"n":"Golden Rathian Scale","q":5},{"n":"Wyvern Marrow","q":10}]
+				"forge":[{"n":"Golden Rathian Carapace","q":5},{"n":"Rathian Ruby","q":1},{"n":"Golden Rathian Scale+","q":5},{"n":"Rath Marrow","q":10}]
 			},
 			{
 				"index":33,
@@ -8653,7 +8743,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":"",
-				"forge":[{"n":"Azure Rathalos Carapace","q":5},{"n":"Azure Rathalos Scale+","q":3},{"n":"Carbalite Ore","q":6},{"n":"Wyvern Marrow","q":2}]
+				"forge":[{"n":"Azure Rathalos Carapace","q":5},{"n":"Azure Rathalos Scale+","q":3},{"n":"Carbalite Ore","q":6},{"n":"Rath Marrow","q":2}]
 			},
 			{
 				"index":36,
@@ -8674,7 +8764,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":"",
-				"forge":[{"n":"Silver Rathalos Wing","q":1},{"n":"Rathalos Ruby","q":1},{"n":"Silver Rathalos Scale","q":5},{"n":"Wyvern Marrow","q":10}]
+				"forge":[{"n":"Silver Rathalos Wing","q":1},{"n":"Rathalos Ruby","q":1},{"n":"Silver Rathalos Scale+","q":5},{"n":"Rath Marrow","q":10}]
 			},
 			{
 				"index":37,
@@ -8682,7 +8772,8 @@
 				"rarity":7,
 				"price":7700,
 				"attack":168,
-				"defense":6,"rapidfire":" ",
+				"defense":6,
+				"rapidfire":" ",
 				"slots":2,
 				"affinity":0,
 				"reload":"Fast",
@@ -8695,7 +8786,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Wyvern Stone","q":1},{"n":"Rathalos Plate","q":1},{"n":"Rathian Plate","q":1},{"n":"Novacrystal","q":1}]
+				"forge":[{"n":"Wyvern Gem","q":1},{"n":"Rathalos Plate","q":1},{"n":"Rathian Plate","q":1},{"n":"Novacrystal","q":1}]
 			},
 			{
 				"index":38,
@@ -8703,7 +8794,8 @@
 				"rarity":5,
 				"price":3900,
 				"attack":144,
-				"defense":6,"rapidfire":"Normal Lv2, Pierce Lv1",
+				"defense":6,
+				"rapidfire":"Normal Lv2, Pierce Lv1",
 				"slots":0,
 				"affinity":0,
 				"reload":"Fast",
@@ -8724,8 +8816,7 @@
 				"rarity":4,
 				"price":3700,
 				"attack":144,
-				"rapidfire":
-				"Flame S",
+				"rapidfire":"Flaming S",
 				"slots":0,
 				"affinity":10,
 				"reload":"Very Fast",
@@ -8745,7 +8836,8 @@
 				"rarity":7,
 				"price":9200,
 				"attack":180,
-				"defense":6,"rapidfire":"Normal Lv2, Pierce Lv1",
+				"defense":6,
+				"rapidfire":"Normal Lv2, Pierce Lv1",
 				"slots":0,
 				"affinity":0,
 				"reload":"Fast",
@@ -8758,7 +8850,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Wyvern Stone","q":3},{"n":"Azure Rathalos Carapace","q":5},{"n":"Pink Rathian Carapace","q":5},{"n":"Novacrystal","q":2}]
+				"forge":[{"n":"Wyvern Gem","q":3},{"n":"Azure Rathalos Carapace","q":5},{"n":"Pink Rathian Carapace","q":5},{"n":"Novacrystal","q":2}]
 			},
 			{
 				"index":41,
@@ -8766,7 +8858,8 @@
 				"rarity":7,
 				"price":11050,
 				"attack":180,
-				"defense":10,"rapidfire":"Pierce Lv1, Pellet Lv1",
+				"defense":10,
+				"rapidfire":"Pierce Lv1, Pellet Lv1",
 				"slots":1,
 				"affinity":0,
 				"reload":"Fast",
@@ -8779,7 +8872,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Silver Rathalos Shell","q":5},{"n":"Golden Rathian Shell","q":5},{"n":"Rathalos Ruby","q":1},{"n":"Rathian Ruby","q":1}]
+				"forge":[{"n":"Silver Rathalos Carapace","q":5},{"n":"Golden Rathian Carapace","q":5},{"n":"Rathalos Ruby","q":1},{"n":"Rathian Ruby","q":1}]
 			},
 			{
 				"index":42,
@@ -8800,7 +8893,7 @@
 				"recover":[3,3],"poison":["",""],"para":["",""],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Velociprey Scale+","q":6},{"n":"Lg Monster Bone","q":3},{"n":"Velocidrome Claw+","q":2},{"n":"Glittering Beetle","q":3}]
+				"forge":[{"n":"Velociprey Scale+","q":6},{"n":"Monster Bone L","q":3},{"n":"Velocidrome Claw+","q":2},{"n":"Shiny Beetle","q":3}]
 			},
 			{
 				"index":43,
@@ -8821,7 +8914,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Genprey Scale+","q":5},{"n":"Lg Monster Bone","q":4},{"n":"Bulldrome Hide+","q":3},{"n":"Glittering Beetle","q":3}]
+				"forge":[{"n":"Genprey Scale+","q":5},{"n":"Monster Bone L","q":4},{"n":"Bulldrome Hide+","q":3},{"n":"Shiny Beetle","q":3}]
 			},
 			{
 				"index":44,
@@ -8842,7 +8935,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Ioprey Scale+","q":4},{"n":"Lg Monster Bone","q":5},{"n":"Kut-Ku Carapace","q":3},{"n":"Glittering Beetle","q":3}]
+				"forge":[{"n":"Ioprey Scale+","q":4},{"n":"Monster Bone L","q":5},{"n":"Kut-Ku Carapace","q":3},{"n":"Shiny Beetle","q":3}]
 			},
 			{
 				"index":45,
@@ -8863,7 +8956,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":6,"ice":6,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Monster Bone+","q":6},{"n":"White Velociprey Scale","q":10},{"n":"White Velociprey Hide","q":8},{"n":"Blango Pelt+","q":3}]
+				"forge":[{"n":"Monster Hardbone","q":6},{"n":"White Velociprey Scale","q":10},{"n":"White Velociprey Hide","q":8},{"n":"Blango Pelt+","q":3}]
 			},
 			{
 				"index":46,
@@ -8884,7 +8977,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Plesioth Scale+","q":5},{"n":"Plesioth Fin","q":4},{"n":"Joiner Grasshopper","q":6},{"n":"Union Ore","q":5}]
+				"forge":[{"n":"Plesioth Scale+","q":5},{"n":"Plesioth Fin","q":4},{"n":"Gluehopper","q":6},{"n":"Fucium Ore","q":5}]
 			},
 			{
 				"index":47,
@@ -8926,7 +9019,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":"","water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Cephalos Scale+","q":5},{"n":"Cephalos Topfin","q":3},{"n":"Machalite Ore","q":10},{"n":"King Scarab","q":3}]
+				"forge":[{"n":"Cephalos Scale+","q":5},{"n":"Cephalos Fin+","q":3},{"n":"Machalite Ore","q":10},{"n":"King Scarab","q":3}]
 			},
 			{
 				"index":49,
@@ -8989,7 +9082,7 @@
 				"recover":["",""],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Gravios Carapace","q":3},{"n":"Basarios Carapace","q":5},{"n":"Basarios Wing","q":2},{"n":"Union Ore","q":2}]
+				"forge":[{"n":"Gravios Carapace","q":3},{"n":"Basarios Carapace","q":5},{"n":"Basarios Wing","q":2},{"n":"Fucium Ore","q":2}]
 			},
 			{
 				"index":52,
@@ -8997,8 +9090,7 @@
 				"rarity":7,
 				"price":7400,
 				"attack":168,
-				"rapidfire":
-				"Flame S",
+				"rapidfire":"Flaming S",
 				"slots":0,
 				"affinity":10,
 				"reload":"Very Fast",
@@ -9011,7 +9103,7 @@
 				"recover":["",""],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Black Gravios Carapace","q":3},{"n":"Black Gravios Shell","q":5},{"n":"Black Gravios Skull","q":2},{"n":"Union Ore","q":2}]
+				"forge":[{"n":"Black Gravios Carapace","q":3},{"n":"Black Gravios Shell","q":5},{"n":"Black Gravios Skull","q":2},{"n":"Fucium Ore","q":2}]
 			},
 			{
 				"index":53,
@@ -9032,7 +9124,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Giant Beak","q":1},{"n":"Kut-Ku Ear","q":2},{"n":"Flabby Hide","q":2},{"n":"Joiner Grasshopper","q":3}]
+				"forge":[{"n":"Giant Beak","q":1},{"n":"Kut-Ku Ear","q":2},{"n":"Flabby Hide","q":2},{"n":"Gluehopper","q":3}]
 			},
 			{
 				"index":54,
@@ -9053,7 +9145,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":2,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Splendid Beak","q":1},{"n":"Long Kut-Ku Ear","q":2},{"n":"Khezu Hide - Tan","q":2},{"n":"King Scarab","q":1}]
+				"forge":[{"n":"Splendid Beak","q":1},{"n":"Kut-Ku Auricle","q":2},{"n":"Pearl Hide","q":2},{"n":"King Scarab","q":1}]
 			},
 			{
 				"index":55,
@@ -9074,7 +9166,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Gunner Ticket","q":10},{"n":"Solid Coin","q":20},{"n":"Eternal Coin","q":5},{"n":"Black Gravios Shell","q":3}]
+				"forge":[{"n":"Bowgun Ticket","q":10},{"n":"Robust Coin","q":20},{"n":"Eternal Coin","q":5},{"n":"Black Gravios Shell","q":3}]
 			},
 			{
 				"index":56,
@@ -9095,7 +9187,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Rathian Spike+","q":3},{"n":"Gunner Ticket","q":20},{"n":"Piscine Coin","q":6},{"n":"Novacrystal","q":2}]
+				"forge":[{"n":"Rathian Spike+","q":3},{"n":"Bowgun Ticket","q":20},{"n":"Piscine Coin","q":6},{"n":"Novacrystal","q":2}]
 			},
 			{
 				"index":57,
@@ -9116,7 +9208,7 @@
 				"recover":["",3],"poison":["",1],"para":["",1],"sleep":["",1],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Ancient Stone","q":1}]
+				"forge":[{"n":"Ancient Shard","q":1}]
 			},
 			{
 				"index":58,
@@ -9158,7 +9250,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":"","water":"","thunder":3,"ice":3,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Khezu Hide - Tan","q":3},{"n":"Lost Umbrella","q":1},{"n":"King Scarab","q":3},{"n":"Electro Sac","q":3}]
+				"forge":[{"n":"Pearl Hide","q":3},{"n":"Lost Umbrella","q":1},{"n":"King Scarab","q":3},{"n":"Electro Sac","q":3}]
 			},
 			{
 				"index":60,
@@ -9179,7 +9271,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":"","water":"","thunder":4,"ice":3,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Alluring Webbing","q":6},{"n":"Lost Umbrella","q":1},{"n":"Male Scarab Beetle","q":3},{"n":"Electro Sac","q":3}]
+				"forge":[{"n":"Alluring Webbing","q":6},{"n":"Lost Umbrella","q":1},{"n":"Rare Scarab","q":3},{"n":"Electro Sac","q":3}]
 			},
 			{
 				"index":77,
@@ -9242,7 +9334,7 @@
 				"recover":[3,3],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":6,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Garuga Carapace","q":3},{"n":"Razor Beak","q":2},{"n":"Flabby Hide","q":2},{"n":"Garuga Mane","q":2}]
+				"forge":[{"n":"Garuga Shell","q":3},{"n":"Sharpened Beak","q":2},{"n":"Flabby Hide","q":2},{"n":"Garuga Mane","q":2}]
 			},
 			{
 				"index":93,
@@ -9250,7 +9342,7 @@
 				"rarity":6,
 				"price":6350,
 				"attack":168,
-				"rapidfire":"Ice S",
+				"rapidfire":"Freeze S",
 				"slots":0,
 				"affinity":0,
 				"reload":"Normal",
@@ -9263,7 +9355,7 @@
 				"recover":[3,3],"poison":["",""],"para":["",""],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":4,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Blango Pelt+","q":4},{"n":"Blangonga Whisker","q":2},{"n":"Jumbo Bone","q":6},{"n":"Carbalite Ore","q":10}]
+				"forge":[{"n":"Blango Pelt+","q":4},{"n":"Blangonga Whisker","q":2},{"n":"Giant Bone","q":6},{"n":"Carbalite Ore","q":10}]
 			},
 			{
 				"index":94,
@@ -9284,7 +9376,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Rajang Pelt","q":1},{"n":"Rajang Pelt+","q":3},{"n":"Rajang Fang","q":3},{"n":"Monster Bone+","q":3}]
+				"forge":[{"n":"Rajang Pelt","q":1},{"n":"Rajang Blackfur","q":3},{"n":"Rajang Fang","q":3},{"n":"Monster Hardbone","q":3}]
 			},
 			{
 				"index":95,
@@ -9305,7 +9397,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":"",
-				"forge":[{"n":"Rathalos Carapace","q":6},{"n":"Rathalos Wing","q":2},{"n":"Ancient Bone","q":4},{"n":"Monster Bone+","q":6}]
+				"forge":[{"n":"Rathalos Carapace","q":6},{"n":"Rathalos Wing","q":2},{"n":"Elder Dragon Bone","q":4},{"n":"Monster Hardbone","q":6}]
 			},
 			{
 				"index":96,
@@ -9326,7 +9418,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":4,"thunder":3,"ice":3,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Lg Lobstershell","q":2},{"n":"Sm Lobstershell","q":2},{"n":"Plesioth Scale","q":3},{"n":"Machalite Ore","q":5}]
+				"forge":[{"n":"Lobstershell L","q":2},{"n":"Lobstershell S","q":2},{"n":"Plesioth Scale","q":3},{"n":"Machalite Ore","q":5}]
 			},
 			{
 				"index":97,
@@ -9368,7 +9460,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Green Plesioth Fin","q":4},{"n":"Green Plesioth Scale","q":5},{"n":"Joiner Grasshopper","q":6},{"n":"Union Ore","q":5}]
+				"forge":[{"n":"Green Plesioth Fin","q":4},{"n":"Green Plesioth Scale","q":5},{"n":"Gluehopper","q":6},{"n":"Fucium Ore","q":5}]
 			},
 			{
 				"index":104,
@@ -9389,7 +9481,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":4,"thunder":3,"ice":3,"dragon":"",
 				"demon":1,"armor":1,
-				"forge":[{"n":"Gt Lobstershell","q":1},{"n":"Plesioth Fin","q":2},{"n":"Plesioth Scale+","q":5},{"n":"King Scarab","q":3}]
+				"forge":[{"n":"Lobstershell G","q":1},{"n":"Plesioth Fin","q":2},{"n":"Plesioth Scale+","q":5},{"n":"King Scarab","q":3}]
 			},
 			{
 				"index":105,
@@ -9410,7 +9502,7 @@
 				"recover":[3,3],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":6,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Garuga Carapace","q":3},{"n":"Razor Beak","q":2},{"n":"Garuga Scale","q":3},{"n":"Wyvern Marrow","q":1}]
+				"forge":[{"n":"Garuga Shell","q":3},{"n":"Sharpened Beak","q":2},{"n":"Garuga Scale","q":3},{"n":"Rath Marrow","q":1}]
 			},
 			{
 				"index":123,
@@ -9456,7 +9548,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Iron Ore","q":10},{"n":"Sm Monster Bone","q":3}]
+				"forge":[{"n":"Iron Ore","q":10},{"n":"Monster Bone S","q":3}]
 			},
 			{
 				"index":14,
@@ -9476,7 +9568,7 @@
 				"recover":["",""],"poison":[3,1],"para":["",""],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Jumbo Bone","q":3},{"n":"Iron Ore","q":10},{"n":"Sm Monster Bone","q":10},{"n":"Sm Bone Husk","q":7}]
+				"forge":[{"n":"Giant Bone","q":3},{"n":"Iron Ore","q":10},{"n":"Monster Bone S","q":10},{"n":"Small Bone Husk","q":7}]
 			},
 			{
 				"index":15,
@@ -9556,7 +9648,7 @@
 				"recover":["",""],"poison":["",""],"para":[3,""],"sleep":[3,""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Firestone","q":2},{"n":"Sunshine Ore","q":10},{"n":"Machalite Ore","q":10}]
+				"forge":[{"n":"Firestone","q":2},{"n":"Sunlight Stone","q":10},{"n":"Machalite Ore","q":10}]
 			},
 			{
 				"index":19,
@@ -9565,6 +9657,7 @@
 				"price":4000,
 				"attack":204,
 				"defense":6,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Moderate",
@@ -9585,6 +9678,7 @@
 				"price":4800,
 				"attack":192,
 				"defense":6,
+
 				"slots":0,
 				"affinity":0,"reload":"Fast",
 				"recoil":"Moderate",
@@ -9596,7 +9690,7 @@
 				"recover":[3,3],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":6,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Carapace","q":5},{"n":"Alluring Hide","q":5},{"n":"Machalite Ore","q":10}]
+				"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Shell","q":5},{"n":"Alluring Hide","q":5},{"n":"Machalite Ore","q":10}]
 			},
 			{
 				"index":21,
@@ -9605,6 +9699,7 @@
 				"price":10500,
 				"attack":264,
 				"defense":10,
+
 				"slots":1,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Small",
@@ -9616,7 +9711,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Lao-Shan Shell","q":4},{"n":"Lao-Shan Scale","q":6},{"n":"Rathian Plate","q":2},{"n":"Joiner Grasshopper","q":8}]
+				"forge":[{"n":"Lao-Shan Shell","q":4},{"n":"Lao-Shan Scale","q":6},{"n":"Rathian Plate","q":2},{"n":"Gluehopper","q":8}]
 			},
 			{
 				"index":22,
@@ -9636,7 +9731,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":1,
 				"demon":1,"armor":1,
-				"forge":[{"n":"Vespoid Shell","q":6},{"n":"Vespoid Wing","q":3},{"n":"Sunshine Ore","q":3},{"n":"Sm Monster Bone","q":10}]
+				"forge":[{"n":"Vespoid Shell","q":6},{"n":"Vespoid Wing","q":3},{"n":"Sunlight Stone","q":3},{"n":"Monster Bone S","q":10}]
 			},
 			{
 				"index":23,
@@ -9656,7 +9751,7 @@
 				"recover":["",""],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":1,
 				"demon":1,"armor":"",
-				"forge":[{"n":"Hercules Beetle","q":1},{"n":"Hornetaur Shell","q":4},{"n":"Vespoid Carapace","q":2},{"n":"Vespoid Abdomen","q":1}]
+				"forge":[{"n":"Hercudrome","q":1},{"n":"Hornetaur Shell","q":4},{"n":"Vespoid Carapace","q":2},{"n":"Vespoid Abdomen","q":1}]
 			},
 			{
 				"index":26,
@@ -9676,7 +9771,7 @@
 				"recover":["",""],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Black Gravios Carapace","q":5},{"n":"Black Gravios Skull","q":1},{"n":"Basarios Wing","q":1},{"n":"Monster Bone+","q":2}]
+				"forge":[{"n":"Black Gravios Carapace","q":5},{"n":"Black Gravios Skull","q":1},{"n":"Basarios Wing","q":1},{"n":"Monster Hardbone","q":2}]
 			},
 			{
 				"index":27,
@@ -9685,6 +9780,7 @@
 				"price":14100,
 				"attack":264,
 				"defense":10,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Moderate",
@@ -9696,7 +9792,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Blue Kut-Ku Carapace","q":8},{"n":"Long Kut-Ku Ear","q":2},{"n":"Alluring Hide","q":10},{"n":"Alluring Webbing","q":2}]
+				"forge":[{"n":"Blue Kut-Ku Carapace","q":8},{"n":"Kut-Ku Auricle","q":2},{"n":"Alluring Hide","q":10},{"n":"Alluring Webbing","q":2}]
 			},
 			{
 				"index":61,
@@ -9716,7 +9812,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":["",""],
 				"flame":3,"water":3,"thunder":3,"ice":3,"dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"King Scarab","q":6},{"n":"Bulldrome Hide+","q":3},{"n":"Guild Ticket","q":2},{"n":"Monster Bone+","q":3}]
+				"forge":[{"n":"King Scarab","q":6},{"n":"Bulldrome Hide+","q":3},{"n":"Guild Ticket","q":2},{"n":"Monster Hardbone","q":3}]
 			},
 			{
 				"index":62,
@@ -9756,7 +9852,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":[3,1],
 				"flame":3,"water":3,"thunder":3,"ice":3,"dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Purple Gypceros Wing","q":1},{"n":"Purple Rubbery Hide","q":5},{"n":"Joiner Grasshopper","q":3}]
+				"forge":[{"n":"Gypceros Wing","q":1},{"n":"Rubbery Finehide","q":5},{"n":"Gluehopper","q":3}]
 			},
 			{
 				"index":64,
@@ -9785,6 +9881,7 @@
 				"price":6500,
 				"attack":228,
 				"defense":10,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Fast",
 				"recoil":"Moderate",
@@ -9796,7 +9893,7 @@
 				"recover":["",""],"poison":["",""],"para":["",""],"sleep":["",""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Diablos Spine","q":1},{"n":"Diablos Shell","q":5},{"n":"Iron Ore","q":20},{"n":"Twisted Black Blos Horn","q":2}]
+				"forge":[{"n":"Diablos Ridge","q":1},{"n":"Diablos Shell","q":5},{"n":"Iron Ore","q":20},{"n":"Black Twisted Horn","q":2}]
 			},
 			{
 				"index":66,
@@ -9805,6 +9902,7 @@
 				"price":12500,
 				"attack":252,
 				"defense":14,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Fast",
 				"recoil":"Moderate",
@@ -9816,7 +9914,7 @@
 				"recover":["",""],"poison":["",""],"para":["",""],"sleep":["",""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Diablos Thoracic","q":2},{"n":"Diablos Carapace","q":3},{"n":"Carbalite Ore","q":10},{"n":"Majestic Horn","q":2}]
+				"forge":[{"n":"Diablos Ridge+","q":2},{"n":"Diablos Carapace","q":3},{"n":"Carbalite Ore","q":10},{"n":"Majestic Horn","q":2}]
 			},
 			{
 				"index":67,
@@ -9825,6 +9923,7 @@
 				"price":5100,
 				"attack":204,
 				"defense":10,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Fast",
 				"recoil":"Moderate",
@@ -9836,7 +9935,7 @@
 				"recover":["",""],"poison":["",""],"para":["",""],"sleep":["",""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"White Monoblos Spine","q":3},{"n":"White Monoblos Shell","q":5},{"n":"Machalite Ore","q":15},{"n":"White Monoblos Horn","q":2}]
+				"forge":[{"n":"White Monoblos Ridge","q":3},{"n":"White Monoblos Shell","q":5},{"n":"Machalite Ore","q":15},{"n":"Silver Horn","q":2}]
 			},
 			{
 				"index":68,
@@ -9845,6 +9944,7 @@
 				"price":10000,
 				"attack":228,
 				"defense":14,
+
 				"slots":0,
 				"affinity":0,"reload":"Very Fast",
 				"recoil":"Moderate",
@@ -9856,7 +9956,7 @@
 				"recover":["",""],"poison":["",""],"para":["",""],"sleep":["",""],
 				"flame":"","water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Monster Bone+","q":6},{"n":"White Monoblos Spine","q":5},{"n":"White Monoblos Shell","q":5},{"n":"Monoblos Heart","q":1}]
+				"forge":[{"n":"Monster Hardbone","q":6},{"n":"White Monoblos Ridge","q":5},{"n":"White Monoblos Shell","q":5},{"n":"Monoblos Heart","q":1}]
 			},
 			{
 				"index":69,
@@ -9885,6 +9985,7 @@
 				"price":13750,
 				"attack":240,
 				"defense":14,
+
 				"slots":1,
 				"affinity":0,"reload":"Fast",
 				"recoil":"Moderate",
@@ -9896,7 +9997,7 @@
 				"recover":[3,""],"poison":[3,""],"para":[3,""],"sleep":[3,""],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Fatalis' Scale","q":2},{"n":"Guild Ticket","q":2},{"n":"Bond of Comrades","q":5},{"n":"Comrade's Mark","q":5}]
+				"forge":[{"n":"Fatalis' Scale","q":2},{"n":"Guild Ticket","q":2},{"n":"Bond Ticket","q":5},{"n":"Friendship Ticket","q":5}]
 			},
 			{
 				"index":71,
@@ -9905,6 +10006,7 @@
 				"price":16500,
 				"attack":228,
 				"defense":20,
+
 				"slots":0,
 				"affinity":0,"reload":"Fast",
 				"recoil":"Moderate",
@@ -9916,7 +10018,7 @@
 				"recover":[3,""],"poison":[3,""],"para":[3,""],"sleep":[3,""],
 				"flame":6,"water":6,"thunder":6,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Fatalis Crimson Shell","q":2},{"n":"Fatalis Crimson Horn","q":2},{"n":"Fatalis' Scale","q":2},{"n":"Carbalite Ore","q":20}]
+				"forge":[{"n":"Crimson Fatalis Shell","q":2},{"n":"Crimson Fatalis Horn","q":2},{"n":"Fatalis' Scale","q":2},{"n":"Carbalite Ore","q":20}]
 			},
 			{
 				"index":72,
@@ -9925,6 +10027,7 @@
 				"price":11750,
 				"attack":252,
 				"defense":10,
+
 				"slots":1,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Moderate",
@@ -9936,7 +10039,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Long Kut-Ku Ear","q":2},{"n":"Kut-Ku Carapace","q":8},{"n":"Khezu Hide - Tan","q":2},{"n":"Machalite Ore","q":15}]
+				"forge":[{"n":"Kut-Ku Auricle","q":2},{"n":"Kut-Ku Carapace","q":8},{"n":"Pearl Hide","q":2},{"n":"Machalite Ore","q":15}]
 			},
 			{
 				"index":73,
@@ -9945,6 +10048,7 @@
 				"price":17500,
 				"attack":288,
 				"defense":20,
+
 				"slots":1,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Small",
@@ -9965,6 +10069,7 @@
 				"price":25000,
 				"attack":312,
 				"defense":14,
+
 				"slots":0,
 				"affinity":-10,"reload":"Very Slow",
 				"recoil":"Small",
@@ -9976,7 +10081,7 @@
 				"recover":["",""],"poison":["",1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":3,"thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Azure Lao-Shan Shell","q":5},{"n":"Lao-Shan Ruby","q":1},{"n":"Rajang Pelt+","q":1},{"n":"Lao-Shan Carapace","q":5}]
+				"forge":[{"n":"Azure Lao-Shan Shell","q":5},{"n":"Lao-Shan Ruby","q":1},{"n":"Rajang Blackfur","q":1},{"n":"Lao-Shan Carapace","q":5}]
 			},
 			{
 				"index":75,
@@ -10016,7 +10121,7 @@
 				"recover":["",""],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":3,"water":"","thunder":3,"ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Gravios Carapace","q":5},{"n":"Gravios Skull","q":1},{"n":"Basarios Wing","q":2},{"n":"Glittering Beetle","q":15}]
+				"forge":[{"n":"Gravios Carapace","q":5},{"n":"Gravios Skull","q":1},{"n":"Basarios Wing","q":2},{"n":"Shiny Beetle","q":15}]
 			},
 			{
 				"index":98,
@@ -10036,7 +10141,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":"","water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":"",
-				"forge":[{"n":"Daora Shell","q":3},{"n":"Daora Scale","q":5},{"n":"Elder Dragon Blood","q":1},{"n":"Jumbo Bone","q":3}]
+				"forge":[{"n":"Daora Shell","q":3},{"n":"Daora Scale","q":5},{"n":"Elder Dragon Blood","q":1},{"n":"Giant Bone","q":3}]
 			},
 			{
 				"index":99,
@@ -10045,6 +10150,7 @@
 				"price":5750,
 				"attack":204,
 				"defense":10,
+
 				"slots":0,
 				"affinity":0,"reload":"Fast",
 				"recoil":"Moderate",
@@ -10056,7 +10162,7 @@
 				"recover":[3,3],"poison":[3,1],"para":["",""],"sleep":["",""],
 				"flame":6,"water":"","thunder":"","ice":"","dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Carapace","q":8},{"n":"Garuga Scale","q":3},{"n":"Wyvern Marrow","q":1}]
+				"forge":[{"n":"Garuga Ear","q":2},{"n":"Garuga Shell","q":8},{"n":"Garuga Scale","q":3},{"n":"Rath Marrow","q":1}]
 			},
 			{
 				"index":100,
@@ -10065,6 +10171,7 @@
 				"price":2800,
 				"attack":180,
 				"defense":6,
+
 				"slots":2,
 				"affinity":0,"reload":"Slow",
 				"recoil":"Moderate",
@@ -10076,7 +10183,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":["",""],
 				"flame":"","water":3,"thunder":"","ice":3,"dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Hermitaur Shell","q":4},{"n":"Sm Hermitaur Shell","q":6},{"n":"Piscine Fang","q":4},{"n":"Jumbo Bone","q":3}]
+				"forge":[{"n":"Hermitaur Shell","q":4},{"n":"Hermitaur Shell S","q":6},{"n":"Piscine Fang","q":4},{"n":"Giant Bone","q":3}]
 			},
 			{
 				"index":101,
@@ -10085,6 +10192,7 @@
 				"price":16000,
 				"attack":252,
 				"defense":10,
+
 				"slots":1,
 				"affinity":0,"reload":"Very Slow",
 				"recoil":"Moderate",
@@ -10096,7 +10204,7 @@
 				"recover":["",""],"poison":["",""],"para":["",""],"sleep":["",""],
 				"flame":6,"water":"","thunder":"","ice":"","dragon":2,
 				"demon":1,"armor":1,
-				"forge":[{"n":"Gaoren Pincers","q":2},{"n":"Gaoren Shell","q":5},{"n":"Firestone","q":6},{"n":"Bond of Comrades","q":5}]
+				"forge":[{"n":"Gaoren Pincer","q":2},{"n":"Gaoren Shell","q":5},{"n":"Firestone","q":6},{"n":"Bond Ticket","q":5}]
 			},
 			{
 				"index":102,
@@ -10105,6 +10213,7 @@
 				"price":4850,
 				"attack":180,
 				"defense":10,
+
 				"slots":0,
 				"affinity":0,"reload":"Slow",
 				"recoil":"Moderate",
@@ -10146,6 +10255,7 @@
 				"price":10650,
 				"attack":228,
 				"defense":20,
+
 				"slots":2,
 				"affinity":0,"reload":"Slow",
 				"recoil":"Moderate",
@@ -10166,6 +10276,7 @@
 				"price":11000,
 				"attack":240,
 				"defense":10,
+
 				"slots":2,
 				"affinity":0,"reload":"Slow",
 				"recoil":"Moderate",
@@ -10177,7 +10288,7 @@
 				"recover":[3,3],"poison":["",""],"para":[3,1],"sleep":["",""],
 				"flame":"","water":3,"thunder":"","ice":3,"dragon":"",
 				"demon":"","armor":"",
-				"forge":[{"n":"Hermitaur Carapace","q":6},{"n":"Hermitaur Shell","q":10},{"n":"Piscine Fang","q":8},{"n":"Union Ore","q":2}]
+				"forge":[{"n":"Hermitaur Shell+","q":6},{"n":"Hermitaur Shell","q":10},{"n":"Piscine Fang","q":8},{"n":"Fucium Ore","q":2}]
 			},
 			{
 				"index":127,
@@ -10197,7 +10308,7 @@
 				"recover":[3,3],"poison":[3,1],"para":[3,1],"sleep":["",""],
 				"flame":"","water":3,"thunder":"","ice":"","dragon":"",
 				"demon":1,"armor":"",
-				"forge":[{"n":"Daora Gem","q":1},{"n":"Daora Carapace","q":5},{"n":"Elder Dragon Blood","q":2},{"n":"Monster Bone+","q":3}]
+				"forge":[{"n":"Daora Gem","q":1},{"n":"Daora Carapace","q":5},{"n":"Elder Dragon Blood","q":2},{"n":"Monster Hardbone","q":3}]
 			}
 		]
 	},
@@ -10215,7 +10326,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Rapid","level":1},{"type":"Rapid","level":2},{"type":"Scatter","level":2}],
 					"powerCoating":1,"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Sm Monster Bone","q":3},{"n":"Iron Ore","q":5},{"n":"Kelbi Hide","q":6}],
+					"forge":[{"n":"Monster Bone S","q":3},{"n":"Iron Ore","q":5},{"n":"Kelbi Hide","q":6}],
 					"branchStart":true
 				},
 				{
@@ -10228,7 +10339,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Rapid","level":2},{"type":"Rapid","level":3},{"type":"Scatter","level":2}],
 					"powerCoating":1,"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"upgrade":[{"n":"Jumbo Bone","q":2},{"n":"Sunshine Ore","q":10},{"n":"Velocidrome Claw","q":3}]
+					"upgrade":[{"n":"Giant Bone","q":2},{"n":"Sunlight Stone","q":10},{"n":"Velocidrome Claw","q":3}]
 				},
 				{
 					"index":78,
@@ -10271,8 +10382,8 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Pierce","level":1},{"type":"Pierce","level":2},{"type":"Pierce","level":3},{"type":"Rapid","level":3}],
 					"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Conga Pelt","q":4},{"n":"Sharp Claw","q":2},{"n":"Jumbo Bone","q":2},{"n":"Bone","q":7}],
-					"upgrade":[{"n":"Conga Pelt","q":4},{"n":"Jumbo Bone","q":4},{"n":"Bone","q":4}]
+					"forge":[{"n":"Conga Pelt","q":4},{"n":"Sharp Claw","q":2},{"n":"Giant Bone","q":2},{"n":"Bone","q":7}],
+					"upgrade":[{"n":"Conga Pelt","q":4},{"n":"Giant Bone","q":4},{"n":"Bone","q":4}]
 				},
 				{
 					"index":79,
@@ -10284,7 +10395,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Pierce","level":1},{"type":"Rapid","level":2},{"type":"Pierce","level":3},{"type":"Rapid","level":4}],
 					"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"upgrade":[{"n":"Conga Pelt","q":4},{"n":"Congalala Fang","q":2},{"n":"Med Monster Bone","q":3}],
+					"upgrade":[{"n":"Conga Pelt","q":4},{"n":"Congalala Fang","q":2},{"n":"Monster Bone M","q":3}],
 					"branchBend":true
 				}
 			]
@@ -10302,7 +10413,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Scatter","level":1},{"type":"Scatter","level":2},{"type":"Scatter","level":3},{"type":"Rapid","level":3}],
 					"powerCoating":1,"poisonCoating":1,
-					"forge":[{"n":"Rathian Shell","q":3},{"n":"Blango Pelt","q":4},{"n":"Rathalos Claw","q":2},{"n":"Earth Crystal","q":6}],
+					"forge":[{"n":"Rathian Shell","q":3},{"n":"Blango Pelt","q":4},{"n":"Rath Wingtalon","q":2},{"n":"Earth Crystal","q":6}],
 					"branchStart":true
 				},
 				{
@@ -10315,7 +10426,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Scatter","level":3},{"type":"Pierce","level":3},{"type":"Scatter","level":4},{"type":"Rapid","level":4}],
 					"powerCoating":1,"poisonCoating":1,
-					"upgrade":[{"n":"Rathian Shell","q":3},{"n":"Sm Ceanataur Shell","q":4},{"n":"Joiner Grasshopper","q":4}],
+					"upgrade":[{"n":"Rathian Shell","q":3},{"n":"Ceanataur Shell S","q":4},{"n":"Gluehopper","q":4}],
 					"branchBend":true
 				}
 			]
@@ -10330,11 +10441,12 @@
 					"price":9750,
 					"attack":180,
 					"defense":10,
+
 					"slots":2,
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Rapid","level":2},{"type":"Rapid","level":3},{"type":"Pierce","level":4}],
 					"powerCoating":1,"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Basarios Shell","q":4},{"n":"Machalite Ore","q":3},{"n":"Lg Monster Bone","q":1},{"n":"Iron Ore","q":20}],
+					"forge":[{"n":"Basarios Shell","q":4},{"n":"Machalite Ore","q":3},{"n":"Monster Bone L","q":1},{"n":"Iron Ore","q":20}],
 					"branchStart":true
 				},
 				{
@@ -10344,6 +10456,7 @@
 					"price":11550,
 					"attack":204,
 					"defense":20,
+
 					"slots":3,
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":2},{"type":"Rapid","level":2},{"type":"Rapid","level":3},{"type":"Pierce","level":4}],
@@ -10366,7 +10479,7 @@
 					"affinity":10,
 					"chargeLevels":[{"type":"Scatter","level":1},{"type":"Scatter","level":2},{"type":"Pierce","level":3},{"type":"Scatter","level":3}],
 					"powerCoating":1,"paraCoating":1,
-					"forge":[{"n":"Pink Rathian Shell","q":3},{"n":"Pink Rathian Scale","q":4},{"n":"Rathalos Claw","q":3},{"n":"Flabby Hide","q":4}],
+					"forge":[{"n":"Pink Rathian Shell","q":3},{"n":"Pink Rathian Scale","q":4},{"n":"Rath Wingtalon","q":3},{"n":"Flabby Hide","q":4}],
 					"branchStart":true
 				},
 				{
@@ -10379,7 +10492,7 @@
 					"affinity":20,
 					"chargeLevels":[{"type":"Scatter","level":2},{"type":"Scatter","level":3},{"type":"Pierce","level":3},{"type":"Pierce","level":4}],
 					"powerCoating":1,"paraCoating":1,
-					"upgrade":[{"n":"Pink Rathian Shell","q":3},{"n":"Lg Monster Bone","q":1},{"n":"Twisted Horn","q":2}],
+					"upgrade":[{"n":"Pink Rathian Shell","q":3},{"n":"Monster Bone L","q":1},{"n":"Twisted Horn","q":2}],
 					"branchBend":true
 				}
 			]
@@ -10417,7 +10530,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":2},{"type":"Scatter","level":2},{"type":"Pierce","level":2},{"type":"Pierce","level":4}],
 					"powerCoating":1,"poisonCoating":1,
-					"upgrade":[{"n":"Rathalos Shell","q":6},{"n":"Wyvern Marrow","q":1},{"n":"Firestone","q":2}],
+					"upgrade":[{"n":"Rathalos Shell","q":6},{"n":"Rath Marrow","q":1},{"n":"Firestone","q":2}],
 					"branchBend":true
 				}
 			]
@@ -10439,7 +10552,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Pierce","level":1},{"type":"Rapid","level":2},{"type":"Scatter","level":2},{"type":"Scatter","level":3}],
 					"powerCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Flame Dragon Claw","q":2},{"n":"Flame Dragon Shell","q":1},{"n":"Teostra Shell","q":1},{"n":"Firestone","q":2}],
+					"forge":[{"n":"Flame Dragon Claw","q":2},{"n":"Lunastra Shell","q":1},{"n":"Teostra Shell","q":1},{"n":"Firestone","q":2}],
 					"branchStart":true
 				},
 				{
@@ -10455,7 +10568,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Pierce","level":1},{"type":"Rapid","level":3},{"type":"Scatter","level":3},{"type":"Scatter","level":4}],
 					"powerCoating":1,"sleepCoating":1,
-					"upgrade":[{"n":"Elder Dragon Blood","q":1},{"n":"Flame Dragon Shell","q":3},{"n":"Teostra Shell","q":3}],
+					"upgrade":[{"n":"Elder Dragon Blood","q":1},{"n":"Lunastra Shell","q":3},{"n":"Teostra Shell","q":3}],
 					"branchBend":true
 				}
 			]
@@ -10473,7 +10586,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Rapid","level":2},{"type":"Pierce","level":2},{"type":"Pierce","level":3}],
 					"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Conga Pelt+","q":3},{"n":"Congalala Fang","q":10},{"n":"Jumbo Bone","q":20},{"n":"Carbalite Ore","q":6}],
+					"forge":[{"n":"Conga Pelt+","q":3},{"n":"Congalala Fang","q":10},{"n":"Giant Bone","q":20},{"n":"Carbalite Ore","q":6}],
 					"branchStart":true
 				},
 				{
@@ -10508,7 +10621,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Rapid","level":1},{"type":"Rapid","level":2},{"type":"Scatter","level":2}],
 					"powerCoating":1,"paraCoating":1,
-					"forge":[{"n":"Hornetaur Bladefin","q":3},{"n":"Vespoid Carapace","q":10},{"n":"Monster Broth","q":5},{"n":"Blango Pelt+","q":4}],
+					"forge":[{"n":"Hornetaur Innerwing","q":3},{"n":"Vespoid Carapace","q":10},{"n":"Monster Broth","q":5},{"n":"Blango Pelt+","q":4}],
 					"branchStart":true
 				},
 				{
@@ -10524,7 +10637,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Scatter","level":1},{"type":"Rapid","level":3},{"type":"Scatter","level":3}],
 					"powerCoating":1,"paraCoating":1,
-					"upgrade":[{"n":"Hornetaur Bladefin","q":2},{"n":"Vespoid Carapace","q":2},{"n":"Daora Claw","q":2}]
+					"upgrade":[{"n":"Hornetaur Innerwing","q":2},{"n":"Vespoid Carapace","q":2},{"n":"Daora Claw","q":2}]
 				},
 				{
 					"index":84,
@@ -10539,7 +10652,7 @@
 					"affinity":0,
 					"chargeLevels":[{"type":"Rapid","level":1},{"type":"Scatter","level":2},{"type":"Rapid","level":3},{"type":"Scatter","level":4}],
 					"powerCoating":1,"paraCoating":1,
-					"upgrade":[{"n":"Hornetaur Bladefin","q":2},{"n":"Union Ore","q":3},{"n":"Blangonga Fang+","q":2}],
+					"upgrade":[{"n":"Hornetaur Innerwing","q":2},{"n":"Fucium Ore","q":3},{"n":"Blangonga Fang+","q":2}],
 					"branchBend":true
 				}
 			]
@@ -10554,11 +10667,12 @@
 					"price":42900,
 					"attack":216,
 					"defense":10,
+
 					"slots":1,
 					"affinity":10,
 					"chargeLevels":[{"type":"Pierce","level":2},{"type":"Pierce","level":2},{"type":"Pierce","level":3},{"type":"Scatter","level":2}],
 					"powerCoating":1,
-					"forge":[{"n":"Diablos Carapace","q":2},{"n":"Majestic Horn","q":2},{"n":"Wyvern Stone","q":1},{"n":"Monster Broth","q":5}],
+					"forge":[{"n":"Diablos Carapace","q":2},{"n":"Majestic Horn","q":2},{"n":"Wyvern Gem","q":1},{"n":"Monster Broth","q":5}],
 					"branchStart":true
 				},
 				{
@@ -10568,11 +10682,12 @@
 					"price":82500,
 					"attack":276,
 					"defense":20,
+
 					"slots":1,
 					"affinity":10,
 					"chargeLevels":[{"type":"Pierce","level":2},{"type":"Pierce","level":3},{"type":"Pierce","level":4},{"type":"Scatter","level":3}],
 					"powerCoating":1,
-					"upgrade":[{"n":"Diablos Thoracic","q":1},{"n":"Diablos Shell","q":6},{"n":"Majestic Horn","q":1}],
+					"upgrade":[{"n":"Diablos Ridge+","q":1},{"n":"Diablos Shell","q":6},{"n":"Majestic Horn","q":1}],
 					"branchBend":true
 				}
 			]
@@ -10606,13 +10721,14 @@
 					"price":250000,
 					"attack":276,
 					"defense":20,
+
 					"attribute":"dragon",
 					"attributeAlt":"Dragon",
 					"attributeValue":270,
 					"slots":0,
 					"affinity":0,
 					"chargeLevels":[{"type":"Scatter","level":1},{"type":"Pierce","level":3},{"type":"Rapid","level":3},{"type":"Rapid","level":4}],
-					"forge":[{"n":"Fatalis White Horn","q":4},{"n":"Fatalis White Scale","q":2},{"n":"Fatalis White Shell","q":1}],
+					"forge":[{"n":"White Fatalis Horn","q":4},{"n":"White Fatalis Scale","q":2},{"n":"White Fatalis Shell","q":1}],
 					"branchStart":true
 				}
 			]
@@ -10627,6 +10743,7 @@
 					"price":10000,
 					"attack":156,
 					"defense":10,
+
 					"attribute":"water",
 					"attributeAlt":"Water",
 					"attributeValue":170,
@@ -10694,7 +10811,7 @@
 					"affinity":10,
 					"chargeLevels":[{"type":"Scatter","level":1},{"type":"Scatter","level":3},{"type":"Pierce","level":2},{"type":"Pierce","level":4}],
 					"powerCoating":1,"poisonCoating":1,"paraCoating":1,"sleepCoating":1,
-					"forge":[{"n":"Dragon Wood","q":2},{"n":"Yama Fin","q":3},{"n":"Yama Fluid","q":3},{"n":"Comrade's Mark","q":5}],
+					"forge":[{"n":"Dragonwood","q":2},{"n":"Yama Tsukami Fin","q":3},{"n":"Yama Tsukami Fluid","q":3},{"n":"Friendship Ticket","q":5}],
 					"branchStart":true
 				}
 			]

@@ -49,7 +49,7 @@
 							"materials":[
 								{"name":"Secret Stash","percent":72},
 								{"name":"Felvine","percent":10},
-								{"name":"Meatball Stamp","percent":3},
+								{"name":"Pawprint Stamp","percent":3},
 								{"name":"Glutton Tuna","percent":15}
 							]
 						}
@@ -63,8 +63,8 @@
 							"materials":[
 								{"name":"Secret Stash","percent":64},
 								{"name":"Felvine","percent":20},
-								{"name":"Meatball Stamp","percent":4},
-								{"name":"Glutton Tuna+","percent":12}
+								{"name":"Pawprint Stamp","percent":4},
+								{"name":"Gastronome Tuna","percent":12}
 							]
 						}
 					]
@@ -95,9 +95,9 @@
 						{
 							"name":"Helmet","carveCount":1,
 							"materials":[
-								{"name":"Hopi Wine","percent":64},
-								{"name":"Golden Wine","percent":34},
-								{"name":"Asura Pearl","percent":2}
+								{"name":"Hopi","percent":64},
+								{"name":"Golden Sake","percent":34},
+								{"name":"Bloodrun Jewel","percent":2}
 							]
 						}
 					]
@@ -108,10 +108,10 @@
 						{
 							"name":"Helmet","carveCount":1,
 							"materials":[
-								{"name":"Hopi Wine","percent":56},
-								{"name":"Golden Wine","percent":32},
-								{"name":"Demon Mushroom","percent":8},
-								{"name":"Elder Beans","percent":4}
+								{"name":"Hopi","percent":56},
+								{"name":"Golden Sake","percent":32},
+								{"name":"Matsutake","percent":8},
+								{"name":"Ancient Beans","percent":4}
 							]
 						}
 					]
@@ -142,9 +142,9 @@
 						{
 							"name":"Helmet","carveCount":1,
 							"materials":[
-								{"name":"Hopi Wine","percent":64},
-								{"name":"Golden Wine","percent":34},
-								{"name":"Asura Pearl","percent":2}
+								{"name":"Hopi","percent":64},
+								{"name":"Golden Sake","percent":34},
+								{"name":"Bloodrun Jewel","percent":2}
 							]
 						}
 					]
@@ -155,10 +155,10 @@
 						{
 							"name":"Helmet","carveCount":1,
 							"materials":[
-								{"name":"Hopi Wine","percent":54},
-								{"name":"Golden Wine","percent":34},
+								{"name":"Hopi","percent":54},
+								{"name":"Golden Sake","percent":34},
 								{"name":"Song for the Beginning","percent":8},
-								{"name":"Women's BBQ Spit","percent":4}
+								{"name":"Ladies' BBQ Spit","percent":4}
 							]
 						}
 					]
@@ -206,7 +206,7 @@
 								{"name":"Monster Broth","percent":14},
 								{"name":"Vespoid Carapace","percent":26},
 								{"name":"Vespoid Wing","percent":52},
-								{"name":"Vespoid Bladefin","percent":8}
+								{"name":"Vespoid Innerwing","percent":8}
 							]
 						}
 					]
@@ -253,7 +253,7 @@
 							"materials":[
 								{"name":"Monster Broth","percent":16},
 								{"name":"Hornetaur Shell","percent":21},
-								{"name":"Hornetaur Bladefin","percent":10},
+								{"name":"Hornetaur Innerwing","percent":10},
 								{"name":"Hornetaur Wing","percent":46},
 								{"name":"Hornetaur Head","percent":7}
 							]
@@ -378,7 +378,7 @@
 						{
 							"name":"Body","carveCount":1,
 							"materials":[
-								{"name":"Special Mushroom","percent":17},
+								{"name":"Unique Mushroom","percent":17},
 								{"name":"Blue Mushroom","percent":45},
 								{"name":"Raw Meat","percent":31},
 								{"name":"Mosswine Hide","percent":5},
@@ -393,7 +393,7 @@
 						{
 							"name":"Body","carveCount":1,
 							"materials":[
-								{"name":"Special Mushroom","percent":17},
+								{"name":"Unique Mushroom","percent":17},
 								{"name":"Blue Mushroom","percent":45},
 								{"name":"Raw Meat","percent":25},
 								{"name":"Mosswine Hide","percent":8},
@@ -430,7 +430,7 @@
 							"materials":[
 								{"name":"Raw Meat","percent":24},
 								{"name":"Anteka Pelt","percent":14},
-								{"name":"Anteka Horn","percent":38},
+								{"name":"Anteka Antler","percent":38},
 								{"name":"White Liver","percent":24}
 							]
 						}
@@ -444,7 +444,7 @@
 							"materials":[
 								{"name":"Raw Meat","percent":24},
 								{"name":"Anteka Pelt","percent":14},
-								{"name":"Anteka Horn","percent":38},
+								{"name":"Anteka Antler","percent":38},
 								{"name":"White Liver","percent":24}
 							]
 						}
@@ -477,7 +477,7 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Raw Meat","percent":24},
-								{"name":"Sm Monster Bone","percent":34},
+								{"name":"Monster Bone S","percent":34},
 								{"name":"Popo Tongue","percent":42}
 							]
 						}
@@ -490,7 +490,7 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Raw Meat","percent":24},
-								{"name":"Sm Monster Bone","percent":34},
+								{"name":"Monster Bone S","percent":34},
 								{"name":"Popo Tongue","percent":42}
 							]
 						}
@@ -522,7 +522,7 @@
 						{
 							"name":"Body","carveCount":2,
 							"materials":[
-								{"name":"Sm Monster Bone","percent":25},
+								{"name":"Monster Bone S","percent":25},
 								{"name":"Raw Meat","percent":75}
 							]
 						}
@@ -534,7 +534,7 @@
 						{
 							"name":"Body","carveCount":2,
 							"materials":[
-								{"name":"Sm Monster Bone","percent":25},
+								{"name":"Monster Bone S","percent":25},
 								{"name":"Raw Meat","percent":75}
 							]
 						}
@@ -568,8 +568,8 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Raw Meat","percent":47},
-								{"name":"Sm Monster Bone","percent":45},
-								{"name":"Med Monster Bone","percent":8}
+								{"name":"Monster Bone S","percent":45},
+								{"name":"Monster Bone M","percent":8}
 							]
 						}
 					]
@@ -581,8 +581,8 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Raw Meat","percent":43},
-								{"name":"Sm Monster Bone","percent":42},
-								{"name":"Med Monster Bone","percent":15}
+								{"name":"Monster Bone S","percent":42},
+								{"name":"Monster Bone M","percent":15}
 							]
 						}
 					]
@@ -616,7 +616,7 @@
 								{"name":"Velociprey Fang","percent":40},
 								{"name":"Velociprey Scale","percent":29},
 								{"name":"Velociprey Hide","percent":23},
-								{"name":"Sm Monster Bone","percent":8}
+								{"name":"Monster Bone S","percent":8}
 							]
 						}
 					]
@@ -738,7 +738,7 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Velocidrome Hide","quantity":1,"percent":56},
-						{"name":"Screamer","quantity":2,"percent":39},
+						{"name":"Screamer Sac","quantity":2,"percent":39},
 						{"name":"Velocidrome Head","quantity":1,"percent":5}
 					]
 				},
@@ -746,7 +746,7 @@
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Velocidrome Hide","quantity":2,"percent":37},
-						{"name":"Screamer","quantity":2,"percent":49},
+						{"name":"Screamer Sac","quantity":2,"percent":49},
 						{"name":"Velocidrome Head","quantity":1,"percent":14}
 					]
 				}
@@ -827,7 +827,7 @@
 								{"name":"Genprey Scale","percent":40},
 								{"name":"Gendrome Hide","percent":30},
 								{"name":"Gendrome Head","percent":2},
-								{"name":"Stun Sac","percent":28}
+								{"name":"Paralysis Sac","percent":28}
 							]
 						}
 					]
@@ -841,7 +841,7 @@
 								{"name":"Genprey Scale+","percent":27},
 								{"name":"Gendrome Hide","percent":36},
 								{"name":"Gendrome Head","percent":5},
-								{"name":"Stun Sac","percent":32}
+								{"name":"Paralysis Sac","percent":32}
 							]
 						}
 					]
@@ -852,7 +852,7 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Gendrome Hide","quantity":1,"percent":56},
-						{"name":"Stun Sac","quantity":2,"percent":40},
+						{"name":"Paralysis Sac","quantity":2,"percent":40},
 						{"name":"Gendrome Head","quantity":1,"percent":4}
 					]
 				},
@@ -860,7 +860,7 @@
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Gendrome Hide","quantity":2,"percent":32},
-						{"name":"Stun Sac","quantity":2,"percent":54},
+						{"name":"Paralysis Sac","quantity":2,"percent":54},
 						{"name":"Gendrome Head","quantity":1,"percent":14}
 					]
 				}
@@ -1021,7 +1021,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Kut-Ku Scale","percent":25},
 								{"name":"Kut-Ku Ear","percent":1}
 							]
@@ -1045,7 +1045,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Kut-Ku Scale","percent":23},
 								{"name":"Kut-Ku Ear","percent":3}
 							]
@@ -1058,8 +1058,8 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Kut-Ku Shell","quantity":1,"percent":43},
-						{"name":"Screamer","quantity":2,"percent":24},
-						{"name":"Med Monster Bone","quantity":2,"percent":30},
+						{"name":"Screamer Sac","quantity":2,"percent":24},
+						{"name":"Monster Bone M","quantity":2,"percent":30},
 						{"name":"Giant Beak","quantity":1,"percent":3}
 					]
 				},
@@ -1067,8 +1067,8 @@
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Kut-Ku Carapace","quantity":1,"percent":43},
-						{"name":"Screamer","quantity":2,"percent":23},
-						{"name":"Med Monster Bone","quantity":2,"percent":30},
+						{"name":"Screamer Sac","quantity":2,"percent":23},
+						{"name":"Monster Bone M","quantity":2,"percent":30},
 						{"name":"Splendid Beak","quantity":1,"percent":4}
 					]
 				}
@@ -1093,7 +1093,7 @@
 							"name":"Ears","require":"Break",
 							"materials":[
 								{"name":"Kut-Ku Ear","quantity":1,"percent":15},
-								{"name":"Long Kut-Ku Ear","quantity":1,"percent":20},
+								{"name":"Kut-Ku Auricle","quantity":1,"percent":20},
 								{"name":"Kut-Ku Scale","quantity":3,"percent":65}
 							]
 						}
@@ -1141,7 +1141,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Blue Kut-Ku Scale","percent":25},
 								{"name":"Kut-Ku Ear","percent":1}
 							]
@@ -1165,7 +1165,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Blue Kut-Ku Scale","percent":20},
 								{"name":"Kut-Ku Ear","percent":5}
 							]
@@ -1178,8 +1178,8 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Blue Kut-Ku Shell","quantity":1,"percent":43},
-						{"name":"Screamer","quantity":2,"percent":23},
-						{"name":"Med Monster Bone","quantity":2,"percent":30},
+						{"name":"Screamer Sac","quantity":2,"percent":23},
+						{"name":"Monster Bone M","quantity":2,"percent":30},
 						{"name":"Giant Beak","quantity":1,"percent":4}
 					]
 				},
@@ -1187,8 +1187,8 @@
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Blue Kut-Ku Carapace","quantity":1,"percent":43},
-						{"name":"Screamer","quantity":1,"percent":23},
-						{"name":"Med Monster Bone","quantity":1,"percent":30},
+						{"name":"Screamer Sac","quantity":1,"percent":23},
+						{"name":"Monster Bone M","quantity":1,"percent":30},
 						{"name":"Splendid Beak","quantity":1,"percent":4}
 					]
 				}
@@ -1213,7 +1213,7 @@
 							"name":"Ears","require":"Break",
 							"materials":[
 								{"name":"Kut-Ku Ear","quantity":1,"percent":76},
-								{"name":"Long Kut-Ku Ear","quantity":2,"percent":24}
+								{"name":"Kut-Ku Auricle","quantity":2,"percent":24}
 							]
 						}
 					]
@@ -1251,9 +1251,9 @@
 							"name":"Body","carveCount":3,
 							"materials":[
 								{"name":"Garuga Scale","percent":64},
-								{"name":"Garuga Carapace","percent":28},
+								{"name":"Garuga Shell","percent":28},
 								{"name":"Garuga Mane","percent":7},
-								{"name":"Garuga Webbing","percent":1}
+								{"name":"Garuga Wing","percent":1}
 							]
 						},
 						{
@@ -1266,9 +1266,9 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Garuga Scale","percent":25},
-								{"name":"Garuga Webbing","percent":1}
+								{"name":"Garuga Wing","percent":1}
 							]
 						}
 					]
@@ -1278,9 +1278,9 @@
 				{
 					"rank":"Village/Low Rank",
 					"materials":[
-						{"name":"Garuga Carapace","quantity":2,"percent":72},
-						{"name":"Screamer","quantity":4,"percent":18},
-						{"name":"Med Monster Bone","quantity":3,"percent":10}
+						{"name":"Garuga Shell","quantity":2,"percent":72},
+						{"name":"Screamer Sac","quantity":4,"percent":18},
+						{"name":"Monster Bone M","quantity":3,"percent":10}
 					]
 				}
 			],
@@ -1291,7 +1291,7 @@
 						{
 							"name":"Beak","require":"Break",
 							"materials":[
-								{"name":"Razor Beak","quantity":1,"percent":78},
+								{"name":"Sharpened Beak","quantity":1,"percent":78},
 								{"name":"Garuga Scale","quantity":3,"percent":22}
 							]
 						},
@@ -1304,12 +1304,12 @@
 						{"name":"Back","require":"Break",
 							"materials":[
 								{"name":"Garuga Mane","quantity":1,"percent":75},
-								{"name":"Garuga Carapace","quantity":2,"percent":25}
+								{"name":"Garuga Shell","quantity":2,"percent":25}
 							]
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Garuga Webbing","quantity":1,"percent":64},
+								{"name":"Garuga Wing","quantity":1,"percent":64},
 								{"name":"Garuga Scale","quantity":2,"percent":36}
 							]
 						}
@@ -1349,7 +1349,7 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Power Extract","percent":20},
+								{"name":"Dash Extract","percent":20},
 								{"name":"Rubbery Hide","percent":61},
 								{"name":"Poison Sac","percent":10},
 								{"name":"Lightcrystal","percent":8},
@@ -1359,8 +1359,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
-								{"name":"Power Extract","percent":20},
+								{"name":"Wyvern Tear","percent":74},
+								{"name":"Dash Extract","percent":20},
 								{"name":"Lightcrystal","percent":6}
 							]
 						}
@@ -1372,7 +1372,7 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Power Extract","percent":27},
+								{"name":"Dash Extract","percent":27},
 								{"name":"Rubbery Hide+","percent":43},
 								{"name":"Poison Sac","percent":18},
 								{"name":"Novacrystal","percent":8},
@@ -1383,8 +1383,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
-								{"name":"Power Extract","percent":20},
+								{"name":"Wyvern Tear","percent":74},
+								{"name":"Dash Extract","percent":20},
 								{"name":"Lightcrystal","percent":6}
 							]
 						}
@@ -1397,7 +1397,7 @@
 					"materials":[
 						{"name":"Rubbery Hide","quantity":1,"percent":20},
 						{"name":"Poison Sac","quantity":2,"percent":46},
-						{"name":"Power Extract","quantity":2,"percent":34}
+						{"name":"Dash Extract","quantity":2,"percent":34}
 					]
 				},
 				{
@@ -1406,7 +1406,7 @@
 						{"name":"Rubbery Hide","quantity":1,"percent":10},
 						{"name":"Rubbery Hide+","quantity":1,"percent":18},
 						{"name":"Poison Sac","quantity":2,"percent":42},
-						{"name":"Power Extract","quantity":2,"percent":30}
+						{"name":"Dash Extract","quantity":2,"percent":30}
 					]
 				}
 			],
@@ -1469,8 +1469,8 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Power Extract","percent":38},
-								{"name":"Purple Rubbery Hide","percent":41},
+								{"name":"Dash Extract","percent":38},
+								{"name":"Rubbery Finehide","percent":41},
 								{"name":"Poison Sac","percent":9},
 								{"name":"Lightcrystal","percent":12}
 							]
@@ -1478,8 +1478,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
-								{"name":"Power Extract","percent":20},
+								{"name":"Wyvern Tear","percent":74},
+								{"name":"Dash Extract","percent":20},
 								{"name":"Lightcrystal","percent":6}
 							]
 						}
@@ -1491,19 +1491,19 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Power Extract","percent":27},
-								{"name":"Purple Rubbery Hide","percent":36},
+								{"name":"Dash Extract","percent":27},
+								{"name":"Rubbery Finehide","percent":36},
 								{"name":"Poison Sac","percent":10},
 								{"name":"Lightcrystal","percent":6},
 								{"name":"Novacrystal","percent":4},
-								{"name":"Purple Gypceros Wing","percent":17}
+								{"name":"Gypceros Wing","percent":17}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
-								{"name":"Power Extract","percent":20},
+								{"name":"Wyvern Tear","percent":74},
+								{"name":"Dash Extract","percent":20},
 								{"name":"Novacrystal","percent":6}
 							]
 						}
@@ -1514,19 +1514,19 @@
 				{
 					"rank":"Village/Low Rank",
 					"materials":[
-						{"name":"Purple Rubbery Hide","quantity":1,"percent":26},
+						{"name":"Rubbery Finehide","quantity":1,"percent":26},
 						{"name":"Poison Sac","quantity":2,"percent":40},
-						{"name":"Power Extract","quantity":2,"percent":34}
+						{"name":"Dash Extract","quantity":2,"percent":34}
 					]
 				},
 				{
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Rubbery Hide","quantity":1,"percent":10},
-						{"name":"Purple Rubbery Hide","quantity":1,"percent":15},
+						{"name":"Rubbery Finehide","quantity":1,"percent":15},
 						{"name":"Poison Sac","quantity":2,"percent":27},
-						{"name":"Power Extract","quantity":2,"percent":20},
-						{"name":"Purple Gypceros Wing","quantity":1,"percent":28}
+						{"name":"Dash Extract","quantity":2,"percent":20},
+						{"name":"Gypceros Wing","quantity":1,"percent":28}
 					]
 				}
 			],
@@ -1589,9 +1589,9 @@
 							"name":"Body","carveCount":1,
 							"materials":[
 								{"name":"Remobra Head","percent":2},
-								{"name":"Remobra Skin","percent":34},
+								{"name":"Remobra Hide","percent":34},
 								{"name":"Striped Skin","percent":21},
-								{"name":"Remobra Meat","percent":43}
+								{"name":"Remobra Rib","percent":43}
 							]
 						}
 					]
@@ -1603,10 +1603,10 @@
 							"name":"Body","carveCount":1,
 							"materials":[
 								{"name":"Remobra Head","percent":5},
-								{"name":"Remobra Skin","percent":26},
+								{"name":"Remobra Hide","percent":26},
 								{"name":"Striped Skin","percent":16},
-								{"name":"Remobra Skin+","percent":14},
-								{"name":"Remobra Meat","percent":39}
+								{"name":"Remobra Hide+","percent":14},
+								{"name":"Remobra Rib","percent":39}
 							]
 						}
 					]
@@ -1655,18 +1655,18 @@
 						{
 							"name":"Tail","carveCount":1,
 							"materials":[
-								{"name":"Lg Monster Bone","percent":5},
+								{"name":"Monster Bone L","percent":5},
 								{"name":"Rathian Scale","percent":59},
 								{"name":"Rathian Shell","percent":22},
 								{"name":"Rathian Spike","percent":8},
-								{"name":"Wyvern Marrow","percent":5},
+								{"name":"Rath Marrow","percent":5},
 								{"name":"Rathian Plate","percent":1}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Rathian Scale","percent":25},
 								{"name":"Rathian Plate","percent":1}
 							]
@@ -1692,7 +1692,7 @@
 								{"name":"Rathian Scale+","percent":48},
 								{"name":"Rathian Carapace","percent":23},
 								{"name":"Rathian Spike+","percent":12},
-								{"name":"Wyvern Marrow","percent":10},
+								{"name":"Rath Marrow","percent":10},
 								{"name":"Rathian Plate","percent":5},
 								{"name":"Rathian Ruby","percent":2}
 							]
@@ -1700,7 +1700,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Rathian Scale+","percent":23},
 								{"name":"Rathian Ruby","percent":2}
 							]
@@ -1714,7 +1714,7 @@
 					"materials":[
 						{"name":"Rathian Shell","quantity":1,"percent":36},
 						{"name":"Rathian Scale","quantity":2,"percent":52},
-						{"name":"Wyvern Marrow","quantity":1,"percent":10},
+						{"name":"Rath Marrow","quantity":1,"percent":10},
 						{"name":"Rathian Plate","quantity":1,"percent":2}
 					]
 				},
@@ -1723,7 +1723,7 @@
 					"materials":[
 						{"name":"Rathian Carapace","quantity":1,"percent":35},
 						{"name":"Rathian Scale+","quantity":1,"percent":50},
-						{"name":"Wyvern Marrow","quantity":1,"percent":12},
+						{"name":"Rath Marrow","quantity":1,"percent":12},
 						{"name":"Rathian Ruby","quantity":1,"percent":3}
 					]
 				}
@@ -1741,7 +1741,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":3,"percent":25}
 							]
 						}
@@ -1759,7 +1759,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":3,"percent":25}
 							]
 						}
@@ -1807,18 +1807,18 @@
 						{
 							"name":"Tail","carveCount":1,
 							"materials":[
-								{"name":"Lg Monster Bone","percent":15},
+								{"name":"Monster Bone L","percent":15},
 								{"name":"Pink Rathian Scale","percent":42},
 								{"name":"Pink Rathian Shell","percent":25},
 								{"name":"Rathian Spike","percent":8},
-								{"name":"Wyvern Marrow","percent":7},
+								{"name":"Rath Marrow","percent":7},
 								{"name":"Rathian Plate","percent":3}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Pink Rathian Scale","percent":25},
 								{"name":"Rathian Plate","percent":1}
 							]
@@ -1844,7 +1844,7 @@
 								{"name":"Pink Rathian Scale+","percent":33},
 								{"name":"Pink Rathian Carapace","percent":28},
 								{"name":"Rathian Spike+","percent":17},
-								{"name":"Wyvern Marrow","percent":12},
+								{"name":"Rath Marrow","percent":12},
 								{"name":"Rathian Plate","percent":7},
 								{"name":"Rathian Ruby","percent":3}
 							]
@@ -1852,7 +1852,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":73},
+								{"name":"Wyvern Tear","percent":73},
 								{"name":"Pink Rathian Scale+","percent":25},
 								{"name":"Rathian Ruby","percent":2}
 							]
@@ -1866,7 +1866,7 @@
 					"materials":[
 						{"name":"Pink Rathian Shell","quantity":1,"percent":36},
 						{"name":"Pink Rathian Scale","quantity":2,"percent":50},
-						{"name":"Wyvern Marrow","quantity":1,"percent":10},
+						{"name":"Rath Marrow","quantity":1,"percent":10},
 						{"name":"Rathian Plate","quantity":1,"percent":4}
 					]
 				},
@@ -1875,7 +1875,7 @@
 					"materials":[
 						{"name":"Pink Rathian Carapace","quantity":1,"percent":33},
 						{"name":"Pink Rathian Scale+","quantity":2,"percent":50},
-						{"name":"Wyvern Marrow","quantity":1,"percent":12},
+						{"name":"Rath Marrow","quantity":1,"percent":12},
 						{"name":"Rathian Ruby","quantity":1,"percent":5}
 					]
 				}
@@ -1893,7 +1893,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":3,"percent":25}
 							]
 						}
@@ -1911,7 +1911,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":3,"percent":25}
 							]
 						}
@@ -1948,8 +1948,8 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Golden Rathian Scale","percent":45},
-								{"name":"Golden Rathian Shell","percent":32},
+								{"name":"Golden Rathian Scale+","percent":45},
+								{"name":"Golden Rathian Carapace","percent":32},
 								{"name":"Flame Sac","percent":5},
 								{"name":"Rathian Spike+","percent":10},
 								{"name":"Wyvern Claw","percent":8}
@@ -1958,8 +1958,8 @@
 						{
 							"name":"Tail","carveCount":1,
 							"materials":[
-								{"name":"Golden Rathian Scale","percent":52},
-								{"name":"Golden Rathian Shell","percent":33},
+								{"name":"Golden Rathian Scale+","percent":52},
+								{"name":"Golden Rathian Carapace","percent":33},
 								{"name":"Rathian Plate","percent":10},
 								{"name":"Rathian Ruby","percent":5}
 							]
@@ -1967,8 +1967,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":70},
-								{"name":"Golden Rathian Scale","percent":25},
+								{"name":"Wyvern Tear","percent":70},
+								{"name":"Golden Rathian Scale+","percent":25},
 								{"name":"Rathian Ruby","percent":5}
 							]
 						}
@@ -1979,9 +1979,9 @@
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Golden Rathian Shell","quantity":2,"percent":36},
-						{"name":"Golden Rathian Scale","quantity":2,"percent":50},
-						{"name":"Wyvern Marrow","quantity":3,"percent":8},
+						{"name":"Golden Rathian Carapace","quantity":2,"percent":36},
+						{"name":"Golden Rathian Scale+","quantity":2,"percent":50},
+						{"name":"Rath Marrow","quantity":3,"percent":8},
 						{"name":"Rathian Ruby","quantity":1,"percent":6}
 					]
 				}
@@ -1993,13 +1993,13 @@
 						{
 							"name":"Head","require":"Break",
 							"materials":[
-								{"name":"Golden Rathian Shell","quantity":1,"percent":75},
-								{"name":"Golden Rathian Scale","quantity":1,"percent":25}
+								{"name":"Golden Rathian Carapace","quantity":1,"percent":75},
+								{"name":"Golden Rathian Scale+","quantity":1,"percent":25}
 							]
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":5,"percent":25}
 							]
 						}
@@ -2042,7 +2042,7 @@
 								{"name":"Rathalos Webbing","percent":24},
 								{"name":"Rathalos Scale","percent":36},
 								{"name":"Flame Sac","percent":8},
-								{"name":"Wyvern Marrow","percent":2}
+								{"name":"Rath Marrow","percent":2}
 							]
 						},
 						{
@@ -2051,14 +2051,14 @@
 								{"name":"Rathalos Scale","percent":35},
 								{"name":"Rathalos Tail","percent":38},
 								{"name":"Rathalos Shell","percent":24},
-								{"name":"Wyvern Marrow","percent":2},
+								{"name":"Rath Marrow","percent":2},
 								{"name":"Rathalos Plate","percent":1}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Rathalos Scale","percent":25},
 								{"name":"Rathalos Plate","percent":1}
 							]
@@ -2075,7 +2075,7 @@
 								{"name":"Rathalos Webbing","percent":15},
 								{"name":"Rathalos Scale+","percent":38},
 								{"name":"Flame Sac","percent":15},
-								{"name":"Wyvern Marrow","percent":5},
+								{"name":"Rath Marrow","percent":5},
 								{"name":"Rathalos Wing","percent":3}
 							]
 						},
@@ -2085,7 +2085,7 @@
 								{"name":"Rathalos Scale+","percent":35},
 								{"name":"Rathalos Tail","percent":25},
 								{"name":"Rathalos Carapace","percent":21},
-								{"name":"Wyvern Marrow","percent":12},
+								{"name":"Rath Marrow","percent":12},
 								{"name":"Rathalos Plate","percent":6},
 								{"name":"Rathalos Ruby","percent":1}
 							]
@@ -2093,7 +2093,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Rathalos Scale+","percent":25},
 								{"name":"Rathalos Ruby","percent":1}
 							]
@@ -2133,7 +2133,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":83},
+								{"name":"Rath Wingtalon","quantity":1,"percent":83},
 								{"name":"Wyvern Claw","quantity":4,"percent":17}
 							]
 						}
@@ -2153,7 +2153,7 @@
 						{"name":"Wings","require":"Break both",
 							"materials":[
 								{"name":"Wyvern Claw","quantity":3,"percent":75},
-								{"name":"Rathalos Claw","quantity":1,"percent":25}
+								{"name":"Rath Wingtalon","quantity":1,"percent":25}
 							]
 						}
 					]
@@ -2195,7 +2195,7 @@
 								{"name":"Rathalos Webbing","percent":19},
 								{"name":"Azure Rathalos Scale","percent":38},
 								{"name":"Flame Sac","percent":10},
-								{"name":"Wyvern Marrow","percent":7}
+								{"name":"Rath Marrow","percent":7}
 							]
 						},
 						{
@@ -2204,14 +2204,14 @@
 								{"name":"Azure Rathalos Tail","percent":32},
 								{"name":"Azure Rathalos Shell","percent":38},
 								{"name":"Azure Rathalos Scale","percent":17},
-								{"name":"Wyvern Marrow","percent":10},
+								{"name":"Rath Marrow","percent":10},
 								{"name":"Rathalos Plate","percent":3}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":74},
+								{"name":"Wyvern Tear","percent":74},
 								{"name":"Azure Rathalos Scale","percent":25},
 								{"name":"Rathalos Plate","percent":1}
 							]
@@ -2228,7 +2228,7 @@
 								{"name":"Rathalos Webbing","percent":19},
 								{"name":"Azure Rathalos Scale+","percent":32},
 								{"name":"Flame Sac","percent":10},
-								{"name":"Wyvern Marrow","percent":8},
+								{"name":"Rath Marrow","percent":8},
 								{"name":"Azure Rathalos Wing","percent":5}
 							]
 						},
@@ -2238,7 +2238,7 @@
 								{"name":"Azure Rathalos Tail","percent":38},
 								{"name":"Azure Rathalos Carapace","percent":26},
 								{"name":"Azure Rathalos Scale+","percent":17},
-								{"name":"Wyvern Marrow","percent":10},
+								{"name":"Rath Marrow","percent":10},
 								{"name":"Rathalos Plate","percent":7},
 								{"name":"Rathalos Ruby","percent":2}
 							]
@@ -2246,7 +2246,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":71},
+								{"name":"Wyvern Tear","percent":71},
 								{"name":"Azure Rathalos Scale+","percent":25},
 								{"name":"Rathalos Ruby","percent":4}
 							]
@@ -2286,7 +2286,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":2,"percent":25}
 							]
 						}
@@ -2306,7 +2306,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":2,"percent":25}
 							]
 						}
@@ -2343,11 +2343,11 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Silver Rathalos Shell","percent":30},
+								{"name":"Silver Rathalos Carapace","percent":30},
 								{"name":"Silver Rathalos Webbing","percent":17},
 								{"name":"Flame Sac","percent":10},
-								{"name":"Wyvern Marrow","percent":8},
-								{"name":"Silver Rathalos Scale","percent":28},
+								{"name":"Rath Marrow","percent":8},
+								{"name":"Silver Rathalos Scale+","percent":28},
 								{"name":"Silver Rathalos Wing","percent":7}
 							]
 						},
@@ -2355,7 +2355,7 @@
 							"name":"Tail","carveCount":1,
 							"materials":[
 								{"name":"Silver Rathalos Tail","percent":61},
-								{"name":"Silver Rathalos Scale","percent":24},
+								{"name":"Silver Rathalos Scale+","percent":24},
 								{"name":"Rathalos Plate","percent":10},
 								{"name":"Rathalos Ruby","percent":5}
 							]
@@ -2363,8 +2363,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":71},
-								{"name":"Silver Rathalos Scale","percent":25},
+								{"name":"Wyvern Tear","percent":71},
+								{"name":"Silver Rathalos Scale+","percent":25},
 								{"name":"Rathalos Ruby","percent":4}
 							]
 						}
@@ -2375,7 +2375,7 @@
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Silver Rathalos Shell","quantity":2,"percent":83},
+						{"name":"Silver Rathalos Carapace","quantity":2,"percent":83},
 						{"name":"Rathalos Ruby","quantity":1,"percent":7},
 						{"name":"Silver Rathalos Wing","quantity":1,"percent":10}
 					]
@@ -2388,13 +2388,13 @@
 						{
 							"name":"Head","require":"Break",
 							"materials":[
-								{"name":"Silver Rathalos Scale","quantity":1,"percent":65},
-								{"name":"Silver Rathalos Shell","quantity":1,"percent":35}
+								{"name":"Silver Rathalos Scale+","quantity":1,"percent":65},
+								{"name":"Silver Rathalos Carapace","quantity":1,"percent":35}
 							]
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Rathalos Claw","quantity":1,"percent":75},
+								{"name":"Rath Wingtalon","quantity":1,"percent":75},
 								{"name":"Wyvern Claw","quantity":3,"percent":25}
 							]
 						}
@@ -2442,7 +2442,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Pale Extract","percent":20},
 								{"name":"Pale Bone","percent":5}
 							]
@@ -2457,16 +2457,16 @@
 								{"name":"Flabby Hide","percent":36},
 								{"name":"Pale Extract","percent":27},
 								{"name":"Electro Sac","percent":12},
-								{"name":"Khezu Hide - Tan","percent":21},
-								{"name":"Wyvern Stone","percent":4}
+								{"name":"Pearl Hide","percent":21},
+								{"name":"Wyvern Gem","percent":4}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Pale Extract","percent":22},
-								{"name":"Pale Khezu Steak","percent":3}
+								{"name":"Pale Steak","percent":3}
 							]
 						}
 					]
@@ -2483,10 +2483,10 @@
 				},
 				{"rank":"High Rank",
 					"materials":[
-						{"name":"Khezu Hide - Tan","quantity":1,"percent":31},
+						{"name":"Pearl Hide","quantity":1,"percent":31},
 						{"name":"Pale Extract","quantity":2,"percent":43},
 						{"name":"Electro Sac","quantity":2,"percent":18},
-						{"name":"Pale Khezu Steak","quantity":1,"percent":8}
+						{"name":"Pale Steak","quantity":1,"percent":8}
 					]
 				}
 			],
@@ -2509,7 +2509,7 @@
 							"materials":[
 								{"name":"Pale Extract","quantity":1,"percent":83},
 								{"name":"Pale Bone","quantity":1,"percent":10},
-								{"name":"Pale Khezu Steak","quantity":1,"percent":7}
+								{"name":"Pale Steak","quantity":1,"percent":7}
 							]
 						}
 					]
@@ -2557,7 +2557,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Pale Extract","percent":20},
 								{"name":"Pale Bone","percent":5}
 							]
@@ -2574,15 +2574,15 @@
 								{"name":"Pale Extract","percent":33},
 								{"name":"Electro Sac","percent":18},
 								{"name":"Alluring Webbing","percent":29},
-								{"name":"Wyvern Stone","percent":5}
+								{"name":"Wyvern Gem","percent":5}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Pale Extract","percent":22},
-								{"name":"Pale Khezu Steak","percent":3}
+								{"name":"Pale Steak","percent":3}
 							]
 						}
 					]
@@ -2604,7 +2604,7 @@
 						{"name":"Alluring Hide","quantity":2,"percent":35},
 						{"name":"Pale Extract","quantity":2,"percent":43},
 						{"name":"Electro Sac","quantity":2,"percent":12},
-						{"name":"Pale Khezu Steak","quantity":1,"percent":10}
+						{"name":"Pale Steak","quantity":1,"percent":10}
 					]
 				}
 			],
@@ -2629,7 +2629,7 @@
 							"materials":[
 								{"name":"Pale Extract","quantity":1,"percent":86},
 								{"name":"Pale Bone","quantity":1,"percent":10},
-								{"name":"Pale Khezu Steak","quantity":1,"percent":4}
+								{"name":"Pale Steak","quantity":1,"percent":4}
 							]
 						}
 					]
@@ -2670,7 +2670,7 @@
 								{"name":"Poison Sac","percent":18},
 								{"name":"Machalite Ore","percent":34},
 								{"name":"Basarios Shell","percent":37},
-								{"name":"Lg Monster Bone","percent":8},
+								{"name":"Monster Bone L","percent":8},
 								{"name":"Basarios Wing","percent":3}
 							]
 						},
@@ -2684,7 +2684,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":80},
+								{"name":"Wyvern Tear","percent":80},
 								{"name":"Machalite Ore","percent":20}
 							]
 						}
@@ -2699,9 +2699,9 @@
 								{"name":"Poison Sac","percent":15},
 								{"name":"Carbalite Ore","percent":29},
 								{"name":"Basarios Carapace","percent":37},
-								{"name":"Monster Bone+","percent":11},
+								{"name":"Monster Hardbone","percent":11},
 								{"name":"Basarios Wing","percent":5},
-								{"name":"Wyvern Stone","percent":3}
+								{"name":"Wyvern Gem","percent":3}
 							]
 						},
 						{
@@ -2716,7 +2716,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":90},
+								{"name":"Wyvern Tear","percent":90},
 								{"name":"Carbalite Ore","percent":10}
 							]
 						}
@@ -2813,14 +2813,14 @@
 							"name":"Tail","carveCount":2,
 							"materials":[
 								{"name":"Gravios Shell","percent":73},
-								{"name":"Lg Monster Bone","percent":23},
+								{"name":"Monster Bone L","percent":23},
 								{"name":"Firestone","percent":4}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":94},
+								{"name":"Wyvern Tear","percent":94},
 								{"name":"Firestone","percent":6}
 							]
 						}
@@ -2837,14 +2837,14 @@
 								{"name":"Flame Sac","percent":8},
 								{"name":"Gravios Skull","percent":5},
 								{"name":"Gravios Carapace","percent":20},
-								{"name":"Wyvern Stone","percent":7}
+								{"name":"Wyvern Gem","percent":7}
 							]
 						},
 						{
 							"name":"Tail","carveCount":2,
 							"materials":[
 								{"name":"Gravios Carapace","percent":66},
-								{"name":"Monster Bone+","percent":20},
+								{"name":"Monster Hardbone","percent":20},
 								{"name":"Firestone","percent":2},
 								{"name":"Gravios Marrow","percent":12}
 							]
@@ -2852,7 +2852,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":91},
+								{"name":"Wyvern Tear","percent":91},
 								{"name":"Firestone","percent":9}
 							]
 						}
@@ -2951,13 +2951,13 @@
 							"materials":[
 								{"name":"Black Gravios Shell","percent":72},
 								{"name":"Firestone","percent":3},
-								{"name":"Lg Monster Bone","percent":25}
+								{"name":"Monster Bone L","percent":25}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":94},
+								{"name":"Wyvern Tear","percent":94},
 								{"name":"Firestone","percent":6}
 							]
 						}
@@ -2974,7 +2974,7 @@
 								{"name":"Flame Sac","percent":9},
 								{"name":"Black Gravios Carapace","percent":39},
 								{"name":"Black Gravios Skull","percent":9},
-								{"name":"Wyvern Stone","percent":7}
+								{"name":"Wyvern Gem","percent":7}
 							]
 						},
 						{
@@ -2982,14 +2982,14 @@
 							"materials":[
 								{"name":"Black Gravios Carapace","percent":58},
 								{"name":"Firestone","percent":9},
-								{"name":"Monster Bone+","percent":25},
+								{"name":"Monster Hardbone","percent":25},
 								{"name":"Gravios Marrow","percent":8}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":91},
+								{"name":"Wyvern Tear","percent":91},
 								{"name":"Firestone","percent":9}
 							]
 						}
@@ -3067,7 +3067,7 @@
 						{
 							"name":"Body","carveCount":4,
 							"materials":[
-								{"name":"Monoblos Spine","percent":23},
+								{"name":"Monoblos Ridge","percent":23},
 								{"name":"Monoblos Shell","percent":56},
 								{"name":"Blos Fang","percent":20},
 								{"name":"Monoblos Heart","percent":1}
@@ -3077,13 +3077,13 @@
 							"name":"Tail","carveCount":2,
 							"materials":[
 								{"name":"Monoblos Shell","percent":80},
-								{"name":"Lg Monster Bone","percent":20}
+								{"name":"Monster Bone L","percent":20}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":98},
+								{"name":"Wyvern Tear","percent":98},
 								{"name":"Monoblos Heart","percent":2}
 							]
 						}
@@ -3095,7 +3095,7 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Monoblos Shell","quantity":1,"percent":69},
-						{"name":"Monoblos Spine","quantity":1,"percent":29},
+						{"name":"Monoblos Ridge","quantity":1,"percent":29},
 						{"name":"Monoblos Heart","quantity":1,"percent":2}
 					]
 				}
@@ -3143,7 +3143,7 @@
 						{
 							"name":"Body","carveCount":4,
 							"materials":[
-								{"name":"White Monoblos Spine","percent":45},
+								{"name":"White Monoblos Ridge","percent":45},
 								{"name":"White Monoblos Shell","percent":29},
 								{"name":"Blos Fang","percent":24},
 								{"name":"Monoblos Heart","percent":2}
@@ -3153,13 +3153,13 @@
 							"name":"Tail","carveCount":2,
 							"materials":[
 								{"name":"White Monoblos Shell","percent":80},
-								{"name":"Lg Monster Bone","percent":20}
+								{"name":"Monster Bone L","percent":20}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":98},
+								{"name":"Wyvern Tear","percent":98},
 								{"name":"Monoblos Heart","percent":2}
 							]
 						}
@@ -3170,9 +3170,9 @@
 				{
 					"rank":"Village/Low Rank",
 					"materials":[
-						{"name":"White Monoblos Spine","quantity":1,"percent":42},
+						{"name":"White Monoblos Ridge","quantity":1,"percent":42},
 						{"name":"White Monoblos Shell","quantity":2,"percent":32},
-						{"name":"Lg Monster Bone","quantity":3,"percent":23},
+						{"name":"Monster Bone L","quantity":3,"percent":23},
 						{"name":"Monoblos Heart","quantity":1,"percent":3}
 					]
 				}
@@ -3184,7 +3184,7 @@
 						{
 							"name":"Horns","require":"Break",
 							"materials":[
-								{"name":"White Monoblos Horn","quantity":1,"percent":83},
+								{"name":"Silver Horn","quantity":1,"percent":83},
 								{"name":"Majestic Horn","quantity":1,"percent":17}
 							]
 						}
@@ -3226,7 +3226,7 @@
 							"materials":[
 								{"name":"Blos Fang","percent":30},
 								{"name":"Diablos Shell","percent":63},
-								{"name":"Diablos Spine","percent":7}
+								{"name":"Diablos Ridge","percent":7}
 							]
 						},
 						{
@@ -3239,8 +3239,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":95},
-								{"name":"Diablos Spine","percent":5}
+								{"name":"Wyvern Tear","percent":95},
+								{"name":"Diablos Ridge","percent":5}
 							]
 						}
 					]
@@ -3253,9 +3253,9 @@
 							"materials":[
 								{"name":"Blos Fang","percent":22},
 								{"name":"Diablos Shell","percent":47},
-								{"name":"Diablos Thoracic","percent":7},
+								{"name":"Diablos Ridge+","percent":7},
 								{"name":"Diablos Carapace","percent":19},
-								{"name":"Wyvern Stone","percent":5}
+								{"name":"Wyvern Gem","percent":5}
 							]
 						},
 						{
@@ -3269,8 +3269,8 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":95},
-								{"name":"Diablos Thoracic","percent":5}
+								{"name":"Wyvern Tear","percent":95},
+								{"name":"Diablos Ridge+","percent":5}
 							]
 						}
 					]
@@ -3280,7 +3280,7 @@
 				{
 					"rank":"Village/Low Rank",
 					"materials":[
-						{"name":"Diablos Spine","quantity":1,"percent":11},
+						{"name":"Diablos Ridge","quantity":1,"percent":11},
 						{"name":"Diablos Shell","quantity":1,"percent":57},
 						{"name":"Blos Fang","quantity":3,"percent":32}
 					]
@@ -3288,7 +3288,7 @@
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Diablos Thoracic","quantity":1,"percent":11},
+						{"name":"Diablos Ridge+","quantity":1,"percent":11},
 						{"name":"Diablos Carapace","quantity":1,"percent":57},
 						{"name":"Blos Fang","quantity":3,"percent":32}
 					]
@@ -3353,23 +3353,23 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Black Blos Spine","percent":12},
-								{"name":"Black Blos Shell","percent":56},
+								{"name":"Black Diablos Ridge","percent":12},
+								{"name":"Black Diablos Shell","percent":56},
 								{"name":"Blos Fang","percent":32}
 							]
 						},
 						{
 							"name":"Tail","carveCount":1,
 							"materials":[
-								{"name":"Black Blos Tail","percent":69},
-								{"name":"Black Blos Shell","percent":31}
+								{"name":"Black Diablos Tail","percent":69},
+								{"name":"Black Diablos Shell","percent":31}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":95},
-								{"name":"Black Blos Spine","percent":5}
+								{"name":"Wyvern Tear","percent":95},
+								{"name":"Black Diablos Ridge","percent":5}
 							]
 						}
 					]
@@ -3380,26 +3380,26 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Black Blos Spine","percent":14},
-								{"name":"Black Blos Shell","percent":32},
+								{"name":"Black Diablos Ridge","percent":14},
+								{"name":"Black Diablos Shell","percent":32},
 								{"name":"Blos Fang","percent":19},
-								{"name":"Black Blos Carapace","percent":28},
-								{"name":"Wyvern Stone","percent":7}
+								{"name":"Black Diablos Carapace","percent":28},
+								{"name":"Wyvern Gem","percent":7}
 							]
 						},
 						{
 							"name":"Tail","carveCount":1,
 							"materials":[
-								{"name":"Black Blos Tail","percent":58},
-								{"name":"Black Blos Carapace","percent":36},
-								{"name":"Wyvern Stone","percent":6}
+								{"name":"Black Diablos Tail","percent":58},
+								{"name":"Black Diablos Carapace","percent":36},
+								{"name":"Wyvern Gem","percent":6}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":92},
-								{"name":"Black Blos Spine","percent":8}
+								{"name":"Wyvern Tear","percent":92},
+								{"name":"Black Diablos Ridge","percent":8}
 							]
 						}
 					]
@@ -3409,16 +3409,16 @@
 				{
 					"rank":"Village/Low Rank",
 					"materials":[
-						{"name":"Black Blos Spine","quantity":1,"percent":26},
-						{"name":"Black Blos Shell","quantity":1,"percent":57},
+						{"name":"Black Diablos Ridge","quantity":1,"percent":26},
+						{"name":"Black Diablos Shell","quantity":1,"percent":57},
 						{"name":"Blos Fang","quantity":3,"percent":17}
 					]
 				},
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Black Blos Spine","quantity":1,"percent":26},
-						{"name":"Black Blos Carapace","quantity":1,"percent":57},
+						{"name":"Black Diablos Ridge","quantity":1,"percent":26},
+						{"name":"Black Diablos Carapace","quantity":1,"percent":57},
 						{"name":"Blos Fang","quantity":3,"percent":17}
 					]
 				}
@@ -3431,7 +3431,7 @@
 							"name":"Horns","require":"Break both",
 							"materials":[
 								{"name":"Twisted Horn","quantity":2,"percent":10},
-								{"name":"Twisted Black Blos Horn","quantity":1,"percent":69},
+								{"name":"Black Twisted Horn","quantity":1,"percent":69},
 								{"name":"Majestic Horn","quantity":1,"percent":21}
 							]
 						}
@@ -3444,7 +3444,7 @@
 							"name":"Horns","require":"Break both",
 							"materials":[
 								{"name":"Majestic Horn","quantity":2,"percent":56},
-								{"name":"Twisted Black Blos Horn","quantity":1,"percent":26},
+								{"name":"Black Twisted Horn","quantity":1,"percent":26},
 								{"name":"Majestic Horn","quantity":1,"percent":18}
 							]
 						}
@@ -3551,7 +3551,7 @@
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":72},
+								{"name":"Wyvern Tear","percent":72},
 								{"name":"Piscine Liver","percent":24},
 								{"name":"Coral Cephalos Scale","percent":4}
 							]
@@ -3569,13 +3569,13 @@
 								{"name":"Cephalos Scale+","percent":34},
 								{"name":"Piscine Fang","percent":15},
 								{"name":"Coral Cephalos Scale","percent":12},
-								{"name":"Cephalos Topfin","percent":4}
+								{"name":"Cephalos Fin+","percent":4}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":70},
+								{"name":"Wyvern Tear","percent":70},
 								{"name":"Piscine Liver","percent":20},
 								{"name":"Coral Cephalos Scale","percent":10}
 							]
@@ -3595,7 +3595,7 @@
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Cephalos Topfin","quantity":1,"percent":47},
+						{"name":"Cephalos Fin+","quantity":1,"percent":47},
 						{"name":"Coral Cephalos Fin","quantity":1,"percent":12},
 						{"name":"Piscine Fang","quantity":1,"percent":41}
 					]
@@ -3621,7 +3621,7 @@
 							"name":"Fin","require":"Break",
 							"materials":[
 								{"name":"Cephalos Fin","quantity":1,"percent":26},
-								{"name":"Cephalos Topfin","quantity":1,"percent":56},
+								{"name":"Cephalos Fin+","quantity":1,"percent":56},
 								{"name":"Coral Cephalos Fin","quantity":1,"percent":18}
 							]
 						}
@@ -3662,14 +3662,14 @@
 							"materials":[
 								{"name":"Plesioth Fin","percent":8},
 								{"name":"Plesioth Scale","percent":67},
-								{"name":"Sm Lobstershell","percent":2},
-								{"name":"Lg Lobstershell","percent":23}
+								{"name":"Lobstershell S","percent":2},
+								{"name":"Lobstershell L","percent":23}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Plesioth Scale","percent":22},
 								{"name":"Plesioth Fin","percent":3}
 							]
@@ -3684,15 +3684,15 @@
 							"materials":[
 								{"name":"Plesioth Fin","percent":19},
 								{"name":"Plesioth Scale+","percent":46},
-								{"name":"Gt Lobstershell","percent":2},
-								{"name":"Lg Lobstershell","percent":27},
-								{"name":"Wyvern Stone","percent":6}
+								{"name":"Lobstershell G","percent":2},
+								{"name":"Lobstershell L","percent":27},
+								{"name":"Wyvern Gem","percent":6}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":65},
+								{"name":"Wyvern Tear","percent":65},
 								{"name":"Plesioth Scale+","percent":22},
 								{"name":"Plesioth Fin","percent":13}
 							]
@@ -3779,15 +3779,15 @@
 							"name":"Body","carveCount":4,
 							"materials":[
 								{"name":"Green Plesioth Scale","percent":49},
-								{"name":"Sm Lobstershell","percent":22},
-								{"name":"Lg Lobstershell","percent":10},
+								{"name":"Lobstershell S","percent":22},
+								{"name":"Lobstershell L","percent":10},
 								{"name":"Plesioth Fin","percent":19}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":75},
+								{"name":"Wyvern Tear","percent":75},
 								{"name":"Green Plesioth Scale","percent":15},
 								{"name":"Plesioth Fin","percent":10}
 							]
@@ -3801,16 +3801,16 @@
 							"name":"Body","carveCount":4,
 							"materials":[
 								{"name":"Green Plesioth Scale","percent":44},
-								{"name":"Lg Lobstershell","percent":19},
-								{"name":"Gt Lobstershell","percent":5},
+								{"name":"Lobstershell L","percent":19},
+								{"name":"Lobstershell G","percent":5},
 								{"name":"Green Plesioth Fin","percent":25},
-								{"name":"Wyvern Stone","percent":7}
+								{"name":"Wyvern Gem","percent":7}
 							]
 						},
 						{
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
-								{"name":"Wyvern Tears","percent":65},
+								{"name":"Wyvern Tear","percent":65},
 								{"name":"Green Plesioth Scale","percent":22},
 								{"name":"Green Plesioth Fin","percent":13}
 							]
@@ -3887,9 +3887,9 @@
 						{
 							"name":"Body","carveCount":1,
 							"materials":[
-								{"name":"Sm Hermitaur Shell","percent":27},
+								{"name":"Hermitaur Shell S","percent":27},
 								{"name":"Sharp Claw","percent":31},
-								{"name":"Carapaceon Brains","percent":42}
+								{"name":"Carapaceon Brain","percent":42}
 							]
 						}
 					]
@@ -3900,9 +3900,9 @@
 						{
 							"name":"Body","carveCount":1,
 							"materials":[
-								{"name":"Sm Hermitaur Shell","percent":29},
+								{"name":"Hermitaur Shell S","percent":29},
 								{"name":"Sharp Claw","percent":12},
-								{"name":"Carapaceon Brains","percent":42},
+								{"name":"Carapaceon Brain","percent":42},
 								{"name":"Hermitaur Shell","percent":17}
 							]
 						}
@@ -3967,9 +3967,9 @@
 							"name":"Body","carveCount":3,
 							"materials":[
 								{"name":"Hermitaur Shell","percent":50},
-								{"name":"Sm Hermitaur Shell","percent":29},
+								{"name":"Hermitaur Shell S","percent":29},
 								{"name":"Sharp Claw","percent":20},
-								{"name":"Carapaceon Brains","percent":1}
+								{"name":"Carapaceon Brain","percent":1}
 							]
 						},
 						{
@@ -3988,9 +3988,9 @@
 							"name":"Body","carveCount":3,
 							"materials":[
 								{"name":"Hermitaur Shell","percent":49},
-								{"name":"Hermitaur Carapace","percent":38},
-								{"name":"Sm Hermitaur Shell","percent":12},
-								{"name":"Carapaceon Brains","percent":1}
+								{"name":"Hermitaur Shell+","percent":38},
+								{"name":"Hermitaur Shell S","percent":12},
+								{"name":"Carapaceon Brain","percent":1}
 							]
 						},
 						{
@@ -4008,7 +4008,7 @@
 					"rank":"Village/Low Rank",
 					"materials":[
 						{"name":"Hermitaur Shell","quantity":1,"percent":57},
-						{"name":"Sm Hermitaur Shell","quantity":3,"percent":31},
+						{"name":"Hermitaur Shell S","quantity":3,"percent":31},
 						{"name":"Hermitaur Claw","quantity":1,"percent":12}
 					]
 				},
@@ -4016,7 +4016,7 @@
 					"rank":"High Rank",
 					"materials":[
 						{"name":"Hermitaur Shell","quantity":2,"percent":57},
-						{"name":"Hermitaur Carapace","quantity":1,"percent":31},
+						{"name":"Hermitaur Shell+","quantity":1,"percent":31},
 						{"name":"Hermitaur Claw","quantity":2,"percent":12}
 					]
 				}
@@ -4031,13 +4031,13 @@
 								{"name":"Hermitaur Shell","quantity":1,"percent":43},
 								{"name":"Wyvern Skull","quantity":1,"percent":12},
 								{"name":"Crimson Horn","quantity":1,"percent":25},
-								{"name":"Jumbo Bone","quantity":1,"percent":20}
+								{"name":"Giant Bone","quantity":1,"percent":20}
 							]
 						},
 						{"name":"Claws","require":"Break both",
 							"materials":[
 								{"name":"Hermitaur Claw","quantity":1,"percent":78},
-								{"name":"Sm Hermitaur Shell","quantity":1,"percent":22}
+								{"name":"Hermitaur Shell S","quantity":1,"percent":22}
 							]
 						}
 					]
@@ -4048,17 +4048,17 @@
 						{
 							"name":"Shell","require":"Break",
 							"materials":[
-								{"name":"Hermitaur Carapace","quantity":1,"percent":41},
+								{"name":"Hermitaur Shell+","quantity":1,"percent":41},
 								{"name":"Wyvern Skull","quantity":1,"percent":17},
 								{"name":"Crimson Horn","quantity":1,"percent":25},
-								{"name":"Jumbo Bone","quantity":1,"percent":15},
+								{"name":"Giant Bone","quantity":1,"percent":15},
 								{"name":"Monoblos Heart","quantity":1,"percent":2}
 							]
 						},
 						{"name":"Claws","require":"Break both",
 							"materials":[
 								{"name":"Hermitaur Claw+","quantity":1,"percent":78},
-								{"name":"Hermitaur Carapace","quantity":1,"percent":22}
+								{"name":"Hermitaur Shell+","quantity":1,"percent":22}
 							]
 						}
 					]
@@ -4089,10 +4089,10 @@
 						{
 							"name":"Body","carveCount":1,
 							"materials":[
-								{"name":"Sm Ceanataur Shell","percent":42},
+								{"name":"Ceanataur Shell S","percent":42},
 								{"name":"Sharp Claw","percent":34},
-								{"name":"Jumbo Bone","percent":8},
-								{"name":"Carapaceon Brains","percent":16}
+								{"name":"Giant Bone","percent":8},
+								{"name":"Carapaceon Brain","percent":16}
 							]
 						}
 					]
@@ -4104,9 +4104,9 @@
 							"name":"Body","carveCount":1,
 							"materials":[
 								{"name":"Ceanataur Shell","percent":27},
-								{"name":"Sm Ceanataur Shell","percent":39},
-								{"name":"Jumbo Bone","percent":21},
-								{"name":"Carapaceon Brains","percent":13}
+								{"name":"Ceanataur Shell S","percent":39},
+								{"name":"Giant Bone","percent":21},
+								{"name":"Carapaceon Brain","percent":13}
 							]
 						}
 					]
@@ -4161,7 +4161,7 @@
 							"materials":[
 								{"name":"Ceanataur Shell","percent":56},
 								{"name":"Ceanataur Legs","percent":20},
-								{"name":"Sun Pearl","percent":18},
+								{"name":"Sunspire Jewel","percent":18},
 								{"name":"Sharp Claw","percent":6}
 							]
 						},
@@ -4183,9 +4183,9 @@
 								{"name":"Ceanataur Shell","percent":34},
 								{"name":"Ceanataur Legs","percent":18},
 								{"name":"Sharp Claw","percent":8},
-								{"name":"Sun Pearl","percent":15},
-								{"name":"Ceanataur Carapace","percent":17},
-								{"name":"Ceanataur Pincers","percent":8}
+								{"name":"Sunspire Jewel","percent":15},
+								{"name":"Ceanataur Shell+","percent":17},
+								{"name":"Ceanataur Pincer","percent":8}
 							]
 						},
 						{
@@ -4204,15 +4204,15 @@
 					"materials":[
 						{"name":"Ceanataur Shell","quantity":2,"percent":49},
 						{"name":"Ceanataur Legs","quantity":1,"percent":27},
-						{"name":"Ceanataur Pincers","quantity":1,"percent":24}
+						{"name":"Ceanataur Pincer","quantity":1,"percent":24}
 					]
 				},
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Ceanataur Carapace","quantity":2,"percent":49},
+						{"name":"Ceanataur Shell+","quantity":2,"percent":49},
 						{"name":"Ceanataur Legs","quantity":1,"percent":27},
-						{"name":"Ceanataur Pincers","quantity":1,"percent":24}
+						{"name":"Ceanataur Pincer","quantity":1,"percent":24}
 					]
 				}
 			],
@@ -4242,8 +4242,8 @@
 						},
 						{"name":"Claws","require":"Break both",
 							"materials":[
-								{"name":"Ceanataur Claws","quantity":1,"percent":82},
-								{"name":"Ceanataur Pincers","quantity":1,"percent":18}
+								{"name":"Ceanataur Claw","quantity":1,"percent":82},
+								{"name":"Ceanataur Pincer","quantity":1,"percent":18}
 							]
 						}
 					]
@@ -4254,28 +4254,28 @@
 						{
 							"name":"Gravios Shell","require":"Break",
 							"materials":[
-								{"name":"Ceanataur Carapace","quantity":1,"percent":69},
+								{"name":"Ceanataur Shell+","quantity":1,"percent":69},
 								{"name":"Wyvern Skull","quantity":1,"percent":8},
 								{"name":"Gravios Skull","quantity":1,"percent":23}
 							]
 						},
 						{"name":"Seashell","require":"Break",
 							"materials":[
-								{"name":"Ceanataur Carapace","quantity":1,"percent":85},
+								{"name":"Ceanataur Shell+","quantity":1,"percent":85},
 								{"name":"Wyvern Skull","quantity":1,"percent":15}
 							]
 						},
 						{"name":"Wyvern Shell","require":"Break",
 							"materials":[
-								{"name":"Ceanataur Carapace","quantity":1,"percent":37},
+								{"name":"Ceanataur Shell+","quantity":1,"percent":37},
 								{"name":"Wyvern Skull","quantity":1,"percent":63}
 							]
 						},
 						{"name":"Claws","require":"Break both",
 							"materials":[
-								{"name":"Ceanataur Claws","quantity":1,"percent":57},
-								{"name":"Ceanataur Claws+","quantity":1,"percent":25},
-								{"name":"Ceanataur Pincers","quantity":1,"percent":18}
+								{"name":"Ceanataur Claw","quantity":1,"percent":57},
+								{"name":"Ceanataur Claw+","quantity":1,"percent":25},
+								{"name":"Ceanataur Pincer","quantity":1,"percent":18}
 							]
 						}
 					]
@@ -4315,8 +4315,8 @@
 							"name":"Body","carveCount":5,
 							"materials":[
 								{"name":"Gaoren Shell","percent":52},
-								{"name":"Gaoren Spine","percent":17},
-								{"name":"Gaoren Pincers","percent":31}]}
+								{"name":"Gaoren Ridge","percent":17},
+								{"name":"Gaoren Pincer","percent":31}]}
 						]
 				}
 			],
@@ -4327,14 +4327,14 @@
 						{
 							"name":"Shell","require":"Break",
 							"materials":[
-								{"name":"Lg Monster Bone","quantity":2,"percent":65},
+								{"name":"Monster Bone L","quantity":2,"percent":65},
 								{"name":"Lao-Shan Shell","quantity":1,"percent":25},
 								{"name":"Lao-Shan Horn","quantity":1,"percent":10}
 							]
 						},
 						{"name":"Claws","require":"Stagger each leg twice, then break",
 							"materials":[
-								{"name":"Gaoren Pincers","quantity":1,"percent":7},
+								{"name":"Gaoren Pincer","quantity":1,"percent":7},
 								{"name":"Gaoren Claw","quantity":1,"percent":93}
 							]
 						}
@@ -4418,7 +4418,7 @@
 								{"name":"Raw Meat","percent":7},
 								{"name":"Bulldrome Hide","percent":51},
 								{"name":"Bullfango Head","percent":5},
-								{"name":"Jumbo Bone","percent":37}
+								{"name":"Giant Bone","percent":37}
 							]
 						}
 					]
@@ -4433,7 +4433,7 @@
 								{"name":"Bulldrome Hide","percent":44},
 								{"name":"Bullfango Head","percent":5},
 								{"name":"Bulldrome Hide+","percent":20},
-								{"name":"Jumbo Bone","percent":24}
+								{"name":"Giant Bone","percent":24}
 							]
 						}
 					]
@@ -4445,7 +4445,7 @@
 					"materials":[
 						{"name":"Bulldrome Hide","quantity":1,"percent":68},
 						{"name":"Bullfango Head","quantity":1,"percent":10},
-						{"name":"Jumbo Bone","quantity":2,"percent":22}
+						{"name":"Giant Bone","quantity":2,"percent":22}
 					]
 				},
 				{
@@ -4454,7 +4454,7 @@
 						{"name":"Bulldrome Hide+","quantity":1,"percent":14},
 						{"name":"Bulldrome Hide","quantity":1,"percent":56},
 						{"name":"Bullfango Head","quantity":1,"percent":10},
-						{"name":"Jumbo Bone","quantity":3,"percent":20}
+						{"name":"Giant Bone","quantity":3,"percent":20}
 					]
 				}
 			]
@@ -4559,7 +4559,7 @@
 							"name":"First Dropped Item","carveCount":1,
 							"materials":[
 								{"name":"Territorial Dung","percent":75},
-								{"name":"Sm Monster Bone","percent":15},
+								{"name":"Monster Bone S","percent":15},
 								{"name":"Bone","percent":10}
 							]
 						},
@@ -4567,7 +4567,7 @@
 							"name":"Second Dropped Item","carveCount":1,
 							"materials":[
 								{"name":"Territorial Dung","percent":80},
-								{"name":"Demon Mushroom","percent":15},
+								{"name":"Matsutake","percent":15},
 								{"name":"Exciteshroom","percent":5}
 							]
 						},
@@ -4597,15 +4597,15 @@
 							"name":"First Dropped Item","carveCount":1,
 							"materials":[
 								{"name":"Territorial Dung","percent":60},
-								{"name":"Lg Monster Bone","percent":30},
-								{"name":"Monster Bone+","percent":10}
+								{"name":"Monster Bone L","percent":30},
+								{"name":"Monster Hardbone","percent":10}
 							]
 						},
 						{
 							"name":"Second Dropped Item","carveCount":1,
 							"materials":[
 								{"name":"Territorial Dung","percent":80},
-								{"name":"Demon Mushroom","percent":15},
+								{"name":"Matsutake","percent":15},
 								{"name":"Exciteshroom","percent":5}
 							]
 						},
@@ -4806,7 +4806,7 @@
 					"materials":[
 						{"name":"Blango Pelt","quantity":1,"percent":51},
 						{"name":"Blangonga Whisker","quantity":1,"percent":28},
-						{"name":"Jumbo Bone","quantity":2,"percent":21}
+						{"name":"Giant Bone","quantity":2,"percent":21}
 					]
 				},
 				{
@@ -4814,7 +4814,7 @@
 					"materials":[
 						{"name":"Blango Pelt","quantity":1,"percent":26},
 						{"name":"Blangonga Whisker","quantity":1,"percent":29},
-						{"name":"Jumbo Bone","quantity":2,"percent":12},
+						{"name":"Giant Bone","quantity":2,"percent":12},
 						{"name":"Blango Pelt+","quantity":1,"percent":33}
 					]
 				}
@@ -4827,7 +4827,7 @@
 							"name":"Fangs","require":"Break",
 							"materials":[
 								{"name":"Blangonga Fang","quantity":1,"percent":95},
-								{"name":"Jumbo Bone","quantity":1,"percent":5}
+								{"name":"Giant Bone","quantity":1,"percent":5}
 							]
 						},
 						{"name":"Tail","require":"Break",
@@ -4851,7 +4851,7 @@
 						{"name":"Tail","require":"Break",
 							"materials":[
 								{"name":"Blangonga Tail","quantity":1,"percent":78},
-								{"name":"Jumbo Bone","quantity":1,"percent":5},
+								{"name":"Giant Bone","quantity":1,"percent":5},
 								{"name":"Blango Pelt+","quantity":1,"percent":17}
 							]
 						}
@@ -4887,7 +4887,7 @@
 						{
 							"name":"Body","carveCount":3,
 							"materials":[
-								{"name":"Rajang Pelt+","percent":27},
+								{"name":"Rajang Blackfur","percent":27},
 								{"name":"Rajang Fang","percent":46},
 								{"name":"Rajang Claw","percent":21},
 								{"name":"Rajang Pelt","percent":6}
@@ -4900,7 +4900,7 @@
 				{
 					"rank":"High Rank",
 					"materials":[
-						{"name":"Rajang Pelt+","quantity":1,"percent":44},
+						{"name":"Rajang Blackfur","quantity":1,"percent":44},
 						{"name":"Rajang Fang","quantity":1,"percent":28},
 						{"name":"Rajang Claw","quantity":1,"percent":16},
 						{"name":"Rajang Pelt","quantity":1,"percent":12}
@@ -4956,9 +4956,9 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Kirin Mane","percent":47},
-								{"name":"Kirin Thunder Tail","percent":24},
+								{"name":"Kirin Thundertail","percent":24},
 								{"name":"Kirin Hide","percent":2},
-								{"name":"Kirin Horn","percent":12},
+								{"name":"Kirin Thunderhorn","percent":12},
 								{"name":"Lightcrystal","percent":15}
 							]
 						}
@@ -4971,9 +4971,9 @@
 							"name":"Body","carveCount":2,
 							"materials":[
 								{"name":"Kirin Mane","percent":5},
-								{"name":"Kirin Horn","percent":8},
+								{"name":"Kirin Thunderhorn","percent":8},
 								{"name":"Kirin Hide","percent":24},
-								{"name":"Kirin Thunder Tail","percent":20},
+								{"name":"Kirin Thundertail","percent":20},
 								{"name":"Kirin Hide+","percent":18},
 								{"name":"Kirin Azure Horn","percent":10},
 								{"name":"Novacrystal","percent":15}
@@ -5093,7 +5093,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Daora Wing","quantity":1,"percent":67},
+								{"name":"Daora Webbing","quantity":1,"percent":67},
 								{"name":"Daora Scale","quantity":1,"percent":25},
 								{"name":"Daora Claw","quantity":2,"percent":8}
 							]
@@ -5113,7 +5113,7 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Daora Wing","quantity":1,"percent":64},
+								{"name":"Daora Webbing","quantity":1,"percent":64},
 								{"name":"Daora Scale","quantity":1,"percent":25},
 								{"name":"Daora Claw","quantity":2,"percent":8},
 								{"name":"Daora Gem","quantity":2,"percent":3}
@@ -5167,7 +5167,7 @@
 							"name":"Body","carveCount":4,
 							"materials":[
 								{"name":"Rusted Daora Shell","percent":44},
-								{"name":"Decayed Wing","percent":15},
+								{"name":"Rusted Daora Wing","percent":15},
 								{"name":"Decayed Scale","percent":31},
 								{"name":"Elder Dragon Blood","percent":10}
 							]
@@ -5196,8 +5196,8 @@
 							"name":"Body","carveCount":4,
 							"materials":[
 								{"name":"Rusted Daora Shell","percent":42},
-								{"name":"Decayed Wing","percent":25},
-								{"name":"Rusted Daora Wing","percent":14},
+								{"name":"Rusted Daora Wing","percent":25},
+								{"name":"Rusted Daora Webbing","percent":14},
 								{"name":"Elder Dragon Blood","percent":14},
 								{"name":"Daora Gem","percent":5}
 							]
@@ -5342,7 +5342,7 @@
 							"name":"Horn","require":"Break",
 							"materials":[
 								{"name":"Chameleos Horn","quantity":1,"percent":58},
-								{"name":"Chameleos Horn+","quantity":1,"percent":24},
+								{"name":"Chameleos Spike","quantity":1,"percent":24},
 								{"name":"Carbalite Ore","quantity":1,"percent":18}
 							]
 						}
@@ -5391,8 +5391,8 @@
 						{
 							"name":"Body","carveCount":4,
 							"materials":[
-								{"name":"Flame Dragon Shell","percent":30},
-								{"name":"Flame Dragon Mane","percent":12},
+								{"name":"Lunastra Shell","percent":30},
+								{"name":"Lunastra Mane","percent":12},
 								{"name":"Flame Dragon Scale","percent":32},
 								{"name":"Flame Dragon Claw","percent":21},
 								{"name":"Elder Dragon Blood","percent":5}
@@ -5402,8 +5402,8 @@
 							"name":"Tail","carveCount":1,
 							"materials":[
 								{"name":"Lunastra Tail","percent":59},
-								{"name":"Flame Dragon Shell","percent":18},
-								{"name":"Ancient Bone","percent":23}
+								{"name":"Lunastra Shell","percent":18},
+								{"name":"Elder Dragon Bone","percent":23}
 							]
 						},
 						{
@@ -5494,7 +5494,7 @@
 							"materials":[
 								{"name":"Teostra Tail","percent":59},
 								{"name":"Teostra Shell","percent":18},
-								{"name":"Ancient Bone","percent":23}
+								{"name":"Elder Dragon Bone","percent":23}
 							]
 						},
 						{
@@ -5517,7 +5517,7 @@
 								{"name":"Teostra Mane","percent":14},
 								{"name":"Flame Dragon Scale+","percent":30},
 								{"name":"Flame Dragon Claw","percent":22},
-								{"name":"Flame Dragon Gem","percent":2},
+								{"name":"Teostra Gem","percent":2},
 								{"name":"Elder Dragon Blood","percent":6}
 							]
 						},
@@ -5526,9 +5526,9 @@
 							"materials":[
 								{"name":"Teostra Tail","percent":34},
 								{"name":"Teostra Shell","percent":20},
-								{"name":"Ancient Bone","percent":32},
+								{"name":"Elder Dragon Bone","percent":32},
 								{"name":"Teostra Carapace","percent":12},
-								{"name":"Flame Dragon Gem","percent":2}
+								{"name":"Teostra Gem","percent":2}
 							]
 						},
 						{
@@ -5536,7 +5536,7 @@
 							"materials":[
 								{"name":"Dragon Treasure","percent":75},
 								{"name":"Flame Dragon Scale+","percent":22},
-								{"name":"Flame Dragon Gem","percent":3}]}
+								{"name":"Teostra Gem","percent":3}]}
 						]
 				}
 			],
@@ -5573,7 +5573,7 @@
 						{"name":"Wings","require":"Break both",
 							"materials":[
 								{"name":"Teostra Webbing","quantity":1,"percent":58},
-								{"name":"Flame Dragon Dust","quantity":1,"percent":19},
+								{"name":"Teostra Powder","quantity":1,"percent":19},
 								{"name":"Flame Dragon Claw","quantity":1,"percent":23}
 							]
 						}
@@ -5622,10 +5622,10 @@
 						{
 							"name":"Back","carveCount":3,
 							"materials":[
-								{"name":"Lg Monster Bone","percent":46},
+								{"name":"Monster Bone L","percent":46},
 								{"name":"Lao-Shan Scale","percent":21},
 								{"name":"Lao-Shan Shell","percent":8},
-								{"name":"Dragon Medicine Stone","percent":25}
+								{"name":"Dragon Stone","percent":25}
 							]
 						}
 					]
@@ -5646,10 +5646,10 @@
 						{
 							"name":"Back","carveCount":3,
 							"materials":[
-								{"name":"Monster Bone+","percent":42},
+								{"name":"Monster Hardbone","percent":42},
 								{"name":"Lao-Shan Scale","percent":25},
 								{"name":"Lao-Shan Carapace","percent":8},
-								{"name":"Dragon Medicine Stone","percent":25}]}
+								{"name":"Dragon Stone","percent":25}]}
 						]
 				}
 			],
@@ -5665,21 +5665,21 @@
 						},
 						{"name":"Head","require":"Break",
 							"materials":[
-								{"name":"Ruststone Slab","quantity":1,"percent":7},
-								{"name":"Ruststone Large","quantity":1,"percent":7},
-								{"name":"Ruststone Small","quantity":1,"percent":7},
-								{"name":"Ruststone Long","quantity":1,"percent":7},
+								{"name":"Rustslab","quantity":1,"percent":7},
+								{"name":"Rustchunk","quantity":1,"percent":7},
 								{"name":"Ruststone","quantity":1,"percent":7},
+								{"name":"Rustrod","quantity":1,"percent":7},
+								{"name":"Rustshard","quantity":1,"percent":7},
 								{"name":"Lao-Shan Shell","quantity":1,"percent":65}
 							]
 						},
 						{"name":"Back","require":"Break",
 							"materials":[
-								{"name":"Ruststone Slab","quantity":1,"percent":5},
-								{"name":"Ruststone Large","quantity":1,"percent":5},
-								{"name":"Ruststone Small","quantity":1,"percent":5},
-								{"name":"Ruststone Long","quantity":1,"percent":5},
+								{"name":"Rustslab","quantity":1,"percent":5},
+								{"name":"Rustchunk","quantity":1,"percent":5},
 								{"name":"Ruststone","quantity":1,"percent":5},
+								{"name":"Rustrod","quantity":1,"percent":5},
+								{"name":"Rustshard","quantity":1,"percent":5},
 								{"name":"Lao-Shan Shell","quantity":1,"percent":75}
 							]
 						},
@@ -5709,22 +5709,22 @@
 						},
 						{"name":"Head","require":"Break",
 							"materials":[
-								{"name":"Ancient Stone Slab","quantity":1,"percent":6},
-								{"name":"Ancient Stone Large","quantity":1,"percent":7},
-								{"name":"Ancient Stone Small","quantity":1,"percent":5},
-								{"name":"Ancient Stone Long","quantity":1,"percent":7},
-								{"name":"Ancient Stone","quantity":1,"percent":6},
+								{"name":"Ancient Slab","quantity":1,"percent":6},
+								{"name":"Ancient Chunk","quantity":1,"percent":7},
+								{"name":"Ancient Stone","quantity":1,"percent":5},
+								{"name":"Ancient Rod","quantity":1,"percent":7},
+								{"name":"Ancient Shard","quantity":1,"percent":6},
 								{"name":"Lao-Shan Shell","quantity":1,"percent":24},
 								{"name":"Lao-Shan Carapace","quantity":1,"percent":45}
 							]
 						},
 						{"name":"Back","require":"Break",
 							"materials":[
-								{"name":"Ancient Stone Slab","quantity":1,"percent":3},
-								{"name":"Ancient Stone Large","quantity":1,"percent":4},
-								{"name":"Ancient Stone Small","quantity":1,"percent":5},
-								{"name":"Ancient Stone Long","quantity":1,"percent":3},
-								{"name":"Ancient Stone","quantity":1,"percent":3},
+								{"name":"Ancient Slab","quantity":1,"percent":3},
+								{"name":"Ancient Chunk","quantity":1,"percent":4},
+								{"name":"Ancient Stone","quantity":1,"percent":5},
+								{"name":"Ancient Rod","quantity":1,"percent":3},
+								{"name":"Ancient Shard","quantity":1,"percent":3},
 								{"name":"Lao-Shan Shell","quantity":1,"percent":24},
 								{"name":"Lao-Shan Carapace","quantity":1,"percent":56},
 								{"name":"Lao-Shan Ruby","quantity":1,"percent":2}
@@ -5789,10 +5789,10 @@
 						{
 							"name":"Back","carveCount":3,
 							"materials":[
-								{"name":"Monster Bone+","percent":40},
+								{"name":"Monster Hardbone","percent":40},
 								{"name":"Lao-Shan Scale","percent":23},
 								{"name":"Azure Lao-Shan Shell","percent":12},
-								{"name":"Dragon Medicine Stone","percent":25}]}
+								{"name":"Dragon Stone","percent":25}]}
 						]
 				}
 			],
@@ -5809,22 +5809,22 @@
 						},
 						{"name":"Head","require":"Break",
 							"materials":[
-								{"name":"Ancient Stone Slab","quantity":1,"percent":5},
-								{"name":"Ancient Stone Large","quantity":1,"percent":6},
-								{"name":"Ancient Stone Small","quantity":1,"percent":3},
-								{"name":"Ancient Stone Long","quantity":1,"percent":5},
-								{"name":"Ancient Stone","quantity":1,"percent":6},
+								{"name":"Ancient Slab","quantity":1,"percent":5},
+								{"name":"Ancient Chunk","quantity":1,"percent":6},
+								{"name":"Ancient Stone","quantity":1,"percent":3},
+								{"name":"Ancient Rod","quantity":1,"percent":5},
+								{"name":"Ancient Shard","quantity":1,"percent":6},
 								{"name":"Azure Lao-Shan Shell","quantity":1,"percent":18},
 								{"name":"Lao-Shan Carapace","quantity":1,"percent":57}
 							]
 						},
 						{"name":"Back","require":"Break",
 							"materials":[
-								{"name":"Ancient Stone Slab","quantity":1,"percent":6},
-								{"name":"Ancient Stone Large","quantity":1,"percent":4},
-								{"name":"Ancient Stone Small","quantity":1,"percent":5},
-								{"name":"Ancient Stone Long","quantity":1,"percent":3},
-								{"name":"Ancient Stone","quantity":1,"percent":7},
+								{"name":"Ancient Slab","quantity":1,"percent":6},
+								{"name":"Ancient Chunk","quantity":1,"percent":4},
+								{"name":"Ancient Stone","quantity":1,"percent":5},
+								{"name":"Ancient Rod","quantity":1,"percent":3},
+								{"name":"Ancient Shard","quantity":1,"percent":7},
 								{"name":"Azure Lao-Shan Shell","quantity":1,"percent":25},
 								{"name":"Lao-Shan Carapace","quantity":1,"percent":48},
 								{"name":"Lao-Shan Ruby","quantity":1,"percent":2}
@@ -5877,18 +5877,18 @@
 						{
 							"name":"Body","carveCount":5,
 							"materials":[
-								{"name":"Yama Fluid","percent":34},
-								{"name":"Yama Hide","percent":20},
-								{"name":"Dragon Moss","percent":8},
-								{"name":"Dragon Wood","percent":27},
+								{"name":"Yama Tsukami Fluid","percent":34},
+								{"name":"Yama Tsukami Hide","percent":20},
+								{"name":"Dragonmoss","percent":8},
+								{"name":"Dragonwood","percent":27},
 								{"name":"Elder Dragon Blood","percent":11}
 							]
 						},
 						{
 							"name":"Back","carveCount":3,
 							"materials":[
-								{"name":"Dragon Moss","percent":34},
-								{"name":"Dragon Wood","percent":61},
+								{"name":"Dragonmoss","percent":34},
+								{"name":"Dragonwood","percent":61},
 								{"name":"Exciteshroom","percent":5}
 							]
 						},
@@ -5896,7 +5896,7 @@
 							"name":"Dropped Item","carveCount":1,
 							"materials":[
 								{"name":"Dragon Treasure","percent":85},
-								{"name":"Yama Fluid","percent":10},
+								{"name":"Yama Tsukami Fluid","percent":10},
 								{"name":"Elder Dragon Blood","percent":5}
 							]
 						}
@@ -5910,8 +5910,8 @@
 						{
 							"name":"Tentacles","require":"Break all",
 							"materials":[
-								{"name":"Yama Fin","quantity":1,"percent":65},
-								{"name":"Yama Hide","quantity":1,"percent":35}
+								{"name":"Yama Tsukami Fin","quantity":1,"percent":65},
+								{"name":"Yama Tsukami Hide","quantity":1,"percent":35}
 							]
 						}
 					]
@@ -6056,9 +6056,9 @@
 						{
 							"name":"Body","carveCount":9,
 							"materials":[
-								{"name":"Fatalis Crimson Scale","percent":34},
-								{"name":"Fatalis Crimson Shell","percent":23},
-								{"name":"Fatalis Crimson Horn","percent":6},
+								{"name":"Crimson Fatalis Scale","percent":34},
+								{"name":"Crimson Fatalis Shell","percent":23},
+								{"name":"Crimson Fatalis Horn","percent":6},
 								{"name":"Fatalis' Scale","percent":19},
 								{"name":"Fatalis' Shell","percent":15},
 								{"name":"Fatalis' Horn","percent":3}]}
@@ -6072,12 +6072,12 @@
 						{
 							"name":"Eye","require":"Break",
 							"materials":[
-								{"name":"Fatalis Devil Eye","quantity":1,"percent":100}
+								{"name":"Fatalis Devileye","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Right Horn","require":"Break",
 							"materials":[
-								{"name":"Fatalis Crimson Horn","quantity":1,"percent":100}
+								{"name":"Crimson Fatalis Horn","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Left Horn","require":"Break",
@@ -6087,13 +6087,13 @@
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Fatalis Crimson Wing","quantity":1,"percent":100}
+								{"name":"Crimson Fatalis Webbing","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Chest","require":"Break",
 							"materials":[
-								{"name":"Fatalis Crimson Shell","quantity":1,"percent":79},
-								{"name":"Fatalis Crimson Scale","quantity":1,"percent":21}
+								{"name":"Crimson Fatalis Shell","quantity":1,"percent":79},
+								{"name":"Crimson Fatalis Scale","quantity":1,"percent":21}
 							]
 						}
 					]
@@ -6148,9 +6148,9 @@
 								{"name":"Fatalis' Scale","percent":20},
 								{"name":"Fatalis' Shell","percent":17},
 								{"name":"Fatalis' Horn","percent":5},
-								{"name":"Fatalis White Scale","percent":31},
-								{"name":"Fatalis White Shell","percent":24},
-								{"name":"Fatalis White Horn","percent":3}
+								{"name":"White Fatalis Scale","percent":31},
+								{"name":"White Fatalis Shell","percent":24},
+								{"name":"White Fatalis Horn","percent":3}
 							]
 						}
 					]
@@ -6163,7 +6163,7 @@
 						{
 							"name":"Eye","require":"Break",
 							"materials":[
-								{"name":"Fatalis Devil Eye","quantity":1,"percent":100}
+								{"name":"Fatalis Devileye","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Right Horn","require":"Break",
@@ -6173,18 +6173,18 @@
 						},
 						{"name":"Left Horn","require":"Break",
 							"materials":[
-								{"name":"Fatalis White Horn","quantity":1,"percent":100}
+								{"name":"White Fatalis Horn","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Wings","require":"Break both",
 							"materials":[
-								{"name":"Fatalis White Wing","quantity":1,"percent":100}
+								{"name":"White Fatalis Webbing","quantity":1,"percent":100}
 							]
 						},
 						{"name":"Chest","require":"Break",
 							"materials":[
-								{"name":"Fatalis White Scale","quantity":1,"percent":68},
-								{"name":"Fatalis White Shell","quantity":1,"percent":32}
+								{"name":"White Fatalis Scale","quantity":1,"percent":68},
+								{"name":"White Fatalis Shell","quantity":1,"percent":32}
 							]
 						}
 					]

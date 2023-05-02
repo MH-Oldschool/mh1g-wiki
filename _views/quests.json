@@ -459,8 +459,8 @@
 							{"percent":2,"name":"Piscine Fang","quantity":1},
 							{"percent":2,"name":"Sm Monster Bone","quantity":1},
 							{"percent":2,"name":"Med Monster Bone","quantity":1},
-							{"percent":4,"name":"Burst Arrowana","quantity":10},
-							{"percent":1,"name":"Bomb Arrowana","quantity":2}
+							{"percent":4,"name":"Burst Arowana","quantity":10},
+							{"percent":1,"name":"Bomb Arowana","quantity":2}
 						],
 						"note":""
 					},
@@ -644,8 +644,8 @@
 							{"percent":25,"name":"Med Monster Bone","quantity":1},
 							{"percent":2,"name":"Piscine Fang","quantity":1},
 							{"percent":15,"name":"Piscine Jaw","quantity":1},
-							{"percent":4,"name":"Burst Arrowana","quantity":5},
-							{"percent":1,"name":"Bomb Arrowana","quantity":2}
+							{"percent":4,"name":"Burst Arowana","quantity":5},
+							{"percent":1,"name":"Bomb Arowana","quantity":2}
 						],
 						"note":""
 					}
@@ -680,8 +680,8 @@
 							{"percent":25,"name":"Med Monster Bone","quantity":1},
 							{"percent":2,"name":"Piscine Fang","quantity":1},
 							{"percent":15,"name":"Piscine Jaw","quantity":1},
-							{"percent":4,"name":"Burst Arrowana","quantity":5},
-							{"percent":1,"name":"Bomb Arrowana","quantity":2}
+							{"percent":4,"name":"Burst Arowana","quantity":5},
+							{"percent":1,"name":"Bomb Arowana","quantity":2}
 						],
 						"note":""
 					},
@@ -2059,11 +2059,11 @@
 							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[
-							{"percent":8,"name":"Bomb Arrowana","quantity":2},
+							{"percent":8,"name":"Bomb Arowana","quantity":2},
 							{"percent":2,"name":"Firefly","quantity":10},
 							{"percent":2,"name":"Rumblefish","quantity":10},
 							{"percent":2,"name":"Pin Tuna","quantity":10},
-							{"percent":2,"name":"Burst Arrowana","quantity":5},
+							{"percent":2,"name":"Burst Arowana","quantity":5},
 							{"percent":12,"name":"Scatterfish","quantity":3},
 							{"percent":"?","name":"Rathian Shell","quantity":1,"require":"Break Rathian's head"},
 							{"percent":"?","name":"Rathian Scale","quantity":1,"require":"Break Rathian's head"},
@@ -2153,8 +2153,8 @@
 							{"percent":25,"name":"Wyvern Claw","quantity":1},
 							{"percent":25,"name":"Piscine Fang","quantity":1},
 							{"percent":25,"name":"Med Monster Bone","quantity":1},
-							{"percent":4,"name":"Burst Arrowana","quantity":10},
-							{"percent":1,"name":"Bomb Arrowana","quantity":2}
+							{"percent":4,"name":"Burst Arowana","quantity":10},
+							{"percent":1,"name":"Bomb Arowana","quantity":2}
 						],
 						"note":""
 					},
@@ -2899,8 +2899,8 @@
 							{"percent":25,"name":"Piscine Fang","quantity":1},
 							{"percent":1,"name":"Lg Monster Bone","quantity":1},
 							{"percent":15,"name":"Med Monster Bone","quantity":2},
-							{"percent":4,"name":"Burst Arrowana","quantity":10},
-							{"percent":1,"name":"Bomb Arrowana","quantity":2}
+							{"percent":4,"name":"Burst Arowana","quantity":10},
+							{"percent":1,"name":"Bomb Arowana","quantity":2}
 						],
 						"note":""
 					},
@@ -3483,8 +3483,8 @@
 							{"percent":25,"name":"Wyvern Claw","quantity":1},
 							{"percent":25,"name":"Piscine Fang","quantity":1},
 							{"percent":15,"name":"Med Monster Bone","quantity":1},
-							{"percent":15,"name":"Burst Arrowana","quantity":10},
-							{"percent":4,"name":"Bomb Arrowana","quantity":2},
+							{"percent":15,"name":"Burst Arowana","quantity":10},
+							{"percent":4,"name":"Bomb Arowana","quantity":2},
 							{"percent":1,"name":"Cephalos Fin","quantity":1}
 						],
 						"note":""
@@ -4078,7 +4078,7 @@
 							{"percent":5,"name":"Lg Monster Bone","quantity":1},
 							{"percent":1,"name":"Piscine Fang","quantity":1},
 							{"percent":2,"name":"Piscine Jaw","quantity":1},
-							{"percent":5,"name":"Bomb Arrowana","quantity":3},
+							{"percent":5,"name":"Bomb Arowana","quantity":3},
 							{"percent":14,"name":"Plesioth Fin","quantity":1},
 							{"percent":1,"name":"Plesioth Fin","quantity":2}
 						],
@@ -4385,11 +4385,11 @@
 							{"name":"Hot Drink","icon":"red-icon jar-icon","quantity":1}
 						],
 						"rewards":[
-							{"percent":8,"name":"Bomb Arrowana","quantity":2},
+							{"percent":8,"name":"Bomb Arowana","quantity":2},
 							{"percent":2,"name":"Firefly","quantity":10},
 							{"percent":2,"name":"Rumblefish","quantity":10},
 							{"percent":2,"name":"Pin Tuna","quantity":10},
-							{"percent":2,"name":"Burst Arrowana","quantity":5},
+							{"percent":2,"name":"Burst Arowana","quantity":5},
 							{"percent":12,"name":"Scatterfish","quantity":3}
 						],
 						"hrRequire":13,
@@ -4462,8 +4462,8 @@
 							{"percent":25,"name":"Wyvern Claw","quantity":3},
 							{"percent":25,"name":"Piscine Fang","quantity":1},
 							{"percent":5,"name":"Med Monster Bone","quantity":2},
-							{"percent":25,"name":"Burst Arrowana","quantity":5},
-							{"percent":15,"name":"Bomb Arrowana","quantity":3},
+							{"percent":25,"name":"Burst Arowana","quantity":5},
+							{"percent":15,"name":"Bomb Arowana","quantity":3},
 							{"percent":1,"name":"Lg Lobstershell","quantity":1}
 						],
 						"hrRequire":13,
@@ -5064,8 +5064,8 @@
 							{"percent":2,"name":"Wyvern Claw","quantity":7},
 							{"percent":15,"name":"Piscine Fang","quantity":3},
 							{"percent":15,"name":"Lg Monster Bone","quantity":1},
-							{"percent":25,"name":"Burst Arrowana","quantity":5},
-							{"percent":2,"name":"Bomb Arrowana","quantity":3},
+							{"percent":25,"name":"Burst Arowana","quantity":5},
+							{"percent":2,"name":"Bomb Arowana","quantity":3},
 							{"percent":1,"name":"Lg Lobstershell","quantity":1}
 						],
 						"hrRequire":13,
@@ -5553,8 +5553,8 @@
 							{"percent":2,"name":"Wyvern Claw","quantity":7},
 							{"percent":2,"name":"Piscine Fang","quantity":3},
 							{"percent":5,"name":"Lg Monster Bone","quantity":1},
-							{"percent":25,"name":"Burst Arrowana","quantity":5},
-							{"percent":2,"name":"Bomb Arrowana","quantity":3},
+							{"percent":25,"name":"Burst Arowana","quantity":5},
+							{"percent":2,"name":"Bomb Arowana","quantity":3},
 							{"percent":5,"name":"Cephalos Fin","quantity":1},
 							{"percent":1,"name":"Lg Lobstershell","quantity":1}
 						],
@@ -5794,7 +5794,7 @@
 							{"percent":2,"name":"Piscine Fang","quantity":1},
 							{"percent":2,"name":"Scatterfish","quantity":3},
 							{"percent":1,"name":"Lg Monster Bone","quantity":1},
-							{"percent":2,"name":"Bomb Arrowana","quantity":3},
+							{"percent":2,"name":"Bomb Arowana","quantity":3},
 							{"percent":1,"name":"Lg Lobstershell","quantity":1}
 						],
 						"hrRequire":13,
@@ -7406,8 +7406,8 @@
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Sm Monster Bone","quantity":1,"percent":20},
 							{"name":"Med Monster Bone","quantity":1,"percent":20},
-							{"name":"Burst Arrowana","quantity":10,"percent":4},
-							{"name":"Bomb Arrowana","quantity":2,"percent":1}
+							{"name":"Burst Arowana","quantity":10,"percent":4},
+							{"name":"Bomb Arowana","quantity":2,"percent":1}
 						]
 					},
 					{
@@ -7523,8 +7523,8 @@
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Piscine Jaw","quantity":1,"percent":15},
-							{"name":"Burst Arrowana","quantity":5,"percent":4},
-							{"name":"Bomb Arrowana","quantity":2,"percent":1}
+							{"name":"Burst Arowana","quantity":5,"percent":4},
+							{"name":"Bomb Arowana","quantity":2,"percent":1}
 						]
 					}
 				]
@@ -7636,8 +7636,8 @@
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Piscine Jaw","quantity":1,"percent":15},
-							{"name":"Burst Arrowana","quantity":5,"percent":4},
-							{"name":"Bomb Arrowana","quantity":2,"percent":1}
+							{"name":"Burst Arowana","quantity":5,"percent":4},
+							{"name":"Bomb Arowana","quantity":2,"percent":1}
 						]
 					},
 					{
@@ -9181,8 +9181,8 @@
 							{"name":"Wyvern Claw","quantity":1,"percent":25},
 							{"name":"Piscine Fang","quantity":1,"percent":25},
 							{"name":"Med Monster Bone","quantity":1,"percent":25},
-							{"name":"Burst Arrowana","quantity":10,"percent":4},
-							{"name":"Bomb Arrowana","quantity":2,"percent":1}
+							{"name":"Burst Arowana","quantity":10,"percent":4},
+							{"name":"Bomb Arowana","quantity":2,"percent":1}
 						]
 					},
 					{
@@ -9227,11 +9227,11 @@
 							}
 						],
 						"rewards":[
-							{"name":"Bomb Arrowana","quantity":2,"percent":8},
+							{"name":"Bomb Arowana","quantity":2,"percent":8},
 							{"name":"Firefly","quantity":10,"percent":20},
 							{"name":"Rumblefish","quantity":10,"percent":20},
 							{"name":"Pin Tuna","quantity":10,"percent":20},
-							{"name":"Burst Arrowana","quantity":5,"percent":20},
+							{"name":"Burst Arowana","quantity":5,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":12},
 							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
 							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
@@ -9506,8 +9506,8 @@
 							{"name":"Piscine Fang","quantity":1,"percent":25},
 							{"name":"Lg Monster Bone","quantity":1,"percent":10},
 							{"name":"Med Monster Bone","quantity":2,"percent":15},
-							{"name":"Burst Arrowana","quantity":10,"percent":4},
-							{"name":"Bomb Arrowana","quantity":2,"percent":1}
+							{"name":"Burst Arowana","quantity":10,"percent":4},
+							{"name":"Bomb Arowana","quantity":2,"percent":1}
 						]
 					},
 					{
@@ -10383,7 +10383,7 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":5},
 							{"name":"Piscine Fang","quantity":1,"percent":10},
 							{"name":"Piscine Jaw","quantity":1,"percent":20},
-							{"name":"Bomb Arrowana","quantity":3,"percent":5},
+							{"name":"Bomb Arowana","quantity":3,"percent":5},
 							{"name":"Plesioth Fin","quantity":1,"percent":14},
 							{"name":"Plesioth Fin","quantity":2,"percent":1}
 						]
@@ -10611,8 +10611,8 @@
 							{"name":"Wyvern Claw","quantity":3,"percent":25},
 							{"name":"Piscine Fang","quantity":1,"percent":25},
 							{"name":"Med Monster Bone","quantity":2,"percent":5},
-							{"name":"Burst Arrowana","quantity":5,"percent":25},
-							{"name":"Bomb Arrowana","quantity":3,"percent":15},
+							{"name":"Burst Arowana","quantity":5,"percent":25},
+							{"name":"Bomb Arowana","quantity":3,"percent":15},
 							{"name":"Sm Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":13
@@ -10667,8 +10667,8 @@
 							{"name":"Wyvern Claw","quantity":7,"percent":20},
 							{"name":"Piscine Fang","quantity":3,"percent":15},
 							{"name":"Lg Monster Bone","quantity":1,"percent":15},
-							{"name":"Burst Arrowana","quantity":5,"percent":25},
-							{"name":"Bomb Arrowana","quantity":3,"percent":20},
+							{"name":"Burst Arowana","quantity":5,"percent":25},
+							{"name":"Bomb Arowana","quantity":3,"percent":20},
 							{"name":"Sm Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":13
@@ -10716,11 +10716,11 @@
 							}
 						],
 						"rewards":[
-							{"name":"Bomb Arrowana","quantity":2,"percent":8},
+							{"name":"Bomb Arowana","quantity":2,"percent":8},
 							{"name":"Firefly","quantity":10,"percent":20},
 							{"name":"Rumblefish","quantity":10,"percent":20},
 							{"name":"Pin Tuna","quantity":10,"percent":20},
-							{"name":"Burst Arrowana","quantity":5,"percent":20},
+							{"name":"Burst Arowana","quantity":5,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":12},
 							{"name":"Rathian Scale","quantity":1,"percent":75,"require":"Break Rathian's head"},
 							{"name":"Rathian Shell","quantity":1,"percent":25,"require":"Break Rathian's head"},
@@ -10989,7 +10989,7 @@
 							{"name":"Lg Monster Bone","quantity":1,"percent":5},
 							{"name":"Piscine Fang","quantity":1,"percent":10},
 							{"name":"Piscine Jaw","quantity":1,"percent":20},
-							{"name":"Bomb Arrowana","quantity":3,"percent":5},
+							{"name":"Bomb Arowana","quantity":3,"percent":5},
 							{"name":"Plesioth Fin","quantity":1,"percent":14},
 							{"name":"Plesioth Fin","quantity":2,"percent":1}
 						],
@@ -11344,7 +11344,7 @@
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":20},
 							{"name":"Lg Monster Bone","quantity":1,"percent":10},
-							{"name":"Bomb Arrowana","quantity":3,"percent":20},
+							{"name":"Bomb Arowana","quantity":3,"percent":20},
 							{"name":"Lg Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":13
@@ -12059,8 +12059,8 @@
 							{"name":"Wyvern Claw","quantity":7,"percent":20},
 							{"name":"Piscine Fang","quantity":3,"percent":15},
 							{"name":"Lg Monster Bone","quantity":1,"percent":15},
-							{"name":"Burst Arrowana","quantity":5,"percent":24},
-							{"name":"Bomb Arrowana","quantity":3,"percent":20},
+							{"name":"Burst Arowana","quantity":5,"percent":24},
+							{"name":"Bomb Arowana","quantity":3,"percent":20},
 							{"name":"Coral Cephalos Fin","quantity":1,"percent":1},
 							{"name":"Gt Lobstershell","quantity":1,"percent":1}
 						],
@@ -12147,8 +12147,8 @@
 							{"name":"Wyvern Claw","quantity":7,"percent":18},
 							{"name":"Piscine Fang","quantity":3,"percent":12},
 							{"name":"Lg Monster Bone","quantity":1,"percent":12},
-							{"name":"Burst Arrowana","quantity":6,"percent":16},
-							{"name":"Bomb Arrowana","quantity":2,"percent":24},
+							{"name":"Burst Arowana","quantity":6,"percent":16},
+							{"name":"Bomb Arowana","quantity":2,"percent":24},
 							{"name":"Coral Cephalos Fin","quantity":1,"percent":5},
 							{"name":"Gt Lobstershell","quantity":1,"percent":2}
 						],
@@ -12981,7 +12981,7 @@
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":20},
 							{"name":"Monster Bone+","quantity":1,"percent":10},
-							{"name":"Bomb Arrowana","quantity":3,"percent":20},
+							{"name":"Bomb Arowana","quantity":3,"percent":20},
 							{"name":"Gt Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":21
@@ -13019,7 +13019,7 @@
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":10},
 							{"name":"Monster Bone+","quantity":1,"percent":12},
-							{"name":"Bomb Arrowana","quantity":3,"percent":10},
+							{"name":"Bomb Arowana","quantity":3,"percent":10},
 							{"name":"Gt Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":21
@@ -13228,7 +13228,7 @@
 							{"name":"Piscine Fang","quantity":1,"percent":20},
 							{"name":"Scatterfish","quantity":3,"percent":20},
 							{"name":"Monster Bone+","quantity":3,"percent":10},
-							{"name":"Bomb Arrowana","quantity":3,"percent":20},
+							{"name":"Bomb Arowana","quantity":3,"percent":20},
 							{"name":"Gt Lobstershell","quantity":1,"percent":1}
 						],
 						"hrRequire":21

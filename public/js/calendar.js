@@ -29,7 +29,7 @@ ready(() => {
 		},
 		{
 			title: "Fish & Food Day", // Food and Fish shops?
-			description: "The Food Vendor offers: Sleepyfish, Honey, Burst Arrowana, Bomb Arrowana, and Scatterfish."
+			description: "The Food Vendor offers: Sleepyfish, Honey, Burst Arowana, Bomb Arowana, and Scatterfish."
 		}
 	];
 	// Day 1	Material Day (aka Claw day because Wyvern Claws for Fatalis Clust Lv.2 farming are sold)
