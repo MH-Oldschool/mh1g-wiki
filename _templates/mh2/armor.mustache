@@ -232,14 +232,25 @@
 	<p>
 		The Defense stat determines how much raw damage your armor will block. The formula is as follows:
 	</p>
-	<pre>Percent Damage Blocked = (80 + Defense) &div; 80</pre>
+	<pre>Percent Damage Taken = (80 + Defense) &div; 80</pre>
+	<p>
+		E.G. 0 Def = 100% damage, 40 Def = 75%, 80 Def = 50%, 120 Def = 40%
+	</p>
 	<p>
 		Furthermore if your health drops to 40% or less, your defense is boosted by 30.
 	</p>
 
 	<h2>Element Resistance</h2>
 	<p>
-		The Element Resistance stats determine how much of the relevant element damage your armor will block. The given number is a percent of damage blocked.
+		The Element Resistance stats determine how much of the relevant element damage your armor will block. Element damage resistance is partly determined by your armor's Defense, as well as its Resistance to the given element. Positive Element Resistance will reduce the damage you take from that element, while negative resistance will increase it.
+	</p>
+	<pre>Percent Damage Taken = ((80 + Defense) &div; 80) &times; ((100 - Element Resistance) &div; 100)</pre>
+	<p>
+		E.G. 80 Def &amp; 10 Fire Res = 45% fire damage, 80 Def &amp; -10 Fire Res = 55% fire damage
+	</p>
+
+	<p>
+		Check the "Show True Values" checkbox in the armor builder to see how much raw damage and element damage is blocked by your armor set.
 	</p>
 
 	<h2>Upgrades</h2>
@@ -348,50 +359,35 @@
 						<th scope="row">Health</th><td id="health-stat" class="health-stat ta-r">100</td>
 						<td>
 							<img class="attribute-icon" src="../images/attributes/fire.png" alt="Fire"/>
-							<div class="res-value">
-								<span id="fire-res">0</span>
-								<span class="true-value">%</span>
-							</div>
+							<div id="fire-res" class="res-value">0</div>
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">Stamina</th><td id="stamina-stat" class="stamina-stat ta-r">100</td>
 						<td>
 							<img class="attribute-icon" src="../images/attributes/water.png" alt="Water"/>
-							<div class="res-value">
-								<span id="water-res">0</span>
-								<span class="true-value">%</span>
-							</div>
+							<div id="water-res" class="res-value">0</div>
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">Attack</th><td id="attack-stat" class="attack-stat ta-r">0</td>
 						<td>
 							<img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder"/>
-							<div class="res-value">
-								<span id="thunder-res">0</span>
-								<span class="true-value">%</span>
-							</div>
+							<div id="thunder-res" class="res-value">0</div>
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">Defense</th><td id="defense-stat" class="defense-stat ta-r">0</td>
 						<td>
 							<img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice"/>
-							<div class="res-value">
-								<span id="ice-res">0</span>
-								<span class="true-value">%</span>
-							</div>
+							<div id="ice-res" class="res-value">0</div>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2"></td>
 						<td>
 							<img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon"/>
-							<div class="res-value">
-								<span id="dragon-res">0</span>
-								<span class="true-value">%</span>
-							</div>
+							<div id="dragon-res" class="res-value">0</div>
 						</td>
 					</tr>
 				</tbody>

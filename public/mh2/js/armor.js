@@ -184,4 +184,18 @@ ready(() => {
 		}
 	}
 	builderToggle.addEventListener("click", toggleBuilder);
+
+	function toggleTrueValues(toggleOn) {
+		if (toggleOn) {
+			document.body.classList.add("show-true-values");
+		}
+		else {
+			document.body.classList.remove("show-true-values");
+		}
+	}
+	var trueValuesCheck = document.getElementById("show-true-values");
+	trueValuesCheck.addEventListener("change", (event) => {
+		toggleTrueValues(event.target.checked);
+	});
+	toggleTrueValues(trueValuesCheck.checked);
 });

@@ -126,6 +126,9 @@ function ArmorBuilder() {
 ArmorBuilder.calculateDamageBlocked = function(defense) {
 	return 1 - (80 / (defense + 80));
 };
+ArmorBuilder.calculateElementBlocked = function(defense, element) {
+	return 1 - ((80 / (defense + 80)) * ((100 - element) / 100));
+};
 ArmorBuilder.prototype.calculateDefense = function() {
 	var defense = 0;
 	if (this.currentArmor.headgear) {
@@ -150,20 +153,20 @@ ArmorBuilder.prototype.calculateRes = function() {
 	var resistances = [ 0, 0, 0, 0, 0 ];
 	function addResistance(res, index) { resistances[index] += res; }
 
-	if (this.currentArmor.headgear.res) {
-		this.currentArmor.headgear.res.forEach(addResistance);
+	if (this.currentArmor.headgear.resistances) {
+		this.currentArmor.headgear.resistances.forEach(addResistance);
 	}
-	if (this.currentArmor.torso.res) {
-		this.currentArmor.torso.res.forEach(addResistance);
+	if (this.currentArmor.torso.resistances) {
+		this.currentArmor.torso.resistances.forEach(addResistance);
 	}
-	if (this.currentArmor.arms.res) {
-		this.currentArmor.arms.res.forEach(addResistance);
+	if (this.currentArmor.arms.resistances) {
+		this.currentArmor.arms.resistances.forEach(addResistance);
 	}
-	if (this.currentArmor.waist.res) {
-		this.currentArmor.waist.res.forEach(addResistance);
+	if (this.currentArmor.waist.resistances) {
+		this.currentArmor.waist.resistances.forEach(addResistance);
 	}
-	if (this.currentArmor.legs.res) {
-		this.currentArmor.legs.res.forEach(addResistance);
+	if (this.currentArmor.legs.resistances) {
+		this.currentArmor.legs.resistances.forEach(addResistance);
 	}
 
 	return resistances;
@@ -649,11 +652,13 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById("defense-stat").innerHTML = `<span>${defense}</span> <span class="true-value">(${parseInt(damageBlocked * 100)}%)</span>`;
 
 	var resistances = this.calculateRes();
-	document.getElementById("fire-res").innerText = resistances[0];
-	document.getElementById("water-res").innerText = resistances[1];
-	document.getElementById("thunder-res").innerText = resistances[2];
-	document.getElementById("ice-res").innerText = resistances[3];
-	document.getElementById("dragon-res").innerText = resistances[4];
+	console.log(resistances);
+	var trueResistances = resistances.map(element => ArmorBuilder.calculateElementBlocked(defense, element));
+	document.getElementById("fire-res").innerHTML = `<span>${ resistances[0] }</span><span class="true-value"> (${ parseInt(trueResistances[0] * 100) }%)`;
+	document.getElementById("water-res").innerHTML = `<span>${ resistances[1] }</span><span class="true-value"> (${ parseInt(trueResistances[1] * 100) }%)`;
+	document.getElementById("thunder-res").innerHTML = `<span>${ resistances[2] }</span><span class="true-value"> (${ parseInt(trueResistances[2] * 100) }%)`;
+	document.getElementById("ice-res").innerHTML = `<span>${ resistances[3] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
+	document.getElementById("dragon-res").innerHTML = `<span>${ resistances[4] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 
 	this.calculateSkills();
 	this.sumMaterialsAndZenny();

@@ -192,14 +192,19 @@ ready(() => {
 		}
 	});
 
-	document.getElementById("show-true-values").addEventListener("change", (event) => {
-		if (event.target.checked) {
+	function toggleTrueValues(toggleOn) {
+		if (toggleOn) {
 			document.body.classList.add("show-true-values");
 		}
 		else {
 			document.body.classList.remove("show-true-values");
 		}
+	}
+	var trueValuesCheck = document.getElementById("show-true-values");
+	trueValuesCheck.addEventListener("change", (event) => {
+		toggleTrueValues(event.target.checked);
 	});
+	toggleTrueValues(trueValuesCheck.checked);
 
 	document.body.addEventListener("g-toggle", window.closePopup);
 

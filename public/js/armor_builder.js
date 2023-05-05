@@ -800,6 +800,9 @@ ArmorBuilder.getSkillSet = function(armor) {
 ArmorBuilder.calculateDamageBlocked = function(defense) {
 	return 1 - (80 / (defense + 80));
 };
+ArmorBuilder.calculateElementBlocked = function(defense, element) {
+	return 1 - ((80 / (defense + 80)) * ((100 - element) / 100));
+};
 ArmorBuilder.prototype.calculateDefense = function() {
 	let defense = 0;
 	if (this.currentArmor.headgear) {
@@ -1252,10 +1255,11 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById(`defense-stat-${ this.version }`).innerHTML = `<span>${defense}</span> <span class="true-value">(${parseInt(damageBlocked * 100)}%)</span>`;
 
 	let resistances = this.calculateRes();
-	document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0];
-	document.getElementById(`water-res-${ this.version }`).innerText = resistances[1];
-	document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2];
-	document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3];
+	var trueResistances = resistances.map(element => ArmorBuilder.calculateElementBlocked(defense, element));
+	document.getElementById(`fire-res-${ this.version }`).innerHTML = `<span>${ resistances[0] }</span><span class="true-value"> (${ parseInt(trueResistances[0] * 100) }%)`;
+	document.getElementById(`water-res-${ this.version }`).innerHTML = `<span>${ resistances[1] }</span><span class="true-value"> (${ parseInt(trueResistances[1] * 100) }%)`;
+	document.getElementById(`thunder-res-${ this.version }`).innerHTML = `<span>${ resistances[2] }</span><span class="true-value"> (${ parseInt(trueResistances[2] * 100) }%)`;
+	document.getElementById(`dragon-res-${ this.version }`).innerHTML = `<span>${ resistances[3] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 
 	this.calculateSkills();
 	this.sumMaterialsAndZenny();
