@@ -649,7 +649,7 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 
 	var defense = this.calculateDefense();
 	var damageBlocked = ArmorBuilder.calculateDamageBlocked(defense);
-	document.getElementById("defense-stat").innerHTML = `<span>${defense}</span> <span class="true-value">(${parseInt(damageBlocked * 100)}%)</span>`;
+	document.getElementById("defense-stat").innerHTML = `<span>${defense}</span><span class="true-value"> (${parseInt(damageBlocked * 100)}%)</span>`;
 
 	var resistances = this.calculateRes();
 	console.log(resistances);

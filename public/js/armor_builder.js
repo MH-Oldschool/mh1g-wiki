@@ -1252,7 +1252,7 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 
 	let defense = this.calculateDefense();
 	let damageBlocked = ArmorBuilder.calculateDamageBlocked(defense);
-	document.getElementById(`defense-stat-${ this.version }`).innerHTML = `<span>${defense}</span> <span class="true-value">(${parseInt(damageBlocked * 100)}%)</span>`;
+	document.getElementById(`defense-stat-${ this.version }`).innerHTML = `<span>${defense}</span><span class="true-value"> (${parseInt(damageBlocked * 100)}%)</span>`;
 
 	let resistances = this.calculateRes();
 	var trueResistances = resistances.map(element => ArmorBuilder.calculateElementBlocked(defense, element));

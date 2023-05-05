@@ -256,9 +256,13 @@
 	<p>
 		The Defense stat determines how much raw damage you will take. The formula is as follows:
 	</p>
-	<pre>Percent Damage Taken = (80 + Defense) &div; 80</pre>
+	<pre>Percent Damage Taken = 80 &div; (80 + Defense)</pre>
 	<p>
-		E.G. 0 Def = 100% damage, 40 Def = 75%, 80 Def = 50%, 120 Def = 40%
+		Subtract from 100 to see how much damage is blocked:
+	</p>
+	<pre>Percent Damage Blocked = 100 - (80 &div; (80 + Defense))</pre>
+	<p>
+		E.G. 0 Def = 0% damage blocked, 40 Def = 25%, 80 Def = 50%, 120 Def = 60%
 	</p>
 	<p>
 		Furthermore if your health drops to 40% or less, your defense is boosted by 30.
@@ -268,13 +272,53 @@
 	<p>
 		The Element Resistance stats determine how much of the relevant element damage you will take. Element damage resistance is partly determined by your armor's Defense, as well as its Resistance to the given element. Positive Element Resistance will reduce the damage you take from that element, while negative resistance will increase it.
 	</p>
-	<pre>Percent Damage Taken = ((80 + Defense) &div; 80) &times; ((100 - Element Resistance) &div; 100)</pre>
+	<pre>Percent Damage Blocked = 100 - ((80 &div; (80 + Defense)) &times; ((100 - Element Resistance) &div; 100))</pre>
 	<p>
-		E.G. 80 Def &amp; 10 Fire Res = 45% fire damage, 80 Def &amp; -10 Fire Res = 55% fire damage
+		E.G. 80 Def &amp; 10 Fire Res = 55% fire damage blocked, 80 Def &amp; -10 Fire Res = 45% fire damage blocked
 	</p>
 
 	<p>
 		Check the "Show True Values" checkbox in the armor builder to see how much raw damage and element damage is blocked by your armor set.
+	</p>
+
+	<h2>Defense Up Buffs</h2>
+	<p>
+		Your defense can be buffed by various means, some of which can be stacked with others. See the following table, in which all items in the same category will overwrite or ignore each other.
+	</p>
+	<table>
+		<tbody>
+			<tr>
+				<th>Charm:</th>
+				<td>Armorcharm [+10]</td>
+			</tr>
+			<tr class="mhg">
+				<th>Talon:</th>
+				<td>Armortalon [+25]</td>
+			</tr>
+			<tr>
+				<th>Armor Skill:</th>
+				<td class="mh1">+5, +10</td>
+				<td class="mhg">-20, -15, -10, +10, +15, +20</td>
+			</tr>
+			<tr>
+				<th>Dining &amp; Consumables:</th>
+				<td>Dining Buff [+5, +10], Armorskin [+3], Mega Armorskin [+10],<span title="Armor Shot will replace any other defense buffs from its category. E.G. replacing Mega Armorskin's +10 with +3 from the shot."> Demon Shot [+3]*</span></td>
+			</tr>
+			<tr>
+				<th>Short-Term Consumables:</th>
+				<td>Armor Seed [+20]<span class="mhg">, Armor Pill [+25]</span>, Armor Flute [+20]</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<i>*Armor Shot will <b>replace</b> any other defense buffs from its category. E.G. replacing Mega Armorskin's +10 with +3 from the shot.</i>
+	</p>
+
+	<h2>Element Resistance Buffs</h2>
+	<p class="mh1">
+	</p>
+	<p class="mhg">
+		Armor skills can provide one of six stages of Element Resistance: -10, -5, -3, +3, +5, &amp; +10. There is one armor skill per element resistance, plus the Element Resistance Up skill which buffs all Element Resistances.
 	</p>
 </details>
 
