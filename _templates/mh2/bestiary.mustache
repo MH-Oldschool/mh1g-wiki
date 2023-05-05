@@ -222,89 +222,95 @@
 				<details{{^carves}} style="display:none"{{/carves}}>
 					<summary>Materials</summary>
 
-					<table>
-						<caption>Carves</caption>
-						<thead>
-							<tr>
-								<th>Name</th>
-								<th>Carve Chance</th>
-							</tr>
-						</thead>
-
-						<tbody>
-							{{#carves}}
-								<tr>
-									<th colspan=2 class="ta-c">{{rank}}</th>
-								</tr>
-								{{#sources}}
+					<div class="inline-block-columns">
+						<div class="column">
+							<table>
+								<caption>Carves</caption>
+								<thead>
 									<tr>
-										<th colspan=2>{{name}} &times; {{carveCount}}</th>
+										<th>Name</th>
+										<th>Carve Chance</th>
 									</tr>
-									{{#materials}}
+								</thead>
+
+								<tbody>
+									{{#carves}}
 										<tr>
-											<td>{{name}}</td>
-											<td class="ta-r">{{percent}}%</td>
+											<th colspan=2 class="ta-c">{{rank}}</th>
 										</tr>
-									{{/materials}}
-								{{/sources}}
-							{{/carves}}
-						</tbody>
-					</table>
-
-					<table{{^breakRewards}} style="display:none"{{/breakRewards}}>
-						<caption>Part-break Rewards</caption>
-						<thead>
-							<tr>
-								<th>Name</th>
-								<th>Reward Chance</th>
-							</tr>
-						</thead>
-
-						<tbody>
-							{{#breakRewards}}
-								<tr>
-									<th colspan=2 class="ta-c">{{rank}}</th>
-								</tr>
-								{{#sources}}
+										{{#sources}}
+											<tr>
+												<th colspan=2>{{name}} &times; {{carveCount}}</th>
+											</tr>
+											{{#materials}}
+												<tr>
+													<td>{{name}}</td>
+													<td class="ta-r">{{percent}}%</td>
+												</tr>
+											{{/materials}}
+										{{/sources}}
+									{{/carves}}
+								</tbody>
+							</table>
+						</div>
+						<div class="column">
+							<table{{^breakRewards}} style="display:none"{{/breakRewards}}>
+								<caption>Part-break Rewards</caption>
+								<thead>
 									<tr>
-										<th colspan=2>{{name}}</th>
+										<th>Name</th>
+										<th>Reward Chance</th>
 									</tr>
-									{{#materials}}
+								</thead>
+
+								<tbody>
+									{{#breakRewards}}
 										<tr>
-											<td>{{name}}</td>
-											<td class="ta-r">{{percent}}%</td>
+											<th colspan=2 class="ta-c">{{rank}}</th>
 										</tr>
-									{{/materials}}
-								{{/sources}}
-							{{/breakRewards}}
-						</tbody>
-					</table>
-
-					<table{{^captureRewards}} style="display:none"{{/captureRewards}}>
-						<caption>Capture Rewards</caption>
-						<thead>
-							<tr>
-								<th>Name</th>
-								<th>Quantity</th>
-								<th>Reward Chance</th>
-							</tr>
-						</thead>
-
-						<tbody>
-							{{#captureRewards}}
-								<tr>
-									<th colspan=3 class="ta-c">{{rank}}</th>
-								</tr>
-								{{#materials}}
-									<tr class="ta-r">
-										<td class="ta-l">{{name}}</td>
-										<td>&times;{{quantity}}</td>
-										<td>{{percent}}%</td>
+										{{#sources}}
+											<tr>
+												<th colspan=2>{{name}}</th>
+											</tr>
+											{{#materials}}
+												<tr>
+													<td>{{name}}</td>
+													<td class="ta-r">{{percent}}%</td>
+												</tr>
+											{{/materials}}
+										{{/sources}}
+									{{/breakRewards}}
+								</tbody>
+							</table>
+						</div>
+						<div class="column">
+							<table{{^captureRewards}} style="display:none"{{/captureRewards}}>
+								<caption>Capture Rewards</caption>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Quantity</th>
+										<th>Reward Chance</th>
 									</tr>
-								{{/materials}}
-							{{/captureRewards}}
-						</tbody>
-					</table>
+								</thead>
+
+								<tbody>
+									{{#captureRewards}}
+										<tr>
+											<th colspan=3 class="ta-c">{{rank}}</th>
+										</tr>
+										{{#materials}}
+											<tr class="ta-r">
+												<td class="ta-l">{{name}}</td>
+												<td>&times;{{quantity}}</td>
+												<td>{{percent}}%</td>
+											</tr>
+										{{/materials}}
+									{{/captureRewards}}
+								</tbody>
+							</table>
+						</div>
+					</div>
 				</details>
 			</aside>
 		</section>

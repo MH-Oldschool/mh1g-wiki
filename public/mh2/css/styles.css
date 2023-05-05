@@ -128,9 +128,9 @@ tbody th {
 	left: 0;
 	right: 0;
 }
-.mini-crown-icon:after { background-position: -7.9375rem -12.4375rem; }
-.silver-crown-icon:after,
-.gold-crown-icon:after {
+.mini-crown-icon:after,
+.gold-crown-icon:after { background-position: -7.9375rem -12.4375rem; }
+.silver-crown-icon:after {
 	background-position: -7.9375rem -12.9375rem;
 }
 
@@ -228,5 +228,14 @@ tbody th {
 	}
 	.two-columns .column {
 		width: 50%;
+	}
+
+	.inline-block-columns .column {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 2rem;
+	}
+	.inline-block-columns .column:last-child {
+		margin-right: 0;
 	}
 }

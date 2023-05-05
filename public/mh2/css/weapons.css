@@ -153,14 +153,3 @@
 
 .calc-arrows { display: none }
 .bow .calc-arrows { display: block }
-
-@media screen and (min-width: 40rem) {
-	.inline-block-columns .column {
-		display: inline-block;
-		vertical-align: top;
-		margin-right: 2rem;
-	}
-	.inline-block-columns .column:last-child {
-		margin-right: 0;
-	}
-}

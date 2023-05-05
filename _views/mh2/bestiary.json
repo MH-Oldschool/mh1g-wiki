@@ -3026,7 +3026,12 @@
 								{"name":"Black Gravios Shell","quantity":1,"percent":92},
 								{"name":"Sleep Sac","quantity":2,"percent":8}
 							]
-						},
+						}
+					]
+				},
+				{
+					"rank":"High Rank",
+					"sources":[
 						{"name":"Stomach","require":"Break twice",
 							"materials":[
 								{"name":"Black Gravios Carapace","quantity":1,"percent":35},
