@@ -256,11 +256,11 @@
 	<p>
 		The Defense stat determines how much raw damage you will take. The formula is as follows:
 	</p>
-	<pre>Percent Damage Taken = 80 &div; (80 + Defense)</pre>
+	<pre>Percent Damage Taken = 100 &times; 80 &div; (80 + Defense)</pre>
 	<p>
 		Subtract from 100 to see how much damage is blocked:
 	</p>
-	<pre>Percent Damage Blocked = 100 - (80 &div; (80 + Defense))</pre>
+	<pre>Percent Damage Blocked = 100 - 100 &times; 80 &div; (80 + Defense)</pre>
 	<p>
 		E.G. 0 Def = 0% damage blocked, 40 Def = 25%, 80 Def = 50%, 120 Def = 60%
 	</p>
@@ -272,7 +272,7 @@
 	<p>
 		The Element Resistance stats determine how much of the relevant element damage you will take. Element damage resistance is partly determined by your armor's Defense, as well as its Resistance to the given element. Positive Element Resistance will reduce the damage you take from that element, while negative resistance will increase it.
 	</p>
-	<pre>Percent Damage Blocked = 100 - ((80 &div; (80 + Defense)) &times; ((100 - Element Resistance) &div; 100))</pre>
+	<pre>Percent Damage Blocked = 100 - (100 &times; 80 &div; (80 + Defense)) &times; ((100 - Element Resistance) &div; 100)</pre>
 	<p>
 		E.G. 80 Def &amp; 10 Fire Res = 55% fire damage blocked, 80 Def &amp; -10 Fire Res = 45% fire damage blocked
 	</p>
