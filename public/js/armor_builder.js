@@ -2,6 +2,9 @@ function ArmorBuilder(version, builderContainer) {
 	this.version = version;
 	this.armorData = version == "g" ? window.armorDataG : window.armorData1;
 
+	this.defenseUp = 0;
+	this.resistancesUp = [0,0,0,0];
+
 	this.currentArmor = {};
 	this.resetArmor();
 
@@ -821,20 +824,20 @@ ArmorBuilder.prototype.calculateDefense = function() {
 		defense += this.currentArmor.legs.def;
 	}
 
-	return defense;
+	return defense + this.defenseUp;
 };
 ArmorBuilder.prototype.calculateRes = function() {
-	return [
+	var resistances = [
 		this.currentArmor.headgear.res[0] + this.currentArmor.torso.res[0] + this.currentArmor.arms.res[0] + this.currentArmor.waist.res[0] + this.currentArmor.legs.res[0],
 		this.currentArmor.headgear.res[1] + this.currentArmor.torso.res[1] + this.currentArmor.arms.res[1] + this.currentArmor.waist.res[1] + this.currentArmor.legs.res[1],
 		this.currentArmor.headgear.res[2] + this.currentArmor.torso.res[2] + this.currentArmor.arms.res[2] + this.currentArmor.waist.res[2] + this.currentArmor.legs.res[2],
 		this.currentArmor.headgear.res[3] + this.currentArmor.torso.res[3] + this.currentArmor.arms.res[3] + this.currentArmor.waist.res[3] + this.currentArmor.legs.res[3]
 	];
+
+	return resistances.map((res, index) => res + this.resistancesUp[index]);
 };
 ArmorBuilder.prototype.calculateSkills = function() {
 	let skillRows = [];
-	let defense = this.calculateDefense();
-	let resistances = this.getResistances();
 
 	if (this.version == "1") {
 		let armorSkills = ArmorBuilder.getSkillSet(this.currentArmor);
@@ -847,21 +850,29 @@ ArmorBuilder.prototype.calculateSkills = function() {
 			else if (armorSkills.includes("Health + 20")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 20;
 			else if (armorSkills.includes("Health + 30")) document.getElementById(`health-stat-${ this.version }`).innerText = 100 + 30;
 
-			if (armorSkills.includes("Defense + 5")) document.getElementById(`defense-stat-${ this.version }`).innerText = defense + 5;
-			else if (armorSkills.includes("Defense + 10")) document.getElementById(`defense-stat-${ this.version }`).innerText = defense + 10;
+			if (armorSkills.includes("Defense + 5")) this.defenseUp = 5;
+			else if (armorSkills.includes("Defense + 10")) this.defenseUp = 10;
+			else this.defenseUp = 0;
 
 			// How does Attack Up work?
-			// if (armorSkills.includes("Attack Up [S]") document.getElementById(`attack-stat-${ this.version }`).innerText = "sm";
-			// else if (armorSkills.includes("Attack Up [L]") document.getElementById(`attack-stat-${ this.version }`).innerText = "lg";
+			if (armorSkills.includes("Attack Up [S]")) document.getElementById(`attack-stat-${ this.version }`).innerText = "+3";
+			else if (armorSkills.includes("Attack Up [L]")) document.getElementById(`attack-stat-${ this.version }`).innerText = "+5";
 
-			if (armorSkills.includes("Fire + 25")) document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + 25;
-			else if (armorSkills.includes("Fire - 10")) document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] - 10;
-			if (armorSkills.includes("Water + 25")) document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + 25;
-			else if (armorSkills.includes("Water - 10")) document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] - 10;
-			if (armorSkills.includes("Thunder + 25")) document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + 25;
-			else if (armorSkills.includes("Thunder - 10")) document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] - 10;
-			if (armorSkills.includes("Dragon + 25")) document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + 25;
-			else if (armorSkills.includes("Dragon - 10")) document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] - 10;
+			if (armorSkills.includes("Fire Res + 25")) this.resistancesUp[0] = 25;
+			else if (armorSkills.includes("Fire Res - 10")) this.resistancesUp[0] = -10;
+			else this.resistancesUp[0] = 0;
+
+			if (armorSkills.includes("Water Res + 25")) this.resistancesUp[1] = 25;
+			else if (armorSkills.includes("Water Res - 10")) this.resistancesUp[1] = -10;
+			else this.resistancesUp[1] = 0;
+
+			if (armorSkills.includes("Thunder Res + 25")) this.resistancesUp[2] = 25;
+			else if (armorSkills.includes("Thunder Res - 10")) this.resistancesUp[2] = -10;
+			else this.resistancesUp[2] = 0;
+
+			if (armorSkills.includes("Dragon Res + 25")) this.resistancesUp[3] = 25;
+			else if (armorSkills.includes("Dragon Res - 10")) this.resistancesUp[3] = -10;
+			else this.resistancesUp[3] = 0;
 
 			skillRows = armorSkills.map(skill => "<tr skill-level-1><td>" + skill + "</td></tr>");
 		}
@@ -927,6 +938,11 @@ ArmorBuilder.prototype.calculateSkills = function() {
 		if (this.currentArmor.waist.skills) this.currentArmor.waist.skills.forEach(parseSkills);
 		if (this.currentArmor.legs.skills) this.currentArmor.legs.skills.forEach(parseSkills);
 
+		this.resistancesUp[0] = 0;
+		this.resistancesUp[1] = 0;
+		this.resistancesUp[2] = 0;
+		this.resistancesUp[3] = 0;
+
 		for (var prop in skillsParsed) {
 			if (skillsParsed.hasOwnProperty(prop)) {
 				var skillLevel = "none";
@@ -968,36 +984,36 @@ ArmorBuilder.prototype.calculateSkills = function() {
 							skillName = "Health " + (healthBonus > 0 ? "+" : "") + healthBonus.toString();
 						}
 						else if (prop == "Defense") {
-							let defenseBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`defense-stat-${ this.version }`).innerText = defense + defenseBonus;
-							skillName = "Defense " + (defenseBonus > 0 ? "+" : "") + defenseBonus.toString();
+							this.defenseUp = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
+							skillName = "Defense " + (this.defenseUp > 0 ? "+" : "") + this.defenseUp.toString();
 						}
 						else if (prop == "Element Res Up") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
-							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
-							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
-							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
+							this.resistancesUp[0] = elementBonus;
+							this.resistancesUp[1] = elementBonus;
+							this.resistancesUp[2] = elementBonus;
+							this.resistancesUp[3] = elementBonus;
+
 							skillName = "Element Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Fire Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`fire-res-${ this.version }`).innerText = resistances[0] + elementBonus;
+							this.resistancesUp[0] = elementBonus;
 							skillName = "Fire Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Water Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`water-res-${ this.version }`).innerText = resistances[1] + elementBonus;
+							this.resistancesUp[1] = elementBonus;
 							skillName = "Water Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Thunder Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`thunder-res-${ this.version }`).innerText = resistances[2] + elementBonus;
+							this.resistancesUp[2] = elementBonus;
 							skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else if (prop == "Dragon Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
-							document.getElementById(`dragon-res-${ this.version }`).innerText = resistances[3] + elementBonus;
+							this.resistancesUp[3] = elementBonus;
 							skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 						}
 						else {
@@ -1250,6 +1266,8 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	// Reset health to account for any change to the Health skill
 	document.getElementById(`health-stat-${ this.version }`).innerText = "100";
 
+	this.calculateSkills();
+
 	let defense = this.calculateDefense();
 	let damageBlocked = ArmorBuilder.calculateDamageBlocked(defense);
 	document.getElementById(`defense-stat-${ this.version }`).innerHTML = `<span>${defense}</span><span class="true-value"> (${parseInt(damageBlocked * 100)}%)</span>`;
@@ -1261,7 +1279,6 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById(`thunder-res-${ this.version }`).innerHTML = `<span>${ resistances[2] }</span><span class="true-value"> (${ parseInt(trueResistances[2] * 100) }%)`;
 	document.getElementById(`dragon-res-${ this.version }`).innerHTML = `<span>${ resistances[3] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 
-	this.calculateSkills();
 	this.sumMaterialsAndZenny();
 	this.checkGenderMismatch();
 	this.checkClassMismatch();

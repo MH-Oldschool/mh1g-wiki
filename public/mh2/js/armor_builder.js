@@ -1,6 +1,9 @@
 function ArmorBuilder() {
 	this.armorData = window.armorData;
 
+	this.defenseUp = 0;
+	this.resistancesUp = [0,0,0,0,0];
+
 	this.currentArmor = {};
 	this.resetArmor();
 
@@ -147,7 +150,7 @@ ArmorBuilder.prototype.calculateDefense = function() {
 		defense += this.currentArmor.legs.defense[this.legsLevel.value];
 	}
 
-	return defense;
+	return defense + this.defenseUp;
 };
 ArmorBuilder.prototype.calculateRes = function() {
 	var resistances = [ 0, 0, 0, 0, 0 ];
@@ -169,12 +172,16 @@ ArmorBuilder.prototype.calculateRes = function() {
 		this.currentArmor.legs.resistances.forEach(addResistance);
 	}
 
-	return resistances;
+	return resistances.map((res, index) => res + this.resistancesUp[index]);
 };
 ArmorBuilder.prototype.calculateSkills = function() {
 	var skillRows = [];
-	var defense = this.calculateDefense();
-	var resistances = this.getResistances();
+
+	this.resistancesUp[0] = 0;
+	this.resistancesUp[1] = 0;
+	this.resistancesUp[2] = 0;
+	this.resistancesUp[3] = 0;
+	this.resistancesUp[4] = 0;
 
 	// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
 	var torsoUpModifier = 1;
@@ -231,7 +238,7 @@ ArmorBuilder.prototype.calculateSkills = function() {
 			skillsParsed[skill.k] = skill.q;
 		}
 	}
-	// In case we get MH1-only armor, which has no skill points
+
 	if (this.currentArmor.headgear.skills) this.currentArmor.headgear.skills.forEach(parseSkills);
 	if (torsoSkills) torsoSkills.forEach(parseSkills);
 	if (this.currentArmor.arms.skills) this.currentArmor.arms.skills.forEach(parseSkills);
@@ -279,42 +286,42 @@ ArmorBuilder.prototype.calculateSkills = function() {
 						skillName = "Health " + (healthBonus > 0 ? "+" : "") + healthBonus.toString();
 					}
 					else if (prop == "Defense") {
-						var defenseBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("defense-stat").innerText = defense + defenseBonus;
-						skillName = "Defense " + (defenseBonus > 0 ? "+" : "") + defenseBonus.toString();
+						this.defenseUp = window.armorSkills[prop][skillIndex];
+						// document.getElementById("defense-stat").innerText = defense + defenseBonus;
+						skillName = "Defense " + (this.defenseUp > 0 ? "+" : "") + this.defenseUp.toString();
 					}
 					else if (prop == "Element Res Up") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("fire-res").innerText = resistances[0] + elementBonus;
-						document.getElementById("water-res").innerText = resistances[1] + elementBonus;
-						document.getElementById("thunder-res").innerText = resistances[2] + elementBonus;
-						document.getElementById("ice-res").innerText = resistances[3] + elementBonus;
-						document.getElementById("dragon-res").innerText = resistances[4] + elementBonus;
+						this.resistancesUp[0] = elementBonus;
+						this.resistancesUp[1] = elementBonus;
+						this.resistancesUp[2] = elementBonus;
+						this.resistancesUp[3] = elementBonus;
+						this.resistancesUp[4] = elementBonus;
 						skillName = "Element Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else if (prop == "Fire Resistance") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("fire-res").innerText = resistances[0] + elementBonus;
+						this.resistancesUp[0] = elementBonus;
 						skillName = "Fire Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else if (prop == "Water Resistance") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("water-res").innerText = resistances[1] + elementBonus;
+						this.resistancesUp[1] = elementBonus;
 						skillName = "Water Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else if (prop == "Thunder Resistance") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("thunder-res").innerText = resistances[2] + elementBonus;
+						this.resistancesUp[2] = elementBonus;
 						skillName = "Thunder Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else if (prop == "Ice Resistance") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("ice-res").innerText = resistances[3] + elementBonus;
+						this.resistancesUp[3] = elementBonus;
 						skillName = "Ice Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else if (prop == "Dragon Resistance") {
 						var elementBonus = window.armorSkills[prop][skillIndex];
-						document.getElementById("dragon-res").innerText = resistances[4] + elementBonus;
+						this.resistancesUp[4] = elementBonus;
 						skillName = "Dragon Res " + (elementBonus > 0 ? "+" : "") + elementBonus.toString();
 					}
 					else {
@@ -646,13 +653,14 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById("health-stat").innerText = "100";
 
 	this.updateLevelOptions();
+	this.calculateSkills();
 
 	var defense = this.calculateDefense();
+	document.getElementById("defense-stat").innerText = defense;
 	var damageBlocked = ArmorBuilder.calculateDamageBlocked(defense);
 	document.getElementById("defense-stat").innerHTML = `<span>${defense}</span><span class="true-value"> (${parseInt(damageBlocked * 100)}%)</span>`;
 
 	var resistances = this.calculateRes();
-	console.log(resistances);
 	var trueResistances = resistances.map(element => ArmorBuilder.calculateElementBlocked(defense, element));
 	document.getElementById("fire-res").innerHTML = `<span>${ resistances[0] }</span><span class="true-value"> (${ parseInt(trueResistances[0] * 100) }%)`;
 	document.getElementById("water-res").innerHTML = `<span>${ resistances[1] }</span><span class="true-value"> (${ parseInt(trueResistances[1] * 100) }%)`;
@@ -660,7 +668,6 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById("ice-res").innerHTML = `<span>${ resistances[3] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 	document.getElementById("dragon-res").innerHTML = `<span>${ resistances[4] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 
-	this.calculateSkills();
 	this.sumMaterialsAndZenny();
 	this.checkGenderMismatch();
 	this.checkClassMismatch();
