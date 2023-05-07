@@ -59,6 +59,7 @@
 								<summary>In-depth Details</summary>
 
 								<aside>
+									<!-- hide 'til I fix it
 									<h4 class="supplies-title">Supplies:</h4>
 									<div class="supplies-list">
 										{{#supplies}}
@@ -68,6 +69,27 @@
 											None
 										{{/supplies}}
 									</div>
+
+									<h4 class="supplies-title">Subquest A Supplies:</h4>
+									<div class="supplies-list">
+										{{#suppliesA}}
+											<div class="supply-item {{icon}}" title="{{material}}">{{material}}<div class="quantity">&times;{{quantity}}</div></div>
+										{{/suppliesA}}
+										{{^suppliesA}}
+											None
+										{{/suppliesA}}
+									</div>
+
+									<h4 class="supplies-title">Subquest B Supplies:</h4>
+									<div class="supplies-list">
+										{{#suppliesB}}
+											<div class="supply-item {{icon}}" title="{{material}}">{{material}}<div class="quantity">&times;{{quantity}}</div></div>
+										{{/suppliesB}}
+										{{^suppliesB}}
+											None
+										{{/suppliesB}}
+									</div>
+									-->
 
 									{{#health}}Monster Health: {{health}}<br/>{{/health}}
 									{{#hrp.0}}
