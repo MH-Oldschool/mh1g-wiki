@@ -587,7 +587,13 @@ function generateArmorData2JS() {
 		var rawArmorSkills = JSON.parse(armorSkillData);
 		var parsedArmorSkills = {};
 		rawArmorSkills.armorSkills.forEach(skill => {
-			parsedArmorSkills[skill.name] = skill.stages;
+			parsedArmorSkills[skill.name] = skill.stages.map(stage => {
+				if (stage.length && !isNaN(stage)) {
+					return parseInt(stage);
+				}
+
+				return stage;
+			});
 		});
 
 		var formattedData = `window.armorData=${JSON.stringify(armorData)};window.armorSkills=${JSON.stringify(parsedArmorSkills)}`;
