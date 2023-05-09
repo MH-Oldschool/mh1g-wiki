@@ -647,7 +647,8 @@
 									"attack":624,
 									"slots":0,
 									"affinity":0,
-									"upgrade":[{"n":"Machalite Ore","q":8},{"n":"Wyvern Fang","q":5},{"n":"Velocidrome Hide","q":2}]
+									"upgrade":[{"n":"Machalite Ore","q":8},{"n":"Wyvern Fang","q":5},{"n":"Velocidrome Hide","q":2}],
+									"branch":".dragon-katana"
 								}
 							]
 						},
