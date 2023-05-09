@@ -364,14 +364,14 @@
 				},
 				{
 					"group":"Bone Blade Group",
-					"groupId":"bone-blade-group","groupClass":"poison-pre dragon-pre",
+					"groupId":"bone-blade-group","groupClass":"fire-pre poison-pre dragon-pre",
 					"toggleAll":true,
 					"tbody":[
 						{
-							"bodyClass":"poison-pre dragon-pre",
+							"bodyClass":"fire-pre poison-pre dragon-pre",
 							"weapons":[
 								{
-									"rowClass":"poison-pre dragon-pre",
+									"rowClass":"fire-pre poison-pre dragon-pre",
 									"index":28,
 									"name":"Bone Blade","japanese":"ボーンブレイド",
 									"rarity":1,
@@ -383,7 +383,7 @@
 									"branchStart":true
 								},
 								{
-									"rowClass":"poison-pre dragon-pre",
+									"rowClass":"fire-pre poison-pre dragon-pre",
 									"index":29,
 									"name":"Bone Blade+","japanese":"ボーンブレイド改",
 									"rarity":1,
@@ -501,13 +501,13 @@
 							]
 						},
 						{
-							"bodyClass":"bone-katana-red-stripe branch indent-1 poison-pre",
+							"bodyClass":"bone-katana-red-stripe branch indent-1 fire-pre dragon-pre poison-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"dataChildBranch":"black-katana",
 							"weapons":[
 								{
-									"rowClass":"poison-pre",
+									"rowClass":"fire-pre dragon-pre poison-pre",
 									"index":13,
 									"name":"Bone Katana \"Wolf\"","japanese":"骨刀【狼牙】",
 									"rarity":2,
@@ -567,13 +567,13 @@
 							]
 						},
 						{
-							"bodyClass":"bone-katana-red-stripe branch indent-2 poison-pre",
+							"bodyClass":"bone-katana-red-stripe branch indent-2 fire-pre dragon-pre poison-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"dataChildBranch":"wyvern-katana-leaf",
 							"weapons":[
 								{
-									"rowClass":"poison-pre",
+									"rowClass":"fire-pre dragon-pre poison-pre",
 									"index":14,
 									"name":"Bone Katana \"Shark\"","japanese":"骨刀【鮫牙】",
 									"rarity":2,
@@ -635,11 +635,12 @@
 							]
 						},
 						{
-							"bodyClass":"bone-katana-red-stripe branch indent-2",
+							"bodyClass":"bone-katana-red-stripe branch indent-2 fire-pre dragon-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"weapons":[
 								{
+									"rowClass":"fire-pre dragon-pre",
 									"index":15,
 									"name":"Bone Katana \"Dragon\"","japanese":"骨刀【竜牙】",
 									"rarity":2,
@@ -653,7 +654,7 @@
 							]
 						},
 						{
-							"bodyClass":"dragon-katana branch indent-3",
+							"bodyClass":"dragon-katana branch indent-3 fire-pre dragon-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"weapons":[
@@ -686,7 +687,7 @@
 							]
 						},
 						{
-							"bodyClass":"dragon-katana branch indent-4",
+							"bodyClass":"dragon-katana branch indent-4 fire-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"weapons":[
@@ -720,7 +721,7 @@
 							]
 						},
 						{
-							"bodyClass":"dragon-katana branch indent-3",
+							"bodyClass":"dragon-katana branch indent-3 dragon-pre",
 							"icon":"small-icon small-longsword-icon",
 							"weaponClass":"Longsword",
 							"weapons":[
