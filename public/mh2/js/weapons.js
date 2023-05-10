@@ -563,7 +563,6 @@ ready(function() {
 		var sharpnessLevel = getSharpnessAtValue(calcSharpness.value);
 		var rawSharpnessMod = getSharpnessModifier("raw", sharpnessLevel);
 		currentWeapon.totalRaw = Math.floor(currentWeapon.totalRaw * rawSharpnessMod);
-		currentWeapon.totalAttack = Math.floor(currentWeapon.totalAttack * rawSharpnessMod);
 
 		motionValues[currentWeapon.weaponClass].forEach(function(element) {
 			var damage = parseInt(currentWeapon.totalRaw * element.dataset.value);
