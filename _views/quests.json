@@ -774,8 +774,8 @@
 					{
 						"name":"Attack of the Giant Bugs!","icon":"monster-icon monster-vespoid","hrp":0,"type":"hunt","area":"Jungle",
 						"japanese":"巨大昆虫、発生！",
-						"goal":"Slay 30 Vespoid","key":true,"reward":"400z","fee":"300z","time":"50′","penalty":"140z",
-						"client":"Requestor: Jungle Envoy","details":"My village is under attack by a swarm of 30 bug monsters. Please help! They're weak individually, but formidable in a group!",
+						"goal":"Slay 15 Vespoid","key":true,"reward":"400z","fee":"300z","time":"50′","penalty":"140z",
+						"client":"Requestor: Jungle Envoy","details":"My village is under attack by a swarm of 15 bug monsters. Please help! They're weak individually, but formidable in a group!",
 						"largeMonsters":[
 							{"n":"Plesioth"}
 						],
@@ -949,7 +949,7 @@
 					{
 						"name":"Slay the Gendrome!","icon":"monster-icon monster-gendrome","hrp":0,"type":"hunt","area":"Desert",
 						"japanese":"ゲネポスたちの親玉",
-						"goal":"Slay 2 Gendrome","reward":"800z","fee":"220z","time":"50′","penalty":"300z",
+						"goal":"Slay 2 Gendrome","key":true,"reward":"800z","fee":"220z","time":"50′","penalty":"300z",
 						"client":"Requestor: Ambitious Noble","details":"My caravans are being hit by Genprey. 2 Gendrome are leading the pack. Kill them and make the roads safe again for all!",
 						"largeMonsters":[
 							{"n":"Gendrome","q":2}
@@ -9242,7 +9242,7 @@
 					{
 						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":100,"type":"hunt","area":"Jungle",
 						"japanese":"巨大昆虫、大発生！",
-						"goal":"Slay 50 Vespoids","reward":"1200z","fee":"100z",
+						"goal":"Slay 50 Vespoid","reward":"1200z","fee":"100z",
 						"largeMonsters":[
 							{
 								"n":"Plesioth",
@@ -10859,7 +10859,7 @@
 					{
 						"name":"Attack of the Giant Bugs","icon":"monster-icon monster-vespoid","hrp":210,"type":"hunt","area":"Jungle",
 						"japanese":"巨大昆虫、大発生！",
-						"goal":"Slay 50 Vespoids","reward":"1600z","fee":"200z",
+						"goal":"Slay 50 Vespoid","reward":"1600z","fee":"200z",
 						"largeMonsters":[
 							{
 								"n":"Plesioth",
