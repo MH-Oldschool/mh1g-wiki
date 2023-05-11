@@ -6,8 +6,8 @@ ready(() => {
 	// This gives us the local time when the rotation starts
 	const SHOP_ROTATION_START = moment.tz({
 		year: 2023,
-		month: 1,
-		date: 1,
+		month: 4,
+		date: 11,
 		hour: 0
 	}, SERVER_TZ);
 	const SHOP_SPECIALS = [
@@ -337,7 +337,7 @@ ready(() => {
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
 		var ROTATION_LENGTH = SHOP_SPECIAL_ROTATION.length;
-		var now = moment.tz(SERVER_TZ);
+		var now = moment();
 		var firstOfMonth = moment.tz({
 			year: year,
 			month: monthIndex,
@@ -345,17 +345,30 @@ ready(() => {
 			hour: now.hour()
 		}, SERVER_TZ);
 
-		// Find the most recent start of the rotation
-		var latestRotationStart = SHOP_ROTATION_START;
-		var difference = 0;
-		if (firstOfMonth.isBefore(latestRotationStart)) {
-			difference = latestRotationStart.diff(firstOfMonth, "hours");
+		// For people in a timezone other than the server's, we may need to push the firstOfMonth date.
+		// If the server's current hour puts it one date behind the user, we need to push the firstOfMonth one day backward to compensate.
+		// If server's current hour puts it one date ahead of the user, we need to push the firstOfMonth one day forward to compensate.
+		// (if the difference 28 through 31 that indicates the month changed as well)
+		var nowServer = moment.tz(SERVER_TZ);
+		var serverIsAhead = nowServer.date() - now.date();
+		if (serverIsAhead == -1) {
+			firstOfMonth.subtract(1, "days");
 		}
-		else {
-			difference = firstOfMonth.diff(latestRotationStart, "hours");
+		else if (serverIsAhead != 0) {
+			firstOfMonth.add(1, "days");
 		}
 
-		return Math.ceil(difference / 24) % ROTATION_LENGTH;
+		// Find the most recent start of the rotation
+		var difference = 0;
+		var lastIndex = ROTATION_LENGTH - 1;
+		if (firstOfMonth.isBefore(SHOP_ROTATION_START)) {
+			difference = SHOP_ROTATION_START.diff(firstOfMonth, "days") % ROTATION_LENGTH;
+			return lastIndex - difference;
+		}
+		else {
+			difference = firstOfMonth.diff(SHOP_ROTATION_START, "days") % ROTATION_LENGTH;
+			return difference;
+		}
 	}
 
 	var calendarDays = document.getElementById("calendar-tbody").getElementsByTagName("td");
@@ -471,11 +484,11 @@ ready(() => {
 			eventIndexG = (eventIndexG + 1) % MHG_EVENTS_ROTATION.length;
 		}
 
-		let firstDayShopIndex = getFirstDayShopIndex(year, monthIndex);
-		let daySpecials = document.getElementsByClassName("day-special");
-		let shopIndex = firstDayShopIndex;
+		var firstDayShopIndex = getFirstDayShopIndex(year, monthIndex);
+		var daySpecials = document.getElementsByClassName("day-special");
+		var shopIndex = firstDayShopIndex;
 		for (let i = 0; i < dayCount; i++) {
-			var currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
+			let currentSpecial = SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 			if (SHOP_SPECIAL_ROTATION[shopIndex] == 0) {
 				daySpecials[firstDayOfWeek + i].style.display = "none";
 			}
