@@ -150,7 +150,7 @@
 								<th><img class="attribute-icon" src="../images/attributes/thunder.png" alt="Thunder" title="Thunder"/></th>
 								<th><img class="attribute-icon" src="../images/attributes/ice.png" alt="Ice" title="Ice"/></th>
 								<th><img class="attribute-icon" src="../images/attributes/dragon.png" alt="Dragon" title="Dragon"/></th>
-								<th><img class="attribute-icon" src="../images/attributes/stun.png" alt="KO" title="Knock-out"/></th>
+								<th><img class="status-icon" src="../images/attributes/stun.png" alt="KO" title="Knock-out"/></th>
 								<th>Stagger</th>
 								<th>Break/Cut</th>
 							</tr>
@@ -230,10 +230,6 @@
 								{{/statusTolerances}}
 							</tbody>
 						</table>
-
-						<p>
-							Tolerance increases to the next value each time the monster succumbs to the status effect, up to the given maximum.
-						</p>
 					</div>
 				</details>
 
@@ -346,7 +342,35 @@
 	<article>
 		<h2>Monster Stats</h2>
 
-		<h3>Monster Level</h3>
+		<h3><span class="yellow-icon creature-icon"></span> Hitzones</h3>
+		<p>
+			Monster Hitzones represent the percent value of each damage type that the given body part will take when hit. See the About Weapons section of the <a href="/mh2/weapons">Weapons Page</a> for more details on damage calculations.
+		</p>
+
+		<h3><span class="yellow-icon hide-icon"></span> Part Breaks and Tail Cuts</h3>
+		<p>
+			Some body parts on a monster can be broken or cut by weapons. Part Breaks can usually be achieved with any type of damage, but some monster parts have special requirements, such as Element damage or the monster being below a given Health threshold. Some Part Break requirements are still unknown, but may require that the monster be paralyzed or knocked down.<br/>
+			<br/>
+			A monster's tail can only be cut with a cutting weapon, the Bow's melee attacks, or a Boomerang.
+		</p>
+
+		<h3><img class="attribute-icon" src="../images/attributes/sleep.png"> Status Tolerance</h3>
+		<p>
+			Status Tolerance starts at the lowest given value, and increases to the next value each time the monster succumbs to the status effect, up to the given maximum. While Poisoned, further Poison status can be built up, but is limited to the previous status tolerance; so the next Poison proc can happen soonner, but not immediately after the current duration expires. Other statuses can be accumlated while a monster is Paralyzed or Poisoned<span class="hide">, but the effect will not proc until the current status ends</span>.<br/>
+			<br/>
+			The duration of a given status proc will differ per monster, but does not increase nor decrease with successive procs.<br/>
+			<br/>
+			After every hit from a status weapon, status shot, or status-coated arrow, the monster will naturally recover from the status build-up. This recovery happens every few seconds, giving the hunter a chance to continue to build up status. E.G. Poison Recovery 10/5sec indicates that every five seconds, the poison status will be reduced by ten.<br/>
+			<br/>
+			Poison damage is also determined per monster. When the Poison is first proc'd, it will deal one increment of damage immediately (this is why Vespoids will often die as soon as they are poisoned.), and successive damage will apply at the given interval until the end of the duration.
+		</p>
+
+		<h3><img class="status-icon" src="../images/attributes/stun.png"> <span class="va-m">Knock-Out (KO)</span></h3>
+		<p>
+			Some monster parts can accumulate Knock-Out from Hammer and Hunting Horn attacks. The KO hitzone indicates the percent of KO status that part will take (like with other hitzones.) A monster's KO tolerance will also increase with each KO like other Status Tolerances.
+		</p>
+
+		<h3><span class="orange-icon mystery-icon"></span> Monster Level</h3>
 		<p>
 			A monster's level will determine which stat modifiers apply to that monster on the quest. Each quest defines its own base monster level, which is then modified based on time of day and season. Day/Night and Season Modifiers depend on the monster. Some monsters prefer day over night, or vice versa, and some have a preferred season.
 		</p>

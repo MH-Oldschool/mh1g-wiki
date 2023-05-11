@@ -20,6 +20,20 @@
 	display: none !important;
 }
 
+.attribute-label {
+	display: inline-block;
+	vertical-align: top;
+	height: 1.25rem;
+}
+.attribute-label:before {
+	margin-top: -0.5rem;
+	top: 50%;
+}
+.attribute-label:after {
+	margin-top: -0.375rem;
+	top: 50%;
+}
+
 /* Element Filters */
 .filter-weapons .weapons-with-attributes .weapon-group-container,
 .filter-weapons .weapons-with-attributes tbody,

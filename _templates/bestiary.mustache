@@ -365,4 +365,39 @@
 	</details>
 {{/monsters}}
 
+<hr/>
+
+<details class="about-monsters">
+	<summary>
+		About Monsters
+	</summary>
+
+	<article>
+		<h2>Monster Stats</h2>
+
+		<h3><span class="yellow-icon creature-icon"></span> Hitzones</h3>
+		<p>
+			Monster Hitzones represent the percent value of each damage type that the given body part will take when hit. See the About Weapons section of the <a href="/weapons">Weapons Page</a> for more details on damage calculations.
+		</p>
+
+		<h3><span class="yellow-icon hide-icon"></span> Part Breaks and Tail Cuts</h3>
+		<p>
+			Some body parts on a monster can be broken or cut by weapons. Part Breaks can be achieved with any type of damage. The exact amount of damage to break any given monster part is currently unknown.<br/>
+			<br/>
+			A monster's tail can only be cut with a cutting weapon.
+		</p>
+
+		<h3><img class="attribute-icon" src="../images/attributes/sleep.png"> Status Tolerance</h3>
+		<p>
+			Status Tolerance starts at the lowest given value, and increases to the next value each time the monster succumbs to the status effect, up to the given maximum. While Poisoned, further Poison status can be built up<span class="mh1"> without limit, potentially allowing a hunter to keep a monster poisoned for the duration of the hunt</span><span class="mhg">, but is limited to the previous status tolerance; so the next Poison proc can happen soonner, but not immediately after the current duration expires</span>. Other statuses can be accumlated while a monster is Paralyzed or Poisoned<span class="hide">, but the effect will not proc until the current status ends</span>.<br/>
+			<br/>
+			The duration of a given status proc will differ per monster, but does not increase nor decrease with successive procs.<br/>
+			<br/>
+			After every hit from a status weapon, status shot, or status-coated arrow, the monster will naturally recover from the status build-up. This recovery happens every few seconds, giving the hunter a chance to continue to build up status. E.G. Poison Recovery 10/5sec indicates that every five seconds, the poison status will be reduced by ten.<br/>
+			<br/>
+			Poison damage is also determined per monster. When the Poison is first proc'd, it will deal one increment of damage immediately (this is why Vespoids will often die as soon as they are poisoned.), and successive damage will apply at the given interval until the end of the duration.
+		</p>
+	</article>
+</details>
+
 {{> foot}}
