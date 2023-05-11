@@ -1328,7 +1328,7 @@
 			],
 			"sizes":[1267.1,1196.2,942.7],
 			"hitzones":[
-				{"part":"Head","zones":[30,80,100,50,20,0,20,10,100,130],"break":"260 (while Paralyzed or fallen over)"},
+				{"part":"Head","zones":[30,80,100,50,20,0,20,10,100,130],"break":"260 (additional requirements unknown)"},
 				{"part":"Neck","zones":[50,25,50,30,10,0,10,10,0,80]},
 				{"part":"Back","zones":[70,30,20,20,10,0,10,10,0,150]},
 				{"part":"Stomach","zones":[80,30,20,30,10,0,10,10,0,150]},
@@ -1448,7 +1448,7 @@
 			],
 			"sizes":[1267.1,1196.2,942.7],
 			"hitzones":[
-				{"part":"Head","zones":[30,80,100,50,20,0,20,10,100,130],"break":"260 (while Paralyzed or fallen over)"},
+				{"part":"Head","zones":[30,80,100,50,20,0,20,10,100,130],"break":"260 (additional requirements unknown)"},
 				{"part":"Neck","zones":[50,25,50,30,10,0,10,10,0,80]},
 				{"part":"Back","zones":[70,30,20,20,10,0,10,10,0,150]},
 				{"part":"Stomach","zones":[80,30,20,30,10,0,10,10,0,150]},
@@ -2421,7 +2421,7 @@
 				{"part":"Wing","zones":[25,25,40,20,5,0,5,5,0,120]},
 				{"part":"Leg","zones":[25,20,30,15,5,0,5,5,0,130]}
 			],
-			"hitzoneNotes":"Stagger each leg, stomach, and head twice each to break the skin.",
+			"hitzoneNotes":"Stagger the stomach, head, and each leg twice each to break the skin.",
 			"statusTolerances":[
 				{"name":"poison","title":"Poison","tolerances":"110,185,260,335,410","recovery":"10/5 seconds","duration":"30 seconds","damage":"10/5 seconds","totalDamage":60},
 				{"name":"paralysis","title":"Paralysis","tolerances":"200,275,350,425,500","recovery":"5/15 seconds","duration":"5 seconds"},
@@ -2534,7 +2534,7 @@
 				{"part":"Wing","zones":[25,25,40,5,20,0,5,5,0,120]},
 				{"part":"Leg","zones":[25,20,30,5,15,0,5,5,0,130]}
 			],
-			"hitzoneNotes":"Stagger each leg, stomach, and head twice each to break the skin.",
+			"hitzoneNotes":"Stagger the stomach, head, and each leg twice each to break the skin.",
 			"statusTolerances":[
 				{"name":"poison","title":"Poison","tolerances":"110,185,260,335,410","recovery":"10/5 seconds","duration":"30 seconds","damage":"20/5 seconds","totalDamage":120},
 				{"name":"paralysis","title":"Paralysis","tolerances":"350,425,500,575,650","recovery":"10/15 seconds","duration":"5 seconds"},
@@ -3926,18 +3926,16 @@
 				{"rank":"Town Dojo","health":"3000 - 3899","attack":"104 - 139","defense":"100 - 94"}
 			],
 			"sizes":[1284.1,1148.4,918.7],
+			"hitzones":[
+				{"part":"Head","zones":[50,80,40,30,10,35,20,0,100,150]},
+				{"part":"Body","zones":[40,60,30,15,5,20,10,0,0,100]},
+				{"part":"Shell","zones":[30,50,25,20,5,25,10,0,0,200],"break":"200"},
+				{"part":"Leg","zones":[35,50,30,15,5,15,10,0,0,150]},
+				{"part":"Claws","zones":[25,35,15,35,5,20,10,0,0,100],"break":"200"},
+				{"part":"Arm","zones":[40,50,30,15,5,15,10,0,0,100]}
+			],
 			"hitzonesAlt":[
-				{"name":"state 1",
-					"hitzones":[
-						{"part":"Head","zones":[50,80,40,30,10,35,20,0,100,150]},
-						{"part":"Body","zones":[40,60,30,15,5,20,10,0,0,100]},
-						{"part":"Shell","zones":[30,50,25,20,5,25,10,0,0,200],"break":"200"},
-						{"part":"Leg","zones":[35,50,30,15,5,15,10,0,0,150]},
-						{"part":"Claws","zones":[25,35,15,35,5,20,10,0,0,100],"break":"200"},
-						{"part":"Arm","zones":[40,50,30,15,5,15,10,0,0,100]}
-					]
-				},
-				{"name":"state 2",
+				{"name":"Guarding",
 					"hitzones":[
 						{"part":"Head","zones":[20,40,20,30,10,35,20,0,100,150]},
 						{"part":"Body","zones":[20,30,15,15,5,20,10,0,0,100]},
@@ -3947,7 +3945,7 @@
 						{"part":"Arm","zones":[20,30,15,15,5,15,10,0,0,100]}
 					]
 				},
-				{"name":"state 3",
+				{"name":"Guarding with a Broken Claw",
 					"hitzones":[
 						{"part":"Head","zones":[20,40,20,30,10,35,20,0,100,150]},
 						{"part":"Body","zones":[20,30,15,15,5,20,10,0,0,100]},
@@ -4129,24 +4127,26 @@
 				{"rank":"Town Dojo","health":"4000 - 5199","attack":"104 - 139","defense":"100 - 94"}
 			],
 			"sizes":[1035.6,983.8,811.2],
+			"hitzones":[
+				{"part":"Head","zones":[45,55,35,10,10,35,20,0,100,150]},
+				{"part":"Body","zones":[35,40,25,5,5,20,10,0,0,150]},
+				{"part":"Shell","zones":[25,40,20,5,5,25,10,0,0,200],"break":"400"},
+				{"part":"Left Leg","zones":[25,30,30,5,5,15,10,0,0,200]},
+				{"part":"Right Leg","zones":[25,30,30,5,5,15,10,0,0,180]},
+				{"part":"Left Claw","zones":[20,30,15,5,5,20,10,0,0,150],"break":"300"},
+				{"part":"Right Claw","zones":[20,30,15,5,5,20,10,0,0,100],"break":"200"},
+				{"part":"Arm","zones":[20,35,25,5,5,15,10,0,0,100]}
+			],
 			"hitzonesAlt":[
-				{"name":"state 1",
-					"hitzones":[
-						{"part":"Head","zones":[45,55,35,10,10,35,20,0,100,150]},
-						{"part":"Body","zones":[35,40,25,5,5,20,10,0,0,150]},
-						{"part":"Shell","zones":[25,40,20,5,5,25,10,0,0,200],"break":"400"},
-						{"part":"Leg","zones":[25,30,30,5,5,15,10,0,0,200,180]},
-						{"part":"Claws","zones":[20,30,15,5,5,20,10,0,0,150,100],"break":"300, 200"},
-						{"part":"Arm","zones":[20,35,25,5,5,15,10,0,0,100]}
-					]
-				},
-				{"name":"state 2",
+				{"name":"Shell Broken",
 					"hitzones":[
 						{"part":"Head","zones":[50,60,40,10,10,35,20,0,100,150]},
 						{"part":"Body","zones":[40,50,30,5,5,20,10,0,0,150]},
 						{"part":"Shell","zones":[25,35,20,5,5,25,10,0,0,200],"break":"400"},
-						{"part":"Leg","zones":[35,50,30,5,5,15,10,0,0,200,180]},
-						{"part":"Claws","zones":[25,35,15,5,5,20,10,0,0,150,100],"break":"300, 200"},
+						{"part":"Left Leg","zones":[35,50,30,5,5,15,10,0,0,200]},
+						{"part":"Right Leg","zones":[35,50,30,5,5,15,10,0,0,180]},
+						{"part":"Left Claw","zones":[25,35,15,5,5,20,10,0,0,150],"break":"200"},
+						{"part":"Right Claw","zones":[25,35,15,5,5,20,10,0,0,100],"break":"200"},
 						{"part":"Arm","zones":[30,35,25,5,5,15,10,0,0,100]}
 					]
 				}
@@ -4474,7 +4474,8 @@
 			],
 			"hitzones":[
 				{"part":"Head","zones":[60,70,60,25,10,10,15,0,50,20]},
-				{"part":"Claws","zones":[45,40,45,25,10,10,15,0,0,20,25]},
+				{"part":"Left Claw","zones":[45,40,45,25,10,10,15,0,0,20]},
+				{"part":"Right Claw","zones":[45,40,45,25,10,10,15,0,0,25]},
 				{"part":"Hind Legs","zones":[45,40,45,25,10,10,15,0,0,25]},
 				{"part":"Body","zones":[40,40,50,25,10,10,15,0,0,25]},
 				{"part":"Tail","zones":[40,40,35,25,10,10,15,0,0,15]}
@@ -4526,16 +4527,18 @@
 			"sizes":[1230.0,1131.6,954.5],
 			"hitzones":[
 				{"part":"Head","zones":[65,75,60,30,10,10,15,0,50,200],"break":"400"},
-				{"part":"Claws","zones":[45,40,35,15,10,10,15,0,0,150,180],"break":"300, 360"},
+				{"part":"Left Claw","zones":[45,40,35,15,10,10,15,0,0,150],"break":"300"},
+				{"part":"Right Claw","zones":[45,40,35,15,10,10,15,0,0,180],"break":"360"},
 				{"part":"Hind Legs","zones":[45,40,35,15,10,10,15,0,0,150]},
 				{"part":"Body","zones":[40,40,40,18,10,10,15,0,0,150]},
 				{"part":"Tail","zones":[40,30,25,15,10,10,15,0,0,140]}
 			],
 			"hitzonesAlt":[
-				{"name":"Belly Flexed",
+				{"name":"With Belly Flexed",
 					"hitzones":[
 						{"part":"Head","zones":[65,75,60,30,10,10,5,0,50,200],"break":"400"},
-						{"part":"Claws","zones":[65,15,15,15,10,10,5,0,0,150,180],"break":"300, 360"},
+						{"part":"Left Claw","zones":[65,15,15,15,10,10,5,0,0,150],"break":"300"},
+						{"part":"Right Claw","zones":[65,15,15,15,10,10,5,0,0,180],"break":"360"},
 						{"part":"Hind Legs","zones":[65,15,15,15,10,10,5,0,0,150]},
 						{"part":"Body","zones":[5,5,5,18,0,0,0,0,0,150]},
 						{"part":"Tail","zones":[35,30,15,15,10,10,5,0,0,140]}
@@ -5004,7 +5007,7 @@
 				{"part":"Tail","zones":[35,30,40,10,5,30,0,40,10,180],"break":"100, if under 30% HP"},
 				{"part":"Front Legs","zones":[30,25,20,10,5,15,0,20,0,180]},
 				{"part":"Hind Legs","zones":[30,35,25,10,5,15,0,30,0,180]},
-				{"part":"Wings","zones":[20,15,20,10,5,15,0,20,0,90],"break":"180 (while Paralyzed, fallen over, or flying)"}
+				{"part":"Wings","zones":[20,15,20,10,5,15,0,20,0,90],"break":"180 (additional requirements unknown)"}
 			],
 			"hitzonesAlt":[
 				{"name":"Wind Pressure Active",
@@ -5015,7 +5018,7 @@
 						{"part":"Tail","zones":[35,30,40,5,0,30,0,40,10,180],"break":"100, if under 30% HP"},
 						{"part":"Front Legs","zones":[25,25,20,5,0,20,0,10,0,180]},
 						{"part":"Hind Legs","zones":[30,35,25,5,0,20,0,10,0,180]},
-						{"part":"Wings","zones":[20,15,20,5,0,20,0,10,0,90],"break":"180 (while Paralyzed, fallen over, or flying)"}
+						{"part":"Wings","zones":[20,15,20,5,0,20,0,10,0,90],"break":"180 (additional requirements unknown)"}
 					]
 				}
 			],
@@ -5143,7 +5146,7 @@
 				{"part":"Tail","zones":[35,30,40,10,5,30,0,40,10,100],"break":"100, if under 30% HP"},
 				{"part":"Front Legs","zones":[30,25,20,10,5,15,0,20,0,180]},
 				{"part":"Hind Legs","zones":[30,35,25,10,5,15,0,30,0,180]},
-				{"part":"Wings","zones":[20,15,20,10,5,15,0,20,0,90],"break":"180 (while Paralyzed, fallen over, or flying)"}
+				{"part":"Wings","zones":[20,15,20,10,5,15,0,20,0,90],"break":"180 (additional requirements unknown)"}
 			],
 			"hitzonesAlt":[
 				{"name":"Wind Pressure Active",
@@ -5154,7 +5157,7 @@
 						{"part":"Tail","zones":[35,30,40,5,0,30,0,40,10,"100?"],"break":"100, if under 30% HP"},
 						{"part":"Front Legs","zones":[25,25,20,5,0,20,0,10,0,"180?"]},
 						{"part":"Hind Legs","zones":[30,35,25,5,0,20,0,10,0,"180?"]},
-						{"part":"Wings","zones":[20,15,20,5,0,20,0,10,0,"90?"],"break":"180 (while Paralyzed, fallen over, or flying)"}
+						{"part":"Wings","zones":[20,15,20,5,0,20,0,10,0,"90?"],"break":"180 (additional requirements unknown)"}
 					]
 				}
 			],
@@ -5237,7 +5240,7 @@
 			],
 			"sizes":[2459.0,2092.8,1674.2],
 			"hitzones":[
-				{"part":"Head","zones":[50,40,40,0,0,20,35,35,100,150],"break":"150 Dragon (While Paralyzed or fallen over)"},
+				{"part":"Head","zones":[50,40,40,0,0,20,35,35,100,150],"break":"150 Dragon (additional requirements unknown)"},
 				{"part":"Chest","zones":[35,20,15,5,0,15,35,20,0,200]},
 				{"part":"Back","zones":[25,15,15,0,0,15,25,25,0,200]},
 				{"part":"Right Leg","zones":[20,15,15,0,0,20,15,10,0,180]},
@@ -5249,7 +5252,7 @@
 			"hitzonesAlt":[
 				{"name":"While Invisible",
 					"hitzones":[
-						{"part":"Head","zones":[50,50,50,0,0,20,35,35,100,150],"break":"150 Dragon (While Paralyzed or fallen over)"},
+						{"part":"Head","zones":[50,50,50,0,0,20,35,35,100,150],"break":"150 Dragon (additional requirements unknown)"},
 						{"part":"Chest","zones":[30,25,15,5,0,15,25,20,0,200]},
 						{"part":"Back","zones":[20,15,10,0,0,15,15,25,0,200]},
 						{"part":"Right Leg","zones":[10,10,15,0,0,10,10,10,0,180]},
@@ -5369,7 +5372,7 @@
 				{"part":"Tail","zones":[35,25,60,0,25,5,10,70,0,200],"break":"100, if under 40% HP"},
 				{"part":"Front Legs","zones":[35,25,20,0,10,5,10,20,0,180]},
 				{"part":"Hind Legs","zones":[25,40,25,0,15,5,10,30,0,180]},
-				{"part":"Wings","zones":[20,15,20,0,10,5,10,20,0,90],"break":"180 (While Paralyzed or fallen over)"}
+				{"part":"Wings","zones":[20,15,20,0,10,5,10,20,0,90],"break":"180 (additional requirements unknown)"}
 			],
 			"hitzonesAlt":[
 				{"name":"Flame Aura",
@@ -5380,7 +5383,7 @@
 						{"part":"Tail","zones":[25,25,40,0,30,5,10,50,0,200],"break":"100, if under 40% HP"},
 						{"part":"Front Legs","zones":[25,25,20,0,15,5,10,10,0,180]},
 						{"part":"Hind Legs","zones":[25,30,25,0,20,5,10,10,0,180]},
-						{"part":"Wings","zones":[20,15,20,0,15,5,10,10,0,90],"break":"180 (While Paralyzed or fallen over)"}]}
+						{"part":"Wings","zones":[20,15,20,0,15,5,10,10,0,90],"break":"180 (additional requirements unknown)"}]}
 				],
 			"hitzoneNotes":"Dragon element damage is required to break Lunastra's horns, and its health must be below 60%. Lunastra's tail can only be cut when it's below 40% health.",
 			"statusTolerances":[
@@ -5456,7 +5459,7 @@
 				{"part":"Tail","zones":[35,25,60,0,25,5,10,70,0,100],"break":"100, if under 40% HP"},
 				{"part":"Front Legs","zones":[35,25,20,0,10,5,10,20,0,180]},
 				{"part":"Hind Legs","zones":[25,40,25,0,15,5,10,30,0,180]},
-				{"part":"Wings","zones":[20,15,20,0,10,5,10,20,0,90]}
+				{"part":"Wings","zones":[20,15,20,0,10,5,10,20,0,90],"break":"180 (additional requirements unknown)"}
 			],
 			"hitzonesAlt":[
 				{"name":"Flame Aura",
@@ -5467,8 +5470,7 @@
 						{"part":"Tail","zones":[25,25,40,0,30,5,10,50,0,100],"break":"100, if under 40% HP"},
 						{"part":"Front Legs","zones":[25,25,20,0,15,5,10,10,0,180]},
 						{"part":"Hind Legs","zones":[25,30,25,0,20,5,10,10,0,180]},
-						{"part":"Wings","zones":[20,15,20,0,15,5,10,10,0,90]
-						}
+						{"part":"Wings","zones":[20,15,20,0,15,5,10,10,0,90],"break":"180 (additional requirements unknown)"}
 					]
 				}
 

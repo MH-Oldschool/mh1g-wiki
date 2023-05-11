@@ -169,6 +169,24 @@
 									</td>
 								</tr>
 							{{/hitzones}}
+
+							{{#hitzonesAlt}}
+								<tr>
+									<th colspan="12" class="ta-c">{{name}}</th>
+								</tr>
+								{{#hitzones}}
+									<tr>
+										<td class="ta-l">{{part}}</td>
+										{{#zones}}
+											<td>{{.}}</td>
+										{{/zones}}
+										<td class="ta-l">
+											{{break}}
+											{{^break}}n/a{{/break}}
+										</td>
+									</tr>
+								{{/hitzones}}
+							{{/hitzonesAlt}}
 						</tbody>
 					</table>
 
