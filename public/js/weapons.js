@@ -298,7 +298,6 @@ ready(() => {
 		return SHARPNESS_MODS[type][sharpnessLevel];
 	}
 
-	var calcSharpnessColor = document.getElementById("calc-sharpness-color");
 	function getSharpnessFromColors(red, green, blue, alpha) {
 		if (alpha === 0) {
 			return -1;
@@ -365,8 +364,28 @@ ready(() => {
 		return sharpnessLevel;
 	}
 	function updateSharpnessColor(value) {
+		const calcSharpnessIcon = document.getElementById("calc-sharpness-icon");
+
+		const SHARPNESS_COLORS = [
+			"sharpness-icon-red",
+			"sharpness-icon-red",
+			"",
+			"sharpness-icon-green",
+			"sharpness-icon-blue",
+			"sharpness-icon-white"
+		];
+		const SHARPNESS_ICONS = [
+			"sharpness-icon-dullest",
+			"sharpness-icon-dull",
+			"sharpness-icon"
+		];
+
 		var sharpness = getSharpnessAtValue(value);
-		calcSharpnessColor.className = `sharpness-${sharpness}`;
+		var sharpnessColor = SHARPNESS_COLORS[sharpness];
+		if (sharpness == 3 && getMHVersion() == "1") {
+			sharpnessColor = "sharpness-icon-yellow";
+		}
+		calcSharpnessIcon.className = `ui-icon-2 ${ SHARPNESS_ICONS[Math.min(2, sharpness)] } ${ sharpnessColor }`;
 	}
 
 	function setSharpnessHitCounts() {

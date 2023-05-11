@@ -264,9 +264,25 @@ ready(function() {
 		return sharpnessLevel;
 	}
 	function updateSharpnessColor(value) {
-		const calcSharpnessColor = document.getElementById("calc-sharpness-color");
+		const calcSharpnessIcon = document.getElementById("calc-sharpness-icon");
+
+		const SHARPNESS_COLORS = [
+			"sharpness-icon-red",
+			"",
+			"",
+			"sharpness-icon-green",
+			"sharpness-icon-blue",
+			"sharpness-icon-white"
+		];
+		const SHARPNESS_ICONS = [
+			"sharpness-icon-dullest",
+			"sharpness-icon-dull",
+			"sharpness-icon"
+		];
+
 		var sharpness = getSharpnessAtValue(value);
-		calcSharpnessColor.className = `sharpness-${sharpness}`;
+		var sharpnessColor = SHARPNESS_COLORS[sharpness];
+		calcSharpnessIcon.className = `ui-icon-2 ${ SHARPNESS_ICONS[Math.min(2, sharpness)] } ${ sharpnessColor }`;
 	}
 	function setSharpnessHitCounts() {
 		const CALC_HIT_COUNTS = document.getElementsByClassName("calc-hit-count");

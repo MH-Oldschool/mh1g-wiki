@@ -1,6 +1,6 @@
 {
 	"name": "mhg-weapon-trees",
-	"version": "2.0.14",
+	"version": "2.0.15",
 	"description": "Interactive weapon trees for Monster Hunter G.",
 	"main": "index.js",
 	"dependencies": {
