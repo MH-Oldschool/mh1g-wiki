@@ -233,6 +233,10 @@ input:disabled + .checkbox-icon + label {
 	vertical-align: middle;
 }
 
+.fw-n {
+	font-weight: normal;
+}
+
 .w-auto {
 	width: auto;
 }

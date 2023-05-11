@@ -31,12 +31,12 @@
 		},
 		{
 			"name":"Antiseptic","japanese":"抗菌・抗毒",
-			"desc":"Affects your susceptibility to Stench status.",
+			"desc":"Affects your susceptibility to Stench status and Poison.",
 			"stages":["","","Extra Stinky","Antiseptic +1","","Antiseptic +2",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Extra Stinky"},
-				{"points":"+10","name":"Antiseptic +1"},
-				{"points":"+15","name":"Antiseptic +2"}
+				{"points":"-10","name":"Extra Stinky<span class=\"details\"> (2&times; Dung and Poison)</span>"},
+				{"points":"+10","name":"Antiseptic +1<span class=\"details\"> (0.5&times; Dung and Poison)</span>"},
+				{"points":"+15","name":"Antiseptic +2<span class=\"details\"> (Negate Dung and 0.5&times; Poison)</span>"}
 			]
 		},
 		{
@@ -77,15 +77,15 @@
 		},
 		{
 			"name":"Bomber","japanese":"爆弾強化",
-			"desc":"Increase the yield of barrel bombs<span class=\"details\">, dealing 1.5x damage. See the Explosive Damage section under About Weapons in the <a href='/mh2/weapons'>Weapons page</a></span>.",
+			"desc":"Increase the yield of barrel bombs<span class=\"details\">, dealing 1.5&times; damage</span>, and ensuring success when combining bombs, Sonic Bombs, and Gunpowder. See the Explosive Damage section under About Weapons in the <a href='/mh2/weapons'>Weapons page</a>.",
 			"stages":["","","","Bomber","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Bomber"}
+				{"points":"+10","name":"Bomber<span class=\"details\"> (1.5&times;)</span>"}
 			]
 		},
 		{
 			"name":"Carving","japanese":"剥ぎ取り",
-			"desc":"Speeds up carving monsters.",
+			"desc":"Allows you to carve monsters an additional time.",
 			"stages":["","","","","Master Carver","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Master Carver"}
@@ -106,11 +106,11 @@
 			"desc":"Hasten, reduce, or totally negate the maximum Stamina-reducing effects of cold zones.",
 			"stages":["Large Cold Doubled","","Minor Cold Doubled","Cold Halved","Negate Minor Cold","Negate Large Cold",""],
 			"stagesFormatted":[
-				{"points":"-20","name":"Large Cold Doubled"},
-				{"points":"-10","name":"Minor Cold Doubled"},
+				{"points":"-20","name":"Large Cold Doubled<span class=\"details\"> (2&times; effect)</span>"},
+				{"points":"-10","name":"Minor Cold Doubled<span class=\"details\"> (1.5&times; effect)</span>"},
 				{"points":"+10","name":"Cold Halved"},
-				{"points":"+15","name":"Negate Minor Cold"},
-				{"points":"+20","name":"Negate Large Cold"}
+				{"points":"+15","name":"Negate Minor Cold<span class=\"details\"> (negate low effect, 1/3&times; high effect)</span>"},
+				{"points":"+20","name":"Negate Large Cold<span class=\"details\"> (negate all)</span>"}
 			]
 		},
 		{
@@ -197,18 +197,18 @@
 			"desc":"Increase the amount of time that you are invulnerable during dodge moves.<span class=\"details\"> Normally, dodge moves have six frames of invulnerability: Evasion +1 increases this to 8 frames, +2 to 10 frames.</span>",
 			"stages":["","","","Evasion +1","","Evasion +2",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Evasion +1"},
-				{"points":"+20","name":"Evasion +2"}
+				{"points":"+10","name":"Evasion +1<span class=\"details\"> (8)</span>"},
+				{"points":"+20","name":"Evasion +2<span class=\"details\"> (10)</span>"}
 			]
 		},
 		{
 			"name":"Expert","japanese":"達人",
-			"desc":"Increase your weapon's affinity.",
+			"desc":"Increase your weapon's affinity. Additionally, Edge +1 and +2 prevent your weapon from bouncing.",
 			"stages":["","","","Mind's Eye","Edge +1","","Edge +2"],
 			"stagesFormatted":[
 				{"points":"+10","name":"Mind's Eye<span class=\"details\"> (+5)</span>"},
-				{"points":"+15","name":"Edge +1<span class=\"details\"> (+10)</span>"},
-				{"points":"+25","name":"Edge +2<span class=\"details\"> (+15)</span>"}
+				{"points":"+15","name":"Edge +1<span class=\"details\"> (+10 &amp; no bouncing)</span>"},
+				{"points":"+25","name":"Edge +2<span class=\"details\"> (+15 &amp; no bouncing)</span>"}
 			]
 		},
 		{
@@ -256,16 +256,16 @@
 		},
 		{
 			"name":"Gluttony","japanese":"食いしん坊",
-			"desc":"Increase the amount of maximum Stamina gained when eating cooked meat<span class=\"details\"> by the amount in parentheses</span>. Additionally, the Scavenging skill will occasionally increase maximum Stamina when using a recovery item.<span class=\"details\"> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>",
+			"desc":"Increase the amount of maximum Stamina gained when eating cooked meat<span class=\"details\"> by 25</span>. Additionally, the Scavenging skill will occasionally increase maximum Stamina when using a recovery item.<span class=\"details\"> Specifically, it provides a 1/3 chance to gain 25 Maximum Stamina when using a recovery item.</span>",
 			"stages":["","","","Eating","Scavenging","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Eating<span class=\"details\"> (+25)</span>"},
-				{"points":"+15","name":"Scavenging<span class=\"details\"> (+50)</span>"}
+				{"points":"+15","name":"Scavenging<span class=\"details\"> (+25 and 1/3 chance stamina from items)</span>"}
 			]
 		},
 		{
 			"name":"Guard","japanese":"ガード性能",
-			"desc":"Reduce, or improve, your shield's effectiveness while blocking.<span class=\"details\"> You'll get knocked back farther and take more chip damage with the negative skills, less knockback and chip damage from the positive skills. This also affects the blocking animation, based on monster attack and weapon class.</span>",
+			"desc":"Reduce, or improve, your shield's effectiveness while blocking.<span class=\"details\"> You'll get knocked back farther, consume more stamina, and take more chip damage with the negative skills, less knockback, stamina, and chip damage from the positive skills. This also affects the blocking animation, based on monster attack and weapon class. Guard +2 will also allow you to block normally unblockable attacks.</span>",
 			"stages":["","Guard -2","Guard -1","Guard +1","","Guard +2",""],
 			"stagesFormatted":[
 				{"points":"-15","name":"Guard -2"},
@@ -301,11 +301,11 @@
 			"desc":"Hasten, reduce, or totally negate the Hitpoint-depleting effects of hot zones.",
 			"stages":["Large Heat Doubled","","Minor Heat Doubled","Heat Halved","Negate Minor Heat","Negate Large Heat",""],
 			"stagesFormatted":[
-				{"points":"-20","name":"Large Heat Doubled"},
-				{"points":"-10","name":"Minor Heat Doubled"},
+				{"points":"-20","name":"Large Heat Doubled<span class=\"details\"> (2&times; effect)</span>"},
+				{"points":"-10","name":"Minor Heat Doubled<span class=\"details\"> (1.5&times; effect)</span>"},
 				{"points":"+10","name":"Heat Halved"},
-				{"points":"+15","name":"Negate Minor Heat"},
-				{"points":"+20","name":"Negate Large Heat"}
+				{"points":"+15","name":"Negate Minor Heat<span class=\"details\"> (negate low effect, 1/3&times; high effect)</span>"},
+				{"points":"+20","name":"Negate Large Heat<span class=\"details\"> (negate all)</span>"}
 			]
 		},
 		{
@@ -313,10 +313,10 @@
 			"desc":"Recover temporary damage (red bar) more slowly, or quickly<span class=\"details\">, per the multipliers in parentheses</span>.",
 			"stages":["Recovery Speed -2","","Recovery Speed -1","Recovery Speed +1","","Recovery Speed +2",""],
 			"stagesFormatted":[
-				{"points":"-20","name":"Recovery Speed -2"},
-				{"points":"-10","name":"Recovery Speed -1"},
-				{"points":"+10","name":"Recovery Speed +1"},
-				{"points":"+20","name":"Recovery Speed +2"}
+				{"points":"-20","name":"Recovery Speed -2<span class=\"details\"> (4&times; slower)</span>"},
+				{"points":"-10","name":"Recovery Speed -1<span class=\"details\"> (3&times; slower)</span>"},
+				{"points":"+10","name":"Recovery Speed +1<span class=\"details\"> (3&times; faster)</span>"},
+				{"points":"+20","name":"Recovery Speed +2<span class=\"details\"> (4&times; faster)</span>"}
 			]
 		},
 		{
@@ -348,13 +348,13 @@
 			"desc":"Reduce or increase the duration of consumables with a time-limited effect.",
 			"stages":["","","Item Use Down","Item Use Up","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Item Use Down<span class=\"details\"> 2/3 Duration</span>"},
+				{"points":"-10","name":"Item Use Down<span class=\"details\"> 2/3&times; Duration</span>"},
 				{"points":"+10","name":"Item Use Up<span class=\"details\"> 1.5&times; Duration</span>"}
 			]
 		},
 		{
 			"name":"Loading","japanese":"装填数",
-			"desc":"Maximizes the number of shots that can be loaded into bowguns.",
+			"desc":"Maximizes the number of shots that can be loaded into Bowguns, and adds a fourth charge level for Bows.",
 			"stages":["","","","Loading Up","","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Loading Up"}
@@ -388,10 +388,10 @@
 		},
 		{
 			"name":"Normal S Up","japanese":"通常弾強化",
-			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.1x</span> damage with Normal Shot.",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.1&times;</span> damage with Normal Shot.",
 			"stages":["","","","Normal S Up","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Normal S Up"}
+				{"points":"+10","name":"Normal S Up<span class=\"details\"> (1.1&times;)</span>"}
 			]
 		},
 		{
@@ -416,10 +416,10 @@
 		},
 		{
 			"name":"Pellet S Up","japanese":"散弾強化",
-			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.3x</span> damage with Pellet Shot.",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.3&times;</span> damage with Pellet Shot.",
 			"stages":["","","","Pellet S Up","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Pellet S Up"}
+				{"points":"+10","name":"Pellet S Up<span class=\"details\"> (1.3&times;)</span>"}
 			]
 		},
 		{
@@ -434,15 +434,15 @@
 		},
 		{
 			"name":"Pierce S Up","japanese":"貫通弾強化",
-			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.1x</span> damage with Pierce Shot.",
+			"desc":"Deal<span class='vaguery'> increased</span><span class=\"details\"> 1.1&times;</span> damage with Pierce Shot.",
 			"stages":["","","","Pierce S Up","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Pierce S Up"}
+				{"points":"+10","name":"Pierce S Up<span class=\"details\"> (1.1&times;)</span>"}
 			]
 		},
 		{
 			"name":"Poison","japanese":"毒",
-			"desc":"Suffer Poison for four times as long, three times, twice, half as long, or not at all.",
+			"desc":"Suffer Poison for twice as long, half as long, or not at all.",
 			"stages":["","","Poison Doubled","Poison Halved","Poison Negated","",""],
 			"stagesFormatted":[
 				{"points":"-10","name":"Poison Doubled"},
@@ -452,17 +452,17 @@
 		},
 		{
 			"name":"Potential","japanese":"底力",
-			"desc":"Affects your Attack or Defense when your health drops low enough.",
+			"desc":"Affects your Attack and/or Defense when your health drops <span class=\"vaguery\">low enough</span><span class=\"details\">below 40%</span>.",
 			"stages":["","Anxious Mind","","Fire Force +1","Fire Force +2","",""],
 			"stagesFormatted":[
-				{"points":"-15","name":"Anxious Mind<span class=\"details\"> Attack &times; 0.7 &amp; Defense - 24</span>"},
-				{"points":"+10","name":"Fire Force +1<span class=\"details\"> Defense + 90</span>"},
-				{"points":"+15","name":"Fire Force +2<span class=\"details\"> Attack &times; 1.5 &amp; Defense + 90</span>"}
+				{"points":"-15","name":"Anxious Mind<span class=\"details\"> (Attack &times; 0.7 &amp; Defense - 42)</span>"},
+				{"points":"+10","name":"Fire Force +1<span class=\"details\"> (Defense + 90)</span>"},
+				{"points":"+15","name":"Fire Force +2<span class=\"details\"> (Attack &times; 1.5 &amp; Defense + 90)</span>"}
 			]
 		},
 		{
 			"name":"Precision","japanese":"精密射撃",
-			"desc":"Reduce or increase precision of bowgun shots.",
+			"desc":"Reduce or increase precision of Bowgun shots and Bow arrows.",
 			"stages":["","","Precision Down","Precision Up","","",""],
 			"stagesFormatted":[
 				{"points":"-10","name":"Precision Down"},
@@ -471,16 +471,16 @@
 		},
 		{
 			"name":"Protection","japanese":"加護",
-			"desc":"Take<span class='vaguery'> more</span><span class=\"details\"> 1.3x</span> damage,<span class='vaguery'> on occasion</span><span class=\"details\"> 25% of the time</span>; or take<span class='vaguery'> less</span><span class=\"details\"> 0.7x</span> damage,<span class='vaguery'> on occasion</span><span class=\"details\"> 25% of the time</span>.",
+			"desc":"<span class=\"vaguery\">Sometimes</span><span class=\"details\">25% of the time</span> take<span class=\"vaguery\"> more or less</span><span class=\"details\"> 1.3&times; or 0.7&times;</span> damage.",
 			"stages":["","","Demonic Protection","Divine Protection","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Demonic Protection"},
-				{"points":"+10","name":"Divine Protection"}
+				{"points":"-10","name":"Demonic Protection<span class=\"details\"> (1.3&times;)</span>"},
+				{"points":"+10","name":"Divine Protection<span class=\"details\"> (0.7&times;)</span>"}
 			]
 		},
 		{
 			"name":"Psychic","japanese":"千里眼",
-			"desc":"Detect will show a detailed monster icon on the map, as long as the monster is being tracked<span class=\"details\">(if it is Paintballed or the hunter is using Psychoserum)</span>; Autotracker will additionally show monster icons on the map at all times.",
+			"desc":"Detect will show a detailed monster icon on the map, as long as the monster is being tracked<span class=\"details\"> (if it is Paintballed or the hunter is using Psychoserum)</span>; Autotracker will additionally show monster icons on the map at all times.",
 			"stages":["","","","Detect","Autotracker","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Detect"},
@@ -500,8 +500,8 @@
 			"desc":"Reduce bowgun Recoil<span class=\"details\"> by two, or four, points</span>. (see the Recoil section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
 			"stages":["","","","Recoil +1","Recoil +2","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Recoil +1"},
-				{"points":"+15","name":"Recoil +2"}
+				{"points":"+10","name":"Recoil +1<span class=\"details\"> (-2)</span>"},
+				{"points":"+15","name":"Recoil +2<span class=\"details\"> (-4)</span>"}
 			]
 		},
 		{
@@ -509,8 +509,8 @@
 			"desc":"Reduce, or increase, the amount of Hitpoints recovered from healing items. (This effect is not applied to other hunters when using Lifepowder or recovery items with the Wide Area skills.)",
 			"stages":["","","Recovery Items Weakened","Recovery Items Strengthened","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Recovery Items Weakened<span class=\"details\"> (0.75x)</span>"},
-				{"points":"+10","name":"Recovery Items Strengthened<span class=\"details\"> (1.5x)</span>"}
+				{"points":"-10","name":"Recovery Items Weakened<span class=\"details\"> (0.75&times;)</span>"},
+				{"points":"+10","name":"Recovery Items Strengthened<span class=\"details\"> (1.25&times;)</span>"}
 			]
 		},
 		{
@@ -536,7 +536,7 @@
 		},
 		{
 			"name":"Sharpness","japanese":"斬れ味",
-			"desc":"Occasionally lose more, or less, sharpness when attacking with a Blademaster weapon. This also applies to sharpness lost when blocking with the Great Sword.",
+			"desc":"Blunt increases the amount of sharpness lost while attacking and when blocking with the Great Sword. Sharp Sword reduces sharpness loss when bouncing to the normal amount.",
 			"stages":["","","Blunt","Sharp Sword","","",""],
 			"stagesFormatted":[
 				{"points":"-10","name":"Blunt"},
@@ -545,19 +545,19 @@
 		},
 		{
 			"name":"Sharpshooter","japanese":"砲術師",
-			"desc":"",
+			"desc":"Increase damage dealt by Ballista S and Cannon S<span class=\"details\"> by 1.1&times;</span>.",
 			"stages":["","","","Sharpshooter","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Sharpshooter"}
+				{"points":"+10","name":"Sharpshooter<span class=\"details\"> (1.1&times;)</span>"}
 			]
 		},
 		{
 			"name":"Silence","japanese":"声帯",
-			"desc":"Increase or reduce the duration of Silence status.",
+			"desc":"Reduce the duration of, or negate, Silence status.<span class=\"details\"> Also reduce the duration of, or negate, maximum stamina loss from Chameleos's attacks.</span>",
 			"stages":["","","","Silence Doubled","Silence Halved","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Silence Doubled"},
-				{"points":"+10","name":"Silence Halved"}
+				{"points":"+10","name":"Silence Halved"},
+				{"points":"+15","name":"Silence Negated"}
 			]
 		},
 		{
@@ -582,10 +582,10 @@
 		},
 		{
 			"name":"Speed Gathering","japanese":"高速収集",
-			"desc":"Gather items in the field and carve monsters <span class=\"details\"> 1.3 times more </span>quickly.",
+			"desc":"Gather items in the field and carve monsters <span class=\"details\"> 1.3&times; more </span>quickly.",
 			"stages":["","","","Speed Gathering","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Speed Gathering"}
+				{"points":"+10","name":"Speed Gathering<span class=\"details\"> (1.3&times;)</span>"}
 			]
 		},
 		{
@@ -593,25 +593,25 @@
 			"desc":"Take twice, or half, as long to sharpen your weapon.",
 			"stages":["","","Sharpening Slowed","Fast Sharpening","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Sharpening Slowed"},
-				{"points":"+10","name":"Fast Sharpening"}
+				{"points":"-10","name":"Sharpening Slowed<span class=\"details\"> (2&times;)</span>"},
+				{"points":"+10","name":"Fast Sharpening<span class=\"details\"> (0.5&times;)</span>"}
 			]
 		},
 		{
 			"name":"Stamina","japanese":"スタミナ",
-			"desc":"Increase or reduce the amount of stamina used while sprinting.<span class\"details\"> The normal amount of stamina consumption for sprinting is 15 units.</span>",
+			"desc":"Increase or reduce the amount of stamina used while sprinting, charging Hammer attacks, using Dual Swords Demon Mode, and charging Bow shots.<span class\"details\"> The normal amount of stamina consumption for sprinting is 15 units.</span>",
 			"stages":["","","Short Sprinter","Marathon Runner","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Short Sprinter<span class=\"details\"> 18 units</span>"},
-				{"points":"+10","name":"Marathon Runner<span class=\"details\"> 8 units</span>"}
+				{"points":"-10","name":"Short Sprinter<span class=\"details\">: 18 units (1.2&times;)</span>"},
+				{"points":"+10","name":"Marathon Runner<span class=\"details\">: 8 units (0.54&times;)</span>"}
 			]
 		},
 		{
 			"name":"Status","japanese":"特殊攻撃",
-			"desc":"Apply<span class=\"vaguery\"> more</span><span class=\"details\"> 1.125x</span> status with every hit. This applies to all Blademaster weapons that have status, Poison S, Stun S, Sleep S, Poison Coating, Para Coating, and Sleep Coating.",
+			"desc":"Apply<span class=\"vaguery\"> more</span><span class=\"details\"> 1.125&times;</span> status with every hit. This applies to all Blademaster weapons that have status, Poison S, Stun S, Sleep S, Poison Coating, Para Coating, and Sleep Coating.",
 			"stages":["","","","Status Attack Up","","",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Status Attack Up"}
+				{"points":"+10","name":"Status Attack Up<span class=\"details\"> (1.125&times;)</span>"}
 			]
 		},
 		{
@@ -626,18 +626,18 @@
 		},
 		{
 			"name":"Terrain","japanese":"地形",
-			"desc":"Increase or reduce the effects of Terrain damage.",
+			"desc":"Increase or reduce the effects of Terrain damage<span class=\"details\"> by the amount in parentheses. This includes heat damage from lava and the flame aura generated by some elder dragons</span>.",
 			"stages":["","Terrain Up Large","Terrain Up Small","Terrain Down Small","Terrain Down Large","",""],
 			"stagesFormatted":[
-				{"points":"-15","name":"Terrain Up Large"},
-				{"points":"-10","name":"Terrain Up Small"},
-				{"points":"+10","name":"Terrain Down Small"},
-				{"points":"+15","name":"Terrain Down Large"}
+				{"points":"-15","name":"Terrain Up Large<span class=\"details\"> (2&times;)</span>"},
+				{"points":"-10","name":"Terrain Up Small<span class=\"details\"> (4/3&times;)</span>"},
+				{"points":"+10","name":"Terrain Down Small<span class=\"details\"> (2/3&times;)</span>"},
+				{"points":"+15","name":"Terrain Down Large<span class=\"details\"> (1/3&times;)</span>"}
 			]
 		},
 		{
 			"name":"Throw","japanese":"投擲",
-			"desc":"Throw items such as Paintballs and Throwing Knives farther.",
+			"desc":"Throw items such as Paintballs and Throwing Knives farther and faster. Also reduces the likelihood a thrown Boomerang will break<span class=\"details\"> to 12.5%</span>.",
 			"stages":["","","","Throw","","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Throw"}
@@ -654,6 +654,13 @@
 				{"points":"+10","name":"Thunder Resistance + 3"},
 				{"points":"+15","name":"Thunder Resistance + 5"},
 				{"points":"+20","name":"Thunder Resistance + 10"}
+			]
+		},
+		{
+			"name":"Torso Up",
+			"desc":"Increases all skill points on your torso armor.<span class=\"details\"> Each piece of armor with Torso Up adds all the skill points for the torso armor an additional time, as if that armor had all the same skill points (positive and negative.) E.G. one piece doubles the points, two pieces triple, etc.</span>",
+			"stagesFormatted":[
+				{"name":"Torso Up"}
 			]
 		},
 		{
@@ -690,11 +697,11 @@
 		},
 		{
 			"name":"Wide Area","japanese":"広域",
-			"desc":"Share the effects of certain consumables with all hunters in the zone.",
+			"desc":"Share the effects of<span class=\"vaguery\"> certain consumables</span><span class=\"details\"> Herbs, Potions, Antidotes, Powerseeds, and Armorseeds</span> with all hunters in the zone. The stage determines how much of the effect is applied.",
 			"stages":["","","","Wide-Area +1","","Wide-Area +2",""],
 			"stagesFormatted":[
-				{"points":"+10","name":"Wide-Area +1"},
-				{"points":"+20","name":"Wide-Area +2"}
+				{"points":"+10","name":"Wide-Area +1<span class=\"details\"> (0.5&times; effect)</span>"},
+				{"points":"+20","name":"Wide-Area +2<span class=\"details\"> (1.0&times; effect)</span>"}
 			]
 		},
 		{
