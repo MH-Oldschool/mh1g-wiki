@@ -117,9 +117,6 @@ th {
 td {
 	border: 1px solid #eee;
 }
-tbody tr {
-	/*border-bottom: 1px solid #eee;*/
-}
 td, td * {
 	vertical-align: middle;
 }

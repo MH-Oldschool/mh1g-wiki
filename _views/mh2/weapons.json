@@ -5158,13 +5158,14 @@
 				},
 				{
 					"group":"Diablo Horn",
-					"groupId":"diablo-horn-group","groupClass":"fire-pre water-pre thunder-pre",
+					"groupId":"diablo-horn-group","groupClass":"fire-pre ice-pre thunder-pre",
 					"toggleAll":true,
 					"tbody":[
 						{
-							"bodyClass":"fire-pre water-pre thunder-pre",
+							"bodyClass":"fire-pre ice-pre thunder-pre",
 							"weapons":[
 								{
+									"rowClass":"fire-pre ice-pre thunder-pre",
 									"index":139,
 									"name":"Diablo Horn","japanese":"ブロスホーン",
 									"rarity":4,

@@ -266,12 +266,6 @@
 .branch.open {
 	display: table-row-group
 }
-.branch tr:first-child {
-	border-top: 2px solid #999;
-}
-.branch tr:last-child {
-	border-bottom: 2px solid #999;
-}
 .indent-1 tr td:first-child { padding-left: 1rem; }
 .indent-2 tr td:first-child { padding-left: 2rem; }
 .indent-3 tr td:first-child { padding-left: 3rem; }
