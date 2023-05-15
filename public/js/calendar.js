@@ -1,6 +1,6 @@
 ready(() => {
 	const SERVER_TZ = "Europe/Berlin";
-	const START_HOUR = 24; // Midnight, I hope
+	const START_HOUR = 0; // Midnight, I hope
 	const MONTH_NAMES = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 	// This gives us the local time when the rotation starts
@@ -324,7 +324,7 @@ ready(() => {
 
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex, version) {
-		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 1, hour: START_HOUR }, SERVER_TZ);
+		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 2, hour: START_HOUR }, SERVER_TZ);
 		var now = moment.tz(SERVER_TZ);
 		var nowOnFirstDay = moment.tz({ year: year, month: monthIndex, date: 1, hour: now.hour() }, SERVER_TZ);
 
