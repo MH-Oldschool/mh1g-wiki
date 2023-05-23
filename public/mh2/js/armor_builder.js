@@ -246,7 +246,7 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 	if (this.currentArmor.headgear.skills) {
 		this.currentArmor.headgear.skills.forEach(parseSkills);
-		this.currentArmor.decos.forEach(addDecoSkills);
+		this.currentArmor.headgear.decos.forEach(addDecoSkills);
 	}
 	if (torsoSkills) torsoSkills.forEach(parseSkills);
 	if (this.currentArmor.arms.skills) {
