@@ -515,14 +515,14 @@
 		},
 		{
 			"name":"Reload Speed","japanese":"装填",
-			"desc":"Increase, or reduce, the time it takes to reload bowgun shots (see the Reload section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
+			"desc":"Increase, or reduce, the time it takes to reload Bowgun shots and apply Bow coatings (see the Reload section under About Weapons in the <a href=\"/mh2/weapons\">Weapons page</a> for more details.)",
 			"stages":["","Reload Speed -2","Reload Speed -1","Reload Speed +1","Reload Speed +2","Reload Speed +3",""],
 			"stagesFormatted":[
-				{"points":"-15","name":"Reload Speed -2"},
-				{"points":"-10","name":"Reload Speed -1"},
-				{"points":"+10","name":"Reload Speed +1"},
-				{"points":"+15","name":"Reload Speed +2"},
-				{"points":"+20","name":"Reload Speed +3"}
+				{"points":"-15","name":"Reload Speed -2<span class=\"details\"> (140% coating time)</span>"},
+				{"points":"-10","name":"Reload Speed -1<span class=\"details\"> (110% coating time)</span>"},
+				{"points":"+10","name":"Reload Speed +1<span class=\"details\"> (85% coating time)</span>"},
+				{"points":"+15","name":"Reload Speed +2<span class=\"details\"> (75% coating time)</span>"},
+				{"points":"+20","name":"Reload Speed +3<span class=\"details\"> (65% coating time)</span>"}
 			]
 		},
 		{
@@ -582,11 +582,11 @@
 		},
 		{
 			"name":"Speed Sharpening","japanese":"研ぎ師",
-			"desc":"Take twice, or half, as long to sharpen your weapon.",
+			"desc":"Reduces the amount of sharpness restored when sharpening<span class=\"details\"> by half</span>, or reduce the amount of time it takes to sharpen your weapon<span class=\"details\"> to one quarter the time</span>.",
 			"stages":["","","Sharpening Slowed","Fast Sharpening","","",""],
 			"stagesFormatted":[
-				{"points":"-10","name":"Sharpening Slowed<span class=\"details\"> (2&times;)</span>"},
-				{"points":"+10","name":"Fast Sharpening<span class=\"details\"> (0.5&times;)</span>"}
+				{"points":"-10","name":"Sharpening Slowed<span class=\"details\"> (0.5&times;)</span>"},
+				{"points":"+10","name":"Fast Sharpening<span class=\"details\"> (0.25&times;)</span>"}
 			]
 		},
 		{

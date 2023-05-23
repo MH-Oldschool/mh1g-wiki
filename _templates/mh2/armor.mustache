@@ -198,12 +198,21 @@
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<th colspan="6">
+					<input id="decoration-none" name="decoration" type="radio" value="0" checked/>
+					<label for="decoration-none" class="decoration-label">none</label>
+				</th>
+			</tr>
 			{{#decorations}}
 				<tr class="rarity-{{rarity}}">
-					<td>
-						{{name}}
-						{{#gunner}}<sup>Gunner</sup>{{/gunner}}
-					</td>
+					<th>
+						<input id="decoration-{{index}}" name="decoration" type="radio" value="{{index}}"/>
+						<label for="decoration-{{index}}" class="decoration-label">
+							<span class="gem-icon {{color}}-icon"></span> <span>{{name}}</span>
+							{{#gunner}}<sup>Gunner</sup>{{/gunner}}
+						</label>
+					</th>
 					<td>{{rarity}}</td>
 					<td>{{slots}}</td>
 					<td class="expandable">
@@ -317,6 +326,14 @@
 			<div class="armor-row">
 				<span class="white-icon helm-icon"></span>
 				<span id="headgear-name" class="headgear-name armor-name"></span>
+				<button class="headgear-deco armor-deco" data-category="headgear" data-index="0"></button>
+				<button class="headgear-deco armor-deco" data-category="headgear" data-index="1"></button>
+				<button class="headgear-deco armor-deco" data-category="headgear" data-index="2"></button>
+
+				<input class="headgear-deco-index" type="hidden" value="0"/>
+				<input class="headgear-deco-index" type="hidden" value="0"/>
+				<input class="headgear-deco-index" type="hidden" value="0"/>
+
 				<label class="armor-level-label">Lv</label>
 				<select id="headgear-level" class="armor-piece-level">
 					<option value="0">1</option>
@@ -328,9 +345,20 @@
 					<option value="6">7</option>
 				</select>
 			</div>
+			<ul id="headgear-decos-row" class="armor-decos-row">
+			</ul>
+
 			<div class="armor-row">
 				<span class="white-icon torso-icon"></span>
 				<span id="torso-name" class="torso-name armor-name"></span>
+				<button class="torso-deco armor-deco" data-category="torso" data-index="0"></button>
+				<button class="torso-deco armor-deco" data-category="torso" data-index="1"></button>
+				<button class="torso-deco armor-deco" data-category="torso" data-index="2"></button>
+
+				<input class="torso-deco-index" type="hidden" value="0"/>
+				<input class="torso-deco-index" type="hidden" value="0"/>
+				<input class="torso-deco-index" type="hidden" value="0"/>
+
 				<label class="armor-level-label">Lv</label>
 				<select id="torso-level" class="armor-piece-level">
 					<option value="0">1</option>
@@ -342,9 +370,20 @@
 					<option value="6">7</option>
 				</select>
 			</div>
+			<ul id="torso-decos-row" class="armor-decos-row">
+			</ul>
+
 			<div class="armor-row">
 				<span class="white-icon arm-icon"></span>
 				<span id="arms-name" class="arms-name armor-name"></span>
+				<button class="arms-deco armor-deco" data-category="arms" data-index="0"></button>
+				<button class="arms-deco armor-deco" data-category="arms" data-index="1"></button>
+				<button class="arms-deco armor-deco" data-category="arms" data-index="2"></button>
+
+				<input class="arms-deco-index" type="hidden" value="0"/>
+				<input class="arms-deco-index" type="hidden" value="0"/>
+				<input class="arms-deco-index" type="hidden" value="0"/>
+
 				<label class="armor-level-label">Lv</label>
 				<select id="arms-level" class="armor-piece-level">
 					<option value="0">1</option>
@@ -356,9 +395,20 @@
 					<option value="6">7</option>
 				</select>
 			</div>
+			<ul id="arms-decos-row" class="armor-decos-row">
+			</ul>
+
 			<div class="armor-row">
 				<span class="white-icon waist-icon"></span>
 				<span id="waist-name" class="waist-name armor-name"></span>
+				<button class="waist-deco armor-deco" data-category="waist" data-index="0"></button>
+				<button class="waist-deco armor-deco" data-category="waist" data-index="1"></button>
+				<button class="waist-deco armor-deco" data-category="waist" data-index="2"></button>
+
+				<input class="waist-deco-index" type="hidden" value="0"/>
+				<input class="waist-deco-index" type="hidden" value="0"/>
+				<input class="waist-deco-index" type="hidden" value="0"/>
+
 				<label class="armor-level-label">Lv</label>
 				<select id="waist-level" class="armor-piece-level">
 					<option value="0">1</option>
@@ -370,9 +420,20 @@
 					<option value="6">7</option>
 				</select>
 			</div>
+			<ul id="waist-decos-row" class="armor-decos-row">
+			</ul>
+
 			<div class="armor-row">
 				<span class="white-icon foot-icon"></span>
 				<span id="legs-name" class="legs-name armor-name"></span>
+				<button class="legs-deco armor-deco" data-category="legs" data-index="0"></button>
+				<button class="legs-deco armor-deco" data-category="legs" data-index="1"></button>
+				<button class="legs-deco armor-deco" data-category="legs" data-index="2"></button>
+
+				<input class="legs-deco-index" type="hidden" value="0"/>
+				<input class="legs-deco-index" type="hidden" value="0"/>
+				<input class="legs-deco-index" type="hidden" value="0"/>
+
 				<label class="armor-level-label">Lv</label>
 				<select id="legs-level" class="armor-piece-level">
 					<option value="0">1</option>
@@ -384,6 +445,8 @@
 					<option value="6">7</option>
 				</select>
 			</div>
+			<ul id="legs-decos-row" class="armor-decos-row">
+			</ul>
 		</div>
 
 		<div id="gender-mixing-error" class="gender-mixing-error">Female and Male armor cannot be worn together!</div>

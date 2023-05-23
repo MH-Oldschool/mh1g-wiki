@@ -598,7 +598,7 @@ function generateArmorData2JS() {
 			}
 		});
 
-		var formattedData = `window.armorData=${JSON.stringify(armorData)};window.armorSkills=${JSON.stringify(parsedArmorSkills)}`;
+		var formattedData = `window.armorData=${JSON.stringify(armorData)};window.armorSkills=${JSON.stringify(parsedArmorSkills)};window.decorations=${JSON.stringify(rawData.decorations)}`;
 
 		fs.writeFileSync("public/mh2/js/armor_data.js", formattedData);
 

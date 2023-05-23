@@ -1,5 +1,6 @@
 function ArmorBuilder() {
 	this.armorData = window.armorData;
+	this.decorations = window.decorations;
 
 	this.defenseUp = 0;
 	this.resistancesUp = [0,0,0,0,0];
@@ -7,125 +8,130 @@ function ArmorBuilder() {
 	this.currentArmor = {};
 	this.resetArmor();
 
-	this.headgearRadios = document.getElementsByName("helm_armor");
-	this.torsoRadios = document.getElementsByName("torso_armor");
-	this.armsRadios = document.getElementsByName("arm_armor");
-	this.waistRadios = document.getElementsByName("waist_armor");
-	this.legsRadios = document.getElementsByName("foot_armor");
+	this.decoButtons = {
+		headgear: document.querySelectorAll(".headgear-deco"),
+		torso: document.querySelectorAll(".torso-deco"),
+		arms: document.querySelectorAll(".arms-deco"),
+		waist: document.querySelectorAll(".waist-deco"),
+		legs: document.querySelectorAll(".legs-deco")
+	};
+	this.decoIndices = {
+		headgear: document.querySelectorAll(".headgear-deco-index"),
+		torso: document.querySelectorAll(".torso-deco-index"),
+		arms: document.querySelectorAll(".arms-deco-index"),
+		waist: document.querySelectorAll(".waist-deco-index"),
+		legs: document.querySelectorAll(".legs-deco-index")
+	};
+	this.armorDecosRows = {
+		headgear: document.getElementById("headgear-decos-row"),
+		torso: document.getElementById("torso-decos-row"),
+		arms: document.getElementById("arms-decos-row"),
+		waist: document.getElementById("waist-decos-row"),
+		legs: document.getElementById("legs-decos-row")
+	}
 
-	this.headgearLevel = document.getElementById("headgear-level");
-	this.torsoLevel = document.getElementById("torso-level");
-	this.armsLevel = document.getElementById("arms-level");
-	this.waistLevel = document.getElementById("waist-level");
-	this.legsLevel = document.getElementById("legs-level");
+	this.armorLevels = {
+		headgear: document.getElementById("headgear-level"),
+		torso: document.getElementById("torso-level"),
+		arms: document.getElementById("arms-level"),
+		waist: document.getElementById("waist-level"),
+		legs: document.getElementById("legs-level")
+	};
+
+	var armorRadios = {
+		headgear: document.getElementsByName("helm_armor"),
+		torso: document.getElementsByName("torso_armor"),
+		arms: document.getElementsByName("arm_armor"),
+		waist: document.getElementsByName("waist_armor"),
+		legs: document.getElementsByName("foot_armor")
+	};
+	var decoRadios = document.getElementsByName("decoration");
 
 	// Try to circumvent JavaScript context nonsense
 	var self = this;
-	function handleHeadgearClick(event) {
-		self.setHeadgear(event.target.value);
-		self.updateArmorStats();
-	};
-	function handleTorsoClick(event) {
-		self.setTorso(event.target.value);
-		self.updateArmorStats();
-	};
-	function handleArmsClick(event) {
-		self.setArms(event.target.value);
-		self.updateArmorStats();
-	};
-	function handleWaistClick(event) {
-		self.setWaist(event.target.value);
-		self.updateArmorStats();
-	};
-	function handleLegsClick(event) {
-		self.setLegs(event.target.value);
-		self.updateArmorStats();
-	};
-	for (let i = 0; i < this.headgearRadios.length; i++) {
-		this.headgearRadios[i].addEventListener("click", handleHeadgearClick);
-	}
-	for (let i = 0; i < this.torsoRadios.length; i++) {
-		this.torsoRadios[i].addEventListener("click", handleTorsoClick);
-	}
-	for (let i = 0; i < this.armsRadios.length; i++) {
-		this.armsRadios[i].addEventListener("click", handleArmsClick);
-	}
-	for (let i = 0; i < this.waistRadios.length; i++) {
-		this.waistRadios[i].addEventListener("click", handleWaistClick);
-	}
-	for (let i = 0; i < this.legsRadios.length; i++) {
-		this.legsRadios[i].addEventListener("click", handleLegsClick);
-	}
 
-	this.headgearLevel.addEventListener("change", () => { self.updateArmorStats(); });
-	this.torsoLevel.addEventListener("change", () => { self.updateArmorStats(); });
-	this.armsLevel.addEventListener("change", () => { self.updateArmorStats(); });
-	this.waistLevel.addEventListener("change", () => { self.updateArmorStats(); });
-	this.legsLevel.addEventListener("change", () => { self.updateArmorStats(); });
+	function handleArmorDecoClick(event) {
+		var index = parseInt(event.target.dataset.index);
+		var decoIndex = 0;
+		var selectedDeco;
+		for (let i = 0; i < decoRadios.length; i++) {
+			if (decoRadios[i].checked) {
+				decoIndex = decoRadios[i].value;
+				if (decoIndex > 0) {
+					selectedDeco = self.decorations.find(deco => deco.index == decoIndex);
+				}
+				break;
+			}
+		}
 
-	// Find selected armor if reloading page, or set all pieces to None
-	var armorFound = false;
-	for (let i = 0; i < this.headgearRadios.length; i++) {
-		if (this.headgearRadios[i].checked) {
-			armorFound = true;
-			this.setHeadgear(this.headgearRadios[i].value);
-			break;
+		var armorCategory = event.target.dataset.category;
+		var slotCount = self.getSlotCount(armorCategory);
+
+		if (decoIndex == 0) {
+			var slotIndex = self.getDecoBaseSlotAtIndex(armorCategory, index);
+			if (slotIndex != -1) {
+				self.unsetDecoInSlot(armorCategory, slotIndex);
+				self.updateDecoRows(armorCategory);
+				self.updateArmorStats();
+			}
+		}
+		else if (index < slotCount) {
+			if (selectedDeco && (index + selectedDeco.slots) <= slotCount) {
+				self.unsetDecoInSlot(armorCategory, index);
+				self.setDecoInSlot(armorCategory, index, selectedDeco);
+				self.updateDecoRows(armorCategory);
+				self.updateArmorStats();
+			}
 		}
 	}
-	if (!armorFound) {
-		this.setHeadgear(this.currentArmor.headgear.name);
-	}
 
-	armorFound = false;
-	for (let i = 0; i < this.torsoRadios.length; i++) {
-		if (this.torsoRadios[i].checked) {
-			armorFound = true;
-			this.setTorso(this.torsoRadios[i].value);
-			break;
+	for (let prop in this.decoButtons) {
+		if (this.decoButtons.hasOwnProperty(prop)) {
+			this.decoButtons[prop].forEach(radio => radio.addEventListener("click", handleArmorDecoClick));
 		}
 	}
-	if (!armorFound) {
-		this.setTorso(this.currentArmor.torso.name);
-	}
 
-	armorFound = false;
-	for (let i = 0; i < this.armsRadios.length; i++) {
-		if (this.armsRadios[i].checked) {
-			armorFound = true;
-			this.setArms(this.armsRadios[i].value);
-			break;
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		for (let i = 0; i < armorRadios[armorCategory].length; i++) {
+			armorRadios[armorCategory][i].addEventListener("click", (event) => {
+				this.setArmorPiece(armorCategory, event.target.value);
+				this.updateArmorStats();
+			});
 		}
-	}
-	if (!armorFound) {
-		this.setArms(this.currentArmor.arms.name);
-	}
 
-	armorFound = false;
-	for (let i = 0; i < this.waistRadios.length; i++) {
-		if (this.waistRadios[i].checked) {
-			armorFound = true;
-			this.setWaist(this.waistRadios[i].value);
-			break;
-		}
-	}
-	if (!armorFound) {
-		this.setWaist(this.currentArmor.waist.name);
-	}
+		this.armorLevels[armorCategory].addEventListener("change", () => self.updateArmorStats());
 
-	armorFound = false;
-	for (let i = 0; i < this.legsRadios.length; i++) {
-		if (this.legsRadios[i].checked) {
-			armorFound = true;
-			this.setLegs(this.legsRadios[i].value);
-			break;
+		// Find selected armor if reloading page, or set the piece to None
+		var armorFound = false;
+		for (let i = 0; i < armorRadios[armorCategory].length; i++) {
+			if (armorRadios[armorCategory][i].checked) {
+				armorFound = true;
+				this.setArmorPiece(armorCategory, armorRadios[armorCategory][i].value);
+				// Get slotted decos from hidden inputs
+				var hasDecos = false;
+				this.decoIndices[armorCategory].forEach((decoIndex, slotIndex) => {
+					if (decoIndex.value != 0) {
+						hasDecos = true;
+						var deco = this.decorations.find(deco => deco.index == decoIndex.value);
+						this.setDecoInSlot(armorCategory, slotIndex, deco);
+					}
+				});
+
+				if (hasDecos) {
+					this.updateDecoRows(armorCategory);
+				}
+
+				break;
+			}
 		}
-	}
-	if (!armorFound) {
-		this.setLegs(this.currentArmor.legs.name);
-	}
+		if (!armorFound) {
+			this.setArmorPiece(armorCategory, this.currentArmor[armorCategory].name);
+		}
+	});
 
 	this.updateArmorStats();
 }
+ArmorBuilder.CATEGORIES = ["headgear", "torso", "arms", "waist", "legs"];
 ArmorBuilder.calculateDamageBlocked = function(defense) {
 	return 1 - (80 / (defense + 80));
 };
@@ -134,21 +140,11 @@ ArmorBuilder.calculateElementBlocked = function(defense, element) {
 };
 ArmorBuilder.prototype.calculateDefense = function() {
 	var defense = 0;
-	if (this.currentArmor.headgear) {
-		defense += this.currentArmor.headgear.defense[this.headgearLevel.value];
-	}
-	if (this.currentArmor.torso) {
-		defense += this.currentArmor.torso.defense[this.torsoLevel.value];
-	}
-	if (this.currentArmor.arms) {
-		defense += this.currentArmor.arms.defense[this.armsLevel.value];
-	}
-	if (this.currentArmor.waist) {
-		defense += this.currentArmor.waist.defense[this.waistLevel.value];
-	}
-	if (this.currentArmor.legs) {
-		defense += this.currentArmor.legs.defense[this.legsLevel.value];
-	}
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory]) {
+			defense += this.currentArmor[armorCategory].defense[this.armorLevels[armorCategory].value];
+		}
+	});
 
 	return defense + this.defenseUp;
 };
@@ -156,21 +152,11 @@ ArmorBuilder.prototype.calculateRes = function() {
 	var resistances = [ 0, 0, 0, 0, 0 ];
 	function addResistance(res, index) { resistances[index] += res; }
 
-	if (this.currentArmor.headgear.resistances) {
-		this.currentArmor.headgear.resistances.forEach(addResistance);
-	}
-	if (this.currentArmor.torso.resistances) {
-		this.currentArmor.torso.resistances.forEach(addResistance);
-	}
-	if (this.currentArmor.arms.resistances) {
-		this.currentArmor.arms.resistances.forEach(addResistance);
-	}
-	if (this.currentArmor.waist.resistances) {
-		this.currentArmor.waist.resistances.forEach(addResistance);
-	}
-	if (this.currentArmor.legs.resistances) {
-		this.currentArmor.legs.resistances.forEach(addResistance);
-	}
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory].resistances) {
+			this.currentArmor[armorCategory].resistances.forEach(addResistance);
+		}
+	});
 
 	return resistances.map((res, index) => res + this.resistancesUp[index]);
 };
@@ -185,8 +171,6 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 	// First, we have to calculate the Torso Up modifier by checking all non-torso armor pieces
 	var torsoUpModifier = 1;
-	var torsoAdd1 = false;
-	var torsoAdd2 = false;
 	function updateTorsoSkills(skill) {
 		if (skill.k == "Torso Up") {
 			torsoUpModifier++;
@@ -209,21 +193,37 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 	// And now we apply it
 	var torsoSkills = [];
-	if (this.currentArmor.torso.skills && (torsoUpModifier !== 1 || torsoAdd1 || torsoAdd2)) {
-		torsoSkills = this.currentArmor.torso.skills.map((skill) => {
-			var quantity = skill.q * torsoUpModifier;
-			if (torsoAdd1) {
-				quantity += 1;
-			}
-			if (torsoAdd2) {
-				quantity += 2;
-			}
-
-			return {
-				k: skill.k,
-				q: quantity
-			};
+	if (this.currentArmor.torso.skills && torsoUpModifier !== 1) {
+		// Sort armor skills
+		var keyedSkills = {};
+		this.currentArmor.torso.skills.forEach(skill => {
+			keyedSkills[skill.k] = skill.q;
 		});
+
+		// Add deco skills
+		for (let i = 0; i < this.getSlotCount("torso"); i++) {
+			var deco = this.currentArmor.torso.decos[i];
+			if (deco.slots) {
+				deco.skills.forEach(skill => {
+					if (keyedSkills[skill.k]) {
+						keyedSkills[skill.k] += parseInt(skill.q);
+					}
+					else {
+						keyedSkills[skill.k] = parseInt(skill.q);
+					}
+				});
+			}
+		}
+
+		// Apply modifier
+		for (let prop in keyedSkills) {
+			if (keyedSkills.hasOwnProperty(prop)) {
+				torsoSkills.push({
+					k: prop,
+					q: keyedSkills[prop] * torsoUpModifier
+				})
+			}
+		}
 	}
 	else {
 		torsoSkills = this.currentArmor.torso.skills;
@@ -232,18 +232,35 @@ ArmorBuilder.prototype.calculateSkills = function() {
 	var skillsParsed = {};
 	function parseSkills(skill) {
 		if (skillsParsed[skill.k]) {
-			skillsParsed[skill.k] += skill.q;
+			skillsParsed[skill.k] += parseInt(skill.q);
 		}
 		else {
-			skillsParsed[skill.k] = skill.q;
+			skillsParsed[skill.k] = parseInt(skill.q);
+		}
+	}
+	function addDecoSkills(deco) {
+		if (deco.slots) {
+			deco.skills.forEach(parseSkills);
 		}
 	}
 
-	if (this.currentArmor.headgear.skills) this.currentArmor.headgear.skills.forEach(parseSkills);
+	if (this.currentArmor.headgear.skills) {
+		this.currentArmor.headgear.skills.forEach(parseSkills);
+		this.currentArmor.decos.forEach(addDecoSkills);
+	}
 	if (torsoSkills) torsoSkills.forEach(parseSkills);
-	if (this.currentArmor.arms.skills) this.currentArmor.arms.skills.forEach(parseSkills);
-	if (this.currentArmor.waist.skills) this.currentArmor.waist.skills.forEach(parseSkills);
-	if (this.currentArmor.legs.skills) this.currentArmor.legs.skills.forEach(parseSkills);
+	if (this.currentArmor.arms.skills) {
+		this.currentArmor.arms.skills.forEach(parseSkills);
+		this.currentArmor.arms.decos.forEach(addDecoSkills);
+	}
+	if (this.currentArmor.waist.skills) {
+		this.currentArmor.waist.skills.forEach(parseSkills);
+		this.currentArmor.waist.decos.forEach(addDecoSkills);
+	}
+	if (this.currentArmor.legs.skills) {
+		this.currentArmor.legs.skills.forEach(parseSkills);
+		this.currentArmor.legs.decos.forEach(addDecoSkills);
+	}
 
 	for (let prop in skillsParsed) {
 		if (skillsParsed.hasOwnProperty(prop)) {
@@ -350,16 +367,10 @@ ArmorBuilder.prototype.checkGenderMismatch = function() {
 	var femalePartCount = 0;
 	var malePartCount = 0;
 
-	if (this.currentArmor.headgear.gender == "Female") { femalePartCount++ }
-	else if (this.currentArmor.headgear.gender == "Male") { malePartCount++ }
-	if (this.currentArmor.torso.gender == "Female") { femalePartCount++ }
-	else if (this.currentArmor.torso.gender == "Male") { malePartCount++ }
-	if (this.currentArmor.arms.gender == "Female") { femalePartCount++ }
-	else if (this.currentArmor.arms.gender == "Male") { malePartCount++ }
-	if (this.currentArmor.waist.gender == "Female") { femalePartCount++ }
-	else if (this.currentArmor.waist.gender == "Male") { malePartCount++ }
-	if (this.currentArmor.legs.gender == "Female") { femalePartCount++ }
-	else if (this.currentArmor.legs.gender == "Male") { malePartCount++ }
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory].gender == "Female") { femalePartCount++ }
+		else if (this.currentArmor[armorCategory].gender == "Male") { malePartCount++ }
+	});
 
 	var gendersMixed = (femalePartCount !== 0) && (malePartCount !== 0);
 	genderError.style.display = gendersMixed ? "block" : "";
@@ -373,16 +384,10 @@ ArmorBuilder.prototype.checkClassMismatch = function() {
 	var blademasterPartCount = 0;
 	var gunnerPartCount = 0;
 
-	if (this.currentArmor.headgear.class == "Blademaster") { blademasterPartCount++ }
-	else if (this.currentArmor.headgear.class == "Gunner") { gunnerPartCount++ }
-	if (this.currentArmor.torso.class == "Blademaster") { blademasterPartCount++ }
-	else if (this.currentArmor.torso.class == "Gunner") { gunnerPartCount++ }
-	if (this.currentArmor.arms.class == "Blademaster") { blademasterPartCount++ }
-	else if (this.currentArmor.arms.class == "Gunner") { gunnerPartCount++ }
-	if (this.currentArmor.waist.class == "Blademaster") { blademasterPartCount++ }
-	else if (this.currentArmor.waist.class == "Gunner") { gunnerPartCount++ }
-	if (this.currentArmor.legs.class == "Blademaster") { blademasterPartCount++ }
-	else if (this.currentArmor.legs.class == "Gunner") { gunnerPartCount++ }
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory].class == "Blademaster") { blademasterPartCount++ }
+		else if (this.currentArmor[armorCategory].class == "Gunner") { gunnerPartCount++ }
+	});
 
 	var classesMixed = (blademasterPartCount !== 0) && (gunnerPartCount !== 0);
 	classError.style.display = classesMixed ? "block" : "";
@@ -398,60 +403,22 @@ ArmorBuilder.prototype.getResistances = function() {
 		parseInt(document.getElementById("dragon-res").innerText)
 	];
 };
-ArmorBuilder.prototype.setHeadgear = function(headgearName) {
-	const armorElement = document.getElementById("headgear-name");
-	var armorPiece = this.armorData["Headgear"].find(armorPiece => armorPiece.name == headgearName);
+ArmorBuilder.prototype.setArmorPiece = function(armorCategory, armorName) {
+	const armorElement = document.getElementById(armorCategory + "-name");
+	var armorPiece = this.armorData[armorCategory.substr(0, 1).toUpperCase() + armorCategory.substr(1)].find(armorPiece => armorPiece.name == armorName);
 
 	if (!armorPiece) return false;
 
-	this.currentArmor.headgear = armorPiece;
-	armorElement.innerText = this.currentArmor.headgear.name;
-};
-ArmorBuilder.prototype.setTorso = function(torsoIndex) {
-	const armorElement = document.getElementById("torso-name");
-	var armorPiece = this.armorData["Torso"].find(armorPiece => armorPiece.name == torsoIndex);
-
-	if (!armorPiece) return false;
-
-	this.currentArmor.torso = armorPiece;
-	armorElement.innerText = this.currentArmor.torso.name;
-};
-ArmorBuilder.prototype.setArms = function(armsIndex) {
-	const armorElement = document.getElementById("arms-name");
-	var armorPiece = this.armorData["Arms"].find(armorPiece => armorPiece.name == armsIndex);
-
-	if (!armorPiece) return false;
-
-	this.currentArmor.arms = armorPiece;
-	armorElement.innerText = this.currentArmor.arms.name;
-};
-ArmorBuilder.prototype.setWaist = function(waistIndex) {
-	const armorElement = document.getElementById("waist-name");
-	var armorPiece = this.armorData["Waist"].find(armorPiece => armorPiece.name == waistIndex);
-
-	if (!armorPiece) return false;
-
-	this.currentArmor.waist = armorPiece;
-	armorElement.innerText = this.currentArmor.waist.name;
-};
-ArmorBuilder.prototype.setLegs = function(legsIndex) {
-	const armorElement = document.getElementById("legs-name");
-	var armorPiece = this.armorData["Legs"].find(armorPiece => armorPiece.name == legsIndex);
-
-	if (!armorPiece) return false;
-
-	this.currentArmor.legs = armorPiece;
-	armorElement.innerText = this.currentArmor.legs.name;
+	this.currentArmor[armorCategory] = armorPiece;
+	this.currentArmor[armorCategory].decos = [{}, {}, {}];
+	armorElement.innerText = this.currentArmor[armorCategory].name;
 };
 ArmorBuilder.prototype.resetArmor = function() {
-	this.setHeadgear("None");
-	this.setTorso("None");
-	this.setArms("None");
-	this.setWaist("None");
-	this.setLegs("None");
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => this.setArmorPiece(armorCategory, "None"));
 };
 ArmorBuilder.prototype.getOriginArmor = function(armorPiece, armorCategory) {
-	return this.armorData[armorCategory].find(armor => {
+	var uppercaseArmorCategory = armorCategory[0].toUpperCase() + armorCategory.substring(1);
+	return this.armorData[uppercaseArmorCategory].find(armor => {
 		if (armor.branching) {
 			return armor.upgradeIndices.includes(armorPiece.index);
 		}
@@ -468,10 +435,12 @@ ArmorBuilder.prototype.getArmorMaterials = function(armorPiece, levelIndex, allM
 			allMaterials[mat.m] = parseInt(mat.q);
 		}
 	}
-	armorPiece.forge.forEach(addMaterial);
-	for (var i = 0; i < levelIndex; i++) {
-		if (armorPiece.upgradeLevels[i].materials) {
-			armorPiece.upgradeLevels[i].materials.forEach(addMaterial);
+	if (armorPiece.forge) {
+		armorPiece.forge.forEach(addMaterial);
+		for (var i = 0; i < levelIndex; i++) {
+			if (armorPiece.upgradeLevels[i].materials) {
+				armorPiece.upgradeLevels[i].materials.forEach(addMaterial);
+			}
 		}
 	}
 
@@ -488,94 +457,123 @@ ArmorBuilder.prototype.getArmorCost = function(armorPiece, levelIndex, totalCost
 
 	return totalCost;
 };
+ArmorBuilder.prototype.setPieceDecoCount = function(armorCategory) {
+	var slotCount = 0;
+	if (this.currentArmor[armorCategory].slots) {
+		slotCount = this.getSlotCount(armorCategory);
+	}
+	this.decoButtons[armorCategory].forEach((deco, index) => {
+		var enable = index < slotCount;
+		deco.disabled = !enable;
+	});
+};
+ArmorBuilder.prototype.setDecoCounts = function() {
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => this.setPieceDecoCount(armorCategory));
+};
+ArmorBuilder.prototype.getSlotCount = function(armorCategory) {
+	return this.currentArmor[armorCategory].slots[this.armorLevels[armorCategory].value];
+};
+ArmorBuilder.prototype.getDecoBaseSlotAtIndex = function(armorCategory, slotIndex) {
+	var slotCount = this.getSlotCount(armorCategory);
+	for (let i = 0; i < slotCount; i++) {
+		if (this.currentArmor[armorCategory].decos[i] && this.currentArmor[armorCategory].decos[i].slots) {
+			var decoSlotCount = this.currentArmor[armorCategory].decos[i].slots;
+			if (i == slotIndex || i + decoSlotCount == slotIndex + 1) {
+				return i;
+			}
+		}
+	}
+
+	return -1;
+};
+ArmorBuilder.prototype.updateDecoRows = function(armorCategory) {
+	var armorRows = [];
+	this.currentArmor[armorCategory].decos.forEach(deco => {
+		if (deco.slots) {
+			var slotIcons = [];
+			for (let i = 0; i < deco.slots; i++) {
+				slotIcons.push(`<span class=\"deco-icon back-${ deco.color }\"></span>`);
+			}
+
+			var skills = deco.skills.map(skillData => {
+				return `${ skillData.k } ${ skillData.q }`;
+			});
+
+			armorRows.push(`<li><span>${ deco.name }</span> ${ slotIcons.join("") } <span>${ skills.join(", ") }</span></li>`);
+		}
+	});
+
+	this.armorDecosRows[armorCategory].innerHTML = armorRows.join("");
+};
+ArmorBuilder.prototype.setDecoInSlot = function(armorCategory, slotIndex, deco) {
+	// Only slot the deco if it fits
+	var slotCount = this.getSlotCount(armorCategory);
+	if (slotIndex + deco.slots <= slotCount) {
+		// Unslot any gems this would overlap with
+		for (let i = 0; i < slotCount; i++) {
+			var decoSlots = this.currentArmor[armorCategory].decos[i].slots;
+			if (decoSlots && i <= slotIndex + deco.slots - 1 && i + decoSlots - 1 >= slotIndex) {
+				this.unsetDecoInSlot(armorCategory, i);
+			}
+		}
+
+		this.currentArmor[armorCategory].decos[slotIndex] = deco;
+		for (let i = 0; i < deco.slots; i++) {
+			this.decoButtons[armorCategory][slotIndex + i].classList.add(deco.color);
+		}
+
+		this.decoIndices[armorCategory][slotIndex].value = deco.index;
+	}
+};
+ArmorBuilder.prototype.unsetDecoInSlot = function(armorCategory, slotIndex) {
+	var decoSlots = this.currentArmor[armorCategory].decos[slotIndex].slots
+	for (let i = 0; i < decoSlots; i++) {
+		this.decoButtons[armorCategory][slotIndex + i].classList.remove("blue","cyan","gray","green","purple","red","white","yellow");
+		this.decoIndices[armorCategory][slotIndex].value = 0;
+	}
+
+	this.currentArmor[armorCategory].decos[slotIndex] = {};
+};
 ArmorBuilder.prototype.sumMaterialsAndZenny = function() {
 	// Sum up zenny cost and all required materials
 	var totalCost = 0;
 	var allMaterials = {};
-	if (this.currentArmor.headgear.name != "None") {
-		totalCost = this.getArmorCost(this.currentArmor.headgear, this.headgearLevel.value, totalCost);
-		allMaterials = this.getArmorMaterials(this.currentArmor.headgear, this.headgearLevel.value, allMaterials);
 
-		// Get origin armor materials too
-		if (this.currentArmor.headgear.branch) {
-			var originArmor = this.getOriginArmor(this.currentArmor.headgear, "Headgear");
-			if (originArmor) {
-				totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
-				allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory].name != "None") {
+			totalCost = this.getArmorCost(this.currentArmor[armorCategory], this.armorLevels[armorCategory].value, totalCost);
+			allMaterials = this.getArmorMaterials(this.currentArmor[armorCategory], this.armorLevels[armorCategory].value, allMaterials);
+
+			// Get origin armor materials too
+			if (this.currentArmor[armorCategory].branch) {
+				var originArmor = this.getOriginArmor(this.currentArmor[armorCategory], armorCategory);
+				if (originArmor) {
+					totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
+					allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
+				}
+				else {
+					console.warn("Unable to find origin armor for", this.currentArmor[armorCategory].name);
+				}
 			}
-			else {
-				console.warn("Unable to find origin armor for", this.currentArmor.headgear.name);
-			}
+
+			// Also get deco costs and materials
+			this.currentArmor[armorCategory].decos.forEach(deco => {
+				if (deco.slots) {
+					totalCost += deco.price;
+
+					deco.forge.forEach(mat => {
+						if (allMaterials[mat.m]) {
+							allMaterials[mat.m] += parseInt(mat.q);
+						}
+						else {
+							allMaterials[mat.m] = parseInt(mat.q);
+						}
+					});
+				}
+			});
 		}
-	}
+	});
 
-	if (this.currentArmor.torso.name != "None") {
-		totalCost = this.getArmorCost(this.currentArmor.torso, this.torsoLevel.value, totalCost);
-		allMaterials = this.getArmorMaterials(this.currentArmor.torso, this.torsoLevel.value, allMaterials);
-
-		// Get origin armor materials too
-		if (this.currentArmor.torso.branch) {
-			var originArmor = this.getOriginArmor(this.currentArmor.torso, "Torso");
-			if (originArmor) {
-				totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
-				allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
-			}
-			else {
-				console.warn("Unable to find origin armor for", this.currentArmor.torso.name);
-			}
-		}
-	}
-
-	if (this.currentArmor.arms.name != "None") {
-		totalCost = this.getArmorCost(this.currentArmor.arms, this.armsLevel.value, totalCost);
-		allMaterials = this.getArmorMaterials(this.currentArmor.arms, this.armsLevel.value, allMaterials);
-
-		// Get origin armor materials too
-		if (this.currentArmor.arms.branch) {
-			var originArmor = this.getOriginArmor(this.currentArmor.arms, "Arms");
-			if (originArmor) {
-				totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
-				allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
-			}
-			else {
-				console.warn("Unable to find origin armor for", this.currentArmor.arms.name);
-			}
-		}
-	}
-
-	if (this.currentArmor.waist.name != "None") {
-		totalCost = this.getArmorCost(this.currentArmor.waist, this.waistLevel.value, totalCost);
-		allMaterials = this.getArmorMaterials(this.currentArmor.waist, this.waistLevel.value, allMaterials);
-
-		// Get origin armor materials too
-		if (this.currentArmor.waist.branch) {
-			var originArmor = this.getOriginArmor(this.currentArmor.waist, "Waist");
-			if (originArmor) {
-				totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
-				allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
-			}
-			else {
-				console.warn("Unable to find origin armor for", this.currentArmor.waist.name);
-			}
-		}
-	}
-
-	if (this.currentArmor.legs.name != "None") {
-		totalCost = this.getArmorCost(this.currentArmor.legs, this.legsLevel.value, totalCost);
-		allMaterials = this.getArmorMaterials(this.currentArmor.legs, this.legsLevel.value, allMaterials);
-
-		// Get origin armor materials too
-		if (this.currentArmor.legs.branch) {
-			var originArmor = this.getOriginArmor(this.currentArmor.legs, "Legs");
-			if (originArmor) {
-				totalCost = this.getArmorCost(originArmor, originArmor.upgradeLevel, totalCost);
-				allMaterials = this.getArmorMaterials(originArmor, originArmor.upgradeLevel, allMaterials);
-			}
-			else {
-				console.warn("Unable to find origin armor for", this.currentArmor.legs.name);
-			}
-		}
-	}
 	document.getElementById("armor-cost").innerText = totalCost;
 
 	var materialRows = [];
@@ -593,60 +591,18 @@ ArmorBuilder.prototype.sumMaterialsAndZenny = function() {
 	}
 };
 ArmorBuilder.prototype.updateLevelOptions = function() {
-	if (this.currentArmor.headgear.name != "None") {
-		for (let i = 0; i < this.headgearLevel.children.length; i++) {
-			var disabled = i >= this.currentArmor.headgear.defense.length;
-			this.headgearLevel.children[i].disabled = disabled;
-		}
+	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		if (this.currentArmor[armorCategory].name != "None") {
+			for (let i = 0; i < this.armorLevels[armorCategory].children.length; i++) {
+				var disabled = i >= this.currentArmor[armorCategory].defense.length;
+				this.armorLevels[armorCategory].children[i].disabled = disabled;
+			}
 
-		if (this.headgearLevel.value >= this.currentArmor.headgear.defense.length) {
-			this.headgearLevel.value = this.currentArmor.headgear.defense.length - 1;
+			if (this.armorLevels[armorCategory].value >= this.currentArmor[armorCategory].defense.length) {
+				this.armorLevels[armorCategory].value = this.currentArmor[armorCategory].defense.length - 1;
+			}
 		}
-	}
-
-	if (this.currentArmor.torso.name != "None") {
-		for (let i = 0; i < this.torsoLevel.children.length; i++) {
-			var disabled = i >= this.currentArmor.torso.defense.length;
-			this.torsoLevel.children[i].disabled = disabled;
-		}
-
-		if (this.torsoLevel.value >= this.currentArmor.torso.defense.length) {
-			this.torsoLevel.value = this.currentArmor.torso.defense.length - 1;
-		}
-	}
-
-	if (this.currentArmor.arms.name != "None") {
-		for (let i = 0; i < this.armsLevel.children.length; i++) {
-			var disabled = i >= this.currentArmor.arms.defense.length;
-			this.armsLevel.children[i].disabled = disabled;
-		}
-
-		if (this.armsLevel.value >= this.currentArmor.arms.defense.length) {
-			this.armsLevel.value = this.currentArmor.arms.defense.length - 1;
-		}
-	}
-
-	if (this.currentArmor.waist.name != "None") {
-		for (let i = 0; i < this.waistLevel.children.length; i++) {
-			var disabled = i >= this.currentArmor.waist.defense.length;
-			this.waistLevel.children[i].disabled = disabled;
-		}
-
-		if (this.waistLevel.value >= this.currentArmor.waist.defense.length) {
-			this.waistLevel.value = this.currentArmor.waist.defense.length - 1;
-		}
-	}
-
-	if (this.currentArmor.legs.name != "None") {
-		for (let i = 0; i < this.legsLevel.children.length; i++) {
-			var disabled = i >= this.currentArmor.legs.defense.length;
-			this.legsLevel.children[i].disabled = disabled;
-		}
-
-		if (this.legsLevel.value >= this.currentArmor.legs.defense.length) {
-			this.legsLevel.value = this.currentArmor.legs.defense.length - 1;
-		}
-	}
+	});
 };
 ArmorBuilder.prototype.updateArmorStats = function() {
 	// Reset health to account for any change to the Health skill
@@ -667,6 +623,8 @@ ArmorBuilder.prototype.updateArmorStats = function() {
 	document.getElementById("thunder-res").innerHTML = `<span>${ resistances[2] }</span><span class="true-value"> (${ parseInt(trueResistances[2] * 100) }%)`;
 	document.getElementById("ice-res").innerHTML = `<span>${ resistances[3] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
 	document.getElementById("dragon-res").innerHTML = `<span>${ resistances[4] }</span><span class="true-value"> (${ parseInt(trueResistances[3] * 100) }%)`;
+
+	this.setDecoCounts();
 
 	this.sumMaterialsAndZenny();
 	this.checkGenderMismatch();

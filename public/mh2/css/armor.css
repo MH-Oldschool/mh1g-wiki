@@ -39,6 +39,10 @@ details:first-of-type .hunter-class-cell {
 	display: none;
 }
 
+tr .radio-icon {
+	margin-right: 0.25rem;
+}
+
 .branch-button {
 	position: relative;
 	background: transparent;
@@ -46,7 +50,6 @@ details:first-of-type .hunter-class-cell {
 	border: 0;
 	border-radius: 0;
 	padding: 0 1.5rem 0 0;
-	margin-left: 0.25rem;
 }
 .branch-button::after {
 	content: "";
@@ -69,6 +72,44 @@ details:first-of-type .hunter-class-cell {
 
 .branch { display: none; }
 .branch.open { display: table-row; }
+
+.decoration-label {
+	position: relative;
+	padding-left: 1.125rem;
+	width: 100%;
+}
+.decoration-label:before,
+.decoration-label:after {
+	content: "";
+	position: absolute;
+	border-radius: 100%;
+	top: 50%;
+}
+.decoration-label:before {
+	--size: 0.625rem;
+
+	border: 0.125rem solid;
+	margin-top: calc(var(--size) / -2 - 0.125rem);
+	width: var(--size);
+	height: var(--size);
+	left: 0;
+}
+.decoration-label:after {
+	--size: 0.5rem;
+
+	display: none;
+	background: #3af;
+	margin-top: -0.25rem;
+	width: var(--size);
+	height: var(--size);
+	left: 0.1825rem;
+}
+input[type="radio"]:checked + .decoration-label:after {
+	display: block;
+}
+input:disabled + .decoration-label {
+	opacity: 0.5;
+}
 
 .upgrade-level {
 	text-indent: -1rem;
@@ -165,21 +206,92 @@ details {
 }
 
 .armor-rows-container {
+	--armor_row_h: 1.75rem;
+
 	margin: 0 0 0.375rem;
 }
 .armor-row {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	line-height: 1.75rem;
+	line-height: var(--armor_row_h);
 }
 .armor-icon,
 .armor-name {
 	vertical-align: middle;
 }
-.armor-icon {
-	width: 1.75rem;
+.armor-name {
+	margin-right: 0.25rem;
 }
+.armor-icon {
+	width: var(--armor_row_h);
+}
+
+.armor-rows-container .armor-deco {
+	--icon_size: 0.5rem;
+
+	position: relative;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 1rem;
+	height: var(--armor_row_h);
+	opacity: 0.65;
+	transition: opacity 300ms;
+}
+.armor-rows-container .armor-deco:not(:disabled):hover {
+	opacity: 1;
+}
+.armor-deco:before,
+.armor-deco:after {
+	content: "";
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.armor-deco:disabled:before {
+	background: #ccc;
+	margin-top: -0.0625rem;
+	width: var(--icon_size);
+	height: 0.125rem;
+}
+.armor-deco:not(:disabled):after {
+	border: 0.125rem solid #ccc;
+	border-radius: 100%;
+	margin-top: calc(var(--icon_size) / -2 - 0.125rem);
+	width: var(--icon_size);
+	height: var(--icon_size);
+}
+.armor-deco.blue:not(:disabled):after { background: var(--color_blue) }
+.armor-deco.cyan:not(:disabled):after { background: var(--color_cyan) }
+.armor-deco.gray:not(:disabled):after { background: var(--color_gray) }
+.armor-deco.green:not(:disabled):after { background: var(--color_green) }
+.armor-deco.orange:not(:disabled):after { background: var(--color_orange) }
+.armor-deco.pink:not(:disabled):after { background: var(--color_pink) }
+.armor-deco.purple:not(:disabled):after { background: var(--color_purple) }
+.armor-deco.red:not(:disabled):after { background: var(--color_red) }
+.armor-deco.white:not(:disabled):after { background: var(--color_white) }
+.armor-deco.yellow:not(:disabled):after { background: var(--color_yellow) }
+
+.armor-decos-row {
+	padding-left: 1.5rem;
+	margin: 0;
+}
+
+.deco-icon {
+	--icon_size: 0.75rem;
+
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 100%;
+	margin: 0 0.125rem;
+	width: var(--icon_size);
+	height: var(--icon_size);
+	opacity: 0.65;
+}
+
 .armor-level-label {
 	padding: 0 0.5rem;
 	margin-left: auto;

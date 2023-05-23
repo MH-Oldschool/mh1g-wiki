@@ -1,4 +1,15 @@
 :root {
+	--color_blue: #a5beff;
+	--color_cyan: #9dddf7;
+	--color_gray: #ababab;
+	--color_green: #63bd85;
+	--color_orange: #f69b61;
+	--color_pink: #f8869c;
+	--color_purple: #c6a3ce;
+	--color_red: #e7515a;
+	--color_white: #fff;
+	--color_yellow: #ffd763;
+
 	--font_arial: "Arial", helvetica, sans-serif;
 	--font_nanum: "Nanum Gothic Coding", courier, monospace;
 }
@@ -233,6 +244,17 @@ input:disabled + .checkbox-icon + label {
 .fw-n {
 	font-weight: normal;
 }
+
+.back-blue { background-color: var(--color_blue) }
+.back-cyan { background-color: var(--color_cyan) }
+.back-gray { background-color: var(--color_gray) }
+.back-green { background-color: var(--color_green) }
+.back-orange { background-color: var(--color_orange) }
+.back-pink { background-color: var(--color_pink) }
+.back-purple { background-color: var(--color_purple) }
+.back-red { background-color: var(--color_red) }
+.back-white { background-color: var(--color_white) }
+.back-yellow { background-color: var(--color_yellow) }
 
 .w-auto {
 	width: auto;
