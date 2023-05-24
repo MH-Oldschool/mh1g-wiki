@@ -294,7 +294,7 @@ ArmorBuilder.prototype.calculateSkills = function() {
 			if (window.armorSkills[prop]) {
 				// Clamp the skill index to avoid getting "undefined" as a skill name
 				let skillIndex = 0;
-				if (skillsParsed[prop] <= -25) {
+				if (skillsParsed[prop] <= -20) {
 					skillIndex = 0;
 				}
 				else if (skillsParsed[prop] <= -15) {
@@ -304,6 +304,9 @@ ArmorBuilder.prototype.calculateSkills = function() {
 					skillIndex = 2;
 				}
 				else if (skillsParsed[prop] >= 25) {
+					skillIndex = 6;
+				}
+				else if (skillsParsed[prop] >= 20) {
 					skillIndex = 5;
 				}
 				else if (skillsParsed[prop] >= 15) {
