@@ -311,6 +311,53 @@ ready(() => {
 	});
 	filterBySearch();
 
+	// Only for MHG pieces
+	function doesArmorPieceHaveSkills(armorCategory, index, skills) {
+		// If none are clicked, show all armor
+		if (skills.length == 0) return true;
+
+		var armorPiece = armorDataG[armorCategory][index];
+		if (armorPiece.skills) {
+			for (let i = 0; i < armorPiece.skills.length; i++) {
+				if (skills.includes(armorPiece.skills[i].k)) {
+					return true;
+				}
+			}
+		}
+
+		return false;
+	}
+	var skillCheckboxes = document.getElementsByName("armor_skills_g");
+	function filterByArmorSkills() {
+		var checkedSkills = [];
+
+		for (let i = 0; i < skillCheckboxes.length; i++) {
+			if (skillCheckboxes[i].checked) {
+				checkedSkills.push(skillCheckboxes[i].value);
+			}
+		}
+
+		for (var i = 0; i < headgearGRows.length; i++) {
+			headgearGRows[i].style.display = doesArmorPieceHaveSkills("headgear", i, checkedSkills) ? "" : "none";
+		}
+		for (var i = 0; i < torsoGRows.length; i++) {
+			torsoGRows[i].style.display = doesArmorPieceHaveSkills("torso", i, checkedSkills) ? "" : "none";
+		}
+		for (var i = 0; i < armsGRows.length; i++) {
+			armsGRows[i].style.display = doesArmorPieceHaveSkills("arms", i, checkedSkills) ? "" : "none";
+		}
+		for (var i = 0; i < waistGRows.length; i++) {
+			waistGRows[i].style.display = doesArmorPieceHaveSkills("waist", i, checkedSkills) ? "" : "none";
+		}
+		for (var i = 0; i < legsGRows.length; i++) {
+			legsGRows[i].style.display = doesArmorPieceHaveSkills("legs", i, checkedSkills) ? "" : "none";
+		}
+	}
+	for (let i = 0; i < skillCheckboxes.length; i++) {
+		skillCheckboxes[i].addEventListener("change", filterByArmorSkills);
+	}
+	filterByArmorSkills();
+
 	function showDownloadButtonForUser() {
 		var buttons = {
 			"Mac": document.getElementById("apple-download-button").outerHTML,

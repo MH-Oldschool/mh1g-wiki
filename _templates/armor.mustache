@@ -1,96 +1,115 @@
 {{> head}}
 
-<section class="filters">
-	<div class="filter-column">
-		<div class="filter-buttons mhg">
-			<h3 title="Choose which armor name suffix you prefer">Armor Suffixes:</h3>
-			<input id="suffixes-a" name="suffix" type="radio" value="a"/><label for="suffixes-a" title="Monster Hunter Freedom 1 style">F1</label>
-			<input id="suffixes-b" name="suffix" type="radio" value="b" checked/><label for="suffixes-b" title="Monster Hunter Freedom 2 style">F2</label>
-		</div>
+<details>
+	<summary>
+		<h2>Filters</h2>
+	</summary>
 
-		<div class="filter-buttons">
-			<h3>Gender:</h3>
-			<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">All</label>
-			<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
-			<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
-		</div>
-
-		<div class="filter-buttons">
-			<h3>Armor Class:</h3>
-			<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
-			<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
-			<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
-			<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
-		</div>
-	</div>
-
-	<div class="filter-column">
-		<div class="filter-checks">
-			<h3>Elemental Resistances:</h3>
-			<div>
-				<input id="armor-stat-fire-up" name="armor-stat" type="checkbox" value="f+"/>
-				<label for="armor-stat-fire-up" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>+</span>
-				</label>
-				<input id="armor-stat-water-up" name="armor-stat" type="checkbox" value="w+"/>
-				<label for="armor-stat-water-up" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>+</span>
-				</label>
-				<input id="armor-stat-thunder-up" name="armor-stat" type="checkbox" value="t+"/>
-				<label for="armor-stat-thunder-up" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>+</span>
-				</label>
-				<input id="armor-stat-dragon-up" name="armor-stat" type="checkbox" value="d+"/>
-				<label for="armor-stat-dragon-up" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>+</span>
-				</label>
+	<section class="filters">
+		<div class="filter-column">
+			<div class="filter-buttons mhg">
+				<h3 title="Choose which armor name suffix you prefer">Armor Suffixes:</h3>
+				<input id="suffixes-a" name="suffix" type="radio" value="a"/><label for="suffixes-a" title="Monster Hunter Freedom 1 style">F1</label>
+				<input id="suffixes-b" name="suffix" type="radio" value="b" checked/><label for="suffixes-b" title="Monster Hunter Freedom 2 style">F2</label>
 			</div>
-			<div>
-				<input id="armor-stat-fire-down" name="armor-stat" type="checkbox" value="f-"/>
-				<label for="armor-stat-fire-down" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>-</span>
-				</label>
-				<input id="armor-stat-water-down" name="armor-stat" type="checkbox" value="w-"/>
-				<label for="armor-stat-water-down" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>-</span>
-				</label>
-				<input id="armor-stat-thunder-down" name="armor-stat" type="checkbox" value="t-"/>
-				<label for="armor-stat-thunder-down" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>-</span>
-				</label>
-				<input id="armor-stat-dragon-down" name="armor-stat" type="checkbox" value="d-"/>
-				<label for="armor-stat-dragon-down" class="element-res-label">
-					<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>-</span>
-				</label>
+
+			<div class="filter-buttons">
+				<h3>Gender:</h3>
+				<input id="armor-gender-a" name="armor-gender" type="radio" value="a" checked/><label for="armor-gender-a">All</label>
+				<input id="armor-gender-f" name="armor-gender" type="radio" value="f"/><label for="armor-gender-f">Female</label>
+				<input id="armor-gender-m" name="armor-gender" type="radio" value="m"/><label for="armor-gender-m">Male</label>
 			</div>
-		</div>
 
-		<div id="rank-filters" class="filter-column" style="display:none">
-			<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
-			<label for="low-rank-filter">Low Rank</label>
-
-			<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
-			<label for="high-rank-filter">High Rank</label>
-
-			<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
-			<label for="g-rank-filter" class="mhg">G Rank</label>
+			<div class="filter-buttons">
+				<h3>Armor Class:</h3>
+				<input id="armor-class-a" name="armor-class" type="radio" value="a" checked/><label for="armor-class-a">All</label>
+				<input id="armor-class-b" name="armor-class" type="radio" value="b"/><label for="armor-class-b">Blademaster</label>
+				<input id="armor-class-g" name="armor-class" type="radio" value="g"/><label for="armor-class-g">Gunner</label>
+				<input id="armor-class-e" name="armor-class" type="radio" value="e"/><label for="armor-class-e">Both</label>
+			</div>
 		</div>
 
 		<div class="filter-column">
-			<label for="search">Search: </label>
-			<input id="search" type="text" placeholder="Armor"/>
-		</div>
-	</div>
+			<div class="filter-checks">
+				<h3>Elemental Resistances:</h3>
+				<div>
+					<input id="armor-stat-fire-up" name="armor-stat" type="checkbox" value="f+"/>
+					<label for="armor-stat-fire-up" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>+</span>
+					</label>
+					<input id="armor-stat-water-up" name="armor-stat" type="checkbox" value="w+"/>
+					<label for="armor-stat-water-up" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>+</span>
+					</label>
+					<input id="armor-stat-thunder-up" name="armor-stat" type="checkbox" value="t+"/>
+					<label for="armor-stat-thunder-up" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>+</span>
+					</label>
+					<input id="armor-stat-dragon-up" name="armor-stat" type="checkbox" value="d+"/>
+					<label for="armor-stat-dragon-up" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>+</span>
+					</label>
+				</div>
+				<div>
+					<input id="armor-stat-fire-down" name="armor-stat" type="checkbox" value="f-"/>
+					<label for="armor-stat-fire-down" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/fire.png" alt="Fire"/><span>-</span>
+					</label>
+					<input id="armor-stat-water-down" name="armor-stat" type="checkbox" value="w-"/>
+					<label for="armor-stat-water-down" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/water.png" alt="Water"/><span>-</span>
+					</label>
+					<input id="armor-stat-thunder-down" name="armor-stat" type="checkbox" value="t-"/>
+					<label for="armor-stat-thunder-down" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/thunder.png" alt="Thunder"/><span>-</span>
+					</label>
+					<input id="armor-stat-dragon-down" name="armor-stat" type="checkbox" value="d-"/>
+					<label for="armor-stat-dragon-down" class="element-res-label">
+						<img class="attribute-icon" src="images/attributes/dragon.png" alt="Dragon"/><span>-</span>
+					</label>
+				</div>
+			</div>
 
-	<div class="filter-column toggle-everything-container">
-		<button id="popup-show" class="mh1">See Skilled Armor Sets</button>
+			<div id="rank-filters" class="filter-column" style="display:none">
+				<input id="low-rank-filter" type="checkbox" name="rank_filter" value="0" checked/>
+				<label for="low-rank-filter">Low Rank</label>
 
-		<div class="filter-checks">
-			<input id="toggle-everything" type="checkbox"/>
-			<label for="toggle-everything">Show Everything</label>
+				<input id="high-rank-filter" type="checkbox" name="rank_filter" value="1" checked/>
+				<label for="high-rank-filter">High Rank</label>
+
+				<input id="g-rank-filter" type="checkbox" name="rank_filter" value="2" checked/>
+				<label for="g-rank-filter" class="mhg">G Rank</label>
+			</div>
+
+			<div class="filter-column">
+				<label for="search">Search: </label>
+				<input id="search" type="text" placeholder="Armor"/>
+			</div>
 		</div>
-	</div>
-</section>
+
+		<div class="filter-column toggle-everything-container">
+			<button id="popup-show" class="mh1">See Skilled Armor Sets</button>
+
+			<div class="filter-checks">
+				<input id="toggle-everything" type="checkbox"/>
+				<label for="toggle-everything">Show Everything</label>
+			</div>
+		</div>
+
+		<div class="filter-column mhg">
+			<div class="skill-filters">
+				{{#gSkills}}
+					{{#values}}
+						<label>
+							<input type="checkbox" name="armor_skills_g" value="{{.}}"/>
+							<span class="checkbox-icon"></span> <span class="va-m">{{.}}</span>
+						</label>
+					{{/values}}
+				{{/gSkills}}
+			</div>
+		</div>
+	</section>
+</details>
 
 <details class="armor-class-container">
 	<summary><h2><span class="white-icon helm-icon"></span> Headgear</h2></summary>

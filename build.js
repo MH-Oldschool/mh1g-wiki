@@ -841,12 +841,12 @@ function generateItemData2JS(weaponData, armorData) {
 	}
 }
 
-function buildPage(pageName, partials) {
+function buildPage(pageName, partials, additions) {
 	var fileNames = [
 		path.join(__dirname, "_partials/head.mustache"),
 		path.join(__dirname, "_partials/foot.mustache"),
-		path.join(__dirname, "_templates/" + pageName + ".mustache"),
-		path.join(__dirname, "_views/" + pageName + ".json")
+		path.join(__dirname, "_templates/", pageName + ".mustache"),
+		path.join(__dirname, "_views/", pageName + ".json")
 	];
 	if (partials) {
 		fileNames = fileNames.concat(partials.map((name) => path.join(__dirname, "_partials", name + ".mustache")));
@@ -863,6 +863,19 @@ function buildPage(pageName, partials) {
 
 		try {
 			var view = JSON.parse(files[3]);
+			if (additions) {
+				additions.forEach(addition => {
+					var filepath = path.join(__dirname, "_views/", addition.filename + ".json");
+					var rawFile = fs.readFileSync(filepath, "utf8");
+					try {
+						var json = JSON.parse(rawFile);
+						addition.keys.forEach(key => view[key] = json[key]);
+					}
+					catch (err) {
+						console.error("Unable to parse JSON file:", filepath);
+					}
+				});
+			}
 			renderAndWriteToFile(pageName, files[2], view, partialFiles);
 		}
 		catch (err) {
@@ -870,12 +883,12 @@ function buildPage(pageName, partials) {
 		}
 	});
 }
-function buildPage2(pageName, partials) {
+function buildPage2(pageName, partials, additions) {
 	var fileNames = [
 		path.join(__dirname, "_partials/mh2/head.mustache"),
 		path.join(__dirname, "_partials/mh2/foot.mustache"),
-		path.join(__dirname, "_templates/" + pageName + ".mustache"),
-		path.join(__dirname, "_views/" + pageName + ".json")
+		path.join(__dirname, "_templates/", pageName + ".mustache"),
+		path.join(__dirname, "_views/", pageName + ".json")
 	];
 	if (partials) {
 		fileNames = fileNames.concat(partials.map((name) => path.join(__dirname, "_partials", name + ".mustache")));
@@ -892,6 +905,19 @@ function buildPage2(pageName, partials) {
 
 		try {
 			var view = JSON.parse(files[3]);
+			if (additions) {
+				additions.forEach(addition => {
+					var filepath = path.join(__dirname, "_views/", addition.filename + ".json");
+					var rawFile = fs.readFileSync(filepath, "utf8");
+					try {
+						var json = JSON.parse(rawFile);
+						addition.keys.forEach(key => view[key] = json[key]);
+					}
+					catch (err) {
+						console.error("Unable to parse JSON file:", filepath);
+					}
+				});
+			}
 			renderAndWriteToFile(pageName, files[2], view, partialFiles);
 		}
 		catch (err) {
@@ -910,7 +936,7 @@ generateItemData2JS(weaponData2, armorData2);
 
 buildPage("index");
 buildPage("weapons", ["material","material_row","blademaster_weapon_group","bowgun_1","bowgun_g","motion_value_rows"]);
-buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row"]);
+buildPage("armor", ["headgear_row","torso_row","arms_row","waist_row","legs_row"], [ { filename: "armor_skills", keys: [ "gSkills" ] } ]);
 buildPage("bestiary");
 buildPage("armor_skills");
 buildPage("items");
@@ -921,7 +947,7 @@ buildPage("roulette");
 
 buildPage2("mh2/index");
 buildPage2("mh2/weapons", ["material","material_row","mh2/bowgun","motion_value_rows"]);
-buildPage2("mh2/armor");
+buildPage2("mh2/armor", [], [ { filename: "mh2/armor_skills", keys: [ "armorSkills" ] } ]);
 buildPage2("mh2/armor_skills");
 buildPage2("mh2/items");
 buildPage2("mh2/bestiary");

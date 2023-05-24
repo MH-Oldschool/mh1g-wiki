@@ -681,7 +681,7 @@ ArmorBuilder.SKILL_SETS = [
 ArmorBuilder.SKILL_LEVELS = {
 	"Health": [ -30,-20,-10,10,20,30 ], // Be sure to handle these special cases
 	"Defense": [ -20,-15,-10,10,15,20 ], // Be sure to handle these special cases
-	"Element Res Up": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
+	"Element Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
 	"Fire Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
 	"Water Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
 	"Thunder Resistance": [ -10,-5,-3,3,5,10 ], // Be sure to handle these special cases
@@ -987,7 +987,7 @@ ArmorBuilder.prototype.calculateSkills = function() {
 							this.defenseUp = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							skillName = "Defense " + (this.defenseUp > 0 ? "+" : "") + this.defenseUp.toString();
 						}
-						else if (prop == "Element Res Up") {
+						else if (prop == "Element Resistance") {
 							let elementBonus = ArmorBuilder.SKILL_LEVELS[prop][skillIndex];
 							this.resistancesUp[0] = elementBonus;
 							this.resistancesUp[1] = elementBonus;

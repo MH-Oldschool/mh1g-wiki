@@ -132,6 +132,71 @@ ready(() => {
 	});
 	filterBySearch();
 
+	function doesArmorPieceHaveSkills(armorCategory, index, skills) {
+		var armorPiece = window.armorData[armorCategory][index];
+		if (armorPiece.skills) {
+			for (let i = 0; i < armorPiece.skills.length; i++) {
+				if (skills.includes(armorPiece.skills[i].k)) {
+					return true;
+				}
+			}
+		}
+
+		return false;
+	}
+	var skillCheckboxes = document.getElementsByName("armor_skills");
+	function filterByArmorSkills() {
+		var checkedSkills = [];
+
+		for (let i = 0; i < skillCheckboxes.length; i++) {
+			if (skillCheckboxes[i].checked) {
+				checkedSkills.push(skillCheckboxes[i].value);
+			}
+		}
+
+		var showAll = checkedSkills.length == 0;
+
+		for (var i = 0; i < headgearRows.length; i++) {
+			let show = doesArmorPieceHaveSkills("Headgear", i, checkedSkills);
+			headgearRows[i].style.display = show || showAll ? "" : "none";
+
+			if (showAll) headgearRows[i].classList.remove("open");
+			else if (show) headgearRows[i].classList.add("open");
+		}
+		for (var i = 0; i < torsoRows.length; i++) {
+			let show = doesArmorPieceHaveSkills("Torso", i, checkedSkills);
+			torsoRows[i].style.display = show ? "" : "none";
+
+			if (showAll) torsoRows[i].classList.remove("open");
+			else if (show) torsoRows[i].classList.add("open");
+		}
+		for (var i = 0; i < armsRows.length; i++) {
+			let show = doesArmorPieceHaveSkills("Arms", i, checkedSkills);
+			armsRows[i].style.display = show ? "" : "none";
+
+			if (showAll) armsRows[i].classList.remove("open");
+			else if (show) armsRows[i].classList.add("open");
+		}
+		for (var i = 0; i < waistRows.length; i++) {
+			let show = doesArmorPieceHaveSkills("Waist", i, checkedSkills);
+			waistRows[i].style.display = show ? "" : "none";
+
+			if (showAll) waistRows[i].classList.remove("open");
+			else if (show) waistRows[i].classList.add("open");
+		}
+		for (var i = 0; i < legsRows.length; i++) {
+			let show = doesArmorPieceHaveSkills("Legs", i, checkedSkills);
+			legsRows[i].style.display = show ? "" : "none";
+
+			if (showAll) legsRows[i].classList.remove("open");
+			else if (show) legsRows[i].classList.add("open");
+		}
+	}
+	for (let i = 0; i < skillCheckboxes.length; i++) {
+		skillCheckboxes[i].addEventListener("change", filterByArmorSkills);
+	}
+	filterByArmorSkills();
+
 	function toggleEverything(toggleOn) {
 		window.eachElementByClassName("armor-class-container", (element) => {
 			element.open = toggleOn;

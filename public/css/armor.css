@@ -25,6 +25,13 @@ body {
 	border-color: #e0e0e0;
 }
 
+.skill-filters {
+	padding: 0.5rem 0;
+}
+.skill-filters label {
+	display: block;
+}
+
 .toggle-everything-container .filter-checks {
 	padding: 0.5rem 0;
 }
@@ -253,8 +260,25 @@ body.show-1 #armor-builder {
 	.toggle-everything-container {
 		padding: 0 0.5rem;
 	}
+
+	.skill-filters {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.skill-filters label {
+		display: block;
+		box-sizing: border-box;
+		text-indent: -1rem;
+		padding-left: 1rem;
+		width: 33%;
+	}
 }
 @media screen and (min-width: 64rem) {
+	.skill-filters label {
+		width: 25%;
+	}
+
 	.download-container {
 		display: inline-block;
 		padding: 0 1rem;
