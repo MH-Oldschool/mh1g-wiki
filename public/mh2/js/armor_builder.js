@@ -6,27 +6,31 @@ function ArmorBuilder() {
 	this.resistancesUp = [0,0,0,0,0];
 
 	this.currentArmor = {};
+	this.weaponDecos = [{}, {}, {}];
 
 	this.decoButtons = {
 		headgear: document.querySelectorAll(".headgear-deco"),
 		torso: document.querySelectorAll(".torso-deco"),
 		arms: document.querySelectorAll(".arms-deco"),
 		waist: document.querySelectorAll(".waist-deco"),
-		legs: document.querySelectorAll(".legs-deco")
+		legs: document.querySelectorAll(".legs-deco"),
+		weapon: document.querySelectorAll(".weapon-deco")
 	};
 	this.decoIndices = {
 		headgear: document.querySelectorAll(".headgear-deco-index"),
 		torso: document.querySelectorAll(".torso-deco-index"),
 		arms: document.querySelectorAll(".arms-deco-index"),
 		waist: document.querySelectorAll(".waist-deco-index"),
-		legs: document.querySelectorAll(".legs-deco-index")
+		legs: document.querySelectorAll(".legs-deco-index"),
+		weapon: document.querySelectorAll(".weapon-deco-index"),
 	};
 	this.armorDecosRows = {
 		headgear: document.getElementById("headgear-decos-row"),
 		torso: document.getElementById("torso-decos-row"),
 		arms: document.getElementById("arms-decos-row"),
 		waist: document.getElementById("waist-decos-row"),
-		legs: document.getElementById("legs-decos-row")
+		legs: document.getElementById("legs-decos-row"),
+		weapon: document.getElementById("weapon-decos-row")
 	}
 
 	this.armorLevels = {
@@ -84,15 +88,11 @@ function ArmorBuilder() {
 		}
 	}
 
-	for (let prop in this.decoButtons) {
-		if (this.decoButtons.hasOwnProperty(prop)) {
-			this.decoButtons[prop].forEach(radio => radio.addEventListener("click", handleArmorDecoClick));
-		}
-	}
-
 	this.resetArmor();
 
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
+		this.decoButtons[armorCategory].forEach(radio => radio.addEventListener("click", handleArmorDecoClick));
+
 		for (let i = 0; i < armorRadios[armorCategory].length; i++) {
 			armorRadios[armorCategory][i].addEventListener("click", (event) => {
 				this.setArmorPiece(armorCategory, event.target.value);
@@ -132,6 +132,20 @@ function ArmorBuilder() {
 			this.setArmorPiece(armorCategory, this.currentArmor[armorCategory].name);
 		}
 	});
+
+	// Weapon decos
+	this.decoButtons.weapon.forEach(radio => radio.addEventListener("click", handleArmorDecoClick));
+	var hasDecos = false;
+	this.decoIndices.weapon.forEach((decoIndex, slotIndex) => {
+		if (decoIndex.value != 0) {
+			hasDecos = true;
+			var deco = this.decorations.find(deco => deco.index == decoIndex.value);
+			this.setDecoInSlot("weapon", slotIndex, deco);
+		}
+	});
+	if (hasDecos) {
+		this.updateDecoRows("weapon");
+	}
 
 	this.updateArmorStats();
 }
@@ -265,6 +279,12 @@ ArmorBuilder.prototype.calculateSkills = function() {
 		this.currentArmor.legs.skills.forEach(parseSkills);
 		this.currentArmor.legs.decos.forEach(addDecoSkills);
 	}
+
+	this.weaponDecos.forEach(deco => {
+		if (deco.skills) {
+			deco.skills.forEach(parseSkills);
+		}
+	});
 
 	for (let prop in skillsParsed) {
 		if (skillsParsed.hasOwnProperty(prop)) {
@@ -419,6 +439,7 @@ ArmorBuilder.prototype.setArmorPiece = function(armorCategory, armorName) {
 };
 ArmorBuilder.prototype.resetArmor = function() {
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => this.setArmorPiece(armorCategory, "None"));
+	this.weaponDecos = [{}, {}, {}];
 };
 ArmorBuilder.prototype.getOriginArmor = function(armorPiece, armorCategory) {
 	var uppercaseArmorCategory = armorCategory[0].toUpperCase() + armorCategory.substring(1);
@@ -475,13 +496,18 @@ ArmorBuilder.prototype.setDecoCounts = function() {
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => this.setPieceDecoCount(armorCategory));
 };
 ArmorBuilder.prototype.getSlotCount = function(armorCategory) {
+	if (armorCategory == "weapon") {
+		return 3;
+	}
 	return this.currentArmor[armorCategory].slots[this.armorLevels[armorCategory].value];
 };
 ArmorBuilder.prototype.getDecoBaseSlotAtIndex = function(armorCategory, slotIndex) {
 	var slotCount = this.getSlotCount(armorCategory);
+	var decos = armorCategory == "weapon" ? this.weaponDecos : this.currentArmor[armorCategory].decos;
+
 	for (let i = 0; i < slotCount; i++) {
-		if (this.currentArmor[armorCategory].decos[i] && this.currentArmor[armorCategory].decos[i].slots) {
-			var decoSlotCount = this.currentArmor[armorCategory].decos[i].slots;
+		if (decos[i] && decos[i].slots) {
+			var decoSlotCount = decos[i].slots;
 			if (i == slotIndex || i + decoSlotCount == slotIndex + 1) {
 				return i;
 			}
@@ -492,7 +518,9 @@ ArmorBuilder.prototype.getDecoBaseSlotAtIndex = function(armorCategory, slotInde
 };
 ArmorBuilder.prototype.updateDecoRows = function(armorCategory) {
 	var armorRows = [];
-	this.currentArmor[armorCategory].decos.forEach(deco => {
+	var decos = armorCategory == "weapon" ? this.weaponDecos : this.currentArmor[armorCategory].decos;
+
+	decos.forEach(deco => {
 		if (deco.slots) {
 			var slotIcons = [];
 			for (let i = 0; i < deco.slots; i++) {
@@ -510,18 +538,27 @@ ArmorBuilder.prototype.updateDecoRows = function(armorCategory) {
 	this.armorDecosRows[armorCategory].innerHTML = armorRows.join("");
 };
 ArmorBuilder.prototype.setDecoInSlot = function(armorCategory, slotIndex, deco) {
+	var isWeapon = armorCategory == "weapon";
+	var decos = isWeapon ? this.weaponDecos : this.currentArmor[armorCategory].decos;
+
 	// Only slot the deco if it fits
 	var slotCount = this.getSlotCount(armorCategory);
 	if (slotIndex + deco.slots <= slotCount) {
 		// Unslot any gems this would overlap with
 		for (let i = 0; i < slotCount; i++) {
-			var decoSlots = this.currentArmor[armorCategory].decos[i].slots;
+			var decoSlots = decos[i].slots;
 			if (decoSlots && i <= slotIndex + deco.slots - 1 && i + decoSlots - 1 >= slotIndex) {
 				this.unsetDecoInSlot(armorCategory, i);
 			}
 		}
 
-		this.currentArmor[armorCategory].decos[slotIndex] = deco;
+		if (isWeapon) {
+			this.weaponDecos[slotIndex] = deco;
+		}
+		else {
+			this.currentArmor[armorCategory].decos[slotIndex] = deco;
+		}
+
 		for (let i = 0; i < deco.slots; i++) {
 			this.decoButtons[armorCategory][slotIndex + i].classList.add(deco.color);
 		}
@@ -541,7 +578,8 @@ ArmorBuilder.prototype.unsetAllArmorDecos = function(armorCategory) {
 	this.updateDecoRows(armorCategory);
 };
 ArmorBuilder.prototype.unsetDecoInSlot = function(armorCategory, slotIndex) {
-	var decoSlots = this.currentArmor[armorCategory].decos[slotIndex].slots;
+	var isWeapon = armorCategory == "weapon";
+	var decoSlots = isWeapon ? this.weaponDecos[slotIndex].slots : this.currentArmor[armorCategory].decos[slotIndex].slots;
 	if (!decoSlots > 0) {
 		decoSlots = 1;
 	}
@@ -550,7 +588,12 @@ ArmorBuilder.prototype.unsetDecoInSlot = function(armorCategory, slotIndex) {
 		this.decoIndices[armorCategory][slotIndex].value = 0;
 	}
 
-	this.currentArmor[armorCategory].decos[slotIndex] = {};
+	if (isWeapon) {
+		this.weaponDecos[slotIndex] = {};
+	}
+	else {
+		this.currentArmor[armorCategory].decos[slotIndex] = {};
+	}
 };
 ArmorBuilder.prototype.sumMaterialsAndZenny = function() {
 	// Sum up zenny cost and all required materials
