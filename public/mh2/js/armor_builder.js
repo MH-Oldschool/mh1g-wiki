@@ -6,7 +6,6 @@ function ArmorBuilder() {
 	this.resistancesUp = [0,0,0,0,0];
 
 	this.currentArmor = {};
-	this.resetArmor();
 
 	this.decoButtons = {
 		headgear: document.querySelectorAll(".headgear-deco"),
@@ -91,6 +90,8 @@ function ArmorBuilder() {
 		}
 	}
 
+	this.resetArmor();
+
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
 		for (let i = 0; i < armorRadios[armorCategory].length; i++) {
 			armorRadios[armorCategory][i].addEventListener("click", (event) => {
@@ -99,7 +100,10 @@ function ArmorBuilder() {
 			});
 		}
 
-		this.armorLevels[armorCategory].addEventListener("change", () => self.updateArmorStats());
+		this.armorLevels[armorCategory].addEventListener("change", () => {
+			self.unsetAllArmorDecos(armorCategory);
+			self.updateArmorStats();
+		});
 
 		// Find selected armor if reloading page, or set the piece to None
 		var armorFound = false;
@@ -368,8 +372,8 @@ ArmorBuilder.prototype.checkGenderMismatch = function() {
 	var malePartCount = 0;
 
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
-		if (this.currentArmor[armorCategory].gender == "Female") { femalePartCount++ }
-		else if (this.currentArmor[armorCategory].gender == "Male") { malePartCount++ }
+		if (this.currentArmor[armorCategory].gender == "Female") femalePartCount++;
+		else if (this.currentArmor[armorCategory].gender == "Male") malePartCount++;
 	});
 
 	var gendersMixed = (femalePartCount !== 0) && (malePartCount !== 0);
@@ -385,8 +389,8 @@ ArmorBuilder.prototype.checkClassMismatch = function() {
 	var gunnerPartCount = 0;
 
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
-		if (this.currentArmor[armorCategory].class == "Blademaster") { blademasterPartCount++ }
-		else if (this.currentArmor[armorCategory].class == "Gunner") { gunnerPartCount++ }
+		if (this.currentArmor[armorCategory].class == "Blademaster") blademasterPartCount++;
+		else if (this.currentArmor[armorCategory].class == "Gunner") gunnerPartCount++;
 	});
 
 	var classesMixed = (blademasterPartCount !== 0) && (gunnerPartCount !== 0);
@@ -410,7 +414,7 @@ ArmorBuilder.prototype.setArmorPiece = function(armorCategory, armorName) {
 	if (!armorPiece) return false;
 
 	this.currentArmor[armorCategory] = armorPiece;
-	this.currentArmor[armorCategory].decos = [{}, {}, {}];
+	this.unsetAllArmorDecos(armorCategory);
 	armorElement.innerText = this.currentArmor[armorCategory].name;
 };
 ArmorBuilder.prototype.resetArmor = function() {
@@ -525,8 +529,22 @@ ArmorBuilder.prototype.setDecoInSlot = function(armorCategory, slotIndex, deco) 
 		this.decoIndices[armorCategory][slotIndex].value = deco.index;
 	}
 };
+ArmorBuilder.prototype.unsetAllArmorDecos = function(armorCategory) {
+	if (!this.currentArmor[armorCategory].decos) {
+		this.currentArmor[armorCategory].decos = [{}, {}, {}];
+	}
+
+	for (let i = 0; i < this.currentArmor[armorCategory].decos.length; i++) {
+		this.unsetDecoInSlot(armorCategory, i);
+	}
+
+	this.updateDecoRows(armorCategory);
+};
 ArmorBuilder.prototype.unsetDecoInSlot = function(armorCategory, slotIndex) {
-	var decoSlots = this.currentArmor[armorCategory].decos[slotIndex].slots
+	var decoSlots = this.currentArmor[armorCategory].decos[slotIndex].slots;
+	if (!decoSlots > 0) {
+		decoSlots = 1;
+	}
 	for (let i = 0; i < decoSlots; i++) {
 		this.decoButtons[armorCategory][slotIndex + i].classList.remove("blue","cyan","gray","green","purple","red","white","yellow");
 		this.decoIndices[armorCategory][slotIndex].value = 0;
