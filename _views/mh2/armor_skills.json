@@ -546,7 +546,7 @@
 		{
 			"name":"Silence","japanese":"声帯",
 			"desc":"Reduce the duration of, or negate, Silence status.<span class=\"details\"> Also reduce the duration of, or negate, maximum stamina loss from Chameleos's attacks.</span>",
-			"stages":["","","","Silence Doubled","Silence Halved","",""],
+			"stages":["","","","Silence Halved","Silence Negated","",""],
 			"stagesFormatted":[
 				{"points":"+10","name":"Silence Halved"},
 				{"points":"+15","name":"Silence Negated"}
