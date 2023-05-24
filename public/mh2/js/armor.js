@@ -165,28 +165,28 @@ ready(() => {
 		}
 		for (var i = 0; i < torsoRows.length; i++) {
 			let show = doesArmorPieceHaveSkills("Torso", i, checkedSkills);
-			torsoRows[i].style.display = show ? "" : "none";
+			torsoRows[i].style.display = show || showAll ? "" : "none";
 
 			if (showAll) torsoRows[i].classList.remove("open");
 			else if (show) torsoRows[i].classList.add("open");
 		}
 		for (var i = 0; i < armsRows.length; i++) {
 			let show = doesArmorPieceHaveSkills("Arms", i, checkedSkills);
-			armsRows[i].style.display = show ? "" : "none";
+			armsRows[i].style.display = show || showAll ? "" : "none";
 
 			if (showAll) armsRows[i].classList.remove("open");
 			else if (show) armsRows[i].classList.add("open");
 		}
 		for (var i = 0; i < waistRows.length; i++) {
 			let show = doesArmorPieceHaveSkills("Waist", i, checkedSkills);
-			waistRows[i].style.display = show ? "" : "none";
+			waistRows[i].style.display = show || showAll ? "" : "none";
 
 			if (showAll) waistRows[i].classList.remove("open");
 			else if (show) waistRows[i].classList.add("open");
 		}
 		for (var i = 0; i < legsRows.length; i++) {
 			let show = doesArmorPieceHaveSkills("Legs", i, checkedSkills);
-			legsRows[i].style.display = show ? "" : "none";
+			legsRows[i].style.display = show || showAll ? "" : "none";
 
 			if (showAll) legsRows[i].classList.remove("open");
 			else if (show) legsRows[i].classList.add("open");
