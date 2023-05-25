@@ -106,25 +106,46 @@ ready(() => {
 
 	var searchInput = document.getElementById("search");
 	function doesArmorPieceContainTerm(armorData, category, index, searchTerm) {
-		return searchTerm.length === 0 || armorData[category][index].name.toLowerCase().indexOf(searchTerm) !== -1;
+		return armorData[category][index].name.toLowerCase().indexOf(searchTerm) !== -1;
 	}
 	function filterBySearch() {
 		var searchTerm = searchInput.value.toLowerCase();
+		var showAll = searchTerm.length == 0;
 
 		for (var i = 0; i < headgearRows.length; i++) {
-			headgearRows[i].style.display = doesArmorPieceContainTerm(window.armorData, "Headgear", i, searchTerm) ? "" : "none";
+			let show = doesArmorPieceContainTerm(window.armorData, "Headgear", i, searchTerm);
+			headgearRows[i].style.display = show || showAll ? "" : "none"
+
+			if (showAll) headgearRows[i].classList.remove("open");
+			else if (show) headgearRows[i].classList.add("open");
 		}
 		for (var i = 0; i < torsoRows.length; i++) {
-			torsoRows[i].style.display = doesArmorPieceContainTerm(window.armorData, "Torso", i, searchTerm) ? "" : "none";
+			let show = doesArmorPieceContainTerm(window.armorData, "Torso", i, searchTerm);
+			torsoRows[i].style.display = show || showAll ? "" : "none"
+
+			if (showAll) torsoRows[i].classList.remove("open");
+			else if (show) torsoRows[i].classList.add("open");
 		}
 		for (var i = 0; i < armsRows.length; i++) {
-			armsRows[i].style.display = doesArmorPieceContainTerm(window.armorData, "Arms", i, searchTerm) ? "" : "none";
+			let show = doesArmorPieceContainTerm(window.armorData, "Arms", i, searchTerm);
+			armsRows[i].style.display = show || showAll ? "" : "none"
+
+			if (showAll) armsRows[i].classList.remove("open");
+			else if (show) armsRows[i].classList.add("open");
 		}
 		for (var i = 0; i < waistRows.length; i++) {
-			waistRows[i].style.display = doesArmorPieceContainTerm(window.armorData, "Waist", i, searchTerm) ? "" : "none";
+			let show = doesArmorPieceContainTerm(window.armorData, "Waist", i, searchTerm);
+			waistRows[i].style.display = show || showAll ? "" : "none"
+
+			if (showAll) waistRows[i].classList.remove("open");
+			else if (show) waistRows[i].classList.add("open");
 		}
 		for (var i = 0; i < legsRows.length; i++) {
-			legsRows[i].style.display = doesArmorPieceContainTerm(window.armorData, "Legs", i, searchTerm) ? "" : "none";
+			let show = doesArmorPieceContainTerm(window.armorData, "Legs", i, searchTerm);
+			legsRows[i].style.display = show || showAll ? "" : "none"
+
+			if (showAll) legsRows[i].classList.remove("open");
+			else if (show) legsRows[i].classList.add("open");
 		}
 	}
 	searchInput.addEventListener("keyup", (event) => {
