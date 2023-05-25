@@ -10025,5 +10025,370 @@
 			"goodMood":{"name":"Giant Bone","icon":"white-icon bone-icon","percent":1},
 			"badMood":{"name":"Sap Plant","icon":"white-icon herb-icon","percent":1}
 		}
+	],
+	"makaRecipes":[
+		{
+			"item":"Herb","itemIcon":"green-icon herb-icon",
+			"results":[
+				{"name":"Herb","icon":"green-icon herb-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Antidote Herb","itemIcon":"blue-icon herb-icon",
+			"results":[
+				{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+				{"name":"Antidote","icon":"blue-icon jar-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Potion","itemIcon":"green-icon jar-icon",
+			"results":[
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Mega Potion","itemIcon":"green-icon jar-icon",
+			"results":[
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Mega Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Mega Armorskin","icon":"orange-icon jar-icon"},
+				{"name":"Max Potion","icon":"yellow-icon powder-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Nutrients","itemIcon":"cyan-icon jar-icon",
+			"results":[
+				{"name":"Nutrients","icon":"cyan-icon jar-icon"},
+				{"name":"Nutrients","icon":"cyan-icon jar-icon"},
+				{"name":"Mega Nutrients","icon":"cyan-icon jar-icon"},
+				{"name":"Mega Nutrients","icon":"cyan-icon jar-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"First-aid Med","itemIcon":"green-icon jar-icon",
+			"results":[
+				{"name":"First-aid Med","icon":"green-icon jar-icon"},
+				{"name":"First-aid Med","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"}
+			]
+		},
+		{
+			"item":"Ration","itemIcon":"orange-icon meat-icon edible-icon",
+			"results":[
+				{"name":"Ration","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Gourmet Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Gourmet Steak","icon":"orange-icon meat-icon edible-icon"}
+			]
+		},
+		{
+			"item":"Antidote","itemIcon":"blue-icon jar-icon",
+			"results":[
+				{"name":"Antidote","icon":"blue-icon jar-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Herbal Medicine","itemIcon":"white-icon powder-icon",
+			"results":[
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Mega Nutrients","icon":"cyan-icon jar-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Herb","icon":"green-icon herb-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Power Juice","itemIcon":"yellow-icon jar-icon",
+			"results":[
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Mega Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Mega Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Herb","icon":"green-icon herb-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Might Pill","itemIcon":"red-icon powder-icon",
+			"results":[
+				{"name":"Might Pill","icon":"red-icon powder-icon"},
+				{"name":"Might Pill","icon":"red-icon powder-icon"},
+				{"name":"Might Pill","icon":"red-icon powder-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Mega Juice","icon":"yellow-icon jar-icon"}
+			]
+		},
+		{
+			"item":"Adamant Pill","itemIcon":"orange-icon powder-icon",
+			"results":[
+				{"name":"Adamant Pill","icon":"orange-icon powder-icon"},
+				{"name":"Adamant Pill","icon":"orange-icon powder-icon"},
+				{"name":"Adamant Pill","icon":"orange-icon powder-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Armorskin","icon":"orange-icon jar-icon"}
+			]
+		},
+		{
+			"item":"Might Seed","itemIcon":"red-icon seed-icon edible-icon",
+			"results":[
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Armorskin","icon":"orange-icon jar-icon"}
+			]
+		},
+		{
+			"item":"Adamant Seed","itemIcon":"orange-icon seed-icon edible-icon",
+			"results":[
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Armorskin","icon":"orange-icon jar-icon"},
+				{"name":"Armorskin","icon":"orange-icon jar-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"}
+			]
+		},
+		{
+			"item":"Rare Steak","itemIcon":"orange-icon meat-icon edible-icon",
+			"results":[
+				{"name":"Rare Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Burnt Meat","itemIcon":"gray-icon meat-icon edible-icon",
+			"results":[
+				{"name":"Burnt Meat","icon":"gray-icon meat-icon edible-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Power Juice","icon":"yellow-icon jar-icon"},
+				{"name":"Well-Done Steak","icon":"orange-icon meat-icon edible-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Unique Mushroom","itemIcon":"white-icon mushroom-icon",
+			"results":[
+				{"name":"Unique Mushroom","icon":"white-icon mushroom-icon"},
+				{"name":"Unique Mushroom","icon":"white-icon mushroom-icon"},
+				{"name":"Ripened Mushroom","icon":"yellow-icon mushroom-icon"},
+				{"name":"Ripened Mushroom","icon":"yellow-icon mushroom-icon"},
+				{"name":"Ripened Mushroom","icon":"yellow-icon mushroom-icon"},
+				{"name":"Ripened Mushroom","icon":"yellow-icon mushroom-icon"}
+			]
+		},
+		{
+			"item":"Choice Mushroom","itemIcon":"white-icon mushroom-icon",
+			"results":[
+				{"name":"Choice Mushroom","icon":"white-icon mushroom-icon"},
+				{"name":"Matsutake","icon":"yellow-icon mushroom-icon"},
+				{"name":"Matsutake","icon":"yellow-icon mushroom-icon"},
+				{"name":"Matsutake","icon":"yellow-icon mushroom-icon"},
+				{"name":"Matsutake","icon":"yellow-icon mushroom-icon"},
+				{"name":"Matsutake","icon":"yellow-icon mushroom-icon"}
+			]
+		},
+		{
+			"item":"Cactus Flower","itemIcon":"pink-icon herb-icon",
+			"results":[
+				{"name":"Cactus Flower","icon":"pink-icon herb-icon"},
+				{"name":"Blooming Cactus","icon":"green-icon herb-icon"},
+				{"name":"Blooming Cactus","icon":"green-icon herb-icon"},
+				{"name":"Blooming Cactus","icon":"green-icon herb-icon"},
+				{"name":"Blooming Cactus","icon":"green-icon herb-icon"},
+				{"name":"Blooming Cactus","icon":"green-icon herb-icon"}
+			]
+		},
+		{
+			"item":"Khezu Whelp","itemIcon":"gray-icon creature-icon",
+			"results":[
+				{"name":"Tainted Meat","icon":"yellow-icon meat-icon"},
+				{"name":"Pickled Khezu","icon":"white-icon meat-icon"},
+				{"name":"Pickled Khezu","icon":"white-icon meat-icon"},
+				{"name":"Pickled Khezu","icon":"white-icon meat-icon"},
+				{"name":"Pickled Khezu","icon":"white-icon meat-icon"},
+				{"name":"Pickled Khezu","icon":"white-icon meat-icon"}
+			]
+		},
+		{
+			"item":"War Wheat","itemIcon":"orange-icon seed-icon",
+			"results":[
+				{"name":"War Wheat","icon":"orange-icon seed-icon"},
+				{"name":"Hardtack","icon":"yellow-icon seed-icon"},
+				{"name":"Hardtack","icon":"yellow-icon seed-icon"},
+				{"name":"Hardtack","icon":"yellow-icon seed-icon"},
+				{"name":"Hardtack","icon":"yellow-icon seed-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Red Oil","itemIcon":"red-icon jar-icon",
+			"results":[
+				{"name":"Red Oil","icon":"red-icon jar-icon"},
+				{"name":"Powerlard","icon":"green-icon jar-icon"},
+				{"name":"Powerlard","icon":"green-icon jar-icon"},
+				{"name":"Powerlard","icon":"green-icon jar-icon"},
+				{"name":"Powerlard","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Dry Margerine","itemIcon":"yellow-icon jar-icon",
+			"results":[
+				{"name":"Dry Margerine","icon":"yellow-icon jar-icon"},
+				{"name":"Buffalo Butter","icon":"red-icon jar-icon"},
+				{"name":"Buffalo Butter","icon":"red-icon jar-icon"},
+				{"name":"Buffalo Butter","icon":"red-icon jar-icon"},
+				{"name":"Buffalo Butter","icon":"red-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Rare Fish","itemIcon":"cyan-icon fish-icon edible-icon",
+			"results":[
+				{"name":"Rare Fish","icon":"cyan-icon fish-icon edible-icon"},
+				{"name":"Well-Done Fish","icon":"orange-icon fish-icon edible-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Gourmet Fish","icon":"orange-icon fish-icon edible-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Burnt Fish","itemIcon":"gray-icon fish-icon edible-icon",
+			"results":[
+				{"name":"Burnt Fish","icon":"gray-icon fish-icon edible-icon"},
+				{"name":"Well-Done Fish","icon":"orange-icon fish-icon edible-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Demondrug","icon":"red-icon jar-icon"},
+				{"name":"Gourmet Fish","icon":"orange-icon fish-icon edible-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Fire Herb","itemIcon":"red-icon herb-icon",
+			"results":[
+				{"name":"Fire Herb","icon":"red-icon herb-icon"},
+				{"name":"Fire Herb","icon":"red-icon herb-icon"},
+				{"name":"Fire Herb","icon":"red-icon herb-icon"},
+				{"name":"Gunpowder","icon":"red-icon powder-icon"},
+				{"name":"Fire Herb","icon":"red-icon herb-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Garbage","itemIcon":"gray-icon mystery-icon",
+			"results":[
+				{"name":"Garbage","icon":"gray-icon mystery-icon"},
+				{"name":"Herb","icon":"green-icon herb-icon"},
+				{"name":"Herb","icon":"green-icon herb-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Deadly Toadstool","itemIcon":"purple-icon mushroom-icon",
+			"results":[
+				{"name":"Deadly Toadstool","icon":"purple-icon mushroom-icon"},
+				{"name":"Antidote Herb","icon":"blue-icon herb-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Max Potion","icon":"yellow-icon powder-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Sunrise Herb","itemIcon":"yellow-icon herb-icon",
+			"results":[
+				{"name":"Sunrise Herb","icon":"yellow-icon herb-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Might Seed","icon":"red-icon seed-icon edible-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Sunset Herb","itemIcon":"purple-icon herb-icon",
+			"results":[
+				{"name":"Sunset Herb","icon":"purple-icon herb-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Adamant Seed","icon":"orange-icon seed-icon edible-icon"},
+				{"name":"Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Blue Mushroom","itemIcon":"blue-icon mushroom-icon",
+			"results":[
+				{"name":"Blue Mushroom","icon":"blue-icon mushroom-icon"},
+				{"name":"Catalyst","icon":"gray-icon powder-icon"},
+				{"name":"Catalyst","icon":"gray-icon powder-icon"},
+				{"name":"Catalyst","icon":"gray-icon powder-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Ricebug","itemIcon":"gray-icon bug-icon",
+			"results":[
+				{"name":"Ricebug","icon":"gray-icon bug-icon"},
+				{"name":"Ricebug","icon":"gray-icon bug-icon"},
+				{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon"},
+				{"name":"Thunderbug","icon":"yellow-icon bug-icon"},
+				{"name":"Bitterbug","icon":"blue-icon bug-icon edible-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		},
+		{
+			"item":"Insect Husk","itemIcon":"gray-icon bug-icon",
+			"results":[
+				{"name":"Insect Husk","icon":"gray-icon bug-icon"},
+				{"name":"Insect Husk","icon":"gray-icon bug-icon"},
+				{"name":"Herbal Medicine","icon":"white-icon powder-icon"},
+				{"name":"Mega Potion","icon":"green-icon jar-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"},
+				{"name":"Stone","icon":"gray-icon stone-icon"}
+			]
+		}
 	]
 }

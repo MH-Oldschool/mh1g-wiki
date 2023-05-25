@@ -145,6 +145,50 @@
 				</tbody>
 			</table>
 		</details>
+
+		<p>
+			Also, any Veggie Elder may exchange Khezu Ice Cream for a Khezu Whelp.
+		</p>
+	</details>
+</article>
+
+<article>
+	<details>
+		<summary>
+			<span class="yellow-icon maka-pot-prepared-icon"></span> <span>Maka Recipes</span>
+		</summary>
+
+		<p>
+			Combine an ingredient with an empty Maka Pot, plant the pot in the ground, wait the given amount of time, and dig up the pot to receive the fermented item.
+		</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Ingredient</th>
+					<th>&lt; 5 Min.</th>
+					<th>5 Min.</th>
+					<th>10 Min.</th>
+					<th>15 Min.</th>
+					<th>20 Min.</th>
+					<th>30 Min.</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#makaRecipes}}
+					<tr>
+						<th>
+							<span class="{{itemIcon}}"></span> <span>{{item}}</span>
+						</th>
+						{{#results}}
+							<td>
+								<span class="{{icon}}"></span> <span>{{name}}</span>
+							</td>
+						{{/results}}
+					</tr>
+				{{/makaRecipes}}
+			</tbody>
+		</table>
 	</details>
 </article>
 
