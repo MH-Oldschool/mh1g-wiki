@@ -63,6 +63,9 @@ app.get("/mh2/quests", (req, res) => {
 app.get("/mh2/maps", (req, res) => {
 	res.sendFile(path.join(__dirname, "public/mh2/maps.html"));
 });
+app.get("/mh2/meals", (req, res) => {
+	res.sendFile(path.join(__dirname, "public/mh2/meals.html"));
+});
 
 function getJSON(filename, callback) {
 	fs.readFile(filename, "utf8", (err, data) => {

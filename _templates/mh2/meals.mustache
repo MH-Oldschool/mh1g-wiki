@@ -1,0 +1,46 @@
+{{> head}}
+
+<article>
+	<p>
+		Every meal has at least one and up to four possible effects. These effects can be Attack, Defense, Health, or Stamina. The Attack stat is the True Base Value added before a weapon's Bloat Value.<br/>
+		<br/>
+		The same meal will have different effects based on the season when you eat it.<br/>
+		<br/>
+		This list only includes combinations with positive effects: any combos with no effects or only negative effects are excluded.
+	</p>
+
+	{{#seasonalMeals}}
+		<details open>
+			<summary>
+				<span class="{{seasonIcon}}"></span> <span>{{season}}</span>
+			</summary>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Dish</th>
+						<th colspan="2">Ingredients</th>
+						<th>Effects</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#meals}}
+						<tr>
+							<td>{{dish}}</td>
+							{{#ingredients}}
+								<td><span class="{{icon}}"></span> <span>{{name}}</span></td>
+							{{/ingredients}}
+							<td>
+								{{#effects}}
+									<span class="comma-separated">{{stat}} {{amount}}</span>
+								{{/effects}}
+							</td>
+						</tr>
+					{{/meals}}
+				</tbody>
+			</table>
+		</details>
+	{{/seasonalMeals}}
+</article>
+
+{{> foot}}
