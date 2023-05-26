@@ -172,7 +172,7 @@
 		},
 		{
 			"name":"Eating","japanese":"食事",
-			"desc":"Take more or less time to eat consumable items",
+			"desc":"Take more or less time to eat meat and fish.",
 			"stages":["","","Slow Eater","Speed Eater","","",""],
 			"stagesFormatted":[
 				{"points":"-10","name":"Slow Eater"},
