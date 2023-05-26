@@ -3071,7 +3071,7 @@
 									"attributeValue":290,
 									"slots":1,
 									"affinity":0,
-									"acquire":"Speak to the Master Shipwright after successfully hunting a gold-crown-sized Plesioth.",
+									"acquire":"Speak to the Master Shipwright after successfully hunting a silver-crown-sized, or larger, Plesioth.",
 									"branchStart":true
 								},
 								{
