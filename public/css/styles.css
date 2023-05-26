@@ -10,6 +10,8 @@
 	--color_white: #fff;
 	--color_yellow: #ffd763;
 
+	--color_offwhite: #d7d7d7;
+
 	--font_arial: "Arial", helvetica, sans-serif;
 	--font_nanum: "Nanum Gothic Coding", courier, monospace;
 }
@@ -24,7 +26,7 @@ body {
 	box-sizing: border-box;
 	background: #000 url("/images/background/mhg.gif");
 	background-size: 2.5rem;
-	color: #d7d7d7;
+	color: var(--color_offwhite);
 	font: 1rem var(--font_nanum);
 	margin: 0;
 	min-height: 100%;
@@ -256,6 +258,17 @@ input:disabled + .checkbox-icon + label {
 .back-white { background-color: var(--color_white) }
 .back-yellow { background-color: var(--color_yellow) }
 
+.color-blue { color: var(--color_blue) }
+.color-cyan { color: var(--color_cyan) }
+.color-gray { color: var(--color_gray) }
+.color-green { color: var(--color_green) }
+.color-orange { color: var(--color_orange) }
+.color-pink { color: var(--color_pink) }
+.color-purple { color: var(--color_purple) }
+.color-red { color: var(--color_red) }
+.color-white { color: var(--color_white) }
+.color-yellow { color: var(--color_yellow) }
+
 .w-auto {
 	width: auto;
 }
@@ -321,7 +334,10 @@ input[type="range"] {
 	text-align: right !important;
 }
 
-.comma-separated:after { content: ", "; }
+.comma-separated:after {
+	content: ", ";
+	color: var(--color_offwhite);
+}
 .comma-separated:last-child:after { content: ""; }
 
 .switch-label {
