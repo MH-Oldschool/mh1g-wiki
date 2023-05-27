@@ -211,9 +211,9 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 	// And now we apply it
 	var torsoSkills = [];
-	if (this.currentArmor.torso.skills && torsoUpModifier !== 1) {
-		// Sort armor skills
-		var keyedSkills = {};
+	// Sort armor skills
+	var keyedSkills = {};
+	if (this.currentArmor.torso.skills) {
 		this.currentArmor.torso.skills.forEach(skill => {
 			keyedSkills[skill.k] = skill.q;
 		});
@@ -232,19 +232,21 @@ ArmorBuilder.prototype.calculateSkills = function() {
 				});
 			}
 		}
-
-		// Apply modifier
-		for (let prop in keyedSkills) {
-			if (keyedSkills.hasOwnProperty(prop)) {
-				torsoSkills.push({
-					k: prop,
-					q: keyedSkills[prop] * torsoUpModifier
-				})
-			}
-		}
 	}
-	else {
-		torsoSkills = this.currentArmor.torso.skills;
+
+	// Apply modifier
+	for (let prop in keyedSkills) {
+		if (keyedSkills.hasOwnProperty(prop)) {
+			var quantity = keyedSkills[prop];
+			if (torsoUpModifier !== 1) {
+				quantity *= torsoUpModifier
+			}
+
+			torsoSkills.push({
+				k: prop,
+				q: quantity
+			})
+		}
 	}
 
 	var skillsParsed = {};
