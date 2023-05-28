@@ -1,10 +1,8 @@
 .monster-details {
-	/* overflow: hidden; */
 	text-indent: 0;
 }
 .monster-details > summary {
 	position: relative;
-	/* z-index: 1; */
 	list-style: none;
 	padding: 0.125rem 1rem 0.125rem 2rem;
 }
@@ -25,6 +23,12 @@
 	transform: rotate(90deg);
 }
 
+.monster-image-container {
+	--monster_image_size: 13.5rem;
+
+	padding: 0;
+	width: var(--monster_image_size);
+}
 .monster-image {
 	position: relative;
 	box-sizing: border-box;
@@ -33,22 +37,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2rem;
-	width: 13.5rem;
-	height: 13.5rem;
-}
-.unknown .monster-image:after {
-	content: "";
-	position: absolute;
-	background-image: url("/images/monsters/unknown_icon_black.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: -0.78125rem auto 0;
-	width: 1.5625rem;
-	height: 1.5625rem;
-	top: 50%;
-	left: 0;
-	right: 0;
+	width: var(--monster_image_size);
+	height: var(--monster_image_size);
 }
 .monster-image img {
 	display: block;
@@ -161,7 +151,7 @@
 		width: calc(100% - 7.5rem);
 	}
 
-	.monster-image,
+	.monster-image-container,
 	.monster-data {
 		display: inline-block;
 	}

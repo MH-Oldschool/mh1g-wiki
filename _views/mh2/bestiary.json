@@ -264,7 +264,7 @@
 		},
 		{
 			"name":"Great Thunderbug","japanese":"大雷光虫","description":"An abnormally large Thunderbug raised inside the body of an elder dragon and known to inhabit the same areas as its former host, its electrical attack is deadly. This bug has various uses as material for crafting weapons and items. <sub>[Monster Hunter Freedom 2]</sub>",
-			"icon":"monster-icon-2 monster-unknown","image":"images/monsters/great_thunderbug",
+			"icon":"monster-icon-2 monster-great-thunderbug","image":"images/monsters/great_thunderbug",
 			"stats":[
 				{"rank":"Village","health":"20 - 40","attack":"100 - 120","defense":"100 - 94"},
 				{"rank":"Low Rank","health":"44 - 51","attack":"129 - 179","defense":"94 - 75"},
