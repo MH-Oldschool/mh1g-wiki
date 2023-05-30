@@ -5148,8 +5148,7 @@
 			"rarity":5,
 			"buy":0,
 			"sell":0,
-			"acquire":"Rewarded by the event quest \"白毛と黒毛の闘技場\", which is currently unavailable.",
-			"unavailable":true
+			"acquire":"Rewarded by the event quests \"白毛と黒毛の闘技場\", and (on the fan server) \"Expeditious Assault\"."
 		},
 		{
 			"name":"Old Lady's Note",
