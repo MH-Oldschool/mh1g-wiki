@@ -9139,6 +9139,7 @@
 			{ "name":"Revolving Slice","id":"revolving-slice","inputs":["R Stick Left","R Stick Right"],"value":0.24,"motion":24 },
 			{ "name":"Jumping Slice","id":"jumping-slice","inputs":["R Stick Down"],"value":0.18,"motion":18 },
 			{ "name":"Rolling Slice","id":"rolling-slice","inputs":["R Stick (after dodge rolling)"],"value":0.15,"motion":15 },
+			{ "name":"Rising Slice","id":"rising-slice","inputs":["R Stick (after Jumping Slice)"],"value":0.15,"motion":15 },
 			{ "name":"Guard Attack","id":"guard-attack","inputs":["R Stick (while guarding)"],"value":0.14,"motion":14 },
 			{ "name":"Drawing Slice","id":"drawing-slice","inputs":["R Stick (while moving, weapon sheathed"],"value":0.18,"motion":18 }
 		],
