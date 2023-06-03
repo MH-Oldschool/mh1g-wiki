@@ -195,6 +195,7 @@ function ArmorBuilder(version, builderContainer) {
 
 	this.updateArmorStats();
 }
+ArmorBuilder.BASE_DEF = 1;
 // Armor names are in this order: [headgear,torso,arms,waist,legs]
 ArmorBuilder.SKILL_SETS = [
 	{
@@ -807,7 +808,7 @@ ArmorBuilder.calculateElementBlocked = function(defense, element) {
 	return 1 - ((80 / (defense + 80)) * ((100 - element) / 100));
 };
 ArmorBuilder.prototype.calculateDefense = function() {
-	let defense = 0;
+	let defense = ArmorBuilder.BASE_DEF;
 	if (this.currentArmor.headgear) {
 		defense += this.currentArmor.headgear.def;
 	}

@@ -149,6 +149,7 @@ function ArmorBuilder() {
 
 	this.updateArmorStats();
 }
+ArmorBuilder.BASE_DEF = 1;
 ArmorBuilder.CATEGORIES = ["headgear", "torso", "arms", "waist", "legs"];
 ArmorBuilder.calculateDamageBlocked = function(defense) {
 	return 1 - (80 / (defense + 80));
@@ -157,7 +158,8 @@ ArmorBuilder.calculateElementBlocked = function(defense, element) {
 	return 1 - ((80 / (defense + 80)) * ((100 - element) / 100));
 };
 ArmorBuilder.prototype.calculateDefense = function() {
-	var defense = 0;
+	var defense = ArmorBuilder.BASE_DEF;
+
 	ArmorBuilder.CATEGORIES.forEach(armorCategory => {
 		if (this.currentArmor[armorCategory]) {
 			defense += this.currentArmor[armorCategory].defense[this.armorLevels[armorCategory].value];
