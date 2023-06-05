@@ -841,6 +841,11 @@ ArmorBuilder.prototype.calculateSkills = function() {
 	let skillRows = [];
 
 	if (this.version == "1") {
+		this.resistancesUp[0] = 0;
+		this.resistancesUp[1] = 0;
+		this.resistancesUp[2] = 0;
+		this.resistancesUp[3] = 0;
+
 		let armorSkills = ArmorBuilder.getSkillSet(this.currentArmor);
 		if (armorSkills.length === 0) {
 			document.getElementById(`armor-skills-${ this.version }`).innerHTML = "";
@@ -861,19 +866,15 @@ ArmorBuilder.prototype.calculateSkills = function() {
 
 			if (armorSkills.includes("Fire Res + 25")) this.resistancesUp[0] = 25;
 			else if (armorSkills.includes("Fire Res - 10")) this.resistancesUp[0] = -10;
-			else this.resistancesUp[0] = 0;
 
 			if (armorSkills.includes("Water Res + 25")) this.resistancesUp[1] = 25;
 			else if (armorSkills.includes("Water Res - 10")) this.resistancesUp[1] = -10;
-			else this.resistancesUp[1] = 0;
 
 			if (armorSkills.includes("Thunder Res + 25")) this.resistancesUp[2] = 25;
 			else if (armorSkills.includes("Thunder Res - 10")) this.resistancesUp[2] = -10;
-			else this.resistancesUp[2] = 0;
 
 			if (armorSkills.includes("Dragon Res + 25")) this.resistancesUp[3] = 25;
 			else if (armorSkills.includes("Dragon Res - 10")) this.resistancesUp[3] = -10;
-			else this.resistancesUp[3] = 0;
 
 			skillRows = armorSkills.map(skill => "<tr skill-level-1><td>" + skill + "</td></tr>");
 		}
