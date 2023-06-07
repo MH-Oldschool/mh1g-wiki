@@ -322,6 +322,14 @@ ready(() => {
 	}
 	populateStartTime();
 
+	function getServerDateDifference() {
+		var nowServer = moment.tz(SERVER_TZ);
+		var nowLocal = moment();
+		var serverDayDifference = nowServer.date() - nowLocal.date();
+
+		return serverDayDifference;
+	}
+
 	// Get the event index based on the current time
 	function getFirstDayEventIndex(year, monthIndex, version) {
 		var firstDayEventEnd = moment.tz({ year: year, month: monthIndex, date: 2, hour: START_HOUR }, SERVER_TZ);
@@ -337,7 +345,7 @@ ready(() => {
 	// Figure out when the most recent shop special cycle started at or before this month
 	function getFirstDayShopIndex(year, monthIndex) {
 		var ROTATION_LENGTH = SHOP_SPECIAL_ROTATION.length;
-		var now = moment();
+		var now = moment.tz(SERVER_TZ);
 		var firstOfMonth = moment.tz({
 			year: year,
 			month: monthIndex,
@@ -345,16 +353,14 @@ ready(() => {
 			hour: now.hour()
 		}, SERVER_TZ);
 
-		// For people in a timezone other than the server's, we may need to push the firstOfMonth date.
 		// If the server's current hour puts it one date behind the user, we need to push the firstOfMonth one day backward to compensate.
 		// If server's current hour puts it one date ahead of the user, we need to push the firstOfMonth one day forward to compensate.
 		// (if the difference 28 through 31 that indicates the month changed as well)
-		var nowServer = moment.tz(SERVER_TZ);
-		var serverIsAhead = nowServer.date() - now.date();
-		if (serverIsAhead == -1) {
+		var dateDifference = getServerDateDifference();
+		if (dateDifference == -1) {
 			firstOfMonth.subtract(1, "days");
 		}
-		else if (serverIsAhead != 0) {
+		else if (dateDifference != 0) {
 			firstOfMonth.add(1, "days");
 		}
 
@@ -561,8 +567,10 @@ ready(() => {
 	}
 	function getCurrentShopSpecial() {
 		var now = moment.tz(SERVER_TZ);
-		var hoursSinceShopSwitched = now.diff(moment.tz({ year: now.year(), month: now.month(), date: 1, hour: now.hour() }, SERVER_TZ), "hours");
-		var shopIndex = Math.floor(hoursSinceShopSwitched / 24) % SHOP_SPECIAL_ROTATION.length;
+		var firstDayIndex = getFirstDayShopIndex(now.year(), now.month());
+
+		var nowLocal = moment();
+		var shopIndex = (firstDayIndex + (nowLocal.date() - 1)) % SHOP_SPECIAL_ROTATION.length;
 
 		return SHOP_SPECIALS[SHOP_SPECIAL_ROTATION[shopIndex]];
 	}
